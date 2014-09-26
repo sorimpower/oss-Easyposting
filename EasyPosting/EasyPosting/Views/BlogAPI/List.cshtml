@@ -1,0 +1,36 @@
+﻿@model IEnumerable<EasyPosting.Models.EP_METAS>
+
+@{
+    Layout = null;
+}
+
+<p>
+    @Html.ActionLink("새로운 BlogAPI 계정 연동하기", "Index")
+</p>
+<table class="table table-responsive table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.publish)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.publish_SITE)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.publish)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.publish_SITE)
+        </td>
+        <td>
+            @*@Html.ActionLink("계정 정보", "Details", new { id=item.ID }) |*@
+            @Html.ActionLink("삭제", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

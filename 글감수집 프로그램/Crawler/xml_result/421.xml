@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="http://rss.egloos.com/style/blog.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>~★~ 우하하!!~ 프로그래머 이야기</title>
+	<link>http://woohaha.egloos.com</link>
+	<description>프로그래머는 이렇게 산다</description>
+	<language>ko</language>
+	<pubDate>Wed, 09 Jan 2013 14:54:06 GMT</pubDate>
+	<generator>Egloos</generator>
+	<image>
+		<title>~★~ 우하하!!~ 프로그래머 이야기</title>
+		<url>http://pds.egloos.com/logo/1/200312/20/45/a0008245.jpg</url>
+		<link>http://woohaha.egloos.com</link>
+		<width>80</width>
+		<height>45</height>
+		<description>프로그래머는 이렇게 산다</description>
+	</image>
+  	<item>
+		<title><![CDATA[ DevTong (개발통) 소개자료입니다. ]]> </title>
+		<link>http://woohaha.egloos.com/3919503</link>
+		<guid>http://woohaha.egloos.com/3919503</guid>
+		<description>
+			<![CDATA[ 
+  <a href="http://pds27.egloos.com/pds/201301/09/45/about_DevTong.pdf">about_DevTong.pdf</a><br />
+<br />
+DevTong (개발통) 의 소개자료입니다.<br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds26.egloos.com/pds/201301/09/45/a0008245_50ed84707d3eb.jpg" width="500" height="375" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201301/09/45/a0008245_50ed84707d3eb.jpg');" /></div><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds26.egloos.com/pds/201301/09/45/a0008245_50ed847a21bc0.jpg" width="500" height="375" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201301/09/45/a0008245_50ed847a21bc0.jpg');" /></div><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds26.egloos.com/pds/201301/09/45/a0008245_50ed847a7e80d.jpg" width="500" height="375" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201301/09/45/a0008245_50ed847a7e80d.jpg');" /></div><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds26.egloos.com/pds/201301/09/45/a0008245_50ed847b7b998.jpg" width="500" height="375" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201301/09/45/a0008245_50ed847b7b998.jpg');" /></div><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds25.egloos.com/pds/201301/09/45/a0008245_50ed847d0fdd2.jpg" width="500" height="375" onclick="Control.Modal.openDialog(this, event, 'http://pds25.egloos.com/pds/201301/09/45/a0008245_50ed847d0fdd2.jpg');" /></div><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds26.egloos.com/pds/201301/09/45/a0008245_50ed847e29131.jpg" width="500" height="375" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201301/09/45/a0008245_50ed847e29131.jpg');" /></div><br />
+<br />
+<a href="http://www.youtube.com/watch?v=ly5GjuF-2QE&amp;feature=youtu.be">YouTube 에서 보기</a><br />
+<br />
+<br/><br/>tag : <a href="/tag/개발통" rel="tag">개발통</a>,&nbsp;<a href="/tag/devtong.com" rel="tag">devtong.com</a>,&nbsp;<a href="/tag/devtong" rel="tag">devtong</a>,&nbsp;<a href="/tag/iOS" rel="tag">iOS</a>,&nbsp;<a href="/tag/iPhone" rel="tag">iPhone</a>,&nbsp;<a href="/tag/Framework" rel="tag">Framework</a>,&nbsp;<a href="/tag/Library" rel="tag">Library</a>,&nbsp;<a href="/tag/BackEnd" rel="tag">BackEnd</a>			 ]]> 
+		</description>
+		<category>프로그래밍</category>
+		<category>개발통</category>
+		<category>devtong.com</category>
+		<category>devtong</category>
+		<category>iOS</category>
+		<category>iPhone</category>
+		<category>Framework</category>
+		<category>Library</category>
+		<category>BackEnd</category>
+
+		<comments>http://woohaha.egloos.com/3919503#comments</comments>
+		<pubDate>Wed, 09 Jan 2013 14:54:06 GMT</pubDate>
+		<dc:creator>우하하</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ iPhone - 내 앱이 실행되는 실시간 통계가 궁금하다 ]]> </title>
+		<link>http://woohaha.egloos.com/3860535</link>
+		<guid>http://woohaha.egloos.com/3860535</guid>
+		<description>
+			<![CDATA[ 
+  내가 만든 앱이 과연 몇 명이나 사용하고 있는지 실시간 통계가 궁금하다.<br />
+<br />
+이럴 경우를 위한 솔루션으로 Back-End Framework 를 사용할 수 있다.<br />
+<br />
+<a target="_blank" href="http://devtong.com">devtong.com</a><br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds23.egloos.com/pds/201207/11/45/a0008245_4ffd79e515549.png" width="500" height="320" onclick="Control.Modal.openDialog(this, event, 'http://pds23.egloos.com/pds/201207/11/45/a0008245_4ffd79e515549.png');" /></div>아이폰 앱으로도 실시간 통계를 확인할 수 있어서 더 좋다.<br />
+<br />
+<a href="http://itunes.apple.com/us/app/gaebaltong/id522021447?l=ko&amp;ls=1&amp;mt=8">아이폰앱 개발통</a><br />
+<br/><br/>tag : <a href="/tag/iphone" rel="tag">iphone</a>,&nbsp;<a href="/tag/app" rel="tag">app</a>,&nbsp;<a href="/tag/실시간" rel="tag">실시간</a>,&nbsp;<a href="/tag/통계" rel="tag">통계</a>,&nbsp;<a href="/tag/아이폰" rel="tag">아이폰</a>,&nbsp;<a href="/tag/프레임워크" rel="tag">프레임워크</a>,&nbsp;<a href="/tag/라이브러리" rel="tag">라이브러리</a>			 ]]> 
+		</description>
+		<category>프로그래밍</category>
+		<category>iphone</category>
+		<category>app</category>
+		<category>실시간</category>
+		<category>통계</category>
+		<category>아이폰</category>
+		<category>프레임워크</category>
+		<category>라이브러리</category>
+
+		<comments>http://woohaha.egloos.com/3860535#comments</comments>
+		<pubDate>Wed, 11 Jul 2012 13:06:51 GMT</pubDate>
+		<dc:creator>우하하</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 아이폰앱 개발 후 애드혹 OTA배포 및 설치 ]]> </title>
+		<link>http://woohaha.egloos.com/3858917</link>
+		<guid>http://woohaha.egloos.com/3858917</guid>
+		<description>
+			<![CDATA[ 
+  <p>iOS App 을 개발하여 애플 앱스토어에 올리기 전에 수많은 테스트를 거쳐야만 하는 것이 적절한 프로세스이다.</p><p></p><p>개발자 혼자서 수없이 테스트를 한다고 해도 발견할 수 없는 버그가 반드시 있다.</p><p></p><p>되도록이면 많은 베타테스터가 있으면 좋겠다.</p><p></p><p>베타테스터에게 테스트용 앱(AdHoc 버전)을 배포하는 방법중에 OTA 방식을 이용한 배포 방법을 소개하고자 한다.</p><p></p><p>이 방법은 DevTong Framework 를 사용하는 방법이다. (<a class="tx-link" target="_blank" href="http://devtong.com">http://devtong.com</a>)</p><p></p><p>배포하고자 하는 앱에 다음과 같은 DevTong Framework 용 코드를 추가한다.</p><p></p><p>AppDelegate.h 파일에서 UIAlertViewDelegate 를 처리하겠다라고 표시한다.</p><div class="level2"><pre class="code objc"><br />
+<br />
+@interface AppDelegate : UIResponder &lt;UIApplicationDelegate<br />
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////<br />
+// LatestVersionManager<br />
+, UIAlertViewDelegate<br />
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////<br />
+&gt;<br />
+<br />
+</pre></div><p>AppDelegate.m 파일에서 최신버전의 AdHoc 버전이 등록되었는지를 확인하고, </p><p>최신버전이 존재하면 업데이트가능함을 AlertView 로 표시하는 코드를 작성해준다.</p><p><br />
+</p><p>///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////<br />
+// LatestVersionManager<br />
+#import &lt;DevTongFramework/DevTongLatestVersionManager.h&gt;<br />
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////</p><p><br />
+</p><p><br />
+</p><p><br />
+</p><p>&nbsp;&nbsp;&nbsp; ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////<br />
+&nbsp;&nbsp;&nbsp; // LatestVersionManager<br />
+&nbsp;&nbsp;&nbsp; BOOL adhoc = NO;<br />
+#ifdef _ADHOC<br />
+&nbsp;&nbsp;&nbsp; adhoc = YES;<br />
+#endif<br />
+&nbsp;&nbsp;&nbsp; [[DevTongLatestVersionManager sharedManager] CheckAvailableUpdate:adhoc];<br />
+&nbsp;&nbsp;&nbsp; if ([[DevTongLatestVersionManager sharedManager] IsAvailableUpdate])<br />
+&nbsp;&nbsp;&nbsp; {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NSString* strMessage = [NSString stringWithFormat:@"버전 [%@]\n---------------------\n\n%@", <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[DevTongLatestVersionManager sharedManager] AvailableVersion],<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [[DevTongLatestVersionManager sharedManager] WhatsNewOfNewVersion]];<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UIAlertView* alertView = [[[UIAlertView alloc] initWithTitle:@"업데이트 가능" <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; message:strMessage<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; delegate:self<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cancelButtonTitle:@"취소"<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; otherButtonTitles:@"업데이트", nil] autorelease];<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NSArray* arraySubviews = [alertView subviews];<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UIView* subview = [arraySubviews objectAtIndex:1];<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if ([subview isKindOfClass:[UILabel class]])<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ((UILabel*)subview).textAlignment = UITextAlignmentLeft;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [alertView show];<br />
+&nbsp;&nbsp;&nbsp; }<br />
+&nbsp;&nbsp;&nbsp; ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////<br />
+<br />
+</p><p></p><div class="level2"><pre class="code objc">이제 AlertView 에서 업데이트 버튼이 눌렸을 때 업데이트할 수 있는 화면으로 이동하는 기능을 구현한다.<span class="co2"><br />
+<br />
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////<br />
+// LatestVersionManager<br />
+<br />
+- (void)moveToAppUpdate<br />
+{<br />
+    [[DevTongLatestVersionManager sharedManager] MoveForUpdate];<br />
+}<br />
+<br />
+#pragma mark UIAlertViewDelegate<br />
+<br />
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex<br />
+{<br />
+    if (buttonIndex == [alertView cancelButtonIndex])<br />
+        return;<br />
+    <br />
+    // 이동<br />
+    [self moveToAppUpdate];<br />
+}<br />
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////<br />
+<br />
+</span><span class="co2"></span></pre></div><p>아래 화면은 적용된 모습이다.</p><p><br />
+</p><p></p><p style="text-align: center; clear: none; float: none;"><img id="tx_entry_64174_" class="txc-image" src="http://cfile23.uf.tistory.com/image/1653CF4E4FF3D9CD13BDE4" height="754" width="503"></p><p><br />
+</p><p>업데이트 버튼을 누르면 아래와 같이 새로운 버전의 앱을 설치할 수 있는 화면으로 이동된다.</p><p><br />
+</p><p></p><p></p><p style="text-align: center; clear: none; float: none;"><img id="tx_entry_10142_" class="txc-image" src="http://cfile5.uf.tistory.com/image/206E614F4FF3DA2803172F" height="732" width="488"></p><p></p><br/><br/>tag : <a href="/tag/아이폰" rel="tag">아이폰</a>,&nbsp;<a href="/tag/앱" rel="tag">앱</a>,&nbsp;<a href="/tag/애드혹" rel="tag">애드혹</a>,&nbsp;<a href="/tag/배포" rel="tag">배포</a>,&nbsp;<a href="/tag/설치" rel="tag">설치</a>,&nbsp;<a href="/tag/iphone" rel="tag">iphone</a>,&nbsp;<a href="/tag/adhoc" rel="tag">adhoc</a>			 ]]> 
+		</description>
+		<category>프로그래밍</category>
+		<category>아이폰</category>
+		<category>앱</category>
+		<category>애드혹</category>
+		<category>배포</category>
+		<category>설치</category>
+		<category>iphone</category>
+		<category>adhoc</category>
+
+		<comments>http://woohaha.egloos.com/3858917#comments</comments>
+		<pubDate>Fri, 06 Jul 2012 17:16:19 GMT</pubDate>
+		<dc:creator>우하하</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ iOS Back-End Framework : DevTong ]]> </title>
+		<link>http://woohaha.egloos.com/3857395</link>
+		<guid>http://woohaha.egloos.com/3857395</guid>
+		<description>
+			<![CDATA[ 
+  iOS 개발자를 위한 Back-End Framework DevTong 을 소개합니다.<br />
+<br />
+자세한 내용은 <a target="_blank" href="http://devtong.com">http://devtong.com</a> 으로 가시면 내용이 있습니다.<br />
+<br />
+간략하게 소개를 하자면 다음과 같습니다.<br />
+<br />
+많이 홍보해 주세요.<br />
+<br />
+<p>Back-End Framework for iOS</p>				<p>개발자가 사용하기 쉬운 형태의 Framework Library 가 제공됩니다.</p>				<p>개발자가 필요로 하는 유용한 라이브러리 제공을 목표로 합니다.</p>				<p>InApp Receipt Verify</p>				<p>InApp Item 과 연동되는 파일 제공</p>				<p>Push Message</p>				<p>AdHoc 자동 업데이트 (OTA) 체크</p>				<p>App Notice 체크</p>				<p>App Update 체크</p>				<p>App Crash Log 전송</p>				<p>App User Reports</p><br />
+<br/><br/>tag : <a href="/tag/개발자" rel="tag">개발자</a>,&nbsp;<a href="/tag/프레임워크" rel="tag">프레임워크</a>,&nbsp;<a href="/tag/iOS" rel="tag">iOS</a>			 ]]> 
+		</description>
+		<category>프로그래밍</category>
+		<category>개발자</category>
+		<category>프레임워크</category>
+		<category>iOS</category>
+
+		<comments>http://woohaha.egloos.com/3857395#comments</comments>
+		<pubDate>Mon, 02 Jul 2012 12:37:20 GMT</pubDate>
+		<dc:creator>우하하</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 모델명 ANGEL 2000S-G ]]> </title>
+		<link>http://woohaha.egloos.com/3768346</link>
+		<guid>http://woohaha.egloos.com/3768346</guid>
+		<description>
+			<![CDATA[ 
+  <object width="480" height="360"><param name="movie" value="http://v.egloos.com/v.sk/egloos/a0008245%7C3768346/20111118121100010386771701" /><param name="flashvars" value="skinFile=egloosSkin.swf" /><param name="allowFullscreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="wmode" value="transparent" /><embed src="http://v.egloos.com/v.sk/egloos/a0008245%7C3768346/20111118121100010386771701" wmode="transparent" allowScriptAccess="always" allowFullscreen="true" width="480" height="360" type="application/x-shockwave-flash" flashvars="skinFile=egloosSkin.swf" /></object><br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds23.egloos.com/pds/201111/18/45/a0008245_4ec5d2811a072.jpg" width="500" height="373.456790123" onclick="Control.Modal.openDialog(this, event, 'http://pds23.egloos.com/pds/201111/18/45/a0008245_4ec5d2811a072.jpg');" /></div><br />
+			 ]]> 
+		</description>
+
+		<comments>http://woohaha.egloos.com/3768346#comments</comments>
+		<pubDate>Fri, 18 Nov 2011 03:34:31 GMT</pubDate>
+		<dc:creator>우하하</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Balsamiq Mockups 소개 ]]> </title>
+		<link>http://woohaha.egloos.com/3749926</link>
+		<guid>http://woohaha.egloos.com/3749926</guid>
+		<description>
+			<![CDATA[ 
+  지금까지는 머리속에 있는 화면의 모습을 파워포인트를 통해서 표현해왔다.<br />
+<br />
+솔직히 적절한 툴을 찾을 수 없는 것이 문제였다.<br />
+<br />
+그러던 중에 인터넷을 검색하여 Balsamiq Mockups 라는 툴을 알게 되었다.<br />
+<br />
+Adobe Air 로 만들어진 툴인데, 도화지에 스케치하듯이 컨트롤을 가져다가 자유롭게 배치하면 <br />
+<br />
+머리속에 있는 화면의 모습이 쉽게 만들어진다.<br />
+<br />
+이런 기능의 툴이 가져야 하는 장점은 내가 표현하고자 하는 모습의 컨트롤이 얼마나 많이 지원되느냐일 것이다.<br />
+<br />
+<a target="_blank" href="http://mockupstogo.net/">http://mockupstogo.net/</a> 사이트에 가면 추가 컴포넌트를 다운로드받을 수 있다.<br />
+<br />
+간단하게 컨트롤 하나를 얹어놓은 모습은 다음과 같다.<br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds24.egloos.com/pds/201110/13/45/a0008245_4e967ffedc841.png" width="500" height="433.263816475" onclick="Control.Modal.openDialog(this, event, 'http://pds24.egloos.com/pds/201110/13/45/a0008245_4e967ffedc841.png');" /></div>화면 위쪽에 붙어있는 컨트롤 템플릿을 대충 보면 무슨 만화 그리는 느낌이 들 것 같다.<br />
+<br />
+바로 내가 원하던 툴인 듯 싶다.<br />
+<br />
+완성된 화면은 여러가지 포맷으로 export 가 가능하다.<br />
+<br />
+가장 좋은 포맷은 pdf 일 것 같다.<br />
+<br />
+다른 사람들에게 내가 만든 화면으로 보여주기에 가장 적절한 포맷이다.<br />
+<br />
+다운로드는 여기에서 가능하다.<br />
+<br />
+<a target="_blank" href="http://balsamiq.com/products/mockups">http://balsamiq.com/products/mockups</a><br />
+<br />
+문제는 79$ 라는 가격이다.<br />
+<br />
+이런 툴이 필요하긴 하지만, 또 그렇다고 해서 매일같이 사용하지는 않는다.<br />
+<br />
+그래도 있으면 요긴하게 사용할 것 같다.<br />
+<br />
+자꾸 사용하다가 보면 정들고, 정들다보면 없었을 때 아쉬울 것 같고.<br />
+<br />
+<br />
+			 ]]> 
+		</description>
+
+		<comments>http://woohaha.egloos.com/3749926#comments</comments>
+		<pubDate>Thu, 13 Oct 2011 06:16:31 GMT</pubDate>
+		<dc:creator>우하하</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 모바일 테스트베드 ]]> </title>
+		<link>http://woohaha.egloos.com/3730687</link>
+		<guid>http://woohaha.egloos.com/3730687</guid>
+		<description>
+			<![CDATA[ 
+  요즘 대세인 모바일 프로젝트 수행에 있어서<br />
+<br />
+많은 기기를 다 가지고 있을 수 없으므로 그 테스트 방법이 어려울 수 밖에 없다.<br />
+<br />
+특히 안드로이드OS 용 프로그램인 경우에는 더욱 그러하다.<br />
+<br />
+며칠 전 울 회사 직원이 이용해 보고 온 모바일테스트베드를 소개한다.<br />
+<br />
+<a target="_blank" href="http://www.mobiletest.kr/default.php">http://www.mobiletest.kr/default.php</a><br />
+<br />
+국내 출시되어 있는 기기는 다 있을 것 같다.<br />
+			 ]]> 
+		</description>
+		<category>프로그래밍</category>
+
+		<comments>http://woohaha.egloos.com/3730687#comments</comments>
+		<pubDate>Fri, 09 Sep 2011 06:55:34 GMT</pubDate>
+		<dc:creator>우하하</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 운영과 유지 보수에 집중하라 ]]> </title>
+		<link>http://woohaha.egloos.com/3650827</link>
+		<guid>http://woohaha.egloos.com/3650827</guid>
+		<description>
+			<![CDATA[ 
+  소프트웨어 아키텍트가 알아야 하는 97가지 라는 제목의 책을 읽다가<br />
+<br />
+흥미있는 제목과 내용이 있길래, 간단하게 기록을 남겨본다.<br />
+<br />
+"운영과 유지 보수에 집중하라"<br />
+<br />
+<div class="BOXBLUE">(중략)<br />
+대부분의 아키텍트는 운영자보다는 개발자로 지내온 시간이 많기 때문에 이렇게 생각하기 쉽습니다.<br />
+(중략)</div><br />
+<br />
+아키텍트가 되기 위해서는 개발자로서의 능력도 중요하지만, 운영자로서의 능력도 중요한 것이 틀림없다는 데에 전적으로 동의한다.<br />
+<br />
+<div class="BOXBLUE">(중략)<br />
+운영 팀은 새로운 애플리케이션을 혐오합니다.<br />
+(중략)</div><br />
+<br />
+ㅎㅎ<br />
+그럴 것 같다...<br />
+얼마나 많은 버그가 숨겨져있는지를 모르기 때문에...<br />
+<br />
+<br />
+<br />
+<br />
+			 ]]> 
+		</description>
+
+		<comments>http://woohaha.egloos.com/3650827#comments</comments>
+		<pubDate>Wed, 18 May 2011 07:11:46 GMT</pubDate>
+		<dc:creator>우하하</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 틈틈이 짬이 나는 시간 활용하는 법 ]]> </title>
+		<link>http://woohaha.egloos.com/3649236</link>
+		<guid>http://woohaha.egloos.com/3649236</guid>
+		<description>
+			<![CDATA[ 
+  이 포스트의 제목은 "틈틈이 짬이 나는 시간 활용하는 법" 이다.<br />
+<br />
+제목을 보면 내용에 어떤 해결방법이 있을 것 같지만, 실제로 이 포스트의 내용에는 그 어떤 해답도 없다.<br />
+<br />
+프로그래머로서 틈틈이 짬이 나는 시간을 활용하는 다양한 법이 있을 듯 싶은데,<br />
+<br />
+아직 나는 1순위의 답을 구하지 못했기 때문이다.<br />
+<br />
+내가 주로 사용하는 짬시간 활용법으로는<br />
+<br />
+1. 인터넷 뉴스 서핑<br />
+2. 평소 관심있는 프로그래밍 기술 검색<br />
+3. 음악 검색, 음악 감상<br />
+4. 할일없이 빈둥거린다.<br />
+<br />
+다른 프로그래머들은 과연 어떤 방법으로 짬나는 시간을 활용하고 있을지 궁금해서 포스팅해 본다.<br />
+<br />
+과연 몇 개나 댓글이 달릴런지...<br />
+<br />
+<br />
+			 ]]> 
+		</description>
+		<category>프로그래밍</category>
+
+		<comments>http://woohaha.egloos.com/3649236#comments</comments>
+		<pubDate>Mon, 16 May 2011 09:13:43 GMT</pubDate>
+		<dc:creator>우하하</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 구글 애드센스, 마의 50달러 벽 돌파! ]]> </title>
+		<link>http://woohaha.egloos.com/3643667</link>
+		<guid>http://woohaha.egloos.com/3643667</guid>
+		<description>
+			<![CDATA[ 
+  <div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds18.egloos.com/pds/201105/09/45/a0008245_4dc76e8f1e850.png" width="284" height="118" onclick="Control.Modal.openDialog(this, event, 'http://pds18.egloos.com/pds/201105/09/45/a0008245_4dc76e8f1e850.png');" /></div><br />
+한번 타먹은 후에 50달러벽을 돌파하기가 참 어렵더만,<br />
+<br />
+드디어 50달러 벽을 돌파했다.<br />
+<br />
+이제 마의 60달러 벽에 도전한다.<br />
+ㅎㅎ<br />
+<br />
+			 ]]> 
+		</description>
+		<category>모바일생활</category>
+
+		<comments>http://woohaha.egloos.com/3643667#comments</comments>
+		<pubDate>Mon, 09 May 2011 04:34:02 GMT</pubDate>
+		<dc:creator>우하하</dc:creator>
+	</item>
+</channel>
+</rss>

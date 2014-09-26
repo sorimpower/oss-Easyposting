@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[소프트웨어 라이프]]></title>
+			<link>http://blog.naver.com/parnx</link>
+			
+				<image>
+					<url><![CDATA[http://blogpfthumb.phinf.naver.net/data2/2004/7/14/10/IMG_3484_S.jpg?type=m2]]></url>
+					<title><![CDATA[소프트웨어 라이프]]></title>
+					<link>http://blog.naver.com/parnx</link>
+				</image>
+			
+			<description><![CDATA[소프트웨어, 삶, 그리고 사람에 관련된 
+자그마한 글들을 쓰려 합니다. 
+]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:43:01 +0900</pubDate>
+
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[요구사항 개발/관리]]></category>
+					<title><![CDATA[제대로 된 개발 방법론이 가져갸할 사항들. ]]></title>
+					<link>http://blog.naver.com/parnx/140119629425</link>
+					<guid>http://blog.naver.com/parnx/140119629425</guid>
+					<description><![CDATA[ 
+차세대 시스템을 2년 6개월에 걸쳐서 개발을 마무리하고, 
+프로젝트의 시작부터 끝까지의 그 방대한 여정을 몸으로 겪으며 
+이제서야 방법론이 가져야 할 필수 사항들이 무엇인지 조금이나마 알게 되었다. 
+의외로, 많지는 않으나, 기존과는 다른 시각을 가져야 한다는 것! 이 가장 유효했다.  
+- 방법론이 가져야할 덕목. 1) 프로젝트 중간 단계에서의 기점 ( Milestone)을 찍어주고, 프로젝트 전체적인 Life Cycle를 잡아주어야 한다.  2) 요구 사항이 주도 도출 되는 시점이 있고, 시스템 분석과 골격 구성이 중요한 시점이 있고, 
+ 개발과 구현이 중요한 시점이 있고, 테스트와 완성이 중요한 시점이 있다. 
+ 이러한 시점.......]]></description>
+					<pubDate>Sat, 11 Dec 2010 17:16:26 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[소프트웨어 라이프]]></category>
+					<title><![CDATA[좋은 모델이 갖추어야 할 조건.]]></title>
+					<link>http://blog.naver.com/parnx/140118515681</link>
+					<guid>http://blog.naver.com/parnx/140118515681</guid>
+					<description><![CDATA[좋은 모델은 다음 조건들을 갖춰야 한다.  1. 우아할 것.  2. 자의적이거나 조정 가능한 요소들을 거의 포함하지 않을 것.  3. 기존의 모든 관찰들에 부합하고 그것들을 설명할 것.  4. 만일 들렸을 경우에 모델을 반증할(모델이 틀렸음을 증명할)수 있는, 미래 간찰에 대한 상세한 예측들을 내놓을 것.  위의 조건들은 명백히 주관적이다. 예컨대 우아함(elegance)는 쉽게 측정할 수 있는 것이 아니지만, 과학자들 사이에서 매우 소중하게 평가된다. 왜냐하면 자연 법칙들의 본분은 여라 개발 사례들을 간단한 공식 하나로 경제적으로 압축하는 것이기 때문이다. 우아함은 이론의 전반적인 형태와 관련이 이지만, 조정 가능한 요소의 부재와도 밀.......]]></description>
+					<pubDate>Sun, 21 Nov 2010 16:17:01 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[삶의 이야기들]]></category>
+					<title><![CDATA[고속 대량의 서비스를 위한 XTP Platform의 요건 + GC문제?]]></title>
+					<link>http://blog.naver.com/parnx/140118132327</link>
+					<guid>http://blog.naver.com/parnx/140118132327</guid>
+					<description><![CDATA[1. 고속으로 처리하고 응답을 내 줄 수 있어야 한다.   2. 시스템의 특성   - 다수의 고속 처리 요청   - 짧은 시간대에 집중. ( 10~11시?)   - 24*365 ( Hot Deployment 지원 )  - 빠른 반응 시간 ( 매우 빠른 반응 시간 필요함 )   - 동시 병렬적인 실시간 Update에 대해서 빠르게 처리해 주어야 한다.   - Full GC를 방지해야 한다. *   3. Update는 실시간으로 빠른 속도로 전달된다.   =&gt; No 병목. ( Concurrent Exchange 가 가능해야 한다. )   =&gt; 다단위 빠른 Access. 서버 or Box 병목 제거.    4. System Management 측면의 충분한 지원이 수반되어야 한다.   - Node Control   - Back Up / Restore ( Data Grid )   - Replicatio.......]]></description>
+					<pubDate>Sun, 14 Nov 2010 17:14:37 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[삶의 이야기들]]></category>
+					<title><![CDATA[XTP Platform 설계]]></title>
+					<link>http://blog.naver.com/parnx/140118064752</link>
+					<guid>http://blog.naver.com/parnx/140118064752</guid>
+					<description><![CDATA[XTP Platform은 가볍고 빠르며,  무한의 확장성을 가진 Platform이 되어야 한다.   1. 가볍다.  - WAS는 너무나도 무겁다.   특히 Multi Data Source, Class Loader Wrapping 등의 기능이 그다지 사용되지도 않지만,   왠지모를 어려움만 야기한다. 지나치게 무거워서 부팅 조차 느리다.   - 가벼운 Servlet Container ( WebService를 받기 위한 최소한의 조치 ) 정도가   적절하다. 즉시 응답을 돌려주고, Memory Foot Print를 최소화 하여 Garbage Collection을 최소화 해야 한다.   2. 무한의 확장성  - 노드의 추가는 시스템의 가용성, 성능의 확장으로 귀결되어야 한다. 노드의 개수가 무한대로 늘어날 경우에도 병목 현상이 없어져야 한다.......]]></description>
+					<pubDate>Sat, 13 Nov 2010 11:46:23 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[클라우드 아키텍처]]></category>
+					<title><![CDATA[클라우드 컴퓨팅 - 정의 ]]></title>
+					<link>http://blog.naver.com/parnx/140115268447</link>
+					<guid>http://blog.naver.com/parnx/140115268447</guid>
+					<description><![CDATA[" A Break in the Clouds: Towards a Cloud Definition " 에서 발췌한 내용.  
+클라우드 컴퓨팅에 대한 명확한 정의는 어디에도 나와짔지 않다. 
+클라우드 컨셉이 워낙 광범위하고 여러 케이스가 다양하게 나타나기 때문이리라. 
+다만, 여러 전문가에 의한 다양한 의견들이 존재한다. 
+위의 페이퍼에서 여러 전문가의 글들을 정리하여 두었으나, 이중 일부를 한글로 번역한 것이다.  위의 페이퍼에서 제안하는 클라우드의 정의는 다음과 같다.  - 클라우드는 손쉽게 접근 및 사용 가능한 가상화된 자원(하드웨어, 개발 플랫폼, 서비스등)들에 대한 커다란 풀(Pool)이다. 이들 리소스는 가변적인 부하 상황에 따라 다이나믹하게 재설.......]]></description>
+					<pubDate>Sat, 25 Sep 2010 16:51:46 +0900</pubDate>
+					<tag><![CDATA[건강·의학,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[소프트웨어 라이프]]></category>
+					<title><![CDATA[소프트웨어 개발에 대한 재능은 어떤 분류로 나눌 수 있을까? ]]></title>
+					<link>http://blog.naver.com/parnx/140115261410</link>
+					<guid>http://blog.naver.com/parnx/140115261410</guid>
+					<description><![CDATA[간만의 포스팅.  문득, 소프트웨어 개발을 잘한다는 것에 대한 재능은 어떠한 것인가? 를 간단하게 정리해야 하겠다는 생각이 든다.  철저하게 현장의 경험으로 부터 기반하여 보면, 다음의 5가지 범주내에 포함되는 것으로 보인다.  1. 프로그래밍을 정말잘하는 사람. 
+ - 손이 매우 빠른 사람으로 남들이 5일 걸리는 코딩량도 1일만에 완성할 수 있다. 
+ 소위 말하는 프로그래밍 전문가이며, 주변에는 전문 개발자로 알려져 있다. 
+ 코딩에 대한 남다른 감각을 가지고 있으며, 이는 타고난 재능을 충분히 
+ 발전시켠 결과물이다.  2. SPEC과 요건정리, 방향성설계를 잘하는 사람. 
+ - 설계 방향과 근거, 이에 대한 정리를 잘.......]]></description>
+					<pubDate>Sat, 25 Sep 2010 14:41:28 +0900</pubDate>
+					<tag><![CDATA[소프트웨어개발]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[클라우드 아키텍처]]></category>
+					<title><![CDATA[클라우드 아이디어 #1]]></title>
+					<link>http://blog.naver.com/parnx/140106644625</link>
+					<guid>http://blog.naver.com/parnx/140106644625</guid>
+					<description><![CDATA[1. 개발 IDE를 Cloud 기반으로 변경한다. 
+ ( VMForce에서 하고 있는일.. 단, SI 사업을 위해서 변경함 ) 
+ 컴포넌트 재활용을 위해서..
+ 관련 자산과 모델의 재활용을 위해서.. 
+ 
+ 프로젝트의 개발자는 전사 Repository에서 관련 내용을 참조하여 만들 수 있다. 
+ 프로젝트의 모델러는 전사 Repository에서 참조 모델을 조회하여 자신의 모델로 정립할 수 있다. 
+ 
+ 단점 : 어떻게 전사 Repository를 업데이트할 것인가? 
+ 프로젝트에 특화되어 있는 설계 사상을 어떻게 범용화 할것인가? 
+  2. 개발 IDE에서 개발된 컴포넌트를 클라우드 기반환경에서 바로 수행한다. 
+ ( VMForce에서 하고 있는 사항 그대로..) 
+ 컴포넌트를 만.......]]></description>
+					<pubDate>Tue, 11 May 2010 18:14:38 +0900</pubDate>
+					<tag><![CDATA[건강·의학,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[소프트웨어 라이프]]></category>
+					<title><![CDATA[American Top 100 Financial IT Company. ]]></title>
+					<link>http://blog.naver.com/parnx/140106405712</link>
+					<guid>http://blog.naver.com/parnx/140106405712</guid>
+					<description><![CDATA[American Top 100 Financial IT Company. 
+What they are doing now?  
+---------------------------------------- 1. FiservBrookfield, WI, USA2. SungardWayne, PA, USA3. Fidelity Information ServicesJacksonville, FL, USA4. Diebold, Incorporated North Canton, OH, USA5. NCRCorporation Dayton, Ohio, USA6. Tata Consultancy ServicesLimited (TCS) Mumbai, Maharashtra, India7. First Data CorporationGreenwood Village, CO, USA8. Total System Services, Inc. (TSYS)Columbus, GA, USA9. Lender Processing ServicesJacksonville, FL, USA10. Metavante Technologies,Inc. Milwaukee, WI, USA
+11. InfosysTechnologies.......]]></description>
+					<pubDate>Fri, 07 May 2010 19:12:01 +0900</pubDate>
+					<tag><![CDATA[건강·의학,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[요구사항 개발/관리]]></category>
+					<title><![CDATA[방법론이 현장에서 잘 적용되지 못하는 원인]]></title>
+					<link>http://blog.naver.com/parnx/140102830216</link>
+					<guid>http://blog.naver.com/parnx/140102830216</guid>
+					<description><![CDATA[SI 프로젝트에 들어가면 다들 방법론을 적용하기 어려워 한다. 
+경험상으로 몇몇가지가 있다. 
+흔히들 방법론이현장과 맞지 않는다 라고 하는데, 
+여기에는 좀더 구체적인 해석이 필요하다.  1. 방법론의라이프 사이클이 프로젝트 공정의 라이프 사이클과 맞지 않는 경우.  가장 대표적인 케이스이다. 
+방법론은 분석, 설계, 개발, 테스트의 라이프 사이클을 가지는데, 
+ 이는"개발은 분석/설계/구현/테스트 단계로 칼같이 나눌 수 있다." 는 잘못된 신화에 기인한다. 
+프로젝트 공정에서는분석,설계, 개발이 동시에 발생한다. 
+ 이유는 명확하다. 
+ 
+ A. 설계해봐야 분석이 제대로 되었는지 확인할 수 있다. 
+ B. 구현해봐야 설.......]]></description>
+					<pubDate>Tue, 09 Mar 2010 22:03:27 +0900</pubDate>
+					<tag><![CDATA[CBD,방법론,IT,Software]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[논리적 S/W 설계]]></category>
+					<title><![CDATA[#3 개념적 요소의 정의. ]]></title>
+					<link>http://blog.naver.com/parnx/140094494492</link>
+					<guid>http://blog.naver.com/parnx/140094494492</guid>
+					<description><![CDATA[새로운 부분의 설계는, 설계하고자 하는 대상의 시작은 작은 IDEA에서 비롯된다. 
+씨앗과 같은 작은 아이디어는 싹이 트고, 햇볕과 자양분을 발판으로 
+무럭 무럭 완성된 설계로 성장한다.  요구 사항이 어느 정도 드러난 설계라면 어떨까? 고객에 필요한 화면을 만들어 달라고 하는경우, 
+요청 받은 요소들을 기반으로 설계에 들어간다. 
+기능과 목표는 이미 구성되어 있으며, 계략적인 범위도 대부분 구성되어 있는 경우이다.  이경우의 개념적인 설계는 System Boundary에 해당되게 된다.  
+]]></description>
+					<pubDate>Sat, 28 Nov 2009 12:24:07 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[논리적 S/W 설계]]></category>
+					<title><![CDATA[개념적 프로그래밍 #2 - 개념 기반의 설계 ]]></title>
+					<link>http://blog.naver.com/parnx/140091337311</link>
+					<guid>http://blog.naver.com/parnx/140091337311</guid>
+					<description><![CDATA[개념적 프로그래밍은 설계 구성요소를 개념적 Element 단위로 분리하여 
+재분할 하는 사항에 기반한다.  1. 각 Element는 "개념" 과 "특징" 으로 구분되어 진다. 
+"개념"은 사람이 논리적으로 사고하는 단위로 그룹화된 "기능"의 집합체이다. - 정적 구성 
+"특징"은 기능이 가지는 톡특한 행동의 양식을 규정하기 위힌"기기능"의 추상화이다. - 동적 구성.  이러한 개념과 특징의 2가지 요소에 의해서 개념 Element는 각기 유니크한 구성요소로써 소프트웨어 시스템을 구성하는 독립적인 단위로 구성된다. 소위 말하는 "컴포넌트"의 기본 단위가 되는 것이다.  2. 개념은 세부개념으로 연결된다. 
+"포탈"의 사례에서 "유저"라는 개.......]]></description>
+					<pubDate>Sat, 26 Sep 2009 14:43:41 +0900</pubDate>
+					<tag><![CDATA[건강·의학,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[논리적 S/W 설계]]></category>
+					<title><![CDATA[개념적 프로그래밍 #1 - 프로그래밍 & 개념 ]]></title>
+					<link>http://blog.naver.com/parnx/140091336093</link>
+					<guid>http://blog.naver.com/parnx/140091336093</guid>
+					<description><![CDATA[개념(Concept)기반의 프로그래밍은  프로그램을 작성함에 있어, 개념 중심으로 개발하는 설계 중심의 개발 철학이다. 
+프로그램을 기능 중심이 아니라, 동작하는 원리와 기본 사상을 개념 중심으로 정리하여 
+뼈대를 구성하고, 그것에 살을 붙이는 방식으로  " Architecture Centric Project Managerment"과는 아키텍처를 중심으로 
+진행한다는 점에서 유사한 방법이나, 아키텍처 자체와 비즈니스 Goal 자체를 개념적인 
+사상으로 각 구성요소를 식별하고, 이를 컴포넌트 중심으로 연결한다는 측면에서 차이가 있다.  즉, 개념적 구조에서 물리적 실체(구성할 내부 컴포넌트)를 착기 위한 방안으로 
+물리적인 개념으로의 역할 상세.......]]></description>
+					<pubDate>Sat, 26 Sep 2009 14:27:06 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[협업/팀구성]]></category>
+					<title><![CDATA[개발 협업 도구 - 효과적인 제품 개발을 위한 협업 도구 ]]></title>
+					<link>http://blog.naver.com/parnx/140091329138</link>
+					<guid>http://blog.naver.com/parnx/140091329138</guid>
+					<description><![CDATA[일련의 Product 들을 관리해야 하기에,
+효과적으로 협업하고 관리하기 위한 도구를 찾고 있었다. 
+요건은  1. 직관적으로 사용성이 높을 것. 
+2. WIKI 나 Google Docs와 유사한 온라인에서 직접 편집하는 INFRA를 제공하여 요구 사항과 
+ SPEC을 온라인 상에서 직접 관리할 수 있을 것. ( SPEC, 개발 방향, 문서 공유용 ) 
+3. Subversion과 연계되어 관리될 것. 
+4. 이슈와 버그 트래킹까지 포함되어 통합 관리될 것. 
+5. 관리 툴이 제공되어 UI 상으로 효과적으로 관리할 수 있을 것. 
+6. 게시판, 공지사항을 제공할 수 있을 것이다. 
+7. Eclipse Plug-In이 제공되어 Eclipse에서 바로 연계하여 사용할 수 있을 것.  이다.  현.......]]></description>
+					<pubDate>Sat, 26 Sep 2009 12:00:00 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[소프트웨어 라이프]]></category>
+					<title><![CDATA[간만의 POSTING을 시작하며. ]]></title>
+					<link>http://blog.naver.com/parnx/140089572276</link>
+					<guid>http://blog.naver.com/parnx/140089572276</guid>
+					<description><![CDATA[참으로 간만에 쓰는 포스팅이다. 
+약간 마음의 여유가 생긴 것인지? 마음이 풀어진 것인지? 
+어느쪽이지는 몰라도 평상시보다 여유가 있는 것은 분명하다.  요즘은 회사의 상용 프레임워크를 개발을 일단락 짓고, 
+모 사이트에 적용하고 있는데, 아주 흥미 진진하다.  일단 JAVA로 큰 규모의 프로젝트가 진행되다 보니, 막히는 것도 많고, 검증해야할 것도 많다. 
+어려운 점도 매우 많다.  기존 HOST에서 쓰던 기능을 JAVA에서 어디까지 지원해야 하는 것일까? 
+등의 문제는 매우 까다롭니다.  현재도 EJB Remote, XA, Multi-Data Source, 2PC, 
+PlatfomTransactionManager, JNI, PID기준의 JAVA Process 제어, 
+Java Agent, .......]]></description>
+					<pubDate>Fri, 04 Sep 2009 13:03:41 +0900</pubDate>
+					<tag><![CDATA[소프트웨어,IT·컴퓨터,프레임워크]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[삶의 이야기들]]></category>
+					<title><![CDATA[스위스 - 융프라우의 겨울 모습]]></title>
+					<link>http://blog.naver.com/parnx/140059643838</link>
+					<guid>http://blog.naver.com/parnx/140059643838</guid>
+					<description><![CDATA[융 프라우에서 잠시 머물며 찍은 사진들.. 
+겨울이라 더욱 멋있는 설경입니다. 
+다행이 약간 무거운 카메라를 가져갔더니 사진이 잘 나왔네요..      ]]></description>
+					<pubDate>Tue, 16 Dec 2008 12:59:44 +0900</pubDate>
+					<tag><![CDATA[건강·의학,IT·컴퓨터,세계여행]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[논리적 S/W 설계]]></category>
+					<title><![CDATA[한 소프트웨어 프로세스에 대한 언급]]></title>
+					<link>http://blog.naver.com/parnx/140056613141</link>
+					<guid>http://blog.naver.com/parnx/140056613141</guid>
+					<description><![CDATA[to 
+새턴 사이트의 한 자료에서 발췌한 그림이다. 거기에 적혀 있는 소프트웨어 프로세스에 대한 언급.  1. All development is iterative in the small2. All development is linear in the large3. All of that linearity and iterative development can not be reasonably represented in a single graphic 위의 말에 정말 공감한다. 
+Iterative이면서 Iterative가 아닌척하는 것이 한국 SI가 가지고 있는 모순 중의 하나이다. ]]></description>
+					<pubDate>Mon, 13 Oct 2008 19:57:07 +0900</pubDate>
+					<tag><![CDATA[건강·의학,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[논리적 S/W 설계]]></category>
+					<title><![CDATA[소프트웨어 개발 절차 & 아키텍처 #1]]></title>
+					<link>http://blog.naver.com/parnx/140056598370</link>
+					<guid>http://blog.naver.com/parnx/140056598370</guid>
+					<description><![CDATA[소프트웨어 개발 절차 과정에서 반드시 고민하게 되는 것이 바로 아키텍처이다. 
+이는 건축물을 세우는 과정과도 유사하다.  건축 과정은 어떤 건축물을 세우는가?에 따라 달라질 수 밖에 없다.  5층 짜리 건물을 세울때외 50층짜리 건물을 세울때는 개발 절차 자체가 틀려진다. 
+5층 짜리 건물에서 요구 하는 정교함의 수준과, 각 단계별에 사용해야 할 툴과 
+도구들은 
+50층짜리 건물을 세울때 사용하는 정교함의 수준, 각 단계별 툴과 도구들과 차이가 난다. 
+개발 절차 역시 마찬가지이다.  전체적인 절차의 윤곽은 비슷하나, 세부적인 내용은 다 틀리게 마련이다. 
+건축에 대해서 잘은 모르지만, 간단하게 비교 표를 만들어.......]]></description>
+					<pubDate>Mon, 13 Oct 2008 12:25:08 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[소프트웨어 라이프]]></category>
+					<title><![CDATA[소프트웨어의 장인 정신]]></title>
+					<link>http://blog.naver.com/parnx/140054292387</link>
+					<guid>http://blog.naver.com/parnx/140054292387</guid>
+					<description><![CDATA[소프트웨어야 말로 장인 정신이 필요한 분야라는 것을 새삼드럽게 느끼고 있다. 
+요구 분석, 설계&amp;개발의 품질은 
+어떠한 태도로 소프트웨어를 대하는가에 따라 매우 많은 차이가 난다.  1) 요구 분석시에는 
+한번더 꼼꼼히 보고, 
+SPEC에 해당 요구 사항이 기술되었는지, 
+SPEC이 개발 가능한 정도로 상세하게 기술되었는지를 다시 확인하고 
+SPEC을 지속적으로 관리하려는 태도.  2) 설계/개발이에는 
+설계 구조가 클래스간의 연관 관계를 중심으로 
+유연하게 뭉쳐져 있는지를 확인하는 것. 
+클래스의 구조가 확장가능하게 만들어져 있는지. 
+요구분석의 주어진 SPEC을 제대로 반영하고 있는지
+에 대한 태도.  이러한.......]]></description>
+					<pubDate>Mon, 04 Aug 2008 09:57:19 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[삶의 이야기들]]></category>
+					<title><![CDATA[Spring Session & Thread Local. ]]></title>
+					<link>http://blog.naver.com/parnx/140054227521</link>
+					<guid>http://blog.naver.com/parnx/140054227521</guid>
+					<description><![CDATA[Spring의 RequestContextHolder는 
+Requestion Session을 Servlet Context 중심으로 관리한다. 
+무슨말인가? 하면, Servlet Context가 아닌 영역에서는 사용할 수 없다.  때문에, Session의 유지를 위해서, 별도의 Thread Local을 사용해야 한다. 
+음...ㅡㅡ; 
+]]></description>
+					<pubDate>Fri, 01 Aug 2008 21:32:28 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[JAVA기술]]></category>
+					<title><![CDATA[ThreadLocal의 사용 여부]]></title>
+					<link>http://blog.naver.com/parnx/140054105722</link>
+					<guid>http://blog.naver.com/parnx/140054105722</guid>
+					<description><![CDATA[세션 객체의 직접적인 구현을 위해서 
+Thread Local을 사용할 수 있다. 
+다만 Thread Local을 사용하는 경우,
+@Spring Bean이나 다른 것들과 충돌나지는 않는지 확인해야 한다.
+Threand의 LifeCycle이 틀려질 수 가 있다는 것이 가장 큰 문제이다.  http://java.sun.com/j2se/1.4.2/docs/api/java/lang/ThreadLocal.html 사용법은 간단하다.  1) ThreadLocal A = new ThreadLocal(); 
+2) A.put(Object B) : 여기서 B는 Thread에 담아넣고 싶은객체 이다.
+3) Object B = A.get() : 소스코드의 임의의 위치에서 B를 Get한다.  Session객체를담아두는 것이 가장유용할 듯. ]]></description>
+					<pubDate>Tue, 29 Jul 2008 05:17:07 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[JAVA기술]]></category>
+					<title><![CDATA[static initializer]]></title>
+					<link>http://blog.naver.com/parnx/140054010993</link>
+					<guid>http://blog.naver.com/parnx/140054010993</guid>
+					<description><![CDATA[위험한 static initializer엔터프라이즈 자바 2006/12/29 19:14 posted by 엔트웍스 에서 발췌.. ----------------------------
+다음은 흔히 싱글턴singleton 패턴에서 애용되는 형태의 코드이다.
+public class MySingleton { private static final MySingleton INSTANCE = new MySingleton(); public static MySingleton getInstance() {   return INSTANCE; } private MySingleton() {  // 초기화 작업... } // ... 나머지 코드}이 글에서 말하고 싶은 것은 흔히 싱글턴 패턴에서의 스레드 관련 문제가 아니라, 이 클래스가 가져올 수도 있는 재앙 내지 밤샘디버깅이다. 경험상 이런 코드가 말썽을 일으키는 경우를 종종 볼 수 있었으며(현.......]]></description>
+					<pubDate>Sat, 26 Jul 2008 02:03:00 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[JAVA기술]]></category>
+					<title><![CDATA[Java의 가비지 콜렉션 & Static Variable]]></title>
+					<link>http://blog.naver.com/parnx/140054010739</link>
+					<guid>http://blog.naver.com/parnx/140054010739</guid>
+					<description><![CDATA[
+A. 모든 Static 필드들도 Heap 영역에 저장된다.  17.4.1 Shared VariablesMemory that can be shared between threads is called shared memory or heap memory. 
+All instance fields, static fields and array elements are stored in heap memory. In this chapter, we use the term variable to refer to both fields and array elements. Local variables (§14.4), formal method parameters (§8.4.1) or exception handler parameters are never shared between threads and are unaffected by the memory model. 
+B.Static Initializers는 해당 Class가 초기화될때 수행된다.  2.11 Static Initializers
+Any static initia.......]]></description>
+					<pubDate>Sat, 26 Jul 2008 01:43:06 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[패턴+프레임워크]]></category>
+					<title><![CDATA[구글 GWT 과 이클립스 플러그인 개발. ]]></title>
+					<link>http://blog.naver.com/parnx/140052014458</link>
+					<guid>http://blog.naver.com/parnx/140052014458</guid>
+					<description><![CDATA[요즘 하는 일은 
+대부분 Eclipse Plug-In 개발과 Server-Side Run-Time 엔진의 개발이다. 
+물론, 직접 코딩보다는 논의하고 회의하는데 시간을 대부분 보내지만..ㅡㅡ;; 고민거리 중의 하나는 Server Side 개발을 무엇으로 하는가였다. 
+Eclipse Plug-In으로 만들 구성요소들 이외에 
+Admin 상에서 관리해야 할 요소들은 무엇으로 개발해야 하는가? ..  답은 의외로 간단했다. 
+GWT : Google Web Toolkit. =&gt; http://code.google.com/webtoolkit/
+( 샘플 : http://code.google.com/webtoolkit/examples/mail/참고 )  바로 Eclipse Plug-in의 SWT개발과 매우 유사하다는 것. 
+웹 개발을 싫어라 하는 개발자들에게 Admin개발을.......]]></description>
+					<pubDate>Thu, 29 May 2008 01:55:31 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[논리적 S/W 설계]]></category>
+					<title><![CDATA[S/W 설계 #2 - 자신이 그리는 모습을 구현하기. ]]></title>
+					<link>http://blog.naver.com/parnx/140052011471</link>
+					<guid>http://blog.naver.com/parnx/140052011471</guid>
+					<description><![CDATA[소프트웨어 개발에 있어 본질적인 질문 중의 하나는 
+본인이 상상하고 있는 소프트웨어를 어떻게 구현할 것인가? 이다.  생각 &lt;----&gt; 구현 사이에는 많은 GAP이 존재한다. 
+이 생각과 구현의 GAP은 경험에 의해서도 매꾸어지기도 하며 
+논리적인 사고 체계, 또는 개념에 의해서 매꾸어 지기도 한다.  ( 필자는 디자인 패턴을 이러한 생각과 구현의 GAP을 채워주는 
+개념의 한 요소로 보고 있다. )  물론 무슨 생각을 하는가?에 따라 많은 부분이 달라지지만, 
+본질적으로 엔지니어가 "생각"을 한다는 것은 구현을 염두에 두고 있으며, 
+그러한 구현에는 본인의 사상과 설계가 녹아들어가 있을 것이다.  자, 그럼.. 어떻.......]]></description>
+					<pubDate>Wed, 28 May 2008 23:54:50 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[논리적 S/W 설계]]></category>
+					<title><![CDATA[기능 관점의 접근 Vs 구조 관점의 접근]]></title>
+					<link>http://blog.naver.com/parnx/140051920101</link>
+					<guid>http://blog.naver.com/parnx/140051920101</guid>
+					<description><![CDATA[기능적으로 접근할 것인가? 
+구조을 중심으로 접근할 것인가?  새로운 소프트웨어 제품을 만들때, 이러이러한 기능이 있었으면 좋겠다. 
+라고 생각을 한다. 
+그러다보면,제품의 기본적인 모습을 만들어 내고, 그 내부의 모습도 함께 정의한다. 
+기능에서 구조로는 이렇게 자연스럽게 연결이 된다.  허나 구조가 정해지면, 각 구조별로 다시 기능을 세분화 하고 정리할 필요가 있다. 
+세분화된 기능을 정의하기 위해 각 파트를 구분하여 그 파트에서 다시 
+상세한 내용을 정의하는 것이다.  이는 Divide &amp; Conquire 를 이용한 방식이다. 이러한 방식은 
+Iteration의 진행과 밀접하게 관련되어 있다. 
+한번의 Iteration에서 생.......]]></description>
+					<pubDate>Mon, 26 May 2008 12:52:26 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[요구사항 개발/관리]]></category>
+					<title><![CDATA[소프트웨어 SPEC을 정의한다는것.]]></title>
+					<link>http://blog.naver.com/parnx/140050894776</link>
+					<guid>http://blog.naver.com/parnx/140050894776</guid>
+					<description><![CDATA[
+칼 위거 교수의 요구 공학 과정을 들은 이후, 
+소프트웨어 SPEC에 대한 생각이 많이 바뀌었다. 
+SPEC은 소프트웨어가 동작해야 하는 행위와 행위에 수반되는 규칙을 기술한 것이다.  무슨일을 언제 어떻게 해야하는가? 어떤 규칙에 따라 처리해야 하는가? 
+예외상황은 어떤 것을 어떻게 처리해야 하는가? 등을 기술한 것이다.  막상 개발을 하다보면, 스펙 작성에 가장 어려운 것은...
+무엇을 어떻게 할 것인가?를 정의하는 것이다.  요즈음 들어 개발의 난이도는 더욱 떨어지고 있다. 
+오픈 소스, 오픈 플랫폼의 도입으로 개발 자체의 필요성은 
+더욱 줄어들고 있다.  하다못해 언어만 된다면, 스펙을 가지고 인도나 러시아.......]]></description>
+					<pubDate>Fri, 25 Apr 2008 15:09:35 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[아키텍처]]></category>
+					<title><![CDATA[소프트웨어 아키텍처의 이해당사자 및 관심 뷰 ]]></title>
+					<link>http://blog.naver.com/parnx/140041440925</link>
+					<guid>http://blog.naver.com/parnx/140041440925</guid>
+					<description><![CDATA[출처 : Documenting Software Architecture, 2003 이해 당사자관심 사항관심 View &amp; Viewtype프로젝트 매니저.시스템의 전반적인 목적과 제약 사항.Top-Level 컨택스트 다이어그램 : 모듈 뷰 타입시스템과 다른 시스템과의 관계 및 관련되어 확립되어야 할 조직 대 조직의 관계.Decomposition, Uses, and Layered View : 모듈 뷰 타입조달해야 할 하드웨어 환경.워크 어사인먼트 뷰 : 얼로케이션 뷰 타입　디플로이먼트 뷰 : 얼로케이션 뷰 타입　전반적인 목적과 제약 사항.개발팀원, 개발자시스템에 대한 제너럴 아이디어. 비록 이들 정보들이 아키텍처 보다는 요구 사항의 영역에 좀더 근접하지만, Top-Level 컨텍스트 다이어그램은 이들.......]]></description>
+					<pubDate>Fri, 17 Aug 2007 14:45:01 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[아키텍처]]></category>
+					<title><![CDATA[소프트웨어 아키텍처 설계 절차에 대하여.. ]]></title>
+					<link>http://blog.naver.com/parnx/140041008403</link>
+					<guid>http://blog.naver.com/parnx/140041008403</guid>
+					<description><![CDATA[소프트웨어 아키텍처의 설계 절차를 만드는 일을 현재 하고 있다. 기존에 만들어 졌던 내용을 다시 정제하는 작업이다. MetaModel을 정비하고, 내용을 정리하고. 주어진 사례를 기반으로 해야할 내용들을 정리.... 아키텍처는 한번에 정의 될 수 있는가? 아키텍처는 순서에 따라 만들어 질 수 있는가? 방법론은 어디까지나 일을 진행하기 위한 가이드일 뿐이다. 현실에서 어떻게 풀어나가든... 무슨 상관인가? 개발자의 관점에서, 테스터의 관점에서 보자. 그는 어떤 것을 자신이 개발해야 할지. 다른 부분과는 어떻게 틀린지. 개략적인 설계 구조를 어떻게 가져가야 할지에 대한 기본적인 방향에 대한 언급이 보여주기를 원할 것이다. 개발된 모.......]]></description>
+					<pubDate>Mon, 06 Aug 2007 19:49:17 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[소프트웨어 라이프]]></category>
+					<title><![CDATA[소프트웨어 아키텍트 포럼 - 제1회 세미나. ]]></title>
+					<link>http://blog.naver.com/parnx/140040964299</link>
+					<guid>http://blog.naver.com/parnx/140040964299</guid>
+					<description><![CDATA[얼마전 발표했던 내용인데, 이거 전부 레코딩 되어 공지될 줄은...음.. 레코딩된 것을 보고 있으니 왠지 흐믓하면서도 저 잘할 껄 하는 아쉬움이....^^;; 아래에서 볼수 있으며, SK, LG, SDS의 SI부분의 아키텍처 프로세스에 대한 많은 내용들을 볼 수 있다.. http://www.realseminar.com/Forwarding/kosta/20070719/ &lt;- 레코딩 된 사이트.. PS: 해당 내용은 http://www.seri.org/softwarearchitect 포럼에 자료가 있습니다. 가입하시면 준회원으로 가입이 됩니다. 참고하세요.. ]]></description>
+					<pubDate>Sun, 05 Aug 2007 17:54:07 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[협업/팀구성]]></category>
+					<title><![CDATA[인터페이스의 도출 ]]></title>
+					<link>http://blog.naver.com/parnx/140039432741</link>
+					<guid>http://blog.naver.com/parnx/140039432741</guid>
+					<description><![CDATA[하나의 시스템(A)를 가정하자. 
+인터페이스는 기본적으로 A에 존재하는 리소스를 외부에서 사용할 수 있도록 
+제공하는 역할을 담당한다.  사용하는 방식은 여러 가지 방식으로 분류될 수 있다. 
+직접적으로 데이터를 줄것인가? 컨트롤을 위임할 것인가? 비동기적으로 시그널을 줄것인가? 
+이러한 요소들은 노출 시키고자 하는 리소스의 유형과 외부에서 리소스를 사용하고자 하는 방식에 의해서 결정된다.  하나이상의 컨슈머가 사용할때는 인터페이스에 대한 Needs를 표준화 시켜야 한다. 
+한개일 경우도 마찬가지이다...  - To Be Continued -  
+]]></description>
+					<pubDate>Thu, 28 Jun 2007 11:28:51 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[협업/팀구성]]></category>
+					<title><![CDATA[SOA & 인터페이스 정의 ]]></title>
+					<link>http://blog.naver.com/parnx/140039432492</link>
+					<guid>http://blog.naver.com/parnx/140039432492</guid>
+					<description><![CDATA[SOA의 기본 방향은 시스템에 대한 서비스 관점으로의 전환이다. 
+비즈니스 가치를 가진 서비스를 중심으로 시스템을 재구성하여 
+향후 비즈니스 변화 및 시스템의 변화에 유연하게 대응하는 전사적 
+아키텍처를 구성하는 것에 그 목적이 있다.  SOA와 인터페이스는 매우 밀접한 관계가 있다. 
+1) SOA에서의 서비스의 구현은 결국 인터페이스 구현 기술로 구현된다. 
+ WebService, RMI, RPC, SOAP, XML-RPC, TP connection, EJB Call,
+Message Queue 등의 인터페이스 기술로 구현된다.  2) SOA의 서비스는 기존 인터페이스를 활용하여 구현된다. 
+ Legacy Interface, Solution API등의 기존 인터페이스를 활용하여 서비스로 
+ Wrapp.......]]></description>
+					<pubDate>Thu, 28 Jun 2007 11:19:33 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[JAVA기술]]></category>
+					<title><![CDATA[JAVA에서의 Hot Deployment 문제 ]]></title>
+					<link>http://blog.naver.com/parnx/140038291903</link>
+					<guid>http://blog.naver.com/parnx/140038291903</guid>
+					<description><![CDATA[Java Framework을 고민하며서 가장 크게 부딪히는 
+문제중의 하나가 Hot Deployment이다. EJB도 Hot Deployment을 지원한다고는 하나, 
+제대로 지원되지 않는다.  Hot Deployment의 문제를 야기하는 근본원인은, 
+"Java Class Loader에 의해서 Loading된 Class를 다른 객체가 쓰고 있으면 UnLoad할 수 없다"
+는 점이다.  이때문에 Java에서 Hot Deployment를 지원하는 경우는 드물다. 
+대개의 경우, 서버를 여러대로 분리하여 Restart 한다.
+C언어로 구현하는 경우는Call by Value 및 Executable File의 생성으로 
+이러한 어려움이 극복될 수 있다.  Java의 경우는  1) Class Loader를 각각 따로 분리하여 관리한다. 
+ - Ser.......]]></description>
+					<pubDate>Mon, 28 May 2007 11:14:52 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[JAVA기술]]></category>
+					<title><![CDATA[J2EE 어플리케이션 성능을 저하시키는 TOP 10 목록 ]]></title>
+					<link>http://blog.naver.com/parnx/140037347348</link>
+					<guid>http://blog.naver.com/parnx/140037347348</guid>
+					<description><![CDATA[For the last two and a half months, Vincent Partington has been blogging about the top ten Enterprise Java Application Performance Problems. The list:  #10 - Excessive logging 
+#9 - Incorrect application server configuration 
+#8 - Incorrect usage of Java EE 
+#7 - Unnecessary use of XML 
+#6 - Improper caching 
+#5 - Excessive memory usage 
+#4 - Badly performing libraries 
+#3 - Incorrectly implemented concurrency 
+#2 - Unnecessary remoting 
+#1 - Incorrect database usageNow he wraps up the countdown with some conclusions about Enterprise Java performance in general:  First of all, J.......]]></description>
+					<pubDate>Wed, 02 May 2007 13:01:14 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[아키텍처]]></category>
+					<title><![CDATA[GRID 아키텍처에 대한 간단한 설명 ]]></title>
+					<link>http://blog.naver.com/parnx/140036555243</link>
+					<guid>http://blog.naver.com/parnx/140036555243</guid>
+					<description><![CDATA[최근 모 생명사에서 파트타임으로 SOA 기술 지원 수행 때 재미있는 사례를 하나 들었다.
+컨설팅사의 컨설턴트에게서 들은 사례로 GRID 아키텍처의 도입으로 기존의 24시간 이상걸리던보험사의 Batch Job을 10분으로 줄여 버렸다는 것이다. 
+Genworth 라는 GE계열의 생명 보험 회사의 사례로, 전세계적으로 1500만명의 고객을 위한 10대의 계산 전용 서버가 있었지만, 복잡한 보험 통계 및 계리 계산에 많은 시일을 소모하고 있었다. 이를 35대의 PC급 서버를 연결한 Grid 환경으로 대체하여 수일이 걸리던 계리 작업을 10분으로 줄여 버렸다고 한다.  여기서 말하는 보험의 계리 업무는 다음이 포함된다. 
+1) 보험, 연금, 퇴직연금등에 대.......]]></description>
+					<pubDate>Mon, 09 Apr 2007 12:58:13 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[패턴+프레임워크]]></category>
+					<title><![CDATA[하이버네이트(Hibernate)에서의 캐쉬(Cache)의 사용 & 지원 툴]]></title>
+					<link>http://blog.naver.com/parnx/140036484046</link>
+					<guid>http://blog.naver.com/parnx/140036484046</guid>
+					<description><![CDATA[캐쉬(Cache) : DB의 읽기/쓰기 부하를 줄이기 위해 메모리 상에 빈번하게 사용되는 DB데이터를 올려 놓고 
+바로 접근하는 최적화 방식.  하이버네이트는 이를 지원하기 위한 훌륭한 체계를 갖추고 있다.  - 외부 Cache 사용 가능. ( Coherence 등의 외부 캐시를 CacheProvider로 재정의하여 사용가능 ) 
+- Default Support 
+ 1) Hashtable ( 시험용으로만 사용 ) 기반의 Cache: 
+2) EHCache : Query Cache를 지원함. 
+ 3) OSCache : OpenSymphony의 Cache 사용 가능, Cluster 지원 안됨. Query Cache를 지원함. 
+ 4) SwarmCache : Clusted 환경에서 사용가능. Cluster상의 Validation 지원. 
+ 5) JBoss TreeCache : JBoss의 Cache 사.......]]></description>
+					<pubDate>Sat, 07 Apr 2007 14:08:27 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[클라우드 아키텍처]]></category>
+					<title><![CDATA[개발방법론 - OpenUP/Basic]]></title>
+					<link>http://blog.naver.com/parnx/140033229550</link>
+					<guid>http://blog.naver.com/parnx/140033229550</guid>
+					<description><![CDATA[OpenUP : EPF의 일부분으로 공개되는 소프트웨어 개발 방법론들의 집합이다. 
+현재는 OpenUP/Basic이 0.9 Version이 개발되어있다. 
+1. OpenUP/Basic : Originally BUP2. Open Source Group에서 Eclipse Process Framework 과 함께 통합되어 제공되고 있음. 3. RUP의 사상과 Mile Stone을 유지하면서도  Role과 Task들이 Agile 중심으로 매우 간략화되었음. 4. 소규모 집단에 의한 짧은 기간의 개발에 적합함. 5. RUP이 대규모 개발에 적합한 체계적인 프로세스인 반면  중요 사상은 유지하면서도 소규모 개발팀이 효율적으로 개발을  진행하기 위한 AGILE 방법론의 사상을 받아 들인 프로세스. 6. Agile 방법론에 RUP의 체계와 사상을 가미하.......]]></description>
+					<pubDate>Tue, 09 Jan 2007 19:11:18 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[소프트웨어 라이프]]></category>
+					<title><![CDATA[필요에 의한 공부. ]]></title>
+					<link>http://blog.naver.com/parnx/140033133408</link>
+					<guid>http://blog.naver.com/parnx/140033133408</guid>
+					<description><![CDATA[일을 하나 벌였다. 
+5월달에 있을 일이지만, 4개월 전인 현 시점부터 집중해야 한다. 
+지금도 관련 자료를 조사하고 내용을 비교 검토하기 위해서 참고자료를 뒤지고 있다.  
+재미있는 것은 구체적인 목표를 가지고 정의하니, 
+이전에 이해되지 않았단 상세한 내용들이 보인다는 거이다. 
+왜 이렇게 정의하였을까? 어느 부분이 보완되어야 하는가? 하는....  
+쉽게 감당할 수 없는 일이지만, 매우 매력적인 일이다...^^;; 
+덕분에 엄청 공부할 것 같다..^^;  ]]></description>
+					<pubDate>Sun, 07 Jan 2007 12:43:32 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[아키텍처]]></category>
+					<title><![CDATA[아키텍처의 기본 내용에 관한 책 3권!]]></title>
+					<link>http://blog.naver.com/parnx/140033132972</link>
+					<guid>http://blog.naver.com/parnx/140033132972</guid>
+					<description><![CDATA[
+이들 3개의 책모두아키텍처 분야의 바이블과 같은 
+훌륭한 책들이다. 아키텍트가 되려는 사람들에게 
+반드시 권장하는 바이다.  
+1. Software Architecture in Practice, Second Edition, 2004, SEI 
+ =&gt; 소프트웨어 아키텍처의 기본적인 개념과 
+품질속성 시나리오 ( 비기능적인 관점의 요구 사항)의 개념, 적용 방안 
+설계 전략등, 기본 VIEW 정의를 담고 있는 아키텍처 정의의 
+ 기본 BIBLE 임.  2. Applying Software Architecture, 2002 
+ =&gt; 아키텍처 뷰의 개념을 본격적으로 도입한 내용으로 
+ Embedded 분야에 적합한 아키텍처 내용을 많이 담은 책. 
+Global Analysis라는 아키텍처 환경 분석에 관한 훌륭한 기.......]]></description>
+					<pubDate>Sun, 07 Jan 2007 12:26:29 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[패턴+프레임워크]]></category>
+					<title><![CDATA[아파치 비하이브(Behive) 프레임워크]]></title>
+					<link>http://blog.naver.com/parnx/140032702615</link>
+					<guid>http://blog.naver.com/parnx/140032702615</guid>
+					<description><![CDATA[
+Apaceh Behive (아파치 비하이브 )  비하이브의 목적 : Struts 및 J2EE 프로그래밍을 쉽게 하기 위해서 Annotation과 WebService Metadata ( JSR 181)을 기반으로 개발에 필요한 개발의 코딩량을 최대한 감소시키는 것이 목적임.  Eclipse에 통합된 개발 툴로, BEA에서 최초로 만들고, 완성도가 높이진 이후에 
+개발 프레임워크로 오픈소스로 공개, 현재는 아파치 프로젝트로 진행되고 있다. 
+사용은 매우 편리하며, 제대로 쓰는 경우, 개발 생산성을 매우 향상 시킨다. 
+실제로 1주일 예상했던 작업 분량을 비하이브를 적용하여 1일만에 마무리 하는 것을 
+옆에서 보았다. 웹로직 워크샵에도 포함되어 있다.  개인적으로는 NET-U.......]]></description>
+					<pubDate>Tue, 26 Dec 2006 18:19:42 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[아키텍처]]></category>
+					<title><![CDATA[경영진에 대한 아키텍처 정의 결과 보고 자라...  ]]></title>
+					<link>http://blog.naver.com/parnx/140032406707</link>
+					<guid>http://blog.naver.com/parnx/140032406707</guid>
+					<description><![CDATA[오늘 아키텍처 설계 방향 정의 결과에 대한 보고가 있었다.  XXX 센터의 아키텍처를 구축하여 
+그 결과를 보고하는 자리로, 사업부에서는 내년도 계획을 함께 수립하는 
+상당히 중요한 자리였다.  아키텍처내용을 임원진까지 보고하는 경우는 흔지 않은 경우로, 
+보고내용에 대한 Feed Back을 충분히 기록하여 둘만 하다.  
+보고 내용은  1. 개념 아키텍처 
+2. 개념아키텍처에서 파생된 세분화된 기술 이슈 
+3. 기술 이슈를 해결하기 위한 추진 로드맵(&lt;- 이건 나의 범위 밖이다. ) 결론부터 정리하자만,  1. 상세하지는 않더라도 이 시스템의 무엇하는 것인가? 
+ 에 대한 정확한 정의를 원한다.듣고 바로 이해갈 수.......]]></description>
+					<pubDate>Mon, 18 Dec 2006 18:16:08 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[프로정신]]></category>
+					<title><![CDATA[메모의 기술 - PDA 버전 ]]></title>
+					<link>http://blog.naver.com/parnx/140032194888</link>
+					<guid>http://blog.naver.com/parnx/140032194888</guid>
+					<description><![CDATA[PDA를 사서 쓰면서, 메모의 기술 책을 읽다 정리한 PDA버전! PDA로 메모할때 참고. --------------------메모의 기술~
+(업무정리.회의.협상.전화통화.정보정리.독서.아이디어.마음의 안정) 등의 다양한 분야에 메모를 남길 수 있다.  1.언제 어디서든 메모하라.눈에 띄게.생각날때마다.목욕.산책.
+   *아이디어.정리.약속.해야할 일. 2.주위사람들을 관찰하라. 메모하는 방식을 보고 배우라. 3.기호와 암호를 활용하라. 4.중요사항은 한눈에 띄게하라.동그라미.별표.색깔.밑줄. 5.메모하는 시간을 따로 마련하라.정리.혼자 커피숍.일주일에 한번이상
+.하루에 한번이라도 수첩을 펼쳐본다. 6.메모를 데이터베이스로 구축하라.......]]></description>
+					<pubDate>Wed, 13 Dec 2006 16:13:52 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[패턴+프레임워크]]></category>
+					<title><![CDATA[스프링(Spring Framework)프레임워크의 최소 지식]]></title>
+					<link>http://blog.naver.com/parnx/140031935141</link>
+					<guid>http://blog.naver.com/parnx/140031935141</guid>
+					<description><![CDATA[Spring Framework Summary  - IOC ( Inversion Of Control )과 DI ( Dependency Injection)에 기반을 둔 자바 어플리케이션 프레임워크 
+- IOC : 자신의 컨트롤을 인터페이스 혹은 설정을 통하여 역으로 위임하는 사상으로 Interface의 구현 또는 Operation의 Overriding을 통해서 정의 가능하다. 
+- DI : Code의 수행 시점에서 의존성 관계를 정의(Dependency를 Inject)하는 기법. 예를 들어, FileLister의 경우, LocalFileFinder, RemoteFileFinder등의 Finder Interface의 구현을 FileLister에 Set 혹은 Construction를 통하여 건내 준다는 사상. 
+6개의 중요 모듈로 구성 - Spring Core : IoC 컨테이너로 스프링의 중요 컴포넌트들을 구.......]]></description>
+					<pubDate>Thu, 07 Dec 2006 01:46:38 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[소프트웨어 라이프]]></category>
+					<title><![CDATA[설익은 자만감 . 다시 배움의 시간으로. ]]></title>
+					<link>http://blog.naver.com/parnx/140031934979</link>
+					<guid>http://blog.naver.com/parnx/140031934979</guid>
+					<description><![CDATA[너무 .. 자만함에 차서 게을럿던것 같다. 
+내나이 이제 서른둘. 자만함을 가지기는 100년은 어리다. 
+공부하고, 배우고, 다시한번 차분하게..  100가지를 배우고 90가지는 잊어버리며 10가지는 기억하고 1가지는 실행하자.  - 브라이언. 
+]]></description>
+					<pubDate>Thu, 07 Dec 2006 01:39:06 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[삶의 이야기들]]></category>
+					<title><![CDATA[런던 사진 #1 ]]></title>
+					<link>http://blog.naver.com/parnx/140031643155</link>
+					<guid>http://blog.naver.com/parnx/140031643155</guid>
+					<description><![CDATA[
+런던 출장 기념 사진입니다. 
+염장 모드~  하이드 파크 옆에서 찍은 2층 버스. 
+옆에서 직접 보면 매우이쁘기 그지 없다. 
+영국 거리의 칼라톤은 무채색. 
+그 사이를 지나가는 2층 버스는 유난히도 눈의 뜨인다. 
+다만, 2층에 타면 심히 속이 안좋아진다..ㅡㅡ;;  하이드 파크 옆의 캔싱턴 파크의 일요일 오전 한가한 한때. 
+사람을 두려워하지 않는 거위때와 오리때, 
+그리고 켄싱턴 궁전 앞의 호수가에 드넓이 펼쳐진 모습은가슴 속을 
+시원하고 상쾌하게 만든다.   켄싱턴 파크로 가는 길목의 한가로운 아침. 
+런던은 드넓은 평지로 산이 거의 없다. 
+어디를 봐도 저 널리 시야가 트여 있다. 
+어느 공원을 가도 넓.......]]></description>
+					<pubDate>Tue, 28 Nov 2006 22:47:46 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[소프트웨어 라이프]]></category>
+					<title><![CDATA[IT의 문화 차이를 몸으로 느끼다. ]]></title>
+					<link>http://blog.naver.com/parnx/140031374084</link>
+					<guid>http://blog.naver.com/parnx/140031374084</guid>
+					<description><![CDATA[
+앞서 잠시 언급하였는데, 
+런던에는 CBDi의 SOA 교육을 받으러 왔다. 
+SOA Service Architecture Principle과 
+SOA Service Business Architecture로 
+총 4일간의 교육을 받고 있다.  오늘은 3일째 교육을 마무리 한 날이다.  SOA에 대해서는 세계적으로 진보된 프렉티스를 
+가지고 있는 곳이 바로 CBDi이며, 이 CBDi에서 수행하는 
+교육을 지금 듣고 있다.  막상 교육을 듣고 있으면 SOA보다는 문화적 차이에서 받는 
+감상이 훨씬 더 많이 떠오른다.  IT분야의 정년이 어느 정도인가? 라는 질문에 당연히 65세라고, 
+일하고 싶을때까지 일한다고 하는 대답 자체가 신선한 충격이고, 
+자신을 소개할때, Business Analyst라.......]]></description>
+					<pubDate>Thu, 23 Nov 2006 04:44:49 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[소프트웨어 라이프]]></category>
+					<title><![CDATA[런던 - 하이드 파크의 모퉁이에서.. ]]></title>
+					<link>http://blog.naver.com/parnx/140031373896</link>
+					<guid>http://blog.naver.com/parnx/140031373896</guid>
+					<description><![CDATA[
+잠시 런던에 왔있다. 
+묶고 있는 숙소는 런던 하이드 파크 옆의 한 조용한 호텔. 
+지금은 저녁시간..  잠시 인터넷 까페에 들려 글을 남긴다. 
+이곳은 정말 고풍스러운 곳이다. 
+사람들의 옷차림에서 부터
+지나가는 2층 버스.  하이드 파크와 켄싱턴 가든의 멋진 모습, 
+곳곳에 보이는 유적과도 같은 문화 유산. 
+호텔도 오랜 역사가 간직되어 보이는 
+저택을 개조한 건물이다. 
+덕분에 찬바람이 들고, 좁기는 하다.  잠시라도 거리를 걷고 있으면, 
+런던에 들러 거리를 보고 있다는 생각에 
+마음이 들뜬다..  (어여쁜마누라와 지원이도 
+ 보고 싶다!!.. 그래도 여기는 런던이니. )  모든 것에 문화와 역사가 살아.......]]></description>
+					<pubDate>Thu, 23 Nov 2006 04:23:46 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[아키텍처]]></category>
+					<title><![CDATA[SA Guide #23 - 아키텍처 기반의 상세 설계]]></title>
+					<link>http://blog.naver.com/parnx/140031063825</link>
+					<guid>http://blog.naver.com/parnx/140031063825</guid>
+					<description><![CDATA[아키텍처의 최상위 관점은 
+컴포넌트, 서브 시스템 등으로 불리우는 최상위 구성 모듈들이다.  이들을 식별하는 과정이 가장 어렵고, 
+이들을 검증하는 과정은 더욱 어렵다.  예를 들어, 
+왜 시스템을 4개의 서브 시스템으로 나누어야 하는가? 
+( 관제 모듈 - 정보 취합 모듈 - 의사 결정 모듈 등 &lt;- 관제 시스템의 경우. 
+정보 수집에이전트- 정보 취합서버 모듈- 시스템 정보 DB&lt;- 시스템 관리 시스템의 경우 ) 5개의 모듈로 나누면 왜 안될까? 어떤 문제가 생길까?  서브 시스템으로 나누는 것은  1. 동일한 역할을 가진 모듈을 묶어 개발을 쉽게 하기 위함이다. 
+2. 유사한 메커니즘을 가진 기능들을 묶어 설계를.......]]></description>
+					<pubDate>Tue, 14 Nov 2006 23:56:32 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[삶의 이야기들]]></category>
+					<title><![CDATA[물욕]]></title>
+					<link>http://blog.naver.com/parnx/140031062469</link>
+					<guid>http://blog.naver.com/parnx/140031062469</guid>
+					<description><![CDATA[물욕
+아침안개처럼아스란히 피어올라 뉴런의 공간 속을 잠식하는생각의 편린들.
+하나둘씩 이야기하며 나에게 속삭이네아직은 부족하다고
+언제나 만족하랴?언제나 충분하랴.
+지나간듯 잊을래면 문득. 다시 떠오르는 욕망의 그림자. 나의 반면. 나의 진실. 그리고 나의 그림자. 
+태양빛에 사라지는 것은오로지 한순간. 
+순간을 반복하며, 함께함은 영원이네. 
+나의 충분함. 나의 본체. 
+이제는 만족하리? 이제는 충분하리. ]]></description>
+					<pubDate>Tue, 14 Nov 2006 23:19:16 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[클라우드 아키텍처]]></category>
+					<title><![CDATA[UML의 기본 #1 - 유스케이스의 이해 ]]></title>
+					<link>http://blog.naver.com/parnx/140029624204</link>
+					<guid>http://blog.naver.com/parnx/140029624204</guid>
+					<description><![CDATA[ 유스케이스는 한글로 직역하면 사용(Use) 상황(case)이다. 
+말그대로 시스템을 사용하는 상황을 정리하는 기본 단위로 
+시스템의 기능적인 측면을 기술 하는 가장 강력한 무기 중의 하나이다.  육스케이스의 이해를 위해서 
+사용 상황이라는 것을 좀더 풀어 보자.  아주 쉽게는 다음과 같은 질문을 통해서 이해할 수 있다.  1. 누가 사용하는가? 
+2. 어떠한 사용 상황이 있는가? 
+3. 누가 관련되어 있는가?  누가(액터) 시스템에 대해서 어떠한 사용 ( 사용 상황-유스케이스)을 하며, 
+이에 누가(액터) 관련되어 있는가? 를 기술한다.  쉽게 이야기하면 시스템의 기능을 사용자(액터)가 사용하는 관점에서 정리한 것이.......]]></description>
+					<pubDate>Mon, 09 Oct 2006 22:25:20 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>parnx</author>
+					<category><![CDATA[아키텍처]]></category>
+					<title><![CDATA[SA Guide #22 - 개념 아키텍처의 정의  ]]></title>
+					<link>http://blog.naver.com/parnx/140028529646</link>
+					<guid>http://blog.naver.com/parnx/140028529646</guid>
+					<description><![CDATA[개념 아키텍처 개념 아키텍처는요구 사항에 기반하여 시스템의 기능을제공하기위한최상위 수준의 중요 구성 요소들이식별되고이들간의 연관 관계가 정의된 아키텍처이다.  개념 아키텍처의 특징은  1.아키텍처 요구 사항의 관점에서 필요한 구성 요소들이 식별되어 있다. 
+2. 아키텍처의 범위와 내부 구성 요소들의영역이 정의되어 있다. 
+3.어떻게 시스템을 구현할 것인가? 보다는 시스템에 무엇이 필요한가?
+ 를 정의한다. 
+4. 시스템을 구성하는 범위가 식별되어 제공된다. 이다. 개념/논리/물리 아키텍처 중에서 
+가장 어려운 것이 무엇이냐고 물으면십중 팔구는 개념 아키텍처일 것이다. 
+대부분의 경우, 시스템의 방.......]]></description>
+					<pubDate>Fri, 08 Sep 2006 19:22:08 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

@@ -1,0 +1,948 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>onjo's weblogs</title>
+		<link>http://onjo.tistory.com/</link>
+		<description>nomad by</description>
+		<language>ko</language>
+		<pubDate>Mon, 18 Aug 2014 15:50:56 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>onjo</managingEditor>
+		<image>
+			<title>onjo's weblogs</title>
+			<url>http://cfs7.tistory.com/upload_control/download.blog?fhandle=YmxvZzE5ODM3QGZzNy50aXN0b3J5LmNvbTovYXR0YWNoLzAvMS5wbmc%3D</url>
+			<link>http://onjo.tistory.com</link>
+			<description>nomad by</description>
+		</image>
+		<item>
+			<title>javax.servlet.jsp.JspException cannot be resolved</title>
+			<link>http://onjo.tistory.com/4412</link>
+			<description>&lt;p&gt;- 작성일자 : 2014-08-18&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 오류 메시지 : javax.servlet.jsp.JspException cannot be resolved&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 원인 :&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 해결방법 : Eclipse 에서 Project &amp;gt; Properties &amp;gt; Targeted Runtimes - Apache Tomcat 선택&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 참고 URL :&amp;nbsp;&lt;/p&gt;&lt;p&gt;http://blog.naver.com/doy153/90186694237&lt;/p&gt;&lt;p&gt;http://blog.naver.com/pupu902/150166513581&lt;/p&gt;&lt;p&gt;http://blog.naver.com/pub1218/120202647236&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4412-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4412</guid>
+			<comments>http://onjo.tistory.com/4412#entry4412comment</comments>
+			<pubDate>Mon, 18 Aug 2014 15:41:36 +0900</pubDate>
+		</item>
+		<item>
+			<title>자바(java)에서 CPU 사용량 모니터링 하기</title>
+			<link>http://onjo.tistory.com/4410</link>
+			<description>&lt;p&gt;자바(java)에서 CPU 사용량 모니터링 하기&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;작성일자 : 2014/05/19&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 자바(java)에서 CPU 사용량을 모니터링 하고 싶다면?&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; -&amp;gt; Hyperic SIGAR 이라는 오픈소스를 사용하면 된다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; -&amp;gt; 사이트 : https://support.hyperic.com/display/SIGAR/Home&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;* CPU, 메모리, 하드 디스크 현황 등도 모니터링 가능&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 필요했던 이유 : 바이러스(?) 등으로 인해 CPU 사용량이 90 ~ 100% 되서&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; CPU 발열 문제가 발생하는 것을 방지하기 위한 모니터링&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 스프링소스가 Hyperic을 인수하였음&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;TAG&lt;/p&gt;&lt;p&gt;java cpu usage&lt;/p&gt;&lt;p&gt;JAVA CPU 사용&lt;/p&gt;&lt;p&gt;JAVA CPU 모니터링&lt;/p&gt;&lt;p&gt;SIGAR&lt;/p&gt;&lt;p&gt;SIGAR CPU&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;참고&lt;/p&gt;&lt;p&gt;http://blog.naver.com/vlueguy7/70094014792&lt;/p&gt;&lt;p&gt;http://alloc.tistory.com/113&lt;/p&gt;&lt;p&gt;https://www.evernote.com/shard/s25/sh/10e1d1cf-7dc7-489a-87d9-b5f062df9193/f78822608200e0e753ef8084b0ac9574?noteGuid=10e1d1cf-7dc7-489a-87d9-b5f062df9193&amp;amp;noteKey=f78822608200e0e753ef8084b0ac9574&lt;/p&gt;&lt;p&gt;http://blog.naver.com/ultraby/120208397016&lt;/p&gt;&lt;p&gt;http://cafe.naver.com/androidco/20&lt;/p&gt;&lt;p&gt;http://www.hyperic.com/support/docs/sigar/&lt;/p&gt;&lt;p&gt;http://blog.naver.com/junsu60/80163997092&lt;/p&gt;&lt;p&gt;http://blog.naver.com/shin7688/120166198000&lt;/p&gt;&lt;p&gt;http://stackoverflow.com/questions/47177/how-to-monitor-the-computers-cpu-memory-and-disk-usage-in-java&lt;/p&gt;&lt;p&gt;http://blog.benelog.net/viewer/2765024&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4410-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4410</guid>
+			<comments>http://onjo.tistory.com/4410#entry4410comment</comments>
+			<pubDate>Mon, 19 May 2014 15:24:12 +0900</pubDate>
+		</item>
+		<item>
+			<title>Foobar 2000 vs Audirvana Plus</title>
+			<link>http://onjo.tistory.com/4409</link>
+			<description>&lt;p&gt;작성일자 : 2014-05-15&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Foobar 2000 vs Audirvana Plus&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;1. Mac 환경&lt;/p&gt;&lt;p&gt;- OS : OSX 10.9.2&lt;/p&gt;&lt;p&gt;- CPU : i7 2.3GHz&lt;/p&gt;&lt;p&gt;- RAM : 16GB&lt;/p&gt;&lt;p&gt;- SSD 256GB&lt;/p&gt;&lt;p&gt;- Macbook Pro Retina&lt;/p&gt;&lt;p&gt;- Player :&amp;nbsp;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;Audirvana Plus&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;color: rgb(128, 128, 128); font-family: 돋움, dotum, sans-serif; line-height: 19.200000762939453px; background-color: rgb(248, 248, 248); padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;- USB DAC 겸 인티앰프 : EGA VIVO MK2&lt;/p&gt;&lt;p style=&quot;color: rgb(128, 128, 128); font-family: 돋움, dotum, sans-serif; line-height: 19.200000762939453px; background-color: rgb(248, 248, 248); padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;- 스피커 : 와피데일 Diamond 7.1&lt;/p&gt;&lt;p style=&quot;color: rgb(128, 128, 128); font-family: 돋움, dotum, sans-serif; line-height: 19.200000762939453px; background-color: rgb(248, 248, 248); padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;- USB 케이블(PC - VIVO MK2) : 막선&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;* Samba 를 이용하여 Windows 스토리지 서버에서&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&amp;nbsp; 음원을 연결하여 재생하였음&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&amp;nbsp;&amp;lt;장점&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&amp;nbsp;- 음질이 좋다?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&amp;nbsp;- Native DSD 재생 기본 지원&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&amp;nbsp;- 세련된 플레이어 디자인&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&amp;nbsp;&amp;lt;단점&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&amp;nbsp; -&amp;gt; 맥북 리부팅시 매번 Samba 연결을 다시해야 하는 불편함&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&amp;nbsp; -&amp;gt; 검색 불편 : 음원 검색이 안되는 단점&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;2. PC 환경&lt;/p&gt;&lt;p style=&quot;color: rgb(128, 128, 128); font-family: 돋움, dotum, sans-serif; line-height: 19.200000762939453px; background-color: rgb(248, 248, 248); padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;- OS : Windows Server 2012 R2 (64-bit)&lt;/p&gt;&lt;p style=&quot;color: rgb(128, 128, 128); font-family: 돋움, dotum, sans-serif; line-height: 19.200000762939453px; background-color: rgb(248, 248, 248); padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;- CPU : i3-3225 3.30GHz&lt;/p&gt;&lt;p style=&quot;color: rgb(128, 128, 128); font-family: 돋움, dotum, sans-serif; line-height: 19.200000762939453px; background-color: rgb(248, 248, 248); padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;- RAM : 12GB&lt;/p&gt;&lt;p style=&quot;color: rgb(128, 128, 128); font-family: 돋움, dotum, sans-serif; line-height: 19.200000762939453px; background-color: rgb(248, 248, 248); padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;- USB DAC 겸 인티앰프 : EGA VIVO MK2&lt;/p&gt;&lt;p style=&quot;color: rgb(128, 128, 128); font-family: 돋움, dotum, sans-serif; line-height: 19.200000762939453px; background-color: rgb(248, 248, 248); padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;- 스피커 : 와피데일 Diamond 7.1&lt;/p&gt;&lt;p style=&quot;color: rgb(128, 128, 128); font-family: 돋움, dotum, sans-serif; line-height: 19.200000762939453px; background-color: rgb(248, 248, 248); padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;- USB 케이블(PC - VIVO MK2) : 막선&lt;/p&gt;&lt;p style=&quot;color: rgb(128, 128, 128); font-family: 돋움, dotum, sans-serif; line-height: 19.200000762939453px; background-color: rgb(248, 248, 248); padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;- Player : foobar 2000&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&amp;lt;장점&amp;gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; -&amp;gt; 음원 검색 가능 : Everything 1.2.1&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&amp;lt;단점&amp;gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;-&amp;gt; 플레이어 디자인이 구리다 (기본 스킨)&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4409-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4409</guid>
+			<comments>http://onjo.tistory.com/4409#entry4409comment</comments>
+			<pubDate>Thu, 15 May 2014 01:49:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>Foobar 2000 셋팅방법 정리</title>
+			<link>http://onjo.tistory.com/4408</link>
+			<description>&lt;p&gt;Foobar 2000 셋팅방법 정리&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;작성일자 : 2014-05-15&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;1. 시스템 환경&lt;/p&gt;&lt;p&gt;- OS : Windows Server 2012 R2 (64-bit)&lt;/p&gt;&lt;p&gt;- CPU : i3-3225 3.30GHz&lt;/p&gt;&lt;p&gt;- RAM : 12GB&lt;/p&gt;&lt;p&gt;- USB DAC 겸 인티앰프 : EGA VIVO MK2&lt;/p&gt;&lt;p&gt;- 스피커 : 와피데일 Diamond 7.1&lt;/p&gt;&lt;p&gt;- USB 케이블(PC - VIVO MK2) : 막선&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;2. 원격데스크탑 설정&lt;/p&gt;&lt;p&gt;- 프로그램 : Microsoft Remote Desktop 8.0.5&lt;/p&gt;&lt;p&gt;- Sound : Play on Remote PC&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;3. Foobar 2000&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(1) 메인 플레이어(foobar) 다운 / 설치&lt;/p&gt;&lt;p&gt;- http://www.foobar2000.org/&lt;/p&gt;&lt;p&gt;- foobar2000 v1.3.2&lt;/p&gt;&lt;p&gt;- foobar2000_v1.3.2.exe (3.6 MB)&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(2) 추가 컴포넌트 설치&lt;/p&gt;&lt;p&gt;- foo_input_sacd-0.7.1.zip (597 KB) // DSD 파일 재생에 필요&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt; ASIOProxyInstall-0.7.1.2.exe &amp;nbsp;// ASIO 컴포넌트&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt; foo_input_sacd.fb2k-component &amp;nbsp;// foobar SACD 컴포넌트&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt; http://sourceforge.net/projects/sacddecoder/files/foo_input_sacd/&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- foo_out_asio.fb2k-component &amp;nbsp;// foobar ASIO 컴포넌트&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt; http://www.foobar2000.org/components&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- WASAPI.fb2k-component &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// foobar WASAPI 컴포넌트&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt; http://www.foobar2000.org/components&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;4. 참고&lt;/p&gt;&lt;p&gt;- http://circlash.tistory.com/309&lt;/p&gt;&lt;p&gt;- http://cafe.naver.com/cyrus7/8104&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;TAG&lt;/p&gt;&lt;p&gt;- foobar&lt;/p&gt;&lt;p&gt;- ASIO&lt;/p&gt;&lt;p&gt;- WASAPI&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4408-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4408</guid>
+			<comments>http://onjo.tistory.com/4408#entry4408comment</comments>
+			<pubDate>Thu, 15 May 2014 01:37:21 +0900</pubDate>
+		</item>
+		<item>
+			<title>Tomcat Eclipse HTTPS 설정</title>
+			<link>http://onjo.tistory.com/4407</link>
+			<description>&lt;p&gt;작성일자 : 2014-05-12&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;1. 환경&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(1) OS : Win 7&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(2) JDK : JDK 1.6&lt;/p&gt;&lt;p&gt;- C:/dev/java/jdk1.6.0_32/bin/javaw.exe&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(3) Tomcat 7 (server.xml)&lt;/p&gt;&lt;p&gt;- C:\dev\server\apache-tomcat-7.0.42\conf\server.xml&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(4) Eclipse Java EE (Juno Service Release 1)&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(5) KeyStore File Path&lt;/p&gt;&lt;p&gt;- C:\dev\keystore\tomcatSSLkey.keystore&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;------------------------------------------------&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;2. keyStore 파일 생성&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;keytool -genkey -alias &lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;[alias 이름]&lt;/span&gt; -keyalg RSA -keysize 1024 -keystore &lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;[keyStore 파일 경로]&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;keytool -genkey &lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;-alias tomcatSSL &lt;/span&gt;-keyalg RSA -keysize 1024&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt; -keystore C:\dev\keystore\tomcatSSLkey.keystore&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;cd /d C:/dev/java/jdk1.6.0_32/bin&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;keytool -genkey -alias tomcatSSL -keyalg RSA -keysize 1024 -keystore C:\dev\keystore\tomcatSSLkey.keystore&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;* keyStore 암호를 설정한다&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;------------------------------------------------&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;3. Server.xml 수정&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- C:\dev\server\apache-tomcat-7.0.42\conf\server.xml&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; * 아래 내용 추가&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;lt;Connector port=&quot;8443&quot; protocol=&quot;HTTP/1.1&quot; SSLEnabled=&quot;true&quot;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;maxThreads=&quot;150&quot; scheme=&quot;https&quot; secure=&quot;true&quot;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;clientAuth=&quot;false&quot; sslProtocol=&quot;TLS&quot;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt; keystoreFile=&quot;C:\dev\keystore\tomcatSSLkey.keystore&quot; keystorePass=&quot;keystore 암호&quot; &lt;/span&gt;/&amp;gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;------------------------------------------------&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;4. Eclipse 실행후&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;(1) Servers - 선택 - 삭제후 재생성&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;(2) Server 정보 선택후 Ports 정보에&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt; SSL 8443&lt;/span&gt; 이 추가 되었는지 확인&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;(3) 톰캣 재기동(start)&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;------------------------------------------------&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;5. 접속&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(HTTP)&lt;/p&gt;&lt;p&gt;http://localhost:8080/project&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;(HTTPS)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;https://localhost:8443/project&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;------------------------------------------------&lt;/p&gt;&lt;p&gt;* Tomcat의 server.xml이 갱신이 안될 경우&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; --&amp;gt; 아래 경로에 덮어 쓴다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;C:\dev\workspace_test\Servers\Tomcat v7.0 Server at localhost-config\server.xml&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;* 참고&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;http://gongspace.tistory.com/1&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;http://www.avajava.com/tutorials/lessons/how-do-i-set-up-ssl-on-tomcat.html&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;http://lonelycat.tistory.com/325&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;http://blog.naver.com/firia2000/10099886500&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4407-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4407</guid>
+			<comments>http://onjo.tistory.com/4407#entry4407comment</comments>
+			<pubDate>Mon, 12 May 2014 14:06:18 +0900</pubDate>
+		</item>
+		<item>
+			<title>해상도 고찰</title>
+			<link>http://onjo.tistory.com/4406</link>
+			<description>&lt;p class=&quot;p1&quot;&gt;해상도 고찰&lt;/p&gt;&lt;p class=&quot;p2&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;p3&quot;&gt;&lt;span class=&quot;s1&quot;&gt;작성일자 &lt;/span&gt;: 2014-05-08&lt;/p&gt;&lt;p class=&quot;p4&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;p4&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;p4&quot;&gt;------------------------&lt;/p&gt;&lt;p class=&quot;p4&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;- 듀얼링크 DVI : 2560x1600&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;- 싱글링크 DVI : 1920x1080&lt;/p&gt;&lt;p class=&quot;p4&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;- 삼성 U28D590 : 3840x2160 / 28인치&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;- 맥북프로레티나 : 2880x1800 / 15인치&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;- 오픈프레임 AVK-1002F / 2560x1440 / 듀얼링크 DVI&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;- 애플 아이패드 4세대 :2048x1536 / 9.7인치&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;- DELL U2311H : 1920x1080 / 23인치&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;- 델 베뉴 8 프로 : 1280x800 / 8인치&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;- 갤럭시S5 :1920x1080 / 5.1인치&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;- LG 옵티머스 G PRO : 1920x1080 / 5.5 인치&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;- 소니 엑스페리아 Z 울트라 :1920x1080 / 6.4인치&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;- LG G3 : 2560x1440 / 5.5인치 (QHD)&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;p4&quot;&gt;-----------------------&lt;/p&gt;&lt;p class=&quot;p4&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;QHD :2560x1440&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;- FULL HD : 1920x1080&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;480P : 854x480&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;720P :1280x720&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;4K : 4096x2160 혹은 3840x2160&lt;/p&gt;&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;8K : 7680x4320&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;------------------------&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;span class=&quot;s1&quot;&gt;* 4K &lt;/span&gt;재생 모바일 CPU : 퀄컴 스냅드래곤 801&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;* 4K 샘플 영상&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;다운로드 주소&amp;nbsp;: http://e-nautia.com/disk/download.php?id=2148840&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;파일명 &amp;nbsp; : 4k_QHD_RoastDuck_30p.mp4&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;용량&amp;nbsp; &amp;nbsp; : 252.4 MB&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;해상도 &amp;nbsp; : 3840x2160 (4K)&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;재생시간 : 00:00:42&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;tag : 4k roastduck&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4406-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4406</guid>
+			<comments>http://onjo.tistory.com/4406#entry4406comment</comments>
+			<pubDate>Thu, 08 May 2014 00:48:16 +0900</pubDate>
+		</item>
+		<item>
+			<title>크롬 이 페이지를 번역하시겠습니까</title>
+			<link>http://onjo.tistory.com/4403</link>
+			<description>&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;작성일자 : 2014/04/28&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;크롬 이 페이지를 번역하시겠습니까&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 오류 내용 : 구글 크롬이 계속 페이지 번역 팝업이 뜰때&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;- 해결 방법 :&amp;nbsp;고급설정 - 언어 - [ &amp;nbsp;] 사용 언어가 다른 페이지에 대한 번역 옵션 제공 &amp;nbsp;옵션 체크 해제&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;* 크롬 버전 :&amp;nbsp;버전 34.0.1847.116 m&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4403-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4403</guid>
+			<comments>http://onjo.tistory.com/4403#entry4403comment</comments>
+			<pubDate>Mon, 28 Apr 2014 14:29:11 +0900</pubDate>
+		</item>
+		<item>
+			<title>웹에서 이미지 등록후  이미지 출력 안될때</title>
+			<link>http://onjo.tistory.com/4401</link>
+			<description>&lt;p&gt;작성일자 : 2014/04/22&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;100%&quot; border=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;
+&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;100%&quot; border=&quot;0&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td id=&quot;td_contents&quot;&gt;
+&lt;div id=&quot;lineHeighter&quot;&gt;&lt;br /&gt;&lt;!--RcptLink_onjozero_kggroup.co.kr_20140422030825_Start--&gt;&lt;img src=&quot;http://gw.kggroup.co.kr/kor_webroot/src/em/NeoBizMail/mail/check.aspx?receiver=onjozero@kggroup.co.kr&amp;amp;id=onjozero&amp;amp;domain_idx=1&amp;amp;idx=1758&amp;amp;key=168387c99a40445bba11b1af0cac4e3a@onjozero@kggroup.co.kr&quot; width=&quot;0&quot; height=&quot;0&quot;&gt;&lt;!--RcptLink_onjozero_kggroup.co.kr_20140422030825_End--&gt; 
+
+
+
+
+
+
+&lt;p&gt;- 웹에서 이미지 등록후&lt;span style=&quot;font-size: 9pt; line-height: 1.5; background-color: transparent;&quot;&gt;&amp;nbsp; 이미지&amp;nbsp;출력 안될때&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;- 원인&amp;nbsp;: 포토샵 등에서 .jpg 저장시 cmyk 모드로 저장하면&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 일부 단말기에서 이미지 출력이 안됨&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp; &lt;/p&gt;
+&lt;p&gt;-&amp;nbsp; 해결방법&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; (1) .jpg 저장시 cmyk 대신 rgb로 저장하거나&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; (2) irfanview 등에서 save as 해서 다시 저장하고 올려주면 됨&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;- *&amp;nbsp;&lt;u&gt;cmyk 저장시 이미지 용량이 매우 큽니다.&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;- irfanview 파일명 : iview437_setup.exe&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;- irfanview 홈페이지 : &lt;a href=&quot;http://www.irfanview.com/&quot; target=&quot;_blank&quot;&gt;http://www.irfanview.com/&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4401-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4401</guid>
+			<comments>http://onjo.tistory.com/4401#entry4401comment</comments>
+			<pubDate>Tue, 22 Apr 2014 16:06:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>Wolfson DAC chip USB DAC</title>
+			<link>http://onjo.tistory.com/4400</link>
+			<description>&lt;p&gt;작성일자 : 2014-04-12&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Wolfson DAC chip USB DAC&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;——————————————————&lt;/p&gt;&lt;p&gt;- WM8740&lt;/p&gt;&lt;p&gt;iRiver AK10 (아이리버 AK10)&lt;/p&gt;&lt;p&gt;iRiver AK100 (아이리버 AK100)&lt;/p&gt;&lt;p&gt;iRiver AK120 (Dual WM8740) (아이리버 AK120)&lt;/p&gt;&lt;p&gt;Audinst HUD-mx1 (오딘스트 HUD-mx1)&lt;/p&gt;&lt;p&gt;SONY PHA-1 (소니 PHA-1)&lt;/p&gt;&lt;p&gt;FIIO E17&lt;/p&gt;&lt;p&gt;FIIO E07K&lt;/p&gt;&lt;p&gt;FIIO X3&lt;/p&gt;&lt;p&gt;Origen M7 (오리진 M7) : &amp;nbsp;DAC내장 인티앰프 / DAC는 24/96을 지원하는 울프슨 8740 이 적용&lt;/p&gt;&lt;p&gt;——————————————————&lt;/p&gt;&lt;p&gt;- WM8741&lt;/p&gt;&lt;p&gt;ARCAM rDAC&lt;/p&gt;&lt;p&gt;호텔 RDD-06&lt;/p&gt;&lt;p&gt;카푸치노 DAC&lt;/p&gt;&lt;p&gt;LUMIN MUSIC PLAYER&lt;/p&gt;&lt;p&gt;——————————————————&lt;/p&gt;&lt;p&gt;- WM8742 (DSD 지원)&lt;/p&gt;&lt;p&gt;Lindemann(린데만) USB-DAC 24/192 / 100 옴 (단점 : 프리앰프 필요)&lt;/p&gt;&lt;p&gt;REGA DAC (체가 DAC) WM8742 Dual&amp;nbsp;&lt;/p&gt;&lt;p&gt;Cambridge Audio 댁매직(DacMagic) 100&lt;/p&gt;&lt;p&gt;RAL-DSDHA1 DAC&lt;/p&gt;&lt;p&gt;——————————————————&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;publish to onjo.tistory.com&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4400-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4400</guid>
+			<comments>http://onjo.tistory.com/4400#entry4400comment</comments>
+			<pubDate>Sat, 12 Apr 2014 21:12:09 +0900</pubDate>
+		</item>
+		<item>
+			<title>favicon (파비콘) 예제</title>
+			<link>http://onjo.tistory.com/4399</link>
+			<description>&lt;p&gt;&amp;lt;link rel=&quot;shortcut icon&quot; type=&quot;image/x-icon&quot; href=&quot;/favicon.ico?1&quot; /&amp;gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;favicon 추가 사이트&lt;/p&gt;&lt;p&gt;http://www.favicon.cc/?&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;TAG&lt;/p&gt;&lt;p&gt;favicon (파비콘) 예제&lt;/p&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4399-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<category>favicon (파비콘) 예제</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4399</guid>
+			<comments>http://onjo.tistory.com/4399#entry4399comment</comments>
+			<pubDate>Fri, 11 Apr 2014 13:09:28 +0900</pubDate>
+		</item>
+		<item>
+			<title>DELL T320 / T420 / T620 비교</title>
+			<link>http://onjo.tistory.com/4398</link>
+			<description>&lt;table width=&quot;432&quot; style=&quot;width: 324pt; border-collapse: collapse; table-layout: fixed;&quot; border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr height=&quot;22&quot; style=&quot;height: 16.5pt;&quot;&gt;&lt;td class=&quot;xl68&quot; style=&quot;border-left-color: currentColor; border-left-width: medium; border-left-style: none;&quot;&gt;　&lt;/td&gt;&lt;td class=&quot;xl68&quot; style=&quot;border-left-color: currentColor; border-left-width: medium; border-left-style: none;&quot;&gt;T320&lt;/td&gt;&lt;td class=&quot;xl68&quot; style=&quot;border-left-color: currentColor; border-left-width: medium; border-left-style: none;&quot;&gt;T420&lt;/td&gt;&lt;td class=&quot;xl69&quot; style=&quot;border-left-color: currentColor; border-left-width: medium; border-left-style: none;&quot;&gt;T620&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;22&quot; style=&quot;height: 16.5pt;&quot;&gt;&lt;td height=&quot;22&quot; style=&quot;height: 16.5pt;&quot;&gt;&lt;/td&gt;&lt;td class=&quot;xl70&quot; style=&quot;border-top-color: currentColor; border-top-width: medium; border-top-style: none;&quot; rowspan=&quot;2&quot;&gt;CPU&lt;/td&gt;&lt;td class=&quot;xl65&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;지원모델&lt;/td&gt;&lt;td class=&quot;xl65&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;E5-2400&lt;/td&gt;&lt;td class=&quot;xl65&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;E5-2400&lt;/td&gt;&lt;td class=&quot;xl71&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;E5-2600&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;22&quot; style=&quot;height: 16.5pt;&quot;&gt;&lt;td height=&quot;22&quot; style=&quot;height: 16.5pt;&quot;&gt;&lt;/td&gt;&lt;td class=&quot;xl65&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;소켓 갯수&lt;/td&gt;&lt;td class=&quot;xl66&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;1&lt;/td&gt;&lt;td class=&quot;xl66&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;2&lt;/td&gt;&lt;td class=&quot;xl72&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;2&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;22&quot; style=&quot;height: 16.5pt;&quot;&gt;&lt;td height=&quot;22&quot; style=&quot;height: 16.5pt;&quot;&gt;&lt;/td&gt;&lt;td class=&quot;xl70&quot; style=&quot;border-top-color: currentColor; border-top-width: medium; border-top-style: none;&quot;&gt;M/B&lt;/td&gt;&lt;td class=&quot;xl65&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;칩셋&lt;/td&gt;&lt;td class=&quot;xl66&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;C600&lt;/td&gt;&lt;td class=&quot;xl66&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;C600&lt;/td&gt;&lt;td class=&quot;xl72&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;C600&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;22&quot; style=&quot;height: 16.5pt;&quot;&gt;&lt;td height=&quot;22&quot; style=&quot;height: 16.5pt;&quot;&gt;&lt;/td&gt;&lt;td class=&quot;xl70&quot; style=&quot;border-top-color: currentColor; border-top-width: medium; border-top-style: none;&quot; rowspan=&quot;2&quot;&gt;RAM&lt;/td&gt;&lt;td class=&quot;xl65&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;MAX&lt;/td&gt;&lt;td class=&quot;xl66&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;192GB&lt;/td&gt;&lt;td class=&quot;xl66&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;384GB&lt;/td&gt;&lt;td class=&quot;xl72&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;768GB&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;22&quot; style=&quot;height: 16.5pt;&quot;&gt;&lt;td height=&quot;22&quot; style=&quot;height: 16.5pt;&quot;&gt;&lt;/td&gt;&lt;td class=&quot;xl65&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;DIMM&lt;/td&gt;&lt;td class=&quot;xl66&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;6&lt;/td&gt;&lt;td class=&quot;xl66&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;12&lt;/td&gt;&lt;td class=&quot;xl72&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;24&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;22&quot; style=&quot;height: 16.5pt;&quot;&gt;&lt;td height=&quot;22&quot; style=&quot;height: 16.5pt;&quot;&gt;&lt;/td&gt;&lt;td class=&quot;xl70&quot; style=&quot;border-top-color: currentColor; border-top-width: medium; border-top-style: none;&quot;&gt;HDD&lt;/td&gt;&lt;td class=&quot;xl65&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;3.5&quot;&lt;/td&gt;&lt;td class=&quot;xl66&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;8&lt;/td&gt;&lt;td class=&quot;xl66&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;8&lt;/td&gt;&lt;td class=&quot;xl72&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;12&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;22&quot; style=&quot;height: 16.5pt;&quot;&gt;&lt;td height=&quot;22&quot; style=&quot;height: 16.5pt;&quot;&gt;&lt;/td&gt;&lt;td class=&quot;xl70&quot; style=&quot;border-top-color: currentColor; border-top-width: medium; border-top-style: none;&quot;&gt;POWER&lt;/td&gt;&lt;td class=&quot;xl65&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;　&lt;/td&gt;&lt;td class=&quot;xl66&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;350W&lt;/td&gt;&lt;td class=&quot;xl66&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;550W&lt;/td&gt;&lt;td class=&quot;xl72&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;495W&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;23&quot; style=&quot;height: 17.25pt;&quot;&gt;&lt;td height=&quot;23&quot; style=&quot;height: 17.25pt;&quot;&gt;&lt;/td&gt;&lt;td class=&quot;xl73&quot; style=&quot;border-top-color: currentColor; border-top-width: medium; border-top-style: none;&quot;&gt;VGA&lt;/td&gt;&lt;td class=&quot;xl74&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;　&lt;/td&gt;&lt;td class=&quot;xl75&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;　&lt;/td&gt;&lt;td class=&quot;xl75&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;　&lt;/td&gt;&lt;td class=&quot;xl76&quot; style=&quot;border-top-color: currentColor; border-left-color: currentColor; border-top-width: medium; border-left-width: medium; border-top-style: none; border-left-style: none;&quot;&gt;　&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;66&quot; style=&quot;height: 49.5pt; mso-xlrowspan: 3;&quot;&gt;&lt;td height=&quot;66&quot; style=&quot;height: 49.5pt; mso-ignore: colspan;&quot; colspan=&quot;6&quot;&gt;작성일자 : 2014/04/10&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;tag&lt;br /&gt;DELL T320 / T420 / T620 비교&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- T320 과 T620 케이스 크기는 같다&lt;/p&gt;&lt;p&gt;- T320은 소음이 적다&lt;/p&gt;&lt;p&gt;- T320은 RAM 타입을 가리지 않음 : ECC, REG, UNBUFFERER ECC 모두 지원&lt;/p&gt;&lt;p&gt;- T320 은 파워가 약하다. 파워 업그레이드는 부품수급 어렵고 돈 많이 든다.&lt;/p&gt;&lt;p&gt;- T320 &amp;nbsp;핫스왑베이옵션만 구입못 함&lt;/p&gt;&lt;p&gt;- 기본형과 고급형은 전면 하드베이들어가는 샷시구조 자체가 다름&lt;/p&gt;&lt;p&gt;- 기본형에는 3,5인치 하드4개만 장착할 수 있다.&lt;/p&gt;&lt;p&gt;- 기본형과 고급형은 기본 샷시 태생이다름&lt;/p&gt;&lt;p&gt;- 베이직은 350W ,&amp;nbsp;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;고급모델들은 redundant 495W , 750W&lt;/span&gt;&lt;/p&gt;&lt;p&gt;- TX100 S3P 보다 T320이&amp;nbsp;전력을 많이 먹음&lt;/p&gt;&lt;p&gt;- 16GB * 6 = 96GB 가능 : T320&lt;/p&gt;&lt;p&gt;&amp;nbsp; 출처 :2CPU&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4398-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4398</guid>
+			<comments>http://onjo.tistory.com/4398#entry4398comment</comments>
+			<pubDate>Thu, 10 Apr 2014 00:03:52 +0900</pubDate>
+		</item>
+		<item>
+			<title>맥 트리플모니터 고찰</title>
+			<link>http://onjo.tistory.com/4397</link>
+			<description>&lt;p&gt;작성일자 : 2014-03-23&lt;/p&gt;&lt;p&gt;수정일자&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;본체 : 애플 맥북 프로 레티나&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(좌) 레티나 : NATIVE&amp;nbsp;(해상도) / 2880x1800&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(중) HDMI&amp;nbsp;/ HDMI TO DVI /&amp;nbsp;1920x1080 / DELL 2311H&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(우) 썬더볼트 / 썬더볼트 TO DUAL LINK DVI&amp;nbsp;/&amp;nbsp;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;2560x1440 /&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;AVK-1002F 오픈프레임&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;-----------------&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;맥미니&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;(좌) 썬더볼트--&amp;gt;DVI (미니DP OUT - 미니 DP TO DVI 젠더(정품) - DVI IN) DELL 모니터&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(중) USB 3.0 --&amp;gt; HDMI (USB 3.0 OUT- USB 3.0 TO HDMI 젠더 - HDMI IN) LG 모니터&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(하) HDMI --&amp;gt; DVI (HDMI OUT - HDMI TO DVI 젠더 - DVI IN)&amp;nbsp;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;DELL 모니터&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;strike&gt;(좌) HDMI / HDMI TO HDMI / 1920x1080 / LG 모니터&lt;/strike&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;strike&gt;&lt;br /&gt;&lt;/strike&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;strike&gt;(중) 썬더볼트 / 썬더볼트 TO DVI / ????x???&lt;/strike&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;strike&gt;&lt;br /&gt;&lt;/strike&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;strike&gt;(우) USB 3.0 / USB 3.0 TO HDMI / ????x???&lt;/strike&gt;&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4397-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>뽐뿌질</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4397</guid>
+			<comments>http://onjo.tistory.com/4397#entry4397comment</comments>
+			<pubDate>Sun, 23 Mar 2014 10:45:45 +0900</pubDate>
+		</item>
+		<item>
+			<title>PC-FI 고찰</title>
+			<link>http://onjo.tistory.com/4396</link>
+			<description>&lt;p&gt;작성일자 : 2014-03-10&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;PC-FI 고찰&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(1) H/W&lt;/p&gt;&lt;p&gt;Apple MacBook Retina&lt;/p&gt;&lt;p&gt;EGA VIVO MK2 (amp) (usb dac)&lt;/p&gt;&lt;p&gt;Wharfedale Diamond 7.1 (Speaker)&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(1) OS&lt;/p&gt;&lt;p&gt;OSX, WINDOWS 7, Xpenology&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(2) 음원 파일&lt;/p&gt;&lt;p&gt;MP3, OGG, FLAC, DSD(.DFF)&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;(3) S/W Music Player&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105); font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Trebuchet MS', Helvetica, Arial, sans-serif; line-height: 21px;&quot;&gt;Audirvana&lt;/span&gt;&lt;span style=&quot;color: rgb(105, 105, 105); font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Trebuchet MS', Helvetica, Arial, sans-serif; line-height: 21px;&quot;&gt;&amp;nbsp;Plus (MAC OSX) :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; line-height: 21px;&quot;&gt;&lt;font color=&quot;#696969&quot; face=&quot;Lucida Sans Unicode, Lucida Grande, Trebuchet MS, Helvetica, Arial, sans-serif&quot;&gt;http://audirvana.com/&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(105, 105, 105); font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Trebuchet MS', Helvetica, Arial, sans-serif; line-height: 21px;&quot;&gt;JRIVER (WINDOWS) :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; line-height: 21px;&quot;&gt;&lt;font color=&quot;#696969&quot; face=&quot;Lucida Sans Unicode, Lucida Grande, Trebuchet MS, Helvetica, Arial, sans-serif&quot;&gt;http://www.jriver.com/&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: monospace; font-size:12pt; line-height: normal; white-space: pre-wrap;&quot;&gt;web player - Synology DiskStation - DiskStation (&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;Xpenology)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; line-height: 21px;&quot;&gt;&lt;font color=&quot;#696969&quot; face=&quot;Lucida Sans Unicode, Lucida Grande, Trebuchet MS, Helvetica, Arial, sans-serif&quot;&gt;&lt;br /&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; line-height: 21px;&quot;&gt;&lt;font color=&quot;#696969&quot; face=&quot;Lucida Sans Unicode, Lucida Grande, Trebuchet MS, Helvetica, Arial, sans-serif&quot;&gt;참고 : 윈도우 및 맥 DSD 음원 재생방법&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; line-height: 21px;&quot;&gt;&lt;font color=&quot;#696969&quot; face=&quot;Lucida Sans Unicode, Lucida Grande, Trebuchet MS, Helvetica, Arial, sans-serif&quot;&gt;http://cafe.naver.com/drhp/437538&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4396-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>음악</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4396</guid>
+			<comments>http://onjo.tistory.com/4396#entry4396comment</comments>
+			<pubDate>Sun, 16 Mar 2014 21:56:47 +0900</pubDate>
+		</item>
+		<item>
+			<title>ASUS P7H55 usb boot</title>
+			<link>http://onjo.tistory.com/4395</link>
+			<description>&lt;p&gt;ASUS&amp;nbsp;P7H55 usb boot&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;* USB 부팅 지원됨&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;1. Removable dev &amp;nbsp;(removable device 선택)&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;2. hdd priority 에서 USB를 최상위로 선택&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;참고&lt;/p&gt;&lt;p&gt;http://bemoresee.tistory.com/9&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;http://kin.naver.com/qna/detail.nhn?d1id=1&amp;amp;dirId=1010304&amp;amp;docId=116416704&amp;amp;qb=UDdINTUgdXNiIGJvb3Q=&amp;amp;enc=utf8&amp;amp;section=kin&amp;amp;rank=1&amp;amp;search_sort=0&amp;amp;spq=0&amp;amp;pid=Rwb4olpySp4sssA8krossssssts-217657&amp;amp;sid=UwGIogpyVpIAAAi8YnU&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;http://x86osx.com/bbs/view.php?id=after&amp;amp;no=7076&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4395-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4395</guid>
+			<comments>http://onjo.tistory.com/4395#entry4395comment</comments>
+			<pubDate>Mon, 17 Feb 2014 13:03:48 +0900</pubDate>
+		</item>
+		<item>
+			<title>Microsoft Remote Desktop 듀얼모니터 설정 방법</title>
+			<link>http://onjo.tistory.com/4394</link>
+			<description>&lt;p&gt;작성일자 : 2014/02/02&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Microsoft Remote Desktop 듀얼모니터 설정 방법&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;테스트 환경&lt;/p&gt;&lt;p&gt;&amp;lt;Host (Server)&amp;gt;&lt;/p&gt;&lt;p&gt;cpu : i7&lt;/p&gt;&lt;p&gt;ram : 16GB&lt;/p&gt;&lt;p&gt;storage : 256GB SSD&lt;/p&gt;&lt;p&gt;os : Windows 7 Ultimate (x64)&lt;/p&gt;&lt;p&gt;remote app server : windows rdp 기본&lt;/p&gt;&lt;p&gt;&amp;nbsp;* WIN7에서 remote fx 옵션을 활성화 하였음&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&amp;lt;Client&amp;gt;&lt;/p&gt;&lt;p&gt;cpu : i7&lt;/p&gt;&lt;p&gt;ram : 16GB&lt;/p&gt;&lt;p&gt;storage : 256GB SSD&lt;/p&gt;&lt;p&gt;os : Apple Mac OSX 10.8.5&lt;/p&gt;&lt;p&gt;remote app : Microsoft Remote Desktop 8.0.24091&lt;/p&gt;&lt;p&gt;접속방식 : vpn(Ciso IPSec) + RDP (app :&amp;nbsp;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;Microsoft Remote Desktop)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(255, 0, 0);&quot;&gt;- RDP 연결시 듀얼모니터 설정을 하려면&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 9pt; line-height: 1.5; color: rgb(255, 0, 0);&quot;&gt;Microsoft Remote Desktop - Edit Remote Desktops 에서 'Use all monitor' 에 체크하고 연결하면 된다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 9pt; line-height: 1.5; color: rgb(255, 0, 0);&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 9pt; line-height: 1.5; color: rgb(255, 0, 0);&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 9pt; line-height: 1.5; color: rgb(0, 0, 0);&quot;&gt;참고 :&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;http://chunchu.tistory.com/378&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;http://blog.naver.com/jae4322/120191349326&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;tag :&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;micro remote desktop dual monitor&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4394-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>1.맥</category>
+			<category>micro remote desktop dual monitor</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4394</guid>
+			<comments>http://onjo.tistory.com/4394#entry4394comment</comments>
+			<pubDate>Sun, 02 Feb 2014 15:44:23 +0900</pubDate>
+		</item>
+		<item>
+			<title>You Need webXvid codec To Watch This Video</title>
+			<link>http://onjo.tistory.com/4393</link>
+			<description>&lt;p&gt;작성일자 : 2014/01/30&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;You Need webXvid codec&amp;nbsp;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;To Watch This Video&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Free download available&amp;nbsp;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;in the readme file&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;-&amp;gt; the virus 파일. 악성코드&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;-&amp;gt; 삭제할 것. 코덱 아님. 바이러스임&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;참조 : http://kickass.to/community/show/what-webxvid-codec/&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 1.8GB .avi 파일&lt;/p&gt;&lt;p&gt;- 00:00:06 짜리 동영상&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4393-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<category>Codec</category>
+			<category>webXvid</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4393</guid>
+			<comments>http://onjo.tistory.com/4393#entry4393comment</comments>
+			<pubDate>Thu, 30 Jan 2014 12:52:04 +0900</pubDate>
+		</item>
+		<item>
+			<title>svn 폴더 삭제하기</title>
+			<link>http://onjo.tistory.com/4392</link>
+			<description>&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;svn 폴더 삭제하기&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;1. windows&lt;/p&gt;&lt;p&gt;@FOR /R %1 %%1 IN (.svn) DO RMDIR /S /Q &quot;%%1&quot;&lt;/p&gt;&lt;p&gt;@PAUSE&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;2. unix&lt;/p&gt;&lt;p&gt;find . -name &quot;.svn&quot; -exec rm &amp;nbsp;-rf {} \; -print&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;참조&lt;/p&gt;&lt;p&gt;http://www.codeigniter-kr.org/tip/view/794&lt;/p&gt;&lt;p&gt;http://blog.naver.com/jadin1/70167603521&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4392-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4392</guid>
+			<comments>http://onjo.tistory.com/4392#entry4392comment</comments>
+			<pubDate>Thu, 02 Jan 2014 10:26:30 +0900</pubDate>
+		</item>
+		<item>
+			<title>nircmd</title>
+			<link>http://onjo.tistory.com/4391</link>
+			<description>&lt;p&gt;작성일자 : 2013/12/27&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;nircmd&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;nircmd.exe 을 활용하여 도스창 안뜨게 명령어 실행하기.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;http://looi.egloos.com/viewer/3428369&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4391-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4391</guid>
+			<comments>http://onjo.tistory.com/4391#entry4391comment</comments>
+			<pubDate>Fri, 27 Dec 2013 22:57:17 +0900</pubDate>
+		</item>
+		<item>
+			<title>탐색기 검토 : Q-Dir, xplorer2</title>
+			<link>http://onjo.tistory.com/3996</link>
+			<description>&lt;p&gt;&lt;/p&gt;&lt;p&gt;작성일자 : 2012-11-15&lt;/p&gt;&lt;p&gt;수정일자 : 2012-12-26&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;2013-10-28&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;----------------------------------------&lt;/p&gt;&lt;p&gt;Total Commander&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;----------------------------------------&lt;/p&gt;&lt;p&gt;Q-Dir&lt;/p&gt;&lt;p&gt;- Mr.shin&lt;/p&gt;&lt;p&gt;공식 홈페이지 : http://www.softwareok.com/?seite=Freeware/Q-Dir&lt;/p&gt;&lt;p&gt;다운로드 주소 : http://www.softwareok.com/?Download=Q-Dir&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;----------------------------------------&lt;/p&gt;&lt;p&gt;Q-Dir, 탐색기 대신 쓸만한 프로그램&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Nexus File (구 X-File)&lt;/p&gt;&lt;p&gt;----------------------------------------&lt;/p&gt;&lt;p&gt;Win M&lt;/p&gt;&lt;p&gt;----------------------------------------&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;xplorer2&amp;nbsp;&amp;nbsp;(상용)&lt;/p&gt;&lt;p&gt;- Mr.moons&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;파일 관리 매니저 xplorer2&amp;nbsp;&lt;/p&gt;&lt;p&gt;http://zabkat.com/&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;http://mastmanban.tistory.com/104&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;----------------------------------------&lt;/p&gt;&lt;p&gt;- 프리웨어/쉐어웨어&lt;/p&gt;&lt;p&gt;- 창분할 지원 (2개 ~ 4개)&lt;/p&gt;&lt;p&gt;- 경량, 빠른 속도&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-3996-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/3996</guid>
+			<comments>http://onjo.tistory.com/3996#entry3996comment</comments>
+			<pubDate>Mon, 28 Oct 2013 11:04:53 +0900</pubDate>
+		</item>
+		<item>
+			<title>윈도우 화면 캡처 프로그램 고찰</title>
+			<link>http://onjo.tistory.com/4388</link>
+			<description>&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;작성일자 :&amp;nbsp;2013/10/25&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;윈도우 화면 캡처 프로그램 고찰&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 오픈캡처 : open capture_v1.1.4 / 옛날버전 (무료버전)&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&amp;nbsp;&lt;/span&gt;알캡처ALCapture 1.81&lt;/p&gt;&lt;p&gt;&amp;nbsp; -&amp;gt; 직관적임. 기업 사용도 ok!&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;-&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&amp;nbsp;&lt;/span&gt;반디카메라 2.03&lt;/p&gt;&lt;p&gt;&amp;nbsp; -&amp;gt; 인터페이스가 못 쓸 수준임&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4388-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4388</guid>
+			<comments>http://onjo.tistory.com/4388#entry4388comment</comments>
+			<pubDate>Fri, 25 Oct 2013 10:37:38 +0900</pubDate>
+		</item>
+		<item>
+			<title>맥과 모토로라 아트릭스 랩독과의 호환성 문제</title>
+			<link>http://onjo.tistory.com/4387</link>
+			<description>&lt;p&gt;작성일자 : 2013-10-20&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 맥과 모토로라 아트릭스 랩독과의 호환성 문제 (2013/10/20)&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp; - HDMI no signal 에러 발생시 문제원인 및 해결 불가&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;gt; 맥, 랩독&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;전원 차단후 7시간 정도 지나면 다시 될 수 도 있는 것 같음&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;gt; 호환성 이슈가 좀 있는 것으로 판단됨&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;gt; 아이패드 4세대 + hdmi 젠더 + 랩독 조합은 다수 테스트시에도 이상이 없음&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;gt; 맥미니 + HDMI to DVI 젠더 +&amp;nbsp;U2311H (DVI 입력) 시 이상 없음&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;- 맥 HDMI 호환성 이슈가 있는 것으로 판단됨&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt; 해외포럼 (맥루머), 국내 검색시(클리앙 맥포럼) 이상 현상 호소 글 다수&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt; &amp;nbsp;mac hdmi issue,&amp;nbsp;macmini hdmi issue&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt;&amp;nbsp;http://forums.macrumors.com/showthread.php?t=1530436&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt;&amp;nbsp;https://discussions.apple.com/thread/4497508?start=75&amp;amp;tstart=0&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt;&amp;nbsp;http://www.clien.net/cs2/bbs/board.php?bo_table=cm_mac&amp;amp;wr_id=669995&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt;&amp;nbsp;http://www.clien.net/cs2/bbs/board.php?bo_table=cm_mac&amp;amp;wr_id=613956&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- &lt;b&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;맥미니의 전원 LED는 앞면에 있다.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 맥은 썬더볼트 포트(미니DP 호환)을 이용해 쉽게 트리플모니터 구성이 가능하다&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt; 맥미니 2012&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; 가. (1) HDMI to HDMI (2) 썬더볼트 to DVI (애플 미니DP to DVI 젠더 사용)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; 나.&amp;nbsp;(1) HDMI to HDMI (2) 썬더볼트 to D-SUB (애플 미니DP to D-SUB 젠더 사용)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; 다.&amp;nbsp;(1) HDMI to HDMI (2) 썬더볼트 to HDMI (MOSHI 미니DP to HDMI 젠더 사용)&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt; 맥북 프로 레티나&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; 가. (1) 본체 내장 모니터&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; 나.&amp;nbsp;(1)&amp;nbsp;본체 내장 모니터&amp;nbsp;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;(2) HDMI to HDMI&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;(3) 썬더볼트1번 to D-SUB (애플 미니DP to D-SUB 젠더 사용)&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5; background-color: transparent;&quot;&gt;&amp;nbsp;(4)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5; background-color: transparent;&quot;&gt;썬더볼트2번 to HDMI&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; 다.&amp;nbsp;(1)&amp;nbsp;본체 내장 모니터&amp;nbsp;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;(2) HDMI to HDMI&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;(3) 썬더볼트1번 to HDMI (MOSHI 미니DP to HDMI 젠더 사용) (4)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;썬더볼트2번 to HDMI&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp;- 맥 PRAM, SMS 초기화 방법&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;gt;&amp;nbsp;http://macnews.tistory.com/742&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;http://tube.blog.me/60193431957&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;gt; command + option + p + r&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp;- 부트캠프 윈도7 에서 블루투스 키보드를 인식하려면?&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;&amp;nbsp; &amp;nbsp; 맥에서 먼저 인식시켜야 드라이버 설치됨&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;gt; matias 블투 맥 키보드&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;- 맥 EFI 펌웨어 업데이트 다운로드 홈페이지&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;gt; http://support.apple.com/kb/HT1237?viewlocale=ko_KR&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;gt;&amp;nbsp;MacminiEFIUpdate1.7.dmg&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;- 케이맥 윈키 에서 부팅시 OS 선택&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;gt; 오른쪽 ALT 누르고 부팅하면 됨&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;------------------------&lt;/p&gt;&lt;p&gt;(2013/10/24 추가)&lt;/p&gt;&lt;p&gt;(추가) 맥미니 - 랩독 문제 원인 파악 추가&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 맥 hdmi 출력신호가 좀 늦게 나온다.(맥미니)&lt;/p&gt;&lt;p&gt;- 윈도7 복구모드로 들어가면 화면이 안나온다.&lt;/p&gt;&lt;p&gt;- 미니dp to DVI 신호는 부팅시부터 잘 나온다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 조치사항 :&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt; 맥용 유선 윈키 키보드 (부트캠프 부팅시 os 선택 용도)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt; 7인치 hdmi 모니터 (부팅될때까지 화면 출력용)&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt; rgb 모니터 ??&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4387-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>1.맥</category>
+			<category>맥</category>
+			<category>맥 PRAM</category>
+			<category>맥미니 HDMI 인식</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4387</guid>
+			<comments>http://onjo.tistory.com/4387#entry4387comment</comments>
+			<pubDate>Sun, 20 Oct 2013 12:11:31 +0900</pubDate>
+		</item>
+		<item>
+			<title>오라클 엔터값 제거</title>
+			<link>http://onjo.tistory.com/4369</link>
+			<description>&lt;p&gt;작성일자 : 2013-07-10&lt;/p&gt;&lt;p&gt;배포 : 티스토리, 에버노트&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;오라클 엔터값 제거&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;SELECT REPLACE(REPLACE(INTRCP_RSN, CHR(13), ''), CHR(10),'') A -- 먹음 (엔터 제거됨)&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;, REPLACE(INTRCP_RSN, CHR(13)||CHR(10), '') B -- 안먹음&lt;/p&gt;&lt;p&gt;, REPLACE(INTRCP_RSN, CHR(13), '') C -- 안먹음&lt;/p&gt;&lt;p&gt;, A.* FROM AA_TABLE A&lt;/p&gt;&lt;p&gt;WHERE A.INTRCP_RSN LIKE '%그룹%'&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;참고&lt;/p&gt;&lt;p&gt;http://blog.naver.com/hyde8379/20166064304&lt;/p&gt;&lt;p&gt;http://blog.naver.com/umhyun2/70072916238&lt;/p&gt;&lt;p&gt;http://blog.naver.com/nash8205/150086046540&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4369-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4369</guid>
+			<comments>http://onjo.tistory.com/4369#entry4369comment</comments>
+			<pubDate>Wed, 10 Jul 2013 09:25:07 +0900</pubDate>
+		</item>
+		<item>
+			<title>맥북 프로 레티나 삼성/lg 패널 판별방법</title>
+			<link>http://onjo.tistory.com/4340</link>
+			<description>&lt;p&gt;
+
+
+
+
+
+
+
+&lt;p class=&quot;p1&quot;&gt;작성일자 : 2013-05-04&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;맥북 프로 레티나 삼성/lg 패널 판별방법&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;터미널에서&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;p class=&quot;p1&quot;&gt;맥북프로 레티나의 패널 제조사를 확인하는 방법은 터미널을 열고&amp;nbsp;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;ioreg -lw0 | grep \&quot;EDID\&quot; | sed &quot;/[^&amp;lt;]*&amp;lt;/s///&quot; | xxd -p -r | strings -6&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;LP로 시작하는 값이 나오면 LG 패널,&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;LSN으로 시작하는 값이 나오면 삼성 패널&lt;/p&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;참고 :&amp;nbsp;http://makehappy.tistory.com/19&lt;/p&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4340-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>1.맥</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4340</guid>
+			<comments>http://onjo.tistory.com/4340#entry4340comment</comments>
+			<pubDate>Sat, 04 May 2013 21:59:22 +0900</pubDate>
+		</item>
+		<item>
+			<title>맥에서 프로그램 삭제하기</title>
+			<link>http://onjo.tistory.com/4307</link>
+			<description>&lt;p&gt;작성일자 : 2013-04-14&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;맥에서 프로그램 삭제하기&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;http://cafe.naver.com/inmacbook/667540&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;맥 파일 관리하는 점에서 윈도우와 상당히 틀립니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;일단 원하시는 답변부터 설명하자면 파인더를 실행시켜서 응용프로그램으로 들어가신후&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;지우고자하는 앱을 휴지통으로 옮겨서 지우시면 됩니다-_-&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;윈도우같은 경우는 지울려면 제어판 프로그램추가삭제에서 지우고 또 그 와 관련된 레지스트리까지 삭제 하는등&lt;/p&gt;&lt;p&gt;번거운점이 많지만 맥같은 경우는 해당 어플리케이션만 지우주시면 됩니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;다른 방법으로는 앱을 지우는 앱을 구입하시면 됩니다 Cleanapp 같은 어플은 지우고자 하는 어플을 분석해&lt;/p&gt;&lt;p&gt;무엇을 지우는지 용량은 얼마인지를 분석을 해서 지웁니다.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4307-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>1.맥</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4307</guid>
+			<comments>http://onjo.tistory.com/4307#entry4307comment</comments>
+			<pubDate>Sun, 14 Apr 2013 11:27:58 +0900</pubDate>
+		</item>
+		<item>
+			<title>맥에서 캡처하기</title>
+			<link>http://onjo.tistory.com/4283</link>
+			<description>&lt;p&gt;2013-02-21&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;맥에서 화면 캡쳐&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;
+
+
+
+
+
+
+
+&lt;/p&gt;&lt;p class=&quot;p1&quot;&gt;&lt;a href=&quot;http://theblue.tistory.com/201&quot;&gt;&lt;b&gt;맥에서&lt;/b&gt;&lt;span class=&quot;s1&quot;&gt;&lt;b&gt; &lt;/b&gt;&lt;/span&gt;&lt;b&gt;캡처하기&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p class=&quot;p2&quot;&gt;&lt;span class=&quot;s2&quot;&gt;&lt;a href=&quot;http://theblue.tistory.com/category/iT/Mac&quot;&gt;iT/Mac&lt;/a&gt;&lt;/span&gt;&lt;span class=&quot;s3&quot;&gt; &lt;/span&gt;2012/12/23 19:43&lt;/p&gt;
+&lt;p class=&quot;p3&quot;&gt;&lt;b&gt;파일로&lt;/b&gt;&lt;span class=&quot;s4&quot;&gt;&lt;b&gt; &lt;/b&gt;&lt;/span&gt;&lt;b&gt;저장&lt;/b&gt;&lt;/p&gt;
+&lt;p class=&quot;p4&quot;&gt;&lt;span class=&quot;s5&quot;&gt;전체화면&lt;/span&gt; &lt;span class=&quot;s5&quot;&gt;캡처&lt;/span&gt;&lt;span class=&quot;s6&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;Shift + Command + 3&lt;/p&gt;
+&lt;p class=&quot;p4&quot;&gt;&lt;span class=&quot;s5&quot;&gt;부분화면&lt;/span&gt; &lt;span class=&quot;s5&quot;&gt;캡처&lt;/span&gt;&lt;span class=&quot;s6&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;Shift + Command + 4&lt;/p&gt;
+&lt;p class=&quot;p5&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p class=&quot;p3&quot;&gt;&lt;b&gt;클립보드로&lt;/b&gt;&lt;span class=&quot;s4&quot;&gt;&lt;b&gt; &lt;/b&gt;&lt;/span&gt;&lt;b&gt;저장&lt;/b&gt;&lt;/p&gt;
+&lt;p class=&quot;p4&quot;&gt;&lt;span class=&quot;s5&quot;&gt;전체화면&lt;/span&gt; &lt;span class=&quot;s5&quot;&gt;캡처&lt;/span&gt;&lt;span class=&quot;s6&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;Control + Shift + Command + 3&lt;/p&gt;
+&lt;p class=&quot;p4&quot;&gt;&lt;span class=&quot;s5&quot;&gt;부분화면&lt;/span&gt; &lt;span class=&quot;s5&quot;&gt;캡처&lt;/span&gt;&lt;span class=&quot;s6&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;Control + Shift + Command + 4&lt;/p&gt;
+&lt;p class=&quot;p5&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p class=&quot;p3&quot;&gt;&lt;b&gt;프로그램으로&lt;/b&gt;&lt;span class=&quot;s4&quot;&gt;&lt;b&gt; &lt;/b&gt;&lt;/span&gt;&lt;b&gt;캡처하기&lt;/b&gt;&lt;/p&gt;
+&lt;p class=&quot;p4&quot;&gt;Skitch&lt;/p&gt;
+&lt;p class=&quot;p3&quot;&gt;화면&lt;span class=&quot;s4&quot;&gt; &lt;/span&gt;캡처&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4283-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>1.맥</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4283</guid>
+			<comments>http://onjo.tistory.com/4283#entry4283comment</comments>
+			<pubDate>Tue, 05 Mar 2013 03:08:06 +0900</pubDate>
+		</item>
+		<item>
+			<title>맥 커맨드키 한글</title>
+			<link>http://onjo.tistory.com/4266</link>
+			<description>&lt;p&gt;작성일자 : 2013-02-19&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;맥 커맨드키 한글&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 바람 입력기 설치&lt;/p&gt;&lt;p&gt;http://baram.or.kr/&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;바람 입력기 1.5.2&lt;/p&gt;&lt;p&gt;마운틴 라이언에서 정상 작동 확인됨&lt;/p&gt;&lt;p&gt;작성일자 : 2013-02-10&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;*&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: dotum; font-size: 9pt; line-height: 1.5;&quot;&gt;KeyRemap4MacBook 은 설정이 어려운 것 같고 바람 입력기 추천&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: dotum; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: dotum; font-size: 9pt; line-height: 1.5;&quot;&gt;* 설정 작업후 로그아웃해야 함&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4266-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>1.맥</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4266</guid>
+			<comments>http://onjo.tistory.com/4266#entry4266comment</comments>
+			<pubDate>Tue, 19 Feb 2013 01:02:48 +0900</pubDate>
+		</item>
+		<item>
+			<title>맥 부팅 옵션</title>
+			<link>http://onjo.tistory.com/4242</link>
+			<description>&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: justify;&quot;&gt;작성일자 : 2013-02-15&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: justify;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: justify;&quot;&gt;부팅시작과 함께 누르고 있으면 됩니다.&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); text-align: justify;&quot;&gt;&lt;br style=&quot;color: rgb(0, 0, 0); text-align: justify;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: justify; font-size: 10pt;&quot;&gt;[C] : CD/DVD로 시동합니다.&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); text-align: justify;&quot;&gt;&lt;br style=&quot;color: rgb(0, 0, 0); text-align: justify;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: justify; font-size: 10pt;&quot;&gt;[Option] : 부팅가능한 모든 시동 디스크의 아이콘을 보여주며, 부트캠프로 설치한 윈도우즈로 부팅할때 사용합니다.&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); text-align: justify;&quot;&gt;&lt;br style=&quot;color: rgb(0, 0, 0); text-align: justify;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: justify; font-size: 10pt;&quot;&gt;[Command]+[Option]+[P]+[R] : PRAM 소거법. 맥에서 발생하는 자잘한 문제 대부분을 해결할 수 있습니다.&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: justify;&quot;&gt;&amp;nbsp;(출고시점의 옵션으로 돌린다는거 같은데 정확하게는 모르겠네요 늅늅)&lt;/span&gt;&lt;br style=&quot;color: rgb(0, 0, 0); text-align: justify;&quot;&gt;&lt;br style=&quot;color: rgb(0, 0, 0); text-align: justify;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: justify; font-size: 10pt;&quot;&gt;[Shift] : 윈도우즈의 안전모드&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: justify;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: justify;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); text-align: justify;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;text-align: justify;&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;http://blog.naver.com/aki_xi/100113139032&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4242-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>1.맥</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4242</guid>
+			<comments>http://onjo.tistory.com/4242#entry4242comment</comments>
+			<pubDate>Fri, 15 Feb 2013 10:05:26 +0900</pubDate>
+		</item>
+		<item>
+			<title>파수 닷컴 버그</title>
+			<link>http://onjo.tistory.com/4241</link>
+			<description>&lt;p&gt;파수 닷컴 버그&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:575px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/026C283D511CACD814B6F4&quot; filemime=&quot;image/jpeg&quot; filename=&quot;fasoo2.png&quot; height=&quot;339&quot; style=&quot;&quot; width=&quot;575&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4241-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>낙서장</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4241</guid>
+			<comments>http://onjo.tistory.com/4241#entry4241comment</comments>
+			<pubDate>Thu, 14 Feb 2013 18:19:28 +0900</pubDate>
+		</item>
+		<item>
+			<title>CTO Configure to order</title>
+			<link>http://onjo.tistory.com/4235</link>
+			<description>&lt;p&gt;작성일자 : 2013-02-10&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;CTO&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 돋움, dotum, Helvetica, sans-serif; line-height: 16.796875px; background-color: rgb(226, 237, 237);&quot;&gt;Configure to order &amp;nbsp;주문 사양 생산 이란 뜻&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4235-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>1.맥</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4235</guid>
+			<comments>http://onjo.tistory.com/4235#entry4235comment</comments>
+			<pubDate>Sun, 10 Feb 2013 23:38:23 +0900</pubDate>
+		</item>
+		<item>
+			<title>맥 한글 전환</title>
+			<link>http://onjo.tistory.com/4234</link>
+			<description>&lt;p&gt;작성일자 : 2013-02-10&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;맥 한글 전환&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;left command + space&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;tag&lt;/p&gt;&lt;p&gt;단축키&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4234-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>1.맥</category>
+			<author>onjo</author>
+			<guid>http://onjo.tistory.com/4234</guid>
+			<comments>http://onjo.tistory.com/4234#entry4234comment</comments>
+			<pubDate>Sun, 10 Feb 2013 21:26:39 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

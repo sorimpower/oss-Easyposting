@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>NARADESIGN</title>
+	<atom:link href="http://naradesign.net/wp/feed/" rel="self" type="application/rss+xml" />
+	<link>http://naradesign.net/wp</link>
+	<description>웹표준, 웹접근성, 유니버설디자인, HTML, CSS, UI, UX, UD</description>
+	<lastBuildDate>Tue, 16 Sep 2014 09:19:09 +0000</lastBuildDate>
+	<language>ko-KR</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.0</generator>
+	<item>
+		<title>CSS3: {font-size:*rem} new relative value.</title>
+		<link>http://naradesign.net/wp/2014/09/16/2067/</link>
+		<comments>http://naradesign.net/wp/2014/09/16/2067/#comments</comments>
+		<pubDate>Tue, 16 Sep 2014 09:17:06 +0000</pubDate>
+		<dc:creator><![CDATA[정찬명]]></dc:creator>
+				<category><![CDATA[CSS]]></category>
+		<category><![CDATA[웹 디자인]]></category>
+		<category><![CDATA[웹 표준]]></category>
+		<category><![CDATA[CSS3]]></category>
+		<category><![CDATA[웹표준]]></category>
+
+		<guid isPermaLink="false">http://naradesign.net/wp/?p=2067</guid>
+		<description><![CDATA[CSS3 font-size 속성 값으로 새로운 상대적 단위 &#8216;rem&#8217;을 사용할 수 있게 됐습니다. 용법 &#8211; http://snook.ca/archives/html_and_css/font-size-with-rem 명세 &#8211; http://www.w3.org/TR/css3-values/#font-relative-lengths 브라우저 지원 현황 &#8211; http://caniuse.com/#search=rem (IE9 브라우저와 최신 브라우저에서 모두 지원합니다. 하지만 IE9 미만을 지원하는 폴백이 있습니다. 용법 참조.) rem 값의 의미 본래 em이라는 단위는 글꼴 세트의 알파벳 대문자 &#8216;M&#8217;의 너비를 의미한다고 합니다. 어원 자체는 그렇고 통상 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>CSS3 font-size 속성 값으로 새로운 상대적 단위 &#8216;rem&#8217;을 사용할 수 있게 됐습니다.</p>
+<ul>
+<li>용법 &#8211; <a href="http://snook.ca/archives/html_and_css/font-size-with-rem">http://snook.ca/archives/html_and_css/font-size-with-rem</a></li>
+<li>명세 &#8211; <a href="http://www.w3.org/TR/css3-values/#font-relative-lengths">http://www.w3.org/TR/css3-values/#font-relative-lengths</a></li>
+<li>브라우저 지원 현황 &#8211; <a href="http://caniuse.com/#search=rem">http://caniuse.com/#search=rem</a> (IE9 브라우저와 최신 브라우저에서 모두 지원합니다. 하지만 IE9 미만을 지원하는 폴백이 있습니다. 용법 참조.)</li>
+</ul>
+<h2>rem 값의 의미</h2>
+<p>본래 <a href="http://en.wikipedia.org/wiki/Em_(typography)">em</a>이라는 단위는 글꼴 세트의 알파벳 대문자 &#8216;M&#8217;의 너비를 의미한다고 합니다. 어원 자체는 그렇고 통상 웹 브라우에서는 1em = 16px 으로 환산이 되고요. 1em은 웹 브라우저에서 글꼴 사이즈를 지정하지 않았을 때 표시되는 글꼴 크기의 기본값입니다. CSS3의 글꼴 크기 값으로 새로 등장한 &#8216;rem&#8217; 단위는 root em 이라는 의미입니다. HTML 문서에서 root 요소는 &lt;html&gt; 요소를 의미하고 html 요소에 지정된 글꼴 크기로부터 선택된 요소의 글꼴 크기를 상대적으로 결정하는 것이 바로 rem 단위의 핵심입니다.</p>
+<h2>&#8216;em&#8217; vs &#8216;rem&#8217;</h2>
+<p>em 단위는 부모로부터 글꼴 크기를 물려받지만, rem 단위는 부모가 아닌 시조(root = html)로부터 글꼴 크기를 물려받는다는 점이 다릅니다. 예를 들어.. em 단위는 부모로부터 글꼴 크기를 물려받기 때문에 같은 값을 지니더라도 노드가 깊어질수록 글꼴 크기가 기하 급수적으로 크거나 작아집니다. 이런 방식의 문제는 부모 또는 조상 노드 가운데 어떤 요소의 글꼴 사이즈 값을 변경할 때 모든 자식과 자손 요소도 그 영향을 받는다는 점입니다. 예측하기 어렵고 계산하기 복잡하다는 것이 치명적인 문제입니다. 글꼴의 확대 축소를 유연하게 만들기 위한 목적으로 존재하지만 복잡하기 때문에 개발자들은 이 방법을 기피해왔습니다.</p>
+<ul>
+<li>html = 100% = 16px
+<ul>
+<li>body = 0.5<strong>em</strong> = 8px
+<ul>
+<li>div = 0.5<strong>em</strong> = 4px
+<ul>
+<li>p = 0.5<strong>em</strong> = 2px</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>rem 단위는 부모 아닌 시조로부터 글꼴 크기를 물려받기 때문에 html 요소에 기본 글꼴 크기를 지정해 두면 항상 html 요소로부터 글꼴 크기를 상속 받습니다. html 요소의 글꼴 크기를 변경하는것 만으로 페이지의 모든 글꼴 크기를 변경할 수 있다는 점 자체는 em 요소와 다를바 없지만 rem 요소는 부모 요소로부터 상속을 받지 않기 때문에 페이지 모든 글꼴의 크기 변화를 예측할 수 있고 계산하기도 쉽습니다. em 단위를 사용했을 때 p 요소가 2px 크기로 현실성 없게 작아진 것에 비하면 rem 단위를 사용했을 때에는 그렇지 않게 됩니다.</p>
+<ul>
+<li>html = 100% = 16px
+<ul>
+<li>body = 0.5<strong>rem</strong> = 8px
+<ul>
+<li>div = 0.5<strong>rem</strong> = 8px
+<ul>
+<li>p = 0.5<strong>rem</strong> = 8px</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2>유용한 상황</h2>
+<p>단말기의 해상도에 따라 기본 글꼴 크기를 전체적으로 다르게 제어할 필요가 있을 때 미디어쿼리와 함께 rem 단위를 사용하면 효과적입니다.  예를 들어 데스크톱 글꼴이 10px ~ 20px 범위인데 모바일 단말에서 전체적으로 20px ~ 40px 범위로 키우고 싶다면 CSS 만으로 아주 간단하게 처리할 수 있습니다.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://naradesign.net/wp/2014/09/16/2067/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>[CSS Quiz] CSS를 이용하여 아군 포로를 구출하라!</title>
+		<link>http://naradesign.net/wp/2014/08/01/2057/</link>
+		<comments>http://naradesign.net/wp/2014/08/01/2057/#comments</comments>
+		<pubDate>Fri, 01 Aug 2014 07:56:18 +0000</pubDate>
+		<dc:creator><![CDATA[정찬명]]></dc:creator>
+				<category><![CDATA[CSS]]></category>
+		<category><![CDATA[웹 표준]]></category>
+		<category><![CDATA[CSS3]]></category>
+		<category><![CDATA[웹표준]]></category>
+
+		<guid isPermaLink="false">http://naradesign.net/wp/?p=2057</guid>
+		<description><![CDATA[백만년만에 블로그에 글 쓰네요. 오늘은 팀 동료들에게 냈던 퀴즈 하나 공유합니다. 여러분도 한 번 도전해 보세요. 상황 설명 &#60;ol&#62;은 적의 진영이기 때문에 함부로 침범하거나 수정할 수 없습니다. &#60;li&#62;는 적군 병사이거나 또는 적군에게 잡혀간 아군 병사들 입니다. 1과 9는 적의 문지기 병사이고, 짝수인 2, 4, 6, 8 역시 적군 병사입니다. 밑줄 친 숫자(1보다 크고 9보다 작은 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>백만년만에 블로그에 글 쓰네요. 오늘은 팀 동료들에게 냈던 퀴즈 하나 공유합니다. 여러분도 한 번 도전해 보세요.</p>
+<h2>상황 설명</h2>
+<ul>
+<li>&lt;ol&gt;은 적의 진영이기 때문에 함부로 침범하거나 수정할 수 없습니다.</li>
+<li>&lt;li&gt;는 적군 병사이거나 또는 적군에게 잡혀간 아군 병사들 입니다.</li>
+<li>1과 9는 적의 문지기 병사이고, 짝수인 2, 4, 6, 8 역시 적군 병사입니다.</li>
+<li>밑줄 친 숫자(1보다 크고 9보다 작은 홀수)가 적진에 잡혀간 아군 병사입니다.</li>
+</ul>
+<blockquote><p>&lt;style&gt;/* 아군 진지: 작전은 이곳에 */&lt;/style&gt;<br />
+&lt;!&#8211; 적군 진지: 수정할 수 없음 &#8211;&gt;<br />
+&lt;ol&gt;<br />
+&lt;li&gt;1(적군: 문지기)&lt;/li&gt;<br />
+&lt;li&gt;2(적군)&lt;/li&gt;<br />
+<ins>&lt;li&gt;3(아군)&lt;/li&gt;</ins><br />
+&lt;li&gt;4(적군)&lt;/li&gt;<br />
+<ins>&lt;li&gt;5(아군)&lt;/li&gt;</ins><br />
+&lt;li&gt;6(적군)&lt;/li&gt;<br />
+<ins>&lt;li&gt;7(아군)&lt;/li&gt;</ins><br />
+&lt;li&gt;8(적군)&lt;/li&gt;<br />
+&lt;li&gt;9(적군: 문지기)&lt;/li&gt;<br />
+&lt;/ol&gt;<br />
+&lt;!&#8211; 적군 진지: 수정할 수 없음 &#8211;&gt;</p></blockquote>
+<h2>미션 설명</h2>
+<ul>
+<li>아군 진지에서 스타일 상륙작전을 이용하여 적진에 잡혀간 아군 병사에게 빨간 망토(background:red)를 씌워주세요.</li>
+<li>아군 진지에서 가장 짧게 작전을 작성하여 아군 포로에게만 빨간 망토를 씌우는 사람이 승리.</li>
+<li>비밀 작전이기 때문에 JS 또는 image 연합군의 도움을 받을 수 없음.</li>
+<li>크롬 브라우저 최신 버전에서 실행 가능한 작전을 인정함.</li>
+<li>작전은 여러 번 작성하거나 수정해서 제출할 수 있음.</li>
+<li>1등에게는 스타벅스에서 제일 비싼 커피를 쏘겠음.</li>
+<li>작전 점수(코드 byte 수)가 동일한 경우 답을 먼저 제출한 사람이 승리.</li>
+<li>야전 교범: <a href="http://www.w3.org/TR/selectors/">http://www.w3.org/TR/selectors/</a></li>
+<li>훈련소: <a href="http://codepen.io/">http://codepen.io/</a> | <a href="http://jsfiddle.net/">http://jsfiddle.net/</a></li>
+<li>어느 초보 훈련병의 연습 결과 예: <a href="http://codepen.io/naradesign/pen/Hocut">http://codepen.io/naradesign/pen/Hocut</a> 당연히 이것보다 짧아야 함.</li>
+</ul>
+<p>통신 보안: 댓글에 정답을 노출하지 마시오. 작전은 훈련소에서 세우고 작전이 완료되면 훈련소 URL을 링크할 것.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://naradesign.net/wp/2014/08/01/2057/feed/</wfw:commentRss>
+		<slash:comments>21</slash:comments>
+		</item>
+		<item>
+		<title>KWCAG 개정(2.0 -&gt; 2.1)  및 개정에 관한 의견.</title>
+		<link>http://naradesign.net/wp/2013/12/26/2030/</link>
+		<comments>http://naradesign.net/wp/2013/12/26/2030/#comments</comments>
+		<pubDate>Thu, 26 Dec 2013 01:23:15 +0000</pubDate>
+		<dc:creator><![CDATA[정찬명]]></dc:creator>
+				<category><![CDATA[웹 접근성]]></category>
+		<category><![CDATA[웹 표준]]></category>
+		<category><![CDATA[KWCAG 2.1]]></category>
+		<category><![CDATA[웹접근성]]></category>
+
+		<guid isPermaLink="false">http://naradesign.net/wp/?p=2030</guid>
+		<description><![CDATA[2013년 12월 18일 KWCAG(Korea Web Content Accessibility Guidelines, 한국형 웹 콘텐츠 접근성 지침)이 2.0 에서 2.1 으로 버전 업데이트 됐습니다. 주요 변경 내용과 그에 대한 제 의견을 아래와 같이 공유합니다. 개인적인 의견이므로 더 다듬을 필요가 있다고 생각하지만 그건 이 글을 읽는 독자의 몫으로 남겨 둘께요. #1. 의미 없는 내용 반복에 관한 의견. 1.1.1(적절한 대체 텍스트 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>2013년 12월 18일 KWCAG(Korea Web Content Accessibility Guidelines, 한국형 웹 콘텐츠 접근성 지침)이 <a title="KWCAG 2.0" href="http://www.tta.or.kr/data/ttas_view.jsp?rn=1&amp;pk_num=TTAK.OT-10.0003/R1">2.0</a> 에서 <a title="KWCAG 2.1" href="http://www.tta.or.kr/data/ttas_view.jsp?pk_num=TTAK.OT-10.0003%2FR2&amp;rn=1">2.1</a> 으로 버전 업데이트 됐습니다. 주요 변경 내용과 그에 대한 제 의견을 아래와 같이 공유합니다. 개인적인 의견이므로 더 다듬을 필요가 있다고 생각하지만 그건 이 글을 읽는 독자의 몫으로 남겨 둘께요.</p>
+<h2>#1. 의미 없는 내용 반복에 관한 의견.</h2>
+<blockquote>
+<h3>1.1.1(적절한 대체 텍스트 제공)</h3>
+<p>5) 동일한 정보를 중복해서 제공하는 경우: 보조 기술로 동일한 정보가 반복해서 전달 되지 않도록 구현하는 것이 바람직하다.(KWCAG 2.1 &#8211; 7p)</p>
+<h3>2.4.3(적절한 링크 텍스트)</h3>
+<p>1-3) 이미지 링크를 제공하는 경우: URL에 관한 정보를 제공하는 텍스트와 URL로 이동하는 이미지 링크는 하나의 링크로 구성하는 것이 바람직하다. 이 경우, 이미지 링크의 대체 텍스트는 공백 문자로 제공해야 한다.(KWCAG 2.1 &#8211; 23p)</p></blockquote>
+<p>1.1.1(적절한 대체 텍스트 제공) 항목에서는 이미지에 반복 정보를 제공하지 않는 것이 &#8216;바람직&#8217;하다는 의견으로 &#8216;권고&#8217; 의견을 제시하고 있고 2.4.3(적절한 링크 텍스트) 에서는 이미지에 반복되는 대체 텍스트를 제공하지 않도록 공백 문자로 제공해야 한다고 &#8216;의무&#8217; 의견을 명시하고 있습니다. 반복 문자를 제공하는 것은 크게 보았을 때 의미 없는 텍스트를 제공하는 것인데요. 2.4.2(제목 제공) 항목에도 이렇게 의미 없는 텍스트 제공을 권고 아닌 의무적으로 금지하는 표현이 있습니다.</p>
+<blockquote>
+<h3>2.4.2(제목 제공)</h3>
+<p>5) 특수 기호 사용 제한: 웹 페이지, 프레임 또는 콘텐츠 블록의 제목은 문장의 하나로 간주하여 불필요한 특수 기호를 반복하여 사용하지 않는다.(KWCAG 2.1 &#8211; 22p)</p></blockquote>
+<p>더불어 2.4.1(반복 영역 건너뛰기) 항목은 의미없는 반복이 장애인 접근성을 훼손하는 사례라는 것을 인정하고 있습니다.</p>
+<p>의미 없는 콘텐츠의 반복을 금지하는 것은 궁극적으로 바람직하고 그것을 준수하는데 어려움이 거의 없기 때문에 <span style="text-decoration: underline;">1.1.1 항목에서도 대체 텍스트 반복 제공 금지에 관한 설명은 권고가 아니라 의무적인 표현으로 변경하는 것이 바람직하다고 생각합니다.</span> 이것을 권고 수준으로 두면 지침을 제대로 이해하지 못한 개발자가 무분별하게 대체 텍스트를 많이 넣는 것이 접근성 준수 확률을 높이는 것으로 생각하여 반복 제공하는 사례가 늘어날 수 있습니다.</p>
+<p>만약 이것이 접근성을 훼손하는 것이 아니라고 한다면 2.4.3 항목과 2.4.2 항목에서도 의무 아닌 권고 의견으로 수정하여 일관성 있게 만드는 것이 좋다고 생각합니다.</p>
+<h2>#2. 텍스트 콘텐츠의 명도 대비에 관한 의견.</h2>
+<blockquote>
+<h3>1.3.3(텍스트 콘텐츠의 명도 대비)</h3>
+<p>3) 화면 확대가 가능한 콘텐츠: 화면 확대가 가능하도록 구현한 텍스트 콘텐츠(텍스트 및 텍스트 이미지)의 명도 대비는 3 대 1까지 낮출 수 있다.(KWCAG 2.1 &#8211; 12p)</p></blockquote>
+<p>기준을 완화한 것에 대해서는 긍정적인 의견입니다. 한편 현존하는 대부분의 브라우저가 화면 확대 기능을 제공하고 있기 때문에 모든 웹 콘텐츠는 화면 확대가 가능한 콘텐츠에 해당합니다. 따라서 검사항목 1.3.3 에서는 명도대비 기준을 4.5:1 아닌 3:1 으로 표현하고 4.5:1 기준은 권고 수준으로 표현하는 것이 좋다고 생각합니다. 검사항목을 아래와 같이 수정하는 것을 제안하고 싶습니다.</p>
+<blockquote>
+<h3>1.3.3(텍스트 콘텐츠의 명도 대비) 텍스트 콘텐츠와 배경 간의 명도 대비는 3:1 이상이어야 한다.</h3>
+</blockquote>
+<h2>#3. 조작 가능한 컨트롤에 관한 의견.</h2>
+<blockquote>
+<h3>2.1.3 (조작 가능) 사용자 입력 및 컨트롤은 조작 가능하도록 제공되어야 한다.(KWCAG 2.1 &#8211; 16p)</h3>
+</blockquote>
+<p>검사 항목의 문장이 너무 포괄적이라서 세부 내용 추측이 안 됩니다.</p>
+<blockquote>
+<h3>2.1.3(컨트롤의 크기와 간격) 링크 및 컨트롤은 충분한 크기와 간격을 제공해야 한다.</h3>
+</blockquote>
+<p>위와 같은 직관적인 표현을 제안합니다.</p>
+<blockquote><p>1) 컨트롤의 크기: 콘텐츠에 포함된 모든 컨트롤은 대각선 방향의 길이를 6.0mm 이상으로 제공해야 한다.(KWCAG 2.1 &#8211; 16~17p)</p></blockquote>
+<p>대각선 길이만 명시하면 1mm x 6mm 크기의 콘트롤도 허용이 되므로 가로/세로 최소 길이를 각각 명시하는 것이 좋다고 생각합니다. 그리고 mm 기호는 인쇄 기반의 단위이기 때문에 웹 개발시 거의 사용하지 않아 적용시 상당한 혼란이 예상됩니다. px 크기로 환산해서 명시하는 것이 좋다고 생각합니다. iOS/Android UI 가이드도 모두 px 단위로 가이드를 제공합니다. 단 px 단위는 데스크톱과 터치 기반 단말의 DPI(Dot per inch)가 다르기 때문에 데스크톱 아닌 터치 기반 단말 기준으로 환산된 px 단위를 명시하는 것이 좋겠습니다. 크기 뿐만 아니라 콘트롤의 간격 또한 중요합니다. Android UI 가이드라인에서는 버튼의 크기 뿐만 아니라 버튼이 인접한 경우 각 콘트롤의 중심부 간격 또한 48px 이상 이격할 것을 명시하고 있습니다.</p>
+<p>아래와 같이 제안합니다. 이 기준은 터치 기반 단말에서만 필요한 사항이므로 &#8216;터치 기반 단말&#8217;이라는 조건을 명시했습니다.</p>
+<blockquote><p>1) 컨트롤의 크기: 터치 기반 단말에서 링크를 포함한 모든 콘트롤은 가로와 세로 각각 최소한 32px 이상으로 제공해야 한다.</p>
+<p>2) 컨트롤의 간격: 터치 기반 단말에서 인접한 콘트롤과 현재 콘트롤의 중심간 거리는 최소한 44px 이상으로 유지해야 한다.</p></blockquote>
+<p>32px 크기는 Android UI 가이드의 콘트롤 크기 최소 기준이며, 44px 크기는 iOS UI 가이드의 콘트롤 최소 기준으로써 두 가이드라인을 절충한 결과를 제안합니다. 이 기준이 적절한지 검증하기 위해 불특정 다수 40명을 대상으로 설문해본 결과 32px 콘트롤 크기와 44px 크기의 중심부 간격을 두는 것을 최소한의 가이드로 선호하는 의견이 21명으로 가장 많았습니다.</p>
+<h4>참고</h4>
+<ul>
+<li>iOS 가이드 &#8211; <a href="http://goo.gl/BUOwPm">http://goo.gl/BUOwPm</a> 44px 콘트롤.</li>
+<li>Android 가이드 &#8211; <a href="http://goo.gl/aMDdyL">http://goo.gl/aMDdyL</a> 32px 콘트롤, 48px 간격.</li>
+</ul>
+<p>테스트 케이스 &#8211; <a href="http://goo.gl/WTwEhE">http://goo.gl/WTwEhE</a> (Case 4번을 최소 요구 수준으로 제안. 40명에게 설문해본 결과 4번 케이스가 최소 기준으로 적당하다는 응답이 21명으로 가장 많았음.)</p>
+<h2>#4. 반복 영역 건너뛰기에 관한 의견.</h2>
+<blockquote>
+<h3>2.4.1 (반복 영역 건너뛰기)</h3>
+<p>3) 시각적인 구현: 건너뛰기 링크는 시각장애인뿐 아니라 지체장애인도 키보드 조작횟수를 줄일 수 있게 하는 효과적인 수단이므로 메뉴 건너뛰기 링크는 화면에 보이도록 구현해야 한다.(KWCAG 2.1 &#8211; 21p)</p></blockquote>
+<p>&#8216;메뉴 건너뛰기 링크는 키보드 초점을 받을 때 화면에 보이도록 구현해야 한다.&#8217; 라고 구체적으로 명시하는 것이 좋다고 생각합니다. 평상시에도 화면에 보이도록 하는 것은 비장애인들이 오히려 혼란스러워 하기 때문에 잘 선택하지 않는 방법입니다. 평소에는 키보드 초점을 받을 수 있는 상태로 숨겨 두었다가 키보드 초점을 받을 때 화면에 표시하는 방법이 일반적으로 구현하는 방법입니다. 저 문장은 건너뛰기 링크가 항상 화면에 보이도록 해야 한다는 의견으로 받아들여집니다.</p>
+<p><strong>참고</strong> &#8211; <a href="http://webaim.org/techniques/skipnav/">http://webaim.org/techniques/skipnav/</a></p>
+<h2>#5. 적절한 링크 텍스트에 관한 의견.</h2>
+<blockquote>
+<h3>2.4.3 (적절한 링크 텍스트)</h3>
+<p>1-4) 동일한 제품을 서로 다른 관점에서 각각 설명한 페이지로 이동하는 링크들은 각 링크 텍스트를 서로 다르게 구성하는 것이 바람직하다.(KWCAG 2.1 &#8211; 23p)</p></blockquote>
+<p>&#8216;바람직하다&#8217;는 표현은 &#8216;권고&#8217; 수준으로 받아들여집니다. &#8216;의무&#8217; 수준의 표현이 되어야한다고 생각합니다. 동일한 링크 텍스트가 서로 다른 링크 값을 가진다면 &#8216;적절&#8217;하지 않은 링크 텍스트라고 생각하기 때문입니다.</p>
+<blockquote><p>1-5) Tab 컨트롤을 이용하여 공지사항 목록을 나열하고, 주변에 &#8216;더보기&#8217; 링크를 제공하는 콘텐츠에서 &#8216;더보기&#8217; 링크는 그 맥락으로부터 &#8220;공지사항 더보기&#8221;임을 알 수 있다.(KWCAG 2.1 &#8211; 23p)</p></blockquote>
+<p>표현이 애매한것 같습니다. 이 문장은 공지사항 주변의 &#8216;더보기&#8217; 링크에 &#8216;공지사항 더보기&#8217;와 같은 추가 설명을 제공하지 않아도 허락하는 표현인지요? 기존 지침에서는 맥락과 무관하게 이해할 수 있도록 했는데 개선된 지침은 &#8216;맥락을 통해서 이해할 수 있으면 괜찮다&#8217;는 표현으로 완화한것 같습니다. 만약 맥락을 통해서 이해할 수 있는 링크 텍스트 제공을 허용한다면 이 지침은 사실상 존재 의미가 없을 것으로 생각합니다. 대부분의 경우 주변 맥락을 파악하면 이해할 수 있기 때문입니다. 링크 텍스트는 맥락과 무관하게 이해할 수 있도록 제공해야 한다는 2.0 기존 버전의 표현을 고수하는 것이 좋다고 생각합니다.</p>
+<h2>#6. 사용자 요구에 따른 실행에 관한 의견.</h2>
+<blockquote>
+<h3> 3.2.1 (사용자 요구에 따른 실행)</h3>
+<p>3) 새 창/팝업 창: 사용자가 예측할 수 없는 상황에서 새 창을 열어 정보를 전달해서는 안 된다. 사전 경고 없이 자동으로 열리는 팝업 창은 한 개까지 사용할 수 있다.(KWCAG 2.1 &#8211; 28p)</p></blockquote>
+<p>사전 경고 없이 자동으로 열리는 팝업 창은 사용자 요구에 따른 실행이 아닌데 왜 한 번을 허용하는지 납득하기 어렵습니다. 또한 사이트당 하나를 허용하는 것인지 페이지당 하나를 허용하는 것인지도 표현하지 않아 혼란스럽습니다. 팝업을 사용해야 하는 상황은 어렵지 않게 대체 수단을 제공할 수 있기 때문에 허용하지 않는것이 좋다고 생각합니다.</p>
+<blockquote><p>4) 레이어 팝업: 레이어 팝업은 콘텐츠의 논리적 초점 이동 및 콘텐츠의 선형 구조를 위반할 가능성이 많으므로 사용하지 않는 것이 바람직하다.(KWCAG 2.1 &#8211; 28p)</p></blockquote>
+<p>레이어 팝업은 현재 웹에서 매우 일반적인 UI 제공 패턴이고 표준에 따라 접근성 있게 제공하는 방법이 어려운 것도 아닙니다. 그런데 접근성을 위반할 가능성이 많다는 이유로 사용하지 않는 것을 권장한다는 표현은 새로운 기술이나 방식에 대한 규제로 받아들여집니다. 논리적인 초점 이동을 제공하거나 선형 구조를 위반하지 않도록 하는 방법이 충분히 가능하고 기술적으로 어려운 것이 아니기 때문에 이 항목은 삭제하는 것이 좋다고 생각합니다.</p>
+<p><strong>참고</strong> &#8211; <a href="http://oaa-accessibility.org/examples/">http://oaa-accessibility.org/examples/</a></p>
+<h2>함께 읽어볼만한 글</h2>
+<p>한국형 웹 콘텐츠 접근성 지침 2.1 개정안 분석 &#8211; <a href="http://www.acg.co.kr/portfolio/info.php?cpage=1&amp;port_seq=189">http://www.acg.co.kr/portfolio/info.php?cpage=1&amp;port_seq=189</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://naradesign.net/wp/2013/12/26/2030/feed/</wfw:commentRss>
+		<slash:comments>13</slash:comments>
+		</item>
+		<item>
+		<title>BMW F800R 구매.</title>
+		<link>http://naradesign.net/wp/2013/06/06/2009/</link>
+		<comments>http://naradesign.net/wp/2013/06/06/2009/#comments</comments>
+		<pubDate>Wed, 05 Jun 2013 16:33:03 +0000</pubDate>
+		<dc:creator><![CDATA[정찬명]]></dc:creator>
+				<category><![CDATA[생활의 발견]]></category>
+		<category><![CDATA[BMW]]></category>
+		<category><![CDATA[F800R]]></category>
+		<category><![CDATA[Naked Bike]]></category>
+
+		<guid isPermaLink="false">http://naradesign.net/wp/?p=2009</guid>
+		<description><![CDATA[어린 시절부터 두 바퀴 탈것으로 모험하는 것을 즐겼는데 결국 여기까지 왔네요. 사실은 작년 2월부터 준비해 왔어요. BMW F800R 이라는 네이키드 모델입니다. 네이키드란 경주용 바이크를 모방한 레플리카 모델(흔히 R차 또는 숑카)에서 성능은 유지하고 카울을 벗겨내고 자세를 좀 더 편하게 바꾼(레플리카보다 상체가 서는) 실용적인(?) 모델이예요. 카울이 있으면 바람 저항도 줄일 수 있고 외관도 더 미려해 지지만&#8230; 뭐랄까 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>어린 시절부터 두 바퀴 탈것으로 모험하는 것을 즐겼는데 결국 여기까지 왔네요. 사실은 작년 2월부터 준비해 왔어요.</p>
+<p><img src="http://naradesign.net/wp/wp-content/uploads/2013/06/image-300x223.jpg" alt="2012-02-24 2종소형 면허 합격" width="300" height="223" class="alignnone size-medium wp-image-2011" /></p>
+<p><a href="http://glasmoon.egloos.com/5459381">BMW F800R</a> 이라는 네이키드 모델입니다. 네이키드란 경주용 바이크를 모방한 레플리카 모델(흔히 R차 또는 숑카)에서 성능은 유지하고 카울을 벗겨내고 자세를 좀 더 편하게 바꾼(레플리카보다 상체가 서는) 실용적인(?) 모델이예요. 카울이 있으면 바람 저항도 줄일 수 있고 외관도 더 미려해 지지만&#8230; 뭐랄까 멀쩡한 청바지 찢어 입는거랑 똑같은 거라고 생각하시면 돼요. 카울 없는 네이키드 모델의 유래는 바이크가 워낙 넘어지는 일이 많아서 카울을 아예 떼어버린 거라고 하네요. 유래를 알고 나서부터 더 끌렸죠.</p>
+<p><img src="http://naradesign.net/wp/wp-content/uploads/2013/06/image1-300x225.jpg" alt="BMW F800R" width="300" height="225" class="alignnone size-medium wp-image-2012" /></p>
+<p>바이크는 위험하다는 말을 많이 하는데요. 사고 발생시 치사율은 차량에 비해 2배 높은 것이 사실이지만 바이크 사고 발생률은 차량 사고 발생률의 절반 정도 밖에 되지 않아요. 바이크가 더 위험하다는 것은 통계적으로 보면 틀린 말일 수 있다는 의미입니다. 사고시 치사율 때문에 위험하다고 한다면 사실 비행기가 제일 위험한 것인데(사고=죽음) 통계적으로 교통사고 사망자 중에서 비행기 사망률이 가장 낮죠.</p>
+<p>바이크 경력은 배기량 125cc 미만을 7년 정도 탔었고 적당히 겁을 낼 줄도 알아서 지금까지 아무 사고 없이 잘 탔습니다. 이런 말도 있어요. 바이크로 부상 당하는데까지 걸리는 시간은 평균 128년이고, 사고로 사망하기까지 걸리는 시간은 평균 3,289년 이랍니다. <a href="http://goo.gl/1D2PG">http://goo.gl/1D2PG</a> 지나치게 걱정하실 필요 없어요.(위험해요. 조심해요. 이런 말을 귀에 딱지가 앉게 듣다보니)</p>
+]]></content:encoded>
+			<wfw:commentRss>http://naradesign.net/wp/2013/06/06/2009/feed/</wfw:commentRss>
+		<slash:comments>37</slash:comments>
+		</item>
+		<item>
+		<title>레이어 열기/닫기 키보드 접근성.</title>
+		<link>http://naradesign.net/wp/2013/04/24/1996/</link>
+		<comments>http://naradesign.net/wp/2013/04/24/1996/#comments</comments>
+		<pubDate>Wed, 24 Apr 2013 00:27:57 +0000</pubDate>
+		<dc:creator><![CDATA[정찬명]]></dc:creator>
+				<category><![CDATA[웹 기획]]></category>
+		<category><![CDATA[웹 접근성]]></category>
+		<category><![CDATA[자바스크립트]]></category>
+		<category><![CDATA[jQuery]]></category>
+		<category><![CDATA[보편적설계]]></category>
+		<category><![CDATA[웹접근성]]></category>
+		<category><![CDATA[유니버설디자인]]></category>
+		<category><![CDATA[키보드 접근성]]></category>
+
+		<guid isPermaLink="false">http://naradesign.net/wp/?p=1996</guid>
+		<description><![CDATA[일반적으로 레이어 열기/닫기 인터페이스는 다음과 같은 방식으로 처리하고는 하죠. 하지만 보통은 키보드 접근성 문제가 발생합니다. 통상적인 레이어 열기/닫기 예: http://codepen.io/naradesign/pen/eynbo 레이어 열기/닫기 UI의 키보드 접근성 문제 레이어가 열리는 순간 초점 순서 오류: 앵커를 클릭 또는 엔터를 입력한 이후에 키보드 초점은 여전히 앵커에 머물러 있습니다. 열린 레이어로 키보드 초점이 이동해야 하는데 인위적으로 초점을 옮겨주지 않으면 여전히 앵커에 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>일반적으로 레이어 열기/닫기 인터페이스는 다음과 같은 방식으로 처리하고는 하죠. 하지만 보통은 키보드 접근성 문제가 발생합니다.</p>
+<blockquote><p>통상적인 레이어 열기/닫기 예: <a href="http://codepen.io/naradesign/pen/eynbo">http://codepen.io/naradesign/pen/eynbo</a></p></blockquote>
+<h2>레이어 열기/닫기 UI의 키보드 접근성 문제</h2>
+<ol>
+<li><span style="line-height: 13px;"><strong>레이어가 열리는 순간 초점 순서 오류:</strong> 앵커를 클릭 또는 엔터를 입력한 이후에 키보드 초점은 여전히 앵커에 머물러 있습니다. 열린 레이어로 키보드 초점이 이동해야 하는데 인위적으로 초점을 옮겨주지 않으면 여전히 앵커에 초점이 머뭅니다. 열리는 레이어가 앵커 바로 다음에 등장하는 경우라면 순서에 문제가 없지만 앵커와 레이어가 서로 다른 위치에 존재하는 경우 인위적으로 초점을 옮겨주지 않으면 키보드 초점은 엉뚱한 곳을 탐색하게 되므로 오류에 빠지게 됩니다. 모든 브라우저가 이렇게 동작합니다.</span></li>
+<li><strong>레이어가 닫히는 순간 키보드 트랩:</strong> 열린 레이어를 닫으려고 레이어 닫기 버튼을 클릭하거나 엔터를 입력하면 레이어가 사라져 버리기 때문에 키보드 초점은 페이지 처음으로 돌아가 버리는 브라우저가 있습니다. IE 6~10 브라우저가 이렇게 동작합니다. 대부분의 표준 브라우저들은 닫힌 레이어 이후부터 키보드 초점을 받을 수 있도록 정상적으로 처리합니다.</li>
+</ol>
+<h2>레이어가 열리는 순간 초점 순서를 바로잡는 방법</h2>
+<p>키보드 초점을 논리적인 순서대로 진행하도록 만들기 위해 앵커 클릭 후 레이어가 열리는 순간 초점을 레이어로 옮기는 예시를 만들어 봤습니다.</p>
+<blockquote><p>앵커 클릭하면 레이어로 초점 옮기기: <a href="http://codepen.io/naradesign/pen/brwuj">http://codepen.io/naradesign/pen/brwuj</a></p></blockquote>
+<ol>
+<li><span style="line-height: 13px;">앵커를 클릭하면 타겟 레이어에 tabindex=&#8221;0&#8243; 속성이 들어가면서 초점을 받을 수 있는 상태가 된다.</span></li>
+<li>레이어의 상태를 display:block 으로 만든다.</li>
+<li>레이어에 focus를 넣는다.</li>
+</ol>
+<p>이렇게 처리하면 앵커와 레이어 중간에 존재하는 엉뚱한 맥락의 다른 콘텐츠를 탐색하게 되는 키보드 초점 오류를 방지할 수 있습니다. 하지만 문제는 여전히 존재합니다. 레이어를 닫을 때 초점이 머물던 요소가 사라지면서 IE 6~10 브라우저는 키보드 초점을 페이지 맨 처음으로 돌려놓습니다. 이것 때문에 키보드 트랩에 빠지게 되는 것입니다. 레이어 이후의 항목을 탐색할 수 없게 되는 문제가 발생합니다.</p>
+<h2>레이어가 닫히는 순간 키보드 트랩에서 빠져나오기</h2>
+<p>이 문제를 해결하려면 레이어가 닫힐 때 논리적으로 납득할만한 위치로 초점을 옮겨야만 했습니다. 대부분의 최신 브라우저들(크롬, 파이어폭스, 사파리, 오페라)은 키보드 초점이 머물던 요소가 사라지는 경우 레이어 이후의 맥락을 탐색할 수 있도록 키보드 초점이 자연스럽게 처리가 됩니다. 하지만 IE 6~10 브라우저는 그렇지 못했기 때문에 문제가 됩니다. 또한 레이어의 위치가 문맥에 맞지 않게 엉뚱한 곳에서 펼쳐지는 경우에는 표준 브라우저도 여전히 엉뚱한 위치로부터 탐색을 시작하기 때문에 문제가 됩니다.</p>
+<p>자바스크립트 내공이 없어서 이 문제를 끙끙 앓다가 트위터와 페이스북에 도움을 요청했는데요. 몇몇 지인 분들께서 제가 작성한 코드를 보완해 주셨습니다. 레이어를 닫을 때 레이어를 열었던 앵커로 초점을 옮겨주는 방식입니다.</p>
+<ul>
+<li><span style="line-height: 13px;"><a href="https://www.facebook.com/hiphapis">Johan Kim</a>: <a href="http://codepen.io/anon/pen/qgGDa">http://codepen.io/anon/pen/qgGDa</a></span></li>
+<li><a href="https://www.facebook.com/tgyou">Taegyu Yoo</a>: <a href="http://codepen.io/anon/pen/IgFEu">http://codepen.io/anon/pen/IgFEu</a> | <a href="http://codepen.io/anon/pen/Dpaxj">http://codepen.io/anon/pen/Dpaxj</a></li>
+<li><a href="https://twitter.com/fallroot">@fallroot</a>: <a href="http://codepen.io/fallroot/pen/pqaKv">http://codepen.io/fallroot/pen/pqaKv</a></li>
+<li><a href="https://www.facebook.com/profile.php?id=100000456703476">나인환</a>: <a href="http://codepen.io/anon/pen/oqLFx">http://codepen.io/anon/pen/oqLFx</a></li>
+<li><a href="https://www.facebook.com/e2goon">이원민</a>: <a href="http://goo.gl/SZbEl">http://goo.gl/SZbEl</a></li>
+</ul>
+<p>정답이 없는 문제이기 때문에 어떤 코드가 좋고 나쁘다고 단적으로 말하기는 어렵습니다. 다만 제가 고민하던 문제를 어떤 방법으로든 해결했다는 것이 더 중요한 것 같네요. 문제를 함께 해결해 주신 여러분께 진심으로 감사드립니다.</p>
+<p>만약 여러분이라면 이 문제를 어떻게 해결하시겠어요? 직접 코드로 보여주시면 더 좋구요.</p>
+<h2>참고 <sup style="font-size:12px;font-weight:normal">2013-05-29 업데이트</sup></h2>
+<p>키보드 접근성을 보장한 모달 다이얼로그 데모도 참고로 보세요. <a href="http://webhipster.com/testing/accessibility/modal-dialog-latest/">http://webhipster.com/testing/accessibility/modal-dialog-latest/</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://naradesign.net/wp/2013/04/24/1996/feed/</wfw:commentRss>
+		<slash:comments>16</slash:comments>
+		</item>
+		<item>
+		<title>CSS Quiz &#8211; 화면을 가득 채우는 격자 그리기.</title>
+		<link>http://naradesign.net/wp/2012/10/24/1902/</link>
+		<comments>http://naradesign.net/wp/2012/10/24/1902/#comments</comments>
+		<pubDate>Wed, 24 Oct 2012 14:17:27 +0000</pubDate>
+		<dc:creator><![CDATA[정찬명]]></dc:creator>
+				<category><![CDATA[CSS]]></category>
+		<category><![CDATA[생활의 발견]]></category>
+		<category><![CDATA[웹 디자인]]></category>
+		<category><![CDATA[웹 표준]]></category>
+		<category><![CDATA[CSS3]]></category>
+		<category><![CDATA[Quiz]]></category>
+		<category><![CDATA[웹표준]]></category>
+
+		<guid isPermaLink="false">http://naradesign.net/wp/?p=1902</guid>
+		<description><![CDATA[몇 일 전에 냈던 &#8220;가장 많은 수평선 그리기&#8221; 퀴즈는 아직도 진행 중입니다. 물론 전의를 상실할만큼 빠르게 정답(?)에 근접한 댓글들이 제출돼서 김이 조금 새기는 했지만요. 컨닝 얼마든지 하셔도 괜찮아요. 코드를 더 짧게 줄일 수 있다면 말이죠. 저도 퀴즈 내고 여러분의 댓글 보면서 많이 배우고 있습니다. 그래서 하나 더 준비 했습니다. 이번에는 격자 그리기 입니다. 지난 퀴즈의 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>몇 일 전에 냈던 &#8220;<a href="http://naradesign.net/wp/2012/10/22/1877/">가장 많은 수평선 그리기</a>&#8221; 퀴즈는 아직도 진행 중입니다. 물론 전의를 상실할만큼 빠르게 정답(?)에 근접한 댓글들이 제출돼서 김이 조금 새기는 했지만요. 컨닝 얼마든지 하셔도 괜찮아요. 코드를 더 짧게 줄일 수 있다면 말이죠. 저도 퀴즈 내고 여러분의 댓글 보면서 많이 배우고 있습니다. 그래서 하나 더 준비 했습니다.</p>
+<p><img class="alignnone size-full wp-image-1903" src="http://naradesign.net/wp/wp-content/uploads/2012/10/grid.png" alt="10*10 픽셀 규격의 화면을 가득 채우는 그리드" width="99" height="99" /></p>
+<p>이번에는 격자 그리기 입니다. 지난 퀴즈의 답을 보면서 이것도 쉽게 가능하겠다는 생각을 했습니다.</p>
+<h2>도전 과제</h2>
+<ol>
+<li><strong>CSS만을 사용하여 화면을 가득 채우는 격자를 그려주세요</strong>. body 요소 내부에는 다른 html 코드가 존재하지 않아야 합니다.</li>
+<li>격자의 규격은 한 셀의 크기가 <strong>가로 10px</strong>, <strong>세로 10px</strong> 이어야 합니다. 셀의 내부 색상은 <strong>흰색</strong>입니다.</li>
+<li>격자 선의 두께는 <strong>1px</strong>이며 색상에 대한 규칙은 없습니다.</li>
+<li><strong>이미지</strong>(base64 인코딩 이미지 포함)는 사용할 수 없습니다.</li>
+<li>정답은 CSS 코드를 포함하여 <strong>댓글로</strong> 제출해 주세요.</li>
+<li>정답은 <strong>크롬 브라우저 최신버전</strong>에서 확인할께요.</li>
+<li>똑같은 답을 제출하지 않는다면 <strong>컨닝</strong>해도 됩니다.</li>
+<li>정답을 <strong>여러번</strong> 제출해도 됩니다.</li>
+<li>정답자가 여러명인 경우 <strong>압축</strong>(공백 제거, 줄바꿈)된 코드의 양이 적은 분을 최고의 정답으로 간주할께요. <a href="http://www.refresh-sf.com/yui/">파일 압축하기</a>.</li>
+<li>제출 기간: <strong>2012</strong>년 <strong>12</strong>월 <strong>31</strong>일</li>
+</ol>
+<p>최고의 답변을 제출해 주신 분께는 &#8216;<strong>커피</strong>, <strong>밥</strong>, <strong>술</strong>&#8216; 가운데 원하는 것을 쏠께요.</p>
+<p>어디서부터 시작해야 할지 모르겠다면 지난 퀴즈 &#8220;<a href="http://naradesign.net/wp/2012/10/22/1877/">가장 많은 수평선 그리기</a>&#8220;를 참고해 보세요.</p>
+<p>이번에도 기대할께요. ^___^</p>
+<p>[<span style="color: #ffffff;">저는 현재 209byte로 완성했습니다. 이번에도 이게 최선이 아니겠죠? ㅡㅡ;</span>]</p>
+]]></content:encoded>
+			<wfw:commentRss>http://naradesign.net/wp/2012/10/24/1902/feed/</wfw:commentRss>
+		<slash:comments>28</slash:comments>
+		</item>
+		<item>
+		<title>CSS Quiz &#8211; 가장 많은 수평선 그리기.</title>
+		<link>http://naradesign.net/wp/2012/10/22/1877/</link>
+		<comments>http://naradesign.net/wp/2012/10/22/1877/#comments</comments>
+		<pubDate>Mon, 22 Oct 2012 10:32:31 +0000</pubDate>
+		<dc:creator><![CDATA[정찬명]]></dc:creator>
+				<category><![CDATA[CSS]]></category>
+		<category><![CDATA[생활의 발견]]></category>
+		<category><![CDATA[웹 표준]]></category>
+		<category><![CDATA[Quiz]]></category>
+		<category><![CDATA[웹표준]]></category>
+
+		<guid isPermaLink="false">http://naradesign.net/wp/?p=1877</guid>
+		<description><![CDATA[제가 요즈음 풀고 있는 정답 없는 문제가 하나 있는데요. 여러분도 한번 도전해 보시겠어요? 도전 과제 아래 제시된 HTML 코드를 기반으로 CSS만을 사용해서 가장 많은 수평선을 그려보세요. 하나의 행에는 100% 너비를 지닌 하나의 라인만 유효합니다. 선의 두께에 관한 기준은 없습니다. 선과 선 사이에는 흰색 선이 반드시 포함되어 있어야 합니다. 이 구분 선은 개수로 세지 않겠습니다. 이미지(base64 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>제가 요즈음 풀고 있는 정답 없는 문제가 하나 있는데요. 여러분도 한번 도전해 보시겠어요?</p>
+<h2>도전 과제</h2>
+<ol>
+<li>아래 제시된 HTML 코드를 기반으로 <strong>CSS만을 사용해서 가장 많은 수평선</strong>을 그려보세요.</li>
+<li>하나의 행에는 <strong>100% 너비</strong>를 지닌 하나의 라인만 유효합니다. 선의 두께에 관한 기준은 없습니다.</li>
+<li>선과 선 사이에는 <strong>흰색 선</strong>이 반드시 포함되어 있어야 합니다. 이 구분 선은 개수로 세지 않겠습니다.</li>
+<li><strong>이미지</strong>(base64 인코딩 이미지 포함)는 사용할 수 없습니다.</li>
+<li>순수 CSS 코드 용량은 압축(공백과 줄 바꿈 제거)된 것을 기준으로 <strong>1KB</strong>(1024byte)를 초과하면 안됩니다.</li>
+<li>작성한 CSS 코드는 이 포스트의 <strong>댓글</strong>로 제출해 주세요.</li>
+<li>제출된 답은 <strong>크롬 브라우저 최신 버전</strong>에서 화면 확대 기능을 사용하지 않은 상태로 확인하겠습니다.</li>
+<li>정답 제출 횟수는 제한이 없습니다. <strong>여러번</strong> 제출해도 됩니다.</li>
+<li>가장 많은 선을 그린 정답 제출자에게는 제가 &#8216;<strong>커피</strong>, <strong>밥</strong>, <strong>술</strong>&#8216; 가운데 원하는 것을 쏠께요.</li>
+<li>정답자 가운데 1등이 두 명인 경우 CSS 코드를 압축(공백과 줄 바꿈 제거)한 결과 <strong>용량이 더 적은</strong> 분을 최고의 정답자로 인정할께요.</li>
+<li>정답 제출 기한 <strong>2012</strong>년 <strong>12</strong>월 <strong>31</strong>일 까지.</li>
+</ol>
+<h2>HTML 코드</h2>
+<blockquote><p>&lt;!DOCTYPE HTML&gt;<br />
+&lt;html&gt;<br />
+&lt;head&gt;<br />
+&lt;meta charset=&#8221;utf-8&#8243;&gt;<br />
+&lt;title&gt;CSS Quiz &#8211; 가장 많은 수평선 그리기&lt;/title&gt;<br />
+&lt;/head&gt;<br />
+&lt;body&gt;<br />
+&lt;/body&gt;<br />
+&lt;/html&gt;</p></blockquote>
+<h2>CSS 정답 제출 예시</h2>
+<blockquote><p>html,<br />
+body,<br />
+body:before,<br />
+body:after { content:&#8221;&#8221;; display:block; border:30px double #000; border-left:0; border-right:0; padding:10px 0 0 0; margin:0 0 10px 0 }</p></blockquote>
+<p>예시 코드는 이 문제를 생각하면서 처음 작성해 본 코드로 16개의 수평선을 그려냅니다. 저를 가볍게 뛰어 넘어주실 분을 찾습니다.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://naradesign.net/wp/2012/10/22/1877/feed/</wfw:commentRss>
+		<slash:comments>33</slash:comments>
+		</item>
+		<item>
+		<title>DEVIEW 2012 반응형 웹 구축기</title>
+		<link>http://naradesign.net/wp/2012/09/20/1863/</link>
+		<comments>http://naradesign.net/wp/2012/09/20/1863/#comments</comments>
+		<pubDate>Thu, 20 Sep 2012 01:54:07 +0000</pubDate>
+		<dc:creator><![CDATA[정찬명]]></dc:creator>
+				<category><![CDATA[CSS]]></category>
+		<category><![CDATA[웹 기획]]></category>
+		<category><![CDATA[웹 디자인]]></category>
+		<category><![CDATA[웹 표준]]></category>
+
+		<guid isPermaLink="false">http://naradesign.net/wp/?p=1863</guid>
+		<description><![CDATA[DEVIEW는 올해로 다섯번째 열리는 NHN의 기술 공유 컨퍼런스입니다. NHN 뿐만 아니라 한국의 포털과 글로벌 IT 기업들이 연사로 나서며 함께 준비했구요. 한국 IT와 함께 성장하기를 바라는 취지로 매년 무료로 진행하고 있습니다. 유사한 행사로는 DAUM DevOn, KTH H3가 있습니다. 다음이 주최하는 DevOn은 2012.10.12(금)에 열릴 예정이구요. KTH의 H3 행사도 준비가 되고 있다니 올해가 지나기 전에 열릴것(작년에는 11월 말에 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><a href="http://deview.kr">DEVIEW</a>는 올해로 다섯번째 열리는 NHN의 기술 공유 컨퍼런스입니다. NHN 뿐만 아니라 한국의 포털과 글로벌 IT 기업들이 연사로 나서며 함께 준비했구요. 한국 IT와 함께 성장하기를 바라는 취지로 매년 무료로 진행하고 있습니다. 유사한 행사로는 <a href="http://devon.daum.net">DAUM DevOn</a>, <a href="http://h3.kthcorp.com">KTH H3</a>가 있습니다. 다음이 주최하는 DevOn은 2012.10.12(금)에 열릴 예정이구요. KTH의 H3 행사도 준비가 되고 있다니 올해가 지나기 전에 열릴것(작년에는 11월 말에 열림)으로 보입니다. 만약 DEVIEW에 참석하지 못하셨다면 DevOn, H3 행사에 한 번쯤 꼭 참석하길 권합니다. IT 기업들의 최근 화제가 무엇인지도 알 수 있고 스피커들의 원맨쇼(?) 그리고 공대생 개그에 함께 웃을 수 있으니 좋은 자극이 될꺼라고 생각합니다.(저는 공대생이 아니지만 ㅎㅎ)</p>
+<p>지난 <a href="http://deview.naver.com/2009/programs/presenters.nhn">DEVIEW 2009</a>년도에는 &#8216;XE 스킨 제작 가이드&#8217;라는 주제를 가지고 발표자로 참여했었는데요. 올해는 &#8216;<a href="http://deview.kr/2012/xe/index.php?document_srl=389&amp;mid=track">DEVIEW 2012 반응형 웹 구축기</a>&#8216; 라는 주제를 가지고 두 번째로 참여하게 됐습니다. 발표자로 지원할 당시에는 &#8216;지금 하는 일도 바쁜데 괜히 나서는것 아닐까?&#8217; 고민을 했는데요. 막상 발표자로 등록하고 DEVIEW 참가 신청자들의 시간표 등록 현황을 보니 800분께서 제 세션을 듣겠다고 선택해 주셨더라구요. 결국 250명 규모에서 500명 규모의 C 트랙으로 옮겨져서 가장 마지막 세션으로 진행이 됐습니다.</p>
+<p>반응형 웹은 작년부터 &#8216;XE 관리자 페이지, <a href="http://helloworld.naver.com">헬로월드 블로그</a>, DEVIEW&#8217; 개발을 진행하면서 실무에 적용을 해왔고 이번 발표에서는 반응형 웹을 구축하면서 격은 시행착오들을 총정리 해야겠다는 생각으로 준비했습니다. 발표 주제에 맞게 프리젠테이션도 반응형 웹으로 제작을 했고 제 발표를 듣지 않은 분들께도 실무를 진행할 때 충분한 레퍼런스가 될 수 있도록 작성하려고 노력했습니다.</p>
+<p><strong>DEVIEW 2012 반응형 웹 구축기</strong><br />
+발표자료 &#8211; <a href="http://naradesign.net/rwd/pr/">http://naradesign.net/rwd/pr/</a><br />
+발표영상 &#8211; <a href="http://goo.gl/fuLBJ">http://goo.gl/fuLBJ</a></p>
+<p>끝으로 제 발표를 들어주신 분들께서 블로그에 후기를 남기며 적어주신 글들을 몇 글자 인용할께요.</p>
+<blockquote><p>PC, 모바일 안에서도 보여질 수 있는 모습이 모두 다른 지금, 앞으로는 그 형태가 더욱 다양해 질 것이다. 요즘 화두가 되고 있는 반응형 웹! 미디어 쿼리와 함께 반응형 웹을 구축하기 위한 디테일한 내용을 소개한다. 이에 실패를 극복해 나가는 경험담이 많은 도움이 되었고, 미디어쿼리에 대한 필요성을 느끼게 했다. 현실적으로 가장 유익했던 세션!</p>
+<p>[출처] Deview 2012 : 데뷰 2012 컨퍼런스 후기 | 작성자: 미쎄 &#8211; <a href="http://catchthedesign.com/10147987610">http://catchthedesign.com/10147987610</a></p>
+<p>반응형 웹에 대해 회사에서 사내세미나로 한번, 외부세미나로 한번, 이번이 세번째. 이건 해보지 않으면 절대 내것이 안될거다. 그래도 하도 필요한거라 들었다. 현재의 웹은 더이상 데스크탑이 아닌 다양한 단말이다. 그것은 미래에는 더 심화될 것이고. 그것에 대응하는 방법. 그리고 그렇게 대응하더라도 브라우저의 종류와 버전은 끊임없이 정말 끊임없이 예외를 만드는데, 이 강연의 느낌이 어땠냐면 &#8220;근데 이러면 이게 안먹어서, 그래서 이렇게 했어요&#8230; 근데 이러면 또 이게 안먹어요.. 그럼 이건 이렇게 하구요&#8221; x 100 이었다. 지겨웠다는게 아니라, 나같으면 x 3 에서 이미 미추어버렸을 텐데, 그걸 다부지게 계속 하는 사람이 있다는게 놀라웠다. 그건 끈기만으로 되는 것은 아니고, 어디를 어떻게 테스트해야 할지 판단을 가능케 해줄 탄탄한 기본 개념(+머리;;)가 중요하지 않을까, 라는 생각을 했다.</p>
+<p>[출처] DEVIEW 2012 후기 | 작성자: 슈가루이 &#8211; <a href="http://blog.naver.com/sugarui/110147762860">http://blog.naver.com/sugarui/110147762860</a></p>
+<p>반응형 웹을 구축하면서 생겼던 모든 이슈를 총망라한 발표였다. 반응형 웹이라 해서 단순히 미디어쿼리 정도 설명하겠구나 생각했는데, 정말 디테일하게 성능 그리고 이미지 스프라이트, 웹폰트, 뷰포트 등등 많은 내용을 이야기하였다. 그 중 중요했다고 생각하는 내용은 반응형 웹은 하나의 웹(One HTML)이라는 내용과 PC 5초 모바일 6초를 넘어간다면 차라리 반응형을 하지 마라 이다.</p>
+<p>[출처] DEVIEW2012 후기 | Yeongil&#8217;s Blog &#8211; <a href="http://yeongil.info/archives/46">http://yeongil.info/archives/46</a></p>
+<p>&#8211; Mobile First<br />
+&#8211; web font 되도록이면 사용하지 않되, 사용할거라면 제대로 분기사용하자. (용량이 2메가다)<br />
+&#8211; 생각해야할 게 매우 많다.<br />
+&#8211; 그냥 평소에 front-end로 responsive web design에 대해 한번쯤 생각해봤고, 실제로 구현해봤으면 다 알만한 내용.<br />
+&#8211; media query를 어떻게 써줘야 하며, 뷰포트 어떻게 해줘야되고, 모바일 레이아웃 어떻게 짜고, 뭐 그런것들.<br />
+&#8211; ppt를 참고하자. 링크는 나라디자인 가면 있지 않을까.</p>
+<p>[출처] redpotato &#8211; <a href="http://www.cyworld.com/radpotato/6216207">http://www.cyworld.com/radpotato/6216207 </a></p></blockquote>
+<p>이렇게 인용되는 것을 원치 않으시는 분께서는 제게 메일(dece24앳gmail.com)을 보내주시면 삭제해 드리겠습니다. 후기를 남겨주셔서 고맙습니다.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://naradesign.net/wp/2012/09/20/1863/feed/</wfw:commentRss>
+		<slash:comments>33</slash:comments>
+		</item>
+		<item>
+		<title>웹 폰트 문제 해결. @font-face troubleshooting.</title>
+		<link>http://naradesign.net/wp/2012/06/19/1830/</link>
+		<comments>http://naradesign.net/wp/2012/06/19/1830/#comments</comments>
+		<pubDate>Mon, 18 Jun 2012 15:25:16 +0000</pubDate>
+		<dc:creator><![CDATA[정찬명]]></dc:creator>
+				<category><![CDATA[CSS]]></category>
+		<category><![CDATA[웹 기획]]></category>
+		<category><![CDATA[웹 디자인]]></category>
+		<category><![CDATA[웹 표준]]></category>
+		<category><![CDATA[@font-face]]></category>
+		<category><![CDATA[CSS3]]></category>
+		<category><![CDATA[IE Bug]]></category>
+		<category><![CDATA[Media Query]]></category>
+		<category><![CDATA[Web Font]]></category>
+
+		<guid isPermaLink="false">http://naradesign.net/wp/?p=1830</guid>
+		<description><![CDATA[@font-face 규칙은 CSS3에 새로 추가된 웹 글꼴 명세입니다. 표시하려고 하는 글꼴이 시스템에 없는 경우 웹 서버에서 글꼴을 내려받아 화면에 표시해 주는 방법인데요. 마이크로소프트가 독자적으로 IE 6~8 브라우저에 지원하던 명세였는데 W3C에 제안하여 현재 CSS3 표준 초안이 되었습니다. 그러나 현실에서 사용하려면 다음과 같은 몇 가지 문제를 확실히 알고 있어야 합니다. IE 6~8 브라우저는 *.eot 형식의 글꼴만 지원한다. [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>@font-face 규칙은 CSS3에 새로 추가된 웹 글꼴 명세입니다. 표시하려고 하는 글꼴이 시스템에 없는 경우 웹 서버에서 글꼴을 내려받아 화면에 표시해 주는 방법인데요. 마이크로소프트가 독자적으로 IE 6~8 브라우저에 지원하던 명세였는데 W3C에 제안하여 현재 CSS3 표준 초안이 되었습니다. 그러나 현실에서 사용하려면 다음과 같은 몇 가지 문제를 확실히 알고 있어야 합니다.</p>
+<ul>
+<li>IE 6~8 브라우저는 *.eot 형식의 글꼴만 지원한다. 하지만 W3C가 권장하는 형식은 *.woff 이다. IE 9 브라우저는 *.eot 형식과 *.woff 글꼴을 모두 지원한다.</li>
+<li>Chrome, Safari, Firefox, Opera 최신 버전 브라우저는 *.woff 형식을 지원하지만 *.eot 형식은 지원하지 않는다. 결국 모든 브라우저를 지원하기 위해 *.woff 형식과 *.eot 형식을 함께 준비해야 한다.</li>
+<li>표준과 비표준 글꼴을 모두 지원하기 위해 @font-face 규칙을 두 번 사용하는 경우 IE 6~9 브라우저는 *.woff 형식과 *.eot 형식을 모두 내려받아 성능에 좋지 않은 영향을 준다.</li>
+<li>@media 구문 안쪽에서 @font-face 규칙을 사용하는 경우 IE 9 브라우저는 글꼴을 요청하지 않는다.</li>
+</ul>
+<h2>하나의 글꼴에 @font-face 규칙은 한 번만 선언</h2>
+<p>eot 형식과 woff 형식을 모두 사용해야 한다는 사실을 알고 나면 하나의 글꼴을 모든 브라우저에서 표시하기 위해 @font-face 규칙을 두 번 선언할 수 있습니다. 그러나 이런 방식은 시스템 글꼴이 없는 경우 IE 6~9 브라우저에서 eot 형식 외에 woff 형식도 요청하기 때문에 사용자는 불필요한 1MB 미만의 파일을 추가로 내려받는 샘이 됩니다.</p>
+<blockquote><p><strong>/* Not recommended */</strong><br />
+@font-face{font-family:<strong>ngwoff</strong>; src:url(NanumGothic.<strong>woff</strong>)}<br />
+@font-face{font-family:<strong>ngeot</strong>; src:url(NanumGothic.<strong>eot</strong>)}<br />
+body{font-family:나눔고딕, NanumGothic, <strong>ngwoff</strong>, <strong>ngeot</strong>}</p></blockquote>
+<p>위 코드는 더 나은 성능을 위하여 다음과 같이 개선할 수 있습니다. <a href="http://paulirish.com/2009/bulletproof-font-face-implementation-syntax/">Paul Irish가 제안한 방탄 코드</a> 입니다.</p>
+<blockquote><p><strong>/* Recommended */</strong><br />
+@font-face{<br />
+font-family:<strong>ng</strong>;<br />
+src:url(NanumGothic.<strong>eot</strong>);<br />
+src:<span style="color: #ff0000;">local(※)</span>, url(NanumGothic.<strong>woff</strong>) <span style="color: #ff0000;">format(&#8216;woff&#8217;)<br />
+</span>}<br />
+body{font-family:나눔고딕, NanumGothic, <strong>ng</strong>}</p></blockquote>
+<p>이 코드는 추가 설명이 필요합니다.</p>
+<ul>
+<li><strong>ng</strong> 라는 글꼴 이름을 한 번만 선언한 다음 eot 형식과 woff 형식을 순차적으로 참조 했습니다.</li>
+<li>IE 6~8 브라우저는 <strong>eot</strong> 글꼴만 요청해서 화면에 표시합니다. eot 형식을 woff 형식보다 먼저 참조해야 합니다.</li>
+<li>IE 9 브라우저와 Chrome, Safari, Firefox, Opera 브라우저는 <strong>woff</strong> 글꼴만 요청해서 화면에 표시합니다. @font-face 명세에 따르면 eot 글꼴에 대한 format(&#8216;embeded-opentyep&#8217;) 선언이 없기 때문에 브라우저가 eot 글꼴을 내려받아야 하지만 영리하게도 내려받지 않습니다.</li>
+<li><span style="color: #ff0000;">local(※)</span> 값은 외부 자원을 참조하기 이전에 시스템 글꼴을 우선 참조할 수 있도록 만들어 줍니다. 그러나 이 코드에서는 IE 6~8 브라우저가 local() 값을 처리하지 못하는 특징을 이용하여 woff 글꼴을 추가로 요청하지 않도록 해 줍니다.</li>
+<li><span style="color: #ff0000;">local(※)</span> 값의 괄호 안쪽에 포함된 <span style="color: #ff0000;">※</span> 기호는 사용자 시스템에 존재하지 않을만한 글꼴을 임의로 지정한 것입니다. 굳이 2 byte 짜리 특수문자를 사용한 이유는 Mac OS 에서 2 byte 짜리 문자열로 된 시스템 글꼴 이름은 아예 처리하지 않기 때문입니다.</li>
+<li><span style="color: #ff0000;">format(&#8216;woff&#8217;)</span> 값을 명시적으로 작성하면 이 형식을 지원하는 브라우저만 글꼴을 내려받게 되어 있습니다. 값은 반드시 홀따옴표 또는 쌍따옴표 안에 있어야 합니다. 작성하지 않는 경우 지원 여부에 무관하게 모든 형식의 글꼴을 내려받는것이 명세입니다. 글꼴을 지원하지 않으면서도 내려받는 상황을 예방하기 위해 이 형식을 지원하는 경우에만 외부 글꼴을 내려받도록 명시적으로 코드를 작성한 것입니다. IE 7~8 브라우저는 이 코드를 해석하지 못하기 때문에 woff 글꼴을 추가로 요청하지 않도록 만들지만 여기서 그것이 목적은 아닙니다.</li>
+<li>나눔고딕 시스템 글꼴의 이름을 한글과 영문으로 연거푸 두 번 적은 이유는 영문으로만 작성했을 때 제대로 표시하지 못하는 브라우저가 있기 때문입니다. 한글 이름이 있는 글꼴은 한글과 영문 모두 작성하는 것이 좋습니다.</li>
+</ul>
+<h2>IE 9은 @media 규칙 내부에 @font-face 허용 안함</h2>
+<p>다음과 같이 @media 구문 안쪽에 @font-face 규칙을 선언하는 경우 IE 9 브라우저는 외부 글꼴을 요청하지 않기 때문에 표시하지 못합니다. 아래 예제는 Paul Irish가 제안한 방탄 코드를 수정하지 않고 그냥 미디어쿼리 구문 안쪽에 넣었습니다.</p>
+<blockquote><p>/* IE 9 does not support @font-face within @media */<br />
+<strong><span style="color: #ff0000;">@media all and (min-width:768px) {</span></strong><br />
+@font-face{<br />
+font-family:ng;<br />
+src:url(NanumGothic.eot);<br />
+src:local(※), url(NanumGothic.woff) format(&#8216;woff&#8217;)<br />
+}<br />
+body{font-family:나눔고딕, NanumGothic, ng}<br />
+<strong><span style="color: #ff0000;">}</span></strong></p></blockquote>
+<p>처음에는 이 현상이 유일하게 IE 9에만 발생하여 IE 9 버그인줄 알았는데 자세히 알고 보니 <a href="http://www.w3.org/TR/CSS21/media.html#at-media-rule" target="_blank">IE 9 브라우저만 CSS 2.1 명세에 잘 따른 것</a>이었습니다. CSS 2.1 명세에 따르면 @media 규칙 내부의 또 다른 규칙인 @font-face는 유효하지 않다는 것입니다. 하지만 IE 9을 제외한 모든 브라우저는 이 명세에 따르지 않습니다. 이런 형식의 코드를 이용하면 WiFi/3G 망을 사용하는 좁은 해상도의 모바일 장치에서는 웹 글꼴을 내려받지 않아도 되기 때문에 모바일 성능 향상에 도움이 됩니다. 반응형 웹을 구현하기 위해 누구나 한 번쯤 생각할 수 있는 코드입니다.</p>
+<p>CSS 2.1의 @media 명세를 잘 지킨 IE 9 브라우저가 오히려 웹 글꼴을 표시하지 못하는 것은 문제입니다. 이 문제는 @font-face 규칙을 미디어쿼리 밖에 선언함으로써 간단하게 해결할 수 있습니다.</p>
+<blockquote><p>/* IE 9 does not support @font-face within @media */<br />
+@font-face{<br />
+font-family:ng;<br />
+src:url(NanumGothic.eot);<br />
+src:local(※), url(NanumGothic.woff) format(&#8216;woff&#8217;)<br />
+}<br />
+<span style="color: #ff0000;"><strong>@media all and (min-width:768px) {</strong></span><br />
+body{font-family:나눔고딕, NanumGothic, ng}<br />
+<span style="color: #ff0000;"><strong>}</strong></span></p></blockquote>
+<h2>참고</h2>
+<p>이 포스트와 관련된 문제를 확인하기 위해 작성했던 테스트 케이스 입니다. <a href="http://naradesign.net/css3/font-face/">http://naradesign.net/css3/font-face/</a> IE 9 브라우저가 CSS 2.1 @media 규칙 명세를 잘 따르기는 했지만 이번에는 오히려 따르지 않는편이 더 좋을뻔 했군요.</p>
+<p>IE 6~8 브라우저의 미디어쿼리 규칙을 지원하기 위해 respond.min.js 파일을 사용하는 동시에 미디어쿼리 구문 안쪽에 @font-face 규칙을 추가하는 경우가 있습니다. 이런 경우 IE 9 브라우저에서 개발자 도구(F12)를 이용하여 브라우저 모드와 문서 모드를 IE 8 으로 설정하면 웹 글꼴을 무한 반복 요청하다가 브라우저가 종료되는 문제가 있었습니다. 그러나 실제 IE 8 브라우저에서는 이런 증상이 재현되지 않는것을 확인 했습니다.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://naradesign.net/wp/2012/06/19/1830/feed/</wfw:commentRss>
+		<slash:comments>74</slash:comments>
+		</item>
+		<item>
+		<title>CSS3 미디어쿼리 이해</title>
+		<link>http://naradesign.net/wp/2012/05/30/1823/</link>
+		<comments>http://naradesign.net/wp/2012/05/30/1823/#comments</comments>
+		<pubDate>Wed, 30 May 2012 02:15:52 +0000</pubDate>
+		<dc:creator><![CDATA[정찬명]]></dc:creator>
+				<category><![CDATA[CSS]]></category>
+		<category><![CDATA[웹 기획]]></category>
+		<category><![CDATA[웹 디자인]]></category>
+		<category><![CDATA[웹 표준]]></category>
+		<category><![CDATA[CSS3]]></category>
+		<category><![CDATA[Media Queries]]></category>
+
+		<guid isPermaLink="false">http://naradesign.net/wp/?p=1823</guid>
+		<description><![CDATA[출력 장치의 여러 특징 가운데 일부를 참조하여 CSS 코드를 분기 처리함으로써 하나의 HTML 소스가 여러가지 뷰를 갖도록 구현할 수 있는 명세이다. 일반적으로 뷰포트 해상도에 따라 CSS 코드를 분기한다. CSS 코드 내부에서 분기하는 방법 CSS 코드 내부에서 사용하는 미디어 쿼리의 기본적인 문법 예는 다음과 같다. 일반적으로 권장하고 널리 쓰이는 방식이다. @media only all and (조건문) {실행문} [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>출력 장치의 여러 특징 가운데 일부를 참조하여 CSS 코드를 분기 처리함으로써 하나의 HTML 소스가 여러가지 뷰를 갖도록 구현할 수 있는 명세이다. 일반적으로 뷰포트 해상도에 따라 CSS 코드를 분기한다.</p>
+<h2>CSS 코드 내부에서 분기하는 방법</h2>
+<p>CSS 코드 내부에서 사용하는 미디어 쿼리의 기본적인 문법 예는 다음과 같다. 일반적으로 권장하고 널리 쓰이는 방식이다.</p>
+<blockquote style="border: 1px dashed #fff; padding: 0 1em; font-family: 'Courier New', Courier, monospace; background: #333; color: #fff; border-radius: 5px;"><p>@media only all and (조건문) {실행문}</p></blockquote>
+<ul>
+<li><strong>@media</strong>: 미디어 쿼리가 시작됨을 선언한다. @media, only, all, and, (조건문) 사이에 포함되어 있는 공백은 필수적이다.</li>
+<li><strong>only</strong>: only 키워드는 미디어 쿼리를 지원하는 사용자 에이전트만 미디어 쿼리 구문을 해석하라는 명령이며 생략 가능하다. 생략했을 때 기본 값은 only로 처리 된다. 생략해도 무방하므로 이 키워드는 일반적으로 작성하지 않는다. 이 자리에는 not 키워드를 사용할 수 있는데 뒤에 오는 모든 조건을 부정하는 연산을 한다.</li>
+<li><strong>all</strong>: all 키워드는 미디어 쿼리를 해석해야 할 대상 미디어를 선언한 것이다. all 이면 모든 미디어가 이 구문을 해석해야 한다. all 키워드 대신 screen 또는 print와 같은 특정 미디어를 구체적으로 언급할 수도 있다. all 키워드는 생략 가능하고 생략했을 때 기본 값은 all 으로 처리된다. 이 밖에도 다양한 미디어 타입(all, aural, braille, embossed, handheld, print, projection, screen, speech, tty, tv)이 있다. all, screen, print를 가장 널리 쓴다.</li>
+<li><strong>and</strong>: and 키워드는 논리적으로 &#8216;AND&#8217; 연산을 수행하여 앞과 뒤의 조건을 모두 만족해야 한다는 것을 의미한다. 조건이 유일하거나 또는 only, all과 같은 선행 키워드가 생략되면 and 키워드는 사용하지 말아야 한다. and 대신 콤마 &#8216;,&#8217; 기호를 사용하면 &#8216;OR&#8217; 연산을 수행한다. &#8216;OR&#8217; 연산은 나열된 조건 중에서 하나만 참이어도 {실행문}을 해석한다. <a href="#div-comment-60188">OR 조건을 위한 콤마 &#8216;,&#8217; 기호 사용시 유의점</a>.</li>
+<li><strong>(조건문)</strong>: 브라우저는 조건문이 참일때{실행문}을 처리하고 거짓일 때 무시한다. 조건문은 두 가지 이상 등장할 수 있다. 둘 이상의 조건문은 &#8216;and&#8217; 키워드 또는 콤마 &#8216;,&#8217; 기호로 연결해야 한다.</li>
+<li><strong>{실행문}</strong>: 일반적인 CSS 코드를 이 괄호 안에 작성한다. 브라우저는 (조건문)이 참일때 실행문 안쪽에 있는 CSS 코드를 해석한다.</li>
+</ul>
+<h2>CSS 코드 외부에서 분기하는 방법</h2>
+<p>조건문에 따라 별도의 외부 CSS 파일을 참조하여 분기하는 방법은 다음과 같다. 이 방식은 성능 최적화 측면에서 권장하지 않는다.</p>
+<blockquote style="border: 1px dashed #fff; padding: 0 1em; font-family: 'Courier New', Courier, monospace; background: #333; color: #fff; border-radius: 5px;"><p>&lt;link rel=&#8221;stylesheet&#8221; type=&#8221;text/css&#8221; media=&#8221;all and (조건A)&#8221; href=&#8221;A.css&#8221;&gt;<br />
+&lt;link rel=&#8221;stylesheet&#8221; type=&#8221;text/css&#8221; media=&#8221;all and (조건B)&#8221; href=&#8221;B.css&#8221;&gt;</p></blockquote>
+<p>데스크탑 브라우저 사용자가 언제든 조건을 변경(예를 들면 창 크기를 조절해서 해상도를 바꿈)할 수 있기 때문에 웹 브라우저는 조건에 관계 없이 A.css 파일과 B.css 파일을 항상 요청한다. HTTP 요청을 불필요하게 두 번 발생시켜 이 페이지를 처음 로딩하는 사용자에게는 성능 저하의 원인이 된다. CSS 파일은 하나로 병합하고 CSS 코드 내부에서 조건 분기하는 방식을 권장한다.</p>
+<h2>미디어 쿼리 코드 템플릿</h2>
+<p>아래 코드는 모든 해상도를 커버하기 위한 미디어 쿼리 코드 템플릿이다. All, Mobile, Tablet, Desktop 으로 기기별 대응 코드를 분류 했지만 Liquid 레이아웃 기법을 사용하면 사실상 모든 해상도를 커버할 수 있다.</p>
+<blockquote style="border: 1px dashed #fff; padding: 0 1em; font-family: 'Courier New', Courier, monospace; background: #333; color: #fff; border-radius: 5px;"><p>@charset &#8220;utf-8&#8243;;</p>
+<p>/* All Device */<br />
+모든 해상도를 위한 공통 코드를 작성한다. 모든 해상도에서 이 코드가 실행됨.</p>
+<p>/* Mobile Device */<br />
+768px 미만 해상도의 모바일 기기를 위한 코드를 작성한다. 모든 해상도에서 이 코드가 실행됨. 미디어 쿼리를 지원하지 않는 모바일 기기를 위해 미디어 쿼리 구문을 사용하지 않는다.</p>
+<p>/* Tablet &amp; Desktop Device */<br />
+@media all and (min-width:768px) {<br />
+사용자 해상도가 768px 이상일 때 이 코드가 실행됨. 테블릿과 데스크톱의 공통 코드를 작성한다.<br />
+}</p>
+<p>/* Tablet Device */<br />
+@media all and (min-width:768px) and (max-width:1024px) {<br />
+사용자 해상도가 768px 이상이고 1024px 이하일 때 이 코드가 실행됨. 아이패드 또는 비교적 작은 해상도의 랩탑이나 데스크톱에 대응하는 코드를 작성한다.<br />
+}</p>
+<p>/* Desktop Device */<br />
+@media all and (min-width:1025px) {<br />
+사용자 해상도가 1025px 이상일 때 이 코드가 실행됨. 1025px 이상의 랩탑 또는 데스크톱에 대응하는 코드를 작성한다.<br />
+}</p></blockquote>
+<h2>조건문이 될 수 있는 특징들</h2>
+<h3>width / height</h3>
+<p>뷰포트의 너비와 높이. 뷰포트의 크기는 HTML body 콘텐츠를 표시하는 영역으로 실제 스크린의 크기와는 다르다. 반응형 웹 구현시 가장 일반적으로 사용하는 조건이 된다.</p>
+<ul>
+<li>Value: &lt;length&gt;</li>
+<li>Applies to: visual and tactile media types</li>
+<li>Accepts min/max prefixes: yes</li>
+</ul>
+<p>Example:</p>
+<blockquote style="border: 1px dashed #fff; padding: 0 1em; font-family: 'Courier New', Courier, monospace; background: #333; color: #fff; border-radius: 5px;"><p>@media all and (min-width:768px) and (max-width:1024px) { &#8230; } // 뷰포트 너비가 768px 이상 &#8216;그리고&#8217; 1024px 이하이면 실행</p>
+<p>@media all and (width:768px), (width:1024px) { &#8230; } // 뷰포트 너비가 768px 이거나 &#8216;또는&#8217; 1024px 이면 실행</p>
+<p>@media not all and (min-width:768px) and (max-width:1024px) { &#8230; } // 뷰포트 너비가 768px 이상 &#8216;그리고&#8217; 1024px 이하가 &#8216;아니면&#8217; 실행</p></blockquote>
+<h3>device-width / device-height</h3>
+<p>스크린의 너비와 높이. 스크린은 출력 장치가 픽셀을 표시할 수 있는 모든 영역으로 일반적으로 HTML body 콘텐츠를 표시하는 뷰포트 보다 크다.</p>
+<ul>
+<li>Value: &lt;length&gt;</li>
+<li>Applies to: visual and tactile media types</li>
+<li>Accepts min/max prefixes: yes</li>
+</ul>
+<p>Example:</p>
+<blockquote style="border: 1px dashed #fff; padding: 0 1em; font-family: 'Courier New', Courier, monospace; background: #333; color: #fff; border-radius: 5px;"><p>@media all and (device-width:320px) and (device-height:480px) { &#8230; } // 스크린 너비가 320px &#8216;그리고&#8217; 높이가 480px 이면 실행</p>
+<p>@media all and (min-device-width:320px) and (min-device-height:480px) { &#8230; } // 스크린 너비가 최소 320px 이상 &#8216;그리고&#8217; 높이가 최소 480px 이상이면 실행</p></blockquote>
+<h3>orientation</h3>
+<p>뷰포트의 너비와 높이 비율을 이용하여 세로 모드인지 가로 모드인지를 판단한다.</p>
+<ul>
+<li>Value: portrait | landscape</li>
+<li>Applies to: bitmap media types</li>
+<li>Accepts min/max prefixes: no</li>
+</ul>
+<p>Example:</p>
+<blockquote style="border: 1px dashed #fff; padding: 0 1em; font-family: 'Courier New', Courier, monospace; background: #333; color: #fff; border-radius: 5px;"><p>@media all and (orientation:portrait) { &#8230; } // 세로 모드. 뷰포트의 높이가 너비에 비해 상대적으로 크면 실행</p>
+<p>@media all and (orientation:landscape) { &#8230; } // 가로 모드. 뷰포트의 너비가 높이에 비해 상대적으로 크면 실행</p></blockquote>
+<h3>aspect-ratio</h3>
+<p>뷰포트의 너비와 높이에 대한 비율. &#8216;너비/높이&#8217; 순으로 조건을 작성한다. min/max 접두사를 사용하면 너비 값의 최소/최대 비율을 정할 수 있다.</p>
+<ul>
+<li>Value: &lt;ratio&gt;</li>
+<li>Applies to: bitmat media types</li>
+<li>Accepts min/max prefixes: yes</li>
+</ul>
+<p>Example:</p>
+<blockquote style="border: 1px dashed #fff; padding: 0 1em; font-family: 'Courier New', Courier, monospace; background: #333; color: #fff; border-radius: 5px;"><p>@media all and (aspect-ratio:5/4) { &#8230; } // 뷰포트 너비가 5, 높이가 4 비율이면 실행</p>
+<p>@media all and (min-aspect-ratio:5/4) { &#8230; } // 뷰포트 너비가 5/4 비율 이상이면 실행</p>
+<p>@media all and (max-aspect-ratio:5/4) { &#8230; } // 뷰포트 너비가 5/4 비율 이하면 실행</p></blockquote>
+<h3>device-aspect-ratio</h3>
+<p>스크린의 너비와 높이에 대한 비율. &#8216;너비/높이&#8217; 순으로 조건을 작성한다. min/max 접두사를 사용하면 너비 값의 최소/대최 비율을 정할 수 있다.</p>
+<ul>
+<li>Value: &lt;ratio&gt;</li>
+<li>Applies to: bitmap media types</li>
+<li>Accepts min/max prefixes: yes</li>
+</ul>
+<p>Example:</p>
+<blockquote style="border: 1px dashed #fff; padding: 0 1em; font-family: 'Courier New', Courier, monospace; background: #333; color: #fff; border-radius: 5px;"><p>@media all and (device-aspect-ratio:5/4) { &#8230; } // 스크린 너비가 5, 높이가 4 비율이면 실행</p>
+<p>@media all and (min-device-aspect-ratio:5/4) { &#8230; } // 스크린 너비가 5/4 비율 이상이면 실행</p>
+<p>@media all and (max-device-aspect-ratio:5/4) { &#8230; } // 스크린 너비가 5/4 비율 이하면 실행</p></blockquote>
+<h3>color</h3>
+<p>출력 장치의 색상에 대한 비트 수. 출력 장치가 컬러가 아닌 경우 &#8216;0&#8217;의 값에 대응한다.</p>
+<ul>
+<li>Value: &lt;integer&gt;</li>
+<li>Applies to: visual media types</li>
+<li>Accepts min/max prefixes: yes</li>
+</ul>
+<p>Example:</p>
+<blockquote style="border: 1px dashed #fff; padding: 0 1em; font-family: 'Courier New', Courier, monospace; background: #333; color: #fff; border-radius: 5px;"><p>@media all and (color) { &#8230; } // 출력 장치가 컬러를 지원하면 실행</p>
+<p>@media all and (color:0) { &#8230; } // 출력 장치가 컬러가 아니면 실행</p>
+<p>@media all and (color:8) { &#8230; } // 출력 장치가 8비트 색상이면 실행</p>
+<p>@media all and (min-color:8) { &#8230; } // 출력 장치가 8비트 이상 색상이면 실행</p>
+<p>@media all and (max-color:8) { &#8230; } // 출력 장치가 8비트 이하 색상이면 실행</p></blockquote>
+<h3>color-index</h3>
+<p>출력 장치가 색상 색인 테이블을 사용하는 경우 표현할 수 있는 색의 수. 출력 장치가 색상 색인 테이블을 사용하지 않으면 &#8216;0&#8217;의 값에 대응한다. 현재 제대로 지원하는 브라우저가 없다.</p>
+<ul>
+<li>Value: &lt;integer&gt;</li>
+<li>Applies to: visual media types</li>
+<li>Accepts min/max prefixes: yes</li>
+</ul>
+<p>Example:</p>
+<blockquote style="border: 1px dashed #fff; padding: 0 1em; font-family: 'Courier New', Courier, monospace; background: #333; color: #fff; border-radius: 5px;"><p>@media all and (color-index) { &#8230; } // 출력 장치가 색상 색인 테이블을 사용하면 실행</p>
+<p>@media all and (color-index:0) { &#8230; } // 출력 장치가 색상 색인 테이블을 사용하지 않으면 실행</p>
+<p>@media all and (color-index:256) { &#8230; } // 출력 장치가 256 색을 지원하면 실행</p>
+<p>@media all and (min-color-index:256) { &#8230; } // 출력 장치가 256 이상 색을 지원하면 실행</p>
+<p>@media all and (max-color-index:256) { &#8230; } // 출력 장치가 256 이하 색을 지원하면 실행</p></blockquote>
+<h3>monochrome</h3>
+<p>출력 장치가 흑백인 경우 픽셀당 비트 수. 출력 장치가 흑백이 아니라면 &#8216;0&#8217;의 값에 대응한다.</p>
+<ul>
+<li>Value: &lt;integer&gt;</li>
+<li>Applies to: visual media types</li>
+<li>Accepts min/max prefixes: yes</li>
+</ul>
+<p>Example:</p>
+<blockquote style="border: 1px dashed #fff; padding: 0 1em; font-family: 'Courier New', Courier, monospace; background: #333; color: #fff; border-radius: 5px;"><p>@media all and (monochrome) { &#8230; } // 출력 장치가 흑백이면 실행</p>
+<p>@media all and (monochrome:0) { &#8230; } // 출력 장치가 흑백이 아니면 실행</p>
+<p>@media all and (min-monochrome:2) { &#8230; } // 출력 장치가 흑백이고 2비트 이상이면 실행</p>
+<p>@media all and (max-monochrome:2) { &#8230; } // 출력 장치가 흑백이고 2비트 이하이면 실행</p></blockquote>
+<h3>resolution</h3>
+<p>출력 장치의 해상력에 대응한다. min/max 접두사는 사각형 아닌 픽셀(인쇄 장치)에도 대응하지만 접두사 없는 resolution 조건은 사각형 픽셀에만 대응한다. 조건의 값으로 dpi와 dpcm 단위를 사용할 수 있다.</p>
+<ul>
+<li>Value: &lt;resolution&gt;</li>
+<li>Applies to: bitmap media types</li>
+<li>Accepts min/max prefixes: yes</li>
+</ul>
+<p>Example:</p>
+<blockquote style="border: 1px dashed #fff; padding: 0 1em; font-family: 'Courier New', Courier, monospace; background: #333; color: #fff; border-radius: 5px;"><p>@media all and (resolution:96dpi) { &#8230; } // 1인치당 96개의 사각형 화소를 제공하면 실행</p>
+<p>@media all and (min-resolution:96dpi) { &#8230; } // 1인치당 96개 이상의 화소를 제공하면 실행</p>
+<p>@media all and (max-resolution:96dpi) { &#8230; } // 1인치당 96개 이하의 화소를 제공하면 실행</p></blockquote>
+<h3>scan</h3>
+<p>TV의 스캔 방식에 따라 대응한다. progressive 값은 초당 60회 수준의 고화질 스캔에 대응하고 interlace 값은 초당 30회 수준의 일반 스캔에 대응한다. 대부분의 HDTV는 progressive와 interlace 방식을 모두 지원하고 있다.</p>
+<ul>
+<li>Value: progressive | interlace</li>
+<li>Applies to: &#8220;tv&#8221; media types</li>
+<li>Accepts min/max prefixes: no</li>
+</ul>
+<p>Example:</p>
+<blockquote style="border: 1px dashed #fff; padding: 0 1em; font-family: 'Courier New', Courier, monospace; background: #333; color: #fff; border-radius: 5px;"><p>@media tv and (scan:progressive) { &#8230; } // 초당 60회 수준의 고화질 스캔 방식 TV에 대응한다</p>
+<p>@media tv and (scan:interlace) { &#8230; } // 초당 30회 수준의 일반 스캔 방식 TV에 대응한다</p></blockquote>
+<h3>grid</h3>
+<p>출력 장치가 그리드 방식이면 대응한다. 그리드 방식은 타자기와 같이 고정된 글꼴만 사용하는 장치이다. 통상 출력 장치는 비트맵이 아니면 그리드 방식이다. 값은 정수 &#8216;0&#8217;과 &#8216;1&#8217; 뿐이고 &#8216;0&#8217;의 값은 비트맵 방식에 대응한다.</p>
+<ul>
+<li>Value: &lt;integer&gt; 0 | 1</li>
+<li>Applies to: visual and tactile media types</li>
+<li>Accepts min/max prefixes: no</li>
+</ul>
+<p>Example:</p>
+<blockquote style="border: 1px dashed #fff; padding: 0 1em; font-family: 'Courier New', Courier, monospace; background: #333; color: #fff; border-radius: 5px;"><p>@media all and (grid) { &#8230; } // 출력 장치가 그리드 방식이면 실행</p>
+<p>@media all and (grid:0) { &#8230; } // 출력 장치가 그리드 방식이 아니면 실행</p>
+<p>@media all and (grid:1) { &#8230; } // 출력 장치가 그리드 방식이면 실행</p></blockquote>
+]]></content:encoded>
+			<wfw:commentRss>http://naradesign.net/wp/2012/05/30/1823/feed/</wfw:commentRss>
+		<slash:comments>25</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,118 @@
+﻿@model IEnumerable<EasyPosting.Models.EP_POSTS>
+@using EasyPosting.Models
+@{
+    ViewBag.Title = "스토리지";
+    Layout = "~/Views/Shared/_StorageLayout.cshtml";
+}
+
+@Styles.Render("~/Content/storage")
+@Scripts.Render("~/bundles/storage")
+<!-- begin breadcrumb -->
+<ol class="breadcrumb pull-right">
+    <li><a href="@Url.RouteUrl(new { controller = "Home", action = "Index" })">EasyPosting+</a></li>
+    <li class="active">스토리지</li>
+</ol>
+<!-- begin page-header -->
+<h1 class="page-header">나의 스토리지</h1>
+<!-- end page-header -->
+<!-- end breadcrumb -->
+<div class="p-20">
+    <!-- begin row -->
+    <div class="row">
+        <!-- begin col-2 -->
+        <div class="col-md-2">
+            @using (Html.BeginForm("Search", "Storage", FormMethod.Post))
+            {
+                <div class="input-group m-b-15">
+                    @Html.AntiForgeryToken()
+                    @Html.TextBox("Search_Data", null, new { @required = "yes", @class = "form-control input-sm input-white", @placeholder = "스토리지 검색" })
+                    @*<input type="text" class="form-control input-sm input-white" placeholder="스토리지 검색" />*@
+                    <span class="input-group-btn">
+                        <button class="btn btn-sm btn-inverse" type="submit"><i class="fa fa-search"></i></button>
+                    </span>
+                </div>
+            }
+            <div class="hidden-sm hidden-xs" id="options">
+                <h5 class="m-t-20">스토리지</h5>
+                <ul class="nav nav-pills nav-stacked nav-inbox">
+                    <li><a href="@Url.RouteUrl(new { controller = "Storage", action = "Image"})"><i class="fa fa-inbox fa-fw m-r-5"></i> 이미지<span class="badge pull-right">@ViewBag.imagenum</span></a></li>
+                    <li><a href="@Url.RouteUrl(new { controller = "Storage", action = "Attachment"})"><i class="fa fa-inbox fa-fw m-r-5"></i> 첨부파일<span class="badge pull-right">@ViewBag.attachnum</span></a></li>
+                    <li><a href="@Url.RouteUrl(new { controller = "Storage", action = "Video"})"><i class="fa fa-pencil fa-fw m-r-5"></i> 동영상<span class="badge pull-right">@ViewBag.videonum</span></a></li>
+                    <li class="active"><a href="@Url.RouteUrl(new { controller = "Storage", action = "Link"})"><i class="fa fa-trash-o fa-fw m-r-5"></i> 링크<span class="badge pull-right">@ViewBag.linknum</span></a></li>
+                    <li><a href="@Url.RouteUrl(new { controller = "Storage", action = "Shared"})"><i class="fa fa-star fa-fw m-r-5"></i> 공유된 자료<span class="badge pull-right">0</span></a></li>
+                </ul>
+                <h5 class="m-t-20">태그</h5>
+                <ul class="nav nav-pills nav-stacked nav-inbox gallery-option-set" id="filter" data-option-key="filter">
+                    <li><a href="#gallery-group-1" data-option-value="*"><i class="fa fa-folder fa-fw m-r-5"></i> 전체 태그</a></li>
+                    <li><a href="#gallery-group-1" data-option-value=".gallery-group-1"><i class="fa fa-folder fa-fw m-r-5"></i> 태그 1</a></li>
+                    <li><a href="#gallery-group-2" data-option-value=".gallery-group-2"><i class="fa fa-folder fa-fw m-r-5"></i> 태그 2</a></li>
+                    <li><a href="#gallery-group-3" data-option-value=".gallery-group-3"><i class="fa fa-folder fa-fw m-r-5"></i> 태그 3</a></li>
+                    <li><a href="#gallery-group-3" data-option-value=".gallery-group-4"><i class="fa fa-folder fa-fw m-r-5"></i> 태그 4</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end col-2 -->
+        <!-- begin col-10 -->
+        <div class="col-md-10">
+            <div class="email-content">
+                <table class="table table-email">
+                    <thead>
+                        <tr>
+                            <th>
+                                <div class="dropdown">
+                                    <a href="#" class="email-header-link" data-toggle="dropdown">View All <i class="fa fa-angle-down m-l-5"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="active"><a href="#">All</a></li>
+                                        <li><a href="#">Unread</a></li>
+                                        <li><a href="#">Contacts</a></li>
+                                        <li><a href="#">Groups</a></li>
+                                        <li><a href="#">Newsletters</a></li>
+                                        <li><a href="#">Social updates</a></li>
+                                        <li><a href="#">Everything else</a></li>
+                                    </ul>
+                                </div>
+                            </th>
+                            <th>
+                                <div class="dropdown">
+                                    <a href="#" class="email-header-link" data-toggle="dropdown">Arrange by <i class="fa fa-angle-down m-l-5"></i></a>
+                                    <ul class="dropdown-menu">
+                                        <li class="active"><a href="#">Date</a></li>
+                                        <li><a href="#">From</a></li>
+                                        <li><a href="#">Subject</a></li>
+                                        <li><a href="#">Size</a></li>
+                                        <li><a href="#">Conversation</a></li>
+                                    </ul>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td class="email-subject">
+                                    <a href="#" class="email-btn" data-click="email-archive"><i class="fa fa-folder-open"></i></a>
+                                    <a href="#" class="email-btn" data-click="email-remove"><i class="fa fa-trash-o"></i></a>
+                                    <a href="#" class="email-btn" data-click="email-highlight"><i class="fa fa-flag"></i></a>
+                                    @Html.DisplayFor(modelItem => item.Title)
+                                </td>
+                                <td class="email-date">
+                                    @Html.DisplayFor(modelItem => item.Date)
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div class="email-footer clearfix">
+                    <ul class="pagination pagination-sm m-t-0 m-b-0 pull-right">
+                        <li class="disabled"><a href="javascript:;"><i class="fa fa-angle-double-left"></i></a></li>
+                        <li class="disabled"><a href="javascript:;"><i class="fa fa-angle-left"></i></a></li>
+                        <li><a href="javascript:;"><i class="fa fa-angle-right"></i></a></li>
+                        <li><a href="javascript:;"><i class="fa fa-angle-double-right"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end col-10 -->
+    </div>
+</div>

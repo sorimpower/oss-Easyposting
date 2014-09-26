@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>팡상닷컴</title>
+		<link>http://pangsan.tistory.com/</link>
+		<description></description>
+		<language>ko</language>
+		<pubDate>Thu, 27 Mar 2014 15:55:24 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>야이노마</managingEditor>
+		<image>
+			<title>팡상닷컴</title>
+			<url>http://cfile7.uf.tistory.com/image/273434335328F52909734A</url>
+			<link>http://pangsan.tistory.com</link>
+			<description></description>
+		</image>
+		<item>
+			<title>iOS Static Library 만들시 용량 줄이기</title>
+			<link>http://pangsan.tistory.com/226</link>
+			<description>&lt;p&gt;&lt;/p&gt;&lt;div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;table style=&quot;BORDER-COLLAPSE: collapse&quot; cellspacing=&quot;1&quot; cellpadding=&quot;2&quot; width=&quot;99%&quot; bgcolor=&quot;#ffffff&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;BORDER-BOTTOM: rgb(232,74,95) 1px solid; BORDER-LEFT: rgb(232,74,95) 10px solid; BORDER-TOP: rgb(232,74,95) 10px solid; BORDER-RIGHT: rgb(232,74,95) 1px solid&quot; bgcolor=&quot;#E84A5F&quot; width=&quot;60%&quot;&gt;&lt;p&gt;&lt;span style=&quot;FONT-FAMILY: Gulim; COLOR: rgb(255,255,255); FONT-SIZE: 11pt&quot;&gt;&lt;strong&gt;&amp;nbsp;정적 라이브러리 만들시 용량 줄이는 방법&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;
+&lt;td style=&quot;BORDER-BOTTOM: rgb(232,74,95) 1px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:519px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/215DA1355333C4F524227F&quot; filemime=&quot;image/jpeg&quot; filename=&quot;스크린샷 2014-03-27 오후 3.27.30.png&quot; height=&quot;353&quot; width=&quot;519&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;☆&amp;nbsp;Build Setting&amp;nbsp;→&amp;nbsp;Apple LLVM 5.1 - Code Generation&amp;nbsp;→&amp;nbsp;Generate Debug Symbol&amp;nbsp;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;b&gt;→ NO&lt;/b&gt; 로 설정&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;설정 하나만 고치면 .a 용량이 반절 이상 줄어든걸 확인 할 수있습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-226-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>iOS</category>
+			<category>ios static library</category>
+			<category>ios 정적 라이브러리</category>
+			<category>정적 라이브러리 용량 줄이기</category>
+			<author>야이노마</author>
+			<guid>http://pangsan.tistory.com/226</guid>
+			<comments>http://pangsan.tistory.com/226#entry226comment</comments>
+			<pubDate>Thu, 27 Mar 2014 15:30:42 +0900</pubDate>
+		</item>
+		<item>
+			<title>맥 .profile 설정</title>
+			<link>http://pangsan.tistory.com/222</link>
+			<description>&lt;p&gt;&lt;/p&gt;&lt;div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;table style=&quot;BORDER-COLLAPSE: collapse&quot; cellspacing=&quot;1&quot; cellpadding=&quot;2&quot; width=&quot;99%&quot; bgcolor=&quot;#ffffff&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;BORDER-BOTTOM: rgb(232,74,95) 1px solid; BORDER-LEFT: rgb(232,74,95) 10px solid; BORDER-TOP: rgb(232,74,95) 10px solid; BORDER-RIGHT: rgb(232,74,95) 1px solid&quot; bgcolor=&quot;#E84A5F&quot; width=&quot;60%&quot;&gt;&lt;span style=&quot;FONT-FAMILY: Gulim; COLOR: rgb(255,255,255); FONT-SIZE: 11pt&quot;&gt;&lt;strong&gt;&amp;nbsp;터미널에서 vi ~/.profile&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;BORDER-BOTTOM: rgb(232,74,95) 1px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; &quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.8; background-color: transparent;&quot;&gt;## color&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.8; &quot;&gt;&lt;span style=&quot;font-size: 11pt; &quot;&gt;export TERM=xterm-color&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.8; &quot;&gt;&lt;span style=&quot;font-size: 11pt; &quot;&gt;export CLICOLOR=true&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.8; &quot;&gt;&lt;span style=&quot;font-size: 11pt; &quot;&gt;export LSCOLORS=ExFxCxDxBxegedabagacad&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.8; &quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.8; &quot;&gt;&lt;span style=&quot;font-size: 11pt; &quot;&gt;# alias&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.8; &quot;&gt;&lt;span style=&quot;font-size: 11pt; &quot;&gt;alias ls=&quot;ls -FGw&quot;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.8; &quot;&gt;&lt;span style=&quot;font-size: 11pt; &quot;&gt;alias ll=&quot;ls -l&quot;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 1.8; &quot;&gt;&lt;span style=&quot;font-size: 11pt; &quot;&gt;alias cl=&quot;clear&quot;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;☆&amp;nbsp;&lt;span style=&quot;font-size: 15px; line-height: 22px; background-color: transparent;&quot;&gt;필요한 기능만 추가해서 사용하세요.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-222-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>Mac</category>
+			<category>Profile</category>
+			<category>맥 profile</category>
+			<author>야이노마</author>
+			<guid>http://pangsan.tistory.com/222</guid>
+			<comments>http://pangsan.tistory.com/222#entry222comment</comments>
+			<pubDate>Wed, 26 Sep 2012 10:49:07 +0900</pubDate>
+		</item>
+		<item>
+			<title>맥 .vimrc 설정</title>
+			<link>http://pangsan.tistory.com/221</link>
+			<description>&lt;p&gt;&lt;/p&gt;&lt;div&gt;&lt;p&gt;&lt;/p&gt;
+&lt;table style=&quot;BORDER-COLLAPSE: collapse&quot; cellspacing=&quot;1&quot; cellpadding=&quot;2&quot; width=&quot;99%&quot; bgcolor=&quot;#ffffff&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;BORDER-BOTTOM: rgb(232,74,95) 1px solid; BORDER-LEFT: rgb(232,74,95) 10px solid; BORDER-TOP: rgb(232,74,95) 10px solid; BORDER-RIGHT: rgb(232,74,95) 1px solid&quot; bgcolor=&quot;#E84A5F&quot; width=&quot;60%&quot;&gt;&lt;span style=&quot;FONT-FAMILY: Gulim; COLOR: rgb(255,255,255); FONT-SIZE: 11pt&quot;&gt;&lt;strong&gt;&amp;nbsp;터미널에서 vi ~/.vimrc&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;BORDER-BOTTOM: rgb(232,74,95) 1px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid&quot;&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; font-size: 10pt;&quot;&gt;&lt;b&gt;set nocompatible &lt;/b&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 10pt;&quot;&gt;&quot; Vim 디폴트 기능들을 사용함&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; &quot;&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set backspace=2&lt;/b&gt; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&quot; 삽입 모드에서 백스페이스를 계속 허용&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; &quot;&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set autoindent &amp;nbsp;&lt;/b&gt; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&quot; 자동 들여쓰기&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; &quot;&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set cindent&lt;/b&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&quot;&amp;nbsp;c언어 자동 들여쓰기&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; &quot;&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set smartindent&lt;/b&gt; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&quot; 자동 들여쓰기&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set textwidth=76&lt;/b&gt; &amp;nbsp; &amp;nbsp;&quot; 76번째 칸을 넘어가면 자동으로 줄 바꿈&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set nowrapscan&lt;/b&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; 찾기에서 파일의 맨 끝에 이르면 계속하여 찾지 않음&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set nobackup &lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; 백업파일을 만들지 않음&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set novisualbell &lt;/b&gt;&amp;nbsp; &amp;nbsp;&quot; 비주얼벨 기능을 사용하지 않음&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set nojoinspaces &lt;/b&gt;&amp;nbsp; &amp;nbsp;&quot; J 명령어로 줄을 붙일 때 마침표 뒤에 한칸만 띔&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set ruler &lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; 상태 표시줄에 커서 위치를 표시&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set tabstop=4&lt;/b&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; 탭간격&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set shiftwidth=4&lt;/b&gt; &amp;nbsp; &amp;nbsp;&quot; 자동 들여쓰기 간격&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set keywordprg=edic&lt;/b&gt; &amp;nbsp; &amp;nbsp;&quot; K를 눌렀을 때 실행할 명령어&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set showcmd &lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; (부분적인) 명령어를 상태라인에 보여줌&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set showmatch &lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; 매치도는 괄호의 반대쪽을 보여줌&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set ignorecase &lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; 찾기에서 대/소문자를 구별하지 않음&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set incsearch&lt;/b&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; 점진적으로 찾기&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set autowrite &lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; :next나 :make같은 명령을 입력하면 자동으로 저장&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set title &lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; 타이틀바에 현재 편집중인 파일을 표시&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set nu &lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot; 라인번호&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set enc=UTF-8&lt;/b&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; 인코딩&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;set fileencodings=UTF-8&lt;/b&gt; &quot; 파일 인코딩 UTF-8&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;b&gt;syntax on&lt;/b&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot; 문법 강조기능&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;☆&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 15px; line-height: 22px; background-color: transparent;&quot;&gt;필요한 기능만 추가해서 사용하세요.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-221-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>Mac</category>
+			<category>vimrc</category>
+			<category>맥 vimrc</category>
+			<author>야이노마</author>
+			<guid>http://pangsan.tistory.com/221</guid>
+			<comments>http://pangsan.tistory.com/221#entry221comment</comments>
+			<pubDate>Wed, 26 Sep 2012 10:48:46 +0900</pubDate>
+		</item>
+		<item>
+			<title>자연의 소리 - 10분간 휴식!</title>
+			<link>http://pangsan.tistory.com/209</link>
+			<description>&lt;DIV style=&quot;LINE-HEIGHT: 2&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 11pt&quot;&gt;﻿&lt;/SPAN&gt;&lt;br /&gt;
+&lt;/DIV&gt;
+&lt;DIV style=&quot;LINE-HEIGHT: 2&quot;&gt;
+&lt;H3 style=&quot;TEXT-ALIGN: left; FONT-WEIGHT: bold&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 14pt&quot;&gt;&lt;SPAN style=&quot;COLOR: rgb(157,108,8)&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 18pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 18pt&quot;&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/153B184D4DAA7B471ACAEB&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0699.jpg&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;SPAN style=&quot;LINE-HEIGHT: 27px; COLOR: rgb(51,51,51); FONT-SIZE: 19px&quot; class=Apple-style-span&gt;&lt;SPAN style=&quot;COLOR: rgb(157,108,8)&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 18pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 18pt&quot;&gt;자연의 소리 - 10분간 휴식&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-SIZE: 18pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 18pt&quot;&gt;&amp;nbsp;[&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;A title=&quot;[http://itunes.apple.com/kr/app/]로 이동합니다.&quot; href=&quot;http://itunes.apple.com/kr/app/id428176707?mt=8&quot; target=_blank&gt;&lt;SPAN style=&quot;FONT-SIZE: 14pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 18pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 18pt&quot;&gt;iTunes&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN style=&quot;FONT-SIZE: 18pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 18pt&quot;&gt;]&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/H3&gt;&lt;/DIV&gt;
+&lt;DIV style=&quot;LINE-HEIGHT: 2&quot;&gt;&lt;br /&gt;
+&lt;FONT class=Apple-style-span color=#898989 face=&quot;'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif&quot;&gt;
+&lt;p id=&quot;more209_0&quot; class=&quot;moreless_fold&quot;&gt;&lt;span style=&quot;cursor: pointer;&quot; onclick=&quot;toggleMoreLess(this, '209_0','설명 더보기','설명 접기'); return false;&quot;&gt;설명 더보기&lt;/span&gt;&lt;/p&gt;&lt;div id=&quot;content209_0&quot; class=&quot;moreless_content&quot; style=&quot;display: none;&quot;&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;각종 기계음과 소음으로 스트레스 받으시나요? 마음의 여유와 안정을 찾고 계시나요?&lt;br /&gt;
+정답은 자연에 있습니다. 어머니 품 같은 자연!&amp;nbsp;&lt;br /&gt;
+자연의 소리를 통해 지치고 오염된 가슴을 신선한 에너지로 채우세요.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+♣ 당신의 스트레스를 해소하는 &amp;lt;1/F파&amp;gt;&lt;br /&gt;
+파도와 시냇물 소리는 늘 같은 소리가 반복되는 것처럼 들리지만, 이러한 자연의 소리에는 단순한 반복이 아니라 고유한 리듬이 있습니다. 무샤 순코 박사(武者俊光)는 이 &amp;lt;1/F파&amp;gt; 리듬의 릴렉스 효과를 입증하여 세계적인 관심을 끌었습니다. 신체의 생체 리듬과 반응해 우리에게 상쾌한 기분을 선사하는 자연의 소리는 스트레스를 해소시켜 주는 효과가 있습니다.&lt;br /&gt;
+- 일본 도쿄 이과대 교수 무샤 순코(武者俊光) 박사 -&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+♣ 바다와 숲 속에서 대자연의 소리와 만나다!&lt;br /&gt;
+숲은 우리에게 무의식의 세계를 열어주는 장소이고, 우리 내면에 존재하는 가능성을 이끌어 주며 정신적인 자유를 제공해 주는 장소입니다. 어머니와 같은 숲의 품에 심신을 맡겨 편안한 마음으로 정식적인 자유를 얻으시기 바랍니다.&lt;br /&gt;
+- 일본 최고의 인지심리학자, 고마자와 대학교수 TAKASHI TOMITA -&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+Massage Your Inside!&lt;br /&gt;
+자연의 소리로 여러분을 초대합니다.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+♣ 특히 자연의 소리는 이런 분들에게 좋습니다.&lt;br /&gt;
+&lt;br /&gt;▶ 불면증으로 잠을 설치시는 분.&lt;br /&gt;
+▶ 마음의 안정이 필요한 임산부, 수험생, 고시생.&lt;br /&gt;
+▶ 스트레스를 많이 받으시는 분.&lt;br /&gt;
+▶ 삭막한 도시를 탈출하고 싶으신 분.&lt;br /&gt;
+▶ 상처받은 영혼을 치유하고 싶으신 분.&lt;br /&gt;
+▶ 감정의 기복이 심하신 분.&lt;br /&gt;
+▶ 마음의 휴식을 취하고 싶으신 분.&lt;br /&gt;
+▶ 마인드 컨트롤을 원하시는 분.&lt;br /&gt;
+▶ 짧은 시간 안에 집중력을 요하시는 분.&lt;br /&gt;
+▶ 창의적인 아이디어를 필요로 하시는 분.&lt;br /&gt;
+▶ 바다, 산, 계곡을 좋아하시는 분.&lt;br /&gt;
+▶ 여행을 좋아하지만 갈 수 없으신 분.&lt;br /&gt;
+▶ 기분전환을 하고 싶으신 분.&lt;br /&gt;
+▶ 상쾌하게 아침을 출발하고 싶으신 분.&lt;br /&gt;
+▶ 바쁜 일상에서 잠시 탈출하고 싶으신 분.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+♣ 테마별 자연의 소리 효과&lt;br /&gt;
+&lt;br /&gt;▶ 빗소리 : 빗소리는 마음을 안정시켜 잠을 잘 오게 하는 효과가 있습니다.&lt;br /&gt;
+▶ 숲소리 : 에너지 넘치는 숲소리는 상쾌한 기분을 선사합니다.&lt;br /&gt;
+▶ 파도소리 : 눈을 감고 파도소리를 들으면 스트레스가 해소됩니다.&lt;br /&gt;
+▶ 동물소리 : 새들이 지저귀는 소리는 정신을 맑게 해줍니다.&lt;br /&gt;
+▶ 악기소리 : 인디언 피리는 조용히 명상하는데 도움을 줍니다.&lt;br /&gt;
+▶ 생활소리 : 생활의 소소한 소리들은 편안함 마음을 갖게 합니다.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+♣ 출시기념! [50% 세일]&lt;br /&gt;
+▶ 소리 콘텐츠 추가 구매자, 선착순 1만 명에 한하여 1.99$ 앱 내 구매를 0.99$에 판매합니다.&lt;/P&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/FONT&gt;&lt;FONT class=Apple-style-span size=2&gt;&lt;SPAN style=&quot;LINE-HEIGHT: 19px&quot; class=Apple-style-span&gt;
+&lt;DIV&gt;&lt;/DIV&gt;
+&lt;DIV&gt;
+&lt;TABLE style=&quot;BORDER-COLLAPSE: collapse&quot; cellSpacing=1 cellPadding=2 width=&quot;99%&quot; bgColor=#ffffff&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(30,120,210) 1px solid; BORDER-LEFT: rgb(30,120,210) 1px solid; BORDER-TOP: rgb(30,120,210) 1px solid; BORDER-RIGHT: rgb(30,120,210) 1px solid&quot; bgColor=#1e78d2 width=&quot;60%&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim; COLOR: rgb(255,255,255); FONT-SIZE: 11pt&quot;&gt;&lt;STRONG&gt;&amp;nbsp;검증된 애플리케이션&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(30,120,210) 1px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid&quot;&gt;&lt;br /&gt;
+&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/DIV&gt;&lt;br /&gt;
+&lt;/SPAN&gt;&lt;/FONT&gt;&lt;SPAN style=&quot;LINE-HEIGHT: 19px; FONT-SIZE: small&quot; class=Apple-style-span&gt;허왕된 애플리케이션이 아닌, 애플리케이션 설명에도 나와있듯이 검증된 애플리케이션이며, 무료 버전이기때문에 부담없이 받으셔서 들으시면 후회없습니다.&lt;br /&gt;
+리뷰를 보면 자장가 대신에 아기에게 들려주시는 분도 계시고, 수험생 들도 많이 듣는다는 리뷰도 있습니다. 거의 대부분 만족하다는 리뷰네요.&lt;br /&gt;
+&lt;br /&gt;애플리케이션 용량이 커서 와이파이모드에서만 다운로드가 되는것이 문제이지만, 그만큼 소리 파일, 이미지 파일에 신경을 쓴 것이라는 반증이겠죠.&lt;br /&gt;
+사실 전 무료앱들은 퀄리티가 너무 떨어져서 받지 않았는데 오랜만에 무료앱중에서 마음에 드네요.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;/SPAN&gt;&lt;/DIV&gt;
+&lt;DIV style=&quot;LINE-HEIGHT: 2&quot;&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;TABLE style=&quot;BORDER-COLLAPSE: collapse&quot; cellSpacing=1 cellPadding=2 width=&quot;99%&quot; bgColor=#ffffff&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(30,120,210) 1px solid; BORDER-LEFT: rgb(30,120,210) 1px solid; BORDER-TOP: rgb(30,120,210) 1px solid; BORDER-RIGHT: rgb(30,120,210) 1px solid&quot; bgColor=#1e78d2 width=&quot;60%&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim; COLOR: rgb(255,255,255); FONT-SIZE: 11pt&quot;&gt;&lt;STRONG&gt;&amp;nbsp;애플리케이션 설명&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(30,120,210) 1px solid; BORDER-LEFT: rgb(255,255,255) 0px solid; BORDER-TOP: rgb(255,255,255) 0px solid; BORDER-RIGHT: rgb(255,255,255) 0px solid&quot;&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/DIV&gt;
+&lt;DIV style=&quot;LINE-HEIGHT: 2&quot;&gt;&lt;br /&gt;
+&lt;/DIV&gt;
+&lt;P style=&quot;LINE-HEIGHT: 2; MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock left&quot; style=&quot;float: left; margin-right: 10px;&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/174D3B3B4DAA7F872BF48B&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0700.jpg&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;DIV style=&quot;LINE-HEIGHT: 2&quot;&gt;&lt;/DIV&gt;
+&lt;P style=&quot;LINE-HEIGHT: 2; MARGIN: 0px&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;FONT class=Apple-style-span size=2&gt;동물소리 + 숲소리 + 악기소리 + 생활소리 + 빗소리 + 파도소리의 카테고리로 분류가 되어잇습니다.&lt;br /&gt;
+메인화면은 익숙한 아이폰 아이콘 이동방식을 지원합니다. 드레그 앤 드랍으로 아이콘 배치를 다시 할 수 있습니다.&lt;br /&gt;
+&amp;nbsp;&lt;/FONT&gt;&lt;br /&gt;
+&lt;FONT class=Apple-style-span color=#5c7fb0 size=2&gt;무료버전은 11개의 사운드를 지원하고 추가로 39개의 사운드를 구매할 수 있습니다.&lt;/FONT&gt;&lt;br /&gt;
+&lt;/P&gt;
+&lt;DIV style=&quot;LINE-HEIGHT: 2&quot;&gt;&lt;br /&gt;
+
+&lt;FIELDSET style=&quot;BORDER-BOTTOM-STYLE: solid; BORDER-BOTTOM-COLOR: rgb(0,102,255); BORDER-RIGHT-STYLE: solid; BORDER-TOP-COLOR: rgb(0,102,255); BORDER-TOP-STYLE: solid; BORDER-RIGHT-COLOR: rgb(0,102,255); BORDER-LEFT-STYLE: solid; BORDER-LEFT-COLOR: rgb(0,102,255)&quot;&gt;&lt;LEGEND style=&quot;FONT-WEIGHT: bold&quot;&gt;&lt;FONT class=Apple-style-span color=#0066cc&gt;&lt;SPAN style=&quot;LINE-HEIGHT: 22px; FONT-SIZE: 15px&quot; class=Apple-style-span&gt;추가 구매시 혜택&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/LEGEND&gt;▶&amp;nbsp;시작시 광고 삭제&lt;br /&gt;
+▶&amp;nbsp;39개의 고음질 사운드 추가&lt;br /&gt;
+▶&amp;nbsp;향후 업데이트시 추가될 모든 사운드 무료&lt;br /&gt;
+&lt;/FIELDSET&gt; &lt;/DIV&gt;
+&lt;DIV style=&quot;LINE-HEIGHT: 2&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;DIV&gt;
+&lt;TABLE style=&quot;BORDER-COLLAPSE: collapse&quot; cellSpacing=1 cellPadding=1 width=&quot;99%&quot; bgColor=#ffffff&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(110,220,220) 2px solid; BORDER-LEFT: rgb(218,218,218) 0px solid; BORDER-TOP: rgb(218,218,218) 0px solid; BORDER-RIGHT: rgb(218,218,218) 0px solid&quot; width=&quot;50%&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;FONT color=#b8d63d&gt;1. 재생화면&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(110,220,220) 2px solid; BORDER-LEFT: rgb(218,218,218) 0px solid; BORDER-TOP: rgb(218,218,218) 0px solid; BORDER-RIGHT: rgb(218,218,218) 0px solid&quot; width=&quot;3%&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(110,220,220) 2px solid; BORDER-LEFT: rgb(218,218,218) 0px solid; BORDER-TOP: rgb(218,218,218) 0px solid; BORDER-RIGHT: rgb(218,218,218) 0px solid&quot; bgColor=#baaad7 width=&quot;1%&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(110,220,220) 2px solid; BORDER-LEFT: rgb(218,218,218) 0px solid; BORDER-TOP: rgb(218,218,218) 0px solid; BORDER-RIGHT: rgb(218,218,218) 0px solid&quot; bgColor=#9986ee width=&quot;1%&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/DIV&gt;&lt;br /&gt;
+&lt;/DIV&gt;
+&lt;P style=&quot;LINE-HEIGHT: 2; MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock left&quot; style=&quot;float: left; margin-right: 10px;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/112C8D4A4DAA849508C2D5&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0701.jpg&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;DIV style=&quot;LINE-HEIGHT: 2&quot;&gt;&lt;br /&gt;
+&lt;/DIV&gt;
+&lt;P style=&quot;LINE-HEIGHT: 2; MARGIN: 0px&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 12pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;소리를 재생하면 풀 사이즈 고해상도 이미지와 함께 사운드가 재생됩&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;br /&gt;
+&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;니다.&lt;/SPAN&gt;&lt;br /&gt;
+&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;br /&gt;
+&lt;SPAN style=&quot;FONT-SIZE: 12pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;스크린 터치(제스쳐)로 전후 사운드를 재생할 수 있게 되어 있네요&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;/P&gt;
+&lt;DIV&gt;
+&lt;TABLE style=&quot;BORDER-COLLAPSE: collapse&quot; cellSpacing=1 cellPadding=1 width=&quot;99%&quot; bgColor=#ffffff&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(110,220,220) 2px solid; BORDER-LEFT: rgb(218,218,218) 0px solid; BORDER-TOP: rgb(218,218,218) 0px solid; BORDER-RIGHT: rgb(218,218,218) 0px solid&quot; width=&quot;50%&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;FONT color=#b8d63d&gt;2. 타이머 설정 화면&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(110,220,220) 2px solid; BORDER-LEFT: rgb(218,218,218) 0px solid; BORDER-TOP: rgb(218,218,218) 0px solid; BORDER-RIGHT: rgb(218,218,218) 0px solid&quot; width=&quot;3%&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(110,220,220) 2px solid; BORDER-LEFT: rgb(218,218,218) 0px solid; BORDER-TOP: rgb(218,218,218) 0px solid; BORDER-RIGHT: rgb(218,218,218) 0px solid&quot; bgColor=#baaad7 width=&quot;1%&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(110,220,220) 2px solid; BORDER-LEFT: rgb(218,218,218) 0px solid; BORDER-TOP: rgb(218,218,218) 0px solid; BORDER-RIGHT: rgb(218,218,218) 0px solid&quot; bgColor=#9986ee width=&quot;1%&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/DIV&gt;&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock left&quot; style=&quot;float: left; margin-right: 10px;&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/131E75444DAA8538193654&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0702.jpg&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;SPAN style=&quot;LINE-HEIGHT: 26px; FONT-SIZE: 13px&quot; class=Apple-style-span&gt;가장 마음에 드는 타이머 기능이네요. 배터리가 무한대도 아닌데 켜놓고 잘 수 있는 상황이 빈번한데 이럴때에 유용하게 사용되더군요.&amp;nbsp;&lt;br /&gt;
+&amp;nbsp;&lt;/SPAN&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;P style=&quot;LINE-HEIGHT: 2; MARGIN: 0px&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;전 취침타이머로 많이 사용하고 있습니다.&amp;nbsp;어플 자동종료를 ON으로 하면 어플이 자동으로 종료되서 부담없이 자기전에 들을 수 있습니다.&amp;nbsp;&lt;/SPAN&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/P&gt;
+&lt;P style=&quot;LINE-HEIGHT: 2; MARGIN: 0px&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;/P&gt;
+&lt;DIV&gt;
+&lt;TABLE style=&quot;BORDER-COLLAPSE: collapse&quot; cellSpacing=1 cellPadding=1 width=&quot;99%&quot; bgColor=#ffffff&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(110,220,220) 2px solid; BORDER-LEFT: rgb(218,218,218) 0px solid; BORDER-TOP: rgb(218,218,218) 0px solid; BORDER-RIGHT: rgb(218,218,218) 0px solid&quot; width=&quot;50%&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;FONT color=#b8d63d&gt;3. 플레이리스트 화면&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(110,220,220) 2px solid; BORDER-LEFT: rgb(218,218,218) 0px solid; BORDER-TOP: rgb(218,218,218) 0px solid; BORDER-RIGHT: rgb(218,218,218) 0px solid&quot; width=&quot;3%&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(110,220,220) 2px solid; BORDER-LEFT: rgb(218,218,218) 0px solid; BORDER-TOP: rgb(218,218,218) 0px solid; BORDER-RIGHT: rgb(218,218,218) 0px solid&quot; bgColor=#baaad7 width=&quot;1%&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(110,220,220) 2px solid; BORDER-LEFT: rgb(218,218,218) 0px solid; BORDER-TOP: rgb(218,218,218) 0px solid; BORDER-RIGHT: rgb(218,218,218) 0px solid&quot; bgColor=#9986ee width=&quot;1%&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/DIV&gt;&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock left&quot; style=&quot;float: left; margin-right: 10px;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/1915793E4DAA85B834DBF0&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0703.jpg&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;여러개의 플레이리스트 목록을 작성해서 그때 그때 듣고 싶은 사운드를 연속해서 들을 수 있는 기능입니다.&lt;br /&gt;
+&lt;br /&gt;예) 재생간격 : 11분 설정, 사운드 갯수 : 20개 &amp;nbsp;→ 11(분) x 20﻿ (개 ) = 220분 (13200초) 재생을 한다는 거죠!&lt;br /&gt;
+&lt;br /&gt;어플 자동 종료를 ON 으로 설정하면 타이머 기능에서 본것과 같이 애플리케이션이 자동 종료가 됩니다. &lt;br /&gt;
+배터리 절약 필수!!!&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+
+&lt;DIV&gt;
+&lt;TABLE style=&quot;BORDER-COLLAPSE: collapse&quot; cellSpacing=1 cellPadding=1 width=&quot;99%&quot; bgColor=#ffffff&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(110,220,220) 2px solid; BORDER-LEFT: rgb(218,218,218) 0px solid; BORDER-TOP: rgb(218,218,218) 0px solid; BORDER-RIGHT: rgb(218,218,218) 0px solid&quot; width=&quot;50%&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;FONT color=#b8d63d&gt;4. 믹스 화면 설정&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(110,220,220) 2px solid; BORDER-LEFT: rgb(218,218,218) 0px solid; BORDER-TOP: rgb(218,218,218) 0px solid; BORDER-RIGHT: rgb(218,218,218) 0px solid&quot; width=&quot;3%&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(110,220,220) 2px solid; BORDER-LEFT: rgb(218,218,218) 0px solid; BORDER-TOP: rgb(218,218,218) 0px solid; BORDER-RIGHT: rgb(218,218,218) 0px solid&quot; bgColor=#baaad7 width=&quot;1%&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: rgb(110,220,220) 2px solid; BORDER-LEFT: rgb(218,218,218) 0px solid; BORDER-TOP: rgb(218,218,218) 0px solid; BORDER-RIGHT: rgb(218,218,218) 0px solid&quot; bgColor=#9986ee width=&quot;1%&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/DIV&gt;&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock left&quot; style=&quot;float: left; margin-right: 10px;&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/1149674D4DAA871530A11E&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0706.jpg&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+여러개의 사운드를 믹스해서 들을 수 있는 기능입니다. 여러가지 사운드를 믹스해서 들으면 좀더 색다른 소리를 들을 수 있어 너무 좋아요.&lt;br /&gt;
+&lt;br /&gt;타이머 기능을 추가해서 애플리케이션을 자동 종료 할 수도 있게 만들어 졌습니다.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;br /&gt;
+&lt;/P&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;P&gt;&lt;/P&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-209-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=15841572&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>App Review</category>
+			<category>ensight</category>
+			<category>사운드 마사지</category>
+			<category>사운드마사지</category>
+			<category>사운드트레블</category>
+			<category>아이폰 어플</category>
+			<category>어플</category>
+			<category>인사이트</category>
+			<category>추천 어플</category>
+			<author>야이노마</author>
+			<guid>http://pangsan.tistory.com/209</guid>
+			<comments>http://pangsan.tistory.com/209#entry209comment</comments>
+			<pubDate>Sun, 17 Apr 2011 15:25:52 +0900</pubDate>
+		</item>
+		<item>
+			<title>Mac OSX 시작프로그램 등록/변경</title>
+			<link>http://pangsan.tistory.com/208</link>
+			<description>&lt;br /&gt;
+&lt;div style=&quot;line-height: 1.8;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;맥용 스카이프를 설치했는데 맥을 부팅하면 자동으로 스카이프가 실행되는 것 이었습니다. 별로 사용하지 않는 스카이프가 부팅과 동시에 항상 켜지는 것을 취소하려고 스카이프 옵션을 찾아봤습니다. &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;br /&gt;
+컴퓨터 실행 시 자동실행&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;﻿이란 체크옵션이 있을 줄 알고 계속 찾아봤지만 스카이프 옵션 어디에도 찾을 수 없었습니다.&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt; 스카이프 옵션에 없으면 시작프로그램에 스카이프 응용 프로그램이 등록된것이라 생각하고 &lt;/span&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;시스템 환경설정&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;을 찾아서 해결했습니다.&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;table style=&quot;border-collapse: collapse;&quot; bgcolor=&quot;#ffffff&quot; cellpadding=&quot;2&quot; cellspacing=&quot;1&quot; width=&quot;99%&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;border: 1px solid rgb(30, 120, 210);&quot; bgcolor=&quot;#1e78d2&quot; width=&quot;60%&quot;&gt;&lt;span style=&quot;font-family: Gulim; color: rgb(255, 255, 255); font-size: 11pt;&quot;&gt;&lt;strong&gt;&amp;nbsp;시작프로그램 등록/변경 방법&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;border-width: 0px 0px 1px; border-style: solid; border-color: rgb(255, 255, 255) rgb(255, 255, 255) rgb(30, 120, 210);&quot;&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/200405234B8A893307252B&quot; alt=&quot;&quot; filemime=&quot;image/png&quot; filename=&quot;스크린샷 2010-03-01 오전 12.12.27.png&quot; height=&quot;414&quot; width=&quot;605&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;시스템 환경설정 → 계정&lt;/span&gt; 설정을 클릭하세요.&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/207FE9234B8A89372EE2BA&quot; alt=&quot;&quot; filemime=&quot;image/png&quot; filename=&quot;스크린샷 2010-03-01 오전 12.15.06.png&quot; height=&quot;480&quot; width=&quot;605&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+계정설정부분에서 &lt;span style=&quot;font-weight: bold;&quot;&gt;로그인 항목&lt;/span&gt;을 클릭하세요.&lt;br /&gt;
+﻿&lt;/span&gt;이제 (+) (-)아이콘을 이용해서 필요한 응용 프로그램을 지정할 수 있습니다.&lt;br /&gt;
+&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-208-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=5995038&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>OS X</category>
+			<category>Mac OSX 시작프로그램</category>
+			<category>mac 시작프로그램</category>
+			<category>osx 시작프로그램</category>
+			<author>야이노마</author>
+			<guid>http://pangsan.tistory.com/208</guid>
+			<comments>http://pangsan.tistory.com/208#entry208comment</comments>
+			<pubDate>Mon, 01 Mar 2010 00:24:34 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Live Cams] 세계 방방곡곡이 CCTV로 생중계된다.</title>
+			<link>http://pangsan.tistory.com/207</link>
+			<description>
+
+&lt;div style=&quot;line-height: 1.8;&quot;&gt;
+&lt;span style=&quot;font-size: 10pt;&quot;&gt;﻿&lt;div&gt;
+&lt;h3 style=&quot;font-weight: bold; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;/span&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-weight: bold; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;
+&lt;/span&gt;&lt;/h3&gt;&lt;h3 style=&quot;font-weight: bold; text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;span style=&quot;color: rgb(157, 108, 8);&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;div class=&quot;imageblock left&quot; style=&quot;float: left; margin-right: 10px;&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/112AD3124B69596C293267&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;log.png&quot; height=&quot;52&quot; width=&quot;53&quot;/&gt;&lt;/div&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;h3 style=&quot;font-weight: bold; text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;span style=&quot;color: rgb(157, 108, 8);&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;span style=&quot;font-size: 24pt;&quot;&gt;Live Cams&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;span style=&quot;font-size: 24pt;&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;[&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;a title=&quot;[http://itunes.apple.com/kr/app/]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://itunes.apple.com/kr/app/&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;span style=&quot;font-size: 24pt;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;a title=&quot;[http://itunes.apple.com/kr/app/live-cams/id301058477?mt=8]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://itunes.apple.com/kr/app/live-cams/id301058477?mt=8&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;iTunes&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;span style=&quot;font-size: 24pt;&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/h3&gt;&lt;/div&gt;
+&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;﻿&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size: 10pt;&quot;&gt;처음에는 카메라 어플인줄 알고 사용해 보지 않았던 어플인데 막상 사용해 보니 카메라 어플이 아닌 CCTV을 이용한 어플이었습니다. 등록되어 있는 CCTV를 볼 수 있다는 것이 엄청 신기했습니다. &lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/194F7D134B695F405D1C34&quot; alt=&quot;&quot; filemime=&quot;image/png&quot; filename=&quot;IMG_0031.PNG&quot; height=&quot;320&quot; width=&quot;480&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size: 10pt;&quot;&gt;﻿&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;상당히 많은 카테고리로 검색을 할 수 있으며 즐겨찾기도 가능합니다. &lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/165907134B695F41766179&quot; alt=&quot;&quot; filemime=&quot;image/png&quot; filename=&quot;IMG_0032.PNG&quot; height=&quot;320&quot; width=&quot;480&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size: 10pt;&quot;&gt;카테고리 중에서 Beaches를 선택해서 본 화면입니다. 총 8페이지가 검색이 되네요.(대략 12 x 8)&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size: 10pt;&quot;&gt;12개의 화면중 보고 싶은 화면을 클릭하면 전체화면으로 보실 수 있습니다.&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/175A00134B695F42E126B6&quot; alt=&quot;&quot; filemime=&quot;image/png&quot; filename=&quot;IMG_0033.PNG&quot; height=&quot;320&quot; width=&quot;480&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+전체화면으로 본 해변의 모습입니다. 해변정보가 아랫부분에 간단히 설명이 되어있습니다. 전체화면의 화질도 상당히 깔끔한 편입니다. &lt;br /&gt;
+운이 좋으면 좋은 장면도 볼 수 있지 않을까 하는데 저에게는 그런 행운이 찾아오지 않네요....&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-207-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=5697726&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>App Review</category>
+			<category>live cams</category>
+			<category>아이폰 live</category>
+			<category>아이폰 live cams</category>
+			<category>아이폰 추천어플</category>
+			<category>아이폰 카메라</category>
+			<author>야이노마</author>
+			<guid>http://pangsan.tistory.com/207</guid>
+			<comments>http://pangsan.tistory.com/207#entry207comment</comments>
+			<pubDate>Wed, 03 Feb 2010 20:08:54 +0900</pubDate>
+		</item>
+		<item>
+			<title>아이폰 iPod(노래/동영상) 단축키 알고 계시나요?</title>
+			<link>http://pangsan.tistory.com/206</link>
+			<description>&lt;br /&gt;
+&lt;div style=&quot;line-height: 1.8;&quot;&gt;
+&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/183B4E014B68122C937DC0&quot; alt=&quot;&quot; filemime=&quot;image/png&quot; filename=&quot;IMG_0026.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+위의 사진같은 &lt;span style=&quot;font-weight: bold;&quot;&gt;iPod&lt;sup class=&quot;footnote&quot;&gt;&lt;a id=&quot;footnote_link_206_1&quot; href=&quot;#footnote_206_1&quot; onmouseover=&quot;tistoryFootnote.show(this, 206, 1)&quot; onmouseout=&quot;tistoryFootnote.hide(206, 1)&quot; style=&quot;color: #f9650d; font-family: Verdana, Sans-serif&quot;&gt;&lt;span style=&quot;display: none&quot;&gt;[각주:&lt;/span&gt;1&lt;span style=&quot;display: none&quot;&gt;]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/span&gt; 을 어떻게 실행하시나요? &lt;br /&gt;
+전 단축키를 몰랐을때는 항상 iPod 아이콘을 클릭해서 실행을 했습니다. 그런데 우연찮게 iPod 단축키를 알게되어 사용해보니 엄청 편하더군요. 혹시 아직도 단축키를 모르시는 분들이 있을까봐 글을 작성하게 되었습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/1640D4054B68145A65FD3D&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;home.jpg&quot; height=&quot;361&quot; width=&quot;237&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;iPod 단축키는 위의 사진의 아이폰 홈키를 두번 클릭하면 됩니다. 엄청 간단한 팁이지만 모르시는 분이 많을 것이라고 생각합니다.&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/113117014B68122DE76B62&quot; alt=&quot;&quot; filemime=&quot;image/png&quot; filename=&quot;IMG_0027.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+만약 지금 노래가 재생되고 있는 상황이라면 &lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;iPod가 실행되지 않고 &lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;위의 사진처럼 나옵니다. 스킨 때문에 화면이 조금 다른점은 참고해 주세요. 노래가 재생되지 않는 상황이라면 iPod가 바로 실행 됩니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/12757C014B68122F298EDD&quot; alt=&quot;&quot; filemime=&quot;image/png&quot; filename=&quot;IMG_0029.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+아이폰 잠금모드일때에는 어떻게 iPod를 실행하셨나요? 비밀번호를 입력하여 암호를 입력해서 iPod 아이콘을 클릭하여 iPod를 컨트롤하셨을 것 입니다. 그런데 잠금상태에서 iPod 단축키인 홈키를 두번 클릭하면 위의 사진처럼 노래 재생컨트롤이 나옵니다. 번거롭게 암호를 입력하지 않아도 마음대로 다른 노래를 들을 수 있습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;table style=&quot;border-collapse: collapse;&quot; width=&quot;99%&quot; bgcolor=&quot;#ffffff&quot; cellpadding=&quot;2&quot; cellspacing=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;border: 1px solid rgb(30, 120, 210);&quot; width=&quot;60%&quot; bgcolor=&quot;#1e78d2&quot;&gt;&lt;span style=&quot;font-family: Gulim; color: rgb(255, 255, 255); font-size: 11pt;&quot;&gt;&lt;strong&gt;&amp;nbsp;팁) 동영상 화면X 소리만 듣고 싶을 떄&lt;br /&gt;
+&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;border-style: solid; border-color: rgb(255, 255, 255) rgb(255, 255, 255) rgb(30, 120, 210); border-width: 0px 0px 1px;&quot;&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+많이 사용하지 않지만 가끔(외국어 공부등) 동영상 화면을 보지않고 소리만 듣고 싶을때가 있습니다. 동영상을 재생하고 화면을 안보면 되지 않냐고 하면 저는 할말이 없어집니다. 그러나 아까운 배터리가 소모가 됩니다. 이럴경우도 위에 소개한 iPod 단축키가 필요합니다.&lt;br /&gt;
+&lt;br /&gt;
+1. 먼저 듣고싶은 동영상을 재생합니다. &lt;br /&gt;
+2. 아이폰 전원버튼을 눌러 아이폰을 대기모드로 전환합니다.&lt;br /&gt;
+3. iPod 단축키 홈키를 두번 클릭합니다.&lt;br /&gt;
+4. iPod 컨트롤러가 나옵니다.&amp;nbsp; &lt;br /&gt;
+&lt;br /&gt;
+간단한 팁이지만 모르면 할 수 없겠죠!&lt;br /&gt;
+&lt;br /&gt;
+&lt;div&gt;
+&lt;hr style=&quot;border-style: solid none; border-color: black; border-width: 1px 0px 3px; height: 7px; display: block;&quot;&gt;&lt;/div&gt;
+&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;footnotes&quot;&gt;
+	&lt;ol class=&quot;footnotes&quot;&gt;
+		&lt;li id=&quot;footnote_206_1&quot;&gt;iPod는 노래나 동영상을 볼때 실행하는 어플입니다. 아이폰을 사용하면서 가장 많이 사용하느 것 중 하나라고 생각합니다. &lt;a href=&quot;#footnote_link_206_1&quot;&gt;[본문으로]&lt;/a&gt;&lt;/li&gt;
+	&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-206-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=5683677&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>iPhone Tip</category>
+			<category>iPod</category>
+			<category>ipod 단축키</category>
+			<category>아이폰</category>
+			<category>아이폰 팁</category>
+			<author>야이노마</author>
+			<guid>http://pangsan.tistory.com/206</guid>
+			<comments>http://pangsan.tistory.com/206#entry206comment</comments>
+			<pubDate>Tue, 02 Feb 2010 21:16:50 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Soundhound] 제목은 몰라도 돼! 노래만 흘러나오면 검색이 된다!</title>
+			<link>http://pangsan.tistory.com/205</link>
+			<description>&lt;br /&gt;
+&lt;div style=&quot;line-height: 1.8;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;길거리, 카페, 역, 마트 ... 어디를 가더라도 노래를 들을 수 있습니다. 간혹 흘러나오는 노래가 정말 마음에 들어서 그 노래 제목을 알고 싶어도 알 수 있는 방법이 없죠. 노래 가사를 적어서 인터넷으로 검색을 해봐도 되지만, 너무 귀찮은 작업이 되어서 선뜻 하지는 못 합니다.&lt;br /&gt;
+&lt;br /&gt;제가 소개하는 &lt;span style=&quot;font-weight: bold;&quot;&gt;Soundhound&lt;/span&gt; 즉 노래사냥개(?) 어플이 있으면 간단히 노래를 검색할 수&amp;nbsp; 있습니다. 간단히 설명하면 흘러나오는 노래에 어플을 실행하면 그 노래를 자동으로 찾아줍니다.&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/20017D1F4B601CD4A17746&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0021.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;Soundhound&lt;/span&gt; 어플 시작 화면입니다. 주요기능인 노래 검색기능에 대해서 알아보겠습니다. &lt;br /&gt;
+제목을 알 수 없는 노래가 흘러 나오면 빨간색 사각형 안의 &lt;span style=&quot;font-weight: bold;&quot;&gt;Tap Here &lt;/span&gt;를 클릭합니다.&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/11017D1F4B601CD4A2A12F&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0023.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+열심히 해당 노래를 검색하고 있는 중 입니다. 보통 5초안에 검색이 되는 것으로 보이더군요.&lt;br /&gt;
+그리고 상당히 정확한 검색결과를 보여줍니다. 개인적으로 지금까지 사용하면서 한번도 잘못된 검색결과가 나온적이 없네요.&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/13017D1F4B601CD5A3F8F7&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0024.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+지금 흘러나오고 있는 노래는 &lt;/span&gt;&lt;a class=&quot;yschttl&quot; href=&quot;http://wrs.search.yahoo.co.jp/;_ylt=A3xThlPxHmBLi4MB9WyDTwx.;_ylu=X3oDMTEyam8wZ2M4BHBvcwMxBHNlYwNzcgRzbGsDdGl0bGUEdnRpZANqcGMwMDI-/SIG=12bg3da8r/EXP=1264676978/*-http%3A//www.sonymusic.co.jp/Music/Arch/SMER/kananishino/&quot;&gt;&lt;a title=&quot;[http://www.nishinokana.com/]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://www.nishinokana.com/&quot;&gt;西野 &lt;/a&gt;&lt;b&gt;&lt;a title=&quot;[http://www.nishinokana.com/]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://www.nishinokana.com/&quot;&gt;カナ(니시노 카나)&lt;/a&gt;&lt;/b&gt;&lt;/a&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;의&lt;span style=&quot;font-weight: bold;&quot;&gt; Dear...&lt;/span&gt;이란 노래입니다.&lt;br /&gt;
+제목과 가수 정보뿐만 아니라 유투브와 구글이 연결되어 있어서 영상과 해당 구글검색을 제공하고 있습니다. 간단히 Dear...의 뮤직비디오까지 유투브에서 볼 수 있네요.&lt;br /&gt;
+&lt;br /&gt;이렇게 좋은 어플에도 단점이 존재합니다. 치명적인 단점이라면 단점인 국내가요는 검색이 되지않는다는 것 입니다. POP만 검색되어지게 되었는데 이번에 버전업이 되면서 JPOP도 정확하게 검색이 되었습니다. 다음 버전때는 국내가요도 검색이 되지않을까 생각되지만, 제작자 맘이겠죠.&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-205-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=5608099&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>App Review</category>
+			<category>midomi</category>
+			<category>soundhound</category>
+			<category>미도미</category>
+			<category>사운드하운드</category>
+			<category>아이폰 soundhound</category>
+			<category>아이폰 노래</category>
+			<category>아이폰 어플</category>
+			<category>아이폰 추천 어플</category>
+			<author>야이노마</author>
+			<guid>http://pangsan.tistory.com/205</guid>
+			<comments>http://pangsan.tistory.com/205#entry205comment</comments>
+			<pubDate>Wed, 27 Jan 2010 20:16:45 +0900</pubDate>
+		</item>
+		<item>
+			<title>아이폰 3G 차단해서 요금폭탄 대비하자!</title>
+			<link>http://pangsan.tistory.com/204</link>
+			<description>&lt;br /&gt;
+&lt;div style=&quot;line-height: 1.8;&quot;&gt;
+&lt;span style=&quot;font-size: 10pt;&quot;&gt;아이폰 요금폭탄을 당하신분은 대부분 아실 것 이라고 생각합니다. 아이폰 3G 요금은 생각했던 것 보다 비싸지요. 그래서 되도록 와이파이나 넷스팟에 연결이 되어있지 않으면 인터넷에 연결되지 않으려고 노력을 많이 했습니다. 그렇지만 나도 모르게 사파리나 앱스토워, 기타 인터넷 연결이 필요한 어플을 실행해서 요금청구서를 보고 후회를 하곤 했습니다.&lt;br /&gt;
+&lt;br /&gt;
+이 방법은 와이파이나 넷스팟에 접속되지 않을 시 3G망에 접속하지 못하게 하는 방법입니다. 미리 원천봉쇄를 해서 아이폰 요금을 안전하게 지키는 것 입니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/171431014B5B9E7A637DB7&quot; alt=&quot;&quot; filemime=&quot;image/png&quot; filename=&quot;IMG_0002.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size: 10pt;&quot;&gt;먼저 사파리를 이용하여 &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;a title=&quot;[http://iphonenodata.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://iphonenodata.com&quot;&gt;http://iphonenodata.com&lt;/a&gt; &lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;으로 접속하신 후 &lt;span style=&quot;font-weight: bold;&quot;&gt;Disable EDGE/3G&lt;/span&gt; 버튼을 클릭합니다.&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock dual&quot; style=&quot;text-align: center;&quot;&gt;&lt;table cellspacing=&quot;5&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; style=&quot;margin: 0 auto;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/19145B014B5B9E7A571211&quot; alt=&quot;&quot; height=&quot;445&quot; width=&quot;297&quot;/&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/19145F014B5B9E7B7D76DD&quot; alt=&quot;&quot; height=&quot;445&quot; width=&quot;297&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;
+프로파일을 설치하시면 3&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;G&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;망으로 인터넷 접근이 제어가 됩니다. 이제는 마음편히 인터넷을 즐기기만 하면 됩니다. 정말 의심을 하시는 분들을 위해 아이폰 3&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;G&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;일때 앱스토어에 접근해보았습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/171463014B5B9E7C4BC43F&quot; alt=&quot;&quot; filemime=&quot;image/png&quot; filename=&quot;IMG_0005.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+위 스샷처럼 현재 3&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;G&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;망이고&lt;span style=&quot;font-weight: bold;&quot;&gt; '셀룰러 데이터 네트워크를 활성할 수 없음&lt;/span&gt;'이란 승인창이 나옵니다. 이제 안전하게 인터넷을 즐길 수 있겠죠.&lt;br /&gt;
+&lt;br /&gt;
+여기서 잠깐!&lt;br /&gt;
+현재 와이파이와 넷스팟이 연결안되었을때 급히 인터넷에 접근해야할 경우가 생길 수도 있습니다. 그때는 어떻게 해야할지 고민하지 마시고 다음 가이드를 보시길 바랍니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock dual&quot; style=&quot;text-align: center;&quot;&gt;&lt;table cellspacing=&quot;5&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; style=&quot;margin: 0 auto;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/191313014B5B9E7D727E92&quot; alt=&quot;&quot; height=&quot;445&quot; width=&quot;297&quot;/&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/121467014B5B9E7D395C3E&quot; alt=&quot;&quot; height=&quot;445&quot; width=&quot;297&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;설정 → 일반&lt;/span&gt; 에 가시면 위의 스샷처럼 &lt;span style=&quot;font-weight: bold;&quot;&gt;프로파일&lt;/span&gt;란이 생깁니다. 프로파일을 선택하시고 제거버튼을 클릭하면 다시 3D망에 접속할 수 있습니다. &lt;br /&gt;
+&lt;span style=&quot;font-size: 10pt;&quot;&gt;3D망 접근을 제어하려면 &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;http://iphonenodata.com&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;a title=&quot;[http://iphonenodata.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://iphonenodata.com&quot;&gt;&lt;/a&gt; 에 가셔서 다시 설정을 하시면 됩니다.&lt;/span&gt; &lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-204-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=5562349&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>iPhone Tip</category>
+			<category>3D 차단</category>
+			<category>EDGE/3G</category>
+			<category>아이폰 3D</category>
+			<category>아이폰 3D 차단</category>
+			<category>아이폰 인터넷</category>
+			<author>야이노마</author>
+			<guid>http://pangsan.tistory.com/204</guid>
+			<comments>http://pangsan.tistory.com/204#entry204comment</comments>
+			<pubDate>Sun, 24 Jan 2010 16:04:23 +0900</pubDate>
+		</item>
+		<item>
+			<title>아이폰 3GS 탈옥(해킹) 가이드</title>
+			<link>http://pangsan.tistory.com/203</link>
+			<description>&lt;br /&gt;
+&lt;span style=&quot;font-size: 10pt;&quot;&gt;아이폰을 순정으로 사용하다가 그 한계를 느끼고 탈옥을 결심하시는 분들이 많습니다.&lt;br /&gt;
+아이폰을 해킹한다고 생각하면 엄청 대단해 보이지만 이 가이드를 보고 따라 하시면 &quot;별거 없네﻿&quot;라고 생각하실 것 입니다. &lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;div style=&quot;line-height: 1.8;&quot;&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;div&gt;
+&lt;table style=&quot;border-collapse: collapse;&quot; width=&quot;99%&quot; bgcolor=&quot;#ffffff&quot; cellpadding=&quot;2&quot; cellspacing=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;border: 1px solid rgb(30, 120, 210);&quot; width=&quot;60%&quot; bgcolor=&quot;#1e78d2&quot;&gt;&lt;span style=&quot;font-family: Gulim; color: rgb(255, 255, 255); font-size: 11pt;&quot;&gt;&lt;strong&gt;&amp;nbsp;아이폰 탈옥 가이드&lt;br /&gt;
+&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;border-style: solid; border-color: rgb(255, 255, 255) rgb(255, 255, 255) rgb(30, 120, 210); border-width: 0px 0px 1px;&quot;&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div&gt;
+&lt;table style=&quot;border-collapse: collapse;&quot; width=&quot;99%&quot; bgcolor=&quot;#ffffff&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;border-style: solid; border-color: rgb(218, 218, 218) rgb(218, 218, 218) rgb(110, 220, 220); border-width: 0px 0px 2px;&quot; width=&quot;50%&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-family: Gulim;&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;font color=&quot;#b8d63d&quot;&gt;1. 컴퓨터와 USB 케이블을 연결합니다.&lt;br /&gt;
+&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;border-style: solid; border-color: rgb(218, 218, 218) rgb(218, 218, 218) rgb(110, 220, 220); border-width: 0px 0px 2px;&quot; width=&quot;3%&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-family: Gulim;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;border-style: solid; border-color: rgb(218, 218, 218) rgb(218, 218, 218) rgb(110, 220, 220); border-width: 0px 0px 2px;&quot; width=&quot;1%&quot; bgcolor=&quot;#baaad7&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-family: Gulim;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;border-style: solid; border-color: rgb(218, 218, 218) rgb(218, 218, 218) rgb(110, 220, 220); border-width: 0px 0px 2px;&quot; width=&quot;1%&quot; bgcolor=&quot;#9986ee&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-family: Gulim;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+USB 케이블을 컴퓨터와 연결하기 전에 아이폰 전원을 켜두는 것은 상식이겠죠.&lt;br /&gt;
+만약 아이튠즈가 실행되고 있으면 아이튠즈를 종료합니다. 아이튠즈를 종료 안해도 상관없지만 아이튠즈 떄문에 탈옥중 오류가 날 수도 있기 때문에 종료하는 편이 좋습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div&gt;
+&lt;table style=&quot;border-collapse: collapse;&quot; width=&quot;99%&quot; bgcolor=&quot;#ffffff&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;border-style: solid; border-color: rgb(218, 218, 218) rgb(218, 218, 218) rgb(110, 220, 220); border-width: 0px 0px 2px;&quot; width=&quot;50%&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-family: Gulim;&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;font color=&quot;#b8d63d&quot;&gt;2. Blackra1n 을 실행합니다.&lt;br /&gt;
+&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;border-style: solid; border-color: rgb(218, 218, 218) rgb(218, 218, 218) rgb(110, 220, 220); border-width: 0px 0px 2px;&quot; width=&quot;3%&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-family: Gulim;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;border-style: solid; border-color: rgb(218, 218, 218) rgb(218, 218, 218) rgb(110, 220, 220); border-width: 0px 0px 2px;&quot; width=&quot;1%&quot; bgcolor=&quot;#baaad7&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-family: Gulim;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;border-style: solid; border-color: rgb(218, 218, 218) rgb(218, 218, 218) rgb(110, 220, 220); border-width: 0px 0px 2px;&quot; width=&quot;1%&quot; bgcolor=&quot;#9986ee&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-family: Gulim;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Blackra1n 다운로드&lt;/span&gt;&amp;nbsp; ☞&amp;nbsp;&lt;a title=&quot;[http://blackra1n.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://blackra1n.com&quot;&gt; http://blackra1n.com&lt;/a&gt;&lt;br /&gt;
+링크된 사이트로 접속하여 자신의 운영체제(윈도우or맥)에 맞는 블랙레인 파일을 다운로드 합니다. &lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/144005214B5A839C4648AC&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;블랙레인.jpg&quot; height=&quot;110&quot; width=&quot;410&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;make it ra1n&lt;/span&gt; 버튼을 클릭하여 블랙레인을 실행시킵니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/154005214B5A839C47FAD0&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;경고.jpg&quot; height=&quot;214&quot; width=&quot;492&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+영어로 주절주절 설명이 되어있습니다. &lt;span style=&quot;font-weight: bold;&quot;&gt;확인&lt;/span&gt; 버튼을 눌러 탈옥을 진행합니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/112F71224B5A84FC1817EB&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;탈옥중.jpg&quot; height=&quot;462&quot; width=&quot;316&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+반지의 제왕에 나오는 프로도와 비슷한 사람이 째려보고 있으면 탈옥이 성공적으로 끝났습니다.&lt;br /&gt;
+이제 크랙된 어플(IPA파일)을 마음대로 아이폰에 넣어서 사용할 수 있게 되었습니다. &lt;br /&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;fieldset style=&quot;border-style: solid; border-color: rgb(0, 102, 255);&quot;&gt; &lt;legend style=&quot;font-weight: bold;&quot;&gt;&lt;font color=&quot;#0066cc&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;※ 주의&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/legend&gt; &lt;span style=&quot;font-size: 10pt;&quot;&gt;아이폰 3GS는 완전 탈옥이 불가능합니다. &lt;br /&gt;
+다시말해 아이폰 배터리가 방전되거나 아이폰이 꺼져버릴 경우 &lt;span style=&quot;font-weight: bold;&quot;&gt;Blackra1n.exe&lt;/span&gt; 파일을 이용해서 다시 부팅시켜줘야 합니다. &lt;br /&gt;
+집이 아닌 다른곳에서 이런경우가 발생하면 집에 오기전까지는 아이폰을 충전했다 손 치더라도 사용할 수 없는 것 입니다. &lt;br /&gt;
+&lt;br /&gt;
+그래서 나름 노하우로 USB케이블을 항상 휴대하며, Blackra1n.exe파일을 메일이나 다운로드 사이트를 외워서 그때그때 다시 부팅할 수 밖에 없습니다. 또는 배터리 잔량을 조절해서 집에 돌아올때까지 사용하는 수 밖에 없죠.&lt;/span&gt;&lt;br /&gt;
+ &lt;/fieldset&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+
+&lt;table style=&quot;border-collapse: collapse;&quot; width=&quot;99%&quot; bgcolor=&quot;#ffffff&quot; cellpadding=&quot;2&quot; cellspacing=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;border: 1px solid rgb(30, 120, 210);&quot; width=&quot;60%&quot; bgcolor=&quot;#1e78d2&quot;&gt;&lt;span style=&quot;font-family: Gulim; color: rgb(255, 255, 255); font-size: 11pt;&quot;&gt;&lt;strong&gt;&amp;nbsp;탈옥 후 설정 가이드&lt;br /&gt;
+&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;border-style: solid; border-color: rgb(255, 255, 255) rgb(255, 255, 255) rgb(30, 120, 210); border-width: 0px 0px 1px;&quot;&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+아이폰 탈옥 가이드를 보고 하면 몇분 걸리지 않고 아이폰을 해킹할 수 있습니다.&lt;br /&gt;
+아이폰을 해킹만 해서 사용해도 되지만 기본적으로 하면 좋은 최적화 가이드를 설명드리겠습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div&gt;
+&lt;table style=&quot;border-collapse: collapse;&quot; width=&quot;99%&quot; bgcolor=&quot;#ffffff&quot; cellpadding=&quot;1&quot; cellspacing=&quot;1&quot;&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&quot;border-style: solid; border-color: rgb(218, 218, 218) rgb(218, 218, 218) rgb(110, 220, 220); border-width: 0px 0px 2px;&quot; width=&quot;50%&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-family: Gulim;&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;font color=&quot;#b8d63d&quot;&gt;1. 시디아(Cydia) 을 설치합니다.&lt;br /&gt;
+&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&quot;border-style: solid; border-color: rgb(218, 218, 218) rgb(218, 218, 218) rgb(110, 220, 220); border-width: 0px 0px 2px;&quot; width=&quot;3%&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-family: Gulim;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;border-style: solid; border-color: rgb(218, 218, 218) rgb(218, 218, 218) rgb(110, 220, 220); border-width: 0px 0px 2px;&quot; width=&quot;1%&quot; bgcolor=&quot;#baaad7&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-family: Gulim;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;td style=&quot;border-style: solid; border-color: rgb(218, 218, 218) rgb(218, 218, 218) rgb(110, 220, 220); border-width: 0px 0px 2px;&quot; width=&quot;1%&quot; bgcolor=&quot;#9986ee&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-family: Gulim;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/1607FC234B5A88F23A903E&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0001.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+아이폰 어플중에 &lt;span style=&quot;font-weight: bold;&quot;&gt;blackra1n&lt;/span&gt;을 실행시킵니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/140D0E274B5A8C2066BB6A&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0003.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Cydia &lt;/span&gt;을 선택하고 &lt;span style=&quot;font-weight: bold;&quot;&gt;Install&lt;/span&gt; 을 클릭합니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/160D0E274B5A8C21672391&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0004.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+어떤용도로 사용할 것인지 묻는 창이 나옵니다(&lt;span style=&quot;font-weight: bold;&quot;&gt;User*Graphicl Only&lt;/span&gt;) 을 선택합니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/170D0E274B5A8C2168CC7B&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0005.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+업그레이드를 어떻게 할 것인지 묻는 창이 뜹니다. &lt;span style=&quot;font-weight: bold;&quot;&gt;Upgrade Essential&lt;/span&gt; 을 선택합니다. 중요한 것만 업데이트 한다는 의미입니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/180D0E274B5A8C21692294&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0006.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+시디아에 접속하면 &lt;span style=&quot;font-weight: bold;&quot;&gt;Manage &lt;/span&gt;를 클릭하여 &lt;span style=&quot;font-weight: bold;&quot;&gt;Sources &lt;/span&gt;를 클릭합니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/170D0E274B5A8C226AA286&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0007.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Edit&lt;/span&gt; 버튼을 클릭하여 수정모드로 전환합니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/180D0E274B5A8C226BC766&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0008.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Add &lt;/span&gt;버튼을 클릭 후 &lt;span style=&quot;font-weight: bold;&quot;&gt;http://cydia.hackulo.us/&lt;/span&gt; 라고 입력 한 후 &lt;span style=&quot;font-weight: bold;&quot;&gt;Add Source &lt;/span&gt;버튼을 클릭합니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/190D0E274B5A8C226CFC04&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0009.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;Source Warning&lt;/span&gt; 이 뜨는 경우 &lt;span style=&quot;font-weight: bold;&quot;&gt;Add Anyway &lt;/span&gt;을 클릭합니다. hackulo.us 사이트가 접속이 잘 안되었을 때 뜨는 경고입니다.&lt;br /&gt;
+&lt;br /&gt;
+이제 시디아에서 필요한 어플을 다운로드 받아서 사용할 수 있습니다. 개인적으로 추천할 만한 어플들을 적고 아이폰 탈옥 가이드를 마치겠습니다. &lt;br /&gt;
+&lt;br /&gt;
+◆&amp;nbsp; SBSetting : 여러가지 기능(아이콘 숨김, 어플제어등)이 있습니다.&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;◆&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt; Openssh : 파일전송 프로토콜로서 ftp 기능을 사용하려면 설치하셔야합니다.&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;◆&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt; WinterBoard : 아이폰 테마변경을 위해 설치합니다.&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;◆&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt; Installous : 아이튠즈 동기화를 위해 설치합니다.&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size: 10pt;&quot;&gt;◆&amp;nbsp; AppSync : Hackulo가 제공하는 Appsync OS 를 설치합니다.&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;◆ afc2add : 아이펀박스로 접속하기 위해 설치합니다.&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;/span&gt;&lt;br /&gt;
+기타 시디아 어플(Makeitmine, SpringBack, SpringJumps, Five Icon Dock, Five-Column SpringBoard, FiveIRows No GUI, Blank Null)&lt;br /&gt;
+&lt;br /&gt;
+&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-203-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=5555995&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>iPhone Tip</category>
+			<category>Cydia</category>
+			<category>시디아</category>
+			<category>아이폰 탈옥</category>
+			<category>아이폰 해킹</category>
+			<author>야이노마</author>
+			<guid>http://pangsan.tistory.com/203</guid>
+			<comments>http://pangsan.tistory.com/203#entry203comment</comments>
+			<pubDate>Sat, 23 Jan 2010 14:56:01 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

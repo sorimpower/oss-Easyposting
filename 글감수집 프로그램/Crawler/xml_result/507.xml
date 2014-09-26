@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[명리 적성진로 직업상담]]></title>
+			<link>http://blog.naver.com/sajunaming</link>
+			
+				<image>
+					<url><![CDATA[http://blogpfthumb.phinf.naver.net/20140811_238/sajunaming_14077392420169QtUj_JPEG/klk.jpg?type=m2]]></url>
+					<title><![CDATA[명리 적성진로 직업상담]]></title>
+					<link>http://blog.naver.com/sajunaming</link>
+				</image>
+			
+			<description><![CDATA[
+
+
+명리 적성/진로상담
+
+
+
+직업상담
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:42:27 +0900</pubDate>
+
+			
+				<item>
+					<author>sajunaming</author>
+					<category><![CDATA[직업정보]]></category>
+					<title><![CDATA[한RSS 디렉토리 등록]]></title>
+					<link>http://blog.naver.com/sajunaming/220088437346</link>
+					<guid>http://blog.naver.com/sajunaming/220088437346</guid>
+					<description><![CDATA[한RSS 디렉토리]]></description>
+					<pubDate>Mon, 11 Aug 2014 13:55:21 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

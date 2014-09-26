@@ -1,0 +1,1140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>라이프해커 2.0</title>
+	<atom:link href="http://geek2live.org/feed" rel="self" type="application/rss+xml" />
+	<link>http://geek2live.org</link>
+	<description>free yourself from the mess of life</description>
+	<lastBuildDate>Sun, 30 Jun 2013 10:47:14 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	
+	<item>
+		<title>구글 리더여, 잘 가거라~</title>
+		<link>http://geek2live.org/archives/3728</link>
+		<comments>http://geek2live.org/archives/3728#comments</comments>
+		<pubDate>Sun, 30 Jun 2013 10:45:56 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[Google Reader]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3728</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p><a href="http://gstory4you.com/2013/06/30/goodbye-reader/"><img class="alignnone  wp-image-3729" alt="google reader" src="http://geek2live.org/wp-content/uploads/2013/06/google-reader.png" width="563" height="359" /></a></p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3728/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>워드프레스 플러그인: Google AdSense and Google Analytics Remover</title>
+		<link>http://geek2live.org/archives/3656</link>
+		<comments>http://geek2live.org/archives/3656#comments</comments>
+		<pubDate>Sat, 06 Apr 2013 15:27:38 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[How to]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[Weblog/blog]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[블로그]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3656</guid>
+		<description><![CDATA[워드프레스 플러그인 Google AdSense and Google Analytics Remover를 사용하면, 웹사이트의 운영자가 자신의 웹사이트에 로그인하여 활동을 할 때, 자신의 방문 등 활동을 구글 애드센스 및 구글 웹로그 분석 프로그램의 통계로부터 제외할 수 있는 유용한 플러그인입니다. Google AdSense and Google Analytics Remover는 구체적이 설정옵션이 따로 없으며, 설치하여 사용하기만 하면 됩니다. 구글 애드센스 코드가 이미 작동하고 있는 사이트에 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>워드프레스 플러그인 <a href="http://wordpress.org/extend/plugins/google-adsense-and-google-analytics-remover/" target="_blank">Google AdSense and Google Analytics Remover</a>를 사용하면, 웹사이트의 운영자가 자신의 웹사이트에 로그인하여 활동을 할 때, 자신의 방문 등 활동을 구글 애드센스 및 구글 웹로그 분석 프로그램의 통계로부터 제외할 수 있는 유용한 플러그인입니다.</p>
+<p>Google AdSense and Google Analytics Remover는 구체적이 설정옵션이 따로 없으며, 설치하여 사용하기만 하면 됩니다. 구글 애드센스 코드가 이미 작동하고 있는 사이트에 이 플러그인을 설치하고 웹사이트에 로그인한 상태에서 임의의 페이지를 방문하면 아래 화면과 같이, 광고가 검정색 상자로 뜹니다. <img src="http://geek2live.org/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<p><a href="http://geek2live.org/wp-content/uploads/2013/04/WordPress-Blog.png"><img class="wp-image-3657 aligncenter" alt="WordPress Blog" src="http://geek2live.org/wp-content/uploads/2013/04/WordPress-Blog-1024x706.png" width="614" height="424" /></a></p>
+<p>단순히 <a href="http://support.google.com/adsense/bin/answer.py?hl=ko&amp;answer=1348754#q3" target="_blank">무효 노출을 방지하기 위해</a> 이 프로그램을 사용할 필요까지야 없겠지만, 구글 웹로그 분석 프로그램의 통계에서도 자신의 발자취(log)를 완전히 제외할 수 있다고 하므로 필요하시면 한번 써보세요!</p>
+<div class='yarpp-related-rss'>
+<p>You might also like:<ol>
+<li><a href="http://geek2live.org/archives/3411" rel="bookmark" title="WordPress 블로그와 일반 사이트의 최적화에 도움이 되는 일부 &#8216;비밀 무기&#8217; 소개">WordPress 블로그와 일반 사이트의 최적화에 도움이 되는 일부 &#8216;비밀 무기&#8217; 소개 </a></li>
+<li><a href="http://geek2live.org/archives/469" rel="bookmark" title="워드프레스 설치방법 및 과정 Youtube를 통해서 쉽게 이해하기">워드프레스 설치방법 및 과정 Youtube를 통해서 쉽게 이해하기 </a></li>
+<li><a href="http://geek2live.org/archives/1368" rel="bookmark" title="YARPP 관련 포스트 플러그인 버그 해결방법">YARPP 관련 포스트 플러그인 버그 해결방법 </a></li>
+<li><a href="http://geek2live.org/archives/2764" rel="bookmark" title="WordPress 사이트의 글을 카테고리, 태그별로 구독하기">WordPress 사이트의 글을 카테고리, 태그별로 구독하기 </a></li>
+<li><a href="http://geek2live.org/archives/288" rel="bookmark" title="(YARPP) 워드프레스 관련 포스트 플러그인">(YARPP) 워드프레스 관련 포스트 플러그인 </a></li>
+</ol></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3656/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>[30 Days] 지난 66일간 내가 성공적으로 견지해온 도전사항</title>
+		<link>http://geek2live.org/archives/3605</link>
+		<comments>http://geek2live.org/archives/3605#comments</comments>
+		<pubDate>Mon, 04 Mar 2013 02:45:27 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[30 Days]]></category>
+		<category><![CDATA[Life]]></category>
+		<category><![CDATA[Personal]]></category>
+		<category><![CDATA[30 Day Challenges]]></category>
+		<category><![CDATA[66 Days]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3605</guid>
+		<description><![CDATA[제가 &#8220;30일동안 새로운 것 도전하기&#8221; 라고 하는 Google+ 커뮤니티를 새로 만들었습니다. 이 커뮤니티는 앞으로 30일동안 내가 새로 도전하고 싶은 일 또는 과거 30일간 도전해왔던 일, 혹은 지난 66일간 (왜서 66일인가요?)  내가 성공적으로 견지해온 도전사항을 공유하는 공간입니다. 이 커뮤니티는 회원 모두가 실제행동으로 다른 사람에게 영감과 계발을 주기 위하여 존재합니다. &#8220;30일동안 새로운 것 도전하기&#8221; 커뮤니티는 구글의 엔지니어 Matt Cutts의 Ted 연설에서 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><a href="http://geek2live.org/wp-content/uploads/2013/03/30-day-challenge.jpg"><img class="wp-image-3621 alignleft" alt="30-days-challenge" src="http://geek2live.org/wp-content/uploads/2013/03/30-day-challenge.jpg" width="120" height="109" /></a>제가 &#8220;<a href="https://plus.google.com/u/0/communities/103750919669293717926" target="_blank">30일동안 새로운 것 도전하기</a>&#8221; 라고 하는 Google+ 커뮤니티를 새로 만들었습니다. 이 커뮤니티는 앞으로 30일동안 내가 새로 도전하고 싶은 일 또는 과거 30일간 도전해왔던 일, 혹은 지난 66일간 (<a href="https://plus.google.com/111089649399864992840/posts/XaPFvhyvLa9" target="_blank">왜서 66일인가요?</a>)  내가 성공적으로 견지해온 도전사항을 공유하는 공간입니다. 이 커뮤니티는 회원 모두가 실제행동으로 다른 사람에게 영감과 계발을 주기 위하여 존재합니다.</p>
+<p>&#8220;30일동안 새로운 것 도전하기&#8221; 커뮤니티는 구글의 엔지니어 <a href="http://www.ted.com/talks/view/lang/kor//id/1183" target="_blank">Matt Cutts의 Ted 연설</a>에서 비롯되었습니다. 이 동영상을 보신적이 없다면 한번 꼭 감상하여보세요. 한글 자막을 지원합니다.</p>
+<p><iframe src="http://embed.ted.com/talks/lang/ko/matt_cutts_try_something_new_for_30_days.html" height="315" width="560" allowfullscreen="" frameborder="0" scrolling="no"></iframe></p>
+<p>사실 무슨 일을 하기로 맘먹으면 30일을 견지한다는 것은 그리 어려운 일이 아닌 것 같습니다. 특별히 내가 <a href="http://kr.geek2live.org/164" target="_blank">좋아하는 일</a>이거나 핍박 또는 두려움이 따르는 경우에 말입니다. 무슨 말인지 잘 이해안되시겠지만 아래 글을 계속 읽으시면 의문이 풀리실 겁니다. <img src="http://geek2live.org/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<p><strong>지난 66일간 내가 성공적으로 견지해온 도전사항</strong></p>
+<ul>
+<li><strong>담배 끊기:</strong>  다가오는 3월 7일은 제가 금연한지 만 3개월이 되는 날입니다. 부끄럽지만 제가 의지력이 대단해서 끊은 것이 아니구요, 젊은 나이에 폐암으로 돌아가신 지인의 장례식에 참가하고나서 생각을 달리하게 되었습니다.</li>
+<li><strong>글쓰기:</strong>  작년 7월부터 30일동안 매일 글 쓰기를 시작한 것이, 이제는 거의 매일 블로그에 글을 올릴 수 있는 수준에 도달했습니다. 지난 8개월간 저는 <a href="http://gstory4you.com/" target="_blank">다른 한 블로그</a>에 288편의 글을 올렸으며, 매일 평균 1.18편의 글을 썼습니다.</li>
+<li><strong>문제 해결하기:</strong> 작년 12월 중순 정도부터 시작하여 저는 <a href="https://productforums.google.com/forum/#!forum/ko" target="_blank">Google 제품 포럼</a>과 <a href="https://plus.google.com/communities/106916323843275157824" target="_blank">구글 팁/도우미</a> 커뮤니티에서 기회만 되면 다른 구글 사용자의 질문에 답변을 작성했습니다. 매일은 아니지만 거의 매일에 가까운 수준이며, 지금까지 평균 하루 2~3개 이상의 답변을 작성했습니다. 포럼이나 커뮤니티에서 다른 사용자의 질문에 답변을 하는 일은 제가 <a href="http://support.google.com/groups/answer/2519095?hl=ko" target="_blank">최우수 사용자</a> 자격에 도전하려고 시작한 일이기도 하지만 간접적으로 이러한 방식을 통해 자신이 알고 있는 지식을 재정리하고 또 새로운 경험을 쌓기  위해서 입니다.</li>
+</ul>
+<p><strong>앞으로 시작하고 싶은 도전</strong></p>
+<p>아직은 생각중인 것들이지만, 언젠가는 이 블로그와 <a href="https://plus.google.com/u/0/communities/103750919669293717926" target="_blank">커뮤니티</a>를 통해서 이러한 내용들을 하나씩 공유할 수 있기를 바랍니다.</p>
+<ul>
+<li><span style="line-height: 13px;">반복적으로 하는 일 매일 한 가지씩 줄이거나 자동화하기(이메일 등 디지털한 것들)</span></li>
+<li><span style="line-height: 13px;">글 최대한 짧게 쓰기</span></li>
+<li><span style="line-height: 13px;">매일 한 시간씩 외국어 연습(말하기)</span></li>
+<li><span style="line-height: 13px;">매일 한 시간씩 아이 공부 가르치기</span></li>
+<li>매일 한 시간씩 공상 또는 생각에 잠기기</li>
+<li>매일 한 시간씩 걷기</li>
+<li>앉아서 일하지 않고 서서 일하기</li>
+</ul>
+<p><em>{Image credit: <a href="http://jereeblack.com/take-the-30-days-of-growth-challenge/" target="_blank" class="broken_link" rel="nofollow">jereeblack.com</a>}</em></p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3605/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>&#8220;나는 중국에서 자본주의를 만났다&#8221; &#8211; 중국 IT시장에 관심있는 분들께 추천합니다.</title>
+		<link>http://geek2live.org/archives/3587</link>
+		<comments>http://geek2live.org/archives/3587#comments</comments>
+		<pubDate>Mon, 18 Feb 2013 02:46:29 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Books]]></category>
+		<category><![CDATA[China]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3587</guid>
+		<description><![CDATA[&#8220;나는 중국에서 자본주의를 만났다&#8220;는 중국에 관심있는 다양한 계층의 독자분들께도 유익하겠지만, 특별히 어떻게 하면 중국시장에 진출할 수 있을까 또는 중국시장에 진출하지 않더라도 중국 IT 시장은 현재 어떤 모습일까고 궁금해하시는 독자분들의 궁금증을 풀어줄만한 유익한 책입니다. &#8212; 이 책을 다 읽고나서 제가 정리해본 개인적인 소감입니다. 특별히 중국쪽 이야기이고, 제가 좋아하는 인터넷에 관련된 이야기들이 많아서 따분하지 않고 재미있게 읽을 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>&#8220;<a href="http://goo.gl/ZcBqk" target="_blank">나는 중국에서 자본주의를 만났다</a>&#8220;는 중국에 관심있는 다양한 계층의 독자분들께도 유익하겠지만, 특별히 어떻게 하면 중국시장에 진출할 수 있을까 또는 중국시장에 진출하지 않더라도 중국 IT 시장은 현재 어떤 모습일까고 궁금해하시는 독자분들의 궁금증을 풀어줄만한 유익한 책입니다. &#8212; 이 책을 다 읽고나서 제가 정리해본 개인적인 소감입니다. 특별히 중국쪽 이야기이고, 제가 좋아하는 인터넷에 관련된 이야기들이 많아서 따분하지 않고 재미있게 읽을 수 있었습니다. 사실 IT쪽이 아니더라도 이 책은 더 많은 재미있는  내용을 담고 있습니다. 재밌고 신기한 이야기들이 많아서 다 기억을 하지 못하겠네요. <img src="http://geek2live.org/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<p><a href="http://geek2live.org/wp-content/uploads/2013/02/IMAG1093-1.jpg"><img class="alignnone size-full wp-image-3589" alt="IMAG1093 (1)" src="http://geek2live.org/wp-content/uploads/2013/02/IMAG1093-1.jpg" width="413" height="518" /></a></p>
+<p>이 책은  IT 인터넷 업계에서 15년의 경력이 있으며, 일찍 2004년 다음커뮤니케이션의 중국지사장으로 부임한 뒤로 현재까지 8여 년의 중국생활을 이어가고 계신 신동원님께서 집필하신 책입니다.</p>
+<p><strong><span style="color: #0000ff;">저자소개: </span></strong> &#8220;현재  2009년 LG유플러스를 거쳐 2010년에는 네오위즈차이나의 법인장으로 부임했다.현재 중국의 인터넷 모바일 CEO 모임인 ‘장성회(Great Wall Club)’의 정회원으로 활동 중이며, 중국 내 대형 모바일 콘퍼런스에서 한국 인터넷기업을 대표해 패널 토의자 및 스피커로 활동하고 있다. 또한 한국의 경쟁력 있는 모바일 콘텐츠를 중국 내에 성공적으로 유통하고, 텐센트, 차이나모바일, 런런게임즈 등 굴지의 중국기업들과 파트너십을 구축하고 있다. 네오위즈차이나를 통해 한중 간의 모바일 콘텐츠를 수출하고 수입하는 귀한 징검다리가 되길 꿈꾸고 있다. &#8221; (저자소개는 책 내용 인용)</p>
+<p>위와 같은 경력이 있는 분이시기에 이 책은 저자가 중국에서 직접 경험한 일들과 흥미로운 에피소드를 담고 있으며, 저자만의 독특한 관찰력을 토대로 사회, 정치, 문화 등 다양한 분야에서  중국을 파헤치고 있습니다.</p>
+<p>이 책에 관한 더 자세한 정보는 <a href="http://goo.gl/ZcBqk" target="_blank">YES24의 소개를 참고</a>할 수 있습니다. 저자의 블로그 <a href="http://www.reviewchina.co.kr/" target="_blank">리뷰차이나</a>에서도 일부 내용을 미리볼 수 있습니다. 저자 신동원님의 블로그 소식에 따르면, 이 책의 수익금은 100% 좋은 일에 기부될 예정입니다.</p>
+<p>PS : 책을 보내주신 <a href="http://www.reviewchina.co.kr/about" target="_blank" class="broken_link" rel="nofollow">친구 Jack</a>과 책에 싸인을 넣어주신 저자 신동원님께 감사 드립니다.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3587/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>인터넷의 미래에 대한 에릭 슈미트의 7가지 관점</title>
+		<link>http://geek2live.org/archives/3577</link>
+		<comments>http://geek2live.org/archives/3577#comments</comments>
+		<pubDate>Sun, 03 Feb 2013 07:37:49 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[GeekFun]]></category>
+		<category><![CDATA[Books]]></category>
+		<category><![CDATA[censorship]]></category>
+		<category><![CDATA[Eric Schmidt]]></category>
+		<category><![CDATA[Internet]]></category>
+		<category><![CDATA[Search engine]]></category>
+		<category><![CDATA[콘텐츠]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3577</guid>
+		<description><![CDATA[구글 회장 에릭 슈미트와 구글 아이디어의 창시자 제라드 코헨이 공동집필한 책이며, 올해 4월에 출시 될 예정인 도서  “새로운 디지털 시대: 개인, 국가와 비지니스의 미래를 재편하다.“는 인터넷의 미래에 대한 에릭 슈미트 7가지 관점을 포함하고 있다고  WSJ가 추가로 보도를 했습니다. 그중 주목할 만한 내용은 다음과 같습니다. &#160; 실명제: 일부 정부는 자신의 국가에 추종이 불가능한 수천수만의 익명의 인터넷 사용자가 숨어있다고 가정하고 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>구글 회장 에릭 슈미트와 <a href="http://www.google.com/ideas/" target="_blank">구글 아이디어</a>의 창시자 제라드 코헨이 공동집필한 책이며, 올해 4월에 출시 될 예정인 도서  “<a href="http://gstory4you.com/2013/02/02/eric-schmidt-unloads-on-china-in-new-book/" target="_blank">새로운 디지털 시대: 개인, 국가와 비지니스의 미래를 재편하다.</a>“는 인터넷의 미래에 대한 에릭 슈미트 7가지 관점을 포함하고 있다고  <a href="http://blogs.wsj.com/corporate-intelligence/2013/02/01/the-future-according-to-eric-7-points/" target="_blank">WSJ</a>가 추가로 보도를 했습니다. 그중 주목할 만한 내용은 다음과 같습니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2013/02/vforvendettavforvendett.jpg"><img class="alignnone size-full wp-image-3578" alt="vforvendettavforvendett" src="http://geek2live.org/wp-content/uploads/2013/02/vforvendettavforvendett.jpg" width="640" height="360" /></a></p>
+<p>&nbsp;</p>
+<p><strong>실명제:</strong> 일부 정부는 자신의 국가에 추종이 불가능한 수천수만의 익명의 인터넷 사용자가 숨어있다고 가정하고 있으며 이를 위험하다고 생각하고 있습니다. 그들은 모든 온라인 계정을 알려고 하며, 국가 수준의 온라인 실명제를 실시함으로써 가상세계에 대한 철저한 통제권을 장악하려고 할 것입니다.</p>
+<p><strong>검색엔진:</strong> 실명제를 실시한 후, 검색결과에서 인증된 온라인 프로필과 연결된 정보는 자연스럽게 상단에 배치될 것이며, 대부분의 사용자는 검증을 거치지 않은 콘텐츠보다 좀 더 높은 순위를 차지하고 있는 검색결과를 클릭할 가능성이 높습니다. 익명성을 유지하는 사용자는 자신이 제공하는 콘텐츠의 연관성이 점점 떨어질 수 있다는 것에 대해 대가를 치뤄야 할 수 있습니다.</p>
+<p><strong>새 유럽연합(EU)?:</strong> 벨라루스, 에리트레아, 짐바브웨, <a href="http://gstory4you.com/2013/01/21/eric-schmidt-and-daughter-open-up-about-trip-to-north-korea/" target="_blank">북한</a>과 같은 인터넷 독재국가들은 <a href="http://gstory4you.com/2012/12/22/south-korea-signed-itu-wcit-treaty/" target="_blank">새로운 네트워크 연합을 구성</a>하여 인터넷 검열 및 모니터링 방면의 기술 및 책략을 공유할 가능성이 높습니다.</p>
+<p><strong>기술업체:</strong> Tech 업체는 반드시 몇 년 후의 변화에 구체적으로 대비해야 합니다. 실명제를 시작하게 되면, 기술 회사들은 사용자 정보 유출 및 도용 등 문제에 직면하게 되며, 사용자의 개인정보와 보안 등을 보호하기 위해서라도 더 많은 변호사를 고용해야 할 것입니다. 지적재산권, 특허, 개인정보와 관련된 기타 법률적인 소송은 계속될 것이며, 법률 개혁을 통해서 개선할 수 있는 사항은 별로 많지 않을 것입니다.</p>
+<p><strong>사이버 전쟁:</strong> 우리는 이미 <a href="http://gstory4you.com/2013/02/02/eric-schmidt-unloads-on-china-in-new-book/" target="_blank">국가를 주체로 하는 사이버 전쟁의 시대</a>에 살고 있습니다. 우리의 대부분은 일상속에서 그것을 인식하지 못하고 있을 따름입니다.</p>
+<p><strong>미디어/언론:</strong> 점점 더 많은 뉴스 공유 플랫폼과 콘텐츠 생산자가 미디어/언론에 참여함으로써, 미디어/언론 업무의 중심은 사실을 보도하는데로부터 사실을 증명할 수 있는 증거를 찾는 데로 전환할 것입니다. 아마도 엘리트들은 전문적인 언론기관에 더 의존 것입니다. 왜냐하면 온라인 공유 시스템에 점점 더 많은 저질의 뉴스와 정보가 넘쳐나고 있기 때문일 것입니다.</p>
+<p><strong>트위터:</strong> 원숭이가 셰익스피어의 작품을 타이핑(출력)할 수있을 지는 몰라도, 트위터는 더 이상 분석(analysis)을 생산할 수 없을 것입니다.</p>
+<p><span style="color: #808080;"><em>이 글은 <a href="http://gstory4you.com/2013/02/03/the-internet-future-according-to-eric-schmidt-7-points/" target="_blank"><span style="color: #808080;">G스토리</span></a>에 처음 포스트되었습니다.</em></span></p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3577/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>누가 해커 Aaron Swartz를 죽였는가?</title>
+		<link>http://geek2live.org/archives/3552</link>
+		<comments>http://geek2live.org/archives/3552#comments</comments>
+		<pubDate>Sun, 13 Jan 2013 12:36:05 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Aaron Swartz]]></category>
+		<category><![CDATA[Hackers]]></category>
+		<category><![CDATA[Internet]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3552</guid>
+		<description><![CDATA[&#8220;정보는 곧 권력이다. 다른 권력과 마찬가지로 이를 소유하고 있는 사람은 정보를 독차지하고 싶어한다. &#8220; - Aaron Swartz RSS 1.0의 공동저자, Reddit의 공동 창시자와 컴퓨터 해커로 널리 알려진 Aaron Swartz가 뉴욕의 아파트에서 목을 매어 자살하였다는 소식이 세상을 슬프게 하고 있습니다. 인터넷 상의 정보 공유 운동에 주력하여 왔으며, 인터넷 활동가로 활약하여 온 그의 죽음은 자유롭고 개방된 정보를 추앙하는 인터넷 커뮤니티의 모든 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span style="color: #808080;"><strong>&#8220;<a href="http://pastebin.com/raw.php?i=cefxMVAy" target="_blank"><span style="color: #808080;">정보는 곧 권력</span></a>이다. 다른 권력과 마찬가지로 이를 소유하고 있는 사람은 정보를 독차지하고 싶어한다. &#8220;</strong> - Aaron Swartz</span></p>
+<p>RSS 1.0의 공동저자, Reddit의 공동 창시자와 컴퓨터 해커로 널리 알려진 <a href="https://ko.wikipedia.org/wiki/%EC%97%90%EB%9F%B0_%EC%8A%A4%EC%9B%8C%EC%B8%A0" target="_blank">Aaron Swartz</a>가 뉴욕의 아파트에서 목을 매어 자살하였다는 소식이 세상을 슬프게 하고 있습니다. 인터넷 상의 정보 공유 운동에 주력하여 왔으며, 인터넷 활동가로 활약하여 온 그의 죽음은 자유롭고 개방된 정보를 추앙하는 <a title="아론 슈와츠의 죽음을 슬퍼해야 하는 까닭" href="http://www.bloter.net/archives/140396" target="_blank">인터넷 커뮤니티의 모든 구성원에게는 커다란 손실</a>이 아닐 수 없습니다.</p>
+<p><a href="http://www.solidot.org/story?sid=33085" target="_blank"><strong>Aaron Swartz의 생전 업적</strong></a></p>
+<ul>
+<li>RSS 1.0의 공동저자 (14세)</li>
+<li>자신이 개발한 Python 프레임워크 <a href="http://webpy.org/" target="_blank">web.py</a>를 오픈소스로 공개함</li>
+<li><a href="http://openlibrary.org/" target="_blank">OpenLibrary.org</a>의 설계자 및 첫 프로그래머</li>
+<li>자원 봉사자로서 일반인이 미국 법률문서에 자유롭게 액세스할 수 있도록 하는 <a href="https://www.recapthelaw.org/" target="_blank">RECAP</a> 시스템을 만드는데 기여함</li>
+<li><a href="http://kr.geek2live.org/165" target="_blank">인터넷 공문서 보관소</a>의 업로드/다운로드 시스템을 만드는데 <a href="http://blog.archive.org/2013/01/12/aaron-swartz-hero-of-the-open-world-rip/" target="_blank">기여</a>함.</li>
+<li><a href="https://creativecommons.org/" target="_blank">크레이티브 커먼즈 라이선스</a>에 기술적으로 기여함.</li>
+<li>2010년 인터넷 검열을 반대하는 웹사이트 <a href="http://demandprogress.org/" target="_blank">DemandProgress.org</a> 을 공동 설립함.</li>
+<li>온라인 해적행위 방지법안(SOPA), 지적재산권법안(PIPA)에 적극적 반대 활동을 벌였으며, <a href="http://www.bloter.net/archives/140396" target="_blank">정치 개혁에도 관심이 높아</a> 정보통신기술을 사용해 정부 투명성을 제고하고 시민 참여를 높이는 방안을 모색하고 실천하는 데 노력함.</li>
+</ul>
+<p><a href="http://geek2live.org/archives/3552/attachment/40377370222" rel="attachment wp-att-3555"><img alt="Aaron Swartz" src="http://geek2live.org/wp-content/uploads/2013/01/40377370222.jpg" width="500" height="333" /></a></p>
+<p><em>2011년 1월 18일,  NYC의 반 SOPA 집회에서 연설 중인 <a href="http://demandprogress.org/" target="_blank">Aaron Swartz</a></em></p>
+<p><a href="http://www.solidot.org/story?sid=33087" target="_blank"><strong>누가 Aaron Swartz를 죽였는가?</strong></a></p>
+<p>2011년 7월 19일, Swartz는 온라인 학술 저널 시스템 JSTOR에서 480만 건의 학술 논문을 다운로드하였다는 혐의로 체포되었습니다. 그는 외장형 하드 드라이브를 이용하여 물리적인 접속방식으로 MIT(매사추세츠공과대학) 네트워크에 접속하여, 스크립트를 실행하여 JSTOR의 학술 논문을 내려받았습니다. JSTOR는 <a href="http://about.jstor.org/news/jstor-statement-misuse-incident-and-criminal-case" target="_blank">Swartz을 기소할 생각이 없으며,</a> 유출된 논문이 <a href="http://about.jstor.org/statement-swartz" target="_blank">더는 확산되지 않았다고 성명을 발표</a>했지만 이번에 이상한 것은 미연방 검찰과 MIT측에서 Swartz에 대한 기소를 끝까지 주장해왔다는 점입니다. 2012년 9월 24일, Swartz는 법원 청문회에 참석했지만, 유죄인정을 거부했습니다. 그의 죄는 <a href="http://www.wired.com/threatlevel/2012/09/aaron-swartz-felony/" target="_blank">4가지 중죄에서 13가지</a>로 늘었으며, 미 법무부는 이 사건을 &#8220;검퓨터 사기 및 악용법&#8221;에 대한 한차례 도전으로 받아들였습니다. 결국 Swartz는 100만 달러의 벌금과 최대 35년 감금을 선고받을 위기에 직면하게 되었으며, 이로하여 지속적으로 우울증에 시달려온 것으로 알려졌습니다.</p>
+<p><a href="http://about.jstor.org/news/jstor-statement-misuse-incident-and-criminal-case" target="_blank">Swartz</a>의 가족과 파트너는 &#8220;Swartz는 검찰의 권력이 과도하게  팽창되고 있는 미국 형사사법 시스템의 희생자이며, 매사추세츠 연방 검찰과 MIT가 Swartz을  죽음으로 내모는 결정을 내린 것&#8221;이라고 <a href="http://rememberaaronsw.tumblr.com/post/40372208044/official-statement-from-the-family-and-partner-of-aaron" target="_blank">공개 성명을 발표</a>했습니다.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3552/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>와이파이 비밀번호요? 벽에 걸린 QR 코드를 스캔하세요.</title>
+		<link>http://geek2live.org/archives/3530</link>
+		<comments>http://geek2live.org/archives/3530#comments</comments>
+		<pubDate>Sat, 12 Jan 2013 16:22:14 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[How to]]></category>
+		<category><![CDATA[Lifehacks]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[QR code]]></category>
+		<category><![CDATA[WiFi]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3530</guid>
+		<description><![CDATA[&#8220;여기요, 와이파이 비밀번호가 무엇입니까?&#8220;라는 질문을 하루에도 수십 번씩 듣습니까? 와이파이 정보를 QR코드로 만들어서 벽이나 테이블에 붙여놓는다면 커피솝이나 내 집에 놀러온 손님이 비밀번호를 알아서 쉽게 확인할 수 있을 것입니다. QR 코드 만드는 방법이 궁금하시다구요? QR Code Generator &#8211; WiFi Access란 웹페이지를 방문한 뒤, 무선 라우터 액세스 매개 변수를 입력하고 &#8216;Genrate WiFi QR Code&#8217; 버튼을 클릭하면 와이파이 정보를 포함한 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>&#8220;<a href="http://geek2live.org/archives/3530" target="_blank"><strong>여기요, 와이파이 비밀번호가 무엇입니까?</strong></a>&#8220;라는 질문을 하루에도 수십 번씩 듣습니까? 와이파이 정보를 QR코드로 만들어서 벽이나 테이블에 붙여놓는다면 커피솝이나 내 집에 놀러온 손님이 비밀번호를 알아서 쉽게 확인할 수 있을 것입니다.</p>
+<p><a href="http://geek2live.org/archives/3530/screen-shot-2012-12-27-at-12-58-05-pm1" rel="attachment wp-att-3532"><img class="alignnone size-full wp-image-3532" alt="Screen-Shot-2012-12-27-at-12.58.05-PM1" src="http://geek2live.org/wp-content/uploads/2013/01/Screen-Shot-2012-12-27-at-12.58.05-PM1.png" width="597" height="415" /></a></p>
+<p><strong>QR 코드 만드는 방법이 궁금하시다구요?</strong> <a href="http://blog.qr4.nl/QR-Code-WiFi.aspx" target="_blank">QR Code Generator &#8211; WiFi Access</a>란 웹페이지를 방문한 뒤, 무선 라우터 액세스 매개 변수를 입력하고 &#8216;Genrate WiFi QR Code&#8217; 버튼을 클릭하면 와이파이 정보를 포함한 새로운 QR 코드가 생성됩니다. 이 정보를 스캔한 손님은 즉시로 새로운 무선네트워크에 자동으로 접속됩니다. (안드로이드에서 <a href="https://play.google.com/store/apps/details?id=la.droid.qr" target="_blank">QR Droid</a> 앱을 이용해 바코드를 스캔할 때, <a href="https://play.google.com/store/apps/details?id=la.droid.wifi&amp;hl=en" target="_blank">QR-WiFi Plugin</a> 앱이 사전에 설치되어 있어야 하며, 이 앱이 없는 사용자에게는 앱을 설치하란 안내 메시지가 표시됩니다.)</p>
+<p><a href="http://geek2live.org/archives/3530/wifi" rel="attachment wp-att-3533"><img class="alignnone size-full wp-image-3533" alt="WiFi" src="http://geek2live.org/wp-content/uploads/2013/01/WiFi.png" width="597" height="479" /></a></p>
+<p>일상생활에서 실제로 텍스트로 된 단순한 비밀번호만 알려줘도 되기 때문에, 위의 웹사이트 대신 일반적인 <a href="http://www.the-qrcode-generator.com/" target="_blank">QR 코드 생성 프로그램</a>을 사용하여도 무방합니다. 이 경우, 내 손님은 수동으로 비밀번호를 입력해야 합니다.</p>
+<p><a href="http://geek2live.org/archives/3530/qr-code-generator" rel="attachment wp-att-3538"><img class="alignnone size-full wp-image-3538" alt="qr code generator" src="http://geek2live.org/wp-content/uploads/2013/01/qr-code-generator.png" width="597" height="328" /></a></p>
+<p><em>Via <a href="http://thenextweb.com/lifehacks/2012/12/27/have-guests-often-generate-a-qr-code-with-your-wifi-details-that-you-can-frame-on-your-wall/" target="_blank">TNW</a></em></p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3530/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>안드로이드용 드롭박스 앱 사진 공유기능 업데이트</title>
+		<link>http://geek2live.org/archives/3519</link>
+		<comments>http://geek2live.org/archives/3519#comments</comments>
+		<pubDate>Sat, 12 Jan 2013 14:11:45 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[How to]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Dropbox]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3519</guid>
+		<description><![CDATA[안드로이드용 Dropbox 앱의 공유 기능이 업데이트되었습니다. 스마트폰에서 좋아하는 사진과 비디오를 선택하여 Dropbox 공유 링크를 내보내면, 링크를 받은 모든 사람은 자신의 컴퓨터, 태블릿 또는 휴대전화에서 내가 공유한 사진을 감상할 수 있으며 드롭박스 계정이 필요하지 않습니다. 이미 카메라 업로드 기능을 켜놓은 사용자는 더욱 쉽게 사진을 공유할 수 있을 것 입니다. 사진 탭에서 오른쪽 상단의 V 표기가 들어간 버튼을 탭하고, 공유할 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>안드로이드용 Dropbox 앱의 공유 기능이 업데이트되었습니다. 스마트폰에서 좋아하는 사진과 비디오를 선택하여 Dropbox 공유 링크를 내보내면, 링크를 받은 모든 사람은 자신의 컴퓨터, 태블릿 또는 휴대전화에서 내가 공유한 사진을 감상할 수 있으며 드롭박스 계정이 필요하지 않습니다. 이미 카메라 업로드 기능을 켜놓은 사용자는 더욱 쉽게 사진을 공유할 수 있을 것 입니다.</p>
+<p><a href="http://geek2live.org/?attachment_id=3518" rel="attachment wp-att-3518"><img class="alignnone size-full wp-image-3518" alt="dropbox_android" src="http://geek2live.org/wp-content/uploads/2013/01/albums-list-4.png" width="270" height="450" /></a></p>
+<p>사진 탭에서 오른쪽 상단의 V 표기가 들어간 버튼을 탭하고, 공유할 사진을 선택하여, 이메일 또는 페이스북, 트위터, Google+ 등 다른 서비스로 선택한 사진을 바로 공유하거나, 새 앨범을 만들 수 있습니다.</p>
+<p><a href="http://geek2live.org/?attachment_id=3517" rel="attachment wp-att-3517"><img class="alignnone size-full wp-image-3517" alt="dropbox-share-button" src="http://geek2live.org/wp-content/uploads/2013/01/share-button-2.png" width="270" height="152" /></a></p>
+<p><a href="https://play.google.com/store/apps/details?id=com.dropbox.android" target="_blank">Play 스토어</a>에서 앱을 설치하거나 기존 설치한 앱을 업데이트한 뒤, 위의 기능을 테스트해보세요. 굉장히 심플하게 설계되어 있어서 좋네요.</p>
+<p>Via <a href="https://blog.dropbox.com/2013/01/dropbox-for-android-share-photos-in-a-snap/">Dropbox blog</a></p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3519/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>무인 항공기를 이용한 자동 배달 서비스 &#8211; DRONENET</title>
+		<link>http://geek2live.org/archives/3502</link>
+		<comments>http://geek2live.org/archives/3502#comments</comments>
+		<pubDate>Mon, 07 Jan 2013 07:23:41 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[GeekFun]]></category>
+		<category><![CDATA[dronenet]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3502</guid>
+		<description><![CDATA[군사 이론가 John Robb이 자신의 블로그에서 새로운 자동 배달 서비스 &#8211; DRONENET에 대한 아이디어를 공개했습니다. DRONENET는 무인 항공기로 만들어진 자동 패키지 배송 네트워크이며, 알기 쉽게 설명한다면 다음과 같은 방식으로 작동합니다. 패키지를 내 집앞에 있는 활주로에 에 올려놓는다. 항공기가 와서 패키지를 픽업해간다. 항공기가 목적지에 있는 활주로에 패키지를 내려 놓는다. 그는 이 방식은 기술적으로도 어려운 것이 아니며 비용 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>군사 이론가 John Robb이 자신의 블로그에서 새로운 자동 배달 서비스 &#8211; <a href="http://globalguerrillas.typepad.com/globalguerrillas/2013/01/dronenet-the-next-big-thing.html" target="_blank">DRONENET</a>에 대한 아이디어를 공개했습니다. DRONENET는 무인 항공기로 만들어진 자동 패키지 배송 네트워크이며, 알기 쉽게 설명한다면 다음과 같은 방식으로 작동합니다.</p>
+<ul>
+<li>패키지를 내 집앞에 있는 활주로에 에 올려놓는다.</li>
+<li>항공기가 와서 패키지를 픽업해간다.</li>
+<li>항공기가 목적지에 있는 활주로에 패키지를 내려 놓는다.</li>
+</ul>
+<p>그는 이 방식은 기술적으로도 어려운 것이 아니며 비용 또한 높지 않을 것이라 보고 있습니다. 예를 들어, 기존의 네 회전날개를 가진 무인 항공기라면 몇 백 달러가 필요하며,  매 <a href="http://globalguerrillas.typepad.com/globalguerrillas/2013/01/what-a-dronet-a-more-compressed-spelling-can-leverage-.html" target="_blank">10마일당 비용은 약 25센트</a>가 필요합니다.</p>
+<p>구글에서 <a href="http://gstory4you.com/2012/10/29/google-is-testing-its-same-day-delivery-service-soon-it-will-use-driverless-vehicles/" target="_blank">당일 배송 서비스에 무인 자동차를 투입할 것</a>이라고 하는데, 무인 항공기 사업에 뛰어들려고 하는 회사가 이제 한 둘이 아닐 것 같군요.</p>
+<p><a href="http://geek2live.org/archives/3502/6a00d83451576d69e2017d3f6b5a60970c-800wi" rel="attachment wp-att-3505"><img class="alignnone  wp-image-3505" alt="Black_rofl" src="http://geek2live.org/wp-content/uploads/2013/01/6a00d83451576d69e2017d3f6b5a60970c-800wi.jpg" width="480" height="360" /></a></p>
+<p><em>Via <a href="http://www.solidot.org/story?sid=32991" target="_blank">Solidot</a></em></p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3502/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>가장 많이 사용하는 Windows와 Mac 용 키보드 단축키</title>
+		<link>http://geek2live.org/archives/3492</link>
+		<comments>http://geek2live.org/archives/3492#comments</comments>
+		<pubDate>Fri, 28 Dec 2012 07:04:42 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[How to]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Productivity]]></category>
+		<category><![CDATA[Mac]]></category>
+		<category><![CDATA[Windows]]></category>
+		<category><![CDATA[단축키]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3492</guid>
+		<description><![CDATA[Windows와 Mac 등 컴퓨터 자체의 키보드 단축키외에도, 평소 자주 사용하는 Gmail, 구글 드라이브와 기타 문서 프로그램의 소프트웨어의 단축키까지&#8230; 그야말로 산더미같이 많아 모두 기억하고 사용하기도 힘듭니다. 그냥 기본적인 것만 기억하고 자주 사용하는 것이 최선일 것입니다. Lifehacker 사이트가 뽑은 20개의 단축키 목록을 소개합니다. 다음 이미지를 컴퓨터 바탕 화면으로 저장하거나 프린트하여 벽에 붙여놓으면 도움이 될 것입니다. Via Lifehacker]]></description>
+				<content:encoded><![CDATA[<p>Windows와 Mac 등 컴퓨터 자체의 키보드 단축키외에도, 평소 자주 사용하는 <a href="http://gstory4you.com/2012/08/02/shortcuts-for-gmail-teaches-you-to-learn-shortcuts-by-reminding-you/" target="_blank">Gmail</a>, <a href="https://support.google.com/drive/bin/answer.py?hl=ko&amp;answer=179738" target="_blank">구글 드라이브</a>와 기타 문서 프로그램의 소프트웨어의 단축키까지&#8230; 그야말로 산더미같이 많아 모두 기억하고 사용하기도 힘듭니다. 그냥 기본적인 것만 기억하고 자주 사용하는 것이 최선일 것입니다.</p>
+<p><a href="http://lifehacker.com/5970089/back-to-the-basics-learn-to-use-keyboard-shortcuts-like-a-ninja" target="_blank">Lifehacker 사이트가 뽑은 20개의 단축키 목록</a>을 소개합니다. 다음 이미지를 컴퓨터 바탕 화면으로 저장하거나 프린트하여 벽에 붙여놓으면 도움이 될 것입니다. <img src="http://geek2live.org/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<p><a href="http://geek2live.org/archives/3492/keyboard-shortcut" rel="attachment wp-att-3493"><img class="size-full wp-image-3493 alignnone" alt="keyboard shortcut" src="http://geek2live.org/wp-content/uploads/2012/12/keyboard-shortcut.jpg" width="640" height="360" /></a></p>
+<p>Via <a href="http://lifehacker.com/5970089/back-to-the-basics-learn-to-use-keyboard-shortcuts-like-a-ninja">Lifehacker</a></p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3492/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>자유롭고 개방된 인터넷을 위하여 모두가 행동하세요! #freeandopen</title>
+		<link>http://geek2live.org/archives/3460</link>
+		<comments>http://geek2live.org/archives/3460#comments</comments>
+		<pubDate>Tue, 04 Dec 2012 08:16:20 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[Internet]]></category>
+		<category><![CDATA[Take Action]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3460</guid>
+		<description><![CDATA[12월 3일 구글은 각 나라의 Google 홈페이지에 자사에서 만든 서명용 Take Action 웹사이트를 링크하여 모두가 자유롭고 개방된 인터넷을 위해 세계 각국의 정부에게 자신의 의사를 전달할 것을 촉구했습니다. 12월 3일부터 두바이에서 개최되는 국제전신(電信)회의에서는 러시아와 중국 등 나라의 지지를 받고 있는 정보통신 규약 개정안에 대해 비공개 토론을 벌릴 예정이며, 이 개정안은 유엔의 산하기구인 국제전기통신연합(ITU)이 인터넷을 제어하고 관할하도록 제안할 예정입니다. 구글은 이에 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>12월 3일 구글은 각 나라의 Google 홈페이지에 자사에서 만든 서명용 <a href="https://www.google.com/intl/ko/takeaction/" target="_blank">Take Action</a> 웹사이트를 링크하여 모두가 자유롭고 개방된 인터넷을 위해 세계 각국의 정부에게 자신의 의사를 전달할 것을 촉구했습니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/12/Google-China.jpg"><img title="Google China" src="http://geek2live.org/wp-content/uploads/2012/12/Google-China.jpg" alt="Google China" width="500" height="351" /></a></p>
+<p>12월 3일부터 두바이에서 개최되는 국제전신(電信)회의에서는 러시아와 중국 등 나라의 지지를 받고 있는 정보통신 규약 개정안에 대해 비공개 토론을 벌릴 예정이며, 이 개정안은 유엔의 산하기구인 <a href="https://www.google.com/intl/ko/takeaction/whats-at-stake/" target="_blank">국제전기통신연합(ITU)이 인터넷을 제어하고 관할하도록 제안</a>할 예정입니다. 구글은 이에 대한 반격으로 11월 21일 <a href="https://www.google.com/intl/ko/takeaction/" target="_blank">Take Action</a>이란 전문적인 웹사이트를 웹에 공개했으며, 웹페이지를 통해 전세계의 모든 인터넷 사용자에게 자유롭고 개방된 인터넷에 대한 지지 입장을 공개적으로 밝혀줄것을 촉구했습니다. <strong>익명성이 보장되기 때문에 한국에 계신분들은 안심하시고 싸인하면 될 것 같습니다. 이번 이벤트는 주로 러시아와 중국 등 국가의 시도를 막으려는 것이므로 모두들 서명하시는 것이 인터넷의 미래에 도움이 될 것입니다.</strong> <strong>이러한 노력도 없다면 <span style="color: #ff0000;">미래는 더더욱 보장이 없다</span>는 것을 많은 분들이 알고 계셔야 한다고 생각합니다. </strong></p>
+<p>최초 관련 제안(<a href="http://files.wcitleaks.org/public/Russia%2040.pdf" target="_blank">PDF</a>)을 제출한 국가는 러시아이며, 이 제안을 지지하고 있는 나라에는 중국, 브라질, 인도, 타지키스탄, 우즈베키스탄 등이 포함됩니다. 러시아의 제안은 인터넷 주소할당과 인터넷을 제어 할수있는 일부 관할권을 국제전기통신연합(ITU)에 넘기자는 것입니다. <strong>현재 인터넷과 DNS 도메인 시스템의 기술 사양은 실제로 그 누구의 통제도 받지 않는 미국의 비영리 단체에 의해 조절되고 있습니다. <a href="http://gstory4you.com/2012/11/21/google-take-action-free-and-open/" target="_blank">인터넷 주소 분배와 DNS 시스템의 공제권한</a>이 비민주주의국가나 유엔 산하의 ITU에 넘어가면 사실상 매우 위험합니다. </strong></p>
+<p>이 사이트를 구독해주시고 계시는 1500여명의 구독자 모두가 참여하기를 바라면서 이 글을 씁니다. 아직도 서명하지 않으셨다면 지금 웹사이트에 접속하여 자신의 언어로 서명하시면 됩니다. 그리고 SNS를 통해서 소식을 널리 알리세요. 이 글을 쓰는 시점에서 현재까지 이미 전세계 각 나라의 230만명을 넘은 인터넷 사용자가 서명을 했으며, 이 숫자는 아직도 실시간으로 증가하고 있습니다. <strong><a href="https://www.google.com/intl/ko/takeaction/" target="_blank">서명 웹사이트</a>에 접속</strong>한 후, 지도를 클릭하면 실시간으로 업데이트되는 서명 상황을 볼 수 있습니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/12/take-action_map.png"><img class="alignnone size-full wp-image-3462" title="take action_map" src="http://geek2live.org/wp-content/uploads/2012/12/take-action_map.png" alt="take action_map" width="500" height="394" /></a></p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3460/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>YouTube를 오디오 플레이어의 형식으로 블로그에 삽입하기</title>
+		<link>http://geek2live.org/archives/3418</link>
+		<comments>http://geek2live.org/archives/3418#comments</comments>
+		<pubDate>Mon, 19 Nov 2012 15:47:43 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[GeekFun]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[How to]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Weblog/blog]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[YouTube]]></category>
+		<category><![CDATA[YouTube Tips]]></category>
+		<category><![CDATA[블로그]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3418</guid>
+		<description><![CDATA[어떤 때는 YouTube의 동영상 화면을 빼고 YouTube를 단순한 오디오 플레이어로 웹사이트나 블로그에 삽입하고 싶을 것입니다. 간단한 CSS 기법으로 문제를 해결할 수 있습니다. 오리지날 YouTube URL:  https://www.youtube.com/watch?feature=player_embedded&#38;v=9bZkp7q19f0  http://youtu.be/9bZkp7q19f0 웹사이트에 삽입할 오디오 플레이어의 코드 형식: &#60;div style=&#8221;position:relative;width:267px;height:25px;overflow:hidden;&#8221;&#62;&#60;div style=&#8221;position:absolute;top:-276px;left:-5px&#8221;&#62;&#60;iframe width=&#8221;300&#8243; height=&#8221;300&#8243; src=&#8221;https://www.youtube.com/embed/youtubeID?rel=0&#8243;&#62;&#60;/iframe&#62;&#60;/div&#62;&#60;/div&#62; 위의 코드에서 youtubeID = 9bZkp7q19f0 입니다. 위의 코드를 웹사이트나 블로그에 삽입하면 서두의 이미지와 같은 형태로 표시되며, [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>어떤 때는 YouTube의 동영상 화면을 빼고 YouTube를 단순한 오디오 플레이어로 웹사이트나 블로그에 삽입하고 싶을 것입니다. 간단한 CSS 기법으로 문제를 해결할 수 있습니다.</p>
+<p><img title="YouTube as an Audio Player" src="http://geek2live.org/wp-content/uploads/2012/11/ishot-121119-1720181.jpg" alt="YouTube as an Audio Player" width="271" height="30" /></p>
+<p><strong>오리지날 YouTube URL: </strong></p>
+<ul>
+<li>https://www.youtube.com/watch?feature=player_embedded&amp;v=<span style="color: #0000ff;"><strong>9bZkp7q19f0 </strong></span></li>
+<li>http://youtu.be/<strong><span style="color: #0000ff;">9bZkp7q19f0</span></strong></li>
+</ul>
+<p><strong>웹사이트에 삽입할 오디오 플레이어의 코드 형식:</strong></p>
+<p>&lt;div style=&#8221;position:relative;width:267px;height:25px;overflow:hidden;&#8221;&gt;&lt;div style=&#8221;position:absolute;top:-276px;left:-5px&#8221;&gt;&lt;iframe width=&#8221;300&#8243; height=&#8221;300&#8243; src=&#8221;https://www.youtube.com/embed/<span style="color: #0000ff;"><strong>youtubeID</strong></span>?rel=0&#8243;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/div&gt;</p>
+<p>위의 코드에서 <strong><span style="color: #0000ff;">youtubeID</span></strong> = <strong>9bZkp7q19f0 </strong>입니다.</p>
+<p>위의 코드를 웹사이트나 블로그에 삽입하면 서두의 이미지와 같은 형태로 표시되며, 오른쪽에서 YouTube 로고를 클릭하면 YouTube 사이트로 이동됩니다. Google에서 정책적으로 이런 눈가림수를 허용하는 것인지는 아직 잘 모르겠습니다.:)</p>
+<p><a href="http://www.labnol.org/internet/youtube-audio-player/26740/" target="_blank">데모 보기</a></p>
+<p>Via <a href="http://www.labnol.org/internet/youtube-audio-player/26740/" target="_blank">Digital Inspiration</a></p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3418/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WordPress 블로그와 일반 사이트의 최적화에 도움이 되는 일부 &#8216;비밀 무기&#8217; 소개</title>
+		<link>http://geek2live.org/archives/3411</link>
+		<comments>http://geek2live.org/archives/3411#comments</comments>
+		<pubDate>Thu, 01 Nov 2012 09:38:57 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[GeekFun]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[How to]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Productivity]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[Weblog/blog]]></category>
+		<category><![CDATA[CDN]]></category>
+		<category><![CDATA[CloudFlare]]></category>
+		<category><![CDATA[Google Libraries]]></category>
+		<category><![CDATA[Pingdom]]></category>
+		<category><![CDATA[SEO]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[블로그]]></category>
+		<category><![CDATA[사이트 속도]]></category>
+		<category><![CDATA[자바스크립트]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3411</guid>
+		<description><![CDATA[개인적으로 블로그와 사이트 최적화에 관심이 많아, 평소에 사이트 최적화에 도움이 되는 도구들을 여러가지로 설치하고 테스트하고 있습니다. 다음의 몇 가지 도구들은 블로그나 복잡한 대형 쇼핑몰 운영 등에 도움이 될 수 있으니 추천합니다. WordPress 플러그인 WP Super Cache: 캐싱을 이용하여 사이트 속도를 빠르게 해줍니다. (Very fast caching plugin for WordPress). 아래서 소개하는 W3 Total Cache 플러그인을 사용한다면, [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>개인적으로 블로그와 사이트 최적화에 관심이 많아, 평소에 사이트 최적화에 도움이 되는 도구들을 여러가지로 설치하고 테스트하고 있습니다. 다음의 몇 가지 도구들은 블로그나 복잡한 대형 쇼핑몰 운영 등에 도움이 될 수 있으니 추천합니다.</p>
+<p><strong>WordPress 플러그인</strong></p>
+<p><strong><a href="http://wordpress.org/extend/plugins/wp-super-cache/download/" target="_blank">WP Super Cache</a></strong>: 캐싱을 이용하여 사이트 속도를 빠르게 해줍니다. (Very fast caching plugin for WordPress). 아래서 소개하는 W3 Total Cache 플러그인을 사용한다면, 이 플러그인을 중복하여 사용할 필요가 없습니다.</p>
+<p><strong><a href="http://jasonpenney.net/wordpress-plugins/use-google-libraries/" target="_blank">Use Google Libraries</a></strong>: 간단하게 말해서, 구글은 매우 인기있는 자바스크립트 프레임 워크의 일부를 <a href="https://developers.google.com/speed/libraries/devguide" target="_blank">구글 자체의 서버에서 호스팅</a>하고 있습니다. 아울러 이 무료 도구를 사용하면 구글의 서버 리소스를 충분히 활용하여 자신의 네트워크 대역폭을 절감할 수 있으며, 자바 스크립트 프레임 워크를 압축하여 사이트의 속도를 현저히 제고할 수 있습니다. <a href="http://kr.geek2live.org/151" target="_blank">사이트의 속도를 측정하는 일부 도구</a>를 이용하여 이 플러그인을 사용하기 전과 사용한 후의 속도를 비교해볼 수 있습니다. 제가 테스트해본 바로는 WP Super Cache와 같은 캐싱 플러그인과 충돌이 되지 않으므로 같이 사용할 수 있는 것 같으며, 가끔 WordPress의 글쓰기 Visual 모드에서 창이 공백으로 표시되는 문제가 있으나 이럴 때는 Use Google Libraries 플러그인 사용을 일시 중지시킨 후, 글을 발행하고나서  다시 활성화시키면 됩니다. 실제로 WordPress에서 자주 사용하지 않는 플러그인(예: <a href="http://geek2live.org/archives/1127" target="_blank">WP-Optimize</a>, Broken Link Checker)는 평소에 사용을 일시 중지시키는 것이 좋으며, 필요할 때만 활성화시켜서 한번씩 돌려 주면 됩니다. 일반적으로 WordPress 플러그인은 많이 사용할 수록 사이트의 속도는 느려집니다. Use Google Libraries 플러그인은 WordPress에 설치후 사용으로 설정하기만 하면 되며, 다른 설정이 필요하지 않습니다.</p>
+<p><strong><a href="http://wordpress.org/extend/plugins/w3-total-cache/" target="_blank">W3 Total Cache</a></strong>: 서버 성능을 향상시킬 수 있으며, 사이트의 모든 부분을 캐싱하고 테마의 다운로드 시간을 단축시켜 줍니다. 또한 투명한 CDN(content delivery network) 통합을 제공함으로써 블로그의 사용자 경험을 향상시킵니다. 이 플러그인을 사용하면 HTML, CSS, 자바스크립트, RSS 피드에 대한 http압축과 축소을 통해 80%가량의 대역폭을 절약할 수 있습니다. 이 플러그인은 거의 모든 오픈소스 자바스크립트의 CDN 서비스를 제공하는 <a href="https://www.cloudflare.com/" target="_blank">CloudFlare</a> 서비스와의 통합 옵션을 제공합니다. 실제로 CloudFlare는 위에서 소개한 Google Libraries의 CDN 서비스보다도 더 많은 종류의 <a href="http://cdnjs.com/" target="_blank">자바스크립트 Libraries</a>를 지원하는 CDN 서비스입니다. W3 Total Cache 플러그인 설정에서 CloudFlare의 서비스를 쉽게 통합할 수 있으며, CloudFlare에 등록한 계정과 제공되는 API Key를 삽입해주면 됩니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/11/CloudFlare_W3C-Total-Cache.png"><img class="alignnone  wp-image-3437" title="CloudFlare_W3C Total Cache" src="http://geek2live.org/wp-content/uploads/2012/11/CloudFlare_W3C-Total-Cache.png" alt="CloudFlare_W3C Total Cache" width="581" height="326" /></a></p>
+<p><strong>구글에서 제공하는 도구 </strong></p>
+<p><strong><a href="http://gstory4you.com/2012/10/23/analyze-and-optimize-websites-with-chrome-extension-pagespeed-insights/" target="_blank">PageSpeed Insights</a></strong>: 구글에서 제공하는 PageSpeed 도구의 일부분으로써, 웹사이트의 성능를 분석할 수 있으며, 웹사이트의 로딩 속도를 높임으로써 구글 검색결과에서 나타나는 사이트의 검색결과 순위를 개선할 수 있습니다. 크롬 웹스토어에서 <a href="http://gstory4you.com/2012/10/23/analyze-and-optimize-websites-with-chrome-extension-pagespeed-insights/" target="_blank">PageSpeed Insights 확장기능을 다운로드</a>한 후, 몇가지 단계를 거쳐 사이트의 속도를 분석하고 제안사항을 확인하면 됩니다.</p>
+<p><a href="http://gstory4you.com/2012/10/20/how-to-make-sites-load-faster-with-google-tag-manager-and-detailed-guide/" target="_blank"><strong>구글 태그 관리자</strong></a>: 구글에서 최근에 발표한 웹마스터와 마케터를 위한 무료 마케팅 도구로써, 웹사이트의 태그 관리 및 업데이트를 간편하게 해줍니다. 내 사이트(예: 쇼핑몰)가 만약 애드워즈 전환추적, DoubleClick 플러드라이트 카운터, DoubleClick 플러드라이트 판매, Google 웹로그 분석, Google 디스플레이 네트워크 리마케팅 등 여러가지 유형의 태그(코드)를 여러 개 삽입하여 전환 추적 및 사이트 분석 등을 진행하고 있다면, 과거와 같이 모든 태그를 웹사이트에 따로따로 삽입할 필요가 없으며, 구글 태그 관리자에서 제공하는 코드 하나만 삽입하면 됩니다. 즉 구글 태그 관리자로 구글에서 지원하는 모든 태그 유형을 코드 하나로 줄임으로써 코드를 최소화할 수 있으며, 사이트 로딩을 빠르게 하고, 태그 관리자 페이지 한 곳에서 웹사이트의 여러 태그를 손쉽게 관리할 수 있습니다. <a href="http://gstory4you.com/2012/10/20/how-to-make-sites-load-faster-with-google-tag-manager-and-detailed-guide/" target="_blank">자세한 사용법 알아보기</a></p>
+<p><strong>강력한 사이트 테스트 도구 Pingdom</strong></p>
+<p><a href="http://tools.pingdom.com/fpt/" target="_blank">Pingdom</a>은 사이트 로딩 속도와 DNS 건강도 등을 측정할 수 있는 훌륭한 도구로써, 비교적 상세한 보고서를 제공합니다. 다음은 위에서 소개한 W3 Total Cache 플러그인을 적용한 <a href="http://gstory4you.com/" target="_blank">G스토리</a> 사이트의 로딩속도를 테스트한 결과 및 사이트 성능에 대한 보고서입니다. W3 Total Cache 플러그인과 CloudFlare의 서비스를 사용한 후 로딩속도가 많이 빨라지고 성능이 개선된 것으로 나타나고 있습니다. 참고로, 동일한 웹사이트라 하더라도 매번 테스트할 때마다 테스트 결과가 다소 다를 수 있습니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/11/gstory4you.com_test-load-time.png"><img class="alignnone  wp-image-3435" title="gstory4you.com_test load time" src="http://geek2live.org/wp-content/uploads/2012/11/gstory4you.com_test-load-time.png" alt="gstory4you.com_test load time" width="581" height="379" /></a></p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/11/Performance-Grade_gstory4you.com_.png"><img class="alignnone  wp-image-3436" title="Performance Grade_gstory4you.com" src="http://geek2live.org/wp-content/uploads/2012/11/Performance-Grade_gstory4you.com_.png" alt="Performance Grade_gstory4you.com" width="581" height="410" /></a></p>
+<div class='yarpp-related-rss'>
+<p>You might also like:<ol>
+<li><a href="http://geek2live.org/archives/2764" rel="bookmark" title="WordPress 사이트의 글을 카테고리, 태그별로 구독하기">WordPress 사이트의 글을 카테고리, 태그별로 구독하기 </a></li>
+<li><a href="http://geek2live.org/archives/3656" rel="bookmark" title="워드프레스 플러그인: Google AdSense and Google Analytics Remover">워드프레스 플러그인: Google AdSense and Google Analytics Remover </a></li>
+<li><a href="http://geek2live.org/archives/469" rel="bookmark" title="워드프레스 설치방법 및 과정 Youtube를 통해서 쉽게 이해하기">워드프레스 설치방법 및 과정 Youtube를 통해서 쉽게 이해하기 </a></li>
+<li><a href="http://geek2live.org/archives/667" rel="bookmark" title="&#8220;Powered by WordPress&#8221; 를 워드프레스 footer에서 삭제해도 되는가?">&#8220;Powered by WordPress&#8221; 를 워드프레스 footer에서 삭제해도 되는가? </a></li>
+<li><a href="http://geek2live.org/archives/1368" rel="bookmark" title="YARPP 관련 포스트 플러그인 버그 해결방법">YARPP 관련 포스트 플러그인 버그 해결방법 </a></li>
+</ol></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3411/feed</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>SafeGmail로 크롬에서 암호화된 Gmail 메시지 발송하기</title>
+		<link>http://geek2live.org/archives/3401</link>
+		<comments>http://geek2live.org/archives/3401#comments</comments>
+		<pubDate>Sun, 28 Oct 2012 02:11:52 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[GeekFun]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[How to]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Productivity]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[Gmail]]></category>
+		<category><![CDATA[Gmail Tips]]></category>
+		<category><![CDATA[Google Chrome]]></category>
+		<category><![CDATA[security]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3401</guid>
+		<description><![CDATA[SafeGmail은 PGP와 유사한 방식으로 Gmail의 메시지를 암호화할 수 있는 이메일 프로그램입니다. 발신자는 수신자만 알 수 있는 암호를 설정함으로써 이메일을 안전하게 수신자에게 발송할 수 있으며, 제3자는 이메일의 내용을 훔쳐볼 수가 없습니다. 크롬 웹스토어에서 SafeGmail 확장 프로그램을 설치하면 Gmail 편지쓰기 창에 나타나는 [Encrypt] 옵션에 체크하여 편지에 비밀번호 질문/답안을 설정할 수 있습니다. 참고로 질문/답안은 현재 영어로만 설정할 수 있으며, 반드시 Gmail [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><strong>SafeGmail</strong>은 <a href="https://ko.wikipedia.org/wiki/PGP_(%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4)">PGP</a>와 유사한 방식으로 Gmail의 메시지를 암호화할 수 있는 이메일 프로그램입니다. 발신자는 수신자만 알 수 있는 암호를 설정함으로써 이메일을 안전하게 수신자에게 발송할 수 있으며, 제3자는 이메일의 내용을 훔쳐볼 수가 없습니다. 크롬 웹스토어에서 <a href="https://chrome.google.com/webstore/detail/safegmail/lmjkmpdndmbieflefonjgnnfimmkbedf" class="broken_link" rel="nofollow">SafeGmail 확장 프로그램을 설치</a>하면 Gmail 편지쓰기 창에 나타나는 [Encrypt] 옵션에 체크하여 편지에 비밀번호 질문/답안을 설정할 수 있습니다. 참고로 질문/답안은 현재 영어로만 설정할 수 있으며, 반드시 Gmail 실험실 기능을 일시 중지시키는 링크 <a href="https://mail.google.com/mail/u/0/?labs=0">https://mail.google.com/mail/u/0/?labs=0</a> 에 접속한 상태에서만 사용이 가능합니다. 또한 본문은 HTML 방식만 지원하며, 관리자에서 이메일 언어를 영어로 설정한 상태에서만 사용이 가능합니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/10/SafeGmail_Sending.png"><img class="alignnone size-full wp-image-3467" title="SafeGmail_Sending" src="http://geek2live.org/wp-content/uploads/2012/10/SafeGmail_Sending.png" alt="SafeGmail_Sending" width="568" height="363" /></a></p>
+<p>수신자가 메일을 받으면, 메일에 포함된 [Click here] 링크를 클릭하여, SafeGamil의 웹페이지로 이동하여 발신자가 설정한 질문에 대한 답변(Answer)을 입력해야 합니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/10/SafeGmail_Receiver.png"><img class="alignnone size-full wp-image-3469" title="SafeGmail_Receiver" src="http://geek2live.org/wp-content/uploads/2012/10/SafeGmail_Receiver.png" alt="SafeGmail_Receiver" width="568" height="280" /></a></p>
+<p>정확한 답변을 입력한 후, 수신된 메일에서 본문내용(알아볼 수 없는 기호의 집합체)을 복사하여 상자에 붙여넣고, [Show My Mail]을 클릭하면 바로 실제 메시지 내용을 해독할 수 있습니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/10/SafeGmail_Showing.png"><img class="alignnone size-full wp-image-3470" title="SafeGmail_Showing" src="http://geek2live.org/wp-content/uploads/2012/10/SafeGmail_Showing.png" alt="SafeGmail_Showing" width="568" height="378" /></a></p>
+<p>&nbsp;</p>
+<p><strong>참고사항: </strong></p>
+<p><strong></strong>01. 일반적으로, Gmail은 암호화된 https 프로토콜을 사용하므로 비교적 안전한 편이지만, 100% 안전한 것은 아닙니다. 페이지에 안전하지 않은 리소스가 포함되어 있을 때, 제3자는 리소스를 가로채서 훔쳐 보거나 공격자가 페이지의 모양을 수정할 수도 있습니다. 유사한 경고 메시지는 크롬에서 직접 확인할 수도 있습니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/10/Gmail_Security.png"><img class="alignnone size-full wp-image-3471" title="Gmail_Security" src="http://geek2live.org/wp-content/uploads/2012/10/Gmail_Security.png" alt="Gmail_Security" width="568" height="406" /></a></p>
+<p>02. SafeGmail은 암호화 또는 해독한 메시지를 모두 사용자의 크롬 브라우저내에 저장하기 때문에 비교적 안전합니다. 그 이유에 대해서는 <a href="https://github.com/crised/SafeGmail">GitHub에서 SafeGmail의 소스코드를 확인</a>해보면 알 수 있습니다.</p>
+<p><em>Via <a href="http://lifehacker.com/5953795/safegmail-is-a-simple-way-to-encrypt-messages-in-gmail">Lifehacker</a></em></p>
+<p><em>이 글은 <a href="http://gstory4you.com/2012/10/28/how-to-send-encrypted-gmail-message-in-chrome/">G스토리</a>에 처음 포스트 되었습니다. </em></p>
+<div class='yarpp-related-rss'>
+<p>You might also like:<ol>
+<li><a href="http://geek2live.org/archives/3242" rel="bookmark" title="안드로이드에서 Gmail 실험실의 “미리 준비된 답변” 기능 이용하여 빠른 회신하기">안드로이드에서 Gmail 실험실의 “미리 준비된 답변” 기능 이용하여 빠른 회신하기 </a></li>
+<li><a href="http://geek2live.org/archives/3268" rel="bookmark" title="구독한 모든 메일을 받은편지함에서 추방하는 Gmail 필터 설정하기">구독한 모든 메일을 받은편지함에서 추방하는 Gmail 필터 설정하기 </a></li>
+<li><a href="http://geek2live.org/archives/1271" rel="bookmark" title="New Productivity: 지메일 스마트 라벨">New Productivity: 지메일 스마트 라벨 </a></li>
+<li><a href="http://geek2live.org/archives/2714" rel="bookmark" title="New Productivity &#8211; Gmail 편지를 발송하기전 별표와 라벨을 미리 추가하기">New Productivity &#8211; Gmail 편지를 발송하기전 별표와 라벨을 미리 추가하기 </a></li>
+<li><a href="http://geek2live.org/archives/3040" rel="bookmark" title="Gmail에서 Google+의 포스트에 직접 댓글 쓰기">Gmail에서 Google+의 포스트에 직접 댓글 쓰기 </a></li>
+</ol></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3401/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>댓글 시스템 Disqus의 Discovery 광고 시스템으로 블로그서 돈 벌기</title>
+		<link>http://geek2live.org/archives/3349</link>
+		<comments>http://geek2live.org/archives/3349#comments</comments>
+		<pubDate>Thu, 25 Oct 2012 10:31:34 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[GeekFun]]></category>
+		<category><![CDATA[How to]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[Weblog/blog]]></category>
+		<category><![CDATA[Discovery]]></category>
+		<category><![CDATA[Disqus]]></category>
+		<category><![CDATA[블로그]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3349</guid>
+		<description><![CDATA[소셜 댓글 시스템을 서비스하고 있는 disqus에서 10월초에 Discovery라고 새로운 광고 시트템을 발표했습니다. 개인적으로 disqus를 오래전부터 사용하고 있고 영어권에서 잘 나가는 블로그들도 disqus를 사용하고 있기 때문에 시장은 제법 있을듯 한데, 일단 시험적으로 제 블로그에도 Discovery를 설치해보았습니다. 돈벌이를 목적으로 한다기보다 어떻게 작동하는지 궁금해서요. 아래의 예시 이미지들을 살펴보면 어떻게 돌아가는지 대략 감 잡을 수 있을 것입니다. Discovery 광고 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>소셜 댓글 시스템을 서비스하고 있는 disqus에서 10월초에 <a href="http://blog.disqus.com/post/32684337804/expanding-promoted-discovery">Discovery라고 새로운 광고 시트템을 발표</a>했습니다. 개인적으로 <a href="http://kr.geek2live.org/241">disqus를 오래전부터 사용</a>하고 있고 영어권에서 잘 나가는 블로그들도 disqus를 사용하고 있기 때문에 시장은 제법 있을듯 한데, 일단 시험적으로 제 블로그에도 <a href="http://help.disqus.com/customer/portal/articles/666278-introducing-promoted-discovery-and-f-a-q-">Discovery</a>를 설치해보았습니다. 돈벌이를 목적으로 한다기보다 어떻게 작동하는지 궁금해서요. <img src="http://geek2live.org/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<p>아래의 예시 이미지들을 살펴보면 어떻게 돌아가는지 대략 감 잡을 수 있을 것입니다.</p>
+<p><strong>Discovery 광고 시트템을 활성화한 사이트 살펴보기: </strong></p>
+<p><strong></strong>&#8216;라이프해커 2.0&#8242; 블로그의 글 <a href="http://geek2live.org/archives/3318" target="_blank">HTTPS Everywhere: 강제로 웹을 암호화할 수 있는 Firefox 및 Chrome 확장기능</a> 아래의 댓글 박스 아래서 Recommended for you 아래에 표시된 추천 항목에 정확하게 다른 사이트에 올라온 글의 제목이 표시되는데, 내용을 보면 제가 쓴 글과 동일한 내용을 담고 있습니다. Disqus가 정확하게 추천항목(연관글)을 표시해주고 있는 것입니다. 이론상에서 방문자가 빨간 색 네모안에 있는 링크를 클릭하여 이 사이트를 방문했을 때 제 사이트에 수익이 발생할 수 있다고 보시면 됩니다. 두가지 가능성이 존재하는데, 이 사이트가 disqus의 스폰서의 경우라면 방문자에 의해 클릭이 발생할 때 제 블로그가 돈을 벌게 되는 것이고, 그렇지 않다면 단순히 다른 사이트에 트래픽을 늘려주는 기능을 합니다. 즉 제 블로그의 글이 disqus를 설치한 다른 사이트에서도 추천항목으로 댓글란에 표시될 수 있다는 것이죠.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/10/disqus_recommended-items.png"><img class="alignnone  wp-image-3350" title="disqus_recommended items" src="http://geek2live.org/wp-content/uploads/2012/10/disqus_recommended-items.png" alt="disqus_recommended items" width="587" height="140" /></a></p>
+<p>또 다른 예제를 하나 더 볼 수 있습니다. &#8216;<a href="http://gstory4you.com/2012/10/06/add-lunar-calendar-to-your-google-calendar/">구글 캘린더에 음력 달력 추가하기</a>&#8216;라는 글은 제가 다른 블로그에 올린 글이며, 구글 캘린더에 관한 팁을 설명하고 있는데 이 글의 댓글의 추천 항목에 &#8220;Using Outlook with Google Calendar&#8221;란 글이 링크되어 있습니다. 사이트에 접속한 방문자가 관심이 간다면 클릭이 발생할 수도 있으며, 제 블로그는 수익을 얻거나 다른 사이트에 트래픽을 보내주게 될 것입니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/10/disqus_recommended-items_2.png"><img class="alignnone  wp-image-3351" title="disqus_recommended items_2" src="http://geek2live.org/wp-content/uploads/2012/10/disqus_recommended-items_2.png" alt="disqus_recommended items_2" width="587" height="474" /></a></p>
+<p><strong>Discovery의 작동 원리: </strong>Discovery 박스에 표시되는 추천항목(recommended for you)은 <a href="http://help.disqus.com/customer/portal/articles/666278#how-discovery-works">다음의 몇 가지 요소를 고려하여 추출</a>됩니다.</p>
+<ul>
+<li>사이트의 특정 글과 글에 달린 댓글의 내용</li>
+<li>다른 사이트의 글 및 다른 사이트에서 홍보하려는 글</li>
+<li>disqus 알고리즘의 판단에 근거하여 독자들이 관심할 만한 글</li>
+</ul>
+<p>참고로 현재 시점에서 Disqus의<a href="http://www.alexa.com/siteinfo/disqus.com#">Alexa Traffic Rank는 현재 960</a>정도이며  미국에서는 813번 째로 가장 많이 방문하는 사이트입니다. Disqus에 따르면 disqus 댓글 시스템을 설치한 사이트에 접속하는 월 방문자수는 약 8억 정도가 된다고 합니다. Disqus 알고리즘은 Discovery 광고 시스템을 활성화한 사이트에서 가장 유익하다고 생각되는 콘텐츠를 추출하여 Discovery 박스에 표시하며, 연관성이 별로 없을 때는 추천 항목을 표시하지 않을 수도 있습니다.</p>
+<p><strong>Discovery 시트템 활성화하기: </strong>구체적으로 다음 단계를 따릅니다.</p>
+<ol>
+<li>사이트 또는 블로그에 Disqus 댓글 시스템(2012 버전)을 설치합니다. WordPress 블로그는 간단히 Disqus 플러그인을 설치하면 됩니다.</li>
+<li>Disqus 에 로그인하고 <a href="http://disqus.com/admin/settings/discovery/">Discovery tab</a>에 접속합니다.</li>
+<li>PayPal Email Address 입력란에 자신의 PayPal 이메일 주소를 추가합니다.</li>
+</ol>
+<p><strong>Disqus에서 발생한 트래픽 및 수입 확인하기: </strong>내 사이트로 유입된 트래픽과 수익은 [Analytics] 탭에서 확인할 수 있으며, 수익은 미니멈 $100.00이 될 때, 내 PayPal 계정으로 지급됩니다. 즉 구글 애드센스와 유사한 방식으로 지급됩니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/10/discovery-analytics.png"><img class="alignnone  wp-image-3409" title="discovery-analytics" src="http://geek2live.org/wp-content/uploads/2012/10/discovery-analytics.png" alt="discovery-analytics" width="587" height="296" /></a></p>
+<p><strong>Disqus로 유입되는 트래픽 수준 제어하고 수익 최대화하기:  </strong>disqus는 내 사이트로 유입되는 트래픽 수준을 제어하고 수익을 최대화할 수 있도록 4가지 옵션을 제공하고 있으며, <a href="http://disqus.com/admin/settings/discovery/" target="_blank">Discovery 탭에서 구체적으로 원하는 옵션을 선택</a>할 수 있습니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/10/Discovery_level_options.png"><img class="alignnone  wp-image-3355" title="Discovery_level_options" src="http://geek2live.org/wp-content/uploads/2012/10/Discovery_level_options.png" alt="Discovery_level_options" width="587" height="309" /></a></p>
+<p><strong>Discovery 시트템에 대한 더 많은 정보 알아보기: </strong><a href="http://help.disqus.com/customer/portal/articles/666278" target="_blank">FAQ 페이지</a>에 자세히 소개되어 있습니다.</p>
+<p>개인적으로는 Discovery가 한국어 사이트에 많은 트래픽이나 수익을 가져다 줄 수가 없을 것이라고 봅니다. 하지만 조그만한 댓글 박스를 통해서도 수익을 창출하려는 Disqus 팀의 의지나 기술은 칭찬해줘야 한다고 생각합니다. 한국에도 disqus를 벤치마킹한 유사한 연관글이나 댓글 시트템이 있는 것으로 알고 있는데, 이러한 수익모델로 수익을 창출하는 업체는 아직 없는 것으로 알고 있습니다. 얼마전 구글에서도 facebook과 유사한 소셜 댓글 시스템을 내놓는다고 루머가 돌았었는데, Discovery가 과연 얼마나 오래갈지 또는 최종 성공할 수 있겠는지 기대 됩니다.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3349/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>HTTPS Everywhere: 강제로 웹을 암호화할 수 있는 Firefox 및 Chrome 확장기능</title>
+		<link>http://geek2live.org/archives/3318</link>
+		<comments>http://geek2live.org/archives/3318#comments</comments>
+		<pubDate>Tue, 16 Oct 2012 13:43:18 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[Personal]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[https]]></category>
+		<category><![CDATA[security]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3318</guid>
+		<description><![CDATA[https everywhere는 비영리 단체 EFF에서 내놓은 공식 브라우저 확장 프로그램으로써, 사용자가 웹 브라우저 주소 표시줄에 http://로 시작된 URL을 입력할 때 보다 안전한 https 프로토콜로 자동으로 접속 시켜 줍니다. 모든 웹페이지가 다 https를 지원하는 것이 아니므로, 이 확장 프로기능은  https를 지원하는 웹페이지에서만 작동합니다. HTTPS Everywhere는 이미 1주일전 3.0버전으로 업그레이드되었으며, Firefox와 Chrome 브라우저를 모두 지원합니다. 확장 프로그램 다운로드 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><a title="HTTPS Everywhere" href="https://www.eff.org/https-everywhere" target="_blank">https everywhere</a>는 비영리 단체 <a href="https://ko.wikipedia.org/wiki/%EC%A0%84%EC%9E%90_%ED%94%84%EB%9F%B0%ED%8B%B0%EC%96%B4_%EC%9E%AC%EB%8B%A8">EFF</a>에서 내놓은 공식 브라우저 확장 프로그램으로써, 사용자가 웹 브라우저 주소 표시줄에 http://로 시작된 URL을 입력할 때 보다 안전한 <a href="https://ko.wikipedia.org/wiki/HTTPS">https 프로토콜</a>로 자동으로 접속 시켜 줍니다. 모든 웹페이지가 다 https를 지원하는 것이 아니므로, 이 확장 프로기능은  https를 지원하는 웹페이지에서만 작동합니다. HTTPS Everywhere는 이미 1주일전 3.0버전으로 업그레이드되었으며, Firefox와 Chrome 브라우저를 모두 지원합니다.</p>
+<p>확장 프로그램 다운로드 : <a title="HTTPS Everywhere" href="https://www.eff.org/https-everywhere" target="_blank">https everywhere</a> (Chrome, Firefox용)</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/10/HTTPS_Everywhere_new_logo.jpg"><img class="alignnone  wp-image-3324" title="HTTPS_Everywhere_new_logo" src="http://geek2live.org/wp-content/uploads/2012/10/HTTPS_Everywhere_new_logo.jpg" alt="HTTPS_Everywhere_new_logo" width="216" height="187" /></a></p>
+<p>EFF에 따르면 현재 https 프로토콜을 지원하는 웹사이트는 1500개 이상에 달하며, 이미 250만명이상의 사용자가 HTTPS Everywhere를 사용하고 있습니다. EFF는 HTTPS Everywhere가 2013년전에 적어서 1000억개의 웹페이지를 암호화처리하고, 수만 억개의 https 요청을 내보낼 것으로 예측하고 있습니다.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3318/feed</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>정말 먹을 수 있는 장기, 대박 아이디어 추석 상품?</title>
+		<link>http://geek2live.org/archives/3283</link>
+		<comments>http://geek2live.org/archives/3283#comments</comments>
+		<pubDate>Sat, 29 Sep 2012 15:50:40 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[GeekFun]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[월병]]></category>
+		<category><![CDATA[장기]]></category>
+		<category><![CDATA[추석]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3283</guid>
+		<description><![CDATA[장기를 잘 두려면 잡아먹고 먹힐 때 계산을 잘해야 한다고 말하죠?  재미로 놀 때, 잡은 장기를 물릴 때도 있으나, 사전에 후회하기 없기로 약속하고 돌려주지 않을 때도 있습니다. 다음 사진에 포함된 장기는 중국 남경에서 난 월병(月饼)인데 게임으로 장기를 둘 수 있을 뿐만 아니라 상대의 장기를 정말 먹어버릴 수도 있답니다. 즉 음식으로 먹을 수 있도록 만들어진 장기랍니다. 한국에서는 추석에 송편을 먹지만 중국 사람들은 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>장기를 잘 두려면 <a title="장기를 잘 두는 법 10 가지 묘책과 기본" href="http://peterypark83dosa.blogspot.com/2007/05/10.html" target="_blank">잡아먹고 먹힐 때 계산을 잘해야</a> 한다고 말하죠?  재미로 놀 때, 잡은 장기를 물릴 때도 있으나, 사전에 후회하기 없기로 약속하고 돌려주지 않을 때도 있습니다.</p>
+<p>다음 사진에 포함된 장기는 <a href="https://plus.google.com/116443978913077338683/posts/Pqp7a9P2sqC" target="_blank">중국 남경에서 난 월병(月饼)</a>인데 게임으로 장기를 둘 수 있을 뿐만 아니라 상대의 장기를 정말 먹어버릴 수도 있답니다. <img src="http://geek2live.org/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  즉 음식으로 먹을 수 있도록 만들어진 장기랍니다. 한국에서는 추석에 송편을 먹지만 중국 사람들은 월병을 먹는데요, 월병은 중국인들이 추석에 먹는 대표적인 한가위 음식으로, 보름달처럼 둥근 모양 때문에 &#8216;월병&#8217;이라 불립니다. 실제로 <a href="http://goo.gl/eKvKb" target="_blank">월병의 종류는 매우 다양</a>합니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/09/000.jpg"><img class="alignnone size-full wp-image-3286" title="Xiangqi_Mooncake" src="http://geek2live.org/wp-content/uploads/2012/09/000.jpg" alt="Xiangqi_Mooncake" width="285" height="278" /></a></p>
+<p>내일은 한국의 전통적인 명절 추석날입니다. 한국 및 해외에 계신 독자분들 모두 풍성한 한가위 되시기 바랍니다. <img src="http://geek2live.org/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/09/截图07.jpg"><img class="alignnone size-full wp-image-3287" title="moon" src="http://geek2live.org/wp-content/uploads/2012/09/截图07.jpg" alt="moon" width="497" height="367" /></a></p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3283/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>구독한 모든 메일을 받은편지함에서 추방하는 Gmail 필터 설정하기</title>
+		<link>http://geek2live.org/archives/3268</link>
+		<comments>http://geek2live.org/archives/3268#comments</comments>
+		<pubDate>Thu, 20 Sep 2012 06:24:13 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[GeekFun]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[How to]]></category>
+		<category><![CDATA[Lifehacks]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Productivity]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[Email]]></category>
+		<category><![CDATA[Gmail]]></category>
+		<category><![CDATA[Gmail Tips]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3268</guid>
+		<description><![CDATA[구독한 뉴스레터 등이 Gmail의 받은편지함에 들어오지 않고 자동으로 보관되게 설정하면 소용없는 클릭을 줄여 더 중요한 일이나 업무에 집중할 수 있을 것입니다. 구독한 모든 이메일을 받은편지함에서 자동으로 빠져나가게 하려면 아래의 필터 하나만 설정하면 되며, 구체적으로 다음 절차를 따릅니다.  Step 1. Gmail의 검색창에 label:^unsub OR &#8220;unsubscribe&#8221; OR &#8220;수신거부&#8221; 을 입력하고 검색창안에서 맨 오른쪽 끝에 있는 작은 삼각형 모양의 [검색 옵션 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>구독한 뉴스레터 등이 Gmail의 받은편지함에 들어오지 않고 자동으로 보관되게 설정하면 소용없는 클릭을 줄여 더 중요한 일이나 업무에 집중할 수 있을 것입니다.</p>
+<p><strong>구독한 모든 이메일을 받은편지함에서 자동으로 빠져나가게 하려면 아래의 필터 하나만 설정</strong><strong>하면 되며, 구체적으로 다음 절차를 따릅니다. </strong></p>
+<p><strong>Step 1.</strong> Gmail의 검색창에 <strong>label:^unsub OR &#8220;unsubscribe&#8221; OR &#8220;수신거부&#8221; </strong>을 입력하고 검색창안에서 맨 오른쪽 끝에 있는 작은 삼각형 모양의 [검색 옵션 표시] 아이콘을 눌러 메뉴를 펼칩니다. 필터 만들기 메뉴창 하단의 오른쪽에서 [이 검색 기준으로 필터 만들기]를 클릭합니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/09/setup_gmail_filter_1.png"><img class="alignnone size-full wp-image-3473" title="setup_gmail_filter_1" src="http://geek2live.org/wp-content/uploads/2012/09/setup_gmail_filter_1.png" alt="setup_gmail_filter_1" width="358" height="301" /></a></p>
+<p>&nbsp;</p>
+<p><strong>Step 2.</strong> 다음 팝업창이 뜨면 메시지의 내용을 무시하고 [확인] 을 클릭합니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/09/setup_gmail_filter_2.png"><img class="alignnone size-full wp-image-3475" title="setup_gmail_filter_2" src="http://geek2live.org/wp-content/uploads/2012/09/setup_gmail_filter_2.png" alt="setup_gmail_filter_2" width="356" height="164" /></a></p>
+<p>&nbsp;</p>
+<p><strong>Step 3.</strong> &#8216;받은 편지함 건너뛰기(보관)&#8217;와 &#8216;라벨 적용&#8217; 옵션에 체크하고 [필터 만들기]버튼을 클릭합니다. &#8216;Read It Later(나중에 읽기)&#8217; 라벨이 없다면 필터 만들기 메뉴창에서 직접 만들어 적용하면 됩니다. &#8216;일치하는 N개의 대화에도 필터 적용&#8217; 옵션은 필요에 따라서 적용할 수 있으며, 적용한다면 나중에 &#8220;Read It Later&#8221; 라벨에서 이전에 구독한 메일을 포함하여 새 메일과 함께 일괄확인할 수 있게 됩니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/09/setup_gmail_filter_3.png"><img class="alignnone size-full wp-image-3476" title="setup_gmail_filter_3" src="http://geek2live.org/wp-content/uploads/2012/09/setup_gmail_filter_3.png" alt="setup_gmail_filter_3" width="358" height="281" /></a></p>
+<p><strong>추가 팁 1:</strong>  위의 필터를 적용한 뒤로부터는 구독한 메일이 자동으로 전체보관함에 보관되므로 편한 시간에 집중적으로 해당 라벨에서 구독 메일을 일괄 확인할 수 있습니다. 위에서 소개한 필터는 비교적 스마트하여 거의 모든 뉴스레터를 걸러낼 것이지만, 가령 다음의 리스트에서 메일 a와 b를 걸러낼 수 있는데, 메일 c를 걸러내지 못한다면 <a href="https://mail.google.com/mail/ca/u/0/#settings/filters" target="_blank">필터 관리자 화면</a>에서 검색어를 <strong>label:^unsub OR &#8220;unsubscribe&#8221; OR &#8220;수신거부&#8221; OR &#8220;수신을 취소&#8221;</strong> 로 수정하면 됩니다.</p>
+<ul>
+<li>(메일 a)본 메일의 수신을 원치 않으시는 분은 수신거부를 클릭해주세요.</li>
+<li>(메일 b) unsubscribe to stop recieving our email updates.</li>
+<li>(메일 c)앞으로 이러한 메일을 받지 않으려면 수신을 취소하세요.</li>
+</ul>
+<p>즉 걸러내지 못하는 메일이 있을 경우, 필터에 키워드를 새로 추가하면 됩니다. 각 키워드를 연결하는 OR 연산자는 반드시 대문자로 써야 합니다.</p>
+<p><strong>추가 팁 2:</strong>  위의 필터를 적용하되, Gmail의 자동분류함이 중요하다고 판단하는 메일만은 받은 편지함에 남께 하려면, <a href="https://mail.google.com/mail/ca/u/0/#settings/filters" target="_blank">필터 관리자 화면</a>에서 검색어를 <strong>label:^unsub OR &#8220;unsubscribe&#8221; OR &#8220;수신거부&#8221; OR &#8220;수신을 취소&#8221;</strong> <strong>-is:important</strong> 로 수정할 수도 있습니다. 그러나 이 방법은 별로 효율적이 못되어 추천하고 싶지 않습니다.</p>
+<p><strong>추가 팁 3:</strong> 더 이상 수신을 원치 않는 이메일은 구독을 취소할 수 있습니다. 언제든지 위에서 적용한 라벨인 &#8216;Read It Later(나중에 읽기)&#8217; 에서 원치 않는 메일을 쉽게 찾아내 구독을 취소하면 됩니다. 위에서 언급한 label:^unsub는 Gmail에 숨겨진 라벨의 하나로써, <a href="http://geek2live.org/archives/507" target="_blank">Gmail에서 자동으로 수신거부할 수 있는 메일들의 집합체</a>로 보면 됩니다.</p>
+<p><em>이 팁은 &#8220;<a title="구독한 모든 메일을 받은편지함에서 추방하는 Gmail 필터 설정하기" href="http://gstory4you.com/2012/09/20/how-to-banish-all-email-newsletters-from-gmail-inbox/" target="_blank">G스토리</a>&#8220;에도 올려져 있습니다. 더 많은 구글 제품 팁 및 정보를 받아 보시려면  <a href="http://feeds.feedburner.com/gstory4you" target="_blank">&#8216;G스토리&#8217;를 구독</a>해 주시기 바랍니다. 거의 매일 업데이트 되고 있습니다. </em></p>
+<div class='yarpp-related-rss'>
+<p>You might also like:<ol>
+<li><a href="http://geek2live.org/archives/1271" rel="bookmark" title="New Productivity: 지메일 스마트 라벨">New Productivity: 지메일 스마트 라벨 </a></li>
+<li><a href="http://geek2live.org/archives/3242" rel="bookmark" title="안드로이드에서 Gmail 실험실의 “미리 준비된 답변” 기능 이용하여 빠른 회신하기">안드로이드에서 Gmail 실험실의 “미리 준비된 답변” 기능 이용하여 빠른 회신하기 </a></li>
+<li><a href="http://geek2live.org/archives/507" rel="bookmark" title="내 Gmail에서 자동 수신거부/구독해지 가능한 모든 이메일을 신속히 찾아내기">내 Gmail에서 자동 수신거부/구독해지 가능한 모든 이메일을 신속히 찾아내기 </a></li>
+<li><a href="http://geek2live.org/archives/525" rel="bookmark" title="New Productivity &#8211; 지메일 다음번 대화로 자동진행(이동) 기능">New Productivity &#8211; 지메일 다음번 대화로 자동진행(이동) 기능 </a></li>
+<li><a href="http://geek2live.org/archives/3401" rel="bookmark" title="SafeGmail로 크롬에서 암호화된 Gmail 메시지 발송하기">SafeGmail로 크롬에서 암호화된 Gmail 메시지 발송하기 </a></li>
+</ol></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3268/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>블로그와 사용자 경험(User Experience)</title>
+		<link>http://geek2live.org/archives/3252</link>
+		<comments>http://geek2live.org/archives/3252#comments</comments>
+		<pubDate>Fri, 07 Sep 2012 15:30:41 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[How to]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Thinking]]></category>
+		<category><![CDATA[Weblog/blog]]></category>
+		<category><![CDATA[User Experience]]></category>
+		<category><![CDATA[블로그]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3252</guid>
+		<description><![CDATA[블로거로서 다른 블로그를 보지 않을 수가 없으며, 여기저기 돌아다닌지도 벌써 만 5년이 넘었습니다. 좋은 디자인, 훌륭한 콘텐츠와 글쓰기 기술 이런 것들은 모두 구비하면 완벽하겠지만, 좋은 블로그가 방문자에게 주는 느낌은 결과적으로 좋은 사용자 경험(User Experience)일 것입니다. 좋은 콘텐츠나 글쓰기 기술 이런 것들을 떠나서 오늘은 블로그가 방문자에게 주는 느낌에 대해서 적어보려 합니다. 아니, 여기서는 다른 블로그를 돌아다니면서 느꼈던 가장 불편했던 몇가지 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>블로거로서 다른 블로그를 보지 않을 수가 없으며, 여기저기 돌아다닌지도 벌써 만 5년이 넘었습니다. 좋은 디자인, <a href="http://geek2live.org/archives/90" target="_blank">훌륭한 콘텐츠</a>와 글쓰기 기술 이런 것들은 모두 구비하면 완벽하겠지만, 좋은 블로그가 방문자에게 주는 느낌은 결과적으로 좋은 <a title="위키배과: 사용자 경험" href="http://ko.wikipedia.org/wiki/%EC%82%AC%EC%9A%A9%EC%9E%90_%EA%B2%BD%ED%97%98" target="_blank">사용자 경험(User Experience)</a>일 것입니다. 좋은 콘텐츠나 글쓰기 기술 이런 것들을 떠나서 오늘은 블로그가 방문자에게 주는 느낌에 대해서 적어보려 합니다. 아니, 여기서는 <strong>다른 블로그를 돌아다니면서 느꼈던 가장 불편했던 몇가지 사용자 경험</strong>에 대해서 적어보고자 합니다.</p>
+<p><strong>외부 링크가 없는 블로그: </strong>제대로 된 팁 위주나 뉴스 블로그의 경우는 아웃바운드 링크를 잘 활용하며 출처를 확실히 밝힙니다. 권위도나 인지도가 높은 블로그(예: TechCrunch, Lifehacker, TheNextWeb) 일수록 출처는 더욱 잘 밝힙니다. 그들의 블로그가 못나서일까요? 아닙니다. 그것은 기본이며 신용이기 때문입니다. 또한 사용자에게 <a href="http://googlewebmastercentral.blogspot.com/2008/10/linking-out-often-its-just-applying.html" target="_blank">심도있는 정보를 제공</a>하기 위해서입니다. 외부로 링크를 걸지 않는 블로그는 별로 신빙성이 없어 보이며 구독하고 싶지 않게 됩니다. 정보가 하늘에서 떨어지는 경우는 극히 드물며 출처가 없는 뉴스 또한 존재하지 않습니다.</p>
+<p><strong>퍼가기와 죽은 링크로 출처 밝히기: </strong>블로거로서 다른 사람이 정성을 들여 쓴 글을 뻔뻔스럽게 통째로 퍼가기(Ctrl+C &amp; Ctrl+V)는 정말 거지같은 행위라 생각합니다. 허락을 받는 것이 최우선이며, 일반적으로 원문의 일부분을 발췌하여 인용하거나 출처를 분명히 밝히는 것이 보기가 좋습니다.  <strong> </strong></p>
+<ul>
+<li>출처: 뉴욕타임즈 (당신의 블로그는 신문입니까?)</li>
+<li>출처: http://geek2live.org/ (<a title="하이프링크 - 위키백과" href="http://ko.wikipedia.org/wiki/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A7%81%ED%81%AC" target="_blank">하이퍼링크</a>가 아닌 죽은 링크)</li>
+<li>출처: <a href="http://goo.gl/OyPag" target="_blank">http://goo.gl/OyPag</a> (살아 있지만 <a href="http://geek2live.org/archives/2980" target="_blank">페이지랭크</a>를 전달하지 않는 죽은 링크의 형식을 사용하는 방식, 블로그는 트위터가 아닙니다. )</li>
+</ul>
+<p><strong>마우스 오른쪽 클릭 막아놓기: </strong>글을 퍼가는 것을 방지하기 위해서 막은 것이겠지만, 글을 퍼가려는 사람이 아닌 다른 방문자를 엄청 불편하게 합니다. RSS를 구독하려 하거나 글의 일부분을 인용하려고 해도 복사조차도 불가능하니 다른 사람이 블로그를 구독하거나 글을 인용하고 싶을까요? <a href="http://gstory4you.com/2012/09/13/how-to-enable-right-click-menu-on-chrome-and-firefox/" target="_blank">마우스 오른쪽 클릭 차단을 해제</a>할 수 없는 것은 아니지만 귀찮아서라도 구독하거나 인용하지 않을 것입니다. 미안합니다.</p>
+<p><strong>부분공개 RSS: </strong>절대 나쁜 것이라 단정할 수는 없지만 전체 공개를 원하는 사용자를 불편하게 합니다. <a title="부분 공개 RSS를 전체 공개 RSS로 전환하기" href="http://kr.geek2live.org/218" target="_blank">쓸데없는 짓을 한번 더하게</a> 하죠. 콘텐츠가 특별히 휼륭하지 않은 이상 구독할 욕망을 상실하게 합니다.</p>
+<p><strong>RSS를 통해 동일한 광고를 반복적으로 송출</strong>: TV에서 매일 한가지 광고가 나온다면 보고 싶겠습니까? 한마디로 짜증납니다. 대신 구글 광고처럼 자동으로 변환하는 광고의 형식이 더 좋지 않을까 생각합니다.</p>
+<p><strong>특정 국가 IP 차단: </strong>구글 검색결과를 클릭했을 때 정상적으로 방문되지 않는 사이트가  있습니다만, Proxy나 <a href="http://kr.geek2live.org/145" target="_blank">VPN</a>을 사용하면 방문이 되는 블로그나 사이트를 종종 보게 됩니다. <a href="http://support.google.com/websearch/bin/answer.py?hl=ko&amp;answer=1687222" target="_blank">구글 캐시</a>를 이용해도 대부분의 경우 콘텐츠를 볼 수는 있습니다. 당신의 사이트의 잠재적인 방문자는 전세계에 널려 있다는 것을 잊지 마세요. 당신의 친구가 해외로 여행을 가서 당신의 블로그를 방문하려고 할 수도 있습니다. 이런 조치는 별로 의미가 없는 조취이며 사용자를 불편하게만 합니다.</p>
+<p><strong>원하는 콘텐츠를 찾아보기 어려운 사이트</strong>: 좋은 사이트는 검색이 가능하며 네비게이션(카테고리, <a href="http://geek2live.org/archives" target="_blank">Achives</a>, 태그, Site Map, 소개 페이지 등)이 잘 되어 있는 사이트이며, 임의의 페이지에서 사이트의 기타 콘텐츠를 쉽게 찾을수 있는 사이트입니다. 이러한 사이트일수록 검색엔진으로부터 좀 더 좋은 점수를 받을 수 있습니다. 검색엔진도 사용자 경험을 고려한다는 것을 잊지 마세요.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3252/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>안드로이드에서 Gmail 실험실의 “미리 준비된 답변” 기능 이용하여 빠른 회신하기</title>
+		<link>http://geek2live.org/archives/3242</link>
+		<comments>http://geek2live.org/archives/3242#comments</comments>
+		<pubDate>Wed, 05 Sep 2012 02:31:07 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[GeekFun]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[How to]]></category>
+		<category><![CDATA[Lifehacks]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Productivity]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[Gmail]]></category>
+		<category><![CDATA[Gmail Labs]]></category>
+		<category><![CDATA[Gmail Tips]]></category>
+		<category><![CDATA[G스토리]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3242</guid>
+		<description><![CDATA[일상에서 우리는 컴퓨터를 떠나 외부에서 이동하거나 운동 중일때도 고객이나 친구들로부터 빠른 답변을 요구하는 메일을 받을 때가 있습니다. 이메일을 주고 받는 각종 다양한 경우를 고려하여 자주 작성하거나 반복적으로 보내는 메일 내용을 Gmail에 미리 작성하여 저장해 둔다면 이동 중에 있더라도 바로바로 이메일에 신속히 답변을 할 수 있을 것이며 불필요한 반복작업을 줄일 수 있습니다. 안드로이드 기기에서  &#8220;미리 준비된 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>일상에서 우리는 컴퓨터를 떠나 외부에서 이동하거나 운동 중일때도 고객이나 친구들로부터 빠른 답변을 요구하는 메일을 받을 때가 있습니다. 이메일을 주고 받는 각종 다양한 경우를 고려하여 자주 작성하거나 반복적으로 보내는 메일 내용을 Gmail에 미리 작성하여 저장해 둔다면 이동 중에 있더라도 바로바로 이메일에 신속히 답변을 할 수 있을 것이며 불필요한 반복작업을 줄일 수 있습니다.</p>
+<h4><strong>안드로이드 기기에서  &#8220;미리 준비된 답변&#8221; 기능 사용하기 </strong></h4>
+<p><strong>Step 1:</strong>  우선 <a href="https://mail.google.com/mail/ca/u/0/#settings/labs" target="_blank">Gmail 실험실</a>에서 &#8220;미리 준비된 답변 CR 사용하기&#8221; 즉 Canned Responses(CR) 기능을 활성화시킨 후 평소 사용할 가능성이 비교적 높은 몇 개의 답변을 컴퓨터에서 미리 작성하여 Gmail에 저장합니다. 나중에 CR 기능은 컴퓨터와 안드로이드폰 또는 태블릿 PC에서 모두 사용할 수 있습니다.</p>
+<p style="text-align: center;"><a href="http://geek2live.org/wp-content/uploads/2012/09/CR.png"><img class="size-full wp-image-3478 aligncenter" title="CR" src="http://geek2live.org/wp-content/uploads/2012/09/CR.png" alt="CR" width="524" height="156" /></a></p>
+<p><strong>Step 2:</strong> 안드로이드 기기에 <a href="https://play.google.com/store/apps/details?id=com.codecarpet.responses.beta">Gmail Canned Responses</a> 앱을 설치하고 [Sign in]을 터치하여 Gmail 계정에 로그인합니다. 다음 설치한 앱이 내 계정에 액세스할 수 있도록 권한을 부여해야 합니다. 권한 부여는 OAuth 인증방식을 이용하는 것이므로 보안을 걱정하지 않으셔도 됩니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/09/gmail_login.jpg"><img class="size-full wp-image-3481 aligncenter" title="gmail_login" src="http://geek2live.org/wp-content/uploads/2012/09/gmail_login.jpg" alt="gmail_login" width="198" height="135" /></a></p>
+<p><strong>Step 3:</strong> 앱에 권한을 부여하면 앱이 내 Gmail에 액세스하여 계정에 저장된 CR을 모두 찾아내여 목록으로 나열(아래 화면 참조)합니다.  여기서 사용하려는 CR의 제목을 터치하면 CR이 안드로이드 기기의 클립보드에 저절로 복사됩니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/09/gmailcannedresponses1.jpg"><img class="size-full wp-image-3482 aligncenter" title="gmail_canned_responses_1" src="http://geek2live.org/wp-content/uploads/2012/09/gmailcannedresponses1.jpg" alt="gmail_canned_responses_1" width="210" height="365" /></a></p>
+<p><strong>Step 4: </strong>Gmail 앱에서 회신할 편지를 찾아내고 답장쓰기 모드로 들어갑니다. 본문을 입력하는 영역을 꾹 누르고(long press)<strong> </strong>고 있으면 팝업창이 나타나며 팝업창에서 &#8220;붙여넣기&#8221;를 누르면 CR이 바로 입력됩니다. 편지를 발송하면 답장은 순식간에 완료됩니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/09/gmailcannedresponses3.jpg"><img class="size-full wp-image-3483 aligncenter" title="gmail_canned_responses_2" src="http://geek2live.org/wp-content/uploads/2012/09/gmailcannedresponses3.jpg" alt="gmail_canned_responses_2" width="210" height="360" /></a></p>
+<p>제가 사용하는 안드로이드폰은 HTC Sensation인데 실제로 위의 Step 2에서 CR이 나열되지는 않았으며 버그가 있는 듯 합니다. <a href="http://lifehacker.com/5935865/gmail-canned-responses-brings-quick-email-replies-to-android" target="_blank">Lifehacker에서도 앱에 버그가 있다고 이야기</a>했지만 작동이 된다고 하므로 혹시 잘 되는지 한번 테스트해보시고 결과를 댓글로 알려주시기 바랍니다. 베타 버전이므로 나중에 기능이 향상될 수도 있을 것입니다.</p>
+<h4><strong>안드로이드 앱이 작동하지 않을 경우  &#8220;미리 준비된 답변&#8221; 발송하기 </strong></h4>
+<p>위에서 소개한 <a href="https://play.google.com/store/apps/details?id=com.codecarpet.responses.beta">Gmail Canned Responses</a> 앱이 제대로 작동하지 않는다면 안드로이드 기기에서 CR을 수동으로 발송할 수도 있습니다.<strong>  </strong></p>
+<ul>
+<li><a href="https://mail.google.com/mail/ca/u/0/#settings/labs" target="_blank">Gmail 실험실</a>에서 &#8220;미리 준비된 답변 CR 사용하기&#8221; 기능을 활성화시킨 후 컴퓨터에서 CR을 작성하여 Gmail에 저장합니다.</li>
+<li>안드로이드 기기에서 Gmail 앱을 열고 임시보관함에 들어가보면 CR 목록이 보입니다. 임시보관함의 특정 CR 메일을 연 후, 수동으로 CR 전체를 복사합니다. (참고: 스마트폰 앱에서 임시보관함의 CR 메일을 삭제하면 웹에서도 삭제되며, CR 기능을 사용할 수 없으므로 주의해야 합니다. )</li>
+<li>답장쓰기 모드에서 CR를 붙여넣고 편지를 발송합니다.</li>
+</ul>
+<p>이 방법은 실제로 제가 현재 사용하고 있는 방법입니다. 위에서 소개한 안드로이드 앱을 사용할 경우는 터치 횟수가 몇번 줄여들 뿐이며 작업 원리는 똑같습니다.</p>
+<h4>추가 팁 : <strong>필터를 이용하여 미리 준비된 답변(CR) 자동으로 발송하기</strong></h4>
+<p>다음 화면에서 맨 하단에 있는 필터가 바로 미리 준비된 답변을 자동으로 발송할 수 있는 필터입니다. 물론 CR은 필터를 만들기 전에 미리 작성/저장되어 있어야 하며, 이 작업은 수동이 아니라 완전 자동으로 진행됩니다.</p>
+<p style="text-align: center;"><a href="http://geek2live.org/wp-content/uploads/2012/09/Gmail-filter.png"><img class="aligncenter size-full wp-image-3484" title="Gmail-filter" src="http://geek2live.org/wp-content/uploads/2012/09/Gmail-filter.png" alt="Gmail-filter" width="511" height="289" /></a></p>
+<p>위의 필터가 어떻게 자동으로 답변을 내보내는 지가 궁금하시다면 테스트로 다음과 같은 내용의 편지 한통을 저에게 발송해주시면 됩니다. 메일을 발송하신 후 약 1분이내로 자동 회신을 받으실 수 있을 것입니다. 메일이 보이지 않는다면 받은편지함을 새로고침하시거나 스팸함을 확인해보세요. <img src="http://geek2live.org/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<ul>
+<li>편지 제목 : 상품 A의 가격</li>
+<li>수신자 :  ggtips21+price@gmail.com</li>
+<li>본문 내용 :  제한이 없으며 내용 자체를 입력하지 않아도 됩니다.</li>
+</ul>
+<p>CR기능의 디테일한 사용법은 시작부터 끝까지 제가 최근에 쓴 책 &#8220;<a href="http://geek2live.org/archives/3165" target="_blank">구글 실전 바이블</a>&#8220;에도 자세하게 소개되어 있습니다. 아직 책을 받지 못해서 제 손에 있는 pdf 원고의 일부분을 캡쳐하여 올리니 참고바랍니다. <img src="http://geek2live.org/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/09/CR_Google_Bible1.png"><img class="aligncenter" title="CR_Google_Bible1" src="http://geek2live.org/wp-content/uploads/2012/09/CR_Google_Bible1.png" alt="CR_Google_Bible1" width="571" height="465" /></a></p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/09/CR_Google_Bible_2.png"><img class="aligncenter size-full wp-image-3486" title="CR_Google_Bible_2" src="http://geek2live.org/wp-content/uploads/2012/09/CR_Google_Bible_2.png" alt="CR_Google_Bible_2" width="570" height="335" /></a></p>
+<p><em>이 포스트는 Google 전문 블로그 &#8220;<a title="안드로이드에서 Gmail 실험실의 “미리 준비된 답변” 기능 이용하여 빠른 회신하기" href="http://gstory4you.com/2012/09/04/how-to-use-gmail-canned-responses-on-android/" target="_blank">G스토리</a>&#8220;에도 올려져 있습니다. </em></p>
+<p>Via <a href="http://howto.cnet.com/8301-11310_39-57495249-285/how-to-use-gmail-canned-responses-on-android/?part=rss&amp;subj=how-to&amp;tag=readMore" target="_blank">cnet</a></p>
+<div class='yarpp-related-rss'>
+<p>You might also like:<ol>
+<li><a href="http://geek2live.org/archives/1271" rel="bookmark" title="New Productivity: 지메일 스마트 라벨">New Productivity: 지메일 스마트 라벨 </a></li>
+<li><a href="http://geek2live.org/archives/3268" rel="bookmark" title="구독한 모든 메일을 받은편지함에서 추방하는 Gmail 필터 설정하기">구독한 모든 메일을 받은편지함에서 추방하는 Gmail 필터 설정하기 </a></li>
+<li><a href="http://geek2live.org/archives/525" rel="bookmark" title="New Productivity &#8211; 지메일 다음번 대화로 자동진행(이동) 기능">New Productivity &#8211; 지메일 다음번 대화로 자동진행(이동) 기능 </a></li>
+<li><a href="http://geek2live.org/archives/1500" rel="bookmark" title="지메일 실험실: Gmail Background Send">지메일 실험실: Gmail Background Send </a></li>
+<li><a href="http://geek2live.org/archives/3401" rel="bookmark" title="SafeGmail로 크롬에서 암호화된 Gmail 메시지 발송하기">SafeGmail로 크롬에서 암호화된 Gmail 메시지 발송하기 </a></li>
+</ol></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3242/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>2단계 인증 설정하여 드롭박스 계정 보호하기</title>
+		<link>http://geek2live.org/archives/3217</link>
+		<comments>http://geek2live.org/archives/3217#comments</comments>
+		<pubDate>Wed, 29 Aug 2012 05:08:42 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[How to]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[Dropbox]]></category>
+		<category><![CDATA[security]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3217</guid>
+		<description><![CDATA[지난번과  유사한 해킹사건이 재발되는 것을 방지하고자 드롭박스에서 사용자 2단계 인증 절차를 정식 도입하였습니다. 최신 안정판 버전인 Dropbox 1.4.17 또는 forum build 1.5.12 버전의 클라이언트는 모두 2단계 인증을 지원합니다. 내 드롭박스 계정에 2단계 인증 설정하기  웹에서 드롭박스의 보안(security)탭을 방문하고 로그인합니다.  Account sign in 영역에서 Two-step verification 영역의 Disabled(change) 링크가 보인다면 아직 2단계 인증을 설정하지 않았다는 것을 의미하며, 이 링크를 클릭하여 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><a title="드롭박스 ‘해킹’ 사실로 드러나" href="http://www.bloter.net/archives/121266" target="_blank">지난번과  유사한 해킹사건</a>이 재발되는 것을 방지하고자 드롭박스에서 사용자 2단계 인증 절차를 정식 도입하였습니다. 최신 안정판 버전인 Dropbox <a title="Stable Build - 1.4.17 - Two-step verification" href="https://forums.dropbox.com/topic.php?id=66910" target="_blank">1.4.17 또는 forum build 1.5.12 버전</a>의 클라이언트는 모두 2단계 인증을 지원합니다.</p>
+<p><strong>내 드롭박스 계정에 2단계 인증 설정하기 </strong></p>
+<p>웹에서 드롭박스의 <a href="https://www.dropbox.com/account#security" target="_blank">보안(security)탭</a>을 방문하고 로그인합니다.  <span style="color: #000000;">Account sign in 영역에서 Two-step verification 영역의 Disabled(change) 링크가 보인다면 아직 2단계 인증을 설정하지 않았다는 것을 의미</span>하며, 이 링크를 클릭하여 바로 2단계 인증 설정을 시작할 수 있습니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/08/change-2fa-settings.png"><img class="alignnone  wp-image-3218" title="change-2fa-settings" src="http://geek2live.org/wp-content/uploads/2012/08/change-2fa-settings.png" alt="change-2fa-settings" width="482" height="186" /></a></p>
+<p><strong>2단계 인증 설정이 지원하는 2가지 설정 방법 및 옵션 이해하기</strong></p>
+<p><span style="color: #0000ff;">옵션 1. 텍스트 메시지 사용하기 (Use text messages) :</span><strong>  </strong>안내에 따라 자신의 휴대전화로 인증코드를 전송한 후, 전송된 코드를 웹에서 입력하여 2단계 인증 설정 절차를 모두 마칩니다. 이 설정을 마친 후, 계정에 새 기기를 연결하거나 웹의 드롭박스에 로그인하고자 할 경우는 내 휴대전화로 비교적 짧은 시간내에 1회적으로만 사용할 수 있는 인증코드가 전송되며 수신한 인증코드를 입력해야만 로그인할 수 있게 됩니다.</p>
+<p><span style="color: #0000ff;">옵션 2. 모바일 앱 사용하기 (Use a mobile app) :</span> 이 옵션을 사용하려면 다음의 앱 목록에서 자신의 휴대전화에 알맞는 앱을 선택하여 휴대전화에 미리 설치해야 합니다.</p>
+<ul>
+<li><a title="Google OTP 설치" href="http://support.google.com/accounts/bin/answer.py?hl=ko&amp;hlrm=en&amp;answer=1066447" target="_blank">Google Authenticator</a>（Android、iPhone 또는 BlackBerry）、</li>
+<li><a href="http://www.amazon.com/gp/product/B0061MU68M" target="_blank">Amazon AWS MFA</a>（Android）</li>
+<li><a href="http://www.windowsphone.com/en-US/apps/021dd79f-0598-e011-986b-78e7d1fa76f8" target="_blank">Authenticator</a>（Windows Phone 7）</li>
+</ul>
+<p>휴대전화 앱 설치가 완료되었다면, 드롭박스의 <a href="https://www.dropbox.com/account#security" target="_blank">보안(security)탭</a>에 로그인하여 <a href="https://www.dropbox.com/help/363/en#2fa-apps" target="_blank">필요한 2단계 인증 설정</a>을 모두 마칩니다. 나중에 휴대전화 앱(예: Google OTP)으로 전송되는 코드를 받아서 입력하는 것으로 새 기기를 계정에 연결하거나 계정에 액세스할 수 있습니다. 사용자는 특정 기기에 로그인할 때 해당 기기를 자신이 신임하는 기기로 표시함으로써 매번마다 번거롭게 인증코드를 입력하는 것을 피할 수도 있습니다.</p>
+<p><strong>휴대전화가 분실되었을 때 드롭박스 계정 액세스 신속하게 회복하기 </strong></p>
+<p>2단계 인증절차는 사용자의 계정을 안전하게 보호할 수 있는 특수 보호장치이지만 약간은 번거로울 수 있습니다. 예를 들어 <strong>휴대전화를 잃어버렸다면 휴대전화를 주은 사람이 2단계 인증코드를 이용하여 내 계정에 액세스할 수도 있습니다.</strong> 이에 대비하여, 처음 웹에서 드롭박스 2단계 인증을 설정할 때 드롭박스에서는 휴대전화를 분실했거나 휴대전화 앱에 문제가 생겼을 경우 계정에 바로 액세스할 수 있는 16개 자리수의 긴급백업코드(emergency backup code)를 제공합니다. 이 코드는 반드시 안전하게 기록해두어야 합니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/08/1.png"><img class="alignnone  wp-image-3223" title="emergency backup code_dropbox" src="http://geek2live.org/wp-content/uploads/2012/08/1.png" alt="emergency backup code_dropbox" width="385" height="187" /></a></p>
+<p>&nbsp;</p>
+<p>Via <a title="How do I enable two-step verification on my account?" href="https://www.dropbox.com/help/363/en" target="_blank">Dropbox</a></p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3217/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[라이프해커 2.0 이벤트] 신간도서[구글 실전 바이블]의 리뷰 블로거 모집합니다.</title>
+		<link>http://geek2live.org/archives/3165</link>
+		<comments>http://geek2live.org/archives/3165#comments</comments>
+		<pubDate>Tue, 21 Aug 2012 07:04:44 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[Life]]></category>
+		<category><![CDATA[Personal]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Productivity]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[Books]]></category>
+		<category><![CDATA[라이프해커]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3165</guid>
+		<description><![CDATA[삶을 살다보면 가끔 재미있거나 흥미로운 일들을 경험하게 되는데 우연하게 기회가 생겨서 제가 책까지 내게 될 줄은 정말 몰랐습니다. 올해 1월말부터 시작하여 꼬박 5개월간 구글 드라이브(문서도구) 에서 원고를 썼습니다. 알고보면 참 유용하고 또 좋아하는 Google을 주제로 책을 쓸 기회가 생겨서 기뻤으며 즐거운 심정으로 열심히 글을 썼습니다. 내일 정도 책이 정식 나올 것 같습니다만, 제가 사전에 동의를 얻고 출판사(한빛미디어)에 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>삶을 살다보면 가끔 재미있거나 흥미로운 일들을 경험하게 되는데 우연하게 기회가 생겨서 제가 책까지 내게 될 줄은 정말 몰랐습니다. 올해 1월말부터 시작하여 꼬박 5개월간 <a href="http://geek2live.org/archives/2889" target="_blank">구글 드라이브(문서도구)</a> 에서 원고를 썼습니다. 알고보면 참 유용하고 또 좋아하는 Google을 주제로 책을 쓸 기회가 생겨서 기뻤으며 즐거운 심정으로 열심히 글을 썼습니다.</p>
+<p>내일 정도 책이 정식 나올 것 같습니다만, 제가 사전에 동의를 얻고 출판사(한빛미디어)에 앞서 먼저 독자분들께 간단히 책 내용을 소개합니다.</p>
+<ul>
+<li><strong>책 이름 : <a title="신간도서 [구글 실전 바이블] 소개 - Google 문서도구" href="https://docs.google.com/presentation/embed?id=19SZExpArkNs84PP0Q4Eb3XkTiAb0FrSIxILy5XpCFsE&amp;amp;start=false&amp;amp;loop=false&amp;amp;delayms=3000" target="_blank">[구글 실전 바이블]</a></strong></li>
+<li><strong>저자: 라이프해커</strong></li>
+<li><strong>주요 콘텐츠:</strong> <span style="color: #0000ff;"><strong>일상 및 업무의 효율을 높이고 성과를 내는데 도움이 되는 핵심 Google 서비스와 도구에 대한 입문서와 활용서로, 20여가지 구글 제품을 언급하고 있습니다. </strong></span>자세한 내용은 제가 정리한 <strong><a title="신간도서 [구글 실전 바이블] 소개" href="https://docs.google.com/presentation/embed?id=19SZExpArkNs84PP0Q4Eb3XkTiAb0FrSIxILy5XpCFsE&amp;amp;start=false&amp;amp;loop=false&amp;amp;delayms=3000" target="_blank">구글 프리젠테이션</a></strong>을 참조하시기 바랍니다. 25개의 슬라이드로 구성되어 있으며, 주요 홍보용 이미지와 디자인의 저작권은 <a title="한빛미디어 홈페이지" href="http://hanb.co.kr" target="_blank">한빛미디어</a>에 있습니다.</li>
+</ul>
+<p><a title="YES24 - 구글 실전 바이블 : Google 라이프에 관한 거의 모든 것" href="http://goo.gl/Gf1lb" target="_blank"><img class="alignnone  wp-image-3213" title="구글 실전 바이블" src="http://geek2live.org/wp-content/uploads/2012/08/google-bible.jpg" alt="구글 실전 바이블" width="334" height="460" /></a></p>
+<p><strong><span style="color: #0000ff;"><span style="color: #000000;">구글의 대부분 서비스는 모두 웹기반으로 제공되며, 구글 제품을 이해하려면 웹에서의 구글을 이해하면 됩니다.</span> </span></strong>안드로이드폰은 구글과 기타 애플리케이션을 이용하는 손쉬운 도구와 단말기에 불과하며, 웹을 이해하면 안드로이드폰은 거의 저절로 통합니다. <span style="color: #0000ff;"><strong>이 책은 초보자와 직장인 등에게 적합하며, 가장 짧은 시간내에 구글을 습득하고 활용할 수 있도록 웹에서의 구글을 자세하게 또 알기 쉽게 설명합니다.</strong> </span>저는 이 책의 제목에 걸맞게 <a href="https://docs.google.com/presentation/pub?id=19SZExpArkNs84PP0Q4Eb3XkTiAb0FrSIxILy5XpCFsE&amp;start=false&amp;loop=false&amp;delayms=3000" target="_blank">[구글 실전 바이블]</a>이 구글을 제대로 알고 또 업무에 활용하고 싶어하시는 분들의 친근한 길잡이가 되었으면 하며 또 궁극적으로 그렇게 될 수 있으리라 믿습니다.</p>
+<p><strong>이벤트:  신간도서 &#8216;구글 실전 바이블&#8217;의 리뷰 블로거 모집</strong></p>
+<p><strong>참여 가능한 대상:  </strong></p>
+<ul>
+<li>최소 1년이상 블로깅을 하셨고 최근 3개월동안 블로그에 합계 6편이상의 글을 올리신 분 (이 조건에 맞지 않거나 블로그를 운영하시지 않는 분들께 양해를 구합니다.)</li>
+<li>선착순 :  10명의 블로거에게만 기회가 주어지며, 리뷰어 모집이 완료되면 이 글 하단에 공지하겠습니다. 공지를 하지 않는 이상 기회는 있다고 보시면 됩니다.</li>
+</ul>
+<p><strong>참여 방법 및 절차: </strong></p>
+<ul>
+<li>자신의 블로그 관리자 화면에 로그인 후, 왼쪽 상단의 브라우저 표시줄에서 블로그 URL이 보이는 부분을 캡쳐하셔서 첨부파일을 ggtips21[aT]gmail.com으로 보내 주시면 됩니다. 동시에 책을 받으실 수 있는 정확한 주소/성함/전화 번호를 이메일로 보내주세요.</li>
+<li>보내주신 이메일 내용 검토 후, 최대한 빠른 시간내에 회신을 드릴 것이며 책을 보내드릴 것입니다. 책은 무료로 제공되며, 혹시 책이 도착되지 않을 경우는 이메일로 문의해 주시기 바랍니다.</li>
+<li>책을 받으신 후, 30일이내로 <a href="http://geek2live.org/archives/3165" target="_blank">이 글의 링크를 포함</a>하여 객관적인 서평을 써주시면 됩니다. 책에서 만족하셨던 부분 또는 그렇지 않다고 생각되는 부분 등을 솔직하게 써주시면 되겠습니다.</li>
+<li>블로그에 올려주신 글은 모두 <a href="http://geek2live.org/">라이프해커 2.0</a> 또는 <a href="http://gstory4you.com/" target="_blank">G스토리</a>에 의해 링크되거나, 부분 발췌하여 재사용될 수 있습니다.</li>
+</ul>
+<p>덧:  블로깅을 한지도 이번달 8월 초까지 벌써 만5년 째가 됩니다. 작년에 <a href="http://geek2live.org/archives/2030" target="_blank">블로그 4주년 때는 기념으로 포스토</a>도 했었는데 올해는 까먹고 글을 올리지 못했네요. 이 자리를 빌어 모든 구독자분들께 감사의 말씀 전해 드립니다.</p>
+<p><strong>업데이트: </strong></p>
+<ol>
+<li>이벤트는 이미 마감 되었으며 참여해 주신 모든 분들께 감사드립니다.</li>
+<li>이 책에 관한 더 많은 정보는 한빛미디어의 <a title="구글 실전 바이블 : Google 라이프에 관한 거의 모든 것" href="http://www.hanb.co.kr/book/look.html?isbn=978-89-7914-956-2" target="_blank">책 소개 페이지</a>와 <a title="구글을 제대로 사용하고 싶다면, 구글 실전 바이블!" href="http://blog.hanb.co.kr/335" target="_blank">블로그 포스트</a>를 참조바랍니다.</li>
+</ol>
+<p>라이프해커 올림</p>
+<p>2012/8/21</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3165/feed</wfw:commentRss>
+		<slash:comments>12</slash:comments>
+		</item>
+		<item>
+		<title>컴퓨터가 종료된 후에도 여전히 메모리에서 개인정보를 추출할 수 있다.</title>
+		<link>http://geek2live.org/archives/3156</link>
+		<comments>http://geek2live.org/archives/3156#comments</comments>
+		<pubDate>Tue, 14 Aug 2012 19:34:56 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[GeekFun]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[개인정보]]></category>
+		<category><![CDATA[보안]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3156</guid>
+		<description><![CDATA[컴퓨터가 꺼진 후에 메모리에 저장된 임시 데이터나 로그인용 암호와 은행 계좌 등 개인정보는 바로 사라질 까요? 그리스의 연구자들의 연구결과에 따르면, 컴퓨터가 종료된 후에도 여전히 메모리로부터 관건적인 정보를 추출할 수 있습니다. 메모리는 주로 임시 데이터를 저장하는 데 사용되며,  전원을 완전히 차단할 경우는 모든 데이터가 사라지게 됩니다. 컴퓨터를 종료하기만 하고 전원이 여전히 공급될 경우, 메모리에 남아있는 데이터는 바로 사라지지 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><strong>컴퓨터가 꺼진 후에 메모리에 저장된 임시 데이터나 로그인용 암호와 은행 계좌 등 개인정보는 바로 사라질 까요?</strong></p>
+<p><strong>그리스의 연구자들의 연구결과에 따르면, <a href="http://phys.org/news/2012-08-memory-leaks.html" target="_blank">컴퓨터가 종료된 후에도 여전히 메모리로부터 관건적인 정보를 추출</a>할 수 있습니다.</strong> 메모리는 주로 임시 데이터를 저장하는 데 사용되며,  전원을 완전히 차단할 경우는 모든 데이터가 사라지게 됩니다. <strong>컴퓨터를 종료하기만 하고 전원이 여전히 공급될 경우, 메모리에 남아있는 데이터는 바로 사라지지 않습니다. </strong>연구자들은 페이 스북, Gmail, MSN과 스카이프 계정을 각각 로그인한 다음 컴퓨터를 종료하였으며, 5분, 15분 및 60 분 후에 메모리에서 데이터 조각을 수집하고, 데이터 회복 도구를 이용하여 메모리에서 수집한 데이터 조각을 조합하였습니다. 그들은 최종 성공적으로 <a href="http://hardware.solidot.org/article.pl?sid=12/08/13/0832245&amp;amp;from=rss" target="_blank">Gmail, 페이스북 및 Hotmail의 로그인 정보를 복구</a>하였습니다.</p>
+<p>최근에 <a href="http://tv.sbs.co.kr/phantom/" rel="nofollow" target="_blank">SBS에서 방영한 드라마 &#8220;유령&#8221;</a>은 사이버 수사대와 해커 집단과의 해킹 및 반해킹 전쟁을 묘사하고 있습니다. 해커들이 범죄를 하고 있을 때 경찰청 사이버 수사대가 들이닥치면 그들이 가장 먼저 하는 일이 바로 전원을 꺼버리는 장면이 여러 번 나왔는데 상기하시나요?  사이버 수사대는 또 범죄자들이 전원을 끄기 전이나 본체를 파괴하기 전에 그들과 치열한 몸싸움을 벌입니다. 왜 일까요? 제 생각으론 아마도 위의 글에서 이야기한 내용과 일정한 연관이 있다고 생각합니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/08/9.png"><img class="alignnone" title="phantom" src="http://geek2live.org/wp-content/uploads/2012/08/9.png" alt="phantom" width="424" height="251" /></a></p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3156/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>30일동안 새로운 것 도전하기: 글 쓰기</title>
+		<link>http://geek2live.org/archives/3143</link>
+		<comments>http://geek2live.org/archives/3143#comments</comments>
+		<pubDate>Sat, 11 Aug 2012 14:05:37 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[30 Days]]></category>
+		<category><![CDATA[Life]]></category>
+		<category><![CDATA[Personal]]></category>
+		<category><![CDATA[30 Day Challenges]]></category>
+		<category><![CDATA[Blogging]]></category>
+		<category><![CDATA[Habits]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3143</guid>
+		<description><![CDATA[지난 7월 11일, 저는 30 days에 대한 첫 번째 도전으로 &#8220;30일 동안 매일 블로그에 글 올리기&#8220;를 시작했습니다.  지난 30일 사이에 저는 아래 두 곳의 개인 블로그에 모두 40편의 글을 올렸습니다. 결과는 나쁘지 않은 것 같으며, 매일 글 쓰는 습관을 들이기 위한 첫걸음을 내디딘 것이라 생각합니다. 라이프해커 2.0 :  글 3편 올림 G스토리 : 37편 올림 전체 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>지난 7월 11일, 저는 <a href="http://geek2live.org/archives/1927" target="_blank">30 days</a>에 대한 첫 번째 도전으로 &#8220;<a href="http://geek2live.org/archives/3104" target="_blank">30일 동안 매일 블로그에 글 올리기</a>&#8220;를 시작했습니다.  지난 30일 사이에 저는 아래 두 곳의 개인 블로그에 모두 40편의 글을 올렸습니다. 결과는 나쁘지 않은 것 같으며, 매일 글 쓰는 습관을 들이기 위한 첫걸음을 내디딘 것이라 생각합니다.</p>
+<ul>
+<li><a href="http://geek2live.org/">라이프해커 2.0</a> :  글 3편 올림</li>
+<li><a href="http://gstory4you.com/" target="_blank">G스토리</a> : 37편 올림</li>
+</ul>
+<p>전체 글 숫자로 볼 때, 매일 한 편이상의 글을 쓴 것처럼 보이나 실제로 2일에서 3일의 시간은 글을 아예 올리지 못했습니다. 그 사이 2박 3일간 동창생 모임이 있어서, 그 3일 사이에는 완전히 글을 올릴 수 없으므로 WordPress의 예약 포스팅 기능으로 2편의 글을 미리 작성하여 자동으로 올렸고, 나머지 하루는 임무를 완성하지 못했고 별도로 이틀 정도의 시간을 또 날렸습니다. 그나마 여유 시간이 많았기에 이만큼한 글을 올릴 수 있었습니다. 다만 여유시간이 충분할지라도 글 쓰는 열정이 없다면 하루에 한편의 글을 쓰는 일도 꽤나 지겨울 것 같아 보입니다. 다행히 저는 글 쓰기를 좋아하는 편이며, 아는 지식이나 정보를 공유하는 것을 즐겨하는 편입니다.</p>
+<p>이미 시작한 일인만큼 이 후에도 현재의 리듬을 유지하면서 계속 글을 써나갈 예정입니다. 위에서 언급한 <a href="http://gstory4you.com/" target="_blank">G스토리</a>는 구글 정보와 팁을 공유하는 Google 전문 블로그입니다. 블로그는 7월 1일에 개설하였는데, 현재는 <a href="https://www.google.co.kr/#hl=ko&amp;newwindow=1&amp;output=search&amp;sclient=psy-ab&amp;q=site:gstory4you.com&amp;oq=site:gstory4you.com&amp;gs_l=hp.12...2119.2119.0.3410.1.1.0.0.0.0.91.91.1.1.0.ernk_fspiked_nsqb..0.0...1c.TRc8wyMHQVU&amp;pbx=1&amp;bav=on.2,or.r_gc.r_pw.r_qf.&amp;fp=c5adffb9e0ad5f11&amp;biw=1920&amp;bih=955" target="_blank">구글 검색 색인</a>이 완성되었으며, 한달이 지나니 100명 정도의 구독자수도 생겼습니다. 그러나 이런 숫자는 잊어버리고 천천히 신뢰를 쌓아가려 하니, 많은 응원 부탁드립니다.</p>
+<p>다음번 <a href="http://geek2live.org/archives/1927" target="_blank">30 Days</a>의 새 도전은 8월 13일부터 시작할 예정이며, 30일 후에 제가 무엇에 도전했는지 포스트로 공유하도록 하겠습니다.</p>
+<p>런던 대학원의 연구 결과에 따르면 흔히 이야기하는 21일내로 새로운 습관 양성하기 ( 28일과 30일 내로 새로운 습관 양성하기 버전도 있습니다)는 실제로 근거가 없으며, <a href="http://lifehacker.com/5926583/why-habits-arent-actually-formed-in-21-days" target="_blank">21일은 새로운 습관을 기르는데 충분하지 않은 시간</a>이라고 합니다. 물을 마시는 습관은 매일 50개의 푸시업을 하는 도전보다 쉬우며, 구체적인 사람에 따라 다른데 습관을 기르는데 소요되는 시간이나 의력의 차이는 분명 존재한다고 합니다.</p>
+<p>그렇다면 한 가지 습관을 기르는데 소요되는 평균시간은 얼마일가요?  연구결과는 평균 66일 좌우라고 합니다. <a href="http://www.psychologytoday.com/blog/the-happiness-project/200910/stop-expecting-change-your-habit-in-21-days" target="_blank">Psychology Today</a>에 따르면, 66일의 실천 기간에 하루 이틀 정도 할 일을 빠뜨리는 것은 괜찮다고 하며, 하루 이틀을 빼먹었다고 하여 좌절할 필요는 없다고 합니다. 관건은 시작 초기로 자신에 대해 엄격히 요구하는 것이 중요하다고 합니다.</p>
+<p>런던 대학원의 연구에 참여한 연구대상은 모두 96명으로 인원수는 많지는 않았습니다. 그러나 이 연구는 비교적 엄밀하게 진행되었다고 합니다. 가장 중요한 것은 자신이 거의 스스로 인식하지 못할 정도로 자연스럽게 일 처리가 될 때까지, 즉 새로운 습관이 양성이 될 때까지 꼭 견지해나가야 한다는 것입니다. 물 마시기와 같이 사소한 습관을 기르는데 21일이나 30일의 시간은 충분할 수 있지만 만약 21일이란 기간에도 습관이 양성되지 않는다면 더 많은 시간이 필요한 것일 수 있으니 포기하지 말고 꼭 견지해 보시기 바랍니다. <img src="http://geek2live.org/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<div class='yarpp-related-rss'>
+<p>You might also like:<ol>
+<li><a href="http://geek2live.org/archives/1927" rel="bookmark" title="Matt Cutts : 30일동안 새로운 것 도전하기">Matt Cutts : 30일동안 새로운 것 도전하기 </a></li>
+</ol></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3143/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>정크 웹(junkweb)의 부흥, 이 것이 대단한 이유는?</title>
+		<link>http://geek2live.org/archives/3124</link>
+		<comments>http://geek2live.org/archives/3124#comments</comments>
+		<pubDate>Sun, 29 Jul 2012 17:09:41 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[GeekFun]]></category>
+		<category><![CDATA[Internet]]></category>
+		<category><![CDATA[Junk]]></category>
+		<category><![CDATA[Junkweb]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3124</guid>
+		<description><![CDATA[당신은 최근에 페이스북 스트림이나 reddit를 주의해 살펴본 적이 있나요? 오늘날 방대한 수량의 웹사이트가 흔히 쓰는 수단이자 또한 가장 환영을 받는 형식의 하나가 바로 텍스트에 이미지를 결합한 형식으로 이 것들은 이러저러한 사실을 기술하거나 인용하고 있습니다. Chris Brogan은 &#8220;이 것은 정크 웹(Junkweb)입니다.&#8221;라고 말했습니다. 왜 Junk(쓰레기)이냐? 인터넷의 금과옥조는 본래 링크였으며, 어디에서 무엇이든 검색으로 리소스를 찾아 사용할 수있는 능력이 마법이고 열쇠였습니다. [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>당신은 최근에 페이스북 스트림이나 <a href="http://www.reddit.com">reddit</a>를 주의해 살펴본 적이 있나요?</p>
+<p>오늘날 방대한 수량의 웹사이트가 흔히 쓰는 수단이자 또한 가장 환영을 받는 형식의 하나가 바로 텍스트에 이미지를 결합한 형식으로 이 것들은 이러저러한 사실을 기술하거나 인용하고 있습니다. Chris Brogan은 &#8220;이 것은 <a href="http://www.chrisbrogan.com/junkweb/" target="_blank">정크 웹(Junkweb)</a>입니다.&#8221;라고 말했습니다.</p>
+<p><strong>왜 Junk(쓰레기)이냐?</strong> 인터넷의 금과옥조는 본래 링크였으며, 어디에서 무엇이든 검색으로 리소스를 찾아 사용할 수있는 능력이 마법이고 열쇠였습니다. 그러나 이 것들이 새로운 웹의 형식일 까요?  텍스트와 이미지 결합체의 웹?  이 것들은 쓰레기입니다.  이 것들은 막다른 골목에 이르렀으며, 일종의 부담입니다. 페이스북과 <a href="http://pinterest.com/" target="_blank">Pinterest</a>는 오늘 날 최고의 웹 기술이 제대로 해내지 못한 것들을 톡톡히 하고 있으며, 모든 사람들이 이 영역에 깊이 빠져들고 있습니다.</p>
+<p>어찌됐던 간에, 텍스트와 이미지의 결합체는 우리에게 <a href="http://www.cc-chapman.com/2012/pictures-with-words/" target="_blank">잡지를 읽을 때와 유사한 느낌이나 경험</a>을 가져다 줍니다. 텍스트 위주의 블로깅 등은 이 것때문에 독자들의 주의력을 끌기 어렵우며, 이미지가 결합된 형식만이 우리의 눈길을 끄는 것이 사실입니다.  이 것들은 빠른 소비와 감정적 반응을 제공합니다.  이제는 구글마저도 링크와 페이지가 만능이 아니라는 사실을 인정하였으며, 그들은 <a href="http://www.hongkiat.com/blog/google-panda-tips/" target="_blank">Google Panda 검색 기술</a>을 발표하였습니다. Google+가 발표되면서, 링크만 있는 세상은 이제는 끝이 났으며, 누가 공유하느냐 하는 것은 공유하는 방법만큼이나 중요하게 되었습니다.</p>
+<p>Brogan은 &#8216;난 요즘 스마트 웹보다  정크 웹에 훨씬 더 많은 시간을 보내고 있습니다&#8221;. &#8216; 라고 말합니다.</p>
+<p>대량의 숫자와 트래픽은 우리 모두가 이러한 인터렉션 방식을 좋아한다는 사실을 증명해 주고 있습니다. 당신이 원한다면 승인하세요.</p>
+<p>Via <a href="http://tech.slashdot.org/story/12/07/26/0412214/the-rise-of-the-junkweb-and-why-its-so-awesome" target="_blank">slashdot</a></p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3124/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>유혹에 견뎌내고 싶을 때는 하나님을 생각하세요.</title>
+		<link>http://geek2live.org/archives/3116</link>
+		<comments>http://geek2live.org/archives/3116#comments</comments>
+		<pubDate>Wed, 18 Jul 2012 15:12:41 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[GeekFun]]></category>
+		<category><![CDATA[How to]]></category>
+		<category><![CDATA[God]]></category>
+		<category><![CDATA[유혹]]></category>
+		<category><![CDATA[절제]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3116</guid>
+		<description><![CDATA[여러분들은 어떻게 유혹을 이겨내세요?  디저트를 들지 않으면 견디기 어렵나요? 또는 근무시간에 페이스북을 하지 않으면 참기 어렵나요? 아침에 일어나기 힘들며, 늦잠 자는 것을 좋아하세요?  특별한 과학연구가 필요없이, 인간은 모두 욕망과 충동을 가지고 산다는 말에는 동의하실 겁니다. 그러나 의지가 너무 약한 경우 하나님(신)의 개입을 통해 어느 정도 문제를 개선할 수도 있습니다. 일련의 자아통제 실험의 결과에 따르면, 테스터들은 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>여러분들은 어떻게 유혹을 이겨내세요?  디저트를 들지 않으면 견디기 어렵나요? 또는 근무시간에 페이스북을 하지 않으면 참기 어렵나요? 아침에 일어나기 힘들며, 늦잠 자는 것을 좋아하세요?  특별한 과학연구가 필요없이, 인간은 모두 욕망과 충동을 가지고 산다는 말에는 동의하실 겁니다.</p>
+<p>그러나 의지가 너무 약한 경우 하나님(신)의 개입을 통해 어느 정도 문제를 개선할 수도 있습니다. 일련의 <a title="Trying to Resist Temptation? Think about God" href="http://www.scientificamerican.com/article.cfm?id=trying-to-resist-tempation-think-about-god" target="_blank">자아통제 실험의 결과</a>에 따르면, 테스터들은 종교적 주제 예를 들면, 신성함 또는 하나님의 도움을 통해 오랜시간 동안 여러가지 유혹에 견뎌낼 수 있었다고 합니다.</p>
+<p>PS: 저는 무신론자입니다.  하지만 종교를 믿는 분들에게는 유효할 수도 있으니 한번 고려해보세요.</p>
+<p>Via <a href="http://www.scientificamerican.com/article.cfm?id=trying-to-resist-tempation-think-about-god" target="_blank">SA</a></p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3116/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Google 뉴스 및 제품에 관한 블로그를 개설하였습니다.</title>
+		<link>http://geek2live.org/archives/3104</link>
+		<comments>http://geek2live.org/archives/3104#comments</comments>
+		<pubDate>Tue, 10 Jul 2012 18:47:07 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[30 Days]]></category>
+		<category><![CDATA[Life]]></category>
+		<category><![CDATA[Personal]]></category>
+		<category><![CDATA[Weblog/blog]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[블로그]]></category>
+		<category><![CDATA[블로깅]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3104</guid>
+		<description><![CDATA[안녕하세요!  한동안 바빠서 글을 자주 올리지 못했습니다. ^^ 오래된 독자분들이 아시다시피, 제가 구글에 대한 관심이 많아서 블로그에 몇년 동안 구글 관련 글과 팁을 꽤나 많이 올려왔습니다. 또 거의 어떻게 일상에서 구글을 활용하느냐에 관한 글들을 썼던 것 같습니다.  이제는 구글에 관한 모든 글들은 새로 개설한 블로그인 G스토리에 올리기로 했습니다. 새 블로그에서는 구글에 관한 팁 뿐만 아니라, 구글 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>안녕하세요!  한동안 바빠서 글을 자주 올리지 못했습니다. ^^</p>
+<p>오래된 독자분들이 아시다시피, 제가 구글에 대한 관심이 많아서 블로그에 몇년 동안 구글 관련 글과 팁을 꽤나 많이 올려왔습니다. 또 거의 어떻게 일상에서 구글을 활용하느냐에 관한 글들을 썼던 것 같습니다.  이제는 <strong>구글에 관한 모든 글들은 새로 개설한 블로그인 <a title="G스토리" href="http://gstory4you.com/" target="_blank">G스토리</a>에 올리기로 했습니다.</strong> 새 블로그에서는 구글에 관한 팁 뿐만 아니라, 구글 제품 뉴스 등으로 내용을 꽉 채울 예정이며, 좀 빈번히 업데이트할 예정입니다.</p>
+<p><a href="http://gstory4you.com/" target="_blank">G스토리</a>는 7월1일부터 글을 쓰기 시작했으며, 앞으로 꾸준히 글을 올릴 예정이오니, 구글에 관심이 많으신 분들은 <a href="http://feeds.feedburner.com/gstory4you" target="_blank">RSS를 일단 추가</a>하셔서 한동안 내용을 받아보시기 바랍니다.  최대한 유용한 정보를 제공할 것을 약속드리며 가끔 구경도 해주시고 댓글도 남겨주시면 고맙겠습니다.</p>
+<p>구글 엔지니어 Matt Cutts를 따라 배워, 오늘부터 &#8220;<a href="http://geek2live.org/archives/1927" target="_blank">30일 동안 새로운 것 도전하기</a>&#8220;를 실시하고 30일 후에는 체험을 블로그에 올리려고 합니다. 30일 후가 지나면 또 새로운 도전을 하고 그 체험을 올리는 것을 반복할 것입니다. ^^  첫 번째 도전은 &#8220;30일동안 매일 블로그에 글 올리기&#8221;이며, &#8216;G스토리&#8217;로 실험을 하려고 합니다.</p>
+<ul>
+<li>오늘부터 30일이후에 <a href="http://gstory4you.com/" target="_blank">G스토리</a> 블로그에는 적어서 30편의 글이 올려질 수 있을까요?  지금부터 도전이 시작됩니다.</li>
+<li>현재의 블로그는 앞으로 일주일에 한편의 글만 올릴 예정입니다.  이 블로그에도 전보다 더 좋을 글을 올리려고 하니 기대해주세요:)</li>
+</ul>
+<p>감사합니다. 꾸벅~</p>
+<div class='yarpp-related-rss'>
+<p>You might also like:<ol>
+<li><a href="http://geek2live.org/archives/1984" rel="bookmark" title="Comment Opened">Comment Opened </a></li>
+<li><a href="http://geek2live.org/archives/918" rel="bookmark" title="댓글 시스템을 완전히 제거한 이유">댓글 시스템을 완전히 제거한 이유 </a></li>
+</ol></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3104/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Gmail에서 Google+의 포스트에 직접 댓글 쓰기</title>
+		<link>http://geek2live.org/archives/3040</link>
+		<comments>http://geek2live.org/archives/3040#comments</comments>
+		<pubDate>Thu, 10 May 2012 01:55:57 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[How to]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Productivity]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[Gmail]]></category>
+		<category><![CDATA[Gmail Tips]]></category>
+		<category><![CDATA[Google+]]></category>
+		<category><![CDATA[Google+ Tips]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=3040</guid>
+		<description><![CDATA[Google+ 소식/서클/사진/톡/페이지 등의 소식 및 업데이트를 이메일로로 수신하기로 설정한 경우는, Gmail에서 다음 작업을 할 수 있습니다. 다른 사람이 나를 서클에 추가했다는 통지 이메일이 오면, Gmail 화면에서 직접 상대를 내 서클 추가할 수 있습니다. 개별 알림 이메일에 삽입된 Google+ 포스트을 읽고, 포스트에 댓글을 달거나 +1 을 추가할 수 있습니다.  댓글을 삭제하거나 수정할 수도 있으며,  개별 글에서 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Google+ 소식/서클/사진/톡/페이지 등의 소식 및 업데이트를 <a href="https://www.google.com/settings/plus" target="_blank">이메일로로 수신하기로 설정</a>한 경우는, Gmail에서 다음 작업을 할 수 있습니다.</p>
+<ul>
+<li>다른 사람이 나를 서클에 추가했다는 통지 이메일이 오면, <a href="https://plus.google.com/b/103781960101669383625/103345707817934461425/posts/RCKComUrxc9" target="_blank">Gmail 화면에서 직접 상대를 내 서클 추가</a>할 수 있습니다.</li>
+<li><span style="text-align: center;">개별 알림 이메일에 삽입된 Google+ 포스트을 읽고, 포스트에 댓글을 달거나 +1 을 추가할 수 있습니다.  댓글을 삭제하거나 수정할 수도 있으며,  개별 글에서 후속 알림에 대하여 무시(mute) 처리를 할 수도 있습니다. </span></li>
+</ul>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/05/Mute1.png"><img class="wp-image-3046 alignnone" title="Gmail Google+ Mute" src="http://geek2live.org/wp-content/uploads/2012/05/Mute1.png" alt="mail Google+ Mute" width="615" height="403" /></a></p>
+<p style="text-align: left;">위에서 이야기한 두번 째 기능은 새롭게 추가된 기능으로서, 약간 과거의 Google Buzz 느낌이 듭니다.  Google+에서도 Gmail의 기능을 이미 사용할 수 있었다면, 현재는 Gmail에서도 Google+의 일부 기능을 사용할 수 있게 된 셈입니다.</p>
+<p style="text-align: left;">Google+와 Gmail의 이런 심도 있는 통합이 꽤나 멋지다고 생각되지 않으세요?</p>
+<div class='yarpp-related-rss'>
+<p>You might also like:<ol>
+<li><a href="http://geek2live.org/archives/1841" rel="bookmark" title="Google+,온라인 생산성 센터와 도구가 될 것인가?">Google+,온라인 생산성 센터와 도구가 될 것인가? </a></li>
+<li><a href="http://geek2live.org/archives/2714" rel="bookmark" title="New Productivity &#8211; Gmail 편지를 발송하기전 별표와 라벨을 미리 추가하기">New Productivity &#8211; Gmail 편지를 발송하기전 별표와 라벨을 미리 추가하기 </a></li>
+<li><a href="http://geek2live.org/archives/3242" rel="bookmark" title="안드로이드에서 Gmail 실험실의 “미리 준비된 답변” 기능 이용하여 빠른 회신하기">안드로이드에서 Gmail 실험실의 “미리 준비된 답변” 기능 이용하여 빠른 회신하기 </a></li>
+<li><a href="http://geek2live.org/archives/3268" rel="bookmark" title="구독한 모든 메일을 받은편지함에서 추방하는 Gmail 필터 설정하기">구독한 모든 메일을 받은편지함에서 추방하는 Gmail 필터 설정하기 </a></li>
+<li><a href="http://geek2live.org/archives/3401" rel="bookmark" title="SafeGmail로 크롬에서 암호화된 Gmail 메시지 발송하기">SafeGmail로 크롬에서 암호화된 Gmail 메시지 발송하기 </a></li>
+</ol></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/3040/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Google 검색의 작동 원리</title>
+		<link>http://geek2live.org/archives/2980</link>
+		<comments>http://geek2live.org/archives/2980#comments</comments>
+		<pubDate>Wed, 02 May 2012 17:07:53 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[Google Search]]></category>
+		<category><![CDATA[Matt Cutts]]></category>
+		<category><![CDATA[PageRank]]></category>
+		<category><![CDATA[Search engine]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=2980</guid>
+		<description><![CDATA[Google은 매일 181개 국가의 부동한 사용자로부터 146종의 언어로 된 검색 요청을 매일 10억건이상 처리합니다. 검색 건수가 이렇게 엄청 많음에도 불구하고 Google 검색은 사용자가 원하는 정보를 매우 빨리 찾아내어 관심할 만한 검색 결과를 열거해줍니다. 그렇다면 Google 검색은 어떤 원리로 작동하는 것 일까요? &#8220;안녕하세요, 저의 이름은 Matt Cutts며, Google 품질 그룹에서 엔지니어로 일하고 있습니다. 저는 오늘 여러 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Google은 매일 181개 국가의 부동한 사용자로부터 146종의 언어로 된 검색 요청을 매일 10억건이상 처리합니다. 검색 건수가 이렇게 엄청 많음에도 불구하고 Google 검색은 사용자가 원하는 정보를 매우 빨리 찾아내어 관심할 만한 검색 결과를 열거해줍니다. 그렇다면 Google 검색은 어떤 원리로 작동하는 것 일까요?</p>
+<p><iframe src="https://www.youtube.com/embed/BNHR6IQJGZs" frameborder="0" width="512" height="288"></iframe></p>
+<p>&#8220;안녕하세요, 저의 이름은 Matt Cutts며, Google 품질 그룹에서 엔지니어로 일하고 있습니다. 저는 오늘 여러 분들이 검색을 할 때, 어떤 일들이 벌어지는 지에 대해 얘기하고자 합니다.</p>
+<p>Google 검색을 할 때, 사용자는 웹을 직접 검색하는 것이 아니라 Google이 색인한 수억 개의 웹페이지를 저장한 Google의 데이터 베이스를 검색하게 됩니다. 하루에도 수많이 사이트가 새로 탄생하고 기존의 웹페이지도 계속 새 게시물이 늘어나지만 Google은 이러한 웹페이지를 최대한 모두 색인합니다. Google은 스파이더라고 하는 소프트웨어 프로그램을 각 웹사이트에 보내, 웹페이지를 크롤링합니다. 검색엔진 스파이더(Spider, 거미 일명 로봇)는 처음에는 소량의 웹페이지를 색인하고, 그 웹페이지에 포함된 링크를 따라 다른 웹페이지들을 방문하며, 새 웹페이지에서 그들이 가르키는 링크를 따라 또 다른 웹페이지들을 색인합니다. 이런 식으로 반복하여 수십억의 웹페이지의 정보가 수천 대의 구글 컴퓨터에 문서로 저장됩니다.</p>
+<p>가령 내가 <a href="http://ko.wikipedia.org/wiki/%EC%B9%98%ED%83%80" target="_blank">치타</a>가 달리는 속도가 얼마나 빠른지 알고 싶다면, Google 검색창에 &#8220;cheetah running speed ”(치타 달림 속도)를 입력하고 Enter키를 누릅니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/05/cheetah_0502.jpg"><img class="alignright size-medium wp-image-3012" title="cheetah_0502" src="http://geek2live.org/wp-content/uploads/2012/05/cheetah_0502-300x169.jpg" alt="cheetah_0502" width="300" height="169" /></a>이 경우, Google의 소프트웨어는 이러한 검색 조건을 만족시키는 매개 페이지의 색인을 모두 검토하며, 수십만 개의 가능한 검색결과 중에서 관련성이 가장 높은 웹 사이트를 최상위에 배치합니다. <strong>검색 결과 순위를 결정함에 있어서, Google이 검토하는 요소는 약 200여가지</strong>가 있으며, 아래는 그 중의 몇 가지 요소입니다.</p>
+<ul>
+<li>이 웹페이지는 단어(키워드)를 몇 번 반복하여 포함하는가?</li>
+<li>이 단어가 제목, URL에 포함되어 있는가? 직접 연결되어 있는가?</li>
+<li>페이지에 키워드의 동의어가 포함 되어 있는가?</li>
+<li>이 웹사이트의 품질은 우수한가 아니면 낮은 것인가? 혹은 스팸 사이트인가?  이 웹페이지의 PageRank(페이지 랭크)는 어떠한가?</li>
+</ul>
+<p><a href="http://ko.wikipedia.org/wiki/%ED%8E%98%EC%9D%B4%EC%A7%80%EB%9E%AD%ED%81%AC" target="_blank">PageRank</a>는 Google의 창립자인 Larry Page와 Sergey Brin에 의해 개발된 웹페이지의 중요도를 판단하는 알고리즘으로서 나중에 이 기술을 바탕으로 Google 검색 엔진을 개발하고 Google 사를 설립하였습니다. 이 알고리즘은 얼마나 많은 외부 사이트가 해당 웹페이지를 링크하었느냐와 해당 웹페이지에 링크를 건 웹사이트의 품질을 고려하여 웹페이지에 점수를 매깁니다.</p>
+<p>위와 같이, Google은 위의 각 요소를 종합 판단하여, 각 페이지에 전반적인 점수를 매겨, 사용자가 검색을 하면 잠깐 시간(0.5초)내에 대해 검색 결과를 내보냅니다. Google의 검색은 완전히 알고리즘에 근거한 자연 검색으로서, 가장 유용하고 공평한 검색 결과를 제공하며, 요금을 받고 인위적으로 웹 사이트의 순위를 업데이트하거나 조작하지 않습니다.</p>
+<p>자, 그럼 아까 이야기했던 검색어 “cheetah running speed”의 검색결과 페이지를 살펴 볼까요?</p>
+<p>기본 검색 결과에는 웹페이지로 연결되는 제목, URL과 내가 찾으려는 내용이 맞는 지를 결정하는 데 도움이 되는 발췌문이 포함됩니다. 또한 해당 페이지의 가장 최근에 저​​장된 버전 및 사용자가 추가로 시도할 가능성이 높은 관련 검색어가 표시됩니다. 때때로 검색결과 페이지의 오른쪽이나 상단에 광고가 표시될 수도 있습니다.<a href="http://geek2live.org/wp-content/uploads/2012/05/cheetah-running-speed1.png"><img title="cheetah running speed" src="http://geek2live.org/wp-content/uploads/2012/05/cheetah-running-speed1.png" alt="cheetah running speed" width="436" height="216" /></a></p>
+<p>Google은 광고주에게 최상의 고객을 찾아주기 위해, 그리고 검색을 하는 사용자가 보고 싶은 광고를 볼 수 있도록 하는 것을 염두에 두고, 일반 검색 결과에 광고를 표시하는데 매우 신중합니다. 원하는 정보를 찾는 데 도움이 되거나 매칭되는 광고를 찾아내지 못한다면 Google은 아예 광고를 게재하지 않습니다. 최종, 사용자는 Google 검색을 통하여, 치타가 최고로 시속 60마일 이상을 달릴 수 있다는 사실을 알게 됩니다.&#8221;</p>
+<p>원작: <a href="https://www.youtube.com/embed/BNHR6IQJGZs" target="_blank">How Search Works</a> By Matt Cutts</p>
+<p>번역: <a href="http://geek2live.org/" target="_blank">라이프해커 2.0</a></p>
+<div class='yarpp-related-rss'>
+<p>You might also like:<ol>
+<li><a href="http://geek2live.org/archives/1648" rel="bookmark" title="Google +1 button 버튼 발표, 설치방법과 소개">Google +1 button 버튼 발표, 설치방법과 소개 </a></li>
+<li><a href="http://geek2live.org/archives/2039" rel="bookmark" title="크롬에서 Google+의 글과 프로필을 직접 검색하는 방법">크롬에서 Google+의 글과 프로필을 직접 검색하는 방법 </a></li>
+<li><a href="http://geek2live.org/archives/2277" rel="bookmark" title="리퍼러 없이 실지 구글 검색결과 페이지로 바로 이동하려면">리퍼러 없이 실지 구글 검색결과 페이지로 바로 이동하려면 </a></li>
+<li><a href="http://geek2live.org/archives/1894" rel="bookmark" title="+1이 구글 검색결과와 랭킹(순위)에 어떤 영향을 미치는가?">+1이 구글 검색결과와 랭킹(순위)에 어떤 영향을 미치는가? </a></li>
+<li><a href="http://geek2live.org/archives/2212" rel="bookmark" title="구글 검색결과에 내 블로그 글과 Google+ 프로필이 같이 보이게 하려면">구글 검색결과에 내 블로그 글과 Google+ 프로필이 같이 보이게 하려면 </a></li>
+</ol></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/2980/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Google 드라이브 (Google Drive) 사용법</title>
+		<link>http://geek2live.org/archives/2889</link>
+		<comments>http://geek2live.org/archives/2889#comments</comments>
+		<pubDate>Thu, 26 Apr 2012 08:46:52 +0000</pubDate>
+		<dc:creator><![CDATA[라이프해커]]></dc:creator>
+				<category><![CDATA[Google]]></category>
+		<category><![CDATA[How to]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Personal Tech]]></category>
+		<category><![CDATA[Productivity]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[Google Docs]]></category>
+		<category><![CDATA[Google Drive]]></category>
+		<category><![CDATA[Google Drive Tips]]></category>
+		<category><![CDATA[동기화]]></category>
+
+		<guid isPermaLink="false">http://geek2live.org/?p=2889</guid>
+		<description><![CDATA[Google 드라이브의 기능 및 사용법은 Dropbox와 유사합니다. Google 드라이브는 바로 기존의 Google 문서도구 서비스를 통합한 Google 자체의 클라우드 컴퓨팅 서비스입니다. 컴퓨터에 Google 드라이브 설치하기 Windows 7을 예로 들어,  Google 드라이브를 컴퓨터에 설치하는 방법은 다음과 같습니다. Windows와 Mac을 지원하며, 지금은 아니지만 Linux도 조만간 지원할 것이라고 합니다. Google 드라이브를 설치하기전에, 우선 Gmail 계정이 있어야 하며, 계정이 있다면 다음 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><a href="https://drive.google.com/" target="_blank">Google 드라이브</a>의 기능 및 사용법은 Dropbox와 유사합니다. Google 드라이브는 바로 기존의 <a href="http://geek2live.org/archives/2864" target="_blank">Google 문서도구 서비스를 통합</a>한 Google 자체의 클라우드 컴퓨팅 서비스입니다.</p>
+<h3><strong>컴퓨터에 Google 드라이브 설치하기</strong></h3>
+<p>Windows 7을 예로 들어,  Google 드라이브를 컴퓨터에 설치하는 방법은 다음과 같습니다. Windows와 Mac을 지원하며, 지금은 아니지만 <a href="https://plus.google.com/u/0/110043970153071176315/posts/SxDNKR7ehSL" rel="nofollow" target="_blank">Linux도 조만간 지원</a>할 것이라고 합니다.</p>
+<p>Google 드라이브를 설치하기전에, 우선 Gmail 계정이 있어야 하며, 계정이 있다면 다음 절차에 따릅니다.</p>
+<p>01. <a href="https://tools.google.com/dlpage/drive#eula" target="_blank">Google 드라이브 프로그램</a>화면으로 이동합니다.  Gmail 등 구글의 기타 서비스에서는 네비게이션 바에서 [드라이브]을 방문하여 프로그램을 다운로드할 수도 있습니다.  약관에 동의하고 프로그램을 설치합니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/04/gdrive_11.png"><img class="wp-image-2895 alignnone" title="Google Drive_1" src="http://geek2live.org/wp-content/uploads/2012/04/gdrive_11.png" alt="Google Drive_1" width="368" height="242" /></a></p>
+<p>02. 클라이언트에 처음으로 로그인하여, 컴퓨터를 Google 계정과 연관시킵니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/04/gdrive_4.png"><img class="wp-image-2896 alignnone" title="Google Drive_2" src="http://geek2live.org/wp-content/uploads/2012/04/gdrive_4.png" alt="Google Drive_2" width="372" height="264" /></a></p>
+<p>03. 환영 메시지와 프로그램의 작동원리를 설명하는 화면이 뜹니다.  대략적인 내용은, &#8220;이 프로그램을 설치하면, Google Drive라는 폴더가 컴퓨터에 생기며, 이 폴더에 집어넣은 모든 파일은 동일 프로그램을 설치한 기타 설비(스마튼폰  등 단말기와 PC) 에서도 방문하고 사용할 수 있다&#8221;는 내용으로 이해하면 됩니다.  [Next]를 눌러서 다음 화면으로 이동합니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/04/gdrive_5.png"><img class="wp-image-2897 alignnone" title="Google Drive_3" src="http://geek2live.org/wp-content/uploads/2012/04/gdrive_5.png" alt="Google Drive_3" width="311" height="227" /></a></p>
+<p style="text-align: left;">04. 새 화면에서 동기화 시작 [Start sync] 버튼을 누르기전,  고급 옵션인 [Advanced setup]을 눌러서 구체적인 설정을 먼저 하는 것이 좋습니다. [Advanced setup]을 누릅니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/04/gdrive_6.png"><img class="wp-image-2898 alignnone" title="Google Drive_4" src="http://geek2live.org/wp-content/uploads/2012/04/gdrive_6.png" alt="Google Drive_4" width="311" height="227" /></a></p>
+<p>05. 고급 옵션 설정화면에서 구체적인 설정을 합니다.</p>
+<ul>
+<li>오른쪽에서 [Change]를 눌러서 Folder Location 즉 폴더 위치를 자신이 원하는 위치로 먼저 변경합니다.  예: D:\geek2live\Google Drive</li>
+<li>동기화 옵션 [Sync options] 영역에는, 내가 Google 문서도구에서 미리 만들어놓았던 문서 그룹 폴더가 자동으로 입력되어 있는 것을 확인할 수 있습니다. 여기서 내가 동기화 하려는 폴더만을 체크할 수 있습니다.  참고로, Google Drive의 폴더에 이미 들어있지만 기타 폴더에 들어있지 않는 파일들도 언제나 동기화됩니다.</li>
+<li>Sync Google Docs files 앞에 있는 네모를 체크하게 되면 Google 문서도구 유형의 파일(.gdocs와 .gsheet 등 문서도구 포맷을 포함함) 들도 컴퓨터에 동기화시키게 됩니다.</li>
+<li>[Enable offline viewing]을 클릭하면 <a href="https://support.google.com/drive/bin/answer.py?hl=en&amp;answer=2375012&amp;p=local_offline" target="_blank">구글 도움말 페이지</a>로 이동되며, 안내에 따라 오프라인 설정을 마치면, 나중에 오프라인에서도 Google 문서도구의 문서 등을 볼 수 있습니다. <a href="https://support.google.com/docs/bin/answer.py?hl=ko&amp;answer=1628467&amp;topic=1628465&amp;ctx=topic" target="_blank">Google 문서도구의 오프라인 기능을 이미 사용</a>하고 있는 사용자는 이 설정을 하지 않아도 됩니다.  현재는 Chrome 브라우저에서만, 그리고 Google 문서도구의 문서 및 스프레드시트에 대해서만 오프라인으로 액세스할 수 있습니다.</li>
+<li>Misc : 이 옵션에 체크하게 되면, 컴퓨터를 시작할 때, Google Drive 프로그램을 직접 시작하게 됩니다.</li>
+<li>위의 설정을 마치고, 동기화 시작 [Start sync]버튼을 누릅니다.</li>
+</ul>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/04/gdrive_7.png"><img class="wp-image-2910 alignnone" title="Google Drive_5" src="http://geek2live.org/wp-content/uploads/2012/04/gdrive_7.png" alt="Google Drive_5" width="367" height="301" /></a></p>
+<p>06. Google 문서도구의 문서들이 1차적으로 컴퓨터와 동기화되기 시작합니다. 파일이 몇백개 밖에 안될 경우는 비교적 짧은 시간내에 동기화가 완성됩니다.  나중에도 언제나 [Google Drive] 폴더에서 파일 작업을 시작할 수 있습니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/04/gdrive_8.png"><img class="wp-image-2901 alignnone" title="Google Drive_6" src="http://geek2live.org/wp-content/uploads/2012/04/gdrive_8.png" alt="Google Drive_6" width="478" height="391" /></a></p>
+<h3><strong>컴퓨터에서 Google 드라이브 작업하기</strong></h3>
+<p>위의 설정을 마친 후, 컴퓨터와 웹(Google 문서도구 온라인 방식), 그리고 스마트폰에서 하는 작업은 모두 상호 동기화됩니다. 동기화가 시작되면, 언제 어디서나 동일한 환경에 접속하여 문서 작업을 할 수 있습니다.  Google 드라이브는 Dropbox에서와 달리, Google 문서도구의 파일 형식 몇 가지를 더 지원하며, 이러한 유형의 파일들을 컴퓨터에서 부동한 문서도구의 아이콘과 링크로 표시됩니다. 아이콘를 클릭하면 웹 접속방식 즉 과거의 Google 문서도구 인터페이스로 이동됩니다. 인터넷이 끈긴 환경에서는 (위에서 얘기한 오프라인 설정을 미리 했다면) Chrome 브라우저로, 로컬에 이미 동기화된 Google 문서도구의 문서 및 스프레드시트에 액세스할 수 있습니다.</p>
+<p>다음과 같이, 컴퓨터의 폴더에서 임의의 샘플 파일을 Google Drive에 포함된 [샘플] 폴더로 드래그해보겠습니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/04/gdrive_111.png"><img class="wp-image-2902 alignnone" title="Google Drive_7" src="http://geek2live.org/wp-content/uploads/2012/04/gdrive_111.png" alt="Google Drive_7" width="479" height="389" /></a></p>
+<p>[샘플 폴더]에 Sample image.jpg라는 파일이 들어왔습니다. 파일을 Google Drive폴더에 집어넣게 되면, Google 드라이브를 설치한 다른 컴퓨터와 스마트폰 및 Google 서버(웹)과 동기화됩니다. 폴더에서 파일을 삭제하거나 이름을 수정하게 되면, 웹에서도 삭제되거나 수정이 됩니다. 또한 컴퓨터에서 사진이나 Word 문서 등을 제3자의 프로그램으로 수정/편집할 경우, 웹에도 동기화가 됩니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/04/Google-Drive_61.png"><img class="wp-image-2960 alignnone" title="Google Drive_6" src="http://geek2live.org/wp-content/uploads/2012/04/Google-Drive_61.png" alt="Google Drive_6" width="478" height="389" /></a></p>
+<p style="text-align: left;">온라인으로 Google 드라이브에 접속해보면,  Sample image.jpg라는 파일이 [내 드라이브]의 [샘플] 폴더에 들어와 있는 것을 확인할 수 있습니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/04/Google-Drive_9_R.png"><img class="wp-image-2947 alignnone" title="Google Drive_9_R" src="http://geek2live.org/wp-content/uploads/2012/04/Google-Drive_9_R.png" alt="Google Drive_9_R" width="553" height="268" /></a></p>
+<p style="text-align: left;">참고사항 : 다른 사람이 나와 공유했지만, [내 드라이브] (My Drive)에 들어있지 않는 파일, 폴더와 Google 문서도구의 문서는 동기화되지 않습니다. Google Drive를 설치한 모든 설비와 동기화시키려면, <a href="https://support.google.com/drive/bin/answer.py?hl=ko&amp;hlrm=en&amp;p=swm_ww&amp;answer=2375057" target="_blank">파일을 선택하거나 드래그하여 [내 드라이브]에 추가</a>하면 됩니다.</p>
+<h3><strong>스마트폰에서 Google 드라이브 사용하기</strong></h3>
+<p>안드로이드폰에 Google Drive 앱을 설치했다면, 폰에서도 컴에서 작업한 (Sample image.jpg) 파일이 동기화된 것을 확인할 수 있습니다. 스마트폰에서 오른쪽에 있는 원형 아이콘을 터치하면 파일 공유하기, 오프라인으로 보기, 파일 전송하기, 이름 수정하기, 파일 열기와 삭제하기 등 작업이 가능합니다. 스마트폰에서 하는 모든 작업 역시 웹과 Google Drive를 설치한 모든 컴퓨터와 동기화됩니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/04/gdrive_14.png"><img class="size-full wp-image-2914 alignnone" title="Google Drive_Android app" src="http://geek2live.org/wp-content/uploads/2012/04/gdrive_14.png" alt="Google Drive_Android app" width="431" height="377" /></a></p>
+<h3><strong>컴퓨터의 동기화 설정 변경하기와 동기화 중지하기</strong></h3>
+<p>컴퓨터의 동기화 설정을 수시로 변경하거나 컴퓨터와 구글 계정과의 연결을 끊어서, 다른 설비와의 동기화를 중지시킬 수 있습니다. 구체적으로 다음 단계를 따릅니다.</p>
+<p>01. 컴퓨터 하단의 표시줄에서 Google Drive 아이콘을 누르고, [Preferences]를 클릭합니다. 동일 메뉴에서는 동기화 잠시 중지하기, Google Drive 폴더 열기, 웹으로 접속하기 등 작업도 가능합니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/04/gdrive_9.png"><img class="wp-image-2905 alignnone" title="Google Drive_10" src="http://geek2live.org/wp-content/uploads/2012/04/gdrive_9.png" alt="Google Drive_10" width="245" height="282" /></a></p>
+<p>02. 다음 화면에서 동기화 설정을 변경합니다. 동기화를 중지시키려면, 오른쪽 상단에서 [Disconnect account]를 클릭합니다. 이 버튼을 클릭하면 원래 동기화되었던 파일은 컴퓨터에 남게 되나,  컴퓨터와 웹은 더 이상 동기화되지 않습니다. 필요하면 다시 클라이언트에 로그인(Sign in)하여 원래의 설정을 반복하면 됩니다. 그런데 현재는 Dropbox처럼 원래 만들어놓았던 Google Drive폴더를 계정과 다시 연결시켜서 파일을 병합 처리할 수는 없으며, 다른 위치에 Google Drive 폴더를 설정하거나 원래 설정했던 Google Drive 폴더를 비워야 합니다.</p>
+<p><a href="http://geek2live.org/wp-content/uploads/2012/04/gdrive_10.png"><img class="wp-image-2906 alignnone" title="Google Drive_11" src="http://geek2live.org/wp-content/uploads/2012/04/gdrive_10.png" alt="Google Drive_11" width="350" height="298" /></a></p>
+<h3><strong>Google 드라이브에 포함된 문서도구 패키지의 사용법</strong></h3>
+<p>위에서 소개한 동기화 기능이 구글 드라이브의 핵심 기능인 것은 아니며, 메인 기능은 주로 Google 문서도구 패키지(구글 문서/스프레드시트/프리젠테이션/양식 등)에 있습니다. 구글 드라이브에 포함된 문서도구 패키지를 사용하면, 혼자서 작업하거나 <a href="http://gstory4you.com/2012/09/06/google-spreadsheets-now-with-discussions/" target="_blank">여러 사람이 문서를 공유하면서 실시간으로 문서를 공동편집하고 댓글로 소통</a>이 가능합니다. 이러한 기능은 오래전부터 제공되었던 것이기에 따로 설명하지 않겠습니다. 문서도구 패키지와 구글 드라이브의 기타 사용법이 궁금하다면 <a href="https://support.google.com/drive/?hl=ko&amp;hlrm=en&amp;p=web_home" target="_blank">Google Drive 도움말</a>을 참조할 수 있습니다.</p>
+<p>Update:  얼마전 제가 쓴 책인 [<a href="http://geek2live.org/archives/3165">구글 실전 바이블</a>]은 약 72페이지(전체 380페이지)의 분량을 할애하여 유용한 예제와 함께 구글 드라이브에 포함된 문서도구 패키지의 사용법을 아주 상세하게 소개하고 있습니다. 이밖에 제가 글 쓰는 구글 전문 블로그 <a href="http://gstory4you.com/">G스토리</a>에서도 <a href="http://gstory4you.com/tag/google-drive-tips/">최신 구글 드라이브 팁</a>을 접하실 수 있으니 필요하시면 RSS를 구독바랍니다.</p>
+<div class='yarpp-related-rss'>
+<p>You might also like:<ol>
+<li><a href="http://geek2live.org/archives/2864" rel="bookmark" title="Google 문서도구가 Google 드라이브에 통합되었습니다.">Google 문서도구가 Google 드라이브에 통합되었습니다. </a></li>
+<li><a href="http://geek2live.org/archives/2829" rel="bookmark" title="Google 문서도구의 모든 문서를 다른 한 구글 계정으로 신속히 이전하기">Google 문서도구의 모든 문서를 다른 한 구글 계정으로 신속히 이전하기 </a></li>
+</ol></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://geek2live.org/archives/2889/feed</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+	</channel>
+</rss>
+
+<!-- Served from: geek2live.org @ 2014-09-26 16:47:39 by W3 Total Cache -->

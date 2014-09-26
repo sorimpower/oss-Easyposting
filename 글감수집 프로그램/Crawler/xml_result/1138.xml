@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>CaN (Computer &amp; Network) Tips</title>
+		<link>http://pakcw.cafe24.com/</link>
+		<description>Knowledge is the most democratic source of power. Alvin Toffler (1990).</description>
+		<language>ko</language>
+		<pubDate>Tue, 23 Sep 2014 23:30:55 +0900</pubDate>
+		<generator>Textcube 1.10.0 : beta 2</generator>
+		<image>
+		<title>CaN (Computer &amp; Network) Tips</title>
+		<url>/attach/1/5747640257.png</url>
+		<link>http://pakcw.cafe24.com/</link>
+		<width>182</width>
+		<height>45</height>
+		<description>Knowledge is the most democratic source of power. Alvin Toffler (1990).</description>
+		</image>
+		<item>
+			<title>[Google Logo] 추분</title>
+			<link>http://pakcw.cafe24.com/2585</link>
+			<description>2014년 9월 23일 구글 로고 추분(秋分) 기념.&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?locale=ko_KR&amp;amp;href=http%3A%2F%2Fpakcw.cafe24.com%2F&amp;amp;layout=button_count&amp;amp;show_faces=true&amp;amp;width=600&amp;amp;action=recommend&amp;amp;colorscheme=light&amp;amp;&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowTransparency=&quot;true&quot; style=&quot;border:none; overflow=hidden; width:600px; height:50px; margin-top:15px;&quot;&gt;&lt;/iframe&gt;&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;&lt;script src=&quot;http://connect.facebook.net/ko_KR/all.js#xfbml=1&quot;&gt;&lt;/script&gt;&lt;fb:comments href=&quot;http%3A%2F%2Fpakcw.cafe24.com%2F&quot; num_posts=&quot;2&quot; width=&quot;600&quot;&gt;&lt;/fb:comments&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://pakcw.cafe24.com/2585&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>Google</category>
+			<category>9월 23일</category>
+			<category>구글 로고</category>
+			<category>추분</category>
+			<author>pakchulwoo@gmail.com (Park Chulwoo (박철우))</author>
+			<guid>http://pakcw.cafe24.com/2585</guid>
+			<comments>http://pakcw.cafe24.com/2585#entry2585comment</comments>
+			<pubDate>Tue, 23 Sep 2014 10:46:02 +0900</pubDate>
+		</item>
+		<item>
+			<title>크롬 확장 Pig의 제스처 기능이 동작하지 않을 때</title>
+			<link>http://pakcw.cafe24.com/2584</link>
+			<description>내가 보기에 구글의 웹 브라우저인 크롬(Chorme)에서 사용하는 확장 프로그램 중 최고는 Pig Toolbox이다.크롬 웹 스토어의 Pig Toolbox 설치 페이지로 가기이 확장 고유의 기능들도 있지만, 이 하나로 여러 확장을 대체하는 효과도 있다.그런데 여기에 들어있는 기능 중에 마우스 제스처 기능은 사실 정상적으로는 사용할 수 없다. 크롬 자체의 보안 강화 정책으로 이런 저런 제약이 생겼기 때문이다.다른 몇 가지 기능도 제대로 동작하지 않기...&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?locale=ko_KR&amp;amp;href=http%3A%2F%2Fpakcw.cafe24.com%2F&amp;amp;layout=button_count&amp;amp;show_faces=true&amp;amp;width=600&amp;amp;action=recommend&amp;amp;colorscheme=light&amp;amp;&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowTransparency=&quot;true&quot; style=&quot;border:none; overflow=hidden; width:600px; height:50px; margin-top:15px;&quot;&gt;&lt;/iframe&gt;&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;&lt;script src=&quot;http://connect.facebook.net/ko_KR/all.js#xfbml=1&quot;&gt;&lt;/script&gt;&lt;fb:comments href=&quot;http%3A%2F%2Fpakcw.cafe24.com%2F&quot; num_posts=&quot;2&quot; width=&quot;600&quot;&gt;&lt;/fb:comments&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://pakcw.cafe24.com/2584&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>Google</category>
+			<category>Chrome</category>
+			<category>Gesture</category>
+			<category>Mouse Gesture</category>
+			<category>Pig</category>
+			<category>Pig Toolbox</category>
+			<category>마우스 제스처</category>
+			<category>제스처</category>
+			<category>크롬</category>
+			<category>확장</category>
+			<category>확장 프로그램</category>
+			<author>pakchulwoo@gmail.com (Park Chulwoo (박철우))</author>
+			<guid>http://pakcw.cafe24.com/2584</guid>
+			<comments>http://pakcw.cafe24.com/2584#entry2584comment</comments>
+			<pubDate>Tue, 23 Sep 2014 10:09:01 +0900</pubDate>
+		</item>
+		<item>
+			<title>[MediaWiki] 설치 시 환경 설정 후 Fatal exception of type MWException 메시지가 나타날 때</title>
+			<link>http://pakcw.cafe24.com/2583</link>
+			<description>위키(Wiki) 사이트를 만들어주는 MediaWiki(미디어위키)를 서버에 설치하고 설정 과정을 통해 LocalSettings.php 파일을 생성한 후 이를 통해 서버에 접속할 때 아래와 같은 메시지가 나오면서 초기 페이지인 대문이 나오지 않는 경우가 있다.&quot;Fatal exception of type MWException&quot;이때에는 갓 생성한 LocalSettings.php 파일을 택스트 편집기로 열고, 아래 줄을 찾아 지우거나 주석 처리한다.req...&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?locale=ko_KR&amp;amp;href=http%3A%2F%2Fpakcw.cafe24.com%2F&amp;amp;layout=button_count&amp;amp;show_faces=true&amp;amp;width=600&amp;amp;action=recommend&amp;amp;colorscheme=light&amp;amp;&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowTransparency=&quot;true&quot; style=&quot;border:none; overflow=hidden; width:600px; height:50px; margin-top:15px;&quot;&gt;&lt;/iframe&gt;&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;&lt;script src=&quot;http://connect.facebook.net/ko_KR/all.js#xfbml=1&quot;&gt;&lt;/script&gt;&lt;fb:comments href=&quot;http%3A%2F%2Fpakcw.cafe24.com%2F&quot; num_posts=&quot;2&quot; width=&quot;600&quot;&gt;&lt;/fb:comments&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://pakcw.cafe24.com/2583&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>Application</category>
+			<category>MediaWiki</category>
+			<category>PHP</category>
+			<category>wiki</category>
+			<category>미디어위키</category>
+			<category>위키</category>
+			<author>pakchulwoo@gmail.com (Park Chulwoo (박철우))</author>
+			<guid>http://pakcw.cafe24.com/2583</guid>
+			<comments>http://pakcw.cafe24.com/2583#entry2583comment</comments>
+			<pubDate>Wed, 17 Sep 2014 08:27:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Windows 8 스토어] 앱 설치 시 0x80072ee4 오류가 나타날 때</title>
+			<link>http://pakcw.cafe24.com/2582</link>
+			<description>Windows 8.1의 스토어(Store)에서 앱을 새로 설치하거나 업데이트할 때 오류 코드 0x80072ee4가 발생하는 경우가 있다. 이때에는 인터넷 익스플로러의 인터넷 옵션에서 임시 인터넷 파일의 위치가 제대로 설정되어 있는지 확인해 보면 된다. 어떤 오류로 인해 실제 현재 위치가 지정되어 있지 않을 수도 있고, 폴더가 있는데 적용이 되지 않을 수도 있다. 폴더가 있어도 현재 위치가 잡히지 않는다면 탐색기 등에서 폴더를 직접 지운 후 다시 지...&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?locale=ko_KR&amp;amp;href=http%3A%2F%2Fpakcw.cafe24.com%2F&amp;amp;layout=button_count&amp;amp;show_faces=true&amp;amp;width=600&amp;amp;action=recommend&amp;amp;colorscheme=light&amp;amp;&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowTransparency=&quot;true&quot; style=&quot;border:none; overflow=hidden; width:600px; height:50px; margin-top:15px;&quot;&gt;&lt;/iframe&gt;&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;&lt;script src=&quot;http://connect.facebook.net/ko_KR/all.js#xfbml=1&quot;&gt;&lt;/script&gt;&lt;fb:comments href=&quot;http%3A%2F%2Fpakcw.cafe24.com%2F&quot; num_posts=&quot;2&quot; width=&quot;600&quot;&gt;&lt;/fb:comments&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://pakcw.cafe24.com/2582&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>Windows</category>
+			<category>0x80072ee4</category>
+			<category>Windows Store</category>
+			<category>스토어</category>
+			<category>오류 코드</category>
+			<category>인터넷 옵션</category>
+			<category>임시 이터넷 파일</category>
+			<author>pakchulwoo@gmail.com (Park Chulwoo (박철우))</author>
+			<guid>http://pakcw.cafe24.com/2582</guid>
+			<comments>http://pakcw.cafe24.com/2582#entry2582comment</comments>
+			<pubDate>Sat, 13 Sep 2014 19:36:21 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Google Logo] 러시아 작가 레프 톨스토이 생일 기념</title>
+			<link>http://pakcw.cafe24.com/2581</link>
+			<description>2014년 9월 9일 구글 로고 소설 &amp;lt;전쟁와 평화&amp;gt;로 유명한 제정 러시아의 작가이자 사상가인 레프 니콜라예비치 톨스토이(Lev Nikolayevich Tolstoy, 1828. 9. 9. ~ 1910. 11. 20.) 생일 기념. 톨스토이라는 작가가 몇 명 있어, 레프 톨스토이, 톨스토이 백작이라고도 하지만, 그냥 톨스토이라면 바로 이 작가를 부르면 경우가 많은 것 같다.아래는 오늘 로고를 구성하는 중요한 그림들.&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?locale=ko_KR&amp;amp;href=http%3A%2F%2Fpakcw.cafe24.com%2F&amp;amp;layout=button_count&amp;amp;show_faces=true&amp;amp;width=600&amp;amp;action=recommend&amp;amp;colorscheme=light&amp;amp;&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowTransparency=&quot;true&quot; style=&quot;border:none; overflow=hidden; width:600px; height:50px; margin-top:15px;&quot;&gt;&lt;/iframe&gt;&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;&lt;script src=&quot;http://connect.facebook.net/ko_KR/all.js#xfbml=1&quot;&gt;&lt;/script&gt;&lt;fb:comments href=&quot;http%3A%2F%2Fpakcw.cafe24.com%2F&quot; num_posts=&quot;2&quot; width=&quot;600&quot;&gt;&lt;/fb:comments&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://pakcw.cafe24.com/2581&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>Google</category>
+			<category>9월 9일</category>
+			<category>Leo Tolstoy</category>
+			<category>Lev Nikolayevich Tolstoy</category>
+			<category>Tolstoy</category>
+			<category>구글 로고</category>
+			<category>러시아</category>
+			<category>레프 니콜라예비치 톨스토이</category>
+			<category>레프 톨스토이</category>
+			<category>전쟁과 평화</category>
+			<category>제정 러시아</category>
+			<category>톨스토이</category>
+			<author>pakchulwoo@gmail.com (Park Chulwoo (박철우))</author>
+			<guid>http://pakcw.cafe24.com/2581</guid>
+			<comments>http://pakcw.cafe24.com/2581#entry2581comment</comments>
+			<pubDate>Tue, 09 Sep 2014 10:59:22 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Google Logo] 추석(2006~2014)</title>
+			<link>http://pakcw.cafe24.com/2580</link>
+			<description>[2014년 9월 8일 추석 구글 로고] [2013년 9월 19일 추석 구글 로고] [2012년 9월 30일 추석 구글 로고] [2011년 9월 12일 추석 구글 로고] [2010년 9월 22일 추석 구글 로고][2009년 10월 3일 추석 구글 로고][2008년 9월 14일 추석 구글 로고][2007년 9월 25일 추석 구글 로고][2006년 10월 6일 추석 구글 로고]&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?locale=ko_KR&amp;amp;href=http%3A%2F%2Fpakcw.cafe24.com%2F&amp;amp;layout=button_count&amp;amp;show_faces=true&amp;amp;width=600&amp;amp;action=recommend&amp;amp;colorscheme=light&amp;amp;&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowTransparency=&quot;true&quot; style=&quot;border:none; overflow=hidden; width:600px; height:50px; margin-top:15px;&quot;&gt;&lt;/iframe&gt;&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;&lt;script src=&quot;http://connect.facebook.net/ko_KR/all.js#xfbml=1&quot;&gt;&lt;/script&gt;&lt;fb:comments href=&quot;http%3A%2F%2Fpakcw.cafe24.com%2F&quot; num_posts=&quot;2&quot; width=&quot;600&quot;&gt;&lt;/fb:comments&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://pakcw.cafe24.com/2580&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>Google</category>
+			<category>9월 8일</category>
+			<category>구글 로고</category>
+			<category>음력 8월 15일</category>
+			<category>추석</category>
+			<category>한가위</category>
+			<author>pakchulwoo@gmail.com (Park Chulwoo (박철우))</author>
+			<guid>http://pakcw.cafe24.com/2580</guid>
+			<comments>http://pakcw.cafe24.com/2580#entry2580comment</comments>
+			<pubDate>Mon, 08 Sep 2014 23:25:49 +0900</pubDate>
+		</item>
+		<item>
+			<title>Synology NAS의 Download Station에서 한글 검색 사용하기</title>
+			<link>http://pakcw.cafe24.com/2579</link>
+			<description>네트워크에 연결해 사용하는 저장 장치인 NAS(Network-Attached Storage) 중 Synology (시놀로지) 제품에서 토렌트 검색과 다운로드에 사용하는 응용 프로그램으로 Download Station(다운로드 스케이션)이 있다.여러 가지로 괜찮기는 한데 몇 가지 단점 중 하나가 한글(Korean) 검색이 제대로 되지 않는 것이다. 완벽하지는 않더라도 한글 검색이 필요하다면 관련 DLM을 설치해 볼 수 있다.Togoon.dlm다운로드...&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?locale=ko_KR&amp;amp;href=http%3A%2F%2Fpakcw.cafe24.com%2F&amp;amp;layout=button_count&amp;amp;show_faces=true&amp;amp;width=600&amp;amp;action=recommend&amp;amp;colorscheme=light&amp;amp;&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowTransparency=&quot;true&quot; style=&quot;border:none; overflow=hidden; width:600px; height:50px; margin-top:15px;&quot;&gt;&lt;/iframe&gt;&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;&lt;script src=&quot;http://connect.facebook.net/ko_KR/all.js#xfbml=1&quot;&gt;&lt;/script&gt;&lt;fb:comments href=&quot;http%3A%2F%2Fpakcw.cafe24.com%2F&quot; num_posts=&quot;2&quot; width=&quot;600&quot;&gt;&lt;/fb:comments&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://pakcw.cafe24.com/2579&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>Hardware</category>
+			<category>BT 검색</category>
+			<category>DLM</category>
+			<category>Download Station</category>
+			<category>NSA</category>
+			<category>Synology</category>
+			<category>Togoon</category>
+			<category>다운로드 스테이션</category>
+			<category>시놀로지</category>
+			<category>토렌트</category>
+			<author>pakchulwoo@gmail.com (Park Chulwoo (박철우))</author>
+			<guid>http://pakcw.cafe24.com/2579</guid>
+			<comments>http://pakcw.cafe24.com/2579#entry2579comment</comments>
+			<pubDate>Sat, 30 Aug 2014 18:02:25 +0900</pubDate>
+		</item>
+		<item>
+			<title>[도표] 국내 빅 데이터 시장 규모 추이(2010~2015)</title>
+			<link>http://pakcw.cafe24.com/2578</link>
+			<description>Source: 세계일보, &quot;빅데이터 &amp;lsquo;노다지&amp;rsquo;, 한국엔 &amp;lsquo;그림의 떡&amp;rsquo;&quot;, 2014. 8. 30.&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?locale=ko_KR&amp;amp;href=http%3A%2F%2Fpakcw.cafe24.com%2F&amp;amp;layout=button_count&amp;amp;show_faces=true&amp;amp;width=600&amp;amp;action=recommend&amp;amp;colorscheme=light&amp;amp;&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowTransparency=&quot;true&quot; style=&quot;border:none; overflow=hidden; width:600px; height:50px; margin-top:15px;&quot;&gt;&lt;/iframe&gt;&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;&lt;script src=&quot;http://connect.facebook.net/ko_KR/all.js#xfbml=1&quot;&gt;&lt;/script&gt;&lt;fb:comments href=&quot;http%3A%2F%2Fpakcw.cafe24.com%2F&quot; num_posts=&quot;2&quot; width=&quot;600&quot;&gt;&lt;/fb:comments&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://pakcw.cafe24.com/2578&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>IT Figures</category>
+			<category>big data</category>
+			<category>빅 데이터</category>
+			<author>pakchulwoo@gmail.com (Park Chulwoo (박철우))</author>
+			<guid>http://pakcw.cafe24.com/2578</guid>
+			<comments>http://pakcw.cafe24.com/2578#entry2578comment</comments>
+			<pubDate>Sat, 30 Aug 2014 15:16:40 +0900</pubDate>
+		</item>
+		<item>
+			<title>아이폰 나침반을 수준기로 활용하기</title>
+			<link>http://pakcw.cafe24.com/2577</link>
+			<description>애플의 아이폰(iPhone)에 기본으로 내장된 앱에 나침반이 있다. 방위나 현재 위치를 파악하는 용도가 주겠지만, 기본적으로 물체의 수평을 확인하는 기능도 들어있다. 위 그림에서 중앙의 큰 십자 표식과 작은 원 안의 작은 십자 표식을 일치시키면 아이폰이 수평이 된다.그런데 이 화면을 오른쪽으로 쓸어넘기면 아예 수준기(水準器)가 나타난다. 물방물 모양의 기포가 나타나는 실제 수준기보다는 재미없지만 유용하다. 정확한 수평, 수직 위치를 확인할 수도 있...&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?locale=ko_KR&amp;amp;href=http%3A%2F%2Fpakcw.cafe24.com%2F&amp;amp;layout=button_count&amp;amp;show_faces=true&amp;amp;width=600&amp;amp;action=recommend&amp;amp;colorscheme=light&amp;amp;&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowTransparency=&quot;true&quot; style=&quot;border:none; overflow=hidden; width:600px; height:50px; margin-top:15px;&quot;&gt;&lt;/iframe&gt;&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;&lt;script src=&quot;http://connect.facebook.net/ko_KR/all.js#xfbml=1&quot;&gt;&lt;/script&gt;&lt;fb:comments href=&quot;http%3A%2F%2Fpakcw.cafe24.com%2F&quot; num_posts=&quot;2&quot; width=&quot;600&quot;&gt;&lt;/fb:comments&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://pakcw.cafe24.com/2577&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>iDevice</category>
+			<category>iPhone</category>
+			<category>Level</category>
+			<category>나침반</category>
+			<category>수준기</category>
+			<category>수평계</category>
+			<category>수평기</category>
+			<category>아이폰</category>
+			<author>pakchulwoo@gmail.com (Park Chulwoo (박철우))</author>
+			<guid>http://pakcw.cafe24.com/2577</guid>
+			<comments>http://pakcw.cafe24.com/2577#entry2577comment</comments>
+			<pubDate>Mon, 25 Aug 2014 19:45:46 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Google Logo] 하울의 움직이는 성의 작가 다이애나 윈 존스 생일 기념</title>
+			<link>http://pakcw.cafe24.com/2576</link>
+			<description>2014년 8월 16일 구글 로고 미야자키 하야오가 감독의 일본 애니메이션 《하울의 움직이는 성》(ハウルの動く城)이 더 유명한 것 같기는 하지만, 이 작품의 원작인 《하울의 움직이는 성(Howl&#039;s Moving Castle)》을 쓴 영국 작가 다이애나 윈 존스(Diana Wynne Jones, 1934. 8. 16. ~ 2011. 3. 26.)의 80번째 생일 기념.&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?locale=ko_KR&amp;amp;href=http%3A%2F%2Fpakcw.cafe24.com%2F&amp;amp;layout=button_count&amp;amp;show_faces=true&amp;amp;width=600&amp;amp;action=recommend&amp;amp;colorscheme=light&amp;amp;&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; allowTransparency=&quot;true&quot; style=&quot;border:none; overflow=hidden; width:600px; height:50px; margin-top:15px;&quot;&gt;&lt;/iframe&gt;&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;&lt;script src=&quot;http://connect.facebook.net/ko_KR/all.js#xfbml=1&quot;&gt;&lt;/script&gt;&lt;fb:comments href=&quot;http%3A%2F%2Fpakcw.cafe24.com%2F&quot; num_posts=&quot;2&quot; width=&quot;600&quot;&gt;&lt;/fb:comments&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://pakcw.cafe24.com/2576&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>Google</category>
+			<category>8월 16일</category>
+			<category>Diana Wynne Jones</category>
+			<category>구글 로고</category>
+			<category>다이내나 윈 존스</category>
+			<category>하울의 움직이는 성</category>
+			<author>pakchulwoo@gmail.com (Park Chulwoo (박철우))</author>
+			<guid>http://pakcw.cafe24.com/2576</guid>
+			<comments>http://pakcw.cafe24.com/2576#entry2576comment</comments>
+			<pubDate>Sat, 16 Aug 2014 13:31:39 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

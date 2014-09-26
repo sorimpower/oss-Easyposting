@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[*=리치금융=*]]></title>
+			<link>http://sangxp.blog.me</link>
+			
+			<description><![CDATA[다시 찾아뵙겠습니다....]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:43:50 +0900</pubDate>
+
+			
+				<item>
+					<author></author>
+					<category><![CDATA[기타게시판]]></category>
+					<title><![CDATA[한RSS 디렉토리 등록]]></title>
+					<link>http://sangxp.blog.me/40202330494</link>
+					<guid>http://sangxp.blog.me/40202330494</guid>
+					<description><![CDATA[한RSS 디렉토리 ]]></description>
+					<pubDate>Mon, 09 Dec 2013 15:04:59 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

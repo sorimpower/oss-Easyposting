@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>GIS Developer, 개발자 김형준(Dip2K)</title>
+		<link>http://www.gisdeveloper.co.kr/</link>
+		<description>GIS Developer, 김형준 / (주)지오서비스 서비스개발팀 팀장 / &#039;모바일 3D 그래픽스&#039; 번역 및 출판 / &#039;모바일 GIS 프로그래밍&#039; 집필 및 출판</description>
+		<language>ko</language>
+		<pubDate>Mon, 22 Sep 2014 11:36:49 +0900</pubDate>
+		<generator>Textcube 1.8.6 : Accelerando</generator>
+		<image>
+		<title>GIS Developer, 개발자 김형준(Dip2K)</title>
+		<url>http://www.gisdeveloper.co.kr/attach/1/1233314803.png</url>
+		<link>http://www.gisdeveloper.co.kr/</link>
+		<width>130</width>
+		<height>131</height>
+		<description>GIS Developer, 김형준 / (주)지오서비스 서비스개발팀 팀장 / &#039;모바일 3D 그래픽스&#039; 번역 및 출판 / &#039;모바일 GIS 프로그래밍&#039; 집필 및 출판</description>
+		</image>
+		<item>
+			<title>기본에 충실하고자 하는 GIS 엔진</title>
+			<link>http://www.gisdeveloper.co.kr/entry/%EA%B8%B0%EB%B0%98%EA%B8%B0%EC%88%A0%EC%9D%B4-%EB%9B%B0%EC%96%B4%EB%82%9C-%EC%A7%80%EC%98%A4%EC%84%9C%EB%B9%84%EC%8A%A4-GIS-%EC%97%94%EC%A7%84</link>
+			<description>&lt;p&gt;어제 대전의 모기관에서 GIS 솔루션 소개를 해달라는 요청을 받아 가서 소개를 해주었습니다. 최근 몇몇 업체에서 GIS 솔루션 문의를 해오고, 뭔가 차별화된 무엇이 없을까 고민하고.. 저희 제품이 오픈소스 제품군과 타업체의 제품과의 차이점이 무엇일까를 고민했더랬습니다. 아직 결론은 내리지 못했지만 일단 차별화 이전에 먼저 &#039;기본&#039;을 갖춰야 한다는 생각이 들었습니다. 제대로된 기본 바탕 위에 차별화된 무엇이 올라가야 제대로된 차별화가 아니겠느냐는 생각말입니다.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://www.gisdeveloper.co.kr/cache/thumbnail/1/1166101018.w510-h318.png&quot; width=&quot;510&quot; height=&quot;318&quot; alt=&quot;사용자 삽입 이미지&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;기반의 다른 말은 기본이라고 생각합니다. 이런 생각이 옳다고 한다면, 기반 기술이 뛰어 나다는 말은 기본에 충실하다는 말일 것 입니다. 기본 기술은 뛰어나거나 화려하지는 않은 것 같습니다. 그러나 정말 뛰어나다거나 화려함 속 깊숙이에는 충실한 기본 기술들이 모인 것입니다. 아직은 뛰어나다거나, 화려하지는 않지만 늘 기본에 충실한 기술을 갖추기 위해 노력하고 싶습니다.&lt;/p&gt;
+
+&lt;p&gt;좌표와 속성을 갖는 데이터를 통해 최대한 사용자가 쉽게 인지할 수 있도록 지도(Map)로 표현하는 작업을 합니다. 수년전이나 지금이나 크게 달라진 것은 없고, 단지 소소한 개선만이 있을 뿐이지만.. 그 소소함에 온통 많은 신경을 쏟아 부었다는 이유로.. 다른 누구보다도 이 작은 것을 이뤄 나가는 노력과 결실의 합에서 기쁨을 느낍니다. 이러한 노력과 작은 결실들이 모여 만들어진 시너지로 제대로된, 멋진 차별화된 솔루션으로 발전하기를 바랍니다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.gisdeveloper.co.kr/entry/%EA%B8%B0%EB%B0%98%EA%B8%B0%EC%88%A0%EC%9D%B4-%EB%9B%B0%EC%96%B4%EB%82%9C-%EC%A7%80%EC%98%A4%EC%84%9C%EB%B9%84%EC%8A%A4-GIS-%EC%97%94%EC%A7%84?commentInput=true#entry1033WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>스치는 생각들</category>
+			<author>hjkim@geoservice.co.kr (Dip2K)</author>
+			<guid>http://www.gisdeveloper.co.kr/1033</guid>
+			<comments>http://www.gisdeveloper.co.kr/entry/%EA%B8%B0%EB%B0%98%EA%B8%B0%EC%88%A0%EC%9D%B4-%EB%9B%B0%EC%96%B4%EB%82%9C-%EC%A7%80%EC%98%A4%EC%84%9C%EB%B9%84%EC%8A%A4-GIS-%EC%97%94%EC%A7%84#entry1033comment</comments>
+			<pubDate>Fri, 05 Sep 2014 11:01:56 +0900</pubDate>
+		</item>
+		<item>
+			<title>[FingerEyes-Xr for HTML5] 지적도, 항공도 레이어 예제</title>
+			<link>http://www.gisdeveloper.co.kr/entry/test-1</link>
+			<description>&lt;P&gt;HTML5 기반의 FingerEyes-Xr의 기능 중, 지적도와 항공도 레이어를 표출하는 예제 코드입니다. 개발자 입장에서 코드를 쉽고 직관적으로 구성할 수 있도록 하였습니다. 테스트는 IE, Chrome, FireFox이며 HTML5를 지원해야 합니다.&lt;/P&gt;
+
+&lt;P&gt;먼저 간단히 코드를 설명하기에 앞서 실행 결과를 살펴보면 아래와 같습니다.&lt;/P&gt;
+
+&lt;iframe src=&#039;http://222.237.78.208:8080/t/1/&#039;  scrolling=no name=ce width=650 height=510 frameborder=0 style=&quot;border-width:0px; border-color:white; border-style:solid;&quot;&gt;&lt;/iframe&gt;
+
+&lt;P&gt;위의 예제에 대한 코드를 내용별로 설명하면 다음과 같습니다. 실제 업무에 적용되면서, 그리고 개발자의 피드백을 통해 API의 형태는 조금씩 발전, 변경될 수 있습니다.&lt;/P&gt;
+
+&lt;pre name=&quot;CodeHighLighterCode&quot; class=&quot;brush:cpp;&quot; cols=&quot;60&quot; rows=&quot;10&quot; readonly=&quot;readonly&quot;&gt;
+&amp;lt;meta http-equiv=&quot;content-type&quot; content=&quot;application/xhtml+xml; charset=utf-8&quot; /&amp;gt;
+&amp;lt;html/&amp;gt;
+&amp;lt;head/&amp;gt;
+    &amp;lt;style/&amp;gt;
+        #mapDiv 
+        {
+            position:relative;
+            width:100%;
+            height:100%;
+            border: 1px solid gray; 			
+        }	
+    &amp;lt;/style/&amp;gt;
+
+    &amp;lt;script src=&quot;../js/Xr.js&quot;/&amp;gt;&amp;lt;/script/&amp;gt;
+
+    &amp;lt;script type=&quot;text/javascript&quot;/&amp;gt;
+       // &amp;lt;ToDo/&amp;gt;
+    &amp;lt;/script/&amp;gt;
+&amp;lt;/head&gt;
+
+&amp;lt;body onload=&quot;load()&quot; onresize=&quot;onResize()&quot;)&gt;
+    &amp;lt;div id=&quot;mapDiv&quot;&quot;/&amp;gt;&amp;lt;/div/&amp;gt;
+&amp;lt;/body/&amp;gt;
+&amp;lt;/html/&amp;gt;
+&lt;/pre&gt;
+
+&lt;P&gt;중요한 부분만을 언급하면, 14번 코드에서 FingerEyes-Xr 라이브러리를 가져옵니다. 그리고 지도가 표시될 div를 22번에서 정의하고 이 div에 대한 스타일을 5~11번 코드를 통해 지정합니다. 21번 코드의 onload 이벤트에서 지도를 초기화하고 레이어를 추가하는 등의 코드가 들어갈 것입니다. 이 코드들은 17번 코드에 보이는 &amp;lt;ToDo&amp;gt; 라인에서부터 정의될 것입니다.&lt;/P&gt;
+
+&lt;P&gt;&amp;lt;ToDo&amp;gt;에 들어갈 코드를 살펴보겠습니다.&lt;/P&gt;
+
+&lt;pre name=&quot;CodeHighLighterCode&quot; class=&quot;brush:cpp;&quot; cols=&quot;60&quot; rows=&quot;10&quot; readonly=&quot;readonly&quot;&gt;
+var map = null;
+
+function load() {
+    map = new Xr.Map(&quot;mapDiv&quot;, {});
+			
+    var lyr = new Xr.layers.TileMapLayer(&quot;basemap&quot;, 
+        {
+            proxy: &quot;http://222.237.78.208:8080/Xr&quot;,
+            url: &quot;http://222.237.78.208:8080/yp_tiles/a&quot;,
+            ext: &quot;jpg&quot;
+        }
+    );
+	 		
+    var shpLyr = new Xr.layers.ShapeMapLayer(&quot;jibun&quot;, 
+        {
+            url: &quot;http://222.237.78.208:8080/Xr?layerName=JIBUN&quot;
+        }
+    );
+			
+    var label = shpLyr.getLabel();
+    label.setEnable(true);
+    label.setFieldName(&quot;JIBUN&quot;);
+			
+    var lm = map.getLayerManager();
+    lm.addLayer(lyr);
+    lm.addLayer(shpLyr);
+		
+    map.setAllLayersReady(
+        function() {
+            var mbr = shpLyr.getMBR();
+            var cm = map.getCoordMapper();
+
+            cm.zoomByMBR(mbr);
+            cm.zoomByMapScale(1000);
+
+            map.update();
+        }
+    ); 
+}
+
+function onResize() {
+    map.resize(mapDiv.clientWidth, mapDiv.clientHeight);
+    map.update();
+}
+&lt;/pre&gt;
+
+&lt;P&gt;위의 코드에는 항공영상 레이어와 지적도에 대한 수치지도 레이어를 추가하는 코드와 지적도에 대해서는 지번에 대한 라벨을 표시하고 있습니다. 항공영상지도 레이어를 추가하는 코드는 6~12번 코드를 통해 정의하고 25번 코드에서 추가하고 있습니다. 그리고 수치지도 레이어는 14~18번 코드에서 정의하고 20~22번 코드를 통해 지번 라벨을 지정하고 있으며 26번 코드에서 레이어로 추가하고 있습니다. 27번 코드는 이 두개의 레이어가 모두 완전하게 추가되었을 때 실행될 콜백(callback) 함수를 정의하고 있고 이 콜백함수에서는 지도가 표시될 위치와 지도 축척(여기서는 1:1000)을 지정하고 있습니다.&lt;/P&gt;
+
+&lt;P&gt;보시는 것처럼 코드를 통해 쉽게 레이어를 추가할 수 있습니다. FingerEyes-Xr for HTML5는 향후 지속될 진정한 웹기반의 GIS 엔진으로 GIS의 고급기능을 위한 세부적인 API를 지원합니다. 기본적인 지도 표출에서 부터 공간 데이터의 편집, 공간연산 및 분석(Geoprocesing), 지도 기반의 통계(Geograph)에 대한 프리젠테이션 그리고 지오코딩(Geocoding) 및 라우팅(Routing)에 이르기까지 하나의 제대로된 GIS 시스템을 구축하고 개발하는 필요한 세세한 API를 모두 제공하고 있습니다.&lt;/P&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.gisdeveloper.co.kr/entry/test-1?commentInput=true#entry1032WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<author>hjkim@geoservice.co.kr (Dip2K)</author>
+			<guid>http://www.gisdeveloper.co.kr/1032</guid>
+			<comments>http://www.gisdeveloper.co.kr/entry/test-1#entry1032comment</comments>
+			<pubDate>Thu, 21 Aug 2014 10:30:31 +0900</pubDate>
+		</item>
+		<item>
+			<title>[JavaScript] UTF-8 코드값으로부터 String 구성하기</title>
+			<link>http://www.gisdeveloper.co.kr/entry/JavaScript-UTF-8-%EC%BD%94%EB%93%9C%EA%B0%92%EC%9C%BC%EB%A1%9C%EB%B6%80%ED%84%B0-String-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0</link>
+			<description>&lt;P&gt;UTF-8은 ASCII 코드값은 1바이트로, 유럽권 문자는 2바이트로, 아시아권 문자는 3바이트로 구성함으로써 전세계 모든 언어를 처리할 수 있는 유니코드 중 하나입니다. 저는 기존에 편의상 EUC-KR을 사용했으나 이제부터는 UTF-8을 먼저 고려하고 사용해야한다고 생각하게 되었습니다.&lt;/P&gt;
+
+&lt;P&gt;아래의 코드는 DataView 객체에 저장된 UTF-8 코드값으로부터 String으로 구성하는 코드입니다. 변환 속도를 위해 다소 코드가 난해 합니다. 제가 개발한 서버에서 문자열 데이터를 UTF8로 인코딩된 바이너리 데이터로 웹브러우저로 보내게 되는데 이때 사용한 코드입니다.&lt;/P&gt;
+
+&lt;pre name=&quot;CodeHighLighterCode&quot; class=&quot;brush:cpp;&quot; cols=&quot;60&quot; rows=&quot;10&quot; readonly=&quot;readonly&quot;&gt;
+function getStringUTF8(dataview, offset, length) {
+    var s = &#039;&#039;;
+
+    for (var i = 0, c; i &lt; length;) {
+        c = dataview.getUint8(offset + i++);
+        s += String.fromCharCode(
+            c &gt; 0xdf &amp;&amp; c &lt; 0xf0 &amp;&amp; i &lt; length - 1
+            ? (c &amp; 0xf) &lt;&lt; 12 | (dataview.getUint8(offset + i++) &amp; 0x3f) &lt;&lt; 6 
+            | dataview.getUint8(offset + i++) &amp; 0x3f
+            : c &gt; 0x7f &amp;&amp; i &lt; length
+            ? (c &amp; 0x1f) &lt;&lt; 6 | dataview.getUint8(offset + i++) &amp; 0x3f
+            : c
+        );
+    }
+    
+    return s;
+}
+&lt;/pre&gt;
+
+&lt;P&gt;짧은 코드이지만 몇일 동안 고민하고 고민하던 차에 만난... 저에게는 매우 의미있고 값진 코드입니다. ^^;&lt;/P&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.gisdeveloper.co.kr/entry/JavaScript-UTF-8-%EC%BD%94%EB%93%9C%EA%B0%92%EC%9C%BC%EB%A1%9C%EB%B6%80%ED%84%B0-String-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0?commentInput=true#entry1031WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>JavaScript</category>
+			<author>hjkim@geoservice.co.kr (Dip2K)</author>
+			<guid>http://www.gisdeveloper.co.kr/1031</guid>
+			<comments>http://www.gisdeveloper.co.kr/entry/JavaScript-UTF-8-%EC%BD%94%EB%93%9C%EA%B0%92%EC%9C%BC%EB%A1%9C%EB%B6%80%ED%84%B0-String-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0#entry1031comment</comments>
+			<pubDate>Tue, 19 Aug 2014 21:36:15 +0900</pubDate>
+		</item>
+		<item>
+			<title>[JavaScript] String을 XMLDocument 객체로 변환하기</title>
+			<link>http://www.gisdeveloper.co.kr/entry/JavaScript-String%EC%9D%84-XMLDocument-%EA%B0%9D%EC%B2%B4%EB%A1%9C-%EB%B3%80%ED%99%98%ED%95%98%EA%B8%B0</link>
+			<description>&lt;P&gt;일반적인 XML 형식으로 구성된 문자열을 파싱(Parsing)하기 위해서 XMLDocument 객체로 변환해야 할 경우가 있습니다. 저 같은 경우 Cross Domain 문제로 인해 Proxy를 통해 통신을 하고자 했는데, 해당 Proxy 서버가 다루는 데이터가 범용인지라 이 서버를 통해 AJAX 통신을 하면 XML 객체로 받아지지 않고 Text로 받아지는 문제가 있어 부득이 String을 XMLDocument 객체로 변환해야 했습니다.&lt;/P&gt;
+
+&lt;pre name=&quot;CodeHighLighterCode&quot; class=&quot;brush:cpp;&quot; cols=&quot;60&quot; rows=&quot;10&quot; readonly=&quot;readonly&quot;&gt;
+function getXmlFromString(xmlStr) {
+    var parseXml;
+
+    if (window.DOMParser) {
+        var dp = new window.DOMParser();
+        return dp.parseFromString(xmlStr, &quot;text/xml&quot;);
+    } else if (typeof window.ActiveXObject != &quot;undefined&quot; 
+        &amp;&amp; new window.ActiveXObject(&quot;Microsoft.XMLDOM&quot;)) {
+        var xmlDoc = new window.ActiveXObject(&quot;Microsoft.XMLDOM&quot;);
+        xmlDoc.async = &quot;false&quot;;
+        xmlDoc.loadXML(xmlStr);
+        
+        return xmlDoc;
+    }
+
+    return null;
+}
+&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.gisdeveloper.co.kr/entry/JavaScript-String%EC%9D%84-XMLDocument-%EA%B0%9D%EC%B2%B4%EB%A1%9C-%EB%B3%80%ED%99%98%ED%95%98%EA%B8%B0?commentInput=true#entry1030WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>JavaScript</category>
+			<author>hjkim@geoservice.co.kr (Dip2K)</author>
+			<guid>http://www.gisdeveloper.co.kr/1030</guid>
+			<comments>http://www.gisdeveloper.co.kr/entry/JavaScript-String%EC%9D%84-XMLDocument-%EA%B0%9D%EC%B2%B4%EB%A1%9C-%EB%B3%80%ED%99%98%ED%95%98%EA%B8%B0#entry1030comment</comments>
+			<pubDate>Tue, 19 Aug 2014 21:26:10 +0900</pubDate>
+		</item>
+		<item>
+			<title>추천 모바일 게임, Slay</title>
+			<link>http://www.gisdeveloper.co.kr/entry/%EC%B6%94%EC%B2%9C-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EA%B2%8C%EC%9E%84-Slay</link>
+			<description>&lt;p&gt;요즘 하는 게임, Slay. 더 넓은 영토로 확장해 나가는 게임. 쉽게 말해 &#039;땅따먹기&#039; 여러가지 생각을 하게 만드는 게임. 재미도 있지만 철학이 있는 게임. 처음 시작은 작은 영토에서 시작하면서 한명. 영역은 곧 자원이고 자원이 늘어날때마다 또 한명이 추가된다. 두명의 힘을 합치면 더 큰 능력을 가진 또 다른 한명이 된다. 그러나 소모되는 자원은 처음보다 3배가 더 필요하다.&lt;/p&gt;
+
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://www.gisdeveloper.co.kr/cache/thumbnail/1/1020235466.w510-h318.png&quot; width=&quot;510&quot; height=&quot;318&quot; alt=&quot;사용자 삽입 이미지&quot;/&gt;&lt;/div&gt;
+
+&lt;p&gt;일하다가 잠시 쉬면서, 또는 전철에서 하고 나면 머리가 지끈지끈한... 그러나 철학이 있어, 게임 중에도 그리고 끝난 후에도 생각을 하게 만드는 그런 좋은 게임. 화려함은 없고 규칙은 단순하며 삶에서 일어나는 것들을 어느 정도 투영하고 있는 게임, Slay. 개발자로써 이런 게임하나 만들어 보고 싶은 생각이 드는 게임이다. 정해진 시간 안에 끝내는 것이 아닌지라 천천히 생각해 가면서 결정하면 되는 신중하게 진행할 수 있는 기다릴 줄 아는 게임이다.&lt;/p&gt;
+
+&lt;p&gt;처음 확장을 위해 좋은 곳에 터를 잡아야 한다. 터가 나쁘면 아무리 뛰어난 능력이 있을지라도 확장하기 불가능하다. 다행히 이 게임은 처음 시작할 때 여러 개의 터를 제공한다. 여러 개의 터 중에 좋은 터 하나를 잘 선택해야 한다. 가능하다면 여러개의 터를 이어서 빨리 확장할 수 있다면 좋을 것이다.&lt;/p&gt;
+
+&lt;p&gt;처음 시작할때 각 터에는 단 한명의 사람이 있다. 이 사람은 별다른 능력이 없는 일반 시민이다. 터의 범위를 확장해 나가면 새로운 시민이 하나 추가되는데, 가능하다면 이 두 사람을 합쳐서 병사로 만든다. 병사는 시민을 죽일 수 있고 건물은 부술 수 있으나 성은 파괴할 수 없다. 성은 수비를 위한 것이다. 성을 만들기 위해서 생산할 수 있는 시민을 희생해야 한다.&lt;/P&gt;
+
+&lt;P&gt;병사 2명을 합치면 기사가 되고 기사는 병사와 시민을 죽일 수 있고 건물과 성 모두를 파괴할 수 있다. 기사 2명을 합하면 더 상위의 기사가 만들어지고 이 상위의 기사는 시민, 병사, 기사는 물론 건물, 성을 부술 수 있다. 자기가 죽일 수 없는, 또 부술 수 없는 것의 주위에는 접근할 수 없다는 규칙이 있다.&lt;/p&gt;
+
+&lt;p&gt;여기서 조심해야 할 것은 자원이다. 시민은 자원 2가 필요하고 병사는 자원 6이 필요하며 기사는 자원 18이 필요하고 상위 기사는 자원 54가 필요하다. 지원은 영토의 넓이 인데 자원이 부족하면 한 순간에 전멸한다. 이미 소유한 내 영역이라고 안심할 수 있는 것은 아닌데, 이유는 이 영역에 나무가 자라기 때문이다. 나무가 자라는 곳에서는 자원이 나오지 않는다. 계속 확장을 하면서 이미 가지고 있는 영역도 관리를 해야만 한다. 확장에 정신이 팔려 나무를 신경쓰지 않으면 자원 부족으로 전멸할 수 있다. 나무는 생각 이상으로 빠르게 확장해 자란다.&lt;/p&gt;
+
+&lt;p&gt;추천하는 이 게임, Slay. 꼭 해보시기 바란다.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.gisdeveloper.co.kr/entry/%EC%B6%94%EC%B2%9C-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EA%B2%8C%EC%9E%84-Slay?commentInput=true#entry1029WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>스치는 생각들</category>
+			<author>hjkim@geoservice.co.kr (Dip2K)</author>
+			<guid>http://www.gisdeveloper.co.kr/1029</guid>
+			<comments>http://www.gisdeveloper.co.kr/entry/%EC%B6%94%EC%B2%9C-%EB%AA%A8%EB%B0%94%EC%9D%BC-%EA%B2%8C%EC%9E%84-Slay#entry1029comment</comments>
+			<pubDate>Wed, 13 Aug 2014 10:48:48 +0900</pubDate>
+		</item>
+		<item>
+			<title>[BlackPoint-Xr] 다양한 조건에 대한 주제도 표현</title>
+			<link>http://www.gisdeveloper.co.kr/entry/BlackPoint-Xr-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%A1%B0%EA%B1%B4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A3%BC%EC%A0%9C%EB%8F%84-%ED%91%9C%ED%98%84</link>
+			<description>&lt;p&gt;고객의 다양한 요구 사항이 있었으니..., 바로, &lt;strong&gt;&quot;어떤 시설물이 있는데 이 시설물의 형태가 박스나 매몰 또는 전동에 따라 다른 모양이여야 하고 철거되면 검정색으로 표시하고 철거가 아닌 경우에는 고압이면 빨간색, 중압이면 노란색, 저압이면 초록색으로 표시되는데 여기서 재질이 철재이면 선의 굵기를 굵게하고 플라스틱이면 얇게 해주기 바랍니다.&quot;&lt;/strong&gt; 뚜두쿵.. =_=; 이 시설물은 단 하나의 레이어로 되어 있고 각 조건에 따라 여러 개의 레이어로 세분화시킬 수 없습니다. 이처럼 속성값의 다양한 조건에 따라 도형을 표시하는 심벌을 선택할 수 있는 방법이 ProgrammableDrawShapeTheme을 이용하는 것입니다.&lt;/p&gt;
+
+&lt;p&gt;이 클래스의 이름에서 알 수 있는 것처럼 도형(Shape)를 그리기 위한 테마(Theme)를 프로그래밍할 수 있는 기능을 제공합니다. 이 클래스를 적용할 수 있는 레이어는 수치지도 레이어에 해당하는 ShapeLayer입니다. 아래의 코드가 ProgrammableDrawShapeTheme을 적용하는 코드 예입니다.&lt;/p&gt;&lt;p&gt;
+
+&lt;pre name=&quot;CodeHighLighterCode&quot; class=&quot;brush:cpp;&quot; cols=&quot;60&quot; rows=&quot;10&quot; readonly=&quot;readonly&quot;&gt;
+ShapeLayer lyr = new ShapeLayer(&quot;Vlv&quot;, &quot;http://localhost/Xr?layerName=VALVE&quot;);
+if(map.layers().addLayer(lyr)) {
+    ProgrammableDrawShapeTheme theme = 
+        new ProgrammableDrawShapeTheme(new CustomShapeSymbols());
+    lyr.setTheme(theme);
+}
+//
+&lt;/pre&gt;
+
+&lt;/p&gt;&lt;p&gt;위의 코드를 보면 ProgrammableDrawShapeTheme을 생성할때 파라메터로 ShapeSymbolProgrammable이라는 클래스의 객체를 사용하고 있습니다. ~able로 끝나므로 Interface라는 것을 알 수 있고 이 인터페이스를 통해 도형을 그릴때 어떤 심벌을 사용할지에 대한 부분을 정의할 수 있습니다. 아래의 코드는 ShapeSymbolProgrammable를 구현하는 앞의 예에서 언급된 CustomShapeSymbols입니다.&lt;/p&gt;
+
+&lt;pre name=&quot;CodeHighLighterCode&quot; class=&quot;brush:cpp;&quot; cols=&quot;60&quot; rows=&quot;10&quot; readonly=&quot;readonly&quot;&gt;
+package kr.co.kdgas.mfs.gis.symbols;
+
+import geoservice.blackpoint.data.AttributeRow;
+import geoservice.blackpoint.data.FieldSet;
+import geoservice.blackpoint.data.shape.IShape;
+import geoservice.blackpoint.view.shapetheme.ShapeSymbolProgrammable;
+import geoservice.blackpoint.view.symbol.ShapeSymbols;
+
+public class CustomShapeSymbols implements ShapeSymbolProgrammable {
+    public ShapeSymbols_G_VALVE() { 
+        // 초기화에 필요한 것들(
+        // 퍼포먼스를 위해 미리 심벌을 생성해 놓는다거나 ... 
+    }
+    
+    @Override
+    public ShapeSymbols makeSymbol(IShape shp, 
+        AttributeRow aRow, FieldSet fieldSet) {
+        ShapeSymbols symbol = null;
+
+        // 함수의 인자에 속성값에 접근할 수 있으니 이 속성값들을 통해 
+        // 원하는 ShapeSymbols 객체를 생성하여 반환하면 됨
+		
+        return symbol;
+    }
+}
+//
+&lt;/pre&gt;&lt;p&gt;위의 코드와 같은 방법을 이용해 실제 적용해 본 지도 화면은 다음과 같습니다.&lt;/p&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://www.gisdeveloper.co.kr/attach/1/1388077953.png&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;351&quot; width=&quot;510&quot; /&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.gisdeveloper.co.kr/entry/BlackPoint-Xr-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%A1%B0%EA%B1%B4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A3%BC%EC%A0%9C%EB%8F%84-%ED%91%9C%ED%98%84?commentInput=true#entry1028WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>BlackPoint-Xr</category>
+			<author>hjkim@geoservice.co.kr (Dip2K)</author>
+			<guid>http://www.gisdeveloper.co.kr/1028</guid>
+			<comments>http://www.gisdeveloper.co.kr/entry/BlackPoint-Xr-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%A1%B0%EA%B1%B4%EC%97%90-%EB%8C%80%ED%95%9C-%EC%A3%BC%EC%A0%9C%EB%8F%84-%ED%91%9C%ED%98%84#entry1028comment</comments>
+			<pubDate>Tue, 12 Aug 2014 14:33:40 +0900</pubDate>
+		</item>
+		<item>
+			<title>[JavaScript] 보다 더 정확한 타입(type)을 얻는 함수</title>
+			<link>http://www.gisdeveloper.co.kr/entry/JavaScript-%EB%B3%B4%EB%8B%A4-%EB%8D%94-%EC%A0%95%ED%99%95%ED%95%9C-%ED%83%80%EC%9E%85type%EC%9D%84-%EC%96%BB%EB%8A%94-%ED%95%A8%EC%88%98</link>
+			<description>&lt;p&gt;자바스크립트에는 해당 객체값에 대한 타입을 얻는 예약어로 typeof를 지원합니다. 그러나 요놈이 그다지 정확치 않는 녀석인지라 이보다 더 정확한 타입을 얻을 필요가 있을 시에 다음 함수를 사용할 수 있습니다.&lt;/p&gt;
+
+&lt;pre name=&quot;CodeHighLighterCode&quot; class=&quot;brush:cpp;&quot; cols=&quot;60&quot; rows=&quot;10&quot; readonly=&quot;readonly&quot;&gt;
+function getType(x) {
+    if (x == null) {
+        return &#039;null&#039;;
+    }
+
+    var t = typeof x;
+    if (t != &quot;object&quot;) {
+        return t;
+    }
+
+    var c = Object.prototype.toString.apply(x);
+    c = c.substring(8, c.length - 1); // [object ?]의 특성을 이용함
+
+    if (c != &quot;Object&quot;) {
+        return c;
+    }
+
+    if (c.constructor == &quot;Object&quot;) {
+        return c;
+    } else {
+        var s = x.constructor.toString();
+        var i = s.indexOf(&quot;(&quot;);
+        return s.substring(9, i); // function ?( ... 의 특성을 이용함
+    }
+
+    return &quot;unknown type&quot;;
+}
+&lt;/pre&gt;
+
+&lt;p&gt;위의 코드에 대한 테스트는 아래와 같습니다.&lt;/p&gt;
+
+&lt;pre name=&quot;CodeHighLighterCode&quot; class=&quot;brush:cpp;&quot; cols=&quot;60&quot; rows=&quot;10&quot; readonly=&quot;readonly&quot;&gt;
+function CTR(a) {
+    this.a = a;
+};
+
+document.write(typeof CTR + &quot; , &quot; + getType(CTR));
+
+var c = new CTR(1);
+document.write(typeof c + &quot; , &quot; + getType(c));
+        
+document.write(typeof new Date() + &quot; , &quot; + getType(new Date()));
+document.write(typeof new Array() + &quot; , &quot; + getType(new Array()));
+document.write(typeof 1 + &quot; , &quot; + getType(1));
+document.write(typeof &quot;hi&quot; + &quot; , &quot; + getType(&quot;hi&quot;));
+document.write(typeof this.document + &quot; , &quot; + getType(this.document));
+&lt;/pre&gt;
+
+&lt;P&gt;실행 결과는 다음과 같습니다.&lt;/P&gt;
+
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://www.gisdeveloper.co.kr/attach/1/1370282756.png&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;212&quot; width=&quot;350&quot; /&gt;&lt;/div&gt;
+
+&lt;P&gt;실행결과에 대한 각 라인의 첫번째는 자바스크립트에서 제공하는 typeof를 사용한 것이고 두번째는 보다 더 정확한 타입을 얻을 수 있는 getType 함수를 사용한 것입니다.&lt;/P&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.gisdeveloper.co.kr/entry/JavaScript-%EB%B3%B4%EB%8B%A4-%EB%8D%94-%EC%A0%95%ED%99%95%ED%95%9C-%ED%83%80%EC%9E%85type%EC%9D%84-%EC%96%BB%EB%8A%94-%ED%95%A8%EC%88%98?commentInput=true#entry1027WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>JavaScript</category>
+			<author>hjkim@geoservice.co.kr (Dip2K)</author>
+			<guid>http://www.gisdeveloper.co.kr/1027</guid>
+			<comments>http://www.gisdeveloper.co.kr/entry/JavaScript-%EB%B3%B4%EB%8B%A4-%EB%8D%94-%EC%A0%95%ED%99%95%ED%95%9C-%ED%83%80%EC%9E%85type%EC%9D%84-%EC%96%BB%EB%8A%94-%ED%95%A8%EC%88%98#entry1027comment</comments>
+			<pubDate>Mon, 11 Aug 2014 13:51:50 +0900</pubDate>
+		</item>
+		<item>
+			<title>[JavaScript] 배열인가, 아닌가?</title>
+			<link>http://www.gisdeveloper.co.kr/entry/JavaScript-%EB%B0%B0%EC%97%B4%EC%9D%B8%EA%B0%80-%EC%95%84%EB%8B%8C%EA%B0%80</link>
+			<description>&lt;P&gt;
+자바스크립트는 데이터 타입을 명시적으로 지정하는 것이 불가능한 언어이므로, 자바스크립트를 이용해 타 개발자가 사용하는 API를 개발하기 위해서는 API의 견고함을 유지하기 위해 변수의 데이터 타입을 검사하여 API가 받고자 하는 데이터 타입이 아닐 경우 예외 처리를 해주는 것이 필요합니다. 예를 들어서 어떤 함수가 있다고 할때, 이 함수가 어떤 배열을 인자로 받아 배열을 구성하는 원소를 모두 합한 값을 반환하고하 할때를 예로 들어 생각해 보겠습니다.&lt;/P&gt;
+
+&lt;pre name=&quot;CodeHighLighterCode&quot; class=&quot;brush:cpp;&quot; cols=&quot;60&quot; rows=&quot;10&quot; readonly=&quot;readonly&quot;&gt;
+function sum(a) {
+    var isArray = (a instanceof Array);
+    var isLikeArray = (a &amp;&amp; typeof a == &quot;object&quot; &amp;&amp; &quot;length&quot; in a
+        &amp;&amp; (typeof a.length == &quot;number&quot;))
+
+    if (isArray || isLikeArray) {
+        var total = 0;
+        for (var i = 0; i &lt; a.length; i++) {
+            var element = a[i];
+            if (!element) continue;
+            if (typeof element == &quot;number&quot;) {
+                total += element;
+            } else {
+                throw new Error(&quot;Element in array have to be number.&quot;);
+            }
+        }
+
+        return total;
+    } else {
+        throw new Error(&quot;Argument have to be array.&quot;);
+    }
+}
+&lt;/pre&gt;
+
+&lt;P&gt;2번 코드는 전달 받은 인자가 완벽한 배열 타입인지를 검사하는 것이고 3, 4번 코드는 인자가 최소한 객체이면서 length라는 프로퍼티를 가지고 있는지를 검사하면서 이 length의 타입이 숫자라는 것까지 검사하고 있습니다.&lt;/P&gt;
+
+&lt;P&gt;이제 인자가 배열(또는 배열로 간주할 수 있는 객체)로 판단되므로 이 배열을 구성하는 원소의 합을 구할 수 있는데, 11번 코드에서 배열을 구성하는 원소의 데이터 타입이 숫자일 경우에만 합산을 하고 그렇지 않다면 예외를 던지도록 하고 있습니다. 실제 사용 코드는 다음과 같습니다.&lt;/P&gt;
+
+&lt;pre name=&quot;CodeHighLighterCode&quot; class=&quot;brush:cpp;&quot; cols=&quot;60&quot; rows=&quot;10&quot; readonly=&quot;readonly&quot;&gt;
+alert(sum([1, 2, 3, 4, 5]));
+&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.gisdeveloper.co.kr/entry/JavaScript-%EB%B0%B0%EC%97%B4%EC%9D%B8%EA%B0%80-%EC%95%84%EB%8B%8C%EA%B0%80?commentInput=true#entry1026WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>JavaScript</category>
+			<author>hjkim@geoservice.co.kr (Dip2K)</author>
+			<guid>http://www.gisdeveloper.co.kr/1026</guid>
+			<comments>http://www.gisdeveloper.co.kr/entry/JavaScript-%EB%B0%B0%EC%97%B4%EC%9D%B8%EA%B0%80-%EC%95%84%EB%8B%8C%EA%B0%80#entry1026comment</comments>
+			<pubDate>Thu, 07 Aug 2014 09:40:51 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Java] ByteBuffer로부터 unsigned int 읽기</title>
+			<link>http://www.gisdeveloper.co.kr/entry/Java-ByteBuffer%EB%A1%9C%EB%B6%80%ED%84%B0-unsigned-int-%EC%9D%BD%EA%B8%B0</link>
+			<description>&lt;P&gt;자바는 그 창시자로부터 데이터 타입으로 unsigned가 의미가 없다는 판단에 의해 부호가 없는 정수형 데이터 타입을 지원하지 않는 우(?)를 범하였으니... 간혹 자바를 사용하는 개발자가 개고생인지라.. 개고생을 줄이고자 기록을 남깁니다.&lt;/P&gt;
+
+&lt;pre name=&quot;CodeHighLighterCode&quot; class=&quot;brush:cpp;&quot; cols=&quot;60&quot; rows=&quot;10&quot; readonly=&quot;readonly&quot;&gt;
+long v = ((long)outBb.getInt() &amp; 0xffffffffL);
+&lt;/pre&gt; 
+
+&lt;P&gt;이 얼마나 비효율의 극악을 달리는 코드인가? unsigned 값의 의도는 음수값을 가지지 않을 경우 적은 바이트수만을 활용하여 그 2배에 해당하는 양(+)의 범위 값을 가지도록 하고자 하는 선의인데, 4바이트의 unsigned int를 저장하기 위해 8바이트를 사용하고 있는 형국입니다.&lt;/P&gt;
+
+&lt;P&gt;자바 언어의 창시자인 제임스 고슬링님은 뭐하고 사시는지 살짝 궁금해지네요.. 소녀시대 팬이라는 소문도 있던데.. @_@&lt;/P&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.gisdeveloper.co.kr/entry/Java-ByteBuffer%EB%A1%9C%EB%B6%80%ED%84%B0-unsigned-int-%EC%9D%BD%EA%B8%B0?commentInput=true#entry1025WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>프로그래밍</category>
+			<author>hjkim@geoservice.co.kr (Dip2K)</author>
+			<guid>http://www.gisdeveloper.co.kr/1025</guid>
+			<comments>http://www.gisdeveloper.co.kr/entry/Java-ByteBuffer%EB%A1%9C%EB%B6%80%ED%84%B0-unsigned-int-%EC%9D%BD%EA%B8%B0#entry1025comment</comments>
+			<pubDate>Mon, 04 Aug 2014 21:29:20 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Android] View의 Background에 라운딩 상자(Rounding Box) 넣기</title>
+			<link>http://www.gisdeveloper.co.kr/entry/Android-View%EC%9D%98-Background%EC%97%90-%EB%9D%BC%EC%9A%B4%EB%94%A9-%EC%83%81%EC%9E%90Rounding-Box-%EB%84%A3%EA%B8%B0</link>
+			<description>&lt;P&gt;View의 배경에 라운딩 박스를 넣어 UI를 깔끔하게 정리해야 할때가 있습니다. 대표적인 경우로, TextView에 단순히 문자열만을 표시하지 않고 라운딩 박스를 둘러 넣어 주면 뭔가 부족한 UI가 개선됨을 느낄 수 있습니다. 아래가 이러한 예에 대해 실제 적용한 화면입니다.&lt;/P&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;img src=&quot;http://www.gisdeveloper.co.kr/attach/1/1272471744.png&quot; width=&quot;472&quot; height=&quot;128&quot; alt=&quot;사용자 삽입 이미지&quot; title=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;P&gt;아래는 이처럼 View의 배경에 라운딩 박스를 넣기 위해 View의 background 속성을 지정한 xml 단 코드입니다.&lt;/P&gt;
+
+&lt;pre name=&quot;CodeHighLighterCode&quot; class=&quot;brush:cpp;&quot; cols=&quot;60&quot; rows=&quot;10&quot; readonly=&quot;readonly&quot;&gt;
+&amp;lt;TextView 
+    android:background=&quot;@drawable/bg_gis_result_items_count&quot;
+    android:id=&quot;@+id/tbResultItemCount&quot;
+    android:layout_width=&quot;wrap_content&quot;
+    android:layout_height=&quot;wrap_content&quot;
+    android:layout_gravity=&quot;right&quot;
+    android:textColor=&quot;#ffffff&quot;
+    android:textSize=&quot;32px&quot;
+    android:layout_marginBottom=&quot;35px&quot;
+    android:layout_marginLeft=&quot;60px&quot;
+    android:layout_marginRight=&quot;120px&quot;
+    android:text=&quot;검색 결과 0 건&quot; /&amp;gt;
+&lt;/pre&gt;
+
+&lt;P&gt;위의 코드를 보면, 라운딩 박스를 적용한 뷰는 TextView이고 배경을 지정하기 위해 android:background 속성에 @drawable/bg_gis_result_items_count를 지정하였습니다. 이제 이 @drawable/bg_gis_result_items_count의 코드를 보면 아래와 같습니다.&lt;/P&gt;
+
+&lt;pre name=&quot;CodeHighLighterCode&quot; class=&quot;brush:cpp;&quot; cols=&quot;60&quot; rows=&quot;10&quot; readonly=&quot;readonly&quot;&gt;
+&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&amp;gt; 
+&amp;lt;shape xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&amp;gt; 
+    &amp;lt;solid 
+        android:color=&quot;#ffbacedd&quot; /&amp;gt;
+
+    &amp;lt;padding 
+        android:left=&quot;45px&quot;
+        android:top=&quot;15px&quot;
+        android:right=&quot;45px&quot;
+        android:bottom=&quot;15px&quot; /&amp;gt; 
+
+    &amp;lt;corners 
+        android:radius=&quot;30px&quot; /&amp;gt; 
+&amp;lt;/shape&gt;
+&lt;/pre&gt;
+
+&lt;P&gt;배경은 drawable 타입으로 지정할 수 있으며 라운딩 박스는 도형(shape)으로 지정합니다. 도형은 자신의 색상값을 지정할 수 있고 라운딩 처리는 이 도형의 corners를 통해 지정할 수 있습니다.&lt;/P&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.gisdeveloper.co.kr/entry/Android-View%EC%9D%98-Background%EC%97%90-%EB%9D%BC%EC%9A%B4%EB%94%A9-%EC%83%81%EC%9E%90Rounding-Box-%EB%84%A3%EA%B8%B0?commentInput=true#entry1024WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>Android</category>
+			<author>hjkim@geoservice.co.kr (Dip2K)</author>
+			<guid>http://www.gisdeveloper.co.kr/1024</guid>
+			<comments>http://www.gisdeveloper.co.kr/entry/Android-View%EC%9D%98-Background%EC%97%90-%EB%9D%BC%EC%9A%B4%EB%94%A9-%EC%83%81%EC%9E%90Rounding-Box-%EB%84%A3%EA%B8%B0#entry1024comment</comments>
+			<pubDate>Fri, 01 Aug 2014 17:12:22 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

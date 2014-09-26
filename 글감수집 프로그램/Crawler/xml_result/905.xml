@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Different Tastes™ Ltd.</title>
+		<link>http://differenttastes.tistory.com/</link>
+		<description>리뷰라고 쓰고 잡담이라 읽는다</description>
+		<language>ko</language>
+		<pubDate>Wed, 23 Jan 2013 21:19:59 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>신어지</managingEditor>
+		<image>
+			<title>Different Tastes™ Ltd.</title>
+			<url>http://cfile25.uf.tistory.com/image/165E34594D63B15D120D92</url>
+			<link>http://differenttastes.tistory.com</link>
+			<description>리뷰라고 쓰고 잡담이라 읽는다</description>
+		</image>
+		<item>
+			<title>SSD 교체에서 윈도우 7 &amp; 8 멀티부팅까지</title>
+			<link>http://differenttastes.tistory.com/1762</link>
+			<description>. 누군가 저와 유사한 작업 - 새로운 노트북이나 데스크탑을 구입해서 하드디스크를 SSD로 교체하고 여기에 윈도우 7과 윈도우 8을 멀티부팅(듀얼 OS) 환경으로 사용 - 을 하고자 하는데 가이드 또는 관련 정보가 필요하신 분들을 위해 씁니다. 작업 과정을 일일히 이미지로 남기지 못해 대부분 글로써만 채우는 점을 양해 바라며, 그 대신 참조하실 만한 웹페이지를 링크하겠습니다. 1. 작업 환경 : 기가바이트 T1132N Win7 (도킹 포함) - 새로..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-1762-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1762-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1762-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-right tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-yozm&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('yozm', '', '');&quot;&gt;요즘&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;embed src=&quot;http://api.v.daum.net/static/recombox3.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=39309835&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;67&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div class=&quot;another_category another_category_color_blue&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/gadgets&quot;&gt;gadgets&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1762&quot; &gt;SSD 교체에서 윈도우 7 &amp;amp; 8 멀티부팅까지&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/01/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1761&quot; &gt;기가바이트 T1132N 구입 및 사용기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/01/20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1760&quot; &gt;기가바이트 P2542F 구입 및 간단 사용기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/01/13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1736&quot; &gt;평균연비 19.8km의 위엄&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/10/12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1728&quot; &gt;아이바네즈 Ibanez RG370DX&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/09/17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>gadgets</category>
+			<category>easybcd</category>
+			<category>Macrium Reflect</category>
+			<category>SSD</category>
+			<category>T1132N</category>
+			<category>기가바이트</category>
+			<category>듀얼 운영체제</category>
+			<category>멀티부팅</category>
+			<category>업그레이드</category>
+			<category>윈도우 7</category>
+			<category>윈도우 8</category>
+			<category>플렉스터</category>
+			<author>신어지</author>
+			<guid>http://differenttastes.tistory.com/1762</guid>
+			<comments>http://differenttastes.tistory.com/1762#entry1762comment</comments>
+			<pubDate>Tue, 22 Jan 2013 00:05:03 +0900</pubDate>
+		</item>
+		<item>
+			<title>기가바이트 T1132N 구입 및 사용기</title>
+			<link>http://differenttastes.tistory.com/1761</link>
+			<description>. 기가바이트 P2542F에 이어서 일주일만에 T1132N을 추가로 구입했습니다. P2542F가 마음에 들지 않아서가 아니라 T1132N의 매력을 도저히 그냥 지나칠 수가 없었기 때문이라고 하고 싶네요. 성능 면에서는 i7-3630QM 쿼드코어 CPU와 GeForce GT-650M의 P2542F에 비할 바는 아니지만 게임을 거의 하지 않는 저에게는 T1132N의 성능이 그 보다 한참 아래급이라 하더라도 하드디스크만 SSD로 교체해주면 충분히 쾌적한..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-1761-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1761-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1761-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-right tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-yozm&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('yozm', '', '');&quot;&gt;요즘&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_blue&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/gadgets&quot;&gt;gadgets&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1762&quot; &gt;SSD 교체에서 윈도우 7 &amp;amp; 8 멀티부팅까지&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/01/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1761&quot; &gt;기가바이트 T1132N 구입 및 사용기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/01/20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1760&quot; &gt;기가바이트 P2542F 구입 및 간단 사용기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/01/13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1736&quot; &gt;평균연비 19.8km의 위엄&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/10/12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1728&quot; &gt;아이바네즈 Ibanez RG370DX&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/09/17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>gadgets</category>
+			<category>SSD</category>
+			<category>T1132N</category>
+			<category>구입기</category>
+			<category>기가바이트</category>
+			<category>노트북</category>
+			<category>도킹스테이션</category>
+			<category>사용기</category>
+			<category>태블릿 PC</category>
+			<category>터치 스크린</category>
+			<category>플렉스터</category>
+			<author>신어지</author>
+			<guid>http://differenttastes.tistory.com/1761</guid>
+			<comments>http://differenttastes.tistory.com/1761#entry1761comment</comments>
+			<pubDate>Sun, 20 Jan 2013 00:46:06 +0900</pubDate>
+		</item>
+		<item>
+			<title>기가바이트 P2542F 구입 및 간단 사용기</title>
+			<link>http://differenttastes.tistory.com/1760</link>
+			<description>. 노트북 지름신께서 2년 만에 어김없이 다시 찾아오셨습니다. 그간 사용해오던 환경은 13인치 울트라북에 따로 128GB 용량의 SSD를 구입해 달아주고 여기에 22인치 풀HD LCD 모니터를 연결한 듀얼스크린이었습니다. 그간 1366 × 768 해상도의 메인 화면이 약간 답답하다는 점 외에는 특별히 아쉬울 것이 없었는데 얼마전 3년 품질보증의 SSD가 사망하시면서 노트북 기변을 겸한 업그레이드를 고려하게 되었습니다. 보증기간이 1년이나 남은 SSD..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-1760-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1760-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1760-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-right tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-yozm&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('yozm', '', '');&quot;&gt;요즘&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;embed src=&quot;http://api.v.daum.net/static/recombox3.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=38926170&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;67&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div class=&quot;another_category another_category_color_blue&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/gadgets&quot;&gt;gadgets&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1762&quot; &gt;SSD 교체에서 윈도우 7 &amp;amp; 8 멀티부팅까지&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/01/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1761&quot; &gt;기가바이트 T1132N 구입 및 사용기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/01/20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1760&quot; &gt;기가바이트 P2542F 구입 및 간단 사용기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/01/13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1736&quot; &gt;평균연비 19.8km의 위엄&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/10/12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1728&quot; &gt;아이바네즈 Ibanez RG370DX&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/09/17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>gadgets</category>
+			<category>GiGABYTE</category>
+			<category>P2542F</category>
+			<category>개봉기</category>
+			<category>구입기</category>
+			<category>기가바이트</category>
+			<category>노트북</category>
+			<category>사용기</category>
+			<category>팬타소스</category>
+			<author>신어지</author>
+			<guid>http://differenttastes.tistory.com/1760</guid>
+			<comments>http://differenttastes.tistory.com/1760#entry1760comment</comments>
+			<pubDate>Sun, 13 Jan 2013 18:27:50 +0900</pubDate>
+		</item>
+		<item>
+			<title>진주와 구름이 @ 2012.10~12</title>
+			<link>http://differenttastes.tistory.com/1759</link>
+			<description>.  좀 컸다고 요즘 이러고 논다능 ;;; (아예 19금인 장면은 자체 검열 처리)  제법 어른묘 티가 나는 구름이와 진주  구름이의 아저씨묘 설정 샷  사랑은 같은 방향을 바라보는 것...  ... 헉 ;;;  부쩍 크긴 했다지만 이럴 땐 영락없는 아기 고양이 (만 8개월 되기 조금 전)  캣닢 쿠션 삼매경 &quot;두 개 다 내끄야~!!&quot; vs &quot;아 이 색히가...&quot;  만 9개월이 된 꼬마신랑 구름이  이제 한 살이 되어가는 처녀묘 진주 (지난 며칠 발..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-1759-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1759-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1759-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-right tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-yozm&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('yozm', '', '');&quot;&gt;요즘&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_blue&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/cats&quot;&gt;cats&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1759&quot; &gt;진주와 구름이 @ 2012.10~12&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/09/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1757&quot; &gt;진주와 구름이 @ 2012.04.22&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/04/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1756&quot; &gt;구름, 100%의 완벽한 두번째 고양이&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/04/11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1755&quot; &gt;고양이 진주의 오늘&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/04/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1754&quot; &gt;과천 서울동물병원과 의왕 우리집동물병원, 그리고 뉴욕캣&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/02/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>cats</category>
+			<category>고양이</category>
+			<category>구름</category>
+			<category>브리티쉬 숏헤어</category>
+			<category>스코티쉬 폴드</category>
+			<category>진주</category>
+			<author>신어지</author>
+			<guid>http://differenttastes.tistory.com/1759</guid>
+			<comments>http://differenttastes.tistory.com/1759#entry1759comment</comments>
+			<pubDate>Sat, 22 Sep 2012 16:08:07 +0900</pubDate>
+		</item>
+		<item>
+			<title>프라하, 체코</title>
+			<link>http://differenttastes.tistory.com/1758</link>
+			<description>.          프라하, 체코 2012. 6. 9&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-1758-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1758-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1758-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-right tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-yozm&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('yozm', '', '');&quot;&gt;요즘&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_blue&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/photos&quot;&gt;photos&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1758&quot; &gt;프라하, 체코&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/06/24&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1735&quot; &gt;주문진&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/10/12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1729&quot; &gt;브런치 @ 카페 마마스&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/09/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1721&quot; &gt;trip to NY (2)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/08/12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1720&quot; &gt;Dizzy's Club&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/08/11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>photos</category>
+			<category>사진</category>
+			<category>여행</category>
+			<category>체코</category>
+			<category>프라하</category>
+			<author>신어지</author>
+			<guid>http://differenttastes.tistory.com/1758</guid>
+			<comments>http://differenttastes.tistory.com/1758#entry1758comment</comments>
+			<pubDate>Sun, 24 Jun 2012 15:26:31 +0900</pubDate>
+		</item>
+		<item>
+			<title>진주와 구름이 @ 2012.04.22</title>
+			<link>http://differenttastes.tistory.com/1757</link>
+			<description>.       진주와 구름이 2012. 4. 22&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-1757-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1757-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1757-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-right tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-yozm&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('yozm', '', '');&quot;&gt;요즘&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_blue&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/cats&quot;&gt;cats&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1759&quot; &gt;진주와 구름이 @ 2012.10~12&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/09/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1757&quot; &gt;진주와 구름이 @ 2012.04.22&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/04/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1756&quot; &gt;구름, 100%의 완벽한 두번째 고양이&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/04/11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1755&quot; &gt;고양이 진주의 오늘&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/04/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1754&quot; &gt;과천 서울동물병원과 의왕 우리집동물병원, 그리고 뉴욕캣&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/02/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>cats</category>
+			<category>고양이</category>
+			<category>구름</category>
+			<category>자묘</category>
+			<category>진주</category>
+			<author>신어지</author>
+			<guid>http://differenttastes.tistory.com/1757</guid>
+			<comments>http://differenttastes.tistory.com/1757#entry1757comment</comments>
+			<pubDate>Sun, 22 Apr 2012 09:05:43 +0900</pubDate>
+		</item>
+		<item>
+			<title>구름, 100%의 완벽한 두번째 고양이</title>
+			<link>http://differenttastes.tistory.com/1756</link>
+			<description>.    이름 : 구름 (남) 품종 : 스코티쉬 폴드 생년월일 : 2012. 3. 3 입양일 : 2012. 4. 11&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-1756-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1756-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1756-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-right tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-yozm&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('yozm', '', '');&quot;&gt;요즘&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_blue&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/cats&quot;&gt;cats&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1759&quot; &gt;진주와 구름이 @ 2012.10~12&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/09/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1757&quot; &gt;진주와 구름이 @ 2012.04.22&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/04/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1756&quot; &gt;구름, 100%의 완벽한 두번째 고양이&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/04/11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1755&quot; &gt;고양이 진주의 오늘&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/04/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1754&quot; &gt;과천 서울동물병원과 의왕 우리집동물병원, 그리고 뉴욕캣&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/02/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>cats</category>
+			<category>고양이</category>
+			<category>구름</category>
+			<category>스코티쉬 폴드</category>
+			<category>올 화이트</category>
+			<category>입양</category>
+			<author>신어지</author>
+			<guid>http://differenttastes.tistory.com/1756</guid>
+			<comments>http://differenttastes.tistory.com/1756#entry1756comment</comments>
+			<pubDate>Wed, 11 Apr 2012 16:42:25 +0900</pubDate>
+		</item>
+		<item>
+			<title>고양이 진주의 오늘</title>
+			<link>http://differenttastes.tistory.com/1755</link>
+			<description>. 펫샵에서 얻어왔던 귀 진드기와 감기 증상들, 그리고 한 달 내내 아침 저녁으로 소독하고 연고 바르고 물약까지 먹어야 했던 곰팡이성 피부병까지 모두 이겨내고 건강하게 잘 자라주고 있는 고양이 진주의 오늘 모습입니다. 이제 만 3개월 정도가 되어가는데 일주일 전에 재본 몸무게가 벌써 1.3kg이었네요. 그간 2차 종합 예방접종까지 치뤘고 면역력 강화를 위해 초유를 아침 저녁으로 급여해준 결과 이제는 어엿한 소녀묘가 되었습니다. 요즘은 최초의 결심 그..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-1755-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1755-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1755-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-right tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-yozm&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('yozm', '', '');&quot;&gt;요즘&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_blue&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/cats&quot;&gt;cats&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1757&quot; &gt;진주와 구름이 @ 2012.04.22&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/04/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1756&quot; &gt;구름, 100%의 완벽한 두번째 고양이&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/04/11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1755&quot; &gt;고양이 진주의 오늘&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/04/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1754&quot; &gt;과천 서울동물병원과 의왕 우리집동물병원, 그리고 뉴욕캣&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/02/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1753&quot; &gt;초보 집사의 쇼핑 리스트&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/02/12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>cats</category>
+			<category>고양이</category>
+			<category>브리티쉬 숏헤어</category>
+			<category>애묘</category>
+			<category>진주</category>
+			<author>신어지</author>
+			<guid>http://differenttastes.tistory.com/1755</guid>
+			<comments>http://differenttastes.tistory.com/1755#entry1755comment</comments>
+			<pubDate>Sat, 07 Apr 2012 13:48:59 +0900</pubDate>
+		</item>
+		<item>
+			<title>과천 서울동물병원과 의왕 우리집동물병원, 그리고 뉴욕캣</title>
+			<link>http://differenttastes.tistory.com/1754</link>
+			<description>. 입양한지 2주가 된 진주를 데리고 과천서울동물병원을 찾았습니다. 언젠가 중성화 수술을 시키게 될 것을 감안해서 첫번째 예방접종을 받게 해줄 겸, 미리 탐방을 해두자는 취지였죠. 더군다나 집에서 차로 15분 밖에 걸리지 않는 가까운 거리이기 때문에 기왕이면 중성화 수술 때문만이 아니라 진주의 주치 의원으로 삼았으면 좋겠다고 생각했습니다. 과천서울동물병원은 그러잖아도 호불호가 심히 갈리고 있는 곳인데요, 그래서 어느 정도 마음의 준비는 하고 갔더랬습..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-1754-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1754-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1754-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-right tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-yozm&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('yozm', '', '');&quot;&gt;요즘&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_blue&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/cats&quot;&gt;cats&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1756&quot; &gt;구름, 100%의 완벽한 두번째 고양이&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/04/11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1755&quot; &gt;고양이 진주의 오늘&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/04/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1754&quot; &gt;과천 서울동물병원과 의왕 우리집동물병원, 그리고 뉴욕캣&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/02/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1753&quot; &gt;초보 집사의 쇼핑 리스트&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/02/12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1752&quot; &gt;진주, 100%의 완벽한 첫번째 고양이&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/02/05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>cats</category>
+			<category>고양이</category>
+			<category>과천서울동물병원</category>
+			<category>내손동</category>
+			<category>뉴욕캣</category>
+			<category>예방접종</category>
+			<category>우리집동물병원</category>
+			<category>의왕</category>
+			<category>진드기</category>
+			<author>신어지</author>
+			<guid>http://differenttastes.tistory.com/1754</guid>
+			<comments>http://differenttastes.tistory.com/1754#entry1754comment</comments>
+			<pubDate>Sat, 18 Feb 2012 23:53:55 +0900</pubDate>
+		</item>
+		<item>
+			<title>초보 집사의 쇼핑 리스트</title>
+			<link>http://differenttastes.tistory.com/1753</link>
+			<description>.  나름 고양이를 위해 장만한 살림 리스트라고도 할 수 있겠다. 함께 살기 위해 아주 필수적인 항목도 있고 굳이 갖출 필요가 없거나 다른 대체재를 사용할 수 있는 것들도 있다. 일주일 전에 진주를 입양하면서 일종의 &quot;스타터를 위한 용품 패키지&quot;를 구입했다. 그야말로 경험이 전무했기 때문에 기본적인 것들을 한방에 해결해주는 장점은 있지만 디자인이나 색상, 재질 등이 마음에 들지 않아 조만간 다시 교체 구입을 하고 싶게 만드는 물건들로 구성되곤 한다는..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-1753-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1753-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1753-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-right tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-yozm&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('yozm', '', '');&quot;&gt;요즘&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_blue&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/cats&quot;&gt;cats&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1755&quot; &gt;고양이 진주의 오늘&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/04/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1754&quot; &gt;과천 서울동물병원과 의왕 우리집동물병원, 그리고 뉴욕캣&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/02/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1753&quot; &gt;초보 집사의 쇼핑 리스트&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/02/12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1752&quot; &gt;진주, 100%의 완벽한 첫번째 고양이&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/02/05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/1751&quot; &gt;유기동물 입양 캠페인 @ 이태원&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(3)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/01/28&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>cats</category>
+			<category>고양이 기르기</category>
+			<category>로얄캐닌</category>
+			<category>브리숏</category>
+			<category>브리티쉬 숏헤어</category>
+			<category>스크래치</category>
+			<category>애묘</category>
+			<category>용품</category>
+			<author>신어지</author>
+			<guid>http://differenttastes.tistory.com/1753</guid>
+			<comments>http://differenttastes.tistory.com/1753#entry1753comment</comments>
+			<pubDate>Sun, 12 Feb 2012 09:13:05 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

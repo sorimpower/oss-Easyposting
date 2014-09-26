@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>머샤의 인생과 웃기는 고양이</title>
+		<link>http://halfenif.tistory.com/</link>
+		<description>Welcom Back Tatter.</description>
+		<language>ko</language>
+		<pubDate>Tue, 31 Jan 2012 15:12:17 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>머샤머샤</managingEditor>
+		<image>
+		<title>머샤의 인생과 웃기는 고양이</title>
+		<url><![CDATA[http://cfs1.tistory.com/upload_control/download.blog?fhandle=YmxvZzIwMDgzQGZzMS50aXN0b3J5LmNvbTovYXR0YWNoLzAvMC5qcGc%3D]]></url>
+		<link>http://halfenif.tistory.com/</link>
+		<description>Welcom Back Tatter.</description>
+		</image>
+		<item>
+			<title>Maven 명령어 실행에 따른 파일 갯수의 변화</title>
+			<link>http://halfenif.tistory.com/141</link>
+			<description>&lt;p style=&quot;margin:0&quot;&gt;&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/1825D2534E323F360B7E47&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Mavan 실행 명령에 따른 파일 갯수의 변화.png&quot; height=&quot;157&quot; width=&quot;577&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;/p&gt;
+Maven을 사용하여 컴파일을 하고 테스트를 하면 당연히 프로젝트 내부에 있는 파일의 변화가 발생합니다. &lt;br /&gt;
+(누가 이런거에 관심을 가지겠냐마는... :&#039;)&lt;br /&gt;
+&lt;br /&gt;
+위 표는 Maven archetype 112번 sample로 테스트 한 것으로... (하여간)&lt;br /&gt;
+&lt;br /&gt;
+위 에서 주시하는 내용은 &amp;nbsp;&lt;br /&gt;
+* compile 명령은 target의 class를 생성합니다.&lt;br /&gt;
+* test 명령은 target의 class와 test-class를 모두 생성합니다. 그리고 Test Result를 .txt, ,xml File로 생성합니다.&lt;br /&gt;
+* package 명령은 test까지 포함하는 작업을 수행하고 .jar와 .properties File을 생성합니다.&lt;br /&gt;
+* clean 명령은 다시 깨끗하게 지워주는 군요 :&#039;)&lt;br /&gt;
+&lt;br /&gt;
+생각해 보면 당연한 것이데... :&#039;)&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+조사는 File 확장자 분석기 프로그램을 사용했습니다. :&#039;) &lt;a href=&quot;http://halfenif.tistory.com/140&quot;&gt;http://halfenif.tistory.com/140&lt;/a&gt;&amp;nbsp;</description>
+			<category>ALM</category>
+			<category>maven</category>
+			<author>머샤머샤</author>
+			<guid>http://halfenif.tistory.com/141</guid>
+			<comments>http://halfenif.tistory.com/141#entry141comment</comments>
+			<pubDate>Fri, 29 Jul 2011 11:35:01 +0900</pubDate>
+		</item>
+		<item>
+			<title>HDD 안에 있는 파일용량 정리</title>
+			<link>http://halfenif.tistory.com/140</link>
+			<description>&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/163519414E2FAE361A48B0&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HDD에 존재하는 파일 사이즈.png&quot; height=&quot;440&quot; width=&quot;393&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+도데체 HDD안에는 무슨 파일들이 얼마나 들어 있는 것일까요? 대부분 쓸모없는 동영상 파일들이겠지만 말입니다.&lt;br /&gt;
+&lt;br /&gt;
+첨부한 실행파일은 특정 폴더에 포함된 파일을 분석해서 확장자별로 구별 해 주는 프로그램입니다.&lt;br /&gt;
+(원래는 형상관리 실루엣 레파지토리 구성 할 때 관리 할 소스파일의 유형을 도출하기 위한 도구입니다만...)&lt;br /&gt;
+&lt;br /&gt;
+&amp;nbsp;&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/12378A4C4E2FAF501177C4&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;FEA실행순서.png&quot; height=&quot;472&quot; width=&quot;663&quot;/&gt;&lt;/div&gt;첨부한 프로그램을 실행하시고 1,2,3 순서로 조작 하시면 폴더에 포함된 파일 확장자별 용량을 구하실수 있습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+아래 첨부파일은 확장자 분석기 실행파일입니다.&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://halfenif.tistory.com/attachment/cfile23.uf@117AA9474E2FAFEA23AFEF.zip&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/zip.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; FEA.zip&lt;/a&gt;&lt;/div&gt;&lt;/p&gt;
+&amp;nbsp;&lt;p&gt;&lt;/p&gt;</description>
+			<category>ALM</category>
+			<category>Folder 용량분석</category>
+			<category>HDD 용량분석</category>
+			<category>디스크 사용량</category>
+			<category>파일 용량분석</category>
+			<author>머샤머샤</author>
+			<guid>http://halfenif.tistory.com/140</guid>
+			<comments>http://halfenif.tistory.com/140#entry140comment</comments>
+			<pubDate>Wed, 27 Jul 2011 15:28:48 +0900</pubDate>
+		</item>
+		<item>
+			<title>진짜 성능 테스트는 소셜커머스가 정답 1,2,3</title>
+			<link>http://halfenif.tistory.com/139</link>
+			<description>&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/112064534DBC8F482A469F&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;맥도날드.png&quot; height=&quot;436&quot; width=&quot;663&quot;/&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+티몬을 통해서 맥도날드에서 아이스커피 무료쿠폰을 뿌린결과입니다.&lt;br /&gt;
+&lt;br /&gt;진짜 저렴하게 확실한 성능테스트를 하고 싶은면, 이 정도의 이벤트면 될 듯 :)&lt;br /&gt;
+&lt;br /&gt;22만 5천장&amp;nbsp;x&amp;nbsp;1,800원 = 405,000,000원 (4억 5백만원)&lt;br /&gt;
+(저렴하지는 않군요 :)&lt;br /&gt;
+&lt;br /&gt;초당 처리건수, 이런 Data가 궁금하기는 합니다 :)&lt;br /&gt;
+&lt;br /&gt;덧붙임. (푸하하...)&lt;br /&gt;
+&amp;gt; 이건 가히 맥도날드사태라 불릴만 하다.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/2014263B4DBCCEFE03A1BC&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;맥도날드_1.png&quot; height=&quot;440&quot; width=&quot;663&quot;/&gt;&lt;/div&gt;12시에 다시 열었으나.. &lt;br /&gt;
+1. 곧바로 서버다운? (아님 의도된 수순?)&lt;br /&gt;
+2. 구매 강제종료&lt;br /&gt;
+3. 사용자들 항의시작.&lt;br /&gt;
+&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/1214263B4DBCCEFF049F1F&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;맥도날드_2.png&quot; height=&quot;902&quot; width=&quot;663&quot;/&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+덧붙임2&lt;br /&gt;
+이게 이렇게까지 갈줄을 몰랐습니다. (티몬에서도 우왕좌왕하고 있는듯)&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/165145554DBEA8E102C720&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;맥도날드_3.png&quot; height=&quot;423&quot; width=&quot;663&quot;/&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+
+&lt;DIV&gt;
+&lt;HR style=&quot;BORDER-BOTTOM-COLOR: black; BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-COLOR: black; DISPLAY: block; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 1px; BORDER-RIGHT-COLOR: black; BORDER-LEFT-COLOR: black; BORDER-LEFT-WIDTH: 0px&quot;&gt;
+&lt;/DIV&gt;&lt;br /&gt;
+아!아! 진짜 이런..&lt;br /&gt;
+&lt;br /&gt;성능과 상관은 없지만.&lt;br /&gt;
+&lt;br /&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/1155BE384DBF1BCD281587&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;그루폰.png&quot; height=&quot;409&quot; width=&quot;663&quot;/&gt;&lt;/div&gt;&lt;/P&gt;그루폰이 파리바게트 무료쿠폰을 기획하였다가 취소하는 사태가 벌어집니다. WoW!</description>
+			<category>IT</category>
+			<author>머샤머샤</author>
+			<guid>http://halfenif.tistory.com/139</guid>
+			<comments>http://halfenif.tistory.com/139#entry139comment</comments>
+			<pubDate>Sun, 01 May 2011 07:42:16 +0900</pubDate>
+		</item>
+		<item>
+			<title>335개의 TED Blog Bookmark Link Tools...</title>
+			<link>http://halfenif.tistory.com/138</link>
+			<description>&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/120395394D49D8DD1BA661&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;TED Bookmark Link.png&quot; height=&quot;224&quot; width=&quot;573&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+아침에 &lt;A title=&quot;[http://blog.ted.com/2011/02/02/social-media-and-the-end-of-gender-johanna-blakley-on-ted-com/?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+TEDBlog+%28TEDBlog%29]로 이동합니다.&quot; href=&quot;http://blog.ted.com/2011/02/02/social-media-and-the-end-of-gender-johanna-blakley-on-ted-com/?utm_source=feedburner&amp;amp;utm_medium=feed&amp;amp;utm_campaign=Feed%3A+TEDBlog+%28TEDBlog%29&quot; target=_blank&gt;Social media and the end of gender&lt;/A&gt;&amp;nbsp;라는 TED를 보다 Facebook에 Link하려는 순간 놀랐습니다.&lt;br /&gt;
+&lt;br /&gt;Delicious정도 수준의 몇 않되는 Link Tool이라 생각했던 부분이 무려 335개?&lt;br /&gt;
+&lt;br /&gt;음... 뭐라고 해야 할까요? 금일 본 TED의 내용도 내용이지만 &lt;br /&gt;
+&lt;br /&gt;1. Social Network이 활황이라는 생각&lt;br /&gt;
+&lt;br /&gt;2. 하지만 No1. 아니면 아무도 아무런 생각이 들지 않는다는 생각&lt;br /&gt;
+&lt;br /&gt;3. 표준은 누구나 공평하고 진입장벽을 낮추어 문화를 꽃피운다는 생각.&lt;br /&gt;
+&lt;br /&gt;즐거운 설날입니다. :)</description>
+			<category>IT</category>
+			<category>TED</category>
+			<category>공유</category>
+			<category>북마크</category>
+			<author>머샤머샤</author>
+			<guid>http://halfenif.tistory.com/138</guid>
+			<comments>http://halfenif.tistory.com/138#entry138comment</comments>
+			<pubDate>Thu, 03 Feb 2011 07:26:40 +0900</pubDate>
+		</item>
+		<item>
+			<title>칼라프린터 구매를 위해서는 초기제공 토너량을 꼭 확인하자.</title>
+			<link>http://halfenif.tistory.com/137</link>
+			<description>&lt;br /&gt;
+집에서 사용할 목적으로 칼라프린터를 알아보던중 프린터의 가격을 결정하는 요인이 기기의 출력속도나 양면인쇄등 편의기능에 있지 않고, 초기에 제공되는 토너의 량에 달려있는것이 아닐까? 고민하게 되었습니다.&lt;br /&gt;
+&lt;br /&gt;그래서 의례 하던 버릇처럼 비교표를 작성하기 시작했는데...&lt;br /&gt;
+&lt;br /&gt;제가 내린 결론은 높은 가격을 주고, 더 좋은 프린터를 사용하는 것이 어중간한 가격을 주고 그저그런 프린터를 사용하는 것보다 경제적이다(?)라는 조금 당혹스러운 결론에 도달했습니다.&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://halfenif.tistory.com/attachment/cfile4.uf@184E27494D23B7180C35F8.xls&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/xls.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; 프린터 TCO.xls&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+혹시 관심있으신 분들은 위에 첨부한 비교표를 참조하시기 바랍니다.&lt;br /&gt;
+&lt;br /&gt;&lt;SPAN style=&quot;FONT-SIZE: 24pt&quot;&gt;&lt;FONT color=#e31600&gt;다만, 절대 여기에서 좋은 선택이라고 선택한 프린터는 절대 주관적인 결정입니다. &lt;/FONT&gt;&lt;/SPAN&gt;&lt;br /&gt;
+&lt;br /&gt;자세한 사항은 위에 첨부한 Excel File을 참조하세요 :)&lt;br /&gt;
+
+&lt;TABLE style=&quot;WIDTH: 308pt; BORDER-COLLAPSE: collapse&quot; border=0 cellSpacing=0 cellPadding=0 width=410&gt;
+&lt;COLGROUP&gt;
+&lt;COL style=&quot;WIDTH: 92pt; mso-width-source: userset; mso-width-alt: 3904&quot; width=122&gt;
+&lt;COL style=&quot;WIDTH: 54pt&quot; span=4 width=72&gt;
+&lt;TBODY&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: black 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BACKGROUND-COLOR: #f2f2f2; WIDTH: 92pt; HEIGHT: 24pt; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl85 height=32 rowSpan=2 width=122&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;제품명&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #f2f2f2; WIDTH: 108pt; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl68 width=144 colSpan=2&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;초기 토너량&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #f2f2f2; WIDTH: 108pt; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl68 width=144 colSpan=2&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;정품토너량&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #f2f2f2; HEIGHT: 12pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl68 height=16&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;흑백&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #f2f2f2; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl68&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;칼러&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #f2f2f2; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl68&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;흑백&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #f2f2f2; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl68&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;칼러&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 16.5pt; mso-height-source: userset&quot; height=22&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BACKGROUND-COLOR: #dbe5f1; HEIGHT: 28.5pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl83 height=38 rowSpan=2&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;CLP-325WK&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #dbe5f1; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl72&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #dbe5f1; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl72&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;700 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #dbe5f1; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl72&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,500 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #dbe5f1; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl72&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #dbe5f1; HEIGHT: 12pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl72 height=16&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #dbe5f1; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl72&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;700 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #dbe5f1; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl72&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,500 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #dbe5f1; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl72&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BACKGROUND-COLOR: #eaf1dd; HEIGHT: 36pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl81 height=48 rowSpan=3&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;CLP-615NDK&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #eaf1dd; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl70&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,500 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #eaf1dd; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl70&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #eaf1dd; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl70&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;5,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #eaf1dd; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl70&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;4,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #eaf1dd; HEIGHT: 12pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl70 height=16&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,500 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #eaf1dd; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl70&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #eaf1dd; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl70&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,500 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #eaf1dd; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl70&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #eaf1dd; HEIGHT: 12pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl70 height=16&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,500 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #eaf1dd; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl70&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #eaf1dd; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl70&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,500 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: #eaf1dd; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl70&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BACKGROUND-COLOR: transparent; HEIGHT: 12pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl66 height=16&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;CLP-620NDK&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,500 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,500 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; HEIGHT: 12pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl65 height=16&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BACKGROUND-COLOR: transparent; HEIGHT: 12pt; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl66 height=16&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;CP1215&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;750 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;750 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,200 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,500 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BACKGROUND-COLOR: transparent; WIDTH: 92pt; HEIGHT: 12pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl73 height=16 width=122&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;CP1515n/CP1510&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;750 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;750 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,200 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,500 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; HEIGHT: 12pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl65 height=16&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: windowtext 0.5pt solid; BACKGROUND-COLOR: transparent; HEIGHT: 24pt; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl76 height=32 rowSpan=2&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;C540n(토너제외)&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;- &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;- &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,500 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; HEIGHT: 12pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67 height=16&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;- &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;- &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BACKGROUND-COLOR: transparent; HEIGHT: 12pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl74 height=16&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;C540n(토너포함)&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; HEIGHT: 12pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl65 height=16&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BACKGROUND-COLOR: transparent; HEIGHT: 12pt; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl66 height=16&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;HL-3040&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,200 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,400 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; HEIGHT: 12pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl65 height=16&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BACKGROUND-COLOR: transparent; HEIGHT: 24pt; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl75 height=32 rowSpan=2&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;LBP 5050&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;800 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;800 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,300 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,500 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; HEIGHT: 12pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67 height=16&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;800 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;800 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,300 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,500 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BACKGROUND-COLOR: transparent; HEIGHT: 24pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl75 height=32 rowSpan=2&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;LBP 7200Cd&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,200 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,400 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;3,400 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,900 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; HEIGHT: 12pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67 height=16&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,200 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,400 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;3,400 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,900 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BACKGROUND-COLOR: transparent; HEIGHT: 24pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl75 height=32 rowSpan=2&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;LBP 7200Cdn&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,200 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,400 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;3,400 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,900 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; HEIGHT: 12pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67 height=16&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,200 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,400 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;3,400 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,900 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; HEIGHT: 12pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl65 height=16&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #f0f0f0; BORDER-LEFT: #f0f0f0; BACKGROUND-COLOR: transparent; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0&quot; class=xl71&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: black 0.5pt solid; BORDER-LEFT: windowtext 0.5pt solid; BACKGROUND-COLOR: transparent; HEIGHT: 24pt; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl76 height=32 rowSpan=2&gt;&lt;FONT color=#000000 face=&quot;맑은 고딕&quot;&gt;C1110B&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext 0.5pt solid; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;HEIGHT: 12pt&quot; height=16&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; HEIGHT: 12pt; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67 height=16&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;1,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 0.5pt solid; BORDER-LEFT: windowtext; BACKGROUND-COLOR: transparent; BORDER-TOP: windowtext; BORDER-RIGHT: windowtext 0.5pt solid&quot; class=xl67&gt;&lt;FONT color=#000000&gt;&lt;FONT face=&quot;맑은 고딕&quot;&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/SPAN&gt;2,000 &lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</description>
+			<category>悲歌</category>
+			<author>머샤머샤</author>
+			<guid>http://halfenif.tistory.com/137</guid>
+			<comments>http://halfenif.tistory.com/137#entry137comment</comments>
+			<pubDate>Wed, 05 Jan 2011 09:14:39 +0900</pubDate>
+		</item>
+		<item>
+			<title>TextCube를 Tistory로 이전하기</title>
+			<link>http://halfenif.tistory.com/136</link>
+			<description>간단하게 화면을 켑처했습니다. 혹시 작업하실분들은 참조하시기 바랍니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/1133793A4D09677223342D&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;01.XML Path생성.png&quot; height=&quot;417&quot; width=&quot;526&quot;/&gt;&lt;/div&gt;여기는 TextCube.com에서 데이터 백업 URL 만들기&lt;br /&gt;
+&lt;/DIV&gt;
+&lt;DIV&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/DIV&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/1333793A4D096773246D49&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;02.Copy URL.png&quot; height=&quot;443&quot; width=&quot;545&quot;/&gt;&lt;/div&gt;여기는 TextCube.com에서 데이터 백업 URL 복사하기&lt;br /&gt;
+&lt;/DIV&gt;
+&lt;DIV&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;/DIV&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;당연히... Tistory.com 계정은 만들어야 하겠지요? :)&lt;br /&gt;
+&lt;/DIV&gt;
+&lt;DIV&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/1433793A4D09677325F855&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;03.Tistory.com 데이터관리.png&quot; height=&quot;572&quot; width=&quot;626&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/DIV&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;Tistory.com 데이터 복원에서 경로지정으로 하고 TextCube.com에서 복사한 URL을 사용하여 복원합니다.&lt;br /&gt;
+&lt;div class=&quot;imageblock&quot; style=&quot;display:inline;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/1533793A4D09677326238B&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;04.복원하기.png&quot; height=&quot;452&quot; width=&quot;579&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+머.. 중요한건 100% 복원되기를 희망하는 수 밖에 없는거지요 :)&lt;/DIV&gt;</description>
+			<category>悲歌</category>
+			<author>머샤머샤</author>
+			<guid>http://halfenif.tistory.com/136</guid>
+			<comments>http://halfenif.tistory.com/136#entry136comment</comments>
+			<pubDate>Thu, 16 Dec 2010 10:17:05 +0900</pubDate>
+		</item>
+		<item>
+			<title>TextCube.com &gt;&gt; Tistory.com 이전에 관련된 오류해결 케이스</title>
+			<link>http://halfenif.tistory.com/135</link>
+			<description>&lt;br /&gt;
+Google에서 지원해 주어서 잘 사용하고 있던 TextCube.com 블로그가 (예고와 같이) Bloger.com으로 통합되게 되었습니다만.... &lt;br /&gt;
+(저의 경우에는 Bloger.com으로의 이전이 원활하지 않아 대안을 찾게되었습니다.).. 각설하고&lt;br /&gt;
+&lt;br /&gt;1. TextCube.com 과 Tistory.com은 원 모체가 테터툴즈에서 기반한 것이기 때문에&lt;br /&gt;
+2. 데이터 백업 및 복원이 호환이 됩니다.&lt;br /&gt;
+&lt;br /&gt;다만, 저의 경우에 (정확한 원인은 알수 없으나) TextCube.com에서 Tistory.com으로 Import하는 과정에서 *** Line에서 잘못된 문자가 있습니다... 라는 메시지가 나오면서 더이상 진행 할 수 없는 상태가 되었습니다.&lt;br /&gt;
+&lt;br /&gt;&lt;SPAN style=&quot;FONT-SIZE: 18pt&quot;&gt;&lt;STRONG&gt;&lt;FONT color=#e31600&gt;결론 : TextCube.com에서 댓글(?) 등 게시물 이외의 내용을 모두 지운 상태에서 Tisotry.com으로 이전하자 성공하였습니다.&lt;/FONT&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;br /&gt;
+&lt;br /&gt;단, 본 사항은 주관적인 판단이니 서비스제공자로 부터의 공식적인 입장이 아닙니다. 판단은 알아서 하시기 바랍니다.&lt;br /&gt;
+&lt;br /&gt;이렇게 수행하게 된 근거는. TextCube.com에서 백업받은 XML File을 분석해 보니&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/163B23374D09640611E841&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ExportFile_Binding_Error.png&quot; height=&quot;238&quot; width=&quot;419&quot;/&gt;&lt;/div&gt;선언되지 않은 garnet이라는 prefix가 있는것을 알게되었습니다.&lt;br /&gt;
+&lt;br /&gt;실재 파일에서 해당하는 부분은 Log에 해당하는 내용으로, Referer에 관련된 내용으로 추정됩니다.&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/183BC53C4D09643C16FAC2&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Error를 발생시킨 부분.png&quot; height=&quot;531&quot; width=&quot;663&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+저의경우에 포스트만 중요하고, 상호 댓글이나 링크나 하여간 다른 부분은 크게 중요하지 않았습니다.&lt;br /&gt;
+&lt;br /&gt;그래서 TextCube.com 관리자 기능에서 글 이외의 내용이라고 생각되는 부분은 모두 찾아서 지웠습니다. (저도 확신을 가지고 지운 부분이 아니라 어디 어디 지웠는지는 기억나지 않습니다.)&lt;br /&gt;
+&lt;br /&gt;그 이후 Tisotry.com에서 복원하지 정상적으로 복원이 되었습니다. 혹시 오류나시느 분들은 참조하시기 바랍니다.&lt;br /&gt;</description>
+			<category>悲歌</category>
+			<author>머샤머샤</author>
+			<guid>http://halfenif.tistory.com/135</guid>
+			<comments>http://halfenif.tistory.com/135#entry135comment</comments>
+			<pubDate>Thu, 16 Dec 2010 10:01:45 +0900</pubDate>
+		</item>
+		<item>
+			<title>형상관리 병합기능과 병합상태에 대한 이해</title>
+			<link>http://halfenif.tistory.com/134</link>
+			<description>&lt;br /&gt;
+&lt;A title=&quot;[http://www.snh.co.kr/?s=product&amp;amp;m=shape4]로 이동합니다.&quot; href=&quot;http://www.snh.co.kr/?s=product&amp;amp;m=shape4&quot; target=_blank&gt;&lt;FONT color=#ff8b16&gt;형상관리 솔루션 실루엣&lt;/FONT&gt;&lt;/A&gt;을 개발하면서 브랜치와 병합에 대한 의견을 다양한 업종에 계신 개발자분들과 이야기 할 기회가 많이 있습니다.&lt;br /&gt;
+&lt;br /&gt;버전관리에 있어서 브랜치기능은 필수라고 생각하시는 분도 계신 반면, 그런거 기능은 있지만 실제로 쓸일이 있나요? 라고 반문하시는 분까지 말입니다. &lt;br /&gt;
+&lt;br /&gt;저의 경험을 대략적으로 정리 해 보면.&lt;br /&gt;
+&lt;br /&gt;- 형상통제 환경(일반적으로 금융권 형상관리 통제상황)에 계시는 분들은 버전관리 프로세스 자체가 병렬개발을 허용하지 않는 경우가 많기 때문에 필요성에 대한 욕구가 작습니다.&lt;br /&gt;
+&lt;br /&gt;- 소규모 사이트 유지보수 상황(조그마한 중소기업 전산실 환경)에 계시는 분들은 해당 업무를 자신 혼자서 담당하는 경우가 많아서 브랜치를 고려 하는 경우가 적습니다.&lt;br /&gt;
+&lt;br /&gt;- Package를 개발해서 판매하는 상황(실루엣 같은 Package 솔루션을 만들어서 각 사이트 별로 커스터마이징 하는 경우)은 브랜치 및 병합에 대한 욕구가 매우 강합니다만, 일반적인 경우 파일 하나에 대한 브래치라기 보다 특정 모듈 전체에 대한 브랜치 적인 성격이 강합니다.&lt;br /&gt;
+&lt;br /&gt;- 제법 규모가 있는 서비스 사이트(통신사 고객서비스 센터 같은)의 경우에는 사이트는 운영기간동안 국지성 SI사업이 빈번하기 때문에 (신규 서비스가 오픈된다든지 하는) 신규 모듈에 대한 병합과 신규 모듈에 의해서 변경되는 기존모듈의 병합에 대한 욕구가 강합니다.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+실제 모듈병합에 대한 제반지식을 포함한 메뉴얼을 아래에 첨부합니다.&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://halfenif.tistory.com/attachment/cfile8.uf@145C97374CE9C5BF2622CD.pdf&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/pdf.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; 형상관리(실루엣) 모듈병합 메뉴얼.pdf&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;실루엣을 사용한 모듈병합기능을 설계하면서 좀더 한국에 있는 개발자들에게 현실적인 도움이 되는 기능이 무엇일까 항상고민합니다. :)&lt;br /&gt;
+&lt;br /&gt;혹시 모듈(업무)에 대한 병합을 고민하고 계신 개발자라면 반드시 실루엣을 사용하지 않더라도, 아래에 정의된 병합의 상태에 대한 가이드가 많은 도움이 되실 것입니다.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/1159F1344CE9C66F3CF8D4&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;모듈병합.png&quot; height=&quot;131&quot; width=&quot;568&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;병렬개발과 모듈 병합에 대한 프로세스 이해&lt;br /&gt;
+&lt;br /&gt;&lt;/DIV&gt;
+&lt;DIV&gt;&lt;br /&gt;
+병합 상태에 대한 이해. 자세한 설명은 위에 첨부된 실루엣 모듈병한 메뉴얼 참조.&lt;br /&gt;
+&lt;br /&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt 36pt&quot; class=MsoBodyText&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;Flag&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;는&lt;SPAN lang=EN-US&gt; 3&lt;/SPAN&gt;가지 유형의 값을 보여주는 것으로&lt;SPAN lang=EN-US&gt; 0 = &lt;/SPAN&gt;없음&lt;SPAN lang=EN-US&gt;, 1,2,3&lt;/SPAN&gt;은 값이 동일 한지를 의미 합니다&lt;SPAN lang=EN-US&gt;.&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt 36pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;예를 들어서&lt;SPAN lang=EN-US&gt; 1-1-2&lt;/SPAN&gt;는&lt;SPAN lang=EN-US&gt; Base&lt;/SPAN&gt;와&lt;SPAN lang=EN-US&gt; Mainline&lt;/SPAN&gt;이 동일하고&lt;SPAN lang=EN-US&gt; Branch&lt;/SPAN&gt;만 다르다는 것을 의미합니다&lt;SPAN lang=EN-US&gt;.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;TABLE style=&quot;BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; MARGIN: auto auto auto 41.4pt; BORDER-COLLAPSE: collapse; BORDER-TOP: medium none; BORDER-RIGHT: medium none; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: .5pt solid windowtext&quot; class=MsoNormalTable border=1 cellSpacing=0 cellPadding=0&gt;
+&lt;THEAD&gt;
+&lt;TR style=&quot;mso-yfti-irow: 0; mso-yfti-firstrow: yes&quot;&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 54.7pt; PADDING-RIGHT: 5.4pt; BACKGROUND: #f3f3f3; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=73&gt;
+&lt;P style=&quot;TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;B style=&quot;mso-bidi-font-weight: normal&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;; FONT-SIZE: 11pt&quot;&gt;&lt;FONT color=#000000&gt;상태&lt;SPAN lang=EN-US&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 65.25pt; PADDING-RIGHT: 5.4pt; BACKGROUND: #f3f3f3; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=87&gt;
+&lt;P style=&quot;TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;B style=&quot;mso-bidi-font-weight: normal&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;; FONT-SIZE: 11pt&quot; lang=EN-US&gt;&lt;FONT color=#000000&gt;Flag&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 274.65pt; PADDING-RIGHT: 5.4pt; BACKGROUND: #f3f3f3; BORDER-TOP: windowtext 1pt solid; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=366&gt;
+&lt;P style=&quot;TEXT-JUSTIFY: inter-ideograph; TEXT-ALIGN: justify; MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;B style=&quot;mso-bidi-font-weight: normal&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;; FONT-SIZE: 11pt&quot;&gt;&lt;FONT color=#000000&gt;해석&lt;SPAN lang=EN-US&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/THEAD&gt;
+&lt;TBODY&gt;
+&lt;TR style=&quot;mso-yfti-irow: 1&quot;&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 54.7pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=73&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;동일&lt;SPAN lang=EN-US&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 65.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=87&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;1-1-1&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 274.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=366&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;파일이 전혀 변경되지 않은 경우이다&lt;SPAN lang=EN-US&gt;.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;mso-yfti-irow: 2&quot;&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 54.7pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=73&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;완료&lt;SPAN lang=EN-US&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 65.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=87&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;0-1-1&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;1-0-0&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;1-2-2-&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 274.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=366&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;완료는&lt;SPAN lang=EN-US&gt; Base&lt;/SPAN&gt;에 비교해서 병합작업이 완료된 경우이다&lt;SPAN lang=EN-US&gt;. &lt;/SPAN&gt;실제 파일이 수정된 경우이기도 하지만&lt;SPAN lang=EN-US&gt;, &lt;/SPAN&gt;파일이 동일하게 삭제되거나 추가된 경우도 포함된다&lt;SPAN lang=EN-US&gt;.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;mso-yfti-irow: 3&quot;&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 54.7pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=73&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;올림&lt;SPAN lang=EN-US&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 65.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=87&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;0-0-1&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;1-1-2&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 274.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=366&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;올림은&lt;SPAN lang=EN-US&gt; Branch&lt;/SPAN&gt;에서 변경 혹은 추가된 것으로 필요하다면&lt;SPAN lang=EN-US&gt; Mainline&lt;/SPAN&gt;에 반영 해야 하는 대상이다&lt;SPAN lang=EN-US&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;mso-yfti-irow: 4&quot;&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 54.7pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=73&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;내림&lt;SPAN lang=EN-US&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 65.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=87&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;0-1-0&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;1-2-1&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 274.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=366&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;내림은&lt;SPAN lang=EN-US&gt; Mainline&lt;/SPAN&gt;에서 변경 혹은 추가된 것으로 필요하다면&lt;SPAN lang=EN-US&gt; Branch&lt;/SPAN&gt;에 반영 해야 하는 대상이다&lt;SPAN lang=EN-US&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;mso-yfti-irow: 5&quot;&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 54.7pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top rowSpan=5 width=73&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;검토&lt;SPAN lang=EN-US&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 339.9pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=453 colSpan=2&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;검토는 상황에 따라서 사용자의 판단이 필요한 경우이다&lt;SPAN lang=EN-US&gt;.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;소스의 내용을 판단하고&lt;SPAN lang=EN-US&gt;, &lt;/SPAN&gt;파일의 생성시간을 참조 해서 처리방법을 판단 해야 한다&lt;SPAN lang=EN-US&gt;.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;mso-yfti-irow: 6&quot;&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 65.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=87&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;1-0-1&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 274.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=366&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;(&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;일반적으로&lt;SPAN lang=EN-US&gt;) Mainline&lt;/SPAN&gt;에서 삭제된 파일이&lt;SPAN lang=EN-US&gt; Branch&lt;/SPAN&gt;에 아직 남아 있는 경우일 가능성이 높다&lt;SPAN lang=EN-US&gt;. Mainline&lt;/SPAN&gt;의 삭제이력을 조사하자&lt;SPAN lang=EN-US&gt;.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;mso-yfti-irow: 7&quot;&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 65.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=87&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;1-0-2&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 274.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=366&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;Mainline&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;에서는 삭제되었는데&lt;SPAN lang=EN-US&gt;, Branch&lt;/SPAN&gt;에서는 변경된 경우이다&lt;SPAN lang=EN-US&gt;. Branch&lt;/SPAN&gt;에서 계속 사용되고 있거나 그냥 변경 되었을 수 있다&lt;SPAN lang=EN-US&gt;. Branch&lt;/SPAN&gt;의 체크인 이력을 조사해서 누가 변경 했는지 추적하자&lt;SPAN lang=EN-US&gt;.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;mso-yfti-irow: 8&quot;&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 65.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=87&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;1-1-0&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 274.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=366&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;(&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;일반적으로&lt;SPAN lang=EN-US&gt;) Branch&lt;/SPAN&gt;를 생성 할 때 제외한 파일일 가능성이 높다&lt;SPAN lang=EN-US&gt;. &lt;/SPAN&gt;물론&lt;SPAN lang=EN-US&gt; Branch&lt;/SPAN&gt;에서 필요에 의해서 삭제 했을 수도 있다&lt;SPAN lang=EN-US&gt;. Branch &lt;/SPAN&gt;생성시점의 이력을 조사하자&lt;SPAN lang=EN-US&gt;.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;mso-yfti-irow: 9&quot;&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 65.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=87&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;1-2-0&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 274.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=366&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;Branch&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;에는 포함되어 있지 않은데&lt;SPAN lang=EN-US&gt;, Mainline&lt;/SPAN&gt;에서는 수정되고 있는 경우이다&lt;SPAN lang=EN-US&gt;. Branch &lt;/SPAN&gt;생성시점의 이력을 조사하자&lt;SPAN lang=EN-US&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;mso-yfti-irow: 10&quot;&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 54.7pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=73&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;병합&lt;SPAN lang=EN-US&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 65.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=87&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;1-2-3&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 274.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=366&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;양쪽 모두에서 변경된 경우이다&lt;SPAN lang=EN-US&gt;. 3WayDiff&lt;/SPAN&gt;를 사용해서 어떤 내용이 변경되었는지 조사하자&lt;SPAN lang=EN-US&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR style=&quot;mso-yfti-irow: 11; mso-yfti-lastrow: yes&quot;&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 54.7pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=73&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;기타&lt;SPAN lang=EN-US&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 65.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=87&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot; lang=EN-US&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;?-?-?&lt;o:p&gt;&lt;/o:p&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: #f0f0f0; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 274.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #f0f0f0; BORDER-RIGHT: #f0f0f0; PADDING-TOP: 0cm; mso-border-top-alt: solid windowtext .5pt; mso-border-bottom-alt: solid windowtext .5pt&quot; vAlign=top width=366&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 6pt&quot; class=MsoBodyText&gt;&lt;SPAN style=&quot;FONT-FAMILY: &#039;맑은 고딕&#039;&quot;&gt;&lt;FONT size=2&gt;&lt;FONT color=#000000&gt;위 경우에 해당하는 않는&lt;SPAN lang=EN-US&gt; Case&lt;/SPAN&gt;이다&lt;SPAN lang=EN-US&gt;. &lt;/SPAN&gt;실루엣 개발팀에게 알려주자&lt;SPAN lang=EN-US&gt;.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/DIV&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;모듈병합 과정 이미지&lt;br /&gt;
+&lt;/DIV&gt;
+&lt;DIV&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/135731374CE9C74D328B2D&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;2010.11.22.모듈병합이미지.png&quot; height=&quot;533&quot; width=&quot;481&quot;/&gt;&lt;/div&gt;&lt;/DIV&gt;</description>
+			<category>ALM</category>
+			<category>branch</category>
+			<category>Merge</category>
+			<category>병합</category>
+			<category>브랜치</category>
+			<category>형상관리</category>
+			<author>머샤머샤</author>
+			<guid>http://halfenif.tistory.com/134</guid>
+			<comments>http://halfenif.tistory.com/134#entry134comment</comments>
+			<pubDate>Mon, 22 Nov 2010 10:30:35 +0900</pubDate>
+		</item>
+		<item>
+			<title>무료 Windows Phone 7 개발환경은 버전관리를 지원하지 않는다.</title>
+			<link>http://halfenif.tistory.com/133</link>
+			<description>&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/146E512E4CBF9E7225164C&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;2010.10.21.VisualStudioExpress는 소스제어를 제공하.png&quot; height=&quot;382&quot; width=&quot;663&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+개발도구의 트랜드가 다시 변경되는 시점이라는 판단에 매뉴얼 갱신 및 살펴볼겸 Windows Phone 7의 개발환경을 설치해 보았습니다.&lt;br /&gt;
+&lt;br /&gt;무려 One Click으로 어디 설치되는지 물어보지도 않고, 진짜 간편하게 모든 개발환경이 설치되고 말았습니다만..&lt;br /&gt;
+&lt;br /&gt;Visual Studio Express Edition은 버전관리 옵션을 제공하지 않는군요. ㅠㅠ&lt;br /&gt;
+&lt;br /&gt;아래 Visual Studio 2010에서 제공 하는 옵션에서 척봐도 많은 부분이 다른거 같습니다. :)&lt;br /&gt;
+&lt;br /&gt;만약 아드로이드 앱 개발자분들이라면 &lt;A title=&quot;[http://www.snh.co.kr/?s=product&amp;amp;m=shape4]로 이동합니다.&quot; href=&quot;http://www.snh.co.kr/?s=product&amp;amp;m=shape4&quot; target=_blank&gt;&lt;FONT color=#ff8b16&gt;실루엣 Eclipse Plug-in&lt;/FONT&gt;&lt;/A&gt;을 사용해서 Linux나 Mac에서 까지도 개발을 할실수 있습니다만, WinPhone 개발자 분들은 강력한 실루엣 Client인 Workspace를 사용하셔야 겠네요.. :)&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/1936F4314CBF9F3F11C821&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Visual Studio 2010 실루엣 설정화면.png&quot; height=&quot;411&quot; width=&quot;663&quot;/&gt;&lt;/div&gt;</description>
+			<category>ALM</category>
+			<category>Visual Studio Express</category>
+			<category>Windows Phone 7</category>
+			<author>머샤머샤</author>
+			<guid>http://halfenif.tistory.com/133</guid>
+			<comments>http://halfenif.tistory.com/133#entry133comment</comments>
+			<pubDate>Thu, 21 Oct 2010 11:05:34 +0900</pubDate>
+		</item>
+		<item>
+			<title>왜 IBM은 Jazz가 아닌 ClearCase를 아직 팔고 있을까?</title>
+			<link>http://halfenif.tistory.com/132</link>
+			<description>&lt;br /&gt;
+IBM으로 부터 &quot;소프트웨어 개발 라이프사이클에 맞춘 똑똑한 솔루션! 형상/변경/빌드/배포 관리의 통합&quot; 이라는 거창한 제목의 설문조사가 왔길래... 당연히 &lt;A title=&quot;[http://www.jazzlab.net/]로 이동합니다.&quot; href=&quot;http://www.jazzlab.net/&quot; target=_blank&gt;&lt;FONT color=#3058d2&gt;Jazz&lt;/FONT&gt;&lt;/A&gt;일 꺼라고 생각 했습니다.&lt;br /&gt;
+&lt;br /&gt;설문조사 보기 &lt;A href=&quot;http://www-903.ibm.com/kr/surveys/survey.jsp?survey_id=Rational_edm&quot;&gt;http://www-903.ibm.com/kr/surveys/survey.jsp?survey_id=Rational_edm&lt;/A&gt;&lt;br /&gt;
+&lt;br /&gt;ClearCase, ClearQuest, BuildForge에 대한 설문조사입니다.&lt;br /&gt;
+&lt;br /&gt;왜? 일까요? 현실적으로는 여러가지 사정이 있겠습니다만, 관심을 가지고 지켜보는 입장에서는 순간 당혹하지 않을 수 없었습니다. :)</description>
+			<category>ALM</category>
+			<category>BuildForge</category>
+			<category>Clearcase</category>
+			<category>ClearQuest</category>
+			<category>IBM Jazz</category>
+			<author>머샤머샤</author>
+			<guid>http://halfenif.tistory.com/132</guid>
+			<comments>http://halfenif.tistory.com/132#entry132comment</comments>
+			<pubDate>Tue, 10 Aug 2010 13:53:32 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

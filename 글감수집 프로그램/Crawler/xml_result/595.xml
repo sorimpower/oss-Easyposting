@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[YUZI in Ma MIND]]></title>
+			<link>http://blog.naver.com/yuzico</link>
+			
+			<description><![CDATA[더 나은 IT 개발 환경을 위한 IT 프로세스 정보 블로그]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:42:57 +0900</pubDate>
+
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[[ZDNet] Enterprise Architecture 파워강좌]]></title>
+					<link>http://blog.naver.com/yuzico/130071857555</link>
+					<guid>http://blog.naver.com/yuzico/130071857555</guid>
+					<description><![CDATA[** 김대권 (KB데이타시스템 금융 IT연구소 수석컨설턴트)  dgkim0321@hanmail.net
+							
+							① EA의 아버지「자크만」: EA 탄생의 역사적 배경과 과정 http://www.zdnet.co.kr/builder/man/bm/0,39031655,39137645,00.htm② EA의 어머니「스피왝」: EA 방법론의 탄생 http://www.zdnet.co.kr/builder/man/bm/0,39031655,39137999,00.htm③ 미국 정부의 EA 노력 : 걸프전에서 전자정부까지 http://www.zdnet.co.kr/builder/man/bm/0,39031655,39138337,00.htm④ 대한민국 정부의 EA 노력 : 정보화촉진법에서 정부혁신까지 http://www.zdnet.co.kr/builder/man/bm/0,39031655,39138720,00.htm 여기에 요약글 내용을 입력해주세요① EA의.......]]></description>
+					<pubDate>Tue, 20 Oct 2009 15:36:44 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,EA,ITA,EnterpriseArchitecture]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[검증(Validation)과 확인(Verification)]]></title>
+					<link>http://blog.naver.com/yuzico/130034068287</link>
+					<guid>http://blog.naver.com/yuzico/130034068287</guid>
+					<description><![CDATA[검증(Validation)과 확인(Verification) Validation과 Verification(V&amp;V)는 사실 현장에 있는 전문인들도 많이 혼돈스러워하는 용어이다. 이번 “프로젝트 실무” 과목의 과제와 더불어 관련된 문서를 조사해 보았다.  모든 내용은 최대한 이해하기 쉬운 용어들을 선택해 후에 복습을 하더라도 그 모호함이 없도록 최선을 다했다. 주요 인터넷 포털 사이트와 백과사전 사이트를 조사하여 얻어낸 두 용어 Validation과 Verification의 뜻과 차이점은 다음과 같이 정의 될 수 있다.  
+1. 검증(Validation)
+&#8226; 목적 : Are we building the RIGHT product?(올바른 제품을 만들고 있는가?)
+이것은 고객의
+니드(Need, 요구, 명.......]]></description>
+					<pubDate>Fri, 08 Aug 2008 17:40:13 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[IPPD]]></title>
+					<link>http://blog.naver.com/yuzico/130034067507</link>
+					<guid>http://blog.naver.com/yuzico/130034067507</guid>
+					<description><![CDATA[소프트웨어 프로세서 평가란 조직의
+소프트웨어를 개발하고 유지, 보수할 수 있는 프로세스의 능력과 소프트웨어 프로세스 관리능력을 성장시킬 수 있는 잠재력 등을
+평가하는 것으로써 소프트웨어 프로세스 성숙도(maturity) 측정이라 하기도 한다. 소프트웨어 프로세스 평가를 하기 위한
+대표적인 기술 표준으로는 미국의 SW­CMM(Software Capacity Maturity Model),
+CMMI(Capacity Maturity Model Integration)와 ISO/IEC TR 15504가 있다.
+SW­CMM은 미국의 국방성이 지원하여 카네기멜론대학의 소프트웨어공학 연구소(SEI : Software Engineering
+Institute)가 개발, 보급한 소프트웨어 프로세스 능력 평가 모델로 IT조직의 소프트웨어.......]]></description>
+					<pubDate>Fri, 08 Aug 2008 17:14:37 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[매슬로우의 욕구단계설]]></title>
+					<link>http://blog.naver.com/yuzico/130034026645</link>
+					<guid>http://blog.naver.com/yuzico/130034026645</guid>
+					<description><![CDATA[◆매슬로우의 욕구단계설
+개인이 지닌 욕구와 동기부여의 이론으로 가장 널리 알려진 것은 매슬로우의 욕구단계설(Need Hierarchy Theory)이다. 
+매슬로우는 인간에게 동기를 부여할 수 있는 욕구가 계층을 형성하고 있는 것으로 파악하였다.
+▶매슬로우(1908-1970) 소개
+에이브리엄 매슬로우는 행태 심리학자였다. 브룩클린에서 태어난 그는 위스콘신 대학에서 수학했으며, 학계뿐만 아니라 업계에서도 일한 
+특이한 경력의 소유자였다. 그는 학자로서 영장류의 사회 생활 방식에 많은 관심을 기울였고, 콜럼비아 대학 연구원을 거쳐 브룩클린 
+대학 조교수로 교단에 섰다. 그 뒤 웨스턴 행동 과학 연구소를 거텨 메사추세츠의 브랜다이스.......]]></description>
+					<pubDate>Thu, 07 Aug 2008 13:34:54 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[한국 사회의 근본적인 문제는 어디에 있는가 ?]]></title>
+					<link>http://blog.naver.com/yuzico/130033807993</link>
+					<guid>http://blog.naver.com/yuzico/130033807993</guid>
+					<description><![CDATA[한국사회의 근본적인 문제는 
+무엇인가?
+'정치'라고 말하지만 사실은 그렇지 않음. 미국의 경우 2%가 나머지 98%를 돌리는 구조임. 지금 정도면 우리나라의 민도에 맞게 잘하는 
+편임.'경제'라고 말하지만 이것도 틀렸음. 한강의 기적과 라인강의 기적을 비교하는 것은 기분 나쁨. 독일은 망했었지만 잠수함 만들던 나라임.풀먹고 무기 빌리던 한심했던 한국과 기술력을 갖고 있던 독일을 비교한다는 것은 말이 안됨. 불과 50년만에 빠른 발전을 
+이룩했음.그렇다면, 
+무엇이 문제인가? 
+OECD국가 중 노동시간이 최장이라는 점임.본인은 '아침형 인간'은 가라고 외치고 다님. 이제 근면, 성실은 미친 짓임.사는게 재미있어야 함. 아침형 인.......]]></description>
+					<pubDate>Thu, 31 Jul 2008 11:21:08 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[S.M.A.R.T]]></title>
+					<link>http://blog.naver.com/yuzico/130033787882</link>
+					<guid>http://blog.naver.com/yuzico/130033787882</guid>
+					<description><![CDATA[MS는 매년 7월에 회계연도가 시작되기 때문에 6월 말이면 앞으로 1년간 무엇을 하겠다는 계획을 제출해야 한다. 그래서
+영어공부를 잘해서 어떻게 하겠다, 컴퓨터 실력을 쌓아서 기술 지원을 잘하겠다 등의 내용을 제출했더니 이사님이 호출을 했다. “너 장난하니?”
+“제가 감히 어떻게 이사님께 장난을 치겠습니까?”
+“이게 뭐냐? 다시 써와”
+“어떻게 다시 써야 하는데요?”
+“내가 일일이 가르쳐 줘야 해?(짤리기 싫음 다시 써와)” 그 와중에 오고간 이야기는 이렇다.   “내가 네 꽁무니 쫓아 다니면서 영어 공부를 하는지, 컴퓨터 공부를 하는지 감시해야 하니? 다시 써와!” 
+“그럼 어떻게 써야 하죠?”
+“그걸 내가.......]]></description>
+					<pubDate>Wed, 30 Jul 2008 18:12:28 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[[스크랩] 티스토리 시작부터 2차 블로그 주소 및 Google Apps설정까지]]></title>
+					<link>http://blog.naver.com/yuzico/130033778444</link>
+					<guid>http://blog.naver.com/yuzico/130033778444</guid>
+					<description><![CDATA[네이버 블로그, 태터툴즈(Tattertools), 워드프레스(WordPress), 무버블타입(Movable Type), 이글루스(Egloos) 등 여러 블로그에서 삽질만하며 떠돌다가 정착한 티스토리(Tistory)에 대한 애정으로 이 포스트를 씁니다.물론, 개인적인 블로깅 성향에 따라 각자 좋아하는 블로깅 툴과 서비스가 있고 각 블로그 서비스마다 장단점이 있습니다. 개인적으로
+저와 가장 잘 맞는다고 생각하는 서비스이기에 추천하는 의미로 티스토리에 관심이 있는 분들과 시작하려는 분들에게 기초적인 정보를
+드리고자 합니다.특히 포털의 가입형 블로그 서비스를 이용하다가 옮기려고 하는 분, 티스토리 관련한 각각의 설정방법을 일일이 검색하며 찾아다니기 귀.......]]></description>
+					<pubDate>Wed, 30 Jul 2008 13:49:57 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Article]]></category>
+					<title><![CDATA[[ZDNet] 또 하나의 SW개발방법론, OCSD를 주목하라]]></title>
+					<link>http://blog.naver.com/yuzico/130033544636</link>
+					<guid>http://blog.naver.com/yuzico/130033544636</guid>
+					<description><![CDATA[원문출처 : http://www.zdnet.co.kr/news/enterprise/dev/0,39031103,39171278,00.htmSW를 개발하는 방법은 크게 두가지다. 특정 기업이 직원들을 활용해 내부에서 개발한 뒤 이를 시장에 선보이는 방식이 있고 
+다수 개발자들의 공개 참여로 진행되는 오픈소스SW 프로젝트도 각광을 받고 있다.  그렇다면 이런 방법은 어떠한가?  A라는 SW업체는 외부에 특정 SW 개발 프로젝트 과정을 공개한다. 고객과 파트너들은 개발 프로세스를 실시간으로 자유롭게 볼 수 있고 
+필요에 따라 피드백도 줄 수 있다. 개발 과정을 볼 수 있는 것은 고객 뿐만이 아니다.  경쟁 업체도 마음만 먹으면 은밀하게(?) 염탐이 가능하다.  이런 과정을 거.......]]></description>
+					<pubDate>Wed, 23 Jul 2008 13:52:43 +0900</pubDate>
+					<tag><![CDATA[OCSD,개발방법론]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[eLancer] People CMM의 개요]]></title>
+					<link>http://blog.naver.com/yuzico/130033506331</link>
+					<guid>http://blog.naver.com/yuzico/130033506331</guid>
+					<description><![CDATA[세계적인 전문가 그룹 eLancer라... eLancer가 어떤 단체인지는 모르겠지만, 국내에서 찾기 힘든 자료를 만들어 올려주고 있다는 건 맞는거 같다. 근데, 어설픈 문장으로 올려준다.--------------------------------------1. People CMM의 개요 2006/07/18
+											
+											
+											
+												
+												   
+인적 자원의 육성체계의 모델 「People CMM」
+　People CMM은 카네기 멜론 대학이 소프트웨어 개발 프로세스의 육성체계 모델로서 개발한 CMM(capability
+maturity model)을 인적 자원력의 관리에 적용한 것으로 Ver1.0이 1995년에 Ver2.0이 2001년에
+릴리스되었다. 소프트웨어 CMM이개발되고 나서 CM.......]]></description>
+					<pubDate>Tue, 22 Jul 2008 10:34:47 +0900</pubDate>
+					<tag><![CDATA[eLancer,P-CMM]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Article]]></category>
+					<title><![CDATA[[386c] 승자와 패자]]></title>
+					<link>http://blog.naver.com/yuzico/130032727169</link>
+					<guid>http://blog.naver.com/yuzico/130032727169</guid>
+					<description><![CDATA[
+  
+승자와 패자승자는 실수를 했을 때, "내가 잘못했다."라고 말하고,패자는 실수를 했을 때, "너 때문이다." 라고 말한다.승자의 입에는 "솔직"이 가득 차 있고,패자의 입에는 "핑계"가 가득 차 있다.승자는 "예"와 "아니오"를 확실히 말하고,패자는 "예"와 "아니오"를 적당히 말한다.승자는 어린이에게도 사과할 수 있고,패자는 노인에게도 고개를 못 숙인다.승자는 넘어진 뒤 일어나서 앞을 보고,패자는 넘어진 뒤 일어나서 뒤를 본다.승자는 열심히 일하지만 여유가 있고,패자는 한가히 놀면서도 항상 바쁘다.승자의 하루는 25시간 이상이고,패자의 하루는 23시간 이하이다.승자는 부지런히 일한 뒤 편히 쉬는데,패자는 허겁지겁 일한 뒤.......]]></description>
+					<pubDate>Thu, 26 Jun 2008 13:32:40 +0900</pubDate>
+					<tag><![CDATA[승자와패자,386c]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[[논평] 2008 촛불대행진 - 프레시안 최호철/만화가]]></title>
+					<link>http://blog.naver.com/yuzico/130032723168</link>
+					<guid>http://blog.naver.com/yuzico/130032723168</guid>
+					<description><![CDATA[http://www.pressian.com/scripts/section/article.asp?article_num=40080625121620]]></description>
+					<pubDate>Thu, 26 Jun 2008 10:44:29 +0900</pubDate>
+					<tag><![CDATA[촛불집회,논평,프레시안]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Article]]></category>
+					<title><![CDATA[[ZDNet] '조직 변화관리'의 구결]]></title>
+					<link>http://blog.naver.com/yuzico/130032696503</link>
+					<guid>http://blog.naver.com/yuzico/130032696503</guid>
+					<description><![CDATA[*** 이글은, ZDNet Korea에 올라온 컬럼입니다. 경험이 담긴 좋은 내용이라 옮깁니다.사회생활을 평직원에서 시작하여 팀장, 사업부장, 본부장, 사장까지 거쳐보았다. 
+그동안 작게는 4명에서 많게는 백여 명의 직원을 관리해왔다. 섣부른 말일지 모르겠지만, 관리자는 아래로 2단계의 직원까지 직접적인 관리가 
+가능하다고 필자는 생각한다. 조직이 수천 명 혹은 수십만 명일지라도 CEO는 아래로 단지 2단계의 관리자와 어떤 관계를 
+유지하는지에 따라 조직성공을 결정짓는다고 단언한다. 이러한 주장을 하는 이유는 첫째, 관리범위(Span of Control)의 룰과 둘째, 
+시간의 한계성에 대한 생각 때문이다. 필자가 처음 관리자가 되었을 때.......]]></description>
+					<pubDate>Wed, 25 Jun 2008 13:32:26 +0900</pubDate>
+					<tag><![CDATA[조직관리,변화관리]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Article]]></category>
+					<title><![CDATA[[스크랩] 우리는 주주인가 직원인가 - 한겨례21]]></title>
+					<link>http://blog.naver.com/yuzico/130032536773</link>
+					<guid>http://blog.naver.com/yuzico/130032536773</guid>
+					<description><![CDATA[*** 이글은, 한겨례21의 독자마당 [링크] 에서 가져온 글입니다. 지식인의 행동을 촉구하고 있네요. 반성하게 되네요. ▣ 홍기빈 금융경제연구소 연구위원 (한겨례21 : 2008년05월29일 제712호)  몇 년 전부터 젠체하는 지식인들 일부가 ‘최고경영자(CEO) 대통령’이라는 신조어를 떠들기 시작했고, 마침내 ‘성공한 CEO’라는 이명박 
+대통령까지 낳을 정도로 사회의 지배적 담론이 되고 말았다. 하지만 ‘CEO 대통령’ 담론은 정치와 경제 모두에 대한 바닥 모를 무지에 근거한 
+것일 뿐만 아니라, 그것이 그러한 무지와 혼란 속에서 마구 악용될 경우 사회에 끼치게 될 해악은 헤아릴 길이 없음이 분명하다.     △(일러스.......]]></description>
+					<pubDate>Fri, 20 Jun 2008 10:39:04 +0900</pubDate>
+					<tag><![CDATA[한겨례21,스크랩]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Article]]></category>
+					<title><![CDATA[[스크랩] 대한민국은 주식회사가 아니라 민주공화국이다 - 오마이뉴스]]></title>
+					<link>http://blog.naver.com/yuzico/130032536679</link>
+					<guid>http://blog.naver.com/yuzico/130032536679</guid>
+					<description><![CDATA[*** 이 글은, 오마이뉴스에서 가져온 글입니다. [링크] 참 잘쓴 글이네요. 스크랩입니다. 
+김동수 (kimds6671)조선시대 백성을 버리고 몽진(蒙塵)간 임금은 선조와 인조다. 선조는 임진왜란이 일어난 1592년 4월 30일 억수같이 내리는비를 
+맞으면서100여명과 함께 도망갔다. 백성은 궁궐과 관청을 불태웠다. 백성을 지켜줄 임금이 도성을 버린 것은 임금 되기를 포기한 일이기에 궁궐을 
+불태우는 일은 당연한 일이다.  인조는 선조가 도망간 지 45년 후 1637년 1월 30일 삼전도에서 청태조에게 치욕을 당한다. 세 번 절하고, 절할 때마다 이마를 땅에 
+찧었다. 역사는 이를 삼전도의 치욕이라 한다. 오랑캐 앞에 절 세 번과, 이미를 찧.......]]></description>
+					<pubDate>Fri, 20 Jun 2008 10:35:08 +0900</pubDate>
+					<tag><![CDATA[오마이뉴스,스크랩,주식회사대한민국]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[[발췌] 개선레벨 3단계]]></title>
+					<link>http://blog.naver.com/yuzico/130030598139</link>
+					<guid>http://blog.naver.com/yuzico/130030598139</guid>
+					<description><![CDATA[*** 출처: "티사모...TPS, 도요타생산, 린(Lean)시스템, 생산혁신, TPM(설비보전, 자주보전 등), 린식스시그마, 
+생산시스템 연구회 - 시삽메일"]]></description>
+					<pubDate>Tue, 22 Apr 2008 10:05:51 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Article]]></category>
+					<title><![CDATA[[비교] KT VS. LG데이콤 인터넷 전화, 어떤 게 좋을까? ]]></title>
+					<link>http://blog.naver.com/yuzico/130027971509</link>
+					<guid>http://blog.naver.com/yuzico/130027971509</guid>
+					<description><![CDATA[오랜만에 좋은 기사네요. 
+---------------------------------
+전자신문|기사입력 2008-02-15 10:06 |최종수정2008-02-15 12:06   1인 1휴대폰 시대인 현재, 일반 전화 시장에서 때 아닌 치열한 전투가 치러질 예정이다. 저렴한 통화요금과 다양한 부가기능을 앞세운 신생 인터넷전화(VOIP), 그리고 오랫동안 일반 전화시장을 이끌어 온 관록의 KT가 출시한 안(Ann)폰이 바로 그 주인공이다. PC라인에서 이 두 전화기의 디자인에서 요금까지 제대로 한판 붙여 비교해 보았다. 2008년 화제의 라이벌! KT 안(Ann)폰과 인터넷 전화기 myLG070. 그 들의 치열한 대결의 시작을 알리는 종을 울린다.   그때를 아십니까? 일반전화기의 의.......]]></description>
+					<pubDate>Fri, 15 Feb 2008 15:57:43 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[[링크] 요구사항 수집을 위한 10가지 기술]]></title>
+					<link>http://blog.naver.com/yuzico/130027363115</link>
+					<guid>http://blog.naver.com/yuzico/130027363115</guid>
+					<description><![CDATA[요구사항 수집을 위한 10가지 기술absolute;width:9px;height:7px;background:url(http://blogimgs.naver.com/nblog/mylog/post/bg_quote02_2.png) no-repeat;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://blogimgs.naver.com/nblog/mylog/post/bg_quote02_2.png',sizingMethod='crop');right:0;bottom:0;_background:none;">ZDNet의 기사를 스크랩한 것을 링크겁니다. (ZDNet기사이지만 여기에서 기사를 봤기에...)언제나 요구사항은 커다란 이슈입니다. 소프트웨어 개발에만 국한된 것이 아니죠.모든 유무형의 개발에 있어서 요구사항은 언제나 전체의 흐름을 지배합니다.그렇기 때문에 그것의 백 데이터를 모으는.......]]></description>
+					<pubDate>Wed, 30 Jan 2008 09:25:39 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[마소] 협업 노하우 -1/2]]></title>
+					<link>http://blog.naver.com/yuzico/130026751651</link>
+					<guid>http://blog.naver.com/yuzico/130026751651</guid>
+					<description><![CDATA[마이크로 소프트웨어에서 좋은 기사가 나왔네요. 협업에 대한 시리즈인데요. [협업 노하우 ①] 커뮤니케이션과 협업[협업 노하우 ②] 위키를 활용한 협업 노하우
+두가지 내용중에, 두번째 내용이 더 재미있네요. 전자는 상투적이지만 후자는 실용적이거든요.-------------------------[협업 노하우 ①] 커뮤니케이션과 협업정희용 기자, 김영욱(닷넷채널 웹 매거진 
+발행, 비스무리 개발 및 운영)  2008/01/05 애플리케이션의 규모가 커지고 개발 주기가 짧아짐에 따라 개발 협업은 중요한 
+이슈로 떠오르고 있다. 협업의 중요성이야 두말할 필요 없이 모두들 공감하고 있는 것이겠지만, 막상 프로젝트를 진행하다보면 협업은커녕 협박과 
+폭.......]]></description>
+					<pubDate>Tue, 15 Jan 2008 11:39:55 +0900</pubDate>
+					<tag><![CDATA[협업,마이크로소프트웨어,스크랩]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[안랩] 좋은 소프트웨어를 개발하기 위해서]]></title>
+					<link>http://blog.naver.com/yuzico/130026510588</link>
+					<guid>http://blog.naver.com/yuzico/130026510588</guid>
+					<description><![CDATA[*** 아래는 안철수 연구소 블로그의 해당글을 스크랩한 것입니다. 원문(1/2)를 참고하세요.--------------------------------------좋은 소프트웨어를 개발하기 
+위하여
+2007. 10. 
+29
+강은성
+   강은성 상무는 안철수연구소에서 사용자의 IT 자산을 지키는 
+보람과    즐거움으로 일하고 있으며, 어린이들도 즐겁게 뛰놀 수 있는 안전하고    편안한 인터넷 세상을 만드는 
+꿈을 갖고 있습니다. 개발 프로세스는 분업과 협업을 위한 필수 요소
+한두 명의 뛰어난 개발자가 제품 개발에서 결정적인 역할을 해 내는 하드웨어 개발과는 달리 소프트웨어 
+제품(패키지)이나 소프트웨어 서비스, 웹 기반 서비스, 소프트웨어가 제품의 핵심 요.......]]></description>
+					<pubDate>Wed, 09 Jan 2008 09:57:01 +0900</pubDate>
+					<tag><![CDATA[안랩블로그,개발프로세스,스크랩]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Article]]></category>
+					<title><![CDATA[[ZDNet] 현장에서 마주칠 수 있는 10가지 타입의 프로그래머]]></title>
+					<link>http://blog.naver.com/yuzico/130026258586</link>
+					<guid>http://blog.naver.com/yuzico/130026258586</guid>
+					<description><![CDATA[자주 그렇듯이, ZDNet에서 또 흥미로운 번역 기사가 나왔네요.나는, 부끄럽게도 #10종류의 사람인 것 같습니다. (이었던것 같습니다.)------------------------------------------
+    Justin James     ( TechRepublic )      2008/01/02
+      프로그래머들은 특별한 사람이라고 평가되는 것을 좋아한다. 사실은 어떤 모범적인 프로그래머들은 다른 프로그래머들의 이상한
+점을 개발자들의 커뮤니티 내에서도 발견한다. 아래에 10가지 타입의 프로그래머를 소개한다. 여러분은 이 중에 어떤 타입인가? #1: 간달프(Gandalf) 이 프로그래머 타입은 ‘반지의 제왕’에 나오는 마법사 간달프와 닮았다. 이 타입의 외관은 턱수염을 기르고.......]]></description>
+					<pubDate>Wed, 02 Jan 2008 16:13:30 +0900</pubDate>
+					<tag><![CDATA[개발자타입]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Article]]></category>
+					<title><![CDATA[[ZDNet] 효율적으로 회의하는 10가지 방법]]></title>
+					<link>http://blog.naver.com/yuzico/130026246861</link>
+					<guid>http://blog.naver.com/yuzico/130026246861</guid>
+					<description><![CDATA[낭비적인 회의가 많죠? 회의를 해도 생산적이지 못하고요... 참고할 기사가 있네요.------------------------------
+    Calvin Sun     ( TechRepublic )      2007/12/28
+      “저 회의는 내 시간만 낭비하는 거야”. 당신은 얼마나 자주 이 말을 하는가? 많은 사람들이 비생산적인 회의에 참석하느라 고생이다. 다음의 10가지 방법은 회의 참석자와 최고 직급자 모두 활용할 수 있는 효율적인 방법들이다. #1: 회의가 정말 필요한 것인지를 결정한다. 회의가 정말 필요한가? 많은 사람들이 정말 서로에게 영향을 미치는 것이 필요한가? 참석자 수를 줄이는 것은 모두의 시간을
+절약하는 것이고, 회의 시간도 절약할 수 있다. 참석.......]]></description>
+					<pubDate>Wed, 02 Jan 2008 10:55:51 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[[ZDNet] 프로그래머를 위한 성공적인 이력서쓰기]]></title>
+					<link>http://blog.naver.com/yuzico/130025459698</link>
+					<guid>http://blog.naver.com/yuzico/130025459698</guid>
+					<description><![CDATA[ZDNet Korea에 흥미로운 번역물이 올라왔네요. 개발자 이력서 쓰는 방법입니다.저도 한참 취업할때, 이력서 쓰기에 고심하고 버벅거렸던 기억이 납니다.허접한 이력서에 생뚱맞은 자기소개서, 기술/경력목록과 논문을 들고 다녔던 기억도...지금이 12월 달이니까... 한참 취업기간 이겠네요. (맞죠?)아래의 내용은, 외국 내용이기도 하고 경력자 기준 내용이기도 합니다만,좋은 영감 받아 좋은 이력서 쓰고 덕분에 좋은 회사 잘들어가십시오~------------------------------------*** 본 포스트는, ZDNet Korea에 의해 번역된 기사를 스크랩한 것으로 글의 권한은 ZDNet에 있습니다. 해당 원문은 [원문링크], 번역본은 [역문링크]를 통해 접근할.......]]></description>
+					<pubDate>Tue, 11 Dec 2007 15:21:09 +0900</pubDate>
+					<tag><![CDATA[이력서,취업]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[성숙도, 발전단계 평가의 口訣]]></title>
+					<link>http://blog.naver.com/yuzico/130023679074</link>
+					<guid>http://blog.naver.com/yuzico/130023679074</guid>
+					<description><![CDATA[*** 험프리의 성숙도 5단계를 사고 확장시켜서 여러가지 이야기를 명쾌하게 해주네요. 구구절절 길고 사족이 많은 글보다는 좋습니다. 재밋네요.성숙도, 발전단계 평가의 口訣
+    
+    
+    이정규(안랩코코넛 대표이사)     ( ZDNet Korea )      2007/10/22사회적으로 성공한 저명인사가 “새벽 2,3시에 일어나…불굴의 투지로 노력…드디어 성공했다”라는 한계극복의 일화를 설명할 때
+필자는 기운이 빠진다. 매일 새벽에 별보고 일어날 자신도 없고, 하루에 7~8시간은 자야 생활이 되는 나로서는 도저히 따라갈 수
+없는 길이기 때문이다.  위안을 받는 것은 주위에는 나 같은 사람이 대부분이고, 돈을 많이 모은 부자가 자식들의 재.......]]></description>
+					<pubDate>Tue, 23 Oct 2007 17:45:48 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Article]]></category>
+					<title><![CDATA[[ZDNet] 대한민국 개발자의 우울, 자기책임론에서 구조개혁론으로 - 김국현]]></title>
+					<link>http://blog.naver.com/yuzico/130023668228</link>
+					<guid>http://blog.naver.com/yuzico/130023668228</guid>
+					<description><![CDATA[*** 대단히 잘 쓴 글입니다. 이렇게 글 잘쓰는 법을 배우고 싶네요. 곱씹을 글입니다. 춫현. 대한민국 개발자의 우울, 자기책임론에서 구조개혁론으로
+    
+    
+    김국현(IT평론가)         2007/10/012007년 우리네 개발자의 자화상은 유난히 수척하고 우울하다. 연이어 터져 나오는 개발자 처우에 대한 보도와 칼럼들은 IT를 이공계 기피의 공식 상징으로 만들어 버렸다. 이런…… 별로 낭만적이지 않다.  어느덧 개발자의 후생(厚生)은 나의 최우선 관심사가 되어 버렸다.  우리는 누구나 자기가 좋아하는 일을 하는 삶을 꿈꾸고, 또 그 일이 사회에 가져다 주는 가치에 걸맞은 대가를 받기를 바란다.
+낭만적 인생의 얼개란 의외.......]]></description>
+					<pubDate>Tue, 23 Oct 2007 11:11:38 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[[행사] ASTA2007 국제 소프트웨어 테스팅 컨퍼런스]]></title>
+					<link>http://blog.naver.com/yuzico/130021601256</link>
+					<guid>http://blog.naver.com/yuzico/130021601256</guid>
+					<description><![CDATA[          
+왜? 우리는 국제 
+테스팅 컨퍼런스에 참가해야 할까요?
+1. 본 컨퍼런스는 국내에서 개최되는 IT 분야 최대 규모의 국제 소프트웨어 테스팅 전문 컨퍼런스 
+입니다. 미국의 STAR나 유럽의 ICSTest 컨퍼런스 수준의 다양한 테스팅 접근법과 실전 테크닉을 해외에 나가지 않고도 해외 컨퍼런스 
+참가비의 30~40%(항공료와 체재비를 고려하면 10% 내외) 만으로 제공받을 수 절호의 기회 입니다. 이번 기회를 놓치면 향후 4년 후에나 
+유사한 기회를 가질 수 있습니다. 2. 본 컨퍼런스는 "소프트웨어 테스팅의 가치와 중요성을 다른 개발 분야와 IT 전반에 알리는 계기"가 될 
+것입니다. 되도록 많.......]]></description>
+					<pubDate>Thu, 23 Aug 2007 18:08:46 +0900</pubDate>
+					<tag><![CDATA[SPI,Agile,QA,QC,ASTA2007,국제컨퍼런스,테스팅]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[[행사] 아시아 최초 국제규모의 테스팅 컨퍼런스 @SEOUL]]></title>
+					<link>http://blog.naver.com/yuzico/130021072077</link>
+					<guid>http://blog.naver.com/yuzico/130021072077</guid>
+					<description><![CDATA[STA와 STEN의 대표이며, 국내 소프트웨어 테스팅 분야의 선구자인 권원일씨께서 대형 소프트웨어 테스팅 컨퍼런스를 유치하셨습니다. (/^^)/이에 관련하여, 전달받은 이메일을 홍보차원에서 블로그에 전문 옮깁니다~(이미지가 자꾸 깨지는 관계로, 본문만 옮겼습니다~)국내에서 접하기 힘든 컨퍼런스이니 만큼, 기회가 왔을때 잡으시기 바랍니다!--------------------------안녕하세요, 권원일 입니다.어김없이 테스팅 컨퍼런스 기간이 다가왔습니다. 저희 전 직원과 자원봉사자 분들이 “ASTA International Software TestingConference 2007”을 준비하고 홍보하느라 여념이 없습니다.즐겁게 준비한 아시아 최초 국제적 규모의 테스팅 컨퍼런스.......]]></description>
+					<pubDate>Fri, 10 Aug 2007 13:09:23 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[CM] 변경 및 형상관리를 통합한...]]></title>
+					<link>http://blog.naver.com/yuzico/130020666250</link>
+					<guid>http://blog.naver.com/yuzico/130020666250</guid>
+					<description><![CDATA[IT비지니스 저널에서 퍼왔습니다. 비지니스 룰 연재중의 하나인데요. 비지니스 룰이 뭔지 잘 아시는 분 있나요? 난 뭔지 모르겠네요. 아래 글은, 형상관리에 대한 참고하기 좋은 길이길래, 퍼왔습니다.------------------변경 및 형상관리를 통합한 ALM 실현프로세스 관리/자동화 부분의 필요성과 애플리케이션 변경 추적최 광 호 한국비지네스써비스 소프트웨어 제2사업부 차장변경 및 형상관리에서의 프로세스 관리 기능은 프로그램의 개발 및 변경 과정에의 현업 사용자의 참여와 함께 해당 분야에서 이미고객의 선택을 넘어선 필수 항목으로 자리매김되어 있으며, 그 프로세스 항목들의 자동화 실현을 통한 업무의 효율성 극대화는 변경및 형.......]]></description>
+					<pubDate>Tue, 31 Jul 2007 11:18:37 +0900</pubDate>
+					<tag><![CDATA[CM,SPI,QA]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[PI] IT 프로세스 개선의 준비...]]></title>
+					<link>http://blog.naver.com/yuzico/130020435880</link>
+					<guid>http://blog.naver.com/yuzico/130020435880</guid>
+					<description><![CDATA[좋은 글이네요. 퍼왔습니다. (http://www.itjr.net/it/it_view.asp?code=04&amp;id=3126&amp;page=)---------------------IT 프로세스의 효과적 운영을 위한 조직 구조 및 프로세스 자동화글쓴이 : 이민재 티큐엠에스 대표컨설턴트 사람·프로세스·기술의 상호 유기적인 조화를 통한 IT 역량 강화 소프트웨어 개발이나 시스템 통합(System Integration, SI) 업계를중심으로 기업의 정보시스템 조직에서 요즘 가장 중요하게 대두되고 있는 이슈 중의 하나가 프로세스 개선(ProcessImprovement, PI) 활동이라고 할 수 있다. 프로세스 개선 활동은 다음과 같은 목적을 달성하기 위해 기업에서 프로세스기반의 변화 전략을 수행하기 위한 활동이다.·프.......]]></description>
+					<pubDate>Wed, 25 Jul 2007 11:36:32 +0900</pubDate>
+					<tag><![CDATA[CMMI,SPI]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Article]]></category>
+					<title><![CDATA[[ZDNet] CIO의 역할이 진화하고 있다]]></title>
+					<link>http://blog.naver.com/yuzico/130019402379</link>
+					<guid>http://blog.naver.com/yuzico/130019402379</guid>
+					<description><![CDATA[곱씹어 볼만한 기사네요.기존의, 수석 엔지니어 역할의 CIO에서 개발에 관련된 프로세스를 다룰 수 있는 CIO로 변해가고 있다는 (사회가 필요로한다는) 내용의 기사입니다.---------------------오병민 기자 ( ZDNet Korea )  2007/06/28 (출처: ZDNet/ CIO의 역할이 진화하고 있다)
+최근 IBM에서 발표한 글로벌 스터디에 따르면, 최고정보책임자(Chief Information Officer; CIO)의 역할이 단순한 기술 및 컴퓨팅 지원 수준을 넘어 전략 창출 및 비즈니스 혁신 쪽으로 발전하고 있는 것으로 나타났다. IBM CIO 리더십 포럼 조사(IBM CIO Leadership Forum Survey) 결과에 따르면, 조사에 응한 CIO의 84%가 기술이 해당 산업에 중대하고 심도 깊.......]]></description>
+					<pubDate>Thu, 28 Jun 2007 10:58:57 +0900</pubDate>
+					<tag><![CDATA[SPI]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[P-CAMP의 공개 참여자 모집에 등록하세요.]]></title>
+					<link>http://blog.naver.com/yuzico/130019317134</link>
+					<guid>http://blog.naver.com/yuzico/130019317134</guid>
+					<description><![CDATA[공개 참여자 모집 시작!!!약속되었던 25일에 공개 참여자 모집이 시작되었습니다!!!!!P-CAMP 참여신청하러 가기위의 링크외에, 블로그 우측 상단의 "참여신청"메뉴를 통해서도 등록페이지로 갈 수 있습니다.등록페이지는, 행사의 공동 주최인 "스마트플레이스"에서 지원하여 주었습니다.공개 참여자 모집이라뇨? 비공개도 있나요?P-CAMP의 참여자 모집은, 두가지 방향에서 이루어 집니다. 첫번째로, 각 전문 커뮤니티에서 20명씩의 참여자를 모으고, 두번째로, 공개로 참여자를 모집합니다.CMMI포럼/STEN/XPer에서 20명씩이니까, 60명에 공개 참여자 50명하여 110명의 참여자가 되겠네요. 여기에 자원봉사자 16명과 행사 주최진 16명이 합쳐져서.......]]></description>
+					<pubDate>Mon, 25 Jun 2007 19:21:46 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[P-CAMP 프로그램]]></title>
+					<link>http://blog.naver.com/yuzico/130019130798</link>
+					<guid>http://blog.naver.com/yuzico/130019130798</guid>
+					<description><![CDATA[
+P-CAMP는 2007년 7월 7일 토요일도곡역 한국 IBM 온디멘드홀에서 열립니다.P-CAMP의 프로그램은, 오전 사전행사와 오후 본 행사로 나누어져 있습니다. 원활한 행사 진행을 위해서, 사전행사 참석자는 본 행사 신청자로 제한하겠습니다. 양해 부탁 드립니다. 
+오전 사전행사IT산업의 현안에서 벗어나, 실험적인 형식의 튜토리얼들이 준비되어 있습니다. 본 행사 신청자에 한하여 신청이 가능합니다. 
+오후 본행사준
+비된 강사에 의한 일방적인 컨퍼런스 방식에서 벗어나, 준비된 강사나 세부 주제 없이 참여자들이 주체적으로 행사를 구성하게
+됩니다. ‘오픈스페이스’라는 토론 프로세스를 사용하며, 대 주제로 ‘현실적인 프로세스’, ‘.......]]></description>
+					<pubDate>Wed, 20 Jun 2007 16:47:16 +0900</pubDate>
+					<tag><![CDATA[TDD,PMBOK,Agile,CMMI포럼,CMMI,ITGovernance,P-CAMP,PM]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[P-CAMP가 개최되네요.]]></title>
+					<link>http://blog.naver.com/yuzico/130019130715</link>
+					<guid>http://blog.naver.com/yuzico/130019130715</guid>
+					<description><![CDATA[P-CAMP 홈 블로그 (행사 설명 및 참가신청)이하 행사 설명, P-CAMP 홈블로그에서 펌P-CAMP의 열린 모임에 참여하세요.2007
+년 7월 7일, '행운의 숫자 7'이 세번 겹치는 토요일에 첫번째 P-CAMP가 열립니다. IT개발환경에는 개발외에도 특정
+프로세스, 관리기법, 품질 및 방법론 등의 구성요소들이 있습니다. IT종사자라면, 좋던 싫던 그러한 환경 안에서 자신의 업을
+꾸려가야합니다. 이러한 우리가 몸담은 환경을 바람직하고 즐겁게 만들 아이디어를 얻기 위해서 P-CAMP가 여러분에게로 다가
+갑니다. 무
+엇인가 이야기할 것이 있다면, P-CAMP의 열린 토론에 참여하세요. 그곳에서, IT프로세스 개선 전문가, 품질 및 테스트
+전문가, 애자일.......]]></description>
+					<pubDate>Wed, 20 Jun 2007 16:45:04 +0900</pubDate>
+					<tag><![CDATA[P-CAMP,CMMI,CMMI포럼,QA,QC,Agile,ITIL,PM,SPI,SWE]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Resources]]></category>
+					<title><![CDATA[[e하루616] 인터넷의 역사를 기록한다.]]></title>
+					<link>http://blog.naver.com/yuzico/130018921584</link>
+					<guid>http://blog.naver.com/yuzico/130018921584</guid>
+					<description><![CDATA[흥미로운 이메일이 날아왔네요. 더 말할 필요없이, 글을 아래에 옮기겠습니다.다
+음세대재단에서 한국인터넷진흥원과 Daum과 함께,정보통신부와 태터앤컴퍼니, 올블로그, 미투데이의 도움을받아 6월 16일,
+인터넷의하루를 수집하고 기록하는 e하루 616이라는 행사를 진행하고 있습니다. 남녀상열지사 스캔들을 찍었떤 이재용감독의 프로젝트
+중에 빠르게 변화하는 서울을 사진과 영상으로 기록하자는 한도시 이야기 프로젝트가 있어요. 이는 94년과 2004년, 10년의
+주기를 두고 진행했었죠.2004
+년 한도시 이야기 때, "그렇다면 빠르게변화하고 있는 인터넷도 함께 수집해보자"고, Daum의 임직원과 자원봉사자 24명이 모여
+인터넷을수집하.......]]></description>
+					<pubDate>Thu, 14 Jun 2007 14:58:55 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[마소] 코드의 웃음을 빼앗아가는 리펑토링(Refuctoring)]]></title>
+					<link>http://blog.naver.com/yuzico/130018856419</link>
+					<guid>http://blog.naver.com/yuzico/130018856419</guid>
+					<description><![CDATA[제목 : 코드의 웃음을 빼앗아가는 리펑토링(Refuctoring)출처 : 마이크로소프트웨어저자 : 임백준 baekjun.lim@gmail.com내가 일하고 있는 팀에서 동료끼리 서로의 코드를 검토하는 코드리뷰(code review)는 필수적인 항목이다. 코드를 제출(submit)하기 위해서는 누구라도 최소한 한 명 이상의 검토를 받아야 한다. 그렇게 하지 않으면 경우에 따라 문책을 받기도 한다. 특히 새로 입사했거나 경험이 많지 않은 프로그래머는 시스템 이해가 부족한 탓에 코드리뷰를 통해서 검토와 수정을 반복하는 일이 적지 않다. 이러한 맥락에서 나는 얼마 전에 새로 입사한 프로그래머가 작성한 코드를 검토하였다. 
+코드를 작성한 사람은 다양한 회사를 거.......]]></description>
+					<pubDate>Tue, 12 Jun 2007 17:51:51 +0900</pubDate>
+					<tag><![CDATA[SWE,Agile]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Article]]></category>
+					<title><![CDATA[[LGERI] 외부 인재 영입이 실패하는 다섯 가지 이유]]></title>
+					<link>http://blog.naver.com/yuzico/130018665439</link>
+					<guid>http://blog.naver.com/yuzico/130018665439</guid>
+					<description><![CDATA[제목 : 외부 인재 영입이 실패하는 다섯 가지 이유작성자 : 윤언철작성일 : 2007.05.28출처 : 주간경제 938호, LGERI.com최근 많은 기업들이 외부에서 유능한 인재를 확보하려는 노력을 강화하고 있다. 그러나 영입된 외부 인재들이 조직 내에 잘 정착하여 성과를 내는 것은 쉬운 일이 아니다. 외부 인재들이 실패하는 원인 분석을 통해 성공적인 외부 인재 활용 방안을 찾아 보자.  야구의 메이저리그나 축구의 프리미어리그 소식을 접하다 보면, 스타 플레이어를 영입하기 위해 거액의 이적료와 연봉을 아낌없이 투자하는 구단들을 종종 보게 된다. 그렇게 많은 돈을 들여 데리고 온 선수가 구단의 기대에 걸맞게 뛰어난 활약을 보이는 경우도.......]]></description>
+					<pubDate>Thu, 07 Jun 2007 15:51:55 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[Rational] UML의 기초: 클래스 다이어그램]]></title>
+					<link>http://blog.naver.com/yuzico/130018664142</link>
+					<guid>http://blog.naver.com/yuzico/130018664142</guid>
+					<description><![CDATA[부제 : UML 2의 구조 다이어그램 소개 
+난이도 : 초급 
+글쓴이 : Donald Bell, IT Specialist, IBM
+게시일 : 2007 년 5 월 22 일The Rational Edge 발췌: UML 2의 새로운 구조 다이어그램 유형 중 가장 중요한 클래스 다이어그램은 소프트웨어 개발 사이클 동안 분석가, 비즈니스 모델러, 개발자, 테스터에 의해 사용됩니다.이 글은 Unified Modeling Language(UML)에서 사용되었던 필수 다이어그램에 관한 기술자료 시리즈입니다. 시퀀스 다이어그램에 대해 설명했던 이전 기술자료에 서는, UML 1.4 스팩에서OMG의 Adopted 2.0 Draft Specification of UML (UML 2)로 초점을 이동했습니다. 이 글에서는 UML 2에 도입된 새로운 다이어그램 카.......]]></description>
+					<pubDate>Thu, 07 Jun 2007 15:07:49 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[Rational] 소프트웨어 개발 대 소프트웨어 엔지니어링]]></title>
+					<link>http://blog.naver.com/yuzico/130018585506</link>
+					<guid>http://blog.naver.com/yuzico/130018585506</guid>
+					<description><![CDATA[제목 : 소프트웨어 개발 대 소프트웨어 엔지니어링 
+난이도 : 초급 작성자 : Gary Pollice, 교수, Worcester Polytechnic Institute게시일 : 2005 년 12 월 15 일
+왜 그렇게 많은 소프트웨어 개발 프로젝트가 실패하거나 저질의 제품을 만들어 내는가? 이 글의 저자는 소프트웨어 전문가를 교육하는 방식과 관련이 있다고 강력하게 주장한다. 이 글에서 필자는 소프트웨어 엔지니어링과 소프트웨어 개발의 차이점을 설명하고 대학생들을 교육할 때 필자가 사용했던 실제적인 방법들을 설명한다. 2003년부터, Worcester Polytechnic Institute에서 학부생들을 대상으로 6주 코스의 소프트웨어 엔지니어링을 강의하고 있다. 내 제자들은 내가.......]]></description>
+					<pubDate>Tue, 05 Jun 2007 14:55:28 +0900</pubDate>
+					<tag><![CDATA[SWE,RationalEdge]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[CUnit 튜토리얼] 에러처리]]></title>
+					<link>http://blog.naver.com/yuzico/130017611725</link>
+					<guid>http://blog.naver.com/yuzico/130017611725</guid>
+					<description><![CDATA[여기에서는 CUnit의 에러 처리/관리 방법을 알아보겠습니다.에러 상태의 취득 테스트시트에서 잠깐 다뤄보았듯이 에러상태를 얻어오는 함수가 있습니다.여기에는 에러코드를 리턴하는 함수와 에러 메세지 문자열을 리턴하는 함수 2가지가 있습니다.함수 :CU_ErrorCode CU_get_error(void)설명 :에러 코드를 리턴합니다.함수 :const char* CU_get_error_msg(void)설명 :에러 메세지 문자열을 리턴합니다.에러 코드는 열거형으로써 CUnit/CUError.h에 정의되어 있습니다. 이 파일은 CUnit/CUnit.h에서도 호출되고 있으므로, 파일 인클루드에 상관없이 이용 가능합니다. 아래는 에러 코드 목록입니다.CUE_SUCCESS  - 성공(에러 없음)CUE_NOMEMORY - .......]]></description>
+					<pubDate>Thu, 10 May 2007 13:44:01 +0900</pubDate>
+					<tag><![CDATA[Test,TDD,QC,Agile]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[CUnit 튜토리얼] 테스트의 실행]]></title>
+					<link>http://blog.naver.com/yuzico/130017611239</link>
+					<guid>http://blog.naver.com/yuzico/130017611239</guid>
+					<description><![CDATA[CUnit 테스트를 실행하는 방법에 대해 알아보겠습니다.각종 실행 모드테스트를
+실행하는 방법으로, 콘솔상에서 인터랙티브하게 사용하는 방법(CU_console_run_tests( )를
+사용)과배치처리하는방법(CU_basic_run_tests( )를 사용)을 해 보았습니다. CUnit에는이들을 포함하여 모두
+4개의 실행 모드가 있습니다.Automated 모드배치적으로 처리하는 모드입니다. 출력은 XML 형식의 파일입니다.Unit/Automated.h를 인클루드합니다. 모든 플랫폼에서 사용가능합니다.Basic 모드배치적으로 처리하는 모드입니다. 출력은 표준 출력입니다.CUnit/Basic.h를 인클루드합니다. 모든 플랫폼에서 사용가능합니다.Console 모드인터랙티브한 조작을 받아들이.......]]></description>
+					<pubDate>Thu, 10 May 2007 13:25:03 +0900</pubDate>
+					<tag><![CDATA[Agile,QC,TDD,Test]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[CUnit 튜토리얼] 테스트시트]]></title>
+					<link>http://blog.naver.com/yuzico/130017611117</link>
+					<guid>http://blog.naver.com/yuzico/130017611117</guid>
+					<description><![CDATA[CUnit의 테스트시트를 다루는 방법에 대해 정리하겠습니다.액티브 테스트레지스트리에 테스트시트 추가"3. 사용해 보기"에서 보인것 처럼, 액티브 테스트레지스트리에테스트시트를 추가하는 함수는 CU_add_suite( )입니다. 이제부터, 이 함수의 내용에 대하여 설명하겠습니다.함수 :CU_pSuite CU_add_suite(const char* strName, CU_InitializeFunc pInit, CU_CleanupFunc pClean)설명 :
+첫번째 인수로 나타나는 이름, 두번째 인수로 나타나는 초기화 함수, 세번째 인수로 나타나는 클린 업 함수를 가지는 테스트시트
+영역을 작성하여, 액티브 테스트레지스트리에 등록합니다. 리턴 값은 테스트시트 영역의 포인터입니다.에러가 발생했을 경우.......]]></description>
+					<pubDate>Thu, 10 May 2007 13:19:26 +0900</pubDate>
+					<tag><![CDATA[Test,TDD,QC,Agile]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[CUnit 튜토리얼] 테스트레지스트리]]></title>
+					<link>http://blog.naver.com/yuzico/130017610971</link>
+					<guid>http://blog.naver.com/yuzico/130017610971</guid>
+					<description><![CDATA[CUnit의 테스트레지스트리를 다루는 방법을 설명하겠습니다.액티브 테스트레지스트리지금까지의 CUnit 설명
+을 보면,테스트레지스트리는 1개만 있어야되는 것처럼 보입니다만,실제로는 여러개를 작성할 수 있습니다. 그렇지만 CUnit 의
+함수는, 테스트레지스트리가 복수로 구성된는 것에 대하여 고려하지 않고 있습니다. 동작중인 하나의 테스트레지스트리(액티브
+테스트레지스트리)만을대상으로 구동됩니다. 따라서, 만약여러개의 테스트레지스트리를 작성하여 테스트 환경을 구축한다면,몇개의
+어떠한 테스트레지스트리가 있고, 어떤 것에 대하여 어떻게 조작하고 구동해야하는지에 대한 관리 책임은전적으로 CUnit을
+사용하는 개발자에게.......]]></description>
+					<pubDate>Thu, 10 May 2007 13:13:29 +0900</pubDate>
+					<tag><![CDATA[Test,Agile,QC]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[CUnit 튜토리얼] 아서트 매크로]]></title>
+					<link>http://blog.naver.com/yuzico/130017049945</link>
+					<guid>http://blog.naver.com/yuzico/130017049945</guid>
+					<description><![CDATA[여기에서는,CUnit 그리고 정의되고 있는 아서트 매크로에 대해 해설합니다. 아서트 매크로 목록
+3장에서는 CU_ASSERT( ) 밖에 사용하지 않았습니다. 테스트가 성공했는지 실패했는지를 판정 혹은 등록하는 매크로는 여러가지가있습니다. 아래의 표는,아서트 매크로 목록입니다.설명은 목록 이후에 하겠습니다. #include&lt;CUnit/CUnit.h&gt;  CU_ASSERT(int expression)CU_ASSERT_FATAL(int expression)CU_TEST(int expression)CU_TEST_FATAL(int expression)  Assert that expression is TRUE (non-zero) CU_ASSERT_TRUE(value)CU_ASSERT_TRUE_FATAL(value)
+ Assert that value is TRUE (non-zero) CU_ASSERT_FALSE(val.......]]></description>
+					<pubDate>Mon, 23 Apr 2007 18:04:03 +0900</pubDate>
+					<tag><![CDATA[Agile,Test,TDD,QC]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[CUnit 튜토리얼] 사용해 보기]]></title>
+					<link>http://blog.naver.com/yuzico/130017043428</link>
+					<guid>http://blog.naver.com/yuzico/130017043428</guid>
+					<description><![CDATA[우선 개념을 잡기 위해서 실제 사용해 보도록 하겠습니다. 「테스트우선 개발 (TDD)」에서는함수를 구현하기 전에 테스트를 먼저 작성합니다. 설명하기 애매하기 때문에,해당 예시를 보여주도록 하겠습니다. 테스트 대상의 예제함수
+예시되는 함수는, 별 의미 없는소트 함수입니다.
+ 1 : void sort(int array[], int num) { 2 : int i; 3 : int j; 4 : int val; 5 :  6 : for(i=0; i&lt;(num-1); i++) { 7 : for(j=(num-1); j&gt;i; j--) { 8 : if (array[j-1] &gt; array[j]) { 9 : val = array[j]; 10 : array[j] = array[j-1]; 11 : array[j-1] = val; 12 : } 13 : } 14 : } 15 : } 이 건 버블 소트의 소스네요. 아무도 이 소스의 효.......]]></description>
+					<pubDate>Mon, 23 Apr 2007 14:33:07 +0900</pubDate>
+					<tag><![CDATA[TDD,Test,QC,Agile]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[CUnit 튜토리얼] 테스트 환경 만들기]]></title>
+					<link>http://blog.naver.com/yuzico/130017038724</link>
+					<guid>http://blog.naver.com/yuzico/130017038724</guid>
+					<description><![CDATA[여기에서는 CUnit을사용하기 위해서 필요한CUnit 테스트 환경과구조의 개념 및 일반적인 사용 방법에 대한 설명을 합니다. 테스트 환경 구조의 개념
+CUnit은 테스트 환경이계층적으로 구성되어 있습니다. 다수의 테스트케이스는 1개의 테스트시트에 모입니다. 또, 다수의 테스트시트는 1개의 테스트레지스트리에 모입니다.  Test Registry | --------------------------- || Suite '1' . . . . Suite 'N' | | --------------- --------------- |||  | Test '11' ... Test '1M' Test 'N1' ...Test 'NM' 테 스트시트는 실행에 앞서 자동적으로 구동되는 셋업 함수와, 시트종료 후에 자동적으로 구동되는 클린 업 함수를 포함할 수 있습니.......]]></description>
+					<pubDate>Mon, 23 Apr 2007 11:12:05 +0900</pubDate>
+					<tag><![CDATA[QC,TDD,Test,Agile]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[CUnit 튜토리얼] 들어서기]]></title>
+					<link>http://blog.naver.com/yuzico/130017038614</link>
+					<guid>http://blog.naver.com/yuzico/130017038614</guid>
+					<description><![CDATA[여기에서는,Cygwin 환경을 사용해 소스 코드로부터 CUnit을 빌드 합니다. 소스 코드 받아오기
+다음의 사이트에서 소스 코드를 받아옵니다. http://sourceforge.net/projects/cunit/
+본 포스트에서 사용한 CUnit의 버전은 2.1-0 입니다. 소스 코드는 tar 볼을 받아옵니다. CUnit-2.1-0-src.tar.gz CUnit의 빌드와 인스톨
+우선은 받아온 CUnit-2.1-0-src.tar.gz의 압축을 풀어서 해당 디렉토리로 이동합니다.$ gzip -cd CUnit-2.1-0-src.tar.gz | tar xf -$ cd CUnit-2.1-0/
+해 당 디렉토리에는 COPYING이라는 파일이 있습니다. 거기에 보면, CUnit은 LGPL 라이센스로 배포된다고 적혀있습니다. 따라서, CUnit은 공짜로 이용할 수.......]]></description>
+					<pubDate>Mon, 23 Apr 2007 11:07:37 +0900</pubDate>
+					<tag><![CDATA[Agile,QC,Test,TDD]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[CUnit 튜토리얼] 첫페이지]]></title>
+					<link>http://blog.naver.com/yuzico/130017038508</link>
+					<guid>http://blog.naver.com/yuzico/130017038508</guid>
+					<description><![CDATA[CUnit이란, C 언어 개발에 대해 단위 테스트를 지원하는「단위 테스트 프레임워크」입니다. 물론, 제대로된 개발자라면,
+CUnit과 유사한 테스트 프레임워크를 가지고 있을 것입니다. 없더라도, 스스로 개발한 프로그램에 대하여 테스트를 실시할
+것이며, 제대로 된 개발 조직이라면, 벌써 유사한 구조를 구축하고 있을 것입니다.하지만,지금까
+지 단위 테스트를 각각의 개발자가 따로따로 수행하고 있었다면, CUnit을 사용해볼 가치가 있습니다. 또한, XP(eXtreme
+Programming)와 같은 개발 방법론을 가지고 있다면, CUnit은 필수입니다. 여기에서는, Cygwin환경에 CUnit을
+인스톨하여 사용하겠습니다.1. 들어서기2. 테스트 환경 만들기3. 사.......]]></description>
+					<pubDate>Mon, 23 Apr 2007 11:03:26 +0900</pubDate>
+					<tag><![CDATA[Agile,QC,Test,TDD]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[Article]]></category>
+					<title><![CDATA[[OST] 오픈 스페이스 - 마틴파울러]]></title>
+					<link>http://blog.naver.com/yuzico/130016671749</link>
+					<guid>http://blog.naver.com/yuzico/130016671749</guid>
+					<description><![CDATA[「오픈 스페이스」란, 개인이 주최하는 컨퍼런스를 성공적으로 하기 위한 방법입니다. 1997년도에 Norm Kerth에 의해 소개되었으며,이 방법으로 진행되는 컨퍼런스를 자주 접했습니다. 또한 저도이 방법을 자주 사용하고 있고요. 12 ~24명 정도의 작은 그룹부터 100 ~200 명정도의 대규모 그룹까지, 모두에게이 방법은 매우 유용해 보입니다. 몇가지 사례를 접해봤으니, 경험의 예를 들어서 소개해 보겠습니다. Crested Butte은 매년 개최되고 있으며, 20 명정도 참여합니다. Agile Universe 2002에는 100여명의 참여자가 모였는데, 그중에 하나의 트랙에 오픈 스페이스를 채용했습니다. foocamp는 수백명 규모의 오픈 스페이스를 실시했습니.......]]></description>
+					<pubDate>Thu, 12 Apr 2007 18:41:59 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>yuzico</author>
+					<category><![CDATA[SW Engineering]]></category>
+					<title><![CDATA[[PI] 흐릿하기 쉬운 PI개념]]></title>
+					<link>http://blog.naver.com/yuzico/130011909473</link>
+					<guid>http://blog.naver.com/yuzico/130011909473</guid>
+					<description><![CDATA[이번 포스트에서는 PI(Process Improvement: 프로세스 개선)을 접한 사람이 좀처럼 개념을 잡지 못하는 몇가지에 대한 설명을 하도록 하겠습니다.프로세스(Process) vs 절차(Procedure) 가장 먼저 다루어 볼 흐릿하기 쉬운 PI개념으로는 우리 분야의 대표적인 Domain인 프로세스(Process)가 있습니다. 프로세스와 절차(Procedure)를 정확히 구분하지 못하는 경우도 있습니다. 과거, 산출물들 만을 위시하는 생명주기 모델이 우리 세상은 지배했던 때가 있었습니다. 하지만, 이러한 방법론의 성과는 그다지 크지 않았으며 이에 한계를 느낀 사람들은 속속 산출물을 만들어 내기 위한 모든 절차를 기존 모델에 추가하게 되었습니다. 이것이 프로.......]]></description>
+					<pubDate>Thu, 07 Dec 2006 11:50:59 +0900</pubDate>
+					<tag><![CDATA[SPI,SWE,QA,QC]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

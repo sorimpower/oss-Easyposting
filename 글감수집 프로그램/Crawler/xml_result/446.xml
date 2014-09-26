@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="http://rss.egloos.com/style/blog.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>window 쪼물딱 거리기</title>
+	<link>http://somma.egloos.com</link>
+	<description> :-) 즐 (-:</description>
+	<language>ko</language>
+	<pubDate>Tue, 05 Mar 2013 13:47:10 GMT</pubDate>
+	<generator>Egloos</generator>
+	<image>
+		<title>window 쪼물딱 거리기</title>
+		<url>http://pds15.egloos.com/logo/200906/25/26/b0039626.jpg</url>
+		<link>http://somma.egloos.com</link>
+		<width>80</width>
+		<height>76</height>
+		<description> :-) 즐 (-:</description>
+	</image>
+  	<item>
+		<title><![CDATA[ 블로그 이전...  ]]> </title>
+		<link>http://somma.egloos.com/4756212</link>
+		<guid>http://somma.egloos.com/4756212</guid>
+		<description>
+			<![CDATA[ 
+  moved to&nbsp;
+http://bugsfixed.blogspot.kr/
+
+			 ]]> 
+		</description>
+		<category>주절.. 주절..</category>
+
+		<comments>http://somma.egloos.com/4756212#comments</comments>
+		<pubDate>Tue, 20 Nov 2012 06:34:32 GMT</pubDate>
+		<dc:creator>somma</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ windows 에서 unicode 사용시 알아야 할 것들 ]]> </title>
+		<link>http://somma.egloos.com/4729258</link>
+		<guid>http://somma.egloos.com/4729258</guid>
+		<description>
+			<![CDATA[ 
+  윈도우에서 캐릭터인코딩 문제때문에 삽질을 좀 했습니다.&nbsp;워낙 코드체계에 대한 기본 지식이 부족해서 검색을 해도 뭐가뭔지 모르겠더군요. &gt;.&lt;
+http://www.novonetworks.com/ 의 Technical 게시판에 Unicode의 이.... <a href="http://somma.egloos.com/4729258"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>프로그래밍</category>
+		<category>unicode</category>
+		<category>utf-16</category>
+
+		<comments>http://somma.egloos.com/4729258#comments</comments>
+		<pubDate>Thu, 09 Aug 2012 05:17:24 GMT</pubDate>
+		<dc:creator>somma</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 좋은 코드 작성하기 - GetCurrentDirectory( ) 함수. part2 ]]> </title>
+		<link>http://somma.egloos.com/4719950</link>
+		<guid>http://somma.egloos.com/4719950</guid>
+		<description>
+			<![CDATA[ 
+  어제에 이어 GetCurrentDirectory( ) 함수를 잘(?) 사용하는 방법 에 대한 심도있는 고찰을 해보죠  ^)^crvo WUGetCurrentDirectory()
+{
+    crvo rvo(NULL);
+    
+    UINT32 buflen=.... <a href="http://somma.egloos.com/4719950"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>프로그래밍</category>
+		<category>GetCurrentDirectory</category>
+		<category>RVO</category>
+		<category>쏘마의귀환</category>
+		<category>ㅋㅋㅋ</category>
+		<category>쓰잘때기없는짓</category>
+		<category>편집증환자</category>
+		<category>변태</category>
+
+		<comments>http://somma.egloos.com/4719950#comments</comments>
+		<pubDate>Sat, 07 Jul 2012 11:31:21 GMT</pubDate>
+		<dc:creator>somma</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 좋은 코드 작성하기 - GetCurrentDirectory( ) 함수 ]]> </title>
+		<link>http://somma.egloos.com/4719681</link>
+		<guid>http://somma.egloos.com/4719681</guid>
+		<description>
+			<![CDATA[ 
+  오랜만에 블로그에 포스팅을 하네요.&nbsp;저 잘 살고 있습니다.   오늘은 "좋은 코드 작성하기"라는 주제입니다. 자~ 시작!  
+ 
+windows API 중에 GetCurrentDirectoryW() 라는 API 가 있습니다. 실행중인 현재 디렉토리를 리.... <a href="http://somma.egloos.com/4719681"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>프로그래밍</category>
+		<category>cleancode</category>
+		<category>GetCurrentDirecotry</category>
+
+		<comments>http://somma.egloos.com/4719681#comments</comments>
+		<pubDate>Fri, 06 Jul 2012 08:28:18 GMT</pubDate>
+		<dc:creator>somma</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 이상한 프로세스 ?!? ]]> </title>
+		<link>http://somma.egloos.com/4650605</link>
+		<guid>http://somma.egloos.com/4650605</guid>
+		<description>
+			<![CDATA[ 
+  notepad.exe 를 실행시킨 모습입니다. 아무런 이상한 것도 없죠.&nbsp;얼마전에 우연히 팀원분과 얘기하다가 PID 를 강제로 변경하면 어떻게 될까 &nbsp;하는 이야기가 나와서 한번 해봤습니다.&nbsp;
+
+네 그렇습니다. PID 를 0 으로 변경.... <a href="http://somma.egloos.com/4650605"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>컴퓨터 이야기</category>
+
+		<comments>http://somma.egloos.com/4650605#comments</comments>
+		<pubDate>Wed, 30 Nov 2011 02:24:56 GMT</pubDate>
+		<dc:creator>somma</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Visual studio 에서 TODO 기능 이용하기 ]]> </title>
+		<link>http://somma.egloos.com/4628494</link>
+		<guid>http://somma.egloos.com/4628494</guid>
+		<description>
+			<![CDATA[ 
+  지금까지는&nbsp;&nbsp;매크로 사용하기&nbsp; 여기서 만들었던 ( MFC 구조와 원리 라는 책에서 베껴온 ) 매크로를 이용해서&nbsp;컴파일 타임시에 메세지로 출력되게 사용했었는데요...
+오늘 우연히 ........ VS 에 이미 이런 기능이 있었네.... <a href="http://somma.egloos.com/4628494"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>컴퓨터 이야기</category>
+
+		<comments>http://somma.egloos.com/4628494#comments</comments>
+		<pubDate>Wed, 28 Sep 2011 06:34:41 GMT</pubDate>
+		<dc:creator>somma</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 사랑 .. 이런게 진짜 아닐까요.. ]]> </title>
+		<link>http://somma.egloos.com/4576901</link>
+		<guid>http://somma.egloos.com/4576901</guid>
+		<description>
+			<![CDATA[ 
+  가슴이 아려오네요...이런 사랑....&nbsp;해볼 수 있을까요....
+ps. 화면캡쳐 몇 장으로 이런 감동을 줄 수 있다는 것도 참 대단하네요.&nbsp;
+http://blog.joinsmsn.com/media/folderListSlide.asp?uid=o.... <a href="http://somma.egloos.com/4576901"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>주절.. 주절..</category>
+
+		<comments>http://somma.egloos.com/4576901#comments</comments>
+		<pubDate>Thu, 19 May 2011 17:38:26 GMT</pubDate>
+		<dc:creator>somma</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ The Evolution of TDL ]]> </title>
+		<link>http://somma.egloos.com/4561890</link>
+		<guid>http://somma.egloos.com/4561890</guid>
+		<description>
+			<![CDATA[ 
+  http://www.eset.com/us/resources/white-papers/The_Evolution_of_TDL.pdf
+x64 에서도 동작하는 TDL4 에 관한 분석 보고서네요.나중에 찬찬히 읽어봐야지.
+			 ]]> 
+		</description>
+		<category>시스템 프로그래밍</category>
+
+		<comments>http://somma.egloos.com/4561890#comments</comments>
+		<pubDate>Thu, 14 Apr 2011 06:21:42 GMT</pubDate>
+		<dc:creator>somma</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Bootkit 강의 자료 ]]> </title>
+		<link>http://somma.egloos.com/4560420</link>
+		<guid>http://somma.egloos.com/4560420</guid>
+		<description>
+			<![CDATA[ 
+  &nbsp;&nbsp;
+CodeGate.2011 트레이닝 코스에서 사용했던 MBR 루트킷 발표용 슬라이드와 샘플 소스코드입니다.&nbsp;강의 시간이 50분밖에 안되서 준비해간 내용의 반도 설명을 못했습니다.&nbsp;( 대체 50분 가지고 뭘 하라는건지.. -.... <a href="http://somma.egloos.com/4560420"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>시스템 프로그래밍</category>
+		<category>bootkit</category>
+		<category>codegate</category>
+		<category>fsk</category>
+
+		<comments>http://somma.egloos.com/4560420#comments</comments>
+		<pubDate>Sun, 10 Apr 2011 23:02:23 GMT</pubDate>
+		<dc:creator>somma</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ CODEGATE 2011 트레이닝코스 강의합니다. ]]> </title>
+		<link>http://somma.egloos.com/4552336</link>
+		<guid>http://somma.egloos.com/4552336</guid>
+		<description>
+			<![CDATA[ 
+  
+http://www.codegate.org/2011/kor_2011/sub_4_2.html
+
+올해 코드게이트에는 트레이닝 코스라는게 생겼네요. 어찌어찌하다보니 세션 두개를 모두 우리회사에서 맡게 되었는데요,&nbsp;저는 MBR 루트킷 구현에 대해서 발표를.... <a href="http://somma.egloos.com/4552336"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>주절.. 주절..</category>
+		<category>CODEGATE</category>
+		<category>코드게이트</category>
+		<category>2011</category>
+		<category>MBR</category>
+		<category>bootkit</category>
+		<category>FSK</category>
+		<category>에프에스케이시큐리티</category>
+
+		<comments>http://somma.egloos.com/4552336#comments</comments>
+		<pubDate>Tue, 22 Mar 2011 16:44:38 GMT</pubDate>
+		<dc:creator>somma</dc:creator>
+	</item>
+</channel>
+</rss>

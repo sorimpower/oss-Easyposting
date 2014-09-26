@@ -1,0 +1,57 @@
+﻿@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Easy Posting PLUS</title>
+    @Styles.Render("~/Content/fonts")
+    @*@Styles.Render("~/Content/cover")*@
+    @Scripts.Render("~/bundles/modernizr")
+    @*@Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")*@
+    <!-- ================== BEGIN BASE CSS STYLE ================== -->
+    @*<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">*@
+    <link href="~/assets/plugins/jquery-ui-1.10.4/themes/base/minified/jquery-ui.min.css" rel="stylesheet" />
+    <link href="~/assets/plugins/bootstrap-3.2.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/assets/plugins/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/assets/css/animate.min.css" rel="stylesheet" />
+    @*<link href="~/assets/css/style.min.css" rel="stylesheet" />
+    <link href="~/assets/css/style-responsive.min.css" rel="stylesheet" />
+    <link href="~/assets/css/theme/default.css" rel="stylesheet" id="theme" />*@
+    <!-- ================== END BASE CSS STYLE ================== -->
+    <link rel="stylesheet" type="text/css" href="~/assets/css/login.css">
+
+</head>
+<body class="login-page">
+
+    @RenderBody()
+
+
+    <!-- ================== BEGIN BASE JS ================== -->
+    <script src="~/assets/plugins/jquery-1.8.2/jquery-1.8.2.min.js"></script>
+    <script src="~/assets/plugins/jquery-ui-1.10.4/ui/minified/jquery-ui.min.js"></script>
+    @*<script src="~/assets/plugins/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+        <!--[if lt IE 9]>
+            <script src="~/assets/crossbrowserjs/html5shiv.js"></script>
+            <script src="~/assets/crossbrowserjs/respond.min.js"></script>
+            <script src="~/assets/crossbrowserjs/excanvas.min.js"></script>
+        <![endif]-->
+        <script src="~/assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+        <script src="~/assets/plugins/jquery-cookie/jquery.cookie.js"></script>
+        <!-- ================== END BASE JS ================== -->
+        <!-- ================== BEGIN PAGE LEVEL JS ================== -->
+        <script src="~/assets/js/login-v2.min.js"></script>
+        <script src="~/assets/js/apps.min.js"></script>
+        <!-- ================== END PAGE LEVEL JS ================== -->
+        <script>
+            $(document).ready(function () {
+                App.init();
+                LoginV2.init();
+            });
+        </script>*@
+    @RenderSection("scripts", required: false)
+</body>
+</html>   
+

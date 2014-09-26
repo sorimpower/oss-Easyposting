@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="http://rss.egloos.com/style/blog.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>Xeraph@NCHOVY</title>
+	<link>http://xeraph.egloos.com</link>
+	<description>엔초비 보안과 개발 이야기　　　
+(주로 크라켄 문어발 개발)</description>
+	<language>ko</language>
+	<pubDate>Fri, 01 Feb 2013 00:30:21 GMT</pubDate>
+	<generator>Egloos</generator>
+	<image>
+		<title>Xeraph@NCHOVY</title>
+		<url>http://pds18.egloos.com/logo/201006/02/57/c0025857.png</url>
+		<link>http://xeraph.egloos.com</link>
+		<width>80</width>
+		<height>91</height>
+		<description>엔초비 보안과 개발 이야기　　　
+(주로 크라켄 문어발 개발)</description>
+	</image>
+  	<item>
+		<title><![CDATA[ Chopin Ballade No.1 G minor ]]> </title>
+		<link>http://xeraph.egloos.com/5718525</link>
+		<guid>http://xeraph.egloos.com/5718525</guid>
+		<description>
+			<![CDATA[ 
+  <object width="420" height="315"><param name="movie" value="http://www.youtube.com/v/AUf7L7SsW5c?version=3&amp;hl=ko_KR"><embed src="http://www.youtube.com/v/AUf7L7SsW5c?version=3&amp;hl=ko_KR" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></object><br />
+<br />
+1월 27일 연습.. 아직 끝까지 못 침 (...)			 ]]> 
+		</description>
+		<category>연주</category>
+
+		<comments>http://xeraph.egloos.com/5718525#comments</comments>
+		<pubDate>Fri, 01 Feb 2013 00:30:21 GMT</pubDate>
+		<dc:creator>xeraph</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 크라켄 로그디비 파이썬 클라이언트 ]]> </title>
+		<link>http://xeraph.egloos.com/5710441</link>
+		<guid>http://xeraph.egloos.com/5710441</guid>
+		<description>
+			<![CDATA[ 
+  아래 링크에서 egg 파일을 받을 수 있다.<div>아직 setup.py나 메타데이터가 제대로 들어있지는 않고, 예외처리가 완전하지는 않다.</div><div><br />
+</div><div><a href="http://staging.krakenapps.org/kraken-logdb-client-0.1.egg" target="_blank">http://staging.krakenapps.org/kraken-logdb-client-0.1.egg</a></div><div><br />
+</div><div>파이썬 2.6 버전 이상이라면 아래와 같이 쉽게 쿼리 콘솔을 실행할 수 있다.</div><div><br />
+</div><div><div>D:\&gt;python kraken-logdb-client-0.1.egg</div><div>Kraken LogDB Console 0.1 (2013-01-04)</div><div>Type "help" for more information</div><div>logdb&gt;</div></div><div><br />
+</div><div>사용할 수 있는 명령어는 help 쳤을 때 출력된다.</div><div><br />
+</div><div><div>logdb&gt; help</div><div>connect &lt;host&gt; &lt;loginname&gt; &lt;password&gt;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; connect to specified kraken logdb instance</div><div>disconnect</div><div>&nbsp; &nbsp; &nbsp; &nbsp; disconnect database connection</div><div>queries</div><div>&nbsp; &nbsp; &nbsp; &nbsp; print all queries initiated by this session</div><div>query &lt;query string&gt;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; create, start and fetch query result at once</div><div>create_query &lt;query string&gt;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; create query with specified query string, and return allocated query id</div><div>start_query &lt;query id&gt;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; start query</div><div>stop_query &lt;query_id&gt;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; stop running query</div><div>remove_query &lt;query_id&gt;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; stop and remove query</div><div>fetch &lt;query_id&gt; &lt;offset&gt; &lt;limit&gt;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; fetch result set of specifeid window. you can fetch partial result before query is ended</div></div><div><br />
+</div><div>가장 단순하게는 connect 한 후에 query 명령을 치면 된다. 데모는 아래의 동영상을 참고하도록 하자.</div><div><br />
+</div><div><iframe width="420" height="315" src="http://www.youtube.com/embed/QqfHAG1QxY8" frameborder="0" allowfullscreen=""></iframe></div><div><br />
+</div><div>클라이언트 라이브러리를 직접 사용한다면 아래의 LogDbConnector 클래스 설명을 참고하자.</div><div>현재는 Long polling 기반의 HTTP 메시지버스 RPC 통신을 이용하기 때문에 쿼리 반응이 좀 느리다.</div><div>이 부분은 나중에 네이티브 TCP 프로토콜을 추가하면서 해결할 것이다.</div><div><br />
+</div><div><b>def connect(self, host, nick, password)</b></div><div><br />
+</div><div>host - 도메인 혹은 IP 주소</div><div>nick - 로그인 계정</div><div>password - 암호</div><div><br />
+</div><div>데이터베이스 서버에 접속한 이후에 다른 메소드들을 정상적으로 수행할 수 있다. 서버에 접속이 안 되면 소켓에서 예외가 날 것이고, 계정이 없다거나 암호가 일치하지 않는다면 MessageException을 던진다. 의도된 크라켄 로그 데이터베이스 서버가 아닌 일반 웹서버라면 JSON 디코드 예외가 날 수 있다.</div><div><br />
+</div><div>현재는 80으로 접속 시도하므로, 만약 접속이 안 된다면 크라켄 로그DB 구성을 확인해보자. 80 포트가 열려있어야 하고 webconsole HTTP 컨텍스트가 바인드 되어야 한다.</div><div><br />
+</div><div><b>def close(self)</b></div><div><br />
+</div><div>데이터베이스 접속을 해제하고 할당된 스레드 및 자원을 해제한다. 접속이 된 상태라면 HTTP Long Polling을 수행하는 스레드가 타임아웃 될 때까지 몇 초간 종료가 지연될 수 있다.</div><div><br />
+</div><div><div><b>def query(self, query_string)</b></div></div><div><br />
+</div><div>가장 간단하게는 connect 직후에 이 query 메소드를 사용해서 쿼리 결과를 얻으면 된다. 접속이 되어있지 않거나, 쿼리 문법이 틀린 경우에는 예외가 발생한다. 제네레이터를 사용한 커서를 리턴하므로, 원하는만큼 순회하면서 결과 행을 얻어오면 된다. 마지막행까지 순회하면 쿼리가 삭제된다. 부분적인 결과 행만 얻어냈다면 직접 쿼리를 삭제해야 한다.</div><div><br />
+</div><div><div><b>def create_query(self, query_string)</b></div><div><br />
+</div><div>현재 접속 세션에서 쿼리를 생성하고 쿼리 ID를 반환한다. 접속되지 않은 상태이거나 쿼리 문법이 틀린 경우에는 예외가 발생한다.</div><div><br />
+</div><div><b>def start_query(self, query_id, page_size=10, timeline_size=10)</b></div><div><div><br />
+</div><div>query_id - 쿼리 ID</div><div>page_size - 페이징 단위 갯수</div><div>timeline_size - 타임라인에 표시할 항목 수</div><div><br />
+</div><div>지정된 쿼리 ID를 가진 쿼리를 시작시킨다. 페이징 크기와 타임라인 크기는 향후 페이지 로딩, 타임라인 업데이트 콜백이 추가되면 의미를 가질 것이지만 지금은 무시하면 된다. 접속되지 않은 상태이거나, 현재 세션에서 생성한 쿼리가 아니라면 예외가 발생한다.</div><div><br />
+</div><div><b>def wait_until(self, query_id, count)</b></div></div></div><div><br />
+</div><div>query_id - 쿼리 ID</div><div>count - 결과 행 수가 지정된 임계값 이상 준비될 때까지 대기</div><div><br />
+</div><div>쿼리 시작 후 일정 갯수 이상의 결과 행이 서버에서 준비될 때까지 대기한다. count에 None을 넘기면 쿼리가 완료될 때까지 대기한다. 접속되지 않은 상태이거나, 현재 세션에서 생성한 쿼리가 아니라면 예외가 발생한다. 쿼리를 시작시키지 않은 상태에서는 무한히 대기하게 될 수도 있으므로 주의한다.</div><div><br />
+</div><div><div><b>def get_result(self, query_id, offset, limit)</b></div></div><div><br />
+</div><div>query_id - 쿼리 ID</div><div>offset - 건너뛸 행 갯수</div><div>limit - 가져올 최대 행 갯수 (모자랄 수도 있음)</div><div><br />
+</div><div>쿼리 결과를 조회한다. 쿼리가 완료되지 않은 상태라도 호출 시점까지 조회된 부분적인 결과를 조회할 수 있다. result와 count 키를 포함한 dict를 반환하는데, result는 결과 행의 리스트를 담고 있으며, count는 현재까지 조회된 전체 결과 행 수를 담고 있다. count를 통해 추가로 조회 가능한 결과 행을 확인할 수 있다. 보통 결과 페이징 조회 시에 이 메소드를 호출한다.</div><div><br />
+</div><div>접속되지 않은 상태이거나, 현재 세션에서 생성한 쿼리가 아닌 경우에는 예외가 발생한다.</div><div><br />
+</div><div><b>def open_cursor(self, query_id, offset, limit, close=False)</b></div><div><br />
+</div><div>query_id - 쿼리 ID</div><div>offset - 건너뛸 행 갯수</div><div>limit - 가져올 최대 행 갯수 (모자랄 수도 있음)</div><div>close - 마지막 결과 행 조회 후에 쿼리 삭제 여부</div><div><div><br />
+</div></div><div>결과 행을 순회하는 커서를 연다. 접속되지 않은 상태이거나, 현재 세션에서 생성한 쿼리가 아닌 경우에는 예외가 발생한다.</div><div><br />
+</div><div><b>def stop_query(self, query_id)</b></div><div><br />
+</div><div>query_id - 쿼리 ID</div><div><br />
+</div><div>쿼리 실행 중에 이 메소드를 호출하면 쿼리를 중단한다. 쿼리를 중단하는 시점까지 기록된 결과 집합은 중단 후에도 get_result로 조회할 수 있다. 접속되지 않은 상태이거나, 현재 세션에서 생성한 쿼리가 아닌 경우에는 예외가 발생한다.</div><div><br />
+</div><div><b>def remove_query(self, query_id)</b></div><div><br />
+</div><div>query_id - 쿼리 ID</div><div><br />
+</div><div>지정된 쿼리를 삭제한다. 삭제된 쿼리의 쿼리 결과는 더 이상 조회할 수 없다. 명시적으로 쿼리를 삭제하지 않더라도, 메시지버스 세션이 종료되면 (타임아웃되어 종료되는 것 포함) 해당 세션에서 생성했던 모든 쿼리는 자동으로 삭제된다.</div><div><br />
+</div>			 ]]> 
+		</description>
+		<category>크라켄북</category>
+
+		<comments>http://xeraph.egloos.com/5710441#comments</comments>
+		<pubDate>Fri, 04 Jan 2013 16:28:20 GMT</pubDate>
+		<dc:creator>xeraph</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ log4j 설정만으로 크라켄 로그 DB에 로그 전송하기 ]]> </title>
+		<link>http://xeraph.egloos.com/5709485</link>
+		<guid>http://xeraph.egloos.com/5709485</guid>
+		<description>
+			<![CDATA[ 
+  <div>다수의 WAS 서버에서 발생하는 애플리케이션 감사 로그를 실시간으로 수집 및 관제하려고 할 때 유용할 것이다. kraken-logdb-log4j 1.0.0은 아직 experimental 단계이므로 테스트용으로만 사용한다.</div><div><br />
+</div><div>가령 크라켄 코어를 실행할 때 아래와 같이 log4j.properties를 편집해 둘 수 있다.</div><div>(아래 글의 <a href="http://xeraph.com/5709357" target="_blank">HTTP 로그 입력 설정</a>을 참고하도록 한다.)</div><div><br />
+</div><div><div>log4j.rootLogger = INFO, logdb</div><div>log4j.appender.logdb = org.krakenapps.logdb.log4j.HttpAppender</div><div>log4j.appender.logdb.URL = http://IP주소/logdb/inputs/http-input-sample-url-token</div></div><div><br />
+</div><div>로그DB log4j 어댑터를 다운로드한다.</div><div><a href="http://staging.krakenapps.org/org/krakenapps/kraken-logdb-log4j/1.0.0/kraken-logdb-log4j-1.0.0-package.jar" target="_blank">http://staging.krakenapps.org/org/krakenapps/kraken-logdb-log4j/1.0.0/kraken-logdb-log4j-1.0.0-package.jar</a></div><div><br />
+</div><div>아래와 같이 커스텀 log4j appender를 클래스패스에 잡고 실행한다.</div><div>java -cp kraken-logdb-log4j-1.0.0-package.jar;kraken-core-2.2.0-package.jar org.krakenapps.main.Kraken</div><div><br />
+</div><div>그러면 적당히 1초 주기마다 설정된 HTTP 엔드포인트로 log4j로 기록된 모든 로그가 전송된다.</div><div><br />
+</div><div><img border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds26.egloos.com/pds/201301/01/57/c0025857_50e2f1583d526.png" width="500" height="281.385281385" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201301/01/57/c0025857_50e2f1583d526.png');" /></div><div><br />
+</div><div>TODO</div><div>- HTTPS 및 프록시 설정 추가</div><div>- 서버 통신 끊겼을 때 디스크 버퍼링하고 다시 연결되면 전송하는 기능 추가</div><div>(적당한 버퍼링 한계 설정 필요)</div><div>- 전송 주기 및 내부 메모리 버퍼 크기 설정 추가</div><div>- Tomcat, Jeus 등 일반화된 개발 환경의 설정 예시 정리</div><div>- HTTP 이외에 TCP 소켓 기반 고속 전송 프로토콜 추가</div>			 ]]> 
+		</description>
+		<category>크라켄북</category>
+
+		<comments>http://xeraph.egloos.com/5709485#comments</comments>
+		<pubDate>Tue, 01 Jan 2013 14:35:08 GMT</pubDate>
+		<dc:creator>xeraph</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 크라켄 로그 DB에 HTTP로 로그 입력하기 ]]> </title>
+		<link>http://xeraph.egloos.com/5709357</link>
+		<guid>http://xeraph.egloos.com/5709357</guid>
+		<description>
+			<![CDATA[ 
+  <div>크라켄 로그 DB에 외부 스크립트를 통해 로그를 수집하여 저장하고 싶을 때, Syslog나 SNMP Trap으로 로그를 쏜다든지 하는 방법도 있지만 일반적으로 스크립터들에게 익숙한 방법은 HTTP 통신일 것이다.</div><div><br />
+</div><div></div><div>아래와 같이 번들을 설치한다.</div><div><br />
+</div><div>kraken&gt;&nbsp;bundle.install org.krakenapps kraken-logdb-httpinput 1.0.0</div><div></div><div><br />
+</div><div>그 다음에 로거 팩토리 목록을 조회하면 http-input을 확인할 수 있다.</div><div><br />
+</div><div></div><div><div>kraken&gt; logapi.loggerFactories</div><div>Logger Factories</div><div>---------------------</div><div>fullname=local\http-input, type=http input, description=receives json logs through http post requests</div><div>fullname=local\textfile, type=text file logger, description=text file logger</div></div><div></div><div><br />
+</div><div>http-input 로거를 생성한다.</div><div></div><div><div><br />
+</div><div>kraken&gt; logapi.createLogger http-input local http-input-sample</div><div>Input Token (required)? http-input-sample-url-token</div><div>logger created: name=local\http-input-sample, factory=local\http-input, status=stopped (interval=0ms), log count=0, last start=null, last log=null</div></div><div></div><div><br />
+</div><div>URL에 사용될 토큰을 임의로 지정하였는데 GUID 생성해서 쓰거나 자기가 편한 경로를 사용하면 된다. (다만 누군가 쓰레기 로그를 쏟아붓는 일이 없도록 외부에 쉽게 노출되지 않을 경로 이름를 사용하자)</div><div></div><div><br />
+</div><div>로거를 시작(활성화)시킨다.</div><div></div><div><div><br />
+</div><div>kraken&gt; logapi.startLogger local\http-input-sample</div><div>logger started</div></div><div></div><div><br />
+</div><div>파이프라인을 통해 전달되는 로그를 스토리지에 저장되도록 설정한다.</div><div><div><br />
+</div><div>kraken&gt; siem.createLogger localhost local\http-input-sample</div><div>created</div></div><div></div><div><br />
+</div><div>웹서버를 열어두어야 한다. 가령, 아래와 같이 기본 webconsole 컨텍스트를 80 포트에 바인딩할 수 있다.</div><div><br />
+</div><div>kraken&gt; httpd.open 80 webconsole</div><div></div><div><br />
+</div><div>이제 CURL로 밀어넣어보자. Content-Type은 text/json 이어야 하고, 본문은 JSON 형식으로 로그 객체의 리스트를 기입한다. 가령, 다음과 같다.</div><div></div><div><div><br />
+</div><div>$ curl -S -v -X POST -H "Content-Type: text/json" -d '[{"line": "hello kraken world"} , {"line": "happy new year!"}]' http://1.2.3.4/logdb/inputs/http-input-sample-url-token</div><div>* About to connect() to 1.2.3.4 port 80</div><div>* &nbsp; Trying 1.2.3.4... connected</div><div>* Connected to 1.2.3.4 (1.2.3.4) port 80</div><div>&gt; POST /logdb/inputs/http-input-sample-url-token HTTP/1.1</div><div>&gt; User-Agent: curl/7.15.5 (x86_64-redhat-linux-gnu) libcurl/7.15.5 OpenSSL/0.9.8b zlib/1.2.3 libidn/0.6.5</div><div>&gt; Host: 1.2.3.4</div><div>&gt; Accept: *-*</div><div>&gt; Content-Type:text/json</div><div>&gt; Content-Length: 62</div><div>&gt;</div><div>&gt; [{"line": "hello kraken world"} , {"line": "happy new year!"}]HTTP/1.1 200 OK</div><div>&lt; Content-Length: 0</div><div>* Connection #0 to host 1.2.3.4 left intact</div><div>* Closing connection #0</div><div></div></div><div><br />
+</div><div>그러면 쿼리를 했을 때 아래와 같이 데이터가 들어간 것을 확인할 수 있을 것이다.</div><div></div><div><div><br />
+</div><div>kraken&gt; logdb.query "table local\http-input-sample"</div><div>{_id=2, _table=local\http-input-sample, _time=Tue Jan 01 16:47:55 KST 2013, line=happy new year!}</div><div>{_id=1, _table=local\http-input-sample, _time=Tue Jan 01 16:47:55 KST 2013, line=hello kraken world}</div><div>0.1s</div></div><div></div><div><br />
+</div><div>기본적으로는 로그가 수신된 시각으로 기록되므로, 임의의 로그 시각을 박아서 넣고 싶은 경우에는 _time 키를 yyyy-MM-dd HH:mm:ssZ 형식으로 기입하면 된다. (예시: 2013-01-01 16:56:00+0900)</div><div><br />
+</div><div>자기가 선호하는 스크립트 언어로 간단하게 로그 입력 작업을 자동화 할 수 있다. 파이썬이라면 아래와 같이 될 것이다.</div><div><br />
+</div><div><div>headers = {'Content-Type': 'text/json'}</div><div>body = '[{"line": "hello kraken world"} , {"line": "happy new year!"}]'</div><div>con = httplib.HTTPConnection('1.2.3.4')</div><div>con.request('POST', '/logdb/inputs/http-input-sample-url-token', body, headers)</div><div>resp = con.getresponse(False)</div><div>print resp.read()</div><div>con.close()</div></div><div></div><div></div><br/><br/>tag : <a href="/tag/kraken-logdb-httpinput" rel="tag">kraken-logdb-httpinput</a>			 ]]> 
+		</description>
+		<category>크라켄북</category>
+		<category>kraken-logdb-httpinput</category>
+
+		<comments>http://xeraph.egloos.com/5709357#comments</comments>
+		<pubDate>Tue, 01 Jan 2013 07:58:20 GMT</pubDate>
+		<dc:creator>xeraph</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 2012년 회고 ]]> </title>
+		<link>http://xeraph.egloos.com/5709211</link>
+		<guid>http://xeraph.egloos.com/5709211</guid>
+		<description>
+			<![CDATA[ 
+  보통 때는 해가 넘어가기 한달쯤 전에 정리하곤 했는데, 2012년은 기년회 때 내용을 대략 정리하긴 했으나 이제서야 블로그에 정리하게 되었다. 나의 20대가 이렇게 끝나버렸다는 것을 인정하긴 싫지만 뭐 별 수 있나.. 지구도 멸망하지 않았고 -_- 2012년은 개인적으로는 많이 행복해졌으나 대신 자기계발이나 업무적으로는 상당히 부진했다.<div><br />
+</div><div><div>1. 건강</div></div><div><br />
+</div><div>2011년 4월에 병원 신세 진후로 1년 내내 약을 먹었다. 재발하면 치사율이 절반 가까이 된다는 반 협박으로 하루도 빠짐 없이, 간혹 안 먹고 나온 날은 집까지 되돌아가서 먹고 나오는 삽질을 해가면서 꼬박꼬박 먹었다. 매우 독한 약인 관계로 간에 무리가 많이 갔는데.. 간 때문이야 간 때문이야 정말 간 때문에 얼굴은 더 까매지고 피곤, 무기력함을 많이 느꼈다. 4월 20일날 척수액 한 번 더 뽑고 완치 판정.. 약 끊으니 정말 살 맛 나더라..</div><div><br />
+</div><div>염이 들어오면서 크로스핏을 처음 경험해봤고.. 케틀벨도 처음 들어봤다. 쉬지 않고 스윙 100번 하는 것도 매우 힘듬.. 점심 짧은 시간에 운동을 끝낼 수 있다는 점은 좋으나 한 번 하면 3일쯤 고생하는 관계 (Burpee 100번 하면 일주일을 고생함) 로 꾸준하게 하기가 쉽지 않다. 뭐 저질 체력도 체력이지만 추워지니까 영 하기가 싫어서.. 그래도 우리 팀이 그나마 운동하는 것은 다 염 덕분이다. 감사감사..</div><div><br />
+</div><div>2. 쿠로</div><div><br />
+</div><div><img border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds27.egloos.com/pds/201301/01/57/c0025857_50e1b628ac484.jpg" width="500" height="666" onclick="Control.Modal.openDialog(this, event, 'http://pds27.egloos.com/pds/201301/01/57/c0025857_50e1b628ac484.jpg');" /></div><div><br />
+</div><div>한동안 주말마다 고양이 카페를 전전하다가 6월 2일날 쿠로를 데려왔다. 응암까지 가서 지하철로 데려오는데 다 큰 녀석이라 어깨 빠지는 줄 알았다. 숫냥이인데 참 개냥이.. 순둥이.. 세 번 정도 똥오줌 테러를 하긴 했지만 괜찮아 그럴 수도 있지 (..) 아마 2~3살 된 것 같은데 오래오래 안 아프고 살았으면 좋겠다. 오래 살려면 이빨 간수를 잘 해야되는데 칫솔질 시켜주는게 그리 쉽지 않음. (일단 밤에 들어오면 피곤하고 귀찮아서..) 그리고 쥐돌이는 죄다 분해해놓는 통에 잘 놀아주지 못하고 있다. 카샤카샤붕붕도 며칠만에 끊어먹고.. 털은 상상 초월할 정도로 엄청나게 날린다.. 아침마다 테이프로 털 발라내고 나가지만 그러고도 밖에서도 털 날리고 다님.. 요새는 좀 낫지만 여전히 고양이에 대해 편견을 가진 분들이 많다.. 특히 울 아부지.. 추석 때 집에 데려갔더니 아주 귀신 보듯 하심.. 친척들은 애인 대신 고양이 데려온거냐며 돌아가면서 갈굼.. -_-</div><div><br />
+</div><div>3. 피아노</div><div><br />
+</div><div><img border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds26.egloos.com/pds/201301/01/57/c0025857_50e1c15d6da92.jpg" width="500" height="332" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201301/01/57/c0025857_50e1c15d6da92.jpg');" /></div><div><br />
+</div><div>더 많은 콩쿨 사진은 <a href="http://xeraph.com/photo/75728" target="_blank">포토로그</a>에..</div><div><br />
+</div><div>올해 연습한 곡은 대체로 단조가 많았다. 맨날 단조만 치냐고 갈굼도 받음.. 막상 파티 같은 것 할 때 단조 치면 분위기가 난감해져서.. 2013년은 장조를 좀 넣자고 생각했으나 과연..</div><div><ul><li>쇼팽 Nocturn in C# minor Op.20 posth.</li><li>베토벤 Sonata 템페스트 (고전파는 잘 치기가 힘든듯.. 낭만파는 그냥 분위기 타면 들을만한데..)</li><li>쇼팽 Grand Valse Brilliante Op.18</li><li>리스트 Nocturn 사랑의 꿈 Liebestraum (어떻게 콩쿨에 이걸 들고 나갈 생각을 했는지 모르겠음..)</li><li>스크리아빈 Valse No.1 in F minor</li><li>쇼팽 Ballade No.1 in G minor Op.23 (아.. 너무 어렵다 -_-)</li></ul><div>바다소리 4회 콩쿨 연주 영상 (11월 23일 금)</div></div><div><br />
+</div><div><iframe width="420" height="315" src="http://www.youtube.com/embed/H5rlFNwY228" frameborder="0" allowfullscreen=""></iframe></div><div><br />
+</div><div>연습을 죽어라 하긴 했지만 나도 어떻게 2위 했는지 모르겠다 (..) 1위는 김희선 씨 베토벤 소나타 "발트슈타인" 연주였는데 정말 넘사벽이 따로 없음.. 그리고 이 날 저녁 안철수 아저씨가 사퇴하면서.. 다들 멘붕으로.. -_-</div><div><br />
+</div><div>4. 연애</div><div><br />
+</div><div><img border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds27.egloos.com/pds/201301/01/57/c0025857_50e1bb56c5ef1.jpg" width="375" height="500" onclick="Control.Modal.openDialog(this, event, 'http://pds27.egloos.com/pds/201301/01/57/c0025857_50e1bb56c5ef1.jpg');" /></div><div><br />
+</div><div>여기에 쓰자니 낯 간지러워서 크리스마스 사진만 한 장 (..) 정말 이번 가을, 겨울은 열심히 놀았다..</div><div><br />
+</div><div>- 11.18 "거기" 이것이 차이다2</div><div>- 11.24 내가 살인범이다</div><div>- 11.27 늑대소년</div><div>- 12.09 더스토리: 세상에 숨겨진 사랑</div><div>- 12.13 나의 PS 파트너</div><div>- 12.23 레미제라블 (타임스퀘어 CGV 스크린이 세계 최대 규모라더니 아.. 정말 압도적이긴 하더라..)</div><div>- 12.25 2012 유키구라모토와 친구들 콘서트</div><div>- 12.30 반창꼬</div><div><br />
+</div><div>5. 개발</div><div><br />
+</div><div>이렇게 열심히 노느라.. 사실 공부 별로 못 했다. 논문 목록만 몇 개 정리한다. 파일은 알아서 구하세요 (?)</div><div><ul><li>Percentile Finding Algorithm for Multiple Sorted Runs, 1989<br />
+옛날 사람들이 역시 다 해놨다니까.. VLDB 논문만 다 읽어봐도 얼마나 많이 알게 될까.. 정렬을 병렬화 할 때 가급적 선형적으로 속도를 증가시키려면 파티셔닝이 필요하다. 안 그러면 마지막 병합 때 엄청난 시간을 먹게 되지.. 8코어로 정수 10억건 정렬 66분 걸리던게 30분까지 개선되었다.&nbsp;</li><li>Optimizing Bitmap Indices With Efficient Compression, 2005<br />
+비트맵 Word-Aligned Hybrid 압축 기법을 다루고 있다. 무식하게 단순 LZ77 압축하는 대신 RLE 기반의 스킴을 사용하면 비트맵을 압축한 상태로도 다차원 불린 쿼리를 할 수 있게 된다.</li><li>Real-time creation of bitmap indexes on streaming network data, 2011<br />
+내가 크라켄 로그스토리지 만들 때 썼던 블럭단위 실시간 압축 기법들이 이 논문에 다 설명되어 있어서 매우 놀랐다. 물론 그것 외에도 역시 IBM 박사들이라 COMPAX 비트맵 압축 스킴이나 LSH 해싱으로 압축 효율을 높이는 알고리즘들도 설명되어 있다. 그러나 나도 아직 다 못 봤음..&nbsp;</li></ul></div><div><a href="https://github.com/nchovy/kraken/tree/master/pcap/kraken-pcap/src/main/java/org/krakenapps/pcap/decoder/wlan" target="_blank">802.11 파서</a>는 만들다 말았고.. <a href="https://github.com/nchovy/kraken/tree/master/network/kraken-dns" target="_blank">DNS 서버</a> 하나 만들었고.. <a href="https://github.com/nchovy/kraken/tree/master/honeypot/kraken-honey-sshd" target="_blank">SSH 허니팟</a>은 뼈대만 해서 서울대 애들 한 학기 프로젝트로 줬더니 말아먹고.. &nbsp;크라켄 코어에 <a href="https://github.com/nchovy/kraken/commit/7768c6d42e428b8e2e95d688cbf3b69142fa6cd4" target="_blank">SFTP 서버 기능 내장</a>했고.. 로그DB <a href="https://github.com/nchovy/kraken/commit/6761ba54865b90273a41c29702097a7ec3077d4e" target="_blank">sort, stats, timechart 명령어 구현 다시 해서</a> 실행속도/메모리사용 개선하고.. confdb도 <a href="https://github.com/nchovy/kraken/commit/27c0280ba63bab183b54e04c42bdf4476827f70f" target="_blank">익스포트, 임포트 기능 추가</a>했으며 시나리오에 따라서는 실행속도를 수백배 정도 개선했고.. <a href="https://github.com/nchovy/kraken/tree/master/siem/kraken-syslog-parser/src/main/java/org/krakenapps/logparser/syslog" target="_blank">로그파서도 여럿 추가</a>했는데.. 주니퍼 SRX 라우터, 안랩 트러스가드, 팔로알토네트웍스 PA 시리즈, 라드웨어 디펜스프로, 어울림 시큐어웍스도 있었고.. XN시스템 네오박스라든지.. 크라켄 코어에 <a href="https://github.com/nchovy/kraken/commit/9b26e3192b27c91ad8e7072c39b3a724d510bc97" target="_blank">매개변수 자동완성 기능</a>도 추가하고.. 사실 SSL VPN 개발에 거의 모든 시간을 쓰느라 바빴는데 2013년은 좀 열심히 크라켄에 커밋할 예정..</div><div><br />
+</div><div>크라켄 PCAP은 해외에서 꽤 쓰기 시작한 것 같다.. <a href="https://github.com/nchovy/kraken/commit/ab5d5191751f9f496a53120bd42ba793704c6035" target="_blank">OSX 패치</a> 보내주는 사람도 있고.. 빌드 방법 물어보는 대학생부터.. 실제 기가 단위 패킷덤프 처리하는 시스템에 적용한 사례까지.. (PPP 지원 안 된다고 갈굼) 다양함..</div><div><br />
+</div><div>6. 기타</div><div><br />
+</div><div>오래 전에 냈던 특허 등록됐고..&nbsp;</div><div><br />
+</div><div><img border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds27.egloos.com/pds/201301/01/57/c0025857_50e1d0a592a9b.jpg" width="375" height="500" onclick="Control.Modal.openDialog(this, event, 'http://pds27.egloos.com/pds/201301/01/57/c0025857_50e1d0a592a9b.jpg');" /></div><div><br />
+</div><div>2012년은 지긋지긋한 학교를 졸업했다는데 의의가 있음...</div><div><br />
+</div><div><img border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds27.egloos.com/pds/201301/01/57/c0025857_50e1d0db8b509.jpg" width="500" height="667" onclick="Control.Modal.openDialog(this, event, 'http://pds27.egloos.com/pds/201301/01/57/c0025857_50e1d0db8b509.jpg');" /></div><div><br />
+</div><div><div>책.. 쌓아놓기만 하고 거의 안 읽어서 반성하고 있고..</div><div>올해는 초심으로 돌아가서 사업 영역에 집중해야겠다.</div></div><div><br />
+</div><div>2012년 옆에서 도와주신 모두에게 진심으로 감사하고.. 새해 복 많이 받으세요.</div><div></div>			 ]]> 
+		</description>
+		<category>잡담</category>
+
+		<comments>http://xeraph.egloos.com/5709211#comments</comments>
+		<pubDate>Mon, 31 Dec 2012 17:50:55 GMT</pubDate>
+		<dc:creator>xeraph</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ [목차] 크라켄을 이용한 보안 솔루션 개발 ]]> </title>
+		<link>http://xeraph.egloos.com/5626207</link>
+		<guid>http://xeraph.egloos.com/5626207</guid>
+		<description>
+			<![CDATA[ 
+  <div>완성할 때까지 블로그 최상단에 위치</div><div><br />
+</div><div><b>1부. 서론</b></div><div><br />
+</div><div>1부에서는 배경지식과 개발환경 설정 방법을 다룬다.</div><div><br />
+</div><div>1장. 개요</div><div>- <a href="http://xeraph.com/5627227" target="_blank">크라켄 개발 동기와 역사</a></div><div>- <a href="http://xeraph.com/5627322" target="_blank">크라켄 아키텍처</a></div><div>- 로드맵</div><div>- 대상 독자</div><div>- 감사의 글</div><div><br />
+</div><div>2장. 배경지식</div><div>- Maven</div><div>&nbsp;* <a href="http://xeraph.com/5629905" target="_blank">Maven 개요</a></div><div>&nbsp;* <a href="http://xeraph.com/5629911" target="_blank">Maven 설치</a></div><div>&nbsp;* <a href="http://xeraph.com/5629918" target="_blank">Maven POM</a></div><div><br />
+</div><div>- OSGi</div><div>&nbsp;* <a href="http://xeraph.com/5627345" target="_blank">OSGi 개요</a></div><div>&nbsp;* <a href="http://xeraph.com/5627441" target="_blank">OSGi 프레임워크의 구성</a></div><div>&nbsp;* <a href="http://xeraph.com/5627466" target="_blank">OSGi 번들의 구성</a></div><div>&nbsp;* <a href="http://xeraph.com/5627474" target="_blank">BND 도구</a></div><div><br />
+</div><div>- iPOJO</div><div>&nbsp;* <a href="http://xeraph.com/5627499" target="_blank">iPOJO 개요</a></div><div>&nbsp;*&nbsp;<a href="http://xeraph.com/5627520" target="_blank">iPOJO 시작하기</a></div><div>&nbsp;* <a href="http://xeraph.com/5627531" target="_blank">iPOJO 컴포넌트 생명주기</a></div><div>&nbsp;* <a href="http://xeraph.com/5627626" target="_blank">iPOJO 서비스 의존성 관리</a></div><div>&nbsp;* iPOJO 핸들러 확장</div><div><br />
+</div><div>3장. 개발환경 준비</div><div>- m2eclipse 플러그인 설치</div><div><br />
+</div><div><b>2부. 애플리케이션 서버와 기반 모듈</b></div><div><br />
+</div><div>2부에서는 플랫폼을 구성하는 애플리케이션 서버와 인프라 성격의 모듈에 대하여 다룬다.</div><div>&nbsp;</div><div>4장. 크라켄 코어</div><div>- <a href="http://xeraph.com/5630068" target="_blank">크라켄 코어 개요</a></div><div>- <a href="http://xeraph.com/5636892" target="_blank">텔넷 및 SSH 터미널 서비스</a></div><div>- <a href="http://xeraph.com/5636907" target="_blank">OSGi 번들의 설치와 관리</a></div><div>- <a href="http://xeraph.com/5636980" target="_blank">중앙집중화 된 로그 제어</a></div><div>- <a href="http://xeraph.com/5636992" target="_blank">스레드 모니터링과 제어</a></div><div>- <a href="http://xeraph.com/5637105" target="_blank">디버깅</a></div><div>- <a href="http://xeraph.com/5651113" target="_blank">메모리 덤프 분석</a></div><div>- <a href="http://xeraph.com/5651051" target="_blank">크라켄 패키지 시스템</a></div><div>- <a href="http://xeraph.com/5651062" target="_blank">작업 스케줄링</a></div><div>- NT 서비스 설치</div><div><br />
+</div><div>5장. Hello, OSGi World!</div><div>- <a href="http://xeraph.com/5653289" target="_blank">헬로월드 프로젝트의 생성, 빌드, 설치</a></div><div>- <a href="http://xeraph.com/5653453" target="_blank">크라켄 코어 명령어 확장</a></div><div>- <a href="http://xeraph.com/5655553" target="_blank">iPOJO 컴포넌트 모니터링과 제어</a></div><div>- <a href="http://xeraph.com/5655574" target="_blank">예약된 작업 실행</a></div><div><br />
+</div><div>6장. 크라켄 설정DB</div><div>- <a href="http://xeraph.com/5644145" target="_blank">크라켄 설정DB 개요</a></div><div>- <a href="http://xeraph.com/5644160" target="_blank">크라켄 설정DB 파일 레이아웃</a></div><div>- <a href="http://xeraph.com/5644164" target="_blank">크라켄 코덱</a></div><div>- <a href="http://xeraph.com/5648592" target="_blank">사용자 정의 타입의 변환 규칙</a></div><div>- <a href="http://xeraph.com/5648600" target="_blank">크라켄 설정DB API</a></div><div>- <a href="http://xeraph.com/5648602" target="_blank">크라켄 설정DB 명령어</a></div><div><br />
+</div><div>7장. 크라켄 JPA</div><div>- <a href="http://xeraph.com/5650981" target="_blank">OSGi 환경에서의 JDBC 사용</a></div><div>- <a href="http://xeraph.com/5651000" target="_blank">OSGi 환경에서의 Hibernate 사용</a></div><div>- <a href="http://xeraph.com/5651029" target="_blank">크라켄 JPA 개요</a></div><div>- <a href="http://xeraph.com/5651035" target="_blank">크라켄 JPA 엔터티 모델 번들 구성</a></div><div>- <a href="http://xeraph.com/5651040" target="_blank">크라켄 JPA 명령어</a></div><div><br />
+</div><div>8장. 크라켄 도메인 객체 모델 (DOM)</div><div>- 개요</div><div>- 생명주기 이벤트</div><div>- 공통 객체 관리 API</div><div>&nbsp;* 멀티 테넌시 지원</div><div>&nbsp;* 푸시 API</div><div>&nbsp;* 메시지 지역화</div><div>&nbsp;* 사용자 정보 관리</div><div>&nbsp;* 영역 및 호스트 관리</div><div><br />
+</div><div>9장. 크라켄 메시지버스</div><div>- <a href="http://xeraph.com/5648619" target="_blank">크라켄 메시지버스 개요</a></div><div>- 크라켄 메시지버스 API</div><div>- 크라켄 메시지버스 플러그인 예제</div><div><br />
+</div><div><b>3부. 네트워크 프로그래밍</b></div><div><br />
+</div><div>3부에서는 보안 솔루션이 통상적으로 타 시스템과 연동할 때 사용하는 각종 프로토콜을 다룬다.</div><div><br />
+</div><div>10장. 크라켄 Syslog</div><div>- <a href="http://xeraph.com/5639645" target="_blank">크라켄 Syslog 개요</a></div><div>- <a href="http://xeraph.com/5639656" target="_blank">크라켄 Syslog 설치 및 설정</a></div><div><br />
+</div><div>11장. 크라켄 SNMP</div><div>- snmp 개요</div><div>- snmp trap 서버 설정</div><div>- snmp trap 서비스</div><div><br />
+</div><div>12장. 크라켄 NTP 클라이언트</div><div>- NTP 개요</div><div>- 자동 시각 동기화 설정</div><div><br />
+</div><div>13장. 크라켄 웹서버</div><div>- 크라켄 웹서버 명령어 (파일 서버 설정 방법 포함)</div><div>- HttpContext 개념</div><div>- 서비스 인터페이스</div><div><br />
+</div><div>14장. 크라켄 XMLRPC</div><div>- XMLRPC 프로토콜 개요</div><div>- 선언적 XMLRPC 서비스 프로그래밍</div><div>- XMLRPC 프로그래밍 예제</div><div><br />
+</div><div>15장. 크라켄 LDAP</div><div>- LDAP 인증과 조직도 임포트</div><div><br />
+</div><div>16장. 크라켄 RADIUS</div><div>- RADIUS 개요</div><div>- PAP, CHAP 클라이언트 예제</div><div>- PAP, CHAP 서버 예제</div><div>- RADIUS 확장 모듈의 구현</div><div><br />
+</div><div>17장. 크라켄 메일</div><div>- SMTP 서버 설정</div><div>- POP3, IMAP 설정</div><div>- 자동화된 메일 전송</div><div><br />
+</div><div>18장. 크라켄 DHCP</div><div>- DHCP 개요</div><div>- DHCP 서버 설정</div><div><br />
+</div><div>19장. 크라켄 RPC</div><div>- 메시지 교환 패턴: request/response, fire-and-forget</div><div>- 크라켄 RPC 프로토콜</div><div>- 선언적 RPC 서비스 프로그래밍</div><div>- 동기적, 비동기적 RPC 호출</div><div><br />
+</div><div><b>3부. 로그 수집과 관리</b></div><div><div><br class="Apple-interchange-newline">20장. 크라켄 로그 API</div><div>- <a href="http://xeraph.com/5655612" target="_blank">크라켄 로그 API 개요</a></div><div>- 로그 관리 명령어</div><div>- <a href="http://xeraph.com/5655628" target="_blank">크라켄 시스로그 모니터</a></div><div><br />
+</div><div>21장. 크라켄 로그DB</div><div>- 크라켄 로그스토리지의 특징</div><div>&nbsp;* 실시간 압축 및 조회, 비정형 데이터 처리, 읽기 잠금 없음, 비동기 API</div><div>- 로그스토리지 명령어</div><div>- 로그스토리지 서비스</div><div>- 로그 쿼리 문법</div><div>- 로그 쿼리 문법의 확장</div><div>&nbsp;* 크라켄 BNF</div><div>&nbsp;* 확장 인터페이스 설명</div><div>&nbsp;* GEOIP 확장 예시</div><div>- 로그 쿼리 서비스</div><div>- 텍스트 파일 통계 처리 예시</div><div>- 표준 출력 (stdout) 처리 예시</div></div><div><br />
+</div><div>22장. 크라켄 센트리/베이스</div><div>- <a href="http://xeraph.com/5639534" target="_blank">센트리 개요</a></div><div>- <a href="http://xeraph.com/5639537" target="_blank">센트리 설치 및 베이스 접속 설정</a></div><div>- <a href="http://xeraph.com/5639563" target="_blank">센트리 플러그인의 구조</a></div><div>- <a href="http://xeraph.com/5639578" target="_blank">센트리 원격 로그 펌핑</a></div><div><br />
+</div><div><b>4부. 저수준 네트워크 프로그래밍</b></div><div><br />
+</div><div>4부에서는 드라이버 수준에서 수집된 패킷을 필터링하거나 해석하고 조작하는 방법을 다룬다.</div><div><br />
+</div><div>23장. 크라켄 PCAP</div><div>- PCAP 개요&nbsp;</div><div>- PCAP 파일 포맷</div><div>- 802.11 무선랜 패킷의 해석</div><div>- DHCP 핑거프린팅을 이용한 장치 식별</div><div>- HTTP 이미지 파일 추출 예제</div><div>- SMTP 첨부파일 추출 예제</div><div><br />
+</div><div>24장. 크라켄 Captive Portal (인증 포탈)</div><div>- Captive Portal 개요</div><div>- ARP 스푸핑</div><div>- DNS 포이즈닝</div><div>- 설치 및 연동</div><div>- 아이폰 패킷 캡처 예시</div><div><br />
+</div>			 ]]> 
+		</description>
+		<category>크라켄북</category>
+
+		<comments>http://xeraph.egloos.com/5626207#comments</comments>
+		<pubDate>Sun, 30 Dec 2012 15:40:00 GMT</pubDate>
+		<dc:creator>xeraph</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 크라켄 로그 DB CSV 룩업 테이블 등록 ]]> </title>
+		<link>http://xeraph.egloos.com/5699798</link>
+		<guid>http://xeraph.egloos.com/5699798</guid>
+		<description>
+			<![CDATA[ 
+  <div>아래 내용은 kraken-logdb 0.7.1을 기준으로 한다.</div><div><br />
+</div>특정한 키 값을 다른 값으로 매핑시켜서 쿼리하고 싶은 경우에 다음과 같이 할 수 있다. 다만 CSV 파일 전체가 메모리에 올라가므로 너무 큰 파일을 로딩하면 메모리가 고갈될 수 있으므로 주의한다.<div><br />
+</div><div>아래와 같은 test.log 파일이 있다고 하자.</div><div><br />
+</div><div><div>1080003,4,a</div><div>1080004,3,b</div><div>1080009,4,c</div><div>1080010,4,d</div><div>1080011,3,e</div><div>1080012,3,f</div><div>1080013,3,g</div><div>1080014,3,h</div><div>1080015,3,i</div><div>1080016,3,j</div><div>1080017,3,k</div><div>1080018,3,l</div><div>1080019,3,m</div><div>1080020,3,n</div><div>1090001,3,o</div><div>1090002,4,p</div><div>1090003,4,q</div><div>1090004,3,r</div><div>1090005,4,s</div></div><div><br />
+</div><div>그리고 룰 번호를 위험도로 매핑시키는 ruleseverity.csv 파일이 있다.</div><div><br />
+</div><div><div>rule,severity</div><div>1080003,4</div><div>1080004,3</div><div>1080009,4</div><div>1080010,4</div><div>1080011,3</div><div>1080012,3</div><div>1080013,3</div><div>1080014,3</div><div>1080015,3</div><div>1080016,3</div><div>1080017,3</div><div>1080018,3</div><div>1080019,3</div><div>1080020,3</div></div><div><br />
+</div><div>그러면 아래와 같이 CSV 룩업 테이블을 등록할 수 있다. 파일 경로는 작업 디렉터리를 기준으로 한 상대 경로 혹은 절대 경로로 입력할 수 있다.</div><div><br />
+</div><div><div>kraken@xeraph-pc t&gt; logdb.loadCsvLookup ruleseverity.csv</div><div>loaded D:\t\ruleseverity.csv</div></div><div><br />
+</div><div>등록된 CSV 매핑 파일의 목록을 조회할 수 있다.</div><div><br />
+</div><div><div>kraken@xeraph-pc t&gt; logdb.csvLookups</div><div>CSV Mapping Files</div><div>-------------------</div><div>D:\t\ruleseverity.csv</div></div><div><br />
+</div><div>아래와 같이 텍스트 로그 파일을 읽어들였을 때, CSV 파일을 이용해서 룰 ID를 위험도 값으로 매핑할 수 있다. CSV의 첫번째 줄은 컬럼 헤더로 인식되며, 첫번째 컬럼이 키 식별자가 된다. lookup 명령어의 첫번째 인자는 csv$파일이름 형식으로 입력하면 되고, output으로 낼 수 있는 컬럼은 CSV에 들어있는 키 식별자 이외의 컬럼 이름들이다.</div><div><br />
+</div><div><div>kraken@xeraph-pc t&gt; logdb.query "textfile parser=delimiter delimiter=, test.log | lookup csv$ruleseverity.csv column0 as rule output severity"</div><div>{column0=1080003, column1=4, column2=a, severity=4}</div><div>{column0=1080004, column1=3, column2=b, severity=3}</div><div>{column0=1080009, column1=4, column2=c, severity=4}</div><div>{column0=1080010, column1=4, column2=d, severity=4}</div><div>{column0=1080011, column1=3, column2=e, severity=3}</div><div>{column0=1080012, column1=3, column2=f, severity=3}</div><div>{column0=1080013, column1=3, column2=g, severity=3}</div><div>{column0=1080014, column1=3, column2=h, severity=3}</div><div>{column0=1080015, column1=3, column2=i, severity=3}</div><div>{column0=1080016, column1=3, column2=j, severity=3}</div><div>{column0=1080017, column1=3, column2=k, severity=3}</div><div>{column0=1080018, column1=3, column2=l, severity=3}</div><div>{column0=1080019, column1=3, column2=m, severity=3}</div><div>{column0=1080020, column1=3, column2=n, severity=3}</div><div>{column0=1090001, column1=3, column2=o, severity=null}</div><div>{column0=1090002, column1=4, column2=p, severity=null}</div><div>{column0=1090003, column1=4, column2=q, severity=null}</div><div>{column0=1090004, column1=3, column2=r, severity=null}</div><div>{column0=1090005, column1=4, column2=s, severity=null}</div><div>0.1s</div></div><div><br />
+</div><div>CSV 파일이 수정된 경우 logdb.reloadCsvLookup 명령을 사용해서 메모리에 다시 로딩해야 한다.</div><div><br />
+</div><div>한 번 적재시킨 CSV 매핑 파일은 크라켄을 재시작하더라도 자동으로 메모리에 올라가며, 메모리에서 삭제하려면 logdb.unloadCsvLookup &lt;파일경로&gt; 명령을 사용한다.</div>			 ]]> 
+		</description>
+		<category>크라켄북</category>
+
+		<comments>http://xeraph.egloos.com/5699798#comments</comments>
+		<pubDate>Mon, 03 Dec 2012 01:10:35 GMT</pubDate>
+		<dc:creator>xeraph</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 크라켄 로그 디비 쿼리 스크립팅 ]]> </title>
+		<link>http://xeraph.egloos.com/5699138</link>
+		<guid>http://xeraph.egloos.com/5699138</guid>
+		<description>
+			<![CDATA[ 
+  아직 작업이 제대로 완결된 것은 아니지만 개발 버전을 시험삼아 사용할 수 있도록 기록해둔다..<div>(가령 현재 로그 쿼리의 script 커맨드를 통해서 매개변수를 넘길 수는 없고, 코드 액세스 제어도 안 되어 있다.)</div><div><br />
+</div><div>이 글에서는 아래 번들 버전을 기준으로 한다.</div><div><div><ul><li>kraken-logdb 0.7.0</li><li>kraken-logdb-jython 0.2.0</li></ul></div><div><br />
+</div><div>src 필드 기준으로 통계를 내는 파이썬 스크립트 예제는 아래와 같다:</div><div><br />
+</div><div><div>class SampleScript(BaseLogScript):</div><div>&nbsp; def __init__(self):</div><div>&nbsp; &nbsp; self.stats = {}</div><div><span class="Apple-tab-span" style="white-space:pre">	</span></div><div>&nbsp; def init(self, params):</div><div>&nbsp; &nbsp; print 'sample initialized'</div><div><span class="Apple-tab-span" style="white-space:pre">	</span></div><div>&nbsp; def handle(self, input, output):</div><div>&nbsp; &nbsp; d = input.getData()</div><div>&nbsp; &nbsp; if self.stats.has_key(d['src']) == False:</div><div>&nbsp; &nbsp; &nbsp; self.stats[d['src']] = 0</div><div><span class="Apple-tab-span" style="white-space:pre">	</span> &nbsp;</div><div>&nbsp; &nbsp; self.stats[d['src']] += 1</div><div><span class="Apple-tab-span" style="white-space:pre">	</span></div><div>&nbsp; def eof(self, output):</div><div>&nbsp; &nbsp; for key in self.stats.keys():</div><div>&nbsp; &nbsp; &nbsp; result = {}</div><div>&nbsp; &nbsp; &nbsp; result['src'] = key</div><div>&nbsp; &nbsp; &nbsp; result['count'] = self.stats[key]</div><div>&nbsp; &nbsp; &nbsp; output.write(result)</div></div><div><br />
+</div></div><div>init()은 쿼리 파싱 단계에서 수행되고, handle()은 파이프라인을 통해 로그가 한 건씩 전달될 때마다, eof()는 쿼리의 마지막 데이터 전달이 완료되었을 때 불린다. handle()에 전달되는 input은 전달된 로그 객체를 가리키고, output은 출력 객체를 가리킨다. output.write()를 호출하면 쿼리 파이프라인의 다음 단계로 데이터가 전달된다.</div><div><br />
+</div><div>위의 내용을 test.py 텍스트 파일로 kraken-core-VERSION-package.jar가 위치한 경로에 두었다고 가정했을 때, 다음과 같이 로딩할 수 있다. 스크립트 이름은 코드의 클래스 이름으로 등록해야 한다.</div><div><br />
+</div><div>kraken&gt; logdb-jython.load localhost SampleScript test.py</div><div><br />
+</div><div>내용이 잘못된 것 같으면 코드를 수정하고 동일한 명령으로 다시 로드한다.</div><div><br />
+</div><div><img border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds23.egloos.com/pds/201211/30/57/c0025857_50b8752fb630e.png" width="500" height="335.581787521" onclick="Control.Modal.openDialog(this, event, 'http://pds23.egloos.com/pds/201211/30/57/c0025857_50b8752fb630e.png');" /></div><div></div><div><br />
+</div><div>쿼리 스크립트가 제대로 등록되었는지 확인한다.</div><div><br />
+</div><div>kraken&gt; logdb.scripts</div><div><br />
+</div><div><img border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds25.egloos.com/pds/201211/30/57/c0025857_50b875638f7a1.png" width="500" height="107.082630691" onclick="Control.Modal.openDialog(this, event, 'http://pds25.egloos.com/pds/201211/30/57/c0025857_50b875638f7a1.png');" /></div><div><br />
+</div><div>쿼리를 수행해보면 아래와 같다.</div><div><br />
+</div><div><img border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds25.egloos.com/pds/201211/30/57/c0025857_50b876e761d3f.png" width="500" height="291.930379747" onclick="Control.Modal.openDialog(this, event, 'http://pds25.egloos.com/pds/201211/30/57/c0025857_50b876e761d3f.png');" /></div>			 ]]> 
+		</description>
+		<category>크라켄북</category>
+
+		<comments>http://xeraph.egloos.com/5699138#comments</comments>
+		<pubDate>Fri, 30 Nov 2012 09:05:51 GMT</pubDate>
+		<dc:creator>xeraph</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ EGit (Eclipse Git) 파일 변경 표시 (>)를 아이콘으로 바꾸기 ]]> </title>
+		<link>http://xeraph.egloos.com/5698420</link>
+		<guid>http://xeraph.egloos.com/5698420</guid>
+		<description>
+			<![CDATA[ 
+  왜 기본 설정이 이 모양인지는 잘 모르겠는데, 아무튼 파일 변경 시 이름 텍스트 앞에 &gt; 가 표시되면 패키지 익스플로러에서 키보드로 프리픽스를 쳐서 해당 노드로 이동하는게 곤란해지기 때문에 매우 불편하다.<div><br />
+</div><div>Window &gt; Preferences에서 아래 설정을 변경한다.</div><div><br />
+</div><div><img border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds25.egloos.com/pds/201211/28/57/c0025857_50b55fa7b5beb.png" width="500" height="479.462875197" onclick="Control.Modal.openDialog(this, event, 'http://pds25.egloos.com/pds/201211/28/57/c0025857_50b55fa7b5beb.png');" /></div><div><br />
+</div><div>설정에서 {dirty: &gt;} 부분을 모두 삭제한다.</div><div><br />
+</div><div><img border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds23.egloos.com/pds/201211/28/57/c0025857_50b55fb430cad.png" width="500" height="477.952755906" onclick="Control.Modal.openDialog(this, event, 'http://pds23.egloos.com/pds/201211/28/57/c0025857_50b55fb430cad.png');" /></div><div><br />
+</div><div>아이콘 표시에서 Dirty resources를 선택하고 OK를 누르면 원하는대로 변경된다.</div>			 ]]> 
+		</description>
+		<category>일</category>
+
+		<comments>http://xeraph.egloos.com/5698420#comments</comments>
+		<pubDate>Wed, 28 Nov 2012 00:50:55 GMT</pubDate>
+		<dc:creator>xeraph</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 교과부 EPKI 2048 비트 인증서 KeyStore 임포트하기 ]]> </title>
+		<link>http://xeraph.egloos.com/5686175</link>
+		<guid>http://xeraph.egloos.com/5686175</guid>
+		<description>
+			<![CDATA[ 
+  알면 간단한건데 몇 시간을 삽질해서 기록으로 남겨둠..<div><br />
+</div><div><b>1. 2048비트 고도화된 EPKI CA 파일 준비</b></div><div><br />
+</div><div>아래 정보로 확인 (경우에 따라 다를 수 있음)</div><div>- 중간 CA (CA134100031) 주체키식별자: 8e 46 f8 0d 9e 78 76 a2 cc 1a e4 0f 51 7f 52 d7 4d 9c 5b 1b</div><div>-&nbsp;루트 CA (GPKIRootCA1) 주체키식별자: 78 03 eb 0c 8c a6 d3 55 75 a4 87 b4 eb d1 9a 66 0f 4c 73 8b</div><div>- 서명해시 알고리즘이 sha256RSA이면 맞음</div><div><br />
+</div><div><a href="http://pds22.egloos.com/pds/201210/16/57/GPKIRootCA1.crt">GPKIRootCA1.crt</a></div><div><a href="http://pds22.egloos.com/pds/201210/16/57/CA134100031.crt">CA134100031.crt</a></div><div><br />
+</div><div>여기서는 PEM으로 올려두었지만 만약 DER 포맷이면 아래와 같이 변환</div><div>openssl x509 -inform der -in GPKIRootCA1.der -out GPKIRootCA1.crt</div><div><br />
+</div><div><b>2. 인증서 체인을 포함한 PFX 만들기</b></div><div><br />
+</div><div>cat server.crt CA134100031.crt GPKIRootCA1.crt &gt; chain.crt</div><div><br />
+</div><div>반드시 서버 인증서, 중간 CA, 루트 CA 순서 맞춰서 생성할 것</div><div><br />
+</div><div>간혹 DER을 PEM으로 변환하고 cat으로 합쳤을 때 개행이 파일 끝에 없어서 -----END CERTIFICATE----------BEGIN CERTIFICATE----- 이런 식으로 한 줄로 구분자가 병합되어 뭉개지는 경우가 발생할 수 있는데, 이러면 이후 단계에서 PKCS12 파일 생성 시&nbsp;No certificate matches private key 에러를 맞게 되므로 점검한다.</div><div><br />
+</div><div>openssl pkcs12 -export -inkey key_2048.key -in chain.crt -out server.pfx</div><div><br />
+</div><div><b>3. PKCS12를 JKS 포맷으로 변환</b></div><div><br />
+</div><div>JDK6부터 keytool이 PKCS12를 바로 JKS 포맷 변환을 지원한다.</div><div><br />
+</div><div><div>keytool.exe -importkeystore -srckeystore server.pfx -srcstoretype pkcs12 -destkeystore epki.jks -deststoretype JKS</div></div><div>keytool.exe -import -trustcacerts -alias intermediate -file CA134100031.crt -keystore epki.jks</div><div>keytool.exe -import -trustcacerts -alias root -file GPKIRootCA1.crt -keystore epki.jks</div><div><br />
+</div><div>반드시 CA 인증서들도 JKS 키스토어에 임포트해야 한다.</div><div><br />
+</div><div>아래 명령어로 JKS에 임포트된 파일들 최종 확인.</div><div>keytool -list -v -keystore epki.jks</div><div><br />
+</div><div><b>4. 해당 JKS로 SSLContext을 생성하여 SSLEngine 초기화</b></div><div><br />
+</div><div><div>KeyManagerFactory kmf = KeyManagerFactory.getInstance("SunX509");</div><div>kmf.init(keystore, password);</div><div><div><div>KeyManager[] keyManagers =&nbsp;kmf.getKeyManagers();</div></div><div><br />
+</div><div>SSLContext sslContext = SSLContext.getInstance("TLS");</div><div>sslContext.init(keyManagers, null, new SecureRandom());</div><div><br />
+</div><div>SSLEngine engine = sslContext.createSSLEngine();</div><div>engine.setUseClientMode(false);</div></div></div><div><br />
+</div><br/><br/>tag : <a href="/tag/epki" rel="tag">epki</a>,&nbsp;<a href="/tag/keytool" rel="tag">keytool</a>,&nbsp;<a href="/tag/jks" rel="tag">jks</a>,&nbsp;<a href="/tag/pkcs12" rel="tag">pkcs12</a>,&nbsp;<a href="/tag/pfx" rel="tag">pfx</a>,&nbsp;<a href="/tag/cachain" rel="tag">cachain</a>			 ]]> 
+		</description>
+		<category>일</category>
+		<category>epki</category>
+		<category>keytool</category>
+		<category>jks</category>
+		<category>pkcs12</category>
+		<category>pfx</category>
+		<category>cachain</category>
+
+		<comments>http://xeraph.egloos.com/5686175#comments</comments>
+		<pubDate>Mon, 15 Oct 2012 15:24:02 GMT</pubDate>
+		<dc:creator>xeraph</dc:creator>
+	</item>
+</channel>
+</rss>

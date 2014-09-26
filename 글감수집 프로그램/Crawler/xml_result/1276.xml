@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><description>프로그래밍 언어 오타쿠 홍민희의 블로그
+글을 썼을 당시의 주장에 제 스스로가 더이상 동의하지 못하는 경우도 있습니다.
+심지어 몇몇 글은 이제 정 반대의 의견을 가지고 있기도 합니다.
+길고 짧은 시간 묵은 제 글들과 저 홍민희를 동일시하지는 말아주세요.
+
+지금까지 여러 주제에 대한 의견이 꾸준히 달라졌습니다. 앞으로도 그럴 것입니다.
+제 생각을 바꾸기 위한 설득도 환영합니다. 단, 저 홍민희가 아닌 제 생각에 대해 말하면 됩니다.</description><title>Romantic Binaries</title><generator>Tumblr (3.0; @hongminhee)</generator><link>http://blog.dahlia.kr/</link><item><title>Disclaimer: 나는 대학을 가지 않았다. 그 점을 감안해서 읽어주시면 좋겠다. 또, 나는 한국에서 평생을
+살았기 때문에, 이 글에서 “한국에서는”이라고 표현한 것이 실제로는...</title><description>&lt;p&gt;Disclaimer: 나는 대학을 가지 않았다. 그 점을 감안해서 읽어주시면 좋겠다. 또, 나는 한국에서 평생을
+살았기 때문에, 이 글에서 “한국에서는”이라고 표현한 것이 실제로는 다른 나라에서도 마찬가지인 경우도 있을
+수 있다.&lt;/p&gt;
+
+&lt;p&gt;이리 저리 직장을 옮겨 다녔지만 매번 개발자로 일했다. 개발자로 일하면서 신입 개발자를 뽑을 때마다 마주했던
+문제가 있다. 관련 학과를 전공하는 대학생 인턴, 대학교 졸업생 신입 개발자 상당수가 (공채를 통해 뽑았다면)
+내가 최소한으로 요구하는 수준에도 훨씬 미치지 못한다는 것이다. 내가 신입한테 기대하는 수준은 이런 것이다.
+주워들은 것은 많지만 실무 경험은 없어서, &lt;strong&gt;코딩을 하고 나면 꼭 사고를 친다.&lt;/strong&gt; 실제 수준은 이렇다.
+&lt;strong&gt;코딩을 못하므로 사고를 칠 일도 없다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;사실상 대부분의 대학교 관련 학과 졸업생에게서 기대할 수 있는 수준이랑, 내가 다니던 실업계 고등학교의
+관련 학과 졸업생에게서 기대할 수 있는 수준과 크게 다르지 않다.&lt;/p&gt;
+
+&lt;p&gt;컴퓨터 과학을 전공한 대학생이 학교에서 분명히 기본적인 알고리즘과 자료구조, 코딩을 가르치는 데도 불구하고
+실제로 약간이라도 유용한 프로그램을 단 한 줄도 작성하지 못하는 상태로 졸업하는 데에는 복합적인 원인이
+존재할 것이다. 가령, 전공의 지식보다는 영어나 자기소개서 준비와 같은 학과에 크게 관련이 없는,
+&lt;strong&gt;일반적인&lt;/strong&gt; 취업 스펙을 쌓는 데에 집중하는 것이 더 유리하다는 분위기가 퍼져있는 것도 한 이유일 것이다.
+첫 전공 수업에서 다루는 지식의 너무나 이질적이고 거북한 느낌에 받을 수밖에 없는 충격도 이유가 될 수 있겠다.
+내가 줄곧 대학생이었던 주변의 친구들, 그리고 인턴으로 들어온 대학생들, 막 졸업한 신입 개발자를 보면서
+느낀 점은 그들은 &lt;strong&gt;스스로 그 분야에 재능이 없다고 판단하는 것 같다&lt;/strong&gt;는 것이다.&lt;/p&gt;
+
+&lt;p&gt;본인 스스로 자신이 선택한 전공에 재능이 없다고 느끼는 것을 넘어서 흥미가 없는 것은, 얼마든지 있을 수 있는
+일이다. 하지만 대학교 졸업생의 상당 비율이 그러한 느낌을 공유한다면 그것은 무언가 문제가 있는 것이다.
+그 사람 각각의 전공 선택이 실수인 것이 아니라, 전공을 선택하는 방식에 대한 사회적인 분위기 내지는 합의가
+잘못되어 있다고 생각한다.&lt;/p&gt;
+
+&lt;p&gt;가령 내가 대학을 갔다면 나는 컴퓨터 과학을 공부하려고 했을 것이다. 혹은, 컴퓨터는 취미로 공부하기로 정하고,
+다른 자연 과학 내지는 공학 분야를 선택했을지도 모른다. 하지만 내가 수능에서 요령으로, 혹은 컨닝을 해서
+부정한 방법으로 높은 점수를 받아서, 운 좋게 의대나 법대에 갈 수 있게 되었다고 해도 의대/법대를 선택하지는
+않았을 것이다. 운 좋게 의대/법대를 들어간다고 해서 내가 잘 해낼 수 있을 리가 없다고 생각하기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;하지만 한국 사회는 “막상 들어간다고 해도 잘 해낼 수 있을 리가 없다”는 점에 대해서 그리 고민하지 않는
+듯하다. 들어가는 것 자체가 언제나 중요한 것이다. 그래서 &lt;strong&gt;점수 맞춰서 대학 가기&lt;/strong&gt;라는 전략이 주로 널리
+쓰인다.&lt;/p&gt;
+
+&lt;p&gt;여러 문제의 원인은 대부분 사회적인 문제로 돌려야 하겠으나, 그게 하루 아침에 고쳐질 리가 없고, 이 글에서는
+개개인 수준에서 취할 수 있는 전략에 대해 얘기해보고 싶다.&lt;/p&gt;
+
+&lt;p&gt;사람의 재능이라는 것은 크게 두 가지로 나눠볼 수 있을 법하다. 하나는 어떤 특수한 분야에만 유용하고,
+다른 분야에는 그리 유용하지 않은 &lt;strong&gt;특수한 재능&lt;/strong&gt;이다. 다른 하나는 어떤 분야를 하건 대체로 다 도움이
+될만한 &lt;strong&gt;일반적인 재능&lt;/strong&gt;이다. 가령 끈기나, 체력, 이해력 등은 일반적인 재능이라고 볼 수 있을 것이다.
+누구나 &lt;strong&gt;특수한 재능&lt;/strong&gt;은 어느 정도 지니고 태어나지만, &lt;strong&gt;일반 재능&lt;/strong&gt;은 좀더 귀한 것으로서, 누구에게나 주어지는
+것은 아니다. 이걸 풀어서 얘기하면, 어떤 전공을 선택하더라도 어떻게든 잘 해낼 수 있는 재능은 흔치 않은
+것이다. 따라서 &lt;strong&gt;내게 그러한 일반 재능이 풍부할 것이라고 가정하는 것은 리스크가 매우 높은 베팅이다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;“점수에 맞춰서 학교와 전공을 고른다”는 전략은 결국은 그러한 일반 재능, 너무나 희귀한 그 재능을 가진
+사람에게만 좋은 전략이 된다. 대부분의 사람들에게는 그러한 전략은 무리수에 가깝다. 하지만 부모님과 선생님은
+대체로 반대의 의견을 지닌다. “그래도 공부가 제일 쉬워”는 오래된 격언이다. 나는 그 격언이 잘못된 판단이라는
+데에 베팅했다.&lt;/p&gt;
+
+&lt;p&gt;물론 학생 개개인에게 어떠한 특수한 재능이 있는지 측정하는 것은 우리가 짐작하는 것보다는 사회적 비용이 많이
+드는 일이다. 반면에 일반 재능은 그것을 잘 측정하는 방법만 개발되면 보편적으로 쓰일 수 있기 때문에 상대적으로
+비용이 적게 든다. 가령 수능은 이름 그대로 일반적인 수학 능력에 대해서 측정한다. 하지만 전국의 학생들
+중에서 만에 하나 있을 뛰어난 바둑 인재를 놓치지 않기 위해 프로 기사 시험을 수능과 함께 보게 하는 것은
+쉬운 결정이 아니다. 따라서 그러한 현실적인 어려움 때문에, 각자의 특수한 재능을 발견하는 것은 각자의 몫이
+된다. 수능은 내가 치지 않겠다고 해도 선생님과 부모님, 친구들이 이구동성으로 봐야 한다고 조언해주지만,
+프로 바둑 기사 시험을 치르는 것은 나의 선택이 된다.&lt;/p&gt;
+
+&lt;p&gt;그럼 뭘 어쩌란 말이냐?&lt;/p&gt;
+
+&lt;p&gt;그래서 내가 제안하고 싶은 것은: 가정 교육 수준에서, 자녀들이 무엇을 할 때 즐거움을 느끼는지에 대해서
+항상 관심을 가져야 한다고 생각한다. 이 때 즐거움이란 특수한 즐거움을 말한다. 위의 특수 재능과 일반 재능을
+나눈 것과 마찬가지로 즐거움도 두 종류로 나눠볼 수 있을 법하다. 가령 친구들과 어쩌다 바둑을 하면서 다들
+지루해 하는데 나만 즐거워 한다면, 그것은 특수한 즐거움이다. 반면 다같이 비디오 게임을 했는데 모두들 즐거워
+했다면, 그것은 일반적인 즐거움이다. 요는 &lt;strong&gt;다른 사람은 별로라고 하는데도 나한테는 즐거운 것&lt;/strong&gt;에 주목할 필요가
+있다는 것이다. 나는 초등학교나 중학교 때 컴퓨터실에서 친구들과 다같이 게임도 했지만 HTML로 홈페이지 만드는
+수업도 했다. 게임은 나도 즐겁고 친구들도 즐거웠지만, 홈페이지 만드는 것은 나만 즐거워 했다.
+나는 어릴 때 그러한 차이에 주목했기 때문에 컴퓨터를 배워야겠다는 생각을 자연스럽게 하게 된 것이다.
+즐거움은, 항상 그렇지는 않겠지만, 재능의 신호인 것이다.&lt;/p&gt;</description><link>http://blog.dahlia.kr/post/93945824977</link><guid>http://blog.dahlia.kr/post/93945824977</guid><pubDate>Wed, 06 Aug 2014 14:32:00 +0900</pubDate><category>talent</category></item><item><title>기술을 이해하는 데에는 그 기술의 동기가 중요하다. 정확히는, 그 기술을 ‘이상하게’ 오용하지 않기 위해서는 동기를 이해해야 한다.
+
+이상적으로는 기술을 이해하는 데에도 기술의...</title><description>&lt;p&gt;기술을 이해하는 데에는 그 기술의 동기가 중요하다. 정확히는, 그 기술을 ‘이상하게’ 오용하지 않기 위해서는 동기를 이해해야 한다.&lt;/p&gt;
+
+&lt;p&gt;이상적으로는 기술을 이해하는 데에도 기술의 역사에 대한 지식이 동반되어야 하겠지만, 현실적으로는 우리에게는 그러한 것까지 일일히 기억할 만큼의 여유가 없다. 우리가 습득해야 하는 기술은 일터에서 &lt;em&gt;허겁지겁&lt;/em&gt; 주워삼키는 것들이다.&lt;/p&gt;
+
+&lt;p&gt;기술 문서를 쓸 때도 이와 같은 갈등에 놓인다. 대여섯 문단을 할애하여 이 기술의 배경에 대해 다룰 것인가? 아니면 와닿지 않는 한 문장으로 동기에 대한 설명을 퉁치고, 곧바로 기술의 작동 방식에 대한 서술로 넘어갈 것인가?&lt;/p&gt;
+
+&lt;p&gt;기술 문서를 읽는 입장에서 보자면, 기술의 배경에 대해 길게 서술한 내용은 내가 그 기술에 개인적인 관심을 두고 있지 않은 이상, 그러니까 당장 오늘 저녁까지 어떤 것을 구현해내기 위한 과정으로 문서를 읽고 있는 경우, 잘 눈에 들어오지 않는다. ‘허겁지겁’ 주워삼킨다는 것은 이런 뜻이다. &lt;em&gt;“복사해서 붙여넣을 예제 코드가 필요하다.”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;여러 해 기술 문서를 쓰는 것에 대해 고민해왔는데, 그래서 이 문제에 대한 해결책을 찾았냐고 하면 여전히 해결책이 묘연한 상태다. 다만 한가지 노하우는 공유할 수 있을 것 같다.&lt;/p&gt;
+
+&lt;p&gt;기술 문서를 &lt;em&gt;자랑&lt;/em&gt; 내지는 &lt;em&gt;광고&lt;/em&gt;를 한다는 태도로 쓰면 좋다. 문서를 어떤 방향으로 작성해야 할지 실마리가 잘 풀린다. 어떤 내용이 필요 없는지도 비교적 잘 보인다. 다만, 애초에 자랑이나 광고를 할 마음이 들지 않을 수도 있다. 그렇다면 그 기술의 가치에 대해 고민해볼 필요가 있다. 그런 마음이 든다고 해서 항상 가치가 없다는 얘기는 아니지만, 정말 가치가 없어서 그런 생각이 들 때도 분명 있기 때문이다.&lt;/p&gt;</description><link>http://blog.dahlia.kr/post/92247094802</link><guid>http://blog.dahlia.kr/post/92247094802</guid><pubDate>Sun, 20 Jul 2014 01:21:43 +0900</pubDate><category>technical writing</category></item><item><title>Geofront: 소규모 팀을 위한 SSH 키 관리 서비스</title><description>&lt;a href="http://spoqa.github.io/2014/07/09/geofront.html"&gt;Geofront: 소규모 팀을 위한 SSH 키 관리 서비스&lt;/a&gt;: &lt;blockquote&gt;
+  &lt;p&gt;스포카 개발팀에서 SSH 키를 편하게 관리하기 위해 만든 오픈 소스 소프트웨어인 Geofront를 소개합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;스포카에 들어간 뒤에 나도 처음으로 &lt;a href="http://spoqa.github.io/2014/07/09/geofront.html"&gt;기술 블로그에 글을 써봤다.&lt;/a&gt; &lt;a href="https://github.com/spoqa/geofront"&gt;Geofront&lt;/a&gt;는 만들어서 실제로 개발팀에서 써온 지는 3개월 정도 된 소프트웨어이다. 처음부터 오픈 소스로 공개할 것을 염두로 만들기는 했지만, 남들이 쓰지 않더라도 팀 내에서 유용하게 쓰고 있으니 이미 수고에 대한 본전은 뽑았다고 생각한다.&lt;/p&gt;
+
+&lt;p&gt;저 글에서 쓰지 못한 부분을 주절거려보자면:&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;&lt;p&gt;Python 2와 3 양쪽에서 호환되는 코드는 이전에도 계속 써왔지만, Python 3 전용으로, Python 3에만 있는 기능들을 마음껏 활용해보며 프로젝트를 진행한 것은 이게 처음이었다. Python 3는 이제 공개 라이브러리를 만드는 것이 아니라면, 애플리케이션 수준에서는 충분히 도입해도 문제가 없겠다는 확신이 들었다. 써야 했던 라이브러리(Paramiko, Werkzeug, Flask, Apache Libcloud, Waitress) 가운데 어떤 것도 Python 3 지원 안 하는 게 없었다. 여담으로 최근에는 boto마저 Python 3를 지원하기 시작했다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;기업용 오픈 소스 라이센스로 GPL 계열이 부적합하다는 소리들을 하곤 하지만 반만 맞는 얘기다. MIT/BSD 등의 비감염적 라이센스는 기업이 해당 프로젝트를 &lt;strong&gt;쓰는 입장&lt;/strong&gt;일 때야 좋지만, 반대로 기업이 그 프로젝트를 &lt;strong&gt;공개하는 입장&lt;/strong&gt;일 때는 딱히 좋을 게 없다. 오히려 GPL로 프로젝트를 공개하면 다른 곳에서 그 소프트웨어를 고쳐서 쓸 때 개선한 부분을 공개시키는 강제성이 생긴다는 잇점이 있다.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;프로젝트 이름의 유래는 알만한 사람들은 아는 바로 그 작품에 나오는 지오프론트가 맞다. 딱히 비유적인 의도는 없고, 원래 프로젝트 이름으로 그 작품에 나오는 것들을 종종 써왔다. (Asuka라던가…)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><link>http://blog.dahlia.kr/post/91222949887</link><guid>http://blog.dahlia.kr/post/91222949887</guid><pubDate>Wed, 09 Jul 2014 13:46:00 +0900</pubDate><category>Geofront</category><category>ssh</category><category>key managament</category><category>security</category><category>open source</category><category>featured</category></item><item><title>오픈 소스의 경계 설정 문제</title><description>&lt;p&gt;우연히 &lt;a href="https://github.com/UrQA/URQA-Server/issues/51#issuecomment-47662189"&gt;오픈 소스를 자처하는 한 프로젝트의 라이센스 설정 이슈&lt;/a&gt;를 보고, 오래 전부터 해온 생각이 다시 떠올라 이참에 글로 쓴다.&lt;/p&gt;
+
+&lt;p&gt;오픈 소스는 무엇이고, 또 무엇이 아닌가? 경계 설정 문제는 언제나 ‘무엇인지’와 &lt;strong&gt;‘무엇이 아닌지’&lt;/strong&gt; 양쪽이 동시에 중요하지만, 대개 후자는 덜 다뤄지기 때문에 여러 개념들은 그 경계가 오해되곤 한다. 과학도 그렇고, 오픈 소스도 그렇다.&lt;/p&gt;
+
+&lt;p&gt;내가 보기에는 (최소한 우리나라의 경우) 많은 개발자들이 오픈 소스에 대해 몇가지 명백한 오해를 하고 있으며, 이는 개발자의 기량과 무관하게 나타나는 데다, 심지어 스스로 오픈 소스 전문가라고 자처하는 사람들 중에서도 오해가 흔하다. 어떤 오해가 있을까?&lt;/p&gt;
+
+&lt;p&gt;제로보드 4는 소스 코드 형태로 배포되는 무료 소프트웨어였다. 하지만 제로보드 4는 오픈 소스가 아니었다. 반면 비슷한 다른 소프트웨어인 Drupal이나 WordPress는 오픈 소스다. 대체 둘 사이에는 어떤 차이가 있는가?&lt;/p&gt;
+
+&lt;p&gt;GNU의 &lt;a href="http://www.gnu.org/philosophy/free-sw.ko.html"&gt;“자유 소프트웨어란 무엇인가?”&lt;/a&gt;라는 글은 다음과 같은 내용을 담고 있다 (&lt;strong&gt;강조&lt;/strong&gt;는 내가 했음):&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“자유 소프트웨어”는 사용자가 소프트웨어를 실행시키거나 이를 복제 및 배포할 수 있는 자유와 함께 소스 코드에 대한 접근을 통해서 이를 학습하고 &lt;strong&gt;수정, 개선&lt;/strong&gt;시킬 수 있는 원천적인 자유까지를 모두 포괄하는 것입니다.&lt;/p&gt;
+  
+  &lt;p&gt;따라서, 간략히 말하면 다음과 같은 4가지 종류의 자유를 내포한다고 할 수 있습니다.&lt;/p&gt;
+  
+  &lt;ul&gt;&lt;li&gt;프로그램을 &lt;strong&gt;어떠한 목적을 위해서도&lt;/strong&gt; 실행할 수 있는 자유 (자유 0).&lt;/li&gt;
+  &lt;li&gt;프로그램의 작동 원리를 연구하고 이를 자신의 필요에 맞게 &lt;strong&gt;변경시킬 수 있는 자유&lt;/strong&gt; (자유 1). 이러한 자유를 위해서는 소스 코드에 대한 접근이 선행되어야 합니다.&lt;/li&gt;
+  &lt;li&gt;이웃을 돕기 위해서 프로그램을 복제하고 배포할 수 있는 자유 (자유 2).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;프로그램을 향상시키고 이를 공동체 전체의 이익을 위해서 다시 환원시킬 수 있는 자유&lt;/strong&gt; (자유 3). 이러한 자유를 위해서는 소스 코드에 대한 접근이 선행되어야 합니다.&lt;/li&gt;
+  &lt;/ul&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;사실 내가 강조한 부분들은 한국에서 오픈 소스에 대해 이야기할 때 자주 무시되는 것들이다. 나는 몇년 전부터, 개발자들조차 오픈 소스가 무엇인지 말해보라고 하면 다음과 같은 오해가 포함된 정의를 내놓는 것을 경험해왔다:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;“소스 코드를 공개한 무료 소프트웨어”&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;확실히, 위와 같은 널리 오해되는 정의에 따르면 제로보드 4는 오픈 소스 소프트웨어다. 하지만 오픈 소스는 실제로 그러한 것이 아니며, 위 정의에는 크게 두 가지 부분이 잘못되었다.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;소스 코드 공개&lt;/li&gt;
+&lt;li&gt;무료&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;오픈 소스는 소프트웨어 개발에 있어서 어떤 의미를 지닐까? 바로 남이 만든 것도 내가 고칠 수 있고, 내가 만든 것도 남이 고칠 수 있다는 데에 있다. 즉, 오픈 소스 소프트웨어는 전적으로 &lt;strong&gt;누구나 고칠 수 있느냐&lt;/strong&gt;가 중요하다.&lt;/p&gt;
+
+&lt;p&gt;여기서 ‘고칠 수 있다’는 말에는 기술적인 부분과 법/권리적인 뜻이 함께 들어있다.&lt;/p&gt;
+
+&lt;p&gt;소스 코드에 대한 접근은 소프트웨어를 고치려면 현실적으로 필요하기 때문에 생겨난 것이다. 소스 코드 없이도 소프트웨어를 쉽게 고칠 수 있다면 오픈 소스는 소스 코드에 대해서는 어떠한 말도 하지 않았을 것이다. (연습 문제: 소스 코드긴 소스 코드인데 난독화된 소스 코드는 오픈 소스에 부합할까?) 이것이 ‘고칠 수 있다’의 기술적인 부분이다. 이것이 인용한 글에서 말하는 &lt;strong&gt;자유 1&lt;/strong&gt;이다.&lt;/p&gt;
+
+&lt;p&gt;그렇다면 법/권리적인 부분은 무엇일까? 기술적으로 소프트웨어를 쉽게 고칠 수 있다고 해도, 저작권자가 저작물을 고치는 것을 허락해야 한다. 이것이 바로 오픈 소스 라이센스들(GPL, MIT 라이센스, BSD 라이센스, 아파치 라이센스…)이 생겨난 동기다.&lt;/p&gt;
+
+&lt;p&gt;고칠 수 있기만 하면 될까? 그렇지 않다. 오픈 소스에서 말하는 ‘고칠 수 있다’는 말은 ‘고쳐서 다시 퍼뜨릴 수 있다’는 얘기이다. 남이 만든 소프트웨어를 내가 고쳐서, 원한다면 다시 배포할 수 있어야 한다. 내가 만든 소프트웨어도 마찬가지로, 남이 고쳐서, 원한다면 남의 손으로도 배포할 수 있어야 한다. 이 부분이 인용한 글에서 말하는 &lt;strong&gt;자유 3&lt;/strong&gt;이다.&lt;/p&gt;
+
+&lt;p&gt;제로보드 4는 소스 코드에 기술적으로는 접근할 수 있었지만, 라이센스는 명백하게 수정 후 재배포를 금지하고 있었다. 이래서는 오픈 소스 소프트웨어라고 볼 수 없다.&lt;/p&gt;
+
+&lt;p&gt;흔히 오해되는 다른 한 가지는, 오픈 소스는 무료여야 한다는 것이다. 하지만 오픈 소스는 위에서 인용한 바와 같이 “어떠한 목적을 위해서도” 사용할 수 있어야 하며, 이는 상업적으로도 사용 가능해야 한다는 점을 뜻한다. 이 부분이 앞서 인용한 내용에서 말하는 &lt;strong&gt;자유 0&lt;/strong&gt;에 해당한다. 같은 글에서는 이런 내용도 나온다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;GNU 소프트웨어는 &lt;strong&gt;유료로 구입할 수도 있고&lt;/strong&gt; 무료로 얻을 수도 있습니다. 그러나 어떠한 방법으로 소프트웨어를 구했던 간에 여러분은 해당 프로그램에 대한 복제와 개작의 자유를 항상 갖게 됩니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;예를 들어, 내가 어떤 소프트웨어를 만들어서 GPLv3 라이센스를 적용한 뒤 한 카피에 만원씩 해서 팔더라도, 실제로 돈을 지불한 고객에게 소스 코드와 그것을 수정해서 재배포할 권리만 허락한다면 오픈 소스 소프트웨어라고 할 수 있다.&lt;/p&gt;
+
+&lt;hr&gt;&lt;p&gt;&lt;a href="http://opensource.org/osd"&gt;오픈 소스가 무엇인지에 대한 명확한 정의는 OSI 웹사이트에서 볼 수 있다.&lt;/a&gt; 그러나 그 정의를 읽고서 소프트웨어가 그에 해당하는지 엄밀히 따지는 것은 쉽지 않다. 법적 효과에 대한 부분을 따져봐야 하기 때문에 법 언어를 이해하지 못하는 나를 포함한 대부분 사람들에게는 엄밀한 판단은 힘들기 때문이다. 하지만 어떤 소프트웨어가 오픈 소스가 맞는지 확인하는 쉽고 명확한 방법도 존재한다. 바로, 오픈 소스 라이센스를 따르는 소프트웨어인지를 보는 것이다.&lt;/p&gt;
+
+&lt;p&gt;물론, 어떤 라이센스가 오픈 소스 라이센스인지 아닌지를 따져보는 것은 앞서 든 것과 똑같은 이유로 여전히 대부분 사람들에게 어려운 일이다. 이를 위해 &lt;a href="http://opensource.org/approval"&gt;OSI에서는 어떤 라이센스가 실제로 오픈 소스 라이센스라고 볼 수 있는지를 검증해준다.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;현실적으로는, 그러한 검증 절차는 시간과 비용이 드는 일이다. 그러한 이유로 실제로 오픈 소스 세상에서 대부분의 프로그래머들에게 널리 사용되는, 소프트웨어의 오픈 소스 여부를 알아내는 질문은 다음과 같다:&lt;/p&gt;
+
+&lt;p&gt;“&lt;a href="http://opensource.org/licenses"&gt;OSI에서 인증한 오픈 소스 라이센스들&lt;/a&gt; 가운데 하나로 배포되고 있는가?”&lt;/p&gt;
+
+&lt;p&gt;반대로도 활용할 수 있다. 내가 만든 소프트웨어를 오픈 소스로 공개하고 싶으면 어떻게 해야할까? OSI에서 인증한 오픈 소스 라이센스 중에서 하나를 택해서 배포하면 된다. 현실적으로는 GPL, MIT 라이센스, BSD 라이센스, 아파치 라이센스 등에서 하나를 고르면 된다.&lt;/p&gt;</description><link>http://blog.dahlia.kr/post/90466992052</link><guid>http://blog.dahlia.kr/post/90466992052</guid><pubDate>Wed, 02 Jul 2014 01:47:00 +0900</pubDate><category>open source</category><category>free software</category><category>misconceptions</category><category>featured</category></item><item><title>프로그래밍은 보편적인 언어로 특수한 프로그램을 엮어내는 것이다. 그래서 (Ruby 스크립팅이 들어가기 전의) RPG 쯔꾸루를 이용해서 게임을 만드는 것이나 쇼핑몰 솔루션을 설치해서...</title><description>&lt;p&gt;프로그래밍은 보편적인 언어로 특수한 프로그램을 엮어내는 것이다. 그래서 (Ruby 스크립팅이 들어가기 전의) RPG 쯔꾸루를 이용해서 게임을 만드는 것이나 쇼핑몰 솔루션을 설치해서 쇼핑몰을 만드는 것은 훌륭한 제품 개발은 될 수 있을지언정 프로그래밍으로 볼 수는 없다. 반면 &lt;a href="http://pub.mearie.org/%EB%A0%88%EB%93%9C%EC%8A%A4%ED%86%A4"&gt;마인크래프트와 같이 튜링 완전한 세계&lt;/a&gt;에서 프로그램을 엮어낸다면 그것은 충분히 프로그래밍이라고 볼 수 있다.&lt;/p&gt;
+
+&lt;p&gt;그래서 이렇게 요약할 수 있다. 프로그래밍 내지는 해킹은 제품 개발과 다른 것이다. 아무리 훌륭한 제품 개발도 프로그래밍을 필수적으로 요구하지 않는다. 아무리 훌륭한 해킹도 제품성을 필수적으로 요구하지 않는다.&lt;/p&gt;</description><link>http://blog.dahlia.kr/post/86767605667</link><guid>http://blog.dahlia.kr/post/86767605667</guid><pubDate>Sun, 25 May 2014 15:11:00 +0900</pubDate><category>product</category><category>programming</category><category>hacking</category><category>Turing-completeness</category><category>universalness</category></item><item><title>버튼의 레이블을 확인/취소 혹은 예/아니오로 쓰기보다는 실제 동사를 쓰는 게 대체로 더 낫다는 얘기가 있다....</title><description>&lt;img src="http://33.media.tumblr.com/ca609880938e0928f8e762827a9ac98b/tumblr_n4mzt2vGTB1qz6t91o1_500.png"/&gt;&lt;br/&gt;&lt;br/&gt;&lt;p&gt;버튼의 레이블을 확인/취소 혹은 예/아니오로 쓰기보다는 &lt;a href="http://ux.stackexchange.com/a/9960"&gt;실제 동사를 쓰는 게 대체로 더 낫다&lt;/a&gt;는 얘기가 있다. 예/아니오는 무엇에 대한 긍정 혹은 부정이고, 보통은 그 무엇에 대해 적어놓지만 주의를 기울이지 않는 사람들이 많기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;그런데 오늘 게임을 하다가 같은 원칙을 좀더 일반적으로 확대할 수도 있겠다는 생각이 들었다.&lt;/p&gt;
+
+&lt;p&gt;첨부한 이미지는 &lt;a href="http://devcat.nexon.com/ringtoss/"&gt;링토스 세계여행&lt;/a&gt; 게임 화면이다. 게임을 하면서 수집품을 무작위로 얻게 되는데, 어떤 수집품은 흔해서 자주 나오지만 어떤 수집품은 매우 희귀해서 보기가 힘들다. 위 화면은 ‘여행용 캐리어’라는 수집품에 대한 정보를 보여주고 있다. 수집품을 입수했을 때도 저것과 거의 같은 화면이 뜨는데, 내가 다소 헷갈려하는 부분이 바로 ‘입수 난이도: 매우 낮음’이라고 써져있는 부분이다.&lt;/p&gt;
+
+&lt;p&gt;앞서 설명했듯 수집품은 입수 빈도(확률)가 ‘낮으면’ 입수 난이도가 ‘높은’ 것이고, 빈도가 ‘높으면’ 입수 난이도는 ‘낮은’ 것이다. 저 화면을 볼 때 나는 ‘매우 낮음’이 먼저 눈에 들어오고 ‘입수 &lt;strong&gt;난이도&lt;/strong&gt;’ 부분은 대충 흘려보낼 때가 많다. 무심코 확인을 눌러 창을 닫고 나면 내가 방금 입수한 아이템이 ‘난이도’가 낮았다는 것인지 ‘빈도’가 낮았다는 것인지 헷갈리게 된다. 후자라면 기뻐할만한 일이지만 전자면 별 일 아닌 거니까.&lt;/p&gt;
+
+&lt;p&gt;아마 입수 난이도를 표시할 때 ‘입수 난이도: 매우 쉬움’이라고 적었다면 어땠을까? 마찬가지로 ‘입수 확률: 매우 흔함’이라고 적을 수도 있을 것이다.&lt;/p&gt;
+
+&lt;p&gt;이는 결국 버튼 뿐만 아니라 위와 같이 ‘항목: 내용’으로 적히는 것들이나 표의 컬럼 이름과 실제 컬럼 값 같은 것들처럼 대응 관계가 존재하는 모든 표지에서 적용할 수 있을만한 원칙이 아닐까?&lt;/p&gt;</description><link>http://blog.dahlia.kr/post/83905786642</link><guid>http://blog.dahlia.kr/post/83905786642</guid><pubDate>Sat, 26 Apr 2014 20:55:50 +0900</pubDate><category>ui</category><category>label</category><category>button</category><category>verb</category><category>adjective</category><category>description</category></item><item><title>Confirmation bias</title><description>&lt;blockquote&gt;
+  &lt;p&gt;“감탄할 만한 일은 아직 멀었니,” 헤르미온느가 말했다. 그녀는 다시 음료수 캔을 잡고는 입가로 가져가고 있었다.&lt;/p&gt;
+  
+  &lt;p&gt;“글쎄, 아마 이 정도면 감탄할지도 모르겠네,” 그가 말했다. 그는 몸을 앞으로 기울이고는 그녀를 열정적일 정도로 강하게 바라보았다. “사실 이미 몇가지 연구를 해보았는데, 그 결과 내가 마법을 행하기 위해서는 지팡이고 뭐고 필요없고, 단지 손가락을 튕기기만 하면 된다는 사실을 깨달았어.”&lt;/p&gt;
+  
+  &lt;p&gt;그 말은 헤르미온느가 액체를 삼키기 직전에서야 뛰쳐나왔고, 그 결과 그녀는 목구멍을 부여잡고 목이 메인 나머지 콜록거려, 밝은 녹색의 액체를 마구 분출시켰다.&lt;/p&gt;
+  
+  &lt;p&gt;바로, 단 한번도 입지 않은 그녀의 새 망토에. 그것도 입학식 날.&lt;/p&gt;
+  
+  &lt;p&gt;(…중략…)&lt;/p&gt;
+  
+  &lt;p&gt;녹색의 액체는 아직도 묻어있었지만, 그녀가 계속해서 지켜보는 순간 조차 서서히 사라져가며 희미해지고, 마침내 언제 젖었냐는 마냥 말끔하게 깨끗해졌다.&lt;/p&gt;
+  
+  &lt;p&gt;(…중략…)&lt;/p&gt;
+  
+  &lt;p&gt;그의 미소가 옅어졌다. “헤르미온느, 단지 사소한 속임수일 뿐이야. 미안해, 겁주려는 생각은 없었어.”&lt;/p&gt;
+  
+  &lt;p&gt;문의 손잡이를 반쯤 돌리고 있던 그녀가 동작을 정지했다. “속임수?”&lt;/p&gt;
+  
+  &lt;p&gt;“응,” 그가 말했다. “너는 나보고 나의 지능을 입증하라고 했지. 그에 대응해 나는 공교롭게도 불가능한 일을 실현해보였어, 뭐 자랑하는 데에는 이것만큼 안성맞춤인 것도 없지. 사실 나는 단지 손가락을 튕기는 것만으로 마법을 하지는 못해.” 그리고 그는 다시 손가락을 튕겨 시범을 보였다. “응, 아무일도 일어나지 않아.”&lt;/p&gt;
+  
+  &lt;p&gt;(…중략…)&lt;/p&gt;
+  
+  &lt;p&gt;“너는 네가 나의 도움이 존재하든 존재 않든, 네 자신의 의지로 진정한 과학자가 될 수 있을거라고 생각하니? 만약 그렇다면 네가 이 신비한 현상에 대해 어떠한 방식으로 조사할 것인지 한번 살펴보도록 할게.”&lt;/p&gt;
+  
+  &lt;p&gt;“아….” 헤르미온느는 순간 생각을 비워버렸다. 시험을 치는 것은 좋아했지만 이런 형식의 시험은 난생 처음이었다. 다급하게 그녀는 과학자들이 어떻게 행동하는지 알아내기 위해 지식의 바다를 헤집었다. 기억회수의 몇단계를 뛰어넘어, 정보를 모으고, 과학 전람회의 프로젝트에 대한 지시사항을 순식간에 회수한 헤르미온느는 그것을 검토했다:&lt;/p&gt;
+  
+  &lt;p&gt;1 단계: 가설을 구축하라.
+  2 단계: 가설을 시험하기 위해 실험하라.
+  3 단계: 결과의 신빙성을 측정하라.
+  4 단계: 판지에다가 연구내용을 적어 전시하라.&lt;/p&gt;
+  
+  &lt;p&gt;1 단계는 가설을 구축하라, 다. 그 말은, 지금 일어난 상황에 대한 그럴싸한 해명을 구축하라는 것이다. “좋아. 내 가설은, 네가 내 망토에 주문을 걸어 액체가 쏟아져도 순식간에 사라지게 했다는 거야.”&lt;/p&gt;
+  
+  &lt;p&gt;“좋아,” 그가 말했다. “그게 네 답이니?”&lt;/p&gt;
+  
+  &lt;p&gt;충격과 경악은 서서히 가시고 있었고, 헤르미온느는 다시 정상적인 사고를 할 수 있게 되었다. “잠깐, 별로 좋은 가설이 아니었어. 네가 지팡이를 잡는 것을 본 적이 없을 뿐더러 주문을 외운 적도 없는데 어떻게 마법을 걸 수가 있었겠어?”&lt;/p&gt;
+  
+  &lt;p&gt;그는 무표정을 고수한채 그녀의 답을 기다렸다.&lt;/p&gt;
+  
+  &lt;p&gt;“하지만 망토가 만들어질 때 이미 ‘항상 청결을 유지하는 마법’이 걸려있었다면? 그건 정말 유용한 마법일거야. 너는 예전에 망토에 무언가를 흘렸다가 우연히 이 사실을 알게 된 거고.”&lt;/p&gt;
+  
+  &lt;p&gt;눈썹을 치켜올리며 그가 물었다. “그게 네 답이니?”&lt;/p&gt;
+  
+  &lt;p&gt;“아니, 아직 2 단계는 시작조차 하지 않았어, ‘가설을 시험하기 위해 실험하라’ 말이야.”&lt;/p&gt;
+  
+  &lt;p&gt;다시 입을 꾹 닫은 그는 희미한 미소를 띄우기 시작했다.&lt;/p&gt;
+  
+  &lt;p&gt;헤르미온느는 그녀가 창가에 있는 컵홀더에 넣은 음료수 캔을 바라보았다. 그녀가 확인했을 때, 캔은 1/3 정도 차있었다.&lt;/p&gt;
+  
+  &lt;p&gt;“음,” 헤르미온느가 말했다. “내가 원하는 실험은 내 망토에 이걸 쏟아붓고 무슨 일이 일어나는지 확인하는 거고, 내 추측은 묻은 얼룩이 사라질 거라는 거야. 하지만 만약 사라지지 않는다면 내 망토는 엉망이 되는 거고, 나도 그것을 원치 않는데….”&lt;/p&gt;
+  
+  &lt;p&gt;“내거에다가 해도 상관없어,” 그가 말했다. “내거에다가 하면 네것이 얼룩질지 고민 안해도 되잖아.”&lt;/p&gt;
+  
+  &lt;p&gt;(…중략…)&lt;/p&gt;
+  
+  &lt;p&gt;그녀는 다소 조심스럽게 소량의 녹색 액체를 그의 망토 구석에 부었다. 얼룩을 정밀하게 관찰하며, 정확히 언제 예의 그 얼룩이 사라졌는지 기억해내기 위해 고심하던 순간….&lt;/p&gt;
+  
+  &lt;p&gt;얼룩이 사라졌다!&lt;/p&gt;
+  
+  &lt;p&gt;헤르미온느는 안도의 한숨을 쉬었다. 적어도 어둠의 마왕의 힘에 대한 사항을 다루고 있는 건 아니었으니 말이다.&lt;/p&gt;
+  
+  &lt;p&gt;3 단계는 결과를 측정하는 것이지만, 이 경우에는 단지 얼룩이 사라진 것을 관찰하기만 하면 되었다. 그리고 판지에 연구내용을 작성하는 4 단계는 넘겨도 별로 상관없을 것 같다는 생각이 들었다. “내 답은, 망토가 만들어졌을때 ‘청결 마법’도 함께 걸렸다는 거야.”&lt;/p&gt;
+  
+  &lt;p&gt;“틀렸어.”&lt;/p&gt;
+  
+  &lt;p&gt;(…중략…)&lt;/p&gt;
+  
+  &lt;p&gt;“비극적인 점은,” 그가 말했다. “네가 책에 나온 모든 지시를 그대로 따랐을 것이라는 점이야. 너는 망토에 주문이 걸렸는지 아닌지 확실하게 구별할 수 이쓴 추측을 자아냈고, 실험을 해, 망토가 마법에 걸리지 않았을 것이라는 ‘귀무가설’을 제외시켰어. 하지만 네가 정말, 정말 최고 중 최고의 책들을 읽지 않은 한, 어떤 책을 읽어도 과학을 제대로 사용할 수는 없어. 내 말은, 답을 얻을 정도로 완벽한 사용법은 익히기 힘들다는 거지, 아빠가 푸념하는 것처럼 단지 다른 책을 산다는 방식으로 해결하는게 아니라. 따라서 네 답변이 어디서 틀어졌는지─물론 답을 말하지는 않고─설명하도록 노력해보고, 네게 다시 기회를 주도록 할게.”&lt;/p&gt;
+  
+  &lt;p&gt;(…중략…)&lt;/p&gt;
+  
+  &lt;p&gt;“이 게임은 2-4-6 과제라는 저명한 실험을 토대로 만들어졌는데, 정확히는 이래. 나에게는 모종의 법칙─그러니까 나는 알지만, 너는 모르는─이 있는데, 몇가지 ‘세 개의 숫자 묶음’에는 이 법칙이 적용하지만 나머지는 아니야. 2-4-6가 이 법칙이 통용되는 한가지의 ‘숫자 묶음’이지. 아니지, 아예…내가 이 법칙을 종이에 적어서 접도록 할게, 그래야지 이 법칙이 중간에 내멋대로 바뀌지 않은, 고정적인 법칙이라는 것을 증명할 테니까. 제발 종이를 보지 말아줘, 내 경험으로 판단하건데 너는 거꾸로도 읽는 게 가능할 것 같으니까.”&lt;/p&gt;
+  
+  &lt;p&gt;그가 ‘종이’와 ‘샤프’라고 주머니에게 중얼거리자, 그녀는 그가 법칙을 적는 동안 눈을 꼭 감았다.&lt;/p&gt;
+  
+  &lt;p&gt;“여기있어,” 단단히 접힌 종이를 그녀에게 건내주며 그가 말했다. “이걸 주머니에 넣어.” 그녀는 그리했다.&lt;/p&gt;
+  
+  &lt;p&gt;“자, 이 게임이 어떤 원리로 돌아가냐면,” 그가 말했다. “네가 나에게 ‘세 개의 숫자 묶음’을 말하고 그 묶음에 법칙이 통용된다면 나는 ‘응’이라고 말하고, 통용되지 않는다면 ‘아니’라고 말하는 거야. 나는 ‘자연’ 그 자체이고, 그 법칙은 내 법률 중 하나이니 나를 취조하는 거지. 넌 이미 2-4-6의 묶음에 대한 대답이 ‘응’이라는 것을 알고 있어. 네가 원하는 만큼의 실험을 하고, 충분한 정보─네가 원하는 만큼 얼마든지 ‘세 숫자 묶음’을 말해도 상관없어─를 얻었다고 생각된다면, 그 법칙을 추측해보고, 종이를 펼쳐 네 대답이 옳았는지 아닌지 확인하는 거야. 이해하겠어?”&lt;/p&gt;
+  
+  &lt;p&gt;“물론이지.” 헤르미온느가 말했다.&lt;/p&gt;
+  
+  &lt;p&gt;“시작.”&lt;/p&gt;
+  
+  &lt;p&gt;(역주─독자분들도 같이 해보도록 하세요.)&lt;/p&gt;
+  
+  &lt;p&gt;“4-6-8” 헤르미온느가 말했다.&lt;/p&gt;
+  
+  &lt;p&gt;“응,” 그가 말했다.&lt;/p&gt;
+  
+  &lt;p&gt;“10-12-14”, 헤르미온느가 말했다.&lt;/p&gt;
+  
+  &lt;p&gt;“응,” 그가 말했다.&lt;/p&gt;
+  
+  &lt;p&gt;헤르미온느는 생각을 조금 더 폭넓은 방향으로 수정하기로 했다. 벌써부터 가능한 모든 시험을 해본 것 같았지만, 실제로 답이 그렇게 쉬울리는 없지 않은가?&lt;/p&gt;
+  
+  &lt;p&gt;“1-3-5”&lt;/p&gt;
+  
+  &lt;p&gt;“응.”&lt;/p&gt;
+  
+  &lt;p&gt;“-3, -1, 1”&lt;/p&gt;
+  
+  &lt;p&gt;“응.”&lt;/p&gt;
+  
+  &lt;p&gt;헤르미온느는 달리 무엇을 말해야할지 생각나지 않았다. “법칙은 ‘숫자는 순서대로 2씩 상승해야 한다는 것’이야.”&lt;/p&gt;
+  
+  &lt;p&gt;“흐음, 만약에 내가,” 그가 말했다. “이 시험은 보기보다 어렵고, 성인들조차 답을 맞춘 사람은 전체 중 20%에 불과하다는 것을 말하면 어떻게 할래?”&lt;/p&gt;
+  
+  &lt;p&gt;헤르미온느가 인상을 썼다. 무엇을 놓쳤는가? 그 순간, 그녀는 아직도 행해야 할 시험이 남아있다는 것을 깨달았다.&lt;/p&gt;
+  
+  &lt;p&gt;“2-5-8!” 그녀가 의기양양하게 외쳤다.&lt;/p&gt;
+  
+  &lt;p&gt;“응.”&lt;/p&gt;
+  
+  &lt;p&gt;“10-20-30!”&lt;/p&gt;
+  
+  &lt;p&gt;“응.”&lt;/p&gt;
+  
+  &lt;p&gt;“정확한 답은 ‘숫자마다 같은 양이 올라가야 한다는 것’이야. 딱히 2가 아닌, 10씩 올라가도 상관 없어.”&lt;/p&gt;
+  
+  &lt;p&gt;“좋아,” 그가 말했다. “종이를 꺼내 그 답이 맞았는지 확인해봐.”&lt;/p&gt;
+  
+  &lt;p&gt;헤르미온느는 주머니에서 종이를 꺼내고 종이를 펼쳤다.&lt;/p&gt;
+  
+  &lt;p&gt;‘‘최소’부터 ‘최대’까지 오름차순으로 나열된 ‘실수’ 세 개.’&lt;/p&gt;
+  
+  &lt;p&gt;헤르미온느가 얼빠진 채 입을 떡 벌렸다. 이건 정말이지 어처구니 없게도 불공평하고, 이 남자아이는 썩어빠진 사기꾼이라고 외치는 듯한 희미한 감정마저 느껴졌지만, 생각해보니 딱히 그가 그녀가 나열했던 숫자에 대해서 이 법칙에 의거해 거짓말을 한 적은 없었다.&lt;/p&gt;
+  
+  &lt;p&gt;“네가 지금 발견한 것이 바로 ‘긍정적 편향’이라고 하는 거야,” 그가 말했다. “너는 이미 마음속으로 한가지의 ‘법칙’을 생각하고 있었고, 그 법칙에 통용되는 ‘세 개의 숫자 묶음’만을 무의식적으로 생각해내고 있었지. 하지만 너는 그 법칙에 위배되는 ‘세 개의 숫자 묶음’을 생각해내고, 그것을 실험해볼 생각 따위는 하지도 않았어. 사실 너는 ‘아니’라는 대답은 한번도 듣지 않았기에, ‘아무 세 개의 숫자’라는 답변 또한 쉽사리 ‘법칙’이 될 수 있었지. 사람들이 실험을 구성해나갈때 자신의 가설을 부숴버릴 가능성이 있는 실험 대신, 가설의 정당성을 증명할 수 있을 만한 실험만을 구성하는 사람의 심리와 비슷해─완전히 같은 예는 아니지만 대충 비슷한 경우야. 우리는 사물의 긍정적인 면만이 아닌, 부정적인 면과 그 심연 같은 어둠을 정면으로 바라보는 것을 배워야 해. 이 실험이 행해졌을 때, 고작 20%의 성인들만이 정답을 냈지. 다른 사람들은 환상적일 정도로 복잡한 가설을 구축하고 그 어처구니 없는 답에 근거없는 자신감을 보였었어. 수많은 실험 끝에 항상 그들이 ‘예상’했던 대로의 답이 나왔으니까.”&lt;/p&gt;
+  
+  &lt;p&gt;“자,” 그가 말했다. “본래의 질문에 다시 한번 도전해보겠어?”&lt;/p&gt;
+  
+  &lt;p&gt;(…중략…)&lt;/p&gt;
+  
+  &lt;p&gt;또다른 실험은 무엇이 있을까? ‘초콜릿 개구리’가 있으니 그걸 망토에 문질러보고 얼룩이 사라지는지 관찰해봐? 하지만 그것도 그가 요구하고 있는 ‘부정적인 사고’에 부합되지는 않는 것 같았다. 마치 그녀는 아직도 초콜릿 개구리의 얼룩이 사라져 ‘아니’라는 답 대신 ‘응’이라는 답을 원하는 것 같은.&lt;/p&gt;
+  
+  &lt;p&gt;그러니까…그녀의 가설은…‘어떤 상황에서라면 얼룩이…사라지지 않을까?’라는 것이다.&lt;/p&gt;
+  
+  &lt;p&gt;“실험해볼 게 있어,” 헤르미온느가 말했다. “음료수를 바닥에 부어 사라지나 사라지지 않나 볼 거야. 혹시 네 주머니에 화장지라던가 있니, 사라지지 않을 경우를 대비해서.”&lt;/p&gt;
+  
+  &lt;p&gt;“냅킨은 있는데,” 변함없이 무표정을 고수하고 있는 그가 말했다.&lt;/p&gt;
+  
+  &lt;p&gt;헤르미온느는 음료수 캔을 잡고, 소량의 액체를 바닥에다가 부었다.&lt;/p&gt;
+  
+  &lt;p&gt;몇 초 후에, 얼룩은 사라졌다.&lt;/p&gt;
+  
+  &lt;p&gt;“유레카,” 헤르미온느가 중얼거렸다. 충동적인 행동이라 도저히 막을 방도가 없었다. 사실 아예 크게 외치고 싶었지만, 그녀는 그정도로 야만적이지 못했다. 그리고, 갑작스러운 ‘깨달음’이 들이닥쳐오는 것을 느끼며 헤르미온느는 환희했다. “맞아! 나에게 캔을 준 것은 바로 너였어! 마법이 걸린 건 망토가 아니라, 음료수 그 자체였구나!”&lt;/p&gt;
+  
+  &lt;p&gt;&lt;cite&gt;—“긍정적 편향”(Positive bias), 해리포터와 합리적 사고의 구사법(Harry Potter and the Methods of Rationality)&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;인용한 소설은 Eliezer Yudkowsky가 쓴 해리포터의 ‘팬픽’인데, 이미 상당히 유명해서 알만한 사람들은 다 알 것이다. (&lt;a href="http://hpmor.com/"&gt;원문&lt;/a&gt;과 &lt;a href="http://gtnovel.net/book/39-%ED%95%B4%EB%A6%AC%ED%8F%AC%ED%84%B0%EC%99%80-%ED%95%A9%EB%A6%AC%EC%A0%81-%EC%82%AC%EA%B3%A0%EC%9D%98-%EA%B5%AC%EC%82%AC%EB%B2%95"&gt;한국어 번역&lt;/a&gt;이 모두 웹으로 공개되어 있다.) 이 소설의 주인공 해리는 원작의 캐릭터와는 여러 모로 다른데, 가장 중요한 차이점은 과학적 방법론을 뼛속 깊이 체화했다는 점일 것이다.&lt;/p&gt;
+
+&lt;p&gt;Eliezer Yudkowsky라는 이름은 아마 &lt;a href="http://www.overcomingbias.com/"&gt;Overcoming Bias&lt;/a&gt;나 &lt;a href="http://lesswrong.com/"&gt;LessWrong&lt;/a&gt; 같은 사이트를 자주 본 사람이라면 눈에 익는 이름일텐데, 다름이 아니라 Overcoming Bias를 만든 사람이고 LessWrong을 만드는 데에도 관여하기도 했다. (두 사이트는 과학 철학, 과학적 방법론, 인지 과학, 인공 지능 등의 주제를 다룬다.)&lt;/p&gt;</description><link>http://blog.dahlia.kr/post/83278209177</link><guid>http://blog.dahlia.kr/post/83278209177</guid><pubDate>Sun, 20 Apr 2014 14:57:39 +0900</pubDate><category>positive bias</category><category>confirmation bias</category><category>HPMOR</category><category>Eliezer Yudkowsky</category></item><item><title>소프트웨어는 녹이 슨다</title><description>&lt;p&gt;이상한 얘기이지만 소프트웨어는 가만 냅두면 녹이 슨다. 소프트웨어 개발자가 이런 얘기를 하다니 정말 전문성이 떨어지는 느낌이다. 하지만 소프트웨어가 냅두면 녹이 슨다고 하면 오히려 소프트웨어 개발자들이야 말로 강하게 동감할 것이다.&lt;/p&gt;
+
+&lt;p&gt;소프트웨어는 언제나 망가져 있다. 수사적 표현이 아니라, 기술적으로 그러하다. 소프트웨어는 다양한 방법으로 망가질 수 있는데 이는 매우 당연한 것이다. 왜냐하면 소프트웨어는 완전히 망가져 있는 상태에서 약간 덜 망가진 상태로 ‘수리되면서 태어나기’ 때문이다. 좀더 정확히 말하면, 원래 자연 상태에서는 소프트웨어라는 것이 있지도 않으며 이것이 내가 ‘완전히 망가진 상태’라고 하는 것이다. 이것이 자연의 디폴트 상태라고 보면 모든 소프트웨어가 언제나 상당히 망가져 있다는 주장은 크게 이상할 것도 없는 얘기다.&lt;/p&gt;
+
+&lt;p&gt;언젠가 ‘가만히 냅뒀는데 왜 서버가 죽어요?’라는 질문도 들었다. 나는 ‘가만히 냅두니까 죽은 겁니다’라고 대답해 주었다. 스스로 코드를 변경시키는 소프트웨어는 거의 없다. 대부분의 코드는 사람이 직접 짜는 것이다. 소프트웨어는 대량 복제되지만 코드는 대량 생산되지는 않는다. 소프트웨어는 변하지 않아도 그걸 쓰는 사람들은 변한다.&lt;/p&gt;
+
+&lt;p&gt;내 소프트웨어는 변하지 않았어도 다른 사람들이 만든 소프트웨어는 자꾸 바뀐다. 소프트웨어 세계는 상호운용성이 중요하므로 가만히 있으면 소프트웨어는 고장난다. 자고 일어날 때마다 한국어 억양이 계속 바뀐다고 생각해보라. 한 달이 지났더니 나만 서울말을 하고 다른 사람들은 모두 평양말을 한다. 두 달 지났더니 연변말을 한다. 일 년이 지났더니 일본어 같이 되었다. 나만 서울말을 한다. 소프트웨어 세상은 그런 식이다. 다만 서울말이 일본어가 된다고 더 좋아질 것도 없는 반면 소프트웨어 세상의 말, 프로그램 인터페이스는 조금씩 좋아진다. 그걸 잘 따라가면 적은 말로도 많은 것을 더 정확히 할 수 있게 된다.&lt;/p&gt;
+
+&lt;p&gt;소프트웨어가 바뀌지 않아도, 소프트웨어의 어디가 망가져 있는지에 대한 정보 역시 업데이트된다. 시간이 지나면 알려진 결함이 쌓인다. 그때그때 얼른 고쳐주지 않으면 마치 사람이 나이가 들며 병이 드는 것마냥 소프트웨어가 버그가 많아져 쓸 수 없게 되는 것을 볼 수 있다.&lt;/p&gt;
+
+&lt;p&gt;홀연히 사라졌던 &lt;a href="http://en.wikipedia.org/wiki/Why_the_lucky_stiff"&gt;whytheluckystiff&lt;/a&gt;는 이렇게 말한 바 있다: “프로그래밍은 죄다 부질없는 짓이다. 당신의 작품이 1년 뒤 더 우월한 것에 의해 대체되는 것을 보게 된다. 좀더 지나면 아예 돌아가지도 않는다.”&lt;/p&gt;
+
+&lt;p&gt;나는 이렇게 생각한다. &lt;a href="http://en.wikipedia.org/wiki/Technological_singularity"&gt;소프트웨어가 프로그래밍해서 스스로의 코드를 개선할 수 있게 되기 전까지는&lt;/a&gt;, 소프트웨어는 누군가가 돌보지 않으면 금세 시들게 된다. 그렇다면 내가 만든 소프트웨어에게 긴 생명을 주고 싶다면 어떻게 해야 할까? 나 말고도 다른 누군가가 고칠 수 있게 해야 한다. 내 소프트웨어가 가치가 있다면 다른 누군가도 쓸 것이다. 내 소프트웨어가 가치가 있다면 망가졌을 때 다른 사람도 고치고 싶어할 것이다. &lt;a href="http://www.gnu.org/philosophy/open-source-misses-the-point.html"&gt;다른 사람이 고치고 싶어할 때 고칠 수 있게 허락해야 한다.&lt;/a&gt; 그렇게 소프트웨어는 약간 더 좋아지고 조금 더 시간을 번다.&lt;/p&gt;</description><link>http://blog.dahlia.kr/post/82482810330</link><guid>http://blog.dahlia.kr/post/82482810330</guid><pubDate>Sun, 13 Apr 2014 00:02:00 +0900</pubDate><category>free software</category><category>software lifetime</category><category>software defect</category></item><item><title>Apache Libcloud</title><description>&lt;a href="http://libcloud.apache.org/"&gt;Apache Libcloud&lt;/a&gt;: &lt;p&gt;최근 &lt;a href="http://libcloud.apache.org/"&gt;libcloud&lt;/a&gt;를 써볼 일이 있었다. 많이 써보지는 않았지만 여러모로 좋은 라이브러리라는 생각이 들어 소개해본다.&lt;/p&gt;
+
+&lt;p&gt;Libcloud는 &lt;a href="http://docs.pythonboto.org/"&gt;boto&lt;/a&gt;와 비슷한 기능을 공유하는 라이브러리인데, boto가 Amazon Web Services API의 클라이언트 라이브러리라면, libcloud는 AWS 외에도 Microsoft Azure, Google Cloud Compute 등 다양한 업체의 서비스도 함께 지원한다는 점이 가장 큰 차이점이라고 할 수 있다. 어차피 각 업체마다 대응되는 같은 용도의 서비스가 있는데, 크게 EC2 같은 가상화 인스턴스 서비스 (그야말로 클라우드의 primitive라고 할 수 있는…), EBS와 같이 거기서 쓸 블록 스토리지 서비스, S3와 같은 오브젝트 스토리지 서비스, ELB 같은 로드 밸런서 서비스, Route 53 같은 DNS 서비스 등이다.&lt;/p&gt;
+
+&lt;p&gt;그래서 가령 libcloud를 이용해서 EC2 인스턴스를 새로 만들고, 만들었던 인스턴스를 삭제하고, S3에 이미지를 올리는 스크립트를 짜고 나서, 맨 위쪽에서 드라이버 종류만 AWS에서 다른 업체로 바꾸면 그대로 돌아간다. (실제로는 &lt;a href="https://libcloud.readthedocs.org/en/latest/faq.html#what-are-the-extension-methods-and-arguments"&gt;각 프로바이더마다 확장하는 기능&lt;/a&gt;이 존재하는데, 네이밍 컨벤션에 따라 그런 함수나 인자명은 앞에 &lt;code&gt;ex_&lt;/code&gt;가 붙는다.)&lt;/p&gt;
+
+&lt;p&gt;Libcloud는 현재 25 종류 이상의 드라이버를 제공하고 있고, 이 안에는 심지어 KT ucloud까지 포함되어 있다. &lt;a href="http://charsyam.wordpress.com/2013/11/17/%EC%9E%85-%EA%B0%9C%EB%B0%9C-libcloud-%EB%A1%9C-kt-olleh-ucloud-biz-%EC%9D%B4%EC%9A%A9%ED%95%98%EA%B8%B0/"&gt;강대명 씨가 드라이버 코드를 기여했다고 한다.&lt;/a&gt; 나는 앞으로도 쓸 일이 없겠지만… 전략적으로 돈이 없을 때 ucloud를 쓰다가 사업이 번창하여 돈을 많이 벌면 AWS 등으로 옮길 때 유용하게 쓸 수 있을 것이다. ㅋㅎㅎ&lt;/p&gt;
+
+&lt;p&gt;이 외에도 boto보다 libcloud가 더 나은 점이 많다.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;API가 boto보다 더 깔끔하고 쓰기 쉽게 되어 있다. 여러 클라우드 서비스를 오갈 일이 없이, 그냥 AWS만 쓴다고 해도 boto의 대안으로서 나쁘지 않다.&lt;/li&gt;
+&lt;li&gt;Python 2에서만 돌아가는 boto와 달리 Python 3에서도 아주 잘 돌아간다.&lt;/li&gt;
+&lt;li&gt;더미 드라이버를 제공하기 때문에 단위 테스트 짜기가 훨씬 쉽다. boto를 쓰면 mock을 만들거나, 아예 libcloud가 해주는 그런 레이어링을 내 애플리케이션 코드에서 만들어야 하는데 이러다가 풀고자 하는 문제에 집중을 못하게 된다.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;물론 아직 boto를 써야만 하는 이유도 있다. 가령 SQS 같이 AWS에서 제공하지만 다른 업체들에서는 일반적으로 제공하지 않는 종류의 제품군은 libcloud로 커버가 안된다. 그런 것들을 boto를 이용해서 쓰고 있었다면 당장 libcloud를 쓰기에는 기능이 부족할 것이다.&lt;/p&gt;</description><link>http://blog.dahlia.kr/post/81478930714</link><guid>http://blog.dahlia.kr/post/81478930714</guid><pubDate>Wed, 02 Apr 2014 20:26:57 +0900</pubDate><category>Apache Libcloud</category><category>libcloud</category><category>iaas</category><category>cloud</category><category>Python</category></item><item><title>Composable IT</title><description>&lt;a href="http://sparcs.org/seminar/attachment/netj-20070323-1.pdf"&gt;Composable IT&lt;/a&gt;: &lt;p&gt;&lt;a href="https://medium.com/p/433852f4b4d1"&gt;어째서 Atom이나 Sublime Text가 (Emacs는 몰라도) Vim을 대체할 수는 없는지에 대한 글&lt;/a&gt;을 페이스북에 링크했다가 우연히 매우 좋은 발표 자료를 알게 되었다. 2007년 이맘때에 &lt;a href="http://netj.org/"&gt;신재호&lt;/a&gt;(netj) 님이 발표한 자료이다. 5년도 지난 자료이지만 내용의 탁월함은 어디로 가지 않는다. (2007년 3월은 Chrome도 iPhone도 세상에 나오기 전이다.) 링크로 때우는 글은 블로그에 잘 안 쓰고 페이스북에 올리는데, 이 자료는 꼭 여러 사람들에게 보여주고 싶다는 마음에 여기에 올린다.&lt;/p&gt;
+
+&lt;p style="text-align: center;"&gt;&lt;a href="http://sparcs.org/seminar/attachment/netj-20070323-1.pdf"&gt;&lt;em style="font-size: x-large; font-style: normal;"&gt;Composable IT&lt;/em&gt;&lt;br/&gt;“netj와 함께 고민해보는 우리 IT의 미래”&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;IT 업계에 있는 사람들이라면 모두들 한번씩 보고 음미해 보았으면 좋겠다.&lt;/p&gt;
+
+&lt;p&gt;우리가 만드려고 하는 놀라운 아이폰 앱은 과연 composable한가? 1년 뒤에는 사람들이 그 앱을 훨씬 더 능숙하게 쓸 수 있게 해주는가(&lt;em&gt;learning curve&lt;/em&gt; v. &lt;em&gt;learning gap&lt;/em&gt;)? 이 바닥에서 우리가 만드는 것들이 함께 쓰이기보다는 서로 충돌하고 경쟁하게 되는 이유가 무엇일까?&lt;/p&gt;</description><link>http://blog.dahlia.kr/post/78940164278</link><guid>http://blog.dahlia.kr/post/78940164278</guid><pubDate>Sat, 08 Mar 2014 20:58:00 +0900</pubDate><category>composability</category><category>information technology</category></item><item><title>왜 그 버튼은 폭을 줄이는 것조차 힘든가</title><description>&lt;ul&gt;&lt;li&gt;&lt;a href="http://radiofun.tumblr.com/post/76959629658/3"&gt;왜 그 버튼을 3픽셀 옮겨야만 하는가&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://dalinaum-kr.tumblr.com/post/77069863874/3"&gt;김용욱 씨의 반응&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://khrislog.net/post/77071780654/3"&gt;khris 님의 반응&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;원문 글 이후에 프로그래머 입장에서의 여러 변주가 있었는데, 나야 동감하지만 프로그래머가 아닌 사람도 저런 변주에 동감할까 하는 생각이 든다. 그래서 단순하고 거친 비유를 하나 들어볼까 한다.&lt;/p&gt;
+
+&lt;p&gt;어떤 플랫폼(iOS든, Android든) 위에서의 GUI 요소들이라는 것은 일종의 기성품 같은 것이다. 어떤 플랫폼은 완전히 조립되어 있는 가구처럼 되어 있기도 하고, 어떤 플랫폼은 IKEA 제품 수준으로 조립 가능하게 되어 있지만 그렇다고 해도 그러한 요소들은 어떻게 조립되어야 하는지에 대한 ‘의도’가 사전에 존재한다. IKEA에서 침대를 구입하면 오는 부품들을 조립하여 어떻게든 의자 모양이 나게 얹혀둘 수는 있겠지만 제대로 된 의자 기능을 하게 만들기는 상당히 어려울 것이다.&lt;/p&gt;
+
+&lt;p&gt;GUI 애플리케이션이라는 것은 디자이너 입장에서 보기와는 달리 조각 같은 것이라기 보다는 부품 공장에서 파는 기성품들 가운데 적절한 것들을 골라서 사온 다음 약간만 다듬어 조립하는 일에 가깝다. 기껏 사온 부품을 다른 모양을 내기 위해 나무를 깎기 시작하면 부품을 사온 의미가 사라진다. 내가 처음부터 통나무를 깎는 게 나을 정도로 비용이 올라가는 것이다.&lt;/p&gt;
+
+&lt;p&gt;자, 그렇다면 왜 그 버튼은 폭을 줄이는 것조차 힘든가? 여러분이 5.3인치 폭의 iPad mini를 고르거나 9.4인치 폭의 iPad Air를 고를 수는 있지만 7인치 폭의 iPad를 만들어내는 것은 힘든 것과 같은 이유에서 그렇다. 7인치 폭의 iPad가 필요하다면 나는 iPad를 분해해서 모든 것을 처음부터 다시 만들어야 한다. 5.3인치와 9.4인치 중에서 iPad를 골라 주문하면 받기까지 일주일이 채 안 걸리지만 7인치 폭의 iPad를 만들기 위해서는 일단 전자공학을 공부하기 위해 4년 이상의 기간을 예상해야 한다.&lt;/p&gt;
+
+&lt;p&gt;그래서 이 글의 결론이 무엇이냐 하면, 버튼 폭을 줄이라는 요구를 하지 말라는 것은 결코 아니고, 다만 디자이너에게도 다음의 경구는 유용하지 않겠냐는 것이다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you optimize everything, you will always be unhappy.&lt;/p&gt;
+  
+  &lt;p&gt;—&lt;cite&gt;Donald E. Knuth&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description><link>http://blog.dahlia.kr/post/77136470479</link><guid>http://blog.dahlia.kr/post/77136470479</guid><pubDate>Wed, 19 Feb 2014 12:25:00 +0900</pubDate><category>gui</category><category>featured</category></item><item><title>Earth Reader</title><description>&lt;a href="http://earthreader.org/"&gt;Earth Reader&lt;/a&gt;: &lt;p&gt;Google Reader 망한다는 소식이 뜬지 얼마 되지 않았을 때, &lt;a href="http://blog.dahlia.kr/post/51871409701"&gt;RSS 리더는 원래 데스크탑 앱이었다&lt;/a&gt;는 글을 쓴 적이 있습니다. 그 때 생각만 해두고 실제로 실행에 옮기지는 못하고 있다가, Google Reader 망한지 한참 지나서야 뒷북치며 RSS 리더를 직접 만들게 되었습니다.&lt;/p&gt;
+
+&lt;p&gt;이름은 Earth Reader입니다. 구름(클라우드)과 반대되는 느낌의 이름을 찾다가 땅이 좋겠다고 생각해서 지었습니다. 지구 리더가 아니라 땅 리더인 셈입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://blog.earthreader.org/2013/11/goal/"&gt;Earth Reader의 목표&lt;/a&gt;는 지난번에 썼던 글의 동기를 거의 그대로 물려받았습니다. 바로 구독자의 모든 데이터(읽었던 모든 글들, 읽은 표시, 별표 등)에 대한 제어권을 되찾기 위해, 특정 업체의 중앙집중적인 서비스에 의존하지 않고 뉴스를 구독하자는 것입니다. 그러기 위해서 다음과 같은 몇가지 세부적인 하위 목표가 생겼습니다.&lt;/p&gt;
+
+&lt;ul&gt;&lt;li&gt;모든 데이터는 구독자 자신에 의해 관리될 수 있어야 합니다. 데이터를 파기하는 것도, 유지하는 것도 구독자의 제어 아래 있어야 합니다. 그러기 위해 모든 데이터를 손에 잡히는 모습으로, 파일 시스템 위에 저장합니다.&lt;/li&gt;
+&lt;li&gt;그러면서도 기존 서비스형 뉴스 리더 서비스가 제공하던 가장 큰 장점, 바로 다양한 기기 간에 일관적인 데이터를 보여주는 것을 그대로 취합니다.&lt;/li&gt;
+&lt;li&gt;데이터 형식은 기존에 이미 널리 사용되던 기술적인 표준을 최대한 따르고자 합니다. 나아가, 구현 기술 역시 오픈 소스로 고쳐서 쓸 수 있도록 합니다.&lt;/li&gt;
+&lt;li&gt;가능하면 여러 플랫폼에서 &lt;a href="http://blog.dahlia.kr/post/17855554774"&gt;네이티브 앱의 형태&lt;/a&gt;로 다가가려 합니다. (저희는 &lt;a href="http://www.transmissionbt.com/"&gt;Transmission&lt;/a&gt;의 크로스플랫폼 전략을 따르고 싶습니다.)&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;사실 위의 목표 중 저희가 가장 중요하다고 생각했던 몇가지는 기본적인 수준으로 달성을 했습니다. Earth Reader는 사실 데이터를 어떻게 동기화할지 고려하지 않고, 동기화 기능을 직접 제공하지도 않습니다. 하지만 원한다면 Earth Reader 데이터 폴더(저희는 ‘저장소’라고 부릅니다)를 Dropbox 폴더 안쪽에 두거나, 혹은 Google Drive, 아니면 &lt;a href="http://cloud.daum.net/"&gt;다음 클라우드&lt;/a&gt; 폴더 안쪽에 두고 쓰실 수 있습니다. 컴퓨터에 익숙한 분이면 아예 직접 &lt;code&gt;rsync&lt;/code&gt;를 걸어도 됩니다. 중요한 것은, &lt;a href="http://blog.earthreader.org/2013/12/sync/"&gt;Earth Reader는 서로 다른 기기에서 동시에 같은 저장소에 접근하고 수정해도 데이터 정합성이 항상 유지되도록 고려되어 있다는 점입니다.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;반면 여러 플랫폼에서 네이티브 앱 형태로 만들겠다는 목표는 아직 큰 진전이 없습니다. 오늘 소개하는 Earth Reader의 첫 버전도 사실은 (저희의 목표가 무색하게도) 웹 버전입니다. 하지만 여러 앱 사이에서 공통으로 사용될 기술은 &lt;a href="http://libearth.earthreader.org/"&gt;&lt;code&gt;libearth&lt;/code&gt;&lt;/a&gt;라는 공용 라이브러리 형태로 따로 제작되고 있으므로 머지 않아 데스크탑 앱 형태로도 모습을 보여드릴 수 있을 것 같습니다.&lt;/p&gt;
+
+&lt;p&gt;웹 버전은 기본적으로 개인 서버가 있는 분들, 즉 코딩을 할 줄 알고 컴퓨터를 꽤 익숙하게 다루시는 분들을 대상으로 한 첫번째 구현입니다. Earth Reader는 오픈 소스이므로 초기 사용자들이 직접 기능 제안도 하고 기여도 하길 원했기 때문에 나쁜 시작은 아니라고 위안하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;설치하려면 일단 Python이 필요합니다. 최소 Python 2.6부터 Python 3.3 버전까지 쓸 수 있습니다. (아쉽게도 Python 3.0부터 Python 3.2까지는 쓸 수 없습니다.) 웹 버전은 현재 &lt;a href="https://pypi.python.org/pypi/EarthReader-Web"&gt;PyPI&lt;/a&gt;에 올라가 있으므로 &lt;code&gt;pip&lt;/code&gt;를 써서 설치할 수 있습니다.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ pip install EarthReader-Web
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;다 설치하고 나면 &lt;code&gt;earthreader&lt;/code&gt;라는 명령어가 생깁니다. &lt;code&gt;earthreader server&lt;/code&gt; 명령을 써서 서버를 실행시킬 수 있습니다. 이 때 인자로 데이터를 저장할 &lt;a href="https://github.com/earthreader/web#repository"&gt;저장소&lt;/a&gt; 경로를 지정해야 합니다. 존재하지 않는 경로면 알아서 디렉토리를 생성합니다.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ earthreader server /path/to/repository/dir
+$ earthreader server -p 8080 /path/to/repository/dir  # listen to 8080 port
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;브라우저를 통해 서버에 접근하면 아무 구독도 포함되어 있지 않은 빈 목록이 나옵니다. 그 상태에서 구독을 추가해서 사용해보실 수 있습니다. (아직 디자인이 안 되어 있습니다. 다소 못 생겼어도 이해해주세요…)&lt;/p&gt;
+
+&lt;p&gt;Python 웹 개발에 익숙하신 분들은 &lt;a href="https://github.com/earthreader/web#wsgi-server"&gt;WSGI 서버를 직접 운영하는 방법&lt;/a&gt;도 있으니 참고해주세요.&lt;/p&gt;
+
+&lt;p&gt;혹시 개발에 적극적으로 참여하고 싶으신 분들, 혹은 사용하는데 문제가 생겨서 질문이 필요한 분들은 &lt;a href="https://github.com/earthreader/web/issues"&gt;웹용 Earth Reader 이슈 트래커&lt;/a&gt;(눈에 보이는 UI 관련), &lt;a href="https://github.com/earthreader/libearth/issues"&gt;&lt;code&gt;libearth&lt;/code&gt; 이슈 트래커&lt;/a&gt;(로직 관련), &lt;a href="http://librelist.com/browser/earthreader/"&gt;메일링 리스트&lt;/a&gt;(&lt;a href="mailto:earthreader@librelist.com"&gt;earthreader@librelist.com&lt;/a&gt;), 혹은 IRC 대화방(&lt;a href="http://ozinger.org/"&gt;오징어 네트워크&lt;/a&gt; #earthreader 채널)을 찾아주세요.&lt;/p&gt;
+
+&lt;p&gt;소스 코드는 GitHub 저장소에서 보실 수 있습니다:&lt;/p&gt;
+
+&lt;dl&gt;&lt;dt&gt;Earth Reader for Web&lt;/dt&gt;
+&lt;dd&gt;&lt;a href="https://github.com/earthreader/web"&gt;https://github.com/earthreader/web&lt;/a&gt;&lt;/dd&gt;
+
+&lt;dt&gt;&lt;code&gt;libearth&lt;/code&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;a href="https://github.com/earthreader/libearth"&gt;https://github.com/earthreader/libearth&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;&lt;hr&gt;&lt;p&gt;Google Reader 망하기 전에 제가 &lt;a href="https://bitbucket.org/dahlia/escape-from-google-reader"&gt;Google Reader에 있는 모든 데이터를 다 백업하는 스크립트&lt;/a&gt;를 공개한 적이 있습니다. 그때 백업한 데이터를 Earth Reader로 그대로 옮길 수 있습니다. 스크립트 저장소에 있는 &lt;a href="https://bitbucket.org/dahlia/escape-from-google-reader/src/tip/toearth.py"&gt;&lt;code&gt;toearth.py&lt;/code&gt;&lt;/a&gt; 스크립트를 쓰면 백업한 데이터를 Earth Reader 저장소로 만들어줍니다.&lt;/p&gt;</description><link>http://blog.dahlia.kr/post/70906567734</link><guid>http://blog.dahlia.kr/post/70906567734</guid><pubDate>Tue, 24 Dec 2013 01:39:00 +0900</pubDate><category>Earth Reader</category><category>feed</category><category>news</category><category>rss</category><category>libearth</category><category>open source</category><category>featured</category></item><item><title>몇년 전부터 가상 서버 호스팅을 사용하고 있었다. 약 3년 전쯤부터는 카페24의 서비스를 썼다. 그런데 이제와서 생각해보니 서버에서 돌리는 거라곤 IRC 프록시 용도의 irssi와...</title><description>&lt;p&gt;몇년 전부터 가상 서버 호스팅을 사용하고 있었다. 약 3년 전쯤부터는 카페24의 서비스를 썼다. 그런데 이제와서 생각해보니 서버에서 돌리는 거라곤 IRC 프록시 용도의 &lt;code&gt;irssi&lt;/code&gt;와 몇몇 정적인 웹 페이지, 혼자만 쓰는 작은 편의용 웹 애플리케이션 몇 개 정도밖에 없었다.&lt;/p&gt;
+
+&lt;p&gt;마침 몇일 전부터 카페24에서 돈을 내라고 SMS를 보내고 있어서 가상 서버 호스팅을 더이상 유지하지 않기로 했다.&lt;/p&gt;
+
+&lt;p&gt;일단 &lt;a href="http://dahlia.kr/"&gt;dahlia.kr 첫 페이지&lt;/a&gt;를 비롯해 몇몇 정적인 웹 페이지를 GitHub으로 옮겼다. 사실 옮긴지는 1년쯤 됐다. GitHub에서는 &lt;a href="http://pages.github.com/"&gt;GitHub Pages&lt;/a&gt;라는 훌륭한 정적 웹 사이트 호스팅을 제공한다.&lt;/p&gt;
+
+&lt;p&gt;URL을 보존하려는 용도로 아직 유지하고 있는 옛날 블로그는 WordPress로 되어 있는데, 이것도 서버에 PHP를 설치하기 싫었기 때문에 이미 옛날 옛적에 강성훈 씨의 &lt;a href="http://ruree.net/"&gt;루리넷 서버&lt;/a&gt;에 세를 얻어 그쪽으로 옮긴지 오래다.&lt;/p&gt;
+
+&lt;p&gt;지금 이 블로그는 애초에 &lt;a href="http://www.tumblr.com/"&gt;Tumblr&lt;/a&gt;에서 돌아가고 있으므로 옮길 필요가 없다.&lt;/p&gt;
+
+&lt;p&gt;혼자 쓰는 웹 애플리케이션은 모두 &lt;a href="https://heroku.com/"&gt;Heroku&lt;/a&gt;로 옮겼다. 다행히 옮겨야 할 웹 애플리케이션은 모두 Python WSGI 위에서 돌아가게 되어 있고, 파일 시스템에 접근하지도 않았다. 모든 웹 애플리케이션이 애초에 각각의 저장소에 보존되어 있었기 때문에 &lt;code&gt;Procfile&lt;/code&gt;만 하나씩 추가해서 Heroku로 푸시하는 것으로 디플로이가 간단히 이뤄졌다.&lt;/p&gt;
+
+&lt;p&gt;마지막으로 IRC 프록시 서버로 쓰고 있는 &lt;code&gt;irssi&lt;/code&gt;도 다른 사람 서버에 세를 얻은 계정으로 돌리게 했다.&lt;/p&gt;
+
+&lt;p&gt;이렇게 하니까 내 가상 서버가 완전히 쓸모가 없어졌다. 내일까지 연장을 해야 하는데 물론 연장하지 않을 생각이다. 후련하다.&lt;/p&gt;</description><link>http://blog.dahlia.kr/post/70680247969</link><guid>http://blog.dahlia.kr/post/70680247969</guid><pubDate>Sat, 21 Dec 2013 22:23:32 +0900</pubDate></item><item><title>디자이너에게 부탁하기</title><description>&lt;p&gt;최근에는 디자이너에게 딱히 디자인을 의뢰할 일이 없어졌지만, 나는 디자이너에게 부탁할 때 특별히 의식해서 조심하는 부분이 있다. 내가 이걸 의식하기 때문에 다른 사람이 디자이너에게 무언가를 요구할 때도 주의가 갈 때가 많은데, 다른 사람들은 내가 주의하는 것을 신경쓰지 않을 때가 많았다고 느꼈으므로 블로그에 글로 써볼까 한다.&lt;/p&gt;
+
+&lt;p&gt;간단한 한 페이지짜리 프로그램 소개문을 디자인한다고 해보자. 나는 디자인을 못하므로 디자이너에게 디자인을 부탁하게 된다. 그런데 결과로 나온 시안을 보니 글씨가 작아서 눈이 나쁜 내게는 잘 읽히지가 않는다. 그래서 디자이너에게 이렇게 말한다.&lt;/p&gt;
+
+&lt;p&gt;“본문 글씨가 작은데 좀 키워주실 수 있나요?”&lt;/p&gt;
+
+&lt;p&gt;이 부탁을 어떻게 개선할 수 있을까? 나라면 종이를 눈 앞에 바짝 가져다 대고 이렇게 얘기하겠다.&lt;/p&gt;
+
+&lt;p&gt;“본문은 읽기가 어렵네요.”&lt;/p&gt;
+
+&lt;p&gt;혹은 아예 제3자의 사례를 들어서 설명할 수도 있겠다.&lt;/p&gt;
+
+&lt;p&gt;“저희 아버지한테 보여드렸더니 돋보기 안경을 쓰셔도 잘 안 보인다고 하시더라고요.”&lt;/p&gt;
+
+&lt;p&gt;나는 디자이너(뿐만 아니라 나 대신 어떤 문제를 해결해주는 사람들)에게 의식적으로 요구사항에서 내가 임의로 선정한 해결책을 배제하려고 노력한다. 왜냐면 그 해결책을 선택하는 것이 바로 그 사람들의 임무이기 때문이다. 글씨를 키워달라는 것은 내가 해결책까지 몽땅 제시했기 때문에 바람직하지 않은 요구다. 글씨를 키우고 싶으면 그냥 AI 파일을 받아서 내가 열어서 글씨 키우면 그만이다. 디자이너는 결코 스스로 포토샵 리모컨이라고 여기지 않으며, 실제로도 그렇다.&lt;/p&gt;
+
+&lt;p&gt;해결책을 배제하고, 대신 문제시되는 현상 자체를 잘 묘사하면 된다. 사실, 그것만으로도 대부분의 디자이너들은 만족스러운 해결책을 제시해줄 때가 많다. 본문을 못 읽겠다고 하는데 어떻게든 해결책을 내줄 것이 아닌가. 글씨를 키우거나, 혹은 글씨를 작게 유지해야 하는 이유가 있다면 다른 workaround라도 적용할 것이다. 어쨌든 중요한 것은, ‘본문이 안 읽힌다’라는 문제에 대한 해결책은 디자이너가 선택할 것이고, 만약 그 해결책이 여전히 문제를 만족스럽게 해결 못한다고 해도 “제가 눈이 나빠서 여전히 본문은 보이지가 않네요”라고 얘기하면 그만이라는 것이다.&lt;/p&gt;
+
+&lt;p&gt;이런 생각은 예전부터 했지만, 이런 태도를 실제로 지키려고 의식적으로 실천하게 된 것은 어떤 계기가 있기 때문이었다.&lt;/p&gt;
+
+&lt;p&gt;작년 초에 PyPy에 버그 리포팅을 할 일이 있었다. 나는 나름대로 문제의 원인도 파악했다고 생각해 내 추측을 함께 적어서 개발자가 디버그를 쉽게 할 수 있도록 썼다. 혹시나 해서 PyPy 커미터인 서상현 씨에게 초안을 보여줬는데 쓱 읽으시더니 해주신 조언이 이랬다. 이미 기여를 많이 해서 훤하게 아는 코드가 아니면 추측은 빼고 현상만 써라. 하긴, &lt;em&gt;추측이 딱딱 들어맞을 정도로 훤히 아는 코드면 버그 리포팅이 아니라 직접 고친 패치를 보낼 수 있었을 것이다.&lt;/em&gt; 가장 좋은 버그 리포팅은 기대한 출력(expected output)과 실제 출력(actual output)을 대비시켜 적는 것이다. 그리고 동일한 출력을 재현할 수 있는 방법을 쓰면 된다.&lt;/p&gt;
+
+&lt;p&gt;그런데 이게 결국 디자이너에게 요구 사항을 전달할 때도 마찬가지로 적용할 수 있는 태도이다. &lt;em&gt;내가 디자인 솔루션을 낼 수 있으면, 그냥 내가 직접 디자인을 하면 된다.&lt;/em&gt; 그럴 엄두가 안나면, 당신은 디자인을 못하는 것이니 디자이너에게 해결책을 맡기면 된다.&lt;/p&gt;
+
+&lt;p&gt;물론 디자이너가 일부러 “어떻게 하는 것이 좋을까요?”라고 솔루션에 대한 조언을 구한다면, 그 때는 주저하지 않고 자기가 생각하는 방법들을 제시하면 된다. 하지만 묻지도 않았는데 먼저 이렇게 하면 될 것 같다는 둥 해결책을 제시하는 것은 서로를 위해 안 하는 게 낫다고 생각한다.&lt;/p&gt;</description><link>http://blog.dahlia.kr/post/66778859403</link><guid>http://blog.dahlia.kr/post/66778859403</guid><pubDate>Tue, 12 Nov 2013 23:40:00 +0900</pubDate><category>designer</category><category>cooperation</category><category>communication</category><category>featured</category></item><item><title>SQLAlchemy에서 쿼리할 때 조인을 직접 명시해야 하는 경우는 별로 없다</title><description>&lt;p&gt;오랜만에 특정 라이브러리의 세부사항에 대해 얘기해본다.&lt;/p&gt;
+
+&lt;p&gt;SQLAlchemy ORM을 쓰는 경우 &lt;a href="http://docs.sqlalchemy.org/en/rel_0_8/orm/query.html#sqlalchemy.orm.query.Query.join"&gt;&lt;code&gt;Query.join()&lt;/code&gt;&lt;/a&gt; 메서드를 직접 써야 하는 경우는 사실 별로 없다. 대부분은 기능을 다 알지 못해서 그렇게 쓰는 것이다.&lt;/p&gt;
+
+&lt;p&gt;참고로 이 글에서 다루는 내용은 원래 SQLAlchemy 공식 &lt;a href="http://docs.sqlalchemy.org/en/rel_0_8/orm/tutorial.html"&gt;튜토리얼&lt;/a&gt;과 가이드 문서의 (API 레퍼런스 말고) &lt;a href="http://docs.sqlalchemy.org/en/rel_0_8/orm/loading.html"&gt;관계 로딩 테크닉&lt;/a&gt; 부분에서 훨씬 더 자세히 설명되어 있다.&lt;/p&gt;
+
+&lt;h3&gt;로딩하면서 관계 객체들도 한번에 같이 가져오고 싶을 때&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;Query.join()&lt;/code&gt; 메서드를 잘못 사용하는 첫번째 케이스는 관계된 객체들까지 함께 eager loading하고 싶을 때이다.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;session.query(Post) \
+       .join(User, Post.author_id == User.id)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;하지만 위와 같이 써서는 원하는대로 작동하지 않는다. 실제로 &lt;code&gt;Post.author&lt;/code&gt; 속성에 접근할 때 별도의 쿼리가 따로 나갈 것이다.&lt;/p&gt;
+
+&lt;p&gt;그 이전에 위 쿼리는 스타일 상으로도 문제가 있다. 모델 정의 시에 어차피 &lt;code&gt;Post.author&lt;/code&gt; 관계 속성에 조인 조건을 명시하거나 자동으로 추론되는데, 해당 조건을 쿼리할 때 중복해서 다시 쓰는 것이다. 이렇게 되면 추후 관계 조건이 달라졌을 때 쿼리 코드를 뒤져가며 함께 고쳐줘야 하는 문제가 생긴다. (십중팔구는 까먹고 안 고쳤다가 논리적인 오류를 만난다.)&lt;/p&gt;
+
+&lt;p&gt;일단 중복 문제만 개선하자면 다음과 같이 고칠 수 있다.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;session.query(Post).join(Post.author)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;보다시피 &lt;code&gt;Query.join()&lt;/code&gt; 메서드는 관계 속성 자체를 인자로 받는다. 이렇게 하면 나중에 &lt;code&gt;Post.author&lt;/code&gt;의 조건이 달라졌을 때도 의미가 변하지 않을 것이다.&lt;/p&gt;
+
+&lt;p&gt;하지만 여전히 &lt;code&gt;Post.author&lt;/code&gt; 속성에 접근했을 때 별도 쿼리가 생성되는 문제는 존재한다. 왜냐면 SQLAlchemy에서 쿼리 생성과 로딩 전략은 별도로 취급되기 때문이다. 조인된 &lt;code&gt;Post.author&lt;/code&gt;를 메모리 상의 &lt;code&gt;Post&lt;/code&gt; 객체를 만들 때 채워주고 싶다면 다음과 같이 &lt;a href="http://docs.sqlalchemy.org/en/rel_0_8/orm/query.html#sqlalchemy.orm.query.Query.options"&gt;&lt;code&gt;Query.options()&lt;/code&gt;&lt;/a&gt; 메서드에 &lt;a href="http://docs.sqlalchemy.org/en/rel_0_8/orm/loading.html#sqlalchemy.orm.contains_eager"&gt;&lt;code&gt;contains_eager()&lt;/code&gt;&lt;/a&gt;를 명시해야 한다.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;session.query(Post) \
+       .join(Post.author) \
+       .options(contains_eager(Post.author))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;이제 &lt;code&gt;Post.author&lt;/code&gt; 속성에도 이미 메모리 상에 로딩된 &lt;code&gt;User&lt;/code&gt; 객체가 들어가 있을 것이다.&lt;/p&gt;
+
+&lt;p&gt;하지만 굳이 &lt;code&gt;contains_eager()&lt;/code&gt;를 쓸 필요 없이, &lt;code&gt;Query.join()&lt;/code&gt;과 &lt;code&gt;contains_eager()&lt;/code&gt;를 함께 해주는 &lt;a href="http://docs.sqlalchemy.org/en/rel_0_8/orm/loading.html#sqlalchemy.orm.joinedload"&gt;&lt;code&gt;joinedload()&lt;/code&gt;&lt;/a&gt;를 쓰는 편이 낫다.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;session.query(Post).options(joinedload(Post.author))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3&gt;조건 절에 조인된 테이블의 필드를 참조해야 하는 경우&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;Query.join()&lt;/code&gt; 메서드를 쓰는 또다른 경우는 조건 절에서 다른 관계된 테이블의 특정 컬럼을 참조해야 하는 경우이다.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;session.query(Post) \
+       .join(User, User.id == Post.author_id) \
+       .filter(~User.deleted) \
+       .filter(User.last_login_time &amp;gt; now() - datetime.timedelta(days=1))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;앞서 설명했듯 조인 조건을 굳이 중복해서 쓸 필요가 없으므로 위 쿼리도 다음과 같이 개선할 수 있다.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;session.query(Post) \
+       .join(Post.author) \
+       .filter(~User.deleted) \
+       .filter(User.last_login_time &amp;gt; now() - datetime.timedelta(days=1))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href="http://docs.sqlalchemy.org/en/rel_0_8/orm/query.html#sqlalchemy.orm.query.Query.filter"&gt;&lt;code&gt;Query.filter()&lt;/code&gt;&lt;/a&gt; 메서드 안에서 관계된 다른 모델의 속성을 참조해야 하는 경우, has-one 관계인 경우 &lt;a href="http://docs.sqlalchemy.org/en/rel_0_8/orm/internals.html#sqlalchemy.orm.properties.RelationshipProperty.Comparator.has"&gt;&lt;code&gt;.has()&lt;/code&gt;&lt;/a&gt; 메서드, has-many 관계인 경우 &lt;a href="http://docs.sqlalchemy.org/en/rel_0_8/orm/internals.html#sqlalchemy.orm.properties.RelationshipProperty.Comparator.any"&gt;&lt;code&gt;.any()&lt;/code&gt;&lt;/a&gt; 메서드를 써서 표현할 수 있다.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;session.query(Post) \
+       .filter(Post.author.has(
+           ~User.deleted |
+           (User.last_login_time &amp;gt; now() - datetime.timedelta(days=1))
+       ))
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;단순 &lt;code&gt;==&lt;/code&gt; 연산만 필요한 경우에는 아예 키워드 인자로 넘겨버려도 된다. 가령 아래 두 쿼리는 같은 의미다.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;session.query(Post).filter(Post.author.has(~User.deleted))
+
+session.query(Post).filter(Post.author.has(deleted=False))
+&lt;/code&gt;&lt;/pre&gt;</description><link>http://blog.dahlia.kr/post/65522658529</link><guid>http://blog.dahlia.kr/post/65522658529</guid><pubDate>Wed, 30 Oct 2013 23:00:12 +0900</pubDate><category>sqlalchemy</category><category>relationship</category><category>relationship-loading</category><category>orm</category></item><item><title>우주펜과 연필</title><description>&lt;p&gt;지구 밖 우주 공간에서는 중력이 거의 없어 볼펜에서 잉크가 떨어져 내리지 않는다. 그래서 우주 공간에서 필기를 할 수 없는 문제를 해결하기 위해 NASA는 고가의 기술 투자를 하여 우주펜을 개발했으나, 같은 문제를 소련에서는 연필을 쓰는 것으로 쉽게 해결했다는 유명한 일화가 있다.&lt;/p&gt;
+
+&lt;p&gt;사실 나는 이 이야기를 좋아하지 않는다. 기술에 대한 그릇된 이해를 확산시키기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;우리가 현대에 와서 쉽게 접할 수 있는 연필은 18세기 말에서야 등장한 필기구이다. 저마다 다른 인상을 받을 수도 있겠지만, 기록된 인류의 역사를 대략 5,000년으로 본다면 연필은 매우 최근에 발명된 기술인 셈이다. 결국 우주펜과 연필은 기술적 복잡도에 정도의 차이가 있을 뿐, 우주 공간에서 필기를 하기 위해서 상당한 수준의 기술에 기대야 했다는 점에서는 같다.&lt;/p&gt;
+
+&lt;p&gt;사람들이 기술이 무엇인지 생각할 때 연필을 쉽게 배제하는 이유는 그것이 신기하지도 않고 많은 점에서 원리를 이해할 수 있기 때문이다. 사람들은 무엇이 기술적인지를 판가름할 때 자신에게 얼마나 생소하게 여겨지는지, 자신이 금방 이해할 수 있는지를 따져본다. 주판은 별로 기술적이지 않은 것이다. 10진수와 2진수를 서로 바꿔서 나타내는 것은 기술적이지 않은 것이다. 계산기를 이용하는 것은 기술적이지 않은 것이다. 계산기를 제조하는 것은 여전히 기술적인 것이다. 컴퓨터를 켜면 눈 앞에 보이는 인터넷 익스플로러를 실행해서 네이버에서 뉴스를 보는 것은 기술적이지 않은 것이다. 네이버처럼 뉴스를 볼 수 있는 웹사이트를 만드는 것은 기술적인 것이다. 워드프레스를 설치하는 것은 대부분의 사람들에게는 기술적인 것이지만, 웹 개발자에게는 기술적이지 않은 것이다. 하지만 웹 브라우저를 만드는 것은 웹 개발자에게도 기술적인 것이다.&lt;/p&gt;
+
+&lt;p&gt;사람들이 이런 기준으로 기술 여부를 판단하는 것은 맥락과 이유가 모두 있지만, 기술은 원래 저런 것이 아니다.&lt;/p&gt;
+
+&lt;p&gt;기술이 무엇인지 곱씹기 위해서는 기술과 대비되는 것이 무엇인지 고민하는 것이 큰 도움이 된다. 기술은 인간이 처한 어떤 문제를 풀기 위한 해결책이다. 하지만 모든 해결책이 기술인 것은 아니다.&lt;/p&gt;
+
+&lt;p&gt;사람들은 사실 이 점을 구태여 생각하지 않을 정도로 잘 알고 있다. &lt;a href="http://blog.dahlia.kr/post/14911423769"&gt;종종 “혁신은 기술에서 나오는 것이 아니다”라거나 “문제의 핵심은 기술로 풀어낼 수 없다”는 둥의 얘기를 즐겨할 정도로.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;기술과 대비되는 다른 해결책은 “특정 문제에만 적용할 수 있는 해결책”이다. 가령 내가 체했을 때마다 취하는 나만의 요법이 있다고 하자. 이것이 다른 사람이 체했을 때에도 똑같이 작동한다면 기술이 될 가능성이 있다. 이론화하여 널리 퍼뜨린다면 기술이 된다. 하지만 혼자서 체했을 때만 그 요법을 쓰고 넘어간다면 그것은 해결책은 될 수 있을지언정 기술이 되지는 못한다. (물론 실제로는 기분탓이었고 듣지도 않는 요법이었다면 애초에 해결책조차 아닌 셈이다.) 반대로 얘기하면, 기술은 “여러 문제에 두루 적용할 수 있는 해결책”을 뜻한다. 나는 기술을 “보편적인 해결책”이라고 생각한다. 이 점을 놓치면 자연스럽게 사람들이 기술에 그렇게 집착하는 것이 어리석게 여겨지게 된다.&lt;/p&gt;
+
+&lt;p&gt;하지만 실제로는 많은 사람들이 기술을 다른 관점로 바라본다. &lt;a href="http://blog.dahlia.kr/post/14911423769"&gt;바로 “신탁”이다.&lt;/a&gt; 신탁이라 함은 이해할 수 없는/이해해서는 안되는 존재로부터, 이해할 수 없는/이해하려 해서는 안되는 원리에 의해 제공되는 해결책을 뜻한다. 기술을 이렇게 바라보기 시작하면 기술에 매달리는 모든 행동이 그릇되고 어리석어 보인다. 애가 아프다는데 기도나 하고 있는 부모를 보며 한심하며 답답하게 쳐다보는 것과 같은 것이다.&lt;/p&gt;
+
+&lt;p&gt;사람들이 기술을 신탁으로 여기는 데에도 이유는 있다. 보편성은 쉽게 블랙박스로 치환되기 때문이다. 무슨 뜻이냐면, 기술은 그 보편적이라는 성질 때문에, 문제를 해결하기 위해 내가 구태여 이해하거나 고민할 필요 없이 갖다 쓰기만 할 수 있게 해준다. 사실, 기술의 보편성은 그렇게 쓰일 수 있기 때문에 좋은 것이다. 화이트헤드가 &lt;em&gt;An Introduction to Mathematics&lt;/em&gt;(번역서 제목은 &lt;a href="http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8958201738"&gt;&lt;em&gt;화이트헤드의 수학이란 무엇인가&lt;/em&gt;&lt;/a&gt;)에서 쓴 표현을 빌리자면:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;문명의 발전은 되새기며 생각하지 않고서도 사용할 수 있는 중요한 연산규칙의 수가 증가함으로써 이룩된다.&lt;/p&gt;
+  
+  &lt;p&gt;Civilization advances by extending the number of important operations which we can perform without thinking about them.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;기술을 갖다 쓰기만 한다면 점점 신탁과 구분 불가능해지는 것도 무리는 아니다. 나 역시 소프트웨어 개발자로서 내가 기대고 있는 다른 과학적 기술들을 신탁으로 대하는 착시 현상을 겪는다. 하지만 그렇다고 세상의 모든 기술 자체를 아예 신탁이라고 여기는 것은 곤란하다. 착시는 어쩔 수 없는 것이지만 영영 잘못 이해하고 있어서는 안된다.&lt;/p&gt;
+
+&lt;p&gt;돌아가서 우주 공간에서의 필기구 얘기를 이어서 하자면, 연필은 우주 공간에서 쓸 때 연필촉이 무중력 상태에서 이리저리 흩어져 민감하고 정교한 주변 기계들의 오작동 원인이 되는 문제가 있었다. 우주펜은 정확히는 NASA에서 직접 개발된 것이 아니라 다른 필기구 전문 업체에 외주를 주는 형태로 개발되었고, 약 반 세기 전의 이야기이다. 지금 우리가 쓰는 볼펜은 이 일화에서 말하는 볼펜과는 다른 것으로, 실제로는 우주펜에 더 가까운 형태이다. 어찌됐든 한번 개발된 우주펜 기술은 인류에게 보편적인 형태로 혜택이 돌아간 것이다.&lt;/p&gt;
+
+&lt;p&gt;해결책을 기술로 만드는 것은 이해할 수 없는 흑마법적 성질이 아니라, 보편성이다. 나는 많은 사람들이 이 점을 알아채줬으면 좋겠다.&lt;/p&gt;
+
+&lt;p&gt;아, 마지막으로 기술이 인간을 행복하게 하는 데 큰 도움이 되지 않는다고 진심으로 믿는 분들께, 매년 새롭게 개발되는 의학/제약 기술들이 직접적으로 살려내는 인구 수가 얼마나 되는지에 대해서 조사해보기를 권하고 싶다. 기술은 전적으로, 그리고 직접적으로 인류의 행복에 매우 큰 영향을 준다.&lt;/p&gt;</description><link>http://blog.dahlia.kr/post/65266525580</link><guid>http://blog.dahlia.kr/post/65266525580</guid><pubDate>Mon, 28 Oct 2013 05:42:00 +0900</pubDate><category>technoogy</category><category>featured</category></item><item><title>언어에 대한 두 가지 관점이 있을 수 있다고 본다. 하나는 언어의 composability에 주목하는 것이다. 가령 ‘바닷물’은 ‘바다’라는 말과 ‘물’이라는 말을 합쳐서 만든...</title><description>&lt;p&gt;언어에 대한 두 가지 관점이 있을 수 있다고 본다. 하나는 언어의 composability에 주목하는 것이다. 가령 ‘바닷물’은 ‘바다’라는 말과 ‘물’이라는 말을 합쳐서 만든 낱말이다. 한국인은 의무 교육에서 한자를 배우기 때문에 한자어 역시 각 한자로 분해된다. 한자에 좀더 익숙한 사람이라면 한자를 또 여러가지 방법으로 분해할 수 있을 것이다.&lt;/p&gt;
+
+&lt;p&gt;이러한 관점을 강하게 가진 사람들은 대체로 어원에 집착하는 경향도 있다. 이 관점의 대표적인 예가 국립국어원이다. 대부분의 한국 사람은 국립국어원의 철학에 맞춰 제작된 교과서를 보고 자랐기 때문에 그러한 경향에 대해 매우 익숙하다. 가령 우리는 &lt;em&gt;당연히&lt;/em&gt; 외래어를 지양하는 것이 좋다고 여긴다. 나는 당연하다는 것은 사실 그럴 이유가 없다는 말로 여겨진다. 물론 외래어를 지양하는 것은 당연한 것이 아니고 다 이유가 있다. 바로 어원을 추적할 수 없는, 즉 분해할 수 없는 &lt;em&gt;원자적인&lt;/em&gt;(atomic) 낱말의 수가 늘어난다는 점 때문이다.&lt;/p&gt;
+
+&lt;p&gt;국립국어원은 어원을 추척할 수 없는 낱말이 늘어나는 것에 대한 우려를 많이 하는 모습을 보이는데, 바로 정체를 알 수 없는 ‘순화된 우리말’이라는 것은 대부분 분해 가능한 형태의 낱말을 제안하는 것이다. 가령 국립국어원은 ‘다운로드’라는 외래어 대신 ‘내려받기’라는 단어를 제안한 바 있는데, 두 단어 사이의 차이점은 두 가지다. 하나는 ‘다운로드’는 이국적 어감을 가졌지만 ‘내려받기’는 그렇지 않다는 점(낱말을 임의의 발음과 표기로 보는 관점)이고, 다른 하나는 ‘다운로드’는 영어 교육을 받지 않았다면 분해될 수 없는 낱말인 반면 ‘내려받기’는 약간의 우리말 어휘만 알고 있더라도 쉽게 분해할 수 있다는 점이다. 그럼 분해와 조합이 가능해지면 어떤 좋은 점이 있다고 국립국어원은 그렇게 어원에 집착하는 걸까? 물론 이유가 있고 아래서 얘기하겠다.&lt;/p&gt;
+
+&lt;p&gt;다른 하나의 관점은 언어가 임의적이지만 합의로 기능한다는 것에 주목한다. 가령 세종대왕이 한글의 ㅅ을 위 아래 뒤집어서 v 모양으로 만들었다고 해도 우리는 모두 그 모양을 썼을 것이므로 언어적 기능에는 어떠한 차이도 없을 것이다. 우리가 물이라는 뜻으로 ‘술’이라는 낱말을 쓰고, 술이라는 뜻으로 ‘물’이라는 낱말을 썼다고 하더라도 모두가 그렇게 쓰고 있다면 역시나 언어적 기능에 어떠한 하자도 없을 것이다. 모두들 ‘바다술’이라는 말을 쓰며 살 것이다. 즉, 분해되지 않는 낱말들이 결국 그 형태에 있어 임의적이라는 사실에 주목하는 관점이다.&lt;/p&gt;
+
+&lt;p&gt;이 관점에서는 어원에 집착하지 않는 대신 낱말의 현재 뜻, 즉 현재 그 낱말이 사람들 사이에서 어떻게 여겨지느냐를 중요하게 여긴다. 예를 들어 같은 뜻을 가리키기 위해 국립국어원에서 순화한 ‘휴대전화’라는 말보다는 사람들은 ‘핸드폰’이라는 단어를 훨씬 많이 쓰므로 ‘핸드폰’은 어감이 다소 이국적일지라도 더 적절한 낱말이라고 볼 수 있다. 사실, 어감이 이국적인 것은 장점도 단점도 아니다. 그냥 색이 어떻다 하는 식의 얘기일 따름이다.&lt;/p&gt;
+
+&lt;p&gt;‘할 수 있다’, ‘할 수 없다’라는 말에서 ‘수’는 누구나 짐작할 수 있듯 ‘방법’이라는 뜻이다. 그렇기 때문에 국립국어원은 ‘수’ 앞 뒤로 띄어쓰기를 요구하는 것이기도 하다. 하지만 대부분의 사람들은 ‘할 수 있다’는 말을 굳이 분해하지 않고 하나의 원자적인 표현으로 쓴다. 그렇기 때문에 많은 사람들이 ‘할수있다’라고 붙여서 쓰는 것이다. 다행히 띄어쓰기 문제를 제외하면 ‘할 수 있다’는 말은 그걸 조합으로 보든 하나의 말로 보든 의미가 통한다.&lt;/p&gt;
+
+&lt;p&gt;그런데 세상 모든 것이 그렇듯 언어 역시 원래의 의미가 퇴색하는 경우가 많이 생긴다. 우리가 맛있게 먹는 달달한 양갱(羊羹)은 한자에서도 알 수 있듯 양의 피와 고기로 만든 음식이었다. 그러다 선(禪)불교 승려들에 의해 양갱이 일본에도 소개되었는데, 불교에서는 살생을 금하므로 양을 쓸 수 없어 팥으로 대신하게 되었다. 어찌됐건 우리가 말하는 양갱이란 중국에서 양을 재료로 해서 만들었던 음식과는 다른 팥으로 만든 음식이다. 하지만 낱말을 분해하면 그 안에서는 팥이 아니라 양이 나온다.&lt;/p&gt;
+
+&lt;p&gt;대부분의 사람들은 많이 쓰는 말은 굳이 분해하지 않는다. 언어적 기능은 원래 분해하고 조합하는 것에서 나오는 것이 아니라, 다른 사람들이 그 기호를 어떤 뜻에 대응하고 있냐에서 나오기 때문이다. 즉, 합의에서 나오는 것이다.&lt;/p&gt;
+
+&lt;p&gt;그럼 사람들은 한편으로 왜 말을 분해하는 습성을 지닐까? 특히 말을 분해하는 습성은 이른바 교육 받은 사람일수록 두드러지게 나타나는 듯하다. 앞서 언어적 기능이 분해와 조합에서 나오는 것이 아니라고 말했으나, 한편으로는 분해와 조합이 없으면 언어는 우리 생각처럼 작동하지 않는다. 짐승들이 사용하는 언어와 인간의 언어의 가장 큰 차이는 composability에 있는데, 덕분에 (관용적 표현이 아니라 수학적 의미에서) 무한한 조합의 말을 만들어낼 수 있다. 심지어 우리는 “우리 엄마의 엄마의 엄마의 엄마의 엄마의…”와 같은 식으로 끝나지 않는 문장을 만들어내기도 한다.&lt;/p&gt;
+
+&lt;p&gt;정보 이론적으로 말하면 언어의 조합과 분해는 압축이다. “너희 엄마가 부르셔”와 “너의 아빠가 부르셔”를 각각 다른 뜻으로 암기해야 했다면 인간의 언어적 기능은 매우 제한됐을 것이다. Composability는 적은 정보 용량으로 더 많은 언어적 지식을 습득할 수 있게 해준다.&lt;/p&gt;
+
+&lt;p&gt;내 생각은 이렇다. 언어의 가장 핵심적인 기능은 뜻을 기호에 부호화(coding)하는 것이다. 하지만 인간이 하는 많은 종류의 지적 활동들을 차치하더라도, 아주 일상적인 수준의 의사소통만 놓고 보더라도 조합과 분해가 필수적이다. 언어학적으로 얘기하자면 인간의 언어는 적어도 촘스키 위계(Chomsky hierarchy)에서 말하는 1형 문맥 의존 문법(context-sensitive grammar) 이상의 복잡도가 필요하다. 하지만 낱말 수준의 조합과 분해에 대해서는 적은 용량으로 많은 어휘를 기억하기 위한 압축으로 여길 수 있는 듯하다.&lt;/p&gt;
+
+&lt;p&gt;그렇다면 다시 ‘핸드폰’과 ‘양갱’으로 돌아가보자. 우리가 저 두 단어를 분해하여 다시 적절한 어원을 갖는 조합으로 각각 ‘휴대전화’와 ‘팥갱’이라는 말로 순화한다고 하면 정말 압축의 잇점을 누릴 수 있을까? 아마 저 정도로 많이 쓰이는 말은 분해해서 얻는 이득이 거의 없을 것이다. 왜냐면 이미 사람들 머릿속에 들어있고, 습관화된 사용이기 때문이다. 열심히 ‘휴대전화’라는 말을 입에 붙인다고 해도 이미 쓰고 있던 ‘핸드폰’이라는 낱말이 사라져서 그만큼 용량이 확보되는 것은 아니다.&lt;/p&gt;
+
+&lt;p&gt;더불어 ‘역전앞’ 같은 말 역시 굳이 낱말을 분해하지 않는다면 바로잡아서 얻는 이득이 크지 않다고 본다. (요즘에는 ‘역전’이라는 말 자체를 쓸 일이 많지 않긴 하다.) 또, 사람들이 ‘열폭’을 ‘열등감 폭발’이 아닌 ‘열 받아서 폭발’로 이해하더라도, 나는 그것을 받아들여야 한다고 생각한다. 언어는 한 사람의 것이 아니다. ‘열폭’을 ‘열 받아서 폭발’이라는 뜻으로 받아들이는 사람이 어느 정도 많아졌다면 ‘열폭’은 이미 두 개의 다른 뜻을 가지게 된 것이다. 이것을 받아들이지 않는다면 어떻게 새로운 낱말이 생겨왔는지에 대해 생각해보지 않았을 가능성이 높다. 누가 처음 ‘산’을 ‘산’이라고 부르고 ‘바다’를 ‘바다’라고 불렀을까?&lt;/p&gt;
+
+&lt;p&gt;나는 주변 사람들, 특히 교양 있는 분들이 다른 사람들의 언어 생활에 좀더 덜 깐깐해져야 한다고 여긴다. 나라면 어린 아이가 바다를 보고 산이라고 한다면 말을 바로잡아줄 것이다. 하지만 이미 여러 사람들이 원래 ‘어쩔 수 없다’는 뜻으로 쓰이던 ‘하릴 없다’를 언젠가부터 ‘할일 없다’는 뜻으로 쓰고 있다면 굳이 바로잡지 않을 것이다. 내 생각에 ‘하릴 없다’는 말은 이제 두 가지 뜻을 모두 가지게 되었기 때문이다. 물론 &lt;a href="http://blog.dahlia.kr/post/55437912909"&gt;이전&lt;/a&gt; 글에서도 썼듯, 스스로의 언어 생활을 비교적 규범적으로 지키는 것은 바람직한 일이다. 나 역시 글로 쓸 때는 ‘휴대전화’라는 말을 쓴다. 하지만 모두에게 그걸 요구해서는 안된다.&lt;/p&gt;</description><link>http://blog.dahlia.kr/post/62541581215</link><guid>http://blog.dahlia.kr/post/62541581215</guid><pubDate>Sun, 29 Sep 2013 05:48:00 +0900</pubDate><category>featured</category><category>language</category><category>origin</category><category>etymology</category><category>composability</category></item><item><title>신종 피싱 수법</title><description>&lt;p&gt;&lt;img src="http://media.tumblr.com/6c611870d70f9cb4f8bb358683c15b66/tumblr_inline_mqhh8iKCh61qz4rgp.png" alt="앱 다운로드를 유도하는 피싱 문자"/&gt;&lt;/p&gt;
+
+&lt;p&gt;요즘 다들 스마트폰 쓰니, 게다가 그중 대다수가 Android 플랫폼이니 그걸 이용한 새로운 피싱 수법이 생기고 있는 듯하다.&lt;/p&gt;
+
+&lt;p&gt;위에 첨부한 화면처럼 모르는 사람한테서 결혼한다면서 문자가 왔길래 요즘 청첩장을 웹으로 올려두고 Facebook 등으로 링크 돌리는 경우를 종종 봤기 때문에 비슷한 건가보다, 근데 저게 누굴까, 청첩장 페이지 보면 누군지 알 수 있겠지 하며 눌러봤는데…&lt;/p&gt;
+
+&lt;p&gt;웬 수상한 APK 파일 다운로드로 연결된다. 나는 여기서 피싱이라는 걸 직감했지만 뭘 어떻게 할지 궁금해서 눌러도 봤다. 결제 권한을 포함한댄다. 아마 돈 빼가는 앱인 것 같다.&lt;/p&gt;
+
+&lt;p&gt;상당수의 국내 Android 사용자가 유료 앱을 불법으로 다운받아서 사용한다고 한다. 그렇다면 아마 저런 종류의 공격에서 취약한 형태로 설정해두고 쓰고 있을 듯하다. 모르긴 몰라도 저런 수법에 넘어가는 사람도 상당히 많을 듯.&lt;/p&gt;</description><link>http://blog.dahlia.kr/post/56412238343</link><guid>http://blog.dahlia.kr/post/56412238343</guid><pubDate>Thu, 25 Jul 2013 17:42:50 +0900</pubDate><category>fishing</category><category>apk</category><category>security</category></item><item><title>표준어는 그들이 원해서 선택한 언어가 아니다</title><description>&lt;p&gt;맞춤법을 안 지키면 교양이 없어 보인다. 가능하면 표준 한국어를 쓰는 것이 좋다. 다, 좋은 얘기다. 나는 저러한 지침을 &lt;a href="http://en.wikipedia.org/wiki/Robustness_principle"&gt;견고함의 원칙&lt;/a&gt;(robustness principle)으로 해석한다. 사람마다 해석 가능한 한국어의 스펙트럼은 다르다. 어떤 사람은 표준어에 부산 방언까지 이해하지만, 어떤 사람은 표준어에 인터넷 은어, 또 어떤 사람은 표준어에 제주도 방언밖에 알아듣지 못한다. 그렇다면 가장 “대표적인”(canonical) 한국어인 표준어를 쓰는 것이 효과적이다. 하지만 견고함의 원칙 반대편을 생각해보면 이런 뜻도 된다: 남이 표준어가 아닌 한국어를 쓰더라도 최대한 알아 들어주는 것이 좋다.&lt;/p&gt;
+
+&lt;p&gt;영어 스펠링 및 구두법을 틀리는 사람보다 한국어 맞춤법을 틀리는 사람을 훨씬 보기 쉬운데, 심지어 전자의 샘플을 영어를 외국어로만 배운 한국인으로 한정해도 그렇다. 다른 언어는 잘 모르겠지만 일본어도 맞춤법 틀리는 사람이 한국어보다 많은 것 같지는 않다. 그렇다면 한국어 맞춤법이 어렵다는 짐작도 할 수 있다. 즉, 한국어 맞춤법의 어려움은 보편적인 것이지 온전히 개인의 탓이라고 보기는 힘들다.&lt;/p&gt;
+
+&lt;p&gt;따라서 나는 다른 사람들에게 맞춤법을 지키라고 강요하거나, 맞춤법을 틀렸다고 해서 웃음거리로 만드는 것이 바람직하다고 생각하지 않는다.&lt;/p&gt;
+
+&lt;p&gt;맞춤법을 지키지 말자는 이야기가 아니다. 우리는 맞춤법을 지켜야 한다. 하지만 ‘그들이’ 맞춤법을 틀리는 것을 놀리거나 너무 탓하지는 말자는 이야기다.&lt;/p&gt;
+
+&lt;p&gt;그래야 하는 이유를 하나 더 들고자 한다. 누구나 익숙하지 않지만 종종 써야하는 외국어가 하나쯤 있을 것이다. 영어일지도 모르고, 일본어일지도 모르고, 중국어일지도 모른다. 하여간 그 언어로 말을 하고 작문을 하는데, 익숙하지 않기 때문에 문법과 맞춤법을 자주 틀린다고 하자. 결정적으로, 당신은 그 언어를 사실 좋아서 쓰는 것도 아니다!&lt;sup id="fnref:p55437912909-1"&gt;&lt;a href="#fn:p55437912909-1" rel="footnote"&gt;1&lt;/a&gt;&lt;/sup&gt; 나는 얼른 (그 언어를 써야 마칠 수 있는) 일을 끝내고 싶은데 상대방이 자꾸 나의 (쓰고 싶지도 않은) 언어 사용에 대해 딴지를 건다. 여기 틀렸어요. 여기는 문법이 말이 안돼요. 어떤 마음이 들까?&lt;/p&gt;
+
+&lt;p&gt;나는 언어에 대해서는 규범주의(prescriptivism)보다 설명주의(descriptivism)를 좀더 지지하는데, 이에 따르면 한국어와 표준 한국어는 다른 언어다. 한국어는 통상 한국인이라고 여겨지는 사람들이 쓰는 언어의 합집합이고, 표준 한국어는 그보다 훨씬 협소한 부분집합이다. 내 생각은 이렇다. 사람들이 원해서 선택한 언어는 표준 한국어가 아닌 부모님과 형제, 주변 친구들에게 영향받아 배운 ‘그냥’ 한국어다. 따라서 그들은 ‘자신이 선택하지 않은’ 표준 한국어를 사회로부터 강요받고 있기 때문에 어쩔 수 없이 필요할 때만 (어색하게) 쓸 뿐이다. 당신이 선택하지 않은 언어(가령, 영국 영어, 혹은 북경어—이 글을 읽는 여러분 중 일부는 아예 한마디 중국어도 모를 것이다)의 규칙을 요구받는 기분을 상상해본다면, 맞춤법 틀리는 사람들의 마음을 좀더 이해하기 수월할 것이라고 생각한다.&lt;/p&gt;
+
+&lt;p&gt;물론, 맞춤법을 중요하게 생각하는 여러분은 앞으로도 맞춤법을 잘 지켜주길 바란다. 그것은 여전히 바람직한 것이기 때문이다.&lt;/p&gt;
+
+&lt;div class="footnotes"&gt;
+&lt;hr&gt;&lt;ol&gt;&lt;li id="fn:p55437912909-1"&gt;
+&lt;p&gt;혹시나 기꺼이 배우려고 하는 언어를 상상하고 있었다면 별로 배우고 싶은 생각이 안 드는 다른 언어를 떠올려보자. &lt;a href="#fnref:p55437912909-1" rev="footnote"&gt;↩&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+
+&lt;/ol&gt;&lt;/div&gt;</description><link>http://blog.dahlia.kr/post/55437912909</link><guid>http://blog.dahlia.kr/post/55437912909</guid><pubDate>Mon, 15 Jul 2013 03:07:00 +0900</pubDate><category>spelling</category><category>language standard</category><category>language</category><category>korean</category></item><item><title>주변에서 어떤 사람이 뛰어난 개발자/프로그래머냐는 얘기를 종종 한다. 그럴 때마다 느끼는 것은, 사람마다 정말 각자 다른 기준을 가지고 있다는 점이다. 대체로 이 주제에 대한...</title><description>&lt;p&gt;주변에서 어떤 사람이 뛰어난 개발자/프로그래머냐는 얘기를 종종 한다. 그럴 때마다 느끼는 것은, 사람마다 정말 각자 다른 기준을 가지고 있다는 점이다. 대체로 이 주제에 대한 의견들은 잘 일치되지 않는다. 내가 받은 인상은 (나를 포함해) 사람들이 이 주제에 대해서는 매우 협소한 관점을 고수하기 때문에 합의 지점이 별로 없다는 것이다.&lt;/p&gt;
+
+&lt;p&gt;그리고 이에 대해 계속 생각하다보니 아무래도 의견 일치가 안되는 이유의 많은 부분이 같은 낱말을 다른 뜻으로 쓰고 있거나, 각자 다른 가정을 전제하기 때문이라고 느끼게 되었다.&lt;/p&gt;
+
+&lt;p&gt;내가 생각하기에는 적어도 두 가지 단어에 대해 각자 다른 의미를 떠올리고 있다. 하나는 “뛰어난”이라는 단어이고 다른 하나는 “개발자/프로그래머”이다. (이 글을 끝까지 읽고 나면 내가 왜 굳이 저 두 단어를 슬래시까지 써가며 함께 언급했는지 의도를 파악할 수 있을 것이라고 생각한다.)&lt;/p&gt;
+
+&lt;p&gt;사람들이 이 주제에 대해 얘기할 때 “뛰어나다”라고 얘기하는 것을 보면 적어도 다음과 같은 다양한 뜻을 가리킨다. (아마 찾아보면 더 많은 뜻이 있을 것이지만, 일단 내가 자주 들은 것들만 추려본다.)&lt;/p&gt;
+
+&lt;ol&gt;&lt;li&gt;&lt;strong&gt;동료 후보로서 구인 가치가 높다.&lt;/strong&gt; 전에 일했던 사람이나 학교 선후배, 커뮤니티에서 아는 사람 등에서 9할의 욕과 1할의 칭찬이 오간다. 이 분류에 해당하는 사람은 각자의 개인적인 인간 관계에 따라 달라지기 때문에 예를 들기가 힘들다. 재미있는 것은 이 관점에서 막상 본인이 어떻게 평가될지에 대해서는 떠올리기 힘들다는 점이다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;달성한 결과가 부럽다.&lt;/strong&gt; 여기에는 주로 개인적으로 나에게 도움이 된 것은 없고 아무 인연도 없는 사람이지만 사업적으로 큰 성공을 거두어 언론이나 업계 뉴스로 자주 언급되는 인물들이 나온다. 이 분류의 대표적인 예로는 빌 게이츠나 마크 저커버그 등이 있겠다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;사회적 기여가 크다.&lt;/strong&gt; 실제로 나에게 직간접적으로 도움이 된 사람들이 언급된다. 오픈소스 개발자일 수도 있고 책 저자일 수도 있으며 연구자일 수도 있다. 팀 버너스 리나, 데니스 리치, 라이너스 토발즈, (비트토렌트를 만든) 브램 코헨, 워드 커닝햄 등이 떠오른다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;고생했다, 어려운 일을 해냈다.&lt;/strong&gt; 3번 항목과 비슷한데 관점이지만 효과 측면보다는 수고 측면을 보는 것이다. 주로 기술적으로 달성하기 매우 어려운 목표를 이뤄낸 경우가 많다. 널리 유명한 사람은 금방 떠오르지 않고, 대신 개인적으로는 PyPy 팀이 떠오른다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;지식과 통찰이 훌륭하다.&lt;/strong&gt; 역시나 3번 항목의 책 저자나 블로거 등과 비슷한데, 여기에는 별로 유명하지는 않더라도 특정 분야에 대해 전문적인 사람들이 들어간다. 찰스 페졸드나 조엘 스폴스키가 떠오른다.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;위의 목록은 관점이 그렇다는 것이지 그 사람들이 실제로 그러한가와는 차이가 있다는 점을 짚고 넘어가야겠다. 즉, “높아 보인다”, “부러워 보인다”, “커 보인다”, “어려웠을 것 같다”, “훌륭한 것 같아 보인다”라고 생각해야 한다.&lt;/p&gt;
+
+&lt;p&gt;일상적으로는 구인과 관련된 맥락으로 이 주제가 많이 나오므로 대체로는 1번이 중심이고 그 외 각자 중요시하는 관점이 섞이는 것을 관찰할 수 있다. 재밌는 것은 구인하자는 것도 아닌데 1번 항목만 강조하는 사람도 있고 수상자 후보를 뽑자는 것도 아닌데 3번이나 4번 항목만 강조하는 사람도 있다는 점이다. 본인은 자유롭다고 생각하지 말자. 글 쓰는 나도 철저히 맥락에 따라 관점을 다르게 하지 못한다. 개인적으로는 이 주제에 대해서 2번 항목만은 넌센스라고 생각한다. 빌 게이츠는 어떤 관점에서 볼 때 훌륭한 개발자/프로그래머인 것은 분명하다. 하지만 그 이유가 돈을 많이 벌어서라거나 세상에서 가장 큰 소프트웨어 기업을 만들어서는 아니다. 만약 그런 기준에서 훌륭함을 논한다면 개발자/프로그래머서 훌륭한 것이 아니라 사업가로서 훌륭하다고 보는 게 맞다.&lt;/p&gt;
+
+&lt;p&gt;또 하나 잘 정의되지 않고 모호한 채로 쓰이는 “개발자/프로그래머”라는 말은 어떤 의미로 쓰일까? 이번에도 내가 주로 들은 것들 위주로 분류해봤다.&lt;/p&gt;
+
+&lt;ol&gt;&lt;li&gt;&lt;strong&gt;발명가.&lt;/strong&gt; 일반 사용자가 무엇을 필요로 하는지 떠올리고 그 아이디어를 실현하려는 사람. 제품 기획자라고 해도 되겠다. 한때 코딩을 하다가 코딩을 하지 않아도 본인의 아이디어를 실현시킬 수 있는 여건이 되자 코딩을 직접 안하게 되는 경우가 많은 듯하다. IT 업계에 없는 사람들 입장에서는 여기까지가 상상할 수 있는 개발자/프로그래머 이미지의 전부라고 해도 좋을 듯하다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;제품 개발자.&lt;/strong&gt; 일반 사용자가 쓸 소프트웨어를 코드로 구현하는 사람. IT 업계에 있더라도 본인이 개발자/프로그래머가 아닌 경우에는 여기까지를 개발자/프로그래머라고 부르는 듯하다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;엔지니어.&lt;/strong&gt; 일반 사용자가 쓸 일은 없지만 일반 사용자가 쓸 소프트웨어를 만드는 제품 개발자를 포함하여, 다른 개발자/프로그래머가 쓸 도구(라이브러리, OS, 컴파일러, 버전 관리 시스템 등)를 만드는 사람.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;컴퓨터과학 연구자.&lt;/strong&gt; 어디까지가 가능하고 어디부터 불가능한지 경계를 찾고, 가능하다면 어떻게 달성할 수 있는지 다양한 상황과 맥락에서 적용될 수 있도록 일반적으로 추상화된 이론을 만드는 사람.&lt;/li&gt;
+&lt;/ol&gt;&lt;p&gt;1로 갈수록 개발/프로그래밍을 수단적으로 보는 사람들이고, 4로 갈수록 목적에 가깝게 보는 사람들이라고 할 수 있다.&lt;/p&gt;
+
+&lt;p&gt;사실 이 글을 쓰게 된 동기는 나와 다른 관점을 가진 사람들이 내 관점에서 훌륭하다고 여기는 인재의 속성들을 &lt;strong&gt;모든 상황에서&lt;/strong&gt; 무가치한 것처럼 발언하는 경우를 종종 겪었기 때문이다. 그리고 나는 그런 상황이 매번 불편하고 속상했다.&lt;/p&gt;
+
+&lt;p&gt;나는 가방끈이 짧고 당장 돈을 벌긴 해야 하니까 제품 개발자로서 일하고 있지만, 이게 나한테 아주 적성이 맞지는 않는다는 생각을 자주 한다. 아니, 적성 이전에 가장 하고 싶은 일은 제품 개발이 아니다. 나는 엔지니어링이나 혹은 연구에 가까운 것을 하고 싶은데, 단지 내가 여의치 않고 능력이 미천해서 지금까지 하지 못한 것이다. 내 인생의 낙이 퇴근 후와 주말에 오픈소스 개발을 하는 것인데, 내 GitHub 계정 등을 보면 알겠지만 내가 만드는 오픈소스 소프트웨어는 거의 모두가 일반 사용자는 쓸 수 없는 라이브러리나 시스템 소프트웨어에 가까운 것들이다. 왜냐면 나는 그런 것들을 만드는 것에 가장 큰 흥미를 느끼기 때문이다. (이 취미의 단점 중 하나는 부모님에게 이게 뭘 하는 것인지 설명하기 힘들다는 것이다.)&lt;/p&gt;
+
+&lt;p&gt;어떤 사람들은 빠르고 훌륭한 UX로 개발된 사업성 높은 제품 개발을 하는 사람이 가장 훌륭한 개발자/프로그래머라고 생각할지도 모른다. 그러면 그 사람들이 빠르게 개발하는데 썼던 IDE, 컴파일러, 라이브러리, OS, 버전 관리 시스템을 만든 사람들은 덜 훌륭한 개발자/프로그래머인가? 본인이 하는 일에서 동료로 적합하지 않다고 해서 일반적인 개발자/프로그래머로서 훌륭하지 않다고 여기는 것은 너무 협소한 관점이라고 생각한다.&lt;/p&gt;
+
+&lt;p&gt;덧. 제 블로그의 글이 언제부턴가 전체적으로 주장하는 바가 달라졌다고 여기셨더라도 기분탓이 아닙니다. 제가 예전에 썼던 여러 글에 대해 지금은 반대의 입장이기 때문입니다.&lt;/p&gt;</description><link>http://blog.dahlia.kr/post/53958160380</link><guid>http://blog.dahlia.kr/post/53958160380</guid><pubDate>Thu, 27 Jun 2013 06:06:00 +0900</pubDate></item></channel></rss>

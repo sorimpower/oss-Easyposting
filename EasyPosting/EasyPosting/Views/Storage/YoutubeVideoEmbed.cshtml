@@ -1,0 +1,138 @@
+﻿ @{
+     Layout = null;
+}
+
+
+@Styles.Render("~/Content/fonts")
+@Scripts.Render("~/bundles/jquery")
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+<link href="~/assets/plugins/jquery-ui-1.10.4/themes/base/minified/jquery-ui.min.css" rel="stylesheet" />
+<link href="~/assets/plugins/bootstrap-3.2.0/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/assets/css/style-responsive.min.css" rel="stylesheet" />
+
+<div class="container" style="width:700px;">
+    <div class="form-group row">
+        <div class="input-group col-xs-8">
+            <div class="input-group-addon"><i class="fa fa-youtube-play"></i> Youtube</div>
+            @Html.TextBox("searchText", null, new { @required = "yes", @class = "form-control", @placeholder = "검색어를 입력하세요", @id = "youtubetext" })
+            <div class="input-group-btn">
+                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+    <div id="youtube-body" style="height:400px;">
+        <div id="searchResults" style="position:absolute; width:200px; height:380px; overflow-y:auto; text-align:center; "></div>
+        <h3 id="title" style="position:absolute; margin-top:20px; margin-left:250px; width:400px;"></h3>
+        <iframe id="preview" frameborder='0' style="position:absolute; margin-top:100px; margin-left:250px; width:400px; height:230px;" allowfullscreen></iframe>
+        <h5 id="discription" style="position:absolute; margin-top:350px; margin-left:260px; width:400px;"></h5>
+    </div>
+</div>
+
+<script src="~/assets/plugins/jquery-ui-1.10.4/ui/minified/jquery-ui.min.js"></script>
+<script src="~/assets/plugins/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+
+<script>
+    var youtubedata = "";
+    var id = "";
+
+    $('#youtube_search').click(function () {
+        search_image();
+    });
+    $(document).keydown(function (e) {
+        if ($('#VideoSearchModal').attr('aria-hidden') != "true") {
+            if (e.keyCode == 13) {
+                search_image();
+            }
+        }
+    });
+
+    function search_image() {
+        var value = $('#youtubetext').val();
+        if (value != "") {
+            $.ajax({
+                type: "POST",
+                url: "/Storage/VideoSearch",
+                traditional: true,
+                data: {
+                    searchText: value
+                }
+            }).done(function (data) {
+                if (data.success === true) {
+                    youtubedata = data.youtubeData;
+                    insert_image();
+                }
+            }).fail(function (e) {
+                $.gritter.add({
+                    title: "이미지 업로드에 실패하였습니다."
+                });
+            });
+        }
+    }
+
+    function insert_image() {
+        var imgList = "";
+        imgList += "<div class='panel-group'><br/>";
+        for (var i = 0; i < youtubedata.length; i++) {
+            imgList += '<div id="R' + i + '" type="button" class="btn btn-white imgbtnEffect" style="margin-bottom:10px; margin-right:10px;">';
+            imgList += '<img id="RI' + i + '" src="' + youtubedata[i].Thumbnail + '" style="width:130px; height:100px;">';
+            imgList += '</div>';
+        }
+        imgList += "</div>";
+        $('#searchResults').html(imgList);
+        set_event();
+    }
+
+
+    $('#insertyoutube', parent.document).click(function () {
+        $.ajax({
+            type: "POST",
+            url: "/Storage/Savetag",
+            traditional: true,
+            data: {
+                Type: "Video",
+                Title: youtubedata[id].Title,
+                MediaUrl: youtubedata[id].MediaUrl,
+                Thumbnail: youtubedata[id].Thumbnail
+            }
+        }).done(function (data) {
+            if (data.success === true) {                
+            }
+        });        
+        $('#media_data_Video', parent.document).val(youtubedata[id].Thumbnail);
+        parent.$('#widgetMedia_Video').modal('hide');
+        parent.$('#Media_Video').modal('hide');
+    });
+
+    parent.$('#widgetMedia_Video').on('hidden.bs.modal', function () {
+        $('#preview').attr('src', "");
+    });
+
+    // 이벤트 설정
+    function set_event() {
+        // 포커스 설정
+        $(".imgbtnEffect").mouseenter(function () {
+            $(this).toggleClass("btn-info btn-white");
+        });
+        $(".imgbtnEffect").mouseleave(function () {
+            $(this).toggleClass("btn-info btn-white");
+        });
+
+        //버튼 이벤트 설정
+        for (var i = 0; i < youtubedata.length; i++) {
+            $("#RI" + i).click(function () {
+                id = this.id;
+                id = id.split('I');
+                id = id[1];
+                $('#title').html(youtubedata[id].Title);
+                $('#discription').html(youtubedata[id].DisplayUrl);
+
+                var src = youtubedata[id].MediaUrl;
+                var youtubeRegex = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
+                var youtubeMatch = src.match(youtubeRegex);
+               
+                src = "https://www.youtube.com/embed/" + youtubeMatch[7];
+                $('#preview').attr('src', src);              
+            });
+        }
+    }   
+</script>

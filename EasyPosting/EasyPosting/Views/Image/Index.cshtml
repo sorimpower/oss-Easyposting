@@ -1,0 +1,321 @@
+﻿@model IEnumerable<EasyPosting.Models.EP_POSTS>
+
+@{
+    ViewBag.Title = "이미지 편집";
+    Layout = "~/Views/Shared/_ImageLayout.cshtml";
+}
+
+@using (Ajax.BeginForm("_Upload", "Image", new AjaxOptions() { HttpMethod = "POST" }, new { enctype = "multipart/form-data", id = "avatar-upload-form" }))
+{
+    ViewBag.Title = "Index";
+    @Html.AntiForgeryToken()
+    Response.AppendHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1.
+    Response.AppendHeader("Pragma", "no-cache"); // HTTP 1.0.
+    Response.AppendHeader("Expires", "0");
+
+    <div class="navbar navbar-default navbar-fixed-bottom" style="background-color:#efefef;">
+        <span style="margin-left:48%;">
+            <button id="undo" class="btn btn-small btn-link" style="margin-top:5px">
+                <span class="fa fa-2x fa-undo"></span>
+            </button>
+            <button id="redo" class="btn btn-small btn-link" style="margin-top:5px">
+                <span class="fa fa-2x fa-repeat"></span>
+            </button>
+        </span>
+        <span style="margin-left:25%;">
+            <input type="file" id="upFile" name="files" class="btn btn-small btn-white fa fa-2x fa-upload" title=" 사진추가" multiple />
+            <button id="widget-AddWidget-media" class="btn btn-small btn-white fa fa-2x fa-inbox" data-toggle="modal" data-target="#widgetMedia_Image"> 스토리지</button>
+        </span>
+    </div>
+}
+<div class="navbar navbar-default navbar-fixed-top" style="background-color:#efefef">
+    <div style="text-align:center;color:#555;font-size:17px;"><b>Photo Editor</b></div>
+    <div style="text-align:center;">
+        <button id="ratio" class="btn btn-small btn-link">
+            <span class="fa fa-2x fa-expand" style="margin-bottom:5px"></span><br />
+            <b>
+                비율유지
+            </b>
+        </button>
+        <button id="crop" class="btn btn-small btn-link">
+            <span class="fa fa-2x fa-crop" style="margin-bottom:5px"></span><br />
+            <b>
+                자르기
+            </b>
+        </button>
+        <button id="layout" class="btn btn-small btn-link">
+            <span class="fa fa-2x fa-th" style="margin-bottom:5px"></span><br />
+            <b>
+                정렬
+            </b>
+        </button>
+        <button id="delete" class="btn btn-small btn-link">
+            <span class="fa fa-2x fa-trash-o" style="margin-bottom:5px"></span><br />
+            <b>
+                지우기
+            </b>
+        </button>
+        <button id="up" class="btn btn-small btn-link">
+            <span class="fa fa-2x fa-arrow-circle-up" style="margin-bottom:5px"></span><br />
+            <b>
+                앞으로
+            </b>
+        </button>
+        <button id="down" class="btn btn-small btn-link">
+            <span class="fa fa-2x fa-arrow-circle-down" style="margin-bottom:5px"></span><br />
+            <b>
+                뒤로
+            </b>
+        </button>
+        <button id="effect" class="btn btn-small btn-link">
+            <span class="fa fa-2x fa-magic" style="margin-bottom:5px"></span><br />
+            <b>
+                효과
+            </b>
+        </button>
+        <button id="frame" class="btn btn-small btn-link">
+            <span class="fa fa-2x fa-square-o" style="margin-bottom:5px"></span><br />
+            <b>
+                액자
+            </b>
+        </button>
+        <button id="text" class="btn btn-small btn-link">
+            <span class="fa fa-2x fa-font" style="margin-bottom:5px"></span><br />
+            <b>
+                텍스트
+            </b>
+        </button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-small dropdown-toggle btn-link" data-toggle="dropdown">
+                <span class="fa fa-2x fa-plus-square-o" style="margin-bottom:5px"></span><br />
+                <b>
+                    도형
+                </b>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a id="red_box" href="#">사각형</a></li>
+                <li><a id="arrow_left" href="#">화살표(왼쪽)</a></li>
+                <li><a id="arrow_right" href="#">화살표(오른쪽)</a></li>
+                <li><a id="arrow_top" href="#">화살표(위쪽)</a></li>
+                <li><a id="arrow_bottom" href="#">화살표(아래쪽)</a></li>
+            </ul>
+        </div>
+
+        <!-- Button trigger modal -->
+        <button id="preview" class="btn btn-small btn-link">
+            <span class="fa fa-2x fa-photo" style="margin-bottom:5px"></span><br />
+            <b>
+                미리보기
+            </b>
+        </button>
+        <button id="save1" class="btn btn-small btn-link">
+            <span class="fa fa-2x fa-save" style="margin-bottom:5px"></span><br />
+            <b>
+                저장
+            </b>
+        </button>
+    </div>
+</div>
+
+<!-- 스토리지 모달-->
+<div class="modal fade in" id="widgetMedia_Image" tabindex="-1" role="dialog" aria-labelledby="widgetMedia_Image" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+            </div>
+            <div class="modal-body">
+                <input id="media_data_Image" type="hidden" />
+                <iframe id="ImageEmbed" name="ImageEmbed" src="~/Storage/ImageEmbed" frameborder="0" width="100%" height="490" marginwidth="0" marginheight="0" scrolling="yes"></iframe>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal" id="mediaWidgetInsert">닫기</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+<!-- 효과 Modal -->
+<div class="modal dark fade" id="effectModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="width:1150px; ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">이미지 효과</h4>
+            </div>
+            <div class="modal-body" style="text-align:center;">
+                <button id="Eb1" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="E1" src="/Temp/bright-아마존인형2.jpg" alt="Responsive image" class="img-rounded">
+                    <br />
+                    밝게
+                </button>
+                <button id="Eb2" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="E2" src="/Temp/dark-아마존인형2.jpg" alt="Responsive image" class="img-rounded">
+                    <br />
+                    어둡게
+                </button>
+                <button id="Eb3" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="E3" src="/Temp/gray-아마존인형2.jpg" alt="Responsive image" class="img-rounded">
+                    <br />
+                    흑백
+                </button>
+                <button id="Eb4" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="E4" src="/Temp/smooth-아마존인형2.jpg" alt="Responsive image" class="img-rounded">
+                    <br />
+                    흐리게
+                </button>
+                <button id="Eb5" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="E5" src="/Temp/clear-아마존인형2.jpg" alt="Responsive image" class="img-rounded">
+                    <br />
+                    선명하게
+                </button>
+                <button id="Eb6" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="E6" src="/Temp/cartoon-아마존인형2.jpg" alt="Responsive image" class="img-rounded">
+                    <br />
+                    카툰
+                </button>
+                <button id="Eb7" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="E7" src="/Temp/mirrorx-아마존인형2.jpg" alt="Responsive image" class="img-rounded">
+                    <br />
+                    좌우반전
+                </button>
+                <button id="Eb8" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="E8" src="/Temp/mirrory-아마존인형2.jpg" alt="Responsive image" class="img-rounded">
+                    <br />
+                    상하반전
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- 액자 Modal -->
+<div class="modal dark fade" id="frameModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="width:850px; ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">이미지 액자</h4>
+            </div>
+            <div class="modal-body" style="text-align:center;">
+                <button id="Fb1" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="F1" src="/Temp/frame1-아마존인형2.jpg" alt="Responsive image" class="img-polaroid">
+                    <br />
+                    액자 1
+                </button>
+                <button id="Fb2" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="F2" src="/Temp/frame2-아마존인형2.jpg" alt="Responsive image" class="img-polaroid">
+                    <br />
+                    액자 2
+                </button>
+                <button id="Fb3" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="F3" src="/Temp/frame3-아마존인형2.jpg" alt="Responsive image" class="img-polaroid">
+                    <br />
+                    액자 3
+                </button>
+                <button id="Fb4" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="F4" src="/Temp/frame4-아마존인형2.jpg" alt="Responsive image" class="img-polaroid">
+                    <br />
+                    액자 4
+                </button>
+                <button id="Fb5" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="F5" src="/Temp/frame5-아마존인형2.jpg" alt="Responsive image" class="img-polaroid">
+                    <br />
+                    액자 5
+                </button>
+                <button id="Fb6" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="F6" src="/Temp/frame6-아마존인형2.jpg" alt="Responsive image" class="img-polaroid">
+                    <br />
+                    액자 6
+                </button>
+                <button id="Fb7" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="F7" src="/Temp/frame7-아마존인형2.jpg" alt="Responsive image" class="img-polaroid">
+                    <br />
+                    액자 7
+                </button>
+                <button id="Fb8" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="F8" src="/Temp/frame8-아마존인형2.jpg" alt="Responsive image" class="img-polaroid">
+                    <br />
+                    액자 8
+                </button>
+                <button id="Fb9" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="F9" src="/Temp/frame9-아마존인형2.jpg" alt="Responsive image" class="img-polaroid">
+                    <br />
+                    액자 9
+                </button>
+                <button id="Fb10" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="F10" src="/Temp/frame10-아마존인형2.jpg" alt="Responsive image" class="img-polaroid">
+                    <br />
+                    폴라로이드 1
+                </button>
+                <button id="Fb11" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="F11" src="/Temp/frame11-아마존인형2.jpg" alt="Responsive image" class="img-polaroid">
+                    <br />
+                    폴라로이드 2
+                </button>
+                <button id="Fb12" type="button" class="btn btn-link imgbtnEffect" style="color:#efefef; font-size:15px;">
+                    <img id="F12" src="/Temp/frame12-아마존인형2.jpg" alt="Responsive image" class="img-polaroid">
+                    <br />
+                    폴라로이드 3
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!-- 미리보기 Modal -->
+<div class="modal dark fade" id="previewModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="width:1000px; height:1000px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">미리 보기</h4>
+            </div>
+            <div id="preview-body" class="modal-body" style="height:1000px;">
+                <div class="btn-group" style="position:absolute; margin-left:10px; margin-top:10px;">
+                    <button id="bk_div" class="btn btn-white btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
+                        배경 <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a id="bk0" href="#">없음</a></li>
+                        <li><a id="bk1" href="#">화이트</a></li>
+                        <li><a id="bk2" href="#">아이보리</a></li>
+                        <li><a id="bk3" href="#">라벤더</a></li>
+                        <li><a id="bk4" href="#">민트</a></li>
+                        <li><a id="bk5" href="#">핑크</a></li>
+                        <li><a id="bk6" href="#">베이지</a></li>
+                        <li><a id="bk7" href="#">스카이블루</a></li>
+                    </ul>
+                </div>
+                <div class="btn-group" style="position:absolute; margin-left:10px; margin-top:65px; width:150px;">
+                    <button class="btn btn-white btn-lg dropdown-toggle" type="button" data-toggle="dropdown">
+                        여백 <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a id="gap0" href="#">없음</a></li>
+                        <li><a id="gap1" href="#">5px</a></li>
+                        <li><a id="gap2" href="#">10px</a></li>
+                        <li><a id="gap3" href="#">20px</a></li>
+                        <li><a id="gap4" href="#">30px</a></li>
+                        <li><a id="gap5" href="#">50px</a></li>
+                    </ul>
+                </div>
+                <canvas id="result" width="100" height="100" style="position:absolute; margin-left:130px; margin-top:10px; border:1px solid #d3d3d3;"></canvas><br />
+                <canvas id="temp-canvas" style="border:1px solid #d3d3d3;"></canvas>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-warning" data-dismiss="modal">취소</button>
+                <button id="save2" type="button" class="btn btn-primary">저장</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div id="editor" style="width:auto; height:1000px; background-color:#333; overflow:hidden;">
+</div>
+<div id="dragview" style="z-index:1000;width:150px;height:100px;border:2px solid #fff;"></div>
+<div id="font-testing">
+    <font color="#ffffff" face="Arial" size="7">
+    </font>
+</div>

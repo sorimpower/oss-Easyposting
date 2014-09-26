@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.justaddwater.dk/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+
+<channel>
+	<title>justaddwater.dk</title>
+	
+	<link>http://justaddwater.dk</link>
+	<description>Instant Usability &amp; Web Standards</description>
+	<lastBuildDate>Sun, 09 Mar 2014 19:41:07 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.0</generator>
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.justaddwater.dk/jaw/posts" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="jaw/posts" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:emailServiceId xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">jaw/posts</feedburner:emailServiceId><feedburner:feedburnerHostname xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">https://feedburner.google.com</feedburner:feedburnerHostname><item>
+		<title>iPhoto 11 performance tuning tips, revised</title>
+		<link>http://justaddwater.dk/2014/03/09/iphoto-11-performance-tuning-tips-revised/</link>
+		<comments>http://justaddwater.dk/2014/03/09/iphoto-11-performance-tuning-tips-revised/#comments</comments>
+		<pubDate>Sun, 09 Mar 2014 19:41:07 +0000</pubDate>
+		<dc:creator><![CDATA[Jesper Rønn-Jensen]]></dc:creator>
+				<category><![CDATA[justaddwater.dk]]></category>
+
+		<guid isPermaLink="false">http://justaddwater.dk/?p=1709</guid>
+		<description><![CDATA[My iPhoto library with 6000+ family photos was running slow on my macbook. So I looked for performance tuning tips on the net. Here are the adjusted tip, which works for me. &#160; This Apple support  thread mentioned 3 tips: Upgrade RAM Turn off visual bling in overview pages Vacuum iPhoto database file  Could not do [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>My iPhoto library with 6000+ family photos was running slow on my macbook. So I looked for performance tuning tips on the net.</p>
+<p>Here are the adjusted tip, which works for me.</p>
+<p>&nbsp;</p>
+<p>This <a href="https://discussions.apple.com/thread/3012995?start=60&amp;tstart=0">Apple support  thread</a> mentioned 3 tips:</p>
+<ol>
+<li>Upgrade RAM</li>
+<li>Turn off visual bling in overview pages</li>
+<li>Vacuum iPhoto database file<span style="line-height: 1.5em;"> </span></li>
+</ol>
+<p>Could not do anything with tip 1 today (and I presume I cannot update the RAM on this 2012 macbook air)</p>
+<p>Tip2 works: Go into settings &gt; &#8220;appearance&#8221; and turn off &#8220;Outline&#8221; and &#8220;Drop shadow&#8221; in the overviews.</p>
+<p>Tip3 needs adjustment. Originally *.db files were only in top folder &#8216; ~/Pictures/iPhoto\ Library/&#8217;</p>
+<p>&nbsp;</p>
+<p>Adjusted command to vacuum iPhoto database files:</p>
+<p>&nbsp;</p>
+<blockquote>
+<pre>cd ~/Pictures/iPhoto\ Library/ &amp;&amp;  for dbase in `find . -name '*.db'`; do sqlite3 $dbase "vacuum;"; done</pre>
+</blockquote>
+<div class="feedflare">
+<a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=i9ksdMlw1AI:rjP3spB6Y30:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=i9ksdMlw1AI:rjP3spB6Y30:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/jaw/posts?i=i9ksdMlw1AI:rjP3spB6Y30:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=i9ksdMlw1AI:rjP3spB6Y30:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=i9ksdMlw1AI:rjP3spB6Y30:dnMXMwOfBR0"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=dnMXMwOfBR0" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/jaw/posts/~4/i9ksdMlw1AI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://justaddwater.dk/2014/03/09/iphoto-11-performance-tuning-tips-revised/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Generate CSS sprite for all world’s flags</title>
+		<link>http://justaddwater.dk/2013/06/19/generate-css-sprite-for-all-worlds-flags/</link>
+		<comments>http://justaddwater.dk/2013/06/19/generate-css-sprite-for-all-worlds-flags/#comments</comments>
+		<pubDate>Wed, 19 Jun 2013 12:46:24 +0000</pubDate>
+		<dc:creator><![CDATA[Jesper Rønn-Jensen]]></dc:creator>
+				<category><![CDATA[justaddwater.dk]]></category>
+
+		<guid isPermaLink="false">http://justaddwater.dk/?p=1594</guid>
+		<description><![CDATA[Recently i worked on a project, which had to use flag icons for all flags in the world. The implementation looked like this: css file: . &#160; &#160; In order to reduce the number of HTTP requests, I wanted to change it to using CSS sprites instead. &#160; CSS file now has changed to lines [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Recently i worked on a project, which had to use flag icons for all flags in the world. The implementation looked like this:</p>
+<p>css file:</p>
+<p>.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>In order to reduce the number of HTTP requests, I wanted to change it to using CSS sprites instead.</p>
+<p>&nbsp;</p>
+<p>CSS file now has changed to lines like this:</p>
+<p>.er_16{ background-position: -20px 0; }<br />
+.es_16{ background-position: -20px -20px; }<br />
+.et_16{ background-position: -20px -40px; }<br />
+.fi_16{ background-position: -20px -60px; }</p>
+<p>&nbsp;</p>
+<p>&gt; Generation of sprite: http://spritegen.website-performance.org/</p>
+<p>&gt; * Upload zip file with flags (in my case all the 16&#215;16 px flags)<br />
+&gt; * ignore duplicate images<br />
+&gt; * build direction vertical<br />
+&gt; * offset 4px (since the images are 16&#215;14, this will make a 20-20 grid)<br />
+&gt; * background/transparency colour: #ffffff<br />
+&gt; * output format: PNG<br />
+<span style="font-size: 13px; line-height: 19px;">&gt; * Compress Image with OptiPNG: YES<br />
+</span><span style="font-size: 13px; line-height: 19px;">&gt; * Number of colours: True colour<br />
+</span><span style="font-size: 13px; line-height: 19px;">&gt; * css suffix: _16 (to indicate 16px icons)</span></p>
+<p>&nbsp;</p>
+<p>Oh, before creatign the zip file, I removed all countries not matching a two-letter code.</p>
+<p>cd 16/</p>
+<p>find . -type f -name &#8216;???????*&#8217; |xargs -I{} rm {}</p>
+<p>This would remove countries named &#8220;_African Union.png&#8221;, &#8220;_United Nations.png&#8221;, &#8220;Olimpic Movement.png&#8221;  and similar.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>For the following sizes of flags, I used these offset values:</p>
+<p>16px, offset 4px will make a 20px grid</p>
+<p>24px, offset 6px will make a 30px grid</p>
+<p>32px, offset 8px will make a 40pxgrid</p>
+<p>48px, offset 2px will make a 50px grid</p>
+<p>64px, offset 6px will make a 70px grid</p>
+<p>128px, offset 2px will make a 130px grid</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=NNANAJCvjmQ:Xsq8StmOhYs:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=NNANAJCvjmQ:Xsq8StmOhYs:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/jaw/posts?i=NNANAJCvjmQ:Xsq8StmOhYs:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=NNANAJCvjmQ:Xsq8StmOhYs:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=NNANAJCvjmQ:Xsq8StmOhYs:dnMXMwOfBR0"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=dnMXMwOfBR0" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/jaw/posts/~4/NNANAJCvjmQ" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://justaddwater.dk/2013/06/19/generate-css-sprite-for-all-worlds-flags/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Git checkout old revisions by date</title>
+		<link>http://justaddwater.dk/2012/11/09/git-checkout-old-revisions-by-date/</link>
+		<comments>http://justaddwater.dk/2012/11/09/git-checkout-old-revisions-by-date/#comments</comments>
+		<pubDate>Fri, 09 Nov 2012 22:24:06 +0000</pubDate>
+		<dc:creator><![CDATA[Jesper Rønn-Jensen]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[git]]></category>
+
+		<guid isPermaLink="false">http://justaddwater.dk/?p=1658</guid>
+		<description><![CDATA[I wanted to do some code stats for a repository. This line checks out old revisions by date and shows code stats: git checkout `git rev-list -n 1 --before="2012-03-01" master` Then, I ran cloc to count lines of code: cloc . Its really easy to register the point in time as a git branch so [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>I wanted to do some code stats for a repository. This line checks out old revisions by date and shows code stats:</p>
+<pre><div class="codesnip-container" >git checkout `git rev-list -n 1 --before="2012-03-01" master`</div></pre>
+<p>Then, I ran cloc to count lines of code:</p>
+<pre><div class="codesnip-container" >cloc .</div></pre>
+<p>Its really easy to register the point in time as a git branch so that you can get back and count lines of code later:</p>
+<pre><div class="codesnip-container" >git co -b 2012-03</div></pre>
+<p>You can always verify latest revision like so:</p>
+<pre><div class="codesnip-container" >Git log -1</div></pre>
+<p>The combination of git and cloc makes it really simple to keep history of codebase changes.</p>
+<pre><div class="codesnip-container" ></div></pre>
+<div class="feedflare">
+<a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=Dy0kHGez6KE:MdRgL9yf2Vw:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=Dy0kHGez6KE:MdRgL9yf2Vw:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/jaw/posts?i=Dy0kHGez6KE:MdRgL9yf2Vw:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=Dy0kHGez6KE:MdRgL9yf2Vw:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=Dy0kHGez6KE:MdRgL9yf2Vw:dnMXMwOfBR0"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=dnMXMwOfBR0" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/jaw/posts/~4/Dy0kHGez6KE" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://justaddwater.dk/2012/11/09/git-checkout-old-revisions-by-date/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>PhantomJS 1.7 build for Linux 64 bit</title>
+		<link>http://justaddwater.dk/2012/09/28/phantomjs-1-7-build-for-linux-64-bit/</link>
+		<comments>http://justaddwater.dk/2012/09/28/phantomjs-1-7-build-for-linux-64-bit/#comments</comments>
+		<pubDate>Fri, 28 Sep 2012 08:54:39 +0000</pubDate>
+		<dc:creator><![CDATA[Jesper Rønn-Jensen]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Continous integration]]></category>
+		<category><![CDATA[Testing]]></category>
+		<category><![CDATA[phantomjs]]></category>
+		<category><![CDATA[testing]]></category>
+
+		<guid isPermaLink="false">http://justaddwater.dk/?p=1663</guid>
+		<description><![CDATA[At a project I work on, we needed PhantomJS to run from a Redhat Fedora 64 bit machine. Since phantomJs is just released this week, I needed to build it myself. &#160; I post this link to the binary in case it can benefit others. &#160; PhantomJs 1.7.0 built on Linux Redhat Fedora 64 bit [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>At a project I work on, we needed PhantomJS to run from a Redhat Fedora 64 bit machine.</p>
+<p>Since phantomJs is just released this week, I needed to build it myself.</p>
+<p>&nbsp;</p>
+<p>I post this link to the binary in case it can benefit others.</p>
+<p>&nbsp;</p>
+<p><a href="http://dl.dropbox.com/u/54307969/phantomjs-1.7.0-linux-x86_64.tar.gz">PhantomJs 1.7.0 built on Linux Redhat Fedora 64 bit</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>PhantomJS is a fantastic tool for automating tests, since it is a headless browser which we wrapped in our automation framework to run javascript based tests very fast and easily.</p>
+<p>&nbsp;</p>
+<p>I followed the <a title="Phantomjs 1.7.0 official build instructions" href="http://phantomjs.org/build.html">build instructions</a> (the instructions described for Amazon EC2 also worked on the fedora I am running).</p>
+<blockquote>
+<pre>sudo yum install gcc gcc-c++ make git openssl-devel freetype-devel fontconfig-devel
+git clone git://github.com/ariya/phantomjs.git
+cd phantomjs
+git checkout 1.7
+./build.sh --jobs 1</pre>
+<pre></pre>
+<pre>#(added step below by me)
+sudo yum install upx</pre>
+<pre>After finishing the build, run deploy/package.sh which creates PhantomJS binary tarball that can be moved around and/or extracted to a different location. This is the correct way to install the built binary into an arbitrary directory, i.e. do not simply copy the executable as it won't work.</pre>
+</blockquote>
+<p>The link I posted is the actual outcome of ./deploy/package.sh</p>
+<p>&nbsp;</p>
+<p>For other operating systems, you could probably just get the binary at the official <a href="http://phantomjs.org/download.html">PhantomJs download page</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=lYX8WckwHoQ:PbkFSDvbQ8Y:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=lYX8WckwHoQ:PbkFSDvbQ8Y:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/jaw/posts?i=lYX8WckwHoQ:PbkFSDvbQ8Y:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=lYX8WckwHoQ:PbkFSDvbQ8Y:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=lYX8WckwHoQ:PbkFSDvbQ8Y:dnMXMwOfBR0"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=dnMXMwOfBR0" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/jaw/posts/~4/lYX8WckwHoQ" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://justaddwater.dk/2012/09/28/phantomjs-1-7-build-for-linux-64-bit/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>Forgotten Subversion Commands, Undo, Merge Branches and More</title>
+		<link>http://justaddwater.dk/2012/06/28/forgotten-subversion-commands-undo-merge-branches-and-more/</link>
+		<comments>http://justaddwater.dk/2012/06/28/forgotten-subversion-commands-undo-merge-branches-and-more/#comments</comments>
+		<pubDate>Thu, 28 Jun 2012 19:42:46 +0000</pubDate>
+		<dc:creator><![CDATA[Jesper Rønn-Jensen]]></dc:creator>
+				<category><![CDATA[Code]]></category>
+		<category><![CDATA[Web Development]]></category>
+		<category><![CDATA[git]]></category>
+		<category><![CDATA[subversion]]></category>
+		<category><![CDATA[svn]]></category>
+
+		<guid isPermaLink="false">http://justaddwater.dk/?p=1587</guid>
+		<description><![CDATA[In a current project I use a lot of Subversion (svn) from the command-line. Subversion recently has lost terrain to Git for several reasons. But actually, svn is capable of doing many of the things I love from Git. Here are some less known commands I find extremely helpful. &#160; Undo last commit svn merge [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>In a current project I use a lot of Subversion (svn) from the command-line.</p>
+<p>Subversion recently has lost terrain to Git for several reasons. But actually, svn is capable of doing many of the things I love from Git.</p>
+<p>Here are some less known commands I find extremely helpful.</p>
+<p>&nbsp;</p>
+<h3>Undo last commit</h3>
+<pre>svn merge -r HEAD:PREV .</pre>
+<p>This commands merges in the changes required to go from latest version (HEAD) and back to the previous (PREV).</p>
+<p>It also makes sense to view latest commit comment, and possibly include the revision number/description in your new commit message.</p>
+<pre>svn log --limit 1</pre>
+<p>After this, you should to an `svn status` and (if you are satisfied with the result), then commit:</p>
+<pre>svn commit -m "reverted accidentally committed previous version"</pre>
+<p>More info: <a href="http://stackoverflow.com/questions/747713/subversion-retract-accidental-checkin/747758#747758">http://stackoverflow.com/questions/747713/subversion-retract-accidental-checkin/</a></p>
+<h3>View files changed since last update</h3>
+<pre>svn st -u</pre>
+<p>The -u flag gives  an overview of <strong>what has been updated on the server.</strong> This is what IDEs like Eclipse and IntelliJ do behind the scenes.</p>
+<p>I have seen much confusion caused when `svn log` will not show what changed on the server. In case you need more info, then investigate the changes with</p>
+<pre>svn log -r BASE:HEAD</pre>
+<p>As opposed to `svn log`, this command actually shows log messages on the server.</p>
+<p>and if you need the list of files changed:</p>
+<pre>svn diff -r xxx:HEAD --summarize</pre>
+<p>Where xxx represents the version number of BASE (and you can get it with `svn info`)</p>
+<p>More info: <a href="http://stackoverflow.com/questions/1444005/displaying-a-list-of-files-that-have-changed-since-last-changeset-in-svn">http://stackoverflow.com/questions/1444005/displaying-a-list-of-files-that-have-changed-since-last-changeset-in-svn</a></p>
+<h3>Merge to branch from trunk</h3>
+<p>After branching, it&#8217;s easy to keep up-to-date with changes of the trunk. Just go to the branch, and merge all from trunk, like this:</p>
+<blockquote>
+<pre>cd branch
+svn merge ^/trunk</pre>
+</blockquote>
+<p>&nbsp;</p>
+<p>where as of Subversion 1.6, the  caret &#8220;^&#8221; is a handy annotation for the base repository url.</p>
+<p>After this merge, you can just commit the changes with a standard comment that changes have been merge.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Merge from trunk to current branch</h3>
+<p>In this case I want to merge all changes from trunk to a specific branch. (I am doing this daily to keep my branch updated). First step is to find the branch split point:</p>
+<blockquote>
+<pre>$ svn log --stop-on-copy | tail -n 4
+r1769 | jesper | 2012-05-09 11:07:45 +0200 (Wed, 09 May 2012) | 1 line</pre>
+<pre>Adding the new branch in subversion
+------------------------------------------------------------------------</pre>
+</blockquote>
+<p>So, the revision number is &#8220;1769&#8221;, which marks the first split point of the branch.</p>
+<p>We now have a way to target all trunk changes with a higher revision number than &#8220;1769&#8221;.</p>
+<p>The merge command is then:</p>
+<blockquote>
+<pre> svn merge -r 1769:HEAD ^/trunk .</pre>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>If that matters I am using svn 1.6.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=vC3XTBt24HA:qM9l4n9pNEs:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=vC3XTBt24HA:qM9l4n9pNEs:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/jaw/posts?i=vC3XTBt24HA:qM9l4n9pNEs:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=vC3XTBt24HA:qM9l4n9pNEs:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=vC3XTBt24HA:qM9l4n9pNEs:dnMXMwOfBR0"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=dnMXMwOfBR0" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/jaw/posts/~4/vC3XTBt24HA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://justaddwater.dk/2012/06/28/forgotten-subversion-commands-undo-merge-branches-and-more/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Jim Webber on qCon New York</title>
+		<link>http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/</link>
+		<comments>http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/#comments</comments>
+		<pubDate>Wed, 20 Jun 2012 21:07:43 +0000</pubDate>
+		<dc:creator><![CDATA[Jesper Rønn-Jensen]]></dc:creator>
+				<category><![CDATA[Events/seminars]]></category>
+		<category><![CDATA[QCon]]></category>
+
+		<guid isPermaLink="false">http://justaddwater.dk/?p=1624</guid>
+		<description><![CDATA[Please help me choose the best photos I took during Jim Webbers talk at qCon New York. You can do me a favor and vote (max 3 votes per person). License: Creative commons (attribution).]]></description>
+				<content:encoded><![CDATA[<p>Please help me choose the best photos I took during Jim Webbers talk at qCon New York.</p>
+<p>You can do me a favor and vote (max 3 votes per person).</p>
+
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6762/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6762-150x150.jpg" class="attachment-thumbnail" alt="IMG_6762" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6766/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6766-150x150.jpg" class="attachment-thumbnail" alt="IMG_6766" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6798/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6798-150x150.jpg" class="attachment-thumbnail" alt="IMG_6798" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6802/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6802-150x150.jpg" class="attachment-thumbnail" alt="IMG_6802" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6807/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6807-150x150.jpg" class="attachment-thumbnail" alt="IMG_6807" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6829/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6829-150x150.jpg" class="attachment-thumbnail" alt="IMG_6829" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6831/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6831-150x150.jpg" class="attachment-thumbnail" alt="IMG_6831" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6857/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6857-150x150.jpg" class="attachment-thumbnail" alt="IMG_6857" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6860/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6860-150x150.jpg" class="attachment-thumbnail" alt="IMG_6860" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6883/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6883-150x150.jpg" class="attachment-thumbnail" alt="IMG_6883" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6894/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6894-150x150.jpg" class="attachment-thumbnail" alt="IMG_6894" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6918/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6918-150x150.jpg" class="attachment-thumbnail" alt="IMG_6918" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6920/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6920-150x150.jpg" class="attachment-thumbnail" alt="IMG_6920" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6947/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6947-150x150.jpg" class="attachment-thumbnail" alt="IMG_6947" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6959/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6959-150x150.jpg" class="attachment-thumbnail" alt="IMG_6959" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6965/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6965-150x150.jpg" class="attachment-thumbnail" alt="IMG_6965" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_6992/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6992-150x150.jpg" class="attachment-thumbnail" alt="IMG_6992" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_7020/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_7020-150x150.jpg" class="attachment-thumbnail" alt="IMG_7020" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_7025/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_7025-150x150.jpg" class="attachment-thumbnail" alt="IMG_7025" /></a>
+<a href='http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/img_7027/'><img width="150" height="150" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_7027-150x150.jpg" class="attachment-thumbnail" alt="IMG_7027" /></a>
+
+<p>License: <a href="http://creativecommons.org/licenses/by/3.0/">Creative commons (attribution)</a>.</p>
+<div class="feedflare">
+<a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=Q8lXxKTY0WI:ZgZFzguivZM:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=Q8lXxKTY0WI:ZgZFzguivZM:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/jaw/posts?i=Q8lXxKTY0WI:ZgZFzguivZM:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=Q8lXxKTY0WI:ZgZFzguivZM:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=Q8lXxKTY0WI:ZgZFzguivZM:dnMXMwOfBR0"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=dnMXMwOfBR0" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/jaw/posts/~4/Q8lXxKTY0WI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://justaddwater.dk/2012/06/20/jim-webber-on-qcon-new-york/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Mortgage-driven development vs Behaviour-driven development</title>
+		<link>http://justaddwater.dk/2012/06/18/mortgage-driven-development-vs-behaviour-driven-development/</link>
+		<comments>http://justaddwater.dk/2012/06/18/mortgage-driven-development-vs-behaviour-driven-development/#comments</comments>
+		<pubDate>Mon, 18 Jun 2012 20:26:41 +0000</pubDate>
+		<dc:creator><![CDATA[Jesper Rønn-Jensen]]></dc:creator>
+				<category><![CDATA[Events/seminars]]></category>
+		<category><![CDATA[QCon]]></category>
+		<category><![CDATA[Testing]]></category>
+		<category><![CDATA[Web Development]]></category>
+		<category><![CDATA[bdd]]></category>
+		<category><![CDATA[cucumber]]></category>
+		<category><![CDATA[event]]></category>
+		<category><![CDATA[Presentation]]></category>
+		<category><![CDATA[qconnewyork]]></category>
+
+		<guid isPermaLink="false">http://justaddwater.dk/?p=1613</guid>
+		<description><![CDATA[As you may already know, I am in New York with my company, attending the QCon conference. Earler today I attended Matt Wynne&#8217;s presentation at QCon New York. It was one of the best presentations I have seen so far. Especially, since he began as his alter-ego, Darren Workshy. Darren Workshy, hater of behaviour-driven development. Darren [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>As you may already know, I am in New York with my company, attending the QCon conference.</p>
+<p><a href="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6542.jpg"><img class="aligncenter size-medium wp-image-1615" title="brooklyn bridge" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6542-300x199.jpg" alt="" width="300" height="199" /></a></p>
+<p>Earler today I attended Matt Wynne&#8217;s presentation at QCon New York. It was one of the best presentations I have seen so far. Especially, since he began as his alter-ego, Darren Workshy.</p>
+<p>Darren Workshy, hater of behaviour-driven development. Darren has invented <strong>Mortgage-driven development (MDD)</strong></p>
+<p>&#8220;it&#8217;s the only &#8216;DD&#8217; you will have to learn</p>
+<p><strong>Maintainable code offers no job security! </strong></p>
+<p>Here are the mantras of Mortgage driven development</p>
+<p>If the code is maintainable it could be maintained by anyone &#8212; not just yourself, and then you cannot pay your mortgages</p>
+<p>Programming needs to be a solicity: So I can plug in my earphones and listen to Megadeath</p>
+<p><em> He shows a picture of people interacting around a whiteboard</em></p>
+<p>&#8220;look at these people chit-chatting&#8221; <strong>See any features getting done? See any code getting written?</strong></p>
+<p>So he describes the process as this:</p>
+<blockquote><p>As a mortgage-driven developer,<br />
+I make the experience of collaborating<br />
+as awkward and<br />
+unpleasant as I can</p></blockquote>
+<p><a href="http://justaddwater.dk/2012/06/18/mortgage-driven-development-vs-behaviour-driven-development/img_6582/" rel="attachment wp-att-1616"><img class="aligncenter size-medium wp-image-1616" title="IMG_6582" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6582-matwynne-bdd-cucumber-1-300x199.jpg" alt="" width="300" height="199" /></a></p>
+<p>&#8220;Cucumber is a threat to us mortgage-driven developers&#8221;</p>
+<p>It is really threatening ot my position!</p>
+<p>Refucturing the code to make it undreadable and hard for others to understand:</p>
+<blockquote><p>&#8220;Refucturing is the process of taking a well-<br />
+designed piece of code and, through a series of small<br />
+reversible changes making it completely<br />
+unmaintainable to anybody except yourself&#8221;<br />
+&#8212; <a href="http://www.waterfall2006.com/gorman.html">Jason Gorman, 2006 </a></p></blockquote>
+<p><a href="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6584-matwynne-bdd-cucumber-2.jpg"><img class="aligncenter size-medium wp-image-1617" title="IMG_6584" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6584-matwynne-bdd-cucumber-2-300x199.jpg" alt="" width="300" height="199" /></a></p>
+<p>So, for Darren Workshy, to pay his mortgages he will follow these best practices</p>
+<ul>
+<li>Include as much irrelevant detail in your features as possible</li>
+<li>keeps them boring to read</li>
+<li>and nice and brittle (hard to read)</li>
+<li>Avoid using words you hear business people using. Invent your own instead!</li>
+</ul>
+<p><a href="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6589-matwynne-bdd-cucumber-3.jpg"><img class="aligncenter size-medium wp-image-1618" title="Matt Wynne best practices for MDD Mortgage-driven development" src="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6589-matwynne-bdd-cucumber-3-300x199.jpg" alt="" width="300" height="199" /></a></p>
+<p>This way, Darren Workshy will become indispensible at work, nobody can maintain code but him. And he will be able to stay in the job and pay his mortgages. That is mortgage-driven development.</p>
+<p><a href="http://justaddwater.dk/wp-content/uploads/2012/06/IMG_6582-matwynne-bdd-cucumber-1.jpg"><br />
+</a>Matt Wynne eventually dropped the mask of his character and returned to his normal self. He is a big advocate of behaviour-driven development.</p>
+<p>His talk about Mortgage-driven development provided many examples that turned around the arguments. In that way it was really refreshing.</p>
+<p>More info:</p>
+<ul>
+<li>My <a href="https://twitter.com/#!/jesperronn">Twitter stream (@jesperronn)</a></li>
+<li>Danish <a href="http://www.version2.dk/blog/turen-gaar-til-new-york-46025">Version2 guest blog entries from my colleague Jesper S. Møller</a></li>
+</ul>
+<div class="feedflare">
+<a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=ZA06iAQ2WXM:-sTsCpxpd_E:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=ZA06iAQ2WXM:-sTsCpxpd_E:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/jaw/posts?i=ZA06iAQ2WXM:-sTsCpxpd_E:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=ZA06iAQ2WXM:-sTsCpxpd_E:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=ZA06iAQ2WXM:-sTsCpxpd_E:dnMXMwOfBR0"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=dnMXMwOfBR0" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/jaw/posts/~4/ZA06iAQ2WXM" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://justaddwater.dk/2012/06/18/mortgage-driven-development-vs-behaviour-driven-development/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Count number of jobs in Hudson</title>
+		<link>http://justaddwater.dk/2012/06/14/count-number-of-jobs-in-hudson/</link>
+		<comments>http://justaddwater.dk/2012/06/14/count-number-of-jobs-in-hudson/#comments</comments>
+		<pubDate>Thu, 14 Jun 2012 10:42:53 +0000</pubDate>
+		<dc:creator><![CDATA[Jesper Rønn-Jensen]]></dc:creator>
+				<category><![CDATA[Web Development]]></category>
+		<category><![CDATA[hudson]]></category>
+		<category><![CDATA[JavaScript]]></category>
+		<category><![CDATA[jenkins]]></category>
+
+		<guid isPermaLink="false">http://justaddwater.dk/?p=1596</guid>
+		<description><![CDATA[Small script to count the number of jobs on a Hudson server -- with JavaScript]]></description>
+				<content:encoded><![CDATA[<p>I wanted to count the number of jobs running on a Hudson server (continuous integration) at work.</p>
+<p>&nbsp;</p>
+<p>This javascript counts the number of lines in the table with all jobs:</p>
+<p>&nbsp;</p>
+<pre>document.getElementById("projectstatus").children[0].children.length</pre>
+<p>&nbsp;</p>
+<p>Or save this as a browser toolbar bookmarklet:</p>
+<pre>Name: #HudsonJobs
+ javascript:(function(e){alert(document.getElementById("projectstatus").children[0].children.length);e.preventDefault()})()</pre>
+<p>This line finds the table with id=&#8221;projectstatus&#8221;, and counts the TR elements inside of it&#8217;s TBODY.</p>
+<p>At work it said 445 lines, including the table header.</p>
+<p>&nbsp;</p>
+<p>Which means that this hudson server has configured 444 jobs.</p>
+<p>&nbsp;</p>
+<p>That&#8217;s insane!</p>
+<p>&nbsp;</p>
+<p>How many jobs are on your Hudson servers?</p>
+<p>&nbsp;</p>
+<p>(I am currently relying on the html structure for Hudson version 2.1.2. It may work for other versions as well)</p>
+<p>&nbsp;</p>
+<div class="feedflare">
+<a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=_owG88DmthQ:x6IF_mgXjcQ:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=_owG88DmthQ:x6IF_mgXjcQ:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/jaw/posts?i=_owG88DmthQ:x6IF_mgXjcQ:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=_owG88DmthQ:x6IF_mgXjcQ:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=_owG88DmthQ:x6IF_mgXjcQ:dnMXMwOfBR0"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=dnMXMwOfBR0" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/jaw/posts/~4/_owG88DmthQ" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://justaddwater.dk/2012/06/14/count-number-of-jobs-in-hudson/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Get started using advanced web fonts today</title>
+		<link>http://justaddwater.dk/2012/02/24/get-started-using-advanced-webfonts-today/</link>
+		<comments>http://justaddwater.dk/2012/02/24/get-started-using-advanced-webfonts-today/#comments</comments>
+		<pubDate>Fri, 24 Feb 2012 16:00:05 +0000</pubDate>
+		<dc:creator><![CDATA[Jesper Rønn-Jensen]]></dc:creator>
+				<category><![CDATA[Web Development]]></category>
+		<category><![CDATA[Web Standards]]></category>
+		<category><![CDATA[webdevelopment]]></category>
+		<category><![CDATA[webfonts]]></category>
+
+		<guid isPermaLink="false">http://justaddwater.dk/?p=1580</guid>
+		<description><![CDATA[I saw this example on a blog today:
+
+<a href="http://justaddwater.dk/2012/02//24/get-started-using-advanced-web-fonts-today"><img class="aligncenter size-full wp-image-1581" title="web-font-example" src="http://justaddwater.dk/wp-content/uploads/2012/02/web-font-example.png" alt="" width="250" height="106" /></a>]]></description>
+				<content:encoded><![CDATA[<p>I saw this example on <a href="http://uxcampcph.org/">a blog today</a>:</p>
+<p><a href="http://justaddwater.dk/wp-content/uploads/2012/02/web-font-example.png"><img class="aligncenter size-full wp-image-1581" title="web-font-example" src="http://justaddwater.dk/wp-content/uploads/2012/02/web-font-example.png" alt="" width="250" height="106" /></a></p>
+<p>Studying the code, it turns out this is just <a href="https://developers.google.com/webfonts/docs/getting_started">clever use of Google&#8217;s font api</a>. What you essentially do is to add this to your &lt;HEAD&gt; element:</p>
+<blockquote>
+<pre>&lt;!-- Google Fonts --&gt; 
+&lt;link href='<a href="http://fonts.googleapis.com/css?family=Cabin Sketch:bold">http://fonts.googleapis.com/css?family=Cabin Sketch:bold</a>' rel='stylesheet' type='text/css' /&gt; 
+&lt;style type="text/css" media="screen"&gt; 
+  h1 { font-family: 'Cabin Sketch', arial, serif; } 
+  .entry-title { 
+    font-family:'Cabin Sketch'; 
+  } 
+&lt;/style&gt;</pre>
+</blockquote>
+<p>Now the stylesheet referenced takes care of the rest. It&#8217;s as simple as that!</p>
+<h2>Browser support</h2>
+<p>The best part of this, is that it works for all modern browsers, and also for old IE versions (down to IE6).</p>
+<p>From<a href="https://developers.google.com/webfonts/faq"> googles FAQ</a>:</p>
+<blockquote><p><strong>What browsers are supported?</strong></p>
+<p>The Google Web Fonts API is compatible with the following browsers:</p>
+<ul>
+<li>Google Chrome: version 4.249.4+</li>
+<li>Mozilla Firefox: version: 3.5+</li>
+<li>Apple Safari: version 3.1+</li>
+<li>Opera: version 10.5+</li>
+<li>Microsoft Internet Explorer: version 6+</li>
+</ul>
+<p><strong>Does the Google Web Fonts API work on mobile devices?</strong></p>
+<p>The Google Web Fonts API works reliably on the vast majority of modern mobile operating systems, including Android 2.2+ and iOS 4.2+ (iPhone, iPad, iPod). Support for earlier iOS versions is limited.</p></blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>Bandwidth considerations</h2>
+<p>One word of caution: Think twice before adding a lot of extra bytes to your web application. You should only add assets to it if it <em>really makes a difference for your end users!</em></p>
+<p>&nbsp;</p>
+<blockquote>
+<pre></pre>
+</blockquote>
+<div class="feedflare">
+<a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=U9JcNH57xvg:dZ2OIdchktM:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=U9JcNH57xvg:dZ2OIdchktM:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/jaw/posts?i=U9JcNH57xvg:dZ2OIdchktM:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=U9JcNH57xvg:dZ2OIdchktM:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=U9JcNH57xvg:dZ2OIdchktM:dnMXMwOfBR0"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=dnMXMwOfBR0" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/jaw/posts/~4/U9JcNH57xvg" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://justaddwater.dk/2012/02/24/get-started-using-advanced-webfonts-today/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>Criteria for the Capgemini Software Engineer Certification</title>
+		<link>http://justaddwater.dk/2012/02/14/criteria-for-the-capgemini-software-engineer-certification/</link>
+		<comments>http://justaddwater.dk/2012/02/14/criteria-for-the-capgemini-software-engineer-certification/#comments</comments>
+		<pubDate>Tue, 14 Feb 2012 22:38:42 +0000</pubDate>
+		<dc:creator><![CDATA[Jesper Rønn-Jensen]]></dc:creator>
+				<category><![CDATA[capgemini]]></category>
+		<category><![CDATA[certification]]></category>
+
+		<guid isPermaLink="false">http://justaddwater.dk/?p=1571</guid>
+		<description><![CDATA[It turns out i could not find any public web description of the certification I took last autumn while working with Capgemini. I ended up at Level 2, which will have to meet all criteria from level 1 + the additional criteria from level 2. So for convenience i will post all details here. The [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>It turns out i could not find any public web description of the certification I took last autumn while working with Capgemini.</p>
+<p>I ended up at Level 2, which will have to meet all criteria from level 1 + the additional criteria from level 2.</p>
+<p>So for convenience i will post all details here. </p>
+<p>The table below is extracted from my certification sheet:</p>
+<p>(bwt, i also have put the table below as a <a href='http://justaddwater.dk/wp-content/uploads/2012/02/software-engineer-Certification-Criteria.html'>software engineer Certification Criteria</a>) </p>
+<h2>Capgemini Certification criteria for Software Engineer, level 1-4 <small>copied September 2011</small></h2>
+<style>.tblGenFixed td {padding:0 3px;overflow:hidden;white-space:normal;letter-spacing:0;word-spacing:0;background-color:#fff;z-index:1;border-top:0px none;border-left:0px none;border-bottom:1px solid rgb(255,255,255);border-bottom:1px solid rgba(204, 204, 204, 0);border-right:1px solid rgb(255,255,255);border-right:1px solid rgba(204, 204, 204, 0);} .dn {display:none} .tblGenFixed td.s37 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333333;text-decoration:none;text-align:center;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s36 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:center;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s35 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:bold;font-style:normal;color:#666699;text-decoration:none;text-align:center;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s34 {background-color:white;font-family:verdana;font-size:120.0%;font-weight:bold;font-style:normal;color:#808080;text-decoration:none;text-align:left;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s33 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:center;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;border-left:1px solid black;} .tblGenFixed td.s32 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:1px solid black;border-bottom:;} .tblGenFixed td.s31 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#000080;text-decoration:none;text-align:left;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s30 {background-color:white;font-family:arial,sans,sans-serif;font-size:100.0%;font-weight:normal;font-style:normal;text-decoration:none;vertical-align:bottom;white-space:normal;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s78 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:normal;font-style:normal;color:#808080;text-decoration:none;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s79 {background-color:white;font-family:arial,sans,sans-serif;font-size:80.0%;font-weight:normal;font-style:normal;color:#000000;text-decoration:none;text-align:left;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s76 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:left;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s77 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s39 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:left;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s74 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s75 {background-color:white;font-family:arial,sans,sans-serif;font-size:80.0%;font-weight:normal;font-style:normal;color:#000000;text-decoration:none;text-align:left;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s38 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#000080;text-decoration:none;text-align:left;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s73 {background-color:white;font-family:arial,sans,sans-serif;font-size:80.0%;font-weight:normal;font-style:normal;color:#000000;text-decoration:none;text-align:left;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s72 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s71 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:bold;font-style:normal;color:#666699;text-decoration:none;text-align:center;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s70 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:left;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s46 {background-color:white;font-family:verdana;font-size:120.0%;font-weight:bold;font-style:normal;color:#333399;text-decoration:none;text-align:center;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s45 {background-color:white;font-family:verdana;font-size:110.0%;font-weight:bold;font-style:normal;color:#FF0000;text-decoration:none;text-align:left;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:;border-left:1px solid #CCC;} .tblGenFixed td.s48 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:left;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s47 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:normal;font-style:normal;color:#333333;text-decoration:none;text-align:center;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s42 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#000000;text-decoration:none;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s41 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:left;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s44 {background-color:white;font-family:arial,sans,sans-serif;font-size:100.0%;font-weight:normal;font-style:normal;text-decoration:none;vertical-align:bottom;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;border-left:1px solid #CCC;} .tblGenFixed td.s43 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:left;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s49 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:right;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s40 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#000080;text-decoration:none;text-align:left;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s55 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:right;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s54 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:normal;font-style:normal;color:#333333;text-decoration:none;text-align:center;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s53 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:normal;font-style:normal;color:#808080;text-decoration:none;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s52 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:bold;font-style:normal;color:#808080;text-decoration:none;text-align:left;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s59 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#000080;text-decoration:none;text-align:left;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s58 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:right;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s57 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:normal;font-style:normal;color:#333333;text-decoration:none;text-align:center;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s56 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:right;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s29 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:center;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:;border-left:1px solid black;} .tblGenFixed td.s27 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#000080;text-decoration:none;text-align:left;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s28 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:1px solid black;border-bottom:;} .tblGenFixed td.s9 {background-color:white;font-family:arial,sans,sans-serif;font-size:100.0%;font-weight:normal;font-style:normal;text-decoration:none;vertical-align:bottom;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s25 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:left;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s26 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333333;text-decoration:none;text-align:center;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s23 {background-color:white;font-family:verdana;font-size:120.0%;font-weight:bold;font-style:normal;color:#808080;text-decoration:none;text-align:left;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s7 {background-color:#333399;font-family:verdana;font-size:80.0%;font-weight:bold;font-style:normal;color:#C0C0C0;text-decoration:none;text-align:center;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;border-left:1px solid black;} .tblGenFixed td.s24 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:bold;font-style:normal;color:#666699;text-decoration:none;text-align:center;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s8 {background-color:#ffcc99;font-family:verdana;font-size:120.0%;font-weight:bold;font-style:normal;color:#333399;text-decoration:none;text-align:left;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s21 {background-color:#ffcc99;font-family:verdana;font-size:120.0%;font-weight:bold;font-style:normal;color:#333399;text-decoration:none;text-align:left;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s50 {background-color:white;font-family:arial,sans,sans-serif;font-size:80.0%;font-weight:normal;font-style:normal;color:#000000;text-decoration:none;text-align:left;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:;border-left:1px solid black;} .tblGenFixed td.s5 {background-color:white;font-family:verdana;font-size:120.0%;font-weight:bold;font-style:normal;color:#333399;text-decoration:none;text-align:center;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s22 {background-color:white;font-family:arial,sans,sans-serif;font-size:100.0%;font-weight:normal;font-style:normal;text-decoration:none;vertical-align:bottom;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s6 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:bold;font-style:normal;color:#333399;text-decoration:none;text-align:center;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:1px solid black;border-bottom:;} .tblGenFixed td.s51 {background-color:white;font-family:arial,sans,sans-serif;font-size:80.0%;font-weight:normal;font-style:normal;color:#000000;text-decoration:none;text-align:left;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;border-left:1px solid black;} .tblGenFixed td.s3 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:center;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:;border-left:1px solid black;} .tblGenFixed td.s4 {background-color:white;font-family:arial,sans,sans-serif;font-size:100.0%;font-weight:normal;font-style:normal;text-decoration:none;vertical-align:bottom;white-space:normal;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s20 {background-color:#333399;font-family:verdana;font-size:80.0%;font-weight:bold;font-style:normal;color:#C0C0C0;text-decoration:none;text-align:center;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;border-left:1px solid black;} .tblGenFixed td.s0 {background-color:white;font-family:arial,sans,sans-serif;font-size:100.0%;font-weight:normal;font-style:normal;text-decoration:none;vertical-align:bottom;white-space:normal;overflow:hidden;border-top:1px solid #CCC;border-right:;border-bottom:1px solid black;border-left:1px solid #CCC;} .tblGenFixed td.s64 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:right;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s63 {background-color:white;font-family:arial,sans,sans-serif;font-size:100.0%;font-weight:normal;font-style:normal;text-decoration:none;vertical-align:bottom;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;border-left:1px solid #CCC;} .tblGenFixed td.s2 {background-color:#ffcc99;font-family:verdana;font-size:120.0%;font-weight:bold;font-style:normal;color:#333399;text-decoration:none;text-align:center;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;border-left:1px solid black;} .tblGenFixed td.s66 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:left;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s1 {background-color:white;font-family:arial,sans,sans-serif;font-size:100.0%;font-weight:normal;font-style:normal;text-decoration:none;vertical-align:bottom;white-space:normal;overflow:hidden;border-top:1px solid #CCC;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s65 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:center;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s68 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:center;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s67 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:right;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:;} .tblGenFixed td.s69 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:right;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s16 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s17 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:1px solid black;border-bottom:1px solid black;} .tblGenFixed td.s18 {background-color:white;font-family:arial,sans,sans-serif;font-size:80.0%;font-weight:normal;font-style:normal;color:#000000;text-decoration:none;text-align:left;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;border-left:1px solid black;} .tblGenFixed td.s19 {background-color:white;font-family:arial,sans,sans-serif;font-size:80.0%;font-weight:normal;font-style:normal;color:#000000;text-decoration:none;text-align:left;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s12 {background-color:white;font-family:verdana;font-size:120.0%;font-weight:bold;font-style:normal;color:#808080;text-decoration:none;text-align:left;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s13 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:bold;font-style:normal;color:#666699;text-decoration:none;text-align:center;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s14 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:left;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s15 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#333333;text-decoration:none;text-align:center;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s60 {background-color:white;font-family:verdana;font-size:100.0%;font-weight:normal;font-style:normal;color:#000080;text-decoration:none;text-align:left;vertical-align:middle;white-space:normal;overflow:hidden;border-right:;border-bottom:1px solid black;} .tblGenFixed td.s61 {background-color:white;font-family:arial,sans,sans-serif;font-size:100.0%;font-weight:normal;font-style:normal;text-decoration:none;vertical-align:bottom;white-space:normal;overflow:hidden;border-right:;border-bottom:;border-left:1px solid #CCC;} .tblGenFixed td.s10 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:1px solid black;border-bottom:1px solid black;} .tblGenFixed td.s11 {background-color:white;font-family:verdana;font-size:80.0%;font-weight:normal;font-style:normal;color:#333399;text-decoration:none;text-align:center;vertical-align:middle;white-space:nowrap;overflow:hidden;border-right:;border-bottom:1px solid black;border-left:1px solid black;} .tblGenFixed td.s62 {background-color:white;font-family:arial,sans,sans-serif;font-size:100.0%;font-weight:normal;font-style:normal;text-decoration:none;vertical-align:bottom;white-space:normal;overflow:hidden;border-right:;border-bottom:;border-left:1px solid #CCC;} </style>
+<table border=0 cellpadding=0 cellspacing=0 class='tblGenFixed' id='tblMain'>
+<tr class='rShim'>
+<td class='rShim' style='width:0;'></td>
+<td class='rShim' style='width:36px;'></td>
+<td class='rShim' style='width:59px;'></td>
+<td class='rShim' style='width:20px;'></td>
+<td class='rShim' style='width:277px;'></td>
+<td class='rShim' style='width:27px;'></td>
+<td class='rShim' style='width:318px;'></td>
+<td class='rShim' style='width:22px;'></td>
+<td class='rShim' style='width:207px;'></td>
+<td class='rShim' style='width:12px;'>
+<tr>
+<td class=hd>
+<p style='height:15px;'>.</p>
+</td>
+<td class='s0'></td>
+<td class='s1'></td>
+<td class='s1'></td>
+<td class='s1'></td>
+<td class='s1'></td>
+<td class='s1'></td>
+<td class='s1'></td>
+<td class='s1'></td>
+<td class='s1'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:35px;'>.</p>
+</td>
+<td colspan=9 class='s2'>Level 1</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:37px;'>.</p>
+</td>
+<td class='s3'></td>
+<td class='s4'></td>
+<td class='s4'></td>
+<td class='s4'></td>
+<td class='s4'></td>
+<td class='s5'>Expectations</td>
+<td class='s4'></td>
+<td class='s5'>KPI</td>
+<td class='s6'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:20px;'>.</p>
+</td>
+<td class='s7'>1</td>
+<td colspan=3 class='s8'>Personal Profile</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s10'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:39px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Consulting </td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s13'></td>
+<td class='s14'>Clearly explain issues, suggest way forward with client interaction</td>
+<td class='s15'></td>
+<td class='s16'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:38px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Versatility and Vocation</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s13'></td>
+<td class='s14'>Demonstrate enthusiasm for Technology and S/W Engineering</td>
+<td class='s15'></td>
+<td class='s14'>Personal Development in direction of level 2 SEC</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:29px;'>.</p>
+</td>
+<td class='s18'></td>
+<td colspan=3 class='s12'>Technology Leadership</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s19'></td>
+<td class='s14'>not applicable</td>
+<td class='s15'></td>
+<td class='s16'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s20'>2</td>
+<td colspan=3 class='s21'>SE Experience &#8211; Client Exposure</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:220px;'>.</p>
+</td>
+<td class='s18'></td>
+<td colspan=3 class='s12'>Client Delivery Experience</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s19'></td>
+<td class='s14'>Successfully delivered within a client environment in one discipline</td>
+<td class='s15'></td>
+<td class='s14'>Provide individual performance meeting/exceeding expectations which resulted in two successful engagements, or provided individual performance meeting/exceeding expectations which resulted in 200 or more days of a successful engagement (engagement not necessarily complete) </td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:34px;'>.</p>
+</td>
+<td class='s18'></td>
+<td colspan=3 class='s12'>Leadership and Management</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s19'></td>
+<td class='s14'>Basic experience</td>
+<td class='s15'></td>
+<td class='s14'>Member of team with delivery ownership</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:24px;'>.</p>
+</td>
+<td class='s18'></td>
+<td colspan=3 class='s12'>Sales and Account Contribution</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s19'></td>
+<td class='s14'>not applicable</td>
+<td class='s15'></td>
+<td class='s14'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s20'>3</td>
+<td colspan=3 class='s21'>Skills and Contribution</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:48px;'>.</p>
+</td>
+<td class='s3'></td>
+<td colspan=3 class='s23'>Structured Methods</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s24'></td>
+<td class='s25'>Received briefing</td>
+<td class='s26'></td>
+<td class='s27'>Experience in at least 1 SE method (e.g. RUP, SLIM, Configuration Management, etc)</td>
+<td class='s28'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:29px;'>.</p>
+</td>
+<td class='s29'></td>
+<td colspan=3 class='s30'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s30'></td>
+<td class='s30'></td>
+<td class='s30'></td>
+<td class='s31'>Received fundamental training</td>
+<td class='s32'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:35px;'>.</p>
+</td>
+<td class='s33'></td>
+<td colspan=3 class='s34'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s35'></td>
+<td class='s36'></td>
+<td class='s37'></td>
+<td class='s38'>Is able to perform within project without the need for prior training</td>
+<td class='s10'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:67px;'>.</p>
+</td>
+<td class='s3'></td>
+<td colspan=3 class='s23'>Software Engineering Skills</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s24'></td>
+<td class='s39'>Masters 1 SE Discipline / Masters 1 programming language / Masters 1 vendor-specific technology</td>
+<td class='s26'></td>
+<td class='s40'>Works without supervision in 1 SE Discipline. External Certification is &quot;nice to have&quot;.</td>
+<td class='s28'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:33px;'>.</p>
+</td>
+<td class='s33'></td>
+<td colspan=3 class='s34'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s35'></td>
+<td class='s41'>Understands, at a high-level, the various SE disciplines and how they are interrelated</td>
+<td class='s37'></td>
+<td class='s42'></td>
+<td class='s10'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:75px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Contribution to Community</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s13'></td>
+<td class='s14'>Member and active contributor of a Community of Practice (CoP).</td>
+<td class='s15'></td>
+<td class='s43'>Contributed at least one piece of content to the CoP. Pre-requisite for the applicant to be a part of SE community on KM2.0.</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:50px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Developing Others</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s13'></td>
+<td class='s14'>Coaching of peers in project, or<br />Coaching candidate through the SE certification process</td>
+<td class='s15'></td>
+<td class='s16'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:20px;'>.</p>
+</td>
+<td class='s44'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:34px;'>.</p>
+</td>
+<td colspan=9 class='s2'>Level 2</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:28px;'>.</p>
+</td>
+<td colspan=4 class='s45'>MEETS ALL LEVEL 1 CRITERIA, PLUS:</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s4'></td>
+<td class='s46'>Expectations</td>
+<td class='s4'></td>
+<td class='s5'>KPI</td>
+<td class='s6'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s7'>1</td>
+<td colspan=3 class='s8'>Personal Profile</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s10'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:33px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Consulting </td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s47'></td>
+<td class='s48'>Communicate clearly the relevance of a solution</td>
+<td class='s49'></td>
+<td class='s14'>Can explain the benefits of methods to client</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Versatility and Vocation</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s47'></td>
+<td class='s48'>&gt;&gt;&gt; same as preceding level</td>
+<td class='s49'></td>
+<td class='s16'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:84px;'>.</p>
+</td>
+<td class='s18'></td>
+<td colspan=3 class='s12'>Technology Leadership</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s47'></td>
+<td class='s14'>Published within CoP</td>
+<td class='s49'></td>
+<td class='s43'>Knows B&#39;s and C&#39;s within 1 technology related to business issues, presents this within Capgemini or project</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s20'>2</td>
+<td colspan=3 class='s21'>SE Experience &#8211; Client Exposure</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:237px;'>.</p>
+</td>
+<td class='s18'></td>
+<td colspan=3 class='s12'>Client Delivery experience</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s47'></td>
+<td class='s14'>Multiple successful deliveries within a client environment within 2 disciplines, aware of distributed working approaches (off-shore, near shore capability)</td>
+<td class='s49'></td>
+<td class='s14'>Provide individual performance meeting/exceeding expectations which resulted in an additional 2 successful engagements (4 total), or provided individual performance meeting/exceeding expectations which resulted in an additional 400 or more days of a successful engagement (engagement not necessarily complete) </td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:33px;'>.</p>
+</td>
+<td class='s18'></td>
+<td colspan=3 class='s12'>Leadership and Management</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s47'></td>
+<td class='s14'>Guides individuals and groups toward desired outcomes</td>
+<td class='s49'></td>
+<td class='s43'>Team leader with delivery ownership</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:33px;'>.</p>
+</td>
+<td class='s50'></td>
+<td colspan=3 class='s23'>Sales and Account Contribution</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s4'></td>
+<td class='s25'>Contributed to a bid/proposal </td>
+<td class='s4'></td>
+<td class='s25'>Has supported a bid in own area of expertise</td>
+<td class='s28'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:33px;'>.</p>
+</td>
+<td class='s51'></td>
+<td class='s34'></td>
+<td class='s52'></td>
+<td class='s53'></td>
+<td class='s54'></td>
+<td class='s55'></td>
+<td class='s56'></td>
+<td class='s41'>Holds presentations in own area for clients</td>
+<td class='s10'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s20'>3</td>
+<td colspan=3 class='s21'>Skills and Contribution</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:33px;'>.</p>
+</td>
+<td class='s3'></td>
+<td colspan=3 class='s23'>Structured Methods</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s57'></td>
+<td class='s25'>Trained in all aspects relevant to Software Engineering</td>
+<td class='s58'></td>
+<td class='s25'>Experience with at least 1 SE methodology</td>
+<td class='s28'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s33'></td>
+<td colspan=3 class='s34'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s54'></td>
+<td class='s41'></td>
+<td class='s56'></td>
+<td class='s41'>Trained  in RUP and/or SLIM</td>
+<td class='s10'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:67px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Software Engineering Skills</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s47'></td>
+<td class='s14'>Externally recognized validation of technology or Software Engineering area</td>
+<td class='s49'></td>
+<td class='s59'>Externally recognized validation/certification of technology or Software Engineering area</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:36px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Contribution to Community</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s47'></td>
+<td class='s14'>Participate actively in at least one CoP</td>
+<td class='s49'></td>
+<td class='s60'>Contributed multiple pieces of content to the CoP</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:55px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Developing others</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s47'></td>
+<td class='s14'>Coaching of peers/juniors on project, or<br />Coaching candidates through the SE certification process</td>
+<td class='s49'></td>
+<td class='s43'>Level 1 or 2 SE certification obtained for persons coached through the certification process</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s61'></td>
+<td class='s4'></td>
+<td class='s4'></td>
+<td class='s4'></td>
+<td class='s4'></td>
+<td class='s4'></td>
+<td class='s4'></td>
+<td class='s4'></td>
+<td class='s4'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s62'></td>
+<td class='s30'></td>
+<td class='s30'></td>
+<td class='s30'></td>
+<td class='s30'></td>
+<td class='s30'></td>
+<td class='s30'></td>
+<td class='s30'></td>
+<td class='s30'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:20px;'>.</p>
+</td>
+<td class='s63'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:34px;'>.</p>
+</td>
+<td colspan=9 class='s2'>Level 3</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:26px;'>.</p>
+</td>
+<td colspan=4 class='s45'>MEETS ALL LEVEL 1 &amp; 2 CRITERIA, PLUS:</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s4'></td>
+<td class='s46'>Expectations</td>
+<td class='s4'></td>
+<td class='s5'>KPI</td>
+<td class='s6'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s7'>1</td>
+<td colspan=3 class='s8'>Personal Profile</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s10'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:34px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Consulting </td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s64'></td>
+<td class='s48'>Communicate clearly the Business Benefits</td>
+<td class='s65'></td>
+<td class='s16'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:31px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Versatility and Vocation</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s64'></td>
+<td class='s48'>&gt;&gt;&gt; same as preceding level</td>
+<td class='s65'></td>
+<td class='s16'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:54px;'>.</p>
+</td>
+<td class='s18'></td>
+<td colspan=3 class='s12'>Technology Leadership</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s64'></td>
+<td class='s14'>Key note speaker/contributor</td>
+<td class='s65'></td>
+<td class='s14'>Has explained new technology to client and it&#39;s impact on business.<br />Published within Capgemini</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:26px;'>.</p>
+</td>
+<td class='s18'></td>
+<td colspan=3 class='s12'>English Language</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s64'></td>
+<td class='s66'>Fluent in English language</td>
+<td class='s65'></td>
+<td class='s43'> </td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s20'>2</td>
+<td colspan=3 class='s21'>SE Experience &#8211; Client Exposure</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:203px;'>.</p>
+</td>
+<td class='s18'></td>
+<td colspan=3 class='s12'>Client Delivery experience</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s64'></td>
+<td class='s14'>At least one client project stream lead, exposure to distributed working approaches (e.g., off-shore, near shore working); thorough knowledge in all SE disciplines, strong experience across 2 or more SE disciplines; evidence that they have brought in xlob business and pull-through; Engagement QA experience</td>
+<td class='s65'></td>
+<td class='s60'>Knowledge / experience of distributed delivery and international working (could include Rightshore™ for SE&#39;s training)</p>
+<p>and / or</p>
+<p>Exposure to international working (including facilitation of multiple Capgemini University courses)</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:67px;'>.</p>
+</td>
+<td class='s18'></td>
+<td colspan=3 class='s12'>Leadership and Management</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s64'></td>
+<td class='s14'>EM1 equivalent (Note, we are looking for the characteristics, not that EM Certification as a pre-requisite)</td>
+<td class='s65'></td>
+<td class='s43'>Has knowledge of project-issues related to level EM1 (not the project managers skills)</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:84px;'>.</p>
+</td>
+<td class='s18'></td>
+<td colspan=3 class='s12'>Sales and Account Contribution</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s64'></td>
+<td class='s14'>Multiple winning bid contributions, technical lead on a significant bid, evidence of winning pull-through or add-on business to existing account; strong knowledge of at least two service offers</td>
+<td class='s65'></td>
+<td class='s16'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s20'>3</td>
+<td colspan=3 class='s21'>Skills and Contribution</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:50px;'>.</p>
+</td>
+<td class='s3'></td>
+<td colspan=3 class='s23'>Structured Methods</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s67'></td>
+<td class='s25'>Able to apply and adapt according to context<br />Architect Level 1 equivalent knowledge</td>
+<td class='s68'></td>
+<td class='s25'>Can explain impact of SE method to client within project situation</td>
+<td class='s28'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:50px;'>.</p>
+</td>
+<td class='s33'></td>
+<td colspan=3 class='s34'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s69'></td>
+<td class='s55'></td>
+<td class='s36'></td>
+<td class='s70'>Is able to adapt prior experience to client site used methods</td>
+<td class='s10'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:41px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Software Engineering Skills</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s64'></td>
+<td class='s14'>Awarded master level of certification in one SE area and awareness in at least one other</td>
+<td class='s65'></td>
+<td class='s43'>Proven knowledge of multiple vendor technologies</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:50px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Contribution to Community</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s64'></td>
+<td class='s14'>Participate actively in at least one CoP including giving of training classes, providing thought content/leadership</td>
+<td class='s65'></td>
+<td class='s60'>Contributed multiple pieces of content to the CoP</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:101px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Developing others</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s64'></td>
+<td class='s14'>Coaching others through the SE Certification process<br />Actively participate in ongoing development of SE certification program<br />Attended Master Class<br />Lead briefing and training sessions</td>
+<td class='s14'></td>
+<td class='s43'>Level 1, 2 or 3 SE certification obtained for person(s) coached through the certification process</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:20px;'>.</p>
+</td>
+<td class='s44'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:35px;'>.</p>
+</td>
+<td colspan=9 class='s2'>Level 4</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:24px;'>.</p>
+</td>
+<td colspan=4 class='s45'>MEETS ALL LEVEL 1, 2 &amp; 3 CRITERIA, PLUS:</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s4'></td>
+<td class='s46'>Expectations</td>
+<td class='s4'></td>
+<td class='s5'>KPI</td>
+<td class='s6'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s29'></td>
+<td class='s30'></td>
+<td class='s30'></td>
+<td class='s30'></td>
+<td class='s30'></td>
+<td class='s30'></td>
+<td class='s30'></td>
+<td class='s30'></td>
+<td class='s32'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s7'>1</td>
+<td colspan=3 class='s8'>Personal Profile</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s9'></td>
+<td class='s10'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:32px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Consulting </td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s71'></td>
+<td class='s14'>Guru speaker</td>
+<td class='s72'></td>
+<td class='s16'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:32px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Versatility and Vocation</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s71'></td>
+<td class='s48'>&gt;&gt;&gt; same as preceding level</td>
+<td class='s72'></td>
+<td class='s16'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:50px;'>.</p>
+</td>
+<td class='s50'></td>
+<td colspan=3 class='s23'>Technology Leadership</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s73'></td>
+<td class='s25'>Has presented at non-Capgemini conferences </td>
+<td class='s74'></td>
+<td class='s39'>Spreads and implements innovative thoughts and Capgemini point of view.</td>
+<td class='s28'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s51'></td>
+<td colspan=3 class='s9'></td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s75'></td>
+<td class='s76'></td>
+<td class='s77'></td>
+<td class='s41'>Publishes outside Capgemini</td>
+<td class='s10'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s18'></td>
+<td colspan=3 class='s12'>English Language</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s78'></td>
+<td class='s14'>Fluent in English language</td>
+<td class='s66'></td>
+<td class='s14'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s20'>2</td>
+<td colspan=3 class='s21'>SE Experience &#8211; Client Exposure</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:67px;'>.</p>
+</td>
+<td class='s18'></td>
+<td colspan=3 class='s12'>Client Delivery experience</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s79'></td>
+<td class='s14'>Multiple client project stream lead, strong experience across 3 or more SE disciplines<br />Engagement QA involvement in multi-national or multi-technology related engagements</td>
+<td class='s72'></td>
+<td class='s16'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:103px;'>.</p>
+</td>
+<td class='s18'></td>
+<td colspan=3 class='s12'>Leadership and Management</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s79'></td>
+<td class='s14'>EM Level 2 equivalent (Note, we are looking for the characteristics, not that EM Certification is a pre-requisite)<br />Select awareness international and risk components of EM Level 3.<br />Involved in developing new service offers.</td>
+<td class='s72'></td>
+<td class='s43'>Has knowledge of project-issues related to level EM2 (not the project managers skills) and international and risk aspects of EM3</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:33px;'>.</p>
+</td>
+<td class='s18'></td>
+<td colspan=3 class='s12'>Sales and Account Contribution</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s79'></td>
+<td class='s14'>Recognized business winner within and outside of region</td>
+<td class='s72'></td>
+<td class='s16'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:19px;'>.</p>
+</td>
+<td class='s20'>3</td>
+<td colspan=3 class='s21'>Skills and Contribution</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s22'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:28px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Structured Methods</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s71'></td>
+<td class='s14'>Able to innovate and find new ways</td>
+<td class='s72'></td>
+<td class='s16'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:28px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Software Engineering Skills</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s71'></td>
+<td class='s14'></td>
+<td class='s72'></td>
+<td class='s16'></td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:33px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Contribution to Community</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s71'></td>
+<td class='s14'>CoP Leader</td>
+<td class='s72'></td>
+<td class='s43'>Frequently contributes content related to SE</td>
+<td class='s17'></td>
+</tr>
+<tr>
+<td class=hd>
+<p style='height:108px;'>.</p>
+</td>
+<td class='s11'></td>
+<td colspan=3 class='s12'>Developing others</td>
+<td style='display:none;'></td>
+<td style='display:none;'></td>
+<td class='s71'></td>
+<td class='s14'>Coaching others through the SE Certification process<br />Actively participate in ongoing development of SE certification program<br />Led portions of a Master Class event<br />Led briefing and training sessions</td>
+<td class='s72'></td>
+<td class='s43'>Level 1, 2 or 3 SE certification obtained for person(s) coached through the certification process</td>
+<td class='s17'></td>
+</tr>
+</td>
+</tr>
+</table>
+<div class="feedflare">
+<a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=m30uMEcNpBQ:uVmtKRGm1ZI:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=m30uMEcNpBQ:uVmtKRGm1ZI:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/jaw/posts?i=m30uMEcNpBQ:uVmtKRGm1ZI:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=m30uMEcNpBQ:uVmtKRGm1ZI:7Q72WNTAKBA"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=7Q72WNTAKBA" border="0"></img></a> <a href="http://feeds.justaddwater.dk/~ff/jaw/posts?a=m30uMEcNpBQ:uVmtKRGm1ZI:dnMXMwOfBR0"><img src="http://feeds.feedburner.com/~ff/jaw/posts?d=dnMXMwOfBR0" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/jaw/posts/~4/m30uMEcNpBQ" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://justaddwater.dk/2012/02/14/criteria-for-the-capgemini-software-engineer-certification/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

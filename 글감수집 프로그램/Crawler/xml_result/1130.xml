@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>NaggingMachine</title>
+		<link>http://naggingmachine.tistory.com/</link>
+		<description>영원히 살 것처럼 꿈을 꾸고 내일 죽을 것처럼 오늘을 살아라.</description>
+		<language>ko</language>
+		<pubDate>Sun, 31 Aug 2014 19:22:49 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>naggingmachine</managingEditor>
+		<image>
+			<title>NaggingMachine</title>
+			<url>http://cfile26.uf.tistory.com/image/153A82044BC58A9453DB3A</url>
+			<link>http://naggingmachine.tistory.com</link>
+			<description>영원히 살 것처럼 꿈을 꾸고 내일 죽을 것처럼 오늘을 살아라.</description>
+		</image>
+		<item>
+			<title>Scroll to a specific div element , 특정 DIV 요소로 이동하기</title>
+			<link>http://naggingmachine.tistory.com/852</link>
+			<description>JIRA를 사용하는 중에 백로그의 항목이 길어져서 매번 위아래로 이동하기가 상당히 짜증났다. 스크롤할 때마다 귀찮음. 그래서 북마크에 등록시켜놓고 버튼 누를때마다 Backlog 상단으로 이동할 수 있도록 간단하게 스크립트를 짜봤다. 핵심은 JQuery에서 사용할 수 있도록 CSS Path 가져오는것(Chrome에서 요소 선택후에 CSS Path 구하면 됨)과 해당 div로 이동할 수 있도록 하는 scrollIntoView 호출하기. 주의할 점은 Jq..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-852-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://naggingmachine.tistory.com/852&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=naggingmachine.tistory.com&amp;media_type=10&amp;guid=naggingmachine.tistory.com%2F852&amp;regts=1409480338&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>TechnoBabbler</category>
+			<category>backlog</category>
+			<category>CSS</category>
+			<category>jira</category>
+			<category>jQuery</category>
+			<category>scroll</category>
+			<category>scrollIntoView</category>
+			<author>naggingmachine</author>
+			<guid>http://naggingmachine.tistory.com/852</guid>
+			<comments>http://naggingmachine.tistory.com/852#entry852comment</comments>
+			<pubDate>Sun, 31 Aug 2014 19:01:46 +0900</pubDate>
+		</item>
+		<item>
+			<title>ChromeOS as a linux system</title>
+			<link>http://naggingmachine.tistory.com/851</link>
+			<description>To install Korean language in XFCE http://chromebookparadise.wordpress.com/2013/05/13/how-to-change-language-on-xfce-linux-on-arm-chromebook/&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-851-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://naggingmachine.tistory.com/851&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=naggingmachine.tistory.com&amp;media_type=10&amp;guid=naggingmachine.tistory.com%2F851&amp;regts=1408538868&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>TechnoBabbler</category>
+			<author>naggingmachine</author>
+			<guid>http://naggingmachine.tistory.com/851</guid>
+			<comments>http://naggingmachine.tistory.com/851#entry851comment</comments>
+			<pubDate>Wed, 20 Aug 2014 21:47:48 +0900</pubDate>
+		</item>
+		<item>
+			<title>RoR로 사이트 개발하기</title>
+			<link>http://naggingmachine.tistory.com/850</link>
+			<description>아.. RoR 손뗀지 얼마나 됐다고 벌써부터 기억이 가물가물하다. 이래도 되는건가? 엄청 대단한 사이트는 아니더라도 감각을 유지하기 위해서라도 사이트 하나씩 만들어갈 필요는 있겠다. Django를 복습해볼까, 그냥? 그런데 하루 종일 일하다보면 시간이 여의치 않아서 그마저도 쉽지 않다. 꾸준히 뭔가하는 습관이 필요하다!&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-850-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://naggingmachine.tistory.com/850&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=naggingmachine.tistory.com&amp;media_type=10&amp;guid=naggingmachine.tistory.com%2F850&amp;regts=1407677696&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>BlahBlah</category>
+			<author>naggingmachine</author>
+			<guid>http://naggingmachine.tistory.com/850</guid>
+			<comments>http://naggingmachine.tistory.com/850#entry850comment</comments>
+			<pubDate>Sun, 10 Aug 2014 22:34:56 +0900</pubDate>
+		</item>
+		<item>
+			<title>서서 일하기</title>
+			<link>http://naggingmachine.tistory.com/849</link>
+			<description>생각만큼 쉽지 않다. 허리에 좀 도움이 될까 싶어서 시작해봤는데, 2주 정도 밖에 안했는데, 무릎에 물이 차는 기분이다. 2주 밖에 안해서 그런건지 아닌건지. 내 앞자리에 있는 Dan은 저리 잘하는데..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-849-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://naggingmachine.tistory.com/849&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=naggingmachine.tistory.com&amp;media_type=10&amp;guid=naggingmachine.tistory.com%2F849&amp;regts=1407677576&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>BlahBlah</category>
+			<author>naggingmachine</author>
+			<guid>http://naggingmachine.tistory.com/849</guid>
+			<comments>http://naggingmachine.tistory.com/849#entry849comment</comments>
+			<pubDate>Sun, 10 Aug 2014 22:32:56 +0900</pubDate>
+		</item>
+		<item>
+			<title>제대로 보기..눈으로 보고 가슴으로 간직하기</title>
+			<link>http://naggingmachine.tistory.com/848</link>
+			<description>책을 읽는다는것. 그 행위 자체에도 많은 의미가 있겠지만, 책 한권을 읽어도 그 중에서 기억나는 문구는 사실 그다지 많지 않다. 책을 몇십권 읽어도 때로는 그렇다. 책을 그렇게 많이 읽지는 못하지만, 가끔은 좋은 책을 보면서 평생 간직하고픈 문구를 발견하곤 한다. 대학교때 였을까? 리처드 파인만의 자서전을 읽었고, 어쩌면 내가 앞으로 평생 간직하게 될 중요한 깨달음을 얻게 되었다. 전체적인 내용은 이렇다. 어느날 파인만이 자기 아들과 산을 오르게 되..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-848-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://naggingmachine.tistory.com/848&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=naggingmachine.tistory.com&amp;media_type=10&amp;guid=naggingmachine.tistory.com%2F848&amp;regts=1405178640&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>BlahBlah</category>
+			<author>naggingmachine</author>
+			<guid>http://naggingmachine.tistory.com/848</guid>
+			<comments>http://naggingmachine.tistory.com/848#entry848comment</comments>
+			<pubDate>Sun, 13 Jul 2014 00:24:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>mkv 파일을 크롬 캐스트( Chrome Cast )에서 볼 수 있도록 변환하기</title>
+			<link>http://naggingmachine.tistory.com/847</link>
+			<description>크롬 브라우저를 사용하면 크롬 캐스트를 이용해서 동영상을 TV로 시청할 수 있습니다. 집에 아이가 있는 경우에는 꽤 유용한데요, mkv 파일이 크롬 브라우저에서 기본적으로 열리긴 하지만 문제는 음성이 나오지 않는다는것. 이걸 변환하기 위해서 이리저리 살펴봤는데, ffmpeg 이용하면 정말 쉽게 할 수 있네요. 아래와 같은 간단한 배치 파일로 쉽게 변환이 가능합니다. for %%a in (&quot;*.mkv&quot;) do ffmpeg -i &quot;%%a&quot; -vcodec..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-847-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://naggingmachine.tistory.com/847&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=naggingmachine.tistory.com&amp;media_type=10&amp;guid=naggingmachine.tistory.com%2F847&amp;regts=1404046993&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>TechnoBabbler</category>
+			<category>cast</category>
+			<category>chrome</category>
+			<category>mkv</category>
+			<category>MP4</category>
+			<category>변환</category>
+			<category>인코딩</category>
+			<category>크롬</category>
+			<category>크롬캐스트</category>
+			<author>naggingmachine</author>
+			<guid>http://naggingmachine.tistory.com/847</guid>
+			<comments>http://naggingmachine.tistory.com/847#entry847comment</comments>
+			<pubDate>Sun, 29 Jun 2014 22:03:13 +0900</pubDate>
+		</item>
+		<item>
+			<title>데스크톱과 모바일은 다르다.</title>
+			<link>http://naggingmachine.tistory.com/846</link>
+			<description>서우석 2014년 5월 27일 데스크톱과 모바일은 다르다. 그것은 비단 &quot;무선(無線)와 유선(有線)의 차이&quot;는 아니었다. 잡플래닛의 서비스는 특이하게도 데스크톱(이하 '웹') 버전을 우선 개발하고 분석된 결과를 토대로 모바일 버전을 개발하였다. 데스크톱 개발을 먼저한 이유는 화면에 보여주고자 하는 데이터들이 많았고 전체적인 사이트의 사용 방법을 익히기에, 그리고 사용자로부터 기업리뷰와 연봉정보, 면접정보등의 비교적 사용자 입력이 많은 정보들을 편하게..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-846-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://naggingmachine.tistory.com/846&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=naggingmachine.tistory.com&amp;media_type=10&amp;guid=naggingmachine.tistory.com%2F846&amp;regts=1401161545&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>Good articles</category>
+			<author>naggingmachine</author>
+			<guid>http://naggingmachine.tistory.com/846</guid>
+			<comments>http://naggingmachine.tistory.com/846#entry846comment</comments>
+			<pubDate>Tue, 27 May 2014 12:32:25 +0900</pubDate>
+		</item>
+		<item>
+			<title>Facebook의 like-box 를 div안에 통합하기</title>
+			<link>http://naggingmachine.tistory.com/844</link>
+			<description>Facebook의 like-box를 사이트내에서 통합하려고 할때 &lt;div&gt;의 형태의 코드를 생성하면 div가 초기화되지 않아서 화면에 아무것도 표시되지 않는 경우가 있습니다. 저도 이것때문에 고생이 이만저만이 아니었는데요, 이걸 해결해줄 수 있는 방법은 &lt;iframe&gt;을 사용하는 방법입니다. iframe로 embed하니까 완전 잘되네요. 가끔 보면 div는 사이트내에서 이동할 때 초기화되지 않는 경우가 많네요. &lt;iframe src=&quot;//www.fa..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-844-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://naggingmachine.tistory.com/844&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=naggingmachine.tistory.com&amp;media_type=10&amp;guid=naggingmachine.tistory.com%2F844&amp;regts=1397453332&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>TechnoBabbler</category>
+			<category>CSS</category>
+			<category>DIV</category>
+			<category>facebook</category>
+			<category>iframe</category>
+			<category>like-box</category>
+			<category>likebox</category>
+			<category>좋아요</category>
+			<category>페북</category>
+			<author>naggingmachine</author>
+			<guid>http://naggingmachine.tistory.com/844</guid>
+			<comments>http://naggingmachine.tistory.com/844#entry844comment</comments>
+			<pubDate>Mon, 14 Apr 2014 14:28:21 +0900</pubDate>
+		</item>
+		<item>
+			<title>Bootstrap 에서 autocomplete의 디자인 변경하기</title>
+			<link>http://naggingmachine.tistory.com/843</link>
+			<description>다음 코드를 원하는 CSS에 포함시켜서 bootstrap의 CSS를 override하면 됩니다. .ui-menu .ui-menu-item a.ui-state-focus, .ui-menu .ui-menu-item a.ui-state-active { color: white; font-weight: normal; margin: -1px; background-image: none; background-color: #00c675; }&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-843-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://naggingmachine.tistory.com/843&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=naggingmachine.tistory.com&amp;media_type=10&amp;guid=naggingmachine.tistory.com%2F843&amp;regts=1397453122&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>TechnoBabbler</category>
+			<category>AutoComplete</category>
+			<category>bootstrap</category>
+			<category>CSS</category>
+			<category>자동완성</category>
+			<author>naggingmachine</author>
+			<guid>http://naggingmachine.tistory.com/843</guid>
+			<comments>http://naggingmachine.tistory.com/843#entry843comment</comments>
+			<pubDate>Mon, 14 Apr 2014 14:25:22 +0900</pubDate>
+		</item>
+		<item>
+			<title>Search History - 구글 검색 결과에서 내가 클릭한것만 자동으로 보여주기</title>
+			<link>http://naggingmachine.tistory.com/842</link>
+			<description>[Search History(Chrome Extension) 다운로드하기] 그냥 나라는 사람은 검색 관련된 기술은 아는게 미천하지만 항상 관심은 많다. 오늘은 예전부터 쭉 불만족스럽다고 느껴왔던 구글 검색 기능에 대해서 한가지 해결책을 스스로 마련해보고자라는 순수한 생각에서 제작한 크롬 확장 앱(Chrome Extension), Search History를 소개하려고 한다. 어떤 기능이 필요했느냐 하면, 구글 검색 결과에서 내가 누른것만 먼저 보여주..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-842-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://naggingmachine.tistory.com/842&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=naggingmachine.tistory.com&amp;media_type=10&amp;guid=naggingmachine.tistory.com%2F842&amp;regts=1394031429&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>TechnoBabbler</category>
+			<category>chrome</category>
+			<category>extension</category>
+			<category>Google</category>
+			<category>History</category>
+			<category>Search</category>
+			<category>검색</category>
+			<category>결과</category>
+			<category>구글</category>
+			<category>기록</category>
+			<category>앱</category>
+			<category>크롬</category>
+			<category>확장</category>
+			<category>히스토리</category>
+			<author>naggingmachine</author>
+			<guid>http://naggingmachine.tistory.com/842</guid>
+			<comments>http://naggingmachine.tistory.com/842#entry842comment</comments>
+			<pubDate>Wed, 05 Mar 2014 23:56:41 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

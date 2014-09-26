@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[찬망이의 먹방 데이트]]></title>
+			<link>http://blog.naver.com/cksal9207</link>
+			
+			<description><![CDATA[맛집&여행을 포스팅 합니다.
+]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:42:46 +0900</pubDate>
+
+			
+				<item>
+					<author>cksal9207</author>
+					<category><![CDATA[맛집]]></category>
+					<title><![CDATA[[천호동] 뽕신]]></title>
+					<link>http://blog.naver.com/cksal9207/130170215168</link>
+					<guid>http://blog.naver.com/cksal9207/130170215168</guid>
+					<description><![CDATA[  언젠가부터 드는 생각, '블로그 해야지 나혼자 알기엔 너무나 맛있는 음식점들이 많다!'  언제나 그렇듯 생각하기는 쉽지만 행동하기는 어려운법.
+생각에서 행동으로 옮기는 데 3개월이 걸렸다. 
+블로그를 만들고 나서도 포스팅 하기 귀찮아 미룬게 1개월, 한달이 걸렸다.
+블로그를 막상 만들고 나서 많은 맛있는 음식점 중 어디 먼저 올리지? 고민으로 한달을 보냈다.
+그래서 결정한 곳이 천호동 뽕신! 
+&#65279;
+&#65279; 3~4년전, 여고를 다니던 때, 천호동에 맛있는 짬뽕집이 생겼다고 친구들이랑 룰루랄라 갔었다.
+모든 한국 사람들의 고민이라는 짜장 vs 짬뽕에서 매운걸 못먹는 난 항상 짜장을 골랐기에
+짬뽕집이라는 말.......]]></description>
+					<pubDate>Fri, 14 Jun 2013 22:28:25 +0900</pubDate>
+					<tag><![CDATA[뽕신,천호동맛집,천호뽕신,맛있는짬뽕,백뽕,마뽕,강동롯데시네마맛집,천호역맛집,하얀짬뽕,뽕신가는길성내동맛집]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

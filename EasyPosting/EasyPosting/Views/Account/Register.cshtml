@@ -1,0 +1,39 @@
+﻿@model EasyPosting.Models.RegisterViewModel
+@{
+    ViewBag.Title = "가입";
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+<div class="login-box animated fadeInDown">
+    <div class="login-box-title-logo">
+        EasyPosting
+    </div>
+    <div class="login-box-title">
+        마음에 드는 내용을 포스팅하고<br />
+        유명한 블로그를 만들어보세요.
+    </div>
+    <div class="register-box-content">
+        @using (Html.BeginForm("Register", "Account", FormMethod.Post))
+        {
+            @Html.AntiForgeryToken()
+
+            @Html.TextBoxFor(m => m.Email, new { @placeholder = "이메일" })
+            @Html.PasswordFor(m => m.Password, new { @placeholder = "비밀번호" })
+            @Html.PasswordFor(m => m.ConfirmPassword, new { @placeholder = "비밀번호 확인" })
+            @*@Html.ValidationMessageFor(m => m.Email, "이메일 혹은 암호가 잘못되었습니다.", new { @class = "login-box-error" })
+            @Html.ValidationMessageFor(m => m.Password, "이메일 혹은 암호가 잘못되었습니다.", new { @class = "login-box-error" })*@
+            @Html.ValidationSummary("", new { @class = "register-box-error" })
+
+            @*@Html.ValidationMessageFor(m => m.Email, "", new { @class = "login-box-error" })
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "login-box-error" })*@
+            <input type="submit" name="submit" id="submit" value="가입하기" />
+
+        }
+
+        <div class="half"><p>이미 가입하셨나요?</p></div>
+        <div class="half last"><a href="@Url.RouteUrl(new { controller = "Account", action = "Login" })">로그인하기</a></div>
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

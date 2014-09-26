@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>My Ubuntu</title>
+		<link>http://myubuntu.tistory.com/</link>
+		<description>의 맥과 아이폰, 리눅스 우분투 이야기</description>
+		<language>ko</language>
+		<pubDate>Tue, 09 Sep 2014 22:15:19 -0700</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>Mike Sierra</managingEditor>
+		<item>
+			<title>맥의 '내 문서' 경로를 바꿔보자... 아이클라우드로도 활용</title>
+			<link>http://myubuntu.tistory.com/855</link>
+			<description>&lt;en-note style=&quot;word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;&quot;&gt;
+맥에서 문서 작업을 한 후 저장하면, 기본적으로 내 문서(Documents) 폴더에 자료가 쌓인다.
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;이 '내 문서'의 경로를 다른 곳으로 바꾸는 방법.&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;두 가지 무른모가 필요, 심볼릭링커(SymbolicLinker)라는 무료 앱과 패스파인더(PathFinder)라는 파인더(Finder) 대체 유료앱이 필요. 요는 패스파인더가 아니더라도, 시스템 폴더 이름을 바꿀 수 있게 지원해주는 무른모가 있으면 됨. (터미널 명령으로도 가능)&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a href=&quot;http://seiryu.home.comcast.net/~seiryu/symboliclinker.html&quot; class=&quot;button black&quot;&gt;심볼릭링커 받기 | 무료&amp;nbsp;&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;다음 순서로 작업하면 된다.&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;1. Documents 폴더를 대체할 폴더를 원하는 HDD나 SSD에 새로 만든다.&lt;/div&gt;
+&lt;div&gt;2. 심볼릭링커를 이용해, 가상링크를 만든다. 아래 화면 처럼 ①&amp;nbsp;앞서 만든 폴더를 오른쪽 딸각 ②서비스에서 ③&amp;nbsp;Make Symbolic Link를 선택하면 된다. ‘Documents Symlink’라는 가상 링크가 생성된다.&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile2.uf.tistory.com/original/2740624353CA1EFF0C6E3C&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/2740624353CA1EFF0C6E3C&quot; filemime=&quot;image/jpeg&quot; filename=&quot;symboliclink.jpg&quot; height=&quot;422&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;3. 기존의&amp;nbsp;‘내 문서’ 폴더를 패스파인더로 찾아간다. 일반적으로 사용자&amp;gt; (사용자명) 폴더에 있다. 내 문서 안의 내용을 앞서 만든 Documents폴더로 옮기고, 아래 그림&amp;nbsp;①처럼 &amp;nbsp;‘내 문서’ 폴더 이름을 바꾼다.&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;[명령]-[이름 변경]을 통해&amp;nbsp;‘old_documents’ 정도.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;4. 앞서 Documents Symlink를 내 문서 폴더가 있는 곳에 복사해 넣고, ②&amp;nbsp;이름을 Documents로 바꾼다. 제대로 했다면 아래 그림 처럼 된다.&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile21.uf.tistory.com/original/212F624553CA1F010C4221&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/212F624553CA1F010C4221&quot; filemime=&quot;image/jpeg&quot; filename=&quot;pathfinder.jpg&quot; height=&quot;195&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;b&gt;장점과 단점.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;이렇게 해두면 OS X은 가상링크로 연결된 폴더를 기본 내 문서 폴더로 인식한다. 타임머신은 가상링크로 연결된 폴더를 기본 폴더로 인식해 안전을 위해 복사해두는 정성을 보인다.&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;단점은 외장 HDD에 내 문서를 설정해둔 후, 외장 HDD를 연결하지 않은 상태에서 맥을 부트하면 당연히 문제가 생긴다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;&lt;b&gt;응용.&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;또 다른 장점으로 드랍박스(Dropbox)나 아이클라우드(icloud) 같은 웹에 있는 폴더를 내 문서 폴더로 만들어버릴 수도 있다. &amp;nbsp;이렇게 하면 같은 서비스를 쓰는 맥에서는 모두 동일한 내 문서 환경을 조성할 수 있다. 즉 집의 아이맥이나 들고다니는 맥북프로나 내 문서 상태는 동일하게. 그러나 &amp;nbsp;이렇게 클라우드 서비스 상에 내 문서를 만들면 단점은 인터넷 속도가 느린 곳 또는 연결이 안되는 곳에서는 당연히 문제가 생길 수 있다는 점. 또 클라우드 서비스에 저장된 문서의 누출 가능성이 있다는 점이다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;/en-note&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+			<category>맥</category>
+			<category>Documents</category>
+			<category>Path Finder</category>
+			<category>Symbolic Linker</category>
+			<category>가상링크</category>
+			<category>내 문서</category>
+			<author>Mike Sierra</author>
+			<guid>http://myubuntu.tistory.com/855</guid>
+			<comments>http://myubuntu.tistory.com/855#entry855comment</comments>
+			<pubDate>Sat, 19 Jul 2014 00:34:37 -0700</pubDate>
+		</item>
+		<item>
+			<title>외부SSD로 아이맥부트 하려면?</title>
+			<link>http://myubuntu.tistory.com/854</link>
+			<description>&lt;en-note style=&quot;word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;&quot;&gt;128GB 인텔 SSD를 선물로 받은 김에&amp;nbsp;외부 SSD로 아이맥과 연결해, 현재 맥 속의 HDD를 대체해 쓰기로 작정.
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;준비1.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;일단 하드드라이브 껍데기(HDD enclosure)에 넣어 맥과 연결, 설치 준비 완료. &amp;nbsp;&lt;/div&gt;
+&lt;div&gt;(한국서는 HDD enclosure를 외장하드케이스라 부르던데, 콩글리시임. 껍데기도 좋은 표현은 아니겠으나…)&lt;/div&gt;
+&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;준비2.&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;앱스토어에서 오에스 탠(OS X) 내려받기. &amp;nbsp;&lt;/div&gt;
+&lt;div&gt;(다행이 이전에 매버릭스를 받아뒀음.)&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;준비3.&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;타임머신(TimeMachine)으로 현 상태 복사해 두기.&lt;/div&gt;
+&lt;div&gt;만약 현재 HDD보다 용량이 작은 SSD를 쓸 생각이라면, 내 문서(document), 음악(Music), 그림(Pictures) 폴더와 그 속의 내용은 또 다른 외장 HDD에 복사해두길 강력히 권함. &amp;nbsp;(즉 SSD말고 다른 외장 HDD는 이사를 위해 필수.) &amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;b&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;설치 첫 단계&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;준비한 SSD를 부트용으로 쓰려면 칸나누기(partitioning)를 다시 해줘야 함.&lt;/div&gt;
+&lt;div&gt;[utility]-[Disk Utility]를 실행.&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;아래 그림처럼 (1) 설치할 SDD를 선택, (2) ‘파티션’ 갈피 선택 (3) 이름은 마음대로, (4) 포맷(형식)은 Mac OS 확장(저널링) (5) 옵션 선택… 옵션 화면에서 맨 위에 ‘GUID Partition Table’ 항목 선택. (6) 적용. &amp;nbsp; &amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile4.uf.tistory.com/original/234D9A3453C77CC31B6989&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/234D9A3453C77CC31B6989&quot; filemime=&quot;image/jpeg&quot; filename=&quot;스크린샷 2014-07-17 오전 12.03.19.jpg&quot; height=&quot;392&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;설치 두 번째 단계&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;준비2에서 받아놓은 ‘OS X Mavericks 설치’ 앱을 실행.&lt;/div&gt;
+&lt;div&gt;사용권 계약 화면 후, ‘모든 디스크 보기’ 단추를 선택, (1)설치할 SSD를 선택해 (2) ‘설치’를 선택하면 일단 끝.&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile21.uf.tistory.com/original/217F314353C77CC51310D9&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/217F314353C77CC51310D9&quot; filemime=&quot;image/jpeg&quot; filename=&quot;스크린샷 2014-07-17 오전 12.12.16.jpg&quot; height=&quot;483&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;설치 후 설정 단계에 알아두면 좋은 점.&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;타임머신으로 복사해 두었다면, 간단하게 ‘응용프로그램’ 폴더 정도는 골라서 옮겨올 수 있음.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;이후 Macintosh HD (기본)을 포맷, 다른 외장 HDD에 복사해 둔, 내 문서, 그림, 음악 폴더를 복사해 넣음.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;iphoto나 itunes를 실행할 때, option(alt) 글쇠를 누른 상태에서 실행하면, 그림이나 음악 폴더 경로를 새로 지정해 줄 수 있음.&lt;/div&gt;
+&lt;div&gt;내 문서는 경로를 바꾸려면(즉 원래 설정과 다른 폴더를 지정하려면) 좀 더 작업이 필요함…. 다음 글에서 공개.&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/en-note&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+			<category>맥</category>
+			<category>boot</category>
+			<category>HDD</category>
+			<category>OSX</category>
+			<category>ssd</category>
+			<category>부트</category>
+			<category>아이맥</category>
+			<category>외부SSD로 아이맥 부트하기</category>
+			<author>Mike Sierra</author>
+			<guid>http://myubuntu.tistory.com/854</guid>
+			<comments>http://myubuntu.tistory.com/854#entry854comment</comments>
+			<pubDate>Thu, 17 Jul 2014 00:38:47 -0700</pubDate>
+		</item>
+		<item>
+			<title>맥에서 한∙영 전환을 글쇠 하나로 하기</title>
+			<link>http://myubuntu.tistory.com/853</link>
+			<description>&lt;en-note style=&quot;word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;&quot;&gt;
+맥에서 한∙영 전환을 쉽게 하는 방법을 찾다가 캐래비너(Karabiner)라는 무료 앱을 발견.&amp;nbsp;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;캐래비너는 원하는 기능을 원하는 글쇠에 할당해주는 앱. &amp;nbsp;예전 이름은 키리맵포맥북(KeyRemap4MacBook).&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;맥북 뿐만 아니라 아이맥, 맥미니에서도 물론 쓸 수 있음.&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;일단 제작자 웹사이트에서 받아서 설치.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;a href=&quot;https://pqrs.org/osx/karabiner/&quot; class=&quot;button black&quot;&gt;Karabiner 내려받기&lt;/a&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;다 내려받았으면, 실행, Karabiner.pkg라는 꾸러미가 뜨는데, control글쇠를 누른 상태에서 열면 질문 후 설치 과정으로 넘어감.&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;설치 후, 실행.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile9.uf.tistory.com/original/2675633753C62B1805002E&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/2675633753C62B1805002E&quot; filemime=&quot;image/jpeg&quot; filename=&quot;karabiner.jpg&quot; height=&quot;231&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;실행 화면에서, &amp;nbsp;(1) ‘Korean’입력 후, &amp;nbsp;(2) 애플 키보드 선택 해주면 끝.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;설정 후에는, Space글쇠 우측 command 글쇠는 한영 전환, 옆에 option글쇠는 한자 전환 글쇠로 작동하게 됨.&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/en-note&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+			<category>맥</category>
+			<category>karabiner</category>
+			<category>Keyboard remaping</category>
+			<category>맥북</category>
+			<category>아이맥</category>
+			<category>키보드</category>
+			<category>한영전환</category>
+			<author>Mike Sierra</author>
+			<guid>http://myubuntu.tistory.com/853</guid>
+			<comments>http://myubuntu.tistory.com/853#entry853comment</comments>
+			<pubDate>Wed, 16 Jul 2014 00:36:42 -0700</pubDate>
+		</item>
+		<item>
+			<title>외국서 한국 중계방송 보는 간단한 방법.</title>
+			<link>http://myubuntu.tistory.com/852</link>
+			<description>&lt;p&gt;&lt;font color=&quot;#000000&quot; face=&quot;ChosunilboNM&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;line-height: normal;&quot;&gt;또 슬쩍 동결 어쩌고 했던 마이우분투로 와서 글을 남깁니다. ㅎㅎ&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot; face=&quot;ChosunilboNM&quot; size=&quot;3&quot;&gt;&lt;span style=&quot;line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;!--?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?--&gt;
+
+&lt;span style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;외국서 사는 사람에게 한국 중계방송을 보는 것은 일종의 희망사항입니다.&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;이유는 한국팀을 응원하는 분위기를 타기 위해서 아닐까 싶습니다. 아무래도 타국에서 타국팀 중계방송을 할 때는 매우 객관적이며, 차분한 앵커의 해설을 듣게 됩니다. 특히 캐나다 중계방송은 매우 담담하죠.&amp;nbsp;&lt;br /&gt;
+&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;예를 들면 골이 들어가도… 한국은 일단 화면부터 난리가 나지만, 캐나다는 그렇지 않습니다. 아주 조용히. ‘Goal’ 이라고 말할 뿐.
+&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;남의 나라 중계방송에 열을 올릴 필요가 없기 때문에 그런가 하면, 사실 자국팀 경기마저 하키를 제외하고는 그렇게 흥을 돋구며 방송하는 경우를 본 적이 없네요.
+&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;그래서 기필코, 한국발 중계방송을 보고자하는 분들이 많습니다.
+&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;그러나 한국 방송국을 찾아가면, 외국에서 접속 시 방송권 문제로 보통 재생이 되지 않습니다. (이전에는, 약 3년 전에는 아예 윈도 아니면 재생도 안되는 한국방송이었답니다.)&amp;nbsp;
+&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;방법이 없는 것은 아닙니다. 브라우저에 덧대기(Plug-in)을 설치해서, 접속 국가를 한국으로&amp;nbsp;조정하면 됩니다.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;p style=&quot;clear: both; float: left;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:400px;margin-right:10px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile9.uf.tistory.com/original/255F994B53A0FB2E320C17&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/255F994B53A0FB2E320C17&quot; filemime=&quot;image/jpeg&quot; filename=&quot;스크린샷 2014-06-17 오후 7.29.54.jpg&quot; height=&quot;432&quot; style=&quot;margin-right:10px;&quot; width=&quot;400&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;올라(Hola) 란 앱이 그런 쪽으로 유명합니다.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;캐나다인들이 미국 방송을 웹에서 보기 위해 이 앱을 많이 쓰는데, 한국 방송국도 이것을 쓰니 보이더군요. &amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;앱이지만 독립적인 앱이라기 보다는 다른 브라우저와 결합해 쓰는 덧대기입니다. 저는 크롬+올라 조합을 쓰는 중 입니다.&amp;nbsp;&lt;/p&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;a href=&quot;http://hola.org/&quot;&gt;http://hola.org&lt;/a&gt;&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;사용법은 간단합니다. 위 주소로 가서 앱을 받아 설치합니다.&amp;nbsp;&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;참고로 해당 웹사이트 파란 단추를&amp;nbsp;누르면 앱(브라우저)을 받게 되는데, 그 앱보다는 덧대기를&amp;nbsp;받아 쓰세요.&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;파란 단추&amp;nbsp;아래 보면 아래 그림처럼&amp;nbsp;각 브라우저 상징이 보입니다. 크롬을 눌러 줍시다. (당연히 크롬이 설치돼 있을 것이라는 전제하에...)&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:314px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile2.uf.tistory.com/original/227CB14B53A0FEAE146798&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/227CB14B53A0FEAE146798&quot; filemime=&quot;image/jpeg&quot; filename=&quot;스크린샷 2014-06-17 오후 7.49.57.jpg&quot; height=&quot;59&quot; width=&quot;314&quot;/&gt;&lt;/span&gt;&lt;span class=&quot;cap1&quot; style=&quot;display:block;width:314px;&quot;&gt;여기서 크롬 상징을 선택. 딸각!&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;설치 후 대체로 브라우저를 껐다 켜면&amp;nbsp;&amp;nbsp;불꽃 상징이 주소 입력창 옆에 생깁니다. 이것을&amp;nbsp;눌러, 보고자하는 인터넷 주소를 넣고, 나라를 선택해주면 끝.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;만약 주소창 옆에 불꽃이 보이지 않으면, 아래 그림을 참고하세요.
+&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;a href=&quot;http://hola.org/chrome_troubleshoot&quot;&gt;http://hola.org/chrome_troubleshoot&lt;/a&gt;&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;이 앱의 원리는 간단히 최종 서버에, 외국에 사는 사용자의 아이피(IP) 위치를 사용자가 선택한 국가, 예를 들면 한국이라고 알리는 겁니다. 그래서 한국 전용 내용도 볼 수 있게 되는 것이죠. 달리 말하면 아이피 거르개(IP Filter)를 무력화시키는 앱이기도 합니다.&amp;nbsp;
+&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;여기서 이것이 불법이냐 하는 논쟁이 나올 수도 있겠는데요. 제가 사는 캐나다에서는 이것은 불법도 아니고, 또 제한도 없습니다.&amp;nbsp;
+&lt;/div&gt;&lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot; style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;불법 합법의 여부를 밝힌 것이 아니고, 아예 이런 앱 사용을 규제하는 관련법이 없기 때문에, 불법이 아니란 것이죠. &amp;nbsp;사람들이 보고 싶은 것을 막겠다는 것이 일종의 통제인데, 지나친 통제는 저는 옳지 않다고 봅니다.&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;물론 제 생각에는 아동 포르노물 같은 것을 제작, 유포하는 자들은 사형에 처해야 마땅하다고 봅니다만,&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;이런 분야 얘기하다보면 윤리, 철학 면에서 굉장히 깊은 얘기까지 들어가게되니 오늘은 여기 까지만... 예컨데 볼 수 있는 것과 보지 못하게 할 것은 무엇을 기준으로 정하느냐&amp;nbsp;부터 시작해... 아무튼&amp;nbsp;러시아전 보면서 먹은 치맥이 뱃속에 살아있어 산책이나 가렵니다.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;동포 여러분이 이상한 웹사이트 갔다가 바이러스 걸려서 고생하는 것보다는 이런 앱을 쓰는 것이 차라리 나으리라 봅니다.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;color: rgb(0, 0, 0); font-family: ChosunilboNM; font-size:12pt; line-height: normal;&quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=55160858&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>누리모</category>
+			<category>외국에서 한국 월드컵 중계방송을 보는 방법</category>
+			<author>Mike Sierra</author>
+			<guid>http://myubuntu.tistory.com/852</guid>
+			<comments>http://myubuntu.tistory.com/852#entry852comment</comments>
+			<pubDate>Tue, 17 Jun 2014 19:43:56 -0700</pubDate>
+		</item>
+		<item>
+			<title>영어도, 우리말도 아닌 전문 조어의 범람</title>
+			<link>http://myubuntu.tistory.com/851</link>
+			<description>&lt;p&gt;슬쩍, 마이 우분투로 와서 글을 하나 써봅니다.&lt;br /&gt;&lt;/p&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;해피맥으로 분가했지만, 해피맥은 워낙 인기가 없고, 마이우분투는 그동안 쓴 글(&lt;strike&gt;혹은 떡밥&lt;/strike&gt;) 때문인지 많이 보아주시거든요. 생각 같아서는 우분투으리를 외치며 돌아오는 것도 좋지만, 우분투으리를 쓰기에는 초여름 날씨가 너무 좋습니다. 저는 블로그나 웹보다 제 바쁜 일상에 우선 순위를 두기 때문에 블로그에 그다지 성실하지 않습니다. ㅎㅎ 하지만 매일 매일 양질의 정보를 제공하는 블로거를 보면 참 대단하다 싶기도 합니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;그런데 그 좋은&amp;nbsp;글 중에,&amp;nbsp;최근 맥이나 우분투 관련 글을 보면&amp;nbsp;&amp;nbsp;'전문조어' 또는&amp;nbsp;오염된 단어가 적잖게 보입니다. &amp;nbsp;누굴 비난하겠다 악심 품은 것은 아닙니다. 대부분 블로거들도 선의로 글을 쓰는데, 남들도 쓰니까 전문조어로 받아들이고 쓰시는 듯 합니다.&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;영어 단어가 있으면 그 발음의 첫 자를 한글로 따와 약자로 쓰더군요.&lt;/p&gt;&lt;p&gt;예를 들어 맥프레는 맥북프로 레티나의 약자. &amp;nbsp;&lt;/p&gt;&lt;p&gt;맥을 예로 들었지만, 요즘 디아블로3를 하는데, 이쪽은 더욱 오염이 무시무시하더군요.&amp;nbsp;&lt;/p&gt;&lt;p&gt;오늘 밤 어깨 방어구 하나 제작해볼까하여 관련 글을 하나 읽었는데, 이것이 과연 한국말인가&amp;nbsp;하는 거리감을 느꼈습니다.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;표현의 자유에 개입은 제 평소 생각과는 좀 거리가 있지만, '별로'라는 느낌 정도는 밝혀도 되겠지요?&lt;/p&gt;&lt;p&gt;단어를 따서&amp;nbsp;약자를 쓰는 조어법은 알파벳을 쓰는 나라에는 있지만,&amp;nbsp;한국어에서는 정통파가&amp;nbsp;아닌 듯 합니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;물론 많은 사람이 해당 조어법을 쓰면 문법이 될 수도 있겠지만, &amp;nbsp;&amp;nbsp;영어식 표현을 우리말에 적용해 새로 조어를 만들고, 그것이 소통을 '빨리 효과적으로 하는데&amp;nbsp;&amp;nbsp;편리하다'고 생각하는 것인지. '재미난다'거나 아니면 '특정 문화를 좋아하는 사람끼리 통하는 은어'를 통해 일종의 진입장벽을 하나 세우는 것인지도 모르겠지만 이건 좀 정확한 소통을 위해서는 적당한 방법이 아닌 듯 합니다.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;언어= 소통의 도구 라는 기준으로 봤을 때, 영어도 아닌, 우리말도 아닌 말의 범람은 오염이라는 생각이 듭니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;끼리끼리 통하는 은어 자체를 반대하고 그런 고리타분한 얘기를 하는 것은 아닙니다만, 외계어가 한 때였듯, 이 또한 지나가리라 싶지만, '정보'를 다루는 블로그나 웹에서 이러한 전문용어 아닌 '전문조어' 남발은 좀 피해야 하지 않겠나 싶습니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;차라리 영어 약자를 쓴다면, 영어 사용자와도 통할 수 있지만, 그도 아니고, 그렇다고 한글도 아니고...&amp;nbsp;&lt;/p&gt;&lt;p&gt;다시 한 번 밝히지만 또래끼리 혹은 전문가끼리 턱하면 척 통하는 은어 사용은&amp;nbsp;뭐라 할 것은 아니라고 생각합니다. 저도 우분투으리라는 단어를 재미난다며 서두에&amp;nbsp;쓴 마당에 은어쓰지 말자는 주장을 하면 모순이지요&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;다만 공공에&amp;nbsp;공개되는 글이며, 서로의 이해 전달이 목적이라면 영어식 한글&amp;nbsp;조어 남발은 좀 다시 생각해봐야 하지 않겠느냐고 질문 하나 툭 던져 봅니다.&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=54744165&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>기술담소</category>
+			<category>영어</category>
+			<category>전문조어 범람</category>
+			<category>한국어</category>
+			<author>Mike Sierra</author>
+			<guid>http://myubuntu.tistory.com/851</guid>
+			<comments>http://myubuntu.tistory.com/851#entry851comment</comments>
+			<pubDate>Wed, 21 May 2014 22:51:44 -0700</pubDate>
+		</item>
+		<item>
+			<title>[더 나은 사람] 희망</title>
+			<link>http://myubuntu.tistory.com/850</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;더 나은 사람이란...&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 2em;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 2em;&quot;&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;희망의 메시지를 최선을 다해&amp;nbsp;남과 나누는 사람.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 2em;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;tt-youtube-plugin&quot; style=&quot;text-align: center&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/OAlyHUWjNjE?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=54543333&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>iLook</category>
+			<category>더 나은 사람</category>
+			<category>희망</category>
+			<author>Mike Sierra</author>
+			<guid>http://myubuntu.tistory.com/850</guid>
+			<comments>http://myubuntu.tistory.com/850#entry850comment</comments>
+			<pubDate>Sat, 10 May 2014 10:34:29 -0700</pubDate>
+		</item>
+		<item>
+			<title>[더 나은 사람] 포용</title>
+			<link>http://myubuntu.tistory.com/849</link>
+			<description>더 나은 사람이란...&lt;div&gt;&lt;p style=&quot;margin-left: 2em;&quot;&gt;가족의 작은 흠결을&amp;nbsp;포용하는 도량이 있는 사람.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin-left: 2em;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;margin-left: 2em;&quot;&gt;물론... '아무나'가 아니라 가족의,&lt;/p&gt;&lt;p style=&quot;margin-left: 2em;&quot;&gt;물론.... '무엇이든'이 아니라 작은 흠결.&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin-left: 2em;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;div class=&quot;tt-youtube-plugin&quot; style=&quot;text-align: center&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/VpqercZC-7A?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=54529573&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>iLook</category>
+			<category>더 나은 사람</category>
+			<category>포용</category>
+			<author>Mike Sierra</author>
+			<guid>http://myubuntu.tistory.com/849</guid>
+			<comments>http://myubuntu.tistory.com/849#entry849comment</comments>
+			<pubDate>Fri, 09 May 2014 08:25:48 -0700</pubDate>
+		</item>
+		<item>
+			<title>[더 나은 사람] 나눔</title>
+			<link>http://myubuntu.tistory.com/848</link>
+			<description>&lt;p&gt;&lt;span style=&quot;color: rgb(20, 24, 35); font-family: Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 14pt; line-height: 19px;&quot;&gt;더 나은 사람이란...&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(20, 24, 35); font-family: Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 14px; line-height: 19px;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(20, 24, 35); font-family: Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 14pt; line-height: 19px;&quot;&gt;대가를 바라지 않고 절실한 사람에게 줄&amp;nbsp;수 있는 것을 나누는 사람.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(20, 24, 35); font-family: Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 14px; line-height: 19px;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;tt-youtube-plugin&quot; style=&quot;text-align: center&quot;&gt;&lt;iframe width=&quot;560&quot; height=&quot;420&quot; src=&quot;http://www.youtube.com/embed/H5nBqmsa6xU?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(20, 24, 35); font-family: Helvetica, Arial, 'lucida grande', tahoma, verdana, arial, sans-serif; font-size: 14px; line-height: 19px;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=54498552&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>iLook</category>
+			<category>나눔</category>
+			<category>더 나은 사람</category>
+			<author>Mike Sierra</author>
+			<guid>http://myubuntu.tistory.com/848</guid>
+			<comments>http://myubuntu.tistory.com/848#entry848comment</comments>
+			<pubDate>Wed, 07 May 2014 21:23:30 -0700</pubDate>
+		</item>
+		<item>
+			<title>마이우분투 '동결' 결정.</title>
+			<link>http://myubuntu.tistory.com/847</link>
+			<description>&lt;p style=&quot;color: rgb(0, 3, 5); font-family: 나눔고딕, '맑은 고딕', Helvetica; font-size: 16px; line-height: 24px; text-align: justify; padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;마이우분투(&lt;a href=&quot;http://myubuntu.tistory.com/&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot; style=&quot;color: rgb(0, 96, 0);&quot;&gt;MyUbuntu.tistory.com&lt;/a&gt;)로 우분투 이야기를 하면서 즐거웠습니다.&lt;/p&gt;&lt;p style=&quot;color: rgb(0, 3, 5); font-family: 나눔고딕, '맑은 고딕', Helvetica; font-size: 16px; line-height: 24px; text-align: justify; padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;우분투는 리눅스 운영체제(OS)의 배포판 중 하나로, 쉽게 말해 아주 쓸만한 컴퓨터&amp;nbsp;사용자환경입니다.&lt;/p&gt;&lt;p style=&quot;color: rgb(0, 3, 5); font-family: 나눔고딕, '맑은 고딕', Helvetica; font-size: 16px; line-height: 24px; text-align: justify; padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;그러나 아이폰을 손에 잡은 후 모든 것이 조금씩&amp;nbsp;변하기 시작했습니다.&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;color: rgb(0, 3, 5); font-family: 나눔고딕, '맑은 고딕', Helvetica; font-size: 16px; line-height: 24px; text-align: justify; padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;&lt;br /&gt;&lt;span id=&quot;callbacknesthappymactistorycom1506&quot; style=&quot;width: 1px; height: 1px; float: right;&quot;&gt;&lt;embed allowscriptaccess=&quot;always&quot; id=&quot;bootstrapperhappymactistorycom1506&quot; src=&quot;http://happymac.tistory.com/plugin/CallBack_bootstrapperSrc?nil_profile=tistory&amp;amp;nil_type=copied_post&quot; width=&quot;1&quot; height=&quot;1&quot; wmode=&quot;transparent&quot; type=&quot;application/x-shockwave-flash&quot; enablecontextmenu=&quot;false&quot; flashvars=&quot;&amp;amp;callbackId=happymactistorycom1506&amp;amp;host=http://happymac.tistory.com&amp;amp;embedCodeSrc=http%3A%2F%2Fhappymac.tistory.com%2Fplugin%2FCallBack_bootstrapper%3F%26src%3Dhttp%3A%2F%2Fs1.daumcdn.net%2Fcfs.tistory%2Fv%2F0%2Fblog%2Fplugins%2FCallBack%2Fcallback%26id%3D1%26callbackId%3Dhappymactistorycom1506%26destDocId%3Dcallbacknesthappymactistorycom1506%26host%3Dhttp%3A%2F%2Fhappymac.tistory.com%26float%3Dleft&quot; swliveconnect=&quot;true&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;color: rgb(0, 3, 5); font-family: 나눔고딕, '맑은 고딕', Helvetica; font-size: 16px; line-height: 24px; text-align: justify; padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;맥을 들여놓은 이후 맥 이야기를 마이우분투에 포함시켰는데, 맥 사용량이 대폭 늘면서 우분투 이야기는 점점 소홀해지기 시작했습니다. 계속 이렇게&amp;nbsp;해놓으면 아무래도 블로그의 정체성&amp;nbsp;문제도 생기겠고, 의도치 않은 오해나 정보의 왜곡도 발생할 듯 싶어 결국 애플과 관련된 이야기는 해피맥(&lt;a href=&quot;http://happymac.tistory.com/&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot; style=&quot;color: rgb(0, 96, 0);&quot;&gt;HappyMac.Tistory.com&lt;/a&gt;)으로&amp;nbsp;분리를 결정했습니다.&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;color: rgb(0, 3, 5); font-family: 나눔고딕, '맑은 고딕', Helvetica; font-size: 16px; line-height: 24px; text-align: justify; padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;color: rgb(0, 3, 5); font-family: 나눔고딕, '맑은 고딕', Helvetica; font-size: 16px; line-height: 24px; text-align: justify; padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;지금은 우분투를 쓰지 않지만, 돌아올 날이 있을지 모릅니다.&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;color: rgb(0, 3, 5); font-family: 나눔고딕, '맑은 고딕', Helvetica; font-size: 16px; line-height: 24px; text-align: justify; padding-top: 0px !important; padding-bottom: 0px !important;&quot;&gt;마이우분투는 계속 보존하면서, 해피맥에 주력할 생각입니다.&lt;/p&gt;</description>
+			<category>공개 관리기록</category>
+			<author>Mike Sierra</author>
+			<guid>http://myubuntu.tistory.com/847</guid>
+			<comments>http://myubuntu.tistory.com/847#entry847comment</comments>
+			<pubDate>Tue, 25 Mar 2014 00:10:30 -0700</pubDate>
+		</item>
+		<item>
+			<title>영한전환 시간 지연 문제 간단해결.</title>
+			<link>http://myubuntu.tistory.com/846</link>
+			<description>&lt;en-note style=&quot;word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;&quot;&gt;
+오에스텐(OS X)에서 영어-한글을 오갈 때 언어를 바꿀 때, 시간 지연이 발생해 오타의 원인이 되곤 했다.
+&lt;div&gt;이를 해결하는 간단한 방법으로 단축키를 교체하는 방법을 최근 한국에서 온 능력자에게 들었다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;단, 이 방법은 세 언어 이상을 번갈아 가면서 사용하는 이에게는 오히려 불편을 초래할 수 있다.&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;시스템환경 설정을 실행, 키보드를 선택, 단축키 갈피로 가서, 입력소스를 고른다.&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;입력소스 상태를 4번과 같이 위 아래를 서로 바꿔준다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;'이전 입력 소스 선택'을 딸각해 Option + Command + Space 글쇠를 누른다.&lt;/div&gt;
+&lt;div&gt;‘입력 메뉴에서 다음 소스 선택’을 딸각해, Command + Space 글쇠를 누른다.&lt;/div&gt;
+&lt;div&gt;
+&lt;span&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile23.uf.tistory.com/original/2424B441532BE5071F29CD&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/2424B441532BE5071F29CD&quot; filemime=&quot;image/jpeg&quot; filename=&quot;스크린샷 2014-03-20 오후 11.57.28.jpg&quot; height=&quot;546&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;끝.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;/en-note&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=53593164&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>맥</category>
+			<category>맥</category>
+			<category>한영전환 속도 개선</category>
+			<author>Mike Sierra</author>
+			<guid>http://myubuntu.tistory.com/846</guid>
+			<comments>http://myubuntu.tistory.com/846#entry846comment</comments>
+			<pubDate>Fri, 21 Mar 2014 00:07:39 -0700</pubDate>
+		</item>
+	</channel>
+</rss>

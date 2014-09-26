@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SEO Consultant - Shimon Sandler</title>
+	<atom:link href="http://www.shimonsandler.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.shimonsandler.com</link>
+	<description>SEO Consulting</description>
+	<lastBuildDate>Thu, 18 Sep 2014 19:15:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>How to Bulk Optimize Images for SEO</title>
+		<link>http://www.shimonsandler.com/bulk-optimize-images-for-seo/</link>
+		<comments>http://www.shimonsandler.com/bulk-optimize-images-for-seo/#comments</comments>
+		<pubDate>Thu, 18 Sep 2014 19:15:56 +0000</pubDate>
+		<dc:creator>Elie Orgel</dc:creator>
+				<category><![CDATA[SEO]]></category>
+		<category><![CDATA[SEO Tools]]></category>
+
+		<guid isPermaLink="false">http://www.shimonsandler.com/?p=2454</guid>
+		<description><![CDATA[<p>As you probably already know, site speed is very important for your user experience. Many websites that have image files that are not compressed, could be significantly slowing down your site. To decrease your site&#8217;s load time, compress all images and add a CDN. This post will outline an easy process for bulk optimizing your [...]</p>
+<p>The post <a rel="nofollow" href="http://www.shimonsandler.com/bulk-optimize-images-for-seo/">How to Bulk Optimize Images for SEO</a> appeared first on <a rel="nofollow" href="http://www.shimonsandler.com">SEO Consultant - Shimon Sandler</a>.</p>
+<div class='yarpp-related-rss'>
+
+Related posts:<ol>
+<li><a href='http://www.shimonsandler.com/opencart-seo/' rel='bookmark' title='Opencart SEO'>Opencart SEO</a></li>
+<li><a href='http://www.shimonsandler.com/what-youre-missing-with-your-keyword-research/' rel='bookmark' title='What You&#8217;re Missing with Your Keyword Research'>What You&#8217;re Missing with Your Keyword Research</a></li>
+<li><a href='http://www.shimonsandler.com/seo-roadmap/' rel='bookmark' title='How to Create an SEO Roadmap'>How to Create an SEO Roadmap</a></li>
+</ol>
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p>As you probably already know, <a href="https://blog.kissmetrics.com/loading-time/" target="_blank">site speed is very important </a>for your user experience. Many websites that have image files that are not compressed, could be significantly slowing down your site. To decrease your site&#8217;s load time, compress all images and <a href="http://www.shimonsandler.com/cdn-with-magento/">add a CDN</a>. This post will outline an easy process for bulk optimizing your site&#8217;s images that are already published online.</p>
+<h2><b>Identifying the heavy images </b></h2>
+<p>Use a tool like <a href="http://www.webpagetest.org/">webpagetest.org</a> to identify the images which should be compressed. Run the test and navigate to Performance Review and scroll all the way to the bottom of the page. <a href="http://www.shimonsandler.com/wp-content/uploads/2014/09/image-optimization-webpagetest.bmp"><img class="alignnone  wp-image-2455" alt="image optimization on webpagetest.org" src="http://www.shimonsandler.com/wp-content/uploads/2014/09/image-optimization-webpagetest.bmp" width="766" height="188" /></a></p>
+<p>&nbsp;</p>
+<p>You should see a list of images that could be compressed.  Copy this list into excel and isolate the URLs of the images by using the text-to-columns feature.  Remove everything except the URLs. Save this excel sheet as a .csv in remember where you saved it.</p>
+<p><a href="http://www.shimonsandler.com/wp-content/uploads/2014/09/2014-09-12_1524.png"><img class="alignnone  wp-image-2459" alt="text to column excel" src="http://www.shimonsandler.com/wp-content/uploads/2014/09/2014-09-12_1524.png" width="587" height="281" /></a></p>
+<h2><b>Downloading List of Images that are Online </b></h2>
+<p>You should now have a list of the URLs of heavy images. You now need to download these images to your PC. You can do this easily through the program called <a href="http://sourceforge.net/projects/urlimagedownloader/">URL image Downloader</a>. Or, if you have FTP access you can download the file directly.   Once you have the program downloaded and installed, upload the list of image URLs from the excel sheet you saved previously.  You will also need to specify where you want the images to be downloaded to.</p>
+<h2><b>Bulk Optimizing Images </b></h2>
+<p>Once you have all your images downloaded you will need to start optimizing them. There are many <a href="http://mashable.com/2013/10/29/image-compressors/">programs for optimizing images</a>. For this tutorial I’m going to use <a href="http://toki-woki.net/p/Shrink-O-Matic/">Shrink-O-Matic</a>. I like this program because it’s free and easy to use.<a href="http://www.shimonsandler.com/wp-content/uploads/2014/09/2014-09-12_1354.png"><img class="alignnone  wp-image-2456" alt="bulk image optimization shrink-o-matic" src="http://www.shimonsandler.com/wp-content/uploads/2014/09/2014-09-12_1354-1024x525.png" width="717" height="368" /></a></p>
+<p>Once you have Shrink-O-Matic installed open it up and start configuring the setting. Below are the setting I used:</p>
+<p>A)     Because the images are already on the web, you probably don’t want to change the file names.</p>
+<p>B)      Select “same as original” this will overwrite the current (heavy) images</p>
+<p>C)      Select “same as original” to make sure your file names stay the same</p>
+<p>D)     Select the folder that has all the heavy images</p>
+<p>E)      Run the program, and all your images should be optimized.</p>
+<p>Upload the optimized images back to your server, and voila, you&#8217;re done.</p>
+<p>The post <a rel="nofollow" href="http://www.shimonsandler.com/bulk-optimize-images-for-seo/">How to Bulk Optimize Images for SEO</a> appeared first on <a rel="nofollow" href="http://www.shimonsandler.com">SEO Consultant - Shimon Sandler</a>.</p>
+<div class='yarpp-related-rss'>
+<p>Related posts:<ol>
+<li><a href='http://www.shimonsandler.com/opencart-seo/' rel='bookmark' title='Opencart SEO'>Opencart SEO</a></li>
+<li><a href='http://www.shimonsandler.com/what-youre-missing-with-your-keyword-research/' rel='bookmark' title='What You&#8217;re Missing with Your Keyword Research'>What You&#8217;re Missing with Your Keyword Research</a></li>
+<li><a href='http://www.shimonsandler.com/seo-roadmap/' rel='bookmark' title='How to Create an SEO Roadmap'>How to Create an SEO Roadmap</a></li>
+</ol></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.shimonsandler.com/bulk-optimize-images-for-seo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Google Adds Calendar Functionality in SERP</title>
+		<link>http://www.shimonsandler.com/add-calendar-events-via-knowledge-graph/</link>
+		<comments>http://www.shimonsandler.com/add-calendar-events-via-knowledge-graph/#comments</comments>
+		<pubDate>Wed, 16 Jul 2014 18:48:29 +0000</pubDate>
+		<dc:creator>Elie Orgel</dc:creator>
+				<category><![CDATA[Google]]></category>
+
+		<guid isPermaLink="false">http://www.shimonsandler.com/?p=2435</guid>
+		<description><![CDATA[<p>While doing a search on Google today (signed into my Google account) for the term &#8220;schedule an appointment&#8221; something very interesting popped up in Google&#8217;s knowledge graph. We already know that Google has been playing around with inserting Gmail, Drive, and Calendar info in the SERP, but this is the first time we are seeing [...]</p>
+<p>The post <a rel="nofollow" href="http://www.shimonsandler.com/add-calendar-events-via-knowledge-graph/">Google Adds Calendar Functionality in SERP</a> appeared first on <a rel="nofollow" href="http://www.shimonsandler.com">SEO Consultant - Shimon Sandler</a>.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+
+No related posts.
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.shimonsandler.com/wp-content/uploads/2014/07/calendar-in-knowledge-graph.gif"><img class="alignnone size-full wp-image-2439" alt="calendar-in-knowledge-graph" src="http://www.shimonsandler.com/wp-content/uploads/2014/07/calendar-in-knowledge-graph.gif" width="800" height="480" /></a></p>
+<p>While doing a search on Google today (signed into my Google account) for the term &#8220;schedule an appointment&#8221; something very interesting popped up in Google&#8217;s knowledge graph. We already know that Google has been playing around with <a href="https://www.google.com/experimental/gmailfieldtrial" target="_blank">inserting Gmail, Drive, and Calendar info in the SERP</a>, but this is the<strong> first time</strong> we are seeing the ability to do specific actions directions in the SERP (I.e. add a calendar event).  Previously, you where only able to view events, now you are able to edit /create events.</p>
+<p>See the screen shots below to see how you can create a calendar event directly in the search results page on Google.</p>
+<p>&nbsp;</p>
+<p><a href="http://www.shimonsandler.com/wp-content/uploads/2014/07/step1-calendar-knowledge-graph.png"><img class="alignnone size-full wp-image-2438" alt="step1-calendar-knowledge-graph" src="http://www.shimonsandler.com/wp-content/uploads/2014/07/step1-calendar-knowledge-graph.png" width="836" height="404" /></a></p>
+<p><a href="http://www.shimonsandler.com/wp-content/uploads/2014/07/step2-calendar-knowledge-graph.png"><img class="alignnone size-full wp-image-2437" alt="step2-calendar-knowledge-graph" src="http://www.shimonsandler.com/wp-content/uploads/2014/07/step2-calendar-knowledge-graph.png" width="839" height="443" /></a></p>
+<p><a href="http://www.shimonsandler.com/wp-content/uploads/2014/07/step3-calendar-knowledge-graph.png"><img class="alignnone size-full wp-image-2436" alt="step3-calendar-knowledge-graph" src="http://www.shimonsandler.com/wp-content/uploads/2014/07/step3-calendar-knowledge-graph.png" width="1020" height="599" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Watch the gif below to see the full action:</p>
+<p>&nbsp;</p>
+<p><a href="http://www.shimonsandler.com/wp-content/uploads/2014/07/calendar-in-knowledge-graph.gif"><img class="alignnone size-full wp-image-2439" alt="calendar-in-knowledge-graph" src="http://www.shimonsandler.com/wp-content/uploads/2014/07/calendar-in-knowledge-graph.gif" width="800" height="480" /></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="http://www.shimonsandler.com/add-calendar-events-via-knowledge-graph/">Google Adds Calendar Functionality in SERP</a> appeared first on <a rel="nofollow" href="http://www.shimonsandler.com">SEO Consultant - Shimon Sandler</a>.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.shimonsandler.com/add-calendar-events-via-knowledge-graph/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How To Create Powerful Social Media Images</title>
+		<link>http://www.shimonsandler.com/how-to-create-social-media-images/</link>
+		<comments>http://www.shimonsandler.com/how-to-create-social-media-images/#comments</comments>
+		<pubDate>Mon, 02 Jun 2014 20:43:13 +0000</pubDate>
+		<dc:creator>Jake Wachsman</dc:creator>
+				<category><![CDATA[Social Media]]></category>
+
+		<guid isPermaLink="false">http://www.shimonsandler.com/?p=2397</guid>
+		<description><![CDATA[<p>&#160; Social Media guru Gary Vaynerchuk loves to refer to today’s world as being full of “A.D.D. Culture”. In speeches he’s demonstrated just how fast people move through content on their smartphone: (Click here to see his full speech below) One quick swipe through the Facebook (or other social networks) newsfeed and your content could [...]</p>
+<p>The post <a rel="nofollow" href="http://www.shimonsandler.com/how-to-create-social-media-images/">How To Create Powerful Social Media Images</a> appeared first on <a rel="nofollow" href="http://www.shimonsandler.com">SEO Consultant - Shimon Sandler</a>.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+
+No related posts.
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p>&nbsp;</p>
+<p><a href="http://www.shimonsandler.com/wp-content/uploads/2014/05/Social-Visuals-Cover.png"><img class="alignnone size-full wp-image-2398" alt="Social Media Images Cover" src="http://www.shimonsandler.com/wp-content/uploads/2014/05/Social-Visuals-Cover.png" width="843" height="503" /></a></p>
+<p>Social Media guru Gary Vaynerchuk loves to refer to today’s world as being full of <a href="http://99u.com/articles/19099/we-live-in-an-a-d-d-culture-other-digital-strategy-lessons-from-the-99u-pop-up-school">“A.D.D. Culture”</a>. In speeches he’s demonstrated just how fast people move through content on their smartphone: (<a href="https://www.youtube.com/watch?v=5bfN2npH2To">Click here to see his full speech below</a>)</p>
+<p><b> <iframe src="https://vine.co/v/MHhjnEL7tzg/embed/postcard" height="600" width="600" frameborder="0"></iframe><script charset="utf-8" type="text/javascript" src="//platform.vine.co/static/scripts/embed.js" async=""></script></b></p>
+<p>One quick swipe through the Facebook (or other social networks) newsfeed and your content could be easily and quickly passed up. So the big question is… what can we do to get people to stop and give our content a chance? <a href="http://www.shimonsandler.com/wp-content/uploads/2014/06/E-Marketer.png"><img class="size-full wp-image-2408 aligncenter" alt="Facebook Images Analytics" src="http://www.shimonsandler.com/wp-content/uploads/2014/06/E-Marketer.png" width="464" height="374" /></a> As shown in the above graph from eMarketer.com, photos are being shared way more than any other content on Facebook. Over 20x times more to be exact!</p>
+<p>An interesting reason as to why images are dominating and being shared so much, could be partly due to the fact that our brains can process images extremely fast. Simply put because our brains process images so quickly they have a better chance to make an impact on us before we “swipe” past them in the news feed. <a href="http://newsoffice.mit.edu/2014/in-the-blink-of-an-eye-0116">According to neuroscientists from MIT, the brain can process images in as little as 13 milliseconds</a>. No other form of content can be processed by the brain faster. Therefore, images are clearly the best chance you have to grab someone’s attention.  </p>
+<p>&nbsp;</p>
+<p><b>Creating powerful social media images to gain attention:</b> Creating images that are cool and shareable seem like an out of reach task from first glance, but if you break it down it can be fairly simple and attainable. Here are 5 simple steps that I took to create a professional looking social media image.</p>
+<p>In less than 10-15 minutes you can create the same thing. <b> </b></p>
+<p>&nbsp;</p>
+<p><b>1)    </b><b>It all starts with good content</b></p>
+<p>Any (textual) content that you or others find valuable and meaningful could be used to help you create a powerful social media image. Infusing an image with valuable content like a quote, fact, or joke (meme) can give the image more meaning to people.  </p>
+<p>&nbsp;</p>
+<p>A simple example of this is the “MIT fact” that I shared above:<b><i></i></b></p>
+<p><b><i>“The brain can process images in as little as 13 milliseconds” </i></b>  </p>
+<p>&nbsp;</p>
+<p>This valuable fact is something I believe would certainly resonate with people. Creating a simple visual representation of this “MIT fact” could be an image that people would love to see and share on social networks.</p>
+<p><i>(On social there is certainly a place for images without text, but for the purposes of this post I’m using a content/image post)</i>  </p>
+<p>&nbsp;</p>
+<p><b>2)    </b><b>Find a good image that describes your quote, or post</b></p>
+<p>In my case I wanted an image of an eye, so I searched google images for “eye”. ‘Google Images’ is an easy and effective place to get images, but <strong>DON’T STEAL</strong>.</p>
+<p>Only use images under the “labeled for reuse” tab (or “Creative Commons” images) to make sure you are taking images in a legal way (see image below) <a href="http://www.shimonsandler.com/wp-content/uploads/2014/06/G-Image-Search-Eye.png"><img class="alignnone size-full wp-image-2410" alt="Google Image Search of Eye" src="http://www.shimonsandler.com/wp-content/uploads/2014/06/G-Image-Search-Eye.png" width="1012" height="544" /></a>  </p>
+<p><b>3)    </b><b>Bring image into Photoshop (or </b><a href="https://www.canva.com/"><b>Canva</b></a><b> if you’re not Photoshop savvy)</b></p>
+<p>Before you do anything on Photoshop you need to choose a “canvas size” that best fits where you plan on sharing this image. That means setting the correct dimensions for either Facebook, Twitter, Google+, etc…</p>
+<p>You can get the information on the correct sizes and dimension for various social networks from social media marketers. For example, <a href="http://blogs.constantcontact.com/product-blogs/social-media-marketing/social-media-image-size/">here’s an informative social media image sizes “cheat sheet”</a>, made by social media manager Danielle Cormier of <a href="http://www.constantcontact.com/index.jsp"><i>Constant Contact</i></a><i>.</i></p>
+<p>For the purposes of this post I chose dimensions for a Twitter post which needs a 1:2 Image Aspect Ratio. Therefore, I am using the image size 880 x 440.</p>
+<p><a href="http://www.shimonsandler.com/wp-content/uploads/2014/06/Eye-Photoshop.png"><img class="size-full wp-image-2411 aligncenter" alt="Eye Image in Photoshop" src="http://www.shimonsandler.com/wp-content/uploads/2014/06/Eye-Photoshop.png" width="643" height="586" /></a><b></b></p>
+<p>&nbsp;</p>
+<p><b>4)    </b><b>Placing large text into image [in an effective way]</b></p>
+<p>There’s a right way to do overlay text on an image and it goes beyond just throwing text on top of the image like this:</p>
+<p><em id="__mceDel"><a href="http://www.shimonsandler.com/wp-content/uploads/2014/06/Eye-Bad-1.png"><img class="size-full wp-image-2412 aligncenter" alt="Bad Eye Image 1" src="http://www.shimonsandler.com/wp-content/uploads/2014/06/Eye-Bad-1.png" width="555" height="330" /></a> </em>Above is the lazy way to do things. There is a correct way to accomplish this effect (as seen in the cover photo of this post) but for the purposes of creating this image in a quick effective way I did something else.</p>
+<p>I separated the text and image by adding a piece of solid background to the left side of the image, and moving the picture over to the right. This allowed two great things to occur:</p>
+<ul>
+<li>Photo of the eye can now be seen at its full glory</li>
+<li>Text can be overlayed on the solid background so it is legible</li>
+</ul>
+<p>Here is the effect I got now:<em id="__mceDel"> <a href="http://www.shimonsandler.com/wp-content/uploads/2014/06/Eye-Bad-2.png"><img class="alignnone size-full wp-image-2413" alt="Bad Eye Image 2" src="http://www.shimonsandler.com/wp-content/uploads/2014/06/Eye-Bad-2.png" width="880" height="440" /></a> </em>While this is a large improvement to what I previously had, I still felt that it didn’t place enough emphasis on just how important this ‘fact’ is.  </p>
+<p>&nbsp;</p>
+<p><b>5)    </b><b>Focus on the impact of the ‘fact’</b></p>
+<p>To do this you need to find the core of your fact, or quote. In my case the core of this MIT fact is the “13 milliseconds” of brain processing time. To place proper focus on this I made the ‘13’ text bigger and colored it yellow to further differentiate it from the rest of the text in my image.</p>
+<p><em>(Also, I sourced MIT on the bottom of the image to bring this fact further credibility.)</em>  </p>
+<p>Here is the result for you:<em id="__mceDel"> <a href="http://www.shimonsandler.com/wp-content/uploads/2014/06/Eye-Twitter-NEW.png"><img class="alignnone size-full wp-image-2414" alt="Eye Twitter Image" src="http://www.shimonsandler.com/wp-content/uploads/2014/06/Eye-Twitter-NEW.png" width="880" height="440" /></a></em></p>
+<p><em id="__mceDel"> </em>As you can see, I now have a powerful social media image that is interesting, impactful, and credible.</p>
+<p>Now all that’s left to do is publish the image on social media and see how it does!</p>
+<p>If you want to create your own social media image similar to this, <a href="http://searchinteractions.com/wp-content/uploads/Social-Media-Images-Template-Twitter.psd">you can click this link to download a PSD template that you can customize on your own.</a></p>
+<p>Good luck and get visual <img src='http://www.shimonsandler.com/wp-includes/images/smilies/icon_wink.gif' alt=';)' class='wp-smiley' /> </p>
+<p><a href="https://www.flickr.com/photos/johnonolan/6099948270"><b><i>Photo credit: Flickr</i></b></a></p>
+<hr />
+<p><i>Jake Wachsman is the Social Media director at <a href="http://www.searchinteractions.com/">Search Interactions</a>, an online marketing agency that specializes in enterprise SEO. In his free time, he enjoys learning about new digital trends and follows NBA Basketball.</i></p>
+<p><b><br />
+ </b></p>
+<div class="g-person" data-width="273" data-href="//plus.google.com/u/0/102549026906256176495" data-layout="landscape" data-showcoverphoto="false" data-rel="author"></div>
+<p><!-- Place this tag after the last widget tag. --><script type="text/javascript">// < ![CDATA[
+// < ![CDATA[
+// < ![CDATA[
+// < ![CDATA[
+// < ![CDATA[
+// < ![CDATA[
+// < ![CDATA[
+// < ![CDATA[
+// < ![CDATA[
+// < ![CDATA[   (function() {     var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;     po.src = 'https://apis.google.com/js/platform.js';     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);   })();
+// ]]&gt;</script></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="http://www.shimonsandler.com/how-to-create-social-media-images/">How To Create Powerful Social Media Images</a> appeared first on <a rel="nofollow" href="http://www.shimonsandler.com">SEO Consultant - Shimon Sandler</a>.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.shimonsandler.com/how-to-create-social-media-images/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Setting up a Content Delivery Network (CDN) on Magento</title>
+		<link>http://www.shimonsandler.com/cdn-with-magento/</link>
+		<comments>http://www.shimonsandler.com/cdn-with-magento/#comments</comments>
+		<pubDate>Mon, 19 May 2014 15:22:34 +0000</pubDate>
+		<dc:creator>Elie Orgel</dc:creator>
+				<category><![CDATA[Magento SEO]]></category>
+
+		<guid isPermaLink="false">http://www.shimonsandler.com/?p=2369</guid>
+		<description><![CDATA[<p>If you are running a Magento ecommerce site, you may find that your load time is pretty slow.  Website load time is important for your users experience, as well as SEO. Google has confirmed that site speed is very important and that websites with a poor load time won&#8217;t rank well for users searching on [...]</p>
+<p>The post <a rel="nofollow" href="http://www.shimonsandler.com/cdn-with-magento/">Setting up a Content Delivery Network (CDN) on Magento</a> appeared first on <a rel="nofollow" href="http://www.shimonsandler.com">SEO Consultant - Shimon Sandler</a>.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+
+No related posts.
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.shimonsandler.com/wp-content/uploads/2014/05/magento-CDN.jpg"><img class="wp-image-2375 alignright" alt="Setting up a CDN on Magento" src="http://www.shimonsandler.com/wp-content/uploads/2014/05/magento-CDN.jpg" width="360" height="271" /></a>If you are running a Magento ecommerce site, you may find that your load time is pretty slow.  Website load time is important for your users experience, as well as SEO. <a href="http://googlewebmastercentral.blogspot.com/2010/04/using-site-speed-in-web-search-ranking.html">Google has confirmed</a> that site speed is very important and that websites with a <a href="http://searchengineland.com/google-mobile-site-speed-162977">poor load time won&#8217;t rank well</a> for users searching on a mobile device.   There are several things you can do to decrease load time; you can read a <a href="http://www.yottaa.com/blog/bid/296075/Infographic-The-Ultimate-Checklist-for-Optimizing-Web-Performance">full list here</a>.  In this article, we are going to cover installing a Content Delivery Network, which is one of the many page speed optimization techniques.</p>
+<p>According to <a href="http://searchaws.techtarget.com/definition/content-delivery-network-CDN">techtarget.com</a> a content delivery network is “an interconnected system of computers on the Internet that provides Web content rapidly to numerous users by duplicating the content on multiple servers and directing the content to users based on proximity.”</p>
+<p>Now that we understand what a CND is let’s dig into setting up a CDN on Magento.</p>
+<h2><b>Step 1: Create a baseline </b></h2>
+<p>The first step before you install the CDN is to capture your current site speed. This will serve as a great baseline to compare after you set up the CDN.</p>
+<p>Check out any one of these sites to test your load time:</p>
+<ul>
+<li><a href="http://tools.pingdom.com/fpt/">http://tools.pingdom.com/fpt/</a></li>
+<li><a href="http://www.webpagetest.org/">http://www.webpagetest.org/</a></li>
+<li><a href="https://developers.google.com/speed/pagespeed/">https://developers.google.com/speed/pagespeed/</a></li>
+</ul>
+<h2><b>Step 2: Find a CDN</b></h2>
+<p>There are many different types of CDN out there, and each has their own advantage. The most popular CDN’s are: amazon, MaxCDN, and yottaa.com. In this tutorial we are going to use <a href="http://www.maxcdn.com/">MaxCDN</a>.</p>
+<p>1) Set up your account with MaxCDN</p>
+<p>2) Create a Pull zone</p>
+<p>You can also follow Max CDN’s instructions <a href="http://www.maxcdn.com/solutions/cms/magento-cdn/">here</a>.</p>
+<p>&nbsp;</p>
+<h2><b>Step 3: Change Default URL in Magento Backend </b></h2>
+<p>Once everything is setup on max CDN, go to your Magento Back Office Configuration &gt; Setting &gt; Web</p>
+<p><a href="http://www.shimonsandler.com/wp-content/uploads/2014/05/installing-cdn-magneto.png"><img class="alignnone size-full wp-image-2371" alt="Installing CDN on Magento " src="http://www.shimonsandler.com/wp-content/uploads/2014/05/installing-cdn-magneto.png" width="531" height="197" /></a></p>
+<p>We are going to change the default URL to include the CDN URL we just created in Max CDN.</p>
+<p>Warning- If you make any errors with the default base URL you will break your Magento backend store and you will not be able to switch it back without going into the database and running some Mysql quires. If you do end up with some errors I advice you <a href="http://support.maxcdn.com/pullzone/magento-cdn/magento-defaced/">to look here</a> for instructions on getting you store back up and running.</p>
+<h3><b>Validating your site</b></h3>
+<p>Simply go to your site and view the source. Go to any media file and you should see the CDN URL. If you don’t see the URL you are doing something wrong.</p>
+<h3><b>Purging Files (Required for making updates to CSS and JavaScript files)</b></h3>
+<p>Once your CDN is up and running, you will need to purge any files if you make a change to.  Remember that you might have to purge the cache on your Magento store as well.</p>
+<p>&nbsp;</p>
+<p><b>Shazam You’re done.  You should see at least a 25% increase in load time.</b></p>
+<p><strong>Resources:</strong></p>
+<p><a href="http://www.seroundtable.com/google-mobile-page-speed-17260.html">http://www.seroundtable.com/google-mobile-page-speed-17260.html</a></p>
+<p><a href="http://moz.com/blog/how-website-speed-actually-impacts-search-ranking">http://moz.com/blog/how-website-speed-actually-impacts-search-ranking</a></p>
+<p>&nbsp;</p>
+<p>The post <a rel="nofollow" href="http://www.shimonsandler.com/cdn-with-magento/">Setting up a Content Delivery Network (CDN) on Magento</a> appeared first on <a rel="nofollow" href="http://www.shimonsandler.com">SEO Consultant - Shimon Sandler</a>.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.shimonsandler.com/cdn-with-magento/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How To Use RegEx in Google Analytics</title>
+		<link>http://www.shimonsandler.com/regex-in-google-analytics/</link>
+		<comments>http://www.shimonsandler.com/regex-in-google-analytics/#comments</comments>
+		<pubDate>Fri, 09 May 2014 18:09:07 +0000</pubDate>
+		<dc:creator>Elie Orgel</dc:creator>
+				<category><![CDATA[Google Analytics]]></category>
+
+		<guid isPermaLink="false">http://www.shimonsandler.com/?p=2340</guid>
+		<description><![CDATA[<p>Regular Expressions (RegEx) is a sequence of character that forms a search pattern.  RegEx can be used in Google analytics for many different things such as setting up goals, funnels, create filters and finding groups of pages. Additionally, RegEx is useful to learn because it will help you understand .htaccess files. In Google Analytics you [...]</p>
+<p>The post <a rel="nofollow" href="http://www.shimonsandler.com/regex-in-google-analytics/">How To Use RegEx in Google Analytics</a> appeared first on <a rel="nofollow" href="http://www.shimonsandler.com">SEO Consultant - Shimon Sandler</a>.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+
+No related posts.
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.shimonsandler.com/wp-content/uploads/2014/05/national_regular_expression_day_xkcd_shirt.gif"><img class="size-full wp-image-2341 alignleft" alt="regex" src="http://www.shimonsandler.com/wp-content/uploads/2014/05/national_regular_expression_day_xkcd_shirt.gif" width="300" height="193" /></a>Regular Expressions (RegEx) is a sequence of character that forms a search pattern.  RegEx can be used in Google analytics for many different things such as setting up goals, funnels, create filters and finding groups of pages. Additionally, RegEx is useful to learn because it will help you understand .htaccess files.</p>
+<p>In Google Analytics you can use RegEx in many places, the most common places are the advance search filters, and in goal setup. Let’s jump right into some of the characters used in RegEx.</p>
+<h3><b>\ = Escaping Characters </b></h3>
+<p>If you would like to use a character that is already used by RegEx in your query you will need to escape it, meaning turn it into plain text.  Just like in Javascript we use the backslash (\) to escape any characters.  As an example, if I’m looking for the URL exmaple.com /checkout.php?step=1 I will need to add the backslash before the question mark and the period, because both question marks and periods are used in RegEx. When I write my RegEx,  I will input /checkout\.php\?step=1 to find my desired URL.</p>
+<h3><b>| = or </b></h3>
+<p>The pipebar is used to specify ‘or’ within your query. For example, if you are trying to set up conversion tracking in GA and you have more than one thank you page you may input something like  /thankyou.php|confirmation.php. (example screen shot below)</p>
+<div id="attachment_2349" class="wp-caption alignnone" style="width: 770px"><a href="http://www.shimonsandler.com/wp-content/uploads/2014/05/goal-set-up-with-regex.jpg"><img class="size-full wp-image-2349" alt="goals with regex GA" src="http://www.shimonsandler.com/wp-content/uploads/2014/05/goal-set-up-with-regex.jpg" width="760" height="288" /></a><p class="wp-caption-text">Setting up GA goals with RegEx</p></div>
+<h3><b>? = the last character is optional </b></h3>
+<p>The question mark is used to indicate that, the last character before the question mark is optional. For example, if I’m searching through my PPC keywords and I want to find both instances of ‘colour’ or ‘color’ I could use the RegEx query colou?r.</p>
+<div id="attachment_2350" class="wp-caption alignnone" style="width: 770px"><a href="http://www.shimonsandler.com/wp-content/uploads/2014/05/search-regex-in-ga.jpg"><img class="size-full wp-image-2350" alt="searching using regex in Google Analytics" src="http://www.shimonsandler.com/wp-content/uploads/2014/05/search-regex-in-ga.jpg" width="760" height="288" /></a><p class="wp-caption-text">Using RegEx to search for keywords in GA</p></div>
+<p>&nbsp;</p>
+<p>Below we review how to use more advance queries to find the information you want.</p>
+<p>&nbsp;</p>
+<h2><b>Grouping </b></h2>
+<h3><b>[ ] = Check for Single Character </b></h3>
+<p>Square brackets are used to check for any single character within the brackets. For example [e] will check for a single character e. When using brackets your query will be case sensitive, that means that [e] is different from [E]. Finally, if you include multiple letters or numbers within the brackets RegEx will check for either single character. For example, [eo] checks for any instance of the single character e or o. If you are looking to search for a range of a single character that can be done by inserting the – sign. For example, [1-9] will check for any single character between the numbers 1 through 9.</p>
+<p>Brackets are often used when excluding internal IP address in GA filters. Many companies want to exclude internal traffic for more accurate reporting. Let’s say your clients IP address range is 1.4123.567.00 through 1.4123.567.02 you’re RegEx should be:</p>
+<p>1\.4123\.567\.0[1-2]</p>
+<p>Alternatively, if you would like to cheat, you can use this <a href="http://www.analyticsmarket.com/freetools/ipregex">handy dany IP Range expression writer</a>.</p>
+<div id="attachment_2351" class="wp-caption alignnone" style="width: 770px"><a href="http://www.shimonsandler.com/wp-content/uploads/2014/05/regex-in-ga-filters.jpg"><img class="size-full wp-image-2351" alt="using regex in ga filters" src="http://www.shimonsandler.com/wp-content/uploads/2014/05/regex-in-ga-filters.jpg" width="760" height="288" /></a><p class="wp-caption-text">Setting up filters using RegEx in GA</p></div>
+<h3><b>( ) = Checks for a string of characters </b></h3>
+<p>Parentheses are used in RegEx just like they are used in math. Parentheses indicate the order in which your priorities are and to group characters together. For example, if I’m looking for the any one of these URLs:  /category1/ , /category2/  or /category3/ , I will use the expression /category(1|2|3)/</p>
+<p><b> </b></p>
+<h2><b>Wild Cards </b></h2>
+<h3><b>. = Matches Any One Character </b></h3>
+<p>The dot operator will match any one character before it. For example, .ap will match cap, tap or sap, but it will not match ap. The reason why it doesn’t match ap is because there are no characters to match before the dot in our example.</p>
+<h3><b>+ = Match the proceeding element one or more times </b></h3>
+<p>The plus sign matches the character before it, one or more times. For example, ab+c will match ABC, ABBC or ABBBBBC but not AC.</p>
+<h3><b>* = Matches the proceeding element zero or more times </b></h3>
+<p>The asterisk is similar to the plus sign, in that it matches the character before it, the only difference is with an asterisk, it can be less than one time (zero). For example, ab*c will match  ac, abc,  abbc, abbbbc.</p>
+<h3> <b>.* = Get everything</b></h3>
+<p>Often you will see .* in your htacess file.  (.*) means get everything before this expression.</p>
+<p><b> </b></p>
+<h2><b>Anchors </b></h2>
+<h3><b>^ = Matches in beginning of the string  </b></h3>
+<p>Use the caret to match the beginning of a subject string. For example ^F mean the subject string has to start with F.</p>
+<h3><b>$ = match the character at the end of the string  </b></h3>
+<p>Use the dollar sign to match the end of a subject string. For example $F mean the subject string has to end with F.</p>
+<h2><b>Quick Shorhands </b></h2>
+<p>\s means match any whitespace (included lines breaks)</p>
+<p>\d means match any digit</p>
+<p>\w means match any letter, letter or number (not case sensitive)</p>
+<p><b style="font-size: 1.5em;">Resources</b></p>
+<ul>
+<li>RegEx tester &#8211; <a href="http://regexpal.com/">http://regexpal.com/</a></li>
+<li>Regex Match Maker - <a href="http://sourceforge.net/projects/quregexmm/">http://sourceforge.net/projects/quregexmm/</a></li>
+<li>Regular Expressions Wikipedia - <a href="http://en.wikipedia.org/wiki/Regular_expression">http://en.wikipedia.org/wiki/Regular_expression</a></li>
+<li>Regular Expressions  Google - <a href="https://support.google.com/analytics/answer/1034324?hl=en">https://support.google.com/analytics/answer/1034324?hl=en</a></li>
+</ul>
+<p><b>Great Slide Share Resources: </b></p>
+<ul>
+<li><a href="http://www.slideshare.net/paulshapiro/regular-expressionsci">http://www.slideshare.net/paulshapiro/regular-expressionsci</a></li>
+<li><a href="http://www.slideshare.net/mig.lop/regular-expressionsgoogleanalytics">http://www.slideshare.net/mig.lop/regular-expressionsgoogleanalytics</a></li>
+<li><a href="http://www.slideshare.net/andreizm/andreis-regex-clinic">http://www.slideshare.net/andreizm/andreis-regex-clinic</a></li>
+<li><a href="http://www.slideshare.net/Troyfawkes/regular-expressions-regex-for-seo-27022941">http://www.slideshare.net/Troyfawkes/regular-expressions-regex-for-seo-27022941</a></li>
+</ul>
+<p>The post <a rel="nofollow" href="http://www.shimonsandler.com/regex-in-google-analytics/">How To Use RegEx in Google Analytics</a> appeared first on <a rel="nofollow" href="http://www.shimonsandler.com">SEO Consultant - Shimon Sandler</a>.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.shimonsandler.com/regex-in-google-analytics/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>What You&#8217;re Missing with Your Keyword Research</title>
+		<link>http://www.shimonsandler.com/what-youre-missing-with-your-keyword-research/</link>
+		<comments>http://www.shimonsandler.com/what-youre-missing-with-your-keyword-research/#comments</comments>
+		<pubDate>Mon, 05 May 2014 15:18:45 +0000</pubDate>
+		<dc:creator>Menucha Zimmerman</dc:creator>
+				<category><![CDATA[Blogging]]></category>
+		<category><![CDATA[Keyword Analysis]]></category>
+		<category><![CDATA[SEO]]></category>
+
+		<guid isPermaLink="false">http://www.shimonsandler.com/?p=2312</guid>
+		<description><![CDATA[<p>Whenever I conduct keyword research, I find that a hefty percentage of them indicate knowledge gaps for potential customers that offer some serious traffic potential. For example, if I were to do keyword research for a client that sells diabetes medication, I would find that the following keywords have (relatively) high search volume: “what is [...]</p>
+<p>The post <a rel="nofollow" href="http://www.shimonsandler.com/what-youre-missing-with-your-keyword-research/">What You&#8217;re Missing with Your Keyword Research</a> appeared first on <a rel="nofollow" href="http://www.shimonsandler.com">SEO Consultant - Shimon Sandler</a>.</p>
+<div class='yarpp-related-rss'>
+
+Related posts:<ol>
+<li><a href='http://www.shimonsandler.com/seo-roadmap/' rel='bookmark' title='How to Create an SEO Roadmap'>How to Create an SEO Roadmap</a></li>
+</ol>
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.shimonsandler.com/wp-content/uploads/2014/05/keyword-research.jpg"><img class="wp-image-2320 alignleft" alt="KeywordResearch_graphic" src="http://www.shimonsandler.com/wp-content/uploads/2014/05/keyword-research.jpg" width="85" height="70" /></a>Whenever I conduct keyword research, I find that a hefty percentage of them indicate knowledge gaps for potential customers that offer some serious traffic potential.</p>
+<p dir="ltr">For example, if I were to do keyword research for a client that sells diabetes medication, I would find that the following keywords have (relatively) high search volume:</p>
+<ul>
+<li>“what is a normal sugar level”</li>
+<li>“how do you know if your diabetic”</li>
+<li>“what causes diabetes”</li>
+<li>“how to check blood sugar”</li>
+</ul>
+<p>I integrated the fantastic Laura Lippay’s keyword research technique into our keyword research process. If you want to find out more about it, the post is worth a read &#8211; <a href="http://moz.com/blog/categorized-keyword-research-step-2-of-the-8step-seo-research-strategy" target="_blank">it’s an oldie, but a goodie</a>.</p>
+<p>In her post, Laura recommends creating an Excel spreadsheet broken down into different categorized tabs based on the brand’s persona and the different keyword categories that you’ll find along the way as you progress.</p>
+<p>For my diabetes medication keyword research, for instance, I broke down the keywords into medication, blood sugar, type 2, pills, etc.</p>
+<p>In addition to all of those keyword categories, I decided to create an additional tab: blog/guide keywords. While I was reviewing all of the keywords provided by SEMRush and AdWords, I conditionally formatted the spreadsheet to highlight the following terms:</p>
+<ul>
+<li>Do</li>
+<li>What</li>
+<li>Why</li>
+<li>When</li>
+<li>How</li>
+<li>Can</li>
+</ul>
+<p>I then sorted the spreadsheet and cut and pasted those keywords along with the traffic and cpc data into my blog/guide tab. Voila! You have a list of high volume keywords that you can use as blog post or infographic titles. It’s a simple hack that offers a lot of potential to the client. If you’re lucky, you won’t have to think about creating blog post titles for six months.</p>
+<p><i>Photo credit: <a href="http://thrivehive.com/wp-content/uploads/2013/09/keyword-research.jpg">ThriveHive</a></i></p>
+<hr />
+<p><i>Menucha Zimmerman is SEO director at <a href="http://www.searchinteractions.com/">Search Interactions</a>, an online marketing agency that specializes in enterprise SEO. In her free time, she enjoys reading modern classics and saying snobby things about wine.</i></p>
+<p>The post <a rel="nofollow" href="http://www.shimonsandler.com/what-youre-missing-with-your-keyword-research/">What You&#8217;re Missing with Your Keyword Research</a> appeared first on <a rel="nofollow" href="http://www.shimonsandler.com">SEO Consultant - Shimon Sandler</a>.</p>
+<div class='yarpp-related-rss'>
+<p>Related posts:<ol>
+<li><a href='http://www.shimonsandler.com/seo-roadmap/' rel='bookmark' title='How to Create an SEO Roadmap'>How to Create an SEO Roadmap</a></li>
+</ol></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.shimonsandler.com/what-youre-missing-with-your-keyword-research/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>How to Create an SEO Roadmap</title>
+		<link>http://www.shimonsandler.com/seo-roadmap/</link>
+		<comments>http://www.shimonsandler.com/seo-roadmap/#comments</comments>
+		<pubDate>Tue, 25 Feb 2014 18:54:40 +0000</pubDate>
+		<dc:creator>Shimon Sandler</dc:creator>
+				<category><![CDATA[SEO]]></category>
+
+		<guid isPermaLink="false">http://www.shimonsandler.com/?p=2282</guid>
+		<description><![CDATA[<p>When project planning, goal planning, or any sort of planning it&#8217;s important to have a roadmap to keep you on the right path for a successful journey. That&#8217;s exactly how we view the SEO process. It&#8217;s a plan that needs a roadmap. It&#8217;s designed to get you from point A to point B. But, it [...]</p>
+<p>The post <a rel="nofollow" href="http://www.shimonsandler.com/seo-roadmap/">How to Create an SEO Roadmap</a> appeared first on <a rel="nofollow" href="http://www.shimonsandler.com">SEO Consultant - Shimon Sandler</a>.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+
+No related posts.
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p>When project planning, goal planning, or any sort of planning it&#8217;s important to have a roadmap to keep you on the right path for a successful journey.  That&#8217;s exactly how we view the SEO process.  It&#8217;s a plan that needs a roadmap.  It&#8217;s designed to get you from point A to point B.  <a href="http://www.shimonsandler.com/wp-content/uploads/2014/02/seo-roadmap1.png"><img src="http://www.shimonsandler.com/wp-content/uploads/2014/02/seo-roadmap1-300x264.png" alt="SEO Roadmap" width="300" height="264" class="alignleft size-medium wp-image-2303" /></a>But, it also helps to keep all the people involved aware of what&#8217;s happening, and when it&#8217;s happening.  Not to mention, it&#8217;s hugely beneficial for managing client expectations.  The roadmap used for the image within this post is just an example.  </p>
+<p>This type of visualization of the SEO Roadmap is also beneficial to create when evaluating the scope (and pricing) of an SEO initiative for new clients.</p>
+<p>After evaluating the business goals, the website, and competitive analysis, you&#8217;ll have a much better idea as to what it takes to achieve the objectives of increasing Organic web traffic, increasing revenue, and improving keyword rankings (findability).</p>
+<p>Some questions to ponder:</p>
+<ul>
+<li>What are the priorities?</li>
+<li>What tasks will have the highest immediate impact?</li>
+<li>What tasks have low difficulty and high impact?  </li>
+<li>How tough is the competitive set?  What are they doing wrong?  What are they doing right?  </li>
+<li>What is lacking, or unoptimized, with the current site?  </li>
+<li>Where are the greatest opportunities? </li>
+</ul>
+<p>Some specifics to include on the SEO Roadmap could include:</p>
+<ul>
+<li>Baseline reporting (Traffic and Keyword Rankings).</li>
+<li>Keyword research.</li>
+<li>Technical SEO (Schematics, Fixing errors, Video Sitemaps, etc).</li>
+<li>Link Audit.</li>
+<li>Link Cleanup.</li>
+<li>Developing viral content.</li>
+<li>Link Building Strategies.</li>
+<li>SEO Reporting</li>
+</ul>
+<p>Each timeline within the roadmap is just a naming for the specific SEO project. Obviously, each section could have a ton of supporting documentation.  For example: the timeline called &#8220;Site Migration&#8221; would have a ton of documentation, and likely be tied together with the Wireframe review.  At the bare minimum for a site migration, there would need to be a list of all the old URLs and the new ones on Dev Server, which we would test the redirects multiple times to insure a smooth launch.</p>
+<p>Depending on the size of the client, or length of engagement, you could modify the 12-month Roadmap shown to be a 6-month Roadmap, or even a 3-month roadmap.  </p>
+<p>Finally, once you&#8217;ve created your SEO Roadmap, it&#8217;s important that you stay on track, on time, and manage the process.  Make adjustments as necessary, but stay focused on the results.  Make sure everything is measurable &#038; tracked.  Stay focused. Stay energized.  Be strategic.  You will be successful.</p>
+<p>The post <a rel="nofollow" href="http://www.shimonsandler.com/seo-roadmap/">How to Create an SEO Roadmap</a> appeared first on <a rel="nofollow" href="http://www.shimonsandler.com">SEO Consultant - Shimon Sandler</a>.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://www.shimonsandler.com/seo-roadmap/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

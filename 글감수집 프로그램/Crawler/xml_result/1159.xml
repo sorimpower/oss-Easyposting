@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Daybreakin Things on Tistory</title>
+		<link>http://daybreaker.tistory.com/</link>
+		<description>Tistory에 튼 새 둥지. TNF 활동 및 IT 관련 글들을 씁니다.</description>
+		<language>ko</language>
+		<pubDate>Wed, 17 Aug 2011 08:38:02 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<item>
+			<title>최신 기술 사용하기</title>
+			<link>http://daybreaker.tistory.com/638</link>
+			<description>&lt;p&gt;얼마 전에 2004년형 모토로라 스타택(...)&lt;sup class=&quot;footnote&quot;&gt;&lt;a id=&quot;footnote_link_638_1&quot; href=&quot;#footnote_638_1&quot; onmouseover=&quot;tistoryFootnote.show(this, 638, 1)&quot; onmouseout=&quot;tistoryFootnote.hide(638, 1)&quot; style=&quot;color: #f9650d; font-family: Verdana, Sans-serif&quot;&gt;&lt;span style=&quot;display: none&quot;&gt;[각주:&lt;/span&gt;1&lt;span style=&quot;display: none&quot;&gt;]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;을 그대로 쓰고있는 날 보고 사장님이 &quot;너 얼리어답터인줄 알았는데 그게 아닌가 보구나?&quot;하는 말을 하셨는데, 내가 얼리어답터인 쪽은 정작 따로 있다. 바로 프로그래밍.&lt;/p&gt;
+&lt;p&gt;요즘 인턴하고 있는&amp;nbsp;회사에서 Django로 웹어플리케이션을 하나 짜고 있다. 개발 중인 다른 제품을 백엔드로 하여&amp;nbsp;내부 API를 통해 사용할 예정이긴 하지만 사실상 1인 프로젝트나 다름 없어서 server-side부터 HTML/CSS 코딩까지 혼자 다 하고 있다. (그나마 디자이너 분이 계셔서 다행이다.)&lt;/p&gt;
+&lt;p&gt;아직 회사가 작은 규모라서 가능하기도 했지만, Python + Django로 상용 제품을 개발한다는 것 자체가 사실 그리 쉬운 일은 아니다. 해외에서야 많이 검증되고 개발자층을 확보했다쳐도 국내에서는 본업보다는 개인적인 흥미로 다루는 분들만 소수 존재할 뿐이다. (본업으로 다루시는 분들도 아주 조금씩은 있는 것 같지만 아직 Django 써서 런칭했다는 국내 서비스는 못 들어본 듯. RoR이야 뭐 미투데이도 있고 스프링노트도 있고 그럭저럭 있지만.) 아무래도 내가 인턴 끝나고 나가더라도 유지보수하기 쉬워야 한다는 점에서 회사 입장에서는 조금 꺼림칙할 수도 있었겠지만 다행히 내 선택을 존중해주었다.&lt;/p&gt;
+&lt;p&gt;오늘부터는 회사 전체적으로 향후 새로운 서비스를 개발할 때 UI 디자인 요소를 사용하기 쉽도록 일종의 테마 라이브러리 만드는 작업을 하고 있는데, 여러 테마를 미리 만들어놓고 HTML/CSS로 자주 사용되는 요소들을 뽑아 미리 stylesheet까지 다 만들어서 나중에 가져다 쓰기만 하면 될 정도로 하는 것이 목표다. id/class 이름이나 전체적인 DOM 구조까지 다 설계하였다. 그 과정에서 역시 전통적인 골칫거리(?)인 rounded box 문제&lt;sup class=&quot;footnote&quot;&gt;&lt;a id=&quot;footnote_link_638_2&quot; href=&quot;#footnote_638_2&quot; onmouseover=&quot;tistoryFootnote.show(this, 638, 2)&quot; onmouseout=&quot;tistoryFootnote.hide(638, 2)&quot; style=&quot;color: #f9650d; font-family: Verdana, Sans-serif&quot;&gt;&lt;span style=&quot;display: none&quot;&gt;[각주:&lt;/span&gt;2&lt;span style=&quot;display: none&quot;&gt;]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;가 나왔는데, 전통적인 해결책은 의미 없는 HTML element를 추가하는 것이나 개발 효율성이 더 중요하다고 판단하여 CSS3의 border-radius를 그냥 쓰고 IE에서는 네모난 상자 모양으로 대체 처리(fall-back)가 되게 하기로 했다.&lt;/p&gt;
+&lt;p&gt;이것은 rounded box가 rectangle box로 보인다고 해서 서비스 접근성에 지장이 생기는 것도 아니고, 우리 회사의 서비스들이 일반 대중들을 상대로 한다기보다는 전문가 집단을 타겟으로 하기 때문에 굳이 그만큼 노력을 들여서 디자인에 맞출 필요는 없다는 판단이 깔려있는 결정이었다.&amp;nbsp;하지만 정말 디자이너가 만든 것을 그대로 한치의 오차도 없이 구현해야 한다면 자바스크립트의 도움을 받거나 지저분한 DOM을 감수할 수밖에 없다.&lt;/p&gt;
+&lt;p&gt;이렇듯 신기술이 나와도 호환성 문제(웹쪽에선 IE가 가장 문제긴 하지만) 때문에 어느 하나 손쉽게 쓰기 힘들다. 하지만 그 안에 안주하다보면 발전하기 힘든 것도 사실이다. 우리나라는 시장이 크지 않아서 그런 걸까, 어떤 면에선 굉장히 빠르지만 또 다른 면에서는 새로운 조류의 흐름을 빨리 받아들이지 못하는 부분이 있는 것 같기도 하다. 사실 개인적으로는 해외에서 Django 개발자로 같이 일해보지 않겠냐는 제의를 2차례 받아보았을 정도인데, 그만큼 그쪽은 수요가 있다는 뜻이나 우리나라에서는 Django로 프로젝트를 해도 유지보수 때문에 묻혀버릴 정도니... (아주 잠깐 운영되었던&amp;nbsp;지금의 textcube.org 바로 전 버전이 그런 케이스. orz)&lt;/p&gt;
+&lt;p&gt;한편 다른 종류의 호환성 문제로는 아이폰 도입 논란도 있다. 기술적으로는 이미 아이폰보다 훨씬 좋은 휴대전화를 만들 수 있지만 사회적 호환성 때문에 진화하지 못하고 있는 것이라고도 볼 수 있다. 웹개발 업계에서는 Firefox가 등장하여 IE의 진화를 촉진했듯이, 이동통신 업계에서도 아이폰을 통해 더 좋은 휴대전화와 서비스가 나올 수 있는 환경이 마련되었으면 좋겠다.&lt;/p&gt;
+&lt;p&gt;마지막으로, 나 자신 또한 내가 현재 알고 있는 것들에 안주하게 되어버리지 않도록 끊임없이 노력해야겠다는 생각을 해본다. Django가 지금은 좋다고 하지만 언젠가는 그것보다 더 나은 무언가가 나올지도 모르는 일이고, 그럴 때 내 스스로 거부감 없이 받아들일 수 있도록 항상 열린 자세를 가져야 한다. (사실 요즘 회사에서 Django를 매우 빡시게 쓰면서 한계점들도 발견하는 중이다.) TDD도 시도했지만 역시 이것도 익숙해지려면 많은 노력이 필요하다는 걸 느낄 수 있었고, 애자일 또한 모든 사람에게 있는&amp;nbsp;그대로 적용할 수 있는 것은 아니라는 경험도 할 수 있었다. 경력이 많은 사람일수록 그 경륜·경험에 의한 노하우적 가치가 큰 대신 새로운 방법을 받아들이기 힘들어하고 이는 사람인 이상 어쩔 수 없는 면이기도 하다. 절대적인 정답을 단언할 수 없는 상황에서는 스스로의 노력을 통해&amp;nbsp;자신의 유연함을 잃지 않도록 노력하는 것이 중요한 것 같다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;/p&gt;&lt;div class=&quot;footnotes&quot;&gt;
+	&lt;ol class=&quot;footnotes&quot;&gt;
+		&lt;li id=&quot;footnote_638_1&quot;&gt;이거 미투모바일 알림문자 받아서 네이트버튼 누르면 메모리 부족하다고 뜨지도 않는다.;; 아이폰 나오면 질러야지. ㅋㅋㅋ &lt;a href=&quot;#footnote_link_638_1&quot;&gt;[본문으로]&lt;/a&gt;&lt;/li&gt;
+		&lt;li id=&quot;footnote_638_2&quot;&gt;깔끔한 HTML과 CSS만으로 둥근 모서리를 가진 상자를 만드는 것은 그리 간단하지 않다. 가로 폭이나 세로 높이 고정된다는 가정이 있더라도 최소한 2장의 이미지를 잘라 만들어야 한다.
+
+CSS 3.0부터는 border-radius라는 속성이 추가되어 이미지 없이 CSS만으로 원하는 효과를 손쉽게 구현할 수 있고, 현재 Webkit 계열의 엔진을 쓰는 Safari/Chrome 및 Gecko 엔진을 쓰는 Firefox와 관련 브라우저들은 모두 이를 지원하고 있다. &lt;a href=&quot;#footnote_link_638_2&quot;&gt;[본문으로]&lt;/a&gt;&lt;/li&gt;
+	&lt;/ol&gt;
+&lt;/div&gt;
+&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-638-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-638-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-638-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Hot Issue, Services</category>
+			<category>django</category>
+			<category>iPhone</category>
+			<category>기술적 호환성</category>
+			<category>사회적 호환성</category>
+			<category>아이폰</category>
+			<category>최신 기술</category>
+			<category>호환성</category>
+			<author>daybreaker</author>
+			<guid>http://daybreaker.tistory.com/638</guid>
+			<comments>http://daybreaker.tistory.com/638#entry638comment</comments>
+			<pubDate>Fri, 26 Jun 2009 00:36:22 +0900</pubDate>
+		</item>
+		<item>
+			<title>다음 스카이뷰/로드뷰로 추억 살려보기</title>
+			<link>http://daybreaker.tistory.com/637</link>
+			<description>글도 하나 쓸까 생각하던 차에 마침 이벤트도 있길래 옳거니 하고 써본다. ㅋㅋ&lt;br /&gt;
+대략 유치원 2년 정도에 초등학교 5학년 2학기 초까지 8년 정도 살았던 강남구 개포동 5단지. 이곳도 역시 로드뷰에 포함되어 있었다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfs10.tistory.com/original/26/tistory/2009/01/23/21/29/4979b812e993c&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs10.tistory.com/image/26/tistory/2009/01/23/21/29/4979b812e993c&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;4979b812e993c9P.jpg&quot; height=&quot;426&quot; width=&quot;600&quot;/&gt;&lt;/a&gt;&lt;p class=&quot;cap1&quot;&gt;초등학교 시절의 대부분을 보낸 양전초등학교.&lt;/p&gt;&lt;/div&gt;어렸을 땐 저 길과 담장이 매우 크게 느껴졌었는데 지금 보니까 전혀...-_-;; 학교 안에 양전동산이라는 큰 정원이 있어 매우 좋았다. 운동회할 때 점심시간이 되면 부모님들과 아이들이 저 동산 곳곳에 돗자리를 펴놓고 도시락 먹던 기억이 새록새록. 초등학교 입학식하던 날부터 시작해서, 국민학교라는 이름이 초등학교로 바뀌고(2학년때였음) 처음 영어수업이 도입되는 등 나름대로 변화를 겪었던 곳이기도 하다. 3, 4학년 때 만났던 선생님들이 매우 좋으셨던 분들로 기억에 남은 반면 1, 5학년 때 분들은 완전 최악이었고 2학년 때는 촌지가 무엇인지 알게 되는 우여곡절이 있기도 했다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfs10.tistory.com/original/32/tistory/2009/01/23/21/31/4979b8b04f041&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs10.tistory.com/image/32/tistory/2009/01/23/21/31/4979b8b04f041&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;4979b8b04f0419V.jpg&quot; height=&quot;426&quot; width=&quot;600&quot;/&gt;&lt;/a&gt;&lt;p class=&quot;cap1&quot;&gt;빨간모자 피자집과 크레용 화방&lt;/p&gt;&lt;/div&gt;이 두 집은 개포동에 살던 내내 우리집의 단골이었다. 빨간모자 피자집은 하도 많이 시켜먹어서 사은품으로 주는 장기, 체스, 바둑판 세트를 다 받았고, 크레용 화방에서는 0.1mm 로트링펜부터 시작하여 일제 플레이칼라 사이펜에 이르기까지 꽤 다양한 종류의 문구류를 구입했었다. 초등학생 주제에 로트링펜씩이나 쓴다고 하니 화방 아저씨가 아무나 쓰는 거 아니라고 구박(?)하던 기억이 있다. &lt;a title=&quot;[http://daybreaker.info/blog/entry/10년-전으로]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://daybreaker.info/blog/entry/10%EB%85%84-%EC%A0%84%EC%9C%BC%EB%A1%9C&quot;&gt;2005년 여름에&lt;/a&gt; 지금 사는 용인 수지의 집에서부터 탄천-양재천 따라 자전거 타고 이 화방에 갔었는데 그때도 그 아저씨가 그대로 있었고, 나도 기억하고 있을 정도였다.;;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfs10.tistory.com/original/33/tistory/2009/01/23/21/34/4979b956dee03&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs10.tistory.com/image/33/tistory/2009/01/23/21/34/4979b956dee03&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;4979b956dee039W.jpg&quot; height=&quot;426&quot; width=&quot;600&quot;/&gt;&lt;/a&gt;&lt;p class=&quot;cap1&quot;&gt;초등학교 시절 등교길&lt;/p&gt;&lt;/div&gt;벌써 10년도 더 되었으니 나무들이 많이 자랐다. 봄에 저 풀밭에 민들레가 피면 쭈구려앉아 관찰하기도 하고, 동네 아이들하고 개미집 뒤지러 다니던 기억도 있다. 역시 그때는 몸집이 작았을 때라 저 공간이 훨씬 크게 느껴졌었는데 성인이 된 지금 보면 매우 작은 것 같다.;;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfs10.tistory.com/original/31/tistory/2009/01/23/21/35/4979b9af43b9f&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs10.tistory.com/image/31/tistory/2009/01/23/21/35/4979b9af43b9f&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;4979b9af43b9f9U.jpg&quot; height=&quot;426&quot; width=&quot;600&quot;/&gt;&lt;/a&gt;&lt;p class=&quot;cap1&quot;&gt;개포동 성당&lt;/p&gt;&lt;/div&gt;개포동에 살던 당시 다녔던 성당. 역시 마찬가지로 어렸을 때 기억으로는 무지막지하게 큰 건물로 생각나는데 지금 보니 그리 크진 않은 것 같다.;; 교리반에 열심히 다녔던 기억, 첫영성체 받는다고 열심히 기도문 외우던 일 등의 추억이 서린 곳이다. 겨울에는 어린이미사 끝나고 형과 함께 이 길의 반대편에 있는 3단지에서 열심히 놀았는데, 특히 큼직한 플라스틱 창고통 뚜껑을 가지고 경사로에 물뿌려 만든 간이썰매장을 이용했던 게 재밌었다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfs10.tistory.com/original/18/tistory/2009/01/23/22/19/4979c3e2e58ca&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs10.tistory.com/image/18/tistory/2009/01/23/22/19/4979c3e2e58ca&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;4979c3e2e58ca9H.jpg&quot; height=&quot;426&quot; width=&quot;600&quot;/&gt;&lt;/a&gt;&lt;p class=&quot;cap1&quot;&gt;아주 잠깐 다녔던 토월초등학교&lt;/p&gt;&lt;/div&gt;서울에서 용인으로 들어올 때 5학년 2학기만 잠깐 다녔던 학교다. 딱 한 학기만 다니긴 했지만 친구도 많이 사귀고(이때 사귄 친구 중 지금까지 교류하는 아이도 있다) 꽤 강렬한 인상이 남은 곳이다. 내 뒤로 전학온 차재준이란 아이랑 커플목걸이(...)까지 할 정도로 친해지기도 했는데 아마 신도시로 이사오면서 겪는 여러 혼란들 때문에 그런 급속한 우정 진전이 가능했던 것 같다. 바로 옆반에 나랑 닮은(.....) 이준기라는 녀석이 있었던 것이나―물론 배우 이준기 말고―학교 싸움짱 정도 되는 녀석한테 코피나도록 얻어맞았던 일, 당시 담임선생님이셨던 분이 청소에 너무나 엄격해서 맨날 반 전체가 제일 늦게 하교하며 손으로 만져서 먼지 한톨 안 나오도록 걸레질했던 일, 또 그분이 가장 무서운 선생님이라 툭하면 단체기합 받았던 일까지...ㅋㅋ&lt;br /&gt;
+&lt;br /&gt;
+왼쪽 위의 아파트단지가 수지삼성1차아파트인데 이때 용인에 입주하려고 하던 아파트가 완공되지 않은 상태에서 형이 수지고등학교에 입학 배정을 받아야 한다나 뭐 그런 문제로 103동에 살던 친척집에 잠시 얹혀 지내고, 당시 분당 블루힐 백화점(지금은 롯데백화점)의 셔틀버스를 이용해 공짜로(!) 주말마다 서울의 개포동 집에 왔다갔다했었다. 1년 후인가 얼마 못가서 버스업체들의 피해가 심하다는 이유로 지역간 백화점 셔틀버스가 금지되었던 걸로 기억한다. 지금은 그 거리를 편도 1700원을 주고 다닌다.;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfs10.tistory.com/original/12/tistory/2009/01/23/22/13/4979c29363fe8&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs10.tistory.com/image/12/tistory/2009/01/23/22/13/4979c29363fe8&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;4979c29363fe89B.jpg&quot; height=&quot;426&quot; width=&quot;600&quot;/&gt;&lt;/a&gt;&lt;p class=&quot;cap1&quot;&gt;대현초등학교&lt;/p&gt;&lt;/div&gt;집이 제대로 된 아파트에 입주하며 가까운 곳으로 옮기게 되어 다녔다. 내가 1회 졸업생이 되었다. 6학년 1학기 때 전학왔을 땐 학교 건물이 1층까지만 있었고, 6학년 2학기 때 2층까지 완공되었다. 졸업할 때까지 학교 전체가 완성된 모습은 못 보았던...(....) 그런 학교. 건물 한 층만 가지고 초등학교 1학년부터 6학년까지 다 수용하다보니 당연히 공간이 부족했고 당시 부모님 세대에서나 있을 법했던 한번 65명을 경험해보게 되었다.;; 보통 초등학교들 같은 경우 교실 뒤쪽에 따로 놀이공간을 만들어두는 경우가 많은데 이땐 상상도 못할 일이었다; 게다가 학교 건물 뒤쪽에 저런 정원이 있었는지는 인제 처음 알았네;;;&lt;br /&gt;
+&lt;br /&gt;
+2학기 때 2층이 생기면서 공간에 여유가 생기자 두 반으로 분반하였는데 이때 나는 새로 생긴 2반으로 가면서 초임발령받으신 남자담임선생님을 만나게 되었다. 매우 쑥쓰러워하시던(..) 분으로 기억하는데 마지막에 졸업식할 때 울지도 못하면서 적당한 멘트도 못하시던 순수한 모습이 기억에 남는다.&lt;br /&gt;
+&lt;br /&gt;
+사진 아래쪽에 보이는 죽전중학교는 내가 이 초등학교 졸업할 때 생겨서 1회 입학생을 받았고 왼쪽의 죽전고등학교는 그보다 1~2년 뒤에 생긴 것으로 기억한다. 원래 죽전중학교 배정까지 받았으나 집이 풍덕천동 쪽으로 이사하는 바람에 봄방학 때 정평중학교로 전학하게 되었다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfs10.tistory.com/original/24/tistory/2009/01/23/22/04/4979c06b32d1b&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs10.tistory.com/image/24/tistory/2009/01/23/22/04/4979c06b32d1b&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;4979c06b32d1b9N.jpg&quot; height=&quot;426&quot; width=&quot;600&quot;/&gt;&lt;/a&gt;&lt;p class=&quot;cap1&quot;&gt;정평중학교&lt;/p&gt;&lt;/div&gt;중학교 시절 전부를 보낸 정평중학교. 건물 모양이 ㅁ자에 날개가 달린 형태를 하고 있는데, 보통의 학교와 다른 특이한 구조 때문에 처음 오는 사람들이 길을 잃기 일쑤였다. (요즘 신도시엔 이런 특이한 모양의 학교가 많이 생긴 듯하다.) 왼쪽 아래쪽 5층에 교무실과 방송실이 함께 있다. 지붕 색깔이 더 밝은 부분은 나중에 증축(...)한 것이다. 보통의 학교들은 주교무실과 방송실이 2층에 있는데, 이 학교의 경우는 둘다 5층에 있어서 방송부 생활할 때 좀 힘들었다;;; 애국조회도 그렇고 무슨 행사만 했다 하면 그 장비들을 5층에서 1층까지 다 날라야 했으니...ㅋㅋ 나중엔 선생님들이 좀 배려해주셔서 엘레베이터를 이용할 수 있게 되긴 했지만.&lt;br /&gt;
+&lt;br /&gt;
+사실 내가 입학할 당시(난 이 학교 1회 입학생이다 ㅋㅋ)엔 학교 건물 자체가 없어서 아래쪽에 보이는 풍덕고등학교(3층까지인가만 완공되고 그 위는 공사중이었다-_-) 3층을 빌려서 생활하다가 1학년 여름방학 때 2층까지 완공된 학교 건물로 이사했고 내가 2학년 올라갔을 때에야 비로소 완성된 학교를 볼 수 있었다. 당시 주요 일간지에 &#039;용인 신도시 난개발&#039;이라는 제목으로 이 학교 사진이 찍혀 기사가 나오기도 했다.;;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfs10.tistory.com/original/8/tistory/2009/01/23/21/54/4979be019b9cd&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs10.tistory.com/image/8/tistory/2009/01/23/21/54/4979be019b9cd&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;4979be019b9cd97.jpg&quot; height=&quot;426&quot; width=&quot;600&quot;/&gt;&lt;/a&gt;&lt;p class=&quot;cap1&quot;&gt;경기과학고등학교&lt;/p&gt;&lt;/div&gt;이번에는 수원의 경기과학고. 내가 다니고 있을 때 남자기숙사(주황색지붕의 위아래로 길쭉한 건물) 전면 리모델링 공사를 하더니 몇년 전에 신남사 건물을 아예 새로 지었다고 한다. 그게 남자기숙사 바로 위쪽의 진한 갈색 지붕 건물인 듯. 그 바로 아래에 있는 건 여자기숙사. 지하 1층(운동장에서 보면 1층)에 학습실이 있었는데 내가 2학년일 때 운동장 맞은편의 체육관이 만들어지면서 그 건물 1층이 새 학습실로 만들어졌는데 지금은 거기만 쓰려나? 남자기숙사 왼쪽의 정사각형 주황색지붕 건물은 식당이고(식당아주머니들이 참 친절하셨던 기억이...) 그 왼쪽 아래의 건물은 과학실험동인 탐구관. 꼭대기의 옥탑방이 바로 내가 있었던 과학동아리 온에어의 동아리방이다. (다 좋은데 겨울에 좀 춥다-_-) HAM으로 몰래 북한 방송도 들었던(;;) 기억이 난다. 사진 아래쪽의 길쭉한 건물은 짐작하다시피 학교 본관으로 교무실, 컴퓨터실 등이 있고 수업이 이루어지는 교실이 있다. 학교 정원은 상당히 잘 만들어진 편. 본관으로 올라오는 언덕길 양쪽으로 벚나무들이 쭈욱 늘어서 있어서 4월 말이 되면 흐드러지게 핀 벚꽃이 매우 아름답다. 오른쪽 아래에 약간 짤려나온 수일여중도 오래된 벚나무들이 많아 각 동아리 단위로 항상 벚꽃사진 찍는 연례행사가 있었다.&lt;br /&gt;
+&lt;br /&gt;
+당시 다닐 때와 달라진 점이라면 신남사가 새로 지어졌다는 것과, 학교 위쪽으로 보이는 전원주택단지가 새로 생겼다는 것(당시엔 아마 공사중이었던 것 같음), 왼쪽 위로 보이는 교육정보연구원의 건물들이 좀 더 생겼다는 것쯤 되겠다. 2010년부터인가는 전국 단위 학생 모집하는 과학영재학교로 바뀐다고 하니 예산이 더 늘어나면 건물을 더 새로 짓거나 할지도 모르겠다. 뭐, 내가 다닐 적에도 급식이나 냉난방 같은 건 정말 빠방하게 해주었고 나름대로 특혜(?)는 많이 받긴 했다. (지금은 어떤지 모르겠는데 중학교 때는 에어컨 시설이 있어도 아껴야 한다며 정말 감질나게 틀어주었는데 과학고 때는 교실마다 개별에어컨 설치해서 추울 정도로 빵빵하게 틀어줬었던...)&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfs10.tistory.com/original/36/tistory/2009/01/23/22/39/4979c8a7b7e1c&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs10.tistory.com/image/36/tistory/2009/01/23/22/39/4979c8a7b7e1c&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;4979c8a7b7e1c9Z.jpg&quot; height=&quot;426&quot; width=&quot;600&quot;/&gt;&lt;/a&gt;&lt;p class=&quot;cap1&quot;&gt;마지막으로 카이스트.&lt;/p&gt;&lt;/div&gt;역시 대학교가 스케일이 크긴 크다. ㅋㅋ 이곳에 얽힌 이야기는 아직도 현재진행형. 2~3학년 때는 학교 왼쪽(&#039;온천2동&#039; 글자 바로 옆)의 신축기숙사에 살았는데 이번 봄학기 때 복학하면 학교 가장 위쪽 끝의 이른바 시차 5분 지역이라 불리는 지혜관(기숙사 바동-_-)에 살게 된다. 참고로 내가 전공수업을 듣는 전산학과는 학교의 가장 오른쪽 아래에 있다.;; 그런고로 자전거 필수; ㅋㅋ&lt;br /&gt;
+사진을 보아하니 인문사회과학부와 문화기술대학원 있는 건물들 리모델링할 때 찍은 것 같다. 하얗게 빛나는 지붕이 오래된 지붕 들어내고 새로 방수처리·지붕덮기 하는 과정으로 보인다. 얼마 전에 복학신청하러 학교 다녀올 때 보니 오른쪽 아래 보이는 갑천이 얼어서 위에서 사람들이 놀고 있는 모습을 볼 수 있었다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+* * *&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+이것으로 스카이뷰·로드뷰를 이용한 일대기 답사는 끝이다. 얼마 전 &lt;a title=&quot;[http://daybreaker.info/blog/entry/%EA%B5%AC%EA%B8%80%EB%A7%B5-%ED%8C%8C%ED%8A%B8%EB%84%88%EB%8D%B0%EC%9D%B4]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://daybreaker.info/blog/entry/%EA%B5%AC%EA%B8%80%EB%A7%B5-%ED%8C%8C%ED%8A%B8%EB%84%88%EB%8D%B0%EC%9D%B4&quot;&gt;구글맵 파트너데이&lt;/a&gt; 때 발표하면서 구글맵을 통해 어느 동아리 선배가 자기 고향을 찾아보며 향수에 젖는 걸 보니 단순히 정보 제공뿐만 아니라 좀더 재미있는 그 무엇이 될 수도 있을 것 같다고 끝에 살짝 언급한 게 있는데 정말로 그런 것 같다. :)&lt;br /&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>잡담</category>
+			<author>daybreaker</author>
+			<guid>http://daybreaker.tistory.com/637</guid>
+			<comments>http://daybreaker.tistory.com/637#entry637comment</comments>
+			<pubDate>Fri, 23 Jan 2009 22:46:31 +0900</pubDate>
+		</item>
+		<item>
+			<title>웹브라우저 업그레이드 캠페인에 대한 단상</title>
+			<link>http://daybreaker.tistory.com/636</link>
+			<description>올해 초 해외에서 잠시 진행되었던 웹브라우저 업그레이드 캠페인이 얼마 전 &lt;a href=&quot;http://resistan.com/savethedeveloper/&quot; target=&quot;_blank&quot;&gt;국내에도 소개되었다&lt;/a&gt;. 캠페인의 &lt;span style=&quot;font-style: italic;&quot;&gt;원래&lt;/span&gt; 의도는,&lt;br /&gt;
+&lt;span style=&quot;color: rgb(140, 4, 75);&quot;&gt;&lt;/span&gt;&lt;blockquote&gt;&lt;span style=&quot;color: rgb(140, 4, 75);&quot;&gt;더욱 많은 사용자들이 다양하고 최신 웹표준 기술들이 적용된 웹브라우저를 사용하면:&lt;br /&gt;
+&lt;ul style=&quot;list-style-type: disc;&quot;&gt;
+&lt;li&gt;더이상 IE6와 호환성을 맞추느라 불필요한 삽질을 개발자들이 하지 않아도 되기 때문에 따라서 이를 더욱 창의적인 서비스와 제품을 만드는 데 활용할 수 있다.&lt;/li&gt;
+&lt;li&gt;사용자들 또한 더 빠르고 보안이 뛰어나며 탭브라우징 등 인터페이스가 향상된 웹브라우저들을 사용하게 됨으로써 인터넷 생활을 더욱 편리하게 할 수 있다.&lt;/li&gt;
+&lt;li&gt;덤으로 한국에서 Microsoft의 시장 독점을 막음으로써 더욱 건전한 웹생태계가 형성되고 장기적으로 사용자와 개발자 모두에게 다양성으로 인한 이익이 돌아갈 것이다.&lt;/li&gt;
+&lt;/ul&gt;
+=&amp;gt; 그러니 IE7, Firefox, Opera, Chrome 등 최신 웹브라우저들을 사용하자.&lt;/span&gt;&lt;/blockquote&gt;정도로 정리할 수 있다.&lt;br /&gt;
+&lt;br /&gt;
+언뜻 보면 괜찮은 것 같은데, 캠페인 자체를 막상 들여다보면 &lt;span style=&quot;font-weight: bold;&quot;&gt;&quot;Save the developers!&quot;&lt;/span&gt;라는 구호를 중심으로 전개되고 있다. 즉, 개발자들이 사용자들에게 &quot;제발 최신 웹브라우저 좀 써서 개발자들 삽질 좀 덜하게 해주세요&quot;라는 것이다. 그러다보니 다음과 같이 몇 가지 비판들이 생겨났다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;ul style=&quot;list-style-type: disc;&quot;&gt;
+&lt;li&gt;실컷 ActiveX며 IE에 최적화된 웹사이트들을 개발해온 장본인들이 개발자인데 이제 와서 이런 주장을 하는 것은 개발자 편의주의에 지나지 않는다. 개발자들이 먼저 개선해야 할 것을 왜 사용자더러 노력하라는 것이냐. &lt;a title=&quot;[http://may.minicactus.com/104946]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://may.minicactus.com/104946&quot;&gt;[작은인장님 블로그]&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;사용자 입장에서 볼때 개발자들이 말하는 웹표준 이런 거 잘 모르겠다. 이미 IE6로도 인터넷 잘만 쓰고 있는데 왜 바꿔야 하지? &lt;a title=&quot;[http://me2day.net/lazybug2/2008/12/14#17:14:22]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://me2day.net/lazybug2/2008/12/14#17:14:22&quot;&gt;[나무벌레님 미투데이]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;어쨌거나 저쨌거나 사용자가 원한다면 IE6가 아니라 IE5라도 지원해주는 것이 맞는 것 아니냐? 문제를 찾으려면 다른 곳(왜곡된 하도급 관행 등)에서 찾아라. &lt;a title=&quot;[http://resistan.com/savethedeveloper/comment-page-1/#comment-4100]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://resistan.com/savethedeveloper/comment-page-1/#comment-4100&quot;&gt;[죽음천사님 댓글]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;캠페인 의도 좋은 건 이해하지만, 구호가 잘못되었기 때문에 오해가 생기는 것 같다. &lt;a title=&quot;[http://resistan.com/savethedeveloper/comment-page-1/#comment-4168]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://resistan.com/savethedeveloper/comment-page-1/#comment-4168&quot;&gt;[바메님 댓글]&lt;/a&gt;&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+왜 이런 비판이 나왔는지 생각해보면,&lt;br /&gt;
+&lt;br /&gt;
+&lt;ul style=&quot;list-style-type: disc;&quot;&gt;
+&lt;li&gt;ActiveX로 개발해야 하는 개발자를 둘러싼 국내의 정치적·경제적 주변 환경 문제 - 표준지향 개발자들과 그렇지 않은 개발자들이 동일 집단으로 분류되었다.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;구호 자체가 사용자 입장을 대변하지 못하고 너무 개발자 중심적이다.&lt;/li&gt;
+&lt;li&gt;우리나라의 웹 환경이 이미 IE6에 너무 잘 맞춰져 있어서 사용자들이 웹브라우저를 바꿀 필요를 못 느낀다.&lt;/li&gt;
+&lt;li&gt;위 요인들이 합쳐져서, 결론적으로 &lt;span style=&quot;font-weight: bold;&quot;&gt;사용자에게 와닿지 않는다.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br /&gt;
+문제는, 비록 캠페인의 의도 전달 방법에는 잘못된 점이 있을지라도, 이것이 &lt;a title=&quot;[http://alankang.tistory.com/195]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://alankang.tistory.com/195&quot;&gt;개발자들이 현재 상황에서 취할 수 있는 몇 안 되는 행동들 중에 하나라는 사실&lt;/a&gt;이다.&lt;br /&gt;
+&lt;br /&gt;
+하지만 분명한 것은 사용자들에게 단순히 탭브라우징 같은 인터페이스로 어필할 수도 없고, ActiveX 환경 때문에 IE 계열이 아닌 웹브라우저를 쓰라고 무조건 권할 수도 없고, IE7이 정말로 모든 면에서 IE6보다 향상되었다면 모르겠으나 컴퓨터 상태에 따라 IE6보다 못한 경우도 있고, 무엇보다 이미 잘 쓰고 있다면 더 나은 것이 있더라도 굳이 바꾸려고 하지 않는 귀차니즘까지 더해져서 소 귀에 경 읽는 상황이 발생하고 있다는 점이다. 이것을 어떻게 타개해야 할지는 참으로 난감하다.&lt;br /&gt;
+&lt;br /&gt;
+사용자들이 자발적으로 웹브라우저를 업그레이드하게 하려면 가장 좋은 방법은 &lt;a title=&quot;[http://me2day.net/shinvee/2008/12/14#20:17:45]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://me2day.net/shinvee/2008/12/14#20:17:45&quot;&gt;예전 웹브라우저로 사용할 수 없거나 혹은 매우 느리거나 하는 킬러 웹서비스들이 다수 등장하는 것&lt;/a&gt;이다. (예를 들어 싸이월드나 네이버가 IE6를 지원하지 않는다면? -_-) 불행히도 이것이 마치 달걀이 먼저냐 닭이 먼저냐 하는 상황처럼 그런 서비스들이 등장하기 위해선 시장 조사에서 그러한 최신 웹브라우저를 쓰는 사용자들이 일정 비율 이상 되어야 한다는 문제가 있다. 게다가 최신 웹브라우저 사용자가 예를 들어 50%나 된다고 해도, 기존 IE6 사용자들을 여전히 고려해야 하기 때문에 IE6에서 아예 안 돌아가는 서비스가 등장한다는 건 상당히 요원한 일이라고 볼 수 있다. 결국 그냥 쓰던 사람들은 어차피 그냥 쓴다는 얘기다.&lt;br /&gt;
+&lt;br /&gt;
+또 한 가지 생각할 수 있는 것은 IE6에 매우 심각한 보안 결함이 발견되어서 어쩔 수 없이라도 업그레이드하게 만드는 상황이 오는 것이다. 이 방법의 가장 큰 문제는 확률에 의존해야 한다는 점이고, 어쨌든 Microsoft가 그동안 수없이 많은 보안 패치를 해오며 나름(?) 안정화되어버린 상황에서 설령 그런 보안 결함이 발견된다고 해도 웹브라우저의 업그레이드보다는 보안 패치 수준에서 해결될 공산이 크다.&lt;br /&gt;
+&lt;br /&gt;
+결국, 이 꼬여버린 실타래를 풀기 위해선 &lt;span style=&quot;font-weight: bold;&quot;&gt;정부 주도로 법적으로 다양한 웹브라우저·웹표준 지원을 강제하든지&lt;/span&gt;, &lt;span style=&quot;font-weight: bold;&quot;&gt;관련 업계 개발자들 모두가 피와 살을 깎는 노력으로 웹표준 서비스들을 개발하여 사용자들의 자발적인 선택이 이루어지길 기다리든지&lt;/span&gt; 하는 방법 뿐이다. 하지만 전자의 경우 관련 결정권자들이 웹표준에 대한 올바른 인식을 가져야 가능한데 아직도 그 수준까지는 한참 힘들어보이고, 후자의 방법은 개발자들이 너무 오랜 기간 정신적 고통을 이겨내야 한다는 문제가 있으며 국내의 시장 상황과 그동안의 경험으로 봤을 때 Windows XP 이하를 애초부터 사용할 수 없게 되는 식의 실현불가능한(...) 상황이 닥치지 않는 이상 사용자들의 보수적인 특성이 계속 발목을 잡을 것이다.&lt;br /&gt;
+&lt;br /&gt;사실 이 문제는 소프트웨어의 &lt;a title=&quot;[http://forest.nubimaru.com/entry/%ED%95%98%EC%9C%84-%ED%98%B8%ED%99%98%EC%84%B1-Legacy]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://forest.nubimaru.com/entry/%ED%95%98%EC%9C%84-%ED%98%B8%ED%99%98%EC%84%B1-Legacy&quot;&gt;하위호환성 문제&lt;/a&gt;와도 관련이 높다. IE6가 어찌됐건 꽤나 오랫동안 장수했기 때문에, 이를 기반으로 개발된 수많은 인트라넷 소프트웨어들은 정말 어쩔 도리가 없다. 일반 대중을 대상으로 하는 웹서비스들이야 웹표준을 지향하는 개발자 혹은 경영진의 판단, 사용자들의 대세 등으로 그나마 바뀔 가능성이 높지만, 그러한 인트라넷 소프트웨어들은 하위호환성이라는 장벽에 갇혀 막대한 비용을 들이지 않고서는 한번에 바꾸기란 쉽지 않기 때문이다. 내가 여기서 궁금한 건 과연 그 수요가 전체 시장 판도에 영향을 끼칠 만한 정도인가 하는 점이다. (아직 그런 회사 생활을 해본 적이 없어서...)&lt;br /&gt;
+&lt;br /&gt;
+이미 다 알고 있을지도 모르는 이야기를 꽤 길게 했는데, 그래서 사실 내가 몇달 전부터 준비하고 있는 것이 바로 &lt;span style=&quot;font-weight: bold;&quot;&gt;책을 쓰는 것이다.&lt;/span&gt; 어차피 한정된 블로고스피어에서 밤낮으로 토론해봤자 정말로 경영자들과 정부가 움직여야겠다라고 느낄 만큼의 시장 반향을 불러일으키긴 어렵다. 어떤 면에서는 분명 블로그가 책에 비해 더욱 지대한 영향력을 가질 수도 있겠지만―북미나 유럽 같은 곳이라면 가능할 듯―아직 국내 시장에서 보다 많은 대중들에게 접근할 수 있는 방법은 라디오·TV·신문 같은 대중매체나 책을 통한 것이다. 공익광고협의회 같은 곳에서 웹표준 캠페인을 벌여줄 가능성은 없는 것 같고(-_-), 그렇다고 직접 광고를 기획·제작할 수 있는 개발자는 없을 테고(있다면 만원 정도는 기부할 자신 있음), 결국 개발자 입장에서 선택해볼 만한 것은 책이다.&lt;br /&gt;
+&lt;br /&gt;
+여기서 자세한 내용을 밝히기는 어렵지만, 내가 쓰고 있는 책은 새로운 패러다임의 소프트웨어들을 사용함으로써 얻는 가치를 설득시키는 것이 목표이다. 여기에는 웹브라우저도 포함되며 그외 다양한 부문의 소프트웨어들이 등장할 예정이다.&lt;br /&gt;
+&lt;br /&gt;
+하지만 역시 가장 어려운 부분은 설득하는 것. 안 그래도 보수적인 사용자들이 움직이게 만들려면 어떡해야 할지 책을 쓰는 중반 단계에 이른 지금으로서도 불안하고 확신이 서지 않는다. 정말 없는 말이라도 지어내서 낚시를 해야 될 판인데 차마 그럴 수는 없고. ㅠ_ㅠ; 하지만 책이 별로 안 팔린다고 할지라도 조금이라도 많은 사용자들의 인식이 바뀐다면 그것이 씨앗이 되어 언젠가(개발자들 머리털 다 빠지기 전이길 바랄 뿐...) 우리나라의 특수하게 꼬인 상황을 풀어갈 싹이 되어준다면 나는 더 바랄 것이 없을 것이다.&lt;br /&gt;
+&lt;br /&gt;
+어쩌다가 한국의 (웹)개발자들이 이런 암울한 상황에 처했는지 참 알다가도 모를 일이다. 내가 웹개발 일을 하게 될지 어떨지는 아직 모르겠지만, 내가 본격적으로 사회에 발을 내딛을 무렵엔 좀 나아질 수 있을런지.&lt;br /&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Hot Issue, Services</category>
+			<category>Firefox</category>
+			<category>IE6</category>
+			<category>IE7</category>
+			<category>개발자</category>
+			<category>사용자</category>
+			<category>업그레이드</category>
+			<category>웹브라우저</category>
+			<category>웹표준</category>
+			<category>캠페인</category>
+			<author>daybreaker</author>
+			<guid>http://daybreaker.tistory.com/636</guid>
+			<comments>http://daybreaker.tistory.com/636#entry636comment</comments>
+			<pubDate>Mon, 15 Dec 2008 02:01:18 +0900</pubDate>
+		</item>
+		<item>
+			<title>Google 크롬 설치 오류 해결하다</title>
+			<link>http://daybreaker.tistory.com/635</link>
+			<description>아랫글에서처럼 비공식적인(?) 방법으로 삽질하여 이용하고 있었는데 우연히 다른 프로그램의 설치 문제를 해결하려고 하다가 함께 해결된 것을 발견했다.&lt;br /&gt;
+&lt;br /&gt;비스타에서만 발생하는 문제 같은데, &lt;span style=&quot;font-family: Courier New;&quot;&gt;%USERPROFILE%\Local Setting&lt;/span&gt;s 디렉토리가 비스타에서는 실제로 존재하지 않고 내부적으로 NTFS의 junction 링크를 이용해 &lt;span style=&quot;font-family: Courier New;&quot;&gt;%USERPROFILE%\AppData\Local&lt;/span&gt; 디렉토리로 연결되어 있는데 이것이 문제였던 것이다. 사용자 환경변수에서 TEMP와 TMP 변수를 모두 &lt;span style=&quot;font-family: Courier New;&quot;&gt;%USERPROFILE%\Local Settings\Temp&lt;/span&gt;에서 &lt;span style=&quot;font-family: Courier New;&quot;&gt;%USERPROFILE%\AppData\Local\Temp&lt;/span&gt;로 바꿔주니가 거짓말같이 잘 설치된다. OTL&lt;br /&gt;
+&lt;br /&gt;나중에 별도의 목적으로 활성화시킨 Administrator 계정에서는 이런 문제가 없는 것으로 보아, 비스타 초기 버전의 버그였던 것 같다. (필자는 비스타 엔터프라이즈 에디션을 학교 라이센스로 초기부터 공급받아 사용해왔다.)&lt;br /&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>잡담</category>
+			<category>Google Chrome</category>
+			<category>TEMP</category>
+			<category>Vista</category>
+			<category>구글 크롬</category>
+			<category>비스타</category>
+			<category>설치</category>
+			<category>실패</category>
+			<category>오류</category>
+			<category>환경변수</category>
+			<author>daybreaker</author>
+			<guid>http://daybreaker.tistory.com/635</guid>
+			<comments>http://daybreaker.tistory.com/635#entry635comment</comments>
+			<pubDate>Thu, 27 Nov 2008 17:37:35 +0900</pubDate>
+		</item>
+		<item>
+			<title>Google 크롬 수동 설치하기</title>
+			<link>http://daybreaker.tistory.com/634</link>
+			<description>&lt;p&gt;얼마 전에 출시되어 IT 매니아들 사이에서 화제를 모으고 있는 &lt;a href=&quot;http://google.com/chrome&quot;&gt;구글 크롬 웹브라우저&lt;/a&gt;는 미려한 UI와 빠른 실행 속도로 꽤 많은 사람들에게 인기를 끌고 있다. 텍스트큐브 개발팀에서도 발빠르게 위지윅 에디터 지원을 추가하고 있지만 정작 나는 설치 오류로 인해 건드려보지도 못하고 있었다. 나는 Windows Vista SP1 64bit 환경을 이용하면서 인터넷 뱅킹 등의 호환성 문제를 피하기 위해 Windows XP SP3를 가상머신으로 돌리고 있는데, 구글 크롬이 이 가상머신에서는 아무 문제 없이 설치되었으나 비스타에서는 다운로드 다 받고 설치가 시작될 때 &#039;에러 1&#039;이라면서 안 되고 있었다.&lt;/p&gt;
+
+&lt;p&gt;그러던 중 구글에서 설치 과정에 문제가 있는 사람들을 대상으로 &lt;a href=&quot;http://groups.google.com/group/google-chrome-help-tips-tricks/browse_thread/thread/088a832695c9b6f3#&quot;&gt;log 파일을 남기는 방법을 소개&lt;/a&gt;했는데, 그걸 보다가 떠올라 다음과 같이 수동 설치하는 방법을 알아냈다. 이 방법은 다운로드 자체는 성공적으로 이루어지지만 그 이후의 설치 과정에서 문제가 발생할 때만 사용할 수 있다. 다음에서 사용한 파일 경로는 모두 Vista 기준으로 XP는 조금 다르다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;설치프로그램이 종료될 때 다운받은 임시 파일을 지우지 않도록 레지스트리의 &lt;code&gt;HKEY_CURRENT_USER\Software\Google\Update&lt;/code&gt; 아래에 &lt;code&gt;ChromeInstallerCleanup&lt;/code&gt;이라는 문자열 값을 만들고 &#039;0&#039;을 입력한다.&lt;/li&gt;
+&lt;li&gt;원래 하던 대로 ChromeSetup.exe를 실행하고 에러가 발생하면 종료한다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;C:\Users\{USERID}\AppData\Local\Google\Update\Download\{7FA2199A-FCB7-48AC-B5DA-83B145DE5D00}&lt;/code&gt; 위치를 탐색기로 연다. 마지막의 16진수 폴더명은 다운로드받을 때마다 달라지므로 이 예와 다를 수 있다. 안에 chrome_installer.exe가 있는 것이면 된다.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.7-zip.org/&quot;&gt;7-zip&lt;/a&gt;으로 chrome_installer.exe를 열면 내부에 chrome.7z 파일이 들어있다. 이것을 압축을 풀어 꺼낸다.&lt;/li&gt;
+&lt;li&gt;다시 chrome.7z 파일을 압축 해제하면 chrome-bin이라는 폴더가 하나 나온다. 이 안에 크롬 실행 파일이 들어있는데, 여기서는 실행해도 아무 반응 없이 그냥 종료되어 버릴 것이다.&lt;/li&gt;
+&lt;li&gt;이제 chrome-bin 폴더 안의 모든 내용을 &lt;code&gt;C:\Users\{USERID}\AppData\Local\Google\Chrome\Application&lt;/code&gt; 폴더로 옮긴다. 이 폴더가 없으면 만든다.&lt;/li&gt;
+&lt;li&gt;Application 폴더 안을 보면 Dictionaries, 0.2.149.29라는 2개의 폴더와 chrome.exe, wow_helper.exe라는 2개의 파일이 들어있다. 여기서 0.2.149.29 폴더 안의 모든 내용을 Application 폴더로 옮긴다. 그러면 몇 가지 dll과 폴더가 chrome.exe와 같은 폴더에 있게 된다.&lt;/li&gt;
+&lt;li&gt;이제 레지스트리를 추가할 차례이다. 없는 키와 값은 만든다.
+&lt;ul&gt;
+&lt;li&gt;
+&lt;code&gt;HKEY_CURRENT_USER\Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96}&lt;/code&gt;
+&lt;table style=&quot;width:60%;&quot;&gt;
+&lt;tr&gt;&lt;th&gt;name&lt;/th&gt;&lt;td&gt;REG_SZ&lt;/td&gt;&lt;td&gt;Chrome&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;pv&lt;/th&gt;&lt;td&gt;REG_SZ&lt;/td&gt;&lt;td&gt;0.2.149.29&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;code&gt;HKEY_CURRENT_USER\Software\Google\Update\ClientState\{8A69D345-D564-463c-AFF1-A69D9E530F96}&lt;/code&gt;
+&lt;table style=&quot;width:50%;&quot;&gt;
+&lt;tr&gt;&lt;th&gt;brand&lt;/th&gt;&lt;td&gt;REG_SZ&lt;/td&gt;&lt;td&gt;GGLS&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;dr&lt;/th&gt;&lt;td&gt;REG_SZ&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;lang&lt;/th&gt;&lt;td&gt;REG_SZ&lt;/td&gt;&lt;td&gt;ko&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;pv&lt;/th&gt;&lt;td&gt;REG_SZ&lt;/td&gt;&lt;td&gt;0.2.149.29&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;browser&lt;/th&gt;&lt;td&gt;REG_DWORD&lt;/td&gt;&lt;td&gt;2&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;th&gt;usagestats&lt;/th&gt;&lt;td&gt;REG_DWORD&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+마지막의 usagestats는 설치 과정에서 사용 통계 정보를 전송할지 동의하면 1이 되고 동의하지 않으면 0이 되는 것 같다.
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;이 상태에서 chrome.exe를 실행하면 First Run 과정을 거치게 된다. 다른 브라우저의 북마크와 설정을 가져올 수 있는데, 내 경우 가져오는 과정에서 프로그램이 얼어버려 강제 종료해야 했다. 하지만 0 byte 짜리 First Run 파일이 chrome.exe와 같은 폴더에 생성되었고 다시 크롬을 실행하니 가져오기가 모두 완료된 상태임을 볼 수 있었다. 주소입력창 오른쪽의 설정 아이콘을 눌러 나오는 메뉴에서 [Google 크롬 정보]를 선택하면 정보 창이 뜨는데, 위와 같이 레지스트리 작업을 해주면 자동으로 최신 버전을 체크해준다. 레지스트리 작업을 안 해도 사용은 가능하지만 이와 같은 업데이트 체크를 할 수 없게 된다.&lt;/li&gt;
+&lt;li&gt;사용하다 보면 &lt;code&gt;C:\Users\{USERID}\AppData\Local\Google\Chrome\User Data&lt;/code&gt; 폴더가 만들어지고 여기에 캐시를 비롯해 각종 사용자 정보가 저장되는 것을 확인할 수 있다. 아마 수동 삭제하려면 레지스트리 추가한 것을 지우고 Application과 User Data 폴더를 날려주면 될 것 같다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;일단 이렇게 해서 구글 크롬을 돌리는 데 성공했다. 설치 과정에서 나는 에러가 정확히 무엇이 원인인지는 모르겠지만 아마도 내부적으로 사용하는 7zip 라이브러리의 문제가 아닐까 짐작된다. (혹시 시스템에 7zip이 이미 설치되어 있으면 충돌이...?) 아무튼 구글 크롬을 이제 정상적으로 사용할 수 있었다.&lt;/p&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Hot Issue, Services</category>
+			<category>Chrome</category>
+			<category>Google</category>
+			<category>Hack</category>
+			<category>설치</category>
+			<category>웹브라우저</category>
+			<category>크롬</category>
+			<category>팁</category>
+			<category>핵</category>
+			<author>daybreaker</author>
+			<guid>http://daybreaker.tistory.com/634</guid>
+			<comments>http://daybreaker.tistory.com/634#entry634comment</comments>
+			<pubDate>Wed, 10 Sep 2008 13:38:49 +0900</pubDate>
+		</item>
+		<item>
+			<title>뽀샵질과 프로그래밍</title>
+			<link>http://daybreaker.tistory.com/633</link>
+			<description>&lt;p&gt;요즘 건축 관련 공모전을 준비하느라 바쁜 형에게 가끔씩 뽀샵질에 대해 도움을 주고 있다. 그런데 이것저것 설명하다보니 포토샵으로 무언가를 하는 과정은 프로그래밍할 때의 사고 과정과 매우 유사하다는 생각이 들었다. 예를 들어, 서울시 지도를 스크린샷으로 떠서 비트맵 이미지를 갖고왔다고 할 때, 서울시 행정구역의 윤곽을 따내고 거기에 목표하는 어떤 철도나 도로를 벡터로 표시한다고 생각해보자.&lt;/p&gt;
+&lt;p&gt;윤곽을 따내는 방법으로는 lasso 툴로 선택 영역 지정하는 방법, pen 툴로 shape layer로 그려내는 방법, magic wand로 배경을 지워 투명하게 만들어 원본을 그대로 이용하는 방법 등 여러 가지가 있다. 또한 서울시의 특정 위치를 그 그림에 표시하려면(그 위치는 줌인하여 스크린샷을 떴으므로 윤곽과는 다른 스케일이다) 화면 좌표 측정 도구로 노가다로 몇 번 찍어 픽셀값을 상대좌표로 계산하는 방법이 있고, 윤곽선 따내듯 따낸 다음 적당히 확대·축소하는 방법이 있고 또 여러 방법이 있을 것이다. 또한 CS2 이상이라면, 원본 비트맵을 가지고 확대·축소를 하더라도 원본 내용을 잃지 않기 위해 smart object 기능을 이용할 수도 있다. 또한 레이어 위치를 어떻게 놓는지, 어떤 필터나 어떤 blending option, merge를 어떤 순서로 적용하는지 등 작업 방법과 순서에 따라 굉장히 다양한 조합이 나올 수 있다.&lt;/p&gt;
+&lt;p&gt;이러한 수많은 방법의 조합들 중에서 주어진 시간 내에, 주어진 목표를 달성하기 위해 가장 최선의 조합을 선택해야 한다. 예를 들어 우리 형은 건축 공모전을 준비하고 있으므로, 큰 포스터를 만들기 위해서는 고해상도 인쇄가 필수적이기 때문에 가능한 한 벡터 방식을 이용하는 것이 좋다.&lt;/p&gt;
+&lt;p&gt;마치 알고리즘 문제를 풀기 위해 어떤 종류의 알고리즘 설계를 이용할 것인지 파악하고(dynamic, greedy, back-tracking, heuristic 등등) 구현 난이도와 제한 시간을 고려하여 적당한 것을 고르는 것과 거의 같다고 볼 수 있다. 그래픽 작업 또한 결국은 이러한 &lt;strong&gt;최적화&lt;/strong&gt;로 아우를 수 있을지 모르겠다. (물론 머릿속으로 미리 완성물의 이미지를 그려내는 미적 요소는 알고리즘 문제와는 다른 접근이겠지만.)&lt;/p&gt;
+&lt;p&gt;아무래도 전산을 전공하다보니 어떤 현상과 행동의 패턴을 알고리즘적으로 대입하여 보는 시각이 강해졌는데, 분명히 이렇게만으로는 설명될 수 없는 것--&lt;a href=&quot;http://theonion.egloos.com/4519247#10751501&quot;&gt;대표적으로 연애&lt;/a&gt;--도 있지만, 적어도 &#039;일&#039;을 하는 데 있어선 이러한 사고방식이 밑바탕에 깔리는 게 어느 분야든지 필요한 것 같다.&lt;/p&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>잡담</category>
+			<category>뽀샵질</category>
+			<category>사고과정</category>
+			<category>사고방식</category>
+			<category>포토샵</category>
+			<category>프로그래밍</category>
+			<author>daybreaker</author>
+			<guid>http://daybreaker.tistory.com/633</guid>
+			<comments>http://daybreaker.tistory.com/633#entry633comment</comments>
+			<pubDate>Sun, 17 Aug 2008 00:42:10 +0900</pubDate>
+		</item>
+		<item>
+			<title>PuTTY 한글/영문 글꼴 분리하기</title>
+			<link>http://daybreaker.tistory.com/632</link>
+			<description>&lt;p&gt;오늘도 삽질 하나. 날씨도 너무 덥고 텍스트큐브 코딩도 안 되고(?) 해서 PuTTY를 뜯었다.;; 그동안 오랜 숙원사업(?)이었던 한글/영문 글꼴의 완전한 분리에 성공했다.&lt;/p&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;http://www.flickr.com/photos/daybreaker12/2652615824/&quot; title=&quot;Flickr에서 아침놀님의 PuTTY 한글/영문 글꼴 분리&quot;&gt;&lt;img src=&quot;http://farm4.static.flickr.com/3150/2652615824_8f6b1e8386.jpg&quot; width=&quot;500&quot; height=&quot;326&quot; alt=&quot;PuTTY 한글/영문 글꼴 분리&quot; /&gt;&lt;/a&gt;
+&lt;p class=&quot;cap1&quot;&gt;스크린샷. &lt;a href=&quot;http://flickr.com/photos/daybreaker12/2652615824/sizes/o/&quot;&gt;전체 사이즈 보려면 여기 클릭.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;PuTTY 소스코드가 생각보다 난잡(...)해서 찾는 데 좀 시간이 걸렸지만 더위는 이열치열(?)이라는 생각으로 삽질을 해주니 마침내 어디를 고쳐야 하는지 찾을 수 있었다.&lt;/p&gt;
+&lt;p&gt;방법은 간단히 다음과 같이 window.c를 패치해주고 컴파일하면 끝.;; 보다시피 급조한 거라 글꼴 설정은 소스코드에 하드코딩되어 있다; 기준 소스는 0.60 최신 버전. 아참, 생성만 하고 소멸시키지 않는 것처럼 보이나 다른 부분에 보면 FONT_MAXNO까지 배열을 순회하며 DeleteObject를 호출해주는 부분이 있으므로 걱정 안 해도 된다.&lt;/p&gt;
+&lt;code&gt;&lt;pre&gt;
+//...
+#define FONT_OEMBOLDUND 0x23
+&lt;span style=&quot;color:red&quot;&gt;#define FONT_NONLATIN 0x30&lt;/span&gt;
+#define FONT_MAXNO 	&lt;span style=&quot;color:red&quot;&gt;0x30&lt;/span&gt; //0x2F
+
+//...
+
+static void &lt;span style=&quot;color:#c60&quot;&gt;init_fonts&lt;/span&gt;(int pick_width, int pick_height)
+{
+//...
+    f(FONT_NORMAL, cfg.font.charset, fw_dontcare, FALSE);
+    &lt;span style=&quot;color:red&quot;&gt;fonts[FONT_NONLATIN] = CreateFont (font_height, font_width, 0, 0, fw_dontcare, FALSE, FALSE, FALSE, \
+        cfg.font.charset, OUT_DEFAULT_PRECIS, \
+        CLIP_DEFAULT_PRECIS, FONT_QUALITY(cfg.font_quality), \
+        FIXED_PITCH | FF_DONTCARE, &quot;Dotum&quot;);&lt;/span&gt;
+
+    SelectObject(hdc, fonts[FONT_NORMAL]);
+    GetTextMetrics(hdc, &amp;tm);
+//...
+}
+
+void &lt;span style=&quot;color:#c60&quot;&gt;do_text_internal&lt;/span&gt;(Context ctx, int x, int y, wchar_t *text, int len,
+              unsigned long attr, int lattr)
+{
+//...
+    } else {
+    /* And &#039;normal&#039; unicode characters */
+    static WCHAR *wbuf = NULL;
+    static int wlen = 0;
+    int i;
+
+    if (wlen &lt; len) {
+        sfree(wbuf);
+        wlen = len;
+        wbuf = snewn(wlen, WCHAR);
+    }
+
+    for (i = 0; i &lt; len; i++)
+        wbuf[i] = text[i];
+
+    &lt;span style=&quot;color:red&quot;&gt;/* EXTRA PATCH for non-latin font replacing... */
+    SelectObject(hdc, fonts[FONT_NONLATIN]);
+    text_adjust = 1;&lt;/span&gt;
+
+    /* print Glyphs as they are, without Windows&#039; Shaping*/
+    general_textout(hdc, x, y - font_height * (lattr == LATTR_BOT) + text_adjust,
+                &amp;line_box, wbuf, len, IpDx, !(attr &amp; TATTR_COMBINING));
+//...
+}
+&lt;/pre&gt;&lt;/code&gt;
+&lt;p&gt;유니코드 렌더링 부분을 바꾼 것이기 때문에 CP949나 윈도98과 같은 환경에서는 어떻게 나오는지 모르겠지만 일단 나는 유니코드 터미널만 쓰고 있으므로 패스; =3&lt;/p&gt;
+&lt;p&gt;내가 VS2005로 컴파일한 바이너리는 &lt;a href=&quot;http://kldp.org/node/95959&quot;&gt;KLDP를 참조&lt;/a&gt;하기 바란다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;추가: 앞으로 원활한 개발을 위해 공개 subversion 저장소를 생성하였다. ViewVC를 통해 살펴보려면 &lt;a href=&quot;http://svn.daybreaker.info/view/dputty/&quot;&gt;이 링크를 참조하기 바란다.&lt;/a&gt; SVN 프로토콜로 접근하려면 경로에서 view를 빼면 된다.&lt;/strong&gt;&lt;/p&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>장난감들</category>
+			<category>putty</category>
+			<category>글꼴</category>
+			<category>삽질</category>
+			<category>영문</category>
+			<category>프로그래밍</category>
+			<category>한글</category>
+			<author>daybreaker</author>
+			<guid>http://daybreaker.tistory.com/632</guid>
+			<comments>http://daybreaker.tistory.com/632#entry632comment</comments>
+			<pubDate>Fri, 11 Jul 2008 01:22:20 +0900</pubDate>
+		</item>
+		<item>
+			<title>Supreme Commander 한글입력기 구현하기</title>
+			<link>http://daybreaker.tistory.com/631</link>
+			<description>&lt;p&gt;드디어 &lt;a href=&quot;http://ko.wikipedia.org/wiki/%EC%88%98%ED%94%84%EB%A6%BC_%EC%BB%A4%EB%A7%A8%EB%8D%94&quot;&gt;슈프림 커맨더(Supreme Commander)&lt;/a&gt;의 한글입력기를 구현했다. 이 게임은 오리지날 버전(영어권에서는 Vanilla라고 부른다)은 한글화 번역이 이루어져 출시가 되었으나 번역의 질이 굉장히 낮았고 특히 한글 채팅이 전혀 지원되지 않아 많은 유저들의 불만을 샀다. 그나마 많이 팔리지도 않아 확장팩인 Forged Alliance의 경우 아예 국내 출시조차 이루어지지 않았고, 결국 나(...)를 비롯한 매니아들은 해외 직수입 게임 전문점이나 지인을 통한 구매대행 등을 이용할 수밖에 없는 상황이다.&lt;/p&gt;
+&lt;p&gt;아무튼 그동안 한국 유저들의 오랜 갈망이었던 한글 채팅을 User Interface mod 형식으로 구현하는 데 성공했다. 슈컴이 워낙에 modding 확장성이 좋다고 알려져 있기는 했지만, 실제로 이번 기회를 통해 만져보니 정말 잘 만들었음을 알 수 있었다. 게임의 핵심적인 구동 엔진을 제외하고 나머지 다른 부분들&amp;mdash;유닛의 움직임, 게임 시나리오, UI, 인공지능 등등&amp;mdash;상당히 많은 부분이 &lt;a href=&quot;http://lua.org&quot;&gt;lua 스크립트 언어&lt;/a&gt;를 통해 만들어져 있다. 게임 데이터들은 *.scd라는 파일에 들어있는데 이것은 실상 그냥 zip 압축파일이라서 누구든지 풀어볼 수 있도록 하고 있다. (별도의 복잡한 암호화 이런 거 없다.)&lt;/p&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;&lt;a href=&quot;http://www.flickr.com/photos/daybreaker12/2614062624/&quot; title=&quot;Flickr에서 아침놀님의 수프림 커맨더 한글입력기 최초 구현&quot;&gt;&lt;img src=&quot;http://farm4.static.flickr.com/3043/2614062624_efc17d7d56.jpg&quot; width=&quot;500&quot; height=&quot;400&quot; alt=&quot;수프림 커맨더 한글입력기 최초 구현&quot; /&gt;&lt;/a&gt;
+&lt;p class=&quot;cap1&quot;&gt;실제 사용 모습.&lt;/p&gt;&lt;/div&gt;
+&lt;p&gt;실제로 이번에 한글입력기 mod를 제작해보니 게임 내부가 어떤 로직으로 돌아가는지 거의 다 들여볼 수 있을 정도로 개방적이었다. 그만큼 게임 품질에 자신감이 있다는 뜻일 수도 있겠다.&lt;/p&gt;
+&lt;p&gt;요즘 게임 내부 스크립트 엔진용으로 많이 쓰이는 lua는 그러나 약간 실망이었다. 함수형 언어의 특징을 강하게 가지고 있는 lua는 어찌보면 ruby와도 상당히 비슷하다. 하지만 실제로는 매우 단순화된 언어로, 자료 구조라고는 오직 dictionary와 비슷한 table밖에 지원하지 않고, 비트연산자 등 다른 언어에는 당연히 있을 만한 기능들이 없는 경우가 꽤 있다. 유니코드 인코딩도 지원하지 않아 결국 utf-8 인코딩 루틴까지 직접 다 짜야했다. 대신 그 table 자료구조가 굉장히 강력하여(metatable이라는 개념을 제공한다) 함수형 언어의 특징과 결합해 이것만으로 class라는 개념을 언어에 도입하는 것이 가능할 정도이다.&lt;/p&gt;
+&lt;p&gt;오토마타 루틴은 예전에 &lt;a href=&quot;http://totala.info/?mid=freeboard&amp;page=7&amp;document_srl=6473&quot;&gt;CS322 과목 프로젝트로 Python으로 구현한 한글입력기&lt;/a&gt;(정확히는, 영타로 입력된 문자열을 한타로 변환하여 한글 문자열로 만들어주는..)를 lua로 그대로 포팅하였다. 둘의 문법이 비슷하여 큰 어려움은 없었고, 다만 lua에서는 table의 index가 0이 아니라 1부터 시작한다는 점 때문에 조금 헷갈리는 정도였다.&lt;/p&gt;
+&lt;p&gt;걸림돌이 되었던 부분은 오토마타의 결과물로 나온 unicode 숫자 배열을 실제의 utf-8 문자열로 변환하는 것이었는데, 이 과정에서 나머지 연산과 shift 연산이 필요하여 결국 수동으로 구현해야 했다. 특히 lua의 숫자는 무조건 double이고 라이브러리에서 필요시 unsigned long으로 바꾸는 식이기 때문에 나눗셈을 수행할 때 항상 math.floor를 해줘야 한다.&lt;/p&gt;
+&lt;code&gt;&lt;pre&gt;
+local function modulo(a, b)
+    return a - math.floor(a/b) * b
+end&lt;/pre&gt;&lt;/code&gt;
+&lt;p&gt;와 같이 구현할 수 있고, right shift 연산의 경우 간단하게 2의 제곱승으로 나눠주면 된다.&lt;/p&gt;
+&lt;p&gt;혹시 필요한 분들을 위해, unicode 숫자가 순서대로 담긴 table을 입력으로 받아 utf-8로 인코딩된 문자열로 내놓는 함수를 소개한다. (테스트는 엄밀하게 해보지 않았지만 적어도 한글은 잘 나온다. =3=3)&lt;/p&gt;
+&lt;code&gt;&lt;pre&gt;
+function conv2utf8(unicode_list)
+    local result = &#039;&#039;
+    local w,x,y,z = 0,0,0,0
+    local function modulo(a, b)
+        return a - math.floor(a/b) * b
+    end
+    for i,v in ipairs(unicode_list) do
+        if v ~= 0 and v ~= nil then
+            if v &lt;= 0x7F then -- same as ASCII
+                result = result .. string.char(v)
+            elseif v &gt;= 0x80 and v &lt;= 0x7FF then -- 2 bytes
+                --[[
+                y = (v &amp; 0x0007C0) &gt;&gt; 6
+                z = v &amp; 0x00003F
+                ]]--
+                y = math.floor(modulo(v, 0x000800) / 64)
+                z = modulo(v, 0x000040)
+                result = result .. string.char(0xC0 + y, 0x80 + z)
+            elseif (v &gt;= 0x800 and v &lt;= 0xD7FF) or (v &gt;= 0xE000 and v &lt;= 0xFFFF) then -- 3 bytes
+                --[[
+                x = (v &amp; 0x00F000) &gt;&gt; 12
+                y = (v &amp; 0x000FC0) &gt;&gt; 6
+                z = v &amp; 0x00003F
+                ]]--
+                x = math.floor(modulo(v, 0x010000) / 4096)
+                y = math.floor(modulo(v, 0x001000) / 64)
+                z = modulo(v, 0x000040)
+                result = result .. string.char(0xE0 + x, 0x80 + y, 0x80 + z)
+            elseif (v &gt;= 0x10000 and v &lt;= 0x10FFFF) then -- 4 bytes
+                --[[
+                w = (v &amp; 0x1C0000) &gt;&gt; 18
+                x = (v &amp; 0x03F000) &gt;&gt; 12
+                y = (v &amp; 0x000FC0) &gt;&gt; 6
+                z = v &amp; 0x00003F
+                ]]--
+                w = math.floor(modulo(v, 0x200000) / 262144)
+                x = math.floor(modulo(v, 0x040000) / 4096)
+                y = math.floor(modulo(v, 0x001000) / 64)
+                z = modulo(v, 0x000040)
+                result = result .. string.char(0xF0 + w, 0x80 + x, 0x80 + y, 0x80 + z)
+            end
+        end
+    end
+    return result
+end
+&lt;/pre&gt;&lt;/code&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>장난감들</category>
+			<category>Forged Alliance</category>
+			<category>game</category>
+			<category>Lua</category>
+			<category>RTS</category>
+			<category>Supreme Commander</category>
+			<category>Unicode</category>
+			<category>UTF-8</category>
+			<category>한글입력기</category>
+			<category>한글화</category>
+			<author>daybreaker</author>
+			<guid>http://daybreaker.tistory.com/631</guid>
+			<comments>http://daybreaker.tistory.com/631#entry631comment</comments>
+			<pubDate>Fri, 27 Jun 2008 04:31:40 +0900</pubDate>
+		</item>
+		<item>
+			<title>MacOSX Leopard에서 MacVim 사용시 언어 자동전환 문제</title>
+			<link>http://daybreaker.tistory.com/630</link>
+			<description>&lt;p&gt;맥에서 기본으로 제공하는 콘솔용 vim이 있긴 하지만 윈도우에서도 gvim을 쓰고 있었고 Finder와 연동하기도 불편하다는 문제가 있어 대안을 찾던 중 &lt;a href=&quot;http://code.google.com/p/macvim/&quot;&gt;MacVim&lt;/a&gt;이라는 훌륭한 포팅이 있음을 발견했다. &lt;a href=&quot;http://git.or.cz/&quot;&gt;git&lt;/a&gt;를 이용해 소스를 내려받아 직접 컴파일해야 되지만 그냥 써있는대로 따라하면 되기에 큰 어려움은 없었다. (단, macports와 xcode가 설치되어 있는 것이 편하다.)&lt;/p&gt;
+&lt;p&gt;문제는 MacVim을 실행 후 입력모드에 들어갈 때마다 IM 언어가 한글로 자동으로 바뀌는데 그 상태에서 키보드를 치면 영문이 입력되고 실제 한글을 입력하려면 Cmd+Space를 수 차례 눌러주어야 했다는 점이다. 뭐 소스코드도 있겠다 한 번 문제를 들여다보았더니 원인은 GetScriptManagerVariable이라는 MacOSX의 Carbon API에 문제가 있는 것으로 판명되었다.&lt;/p&gt;
+&lt;p&gt;즉, 원래 제작자의 구현이 제대로 동작한다면, 명령 모드에서는 영문 입력 상태가 유지되고 입력 모드에 들어가고 나올 때 입력모드에서 사용하던 입력 상태를 기억하여 자동으로 전환되어야 한다. (윈도우용 gvim 7.1에서는 잘 됨을 확인했다.) 나름대로 이것을 그대로 구현하기 위해 IM 상태를 저장하는 함수를 별도로 만들어보는 등 삽질을 해봤지만 OSX의 호환성 문제인지 잘 되지 않았다. 무엇보다 IM 상태를 얻거나 변경하는 방법만 3가지(Script manager로 바꾸는 방법, Class/Layout component로 바꾸는 방법, 최신 API인 TIS*+CoreFoundation 계열)나 존재해서 어떤 것을 써야 제대로 동작하는지 알 수도 없었고 각 API가 크게 다른 모습을 가지고 있어 어떤 시맨틱을 써야 좋을지도 헷갈렸다. (윈도API는 그러고보면 버전에 따라 심하게 바뀌는 일이 별로 없으니 좋은 거다.)&lt;/p&gt;
+&lt;p&gt;그래서 결론은, MacVim 소스에서 src/MacVim/gui_macvim.m 파일의 im_set_active 함수에서 호출되는 KeyScript API에 smKeyRoman을 항상 넘겨주게 하면 입력모드 들어갈 때 무조건 영문 상태로 들어가게 된다. (보통 명령 모드는 항상 영문으로 쓰니 겉으로 보기에 바뀌는 것으로 보이진 않을 것이다) 대신 한글 상태에서 입력모드를 쓰다가 Esc를 눌렀을 때 다시 입력모드로 들어가면 영문으로 되어 있으므로 한영전환을 매번 해줘야 한다는 불편이 생기지만, 한글 입력 상태로 표시되면서 영문으로 입력되는 등의 모호한 상태는 없어진다.&lt;/p&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>IT</category>
+			<category>input method</category>
+			<category>Mac OSX</category>
+			<category>macvim</category>
+			<category>vi</category>
+			<category>vim</category>
+			<author>daybreaker</author>
+			<guid>http://daybreaker.tistory.com/630</guid>
+			<comments>http://daybreaker.tistory.com/630#entry630comment</comments>
+			<pubDate>Wed, 02 Apr 2008 21:07:27 +0900</pubDate>
+		</item>
+		<item>
+			<title>PNG Color Profile Removal Tool</title>
+			<link>http://daybreaker.tistory.com/629</link>
+			<description>&lt;p&gt;이거 &lt;a href=&quot;http://hsivonen.iki.fi/png-gamma/&quot;&gt;상당히 오래된 주제&lt;/a&gt;이긴 한데, 막상 필요할 때 대충 찾아서 쓰려고 해보니 윈도 전용으로 나온 것이 많아 cross platform으로 간단히 쓸 수 있도록 python 스크립트로 짰다.&lt;/p&gt;
+&lt;p&gt;주요 기능은 PNG 파일 포맷에서 색상 calibration 정보를 나타내는 필드들을 삭제해버림으로써 IE 및 Safari에서 gamma 값을 해석하지 않아 발생하는 색상 불일치 문제를 해결하는 것이다. 사용법은 &lt;span style=&quot;font-family: Courier New;&quot;&gt;python pngtool.py --help&lt;/span&gt;해보면 알 수 있다.&lt;/p&gt;
+&lt;p style=&quot;text-align:center&quot;&gt;&lt;a href=&quot;http://server.daybreaker.info/shared/pngtool.py&quot;&gt;PNG Tool 스크립트 보기 (저장하려면 오른클릭)&lt;/a&gt;&lt;/p&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>장난감들</category>
+			<category>gamma correction</category>
+			<category>PNG</category>
+			<category>Python</category>
+			<category>스크립트</category>
+			<category>웹디자인</category>
+			<author>daybreaker</author>
+			<guid>http://daybreaker.tistory.com/629</guid>
+			<comments>http://daybreaker.tistory.com/629#entry629comment</comments>
+			<pubDate>Sat, 09 Feb 2008 11:00:39 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

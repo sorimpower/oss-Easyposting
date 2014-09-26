@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[한용희의 블로그]]></title>
+			<link>http://blog.naver.com/woom333</link>
+			
+				<image>
+					<url><![CDATA[http://blogpfthumb.phinf.naver.net/20090825_273/woom333_1251174967764_RzFejk_jpg/badge.jpg?type=m2]]></url>
+					<title><![CDATA[한용희의 블로그]]></title>
+					<link>http://blog.naver.com/woom333</link>
+				</image>
+			
+			<description><![CDATA[]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:43:01 +0900</pubDate>
+
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[자기경영]]></category>
+					<title><![CDATA[위험에 대처하는 자세]]></title>
+					<link>http://blog.naver.com/woom333/60159177623</link>
+					<guid>http://blog.naver.com/woom333/60159177623</guid>
+					<description><![CDATA[웃는 건 바보스럽게 보일 위험이 있다. 눈물을 흘리는 건 감상적인 사람으로 보일 위험이 있다. 누군가에게 손을 내미는 건 남의 일에 휘말릴 위험이 있다. 감정을 드러내는 건 자신의 참 모습을 들킬 위험이 있다. 대중 앞에서 자신의 기획과 꿈을 발표하는 건 그것들을 잃을 위험이 있다. 사랑하는 것은 사랑을 되돌려받지 못할 위험이 있고, 산다는 건 죽을지도 모를 위험이 있다. 희망을 갖는다는 건 절망에 빠질 위험이 있으며, 시도를 하는 건 실패할 위험이 있다. 하지만 위험에 뛰어들지 않으면 안 된다.인생에서 가장 위험한 일은아무런 위험에도 뛰어들지 않으려는 것이다.아무런 위험에도 뛰어들지 않는 사람,아무것도 하지 않는 사람.......]]></description>
+					<pubDate>Fri, 30 Mar 2012 12:32:19 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,비즈니스·경제]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[영문 SQL Server 에서 Database Mail Profile 만들때 주의 사항]]></title>
+					<link>http://blog.naver.com/woom333/60138289653</link>
+					<guid>http://blog.naver.com/woom333/60138289653</guid>
+					<description><![CDATA[
+영문 SQL Server 에서 Database Mail Profile 만들때 주의 사항 2011.8.22
+한용희  영문 SQL Server에서 데이터베이스 메일 프로파일을 만들때, 프로파일명에 한글이 들어 있으면 프로파일 에러가 난다.
+영문 SQL Server에서는 프로파일도 영문으로만 만들어야 한다.
+&#65279;]]></description>
+					<pubDate>Mon, 22 Aug 2011 10:24:59 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[자기경영]]></category>
+					<title><![CDATA[모든 짜증의 근원, 수면 부족]]></title>
+					<link>http://blog.naver.com/woom333/60134939101</link>
+					<guid>http://blog.naver.com/woom333/60134939101</guid>
+					<description><![CDATA[모든 짜증의 근원, 수면 부족수면이 부족한 사람들이 때에 따라 타인의 잘못을 탓할 가능성이 높으며 회의적이고 부정적인 생각을 하게 한다는 새로운 연구 결과가 발표 되었다고 MSNBC에서 보도했다.미국 아칸소 대학교 심리학과 부교수 데이비드 마스틴씨는 수면 부족이 사람들의 생각을 바꾼다는 그의 연구 결과를 25회 2011 슬립 (SLEEP) 연회의에서 발표했다.이 연구에 따르면 수면 부족은 짜증과 성급한 감정 변화, 불만과 같은 부정적 사고로 이어진다.“이제 우리는 충분한 수면을 취하지 못하는 것이 얼마나 우리에게 큰 영향을 끼칠 수 있는지 알 수 있다. 수면 부족이 우리의 결혼 생활과 직장 생활에 끼치는 영향은 실로 대단하다,”.......]]></description>
+					<pubDate>Thu, 21 Jul 2011 12:33:56 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,비즈니스·경제]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[자기경영]]></category>
+					<title><![CDATA[혁신이란?]]></title>
+					<link>http://blog.naver.com/woom333/60133440991</link>
+					<guid>http://blog.naver.com/woom333/60133440991</guid>
+					<description><![CDATA[ 
+오늘 책을 읽다가 스티브잡스가 한 명언이 있어서 인용 합니다.   
+“시장조사는 하지 않았다. 그레엄 벨이 전화를 발명할 때 시장조사를 했냐? 내가 바라는 것은 오직 혁신이다."
+"소비자들은 &#65279;제품을 만들어 눈앞에 보여주기 전까지 정말 자기들이 원하는 것이 무엇인지 모른다" 우리가 보통 기획 문서를 만들 때 “환경분석”부터 합니다.
+보통 외부 환경 분석과 내부 현황 분석을 합니다. 외부 환경을 분석하는 프레임웍에는 아래와 같은 기법들이 있습니다.
+l PEST 분석 
+n Political, Economic, Social, Technology
+l Five Force 분석 (유명한 마이클포터 교수님의 분석 기법, 참고로 승진시험에도 나오는.......]]></description>
+					<pubDate>Sat, 02 Jul 2011 16:04:12 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,비즈니스·경제]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[한 컴퓨터에 복수의 IP를 할당하는 경우 localhost 동작이 안 되고, VisualStudio에서 웹사이트 열기가 안 됨]]></title>
+					<link>http://blog.naver.com/woom333/60132839001</link>
+					<guid>http://blog.naver.com/woom333/60132839001</guid>
+					<description><![CDATA[한 컴퓨터에 복수의 IP를 할당하는 경우 localhost 동작이 안 되고, VisualStudio에서 웹사이트 열기가 안 됨 2011.6.24
+한용희 
+한 컴퓨터에 복수의 IP를 할당하는 경우 IIS에도 각 사이트별 복수 IP 할당이 가능하다. [네트웍카드에 복수 IP 할당 방법]
+네트웍 어댑터에서 Tcp/IP 속성을 클릭하면 IP가 나오는데, 여기에서 "고급"을 눌러서 [추가]를 하면 복수 IP 할당이 가능 [IIS에서 특정 사이트에 특정 IP 할당 하는 방법]
+웹사이트 속성에서 IP주소 란이 있는데, 이곳에 (저정하지 않은 모든 IP)가 아닌 조회가 되는 IP를 넣어주면 이 IP로 들어오는 
+요청은 그 웹사이트와 연결이 된다. 이렇때 문제점은 이제는 loca.......]]></description>
+					<pubDate>Fri, 24 Jun 2011 10:47:37 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[자기경영]]></category>
+					<title><![CDATA[기획자와 엔지니어의 에피소드]]></title>
+					<link>http://blog.naver.com/woom333/60132612729</link>
+					<guid>http://blog.naver.com/woom333/60132612729</guid>
+					<description><![CDATA[이외수 작가의 ‘하악하악’이란 책에 이런 내용이 있다. U보트가 출현했을 때 연합군은 속수무책이었다. 군수뇌부들이 모여 연일 대책을 논의했다. 어느 날 장성급 간부 하나가 U보트를 퇴치할 수 있는 기상천외한 방책이 떠올랐다고 말했다. "바닷물을 끓이면 돼. "곁에 있던 동료가 그에게 물었다."개쉐야, 도대체 무슨 방법으로 바닷물을 끓이겠다는 거니. "그러자 개쉐가 대답했다."나는 기획자일 뿐이야. 끓이는 건 엔지니어들이 할 일이지"]]></description>
+					<pubDate>Tue, 21 Jun 2011 09:31:42 +0900</pubDate>
+					<tag><![CDATA[비즈니스·경제]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[특정 웹사이트에 URL로만 접근을 할때 익명 권한을 주었음에도 계속 권한 오류가 나는 경우]]></title>
+					<link>http://blog.naver.com/woom333/60121429530</link>
+					<guid>http://blog.naver.com/woom333/60121429530</guid>
+					<description><![CDATA[ 
+특정 웹사이트에 URL로만 접근을 할때 익명 권한을 주었음에도 계속 권한 오류가 나는 경우 
+IIS에서 익명권한을 주었는데, Full 경로가 아닌 URL 일부 경로만으로 접근이 안 된다면,
+기본 페이지에 "default.aspx"가 안 되어 있는지 확인해 봐야 한다. windows 2003의 경우에는 default.aspx가 기본으로 없다]]></description>
+					<pubDate>Thu, 06 Jan 2011 18:42:07 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[웹 서버에서 디버깅을 시작할 수 없습니다. 에러의 경우]]></title>
+					<link>http://blog.naver.com/woom333/60119991243</link>
+					<guid>http://blog.naver.com/woom333/60119991243</guid>
+					<description><![CDATA[  이런 경우 대처 방법 1. 
+시작 -&gt; 실행 -&gt; inetmgr -&gt; 해당웹싸이트 -&gt; 속성 -&gt; 디렉터리보안 -&gt; 편집 -&gt; windows 통합 인증(N) 체크  2. 이래도 안되면 아래와 같이 레지스트리를 수정 한다. 1)시작, 실행을 차례로 누르고 regedit를 입력한 다음 확인을 누릅니다. 2)레지스트리 편집기에서 다음 레지스트리 키를 찾아 누릅니다. HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa3)Lsa를 마우스 오른쪽 단추로 누르고 새로 만들기를 가리킨 다음 DWORD 값을 누릅니다. 4)DisableLoopbackCheck를 입력한 다음 Enter 키를 누릅니다. 5)DisableLoopbackCheck를 마우스 오른쪽 단추로 누른 다음 수.......]]></description>
+					<pubDate>Tue, 14 Dec 2010 10:23:54 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[Technical articles]]></category>
+					<title><![CDATA[갤럭시S와 애자일 프로세스]]></title>
+					<link>http://blog.naver.com/woom333/60110180243</link>
+					<guid>http://blog.naver.com/woom333/60110180243</guid>
+					<description><![CDATA[갤럭시S와 애자일 프로세스 2010.7.1
+한용희 이번에 삼성전자가 갤럭시S를 출시하면서 많은 인기를 모으고 있다. 삼성전자 휴대전화 개발 20년 역사의 집대성이라는 
+갤럭시S는 그 인기 만큼 개발 과정의 변화도 흥미롭다. 아래는 2010.7.1일자 동아일보에 나온 내용이다. ------------------------------------------------------------------------------------------------------------------------
+갤럭시S “아이폰 잡자” 美상륙… 개발자들이 말하는 ‘달라진 삼성전자’ 《애플의 새로운 스마트폰 ‘아이폰4’가 발표된 지난달 8일. 삼성전자는 공식적인 예고도 없이 ‘갤럭시S’라는 맞수를 들고 나왔다. “삼성전자.......]]></description>
+					<pubDate>Thu, 01 Jul 2010 10:02:12 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[Technical articles]]></category>
+					<title><![CDATA[[Microsoftware] 프로젝트 성공을 위한 애자일 프로세스]]></title>
+					<link>http://blog.naver.com/woom333/60105197513</link>
+					<guid>http://blog.naver.com/woom333/60105197513</guid>
+					<description><![CDATA[프로젝트 성공을 위한 애자일 프로세스 한용희 woom33@korea.com｜현재 Microsoft Visual C# MVP이며, 여러 SW 개발 프로젝트에 참여했다. 다양한 SW 개발 프로젝트에 참여해 오면서 항상 더 나은 개발 방법에 대해 고민하고 있다. 지난주 CHAOS Report를 소개하면서 애자일 프로세스를 프로젝트 성공의 법칙 중 한가지로 소개를 하였다. 2005년도 CHAOS 리포트에는 이와 같은 문구가 있다. If there ever was a silver bullet to kill the demons of project failure it is an iterative and agile process(프로젝트 실패를 방지하기 위한 해결책으로 반복적이고 애자일한 프로세스를 말하고 있다).  애자일 프로세스란?전통적인 산출.......]]></description>
+					<pubDate>Sat, 10 Apr 2010 11:49:32 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[Technical articles]]></category>
+					<title><![CDATA[[Microsoftware] 프로젝트 성공을 위한 10가지 법칙]]></title>
+					<link>http://blog.naver.com/woom333/60105197184</link>
+					<guid>http://blog.naver.com/woom333/60105197184</guid>
+					<description><![CDATA[프로젝트 성공을 위한 10가지 법칙 한용희 woom33@korea.com｜현재 Microsoft Visual C# MVP이며, 여러 SW 개발 프로젝트에 참여했다. 다양한 SW 개발 프로젝트에 참여해 오면서 항상 더 나은 개발 방법에 대해 고민하고 있다 예전에 ‘성공하는 사람들의 7가지 습관’이라는 책이 베스트셀러에 오른 적이 있다. 그 이후로 이러한 몇 가지 법칙, 습관, 방법 등 많은 책들의 제목으로 출판된 적이 있었다. 사람들에게 어떤 것을 이루기 위한 방법으로 특정 몇 가지만 하면 된다는 식의 제목은 사람들에게 희망과 기회를 주기에 충분했다. 이번 호에서는 프로젝트 성공을 위한 10거지 법칙을 소개하려고 한다. 프로젝트 성공을 위해서는 이 1.......]]></description>
+					<pubDate>Sat, 10 Apr 2010 11:43:30 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[Technical articles]]></category>
+					<title><![CDATA[[Microsoftware] 개발자의 진로]]></title>
+					<link>http://blog.naver.com/woom333/60105196727</link>
+					<guid>http://blog.naver.com/woom333/60105196727</guid>
+					<description><![CDATA[개발자의 진로 한용희 woom33@korea.com｜현재 Microsoft Visual C# MVP이며, 여러 SW 개발 프로젝트에 참여했다. 다양한 SW 개발 프로젝트에 참여해 오면서 항상 더 나은 개발 방법에 대해 고민하고 있다. 프로젝트를 수행하는데 있어 실력있는 개발자를 확보하는 것이 프로젝트 성공 요소 중에 하나이다. 프로젝트라는 것이 결국은 사람이 하는 것이기 때문에, 좋은 인재를 데려다가 프로젝트를 하는 것이 중요한 성공 요소이다. 그런데 우리나라 IT 프로젝트에서는 실력있는 개발자가 많이 투입되지 않는다. 그들은 모두 어디로 갔을까? 몰입(flow)의 특징지난 칼럼에서 긍정 심리학 분야의 대가인 시카고 대학의 칙센미하이(Csiksze.......]]></description>
+					<pubDate>Sat, 10 Apr 2010 11:35:07 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[Technical articles]]></category>
+					<title><![CDATA[[Microsoftware] 개발자의 심리학]]></title>
+					<link>http://blog.naver.com/woom333/60105196550</link>
+					<guid>http://blog.naver.com/woom333/60105196550</guid>
+					<description><![CDATA[개발자의 심리학 한용희 woom33@korea.com｜현재 Microsoft Visual C# MVP이며, 여러 SW 개발 프로젝트에 참여했다. 다양한 SW 개발 프로젝트에 참여해 오면서 항상 더 나은 개발 방법에 대해 고민하고 있다 개발자는 어떤 사람일까? 개발자는 과학자에 속한다는 사람도 있고, 엔지니어에 속한다는 사람도 있고, 예술가에 속한다는 사람도 있다. 개발자는 지적인 작업으로 새로운 것을 창조하기 때문에 예술가에 가깝다. 그럼 이러한 예술가들을 어떻게 이해해야만 잘 관리할 수 있을까? 지금부터 그에 대한 내용을 알아보자.  개발이라는 작업은 고도의 집중력을 필요로 한다. 개발자가 개발하기 위해서는 명명규칙, 공통 API, 디자인.......]]></description>
+					<pubDate>Sat, 10 Apr 2010 11:31:53 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[Technical articles]]></category>
+					<title><![CDATA[[Microsoftware] 완벽한 설계의 함정]]></title>
+					<link>http://blog.naver.com/woom333/60105196261</link>
+					<guid>http://blog.naver.com/woom333/60105196261</guid>
+					<description><![CDATA[완벽한 설계의 함정 
+한용희 woom33@korea.com 현재 Microsoft Visual C# MVP이며, 여러 SW 개발 프로젝트에 참여했다. 다양한 SW 개발 프로젝트에 참여해 오면서 항상 더 나은 개발 방법에 대해 고민하고 있다.  
+건축 공학에서는 설계와 시공을 분리해서 작업을 한다. 설계사, 시공사, 감리사를 별도로 두어서 단계별로 구축하는 것이다. 그럼 소프트웨어 개발 프로젝트에서도 건축 공학과 마찬가지로 각 단계별로 개별 구축이 가능할까? 이 글에서는 설계와 개발의 분리를 바라보는 의견에 대해 살펴볼 것이다어렸을 때는 소프트웨어 개발을 일이라고 생각해본 적이 없었다. 나에게 소프트웨어 개발은 새로운 것을 창조하는 놀이였다.......]]></description>
+					<pubDate>Sat, 10 Apr 2010 11:26:38 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[Technical articles]]></category>
+					<title><![CDATA[[Microsoftware] 개발프로젝트의 성공을 위한 단상]]></title>
+					<link>http://blog.naver.com/woom333/60105195917</link>
+					<guid>http://blog.naver.com/woom333/60105195917</guid>
+					<description><![CDATA[
+개발 프로젝트의 성공을 위한 단상 한용희 woom33@korea.com 현재 Microsoft Visual C# MVP이며, 여러 SW 개발 프로젝트에 참여했다. 다양한 SW 개발 프로젝트에 참여해 오면서 항상 더 나은 개발 방법에 대해 고민하고 있다.  
+산업혁명 이래 기업은 근로자를 어떻게 하면 효율적으로 통제해 잘 관리할 것인가에 초점을 맞췄다. 하지만 이러한 관리방법은 비인간화 문제를 초래했고 이에 대한 해결책으로 인간존중 경영이 도래했다. 소프트웨어 공학에서도 성공적인 프로젝트 수행을 위해 개발자들을 어떻게 효율적으로 통제할 것인가에 초점을 맞췄다가 이제는 개발자를 다른 시각으로 관리하려는 움직임이 일어나고 있다
+필자는 대.......]]></description>
+					<pubDate>Sat, 10 Apr 2010 11:21:02 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[Technical articles]]></category>
+					<title><![CDATA[[DEVDCC] Enterprise Library 돌아보기]]></title>
+					<link>http://blog.naver.com/woom333/60105195374</link>
+					<guid>http://blog.naver.com/woom333/60105195374</guid>
+					<description><![CDATA[제1회 닷넷 커뮤니티 컨퍼런스 2009
+2009년 4월 18일 개발 생산성과 유연성 향상을 위한 Enterprise Library 돌아보기 
+대부분의 닷넷 프로젝트에서 개발 프레임웍 안에 Enterprise Library를 응용해서 많이 사용합니다. 하지만, 프레임웍 개발자가 아닌 일반 업무 개발자들은 이 Enterprise Library에 대해 잘 모르는 경우가 많습니다. Enterprise Library는 잘 사용하면 개발의 생산성과 유연성을 향상 시키는데 많은 도움이 됩니다. 이 세션에서는 이 Enterprise Library 4.0에 대한 소개와 활용 방법에 대해 설명할 것 입니다.  한용희 / 롯데정보통신 
+롯데정보통신 품질경영팀에 재직 중이며, Microsoft Visual C# MVP이다. MSDN이.......]]></description>
+					<pubDate>Sat, 10 Apr 2010 11:11:21 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[OS별 CPU/RAM 지원]]></title>
+					<link>http://blog.naver.com/woom333/60102059146</link>
+					<guid>http://blog.naver.com/woom333/60102059146</guid>
+					<description><![CDATA[출처: http://netmaker.co.kr/index.php?pgurl=etc/etc_server_os        Operating System(O/S)
+최대 지원 가능 CPU 개수
+최대 지원 가능 메모리 용량  WINDOWS 32BIT  Windows 2000 Standard
+4CPU
+4GB Windows 2000 Adv
+8CPU
+8GB Windows 2000 Dat
+32CPU
+64GB   Windows XP Professional
+2CPU
+4GB   Windows Small Business Server 2003
+2CPU
+4GB   Windows Server 2003 Standard
+4CPU
+4GB Windows Server 2003 Enterprise
+8CPU
+64GB Windows Server 2003 Datacenter
+8-32CPU
+64GB Windows Server 2003 Stn R2 
+4CPU
+4GB Windows Se.......]]></description>
+					<pubDate>Thu, 18 Feb 2010 15:13:44 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[어셈블리 바인딩 정보 확인 하기]]></title>
+					<link>http://blog.naver.com/woom333/60100384364</link>
+					<guid>http://blog.naver.com/woom333/60100384364</guid>
+					<description><![CDATA[출처: http://www.ensimple.net/enSimple/show.aspx?cnum=296&amp;b_id=study_csharp&amp;page=1
+출처: http://www.simpleisbest.net/archive/2006/05/10/627.aspx 네이티브 이미지 관리 방법
+http://blogs.msdn.com/dsvc/archive/2008/11/12/the-developer-s-toolkit-for-net-part-ii.aspx  ASP.NET의 경우 애플리케이션풀을 반드시 재생 시켜주어야만 로그가 가능하다.
+]]></description>
+					<pubDate>Tue, 26 Jan 2010 14:18:11 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[자기경영]]></category>
+					<title><![CDATA[밥먹듯 회의만 하는 회사, 행동하는 회사 못 따라간다]]></title>
+					<link>http://blog.naver.com/woom333/60100277439</link>
+					<guid>http://blog.naver.com/woom333/60100277439</guid>
+					<description><![CDATA[중앙일보 2010년 1월 23일 발췌
+------------------------------------------------------------------------------- 밥먹듯 회의만 하는 회사, 행동하는 회사 못 따라간다 생각의 속도로 실행하라제프리 페퍼·로버트 I 서튼 지음안시열 옮김, 지식노마드392쪽, 1만8000원이 책을 관통하는 단어는 ‘지행격차’(知行隔差·knowing-doing gap)다. 아는 것보다 실천이 더 중요하며, 지식과 행동의 격차를 극복하는 것이야말로 경영의 요체라는 주장이다. 동양의 양명학이 500년 전부터 강조해 온 지행합일(知行合一)을 현대 미국의 경영학자들이 뒤늦게 발견이라도 한 듯하다. 미국의 수백 개 경영대학원은 매년 8만 명이 넘는 MBA 졸업생을.......]]></description>
+					<pubDate>Mon, 25 Jan 2010 09:27:55 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,비즈니스·경제]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[windows xp 에서 네트웍 드라이브 암호 지우기]]></title>
+					<link>http://blog.naver.com/woom333/60098773227</link>
+					<guid>http://blog.naver.com/woom333/60098773227</guid>
+					<description><![CDATA[net use * /d ]]></description>
+					<pubDate>Tue, 05 Jan 2010 11:07:48 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[자기경영]]></category>
+					<title><![CDATA[정보 공유의 중요성]]></title>
+					<link>http://blog.naver.com/woom333/60098226896</link>
+					<guid>http://blog.naver.com/woom333/60098226896</guid>
+					<description><![CDATA[[그때 오늘] 서양 정보 국민과 공유한 일본, 국왕과 측근들만 돌려 본 조선
+출처: 2009.07.07 중앙일보 
+1871년 11월 일본 요코하마의 부둣가에서 구미제국을 순방하기 위해 출항하는 이와쿠라 사절단을 배웅하는 행사가 열렸다. 태정대신 산조 사네토미가 낭독한 송별사에는 사절단의 성격과 목표가 잘 드러난다. “외국과의 교제는 국가의 안정과 위기에 관련되며 사절의 능력 여부는 국가의 영욕에 관계된다. 지금은 대정유신(大政維新), 해외 각국과 어깨를 나란히 할 때이니 그 사명을 만 리 떨어진 곳에서 완수해야 한다. 내외 정치, 앞날의 대업이 성공하고 못 하고가 실로 이 출발에 달려 있고 그대들의 대임에 달려 있지 않는가. 대.......]]></description>
+					<pubDate>Mon, 28 Dec 2009 18:09:42 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,비즈니스·경제]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[app.config 파일 암호화]]></title>
+					<link>http://blog.naver.com/woom333/60097216388</link>
+					<guid>http://blog.naver.com/woom333/60097216388</guid>
+					<description><![CDATA[출처: http://www.ensimple.net/enSimple/show.aspx?cnum=635&amp;b_id=study_csharp&amp;page=1   
+제목 : Windows Application 구성섹션 암호화(app.config)  이전의 글에서는 aspnet_regiis 유틸리티를 이용하여 특정 웹 어플리케이션의 web.config를 암/복호화 하는 방법에 대해 소개했다.http://www.ensimple.net/enSimple/show.aspx?cnum=87&amp;b_id=study_csharp&amp;page=1그럼 윈도우 어플리케이션의 구성파일 app.config는어떻게 암호화하나 ?connectionStrings와 같이 DB 연결 문자열 정보를 가진 섹션은 암호화해 두어야 할 것이다. 반드시...이 경우에 아래와 같은 윈도우가 머신 수준에서 기본 제공하는 암호화 프.......]]></description>
+					<pubDate>Mon, 14 Dec 2009 20:18:02 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[EnterpriseLibrary의 Parameter Cache 기능으로 인하여 저장 프로시저 파라메터를 변경할때 나오는 오류]]></title>
+					<link>http://blog.naver.com/woom333/60096372220</link>
+					<guid>http://blog.naver.com/woom333/60096372220</guid>
+					<description><![CDATA[EnterpriseLibrary의 Parameter Cache 기능으로 인하여 저장 프로시저 파라메터를 변경할때 나오는 오류 EnterpriseLibrary에서 파라메터를 가변적으로 넘겨주는 경우, Parameter Cache 기능으로 인하여 효율을 꽤하고 있다.
+그러나 SP가 변경이 되어서 파라메터 개수가 변경이 되면, 문제가 발생한다.
+캐시에는 예전 파라메터 정보가 들어 있기 때문에, 오류가 발생한다. 이러한 문제는 아래와 같이 해결한다. 
+public virtual DbCommand GetStoredProcCommand(string storedProcedureName, params object[] parameterValues){if (string.IsNullOrEmpty(storedProcedureName)) throw new ArgumentException(Resources.ExceptionNullOrE.......]]></description>
+					<pubDate>Thu, 03 Dec 2009 11:07:34 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA["LC.exe"이(가) -1코드에서 끝났습니다. 대처 방안]]></title>
+					<link>http://blog.naver.com/woom333/60096233352</link>
+					<guid>http://blog.naver.com/woom333/60096233352</guid>
+					<description><![CDATA["LC.exe"이(가) -1코드에서 끝났습니다.이런 에러가 나는 이유는 프로젝트에서 사용하는 컴포넌트의 라이센스 정보가 불일치 하기 때문에 나타난다. 그러므로 프로젝트 Proporties 폴더의 licenses.licx 파일을 삭제해 주면 된다.]]></description>
+					<pubDate>Tue, 01 Dec 2009 13:12:15 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[비주얼 스튜디오에서 탭순서 쉽게 맞추기]]></title>
+					<link>http://blog.naver.com/woom333/60095892064</link>
+					<guid>http://blog.naver.com/woom333/60095892064</guid>
+					<description><![CDATA[[보기] - [탭순서] 이 기능 이용하면 됩니다. http://msdn.microsoft.com/en-us/library/aa984423(VS.71).aspx Setting the Tab Order on Windows Forms The tab order is the order in which a user moves focus from one control to another by pressing the TAB key. Each form has its own tab order. By default, the tab order is the same as the order in which you created the controls. Tab-order numbering begins with zero.
+To set the tab order of a control  On the View menu, choose Tab Order. 
+This activates the tab-order selection mode on the form. A number (representing the TabIndex property) app.......]]></description>
+					<pubDate>Thu, 26 Nov 2009 17:28:03 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[Visual Studio 2005 이상에서 템플릿 내보내기 메뉴가 안 보일때 대처 방안]]></title>
+					<link>http://blog.naver.com/woom333/60095814456</link>
+					<guid>http://blog.naver.com/woom333/60095814456</guid>
+					<description><![CDATA[Visual Studio 2005 이상에서 템플릿 내보내기 메뉴가 안 보일때 대처 방안 2009.11.25 If you can't see the Export Templates option in the File menu then do this:- export/backup your VS.Net settings (via Tools ==&gt; Import and Export Settings)- import your C# / VB settings from the default list of settings (this will be shown to you on the 2nd or 2rd wizard step)  
+결국 초기 셋팅으로 되돌리면 보인다는 뜻.]]></description>
+					<pubDate>Wed, 25 Nov 2009 15:19:29 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[웹서비스 디버깅 하기]]></title>
+					<link>http://blog.naver.com/woom333/60095333893</link>
+					<guid>http://blog.naver.com/woom333/60095333893</guid>
+					<description><![CDATA[웹서비스 디버깅 하기 2009.11.18
+한용희 1. 먼저 웹서비스가 있는 프로젝트를 비주얼 스튜디오로 열기를 한다.
+2. 프로제트 속성에 보면 아래와 같이 "페이지를 열지 않고 외부 응용 프로그램의 요청 기다리기" 옵션이 있다.
+이를 선택하고 디버깅 하고 싶은 지점을 마크하고 실행을 하면 디버깅이 된다.  3. 간혹, 통합 인증이 안되어서 디버깅이 안된다는 메시지가 나온다면 IIS의 인증 정보를 수정해 줘야 한다.
+먼저 "기본 웹사이트"의 속성창에 들어가서 "디렉토리 보안" 탭을 누르고, "인증 액세스 및 인증제어"에 있는 "편집" 버튼을 눌러서
+"windows 통합 인증" 체크 박스를 선택해 주면 된다.
+]]></description>
+					<pubDate>Wed, 18 Nov 2009 15:04:17 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[SQL server 문서화 도구]]></title>
+					<link>http://blog.naver.com/woom333/60088952190</link>
+					<guid>http://blog.naver.com/woom333/60088952190</guid>
+					<description><![CDATA[SQL Server Documentation ToolsWritten By: Greg Robidoux -- 5/24/2007 -- 0 comments -- printer friendly -- become a member  ProblemMaintaining documentation about your SQL Server databases is a big task. No matter how many developers or DBAs you may have, keeping documentation current is a challenge. In most cases you only need view a portion of the database defined in an easy to view format, but if this is something you don't keep up with on a constant basis your efforts will never yield up to the minute documentation. In addition, SQL Server stores all kinds of meta data about your databas.......]]></description>
+					<pubDate>Mon, 24 Aug 2009 14:14:55 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[과거의 COM 컴포넌트(또는 ActiveX)를 C#에서 사용하기]]></title>
+					<link>http://blog.naver.com/woom333/60088687878</link>
+					<guid>http://blog.naver.com/woom333/60088687878</guid>
+					<description><![CDATA[과거의 COM 컴포넌트(또는 ActiveX)를 C#에서 사용하기 2009.8.19
+한용희  과거 unmanaged DLL을 C#과 같은 managed 환경에서 사용하려면 변환을 해줘야 한다.
+먼저 기존의 unmanaged DLL을 등록을 한다. 이때 c:\windows\system32 폴더에 해당 DLL을 카피하고
+아래와 같은 명령어로 등록을 한다.  regsvr32.exe old.dll 이렇게 등록을 한 후에 닷넷 환경에 맞도록 변환을 해 줘야 하는데, 두가지 방법이 있다.
+비주얼 스튜디오를 사용하는 경우에는 [프로젝트]-[참조]-[COM]에서 선택해서 참조하는 경우에
+자동으로 변환을 해주고 참조를 해 준다. 그런데 이때에는 명칭도 자동으로 만들어 주는데, 이 명칭을 자기
+마음대.......]]></description>
+					<pubDate>Wed, 19 Aug 2009 16:26:19 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[SMTP 서비스 작동 테스트 하는 방법]]></title>
+					<link>http://blog.naver.com/woom333/60082293753</link>
+					<guid>http://blog.naver.com/woom333/60082293753</guid>
+					<description><![CDATA[출처: http://postmaster.aol.com/tools/telnet.html 
+Manual Telnet Test 
+There are a number of ways to manually perform a mail transaction through telnet. The following procedure should work under a variety of operating systems, including Windows, UNIX and Linux.
+This section describes how to manually perform a mail transaction through telnet. If you do not receive the replies shown, copy the entire transaction and save it so that you can report the error you received. In order for this test to be useful, it must be run from directly from the mail server.
+Generally OK codes start with .......]]></description>
+					<pubDate>Tue, 28 Jul 2009 17:58:11 +0900</pubDate>
+					<tag><![CDATA[SMTP]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[[SQL Server] 특정 테이블이 사용된 모든 저장 프로시저 찾기]]></title>
+					<link>http://blog.naver.com/woom333/60075145522</link>
+					<guid>http://blog.naver.com/woom333/60075145522</guid>
+					<description><![CDATA[
+SQL SERVER &#8211; Find Stored Procedure Related to Table in Database &#8211; Search in All StoredProcedure
+December 10, 2006 by pinaldave  
+Following code will help to find all the Stored Procedures (SP) which are related to one or more specific tables. sp_help and sp_depends does not always return accurate results.
+----Option1SELECTDISTINCT so.nameFROM syscommentsscINNERJOIN sysobjectsso ON sc.id=so.idWHERE sc.TEXT LIKE '%tablename%'----Option2SELECTDISTINCT o.name, o.xtypeFROM syscommentscINNERJOIN sysobjectso ON c.id=o.idWHERE c.TEXT LIKE '%tablename%'
+Reference : Pinal Dave (http.......]]></description>
+					<pubDate>Thu, 16 Jul 2009 12:56:01 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[자기경영]]></category>
+					<title><![CDATA[미소의 힘]]></title>
+					<link>http://blog.naver.com/woom333/60070858034</link>
+					<guid>http://blog.naver.com/woom333/60070858034</guid>
+					<description><![CDATA[
+신체언어 중 남에게 가장 호감을 주는 커뮤니케이션 수단
+EX) 칭찬 후의 미소 - 찬사의 효과 증대 부탁한 후의 미소 - 상대가 거절 못하도록 하는 효과 
+미소는 아무것도 잃지 않으면서 많은 것을 창조
+순간적으로 표현되지만 영원히 남는 강한 메세지
+]]></description>
+					<pubDate>Thu, 18 Jun 2009 18:31:37 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,비즈니스·경제]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[정규식(regular expression) 라이브러리]]></title>
+					<link>http://blog.naver.com/woom333/60068327850</link>
+					<guid>http://blog.naver.com/woom333/60068327850</guid>
+					<description><![CDATA[http://regexlib.com/Default.aspx 각종 정규식들의 예제가 모여 있음
+]]></description>
+					<pubDate>Fri, 29 May 2009 14:56:01 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[AutoCompleteExtende에서 동일한 값 입력 할 때, 작동 안 하는 문제점 해결하기]]></title>
+					<link>http://blog.naver.com/woom333/60068319334</link>
+					<guid>http://blog.naver.com/woom333/60068319334</guid>
+					<description><![CDATA[AutoCompleteExtender에서 한번 입력한 값과 동일한 값을 다시 입력하면 자동 완성 기능이 작동을 안 한다.
+이럴때에는 아래와 같이 해당 값을 지워주면 작동 한다. $find('abLDCCPerson')._currentPrefix=""; ASP.NET AJAX에서는 컨트롤은 $get 명령어로 찾고 behavior는 $find 명령어로 찾는다.
+즉, AutoCompleteExtender의 behavior중에서 currentPrefix 값을 지워주면, 동일한 값을 다시 입력하더라도
+자동완성 기능이 동작한다]]></description>
+					<pubDate>Fri, 29 May 2009 11:05:17 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[ASP.NET AJAX 속도 높히기]]></title>
+					<link>http://blog.naver.com/woom333/60067844766</link>
+					<guid>http://blog.naver.com/woom333/60067844766</guid>
+					<description><![CDATA[출처 : http://lancezhang.wordpress.com/2008/11/15/aspnet-ajax-performance/ 참조 : http://fivewind.tistory.com/180
+ http://hybridsoul.tistory.com/tag/%ED%96%A5%EC%83%81  ASP.NET AJAX PerformanceImprovement
+Preface
+I think everyone would agree thatAJAX is one of the elements of “Web 2.0″, every web developers should know this technology. I have been collected a list of the popular AJAX Frameworks on my chinese techblog, we will amazedly found that, there are more than 128 AJAX Frameworks! Refer to a voting result, among the 95% of the .NET developers that said they are using som.......]]></description>
+					<pubDate>Wed, 20 May 2009 18:08:14 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[ASP.NET에서 디버깅 할때 breakpoint에서 멈추지 않을 경우]]></title>
+					<link>http://blog.naver.com/woom333/60067826785</link>
+					<guid>http://blog.naver.com/woom333/60067826785</guid>
+					<description><![CDATA[컴파일된 임시 인터넷 파일을 지워준다. 예제)
+C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\Temporary ASP.NET Files 이렇게 기존 컴파일된 파일을 지우면 디버깅 할때 브레이크 포인트가 작동하는 경우가 있다.
+간혹 임시 파일이 안 지워 지는 경우가 있는데, 이럴때에는 iiereset을 해서 IIS가 잡고 있는 파일을
+풀어주자 ]]></description>
+					<pubDate>Wed, 20 May 2009 11:29:50 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[Technical articles]]></category>
+					<title><![CDATA[닷넷의 트랜잭션 정리]]></title>
+					<link>http://blog.naver.com/woom333/60067623338</link>
+					<guid>http://blog.naver.com/woom333/60067623338</guid>
+					<description><![CDATA[    Local Transaction Distributed Transaction Declarative 
+ADO.NET O X X 
+Enterprise Service X O O 
+System.Transactions O O X]]></description>
+					<pubDate>Sat, 16 May 2009 12:21:28 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[개발자 양성 방법]]></title>
+					<link>http://blog.naver.com/woom333/60067623182</link>
+					<guid>http://blog.naver.com/woom333/60067623182</guid>
+					<description><![CDATA[드리밍 인 코드(스콧 로젠버그, 에이콘) 발췌 썬의 엔지니어였던 리처드 가브리엘은 " 저는 프로그래머들도 시인, 예술가처럼 창의적인 활동을 하는 사람들을 
+양성하는 방식으로 양성해야 한다고 생각합니다. 사람들은 이게 엉뚱한 소리라고 말할지도 모릅니다. 
+하지만 시문학 석사학위를 받으려고 교육받을 때 사람들은 무엇을 하나요? 그들은 위대한 시들을 공부 합니다. 
+소프트웨어 공학에서 그렇게 하나요? 아니요. 우리는 위대한 소프트웨어의 소스코드를 읽지 않습니다. 위대한 소프트웨어의 
+설계를 공부하지도 않죠. 그 디자인을 보지도 않고요. 위대한 소프트웨어 디자이너들의 인생을 공부하지도 않습니다. 
+즉 우리는 우리.......]]></description>
+					<pubDate>Sat, 16 May 2009 12:16:35 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[자기경영]]></category>
+					<title><![CDATA[기대효과 미리 맞히기]]></title>
+					<link>http://blog.naver.com/woom333/60067566912</link>
+					<guid>http://blog.naver.com/woom333/60067566912</guid>
+					<description><![CDATA[중앙일보 2009년 5월 14일 발췌
+----------------------------------------------------------------------------------------------------------------- 사람들이 가지고 있는 궁금증 중 하나가 과학기술에 대한 투자가 정작 투자 당사자에게 얼마만큼 큰 경제적인 이득을 가져올까 하는 것이다. 실제 새로운 과학적 지식이 국경 없이 전파된다는 점을 고려할 때 해볼 만한 질문이다. 과학기술에 대한 투자로 큰 성과를 이룬 사례 못지않게 투자를 회수하지 못한 경우도 적지 않은데 어쩌면 이 같은 사례들이 과학적 탐구의 본질을 이해하는 데 도움이 된다. 1970년대 복사기를 비롯해 사무기기로 큰돈을 번 제록스사는 캘리포니아 팰로앨토.......]]></description>
+					<pubDate>Fri, 15 May 2009 11:27:20 +0900</pubDate>
+					<tag><![CDATA[비즈니스·경제]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[자기경영]]></category>
+					<title><![CDATA[분위기 쇄신 인사도 좋지만 핵심 인재마저 내보내서야]]></title>
+					<link>http://blog.naver.com/woom333/60066121488</link>
+					<guid>http://blog.naver.com/woom333/60066121488</guid>
+					<description><![CDATA[[김윤종의 CEO 노트] 분위기 쇄신 인사도 좋지만 핵심 인재마저 내보내서야 미국에서 기업을 경영하다 한국에 와보니 이해하기 힘든 관행 중 하나가 임직원 인사였다. 조직의 수장이 바뀌면 임원들이 싹 자리바꿈하는 일이 허다하다. 후속 연쇄인사가 뒤를 이으며 조직 전체가 소용돌이에 휩싸이곤 한다. 수십 년간 일해 온 핵심 임원들이 뭉텅 날아가기도 하고, 수년간 한 위치에서 전문성을 쌓아온 직원들도 자리를 옮기게 된다. 이런 ‘헤쳐모여’식 인사는 특히 외부 바람을 타는 공기업에서 심한 것 같다. 이 탓에 인사철만 되면 일손을 놓은 채 윗선만 쳐다본다. 요즘 같은 경제 위기에서는 구조조정과 맞물려 분위기는 더욱 뒤숭숭해진.......]]></description>
+					<pubDate>Fri, 17 Apr 2009 22:17:13 +0900</pubDate>
+					<tag><![CDATA[비즈니스·경제]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[자기경영]]></category>
+					<title><![CDATA[리더는 똑같은 말을 계속 해야 한다]]></title>
+					<link>http://blog.naver.com/woom333/60065871802</link>
+					<guid>http://blog.naver.com/woom333/60065871802</guid>
+					<description><![CDATA[리더는 똑같은 말을 계속 해야 한다 
+경영자와 부하직원 관계처럼 어렵고 힘든 관계가 없다.서로 속마음을 열고 이야기하기란 쉬운 일이 아니다.서로 대화가 없으니 비전을 공유하기란 아주 힘이 든다. 먼저, 회사의 책임자, CEO들에게 묻는다. “혹시 이 엄청난 진실을 아시나요?”당신이 하나를 알려주면, (우리의 비전이 이렇다 알려주면) 당연히 직원들이 알 것이라 생각하겠지만, 직원들이 당신의 말을 제대로 알아들을 확률은 5퍼센트에 불과하다는 엄청난 사실을...당신이 부하직원과 비전을 공유하고 싶다면 당신이 열번 정도는 말해야 그들은 이해합니다.CEO의 착각; 하나를 알려주면 열을 안다부하직원들의 속마음: 직원들이 당신.......]]></description>
+					<pubDate>Mon, 13 Apr 2009 09:03:43 +0900</pubDate>
+					<tag><![CDATA[비즈니스·경제]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[자기경영]]></category>
+					<title><![CDATA[직원에서 시간,열정 쏟아라 ]]></title>
+					<link>http://blog.naver.com/woom333/60065332391</link>
+					<guid>http://blog.naver.com/woom333/60065332391</guid>
+					<description><![CDATA[[김윤종의 CEO 노트] 리더십의 핵심은 ‘팔로십’ 직원에게 시간·열정 쏟아라  [중앙일보 2009.04.03] 발췌 월드베이스볼클래식(WBC)에서 보여준 김인식 감독의 리더십은 감동적이었다. 박찬호·이승엽 같은 스타가 빠진 바람에 3년 전 1회 대회 때보다 약화된 전력을 추슬러 더 좋은 성적을 냈다. 이렇듯 리더십은 상황이 힘들 때 더 빛을 발하는 법이다.리더십의 핵심 키워드는 ‘일체감’이라고 믿는다. 1996년 자일랜을 미국 나스닥에 상장시켰을 때의 일이다. 분기마다 전 임직원들을 모아 놓고 회사가 돌아가는 상황을 솔직하게 ‘보고’했다. 회사의 실적은 물론이고 회사가 겪은 일과 해결 과정 등 시시콜콜한 이야기까지 했다. 고.......]]></description>
+					<pubDate>Fri, 03 Apr 2009 09:33:50 +0900</pubDate>
+					<tag><![CDATA[비즈니스·경제]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[KnowHow]]></category>
+					<title><![CDATA[[WinForm] 패널 관련 팁 ]]></title>
+					<link>http://blog.naver.com/woom333/60065282405</link>
+					<guid>http://blog.naver.com/woom333/60065282405</guid>
+					<description><![CDATA[패널 관련 팁 2009.04.02
+한용희 
+윈폼 패널에 어떤 컨트롤을 추가한 다음에 다른 패널로 그 컨트롤을 옮기거나 새로운 패널을 추가해서 수정하려고 하면 
+디자이너에서 잘 안 된다. 처음부터 패널을 그리고 그 위에 올리면 잘 되는데, 기존 패널에 있는 컨트롤을 빼서 다른 패널에 옮길때 가끔 잘 안 되는 경우가 있다.
+(혹시 쉬운 방법 아시는분 알려주세요~ ^^)
+그럴때는 직접 designer 파일을 아래와 같이 수정한다. this.Controls.Add(this.pnlDetail);
+위와 같이 컨트롤에 패널을 추가하거나, 어떤 패널에 컨트롤을 추가하는 코드가 designer 파일에 보면 있으므로 직접 코드로 수정한다. 한 윈폼에 패널을 여러개 배치.......]]></description>
+					<pubDate>Thu, 02 Apr 2009 11:07:57 +0900</pubDate>
+					<tag><![CDATA[윈폼,패널,winform,panel,dock,fill,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[좋은 개발자로 가는길]]></category>
+					<title><![CDATA[[좋은 개발자로 가는 길] 메소드와 파라메터 주석을 달아라]]></title>
+					<link>http://blog.naver.com/woom333/60064954944</link>
+					<guid>http://blog.naver.com/woom333/60064954944</guid>
+					<description><![CDATA[[좋은 개발자로 가는 길] 메소드와 파라메터 주석을 달아라 2009.3.27
+한용희  개발하면서 주석을 달라고 하는 것은많이들 강조하는 부분이다.
+그런데 주석이 너무 많아도 안되고 그렇다고 너무 적어도 안 된다.
+제일 좋은 것은아주 쉬운 코드로 작성을 해서 주석이 필요없을 정도가 되면 제일 바람직할 것이다. 하지만 주석이 꼭 필요할 때가 있는데, 프레임웍이나 라이브러리의 클래스들은 여러군데에서 많이 사용하기 때문에,
+그런 클래스의 메소드와 파라메터에는 어떤 용도의 메소드이고 파라메터가 어떤 용도인지 주석을 달아 놓아야
+여러군데에서 가져다가 사용하기쉽다. 보통 통합 개발툴을 사용하면 주석에 대한 이.......]]></description>
+					<pubDate>Fri, 27 Mar 2009 16:42:24 +0900</pubDate>
+					<tag><![CDATA[좋은개발자로가는길,주석]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[좋은 개발자로 가는길]]></category>
+					<title><![CDATA[[좋은 개발자로 가는 길] 약어집을 만들어라]]></title>
+					<link>http://blog.naver.com/woom333/60064831612</link>
+					<guid>http://blog.naver.com/woom333/60064831612</guid>
+					<description><![CDATA[[좋은 개발자로 가는 길] 약어집을 만들어라 2009.3.25
+한용희 프로젝트를 수행할 때대규모 프로젝트의 경우 개발 표준을 수립하는데 있어 명명 규칙을 만들어서 표준을 세운다.
+예를 들면, 클래스 이름 짓는 규칙, 메소드 이름 짓는 규칙 등등에 관한 내용들을 정리하는 것이다.
+그런데 이러한 명명 규칙안에는 이름 규칙 뿐만 아니라 약어에 대한 규칙도 정의해야 한다.
+우리가 개발을 하다 보면 약어를 많이 사용하기 때문이다.
+또한 용어집도 정의해서 만들어야 한다. 프로젝트를 수행하는 모든 사람들은 동일한 용어, 동일한 약어를 사용해야 
+서로간의 의사소통이 잘되고 궁극적으로는 개발 생산성도 향상이 된다. 한 예를.......]]></description>
+					<pubDate>Wed, 25 Mar 2009 13:00:37 +0900</pubDate>
+					<tag><![CDATA[좋은개발자로가는길,약어집,용어집,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[좋은 개발자로 가는길]]></category>
+					<title><![CDATA[[좋은 개발자로 가는 길] 컨트롤의 정적인 속성값은 개발툴에서만 수정하라]]></title>
+					<link>http://blog.naver.com/woom333/60064566473</link>
+					<guid>http://blog.naver.com/woom333/60064566473</guid>
+					<description><![CDATA[[좋은 개발자로 가는 길] 컨트롤의 정적인 속성값은 개발툴에서만 수정하라 
+2009.3.20
+한용희 개발자들은 보통 다양한 개발툴을 사용해서 개발을 한다. 닷넷 개발자라면 비주얼 스튜디오를 사용할 것이고, 자바 개발자라면 이클립스를 많이 사용할 것이다. 이러한 개발툴을 사용하여 개발을 하면 통합화 된 개발 환경을 이용할 수 있다. 각종 컨트롤을 만들고 편집하는 것을 쉽게 할 수 있는 환경을 제공한다. 이때 컨트롤의 속성 값이 변하지 않는 정적인 값이라면 개발툴 내에서 속성 값을 지정하는 것이 좋다.  한 예를 들어 보자. 
+개발자 B씨는 어떤 프로그램을 수정하라는 지시를 받고 A 프로젝트에 투입이 되었다.
+상사는 그.......]]></description>
+					<pubDate>Fri, 20 Mar 2009 17:34:40 +0900</pubDate>
+					<tag><![CDATA[좋은개발자로가는길,속성]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[자기경영]]></category>
+					<title><![CDATA[비평자와 창조자]]></title>
+					<link>http://blog.naver.com/woom333/60064065472</link>
+					<guid>http://blog.naver.com/woom333/60064065472</guid>
+					<description><![CDATA[비평자와 창조자 2009.3.11
+한용희 회사에서 회의를 하거나 업무를 하다 보면 이것 저것 비평을 많이 하는 사람들이 있다.
+긍정적인 비평인 경우도 있고 도움이 되는 경우도 있다. 하지만 그렇지 않은 경우도 있다.
+자신이 직접 하지는 않기 때문에 이것저것 불평불만을 얘기해서 다른 사람이 제안한 일을 
+깍아 내려서 자신의 위치를 다져나가는 것이다.
+아래는 "배려(한상복지음)"라는 책에서 발췌한 내용이다. "창조자들은 일 자체에서 재미를 찾을 뿐만 아니라 몰입하는 경향이 있어.
+그러다 보면 결과 역시 재미있게 나오지.
+예술가들을 봐도 그렇자나. 반면 비평가들은 창조의 엄두를 내지 못하지.
+대부분의 비평가들은 비.......]]></description>
+					<pubDate>Wed, 11 Mar 2009 12:42:26 +0900</pubDate>
+					<tag><![CDATA[비평자와창조자]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[좋은 개발자로 가는길]]></category>
+					<title><![CDATA[[좋은 개발자로 가는 길] 테이블의 컬럼에는 주석을 달아라]]></title>
+					<link>http://blog.naver.com/woom333/60064058169</link>
+					<guid>http://blog.naver.com/woom333/60064058169</guid>
+					<description><![CDATA[[좋은 개발자로 가는 길] 테이블의 컬럼에는 주석을 달아라 2009.3.11
+한용희 DB 테이블을 설계하여 DB에 실제 물리적인 구현을 할때, 보통 설명이나 주석은 달지 않는 경우가 많다.
+하지만, Microsodt SQL Server도 그렇고 Oracle도 그렇고 대부분의 DB에는 테이블의 컬럼에 주석을 넣을 수 있는 기능이 있다.
+이곳에 그 컬럼에 대한 설명이나 내용을 적어 두면 나중에 테이블에 대한 논리적인 모델을 참조하지 않고서도 
+간략하게 이 테이블이 뭐고 이 컬럼이 무엇을 의미하는지알아낼 수 있다.
+특히 비영어권 국가인 한국에서는 컬럼명을 대부분 영어로 기술하기 때문에 이 컬럼이 무엇을 의미하는지 
+직관적으로 와 닿지 않는 경.......]]></description>
+					<pubDate>Wed, 11 Mar 2009 09:25:45 +0900</pubDate>
+					<tag><![CDATA[좋은개발자로가는길,컬럼주석]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[자기경영]]></category>
+					<title><![CDATA[리더는 책임을 스스로 져야 한다]]></title>
+					<link>http://blog.naver.com/woom333/60063641451</link>
+					<guid>http://blog.naver.com/woom333/60063641451</guid>
+					<description><![CDATA[리더는 책임을 스스로 져야 한다 2008.3.3
+한용희 리더는 책임은 스스로 지고, 팀원이 마음놓고 일을 할 수 있게 해야 한다.
+한마디로, 책임은 내가 질테니 일을 너희들이 해라라고 외쳐야 한다.
+그래야 팀원이 믿고 일을 할 수 있다. 한 예로 팀원이 중대한 아이디어가 나와서 팀장에게 새로운 방법에 대해 건의 했다.
+그러자 팀장이 이러쿵 저러쿵 고민하다 이렇게 말을 한다. 
+"그럼 니가 책임 질래?"
+이 말 한마디면, 그 일은 추진이 안 된다. 팀장이 팀원의 제안이 좋고 성공 가능성이 있다고 믿는 다면 스스로 책임을 져야 팀원이 따라온다.
+그렇지 않으면 팀원은 안 따라온다.
+팀장이 스스로 솔선수범을 하여 앞장서.......]]></description>
+					<pubDate>Tue, 03 Mar 2009 10:12:39 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>woom333</author>
+					<category><![CDATA[자기경영]]></category>
+					<title><![CDATA[리더는 길을 알려줘야 한다]]></title>
+					<link>http://blog.naver.com/woom333/60063640727</link>
+					<guid>http://blog.naver.com/woom333/60063640727</guid>
+					<description><![CDATA[리더는 길을 알려줘야 한다 2009.3.3
+한용희 
+리더가 가장 큰 임무는 바로 팀원들에 대한 비전 제시다.
+팀원들을 이끌고 하나의 목표를 위해 이끌고 나가는 사람이 바로 리더다.
+이러한 리더가 되기 위해서 반드시 필요한 능력이 바로 목표로 향해 뛰어 갈 수 있는 길을 제시하는 것이다.
+단순히 목표만 제시해서는 안 된다.
+팀원을 믿고 맡긴다고 생각하여 내버려 두면 팀원은 방향을 잃거나 잘못된 길로 가거나 리더의 지원 없이 
+힘들게 일을 수행할 수 있다.
+일단 리더가 바른 길을 제시하려면 그 일에 대해 잘 알아야 한다.
+스스로 현장에 대해 잘 알아야만 올바른 길을 제시 할 수 있다.
+스스로 진두 지휘하여 팀원을 이끌.......]]></description>
+					<pubDate>Tue, 03 Mar 2009 09:53:48 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

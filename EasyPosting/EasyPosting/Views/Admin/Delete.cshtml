@@ -1,0 +1,31 @@
+﻿@model EasyPosting.Models.ApplicationUser
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>사용자 삭제</h2>
+
+<h3>사용자를 삭제하시겠습니까?</h3>
+<div>
+    <h4>User</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(Model => Model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(Model => Model.Email)
+        </dd>
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("사용자 목록 보기", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="http://rss.egloos.com/style/blog.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>sentimentalist -http://ondemand.tistory.com 으로오세요!</title>
+	<link>http://nopd.egloos.com</link>
+	<description>티스토리로 이사갔습니다.
+http://ondemand.tistory.com 입니다!</description>
+	<language>ko</language>
+	<pubDate>Tue, 20 Jan 2009 22:35:05 GMT</pubDate>
+	<generator>Egloos</generator>
+	<image>
+		<title>sentimentalist -http://ondemand.tistory.com 으로오세요!</title>
+		<url>http://pds.egloos.com/logo/1/200412/21/92/b0048492.jpg</url>
+		<link>http://nopd.egloos.com</link>
+		<width>80</width>
+		<height>45</height>
+		<description>티스토리로 이사갔습니다.
+http://ondemand.tistory.com 입니다!</description>
+	</image>
+  	<item>
+		<title><![CDATA[ 블로그 이전했습니다! (http://ondemand.tistory.com) ]]> </title>
+		<link>http://nopd.egloos.com/4045247</link>
+		<guid>http://nopd.egloos.com/4045247</guid>
+		<description>
+			<![CDATA[ 
+  안녕하세요? NoPD 군입니다.<br><br>이글루스를 한동안 방치하고 있었는데,<br>어제 MVP 모임 갔다가 다들 egloos 만 기억하고 계셔서<br>새롭게 둥지를 튼 "Cloud Computing On Demand" 블로그를 안내해 드립니다.<br><br>터미널 서버 제품군을 기반으로하여<br>Azure 등의 클라우드 컴퓨팅 솔루션까지<br>넓은 의미에서의 가상화를 다루는 블로그 입니다.<br><br>개발자 + IT Pro 를 위한 블로그로 운영중이니<br>많이들 방문해 주세요.<br><br><a href="http://ondemand.tistory.com/">http://ondemand.tistory.com</a><br><br>- NoPD -<br>			 ]]> 
+		</description>
+		<category>.. 생각의 단편</category>
+
+		<comments>http://nopd.egloos.com/4045247#comments</comments>
+		<pubDate>Tue, 20 Jan 2009 22:35:05 GMT</pubDate>
+		<dc:creator>NoPD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Flexible Desktop Computing #5 : 터미널 서비스에서의 어플리케이션 가상화 ]]> </title>
+		<link>http://nopd.egloos.com/3861818</link>
+		<guid>http://nopd.egloos.com/3861818</guid>
+		<description>
+			<![CDATA[ 
+  <p>* 본 문서는 마이크로소프트 가상화 웹사이트에 게시된 "Flexible Desktop Computing 백서"를 번역 및 의역한 글입니다. 번역 내용 중 잘못된 부분이나 문제가 될만한 부분은 지적해 주시면 수정하도록 하겠습니다.<br><br>* 본 포스팅은 <a href="http://ondemand.tistory.com/">http://ondemand.tistory.com</a> 에 같이 포스팅 됩니다. 슬슬 이사 준비중이니 티스토리 블로그도 많이 방문해 주세요<br></p><p><br><img class="image_left" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds10.egloos.com/pds/200808/12/92/b0048492_48a1211bee9eb.jpg" width="301" height="271" onclick="Control.Modal.openDialog(this, event, 'http://pds10.egloos.com/pds/200808/12/92/b0048492_48a1211bee9eb.jpg', 301, 271);" align="left" />윈도우 서버 2008 의 터미널 서비스에는 "터미널 서비스 리모트 앱(RemoteApp)" 이라는 새로운 기능이 추가되었다. 이 기능은 터미널 서버에서 구동되는 개별 어플리케이션들이 엔드 유저의 리치 클라이언트에서 사용 가능하도록 해줄 뿐만 아니라, 마치 엔드 유저의 로컬 클라이언트에서 어플리케이션이 구동되고 있는 것과 같은 사용자 경험을 제공해 준다. 이것은 심리스 윈도우 기술(Seamless Window Technology)를 통하여 구현되는데, 이같은 방식을 통하여 리치 클라이언트가 터미널 서비스를 엑세스 할 때 또하나의 데스크탑 처럼 보이던 것을 제거한 것이다.<br></p><p>터미널 서비스 리모트앱은 IT 조직이 엔드단의 디바이스에게 터미널 서버에서 구동되는 다양한 어플리케이션들을 조합하고 맞춰줄 수 있도록 해준다. 즉, IT 조직은 각각의 어플리케이션에 대하여 적절한 배포 방법론을 결정할 수 있는 유연함을 갖게 되는 것이다. 예를들면, 그래픽적인 요소들이 강조된 어플리케이션은 엔드 유저의 단말기에 직접 설치하여 로컬 그래픽 서브 시스템의 리소스를 이용할 수 있도록 해주는 것이 좋다. 하지만 많은 데이터의 핸들링이 필요한 CS 어플리케이션 (Client/Server) 은 네트웍을 통하여 모든 데이터를 주고 받는 것보다 중앙의 서버에 설치된 어플리케이션이 직접 데이터를 핸들링하고 UI 만 사용자에게 전송해 주는 것이 훨씬 나은 성능을 보여주는 배포 모델이 될 것이다. </p><p>- NoPD - </p><br/><br/>tag : <a href="/tag/가상화" rel="tag">가상화</a>,&nbsp;<a href="/tag/어플리케이션가상화" rel="tag">어플리케이션가상화</a>,&nbsp;<a href="/tag/터미널서버" rel="tag">터미널서버</a>,&nbsp;<a href="/tag/터미널서비스" rel="tag">터미널서비스</a>,&nbsp;<a href="/tag/리모트앱" rel="tag">리모트앱</a>,&nbsp;<a href="/tag/터미널서비스리모트앱" rel="tag">터미널서비스리모트앱</a>,&nbsp;<a href="/tag/윈도우서버" rel="tag">윈도우서버</a>,&nbsp;<a href="/tag/서버" rel="tag">서버</a>,&nbsp;<a href="/tag/윈도우서버2008" rel="tag">윈도우서버2008</a>,&nbsp;<a href="/tag/서버2008" rel="tag">서버2008</a>,&nbsp;<a href="/tag/마이크로소프트" rel="tag">마이크로소프트</a>,&nbsp;<a href="/tag/microsoft" rel="tag">microsoft</a>			 ]]> 
+		</description>
+		<category>[IT] Windows Server</category>
+		<category>가상화</category>
+		<category>어플리케이션가상화</category>
+		<category>터미널서버</category>
+		<category>터미널서비스</category>
+		<category>리모트앱</category>
+		<category>터미널서비스리모트앱</category>
+		<category>윈도우서버</category>
+		<category>서버</category>
+		<category>윈도우서버2008</category>
+		<category>서버2008</category>
+		<category>마이크로소프트</category>
+		<category>microsoft</category>
+
+		<comments>http://nopd.egloos.com/3861818#comments</comments>
+		<pubDate>Tue, 12 Aug 2008 05:36:51 GMT</pubDate>
+		<dc:creator>NoPD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Flexible Desktop Computing #4 : 어플리케이션 가상화 ]]> </title>
+		<link>http://nopd.egloos.com/3860884</link>
+		<guid>http://nopd.egloos.com/3860884</guid>
+		<description>
+			<![CDATA[ 
+  <p><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">* 본 문서는 마이크로소프트 가상화 웹사이트에 게시된 "Flexible Desktop Computing 백서"를 번역 및 의역한 글입니다. 번역 내용 중 잘못된 부분이나 문제가 될만한 부분은 지적해 주시면 수정하도록 하겠습니다.<br>* 이번 포스팅부터 </span></span><a href="http://ondemand.tistory.com/"><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">http://ondemand.tistory.com</span></span></a><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">에 같이 올라갑니다. 이런저런 이유로 차차 egloos 에 올렸던 모든 정보들을 tistory로 이전하려고 합니다. :-) 이사가도 자주 놀러와 주세요<br><br></span></span></p><p><span style="COLOR: #666666"><span style="COLOR: #c0c0c0"><img class="image_left" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds10.egloos.com/pds/200808/11/92/b0048492_48a0285ea4de9.jpg" width="265" height="82" onclick="Control.Modal.openDialog(this, event, 'http://pds10.egloos.com/pds/200808/11/92/b0048492_48a0285ea4de9.jpg', 265, 82);" align="left" />이전 포스트에서 우리는 클라이언트를 위한 윈도우 OS 배포에 관해 마이크로소프트가 제공하는 옵션들에 대하여 이야기 해봤다. 하지만 OS 배포는 퍼즐의 한 조각일 뿐이다. 어플리케이션과 데이터는 사용자들이 자신의 데스크탑 세션에서 엑세스 하고 싶어하는 크리티컬한 리소스들이다. 따라서 어플리케이션과 데이터에 대한 유연한 배포 옵션을 갖는 다는 것은 완벽한 솔루션을 제공하기 위한 중요한 키라고 할 수 있다.<br><br></span></span></p><p><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">마이크로소프트는 어플리케이션과 데이터 관리에 유연함을 제공하는 다양한 제품군과 특징들을 제공하고 있다. SoftGrid 어플리케이션 가상화와 같은 것은 앞선 포스팅에서 언급했던 것처럼 모든 컴퓨팅 모델과 관계가 있는 솔루션 이라는 점을 명심하고 오프라인 폴더 리디렉션과 같은 다른 기술들은 특정한 시나리오나 사용자 환경에 맞도록 디자인 되어 있는 지원임을 기억해 두자.</span></span></p><p><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">지금부터 설명하는 마이크로소프트의 제품들은 어플리케이션, 데이터, 관리에 대한 다양하고 유연한 데스크탑 컴퓨팅 옵션을 가능하게 해주는 것들이다. <br><br></span></span></p><p><span style="COLOR: #666666"><span style="COLOR: #c0c0c0"><span style="COLOR: #c0c0c0">- 마이크로소프트 SoftGrid 어플리케이션 가상화 : 현재</span> 시장에서 가장 뛰어난 어플리케이션 가상화 솔루션이며 윈도우 클라이언트 환경을 위한 온디멘드 스트리밍 플랫폼이다. (</span></span><a href="http://www.microsoft.com/softgrid"><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">http://www.microsoft.com/softgrid</span></span></a><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">) SoftGrid 어플리케이션 가상화는 데스크탑을 위해 사용될 때 마이크로소프트 데스크탑 최적화 팩 (Microsoft Desktop Optimization Pack, </span></span><a href="http://www.windowsvista.com/optimizeddesktop"><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">http://www.windowsvista.com/optimizeddesktop</span></span></a><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">) 의 핵심 컴포넌트이며 터미널 서비스 환경에서 사용될 때도 독립적으로 사용이 가능하다. <br><br>- 시스템 센터 (System Center) : 마이크로소프트의 IT 관리 도구 제품군의 대표적인 제품<br><br></span></span></p><p><strong><span style="COLOR: #666666"><span style="COLOR: #c0c0c0"><span style="COLOR: #000000"><span style="COLOR: #ffffff">마이크로소프트 SoftGrid 어플리케이션 가상화</span><br></span><br></span></span></strong></p><p><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">마이크로소프트 SoftGrid 어플리케이션 가상화는 일반적인 방법으로 설치되어 클라이언트 컴퓨팅 스택과 밀접하게 연관되어 있는 윈도우 클라이언트 어플리케이션들을 사용자의 요청에 의하여 동적으로 서비스 가능한 방식으로 변형시켜주는 제품이다. 또한 SoftGrid는 IT 부서에서 어플리케이션 패키지를 중앙 집중화 하여 관리할 수 있도록 해주며 사용자들이 승인된 어플리케이션의 실행을 요청할 때 즉시 대체할 수 있는 장점이 있다.<br></span></span></p><p><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">마이크로소프트 SoftGird 어플리케이션 가상화는 로컬 모델이나 중앙 집중화된 모델 모두에 대하여 다양한 장점을 제공한다. 이러한 장점들은 데스크탑 컴퓨팅 옵션에 따라 조금 달라질 수 있다. 하지만 다음과 같은 점에서 모든 환경의 사용자들이 잇점을 얻을 수 있다.<br><br></span></span></p><p><span style="COLOR: #000000"><span style="COLOR: #ffffff">- 로컬 &amp; 중앙 집중형 실행 방식 모두에 대한 장점</span></span></p><p><br><span style="COLOR: #000000"><span style="COLOR: #c0c0c0"><span style="COLOR: #ffffff">1. 어플리케이션 충돌의 감소<br></span><br></span></span></p><p><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">SoftGrid는 어플리케이션과 어플리케이션간의 충돌을 감소시킬 수 있고 충돌이 일어나는 것이 자연스러운 현상이라고 생각되어 지는 버전이 다른 동일한 소프트웨어 (예&gt; MS 오피스 2003과 MS 오피스 2007) 들의 일반적인 충돌까지 제거할 수 있다. SoftGrid를 통하여 어플리케이션을 배포하는 것은 IT 조직이 어플리케이션간의 충돌을 테스트하는 업무 자체를 줄여 줄 수 있는 것은 물론이고 새로운 어플리케이션을 배고하거나 업그레이드 하는데 소요되는 시간을 극단적으로 줄여줄 수 있다.<br><br></span></span></p><p><span style="COLOR: #000000"><span style="COLOR: #c0c0c0"><span style="COLOR: #ffffff">2. 간결하고 신속한 어플리케이션 배포</span><br><br></span></span></p><p><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">어플리케이션 충돌이 감소됨으로써 SoftGrid는 어플리케이션을 Rich 클라이언트로 배포하는 속도가 무척 빨라졌다. 많은 고객들이 SoftGrid 를 사용함으로써 수 주일 까지 걸리던 배포작업이 수 일로 단축되었다고 이야기하고 있다.<br><br></span></span></p><p><span style="COLOR: #000000"><span style="COLOR: #ffffff">3. OS 이미지의 통합화 및 표준화</span></span></p><p><br><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">SoftGrid는 IT 조직이 많은 주요 소프트웨어를 OS 이미지에 미리 인스톨하여 배포하던 작업을 하지 않고 중앙에서 온디멘드 서비스 방식으로 그런 패키지들을 사용할 수 있도록 해준다. 결과적으로 이것은 부서 혹은 지점 별로 나뉘어져 있는 OS 이미지를 회사 전체에 적용 가능한 단일한 OS 이미지를 가질 수 있도록 해줌으로써 불필요한 OS 이미지의 수를 줄일 수 있도록 해준다.<br></span></span></p><p><span style="COLOR: #000000"><br><span style="COLOR: #c0c0c0"><span style="COLOR: #ffffff">4. 서포트 콜의 감소</span><br></span></span></p><p><span style="COLOR: #666666"><br><span style="COLOR: #c0c0c0">SoftGrid는 소프트웨어 설정 문제를 사용자 전체 운영 환경의 시스템적 디버깅을 필요로 하던 방식에서 훨씬 더 간단한 작업으로 바꾸어 준다. SoftGrid를 가지고 헬프데스크 테크니션은 시스템 정지 없이 사용자 어플리케이션이 가장 잘 동작했던 상황으로 쉽고 빠르게 복구할 수 있도록 해준다. 이러한 기능은 SoftGrid 고객이 헬프 데스크 콜을 30% 이상줄일수 있게 해주었다.</span></span></p><p><br><span style="COLOR: #ffffff">- 로컬실행방식에 대한 특장점<br></span><span style="COLOR: #666666"><span style="COLOR: #000000"><br><span style="COLOR: #ffffff">1. 로밍기능 제공으로 Flexible Office 구현</span></span><br></span></p><p><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">마이크로소프트 SoftGrid 어플리케이션 가상화는 이전에 중앙 집중형 실행 모델에서만 가능했던 리치 클라이언트 상에서 로컬 실행이 가능하여 로밍기능을 제공할 수 있다. 또한 SoftGrid는 로컬 디바이스에 어플리케이션 캐싱이 가능하여 중앙 집중형 실행 모델에서 불가능했던 오프라인 상에서도 어플리케이션 실행이 가능하다. SoftGrid를 통하여 어플리케이션은 사용자들이 서로 다른 로컬 디바이스를 사용하더라도 어플리케이션이 사용자를 따라가도록 할 수 있다. 예를들어, 사용자는 본사의 데스크탑에서 업무를 시작한 뒤 고객사를 만나러 가는 도중 랩탑 컴퓨터를 사용하고 고객사에 도착해서는 또 다른 데스크탑 컴퓨터를 사용한다고 해보자. 각각의 케이스에서 사용자는 각 디바이스에서 사용자의 요청에 따라 개인화된 어플리케이션 셋을 사용할 수 있다. 어플리케이션은 중앙의 SoftGrid 어플리케이션 서버가 아니라 로컬 컴퓨팅 환경에서 로컬 시스템 자원을 이용하여 실행되는 것이다.<br></span></span></p><p><strong><span style="COLOR: #000000"><br><span style="COLOR: #ffffff">- 중앙 집중형 실행방식의 특장점<br></span></span></strong></p><p><span style="COLOR: #666666"><span style="COLOR: #000000"><br><span style="COLOR: #ffffff">1. 서버 통합</span></span><br></span></p><p><span style="COLOR: #666666"><br><span style="COLOR: #c0c0c0">SoftGrid 터미널 서비스 버전은 IT 조직이 상황에 따라 33~40% 정도의 터미널 서버수를 줄일 수 있게 해준다. 이것은 어플리케이션 충돌을 줄여줌으로써 가능한데, 결과적으로 각 서버가 훨씬 많은 어플리케이션 패키지를 호스팅 할 수 있게 해주는 것이다. 정적인 어플리케이션 배포방식에서 관리자는 일반적으로 터미널 서버의 최대 사용량에 맞추어 터미널 서비스 Farm 을 구성해야만 한다. SoftGrid는 이러한 Farm의 사이즈를 획기적으로 줄여주고 IT 조직이 최대 동시 사용자에 맞추어 적절히 Farm 을 사이징 할 수 있도록 해준다.<br></span></span></p><p><span style="COLOR: #666666"><span style="COLOR: #000000"><br><span style="COLOR: #ffffff">2. 가상머신을 호스팅하는 서버의 표준화 및 블레이드 PC </span></span><br><br><span style="COLOR: #c0c0c0">가상 머신과 블레이드 PC를 호스팅하는 서버의 표준화 </span></span><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">가상머신을 호스팅하는 서버와 블레이드 PC 모델은 그 자체만으로 데이터 센터에서 엔드포인트의 유저까지 윈도우 클라이언트 OS를 간단한게 집중화된 형태이다. 그러나 이러한 방식이 어플리케이션과 클라이언트 관리와 관련된 많은 도전들을 완전히 해결해 주지는 못한다. 정적인 어플리케이션 배포 모델과 함께, IT 조직은 유니크한 가상머신과 블레이드 PC를 유저에게 제공하고 관리해야만 하는 문제가 남아있다. 이것은 어플리케이션과 클라리언트 관리가 분산 프로세싱 모델만큼 비용이 소모되고 복잡한 시나리오에 봉착하게 한다. <br></span></span></p><p><span style="COLOR: #666666"><span style="COLOR: #c0c0c0">마이크로소프트의 어플리케이션 가상화 (SoftGrid) 를 가상머신 환경이나 블레이드 PC 환경에 도입함으로서, IT 조직은 사용자와 가상머신, 블레이드 PC 간의 정적인 관계 관리 업무를 떨쳐버릴 수 있는 것은 물론이고 동적으로 다양한 리소스를 할당할 수 있게 해줄 것이다. 또한 IT 조직이 모든 사용자에게 표준화된 이미지를 제공할 수 있게 해줌으로써 유관 부서별로 가상머신이나 블레이드 PC의 운영체제 이미지를 만들고 관리하는 부담을 줄여줄 수 있을 것이다.<br></span></span><span style="COLOR: #666666"><br><span style="COLOR: #c0c0c0">- NoPD - </span></span></p><br><a href="http://garden.egloos.com/10001141"><span style="COLOR: #c0c0c0">이글루스 가든 - IT분야 전문가 되기!!</span></a><br/><br/>tag : <a href="/tag/마이크로소프트" rel="tag">마이크로소프트</a>,&nbsp;<a href="/tag/가상화" rel="tag">가상화</a>,&nbsp;<a href="/tag/virtualization" rel="tag">virtualization</a>,&nbsp;<a href="/tag/softgrid" rel="tag">softgrid</a>,&nbsp;<a href="/tag/어플리케이션가상화" rel="tag">어플리케이션가상화</a>,&nbsp;<a href="/tag/microsoft" rel="tag">microsoft</a>,&nbsp;<a href="/tag/server" rel="tag">server</a>			 ]]> 
+		</description>
+		<category>[IT] Windows Server</category>
+		<category>마이크로소프트</category>
+		<category>가상화</category>
+		<category>virtualization</category>
+		<category>softgrid</category>
+		<category>어플리케이션가상화</category>
+		<category>microsoft</category>
+		<category>server</category>
+
+		<comments>http://nopd.egloos.com/3860884#comments</comments>
+		<pubDate>Mon, 11 Aug 2008 11:56:12 GMT</pubDate>
+		<dc:creator>NoPD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 윈도우 XP 용 RDC 6.1 정식(?) 버전 배포 ]]> </title>
+		<link>http://nopd.egloos.com/3818198</link>
+		<guid>http://nopd.egloos.com/3818198</guid>
+		<description>
+			<![CDATA[ 
+  <p>몇달 전, Windows Server 2008 RC0 발표 즈음, 터미널 서비스 클라이언트 관련하여 이슈를 포스팅 했던 적이 있습니다. (<a href="http://nopd.egloos.com/3664194">http://nopd.egloos.com/3664194</a>) 6.1 버전의 클라이언트가 있어야 TS Web Access 포탈을 사용할 수 있는데 XP SP나 XP SP2를 사용하는 사람들에게는 그림의 떡이었지요. Stand Alone 으로 돌아가는 버전은 Frane 이라는 친구의 도움으로 받을 수 있었지만 Web Access 는 할 수 없는 문제가 있었습니다.<br><br>이 문제에 대한 유저들의 불만, 해결 요청이 꽤나 많았는데, 조금 늦긴 했지만 MS 에서 업데이트 형태로 XP SP3 이전 버전 사용자를 위한 RDC 6.1 버전을 공개를 했네요. <br><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds9.egloos.com/pds/200807/09/92/b0048492_487434e619ea2.jpg" width="432" height="131" onclick="Control.Modal.openDialog(this, event, 'http://pds9.egloos.com/pds/200807/09/92/b0048492_487434e619ea2.jpg', 432, 131);" /></div></p><div style="TEXT-ALIGN: center"><a href="http://www.microsoft.com/downloads/details.aspx?displaylang=ko&amp;FamilyID=6e1ec93d-bdbd-4983-92f7-479e088570ad" target="_blank">RDC 6.1 받으러 가기</a></div><p><br>귀차니즘이 발동 하시면 바로 <a href="http://pds9.egloos.com/pds/200807/09/92/WindowsXP-KB952155-x86-KOR.exe">WindowsXP-KB952155-x86-KOR.exe</a>&nbsp;다운로드 받으셔도 됩니다. :)<br><br>- NoPD -</p><br><a href="http://garden.egloos.com/10001141">이글루스 가든 - IT분야 전문가 되기!!</a><br/><br/>tag : <a href="/tag/터미널서비스" rel="tag">터미널서비스</a>,&nbsp;<a href="/tag/터미널서비스클라이언트" rel="tag">터미널서비스클라이언트</a>,&nbsp;<a href="/tag/RDC" rel="tag">RDC</a>,&nbsp;<a href="/tag/리모트데스크탑" rel="tag">리모트데스크탑</a>,&nbsp;<a href="/tag/RemoteDesktopClient" rel="tag">RemoteDesktopClient</a>,&nbsp;<a href="/tag/윈도우XP" rel="tag">윈도우XP</a>,&nbsp;<a href="/tag/terminalserver" rel="tag">terminalserver</a>,&nbsp;<a href="/tag/terminalservice" rel="tag">terminalservice</a>,&nbsp;<a href="/tag/MSDN" rel="tag">MSDN</a>			 ]]> 
+		</description>
+		<category>[IT] Windows Server</category>
+		<category>터미널서비스</category>
+		<category>터미널서비스클라이언트</category>
+		<category>RDC</category>
+		<category>리모트데스크탑</category>
+		<category>RemoteDesktopClient</category>
+		<category>윈도우XP</category>
+		<category>terminalserver</category>
+		<category>terminalservice</category>
+		<category>MSDN</category>
+
+		<comments>http://nopd.egloos.com/3818198#comments</comments>
+		<pubDate>Wed, 09 Jul 2008 03:50:31 GMT</pubDate>
+		<dc:creator>NoPD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 뜨거워지는 데스크탑 가상화의 열기 ]]> </title>
+		<link>http://nopd.egloos.com/3783718</link>
+		<guid>http://nopd.egloos.com/3783718</guid>
+		<description>
+			<![CDATA[ 
+  요즘 어떤 매체를 통해서든 가상화와 관련된 뉴스를 쉽게 접할 수 있다. 프레젠테이션 가상화를 전문으로 하던 씨트릭스(Citrix)와 마이크로소프트가 본격적으로 하드웨어 가상화에 박차를 가하면서 이같은 경향은 더욱 심화될 것으로 생각된다. 하드웨어 가상화의 선두주자 격인 VMWare는 "M&amp;A를 통하여 인수한 회사를 통하여 제공되는 서비스의 한계"를 화두로 타사와의 차별화를 선언하고 나섰다.<br><br><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds9.egloos.com/pds/200806/13/92/b0048492_4852507c0a3ef.jpg" width="500" height="260" onclick="Control.Modal.openDialog(this, event, 'http://pds9.egloos.com/pds/200806/13/92/b0048492_4852507c0a3ef.jpg', 500, 260);" /></div>마이크로소프트의 Kidaro 인수 이후 VM웨어가 시장 공세를 강화하는 분위기다. 한편 씨트릭스는 젠소스(Xen Source) 인수 이후 전 제품군은 "Xen" 으로 통합했다는 소식을 포스팅을 올렸던 적이 있는데, 젠데스크탑의 기업시장 진입을 위하여 발빠르게 움직이고 있는 분위기다. 아직 시장 자체가 크지 않고 새로운 방식의 IT 자원 관리에 대한 신뢰가 자리잡은 상황이 아니기 때문에 조금 더 지켜봐야겠지만, 새로운 파이를 만들어 내기 위해 세 회사가 열심히 뛰는 만큼 조만간 일상생활에서 쉽게 가상화를 접할 날이 멀지 않은 것 같다.<br><br>기사원문 : <a href="http://www.zdnet.co.kr/news/enterprise/etc/0,39031164,39169784,00.htm">http://www.zdnet.co.kr/news/enterprise/etc/0,39031164,39169784,00.htm</a><br><br>- NoPD -<br />
+<a href="http://garden.egloos.com/10001141">이글루스 가든 - IT분야 전문가 되기!!</a><br/><br/>tag : <a href="/tag/terminalservice" rel="tag">terminalservice</a>,&nbsp;<a href="/tag/가상화" rel="tag">가상화</a>,&nbsp;<a href="/tag/데스크탑가상화" rel="tag">데스크탑가상화</a>,&nbsp;<a href="/tag/VM웨어" rel="tag">VM웨어</a>,&nbsp;<a href="/tag/마이크로소프트" rel="tag">마이크로소프트</a>,&nbsp;<a href="/tag/씨트릭스" rel="tag">씨트릭스</a>,&nbsp;<a href="/tag/citrix" rel="tag">citrix</a>,&nbsp;<a href="/tag/시트릭스" rel="tag">시트릭스</a>,&nbsp;<a href="/tag/kidaro" rel="tag">kidaro</a>,&nbsp;<a href="/tag/키다로" rel="tag">키다로</a>,&nbsp;<a href="/tag/virtualization" rel="tag">virtualization</a>			 ]]> 
+		</description>
+		<category>[IT] Windows Server</category>
+		<category>terminalservice</category>
+		<category>가상화</category>
+		<category>데스크탑가상화</category>
+		<category>VM웨어</category>
+		<category>마이크로소프트</category>
+		<category>씨트릭스</category>
+		<category>citrix</category>
+		<category>시트릭스</category>
+		<category>kidaro</category>
+		<category>키다로</category>
+		<category>virtualization</category>
+
+		<comments>http://nopd.egloos.com/3783718#comments</comments>
+		<pubDate>Fri, 13 Jun 2008 10:53:52 GMT</pubDate>
+		<dc:creator>NoPD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Flexible Desktop Computing #3 : MS가 제공하는 옵션들 ]]> </title>
+		<link>http://nopd.egloos.com/3782395</link>
+		<guid>http://nopd.egloos.com/3782395</guid>
+		<description>
+			<![CDATA[ 
+  <p>* 본 문서는 마이크로소프트 가상화 웹사이트에 게시된 "Flexible Desktop Computing 백서"를 번역 및 의역한 글입니다. 번역 내용 중 잘못된 부분이나 문제가 될만한 부분은 지적해 주시면 수정하도록 하겠습니다.<br></p><p>마이크로소프트는 높은 사용자 생산성을 제공하고 보안, TCO 측면에서 잇점을 가지고 있는 다양한 Flexible Desktop Computing을 제공한다. 이 섹션은 윈도우에서 이러한 컴퓨팅을 위한 여러가지 옵션을 소개하겠다. 다음은 마이크로소프트가 제공하는 OS를 위한 다양한 Flexible Desktop Computing 제품들이다. </p><ul><li>윈도우 비스타 엔터프라이즈 : 중, 대형 조직에 최적화된 윈도우 비스타 프리미엄 버전</li><li>윈도우 XP 임베디드, 윈도우 CE : 씬클라이언트(Thin Client)를 위한 임베디드 윈도우 버전</li><li>윈도우 펀더멘털 for Legacy PC : 일반 PC를 씬클라이언트로 전환하기 위한 윈도우 기반 클라이언트</li><li>윈도우 서버 터미널 서비스 : 마이크로소프트의 서버 기반 컴퓨팅 플랫폼</li><li>Virtual PC, Virtual 서버 : 마이크로소프트의 하드웨어 가상화 제품군</li></ul><p>이 외에도, 마이크로소프트는 Flexible Desktop Computing을 위한 라이센스 모델들을 제공한다.</p><ul><li>Diskless PC, Remote Boot를 위한 중앙집중형 디스크 이미지 시스템</li><li>클라이언트 가상머신을 서버에서 호스팅하는 형태의 윈도우 비스타 중앙집중형 데스크탑</li><li>터미널 서비스 CAL (Client Access License)</li><li>블레이드 PC를 위한 원격 데스크탑 라이센스 (RDL)</li></ul><p>여기서 중요한 것은 제품과 제공되는 라이센스는 1:1 관계가 아니라는 점이다. 다시말하면 위에 언급된 몇가지는 제품이고 나머지는 라이센스 권한이다. 예를들어 윈도우 비스타 엔터프라이즈 버전은 제품이지만 윈도우 비스타 중앙집중형 데스크탑은 라이센스 권한이다. 이러한 마이크로소프트의 Flexible Desktop Computing 옵션들은 사용자들의 실행 모드에 따라 논리적으로 그룹핑 될 수 있다. 아래 그림은 이같은 내용을 한눈에 볼 수 있도록 정리해서 보여준다.<br><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds8.egloos.com/pds/200806/12/92/b0048492_48510e68ac86c.jpg" width="500" height="278.181818182" onclick="Control.Modal.openDialog(this, event, 'http://pds8.egloos.com/pds/200806/12/92/b0048492_48510e68ac86c.jpg', 550, 306);" /></div></p><p><strong>로컬 실행 환경</strong><br><br><u>1. Rich Client</u></p><p>표준 PC 하드웨어의 로컬 디스크에 설치되는 전통적인 리치 클라이언트 모델의 OS는 다양한 기능을 제공함과 동시에 오프라인에서도 동작가능한 특성을 가지고 있다. 그러나 리치 클라이언트 모델은 분산되어 있는 컴퓨터에 OS가 설치되어 있다 보니, 제대로 관리되지 않으면 TCO 가 증가된다는 문제점이 있다. 또한, 적절한 로컬 데이터 보안 수단이 준비되지 않으면 보안 헛점이 생길 수 있고 데이터 손실, 분실이 발생할 수 있다. <br></p><p><u>2. Diskless PC / Remote Boot</u></p><p>이 모델에서 OS는 이미지 형태로 미리 인스톨되어 중앙 집중화된 SAN 과 같은 네트워크 스토리지에 저장되는 방식을 사용한다. PC의 전원이 들어오면 OS는 요청에 따라 네트워크를 통하여 OS 이미지를 전송받고 로컬 자원을 이용하여 로컬에서 실행된다. 이 방식은 클라이언트 하드웨어에 관계없이 OS, 어플리케이션, 데이터를 자유롭게 이동시킬 수 있는 동적인 환경 구성이 가능하게 해준다. Diskless PC와 Remote Boot를 위한 소프트웨어 기술은 초기단계의 기술이고 상당한 네트워크 밴드폭과 지속적으로 연결되는 네트워크 연결을 요구하는 단점이 있다. 하지만 OS 이미지가 중앙에서 관리되기 때문에 즉각적인 업그레이드나 롤백, OS 마이그레이션등이 자유로운 장점이 있다.<br></p><p><u>3. Client Hosted Virtual Machine</u></p><p>이 모델에서 윈도우는 Rich Client나 Remote Boot을 사용할 수 있는 Diskless PC 중 하나에서 호스팅되는 가상 머신 환경속에서 운영된다. 이러한 접근 방식은 어플리케이션과 OS 사이의 호환성 이슈를 줄일 수 있도록 도와주는데, 표준 데스크탑 하드웨어에서 여러가지 버전의 윈도우를 구동할 수 있기 때문에 가능한 내용이다. 또한, 이 모델은 Rich Client를 사용하는 경우 오프라인 모드에서도 사용할 수 있다는 장점이 있다. 그러나 이 옵션은 관리포인트가 너무 많아지는 단점이 있다.<br></p><p><strong>중앙 집중화된 실행환경</strong></p><p><u>4. Windows Server Terminal Services</u></p><p>터미널 서비스는 단일 서버에서 여러 사용자의 데스크탑이나 어플리케이션을 구동시킬 수 있는 서버 기반 컴퓨팅 아키텍쳐를 제공한다. 서버는 모든 유저에게 독립된 세션을 생성하고 사용자 인터페이스(UI)를 엔드유저의 디바이스에서 볼 수 있도록 해주며(엔드유저 디바이스는 Rich Client가 될 수도 있고 Thin Client가 될 수도 있다.) 모든 어플리케이션과 데이터는 데이터 센터에 저장되어 있게 된다. 터미널 서비스는 컴퓨팅 아키텍쳐를 공유하는 방식이기 때문에 경제적인 측면에서 많은 장점을 가지고 있다. 예를들면, 터미널 서버에 설치될 하나의 서버 OS만 있으면 모든 사용자가 터미널 서비스를 쓸 수 있는 점이다. 하지만 이러한 설정은 몇가지 모험을 필요로 한다. 개별 유저들은 Rich Client를 쓰는 것 만큼 편리하게 자신의 환경을 커스터마이징 하기 힘들고 어플리케이션이 서버 OS 에서 구동되기 때문에 해당 벤더로부터 어플리케이션이 구동 가능한지 확인을 해야만 한다. </p><p><u>5. Blade PC</u></p><p>Blade PC는 개별 Client OS가 데이터 센터에 위치한 Blade PC 하드웨어에서 구동되는 방식이다. 사용자와 1:1로 매핑이 되며, Blade PC에 접속하는 엔드 유저의 디바이스는 Thin Client 이다. 이 모델은 물리적인 집중화의 잇점과 함께 전통적인 방식의 PC와 비슷한 풍부한 사용자 경험을 제공해 준다. 이러한 잇점은 물리적인 하드웨어 보안과 (데이터 센터에 위치해 있으므로) 소프트웨어, 데이터의 보안을 함께 제공해 준다. 일반적으로 Thin Client는 임베디드 운영체제 기반으로 동작하며 중앙의 Blade PC로 부터 비교적 자유롭다. 이 모델은 퍼포먼스 측면의 잇점과 함께 세션이나 하드웨어 가상화 레이어와 같은 고민이 없기 때문에 좌석의 이동, 사용자 로밍에 관한 이슈가 없다. 하지만 Blade PC 한대가 한명의 사용자에게 할당되는 점은 가격이슈와 직결되는 단점이 있다.</p><p><u>6. Server Hosted Virtual Machine</u></p><p>이 모델은 Terminal Service와 Blade PC의 장점을 모아놓은 방식으로 서버 하드웨어에서 동시에 돌아가는 여러개의 윈도우 클라이언트 인스턴스들이 Rich Client나 Thin Client를 통하여 사용자와 인터페이스하는 방식이다. VM을 호스팅하는 서버는 사용자들이 Rich Client를 쓰는 것과 같은 사용자 경험과 호환성, 어플리케이션의 유연함을 느낄 수 있도록 해준다. 또한 Terminal Service 방식이 가지고 있던 어플리케이션 벤더가 제공해주지 못하는 경우에 대한 회피도 가능하다. Blade PC에 비해서도 서버 하드웨어당 받아들일 수 있는 사용자가 많기 때문에 비교적 비용 이슈에서도 자유롭다. 하지만 Terminal Service와 비교할 때, VM자체의 확장성, 적은 서버당 사용자수 등은 이슈가 될 수 있을 것이다. Server Hosted VM 방식은 하드웨어 가상화 레이어와 일련의 관리도구를 필요로 한다. 마이크로소프트는 Virtual Server를 VM 레이어로 제공하고 있으며 윈도우 서버 2008에서는 서버 가상화를 기본적으로 제공하고 있다. 마이크로소프트는 System Center Virtual Maching Manager(SCVMM)를 통해서도 가상 머신을 위한 관리 기술을 제공할 예정이다.<br></p><p>이렇듯 다양한 Flexible Computing을 위한 옵션들은 업무환경과 용도에 따라서 서로 다른 잇점을 가지고 있다. 따라서 적절한 옵션을 선택하는 것은 주어진 사용자 환경, 시나리오에 따라 많은 고민후에 결정해야 할 것이다.</p><p>- NoPD - </p><br/><br/>tag : <a href="/tag/터미널서비스" rel="tag">터미널서비스</a>,&nbsp;<a href="/tag/가상화" rel="tag">가상화</a>,&nbsp;<a href="/tag/SystemCenter" rel="tag">SystemCenter</a>,&nbsp;<a href="/tag/SCVMM" rel="tag">SCVMM</a>,&nbsp;<a href="/tag/마이크로소프트" rel="tag">마이크로소프트</a>,&nbsp;<a href="/tag/Microsofot" rel="tag">Microsofot</a>,&nbsp;<a href="/tag/VirtualServer" rel="tag">VirtualServer</a>,&nbsp;<a href="/tag/VM" rel="tag">VM</a>,&nbsp;<a href="/tag/PXE" rel="tag">PXE</a>,&nbsp;<a href="/tag/DisklessPC" rel="tag">DisklessPC</a>			 ]]> 
+		</description>
+		<category>[IT] Windows Server</category>
+		<category>터미널서비스</category>
+		<category>가상화</category>
+		<category>SystemCenter</category>
+		<category>SCVMM</category>
+		<category>마이크로소프트</category>
+		<category>Microsofot</category>
+		<category>VirtualServer</category>
+		<category>VM</category>
+		<category>PXE</category>
+		<category>DisklessPC</category>
+
+		<comments>http://nopd.egloos.com/3782395#comments</comments>
+		<pubDate>Thu, 12 Jun 2008 11:56:28 GMT</pubDate>
+		<dc:creator>NoPD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ ZDNet에 보도된 Kidaro 관련 기사 (부제:참 엉뚱하다...) ]]> </title>
+		<link>http://nopd.egloos.com/3758437</link>
+		<guid>http://nopd.egloos.com/3758437</guid>
+		<description>
+			<![CDATA[ 
+  <p>어제 아침 뉴욕발 한국행 비행기를 타고 무사히 잘 도착했습니다. 한달반 만에 보는 딸래미 밤새 돌보다가 (...라고 적고 와이프 감사합니다~ 라고 읽습니다) 출근해서 밀린 업무 처리후 간만에 여유롭게 이런저런 기사를 보고 있는데, ZDNet에 Kidaro 관련 기사가 나왔더군요 (원문링크 : <a href="http://www.zdnet.co.kr/news/enterprise/etc/0,39031164,39169143,00.htm">http://www.zdnet.co.kr/news/enterprise/etc/0,39031164,39169143,00.htm</a>)<br><br>NoPD의 블로그를 탐독 하시는 분이 계실지 모르겠지만 3월 초에 MS의 Kidaro 인수 관련 기사를 포스팅 했던 적이 있습니다. Kidaro를 인수함으로써 VMWare의 기술과 어떤 차별성을 가질 수 있을것인가? 에 대한 글이었던 것으로 기억됩니다. 그런데, 이번 ZDNet의 기사는 참으로 실망스럽게도 PC 구입을 대체하는 ROI 측면에 대해서만 이야기를 하더군요. IT 전문 잡지가 보도하는 인수 종료 기사 치고는 너무 무성의하지 않았나 싶습니다.<br><br>데스크탑 가상화를 통해서 엔드유저와 수퍼유저가 얻을 수 있는 장단점은 서로 다릅니다. 그리고 이는 꼭 ROI 와 같은 "돈"에 관계된 것으로만 표현될 성질의 것도 아닙니다. 이는&nbsp;IT 라는 것은 돈 이외에도 보안, 편의성, 안정성등 고민해야 할 요소가 많은 탓일 것입니다. 특히나 데스크탑 가상화는 얼마나 효율적인 환경이 구성될 수 있고 안정적으로 운영이 가능한가 하는 고민이 "돈" 보다도 선행되는 것이 당연하지 않나 생각하고 있었는데, 이번 기사는 조금 핀트가 어긋난 것이 아닌가 싶습니다.<br><br>여하튼 이 기사를 계기로 과연 데스크탑 가상화가 우리에게 줄 수 있는 잇점은 무엇인가 다시한번 고민할 수 있는 계기가 된 것 같습니다. <br><br>- NoPD -</p><br/><br/>tag : <a href="/tag/터미널서비스" rel="tag">터미널서비스</a>,&nbsp;<a href="/tag/kidaro" rel="tag">kidaro</a>,&nbsp;<a href="/tag/키다로" rel="tag">키다로</a>,&nbsp;<a href="/tag/가상화" rel="tag">가상화</a>,&nbsp;<a href="/tag/가상화관리" rel="tag">가상화관리</a>,&nbsp;<a href="/tag/ROI" rel="tag">ROI</a>,&nbsp;<a href="/tag/보안" rel="tag">보안</a>,&nbsp;<a href="/tag/안정성" rel="tag">안정성</a>,&nbsp;<a href="/tag/돈" rel="tag">돈</a>,&nbsp;<a href="/tag/마이크로소프트" rel="tag">마이크로소프트</a>,&nbsp;<a href="/tag/NoPD" rel="tag">NoPD</a>,&nbsp;<a href="/tag/zdnet" rel="tag">zdnet</a>,&nbsp;<a href="/tag/virtualization" rel="tag">virtualization</a>			 ]]> 
+		</description>
+		<category>[IT] Windows Server</category>
+		<category>터미널서비스</category>
+		<category>kidaro</category>
+		<category>키다로</category>
+		<category>가상화</category>
+		<category>가상화관리</category>
+		<category>ROI</category>
+		<category>보안</category>
+		<category>안정성</category>
+		<category>돈</category>
+		<category>마이크로소프트</category>
+		<category>NoPD</category>
+		<category>zdnet</category>
+		<category>virtualization</category>
+
+		<comments>http://nopd.egloos.com/3758437#comments</comments>
+		<pubDate>Mon, 26 May 2008 04:51:06 GMT</pubDate>
+		<dc:creator>NoPD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 매번 까먹는 데이터베이스 백업 정책 수립의 기본 ]]> </title>
+		<link>http://nopd.egloos.com/3718558</link>
+		<guid>http://nopd.egloos.com/3718558</guid>
+		<description>
+			<![CDATA[ 
+  <img class="image_left" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds9.egloos.com/pds/200804/26/92/b0048492_48123ce2ae3c0.jpg" width="289" height="272" onclick="Control.Modal.openDialog(this, event, 'http://pds9.egloos.com/pds/200804/26/92/b0048492_48123ce2ae3c0.jpg', 289, 272);" align="left" />3년째 계속되는 프로젝트로 남미에 출장중인 NoPD군. 늘 그랬던 것처럼 3주 단위로 구성된 국가별 확산 계획에 따라 열심히 정신없이 프로젝트 수행을 진행하고 있습니다. 2008년도 확산 계획의 첫 국가로 지목된 브라질에서 이런저런 우여곡절 끝에 어제 시스템 오픈을 마치고 오늘은 천천히 배치 프로그램 수정과 백업 정책 수립 및 시스템 적용을 진행하고 있었답니다.<br><br>데이터베이스에 저장되는 내용 자체가 크리티컬한 성격이 아닌지라 루즈하게 백업 정책을 수립해도 큰 지장이 없는 아름다운 프로젝트 인지라, 별 생각없이 룰루랄라 작업을 진행하고 있었는데, 어라... Differential 백업 설정이 계속 안되더군요. 한두번 하는 것도 아니고 일상이 되었음직도 한데, 이런 단순한 작업에 오랜 시간을 들이고 있자니 슬슬 짜증이 밀려오더군요.<br><br>잠시 바람을 쐬며 고민을 하고&nbsp;있는 순간 뇌리를 스치는 것이 있었으니, 그건 바로 기준점의 설정! Differential 백업은 한글로 적자면 '차등백업'인데, 이전에 기록된 마지막 백업본과 비교하여 변동된 부분만 추려서 백업하는 방법을 말한다. 늘 Full 백업을 하면 복구시에 무척 편리하지만 백업하는 시간이 오래 걸릴 뿐만 아니라 차지하는 스토리지 용량이 늘 크기 때문에 돈이 많거나 남아도는 디스크를 주체하지 못할 때를 제외하고는 잘 쓰지 않는게 일반적이다. <br><br>근데, Differential 백업의 기준이 되는 것은 바로 Full 백업! 새로 셋업한 시스템이라 Full 백업을 한 기록이 없을 거라는 걸 전혀 생각하지 못하고 열심히 Differential 백업만 설정하고 테스트 하고 있었으니 이게 될리가 없지 않은가? 허허허... 백날 어려운 쿼리 만들어 보고 고난도의 테크닉을 구사하면 뭐하나? 이런 기본적인걸 까먹고 한참을 씨름하고 있으니... ㅎㅎ... <br><br>혹시나 제 블로그를 들리시는 분들은 이런 실수 하지 말았으면 하는 의미에서 초초보 포스팅 한번 올려봅니다! 기억합시다~ 서버 새로 셋업하면 풀백업 습관적으로 한번 해주는 센스!!<br><br>- NoPD -<br />
+<a href="http://garden.egloos.com/10001141">이글루스 가든 - IT분야 전문가 되기!!</a><br/><br/>tag : <a href="/tag/MSSQL" rel="tag">MSSQL</a>,&nbsp;<a href="/tag/SQL" rel="tag">SQL</a>,&nbsp;<a href="/tag/마이크로소프트" rel="tag">마이크로소프트</a>,&nbsp;<a href="/tag/백업" rel="tag">백업</a>,&nbsp;<a href="/tag/management" rel="tag">management</a>,&nbsp;<a href="/tag/풀백업" rel="tag">풀백업</a>,&nbsp;<a href="/tag/센스" rel="tag">센스</a>			 ]]> 
+		</description>
+		<category>[IT] Windows Server</category>
+		<category>MSSQL</category>
+		<category>SQL</category>
+		<category>마이크로소프트</category>
+		<category>백업</category>
+		<category>management</category>
+		<category>풀백업</category>
+		<category>센스</category>
+
+		<comments>http://nopd.egloos.com/3718558#comments</comments>
+		<pubDate>Fri, 25 Apr 2008 20:30:47 GMT</pubDate>
+		<dc:creator>NoPD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Flexible Desktop Computing #2 : 데스크탑 환경의 변화 ]]> </title>
+		<link>http://nopd.egloos.com/3714489</link>
+		<guid>http://nopd.egloos.com/3714489</guid>
+		<description>
+			<![CDATA[ 
+  <p>* 본 문서는 마이크로소프트 가상화 웹사이트에 게시된 "Flexible Desktop Computing 백서"를 번역 및 의역한 글입니다. 번역 내용 중 잘못된 부분이나 문제가 될만한 부분은 지적해 주시면 수정하도록 하겠습니다.<br />
+<br />
+마이크로소프트가 제시하는 Flexible Desktop Computing는 윈도우를 더이상 PC에 설치하는 OS 한 카피로 보지 않겠다는 전제가 깔려있다. 네트웍 밴드위스의 증가와 어플리케이션, 하드웨어, 프레젠테이션을 아우르는 모든 형태의 가상화 기술의 발전은 기업에서의 클라이언트 컴퓨팅의 개념을 바꿔놨다. 마이크로소프트는 고객이 윈도우 클라이언트 환경을 배포하는데 있어서 선택할 수 있는 하나의 옵션을 제공하기로 결정했다. 이러한 옵션은 3가지 측면에서 이해할 수 있다.<br />
+</p><p><strong>1. 로컬 vs. 중앙 집중화된 실행<br />
+</strong></p><p>마이크로소프트는 사용자 데스크탑 세션이 어디서 실행되는지에 대한 유연성(Flexibility)를 제공한다. 사용자는 OS가 로컬에 설치되었을 때 해당 장치를 통하여 로컬 컴퓨팅 파워를 이용할 수 있다. 이것은 윈도우 OS를 PC에서 사용하는 가장 일반적인 방법이다. 반면에, 사용자는 데이터 센터에서 운영되는 시스템에 원격으로 접속할 수도 있다. 프레젠테이션 가상화 또는 OS로부터 사용자 인터페이스를 분리하는 것은 중앙 집중화된 어플리케이션의 실행을 가능하게 해준다. 마이크로소프트의 원격 데스크탑 프로토콜(RDP, Remote Desktop Protocol) 기술을 이용하여 사용자 인터페이스는 중앙에서 운영되는 윈도우 서버 OS(혹은 클라이언트 OS)로부터 분리하여 원격 사용자가 PC, ThinClient를 통하여 사용할 수 있도록 할 수 있다.<br />
+</p><p>로컬과 중앙 집중화된 실행은 장단점을 가지고 있는데, 기업이 필요로 하는 IT 요구사항에 따라 두가지를 섞어서 사용하는 방법도 있다. 예를들면, 중앙 집중화된 실행 방식은 네트워크 커넥션이 요구되기 때문에 오프라인 상태에서는 사용할 수 없다. 오프라인에서도 사용가능한 시나리오는 원격 중앙 집중화된 실행이 아니라 로컬 실행을 전제로 한다. 그러나, 중앙 집중화된 실행방식은 어플리케이션과 데이터가 데이터 센터에 있을 때만 사용 가능한 방식이다. 이것은 로컬 실행 방식에서는 제공하기 힘든 일정한 수준의 컨트롤과 보안을 제공하는 방법이다.<br />
+</p><p><br />
+<strong>2. 정적 vs. 동적 컴퓨팅 스택<br />
+</strong></p><p>아래 그림에서 볼 수 있는 것처럼, 전통적인 클라이언트 컴퓨팅 스택은 단일데스크탑 컴퓨팅 솔루션을 지원하도록 설정된 OS, 데이터, 어플리케이션으로 이루어진다. 이것은 전통적인 OS, 어플리케이션의 설치와 데이터 저장 기술에 따른 결과이다. 이러한 방식은 OS와 어플리케이션의 실행과 표현, 사용자 데이터 모두가 단일 디바이스 상에 저장되는 것을 의미한다. 이 모델은 윈도우즈와 함께 제공되는 이해하기 쉬운 기술에 의한 것인만큼 간단하다는 장점이 있다. 또한 PC는 독립적으로 운영 가능하도록 설계되었기 때문에 이 솔루션은 모바일 환경에도 적합하다. 하지만 여러 레이어들이 밀접하게 엮여 있다는 것이 모든 시나리오에서 유용하지는 않다. 이 때문에 마이크로소프트는 이동성과 유연성 측면에서 유사한 결과를 얻을 수 있는 새로운 윈도우 배포기술을 소개했다. <br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds7.egloos.com/pds/200804/23/92/b0048492_480e6d6c74368.jpg" width="500" height="355.833333333" onclick="Control.Modal.openDialog(this, event, 'http://pds7.egloos.com/pds/200804/23/92/b0048492_480e6d6c74368.jpg', 600, 427);" /></div></p><p>컴퓨팅 레이어간의 의존성을 줄임으로써 마이크로소프트는 시스템의 서로 다른 엘레멘트가 자유로와 지도록 했다. 각 레이어는 다른 시스템 자원을 사용할 수 있게 되었고 특정한 시스템만을 위해 개별적으로 설정될 필요가 없어졌다. 리소스는 요청 기반, 실시간으로 어떤 시스템에 의해서든 사용될 수 있게 되었다. 레이어는 사용자 머신에 동적으로 구성될 수 있게 된 것이다. 이 디커플링된 모델에서 사용자들은 어떤 클라이언트 디바이스 에서든 어플리케이션과 데이터를 엑세스 할 수 있다.<br />
+</p><p><br />
+<strong>3. 분산 관리 vs. 네트웍 집중화 관리<br />
+</strong></p><p>리치 클라이언트의 전형적인 클라이언트 컴퓨팅에서 모든 스택의 컴포넌트들은 로컬에 설치되고 서로 강하게 묶인다. 리치 클라이언트들은 분산된 이래로, 개별 클라이언트상의 분산된 방식을 통하여 각 스택을 관리하고 서비스하는 것을 포함한다. IT 관점에서 이것은 관리되어야만 하는 각 클라이언트가 어플리케이션, 데이터를&nbsp; 설치/운영할 뿐 아니라 인증된 OS 카피를 운영하는 다중 인스턴스 서비스 모델이다.<br />
+</p><p>클라이언트 컴퓨팅 스택의 서로 다른 레이어를 분리하고 레이어간의 의존성을 줄이는 것은 로컬 혹은 중앙 집중화된 실행 방식에 대한 컴포넌트의 유연성을 보장하면서도 각 컴포넌트들을 개별 단위로 관리할 수 있게 해주고, 중앙에서 컴포넌트의 단일 인스턴스를 서비스 할 수 있게 해준다. '네트웍 집중화 관리'라고 불리우는 이러한 형태의 관리는 전통적인 클라이언트 관리 아키텍쳐와 다르다. 사용자가 로그인을 하면 엔드유저 장치 또는 엔드 유저 세션을 호스팅하는 중앙 시스템은 네트웍을 통하여 OS나 어플리케이션에 엑세스하고 호스트 장치에서 실행한다. 네트웍 집중화 관리는 OS와 어플리케이션 패키지가 결정된 방법에 의하여 모든 유저들에게 사용 가능해 지도록 하는 단일 인스턴스 서비스 모델을 가능하게 해준다. 이것은 엔드유저가 그들의 OS와 어플리케이션을 어디서든 엑세스 가능하도록 해주고 IT가 신속하고 간단하게 소프트웨어를 배포할 수 있는 상당한 수준의 민첩성과 관리성을 제공해 준다. <br />
+</p><p>- NoPD -</p><br/><br/>tag : <a href="/tag/윈도우" rel="tag">윈도우</a>,&nbsp;<a href="/tag/플렉서블컴퓨팅" rel="tag">플렉서블컴퓨팅</a>,&nbsp;<a href="/tag/데스크탑" rel="tag">데스크탑</a>,&nbsp;<a href="/tag/windows" rel="tag">windows</a>,&nbsp;<a href="/tag/컴퓨팅스택" rel="tag">컴퓨팅스택</a>,&nbsp;<a href="/tag/computingstack" rel="tag">computingstack</a>,&nbsp;<a href="/tag/마이크로소프트" rel="tag">마이크로소프트</a>			 ]]> 
+		</description>
+		<category>[IT] Windows Server</category>
+		<category>윈도우</category>
+		<category>플렉서블컴퓨팅</category>
+		<category>데스크탑</category>
+		<category>windows</category>
+		<category>컴퓨팅스택</category>
+		<category>computingstack</category>
+		<category>마이크로소프트</category>
+
+		<comments>http://nopd.egloos.com/3714489#comments</comments>
+		<pubDate>Tue, 22 Apr 2008 22:59:50 GMT</pubDate>
+		<dc:creator>NoPD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 4월 11일 15시 53분, 별이가 탄생했습니다! ]]> </title>
+		<link>http://nopd.egloos.com/3707400</link>
+		<guid>http://nopd.egloos.com/3707400</guid>
+		<description>
+			<![CDATA[ 
+  <div style="TEXT-ALIGN: center"><p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds8.egloos.com/pds/200804/18/92/b0048492_48076a4faa00b.jpg" width="500" height="275.454545455" onclick="Control.Modal.openDialog(this, event, 'http://pds8.egloos.com/pds/200804/18/92/b0048492_48076a4faa00b.jpg', 550, 303);" /></div>태어난 날 분만실에서 보고,<br>몸이 잠시 안좋아서 신생아 실에서 잠깐 보고,<br>브라질로 향하는 비행기에 몸을 실었습니다.<br>참 가슴이 아리더군요.<br><br></p><p>와이프가 병실에서 별이를 만나고 찍은 사진을 보내줬는데<br>눈도 뜨고, 살짝 웃는 것 같은 모습이 참 이쁘네요.<br><br>삶에 큰 변화가 부담스러웠었는데,<br>언제 그랬냐는 듯 벅찬 감동이 가슴을 가득 채웁니다. :)</p><p>별이 고고씽!<br></p><p><br>- NoPD -</p></div>			 ]]> 
+		</description>
+		<category>.. 사랑하며사는것</category>
+
+		<comments>http://nopd.egloos.com/3707400#comments</comments>
+		<pubDate>Thu, 17 Apr 2008 15:20:53 GMT</pubDate>
+		<dc:creator>NoPD</dc:creator>
+	</item>
+</channel>
+</rss>

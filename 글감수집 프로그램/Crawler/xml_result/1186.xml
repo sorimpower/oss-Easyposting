@@ -1,0 +1,1780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>페이퍼온넷</title>
+		<link>http://www.paperon.net/</link>
+		<description>블로그 에반절리스트의 편견 가득한 블로그</description>
+		<language>ko</language>
+		<pubDate>Mon, 22 Sep 2014 16:24:28 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>편집장</managingEditor>
+		<image>
+			<title>페이퍼온넷</title>
+			<url>http://cfile2.uf.tistory.com/image/196A430B4A8CE6C01A1486</url>
+			<link>http://www.paperon.net</link>
+			<description>블로그 에반절리스트의 편견 가득한 블로그</description>
+		</image>
+		<item>
+			<title>구글 웹폰트에서 나눔고딕, 나눔명조가 사라졌다?</title>
+			<link>http://www.paperon.net/454</link>
+			<description>&lt;a href=&quot;https://www.facebook.com/groups/codingeverybody/&quot; target=&quot;_blank&quot;&gt;페이스북 생활코딩 그룹&lt;/a&gt;에 &lt;a href=&quot;http://www.google.com/fonts/earlyaccess&quot; target=&quot;_blank&quot;&gt;구글에서 무료로 배포한 웹폰트&lt;/a&gt; 중 나눔고딕, 나눔명조가 사라졌다는 제보가 있었어. 확인해보니 CSS는 변함이 없고, CSS 내 폰트 경로가 달라졌네. 이 문제는 캐시를 지우고 새로운 경로를 포함한 CSS를 불러오게 하면 될 것 같다. 전체 사용자 PC에서 캐시가 지워지고 새로운 경로로 대체되기까지는 시간이 좀 필요할 것 같아.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/237F884C53EAB57E078F30&quot; alt=&quot;나눔고딕, 나눔손글씨, 나눔명조 폰트&quot; filemime=&quot;&quot; filename=&quot;cfile24.uf@237F884C53EAB57E078F30.gif&quot; height=&quot;280&quot; width=&quot;600&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;네이버에서 만들고 구글에서 무료 웹폰트로 서비스 중인 나눔글꼴&lt;/p&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;h3&gt;구글 웹폰트 나눔고딕 CSS 경로&lt;/h3&gt;
+&lt;a href=&quot;http://fonts.googleapis.com/earlyaccess/nanumgothic.css&quot; target=&quot;_blank&quot;&gt;http://fonts.googleapis.com/earlyaccess/nanumgothic.css&lt;/a&gt;&lt;br /&gt;
+다행히 CSS 경로는 이상이 없다. 이미 적용한 사이트엔 별도의 조치를 취하지 않아도 된다는 말이야.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;구글 웹폰트 나눔고딕 이전 폰트 경로&lt;/h3&gt;
+&lt;a href=&quot;http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot&quot; target=&quot;_blank&quot;&gt;http://fonts.gstatic.com/ea/nanumgothic/v5/NanumGothic-Regular.eot&lt;/a&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/2772903653EAB781065EBF&quot; alt=&quot;나눔고딕 폰트 이전 경로&quot; filemime=&quot;&quot; filename=&quot;cfile4.uf@2772903653EAB781065EBF.png&quot; height=&quot;625&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;나눔고딕 폰트 이전 경로&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+현재 이전 폰트 경로로 접근하면 404에러를 만나게 될거야.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;구글 웹폰트 나눔고딕 변경된 폰트 경로&lt;/h3&gt;
+&lt;a href=&quot;http://themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-Regular.eot&quot; target=&quot;_blank&quot;&gt;http://themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v4/NanumGothic-Regular.eot&lt;/a&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/26760F3653EAB78102BA23&quot; alt=&quot;나눔고딕 폰트 변경된 경로&quot; filemime=&quot;&quot; filename=&quot;cfile9.uf@26760F3653EAB78102BA23.png&quot; height=&quot;625&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;나눔고딕 폰트 변경된 경로&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;구글 웹폰트 나눔고딕 실종 문제 해결 방법&lt;/h3&gt;&lt;br /&gt;
+1. 무료로 이용하고 있는데 별수 있나? 그냥 구글 경로가 다 바뀔 때까지 기다린다.&lt;br /&gt;
+2. 한시가 급하다? 그럼, 폰트 경로 바뀐 걸로 별도 CSS를 만들어서 업데이트해버린다.&lt;br /&gt;
+3. 또 그러면 어째? 불안하나? 그럼, CSS, 폰트까지 전부 직접 서버에 올려놓고 운영하는 수밖에...&lt;br /&gt;
+&amp;nbsp;&amp;nbsp; 트래픽 감당은 자신의 몫!!&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+캐시에 남아있는 CSS가 새로운 파일로 교체되면 이 문제는 자연스럽게 해결될 것 같아. &lt;b&gt;Take your time!!&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+그런데, 개발자도 아니고 구글 직원은 더 아닌 내가 왜 이런 걸 포스팅하고 있는 거지? ㅎㅎ&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;내용 추가 - 구글 웹폰트 문제 바로 해결하기 14.08.13 12:00&lt;br /&gt;
+&lt;/h3&gt;&lt;br /&gt;
+이 부분 소스 경로를 보면 &lt;b&gt;&lt;font color=&quot;#e31600&quot;&gt;V4&lt;/font&gt;&lt;/b&gt;로 표시된 부분은 이상없이 접속이 잘 되고 있고, &lt;b&gt;&lt;font color=&quot;#e31600&quot;&gt;V5&lt;/font&gt;&lt;/b&gt;로 표시된 부분은 접속이 안 되고 있어. 구글에서 V5(5번째 버전)으로 옮기는 과정에서 파일 누락을 의심해 볼 수도 있겠네. 그렇다면, 구글에 알려주고 업데이트 요청해야겠네. 그때까지 기다릴 수 없다면 아래 내용 참고하길...&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;
+&lt;b&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;background-color: rgb(25, 61, 169);&quot;&gt;나눔고딕 CSS 경로 설정 변경&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+기존 경로 ( http://fonts.googleapis.com/earlyaccess/nanumgothic.css )를&lt;br /&gt;
+우회 경로 ( &lt;b&gt;&lt;font color=&quot;#193da9&quot;&gt;http://ts.daumcdn.net/custom/blog/0/606/skin/images/nanumgothic.css&lt;/font&gt;&lt;/b&gt; )로 변경&lt;br /&gt;
+&lt;br /&gt;
+기존 소스&lt;br /&gt;
+&amp;lt;link href=&quot;&lt;b&gt;http://fonts.googleapis.com/earlyaccess/nanumgothic.css&lt;/b&gt;&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&amp;gt;&lt;br /&gt;
+&lt;br /&gt;
+수정 소스&lt;br /&gt;
+&amp;lt;link href=&quot;&lt;b&gt;&lt;font color=&quot;#193da9&quot;&gt;http://ts.daumcdn.net/custom/blog/0/606/skin/images/nanumgothic.css&lt;/font&gt;&lt;/b&gt;&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&amp;gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;h3&gt;내용 추가 - 구글 웹폰트 문제 원천 해결 14.08.14 09:10&lt;br /&gt;
+&lt;/h3&gt;
+음... 구글에서 변경된 서버 주소에 해당 폰트와 CSS 소스를 다 맞춰 업데이트했네. 이제 안되던 사이트에도 문제없이 나눔고딕 폰트가 잘 보이네. 하지만 이런 문제는 언제고 또 발생할 수 있다는 점 생각하고 서비스 이용하길...&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-454-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-454-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-454-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/454&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>기획_이야기</category>
+			<category>Google</category>
+			<category>Google Font api</category>
+			<category>구글</category>
+			<category>구글 웹폰트</category>
+			<category>나눔고딕</category>
+			<category>나눔명조</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/454</guid>
+			<comments>http://www.paperon.net/454#entry454comment</comments>
+			<pubDate>Wed, 13 Aug 2014 09:57:43 +0900</pubDate>
+		</item>
+		<item>
+			<title>아이포유네트웍스 새 사무실 풍경!</title>
+			<link>http://www.paperon.net/453</link>
+			<description>지난 주말엔 &lt;b&gt;아이포유네트웍스 시즌 2&lt;/b&gt;를 위한 첫걸음을 땠어. 아이포유네트웍스 사무실을 이전한 거야. 학동역 커피빈 뒷 건물에서 &lt;b&gt;도산공원 사거리&lt;/b&gt;에서 가까운 건물의 2층으로 옮겼어. &lt;br /&gt;
+&lt;br /&gt;
+2월에 입사해서 5개월 동안 이것저것 많이 배우고 공부했던 것들 이제는 풀어놓고 만들어 가는 2014년 하반기를 만들어 가기에 더없이 좋은 사무실이네.&lt;br /&gt;
+&lt;br /&gt;
+학동역에서 아주 가까웠던 출근길이 조금 멀어진 것만 빼면 새로운 출근길에 보이는 풍경도 좋고, 주변 맛집도 많이 있어서 좋아졌네. 무엇보다 반지하에서 다닥다닥 붙어있다가 넓직한 2층으로 옮겨오면서 채광도 좋고, 창가로 보이는 나뭇잎도 참 좋네.&lt;br /&gt;
+&lt;br /&gt;
+정리하지 않아도 크게 지저분하게 보이지 않을 정도로 넓어진 책상도 좋아졌어. 아직 다 정리되지는 않았지만, 한쪽 벽면을 책으로 채울 수 있게 책장이 커 진 것도 좋고 늘어난 인원이 전부 같이 들어가도 남을 정도의 회의실도 좋아. &lt;br /&gt;
+&lt;br /&gt;
+아! 사무실 옮기면서 &lt;b&gt;바리스타 Larry의 커피숍도 확장해서 오픈&lt;/b&gt;했어. 언제든 오면 Larry의 &lt;b&gt;최고급 커피 믹스&lt;/b&gt;를 맛볼 수 있을 거야.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/2422184C53BA799F1B8901&quot; alt=&quot;업무중 시선 방향에서 본 내 자리&quot; filemime=&quot;&quot; filename=&quot;i4unetworks_01.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;업무중 시선 방향에서 본 내 자리&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/23758F4C53BA799F2174D1&quot; alt=&quot;내자리에서 정면으로 바라보면 TimeSquare&quot; filemime=&quot;&quot; filename=&quot;i4unetworks_02.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;내자리에서 정면으로 바라보면 TimeSquare&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/273CFA4C53BA79A027E211&quot; alt=&quot;자리에 서서 보는 내 책상&quot; filemime=&quot;&quot; filename=&quot;i4unetworks_03.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;자리에 서서 보는 내 책상&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/23191E4C53BA79A00DEF71&quot; alt=&quot;그 옆에 조그만하게 자리잡은 바리스타 Larry의 커피숍&quot; filemime=&quot;&quot; filename=&quot;i4unetworks_04.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;그 옆에 조그만하게 자리잡은 바리스타 Larry의 커피숍&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/2610F64C53BA79A02AA3C2&quot; alt=&quot;업무 시간에 찍힌 도촬 사진&quot; filemime=&quot;&quot; filename=&quot;i4unetworks_05.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;업무 시간에 찍힌 도촬 사진&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/2773264C53BA79A102A28B&quot; alt=&quot;내자리에서 보이는 사무실 전경&quot; filemime=&quot;&quot; filename=&quot;i4unetworks_06.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;내자리에서 서서 보이는 사무실 전경&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/241DB64C53BA79A12CD89A&quot; alt=&quot;사무실에서 가장 좋아하는 책장섹션. 책 정리 언제 하지?&quot; filemime=&quot;&quot; filename=&quot;i4unetworks_07.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;사무실에서 가장 좋아하는 책장섹션. 책 정리 언제 하지?&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;
+&lt;b&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;background-color: rgb(48, 88, 210);&quot;&gt;아이포유네트웍스 오시는 길&lt;br /&gt;
+&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;br /&gt;
+&lt;b&gt;주소&lt;/b&gt; : 강남구 논현동 64-24번지 타이텍스 빌딩 2층 (강남구 도산대로 38길 14 타이텍스 빌딩 2층) &lt;a title=&quot;[https://www.google.co.kr/maps/place/64-24+Nonhyeon-dong+%2814+Dosan-daero+38-gil%29/@37.5196723,127.0320826,15z/data=!3m1!4b1!4m2!3m1!1s0x357ca38cd83c8ce3:0xc1a0ff254cd715b3]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;https://www.google.co.kr/maps/place/64-24+Nonhyeon-dong+%2814+Dosan-daero+38-gil%29/@37.5196723,127.0320826,15z/data=!3m1!4b1!4m2!3m1!1s0x357ca38cd83c8ce3:0xc1a0ff254cd715b3&quot;&gt;구글맵&lt;/a&gt; &lt;a title=&quot;[http://map.daum.net/?q=%EA%B0%95%EB%82%A8%EA%B5%AC%20%EB%8F%84%EC%82%B0%EB%8C%80%EB%A1%9C%2038%EA%B8%B8%2014%20%ED%83%80%EC%9D%B4%ED%85%8D%EC%8A%A4%20%EB%B9%8C%EB%94%A9%202%EC%B8%B5&amp;amp;map_type=DEFAULT&amp;amp;map_hybrid=false]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://map.daum.net/?q=%EA%B0%95%EB%82%A8%EA%B5%AC%20%EB%8F%84%EC%82%B0%EB%8C%80%EB%A1%9C%2038%EA%B8%B8%2014%20%ED%83%80%EC%9D%B4%ED%85%8D%EC%8A%A4%20%EB%B9%8C%EB%94%A9%202%EC%B8%B5&amp;amp;map_type=DEFAULT&amp;amp;map_hybrid=false&quot;&gt;다음맵&lt;/a&gt;&lt;br /&gt;
+&lt;b&gt;전화&lt;/b&gt; : 02-515-8375&lt;br /&gt;
+대중교통 이용하실 경우 &lt;b&gt;도산공원 사거리&lt;/b&gt;로 오시면 가까워요.&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-453-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-453-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-453-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/453&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>1_D/I/A/R/Y</category>
+			<category>desk</category>
+			<category>i4unetworks</category>
+			<category>Larry</category>
+			<category>lego</category>
+			<category>Office</category>
+			<category>내자리</category>
+			<category>사무실</category>
+			<category>아이포유네트웍스</category>
+			<category>편집장</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/453</guid>
+			<comments>http://www.paperon.net/453#entry453comment</comments>
+			<pubDate>Mon, 07 Jul 2014 22:39:21 +0900</pubDate>
+		</item>
+		<item>
+			<title>가야산 자작나무 갤러리 펜션에서 함께한 중학교 동창 가족 1박 2일</title>
+			<link>http://www.paperon.net/452</link>
+			<description>&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/2258F23353B66FA91D326C&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;natural_01.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+명절이나 되어야 흩어진 가족들 모이듯 오랜만에 고향에 내려온 친구들 얼굴을 볼 수 있어. 1년에 두 번 서울, 구미, 대구, 의정부 등으로 흩어졌던 친구들은 설, 추석 명절 전날 만나 맛난 것도 함께 먹고 그동안 밀린 이야기도 나누고 있어. 그 사이 결혼도 하고 아이들도 생기다 보니 명절 전날에 얼굴 보던 이 모임은 자연스럽게 가족 모임으로 커진 거야.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/263B804E53B670232CFA1C&quot; alt=&quot;1박 2일 우리가 쉬었던 자작나무 갤러리 펜션&quot; filemime=&quot;&quot; filename=&quot;cfile27.uf@263B804E53B670232CFA1C.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;1박 2일 우리가 쉬었던 자작나무 갤러리 펜션&lt;/p&gt;&lt;/div&gt;
+&lt;br /&gt;
+작년엔 단양의 '&lt;b&gt;단촌서원&lt;/b&gt;'이란 고택에서 1박 2일을 지냈고, 이번 주에는 가야산에 있는 '&lt;b&gt;&lt;a title=&quot;[http://zazaknamu.com/]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://zazaknamu.com/&quot;&gt;자작나무 갤러리 펜션&lt;/a&gt;&lt;/b&gt;'에서 1박 2일을 함께했어. 서울에서 자영업 하는 친구는 하루 미리 내려가서 장도 보고 아이들 놀 거리도 준비를 해두었고, 토요일에 진료가 있는 치과 원장은 토요일 오전 근무를 마치고 모이기로 했어. 그래서 가능한 치과 원장 가까운 쪽으로 장소를 잡기로 하고 토요일 일찍 우리도 가야산이 있는 성주로 떠나기로 했어. 다행히 차는 막히지 않았고, 약 4시간을 달려 가야산 자락에 도착했지. &lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock dual&quot; style=&quot;text-align: center;&quot;&gt;&lt;table cellspacing=&quot;5&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; style=&quot;margin: 0 auto;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/26548A4E53B6702005F5FF&quot; alt=&quot;&quot; height=&quot;276&quot; width=&quot;415&quot;/&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/22568E4E53B6702101EAF8&quot; alt=&quot;&quot; height=&quot;276&quot; width=&quot;415&quot;/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+'자작나무 갤러리 펜션'이름을 네비게이션에 넣고 휴대전화 안내를 따라왔더니 산허리 춤에 예쁘게 생긴 자작나무 갤러리 펜션을 만날 수 있었지. 넓찍한 주차장에 차를 대고 웰컴 하우스에 들어서는 순간 왜 자작나무 '갤러리' 펜션인지 알 수 있었어. 주인아주머니께서 예술 하셨던 분이 아니실까 생각이 들 정도로 멋진 갤러리를 가장 먼저 만날 수 있었거든.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/2139834E53B670213088FE&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;pension_03.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/2139774E53B670243124CB&quot; alt=&quot;갤러리가 있는 펜션?&quot; filemime=&quot;&quot; filename=&quot;cfile25.uf@2139774E53B670243124CB.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;갤러리가 있는 펜션?&lt;/p&gt;&lt;/div&gt;
+&lt;br /&gt;
+오랜만에 나림이와 가연이를 만난 지우는 어색한 듯 한동안 말이 없다가 작년의 추억이 뒤늦게 로딩된 듯 즐겁게 물놀이를 하기 시작했어. 먼길 달려온 식구들을 위해 친구들은 숨겨왔던 비기를 하나씩 꺼냈어. 뭐... 요리를 좋아하는 추 원장이 대부분 다 준비를 한거지만... 토마토 파스타, 탄두리 치킨, 연어 말이, 신선한 샐러드까지... 20년간 수많은 엠티, 워크샵, 캠핑을 다녀왔지만 이런 진수성찬은 처음이었어. 맛있는 요리에 입맛 깔끔하게 정리해주는 와인까지 최고의 만찬을 마치고 아이들과 엄마들은 잠자리로 가고 친구들과 맥주 한 잔을 기울이며 늦은 밤까지 그동안 밀린 소식들을 동기화했지. &lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/260A343B53B66FF81B113B&quot; alt=&quot;4개월 만에 만나 어색한 아이들&quot; filemime=&quot;&quot; filename=&quot;cfile27.uf@260A343B53B66FF81B113B.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;4개월 만에 만나 어색한 아이들&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/2776B43B53B66FF9350DB3&quot; alt=&quot;어색함을 깨어버린 물놀이&quot; filemime=&quot;&quot; filename=&quot;cfile27.uf@2776B43B53B66FF9350DB3.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;어색함을 깨어버린 물놀이&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/2177FE3B53B66FFA341A10&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile21.uf@2177FE3B53B66FFA341A10.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;
+자~ 음식 샷 들어가요.&lt;br /&gt;
+우선 kinfolk 스타일로 재료 사진 한 컷 찍고!! 냠~~&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/2104853B53B66FF22420A9&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;food_01.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/25080B3B53B66FF31D083A&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;food_02.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/240CE63B53B66FF31614A5&quot; alt=&quot;일반 바베큐, 탄두리 치킨, 양념치킨&quot; filemime=&quot;&quot; filename=&quot;cfile6.uf@240CE63B53B66FF31614A5.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;일반 바베큐, 탄두리 치킨, 양념치킨...&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/2202913B53B66FF42847EC&quot; alt=&quot;맛있는 토마토 파스타와 직접 만든 상큼한 레몬 오이 피클&quot; filemime=&quot;&quot; filename=&quot;cfile4.uf@2202913B53B66FF42847EC.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;맛있는 토마토 파스타와 직접 만든 상큼한 레몬 오이 피클&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/247BCB3B53B66FF52FEDBA&quot; alt=&quot;캠핑장에서 여... 연어 말이라니!&quot; filemime=&quot;&quot; filename=&quot;cfile10.uf@247BCB3B53B66FF52FEDBA.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;캠핑장에서 여... 연어 말이라니!&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/260B3F3B53B66FF61842BF&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;friends_01.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/2710F03B53B66FF70F0C69&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;friends_02.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;/div&gt;
+&lt;br /&gt;
+아침에 일어나서 펜션 주인아주머니가 차려주신 브런치를 먹고 나서야 펜션 객실에 히누끼탕이 달린 걸 알아차렸어. 아쉽지만 다음 시간에... 하려다가 히누끼탕에 물을 받아서 간단하게 족욕으로 피로를 풀고 짐을 싸기로 했어. 히누끼탕 밖으로 나 있는 창문을 열자 산아래 풍경이 한눈에 들어왔지. 전날 저녁에 히누끼탕에 따뜻하게 물 받아서 맥주 마셨으면 더 좋았을 것 같았는데 아쉽더라. 그러고 나서 차로 10분 거리에 있는 해인사로 향했어. 해인사 입구에서 맛있는 점심을 먹고 해인사 산책을 하고는 1박 2일 행사를 마쳤어. &lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/2752CE4E53B6702509C976&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;pension_06.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+사회생활을 시작하면서 중학교 동창 5명으로 시작했던 작은 모임이 이제 13명으로 늘어났네. 아직 그 자리를 못 찾고 있는 이 선생의 아내가 될 사람과 가족들과 함께 해외 교환 교수로 간 정 교수의 가족이 빠졌지만, 다음번 모임엔 더 커진 모임으로 1박 2일 행사를 진행할 수 있지 않을까?&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/25199E3B53B66FF8025547&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;friends_03.jpg&quot; height=&quot;560&quot; width=&quot;840&quot;/&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;
+&lt;b&gt;&lt;font color=&quot;#3058d2&quot;&gt;그리고 남은 말!!&lt;/font&gt;&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;추 원장&lt;/b&gt;네 두 딸은 나이가 자랄수록 그 애교의 깊이가 더 해가네. 부럽...
+&lt;br /&gt;
+&lt;b&gt;김 사장&lt;/b&gt;은 결혼 후 연애 재미에 푹 빠진 듯. ㅎㅎ 다음엔 수염도 함께 염색해 보길... 많은 준비 해줘서 고마워. 
+&lt;br /&gt;
+&lt;b&gt;이 선생&lt;/b&gt;, 집도 차도 다 준비 끝냈으니 인제 그만 고르고 신부도 들여야지. ㅎㅎ
+&lt;br /&gt;
+&lt;b&gt;정 교수&lt;/b&gt;, 8월 미국에서 돌아오면 가까운 곳이라도 함께 보도록 해. 아쉽더라. &lt;/div&gt;
+&lt;br /&gt;
+&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-452-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-452-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-452-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/452&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>가까이_보기</category>
+			<category>1박 2일</category>
+			<category>가야산</category>
+			<category>가족 모임</category>
+			<category>갤러리</category>
+			<category>만찬</category>
+			<category>와인</category>
+			<category>자작나무</category>
+			<category>자작나무 갤러리 펜션</category>
+			<category>캠핑요리</category>
+			<category>펜션</category>
+			<category>해인사</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/452</guid>
+			<comments>http://www.paperon.net/452#entry452comment</comments>
+			<pubDate>Sun, 06 Jul 2014 15:56:50 +0900</pubDate>
+		</item>
+		<item>
+			<title>[티스토리 버그 리포트] 새 에디터 이미지 정렬 소스 오류!</title>
+			<link>http://www.paperon.net/451</link>
+			<description>지난 5월 24일엔 Daum에서 티스토리 사용자 간담회가 있었어. 여러 가지 티스토리의 발전 방향에 대해 사용자와 공유하고 발전 방향을 협의하는 자리였지. 티스토리 앱 개발, 서비스 오픈 이후 첫 티스토리 메인 페이지 개편 등의 이슈가 공개되었고, &lt;a title=&quot;[http://paperon.net/450]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://paperon.net/450&quot;&gt;Daum View 서비스 종료&lt;/a&gt;와 이를 대신하기 위해 &lt;a title=&quot;[http://notice.tistory.com/2169]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://notice.tistory.com/2169&quot;&gt;Daum 공감&lt;/a&gt;이 출시된다는 소식과 이전 에디터의 서비스 종료가 이슈가 되었지. &lt;br /&gt;
+&lt;br /&gt;
+어제 종료된 Daum View 서비스는 최근 트래픽이 급감하면서 아쉽지만 큰 변화가 없을 것 같았어. 하지만 &lt;a title=&quot;[http://notice.tistory.com/2011]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://notice.tistory.com/2011&quot;&gt;2012년에 공개된 새 에디터 문제&lt;/a&gt;는 나에게 좀 다르게 다가왔지. 불필요하게 P 태그가 많이 들어간다든지, 문단 간격이 이상하게 조정되는 건 html 소스를 수정하는 방향으로 처리가 가능할 것 같았어. 하지만 이미지 정렬 문제는 수정이 안 되면 소스 복잡해지고 불편해지는 부분이라고 생각하거든. Daum의 신규 서비스인 '공감'기능은 새 에디터에만 두고 이전 에디터에선 지원하지 않는 기능으로 빼 둔 덕분에 오랜만에 블로그 포스팅을 신 에디터로 했는데... 아 악!! &lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;티스토리 이전 에디터 / 새 에디터 이미지 정렬 소스 비교&lt;/h3&gt;
+&lt;br /&gt;
+&lt;ol style=&quot;list-style-type: decimal;&quot;&gt;
+&lt;li&gt;우선 텍스트로 사진 정렬 방법을 넣었어.&lt;/li&gt;
+&lt;li&gt;각각 에디터의 기본 기능을 이용해서 이미지를 좌 / 우 / 중간 정렬로 넣었지.&lt;/li&gt;
+&lt;li&gt;그리고 2장 이미지와 3장 이미지를 에디터에서 나란히 정렬해서 넣었어.&lt;br /&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br /&gt;
+뭐... 복잡한 걸 요구한 건 아니야. 그치? 사진을 깔끔하게 넣을 수 있는가 하는 정도의 테스트지.&lt;br /&gt;
+&lt;br /&gt;
+근데, 이 테스트를 시작하면서 작은 문제가 있더라. 이전 에디터에선 위지윅 모드 / HTML 모드에서 이미지 추가가 큰 문제 없이 잘 되었는데, &lt;strong&gt;새 에디터에선 HTML 편집 모드에서 이미지를 추가할 수가 없다&lt;/strong&gt;는 거야. 0_o!&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/2340C94053B2A33B1AFD6C&quot; alt=&quot;왜 때문이죠?&quot; filemime=&quot;&quot; filename=&quot;cfile7.uf@2340C94053B2A33B1AFD6C.png&quot; height=&quot;151&quot; width=&quot;366&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;왜 때문이죠?&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;
+뭐... 웹 에디터에 큰 기대를 하는 건 아니까 위지윅 모드에서 다시 이미지 정렬을 테스트했어. 아래는 그 결과물이야. 원본 사이즈로 올려두니까 소스 궁금한 사람만 클릭해 보기!!&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/2458C73D53B2A2DD30362B&quot; alt=&quot;깔끔하고 논리적인 이전 에디터의 소스&quot; filemime=&quot;&quot; filename=&quot;cfile10.uf@2458C73D53B2A2DD30362B.png&quot; height=&quot;525&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;깔끔하고 논리적인 이전 에디터의 소스&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;
+&lt;b&gt;&lt;font color=&quot;#3058d2&quot;&gt;논리적인 티스토리 이전 에디터의 사진 정렬 소스&lt;/font&gt;&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;좌측정렬&lt;/b&gt;&lt;br /&gt;
+[ ##_&lt;font color=&quot;#3058d2&quot;&gt;&lt;b&gt;1L&lt;/b&gt;&lt;/font&gt;|파일이름.PNG|width=“넓이&quot; height=&quot;높이&quot; alt=&quot;대체텍스트&quot; filename=&quot;파일이름.PNG&quot; filemime=“image/png”|캡션_## ]&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;우측정렬&lt;/b&gt;&lt;br /&gt;
+[ ##_&lt;b&gt;&lt;font color=&quot;#3058d2&quot;&gt;1R&lt;/font&gt;&lt;/b&gt;|파일이름.PNG|width=“넓이&quot; height=&quot;높이&quot; alt=&quot;대체텍스트&quot; filename=&quot;파일이름.PNG&quot; filemime=“image/png”|캡션_## ]&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;가운데정렬&lt;/b&gt;&lt;br /&gt;
+[ ##_&lt;font color=&quot;#3058d2&quot;&gt;&lt;b&gt;1C&lt;/b&gt;&lt;/font&gt;|파일이름.PNG|width=“넓이&quot; height=&quot;높이&quot; alt=&quot;대체텍스트&quot; filename=&quot;파일이름.PNG&quot; filemime=“image/png”|캡션_## ]&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;가운데정렬 2개 이미지&lt;/b&gt;&lt;br /&gt;
+[ ##_&lt;font color=&quot;#3058d2&quot;&gt;&lt;b&gt;2C&lt;/b&gt;&lt;/font&gt;|파일1 이름.PNG|width=“넓이&quot; height=“높이&quot;||파일2 이름.PNG|width=“넓이&quot; height=“높이&quot;|__## ]&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;가운데정렬 3개 이미지&lt;/b&gt;&lt;br /&gt;
+[ ##_&lt;font color=&quot;#3058d2&quot;&gt;&lt;b&gt;3C&lt;/b&gt;&lt;/font&gt;|파일1 이름.PNG|width=“넓이&quot; height=“높이&quot;||파일2 이름.PNG|width=“넓이&quot; height=&quot;높이&quot;||파일2 이름.PNG|width=“넓이&quot; height=&quot;높이&quot;|__## ]&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/2431E94053B2A2EA35513E&quot; alt=&quot;티스토리 새 에디터에선... ㅜ.ㅜ&quot; filemime=&quot;&quot; filename=&quot;cfile3.uf@2431E94053B2A2EA35513E.png&quot; height=&quot;525&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;티스토리 새 에디터에선... ㅜ.ㅜ&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;
+&lt;b&gt;&lt;font color=&quot;#3058d2&quot;&gt;티스토리 새 에디터의 사진 정렬 소스 따위... 옮기기가 싫다. ㅜ.ㅜ&lt;/font&gt;&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+불필요한 &amp;lt; p &amp;gt; &amp;lt; br / &amp;gt; &amp;lt; /p &amp;gt;태그와 style의 정렬로 복잡하게 이미지를 정렬하고 있는데... 도대체 무슨 소스인지 분석하기가 힘들 정도다.&lt;br /&gt;
+&lt;br /&gt;
+사진 2장을 나란히 배치하는데 굳이 &amp;lt; table &amp;gt; &amp;lt; tbody &amp;gt; 태그가 필요했을까? 0_o?&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+새 에디터에서도 물론 좋아진 점도 있어. 대표 이미지를 선택할 수 있게 되었다는 점이랑 Daum의 새로운 서비스 '공감'을 붙일 수 있도록 콘텐츠 발행 영역을 선택할 수 있지.(위 이미지 우측 참고) 하지만 실제 웹 에디터가 가져야 할 에디터의 기본 기능에서 너무 부족한 부분이 커 보이네. &lt;br /&gt;
+&lt;br /&gt;
+혹시, 티스토리 담당자들이 이 내용을 보게 된다면 새 에디터에서 이 부분 꼭 수정해달라고 부탁하고 싶어. 저 이미지 정렬 방식은 티스토리의 전신인 태터툴즈부터 이어온 치환자 방식이니까 그 부분 꼭 유지해달라고 그렇게 말하고 싶어. 이거 바꾸기 전에는 절대로 이전 에디터를 빼지 않았으면 좋겠어. Daum의 '공감'에 노출된 콘텐츠가 얼마만큼의 영향력을 가질지 모르겠지만 그걸 포기하고서라도 이 부분은 이전 에디터를 이용할 수 밖에 없는 가장 중요한 부분이거든. &lt;b&gt;새 에디터가 만들어 놓은 저 복잡한 코드 때문에 검색엔진에서도 콘텐츠를 제대로 인식하고 검색해 갈 수 있겠냐고. 제발~~&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/27486D3A53B2A371491434&quot; alt=&quot;티스토리 새 에디터의 이런 부분들 수정이 되기 전까지는 이전 에디터를 쓸 수밖에&quot; filemime=&quot;&quot; filename=&quot;cfile10.uf@27486D3A53B2A371491434.png&quot; height=&quot;380&quot; width=&quot;804&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;티스토리 새 에디터의 이런 부분들 수정이 되기 전까지는 이전 에디터를 쓸 수밖에&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-451-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-451-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-451-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/451&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>기획_이야기</category>
+			<category>Bug Report</category>
+			<category>editor</category>
+			<category>html editor</category>
+			<category>image</category>
+			<category>Tistory</category>
+			<category>버그 리포트</category>
+			<category>티스토리</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/451</guid>
+			<comments>http://www.paperon.net/451#entry451comment</comments>
+			<pubDate>Wed, 02 Jul 2014 08:15:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>안녕~ 다음 뷰, 미투데이... The last day of Daum View, me2DAY</title>
+			<link>http://www.paperon.net/450</link>
+			<description>&lt;h3&gt;안녕~ 다음 뷰! Bye~ Daum View! &lt;/h3&gt;&lt;br /&gt;
+&lt;p&gt;2004년 태터툴즈로 블로그를 시작하면서 올블로그, 블로그 코리아 등 메타 블로그 서비스를 만났어. 그렇게 블로그가 붐이 되면서 Daum에서 블로그 서비스에 상관없이 콘텐츠를 모아서 보여주는 메타 블로그 서비스를 출시한다 했었어. '&lt;b&gt;다음 블로거 뉴스&lt;/b&gt;'였지. 국내 2위 포털 업체에서 블로그 콘텐츠와 트래픽을 끌어가면서 '올블로그', '블로그 코라아'등의 트래픽이 빠지는 걸 보면서 참 안타깝기도 하고, 그런 서비스를 출시한 Daum을 싫어하기도 했었어. 'Daum View'로 서비스명을 바꿀 때쯤 우리나라엔 스마트폰이 들어왔고, 사람들의 관심은 블로그에서 트위터, 페이스북 등 SNS로 빠르게 변해갔어. Facebook이 한 참 인기를 끌었을 때 블로거들은 Daum View가 아닌 Facebook에서 자신의 콘텐츠를 공유하고 있었고, 그렇게 Daum View의 트래픽은 떨어지기 시작했지.&lt;br /&gt;
+&lt;br /&gt;그래도 한때 다음 뷰 메인에 노출되면, Daum 메인에 노출되기도 해서 그 효과가 괜찮았던 적도 있었는데 이젠 Daum 메인에서 블로거의 콘텐츠를 찾기가 쉽지 않아진 것 같아. 오랫동안 블로거들에게 여러 가지 의미에서 관심을 많이 받았던 서비스였는데 이제 이별이네. &lt;/p&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/21573D4B53B29230102E81&quot; alt=&quot;다음뷰 서비스 종료 30분 전 마지막 캡처 화면&quot; filemime=&quot;image/png&quot; filename=&quot;Daum_View_bye.PNG&quot; height=&quot;1120&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;다음뷰 서비스 종료 30분 전 마지막 캡처 화면&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;h3&gt;안녕~ 미투데이! Bye me2DAY!&lt;/h3&gt;&lt;br /&gt;
+&lt;p&gt;2007년에 미모의 블로거 이지님께서 초대장을 보내주셔서 가입하게 된 &lt;b&gt;me2DAY&lt;/b&gt;는 참 오랫동안 일기장처럼 썼던 서비스였어. 트위터보다 우리나라 정서에 더 잘 어울리는 디자인에 내가 좋아하던 Flickr와의 연동으로 하루하루의 일기를 사진으로 남길 수 있는 훌륭한 서비스였지. 식미투(음식 사진 미투), 미친(미투데이 친구) 등 다양한 유행어를 남기기도 했던 미투데이가 어느 날 Naver에 팔렸단 소식을 듣게 되었고 서비스 관심도가 확 떨어졌어. 초반에 연예인들 모델로 활용하면서 초등학생 팬들이 유입되면서 IT / 블로거들로 구성되었던 친구 네트워크가 깨어지기 시작했고, 내가 공감하기 어려운 콘텐츠(예를 들면, 초등 학생들의 방학 숙제 이야기, 학교 선생님 뒷담화 같은거)들이 공유되기 시작하면서 차츰 나의 관심도 줄어들었어.&lt;br /&gt;
+ &lt;br /&gt;
+&lt;a class=&quot;tx-link&quot; target=&quot;_blank&quot; href=&quot;http://paperon.net/341&quot;&gt;미투데이와 블로그를 연계해서 재미있는 캠페인&lt;/a&gt;도 진행해보고 미투데이를 통해 마이크로 블로깅의 기술적 이해도 넓힐 수 있었는데, 초반에 모델로 열심히 활동하던 그 연예인들도 미투데이에서 찾아보기 어려워졌어. 네이버에서 미투데이를 가져가고 미투데이의 콘텐츠를 검색엔진에 좀 더 잘 노출될 수 있도록 했었으면 어땠을까? 하는 아쉬움을 남기며 이 서비스와도 작별인사를 해야 하네.&lt;/p&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/211D1D3B53B2923C2962E2&quot; alt=&quot;미투데이 서비스 종료 30분 전 마지막 캡처 화면&quot; filemime=&quot;image/png&quot; filename=&quot;me2day_main_bye.PNG&quot; height=&quot;1120&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;미투데이 서비스 종료 30분 전 마지막 캡처 화면&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;h3&gt;안녕~ 다음 뷰! 안녕~ 미투데이!!&lt;/h3&gt;&lt;br /&gt;
+&lt;p&gt;세상의 모든 것은 생명을 가지고 태어나고, 사라지는 게 당연해. 이건 온라인 서비스도 예외가 아니지. 더 좋은 서비스를 기다리며 이제는 추억이란 이름으로 마지막 캡처 화면을 남겨본다.&lt;/p&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/23154B3B53B2923F373BF5&quot; alt=&quot;'paper'란 매력적인 아이디를 가질 수 있었던 미투데이의 마지막 캡처 이미지&quot; filemime=&quot;image/png&quot; filename=&quot;my_me2day_bye.PNG&quot; height=&quot;1120&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;'paper'란 매력적인 아이디를 가질 수 있었던 미투데이의 마지막 캡처 이미지&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/2324B23B53B2923A193A15&quot; alt=&quot;2007년 3월 5일부터 약 3천개의 콘텐츠를 남긴 나의 미투데이&quot; filemime=&quot;image/png&quot; filename=&quot;me2day_analytics.PNG&quot; height=&quot;630&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;2007년 3월 5일부터 약 3천개의 콘텐츠를 남긴 나의 미투데이&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-450-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-450-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-450-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/450&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>기획_이야기</category>
+			<category>Daum</category>
+			<category>daum view</category>
+			<category>me2day</category>
+			<category>다음뷰</category>
+			<category>미투데이</category>
+			<category>서비스 종료</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/450</guid>
+			<comments>http://www.paperon.net/450#entry450comment</comments>
+			<pubDate>Tue, 01 Jul 2014 00:18:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>네가 아는 사람 얘기해줄게…</title>
+			<link>http://www.paperon.net/448</link>
+			<description>잘 지냈어? 오랜만이지?&lt;br /&gt;
+&lt;br /&gt;
+최근 6개월 동안의 내 근황을 이야기해줄게. 준비됐어?&lt;br /&gt;
+&lt;br /&gt;
+  
+&lt;h3&gt;1. 6년 근무한 미디어브레인 퇴사&lt;/h3&gt;
+지난 2013년 11월에 25개의 다른 계절을 보냈던 &lt;a href=&quot;http://mediabrain.co.kr&quot; target=&quot;_blank&quot;&gt;미디어브레인&lt;/a&gt;을 퇴사했어. 2008년, 미디어브레인 004호로 입사하면서 웹사이트가 담아내지 못하는 기업의 진솔한 이야기를 담아낼 수 있는 블로그가 참 좋았어. 트위터, 페이스북으로 기업 마케팅 툴이 바뀌는 동안에도 '블로그 에반절리스트'로 일하면서 블로그를 통한 기업의 콘텐츠를 효과적으로 전달하는 방법을 고민했었지. 6년간 일하면서 참 많은 기업 블로그를 기획하고, 구축하고, 개편하면서 참 많은 걸 고민하고 배웠지. 퇴사하기 전에 워드프레스로 블로그를 구축했는데 좀 더 깊이 있는 공부가 필요하다고 생각했어.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a title=&quot;[http://mediabrain.co.kr]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://mediabrain.co.kr&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/26224B3A536A63561E8D1B&quot; alt=&quot;미디어브레인&quot; filemime=&quot;&quot; filename=&quot;cfile23.uf@26224B3A536A63561E8D1B.jpg&quot; height=&quot;454&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;미디어브레인&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;
+&lt;br /&gt;
+  
+&lt;h3&gt;2. 100일간 백수생활&lt;/h3&gt;
+6년 동안 미디어브레인에서 많은 경험을 하면서 몸과 마음이 많이 지쳐있는 나를 위해 휴식을 주는 게 좋겠다 생각했어. 그래서 페이퍼온넷으로 블로그를 운영하면서 만났던 예전 블로거들을 한명 한명 만나러 다녔어. 백수생활을 하는 동안 저녁 시간은 가족과 함께해야겠다고 생각해서 주로 점심시간을 이용해서 서울 여기저기를 돌아다녔지. 생각보다 많은 블로거가 불러준 덕분에 쉬는 동안 점심은 걱정 없이 살았던 것 같아. 블로거들 만나서 이런저런 이야기 하다가 방치해 둔 블로그를 열심히 운영해야겠단 생각에 &lt;a href=&quot;http://paperon.net/447&quot; target=&quot;_blank&quot;&gt;페이퍼온넷에 &lt;strong&gt;티스토리 반응형 스킨&lt;/strong&gt;&lt;/a&gt;도 적용했어.&lt;br /&gt;
+  
+&lt;br /&gt;
+ &lt;div id=&quot;fb-root&quot;&gt;
+&lt;/div&gt;
+ &lt;script&gt;(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = &quot;//connect.facebook.net/en_GB/all.js#xfbml=1&quot;; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));&lt;/script&gt;
+&lt;div class=&quot;fb-post&quot; data-href=&quot;https://www.facebook.com/photo.php?fbid=10152066346384697&amp;amp;set=a.10150269510789697.344618.550749696&amp;amp;type=1&quot; data-width=&quot;600&quot;&gt;
+&lt;div class=&quot;fb-xfbml-parse-ignore&quot;&gt;
+&lt;a href=&quot;https://www.facebook.com/photo.php?fbid=10152066346384697&amp;amp;set=a.10150269510789697.344618.550749696&amp;amp;type=1&quot;&gt;Post&lt;/a&gt; by &lt;a href=&quot;https://www.facebook.com/paperonnet&quot;&gt;Subi Song&lt;/a&gt;.&lt;/div&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+  &lt;br /&gt;
+  
+&lt;h3&gt;3. 2주간 터키로 떠난 가족 여행&lt;/h3&gt;
+이직은 직장인이 유일하게 챙길 수 있는 '방학'이라고 생각해. 그래서 방학이 끝나기 전에 가족들과 여행을 다녀오면 좋겠다 생각했지. 1월부터는 학교 다니는 와이프도 진짜 방학이고 초등학교 입학을 앞둔 지우도 시간을 낼 수 있었기 때문에 여유를 가지고 긴 여행을 다녀올 수 있었어. 사실 내가 가고 싶었던 곳은 캐나다 캘거리였지만 1년 중 가장 추운 1월에 캘거리를 가족 여행하는 건 어려울 것 같아서 터키로 정했어. 이스탄불 - 안탈랴 - 카파도키아 3개 도시를 여행하면서 짧은 소감은 &lt;a href=&quot;http://turkey.thatilove.com/&quot; target=&quot;_blank&quot;&gt;터키 여행 블로그&lt;/a&gt;에 남겨 두었으니까 참고해서 봐봐. 페이퍼온넷에도 가끔 여행기를 올려볼게.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a title=&quot;[http://turkey.thatilove.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://turkey.thatilove.com&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/2154BE40536A5F0434ED75&quot; alt=&quot;터키 가족 여행 블로그&quot; filemime=&quot;&quot; filename=&quot;cfile30.uf@2154BE40536A5F0434ED75.jpg&quot; height=&quot;465&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;터키 여행 블로그 - turkey.thatilove.com&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;&lt;br /&gt;
+  
+&lt;h3&gt;4. 아이포유네트웍스 플랫폼 기획팀장으로 새 출발&lt;/h3&gt;
+터키 여행을 다녀와서는 걱정이 시작됐지. 자발적인 실업 상태가 길어지면 비자발적인 실업 상태가 될 수도 있겠다 싶었어. 실업 상태를 탈출하기 위한 여러 고민이 있었는데 &lt;a href=&quot;http://i4unetworks.co.kr&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;아이포유네트웍스&lt;/strong&gt;&lt;/a&gt;에서 좋은 제안을 받았어. 블로그, 소셜 웹, 모바일 사이트 등 나와 같은 고민을 하고 있던 아이포유네트웍스라면 다시 한 번 내 의지를 불살라 볼 수 있겠단 생각이 들었어. 다양한 플랫폼을 연구하고 기업에서 만든 콘텐츠를 효과적으로 담아낼 수 있는 미디어로 적합한 플랫폼을 만드는 팀으로 '플랫폼 기획팀'을 세팅해 가고 있어. '&lt;a href=&quot;http://wsandwich.com/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;W샌드위치&lt;/strong&gt;&lt;/a&gt;'란 자체 브랜드를 가지고 워드프레스를 쉽게 운영할 수 있도록 구축해 주는 일을 주로 하고 있지. 아이포유네트웍스는 '&lt;a href=&quot;http://oligomon.com/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;올리고몬&lt;/strong&gt;&lt;/a&gt;'이란 모바일 광고 플랫폼도 론칭해서 운영 중이지. 대행업무에만 안주하지 않고 자체 플랫폼을 이용한 비즈니스를 만들어 가고 있어서 내가 도움될 수 있는 부분이 많을 거라 생각해서 입사를 결정하게 된 거야. 소셜 채널 업무와 IT 최신 트렌드를 내/외부에 공유하기 위해서 '&lt;a href=&quot;http://clip.i4unetworks.co.kr/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Clip 4u&lt;/strong&gt;&lt;/a&gt;'사이트를 만들었어. 'Clip 4u' 사이트에 올라오는 콘텐츠를 아이포유네트웍스 공식 &lt;a href=&quot;https://www.facebook.com/i4unetworks&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Facebook&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/i4unetworks&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Twitter&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&quot;http://www.linkedin.com/company/i4u-networks/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;Linkedin&lt;/strong&gt;&lt;/a&gt;에서도 확인할 수 있게 했어. 내가 어떤 일 하는지 궁금하면 여길 보면 될 거야.&lt;br /&gt;
+&lt;br /&gt; 
+&lt;a title=&quot;[http://facebook.com/i4unetworks]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://facebook.com/i4unetworks&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/2510993D536A5EB6187078&quot; alt=&quot;아이포유네트웍스 페이스북&quot; filemime=&quot;&quot; filename=&quot;cfile5.uf@2510993D536A5EB6187078.jpg&quot; height=&quot;500&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;아이포유네트웍스 페이스북&lt;/p&gt;&lt;/div&gt;&lt;/a&gt;
+&lt;br /&gt;
+  
+오랜만에 쓰는 포스팅이라 이런저런 고민 하다가 계속 미뤄지는 것 같아서 길지 않게 이 정도에서 그동안의 인사를 마쳐야겠어. 또 궁금한 건 블로그 댓글, &lt;a href=&quot;https://www.facebook.com/paperonnet&quot; target=&quot;_blank&quot;&gt;페이스북&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/paperonnet&quot; target=&quot;_blank&quot;&gt;트위터&lt;/a&gt;를 통해서 확인해 봐.&lt;br /&gt;
+  
+&lt;br /&gt;
+  
+잘 지내~&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-448-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-448-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-448-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/448&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>1_D/I/A/R/Y</category>
+			<category>i4unetworks</category>
+			<category>mediabrain</category>
+			<category>가족 여행</category>
+			<category>미디어브레인</category>
+			<category>백수</category>
+			<category>아이포유네트웍스</category>
+			<category>이직</category>
+			<category>터키</category>
+			<category>퇴사</category>
+			<category>플랫폼 기획팀</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/448</guid>
+			<comments>http://www.paperon.net/448#entry448comment</comments>
+			<pubDate>Thu, 08 May 2014 08:30:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>모바일 사용자에 주목하라! - 티스토리 반응형 스킨(Tistory RWD Skin) 적용</title>
+			<link>http://www.paperon.net/447</link>
+			<description>&lt;blockquote&gt;아... 개운해~ &amp;gt;_&amp;lt;&lt;/blockquote&gt;
+오랜 숙제를 끝낸 것 같이 가뿐하다. &lt;b&gt;티스토리 초기 버전 스킨을 수정해서 이용해오던 페이퍼온넷이 2014년 새해를 맞이해 새로운 옷으로 갈아입었다.&lt;/b&gt; 무려 RWD(Responsive Web Design : 반응형 웹 디자인)을 적용했다. 적용과 관련한 상세 내용은 &lt;a title=&quot;[http://sinnanjyou.com/241]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://sinnanjyou.com/241&quot;&gt;신난제이유님의 가이드&lt;/a&gt;를 따랐다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;티스토리엔 왜 반응형 스킨이 없었을까?&lt;/h3&gt;
+&lt;b&gt;티스토리가 처음 공개될 시점엔 티스토리 모바일 웹 스킨이 따로 존재하지 않았다. 모바일용 CSS를 추가하는 것만으로 모바일에 최적화해서 보여줄 수 있었다.&lt;/b&gt; 그런데 티스토리의 모바일 웹 스킨을 만들면서 개인적으로 2차 도메인까지 붙여 이용하던 블로그까지도 정말 갑갑해 보이는 티스토리 모바일 웹 스킨으로 포워딩 되도록 바뀌었다. 서비스 운영 주체인 Daum에서 티스토리 콘텐츠 아래에 Daum의 인기 콘텐츠 리스트를 삽입해 트래픽을 모아보려고 했던 게 아닌가 생각한다. 그래 당시엔 모바일 페이지를 따로 만드는 게 유행이었으니까 그럴 수 있다고 생각하자. 하지만 최근엔 하나의 페이지가 어떤 디바이스에서든 최적화해서 볼 수 있도록 하는 '반응형 웹 디자인'이 트렌드이다. 그런데 왜 Daum에선 티스토리의 반응형 웹 디자인을 공식적으로 만들어 주지 않았을까? 앞에 이야기한 티스토리 콘텐츠 아래쪽에 Daum 광고 영역을 놓치지 싫어서가 아닐까? 그래도 2013년 하반기부터는 모바일 웹 스킨을 적용하지 않은 옵션부터 다양한 개선 사항을 내놓고 있는 점에선 고맙게 생각한다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(121, 165, 228); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;
+&lt;b&gt;&lt;font color=&quot;#3058d2&quot;&gt;최근 티스토리 모바일 웹 개선 사항&lt;/font&gt;&lt;/b&gt;&lt;br /&gt;
+모바일 웹 스킨 ON/OFF 기능 안내 &lt;a title=&quot;[http://notice.tistory.com/2132]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://notice.tistory.com/2132&quot;&gt;http://notice.tistory.com/2132&lt;/a&gt;&lt;br /&gt;
+모바일 웹 댓글, 본문 하단 디자인 개선 &lt;a title=&quot;[http://notice.tistory.com/2134]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://notice.tistory.com/2134&quot;&gt;http://notice.tistory.com/2134&lt;/a&gt;&lt;br /&gt;
+모바일 웹 헤더 개선 &lt;a title=&quot;[http://notice.tistory.com/2142]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://notice.tistory.com/2142&quot;&gt;http://notice.tistory.com/2142&lt;/a&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock dual&quot; style=&quot;text-align: center;&quot;&gt;&lt;table cellspacing=&quot;5&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; style=&quot;margin: 0 auto;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/2742B43E52F0E8B62CC549&quot; alt=&quot;Before - 티스토리 웹 스킨&quot; height=&quot;576&quot; width=&quot;324&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;Before - 티스토리 웹 스킨&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/241D8F3E52F0E8B7012314&quot; alt=&quot;After - 반응형 웹 스킨&quot; height=&quot;576&quot; width=&quot;324&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;After - 반응형 웹 스킨&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;h3&gt;티스토리에 반응형 스킨 필요할까?&lt;/h3&gt;
+티스토리 모바일 웹 스킨을 이용하면서 불편하고 개선을 요구하고 싶었던 점이 있다. 하나는 앞에서 말한 것처럼 트렌드에 뒤처진 UI / UX이다. 이 부분은 어쩔 수 없는 부분이라고 해도 티스토리 스킨(skin.html / style.css 파일 등)에 추가적으로 넣어놓은 기능들을 모바일 웹 스킨에선 이용할 수 없다는 건 큰 장애와 같았다. 특히, 최근 모바일 디바이스로부터 유입이 크게 증가하면서 이런 부분은 워드프레스로 이전을 고민하게 하는 가장 큰 이유이기도 했다. 예를 들어, &lt;b&gt;티스토리 스킨에 구글 로그 데이터 분석 코드를 추가하면 모든 페이지로 사용자들의 유입 로그 데이터를 분석할 수 있는데, 모바일 웹 스킨은 로그 데이터를 수집할 수 없게 했다. 그래서 모든 콘텐츠 하단에 구글 로그 데이터 분석 코드를 추가해서 이용하는 편법을 썼지만, 이 역시 모바일 웹 스킨에서 콘텐츠 영역은 잘 수집되지만, 콘텐츠 리스트 페이지의 로그 데이터는 수집할 수 없는 한계가 있었다.&lt;/b&gt; 이제 티스토리에 반응형 스킨을 적용하고 티스토리의 기분 모바일 웹 스킨을 비활성화하는 것만으로 PC에서와 똑같이 모바일 디바이스에서도 블로그를 이용할 수 있게 되었다. &lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;티스토리 반응형 스킨 적용으로 워드프레스로 이전을 고민했던 페이퍼온넷은 티스토리 시스템으로 당분간 유지해도 될 것 같다고 생각했다.&lt;/b&gt; 티스토리에서 워드프레스로의 이전, 생각과는 달리 아주 복잡한 문제점들이 많이 있었거든. 0_o! 이제 페이퍼온넷에 새로운 로고만 적용하면 되는 건가? 오늘은 여기까지...&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/257F074552F0E7D30E7552&quot; alt=&quot;iPad에서 반응형 웹 스킨이 적용된 페이퍼온넷을 본 화면&quot; filemime=&quot;&quot; filename=&quot;cfile5.uf@257F074552F0E7D30E7552.PNG&quot; height=&quot;630&quot; width=&quot;840&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;iPad에서 반응형 웹 스킨이 적용된 페이퍼온넷을 본 화면&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-447-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-447-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-447-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/447&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>디쟌_이야기</category>
+			<category>Blog</category>
+			<category>Blog Design</category>
+			<category>Mobile</category>
+			<category>renewal</category>
+			<category>Responsive Web Design</category>
+			<category>RWD</category>
+			<category>theme</category>
+			<category>Tistory</category>
+			<category>반응형 웹</category>
+			<category>스킨</category>
+			<category>티스토리</category>
+			<category>페이퍼온넷</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/447</guid>
+			<comments>http://www.paperon.net/447#entry447comment</comments>
+			<pubDate>Tue, 04 Feb 2014 22:29:01 +0900</pubDate>
+		</item>
+		<item>
+			<title>업무에 치여도 개인 프로젝트가 필요한 이유!</title>
+			<link>http://www.paperon.net/446</link>
+			<description>&lt;b&gt;'정보 역전 현상'&lt;/b&gt;&lt;br /&gt;
+다른 업계와는 다르게 IT 업계에서는 매일같이 다양한 서비스와 기술이 쏟아지고 있다. 주니어가 시니어보다 정보 습득에 더 빠르게 반응하며, 더 많은 최신 정보를 습득하게 되는 '정보 역전 현상'은 어쩌면 당연할 수도 있다. 내가 주니어 입장에선 이런 부분에 약간의 희열감을 느끼기도 했었다. 회사에선 매일같이 PPT로 서비스의 와이어프레임을 그리는 일을 무한 반복하고 있었지만, 개인적인 시간엔 서버에 php 프로그램을 설치하고 사이트를 운영하면서 약간의 프로그램과 디자인을 배우며 선배들을 이겨보려고 노력을 했었다.&lt;br /&gt;
+&lt;br /&gt;
+이제 팀장이란 자리에서 열 살씩 어린 녀석들과 함께 일하면서 '&lt;b&gt;정보 역전 현상&lt;/b&gt;'은 좀 더 다른 의미로 내게 다가온다. 실제 업무를 하는 시간보다 관리하는 업무 비중이 늘어나면서 '최신 기술이나 정보 습득에도 그만큼 뒤처지지 않을까?' 하는 걱정을 하기 시작했다. 그래서 회사 업무 외에 개인적인 프로젝트 운영을 통해 뒤처지지 않으려고 꾸준히 노력하고 있다. 아래는 최근 3년 동안 진행해 온 개인 프로젝트들이다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;2011년 - Project TIL (That I Love) - '내가 좋아하는 것들' 프로젝트&lt;/h3&gt;
+&lt;a title=&quot;[http://photo.thatilove.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://photo.thatilove.com&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/22730F4A528491B134D763&quot; alt=&quot;2011년 - Project TIL (That I Love) - &amp;#39;내가 좋아하는 것들&amp;#39; 프로젝트&quot; filemime=&quot;&quot; filename=&quot;cfile29.uf@22730F4A528491B134D763.PNG&quot; height=&quot;800&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/a&gt;Tumblr 사용자가 조금씩 늘어나기 시작하는 시점부터 휴대폰 카메라로 찍은 사진들을 업데이트하는 프로젝트를 진행했었다. 하나의 블로그에 여러 개의 주제를 두고 운영하는 컨셉이 아닌, 하나의 특화된 주제만 담은 블로그 운영이 주된 운영 방향이었다. 개인적으로 영어 학습에 대한 이슈도 있어서 가능한 영어로만 포스팅하는 방향으로 설정했는데... 결과는 사진에 영문 캡션을 올리는 정도로 운영하는 걸로 정리되었다. &lt;a title=&quot;[http://paperon.net/375]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://paperon.net/375&quot;&gt;좋아하는 블로그, 좋아하는 음식, 좋아하는 사진을 컨셉&lt;/a&gt;으로 &lt;a title=&quot;[http://blog.thatilove.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://blog.thatilove.com&quot;&gt;blog.thatilove.com&lt;/a&gt; / &lt;a title=&quot;[http://food.thatilove.com ]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://food.thatilove.com &quot;&gt;food.thatilove.com&lt;/a&gt; / &lt;a title=&quot;[http://photo.thatilove.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://photo.thatilove.com&quot;&gt;photo.thatilove.com&lt;/a&gt; 이렇게 3개까지 확장을 했던 프로젝트다. 초반 1년 동안 3개 블로그에 약 300개의 포스팅을 올리면서 하루 방문자 수 100명 정도로 운영했던 프로젝트. 3개 중에 &lt;a title=&quot;[http://photo.thatilove.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://photo.thatilove.com&quot;&gt;photo.thatilove.com&lt;/a&gt; 이 가장 많은 방문자와 사용자 반응을 이끌어 냈었다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;2012년 - Social 2.0 Trend 연구소 &lt;/h3&gt;
+&lt;a title=&quot;[http://social2.0trend.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://social2.0trend.com&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/2114BD4A528491B32CA3C1&quot; alt=&quot;2012년 - Social 2.0 Trend 연구소&quot; filemime=&quot;&quot; filename=&quot;cfile28.uf@2114BD4A528491B32CA3C1.PNG&quot; height=&quot;800&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/a&gt;블로그의 인기가 한풀 꺾이고 트위터, 페이스북, 구글 플러스 등 소셜 미디어가 급 부상하던 2011년, 2012년 관련 내용을 담아낼 블로그를 추가로 오픈해야겠다 생각했다. 당시 소셜 미디어 전문가라는 사람들이 하나같이 WordPress를 기반으로 하는 블로그를 통해 하고 있었고, 나 역시 &lt;a title=&quot;[http://social2.0trend.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://social2.0trend.com&quot;&gt;워드프레스의 학습을 핑계로 호스팅을 받아 WordPress를 설치하면서 프로젝트&lt;/a&gt;를 시작했다. 결과는 WordPress의 강력한 기능과 수많은 플러그인을 이용해서 원하는 다양한 형태로 바꿀 수 있다는 걸 알게 되었지만 Tisotry, Tumblr와 비교해서 WordPress는 Theme&amp;nbsp; 적용에 상당히 많은 공수가 든다는 사실을 알게 되었다. 시스템 공부하고, Theme 설치하는 과정에서 너무 많은 에너지 낭비로 인해 콘텐츠를 지속 발행하지는 못했었던 점은 반성해야 할 부분으로 남겨두기로 한다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;2013년 - TAKE-out.IT 테이크-아웃 IT&lt;/h3&gt;
+&lt;a title=&quot;[http://take-out.it]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://take-out.it&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/2411AC4A528491B42C86E3&quot; alt=&quot;2013년 - TAKE-out.IT 테이크-아웃 IT&quot; filemime=&quot;&quot; filename=&quot;cfile6.uf@2411AC4A528491B42C86E3.PNG&quot; height=&quot;800&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/a&gt;2004년부터 Del.icio.us를 통해 함께 작업하는 동료들과 공유하면 좋은 콘텐츠를 공유하고 있다. 최근엔 트위터, 페이스북 등으로 자동 연계해서 발행될 수 있도록 해 두었는데... 이렇게 공유한 자료를 다시 찾기가 힘들다는 동료들의 요구사항이 있었다. 타임라인에서 쉽게 묻혀버릴 수 있는 기존 소셜 미디어와는 차별된 나만의 공간이 필요하다고 느꼈고, Tumblr에서 그 가능성을 찾았다. Flickr, YouTube, Vimeo, Delicious 등 사진, 영상, 링크 공유 서비스를 &lt;a title=&quot;[http://ifttt.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://ifttt.com&quot;&gt;IFTTT.com&lt;/a&gt; 서비스로 연동해서 더욱 쉽게 Tumblr에 링크를 공유할 수 있도록 세팅했다. 그리고 Tumblr에 올라오는 콘텐츠들을 Facebook으로 발행될 수 있도록 세팅을 마쳤다. &lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;매일 반복되는 업무로 '제자리걸음'을 하고 있다고 생각된다면, 뭐든지 자신이 좋아하는 개인 프로젝트를 하나 만들고 조금씩이라도 실행해 보는 건 어떨까?&lt;/b&gt; 기획자라고, 디자이너라고? 개발을 알지 못하면 어떤가? 이미 나와 있는 다양한 서비스들만 잘 이용해도 자신만의 프로젝트를 만들 수 있는 방법은 무궁무진한데.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Just do it whatever you like!&lt;/b&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-446-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-446-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-446-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/446&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>기획_이야기</category>
+			<category>Blog</category>
+			<category>social2.0trend.com</category>
+			<category>take-out.it</category>
+			<category>ThatILove.com</category>
+			<category>tumblr</category>
+			<category>WordPress</category>
+			<category>개인 프로젝트</category>
+			<category>블로그</category>
+			<category>워드프레스</category>
+			<category>텀블러</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/446</guid>
+			<comments>http://www.paperon.net/446#entry446comment</comments>
+			<pubDate>Thu, 14 Nov 2013 18:19:12 +0900</pubDate>
+		</item>
+		<item>
+			<title>그대 아직도 꿈꾸고 있는가?</title>
+			<link>http://www.paperon.net/445</link>
+			<description>최근에 꾼 꿈들 옴니버스로 묶어서 영화 찍고 싶을 정도로 생생함. 0_o&lt;br /&gt;
+&lt;br /&gt;
+영화 제목 : &lt;b&gt;DREAMER&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;#1 - 그대와 함께라면 어디라도...&lt;/h3&gt;
+&lt;br /&gt;
+꿈에서 사랑하는 그녀와 손을 잡고 있을 때면, 시간 여행이 가능한 시간 여행자 커플임.&lt;br /&gt;
+사소한 오해로 그녀와 헤어지고는 원하는 시간으로 여행을 못하게 되고,&lt;br /&gt;
+생각지 못한 시간, 공간으로 떠돌아다니게 됨.&lt;br /&gt;
+오해를 풀고 그녀를 다시 만나기 위해 가는 곳마다 그녀가 볼 수 있게 메시지를 남기며 계속 여행하다가...&lt;br /&gt;
+다시 그녀를 만나는 순간! 알람!!!!&lt;br /&gt;
+(아~~ 얼굴이 기억이 안나 0_o)&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/252792455167B974030F4A&quot; alt=&quot;[Follow me] Photo by Murad Osmann&quot; filemime=&quot;&quot; filename=&quot;cfile21.uf@252792455167B974030F4A.jpg&quot; height=&quot;387&quot; width=&quot;600&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;[Follow me] Photo by Murad Osmann&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+잠 깨기 바로 직전에 뒤에서 그녀의 손목을 잡았는데 그때 분위기가&lt;br /&gt;
+사진작가 &lt;b&gt;&lt;a title=&quot;[http://instagram.com/muradosmann]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://instagram.com/muradosmann&quot;&gt;Murad Osmann&lt;/a&gt;&lt;/b&gt;의 작품 &lt;b&gt;follow me (to the world)&lt;/b&gt; 사진을 꿈에서 경험 한 것 같은 느낌....&lt;br /&gt;
+&lt;br /&gt;
+&lt;a title=&quot;[http://instagram.com/muradosmann]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://instagram.com/muradosmann&quot;&gt;/ Murad Osmann의 Instagram&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;#2 - 대표이사 소개에 어떤 사진을 올릴까요, 형님??&lt;/h3&gt;
+&lt;br /&gt;
+한 기업의 소셜미디어 강의 요청 메일을 받고 찾아감.&lt;br /&gt;
+분위기 이상하다 했는데 알고 봤더니 조폭!&lt;br /&gt;
+교육을 마치고 회사(?) 홈페이지를 워드프레스로 구축해달라고 요청.&lt;br /&gt;
+선금으로 받은 검은색 가방엔 한번 유통되었던 1만 원권 지폐 2억 원이 딱!!&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/213166505167BB570ABB36&quot; alt=&quot;찬조출연 : 세종대왕&quot; filemime=&quot;&quot; filename=&quot;cfile28.uf@213166505167BB570ABB36.jpg&quot; height=&quot;387&quot; width=&quot;600&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;찬조출연 : 세종대왕&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+그게 끝이 아니고...&lt;br /&gt;
+호텔 스위트룸에 감금당해서 홈페이지 만들기 시작하는데...&lt;br /&gt;
+회사소개 &amp;gt; 대표이사(라 쓰고 큰형님이라고 읽는) 소개 페이지에서 퐝!! &lt;br /&gt;
+(풉! 이 사진을 대표이사 사진으로 쓰라구요?)&lt;br /&gt;
+홈페이지 만들고 그 조직에 홍보이사(?)로 &lt;b&gt;넘버 5로 입사&lt;/b&gt;?&lt;br /&gt;
+사소한 말다툼으로 넘버 6에게 칼 맞으려는 순간! 알람!!!&lt;br /&gt;
+(죽다 살아났음 0_o)&lt;br /&gt;
+&lt;br /&gt;
+피곤하지 않을 수가... T^T&lt;br /&gt;
+최근 조폭 영화도 본 적이 없는데 왜 이런꿈을 꾸는건지??&lt;br /&gt;
+&lt;br /&gt;
+------&lt;br /&gt;
+&lt;br /&gt;
+꿈에서라도 보고 싶어서 그 사람 생각 많이 하면&lt;br /&gt;
+그 사람 꿈에 내가 나오게 된다고&lt;br /&gt;
+그래서 내 꿈에서 그 사람 만날 수 없는 거라고 하던데...&lt;br /&gt;
+&lt;br /&gt;
+도대체 누가(어떤 형님이?) 내 생각을 이렇게나 많이 하는거지? 0_o!&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-445-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-445-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-445-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/445&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>1_D/I/A/R/Y</category>
+			<category>Dream</category>
+			<category>Follow me</category>
+			<category>Money</category>
+			<category>photo</category>
+			<category>꿈</category>
+			<category>시놉시스</category>
+			<category>영화</category>
+			<category>조폭</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/445</guid>
+			<comments>http://www.paperon.net/445#entry445comment</comments>
+			<pubDate>Fri, 12 Apr 2013 16:53:40 +0900</pubDate>
+		</item>
+		<item>
+			<title>요즘 구글 왜 이래? 이러다 Feedburner(피드버너)도 종료?</title>
+			<link>http://www.paperon.net/444</link>
+			<description>구글에서 인수하기 훨씬 이전부터 &lt;a title=&quot;[http://paperon.net/tag/feedburner]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://paperon.net/tag/feedburner&quot;&gt;Feedburner&lt;/a&gt;를 이용하고 있었고, &lt;a title=&quot;[http://paperon.net/tag/del.icio.us]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://paperon.net/tag/del.icio.us&quot;&gt;Del.icio.us&lt;/a&gt;가 Delicious.com으로 도메인을 변경하기 훨씬 이전부터 북마크로 이용하고 있었다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/0326BD33514558752DBE56&quot; alt=&quot;Feedburner Logo &amp; Del.icio.us Logo&quot; filemime=&quot;&quot; filename=&quot;cfile1.uf@0326BD33514558752DBE56.jpg&quot; height=&quot;201&quot; width=&quot;600&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;이제는 함께 갈 수 없는 Feedburner와 Del.icio.us&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;a title=&quot;[http://paperon.net/321]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://paperon.net/321&quot;&gt;Del.icio.us 에 북마크를 해두면 Feedburner에서 내 블로그 RSS 피드와 Del.icio.us의 북마크 피드를 합쳐서 발행해주는 서비스&lt;/a&gt;를 이용하고 있었는데 이 서비스가 1월 중순부터 정상적으로 작동하지 않고 있는 걸 두 달이 지나서야 알게 되었다. 프로젝트 챙기느라 페이퍼온넷을 너무 버려뒀던 탓이다. 0_o!&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;Feedburner&lt;/b&gt;는 &lt;b&gt;RSS 피드의 구독을 쉽게 관리할 수 있는 서비스&lt;/b&gt;로, 블로그 도메인 변경과 상관없이 RSS 피드를 연속해서 가져갈 수 있다는 장점이 있다. 그리고 Del.ico.us, Flickr 등의 계정을 등록해 두면 RSS를 하나로 합쳐서 운영할 수 있는 것도 매력이다. 또, &lt;b&gt;RSS 피드를 이메일로 구독신청 한 사용자에게 자동으로 메일 발송을 해주는 서비스도 미디어나 기업 블로그에서 많이 이용&lt;/b&gt;하고 있다.&lt;br /&gt;
+&lt;br /&gt;
+지난주 Google Reader 서비스 종료에 따른 RSS 피드의 몰락과 관련한 내용 중 &lt;b&gt;구글에서 Feedburner 서비스의 종료 가능성도 제기&lt;/b&gt;되었다. 그래서 오늘 발견한 오류가 단순하게 다가오지 않았던 것 같다. Flickr 계정 등록 과정에선 전혀 이상이 없는 것으로 봐서 Del.icio.us API에서 문제가 생긴 것 같긴 하지만, 그래도 잘 이용하던 북마크 서비스 이용에 제동이 걸리는 것 같아 좀 아쉽다. &lt;br /&gt;
+&lt;br /&gt;
+&lt;div align=&quot;center&quot;&gt;
+&lt;div class=&quot;imageblock dual&quot; style=&quot;text-align: center;&quot;&gt;&lt;table cellspacing=&quot;5&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; style=&quot;margin: 0 auto;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/23777D34514557712F6964&quot; alt=&quot;Feedburner Link Splicer Error - Del.icio.us&quot; height=&quot;285&quot; width=&quot;295&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;Delicious ID를 등록 거부하는 Feedburner&lt;/p&gt;&lt;/td&gt;&lt;td&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/14036E3451455772233708&quot; alt=&quot;Feedburner Photo Splicer - Flickr&quot; height=&quot;285&quot; width=&quot;295&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;Flickr ID 등록엔 문제가 없었다!&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+개인적인 욕심일지 모르겠지만, 구글에서 &lt;a title=&quot;[http://googleblog.blogspot.kr/2013/03/a-second-spring-of-cleaning.html]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://googleblog.blogspot.kr/2013/03/a-second-spring-of-cleaning.html&quot;&gt;Google Reader 서비스 종료&lt;/a&gt;를 철회하고 사용자들의 RSS 피드 이용에 대한 애착을 다시 한 번 확인한 기회로 삼아 RSS 및 기타 관련 서비스들이 재부활하는 기회가 되었으면 좋겠다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/027C9B3F514559402091C1&quot; alt=&quot;Google Reader Service Notice&quot; filemime=&quot;&quot; filename=&quot;cfile1.uf@027C9B3F514559402091C1.jpg&quot; height=&quot;349&quot; width=&quot;600&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;지난 주 큰 멘붕을 안겼던 구글 리더의 서비스 종료 공지!&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;a title=&quot;[http://pipes.yahoo.com/pipes/]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://pipes.yahoo.com/pipes/&quot;&gt;RSS 피드를 합쳐서 주는 서비스&lt;/a&gt;로 RSS를 새로 만들고 Feedburner에 연결하면 문제는 간단하게 해결할 수 있지만, 일단 페이퍼온넷 RSS 피드에선 북마크를 빼기로 했다. &lt;b&gt;페이퍼온넷에 좀 더 자주 글을 올려서 RSS 피드를 갱신할 수 있도록 노력해야겠단 생각&lt;/b&gt;이 들어서 말이지. 페이퍼온넷 이름으로 공유했던 맛있는(Del.icio.us)링크들은 아래 서비스에서 계속 이용할 수 있으니 참고 하시길...&lt;br /&gt;
+&lt;br /&gt;
+&lt;a title=&quot;[https://delicious.com/#paperon]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;https://delicious.com/#paperon&quot;&gt;/ delicious.com/paperon&lt;/a&gt;&lt;br /&gt;
+&lt;a title=&quot;[http://twitter.com/paperonnet]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://twitter.com/paperonnet&quot;&gt;/ twitter.com/@paperonnet&lt;/a&gt;&lt;br /&gt;
+&lt;a title=&quot;[http://fb.com/paperonnet]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://fb.com/paperonnet&quot;&gt;/ fb.com/paperonnet&lt;/a&gt; (페이스북친구한정)&lt;br /&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-444-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-444-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-444-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/444&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>기획_이야기</category>
+			<category>del.icio.us</category>
+			<category>delicious</category>
+			<category>feedburner</category>
+			<category>Google</category>
+			<category>google reader</category>
+			<category>RSS</category>
+			<category>구글</category>
+			<category>구글리더</category>
+			<category>딜리셔스</category>
+			<category>피드버너</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/444</guid>
+			<comments>http://www.paperon.net/444#entry444comment</comments>
+			<pubDate>Sun, 17 Mar 2013 15:10:54 +0900</pubDate>
+		</item>
+		<item>
+			<title>2012 Christmas Card of PAPERon.Net</title>
+			<link>http://www.paperon.net/443</link>
+			<description>&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/01132C4F50D7C0CF09B0DD&quot; alt=&quot;2012 Christmas Card of PAPERon.Net&quot; filemime=&quot;&quot; filename=&quot;cfile10.uf@01132C4F50D7C0CF09B0DD.jpg&quot; height=&quot;450&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+블로그 운영하면서 시작한 &lt;b&gt;크리스마스카드 만들기 프로젝트&lt;/b&gt;.&lt;br /&gt;
+빠지지 않고 계속하려다 보니 이것도 숙제가 되어버린 듯한 느낌.&lt;br /&gt;
+왜 크리스마스는 일 많고 바쁜 12월에 있어가지고... ㅎㅎ&lt;br /&gt;
+그래서 올해 크리스마스카드는 작년 디자인을 재활용하는 걸로...&lt;br /&gt;
+&lt;br /&gt;
+스물 열일곱,&lt;br /&gt;
+아직은 마음공부가 많이 필요하다는 걸&lt;br /&gt;
+온몸으로 배운 게 다행이라 생각하며 많이 반성합니다.&lt;br /&gt;
+&lt;br /&gt;
+스물 열여덟에는 &lt;br /&gt;
+원성 스님의 말씀처럼 마음을 즐기고,&lt;br /&gt;
+느낄 줄 아는 사람이 되도록 노력해야겠습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;a title=&quot;[http://www.paperon.net/385]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://www.paperon.net/385&quot;&gt;/ 2011 Christmas Card&lt;/a&gt;&lt;br /&gt;
+&lt;a title=&quot;[http://www.paperon.net/368]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://www.paperon.net/368&quot;&gt;/ 2010 Christmas Card&lt;/a&gt;&lt;br /&gt;
+&lt;a title=&quot;[http://www.paperon.net/363]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://www.paperon.net/363&quot;&gt;/ 2009 Christmas Card&lt;/a&gt;&lt;br /&gt;
+&lt;a title=&quot;[http://www.paperon.net/334]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://www.paperon.net/334&quot;&gt;/ 2008 Christmas Card&lt;/a&gt;&lt;br /&gt;
+&lt;a title=&quot;[http://www.paperon.net/274]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://www.paperon.net/274&quot;&gt;/ 2007 Christmas Card&lt;/a&gt;&lt;br /&gt;
+&lt;a title=&quot;[http://www.paperon.net/216]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://www.paperon.net/216&quot;&gt;/ 2006 Christmas Card&lt;/a&gt;&lt;br /&gt;
+&lt;a title=&quot;[http://www.paperon.net/126]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://www.paperon.net/126&quot;&gt;/ 2005 Christmas Card&lt;/a&gt;&lt;br /&gt;
+&lt;a title=&quot;[http://www.paperon.net/19]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://www.paperon.net/19&quot;&gt;/ 2004 Christmas Card&lt;/a&gt;&lt;br /&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-443-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-443-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-443-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/443&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>디쟌_이야기</category>
+			<category>card</category>
+			<category>christmas</category>
+			<category>christmas card</category>
+			<category>X-mas</category>
+			<category>xmas</category>
+			<category>크리스마스</category>
+			<category>크리스마스 카드</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/443</guid>
+			<comments>http://www.paperon.net/443#entry443comment</comments>
+			<pubDate>Mon, 24 Dec 2012 12:05:19 +0900</pubDate>
+		</item>
+		<item>
+			<title>2012.12.20. Tumblr(텀블러) Android 태블릿 지원에 이어 Tumblr iPad 버전 출시!</title>
+			<link>http://www.paperon.net/442</link>
+			<description>&lt;div class=&quot;me2day_daily_digest&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;Tumblr앱 드디어 iPad 버전 출시!&lt;br /&gt;
+반갑긴 하지만 태블릿 대응 너무 늦은것 아닌가??&lt;br /&gt;
+Android 태블릿도 지난 주 업데이트 했으니… 0_o!&lt;br /&gt;
+&lt;span class=&quot;me2_tags&quot;&gt;(tumblr apps ipad update tablet) &lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt;&lt;a href=&quot;http://me2day.net/paper/2012/12/20#11:07:22&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-12-20 11:07:22&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121220_212/paper_1355969241843LNTJh_PNG/paper_3938636928257464467.png?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;[Tumblr]&lt;br /&gt;
+Tumblr 앱이 iPad를 지원하기 시작하면서 기존 3rd Party앱과의 경쟁이 불가피해진 상황!&lt;br /&gt;
+최후의 승자는?? =)&lt;br /&gt;
+&lt;span class=&quot;me2_tags&quot;&gt;(tumblr iPad apps)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/12/20#19:06:41&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-12-20 19:06:41&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121220_96/paper_13559980010795pCnl_PNG/paper_3653202474571973291.png?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;[Tumblr]&lt;br /&gt;
+iPad Tumblr 사용자의 총애를 받아 오던 Postr는 사용자를 지켜낼 수 있을지 의문.&lt;br /&gt;
+UI나 사용자 편의성을 따져보면 Tumblr 네이티브 앱보다는 앞서 있는 것이 사실! =)&lt;br /&gt;
+&lt;span class=&quot;me2_tags&quot;&gt;(postr tumblr apps iPad update)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/12/20#19:09:15&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-12-20 19:09:15&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121220_236/paper_1355998155549tJF9y_PNG/paper_2460733592298575999.png?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;background:url(http://me2day.net/images/me2day_icon.gif) no-repeat right top;padding-right:25px;text-align:right; font-size: 0.9em;&quot;&gt;이 글은 &lt;a href=&quot;http://me2day.net/paper&quot; target=&quot;_blank&quot;&gt;편집장&lt;/a&gt;님의 &lt;a href=&quot;http://me2day.net/paper/2012/12/20#19:09:15&quot; target=&quot;_blank&quot;&gt;2012년 12월 20일&lt;/a&gt;의 미투데이 내용입니다.&lt;/p&gt;
+&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/442&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>기획_이야기</category>
+			<category>apps</category>
+			<category>ipad</category>
+			<category>postr</category>
+			<category>tumblr</category>
+			<category>Update</category>
+			<category>텁블러</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/442</guid>
+			<comments>http://www.paperon.net/442#entry442comment</comments>
+			<pubDate>Fri, 21 Dec 2012 21:46:04 +0900</pubDate>
+		</item>
+		<item>
+			<title>2012.12.08. Google Apps 신규 가입 차단! 하지만 아직도 무료 가입 가능하다??</title>
+			<link>http://www.paperon.net/441</link>
+			<description>&lt;div class=&quot;me2day_daily_digest&quot;&gt;
+&lt;ul&gt;&lt;li&gt;Google Apps 신규 가입 차단! 0_o!&lt;br /&gt;
+지금 6개 도메인에 물려놓은 앱은 문제없이 이용 할 수 있다는 건 다행!&lt;br /&gt;
+새로 세팅해야 할 하나의 도메인 가입 못하는 건 안 다행! T^T&lt;br /&gt;
+&lt;span class=&quot;me2_tags&quot;&gt;(google google_apps notice mail)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;br /&gt;
+&lt;a href=&quot;http://me2day.net/paper/2012/12/08#11:44:30&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-12-08 11:44:30&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121208_162/paper_13549346705540QX0e_PNG/paper_1674893566584009894.png?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;&lt;li&gt;하지만 아직도 무료로 가입할 수 있는 방법이 남아있다는 제보!&lt;br /&gt;
+자세한 내용은 &lt;a title=&quot;[http://www.labnol.org/internet/register-domains-with-google-apps/18966/]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://www.labnol.org/internet/register-domains-with-google-apps/18966/&quot;&gt;Domain Registraion with Google Apps&lt;/a&gt;를 참고!!&lt;br /&gt;
+&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot;background:url(http://me2day.net/images/me2day_icon.gif) no-repeat right top;padding-right:25px;text-align:right; font-size: 0.9em;&quot;&gt;이 글은 &lt;a href=&quot;http://me2day.net/paper&quot; target=&quot;_blank&quot;&gt;편집장&lt;/a&gt;님의 &lt;a href=&quot;http://me2day.net/paper/2012/12/08#11:44:30&quot; target=&quot;_blank&quot;&gt;2012년 12월 08일&lt;/a&gt;의 미투데이 내용입니다.&lt;/p&gt;
+&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/441&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>기획_이야기</category>
+			<category>domain</category>
+			<category>Google</category>
+			<category>google apps</category>
+			<category>구글</category>
+			<category>구글 앱스</category>
+			<category>알림</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/441</guid>
+			<comments>http://www.paperon.net/441#entry441comment</comments>
+			<pubDate>Mon, 10 Dec 2012 20:31:35 +0900</pubDate>
+		</item>
+		<item>
+			<title>Happy Birthday to my Blog!! 벌써 8년!!</title>
+			<link>http://www.paperon.net/440</link>
+			<description>&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/11434B4150C17ABE1F5E0B&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;8th_anniversary.jpg&quot; height=&quot;450&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;2012년 페이퍼온넷의 가장 큰 변화, 가볍게 가볍게...&lt;/h3&gt;&lt;br /&gt;
+블로그 운영을 업으로 하다 보니,&lt;br /&gt;
+사실 개인 블로그 운영에 힘을 쏟을 여력이 없었다.&lt;br /&gt;
+그리고 블로그에 올라가는 콘텐츠의 완성도를 높이려다가 발행하지 못한 콘텐츠가 많았다.&lt;br /&gt;
+&lt;br /&gt;
+그래서 2012년 페이퍼온넷은 힘을 뺐다.&lt;br /&gt;
+트위터, 페이스북 운영하듯이 내가 보고, 내가 생각하고, 내가 기대하는 것들을 편안하게 담아내고 싶었다.&lt;br /&gt;
+그래서 사진 한 장뿐인 포스팅도 자주 올라가고,&lt;br /&gt;
+트위터, 페이스북에서 반응이 좋았던 글들도 블로그에 올려서 저장해 두기로 했다.&lt;br /&gt;
+블로그 콘텐츠 작성에 15분 이상 시간 들이지 않기로 했다. &lt;br /&gt;
+&lt;br /&gt;
+덕분에 4년 만에 블로그 방문자수도 바닥을 치고 올라와 최고 수치를 매달 경신하고 있다.&lt;br /&gt;
+&lt;br /&gt;
+'가늘고 길게 오래가는 블로그' 컨셉은 2013년에도 유지하려고 한다.&lt;br /&gt;
+&lt;br /&gt;
+8년을 나와 함께해준 '페이퍼온넷'... 생일 축하한다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;background-color: rgb(37,153,194); color: rgb(255, 255, 255); font-weight: bold;&quot;&gt;페이퍼온넷 자매 사이트&lt;/span&gt;&lt;br /&gt;
+1. &lt;a title=&quot;[http://PHOTO.paperon.net]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://PHOTO.paperon.net&quot;&gt;PHOTO.paperon.net&lt;/a&gt; - 사진 &amp;amp; 캡쳐 이미지 : 페이퍼온넷 사이드바 연동 (Flickr)&lt;br /&gt;
+&lt;span id=&quot;callbacknestwwwpaperonnet3836253&quot; style=&quot;width:1px; height:1px; float:right&quot;&gt;&lt;/span&gt;
+2. &lt;a title=&quot;[http://LINK.paperon.net]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://LINK.paperon.net&quot;&gt;LINK.paperon.net&lt;/a&gt; - 강추 사이트 링크 : 페이퍼온넷 RSS 피드 연동 (Del.icio.us)&lt;br /&gt;
+3. &lt;a title=&quot;[http://Photo.ThatILove.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://Photo.ThatILove.com&quot;&gt;Photo.ThatILove.com&lt;/a&gt; - 폰카 사진으로 한국 알리기 (Tumblr)&lt;br /&gt;
+4. &lt;a title=&quot;[http://Food.ThatILove.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://Food.ThatILove.com&quot;&gt;Food.ThatILove.com&lt;/a&gt; - 냠냠 우걱우걱 (Tumblr)&lt;br /&gt;
+5. &lt;a title=&quot;[http://Blog.ThatILove.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://Blog.ThatILove.com&quot;&gt;Blog.ThatILove.com&lt;/a&gt; - 블로그 벤치마킹 (Tumblr)&lt;br /&gt;
+6. &lt;a title=&quot;[http://Social2.0Trend.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://Social2.0Trend.com&quot;&gt;Social2.0Trend.com&lt;/a&gt; - 워드프레스는 테스트중!! (Wordpress)&lt;br /&gt;
+&lt;br /&gt;
+&lt;a title=&quot;[http://www.paperon.net/tag/Anniversary]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://www.paperon.net/tag/Anniversary&quot;&gt;/ 페이퍼온넷 생일 축하 기념 포스팅 &lt;/a&gt;&lt;br /&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-440-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-440-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-440-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/440&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>1_D/I/A/R/Y</category>
+			<category>1207</category>
+			<category>8주년</category>
+			<category>Anniversary</category>
+			<category>Blog</category>
+			<category>history</category>
+			<category>paperon.net</category>
+			<category>페이퍼온넷</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/440</guid>
+			<comments>http://www.paperon.net/440#entry440comment</comments>
+			<pubDate>Fri, 07 Dec 2012 14:32:16 +0900</pubDate>
+		</item>
+		<item>
+			<title>2012.12.05. 업데이트 된 Gmail(지메일), 안드로이드 젤리빈에서 훨씬 부드럽게 동작!!</title>
+			<link>http://www.paperon.net/439</link>
+			<description>&lt;div class=&quot;me2day_daily_digest&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;Android 젤리 빈 업데이트만큼 오래 기다렸던 &lt;a title=&quot;[https://play.google.com/store/apps/details?id=com.google.android.gm]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;https://play.google.com/store/apps/details?id=com.google.android.gm&quot;&gt;Gmail 업데이트&lt;/a&gt;! &amp;gt;_&amp;lt;&lt;span class=&quot;me2_tags&quot;&gt;&lt;br /&gt;
+지금 Android Nexus S에 물려있는 Gmail 계정만 5개!&lt;br /&gt;
+(Android gmail google update apps)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;br /&gt;
+&lt;a href=&quot;http://me2day.net/paper/2012/12/05#00:09:18&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-12-05 00:09:18&lt;/a&gt; &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span class=&quot;me2_tags&quot;&gt;업데이트 이후 우연히 읽은 Gmail 관련 포스팅도 강추!!&lt;br /&gt;
+&lt;a title=&quot;[http://sungmooncho.com/2012/12/04/gmail-and-ajax/]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://sungmooncho.com/2012/12/04/gmail-and-ajax/&quot;&gt;
+지메일이 핫메일을 이긴 진짜 이유 (Ajax가 가져온 유저 인터페이스의 혁신)&lt;/a&gt;&lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121205_286/paper_1354633757716s13Oc_JPEG/paper_2088768012347664462.jpg?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;background:url(http://me2day.net/images/me2day_icon.gif) no-repeat right top;padding-right:25px;text-align:right; font-size: 0.9em;&quot;&gt;이 글은 &lt;a href=&quot;http://me2day.net/paper&quot; target=&quot;_blank&quot;&gt;편집장&lt;/a&gt;님의 &lt;a href=&quot;http://me2day.net/paper/2012/12/05#00:09:18&quot; target=&quot;_blank&quot;&gt;2012년 12월 05일&lt;/a&gt;의 미투데이 내용입니다.&lt;/p&gt;
+&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/439&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>기획_이야기</category>
+			<category>Android</category>
+			<category>gmail</category>
+			<category>Google</category>
+			<category>Jelly Bean</category>
+			<category>Update</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/439</guid>
+			<comments>http://www.paperon.net/439#entry439comment</comments>
+			<pubDate>Thu, 06 Dec 2012 00:30:46 +0900</pubDate>
+		</item>
+		<item>
+			<title>[불편한 진실 : 초코파이] 말하지 않아도 다 알거라더니... 이제와서 까놓고 말하자고?</title>
+			<link>http://www.paperon.net/438</link>
+			<description>오늘 초코파이에 뒷통수를 크게 얻어맞은 것 같은 동영상을 한 편 감상했다. 0_o!&lt;br /&gt;
+관련 동영상까지 관람을 마친 후 이 배신감을 참을 수 없어 블로그에 로그인 하기에 이르렀다.&lt;br /&gt;
+&lt;br /&gt;
+
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/1740074250BB7EE81F8C49&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;chocopie.jpg&quot; height=&quot;250&quot; width=&quot;550&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+우선 영상 한 편 감상하실까??&lt;br /&gt;
+&lt;br /&gt;
+
+&lt;h3&gt;2012년 오리온 초코파이 CF 연인 편&lt;/h3&gt;
+&lt;iframe src=&quot;http://www.youtube.com/embed/kH5ak95HXME&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;338&quot; width=&quot;600&quot;&gt;&lt;/iframe&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+1989년 초코파이는 우리에게 '情'을 컨셉으로 여운이 오래 남는 노래 한 곡을 선사했었다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;blockquote&gt;말하지 않아도 알아요~ &lt;br /&gt;
+눈빛만 보아도 알아. &lt;br /&gt;
+그냥 바라보면 음~ &lt;br /&gt;
+마음속에 있다는걸~ &lt;/blockquote&gt;
+&lt;br /&gt;
+&lt;b&gt;이 CM은 우리나라를 대표하는 감성 CM으로 우리 귀에 딱지 앉을때까지 틀어댔다. &lt;br /&gt;
+초코파이가 무슨 사골도 아닌데 우려먹고 우려먹고...&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+그렇게 23년을 나를 포함해 대한민국 사람들과&lt;br /&gt;
+멀리 외국에까지 '말하지 않아도 알 수 있다'고 했던 초코파이가&lt;br /&gt;
+&lt;b&gt;이전의 광고 캠페인을 확 뒤집는 컨셉을 들고 나왔다.&lt;br /&gt;
+그것도 영상 5편을 동시 개봉하면서 말이다. &lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;blockquote&gt;이제, 말하지 않으면 몰라요. &lt;br /&gt;
+情 때문에 못한 말&lt;br /&gt;
+까놓고 말하자!&lt;/blockquote&gt;
+&lt;br /&gt;
+&lt;h3&gt;2012년 오리온 초코파이 CF 고등학생 편&lt;/h3&gt;
+&lt;iframe src=&quot;http://www.youtube.com/embed/4InNukPWOvA&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;338&quot; width=&quot;600&quot;&gt;&lt;/iframe&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;2012년 오리온 초코파이 CF 엄마와 딸 편&lt;/h3&gt;
+&lt;iframe src=&quot;http://www.youtube.com/embed/-R-TQOXnc70&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;338&quot; width=&quot;600&quot;&gt;&lt;/iframe&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;2012년 오리온 초코파이 CF 부부 편&lt;/h3&gt;
+&lt;iframe src=&quot;http://www.youtube.com/embed/vystsHxgh9U&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;338&quot; width=&quot;600&quot;&gt;&lt;/iframe&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;2012년 오리온 초코파이 CF 푸른거탑 군인 편&lt;/h3&gt;
+&lt;iframe src=&quot;http://www.youtube.com/embed/apMnb-F9oOE&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;338&quot; width=&quot;600&quot;&gt;&lt;/iframe&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;2012년 오리온 초코파이 CF 5편 종합&lt;/h3&gt;
+&lt;iframe src=&quot;http://www.youtube.com/embed/PGAswATikXQ&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;338&quot; width=&quot;600&quot;&gt;&lt;/iframe&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+하지만 광고가 공개되고 이제서야 내 눈에 들어왔다니... 초기 홍보 전략이 부족했단 생각이 드는군. 흠...&lt;br /&gt;
+시대의 흐름에 맞춰 재미있게 탄생한 유쾌한 감성 스토리에 박수!!&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;하지만 이 배신감 어쩌지?? 0_o!!&lt;br /&gt;
+지금까지 내 마음 다 알 거라고 생각하고 말하지도 않았었는데. 아흑! T^T&lt;/b&gt;&lt;br /&gt;
+&lt;br /&gt;
+
+
+
+&lt;br /&gt;
+&lt;div style=&quot;border-style: solid; border-width: 2px; border-color: rgb(227, 22, 0); background-color: rgb(255, 255, 255); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;
+&lt;b&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;background-color: rgb(212, 42, 27);&quot;&gt;오리온 초코파이 CF 더 보기&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;br /&gt;
+&lt;font color=&quot;#e31600&quot;&gt;&lt;br /&gt;
+1989년 오리온 초코파이 CF 스승과 제자 편&lt;/font&gt;&lt;br /&gt;
+&lt;iframe src=&quot;http://www.youtube.com/embed/IlcWqG0U9TQ&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;326&quot; width=&quot;580&quot;&gt;&lt;/iframe&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;font color=&quot;#e31600&quot;&gt;2010년 오리온 초코파이 CF 정타임 김갑수 편&lt;/font&gt;&lt;br /&gt;
+&lt;iframe src=&quot;http://www.youtube.com/embed/OZ_C_8tWBeU&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;435&quot; width=&quot;580&quot;&gt;&lt;/iframe&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;font color=&quot;#e31600&quot;&gt;2011년 오리온 초코파이 CF 파이로드를 따라 지구와 情을 맺다 편&lt;/font&gt;&lt;br /&gt;
+&lt;iframe src=&quot;http://www.youtube.com/embed/xGMDKaof1Ho&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;326&quot; width=&quot;580&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-438-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-438-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-438-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/438&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>기획_이야기</category>
+			<category>CF</category>
+			<category>CM</category>
+			<category>情</category>
+			<category>광고</category>
+			<category>까놓고 말하자</category>
+			<category>말하지 않아도 알아요</category>
+			<category>정</category>
+			<category>초코파이</category>
+			<category>캠페인</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/438</guid>
+			<comments>http://www.paperon.net/438#entry438comment</comments>
+			<pubDate>Mon, 03 Dec 2012 01:37:51 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Dog Ears] 이병률 여행 산문집 &lt;끌림&gt; 읽고 떠나볼까??</title>
+			<link>http://www.paperon.net/436</link>
+			<description>다른 책을 사려고 들어간 서점에서 여행 사진에 끌려 이병률 산문집 &amp;lt;끌림&amp;gt;을 사 들고 나왔다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;blockquote&gt;나는 여행하면서 이런 것들을 가지고 다니는 사람이 여전히 신기하다.&lt;br /&gt;
+&lt;br /&gt;
+- 트렁크 가득한 책.&lt;br /&gt;
+(게다가 그걸 다 읽고 버리고 가는 사람은 존경스럽기까지 하다.)&lt;br /&gt;
+- 평소 즐겨 먹던 원두커피.&lt;br /&gt;
+- 두툼한 일기장.&lt;br /&gt;
+- 잠옷.&lt;br /&gt;
+- 애인.&lt;br /&gt;
+&lt;br /&gt;
+이병률 산문집 &amp;lt;&lt;b&gt;끌림&lt;/b&gt;&amp;gt; 중에서&lt;/blockquote&gt;
+&lt;br /&gt;
+음... 생각해보니, 나의 여행 필수품은 전기를 먹는 녀석들이군. 휴대폰, 카메라, 노트북 컴퓨터... &lt;br /&gt;
+다음 여행엔 노트랑 펜을 가지고 가는 것도 좋겠다. &amp;gt;_&amp;lt; 전기 안 먹는 녀석으로...&lt;br /&gt;
+물론, 카메라, 휴대폰을 두고 가진 않겠지만...&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/145B923650B7516A257F92&quot; alt=&quot;이병률 산문집 &amp;#39;끌림&amp;#39; 읽고 떠나볼까??&quot; filemime=&quot;&quot; filename=&quot;cfile6.uf@145B923650B7516A257F92.jpg&quot; height=&quot;450&quot; width=&quot;600&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;Epilogue 뒤를 장식하고 있는 '카메라 노트'&lt;/p&gt;&lt;/div&gt;&amp;nbsp;
+&lt;br /&gt;
+&lt;blockquote&gt;거기, 길이 있었다. 기분 좋은 일이 일어날 것 같고, 운수 좋은 일이 닥칠 것 같은 길이었다. 애초부터 그 길을 가려고 한 건 아니었다. 다른 길로 가려 했지만 뭔가 자꾸 잡아당기는 기분이 들었던 길. 그래도 그 길로 들어서지는 않았다. 다른 길로 가다 보니 어느새 길은, 이쪽 길로 이어져 있었다. 다른 길로 가도 한 길이 되는 길의 운명. 길의 자유. 그 길 위에 나는 서 있었다. 그 길에 서 있음으로써 나는 살 것 같았다.&lt;br /&gt;
+&lt;br /&gt;
+이병률 산문집 &amp;lt;&lt;b&gt;끌림&lt;/b&gt;&amp;gt;의 Epiloque 중에서&lt;/blockquote&gt;
+&lt;br /&gt;
+'가지 않은 길'에 대한 기대감, 아쉬움은 누구나 있지 않을까?&lt;br /&gt;
+그때 내가 밀어냈던 그 사람, 부족한 재능 때문에 접어야 했던 내 꿈, 하고 있는 일과는 성격이 너무 다른 그 일자리...&lt;br /&gt;
+지금과 다른 그 길을 가는 나를 가끔 상상해보지만...&lt;br /&gt;
+글쎄, 크게 다르지는 않을 것 같다는 생각이 든다. 그 길을 터벅터벅 걸어가야 하는 사람이 바로 '나'이기 때문에??&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/1173913650B7516A14DBA2&quot; alt=&quot;이병률 산문집 &amp;#39;끌림&amp;#39; 읽고 떠나볼까??&quot; filemime=&quot;&quot; filename=&quot;cfile2.uf@1173913650B7516A14DBA2.jpg&quot; height=&quot;450&quot; width=&quot;600&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;이병률 여행 산문집 '끌림'&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-436-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-436-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-436-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/436&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>1_D/I/A/R/Y</category>
+			<category>Dog Ears</category>
+			<category>끌림</category>
+			<category>도서</category>
+			<category>산문</category>
+			<category>수필</category>
+			<category>여행</category>
+			<category>여행 사진</category>
+			<category>이병률</category>
+			<category>책</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/436</guid>
+			<comments>http://www.paperon.net/436#entry436comment</comments>
+			<pubDate>Fri, 30 Nov 2012 09:28:05 +0900</pubDate>
+		</item>
+		<item>
+			<title>2012.11.29. 야후! 코리아 서비스 종료에 따른 Flickr(플리커) 계정 이전 안내!!</title>
+			<link>http://www.paperon.net/437</link>
+			<description>&lt;div class=&quot;me2day_daily_digest&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;야후! 코리아의 서비스 종료로 Flickr(플리커)를 한국 계정으로 가입하신 분들은&lt;br /&gt;
+계정을 Yahoo! 본사로 이전해야 한다는군요. 0_o&lt;br /&gt;
+Flickr 로그인 하시고 &lt;a title=&quot;[http://www.flickr.com/korea_notice]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://www.flickr.com/korea_notice&quot;&gt;http://www.flickr.com/korea_notice&lt;/a&gt; 페이지에서 확인하세요.&lt;br /&gt;
+계정 이전은 12월 1일부터!!&lt;br /&gt;
+&lt;span class=&quot;me2_tags&quot;&gt;(yahoo! flickr notice account)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/11/29#09:40:25&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-11-29 09:40:25&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121129_41/paper_1354149514569QKURl_PNG/paper_9083679768590742535.png?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;background:url(http://me2day.net/images/me2day_icon.gif) no-repeat right top;padding-right:25px;text-align:right; font-size: 0.9em;&quot;&gt;이 글은 &lt;a href=&quot;http://me2day.net/paper&quot; target=&quot;_blank&quot;&gt;편집장&lt;/a&gt;님의 &lt;a href=&quot;http://me2day.net/paper/2012/11/29#09:40:25&quot; target=&quot;_blank&quot;&gt;2012년 11월 29일&lt;/a&gt;의 미투데이 내용입니다.&lt;/p&gt;
+&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/437&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>기획_이야기</category>
+			<category>flickr</category>
+			<category>Yahoo</category>
+			<category>Yahoo Korea</category>
+			<category>야후</category>
+			<category>야후 코리아</category>
+			<category>플리커</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/437</guid>
+			<comments>http://www.paperon.net/437#entry437comment</comments>
+			<pubDate>Fri, 30 Nov 2012 00:16:38 +0900</pubDate>
+		</item>
+		<item>
+			<title>2012.11.27. 애플리케이션 업데이트 빈도, 조절이 필요할까?</title>
+			<link>http://www.paperon.net/435</link>
+			<description>&lt;div class=&quot;me2day_daily_digest&quot;&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a title=&quot;[http://facebook.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://facebook.com&quot;&gt;Facebook&lt;/a&gt;, Adobe Ideas, &lt;a title=&quot;[http://storify.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://storify.com&quot;&gt;Storify&lt;/a&gt;. 내가 좋아하는 앱 3개가 동시 업데이트. &amp;gt;_&amp;lt;&lt;span class=&quot;me2_tags&quot;&gt; 사용자들이 계속 앱을 이용하게 하려면 앱 업데이트 빈도도 적당히 조절야 할 듯. 너무 뜸하면 사용자 사용 비율 떨어지고, 너무 잦으면 앱 완성도 떨어져 보여. 0_o! &lt;br /&gt;
+(facebook adobe_idea storify apps update)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/11/27#16:35:37&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-11-27 16:35:37&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121127_200/paper_13540017377086pcS8_PNG/paper_8047569414065752103.png?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot;background:url(http://me2day.net/images/me2day_icon.gif) no-repeat right top;padding-right:25px;text-align:right; font-size: 0.9em;&quot;&gt;이 글은 &lt;a href=&quot;http://me2day.net/paper&quot; target=&quot;_blank&quot;&gt;편집장&lt;/a&gt;님의 &lt;a href=&quot;http://me2day.net/paper/2012/11/27#16:35:37&quot; target=&quot;_blank&quot;&gt;2012년 11월 27일&lt;/a&gt;의 미투데이 내용입니다.&lt;/p&gt;
+&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/435&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>1_D/I/A/R/Y</category>
+			<category>adobe ideas</category>
+			<category>apps</category>
+			<category>facebook</category>
+			<category>ipad</category>
+			<category>me2day</category>
+			<category>storify</category>
+			<category>Update</category>
+			<category>업데이트</category>
+			<category>페이스북</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/435</guid>
+			<comments>http://www.paperon.net/435#entry435comment</comments>
+			<pubDate>Wed, 28 Nov 2012 01:14:38 +0900</pubDate>
+		</item>
+		<item>
+			<title>가을 하늘에 빠져들다</title>
+			<link>http://www.paperon.net/434</link>
+			<description>&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/0248243F50B4256D01FE8F&quot; alt=&quot;가을 하늘에 빠져들다&quot; filemime=&quot;&quot; filename=&quot;cfile8.uf@0248243F50B4256D01FE8F.jpg&quot; height=&quot;450&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+11월의 마지막 주의 시작!&lt;br /&gt;
+&lt;br /&gt;
+아침부터 쌀쌀한 바람에&lt;br /&gt;
+하늘도 긴장했는지&lt;br /&gt;
+맑은 하늘에 아주 가끔 구름만&lt;br /&gt;
+가을 하늘의 높이를 짐작할 수 있도록&lt;br /&gt;
+가늠자처럼 하늘 높은 곳에 박혀 있었다.&lt;br /&gt;
+&lt;br /&gt;
+바람은 차가워도 고개를 들면 맑은 하늘을 볼 수 있어서&lt;br /&gt;
+늦가을 혹은 초겨울 날씨를 즐길 수 있었는데...&lt;br /&gt;
+&lt;br /&gt;
+해가 짧아진 만큼 가을 하늘의 미소도 짧아졌다.&lt;br /&gt;
+가을 하늘에 봄의 따뜻한 미소를 기대하지 않아야겠지.&lt;br /&gt;
+&lt;br /&gt;
+그냥 가끔 고개를 들었을 때&lt;br /&gt;
+맑게 갠 하늘을 볼 수 있었으면...&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-434-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-434-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-434-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/434&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>멀리서_보기</category>
+			<category>photo essay</category>
+			<category>가을</category>
+			<category>가을 하늘</category>
+			<category>사진</category>
+			<category>포토 에세이</category>
+			<category>하늘</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/434</guid>
+			<comments>http://www.paperon.net/434#entry434comment</comments>
+			<pubDate>Tue, 27 Nov 2012 01:41:39 +0900</pubDate>
+		</item>
+		<item>
+			<title>2012.11.22. NIKE+와 함께한 '500km 달리기 프로젝트' 종료</title>
+			<link>http://www.paperon.net/433</link>
+			<description>&lt;div class=&quot;me2day_daily_digest&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;7월말에 갑자기 시작한 '500km 달리기 프로젝트'를 종료합니다. &amp;gt;_&amp;lt;&lt;span class=&quot;me2_tags&quot;&gt;(500km 돌파 인증샷 nike+)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/11/22#01:11:58&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-11-22 01:11:58&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121122_29/paper_1353514317377xerwO_JPEG/paper_4966961538379323555.jpg?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;[500km 달리기 프로젝트] 총 97회 / 총 502.1km / 평균 5.1km&lt;span class=&quot;me2_tags&quot;&gt;(nike+ 500km 달리기)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/11/22#01:35:07&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-11-22 01:35:07&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121122_56/paper_1353515707341clsrx_PNG/paper_4164728823106428803.png?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;[500km 달리기 프로젝트] 최장 러닝 20.02km /최장 운동 기록 2:11:59…&lt;span class=&quot;me2_tags&quot;&gt;(500km 달리기 nike+)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/11/22#01:38:07&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-11-22 01:38:07&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121122_68/paper_1353515887336fo8QU_PNG/paper_6010431867167594603.png?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;500km 돌파의 순간! 잘 달렸어. 토닥토닥! &amp;gt;_&amp;lt;&lt;span class=&quot;me2_tags&quot;&gt;(500km 달리기 nike+ shadow_man)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/11/22#09:17:02&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-11-22 09:17:02&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121122_196/paper_1353543394294SKcUw_JPEG/paper_1354793577180915467.jpg?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;냠냠… &amp;gt;_&amp;lt;&lt;span class=&quot;me2_tags&quot;&gt; (500km 달리기 축하 케익 감사 냠냠 식미투)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/11/22#12:01:20&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-11-22 12:01:20&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121122_299/paper_1353553252449oelSF_JPEG/paper_1337199101323281716.jpg?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;background:url(http://me2day.net/images/me2day_icon.gif) no-repeat right top;padding-right:25px;text-align:right; font-size: 0.9em;&quot;&gt;이 글은 &lt;a href=&quot;http://me2day.net/paper&quot; target=&quot;_blank&quot;&gt;편집장&lt;/a&gt;님의 &lt;a href=&quot;http://me2day.net/paper/2012/11/22#23:46:30&quot; target=&quot;_blank&quot;&gt;2012년 11월 22일&lt;/a&gt;의 미투데이 내용입니다.&lt;/p&gt;
+&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/433&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>1_D/I/A/R/Y</category>
+			<category>500km</category>
+			<category>Android</category>
+			<category>ipad</category>
+			<category>Nike+</category>
+			<category>Running</category>
+			<category>달리기</category>
+			<category>인증샷</category>
+			<category>종료</category>
+			<category>축하</category>
+			<category>케익</category>
+			<category>편집장</category>
+			<category>프로젝트</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/433</guid>
+			<comments>http://www.paperon.net/433#entry433comment</comments>
+			<pubDate>Fri, 23 Nov 2012 06:48:08 +0900</pubDate>
+		</item>
+		<item>
+			<title>2012.11.21. Curation Service Storify.com 메인 페이지 개편</title>
+			<link>http://www.paperon.net/432</link>
+			<description>&lt;div class=&quot;me2day_daily_digest&quot;&gt;
+&lt;ul&gt;&lt;li&gt;Social Curation Service, Storify.com 메인 페이지 개편!&lt;span class=&quot;me2_tags&quot;&gt;(storify social curation renewal 개편)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/11/21#17:12:09&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-11-21 17:12:09&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121121_144/paper_1353485454102iOAbT_PNG/paper_3008362313549547572.png?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;&lt;li&gt;&lt;a title=&quot;[http://Storify.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://Storify.com&quot;&gt;Storify.com&lt;/a&gt; 의 프로필 개선, 검색 집중, 미디어 파일 활용에 대한 개선안을 자세히 보려면 &lt;a title=&quot;[http://storify.com/storify/storify-launches-redesigned-site-around-media-sear]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://storify.com/storify/storify-launches-redesigned-site-around-media-sear&quot;&gt;Storify 블로그&lt;/a&gt;를 방문하세요.&lt;br /&gt;
+&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot;background:url(http://me2day.net/images/me2day_icon.gif) no-repeat right top;padding-right:25px;text-align:right; font-size: 0.9em;&quot;&gt;이 글은 &lt;a href=&quot;http://me2day.net/paper&quot; target=&quot;_blank&quot;&gt;편집장&lt;/a&gt;님의 &lt;a href=&quot;http://me2day.net/paper/2012/11/21#17:12:09&quot; target=&quot;_blank&quot;&gt;2012년 11월 21일&lt;/a&gt;의 미투데이 내용입니다.&lt;/p&gt;
+&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/432&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>1_D/I/A/R/Y</category>
+			<category>Curation</category>
+			<category>renewal</category>
+			<category>social</category>
+			<category>storify</category>
+			<category>개편</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/432</guid>
+			<comments>http://www.paperon.net/432#entry432comment</comments>
+			<pubDate>Thu, 22 Nov 2012 11:54:53 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Dog Ears] 오랜만에 펼쳐든 소설책! 알랭 드 보통 &lt;우리는 사랑일까&gt;</title>
+			<link>http://www.paperon.net/431</link>
+			<description>요즘 나 자신도 정리할 수 없었던 이상한 심리 상태를 우연히 소설책 주인공의 심리 묘사에서 찾을 수 있었다.&lt;br /&gt;
+&lt;br /&gt;
+ &lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/17412F4850A9A1AE37635A&quot; alt=&quot;알랭 드 보통 &amp;#39;우리는 사랑일까&amp;#39;&quot; filemime=&quot;&quot; filename=&quot;cfile25.uf@17412F4850A9A1AE37635A.jpg&quot; height=&quot;450&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;blockquote&gt;한 시간 후 앨리스는 침대에 누워서, 왜 기분이 산산이 찢겨버렸는지 씁쓸하게 생각했다. 갈라진 기분은 수많은 TV 채널 같았다. 까다로운 악마가 영원토록 리모컨 위에서 요리조리 헤집고 다니는.&lt;br /&gt;
+&lt;br /&gt;
+앨리스에게 '자아 발견이란' 그 중의 한 자아를 찾는다는 의미였다. 이 지긋지긋한 빨래건조기를 멈추고, 어느 정도 안정감과 평온을 줄 수 있는 채널을 찾는 것이다. &lt;br /&gt;
+&lt;br /&gt;
+알랭 드 보통 &amp;lt;우리는 사랑일까&amp;gt; 중에서&lt;br /&gt;
+&lt;/blockquote&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/1668D64850A9A1AE2F9ED7&quot; alt=&quot;알랭 드 보통 &amp;#39;우리는 사랑일까&amp;#39;&quot; filemime=&quot;&quot; filename=&quot;cfile22.uf@1668D64850A9A1AE2F9ED7.jpg&quot; height=&quot;450&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+난 자신감과 유쾌함을 줄 수 있는 채널을 찾고 있는 게 아닌가 생각한다. 그래서 시원한 초겨울 바람을 가르며 땀을 흘리고 있는지도 모르겠다. 달리는 동안은 적어도 그 까다로운 악마가 리모컨을 헤집고 다니진 못 하는 것 같거든.&lt;br /&gt;
+&lt;br /&gt;
+&lt;blockquote&gt;전쟁에서는 도시의 방어벽을 무너뜨리거나 비행장에 폭탄을 투하할 수 있는 쪽이 힘이 있다. 경제계에서는 주식을 사들여서 시장을 공략할 수 있는 편이 힘이 있다. 권투에서는 주먹을 날려 상대방을 뻗게 하는 편이 힘이 있다. 하지만 사랑에서는 권력이 훨씬 수동적이고 부정적인 정의에 의존하는 것 같다. 사랑에서는 권력이 무엇을 할 수 있는 능력이 아니라, 아무것도 안 해도 되는 능력으로 간주된다. &lt;br /&gt;
+&lt;br /&gt;
+알랭 드 보통 &amp;lt;우리는 사랑일까&amp;gt; 중에서&lt;/blockquote&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/1779A04850A9A1AD2B26F2&quot; alt=&quot;알랭 드 보통 &amp;#39;우리는 사랑일까&amp;#39;&quot; filemime=&quot;&quot; filename=&quot;cfile29.uf@1779A04850A9A1AD2B26F2.jpg&quot; height=&quot;450&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+두 사람이 가지고 있는 사랑의 크기, 사랑의 시작점과 끝점, 사랑의 방향 또, 사랑의 표현력에서 항상 균형을 이루었다면 이 세상에 예술 작품들이 탄생할 수 있었을까? &lt;br /&gt;
+&lt;br /&gt;
+정도의 차이가 있을 뿐 사랑은 언제나 불.균.형!&lt;br /&gt;
+&lt;br /&gt;
+내가 더 많이 사랑하는 '을'이면서도 아닌척! 내가 훨씬 더 먼저 사랑했으면서도 '갑'인척! 그러다가 놓쳐버릴지도 몰라. 힘의 논리로 따지지 말고, 사랑한다면 맘껏 사랑하는 걸로...&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/1954AD4850A9A1AD36DF0B&quot; alt=&quot;알랭 드 보통 &amp;#39;우리는 사랑일까&amp;#39;&quot; filemime=&quot;&quot; filename=&quot;cfile23.uf@1954AD4850A9A1AD36DF0B.jpg&quot; height=&quot;450&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+*&lt;b&gt; Dog Ears&lt;/b&gt;는 책 페이지의 상단을 접어서 북마크를 해둔 모양이 개의 귀를 닮았다는 데서 나온 단어입니다. 하지만 책방 아들답게 책의 페이지를 접거나 구기지는 않습니다.&lt;b&gt; Dog Ears&lt;/b&gt;는 제가 좋아하는 페이지의 내용을 모아놓은 태그로 생각해주세요.&lt;br /&gt;
+&lt;br /&gt;
+** 지난번 PAPER 동호회 &amp;lt;종이향기&amp;gt; 오프 모임에서 선물 받은 &amp;lt;&lt;b&gt;우리는 사랑일까&lt;/b&gt;&amp;gt;은 1판 32쇄인데, 32쇄가 나올 때까지 무수히 많은 수정이 있었네요. 다른 폰트로 수정해 놓은 덕분에 읽기가 참 불편했었네요. 지금 사서 보시는 분들은 2판으로 구매하실 수 있으실 듯...&lt;br /&gt;
+&lt;br /&gt;
+*** 포스팅에 올라간 사진들은 안드로이드 레퍼런스 폰 Nexus S로 촬영한 사진입니다. 폰카가 디카를 대신하는 시대!&lt;br /&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-175180-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+&lt;/script&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-431-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-431-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-431-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/431&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>1_D/I/A/R/Y</category>
+			<category>Dog Ears</category>
+			<category>도서</category>
+			<category>불균형</category>
+			<category>사랑</category>
+			<category>알랭 드 보통</category>
+			<category>우리는 사랑일까</category>
+			<category>자아발견</category>
+			<category>책</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/431</guid>
+			<comments>http://www.paperon.net/431#entry431comment</comments>
+			<pubDate>Mon, 19 Nov 2012 12:10:04 +0900</pubDate>
+		</item>
+		<item>
+			<title>2012.11.16. 맥용 에버노트 5 (Evernote 5 for Mac) Update!!</title>
+			<link>http://www.paperon.net/430</link>
+			<description>&lt;div class=&quot;me2day_daily_digest&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;오래 기다렸다!! Mac용 Evernote Update! 0_o!&lt;span class=&quot;me2_tags&quot;&gt;(Mac Evernote update apps)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/11/16#11:22:09&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-11-16 11:22:09&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121116_267/paper_1353032501111tDrGM_PNG/paper_2726434951750001912.png?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Mac용 Evernote 5의 새로운 기능&lt;/h3&gt;
+&lt;br /&gt;
+&lt;a title=&quot;[http://www.youtube.com/watch?v=_9tHtxOCvy4]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://www.youtube.com/watch?v=_9tHtxOCvy4&quot;&gt;/ What's New In Evernote 5 For Mac&lt;/a&gt;&lt;br /&gt;
+&lt;iframe src=&quot;http://www.youtube.com/embed/_9tHtxOCvy4&quot; allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; height=&quot;338&quot; width=&quot;600&quot;&gt;&lt;/iframe&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href=&quot;http://evernote.com/intl/ko/evernote/whats_new/mac/&quot; target=&quot;_blank&quot;&gt;/ Mac용 Evernote 5의 새로운 기능 자세히 보기 (Evernote 공식 블로그)&lt;/a&gt;
+&lt;p style=&quot;background:url(http://me2day.net/images/me2day_icon.gif) no-repeat right top;padding-right:25px;text-align:right; font-size: 0.9em;&quot;&gt;이 글은 &lt;a href=&quot;http://me2day.net/paper&quot; target=&quot;_blank&quot;&gt;편집장&lt;/a&gt;님의 &lt;a href=&quot;http://me2day.net/paper/2012/11/16#11:22:09&quot; target=&quot;_blank&quot;&gt;2012년 11월 16일&lt;/a&gt;의 미투데이 내용입니다.&lt;/p&gt;
+&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-175180-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+&lt;/script&gt;&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/430&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>1_D/I/A/R/Y</category>
+			<category>EverNote</category>
+			<category>Mac</category>
+			<category>Update</category>
+			<category>맥</category>
+			<category>에버노트</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/430</guid>
+			<comments>http://www.paperon.net/430#entry430comment</comments>
+			<pubDate>Sat, 17 Nov 2012 07:32:16 +0900</pubDate>
+		</item>
+		<item>
+			<title>2012.11.09. 텀블러(Tumblr), 에버노트(Evernote) iPad 앱 업데이트!!</title>
+			<link>http://www.paperon.net/429</link>
+			<description>&lt;div class=&quot;me2day_daily_digest&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;Tumblr 앱 업데이트! 업데이트 될 때마다 기능 하나씩 축소 했었는데… 오늘은 웹이랑 비슷하게 업데이트 했단다. iPad용으로 앱으로 출시만 되어준다면… &amp;gt;_&amp;lt;&lt;span class=&quot;me2_tags&quot;&gt;(tumblr apps update ipad iphone)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/11/08#23:12:47&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-11-08 23:12:47&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121108_43/paper_1352383967604jxLeP_PNG/paper_6880873590458484557.png?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Evernote 앱도 업데이트 되었습니다. 전혀 새로운 모습! 0_o! 오홋!&lt;span class=&quot;me2_tags&quot;&gt;(evernote apps update ipad)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/11/09#03:22:42&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-11-09 03:22:42&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121109_282/paper_1352398962066R5ya6_PNG/paper_1279539539671701798.png?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;background:url(http://me2day.net/images/me2day_icon.gif) no-repeat right top;padding-right:25px;text-align:right; font-size: 0.9em;&quot;&gt;이 글은 &lt;a href=&quot;http://me2day.net/paper&quot; target=&quot;_blank&quot;&gt;편집장&lt;/a&gt;님의 &lt;a href=&quot;http://me2day.net/paper/2012/11/09#03:22:42&quot; target=&quot;_blank&quot;&gt;2012년 11월 09일&lt;/a&gt;의 미투데이 내용입니다.&lt;/p&gt;
+&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/429&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>1_D/I/A/R/Y</category>
+			<category>apps</category>
+			<category>EverNote</category>
+			<category>ipad</category>
+			<category>tumblr</category>
+			<category>Update</category>
+			<category>업데이트</category>
+			<category>에버노트</category>
+			<category>텀블러</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/429</guid>
+			<comments>http://www.paperon.net/429#entry429comment</comments>
+			<pubDate>Sat, 10 Nov 2012 13:32:47 +0900</pubDate>
+		</item>
+		<item>
+			<title>'소박한 생활 속 평범한 행복' 출판사 미디어브레인의 첫 출판 도전!!</title>
+			<link>http://www.paperon.net/428</link>
+			<description>기업 소셜 채널을 운영하면, 콘텐츠 발행량, 블로그 유입수 같은 정량분석에만 혈안이 되어있는 것 같아 안타까울 때가 많습니다. 정량 분석에 포커스를 두고 1년, 2년 운영하다 보면, 초심을 잃고 생각하지 않던 엉뚱한 방향으로 내달리고 있다는 느낌을 받을 때가 많지요. &lt;br /&gt;
+&lt;br /&gt;
+SK그룹에서는 '&lt;a title=&quot;[http://행복블로그]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://행복블로그&quot;&gt;&lt;/a&gt;&lt;a title=&quot;[http://blog.sk.com]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://blog.sk.com&quot;&gt;행복 블로그&lt;/a&gt;'란 주제로 첫 시작부터 행복한 사람들과 행복에 관한 이야기를 나누는 블로그로 시작했습니다. 그렇게 3년을 운영하면서 블로그에 올렸던 &lt;a title=&quot;[http://blog.sk.com/category/%ED%96%89%EB%B3%B5%20PEOPLE]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://blog.sk.com/category/%ED%96%89%EB%B3%B5%20PEOPLE&quot;&gt;행복한 사람들의 이야기&lt;/a&gt;가 한 권의 책으로 엮어졌네요.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/0178933D509CD4BF17D9DA&quot; alt=&quot;&amp;#39;소박한 생활 속 평범한 행복&amp;#39; 출판사 미디어브레인의 첫 출판 도전!!&quot; filemime=&quot;&quot; filename=&quot;cfile4.uf@0178933D509CD4BF17D9DA.jpg&quot; height=&quot;450&quot; width=&quot;600&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;보통사람 100명의 행복이야기를 담은 '소박한 생활 속 평범한 행복'&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+소셜은 참 빠릅니다.&lt;br /&gt;
+그 안에 담기는 이야기도 빨라야 좋은 걸까요?&lt;br /&gt;
+&lt;b&gt;빠른 이야기&lt;/b&gt;보다 &lt;b&gt;바른 이야기&lt;/b&gt;가 올라가야 하지 않을까요? &lt;br /&gt;
+&lt;br /&gt;
+오늘 올리는 하나의 콘텐츠가 2 ~ 3년 후 각자 운영하는 소셜 채널의 얼굴이 된다는 사실을 좀 더 깊이 생각할 수 있으면 좋겠습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/1307EB3D509CD4BF07BE1C&quot; alt=&quot;&amp;#39;소박한 생활 속 평범한 행복&amp;#39; 출판사 미디어브레인의 첫 출판 도전!!&quot; filemime=&quot;&quot; filename=&quot;cfile5.uf@1307EB3D509CD4BF07BE1C.jpg&quot; height=&quot;450&quot; width=&quot;600&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;행복피플 에코님의 이야기&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/190AD63D509CD4BF031075&quot; alt=&quot;&amp;#39;소박한 생활 속 평범한 행복&amp;#39; 출판사 미디어브레인의 첫 출판 도전!!&quot; filemime=&quot;&quot; filename=&quot;cfile24.uf@190AD63D509CD4BF031075.jpg&quot; height=&quot;450&quot; width=&quot;600&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;행복피플 제닉스님의 이야기&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;h3&gt;&amp;lt;소박한 생활 속 평범한 행복&amp;gt;은...&lt;/h3&gt;SK 그룹에서 &lt;a title=&quot;[http://blog.sk.com/1034]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://blog.sk.com/1034&quot;&gt;행복블로그&lt;/a&gt;에 올린 콘텐츠를 최초로 책으로 묶어낸 의미있는 책입니다. 또, 미디어브레인이 출판사로 등록한 후 최초로 발간한 책이란 것도 의미있네요. 원고만 작성하고 다른 출판사를 통해 출판한 경험은 있었지만, 출판사로 &lt;b&gt;미디어브레인&lt;/b&gt; 이름을 달고 나온 첫 책이라 적지 않은 시행착오도 있었네요. 책 출간까지 고생하신 많은 브레인들 고맙습니다. 책이 나오기까지 인내심을 갖고 기다려주신 SK 그룹 담당자분께도 감사드립니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;h3&gt;미디어브레인 관련 서적&lt;/h3&gt;
+&lt;br /&gt;
+&lt;table key=&quot;0FyWy&quot; category=&quot;book_detail&quot; openpost=&quot;false&quot; style=&quot;border:1px #F3F3F3 solid; background-color:#ffffff; line-height:16px !important;&quot; border=&quot;0&quot; cellpadding=&quot;12&quot; cellspacing=&quot;0&quot; height=&quot;105&quot; width=&quot;600&quot;&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td style=&quot;padding-bottom:0px&quot;&gt;
+ &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;350&quot;&gt;
+ &lt;tbody&gt;&lt;tr&gt;
+  &lt;td valign=&quot;top&quot; width=&quot;68&quot;&gt;&lt;a href=&quot;http://book.daum.net/detail/book.do?bookid=KOR9788995831762&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://book.daum-img.net/R72x100/KOR9788995831762&quot; border=&quot;0&quot; height=&quot;80&quot; width=&quot;55&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+ 
+  &lt;td width=&quot;12&quot;&gt;&lt;br /&gt;
+&lt;/td&gt;
+  &lt;td valign=&quot;top&quot; width=&quot;278&quot;&gt;
+   &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
+   &lt;tbody&gt;&lt;tr&gt;
+    &lt;th colspan=&quot;2&quot; align=&quot;left&quot; height=&quot;18&quot; valign=&quot;top&quot;&gt;
+     &lt;font style=&quot;font-size:12px; font-weight:bold; color:#333333; font-family:굴림,gulim,sans-serif;&quot;&gt;&lt;a style=&quot;color:#333333 !important;text-decoration:none !important;&quot; href=&quot;http://book.daum.net/detail/book.do?bookid=KOR9788995831762&quot; target=&quot;_blank&quot;&gt;웹3.0우리들의생활을바꾸는15개의새로운세계&lt;/a&gt;&lt;/font&gt;
+    &lt;/th&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td align=&quot;left&quot; height=&quot;18&quot; valign=&quot;top&quot; width=&quot;55&quot;&gt;
+     &lt;font style=&quot;font-size:12px; color:#999999; font-family:굴림,gulim,sans-serif; line-height:1.4;&quot;&gt;카테고리&lt;/font&gt;
+    &lt;/td&gt;
+    &lt;td align=&quot;left&quot; height=&quot;18&quot; valign=&quot;top&quot;&gt;
+     &lt;span style=&quot;display:block; float:left; height:14px; overflow:hidden; text-overflow:ellipsis;&quot;&gt;&lt;font style=&quot;font-size:12px; color:#333333; font-family:굴림,gulim,sans-serif; line-height:1.4;&quot;&gt;경제/경영 &amp;gt; 경영전략&lt;/font&gt;&lt;/span&gt;
+    &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td align=&quot;left&quot; height=&quot;36&quot; valign=&quot;top&quot; width=&quot;55&quot;&gt;
+     &lt;font style=&quot;font-size:12px; color:#999999; font-family:굴림,gulim,sans-serif; line-height:1.4;&quot;&gt;지은이&lt;/font&gt;
+    &lt;/td&gt;
+    &lt;td align=&quot;left&quot; height=&quot;36&quot; valign=&quot;top&quot;&gt;
+     &lt;span style=&quot;display:block; float:left; height:14px; overflow:hidden; text-overflow:ellipsis;&quot;&gt;&lt;font style=&quot;font-size:12px; color:#333333; font-family:굴림,gulim,sans-serif; line-height:1.4;&quot;&gt;팀 웹북 (라이온북스, 2008년)&lt;/font&gt;&lt;/span&gt;
+    &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td colspan=&quot;2&quot; align=&quot;left&quot; valign=&quot;top&quot;&gt;
+     &lt;a style=&quot;padding:0px 5px 0px 0px; background:url(http://deco.daum-img.net/contents/info/ic_more.gif) no-repeat 100% 3px; font-size:11px; color:#999999 !important; font-family:돋움,dotum,verdana; text-decoration:underline;&quot; href=&quot;http://book.daum.net/detail/book.do?bookid=KOR9788995831762&quot; target=&quot;_blank&quot;&gt;상세보기&lt;/a&gt;
+    &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/tbody&gt;&lt;/table&gt;
+  &lt;/td&gt;
+ 
+ &lt;/tr&gt;
+&lt;/tbody&gt;
+ &lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;table key=&quot;0HDjv&quot; category=&quot;book_detail&quot; openpost=&quot;false&quot; style=&quot;border:1px #F3F3F3 solid; background-color:#ffffff; line-height:16px !important;&quot; border=&quot;0&quot; cellpadding=&quot;12&quot; cellspacing=&quot;0&quot; height=&quot;105&quot; width=&quot;600&quot;&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td style=&quot;padding-bottom:0px&quot;&gt;
+ &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;350&quot;&gt;
+ &lt;tbody&gt;&lt;tr&gt;
+  &lt;td valign=&quot;top&quot; width=&quot;68&quot;&gt;&lt;a href=&quot;http://book.daum.net/detail/book.do?bookid=KOR9788996201120&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://book.daum-img.net/R72x100/KOR9788996201120&quot; border=&quot;0&quot; height=&quot;80&quot; width=&quot;55&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+ 
+  &lt;td width=&quot;12&quot;&gt;&lt;br /&gt;
+&lt;/td&gt;
+  &lt;td valign=&quot;top&quot; width=&quot;278&quot;&gt;
+   &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
+   &lt;tbody&gt;&lt;tr&gt;
+    &lt;th colspan=&quot;2&quot; align=&quot;left&quot; height=&quot;18&quot; valign=&quot;top&quot;&gt;
+     &lt;font style=&quot;font-size:12px; font-weight:bold; color:#333333; font-family:굴림,gulim,sans-serif;&quot;&gt;&lt;a style=&quot;color:#333333 !important;text-decoration:none !important;&quot; href=&quot;http://book.daum.net/detail/book.do?bookid=KOR9788996201120&quot; target=&quot;_blank&quot;&gt;웹심리학&lt;/a&gt;&lt;/font&gt;
+    &lt;/th&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td align=&quot;left&quot; height=&quot;18&quot; valign=&quot;top&quot; width=&quot;55&quot;&gt;
+     &lt;font style=&quot;font-size:12px; color:#999999; font-family:굴림,gulim,sans-serif; line-height:1.4;&quot;&gt;카테고리&lt;/font&gt;
+    &lt;/td&gt;
+    &lt;td align=&quot;left&quot; height=&quot;18&quot; valign=&quot;top&quot;&gt;
+     &lt;span style=&quot;display:block; float:left; height:14px; overflow:hidden; text-overflow:ellipsis;&quot;&gt;&lt;font style=&quot;font-size:12px; color:#333333; font-family:굴림,gulim,sans-serif; line-height:1.4;&quot;&gt;경제/경영 &amp;gt; 마케팅/세일즈&lt;/font&gt;&lt;/span&gt;
+    &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td align=&quot;left&quot; height=&quot;36&quot; valign=&quot;top&quot; width=&quot;55&quot;&gt;
+     &lt;font style=&quot;font-size:12px; color:#999999; font-family:굴림,gulim,sans-serif; line-height:1.4;&quot;&gt;지은이&lt;/font&gt;
+    &lt;/td&gt;
+    &lt;td align=&quot;left&quot; height=&quot;36&quot; valign=&quot;top&quot;&gt;
+     &lt;span style=&quot;display:block; float:left; height:14px; overflow:hidden; text-overflow:ellipsis;&quot;&gt;&lt;font style=&quot;font-size:12px; color:#333333; font-family:굴림,gulim,sans-serif; line-height:1.4;&quot;&gt;가와시마 고헤이 (라이온북스, 2009년)&lt;/font&gt;&lt;/span&gt;
+    &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td colspan=&quot;2&quot; align=&quot;left&quot; valign=&quot;top&quot;&gt;
+     &lt;a style=&quot;padding:0px 5px 0px 0px; background:url(http://deco.daum-img.net/contents/info/ic_more.gif) no-repeat 100% 3px; font-size:11px; color:#999999 !important; font-family:돋움,dotum,verdana; text-decoration:underline;&quot; href=&quot;http://book.daum.net/detail/book.do?bookid=KOR9788996201120&quot; target=&quot;_blank&quot;&gt;상세보기&lt;/a&gt;
+    &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/tbody&gt;&lt;/table&gt;
+  &lt;/td&gt;
+ 
+ &lt;/tr&gt;
+&lt;/tbody&gt;
+ &lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+
+&lt;table key=&quot;12EDT&quot; category=&quot;book_detail&quot; openpost=&quot;false&quot; style=&quot;border:1px #F3F3F3 solid; background-color:#ffffff; line-height:16px !important;&quot; border=&quot;0&quot; cellpadding=&quot;12&quot; cellspacing=&quot;0&quot; height=&quot;105&quot; width=&quot;600&quot;&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td style=&quot;padding-bottom:0px&quot;&gt;
+ &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;500&quot;&gt;
+ &lt;tbody&gt;&lt;tr&gt;
+  &lt;td valign=&quot;top&quot; width=&quot;67&quot;&gt;&lt;a href=&quot;http://book.daum.net/detail/book.do?bookid=BOK0001932963411&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://book.daum-img.net/R72x100/BOK0001932963411&quot; border=&quot;0&quot; height=&quot;80&quot; width=&quot;55&quot;&gt;&lt;/a&gt;&lt;/td&gt;
+ 
+  &lt;td width=&quot;14&quot;&gt;&lt;br /&gt;
+&lt;/td&gt;
+  &lt;td valign=&quot;top&quot; width=&quot;419&quot;&gt;
+   &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;100%&quot;&gt;
+   &lt;tbody&gt;&lt;tr&gt;
+    &lt;th colspan=&quot;2&quot; align=&quot;left&quot; height=&quot;18&quot; valign=&quot;top&quot;&gt;
+     &lt;font style=&quot;font-size:12px; font-weight:bold; color:#333333; font-family:굴림,gulim,sans-serif;&quot;&gt;&lt;a style=&quot;color:#333333 !important;text-decoration:none !important;&quot; href=&quot;http://book.daum.net/detail/book.do?bookid=BOK0001932963411&quot; target=&quot;_blank&quot;&gt;소박한생활속평범한행복&lt;/a&gt;&lt;/font&gt;
+    &lt;/th&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td align=&quot;left&quot; height=&quot;18&quot; valign=&quot;top&quot; width=&quot;55&quot;&gt;
+     &lt;font style=&quot;font-size:12px; color:#999999; font-family:굴림,gulim,sans-serif; line-height:1.4;&quot;&gt;카테고리&lt;/font&gt;
+    &lt;/td&gt;
+    &lt;td align=&quot;left&quot; height=&quot;18&quot; valign=&quot;top&quot;&gt;
+     &lt;span style=&quot;display:block; float:left; height:14px; overflow:hidden; text-overflow:ellipsis;&quot;&gt;&lt;font style=&quot;font-size:12px; color:#333333; font-family:굴림,gulim,sans-serif; line-height:1.4;&quot;&gt;시/에세이 &amp;gt; 인물/자전적에세이&lt;/font&gt;&lt;/span&gt;
+    &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td align=&quot;left&quot; height=&quot;36&quot; valign=&quot;top&quot; width=&quot;55&quot;&gt;
+     &lt;font style=&quot;font-size:12px; color:#999999; font-family:굴림,gulim,sans-serif; line-height:1.4;&quot;&gt;지은이&lt;/font&gt;
+    &lt;/td&gt;
+    &lt;td align=&quot;left&quot; height=&quot;36&quot; valign=&quot;top&quot;&gt;
+     &lt;span style=&quot;display:block; float:left; height:14px; overflow:hidden; text-overflow:ellipsis;&quot;&gt;&lt;font style=&quot;font-size:12px; color:#333333; font-family:굴림,gulim,sans-serif; line-height:1.4;&quot;&gt;SK STORY 편집팀 (미디어브레인, 2012년)&lt;/font&gt;&lt;/span&gt;
+    &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr&gt;
+    &lt;td colspan=&quot;2&quot; align=&quot;left&quot; valign=&quot;top&quot;&gt;
+     &lt;a style=&quot;padding:0px 5px 0px 0px; background:url(http://deco.daum-img.net/contents/info/ic_more.gif) no-repeat 100% 3px; font-size:11px; color:#999999 !important; font-family:돋움,dotum,verdana; text-decoration:underline;&quot; href=&quot;http://book.daum.net/detail/book.do?bookid=BOK0001932963411&quot; target=&quot;_blank&quot;&gt;상세보기&lt;/a&gt;
+    &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/tbody&gt;&lt;/table&gt;
+  &lt;/td&gt;
+ 
+ &lt;/tr&gt;
+&lt;/tbody&gt;
+ &lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-428-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-428-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-428-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/428&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>기획_이야기</category>
+			<category>SK그룹</category>
+			<category>소박한 생활 속 평범한 행복</category>
+			<category>행복 블로그</category>
+			<category>행복 이야기</category>
+			<category>행복 피플</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/428</guid>
+			<comments>http://www.paperon.net/428#entry428comment</comments>
+			<pubDate>Fri, 09 Nov 2012 19:33:13 +0900</pubDate>
+		</item>
+		<item>
+			<title>2012.11.08. 수능 본 동생들 힘내!!</title>
+			<link>http://www.paperon.net/427</link>
+			<description>&lt;div class=&quot;me2day_daily_digest&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;동생들, 마지막 문제까지 최선을 다해서 풀길… 혹, 결과가 나쁘게 나와도 상심하지 말길… 동생들은 아직 출발선에도 정식으로 선게 아니니까 미리부터 포기하지 말길…&lt;span class=&quot;me2_tags&quot;&gt;(수능)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/11/08#06:51:35&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-11-08 06:51:35&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121108_125/paper_1352325095208FSGuT_JPEG/paper_7333624599319577085.jpg?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p style=&quot;background:url(http://me2day.net/images/me2day_icon.gif) no-repeat right top;padding-right:25px;text-align:right; font-size: 0.9em;&quot;&gt;이 글은 &lt;a href=&quot;http://me2day.net/paper&quot; target=&quot;_blank&quot;&gt;편집장&lt;/a&gt;님의 &lt;a href=&quot;http://me2day.net/paper/2012/11/08#23:12:47&quot; target=&quot;_blank&quot;&gt;2012년 11월 08일&lt;/a&gt;의 미투데이 내용입니다.&lt;/p&gt;
+&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/427&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>1_D/I/A/R/Y</category>
+			<category>경찰</category>
+			<category>경찰서</category>
+			<category>수능</category>
+			<category>의정부</category>
+			<category>힘내</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/427</guid>
+			<comments>http://www.paperon.net/427#entry427comment</comments>
+			<pubDate>Fri, 09 Nov 2012 00:02:49 +0900</pubDate>
+		</item>
+		<item>
+			<title>2012.11.07. 퇴근 지름신, 구글 나우(Google Now)</title>
+			<link>http://www.paperon.net/426</link>
+			<description>&lt;div class=&quot;me2day_daily_digest&quot;&gt;
+&lt;ul&gt;&lt;li&gt;친절한(?) 구글 나우씨의 퇴근 지름 메시지! 9분 후 출발하는 지하철 타고 1시간 이내 집에 도착 해볼까? &amp;gt;_&amp;lt;&lt;span class=&quot;me2_tags&quot;&gt;(구글나우 GoogleNow 퇴근지름)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/11/07#14:38:41&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-11-07 14:38:41&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121107_124/paper_1352266721686EyBHK_JPEG/paper_7567412493515960334.jpg?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;&lt;li&gt;받으세요. &amp;gt;_&amp;lt;&lt;span class=&quot;me2_tags&quot;&gt;(선물)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/11/07#16:13:45&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-11-07 16:13:45&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121107_273/paper_13522724256618sEaI_JPEG/paper_9159627854630036900.jpg?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot;background:url(http://me2day.net/images/me2day_icon.gif) no-repeat right top;padding-right:25px;text-align:right; font-size: 0.9em;&quot;&gt;이 글은 &lt;a href=&quot;http://me2day.net/paper&quot; target=&quot;_blank&quot;&gt;편집장&lt;/a&gt;님의 &lt;a href=&quot;http://me2day.net/paper/2012/11/07#16:13:45&quot; target=&quot;_blank&quot;&gt;2012년 11월 07일&lt;/a&gt;의 미투데이 내용입니다.&lt;/p&gt;
+&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/426&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>1_D/I/A/R/Y</category>
+			<category>Android</category>
+			<category>Google Now</category>
+			<category>선물</category>
+			<category>우체국</category>
+			<category>지름신</category>
+			<category>택백</category>
+			<category>퇴근</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/426</guid>
+			<comments>http://www.paperon.net/426#entry426comment</comments>
+			<pubDate>Thu, 08 Nov 2012 10:51:01 +0900</pubDate>
+		</item>
+		<item>
+			<title>2012.11.02. iPad용 Path 앱 출시!</title>
+			<link>http://www.paperon.net/425</link>
+			<description>&lt;div class=&quot;me2day_daily_digest&quot;&gt;
+&lt;ul&gt;&lt;li&gt;Path 드디어 iPad 버전으로 출시! 0_o! 오홋!&lt;span class=&quot;me2_tags&quot;&gt;(Path app update iPad)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/11/02#04:52:16&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-11-02 04:52:16&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121102_103/paper_1351799535883oE4WW_PNG/paper_8640255137066942492.png?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;&lt;li&gt;11월 2일의 iPad 메인 화면!&lt;span class=&quot;me2_tags&quot;&gt;(iPad apps)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/11/02#05:01:13&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-11-02 05:01:13&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121102_118/paper_1351800073198mKa9I_PNG/paper_1890761458956588746.png?type=w500&quot; alt=&quot;me2photo&quot;&gt;&lt;/p&gt;
+&lt;/li&gt;&lt;/ul&gt;
+&lt;p style=&quot;background:url(http://me2day.net/images/me2day_icon.gif) no-repeat right top;padding-right:25px;text-align:right; font-size: 0.9em;&quot;&gt;이 글은 &lt;a href=&quot;http://me2day.net/paper&quot; target=&quot;_blank&quot;&gt;편집장&lt;/a&gt;님의 &lt;a href=&quot;http://me2day.net/paper/2012/11/02#05:01:13&quot; target=&quot;_blank&quot;&gt;2012년 11월 02일&lt;/a&gt;의 미투데이 내용입니다.&lt;/p&gt;
+&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/425&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>1_D/I/A/R/Y</category>
+			<category>apps</category>
+			<category>ipad</category>
+			<category>PATH</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/425</guid>
+			<comments>http://www.paperon.net/425#entry425comment</comments>
+			<pubDate>Sat, 03 Nov 2012 10:06:04 +0900</pubDate>
+		</item>
+		<item>
+			<title>2012.10.31. 할로윈? '잊혀진 계절'의 시월의 마지막 밤?</title>
+			<link>http://www.paperon.net/424</link>
+			<description>&lt;div class=&quot;me2day_daily_digest&quot;&gt;&lt;ul&gt;&lt;li&gt;10월 31일 '할로윈 데이'에 아주 적절한 아침 놀. 근데, 언제부터 할로윈을 챙겼더라? '지금도 기억하고 있어요~ ♪시월의 마지막 밤을~♬ '로 시작하는 '잊혀진 계절'이 더 익숙한데…&lt;span class=&quot;me2_tags&quot;&gt;(아침 놀 할로윈 잊혀진계절 이용)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/10/31#07:08:37&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-10-31 07:08:37&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121031_270/paper_1351634917710F6KmS_JPEG/paper_4335259576511173104.jpg?type=w500&quot; alt=&quot;me2photo&quot; /&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;Coex 국화 축제에 등장한 국화 스마트폰! 0_o! 와이파이 빠방!&lt;span class=&quot;me2_tags&quot;&gt;(Coex 국화 스마트폰 와이파이)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/10/31#10:02:06&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-10-31 10:02:06&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121031_262/paper_1351645326087rJCks_JPEG/paper_9201897712369321966.jpg?type=w500&quot; alt=&quot;me2photo&quot; /&gt;&lt;/p&gt;&lt;/li&gt;&lt;li&gt;[생일선물 자랑] 고맙습니다. 생일 선물 365일 접수중! &gt;_&lt; ㅎㅎ&lt;span class=&quot;me2_tags&quot;&gt;(생일선물 향수)&lt;/span&gt;&lt;span class=&quot;datetime&quot;&gt; &lt;a href=&quot;http://me2day.net/paper/2012/10/31#16:38:36&quot; rel=&quot;bookmark&quot; title=&quot;퍼머링크&quot; class=&quot;datetime&quot; target=&quot;_blank&quot;&gt;2012-10-31 16:38:36&lt;/a&gt; &lt;/span&gt;&lt;p&gt;&lt;img src=&quot;http://me2daythumb.phinf.naver.net/20121031_111/paper_1351669116223A4vBm_JPEG/paper_1716222474288633306.jpg?type=w500&quot; alt=&quot;me2photo&quot; /&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;background:url(http://me2day.net/images/me2day_icon.gif) no-repeat right top;padding-right:25px;text-align:right; font-size: 0.9em;&quot;&gt;이 글은 &lt;a href=&quot;http://me2day.net/paper&quot; target=&quot;_blank&quot;&gt;편집장&lt;/a&gt;님의 &lt;a href=&quot;http://me2day.net/paper/2012/10/31#16:38:36&quot; target=&quot;_blank&quot;&gt;2012년 10월 31일&lt;/a&gt;의 미투데이 내용입니다.&lt;/p&gt;&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.paperon.net/424&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>1_D/I/A/R/Y</category>
+			<author>편집장</author>
+			<guid>http://www.paperon.net/424</guid>
+			<comments>http://www.paperon.net/424#entry424comment</comments>
+			<pubDate>Thu, 01 Nov 2012 08:30:10 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="http://rss.egloos.com/style/blog.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>까먹지말자!</title>
+	<link>http://kwon37xi.egloos.com</link>
+	<description>권남, 코드로 말하다.</description>
+	<language>ko</language>
+	<pubDate>Fri, 01 Aug 2014 04:06:00 GMT</pubDate>
+	<generator>Egloos</generator>
+	<image>
+		<title>까먹지말자!</title>
+		<url>http://pds11.egloos.com/logo/200810/14/15/b0046915.jpg</url>
+		<link>http://kwon37xi.egloos.com</link>
+		<width>80</width>
+		<height>80</height>
+		<description>권남, 코드로 말하다.</description>
+	</image>
+  	<item>
+		<title><![CDATA[ Spring ChainedTransactionManager 어떻게 사용해야 하나? ]]> </title>
+		<link>http://kwon37xi.egloos.com/4886947</link>
+		<guid>http://kwon37xi.egloos.com/4886947</guid>
+		<description>
+			<![CDATA[ 
+  Spring Data Commons 1.6에는 <a target="_blank" href="http://docs.spring.io/spring-data/commons/docs/1.6.2.RELEASE/api/org/springframework/data/transaction/ChainedTransactionManager.html">ChainedTransactionManager</a>라는 것이 추가 돼 있다<br />
+<br />
+하나의 애플리케이션에서 여러 데이터베이스에 접근할 때 <code>@Transactional</code> 애노테이션을 통해 트랜잭션을 잡아줄 때 여러 데이터소스(DataSource)의 트랜잭션 매니저(Transaction Manager)를 따로따로 지정해서 작업해야 한다.<br />
+사실 그렇게까지 어려운 일은 아니지만 확실히 복잡도가 높아지긴 한다. 그래서 편리하게 사용하라고 나온 것이 <a target="_blank" href="http://docs.spring.io/spring-data/commons/docs/1.6.2.RELEASE/api/org/springframework/data/transaction/ChainedTransactionManager.html">ChainedTransactionManager</a>이다.<br />
+이는 여러 트랜잭션 매니저를 인자로 받아 <code>@Transactional</code>에 기본 트랜잭션 매니저로 등록시켜두면, <strong>트랜잭션이 시작될 때 지정된 모든 트랜잭션 매니저의 트랜잭션을 동시에 시작시키고 메소드 종료시에 동시에 커밋(commit) 혹을 롤백(rollback)을 수행</strong>한다.<br />
+<br />
+javadoc 문서에 보면 <q>The configured instances will start transactions in the order given and commit/rollback in reverse order, which means the PlatformTransactionManager most likely to break the transaction should be the last in the list configured. A PlatformTransactionManager throwing an exception during commit will automatically cause the remaining transaction managers to roll back instead of committing.</q>라고 나온다.<br />
+즉, <ul><li>지정된 순서대로 트랜잭션이 실행되고,</li><li>지정된 역순으로 트랜잭션이 종료된다.</li><li>다시말해, 에러를 내기 쉬운 트랜잭션을 마지막에 지정해서 트랜잭션 종료 작업이 최초로 호출되도록 해야한다</li></ul><br />
+왜냐면, 에러를 낼 가능성이 높은 트랜잭션이 최초로 롤백이 돼야 그 뒤의 다른 트랜잭션도 따라서 롤백 되기 때문이다. ChainedTransactionManager는 단지 트랜잭션 시작과 종료를 동시에 해줄 뿐이지 Two Phase Commit을 지원하는게 아니라서 이미 다른 트랜잭션이 커밋된 상황에서 하나의 트랜잭션이 롤백 됐다고 해서 이미 커밋된 것들이 다시 롤백되지는 않는다. 따라서 <strong>가장 위험한 요소를 최초로 커밋/롤백 시도</strong>하도록 해야 한다.<br />
+<br />
+그런데 문제가 여기서 끝나지 않는다.<br />
+<br />
+Spring의 PlatformTransactionManager는 기본적으로 트랜잭션이 시작될 때 Connection을 확보한다. 여기서 실제로 해당 Connection의 사용여부는 중요하지 않다. <strong>그냥 무조건 Connection을 확보</strong>한다.<br />
+<br />
+ChainedTransactionManager가 firstTransactionManager와 secondTransactionManager를 묶은 상태일때, ServiceA가 firstTransactionManager의 데이터소스만 사용하는 작업을 하더라도 secondTransactionManager의 데이터소스의 커넥션까지 함께 물고 들어가게 된다.<br />
+<br />
+이 상황이 되면 실제로 <b>secondTransactionManager는 아무 하는 일도 없이 커넥션 고갈 상태에 빠질 수 있다.</b> 게다가 secondTransactionManager에 참여하는 데이터소스의 최대 커넥션 갯수가 firstTransactionManager의 커넥션 갯수보다 더 적은 상황이라면 사태는 더욱 심각해진다.<br />
+<br />
+따라서 최종적으로 봤을 때 <strong>ChainedTransactionManager에 참여하는 모든 DataSource의 최대 커넥션 갯수는 동일하게 맞춰주는 것이 좋다.</strong><br />
+<br />
+또한, Spring은 <a href="http://docs.spring.io/spring/docs/3.2.9.RELEASE/javadoc-api/org/springframework/jdbc/datasource/LazyConnectionDataSourceProxy.html" target="_blank">LazyConnectionDataSourceProxy</a>라는 것을 제공해주고 있다.<br />
+이를 사용하면 트랜잭션 매니저에 의해 커넥션이 호출되더라도 <strong>실제로 커넥션이 사용되기 전까지 원본 데이터소스에 커넥션 요청을 미룸으로써 불필요한 커넥션 생성 요청을 방지</strong>해준다. 따라서 CTM 으로 묶여있는 데이터소스들이 사용도 안되는 커넥션 요청으로 커넥션 고갈을 겪는 문제를 완화시켜준다.<br />
+<br />
+LazyConnectionDataSourceProxy는 ORM 사용시 캐시 히트율이 높아서 ReadOnly 트랜잭션은 시작했으나 정작 DB에 한번도 액세스하지 않는 상황이 될 때도 매우 유용하다.<br />
+<br />
+위 사항은 직접 테스트를 해보았다.<br />
+<br />
+<a href="https://github.com/kwon37xi/ChainedTransactionManagerTest" target="_blank">ChainedTransactionManagerTest</a>에서 테스트 코드와 결과를 볼 수 있다.<br />
+<br />
+			 ]]> 
+		</description>
+		<category>프로그래밍</category>
+
+		<comments>http://kwon37xi.egloos.com/4886947#comments</comments>
+		<pubDate>Sat, 12 Jul 2014 09:13:54 GMT</pubDate>
+		<dc:creator>권남</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Xubuntu 14.04 설치기 ]]> </title>
+		<link>http://kwon37xi.egloos.com/4876381</link>
+		<guid>http://kwon37xi.egloos.com/4876381</guid>
+		<description>
+			<![CDATA[ 
+  요즘은 리눅스 그 중에서도 특히 <a target="_blank" href="http://www.ubuntu.com/">Ubuntu</a>를 설치하는 일이 워낙 쉽다보니 딱히 설치기 같은 것을 언제부터인가 안 썼었다.<br />
+그리고 나는 정확히 말하면 Ubuntu가 아닌 <a target="_blank" href="http://xubuntu.org/">Xubuntu</a> 혹은 <a target="_blank" href="http://www.linuxmint.com/">Mint MATE</a>를 더 선호하는 사람이다. 간결하고 익숙하기 때문이다(결론은 나이들어서 변화가 귀찮다).<br />
+<br />
+이번에 Xubuntu 14.04 LTS 가 출시되면서 회사 개발용 PC를 밀면서 Xubuntu로 갔는데, 설치 자체는 편했지만 몇가지 버그가 괴롭혔다. Ubuntu Unity버전에 비해 사용자가 적다보니 Xubuntu에 대한 버그 리포팅이나 해결책이 별로 안 나와있는 상황이라 삽질이 좀 있었다.<br />
+<br />
+그래서 간략히 설치기의 링크를 걸고, 그 중 주의해야할 버그들을 공유한다.<br />
+<br />
+<a target="_blank" href="http://kwonnam.pe.kr/wiki/linux/ubuntu/14.04">Xubuntu 14.04 설치기</a> 에서 기본적인 것은 읽어 보도록 하고,<br />
+부딪힌 버그와 해결책은 다음과 같다.<br />
+<br />
+<strong><big>1. 지속적인 Apport 경고창 - 부팅시마다 알지도 못하는 경고창이 뜬다.</big></strong><br />
+<blockquote class="src"># 먼저 /var/crash 의 파일들을 삭제한다. 여기 있는 파일들이 부팅시 에러메시지로 나오는 것이다.<br />
+sudo rm /var/crash/*<br />
+sudo vi /etc/default/apport<br />
+# enabled=1 -> 0 으로변경<br />
+ <br />
+# apport restart 혹은 재부팅<br />
+sudo restart apport<br />
+</blockquote><br />
+<br />
+<strong><big>2. 나눔 고딕 글꼴 상단 잘림 문제</big></strong> -&gt; <a href="https://github.com/igxactly/config-fonthinting-nanum">https://github.com/igxactly/config-fonthinting-nanum</a><br />
+<br />
+<strong><big>3. 한글 입력기 나비 Nabi 설치시 화면 왼쪽 위(좌상단) 클릭 안됨.</big></strong><br />
+이 문제가 나를 가장 많이 골치아프게 한 것인데, 처음에는 무엇 때문인지도 몰랐다. 이상하게 화면 좌상단의 일부분이 전혀 클릭이 안되는 현상이 발생한다. 그렇다고 거기에 뭐가 있는것 같지도 않았는데....<br />
+제어판 -> 창관리자 기능향상 설정에서 <strong>합성(Composite) 기능</strong>을 끄면 갑자기 나비의 팔렛트가 해당 위치에 떡하니 나타난다. 이것이 클릭을 막고 있는데, 합성이 켜져 있을 경우 안보이는 것이었다.<br />
+팔렛트 숨기기를 아무리 해도 안 없어진다. 나비의 버그로 보인다. 결국 UIM으로 갈아탔다. iBus는 Shift-Space 사용시에 미묘한 타이밍 흐트러트림이 발생해서 싫어한다.<br />
+(이 현상 때문에 굳이 합성 기능을 꺼둘 필요는 없다)<br />
+<br />
+<strong><big>4. XFCE 창관리자(XFWM)의 단축키 변경 안 되는 버그</big></strong><br />
+리눅스에는 보통 두 종류의 키보다 단축키 조합이 있는데 하나는 창관리자(Window Manager)용으로 창(window)과 작업공간을 제어하는 단축키가 있고 일반 애플리케이션을 호출하는 단축키가 지정가능하다.<br />
+그런데 창관리자용 단축키를 변경했는데 적용이 안되는 현상이 발생했다.<br />
+이는 창관리자 단축키 설정시에 과거 설정과 신규 설정이 동시에 설정파일에 입력되면서 나타나는 버그이다. 결국 과거 설정을 설정 파일에서 지워줘야 한다.<br />
+<strong><code>~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml</code></strong>이게 설정파일인데 잘보면 동일한 역할에 대한 설정이 두 번씩 나오는 것을 볼 수 있다. 그 중에서 자기가 원치 않는 것을 삭제해버리고 XFCE를 재시작 하면 된다.<br />
+<br />
+<strong><big>새로운 기능</big></strong> - <a href="http://smdavis.us/2014/04/15/14-features-of-xubuntu-14-04/">Xubuntu 14.04 new features</a><br />
+합성(Composite) 기능이 켜진 상태에서 Alt 키를 누른 상태로 마우스 휠을 움직이면 화면이 확대된다. 원래 안됐었나? 관심이 너무 없었네.<br />
+<iframe width="560" height="315" src="//www.youtube.com/embed/y8GvTbgkMd4" frameborder="0" allowfullscreen="allowfullscreen"></iframe><br />
+<br />
+웬만하면 이번에는 6개월 후에도 계속 이 버전을 유지하면서 PPA로 주요 애플리케이션만 업그레이드 하는 전략을 취해 봐야겠다. 그게 안되면 이번에 LTS 기반으로 2년간 가기로 정한 Linux Mint MATE 로 가서 장기간 써야겠다.			 ]]> 
+		</description>
+		<category>리눅스/Unix 이야기</category>
+
+		<comments>http://kwon37xi.egloos.com/4876381#comments</comments>
+		<pubDate>Tue, 20 May 2014 14:41:06 GMT</pubDate>
+		<dc:creator>권남</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ JDBC SQL 구문에 클라이언트 정보 남기기 ]]> </title>
+		<link>http://kwon37xi.egloos.com/4860051</link>
+		<guid>http://kwon37xi.egloos.com/4860051</guid>
+		<description>
+			<![CDATA[ 
+  DB 서버가 한 대 있고, 해당 서버에 접속해서 쿼리를 날리는 Java 웹 애플리케이션이 여러 개라고 해보자.<br />
+커머스 업체라고 했을 때 사용자 화면 애플리케이션, 상품 정보 관리 애플리케이션, 정산 애플리케이션 등이 별도로 존재하며 어떤 특정 DB에 모두 동시에 접속하는 경우가 발생한다는 것은 쉽게 예상할 수 있을 것이다.<br />
+<br />
+DB 서버의 로그를 보니 Slow Query가 남아 있는데, 도대체 이 Slow Query를 호출한 애플리케이션이 무엇인지 어떻게 하면 빠르게 판단할 수 있을까?<br />
+<br />
+제일 쉬운 방법은 SQL 구문에 주석으로 각 클라이언트(애플리케이션)의 정보를 남기는 것이다.<br />
+SQL은 <strong>/* 이런 저런 내용 */</strong> 형태로 주석을 남기는 것을 지원한다.<br />
+<br />
+Java 6/JDBC 4 Spec에서 바로 이러한 Client Info를 남길 수 있는 기법을 지원한다(<a title="" href="http://docs.oracle.com/javase/6/docs/api/java/sql/Connection.html#setClientInfo%28java.lang.String,%20java.lang.String%29" target="_blank">Connection#setClientInfo</a>). 나는 현재 MySQL만 사용하고 있지만 다른 많은 DB들도 이를 구현하고 있으리라 예상한다.<br />
+<br />
+더 아래에서는 Hibernate 사용시 Interceptor를 통해 더 쉽게 처리하는 방법도 간단히 소개한다.<br />
+<br />
+<span style="font-size:170%;"><strong>JDBC 4 Client Info</strong></span><br />
+<a title="" href="http://dev.mysql.com/doc/relnotes/connector-j/en/news-5-1-0.html" target="_blank">MySQL의 경우 5.1.10 버전</a>부터 JDBC 4의 Client Info 스펙을 구현하고 있다. (단, <strong>MySQL Replication Driver는 아직도(2014년 3월) 이를 구현하지 못하고 있다.</strong>)<br />
+<br />
+이 스펙을 구현한다고 해서 모든 JDBC 드라이버가 SQL의 주석으로 Client 정보를 남기는 것은 아니다. 하지만 MySQL은 <a title="" href="http://www.docjar.com/html/api/com/mysql/jdbc/JDBC4CommentClientInfoProvider.java.html" target="_blank">JDBC4CommentClientInfoProvider</a>를 Client Info 처리의 기본 구현체로 지정하고 있으면 이것이 바로 주석으로 정보를 남기는 역할을 한다. 이 구현체는 <code>clientInfoProvider</code> JDBC URL 파라미터를 통해 원하는 것으로 바꾸는 것이 가능하다.<br />
+<br />
+일단은 아주 생짜 JDBC로 어떻게 작동하는지 코드로 보여주면 다음과 같다.<br />
+<blockquote class="src">//&nbsp;예외처리는&nbsp;모두&nbsp;무시했음.&nbsp;모범적인&nbsp;코드&nbsp;예가&nbsp;아니므로&nbsp;실전에서&nbsp;따라하지&nbsp;말&nbsp;것.<br />
+Class.forName("com.mysql.jdbc.Driver");<br />
+<br />
+Connection&nbsp;connection&nbsp;=&nbsp;DriverManager.getConnection("jdbc:mysql://localhost:3306/test?useUnicode=true&amp;characterEncoding=utf8&amp;user=root&amp;password=root");<br />
+<br />
+InetAddress&nbsp;localhost&nbsp;=&nbsp;InetAddress.getLocalHost();<br />
+<br />
+<strong>connection.setClientInfo("ApplicationName",&nbsp;"JDBC4&nbsp;Test&nbsp;Application");<br />
+connection.setClientInfo("ClientHostname",&nbsp;localhost.getHostName());<br />
+connection.setClientInfo("ClientAddress",&nbsp;localhost.getHostAddress());</strong><br />
+<br />
+Statement&nbsp;statement&nbsp;=&nbsp;connection.createStatement();<br />
+ResultSet&nbsp;resultSet&nbsp;=&nbsp;statement.executeQuery("select&nbsp;1");<br />
+</blockquote><br />
+<br />
+위 코드를 실행하면 MySQL의 쿼리 로그에 다음과 같이 찍히게 된다. 즉, DBA가 Slow Query를 발견했다면 즉시 어느 애플리케이션의 어느 서버에서 온 쿼리인지 인지할 수 있다.<br />
+<blockquote class="src"><strong>	/* ApplicationName=JDBC4 Test Application, ClientHostname=kwon37xi-dev, ClientAddress=127.0.1.1 */ </strong>select 1<br />
+</blockquote><br />
+<br />
+하지만 현대 애플리케이션에서 Connection을 매번 직접 생성하여 값을 설정하는 일은 하지 않는다. 특히 Spring을 사용한다면 Connection 객체는 사실상 구경도 할 필요가 없고, 할 수는 있더라도 안하는게 더 좋다.<br />
+<br />
+<a title="" href="http://jolbox.com/" target="_blank">BoneCP 커넥션 풀</a>은 <a title="" href="https://github.com/wwadge/bonecp/blob/master/bonecp/src/main/java/com/jolbox/bonecp/BoneCPConfig.java" target="_blank">BoneCPConfig.java</a> 설정에서 <code>setClientInfo</code> 메소드를 통해 미리 클라이언트 정보를 <code>Properties</code> 객체로 넣어둘 수 있는 기능을 지원하고 있다. 따라서 커넥션 풀 설정시 한 번만 해주면 모든 Connection에 대해 Client Info가 전달된다.<br />
+<br />
+<span style="font-size:170%;"><strong>Hibernate Interceptor</strong></span><br />
+Hibernate를 사용하는 경우(JPA를 통해서든 직접이든) <a title="" href="https://github.com/hibernate/hibernate-orm/blob/master/hibernate-core/src/main/java/org/hibernate/Interceptor.java" target="_blank">Interceptor</a> 인터페이스 중에서 <code><strong>onPrepareStatement</strong></code> 메소드 구현을 통해서 위와 같은 일을 하는게 가능하다.<br />
+이 경우 좀 더 유리한데, 왜냐하면 이 인터셉터 구현체는 모든 쿼리 요청마다 매번 호출되기 때문이다. 따라서 모든 쿼리 호출시 호출 당시의 정보(접속 URL, 호출한 클래스와 메소드 정보) 등도 함께 넣는게 가능하다.<br />
+<br />
+<code>onPrepareStatement</code>는 특별히 키/값 쌍을 넣거나 하는 것이 아니라 DB에 전송하기 전의 SQL 구문을 직접 편집하는 것이므로 SQL 주석을 개발자가 직접 만들어 넣어주면 된다.<br />
+<br />
+실제 구현은 <code>EmptyInterceptor</code>를 상속하여 다른 것은 무시하고 <code>onPrepareStatement</code>만 구현하는 것이 좋다.<br />
+<br />
+JPA 사용시 <code><strong>hibernate.ejb.interceptor</strong></code>로 Interceptor 구현 클래스의 FQCN을 지정해주면 된다.<br />
+<br />
+워낙 쉬워 코드 예를 들지는 않겠지만 한가지 팁을 주면, Spring MVC 사용시 Spring MVC Interceptor를 통해 현재 URL정보와 컨트롤러 클래스/메소드 정보를 수집해두고 이를 ThreadLocal을 통해서 Hibernate Interceptor에 전달하여 SQL 구문에 URL과 컨트롤러 클래스/메소드 정보까지 집어넣는 것이 가능해진다. SQL 구문을 보고나서 오류 발생 URL을 즉시 알 수 있어서 오류 대응 능력이 조금 높아질 것이다. 단, SQL 구문이 길어짐으로써 생기는 다른 단점들은 감안해야 한다.<br />
+<br />
+그리고 마지막으로, <span style="color:#ff0000;"><strong>사용자가 직접 입력하거나 변조할 수 있는 정보를 Client Info로 절대로 넣지말라. 굳이 넣어야 겠다면 이 또한 <a title="" href="http://en.wikipedia.org/wiki/SQL_injection" target="_blank">SQL Injection</a>의 하나로 공격 대상이 될 수 있으므로 철저히 검증해서 넣도록 주의해야 한다.</strong></span><br />
+<br />
+<br/><br/>tag : <a href="/tag/java" rel="tag">java</a>,&nbsp;<a href="/tag/jdbc" rel="tag">jdbc</a>,&nbsp;<a href="/tag/mysql" rel="tag">mysql</a>,&nbsp;<a href="/tag/client" rel="tag">client</a>,&nbsp;<a href="/tag/hibernate" rel="tag">hibernate</a>,&nbsp;<a href="/tag/interceptor" rel="tag">interceptor</a>			 ]]> 
+		</description>
+		<category>프로그래밍</category>
+		<category>java</category>
+		<category>jdbc</category>
+		<category>mysql</category>
+		<category>client</category>
+		<category>hibernate</category>
+		<category>interceptor</category>
+
+		<comments>http://kwon37xi.egloos.com/4860051#comments</comments>
+		<pubDate>Sat, 08 Mar 2014 07:59:11 GMT</pubDate>
+		<dc:creator>권남</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Spring JavaConfig냐 XML 설정이냐 ]]> </title>
+		<link>http://kwon37xi.egloos.com/4853063</link>
+		<guid>http://kwon37xi.egloos.com/4853063</guid>
+		<description>
+			<![CDATA[ 
+  Spring 설정을 할 때 JavaConfig를 사용하는 것이 좋을까 XML 설정을 하는 것이 좋을까?<br />
+흔히 JavaConfig를 사용하자고 하는 말하는 사람들은 <strong>Java로 작성하면 정적 언어 특징 덕분에 작성 중 컴파일을 통해 에러를 쉽게 찾고 리팩토링도 안전하게 할 수 있어서</strong> 실수 위험이 줄어들기 때문에 XML보다는 Java가 더 낫다고 말한다.<br />
+<br />
+그럼 아래의 XML 설정과 JavaConfig 설정을 살펴보자.(참고로 나는 이제 Commons DBCP를 더이상 사용하지 않는다. <a title="" href="http://jolbox.com/" target="_blank">BoneCP</a>를 주로 사용하려고 한다.)<br />
+<blockquote class="src">&lt;bean&nbsp;id="datasource"<br />
+&nbsp;class="org.apache.commons.dbcp.BasicDataSource"<br />
+&nbsp;&nbsp;&nbsp;&nbsp;p:driverClassName="${jdbc.driverClassName}"&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;p:url="${jdbc.url}"<br />
+&nbsp;&nbsp;&nbsp;&nbsp;p:username="${jdbc.username}"&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;p:password="${jdbc.password}"<br />
+&nbsp;&nbsp;&nbsp;&nbsp;p:maxActive="${jdbc.maxActive}"<br />
+&nbsp;&nbsp;&nbsp;&nbsp;p:maxWait="${jdbc.maxWait}"<br />
+&nbsp;&nbsp;&nbsp;&nbsp;p:validationQuery="${jdbc.validationQuery}"<br />
+&nbsp;&nbsp;&nbsp;&nbsp;p:testWhileIdle="${jdbc.testWhileIdle}"<br />
+&nbsp;&nbsp;&nbsp;&nbsp;p:timeBetweenEvictionRunsMillis="${jdbc.timeBetweenEvictionRunsMillims}"/&gt;<br />
+</blockquote><br />
+<blockquote class="src">@Value("${jdbc.driverClassName}")<br />
+private&nbsp;String&nbsp;driverClassName;<br />
+<br />
+@Value("${jdbc.url}")<br />
+private&nbsp;String&nbsp;url;<br />
+<br />
+//&nbsp;..&nbsp;너무&nbsp;길어&nbsp;생략<br />
+<br />
+@Bean<br />
+public&nbsp;DataSource&nbsp;datasource()&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;BasicDataSource&nbsp;datasource&nbsp;=&nbsp;new&nbsp;BasicDataSource();<br />
+&nbsp;&nbsp;&nbsp;&nbsp;datasource.setDriverClassName(driverClassName);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;datasource.setUrl(url);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;datasource.setUsername(username);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;datasource.setPassword(password);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;datasource.setMaxActive(maxActive);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;datasource.setMaxWait(maxWait);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;datasource.setValidationQuery(validationQuery);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;datasource.setTestWhileIdle(testWhileIdle);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;datasource.setTimeBetweenEvictionRunsMillis(timeBetweenEvictionRunsMillis);<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;datasource;<br />
+}<br />
+</blockquote><br />
+<br />
+어떤게 가독성이 높고 합리적이라 생각되는가? 내가 보기엔 XML이 훨씬 가독성이 높고 합리적으로 보인다. 또한 과연 우리가 BasicDataSource 클래스를 클래스로 직접 참조하거나 리팩토링할 가능성은? 여기서는 Java의 정적인 특징이 아무 의미가 없다.<br />
+<br />
+나도 안다. 이게 좀 극단적인 예라는 것을. 문제는 Spring으로 설정을 하다보면 실제로 설정 XML로 빼는 것들은 보통 개발자가 직접 만든 코드보다는 저런 인프라성 객체 생성일 경우가 더 많다는 점이다.<br />
+<br />
+그렇다면 나는 JavaConfig에 반대하는가? 그렇지 않다.<br />
+다만 JavaConfig라고 부르기보다는 CodeConfig라고 불렀으면 좋겠다는 점이다.<br />
+<br />
+최근에 나는 <a target="_blank" href="http://www.gradle.org/">Gradle</a>을 사용하여 XML이 아닌 <a title="" href="http://groovy.codehaus.org/" target="_blank">Groovy</a> 코드로 빌드를 설정한다. 또한 로깅 프레임워크도 <a title="" href="http://logback.qos.ch/" target="_blank">Logback</a>을 사용하며, 이 설정도 XML이 아닌 Groovy로 하고 있다.<br />
+Groovy든 Java든 언어를 떠나서, 코드로 하는 설정의 특징을 살펴보자.<br />
+<ul><li>코드는 그룹지어 클래스 혹은 메소드로 이름을 지어 분리가 가능하다.</li><li>코드는 중복을 그룹지어 중복이 아닌 것은 인자로 받고 중복 부분은 클래스 혹은 메소드로 만들 수 있다.</li><li>코드는 상황에 따른 대응을 더욱 쉽게 할 수 있다.</li></ul><br />
+코드 기반 설정의 장점은 위 특징들에 있는 것이지 "정적"성에 있는 것이 아니다.<br />
+<br />
+예를들어 위의 BasicDataSource 생성의 경우 나라면 아래와 같이 Factory를 만들어 중복이 되는 <strong>"jdbc.*"</strong>부분을 인자로 내려보내어 한번에 처리하게 할 것이다. BasicDataSourceFactory 내부에서는 Spring의 <a title="" href="http://docs.spring.io/spring/docs/3.2.x/javadoc-api/org/springframework/core/env/Environment.html" target="_blank">Environment</a> 객체를 주입 받아서 "jdbc.driverClassName", "jdbc.url" 등의 값을 자동으로 가져다가 BasicDataSource 객체를 구성한다.우리는 수십개의 DataSource 객체를 생성해야 하는데, 각각의 DataSource를 다음과 같은 코드로 줄였다.<br />
+<blockquote class="src">@Bean<br />
+public&nbsp;BasicDataSourceFactory&nbsp;datasource()&nbsp;{<br />
+&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;new&nbsp;BasicDataSourceFactory("jdbc");<br />
+}<br />
+</blockquote><br />
+<br />
+저렇게 중복을 제거하지 않더라도 단지 그루핑을 해서 메소드로 빼는 것만으로도 가치가 있다.<br />
+<br />
+ᅟweb.xml은 그 XML의 향연이 볼 때마다 사람을 정신 못차리게 만드는 힘이 있는데, Servlet 3.0부터 Java 코드로 web.xml을 대체할 수 있게 하고 있다.<br />
+이때도 리스너 하나, 필터하나, 서블릿 하나 등을 그냥 Java 코드로 나열하지 말고 그룹지어 메소드로 뺀 뒤에 해당 메소드를 호출하는 형태로 만들면 가독성이 확연히 높아지게 된다.<br />
+<br />
+현재 우리 팀에서 관리하고 있는 Logback 설정에서 가장 많이 중복되는 것은 <a title="" href="http://logback.qos.ch/manual/appenders.html#RollingFileAppender" target="_blank">RollingFileAppender</a> 이다. 이 중에서도 일별 Rolling이 가장 많이 쓰인다. 이 어펜더는 다양한 옵션을 가지는데 대부분 패턴이 유사하다. 그래서 공통적인 사항을 메소드로 뽑고서 사실 가장 간결할 때는 다음 수준으로 호출해도 되게 만들었다.<br />
+<blockquote class="src">dailyRollingAppender(name:&nbsp;'somelog',&nbsp;file:&nbsp;'/logs/some.log')<br />
+</blockquote><br />
+<br />
+상황에 따른 유연한 대응력도 코드 기반이 줄 수 있는 커다란 장점 중에 하나이다. 일반적으로 설정은 Profile별 분할은 하더라도 모든 개발자들이 똑같이 사용하는 것이 보통이다. 즉, Development 프로필의 설정이 모든 개발자들에게 동일하다는 점이다.<br />
+하지만 로깅을 예로 들면 어떤 개발자는 특정 부분의 로그를 더 자세히 찍고 싶을 때도 있을 것이다. 이때 development 프로필의 로깅 설정을 바꿨다가 실수로 저장소에 Push해서 다른 개발자들로부터의 원성을 사본 경험이 다들 있을 것이다.<br />
+이런 경우에도 개발자가 시스템 프라퍼티 세팅으로 자신만의 로그 설정파일을 임시로 사용하게 해주는 등의 처리가 코드를 통한 설정을 사용하면 쉽게 가능하다.(실제로 이렇게 만들었다).<br />
+<br />
+이러한 유연성은 Profile에 따라 달라지는 무언가를 만들 때도 비슷하게 적용된다.<br />
+<br />
+내가 보기엔 설정이라는 것이 앞으로는 설정 키/값을 가진 파일을 제외하고는 코드 기반으로 바뀌게 될 것으로 보인다. 이미 많은 부분들이 그렇게 바뀌었고. 개인적인 바람이라면 키/값 설정 파일도 XML이나 Java의 Properties 파일을 벗어나서 YML이 됐으면 좋겠다.<br />
+가끔 Spring 설정을 JavaConfig로 바꾸자는 주장을 보면 그 논리가 Java의 정적인 특성에 치우쳐져 있는 경우가 많다. 이는 맨 위에서 보여줬던 예제만으로도 쉽게 반대에 부딪히게 된다.<br />
+코드 기반 설정의 장점을 충분히 활용할 수 있도록 하자.<br />
+<br />
+Spring의 Java Config 사용시 주의할 점<br />
+<ul><li>@PostConstruct 혹은 여러 *Aware 인터페이스를 구현한 Bean의 경우에 직접 생성 후 주입하지 말고 독립 Bean으로 생성한 뒤에 주입 받아서 다른 Bean에 주입할 것</li><li><a title="" href="http://kwonnam.pe.kr/wiki/springframework/javaconfig" target="_blank">정리중인 Java Config 주의할 점들</a></li><li><a href="http://toby.epril.com/?p=1179" target="_blank">스프링 3.1 (5) @Enable*을 이용한 설정 재활용 기법 세미나 동영상 & 자료</a>와 <a href="http://whiteship.me/?p=13438" target="_blank">[Spring 3.1 @Enable] 1. @Configuration 상속을 사용한 확장 방법</a> 이 글 시리즈를 읽고 Enable을 만드는 법을 익히면 더욱 간결한 JavaConfig 구성이 가능하다.</li></ul>			 ]]> 
+		</description>
+		<category>프로그래밍</category>
+
+		<comments>http://kwon37xi.egloos.com/4853063#comments</comments>
+		<pubDate>Sun, 26 Jan 2014 09:16:34 GMT</pubDate>
+		<dc:creator>권남</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 새해가 됐으니 작심삼일 하나. ]]> </title>
+		<link>http://kwon37xi.egloos.com/4848718</link>
+		<guid>http://kwon37xi.egloos.com/4848718</guid>
+		<description>
+			<![CDATA[ 
+  아플 때와 잘 때 빼고는 눕지 않는다.<br />
+<br />
+			 ]]> 
+		</description>
+		<category>일상속에서...</category>
+
+		<comments>http://kwon37xi.egloos.com/4848718#comments</comments>
+		<pubDate>Wed, 01 Jan 2014 10:44:09 GMT</pubDate>
+		<dc:creator>권남</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 언제 static 함수 모음 Class를 만들어야 할까? ]]> </title>
+		<link>http://kwon37xi.egloos.com/4844149</link>
+		<guid>http://kwon37xi.egloos.com/4844149</guid>
+		<description>
+			<![CDATA[ 
+  먼저 내가 말하는 static 함수 모음 class란&nbsp; <a target="_blank" href="http://commons.apache.org/proper/commons-lang/javadocs/api-3.1/org/apache/commons/lang3/StringUtils.html">Apache Commons Lang StringUtils</a> 처럼 <b>순전히 static 함수들만을 가지고 있고, 객체를 생성하지 않고 사용하는 클래스</b>를 의미한다(Java 이야기이다).<br />
+<br />
+이에 대한 정확한 명칭이 있는지는 잘 모르겠다.<br />
+<br />
+아무튼 나는 지금 수많은 static 함수 모음 class들 때문에 갑갑함이 이루 말할 수 없다.<br />
+<br />
+이 때문에 단위 테스트를 만드는 것의 복잡도가 크게 증가해서 개발이 어렵다. 또한 코드 실행 환경(profile - development, production 등)에 따른 서로 다른 기능 정의도 힘들다.<br />
+<br />
+그래서 static 함수 모음 클래스를 POJO Bean으로 전환하는 것이 나의 숙원 사업일 정도이다.<br />
+<br />
+이 작업을 하려면 먼저 어떤 것을 POJO Bean으로 전환하고, 어떤 것을 static 함수 모음 class로 만들어야 하는지 기준이 명확해야 다른 프로그래머들과도 공감대를 이루고 작업을 해 나아갈 수 있을 것 같다.<br />
+<br />
+그렇다면 어떠한 상황에서 static 함수 모음 클래스를 만들고 어떠한 상황에서는 객체를 생성하는 POJO Bean 클래스를 만들어야 할까?<br />
+<br />
+내가 생각하는 기준은 딱 하나로 명확하다.<br />
+<br />
+<big><b>static 함수 모음 클래스의 모든 함수는 인자가 동일할 경우 항상 동일한 결과를 리턴해야 한다. 이 규칙을 지킬 수 없으면 POJO Bean으로 만들라.<br />
+<br />
+<small>이것이 이뤄지려면 함수 안에서는 외부 자원(Resource)에 대해 하나도 의존하면 안된다는 선결 조건을 충족해야 한다.</small></b></big> 외부 자원은 그 실행 결과의 일관성을 보장할 수 없기 때문이다.<br />
+<br />
+이에 가장 잘 들어맞는 예는 <a href="http://commons.apache.org/proper/commons-lang/javadocs/api-3.1/org/apache/commons/lang3/StringUtils.html">StringUtils</a>, <a target="_blank" href="http://commons.apache.org/proper/commons-collections/javadocs/api-3.2.1/org/apache/commons/collections/CollectionUtils.html">CollectionUtils</a> 같은 것들이다.<br />
+<br />
+예를 들면, <code>StringUtils.contains("hello world", "hello")</code>는 어떠한 상황에서도 동일한 결과를 리턴한다.<br />
+<br />
+애매한 예를 두 가지 정도 들어보자.<br />
+<br />
+<b>EncryptionUtils</b> 라는 클래스가 있다. 이 클래스는 encrypt(String value)와 decrypt(String encrypted) 라는 두개의 함수가 있다. 이름처럼 암호화와 복호화를 한다고 하자. encrypt 함수와 decrypt 함수는 언뜻 보면 항상 같은 입력에 대해 동일한 결과를 리턴하는 듯 보인다.<br />
+<br />
+하지만 그렇지 않다. 암호화에는 보통 Key가 필요하며 이 키는 실행 환경에 따라 설정 파일에서 다른 값을 지정하게 된다.<br />
+설정 값이라는 외부 자원에 의존하며, 그 자원에 따라 결과가 달라지게 된다. 따라서 static 으로 만들면 안되고 POJO Bean으로 만들어야 한다.<br />
+굳이 이를 static으로 만들고자 한다면 인자로 Key를 받으면 된다. 하지만 그렇게 하면 결국 설정값을 읽어서 공통 키로 저장하는 또 다른 프로젝트 전용 암호화 유틸리티가 필요해질 것이다. 비록 EncryptionUtils 자체는 키와 값을 모두 인자로 받는 static 함수 클래스로 만들더라도 공통 설정을 읽어서 매번 자동으로 인자를 EncryptionUtils의 함수 호출시에 지정해주는 클래스는 POJO Bean으로 만들어야 한다.<br />
+<br />
+<b>EmailUtils</b> 라는게 있다고 하자. send(각종 인자) 라는 함수는 SMTP 서버 주소를 문자열로 받고 제목, 받는이, 보내는이, 내용 정보를 모두 인자로 받기 때문에 항상 메일 발송 결과가 동일하다. 그렇다면 static으로 만들어도 되겠지?<br />
+물론 아니니까 예로 든 것이다. 언뜻 보면 입력에 따른 결과가 항상 동일한 것 같지만 사실은 그렇지 않다.<br />
+SMTP 서버는 함수 호출시 그 상황을 명확하게 알 수 없다. 서버가 다운되면 비록 인자들이 동일하더라도 어떨 때는 메일 발송이 성공하고 어떨 때는 오류를 내게 된다. 즉, 외부 자원으로 인해 실행 결과의 일관성이 보장되지 않는다.<br />
+<br />
+Spring Framework에 보면 <b><a target="_blank" href="http://docs.spring.io/spring/docs/3.1.4.RELEASE/javadoc-api/org/springframework/jdbc/datasource/DataSourceUtils.html">DataSourceUtils</a></b> 라는 것이 있다. 이 static 함수 모음 클래스는 DataSource라는 외부 리소스를 인자로 직접 받는다. 이는 외부 자원에 의존적인 것일까? 아니라고 본다. 외부 자원을 나타내는 객체 자체가 인자로 전달되면 외부 자원의 상태도 인자로 전달되는 것이라고 볼 수 있다. 따라서 DataSource가 불안정한 상태로 오면 불안정한 상태에 대해서는 일관성있게 반응하게 된다.<br />
+잠깐? 그렇다면 EmailUtils도 비슷한거 아닌가? SMTP 서버라는 외부 자원을 인자로 받지 않는가?<br />
+<br />
+이것은 매우 다르다고 본다. SMTP 서버 정보를 문자열 인자로 받는다면 실제로 SMTP 서버라는 외부 자원에 대한 접속이 함수 안에서 이뤄지게 된다. 즉, 외부 의존이 static 함수 안에서 발생한다. 이 경우 SMTP 서버 자체에 대한 접속과 행위를 Smtp 라는 추상화한 클래스의 객체로 만들어서 EmailUtils에 인자로 넘긴다면 이 문제가 해결된다. 즉, 변화하는 외부 자원이 있고 그에 대한 모든 상태를 객체화해서 인자로 넘겨줄 경우에는 static 모음 클래스로 만들어도 좋다. 더 쉽게 예를 들면..<br />
+<code>EmailUtils.send(<b>String</b> smtpServer, ....)</code> 이런 형태는 안된다. 하지만 <code>EmailUtils.send(<b>Smtp</b> smtp, ...)</code> 이런 형태는 허용된다. EmailUtils의 함수 안에서는 절대로 SMTP에 접속하면 안된다. <strong>모든 외부 자원에 대한 접속과 행위는 Smtp 클래스의 객체를 통해 이뤄져야 한다.</strong><br />
+<br />
+이정도를 기준으로 잡으면 대략적으로 무엇을 static 함수 모음 Class로 만들지 답은 나올 것 같다.<br />
+<br />
+마지막으로 static 함수 모음 Class를 만들 때 내가 사용하는 방법 두 가지 정도를 소개한다.<br />
+<br />
+<ol><li>프로젝트 전용 StringUtils 같은게 필요한 경우가 있다. 이 때 그냥 StringUtils라고 만들지 말고, Apache Commons나 Spring Framework 등에 존재하는 StringUtils 등을 상속해서 ProjectSpecificStringUtils를 만든다. 그리고서 원하는 기능을 하는 함수를 ProjectSpecificStringUtils에 추가하면 다른 프로그래머들은 일관성있게 ProjectSpecificStringUtils 만 사용하면 되게 된다. 이미 세상에는 대부분의 기능에 관한 유틸리티성 static 함수 모음 클래스들이 존재한다.</li><li><a target="_blank" href="http://docs.oracle.com/javase/1.5.0/docs/guide/language/static-import.html">static import</a> 사용성을 높이려면 지나치게 보편적인 이름을 사용하는 것은 피하는게 낫다. 다시 말해 나는 <code>StringUtils.contains()</code> 보다는 <code>StringUtils.strContains()</code>를 선호한다.<br />
+</li></ol>			 ]]> 
+		</description>
+		<category>프로그래밍</category>
+
+		<comments>http://kwon37xi.egloos.com/4844149#comments</comments>
+		<pubDate>Sun, 08 Dec 2013 07:05:42 GMT</pubDate>
+		<dc:creator>권남</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 인정받고 싶다면..... ]]> </title>
+		<link>http://kwon37xi.egloos.com/4843709</link>
+		<guid>http://kwon37xi.egloos.com/4843709</guid>
+		<description>
+			<![CDATA[ 
+  존경은 지금 내 옆에서 묵묵히 일하고 있는 바로 그 사람에게 보내자.<br />
+저 멀리에서 화려하게 말만 많은 누군가 말고.<br />
+<br />
+인정받고 싶다면 지금 내 옆에서 일하고 있는 사람들에게 인정 받자.<br />
+저 멀리에 나를 제대로 알지도 못하는 사람 말고.<br />
+<br />
+내 꿈은 지금 내 옆에서 일하는 동료들이 나중에도 나와 함께하고 싶다고 말하는 것.<br />
+<br />
+사람들은 원대한 꿈을 말하지만 내꿈은 이게 다다.<br />
+<br />
+지금 내 옆에서 일하고 있는 사람들의 "당신과 다시 함께하고 싶어요." 그 말 한 마디.<br />
+			 ]]> 
+		</description>
+		<category>일상속에서...</category>
+
+		<comments>http://kwon37xi.egloos.com/4843709#comments</comments>
+		<pubDate>Thu, 05 Dec 2013 18:15:51 GMT</pubDate>
+		<dc:creator>권남</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 당신은 사랑"하"기 위해 태어난 사람~ ]]> </title>
+		<link>http://kwon37xi.egloos.com/4841816</link>
+		<guid>http://kwon37xi.egloos.com/4841816</guid>
+		<description>
+			<![CDATA[ 
+  당신은 사랑 "하"기 위해 태어난 사람~<br />
+<br />
+쉽게 생각하면 사랑은 받는 사람이 주는 사람보다 우위에 있는 것 처럼 느껴진다.<br />
+수많은 이성들로 부터 연락 받는 예쁜 여자, 멋지고 능력있는 남자가 진짜 행복한 것일까?<br />
+<br />
+하지만 실제로는 사랑을 주는 사람이 받는 사람보다 더 우위에 있다. 그것이 남녀 관계든 부모 자식 관계든 보편적 인간 관계든.<br />
+<br />
+나는 내 스스로 생각하기에 내가 정신적으로 매우 건강한 편에 속한다고 본다. 태어나면서 부터 장애를 가지고 태어난 사람 치고는. 온갖 열등감에 시달려야 그것이 정상인 것 같은데 별로 그렇지 않고 나는 항상 자신감에 차 있는 편이다. 그리고 그 이유를 나는 우리 부모님의 나에 대한 절대적인 신뢰와 사랑 때문이라고 생각한다.<br />
+<br />
+그냥 갑자기 오늘 사람들 만나면서 그런 생각 드네. 저 사람이 나한테 보고 싶다고 님이랑 술 한잔 하고 싶다고 안한다면 과연 나는 살맛 나는 세상에 살고 있는 것일까?<br />
+<br />
+사랑의 주도권은 그것이 무슨 형태이건 주는 사람에게 있는 것이지 받는 사람에게 있는 것이 아니라는 생각이 든다.<br />
+<br />
+당신은 사랑하기 위해 태어난 사람.<br />
+<br />
+진짜 행복한 사람은 사랑을 주는 사람이지 사랑을 받는 사람이 아니다.<br />
+<br />
+언제 부처든 예수든 혹은 신이든 사랑받지 못한다고 우울해 한 적 있던가?<br />
+<br />
+그들은 세상에 사랑을 주기 위해 이 땅에 오신 분들. 애초에 사랑 받을 것은 생각도 안하신 분들.<br />
+<br />
+<br />
+			 ]]> 
+		</description>
+
+		<comments>http://kwon37xi.egloos.com/4841816#comments</comments>
+		<pubDate>Mon, 25 Nov 2013 15:08:31 GMT</pubDate>
+		<dc:creator>권남</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 개인 위키 장애 상태 ]]> </title>
+		<link>http://kwon37xi.egloos.com/4838868</link>
+		<guid>http://kwon37xi.egloos.com/4838868</guid>
+		<description>
+			<![CDATA[ 
+  2013년 11월 10일, 복구 완료. DNS 변경 전파에 시간이 좀 걸릴 수는 있지만 머지않아 다 될 듯.<br />
+--<br />
+개인 위키인 <a target="_blank" href="http://wiki.kwonnam.pe.kr">http://wiki.kwonnam.pe.kr</a> 가 장애가 났다.<br />
+<a href="http://www.just4fun.co.kr/forum/view/?id=101">호스팅 서버의 하드디스크 배드 섹터로 인한 장애</a>라 하며 복구가 사실상 힘들 것으로 예상된다.<br />
+<br />
+다행인 것은 최근 해당 서비스의 장애가 빈번하여, 믿음이 떠난지 오래되었고 그로 인해 얼마 전부터 매일 매일 백업을 걸어 놓고 있었다는 점.<br />
+<br />
+해당 서비스를 곧바로 해지하고 좀 더 안정적인 곳으로 옮겨 탈 준비에 착수 중...<br />
+<br />
+이번엔 <a target="_blank" href="http://nginx.org/">nginx</a>로 구성하고 가는 김에 인증서 까지 붙여봐야겠다.<br />
+			 ]]> 
+		</description>
+		<category>일상속에서...</category>
+
+		<comments>http://kwon37xi.egloos.com/4838868#comments</comments>
+		<pubDate>Sat, 09 Nov 2013 06:28:30 GMT</pubDate>
+		<dc:creator>권남</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ JSP/Freemarker 템플릿 상속을 통한 레이아웃 관리 ]]> </title>
+		<link>http://kwon37xi.egloos.com/4827957</link>
+		<guid>http://kwon37xi.egloos.com/4827957</guid>
+		<description>
+			<![CDATA[ 
+  ᅟJava 웹 개발자들은 웹 페이지 템플릿 프레임워크는 JSP나 <a href="http://freemarker.org/">Freemarker</a> 등을 사용하고 레이아웃을 관리할 때는 또 <a href="http://wiki.sitemesh.org/display/sitemesh/Home">Sitemesh</a>나 <a href="http://tiles.apache.org/">Tiles</a> 같은 별도 프레임워크를 도입하고 있다. 사실 얼마전까지는 다른 선택사항이 없었다.<br />
+<br />
+하지만 Java 외의 다른 언어 세계에서는 레이아웃을 관리할 때 별도의 프레임워크를 거의 사용하지 않고 있다. <a href="https://www.djangoproject.com/">Django</a>, <a href="http://jade-lang.com/">Jade</a>, <a href="http://jinja.pocoo.org/docs/">Jinja2</a> 같은 템플릿 프레임워크들을 보면 <b>템플릿 상속(template inheritance)</b>이라는 개념을 통해 레이아웃을 굉장히 쉽고 간편하게 관리한다.<br />
+<br />
+<b>템플릿 상속</b>은 객체 지향 언어에서 클래스 상속과 약간 비슷하다. 부모 클래스에서 뼈대를 만들어 놓으면, 자식 클래스에서 일부 메소드를 재정의 하여 부모의 뼈대는 재활용 하면서 일부 기능을 바꿔치기 하듯, 템플릿 상속도 부모 템플릿에 레이아웃의 기본 뼈대를 만들고, 자식 템플릿에서 부모 템플릿의 특정 영역을 바꿔치기 하는 방식으로 레이아웃을 관리한다. 사실 이 형태는 이미 Sitemesh에서 다소 불편한 방식으로 유사하게 작동하고 있다.<br />
+<br />
+템플릿을 상속할 때 좋은 점은 별도의 프레임워크가 필요없고, 그에 따른 설정도 필요없다. Java에서 클래스 상속하려고 별도 XML 설정 파일 만들어서 관계를 기술하거나 하지는 않지 않는가? 단지 <b>자식클래스 extends 부모클래스</b>라고 자식 클래스에 기술할 뿐이다.<br />
+<br />
+템플릿 상속을 일단 알게 되면 그 뒤 부터는  별도 프레임워크(Sitemesh, Tiles 등)을 사용한 레이아웃 관리는 정말 정말 귀찮은 일이 되어버린다. 그런데 Java 진영은 아직도 대부분 JSP를 사용하고 그 나머지 일부는 Freemarker를 사용하는 형국인지라 이게 이만저만 불편한게 아니다.<br />
+<br />
+그래서 그냥 Freemarker용 템플릿 상속 지시자(directive)와 JSP용 템플릿 상속 태그 라이브러리(tag library)를 만들었다(Freemarker의 지시자는 JSP의 태그 라이브러리 같은 것).<br />
+<ul><li><a href="https://github.com/kwon37xi/freemarker-template-inheritance">Freemarker Template Inheritance</a><br />
+</li><li><a href="https://github.com/kwon37xi/jsp-template-inheritance">JSP Template Inheritance</a></li><br />
+</ul>템플릿 상속은 콜럼부스의 달걀과 비슷하게 그 아이디어를 처음 내는게 어렵지 실제 사용 방법은 정말 말도 안된다 싶을 정도로 쉽다.<br />
+<br />
+JSP를 예로 보여주면 다음과 같이 하면 레이아웃이 끝난다. Java외의 다른 언어를 해본 적이 없는 사람이라면 설정이 너무 없어서 진짜? 라고 되물을지도 모른다.<br />
+<br />
+<span style="font-size:130%;"><b>Layout 역할을 하는 base.jsp</b></span><br />
+<blockquote class="src">&lt;%@page&nbsp;contentType="text/html;&nbsp;charset=UTF-8"&nbsp;%&gt;<br />
+<font color="#3366ff">&lt;%@&nbsp;taglib&nbsp;uri="http://kwonnam.pe.kr/jsp/template-inheritance"&nbsp;prefix="layout"%&gt;</font><br />
+&lt;!DOCTYPE&nbsp;html&gt;<br />
+&lt;html&nbsp;lang="en"&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;head&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;JSP&nbsp;Template&nbsp;Inheritance&lt;/title&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/head&gt;<br />
+<br />
+&lt;h1&gt;Head&lt;/h1&gt;<br />
+&lt;div&gt;<br />
+<span style="background-color: rgb(255, 255, 102);">&nbsp;&nbsp;&nbsp;&nbsp;&lt;layout:block&nbsp;name="header"&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;header<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/layout:block&gt;</span><br />
+&lt;/div&gt;<br />
+<br />
+&lt;h1&gt;Contents&lt;/h1&gt;<br />
+&lt;div&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;<br />
+<span style="background-color: rgb(102, 255, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&lt;layout:block&nbsp;name="contents"&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2&gt;Contents&nbsp;will&nbsp;be&nbsp;placed&nbsp;under&nbsp;this&nbsp;h2&lt;/h2&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/layout:block&gt;</span><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/p&gt;<br />
+&lt;/div&gt;<br />
+<br />
+&lt;div&nbsp;class="footer"&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;hr&nbsp;/&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="https://github.com/kwon37xi/jsp-template-inheritance"&gt;jsp&nbsp;template&nbsp;inheritance&nbsp;example&lt;/a&gt;<br />
+&lt;/div&gt;<br />
+&lt;/html&gt;<br />
+</blockquote><br />
+<br />
+<span style="font-size:130%;"><b>Layout을 사용하여 실제 내용을 채워넣는 JSP 페이지</b></span><br />
+<blockquote class="src">&lt;%@page&nbsp;contentType="text/html;&nbsp;charset=UTF-8"&nbsp;%&gt;<br />
+&lt;%@&nbsp;taglib&nbsp;uri="http://kwonnam.pe.kr/jsp/template-inheritance"&nbsp;prefix="layout"%&gt;<br />
+<font color="#3366ff"><b>&lt;layout:extends&nbsp;name="base.jsp"&gt;</b></font><br />
+<span style="background-color: rgb(255, 255, 51);">&nbsp;&nbsp;&nbsp;&nbsp;&lt;layout:put&nbsp;name="header"&nbsp;type="REPLACE"&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;h2&gt;This&nbsp;is&nbsp;an&nbsp;example&nbsp;about&nbsp;layout&nbsp;management&nbsp;with&nbsp;JSP&nbsp;Template&nbsp;Inheritance&lt;/h2&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;/layout:put&gt;</span><br />
+<span style="background-color: rgb(51, 255, 255);">&nbsp;&nbsp;&nbsp;&nbsp;&lt;layout:put&nbsp;name="contents"&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem&nbsp;ipsum&nbsp;dolor&nbsp;sit&nbsp;amet,&nbsp;consectetur&nbsp;adipiscing&nbsp;elit.&nbsp;Proin&nbsp;porta,<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;augue&nbsp;ut&nbsp;ornare&nbsp;sagittis,&nbsp;diam&nbsp;libero&nbsp;facilisis&nbsp;augue,&nbsp;quis&nbsp;accumsan&nbsp;enim&nbsp;velit&nbsp;a&nbsp;mauris.<br />
+&nbsp;&nbsp;&nbsp; &lt;/layout:put&gt;</span><br />
+&lt;/layout:extends&gt;<br />
+</blockquote><br />
+<br />
+딱 보면, <b>부모 페이지의 &lt;layout:block&gt; 부분이 자식 페이지의 &lt;layout:put&gt;에 의해 대체되는 방식으로 작동</b>한다는 것을 이해할 수 있을 것이다.<br />
+여러번에 걸친 상속도 물론 가능하기 때문에 가장 바깥 레이아웃과 그것을 상속하는 여러개의 중간 레이아웃을 만드는 것도 가능하다.<br />
+<br />
+자세한 설명은 링크를 타고가서 보면 된다.<br />
+<br />
+그리고 마지막으로 이제는 Java 개발자들도 JSP 좀 버렸으면 좋겠다(아래 내용 대부분은 Freemarker도 마찬가지).<br />
+<ul><br />
+<li>JSP는 범용 템플릿이고, 구문도 장황해서 대부분의 템플릿 작업인 HTML에 사용하기에는 코드가 너무 지저분해진다.<br />
+</li><li>JSP는 기본적으로 데이터를 HTML Escape하지 않기 때문에 <a target="_blank" href="http://ko.wikipedia.org/wiki/%EC%82%AC%EC%9D%B4%ED%8A%B8_%EA%B0%84_%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8C%85">Cross Site Scripting 공격</a>에 취약해지는 코드를 짜기 쉽다. 기본을 HTML Escape으로 하고, 특별한 경우에 변환 없이 바로 출력하게 하는 것이 더 안전하다.<br />
+</li><li>MVC 분리로 로직과 뷰단이 별개로 존재할 수 있는 상황에서 JSP 컨테이너에 의존적인 환경은 뷰 전용 기능(JSP에서는 Tag Library나 JSTL Function등)을 만들고 테스트하기가 어렵다.</li><br />
+</ul>위와 같은 이유들 때문이다.<br />
+<br />
+요즘 Java 진영에도 JSP와 Freemarker 외의 대안들이 나오고 있다. 아래 소개하는 것들은 어쩌면 아직은 완전히 무르익지 않았을지 모르지만 내가 눈여겨 보고 있는 것들이다.<br />
+<ul><li><a title="" href="https://github.com/neuland/jade4j" target="_blank">Jade4j</a> / <a href="https://github.com/neuland/spring-jade4j">Spring-Jade4j</a> : 요즘 내가 가장 눈여겨 보고 있다.<br />
+</li><li><a title="" href="http://trimou.org/" target="_blank">Trimou</a> : 매우 많은 언어로 포팅된 <a title="" href="https://github.com/mustache" target="_blank">Mustache</a> 템플릿의 구현체</li><li>추가 : <a target="_blank" href="https://github.com/jknack/handlebars.java">Handlebars</a> : 현재 사용중. Mustache를 계승하여 기능을 좀 더 보강.<br />
+</li><br />
+</ul><br/><br/>tag : <a href="/tag/java" rel="tag">java</a>,&nbsp;<a href="/tag/jsp" rel="tag">jsp</a>,&nbsp;<a href="/tag/template" rel="tag">template</a>,&nbsp;<a href="/tag/jade" rel="tag">jade</a>,&nbsp;<a href="/tag/layout" rel="tag">layout</a>,&nbsp;<a href="/tag/레이아웃" rel="tag">레이아웃</a>,&nbsp;<a href="/tag/mustache" rel="tag">mustache</a>,&nbsp;<a href="/tag/sitemesh" rel="tag">sitemesh</a>,&nbsp;<a href="/tag/tiles" rel="tag">tiles</a>			 ]]> 
+		</description>
+		<category>프로그래밍</category>
+		<category>java</category>
+		<category>jsp</category>
+		<category>template</category>
+		<category>jade</category>
+		<category>layout</category>
+		<category>레이아웃</category>
+		<category>mustache</category>
+		<category>sitemesh</category>
+		<category>tiles</category>
+
+		<comments>http://kwon37xi.egloos.com/4827957#comments</comments>
+		<pubDate>Thu, 12 Sep 2013 14:00:37 GMT</pubDate>
+		<dc:creator>권남</dc:creator>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,46 @@
+﻿@model EasyPosting.Models.EP_METAS
+
+@{
+    ViewBag.Title = "BlogAPI 등록 계정";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Html.DisplayFor(model => model.publish) | @Html.DisplayFor(model => model.publish_SITE)</h2>
+
+<div>
+    <h4></h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.publish_SITE)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.publish_SITE)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Publish_ID)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Publish_ID)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Publish_BLOGID)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Publish_BLOGID)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Publish_BLOGKEY)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Publish_BLOGKEY)
+        </dd>        
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("돌아가기", "Manage","Account") |
+    @Html.ActionLink("삭제", "Delete", new { id = Model.ID })
+</p>
+
+
+

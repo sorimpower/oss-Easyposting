@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>강서기의 얼리스토리</title>
+		<link>http://clubis.tistory.com/</link>
+		<description>twtkr.com/clubis 1985년 8비트 컴퓨터부터 시작하여 SNS 웹컨설턴트 직종의 얼리어답터 매니아입니다. 현재 SNS 관련 Blog, Twitter, Mobile 강의 및 집필, 컨설팅을 하고 있으며, 사람만나는 것을 좋아하고 먹거리, 볼거리, 놀거리 및 음주가무에 능한 블로거입니다.</description>
+		<language>ko</language>
+		<pubDate>Fri, 13 Dec 2013 15:08:10 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>생존자</managingEditor>
+		<image>
+			<title>강서기의 얼리스토리</title>
+			<url>http://cfile6.uf.tistory.com/image/1421BC414F0982D00540D4</url>
+			<link>http://clubis.tistory.com</link>
+			<description>twtkr.com/clubis 1985년 8비트 컴퓨터부터 시작하여 SNS 웹컨설턴트 직종의 얼리어답터 매니아입니다. 현재 SNS 관련 Blog, Twitter, Mobile 강의 및 집필, 컨설팅을 하고 있으며, 사람만나는 것을 좋아하고 먹거리, 볼거리, 놀거리 및 음주가무에 능한 블로거입니다.</description>
+		</image>
+		<item>
+			<title>워드프레스 웹사이트 구축 A to Z</title>
+			<link>http://clubis.tistory.com/entry/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EA%B5%AC%EC%B6%95-A-to-Z</link>
+			<description>워드프레스로 웹사이트를 만들기 워드프레스라는 것을 안지는 꽤 된 것 같다. 그러나 본격적으로 워드프레스를 연구해보면서, 워드프레스만이 가진 차별점과 강점들을 보고는, 이 일에 집중을 해야겠다란 생각을 했다. 워드프레스는 사실, 블로그를 만드는 솔루션이다. 워드프레스의 역사는 급격한 발전과 성장의 길을 걸어왔는데, 그 이념에는 워드프레스의 확장성과 변동성 때문이다. 먼저, 개념정리부터 하고 가자. CMS Contents Management System..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-373-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-373-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-373-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://clubis.tistory.com/373&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=clubis.tistory.com&amp;media_type=10&amp;guid=clubis.tistory.com%2F373&amp;regts=1385895244&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<author>생존자</author>
+			<guid>http://clubis.tistory.com/373</guid>
+			<comments>http://clubis.tistory.com/entry/%EC%9B%8C%EB%93%9C%ED%94%84%EB%A0%88%EC%8A%A4-%EC%9B%B9%EC%82%AC%EC%9D%B4%ED%8A%B8-%EA%B5%AC%EC%B6%95-A-to-Z#entry373comment</comments>
+			<pubDate>Sun, 01 Dec 2013 19:54:04 +0900</pubDate>
+		</item>
+		<item>
+			<title>[행사안내] 2013 차세대컴퓨팅 전시회 및 컨퍼런스</title>
+			<link>http://clubis.tistory.com/entry/%ED%96%89%EC%82%AC%EC%95%88%EB%82%B4-2013-%EC%B0%A8%EC%84%B8%EB%8C%80%EC%BB%B4%ED%93%A8%ED%8C%85-%EC%A0%84%EC%8B%9C%ED%9A%8C-%EB%B0%8F-%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A4</link>
+			<description>[행사안내] 2013 차세대컴퓨팅 전시회 및 컨퍼런스 컨퍼런스 Conference Ⅲ - 주 관 : (사)한국소셜네트워크협회 - 주 관:2013.11.12 (화) ~ 13(수) - 장 소:coex 컨퍼런스룸 - 참가대상: 국내외 소셜네트워크서비스, 소셜미디어, 소셜컴퓨팅 관련 기술 및 서비스 기업 또는 전문가등 - 주요내용: SNS와 창조경제, SNS비즈니스 창업스타트업, ...&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-372-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-372-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-372-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://clubis.tistory.com/372&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=clubis.tistory.com&amp;media_type=10&amp;guid=clubis.tistory.com%2F372&amp;regts=1382419401&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/SNS%20Academy&quot;&gt;SNS Academy&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/행사안내-2013-차세대컴퓨팅-전시회-및-컨퍼런스&quot; &gt;[행사안내] 2013 차세대컴퓨팅 전시회 및 컨퍼런스&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/10/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/2013년-하반기-여성IT․CT전문교육-교육생-모집-소셜미디어-콘텐츠-제작&quot; &gt;2013년 하반기 여성IT․CT전문교육 교육생 모집 - 소셜미디어 콘텐츠 제작&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/08/12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/무료정책자금지원-소상공인-마케팅-컨설팅-과정-소상공인경영학교&quot; &gt;[무료/정책자금지원] 소상공인 마케팅 컨설팅 과정-소상공인경영학교&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/08/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/매장-홍보를-위한-바이럴입소문-마케팅-전략수립-과정&quot; &gt;매장 홍보를 위한 바이럴(입소문) 마케팅 전략수립 과정&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/05/29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>SNS Academy</category>
+			<author>생존자</author>
+			<guid>http://clubis.tistory.com/372</guid>
+			<comments>http://clubis.tistory.com/entry/%ED%96%89%EC%82%AC%EC%95%88%EB%82%B4-2013-%EC%B0%A8%EC%84%B8%EB%8C%80%EC%BB%B4%ED%93%A8%ED%8C%85-%EC%A0%84%EC%8B%9C%ED%9A%8C-%EB%B0%8F-%EC%BB%A8%ED%8D%BC%EB%9F%B0%EC%8A%A4#entry372comment</comments>
+			<pubDate>Tue, 22 Oct 2013 14:23:21 +0900</pubDate>
+		</item>
+		<item>
+			<title>2013년 하반기 여성IT․CT전문교육 교육생 모집 - 소셜미디어 콘텐츠 제작</title>
+			<link>http://clubis.tistory.com/entry/2013%EB%85%84-%ED%95%98%EB%B0%98%EA%B8%B0-%EC%97%AC%EC%84%B1IT%E2%80%A4CT%EC%A0%84%EB%AC%B8%EA%B5%90%EC%9C%A1-%EA%B5%90%EC%9C%A1%EC%83%9D-%EB%AA%A8%EC%A7%91-%EC%86%8C%EC%85%9C%EB%AF%B8%EB%94%94%EC%96%B4-%EC%BD%98%ED%85%90%EC%B8%A0-%EC%A0%9C%EC%9E%91</link>
+			<description>2013년 하반기 여성IT․CT전문교육 교육생 모집 - IT전문가로의 취업 성공을 도와 드립니다! - ■ 대 상 : 교육과정 접수일 현재 경기도에 주소를 두고 있는 만 15세 이상의 여성 ■ 목 표 : 전문적이고 체계적인 IT교육을 제공함으로써 경력단절 여성에게 스마트 시대에 필요한 콘텐츠 분야로 취·창업지원 ■ 신청 기간 : 2013.06.01(토) ~ 08.09(금) 17:00 까지 ■ 교 육 비 : 월2만원(입학금1만원 별도), I-Plus카드..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-371-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-371-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-371-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://clubis.tistory.com/371&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=clubis.tistory.com&amp;media_type=10&amp;guid=clubis.tistory.com%2F371&amp;regts=1376261155&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/SNS%20Academy&quot;&gt;SNS Academy&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/행사안내-2013-차세대컴퓨팅-전시회-및-컨퍼런스&quot; &gt;[행사안내] 2013 차세대컴퓨팅 전시회 및 컨퍼런스&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/10/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/2013년-하반기-여성IT․CT전문교육-교육생-모집-소셜미디어-콘텐츠-제작&quot; &gt;2013년 하반기 여성IT․CT전문교육 교육생 모집 - 소셜미디어 콘텐츠 제작&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/08/12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/무료정책자금지원-소상공인-마케팅-컨설팅-과정-소상공인경영학교&quot; &gt;[무료/정책자금지원] 소상공인 마케팅 컨설팅 과정-소상공인경영학교&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/08/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/매장-홍보를-위한-바이럴입소문-마케팅-전략수립-과정&quot; &gt;매장 홍보를 위한 바이럴(입소문) 마케팅 전략수립 과정&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/05/29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>SNS Academy</category>
+			<author>생존자</author>
+			<guid>http://clubis.tistory.com/371</guid>
+			<comments>http://clubis.tistory.com/entry/2013%EB%85%84-%ED%95%98%EB%B0%98%EA%B8%B0-%EC%97%AC%EC%84%B1IT%E2%80%A4CT%EC%A0%84%EB%AC%B8%EA%B5%90%EC%9C%A1-%EA%B5%90%EC%9C%A1%EC%83%9D-%EB%AA%A8%EC%A7%91-%EC%86%8C%EC%85%9C%EB%AF%B8%EB%94%94%EC%96%B4-%EC%BD%98%ED%85%90%EC%B8%A0-%EC%A0%9C%EC%9E%91#entry371comment</comments>
+			<pubDate>Mon, 12 Aug 2013 07:45:55 +0900</pubDate>
+		</item>
+		<item>
+			<title>[무료/정책자금지원] 소상공인 마케팅 컨설팅 과정-소상공인경영학교</title>
+			<link>http://clubis.tistory.com/entry/%EB%AC%B4%EB%A3%8C%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88%EC%A7%80%EC%9B%90-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%EB%A7%88%EC%BC%80%ED%8C%85-%EC%BB%A8%EC%84%A4%ED%8C%85-%EA%B3%BC%EC%A0%95-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%EA%B2%BD%EC%98%81%ED%95%99%EA%B5%90</link>
+			<description>소셜미디어 시대에 대응하는 소상공인 마케팅 컨설팅 과정-소상공인경영학교  1. 교육목적 및 기대효과 ○ 소셜미디어 마케팅 활용교육을 통한 고객과의 소통증진 ○ 소셜네트워크서비스를 통하여 소상공인의 브랜드 인지도 증가 ○ SNS를 운영할 수 있는 환경 마련 및 셋팅 2. 신청자격 : 사업자등록증이 있는 소상공인 누구나^^ 3. 교육비 : 무료! 4. 준비물 : 노트북, 스마트폰 5. 교육시기 및 기간 ㅇ 교육차수 및 시간 : 오전 10:00 ~ 오후..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-370-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-370-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-370-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://clubis.tistory.com/370&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=clubis.tistory.com&amp;media_type=10&amp;guid=clubis.tistory.com%2F370&amp;regts=1376550442&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/SNS%20Academy&quot;&gt;SNS Academy&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/2013년-하반기-여성IT․CT전문교육-교육생-모집-소셜미디어-콘텐츠-제작&quot; &gt;2013년 하반기 여성IT․CT전문교육 교육생 모집 - 소셜미디어 콘텐츠 제작&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/08/12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/무료정책자금지원-소상공인-마케팅-컨설팅-과정-소상공인경영학교&quot; &gt;[무료/정책자금지원] 소상공인 마케팅 컨설팅 과정-소상공인경영학교&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/08/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/매장-홍보를-위한-바이럴입소문-마케팅-전략수립-과정&quot; &gt;매장 홍보를 위한 바이럴(입소문) 마케팅 전략수립 과정&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/05/29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/시니어창업스쿨-소셜미디어를-활용한-멀티미디어-안전창업-과정&quot; &gt;시니어창업스쿨-소셜미디어를 활용한 멀티미디어 안전창업 과정&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/05/01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>SNS Academy</category>
+			<author>생존자</author>
+			<guid>http://clubis.tistory.com/370</guid>
+			<comments>http://clubis.tistory.com/entry/%EB%AC%B4%EB%A3%8C%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88%EC%A7%80%EC%9B%90-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%EB%A7%88%EC%BC%80%ED%8C%85-%EC%BB%A8%EC%84%A4%ED%8C%85-%EA%B3%BC%EC%A0%95-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%EA%B2%BD%EC%98%81%ED%95%99%EA%B5%90#entry370comment</comments>
+			<pubDate>Tue, 06 Aug 2013 12:51:02 +0900</pubDate>
+		</item>
+		<item>
+			<title>매장 홍보를 위한 바이럴(입소문) 마케팅 전략수립 과정</title>
+			<link>http://clubis.tistory.com/entry/%EB%A7%A4%EC%9E%A5-%ED%99%8D%EB%B3%B4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%B0%94%EC%9D%B4%EB%9F%B4%EC%9E%85%EC%86%8C%EB%AC%B8-%EB%A7%88%EC%BC%80%ED%8C%85-%EC%A0%84%EB%9E%B5%EC%88%98%EB%A6%BD-%EA%B3%BC%EC%A0%95</link>
+			<description>교육명 : 매장 홍보를 위한 바이럴(입소문) 마케팅 전략수립 과정 2013년 06월 11일부터 12일까지 이틀간 소상공인 매장 홍보를 위한 소셜미디어 및 바이럴 마케팅 교육이 낙성대역 5번 출구 300m SK셀프주유소옆 훌랄라치킨 건물(주소:서울시 관악구 행운동 1674-20 태화빌딩 4층)에 위치한 한국블로그산업협회강의장에서 진행됩니다. 중소기업청 산하 소상공인진흥원에서 교육비 전액 정부지원하며 관심있으신 수강생께서는 시행기관인 한국블로그산업협회..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-369-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-369-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-369-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://clubis.tistory.com/369&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=clubis.tistory.com&amp;media_type=10&amp;guid=clubis.tistory.com%2F369&amp;regts=1369811306&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/SNS%20Academy&quot;&gt;SNS Academy&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/무료정책자금지원-소상공인-마케팅-컨설팅-과정-소상공인경영학교&quot; &gt;[무료/정책자금지원] 소상공인 마케팅 컨설팅 과정-소상공인경영학교&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/08/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/매장-홍보를-위한-바이럴입소문-마케팅-전략수립-과정&quot; &gt;매장 홍보를 위한 바이럴(입소문) 마케팅 전략수립 과정&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/05/29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/시니어창업스쿨-소셜미디어를-활용한-멀티미디어-안전창업-과정&quot; &gt;시니어창업스쿨-소셜미디어를 활용한 멀티미디어 안전창업 과정&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/05/01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/소셜미디어-시대에-대응하는-中企-경영마케팅-컨설팅-과정78차&quot; &gt;소셜미디어 시대에 대응하는 中企 경영(마케팅) 컨설팅 과정[7~8차]&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/12/04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>SNS Academy</category>
+			<author>생존자</author>
+			<guid>http://clubis.tistory.com/369</guid>
+			<comments>http://clubis.tistory.com/entry/%EB%A7%A4%EC%9E%A5-%ED%99%8D%EB%B3%B4%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%B0%94%EC%9D%B4%EB%9F%B4%EC%9E%85%EC%86%8C%EB%AC%B8-%EB%A7%88%EC%BC%80%ED%8C%85-%EC%A0%84%EB%9E%B5%EC%88%98%EB%A6%BD-%EA%B3%BC%EC%A0%95#entry369comment</comments>
+			<pubDate>Wed, 29 May 2013 16:08:26 +0900</pubDate>
+		</item>
+		<item>
+			<title>시니어창업스쿨-소셜미디어를 활용한 멀티미디어 안전창업 과정</title>
+			<link>http://clubis.tistory.com/entry/%EC%8B%9C%EB%8B%88%EC%96%B4%EC%B0%BD%EC%97%85%EC%8A%A4%EC%BF%A8-%EC%86%8C%EC%85%9C%EB%AF%B8%EB%94%94%EC%96%B4%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%A9%80%ED%8B%B0%EB%AF%B8%EB%94%94%EC%96%B4-%EC%95%88%EC%A0%84%EC%B0%BD%EC%97%85-%EA%B3%BC%EC%A0%95</link>
+			<description>시니어창업스쿨-소셜미디어를 활용한 멀티미디어 안전창업 과정 중소기업청 소상공인진흥원에서 주관하는 시니어창업스쿨 문화콘텐츠 과정으로 창업을 준비하는 40세 이상의 시니어를 대상으로 하고 있으며, 수료 후 소상공인 정책자금 저금리 우선지원 혜택이 있으며, 전체 비용 중 자부담 20만원 외 정부자금 교육비 106만원 지원하며 운영기관은 숙명여자대학교 산학지원단으로 교육장소는 숙명여자대학교에서 시행된다. 신청은 이름 / 연령 / 성별 / 핸드폰 번호를 제게..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-368-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-368-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-368-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://clubis.tistory.com/368&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=clubis.tistory.com&amp;media_type=10&amp;guid=clubis.tistory.com%2F368&amp;regts=1367401500&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/SNS%20Academy&quot;&gt;SNS Academy&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/매장-홍보를-위한-바이럴입소문-마케팅-전략수립-과정&quot; &gt;매장 홍보를 위한 바이럴(입소문) 마케팅 전략수립 과정&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/05/29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/시니어창업스쿨-소셜미디어를-활용한-멀티미디어-안전창업-과정&quot; &gt;시니어창업스쿨-소셜미디어를 활용한 멀티미디어 안전창업 과정&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/05/01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/소셜미디어-시대에-대응하는-中企-경영마케팅-컨설팅-과정78차&quot; &gt;소셜미디어 시대에 대응하는 中企 경영(마케팅) 컨설팅 과정[7~8차]&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/12/04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/강좌-소셜미디어-시대에-대응하는-중소-경영마케팅-컨설팅-과정&quot; &gt;[강좌] 소셜미디어 시대에 대응하는 중소 경영(마케팅) 컨설팅 과정&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/08/16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>SNS Academy</category>
+			<author>생존자</author>
+			<guid>http://clubis.tistory.com/368</guid>
+			<comments>http://clubis.tistory.com/entry/%EC%8B%9C%EB%8B%88%EC%96%B4%EC%B0%BD%EC%97%85%EC%8A%A4%EC%BF%A8-%EC%86%8C%EC%85%9C%EB%AF%B8%EB%94%94%EC%96%B4%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%A9%80%ED%8B%B0%EB%AF%B8%EB%94%94%EC%96%B4-%EC%95%88%EC%A0%84%EC%B0%BD%EC%97%85-%EA%B3%BC%EC%A0%95#entry368comment</comments>
+			<pubDate>Wed, 01 May 2013 18:39:06 +0900</pubDate>
+		</item>
+		<item>
+			<title>소셜미디어 시대에 대응하는 中企 경영(마케팅) 컨설팅 과정[7~8차]</title>
+			<link>http://clubis.tistory.com/entry/%EC%86%8C%EC%85%9C%EB%AF%B8%EB%94%94%EC%96%B4-%EC%8B%9C%EB%8C%80%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-%E4%B8%AD%E4%BC%81-%EA%B2%BD%EC%98%81%EB%A7%88%EC%BC%80%ED%8C%85-%EC%BB%A8%EC%84%A4%ED%8C%85-%EA%B3%BC%EC%A0%9578%EC%B0%A8</link>
+			<description>소셜미디어 시대에 대응하는 中企 경영(마케팅) 컨설팅 과정[7~8차]  &lt;== 클릭 1. 교육목적 및 기대효과 ㅇ 소셜미디어 마케팅 활용교육을 통한 고객과의 소통증진 ㅇ 기업 및 브랜드의 인지도 증가 ㅇ 기업내부의 소통 및 업무효율 향상 2. 교육시기 및 기간 ㅇ 일 시 : 12월 10일 ~ 12월 11일 (14시간), ( 오전 10:00 ~ 오후 6:00 점심시간 : 13시 ~ 14시 ) - 1차수 : 8월 23일(목) ~ 24일(금) - 종료..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-366-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-366-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-366-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://clubis.tistory.com/366&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=clubis.tistory.com&amp;media_type=10&amp;guid=clubis.tistory.com%2F366&amp;regts=1354593124&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/SNS%20Academy&quot;&gt;SNS Academy&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/시니어창업스쿨-소셜미디어를-활용한-멀티미디어-안전창업-과정&quot; &gt;시니어창업스쿨-소셜미디어를 활용한 멀티미디어 안전창업 과정&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2013/05/01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/소셜미디어-시대에-대응하는-中企-경영마케팅-컨설팅-과정78차&quot; &gt;소셜미디어 시대에 대응하는 中企 경영(마케팅) 컨설팅 과정[7~8차]&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/12/04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/강좌-소셜미디어-시대에-대응하는-중소-경영마케팅-컨설팅-과정&quot; &gt;[강좌] 소셜미디어 시대에 대응하는 중소 경영(마케팅) 컨설팅 과정&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/08/16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/싸이의-강남스타일로-본-소셜마케팅&quot; &gt;싸이의 강남스타일로 본 소셜마케팅&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/08/10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>SNS Academy</category>
+			<author>생존자</author>
+			<guid>http://clubis.tistory.com/366</guid>
+			<comments>http://clubis.tistory.com/entry/%EC%86%8C%EC%85%9C%EB%AF%B8%EB%94%94%EC%96%B4-%EC%8B%9C%EB%8C%80%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-%E4%B8%AD%E4%BC%81-%EA%B2%BD%EC%98%81%EB%A7%88%EC%BC%80%ED%8C%85-%EC%BB%A8%EC%84%A4%ED%8C%85-%EA%B3%BC%EC%A0%9578%EC%B0%A8#entry366comment</comments>
+			<pubDate>Tue, 04 Dec 2012 12:52:04 +0900</pubDate>
+		</item>
+		<item>
+			<title>[강좌] 소셜미디어 시대에 대응하는 중소 경영(마케팅) 컨설팅 과정</title>
+			<link>http://clubis.tistory.com/entry/%EA%B0%95%EC%A2%8C-%EC%86%8C%EC%85%9C%EB%AF%B8%EB%94%94%EC%96%B4-%EC%8B%9C%EB%8C%80%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-%EC%A4%91%EC%86%8C-%EA%B2%BD%EC%98%81%EB%A7%88%EC%BC%80%ED%8C%85-%EC%BB%A8%EC%84%A4%ED%8C%85-%EA%B3%BC%EC%A0%95</link>
+			<description>소셜미디어 시대에 대응하는 中企 경영(마케팅) 컨설팅 과정  1. 교육목적 및 기대효과 ㅇ 소셜미디어 마케팅 활용교육을 통한 고객과의 소통증진 ㅇ 기업 및 브랜드의 인지도 증가 ㅇ 기업내부의 소통 및 업무효율 향상 2. 교육시기 및 기간 ㅇ 시 수 : 2일(14시간), 12차수 ( 오전 10:00 ~ 오후 6:00 점심시간 : 13시 ~ 14시 ) 구 분 교 육 일 자 구 분 교 육 일 자 1차수 8월 23일(목) ~ 24일(금) 7차수 10월 1..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-365-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-365-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-365-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://clubis.tistory.com/365&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=clubis.tistory.com&amp;media_type=10&amp;guid=clubis.tistory.com%2F365&amp;regts=1345542345&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/SNS%20Academy&quot;&gt;SNS Academy&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/소셜미디어-시대에-대응하는-中企-경영마케팅-컨설팅-과정78차&quot; &gt;소셜미디어 시대에 대응하는 中企 경영(마케팅) 컨설팅 과정[7~8차]&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/12/04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/강좌-소셜미디어-시대에-대응하는-중소-경영마케팅-컨설팅-과정&quot; &gt;[강좌] 소셜미디어 시대에 대응하는 중소 경영(마케팅) 컨설팅 과정&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/08/16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/싸이의-강남스타일로-본-소셜마케팅&quot; &gt;싸이의 강남스타일로 본 소셜마케팅&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/08/10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/싸이-강남스타일-어떤-경로로-성공했나&quot; &gt;싸이 '강남스타일' 어떤 경로로 성공했나&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/08/10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>SNS Academy</category>
+			<author>생존자</author>
+			<guid>http://clubis.tistory.com/365</guid>
+			<comments>http://clubis.tistory.com/entry/%EA%B0%95%EC%A2%8C-%EC%86%8C%EC%85%9C%EB%AF%B8%EB%94%94%EC%96%B4-%EC%8B%9C%EB%8C%80%EC%97%90-%EB%8C%80%EC%9D%91%ED%95%98%EB%8A%94-%EC%A4%91%EC%86%8C-%EA%B2%BD%EC%98%81%EB%A7%88%EC%BC%80%ED%8C%85-%EC%BB%A8%EC%84%A4%ED%8C%85-%EA%B3%BC%EC%A0%95#entry365comment</comments>
+			<pubDate>Thu, 16 Aug 2012 14:33:50 +0900</pubDate>
+		</item>
+		<item>
+			<title>싸이의 강남스타일로 본 소셜마케팅</title>
+			<link>http://clubis.tistory.com/entry/%EC%8B%B8%EC%9D%B4%EC%9D%98-%EA%B0%95%EB%82%A8%EC%8A%A4%ED%83%80%EC%9D%BC%EB%A1%9C-%EB%B3%B8-%EC%86%8C%EC%85%9C%EB%A7%88%EC%BC%80%ED%8C%85</link>
+			<description>가수 싸이의 강남스타일은 전세계를 강타하고 있다. CNN에서 보도가 되고, 유튜브에선 천만뷰가 넘어갔다. 허핑턴포스트에서는 강남스타일의 인기요인을 분석했고, 세계 유명 아티스트들이 SNS를 통해 강남스타일에 대해 호평을 남겼다. 여기서 끝나지 않고 국내에서는 강남스타일을 패러디한 대구스타일, 홍대스타일을 연이어 내 놓고 있고, 이 뮤직비디오 역시 많은 인기를 끌고 있다. SNS에서는 빠르게 강남스타일이 퍼져나가고 있고, 해외의 반응과 패러디 뮤직비디..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-364-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-364-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-364-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://clubis.tistory.com/364&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=clubis.tistory.com&amp;media_type=10&amp;guid=clubis.tistory.com%2F364&amp;regts=1346898103&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/SNS%20Academy&quot;&gt;SNS Academy&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/강좌-소셜미디어-시대에-대응하는-중소-경영마케팅-컨설팅-과정&quot; &gt;[강좌] 소셜미디어 시대에 대응하는 중소 경영(마케팅) 컨설팅 과정&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/08/16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/싸이의-강남스타일로-본-소셜마케팅&quot; &gt;싸이의 강남스타일로 본 소셜마케팅&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/08/10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/싸이-강남스타일-어떤-경로로-성공했나&quot; &gt;싸이 '강남스타일' 어떤 경로로 성공했나&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/08/10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/영진사이버대학교-에듀인비즈-공동주최-스마트워크-업무환경-마스터하기&quot; &gt;영진사이버대학교 에듀인비즈 공동주최 - 스마트워크 업무환경 마스터하기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/05/09&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>SNS Academy</category>
+			<author>생존자</author>
+			<guid>http://clubis.tistory.com/364</guid>
+			<comments>http://clubis.tistory.com/entry/%EC%8B%B8%EC%9D%B4%EC%9D%98-%EA%B0%95%EB%82%A8%EC%8A%A4%ED%83%80%EC%9D%BC%EB%A1%9C-%EB%B3%B8-%EC%86%8C%EC%85%9C%EB%A7%88%EC%BC%80%ED%8C%85#entry364comment</comments>
+			<pubDate>Fri, 10 Aug 2012 16:03:53 +0900</pubDate>
+		</item>
+		<item>
+			<title>싸이 '강남스타일' 어떤 경로로 성공했나</title>
+			<link>http://clubis.tistory.com/entry/%EC%8B%B8%EC%9D%B4-%EA%B0%95%EB%82%A8%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%96%B4%EB%96%A4-%EA%B2%BD%EB%A1%9C%EB%A1%9C-%EC%84%B1%EA%B3%B5%ED%96%88%EB%82%98</link>
+			<description>8월 9일 현재 유튜브 싸이 채널의 총 동영상 조회수 3366만건. 이 가운데 강남스타일의 조회수는 60%인 2000만건. 시쳇말로 가히 '초대박'이라 할 만하다. 지난해 최다 조회수를 기록한 것으로 알려진 빅뱅 'Fantastic Baby'의 3648만건 갱신도 가능해보인다. 'K-POP' 아이돌도 아닌 그가 단 한번의 컴백 뮤직비디오로 이처럼 대단한 성공을 거둔 원인이 궁금해진다. 싸이 '강남스타일' 뮤직비디오는 '파괴의 문법', '혁신의 기획'..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-363-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-363-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-363-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://clubis.tistory.com/363&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=clubis.tistory.com&amp;media_type=10&amp;guid=clubis.tistory.com%2F363&amp;regts=1344582945&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/SNS%20Academy&quot;&gt;SNS Academy&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/싸이의-강남스타일로-본-소셜마케팅&quot; &gt;싸이의 강남스타일로 본 소셜마케팅&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/08/10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/싸이-강남스타일-어떤-경로로-성공했나&quot; &gt;싸이 '강남스타일' 어떤 경로로 성공했나&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/08/10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/영진사이버대학교-에듀인비즈-공동주최-스마트워크-업무환경-마스터하기&quot; &gt;영진사이버대학교 에듀인비즈 공동주최 - 스마트워크 업무환경 마스터하기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/05/09&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/entry/중소기업중앙회에듀인비즈-2012년도-시니어-창업스쿨단기-교육훈련-안내&quot; &gt;중소기업중앙회,에듀인비즈-2012년도 시니어 창업스쿨(단기) 교육훈련 안내&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/05/09&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>SNS Academy</category>
+			<author>생존자</author>
+			<guid>http://clubis.tistory.com/363</guid>
+			<comments>http://clubis.tistory.com/entry/%EC%8B%B8%EC%9D%B4-%EA%B0%95%EB%82%A8%EC%8A%A4%ED%83%80%EC%9D%BC-%EC%96%B4%EB%96%A4-%EA%B2%BD%EB%A1%9C%EB%A1%9C-%EC%84%B1%EA%B3%B5%ED%96%88%EB%82%98#entry363comment</comments>
+			<pubDate>Fri, 10 Aug 2012 15:59:24 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

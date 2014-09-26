@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="http://rss.egloos.com/style/blog.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>평범한 블로그</title>
+	<link>http://morgoth.egloos.com</link>
+	<description>시간과 예산을 더 주신다면...!</description>
+	<language>ko</language>
+	<pubDate>Tue, 08 Jan 2013 07:06:35 GMT</pubDate>
+	<generator>Egloos</generator>
+	<image>
+		<title>평범한 블로그</title>
+		<url>http://md.egloos.com/img/samplelogo2.gif</url>
+		<link>http://morgoth.egloos.com</link>
+		<width>80</width>
+		<height>80</height>
+		<description>시간과 예산을 더 주신다면...!</description>
+	</image>
+  </channel>
+</rss>

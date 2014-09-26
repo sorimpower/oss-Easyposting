@@ -1,0 +1,48 @@
+﻿body {
+    /*padding-top: 50px;*/
+    padding-top: 65px;
+    padding-bottom: 20px;
+    background-color: #E4F3FF;
+    /*F2EBDD;*/
+    /*background-image: url("traffic_along_highway_401_outside_scarborough,_canada.jpg")*/
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+

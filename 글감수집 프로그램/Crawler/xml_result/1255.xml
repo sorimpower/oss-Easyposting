@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>일모리와 웹표준: 배우자 나가자</title>
+	<atom:link href="http://ilmol.com/feed" rel="self" type="application/rss+xml" />
+	<link>http://ilmol.com</link>
+	<description>일모리의 일상 그리고 웹디자인, CSS, HTML, 웹표준</description>
+	<lastBuildDate>Fri, 09 May 2014 00:26:50 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.9.2</generator>
+	<item>
+		<title>PSD를 HTML로 바꾸기는 죽었다 배우자 나가자</title>
+		<link>http://ilmol.com/1167</link>
+		<comments>http://ilmol.com/1167#comments</comments>
+		<pubDate>Fri, 09 May 2014 00:26:50 +0000</pubDate>
+		<dc:creator><![CDATA[일모리]]></dc:creator>
+				<category><![CDATA[ARTICLES]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[TREND]]></category>
+		<category><![CDATA[디자이너]]></category>
+		<category><![CDATA[웹디자인]]></category>
+		<category><![CDATA[js]]></category>
+		<category><![CDATA[photoshop]]></category>
+		<category><![CDATA[PSD]]></category>
+		<category><![CDATA[ux]]></category>
+		<category><![CDATA[web design]]></category>
+
+		<guid isPermaLink="false">http://ilmol.com/?p=1167</guid>
+		<description><![CDATA[사실 몇년전 트윗을 할 때에도 그 전 부터 하던 생각을 적은것이긴 하지만 점점 경계선은 흐려가고 기술들은 발전하면서 단순 그래픽을 생산해내는 웹디자인은 힘들다고 생각했었다. 벤더와 개발자들이 정신없이 밀어내고 있는 수많은 기술들 가운데 소위 부르는 웹디자이너들은 그래픽을 신경쓰는 디자이너가 아니라 웹을 design하는 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>사실 몇년전 트윗을 할 때에도 그 전 부터 하던 생각을 적은것이긴 하지만 점점 경계선은 흐려가고 기술들은 발전하면서 단순 그래픽을 생산해내는 웹디자인은 힘들다고 생각했었다. </p>
+<blockquote class="twitter-tweet" lang="en"><p>벤더와 개발자들이 정신없이 밀어내고 있는 수많은 기술들 가운데 소위 부르는 웹디자이너들은 그래픽을 신경쓰는 디자이너가 아니라 웹을 design하는 architect 건설자의 시각을 갖지 않으면 안되는 시대가 왔다.</p>
+<p>&mdash; 일몰 ilmol (@ilmol) <a href="https://twitter.com/ilmol/statuses/131015134532476928">October 31, 2011</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<blockquote class="twitter-tweet" lang="en"><p>다시말해서 그래픽 디자이너와 웹디자이너의 경계선이 희미하던 때가 점점 사라져간다.  오해려 웹개발자와 웹디의 경계선이 흐려지고 있는듯 하다</p>
+<p>&mdash; 일몰 ilmol (@ilmol) <a href="https://twitter.com/ilmol/statuses/131016106012979200">October 31, 2011</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>아직 포토샵파일을 html로 변환해주는 사이트들이 있다. 이 사이트들이 망한다는 말은 아니겠지만 적어도 업계에서는 단순 자르기 붙이기 형식으로는 계속 변해가는 웹트랜드를 맞추기 힘들다는 뜻으로 최근 &#8220;<a href="http://blog.teamtreehouse.com/psd-to-html-is-dead">PSD to HTML Is Dead</a>&#8221; 란 글이 올라온게 아닌가 싶다.</p>
+<p>대충의 내용을 살펴보면 데스트탑이 주류였던 웹의 시대와 크로스브라우징의 제한적인 요소들이 합쳐져서 일구어낸 좋은 방법중의 하나가 PSD였지만,</p>
+<blockquote><p>First, there are now a myriad of methods for browsing the web. Phones, tablets, desktops, notebooks, televisions, and more. There is no single screen resolution that a designer can target. Taking that idea a few steps further, there’s really no number of screen resolutions that you can safely “target” anymore.</p></blockquote>
+<p>특정 브라우징 사이즈를 지정하여 디자인 할 수 없고,</p>
+<blockquote><p>Second, new features in CSS have now become commonly available. There are still a few lingering issues here and there, but support has vastly improved in the last several years. Common effects like shadows, gradients, and rounded corners can be accomplished in CSS and usually don’t even need an image-based fallback anymore.</p></blockquote>
+<p>그림자,그라데이션,둥근모서리등 CSS 기술 사용가능 영역이 확대되었으며</p>
+<blockquote><p>Third, the web industry has grown up a lot. Collectively we’ve had more time to refine our present understanding of what works and what doesn’t. Most companies will expect a designer to take ownership of aesthetics as well as HTML and CSS code.</p></blockquote>
+<p>웹개발 업계가 더욱 성숙해감에 따라 그에 따른 디자인과 기본적인 html css를 웹디에게 기대하게 되었다. 그리고 그것들을 가능하게 하는 여러 Tool들이 제공되고 있다.</p>
+<blockquote><p>High detail mockups are still sometimes generated, but not so that they can be “tossed over the fence” to a team of developers or sliced up into code. Rather, Photoshop mockups can be used as a visual aid to discuss ideas. In a PSD to HTML workflow, the Photoshop document represents the final site and it’s expected to look exactly the same in the browser. This is a subtle but important difference.</p></blockquote>
+<p>물론 포샵등의 디테일된 디자인 사용자체가 죽은것은 아니라고 말한다.  큰사이즈의 팀내에서 아이디어를 나누거나 클라이언트들에게 시각적인 아이디어를 디테일하게 나눌때에 충분히 사용될 수 있다.  하지만 공유와 나눔의 테두리 안에서 사용되는것이지 브라우저상에 정확하게 디자인을 찍어내기위한 판으로 사용되는것은 아니게 되었다.</p>
+<h3>So?</h3>
+<p>지난번 &#8220;<a href="http://uxmag.com/articles/why-ux-designers-need-to-think-like-architects">왜 UX디자이너가 건축가처럼 생각해야하는가?</a>&#8221; 글을 읽은적이 있지만 간단히는 현 트랜드는 단순 그래픽의 시대는 이미 지나갔다는 것이다.  위의 글에서 보여주는 스크린 사이즈의 다양성을 보더래도 정적일 수 없다.  역으로 Responsive Design이 해결책으로 다 되는가?  어떠한 부분을 보여주는지에 대한 컨트롤이 적은 반응형웹이 절대적인 해답 또한 아니다.  해답은 없겠지만 확실한건 계속 변화하고 있다는것, 그에 맞추어 배워야 한다는것들이다.  누군가는 웹디가 무슨 슈퍼맨인 마냥 여러기술을 꽤뚫기를 원하는거 같다고 한다.  물론 비현실적으로 웹디자이너들이 슈퍼맨이기를 바라는 곳이 많아진건 사실이지만 웹처럼 빠르게 변화되는 공간에서 변화되지 않고 정적으로 있는다는 것은 치명적일 수 밖에 없다.</p>
+<p>이제 웹디자이너들은 정적인 표현에서 기술적인 표현까지 이해해야 하는 사람들로 변해가고 있다.  </p>
+<p>한거름 더 나아가서 웹디자이너를 웹디자이너로 부르는것은 너무 제한적일 수도 있지 않을까 생각해 본다.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ilmol.com/1167/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>인간임을 증명하시오 내가할까 네가할까</title>
+		<link>http://ilmol.com/1151</link>
+		<comments>http://ilmol.com/1151#comments</comments>
+		<pubDate>Wed, 30 Apr 2014 04:46:14 +0000</pubDate>
+		<dc:creator><![CDATA[일모리]]></dc:creator>
+				<category><![CDATA[접근성/사용성]]></category>
+		<category><![CDATA[웹표준]]></category>
+		<category><![CDATA[captcha]]></category>
+		<category><![CDATA[낭비]]></category>
+		<category><![CDATA[캡챠]]></category>
+
+		<guid isPermaLink="false">http://ilmol.com/?p=1151</guid>
+		<description><![CDATA[CAPTCHA 는 우리의 문제를 유저에게 떠넘기는 궁극적인 예이다. 캡챠를 통과하기 위해서 유저들이 얼마나 많은 시간들을 낭비했나? 우리가 봇에대한 문제를 다루지 않았기에 수많은 시간들이 낭비되었다. 단순히 캡챠만을 말하는 것은 아니다. 유저가 인간임을 증명해야 하는 모든 시스탬들을 일컫는 것이다. 왜 유저들이 증명을 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<blockquote><p>CAPTCHA 는 우리의 문제를 유저에게 떠넘기는 궁극적인 예이다.  캡챠를 통과하기 위해서 유저들이 얼마나 많은 시간들을 낭비했나?  우리가 봇에대한 문제를 다루지 않았기에 수많은 시간들이 낭비되었다.</p>
+<p>단순히 캡챠만을 말하는 것은 아니다.  유저가 인간임을 증명해야 하는 모든 시스탬들을 일컫는 것이다.  왜 유저들이 증명을 해야하는가?  또다른 불편함이고 또 다른 시간 낭비이다.</p>
+<p>우리가 노력을 한다면 해결할 수 있는 문제이다.  <a href="https://forrst.com/posts/Preventing_form_spam_with_honeytrap-iLb">허니트랩</a>(직역하면 꿀덫) 테크닉같은 경우가 그리하다. (역주: 봇은 모든 필드를 적어 넣는다는것을 역이용해서 유저에게는 보이지 않는 필드를 만들어서 그곳에 채워져있으면 봇으로 인식하게 하는 기술).  또한 자동요청을 필터하는 서버쪽의 기술들도 존재한다.  문제는 캡챠를 사용하면 개발쪽에선 편하다는 것이다.</p>
+<p><small>CAPTCHA is the ultimate example of unloading our problems onto users. How many millions of hours have users wasted filling in CAPTCHA forms? Hours wasted because we haven’t addressed the problem of bots.</p>
+<p>Just to be clear, I am not just talking about traditional CAPTCHA either. I am talking about any system that forces the user to prove they are human. Why should they have to prove anything? Once again, another inconvenience, another drain on their precious time.</p>
+<p>We could solve this problem if we put the time into it. The honeytrap technique helps. There are also server-side solutions for filtering out automated requests. The problem is that throwing a CAPTCHA on a website is easier.</small></p></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p>Who wants to wait while they are waiting? Exactly. That&#39;s why Stop Wasting Users&#39; Time: <a href="http://t.co/iMoMinvOpp">http://t.co/iMoMinvOpp</a> by <a href="https://twitter.com/boagworld">@boagworld</a> on <a href="https://twitter.com/smashingmag">@smashingmag</a></p>
+<p>&mdash; Smashing Magazine (@smashingmag) <a href="https://twitter.com/smashingmag/statuses/459693877377912833">April 25, 2014</a></p></blockquote>
+<p><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>몇일전의 <a href="http://www.smashingmagazine.com/2014/04/25/stop-wasting-users-time/">Smashing Magazine 의 글</a>의 일부이다.  암호라던지 form등에서 사용자들의 시간을 낭비하게 하는 기술들을 나열하고 있는데 상당히 기본적이면서도 당연시 여기는 불편함을 보여주고 있다. </p>
+<p>여러 많은 상황들과 여건들이 결과물을 낳는 것이겠지만 CAPTCHA의 접근성을 높인다거나 암호의 여러 조건들(대문자 특수문자 숫자등)을 연구하는것 보다는 좀 더 근본적인 부분을 고민해 보는것이 더 나은 웹을 만드는 것임을 설명하기엔 충분한 동기를 부여한다고 생각한다.</p>
+<p>&#8220;사용자의 입장에서.&#8221;  가장 매력적이면서 가장 어려운 이면을 갖고있는 말이다.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ilmol.com/1151/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Koken, 사진사, 디자이너들을 위한 CMS 가볍고 편리한 고급스러운 사이트를 위하여</title>
+		<link>http://ilmol.com/1131</link>
+		<comments>http://ilmol.com/1131#comments</comments>
+		<pubDate>Fri, 10 Jan 2014 03:34:07 +0000</pubDate>
+		<dc:creator><![CDATA[일모리]]></dc:creator>
+				<category><![CDATA[소프트웨어]]></category>
+		<category><![CDATA[cms]]></category>
+		<category><![CDATA[라이트룸]]></category>
+		<category><![CDATA[koken]]></category>
+		<category><![CDATA[lightroom]]></category>
+
+		<guid isPermaLink="false">http://ilmol.com/?p=1131</guid>
+		<description><![CDATA[Koken 은 뭐 간단히 워드프레스와 같은 컨텐츠 관리를 돕는 시스탬이다. 워드프레스만큼 설치도 쉬우며 워드프레스보다는 고급스러운 느낌에 특별히 사진이나 디자인관련 유저들을 겨냥한 시스탬인 만큼 좀더 고급스러운 인터페이스와 테마들을 제공한다. 설치형 smugmug 정도라고나 할까.. 일단 무료이고 라이트룸과 연동이 가능하다. 각종 테마들을 제공하며 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><a href="http://koken.me/">Koken</a> 은 뭐 간단히 워드프레스와 같은 컨텐츠 관리를 돕는 시스탬이다.  워드프레스만큼 설치도 쉬우며 워드프레스보다는 고급스러운 느낌에 특별히 사진이나 디자인관련 유저들을 겨냥한 시스탬인 만큼 좀더 고급스러운 인터페이스와 테마들을 제공한다.  설치형 <a href="http://smugmug.com">smugmug</a> 정도라고나 할까..  </p>
+<p>일단 무료이고 라이트룸과 연동이 가능하다.  각종 테마들을 제공하며 초고속 설치를 자랑한다.  1.1.0 버전인만큼 나름 안정적이고 사진 사이트나 미디어 사이트를 생각하시는 분들께는 상당한 메리트로 다가오지 않을까 싶다. </p>
+<p>설치를 위해 파일을 다운로드받으면 index.php 한개만 덜렁..  굳!  <a href="http://www.adobe.com/products/photoshop-lightroom.html">lightroom</a> 과 연동도 기발하고..</p>
+<p>아시는분들은 아시겠지만 요즘 워드프레스 테마들이 다들 유료추세라 좋은것들 건지기도 힘든 시대.<br />
+물론 제작자들에겐 황금의 시대.</p>
+<p><a href="http://ilmol.com/wp/wp-content/uploads/2014/01/madison-screenshot.jpg"><img src="http://ilmol.com/wp/wp-content/uploads/2014/01/madison-screenshot.jpg" alt="madison-screenshot" width="720" height="513" class="alignnone size-full wp-image-1139" /></a></p>
+<p><a href="http://ilmol.com/wp/wp-content/uploads/2014/01/repertoire-screenshot.jpg"><img src="http://ilmol.com/wp/wp-content/uploads/2014/01/repertoire-screenshot.jpg" alt="repertoire-screenshot" width="720" height="510" class="alignnone size-full wp-image-1140" /></a></p>
+<p><a href="http://ilmol.com/wp/wp-content/uploads/2014/01/boulevard-screenshot.jpg"><img src="http://ilmol.com/wp/wp-content/uploads/2014/01/boulevard-screenshot.jpg" alt="boulevard-screenshot" width="720" height="425" class="alignnone size-full wp-image-1141" /></a></p>
+<p><a href="http://ilmol.com/wp/wp-content/uploads/2014/01/axis-screenshot.jpg"><img src="http://ilmol.com/wp/wp-content/uploads/2014/01/axis-screenshot.jpg" alt="axis-screenshot" width="720" height="510" class="alignnone size-full wp-image-1142" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://ilmol.com/1131/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Ubuntu flat 배경화면 입니다.. 찾다 하도없어서..</title>
+		<link>http://ilmol.com/1083</link>
+		<comments>http://ilmol.com/1083#comments</comments>
+		<pubDate>Thu, 31 Oct 2013 02:34:34 +0000</pubDate>
+		<dc:creator><![CDATA[일모리]]></dc:creator>
+				<category><![CDATA[그외]]></category>
+		<category><![CDATA[TREND]]></category>
+		<category><![CDATA[desktop]]></category>
+		<category><![CDATA[배경화면]]></category>
+		<category><![CDATA[바탕화면]]></category>
+		<category><![CDATA[우분투]]></category>
+		<category><![CDATA[월페이퍼]]></category>
+		<category><![CDATA[os]]></category>
+		<category><![CDATA[ubuntu]]></category>
+		<category><![CDATA[wallpaper]]></category>
+
+		<guid isPermaLink="false">http://ilmol.com/?p=1083</guid>
+		<description><![CDATA[요즘 디지털 디자인 트랜드는 skeuomorphic 모델에서 멀어지는 flat design 입니다. 윈도우 8 Metro 스타일 (이젠 윈8ui 디자인)에서부터 iOS7 까지 여러 부분에서 올록볼록 디자인보다는 비지니스적인 정확한 모델제시를 하는 디자인이네요. 아무튼&#8230; 그래서 Ubuntu 월페이퍼를 만든건 아니고 근래에 쓰다보니 우분투 로고가 박혀 있는것 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>요즘 디지털 디자인 트랜드는 skeuomorphic 모델에서 멀어지는 flat design 입니다.  윈도우 8 Metro 스타일 (이젠 윈8ui 디자인)에서부터 iOS7 까지 여러 부분에서 올록볼록 디자인보다는 비지니스적인 정확한 모델제시를 하는 디자인이네요. 아무튼&#8230;</p>
+<p>그래서 <a href="http://www.ubuntu.com/">Ubuntu</a> 월페이퍼를 만든건 아니고 근래에 쓰다보니 우분투 로고가 박혀 있는것 중에 맘에 드는게 없어서 그냥 만들어 봤습니다.<br />
+Ubuntu LTS 만 박아 넣었고 요즘 wide screen 쓰시니 로고를 오른쪽으로 빼서 누구든지 우분투를 쓰고있다는걸 보이게 했습니다.  윈도우가 아니지 않습니까 ㅎㅎ.</p>
+<p>요즘 <a href="http://linuxmint.com/">민트</a>도 많이들 <a href="http://distrowatch.com/">쓰시던데</a> 아무튼 wallpaper 로도 쓰고 GLslideshow 로 화면보호기 사진을 이것들로 돌리니 만족스럽네요.<br />
+편히 쓰세요.</p>
+<p><a href="http://ilmol.com/pkg/1920.zip">1920 x 1200 version</a><br />
+<a href="http://ilmol.com/pkg/1680x1050.zip">1680 x 1050 version</a><br />
+<a href="http://ilmol.com/pkg/1600.zip">1600 x 1200 version</a><br />
+<a href="http://ilmol.com/pkg/1280x960.zip">1280 x 960 version</a><br />
+<a href="http://ilmol.com/pkg/1280x800.zip">1280 x 800 version</a><br />
+<a href="http://ilmol.com/pkg/1024.zip">1024 x 768 version</a></p>
+<p><img src="http://ilmol.com/wp/wp-content/uploads/2013/10/metro-lts-purple.jpg" alt="metro-lts-purple" width="550" height="343" class="alignnone size-full wp-image-1120" /></p>
+<p><img src="http://ilmol.com/wp/wp-content/uploads/2013/10/metro-lts-redish.jpg" alt="metro-lts-redish" width="550" height="343" class="alignnone size-full wp-image-1121" /></p>
+<p><img src="http://ilmol.com/wp/wp-content/uploads/2013/10/metro-lts-ocean.jpg" alt="metro-lts-ocean" width="550" height="343" class="alignnone size-full wp-image-1119" /></p>
+<p><img src="http://ilmol.com/wp/wp-content/uploads/2013/10/metro-lts-green.jpg" alt="metro-lts-green" width="550" height="343" class="alignnone size-full wp-image-1118" /></p>
+<p><img src="http://ilmol.com/wp/wp-content/uploads/2013/10/metro-lts-fallgrass.jpg" alt="metro-lts-fallgrass" width="550" height="343" class="alignnone size-full wp-image-1117" /></p>
+<p><img src="http://ilmol.com/wp/wp-content/uploads/2013/10/metro-lts-clay.jpg" alt="metro-lts-clay" width="550" height="343" class="alignnone size-full wp-image-1116" /></p>
+<p><img src="http://ilmol.com/wp/wp-content/uploads/2013/10/metro-lts-bunhong.jpg" alt="metro-lts-bunhong" width="550" height="343" class="alignnone size-full wp-image-1115" /></p>
+<p><img src="http://ilmol.com/wp/wp-content/uploads/2013/10/metro-lts-blue.jpg" alt="metro-lts-blue" width="550" height="343" class="alignnone size-full wp-image-1114" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://ilmol.com/1083/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Mavericks, iWork, iLife 무료업글. 복터진날</title>
+		<link>http://ilmol.com/1062</link>
+		<comments>http://ilmol.com/1062#comments</comments>
+		<pubDate>Wed, 23 Oct 2013 04:15:19 +0000</pubDate>
+		<dc:creator><![CDATA[일모리]]></dc:creator>
+				<category><![CDATA[소프트웨어]]></category>
+		<category><![CDATA[NEWS]]></category>
+		<category><![CDATA[매버릭스 10.9]]></category>
+		<category><![CDATA[마이크로소프트]]></category>
+		<category><![CDATA[우분투]]></category>
+		<category><![CDATA[iWork]]></category>
+		<category><![CDATA[윈도우8.1]]></category>
+		<category><![CDATA[애플]]></category>
+		<category><![CDATA[OS X]]></category>
+
+		<guid isPermaLink="false">http://ilmol.com/?p=1062</guid>
+		<description><![CDATA[이틀간 포스팅이 무료 소프트웨어 글들인 날도 오는군요. 아시다시피 지난주에 마이크로소프트는 윈도우 8.1 공개 오늘은 애플에서 매버릭스 OS X 10.9 공개. 새 OS들과 놀아주랴 정신 없습니다. 안그래도 몇주전에는 Ubuntu 13과 12로 한창 시간을 보냈었는데 말이죠. Macbook Pro 와 새로 입양해온 Thinkpad [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>이틀간 포스팅이 무료 소프트웨어 글들인 날도 오는군요.  아시다시피 지난주에 마이크로소프트는 <a href="http://windows.microsoft.com/en-us/windows/buy?ocid=GA8_O_WOL_DIS_ShopHP_FPP_Light">윈도우 8.1 공개</a> 오늘은 애플에서 <a href="http://www.apple.com/osx/">매버릭스 OS X 10.9</a> 공개.  새 OS들과 놀아주랴 정신 없습니다.  안그래도 몇주전에는 Ubuntu 13과 12로 한창 시간을 보냈었는데 말이죠. Macbook Pro 와 새로 입양해온 Thinkpad T60p를 화끈하게 돌려주고 있습니다.  2008년 맥북프로인데도 신나게 돌아갑니다.</p>
+<p>매버릭스를 깔고나서 보니 iWork와 iLife 아이들이 무료 업글이 되더군요. 새 os x 보다는 요놈들이 더 반갑네요. 아직 <a href="http://www.apple.com/apple-events/october-2013/">풀 키노트</a>를 보지 못했는데 요놈이나 보면서 하루를 마쳐야겠습니다.  아이맥에도 매버릭스 업글을 하려다 언 2년만에 clean install을 해야겠다는 생각으로 파일들 백업중에 있습니다.</p>
+<p>Pages on the web, Keynote on the web 이 아주 섹시해보입니다.  애플의 대중화는 확실히 되어가고 있네요. Word, Powerpoint 와도 더욱 가까워졌고.. 예전만큼의 이질감을 느끼지는 않는듯.</p>
+<p>더욱 완성된 OS X 를 꼭 즐겨보시기 바랍니다.     </p>
+<p>P.S. &#8220;9to5mac의 오늘 기사에 의하면 원래 DVD 패키지를 돈을 주고 구매한 사람에게만 아이워크 무료 업그레이드가 제공되어야 하는데, 어떠한 이유에서인지 DVD 패키지를 구매하지 않고 단순히 &#8216;트라이얼 버전&#8217;만 깔더라도 맥 앱스토어 버전을 받을 수 있다고 합니다. 애플 서버에서 아이워크 트라이얼 버전을 내려받은 후 아이워크 9.3 업데이트를 하고 상기에 설명한 방법을 진행하면 맥 앱스토어에서 업데이트가 뜬다는 것입니다.&#8221; &#8211; <a href="http://macnews.tistory.com/1702">back to the mac</a></p>
+<p><img src="http://ilmol.com/wp/wp-content/uploads/2013/10/Screen-Shot-2013-10-22-at-11.46.59-PM.png" alt="Screen Shot 2013-10-22 at 11.46.59 PM" width="561" height="383" class="alignnone size-full wp-image-1064" /></p>
+<p><img src="http://ilmol.com/wp/wp-content/uploads/2013/10/Screen-Shot-2013-10-22-at-11.21.46-PM.png" alt="Screen Shot 2013-10-22 at 11.21.46 PM" width="982" height="651" class="alignnone size-full wp-image-1065" /></p>
+<p>갑자기 Windows 8.1이 초라하게 느껴지는건&#8230; 혼자출시되서 그런걸꺼야&#8230; </p>
+]]></content:encoded>
+			<wfw:commentRss>http://ilmol.com/1062/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Windows 8.1 아직 무료가능.. 90일후엔 으흐흐...</title>
+		<link>http://ilmol.com/1057</link>
+		<comments>http://ilmol.com/1057#comments</comments>
+		<pubDate>Tue, 22 Oct 2013 11:47:27 +0000</pubDate>
+		<dc:creator><![CDATA[일모리]]></dc:creator>
+				<category><![CDATA[COMPANY]]></category>
+		<category><![CDATA[마이크로소프트]]></category>
+		<category><![CDATA[무료]]></category>
+		<category><![CDATA[윈도우8.1]]></category>
+		<category><![CDATA[애플]]></category>
+
+		<guid isPermaLink="false">http://ilmol.com/?p=1057</guid>
+		<description><![CDATA[야심차게 버튼이 추가된 윈도우 8.1이 몇일전에 정식 출시되었습니다만 아직 체험을 먼저 해보고 싶으신 분들이 계신거 같네요. 네덜란드분들이 윈도우 8.1버전을 속을 다 긁어내고 뼈대만 남겨서 800MB 정도에 올린버전도 있긴한데 불법이고 확실한 체험을 하기는 힘들고.. 요즘 불법 전화인증도 하더군요. 힘들게 하지마시고 직접 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>야심차게 버튼이 추가된 윈도우 8.1이 몇일전에 정식 출시되었습니다만 아직 체험을 먼저 해보고 싶으신 분들이 계신거 같네요. 네덜란드분들이 윈도우 8.1버전을 속을 다 긁어내고 뼈대만 남겨서 800MB 정도에 올린버전도 있긴한데 불법이고 확실한 체험을 하기는 힘들고..  요즘 불법 전화인증도 하더군요.</p>
+<p>힘들게 하지마시고 직접 마이크로소프트에 가셔서 당당히 <a href="http://technet.microsoft.com/en-US/evalcenter/hh699156.aspx">다운</a>받으시고 무료로 풀버전을 체험하세요.  90일이라는 제한이 있지만 그건 그때가서 고민하면되죠.<br />
+Windows 8.1 Enterprise 32/64-bit iso 를 다운가능 하시고 2014년 10월 안에 인터넷 접속을 하시는 순간 Activated 시작해서 90일간 풀버전을 사용 가능하십니다.<br />
+간단한 마소 이메일인증과 다운로드설치 프로그램을 까신후에 다운로드가 진행되고 iso 를 다운받으시니 usb나 dvd로 구우셔야합니다. 물론 vm으로 돌리시면 문제가 안되겠네요..  usb는 마소에서 <a href="http://images2.store.microsoft.com/prod/clustera/framework/w7udt/1.0/en-us/Windows7-USB-DVD-tool.exe">제공하는 프로그램</a>으로 하시면되겠습니다.</p>
+<p>재미있게도 오늘은 <a href="http://www.apple.com/osx/preview/">Mavericks</a>가.. </p>
+]]></content:encoded>
+			<wfw:commentRss>http://ilmol.com/1057/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

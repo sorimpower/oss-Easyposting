@@ -1,0 +1,72 @@
+﻿@model EasyPosting.Models.EP_POSTS
+
+@{
+    ViewBag.Title = "Details";
+    Layout = null;
+}
+
+<h2>@Html.DisplayFor(model => model.Title)</h2>
+
+<div>
+    <h4>@Html.DisplayFor(model => model.Date)</h4>
+	<hr />
+
+
+    
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Slug)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Slug)
+        </dd>
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category)
+        </dd>*@
+        @if (ViewBag.posttype == "Post")
+        {
+            <dt>
+            @Html.DisplayNameFor(model => model.Body)
+            </dt>
+        }
+    </dl>
+    
+    @if (ViewBag.posttype == "Image")
+    {
+        <img src="@Url.Content("~/User/Posts/Image/"+ Model.Body)" class="img-responsive img-thumbnail" alt="@Html.DisplayFor(model => model.Title)">
+    }
+    @if (ViewBag.posttype == "Video")
+    {
+       @Html.Raw(ViewBag.Videoembed)
+    }    
+    @if (ViewBag.posttype == "Attachment")
+    {
+        if(Model.Mime_type == "application/vnd.openxmlformats-officedocument.presentationml.presentation" )
+        {
+           @*<iframe style="width:1400px; height:700px;" src="@Url.Content("~/User/Posts/Attachment/"+ Model.GUID + ".pptx.files/slide0001.htm")"></iframe>*@
+           <img src="@Url.Content("~/User/Posts/Attachment/" + Model.GUID + ".pptx.files/slide0001_image001.PNG")" class="img-responsive img-thumbnail" alt="@Html.DisplayFor(model => model.Title)">
+        }
+    }
+</div>
+<p>   
+    @if (Model.Type == "Image")
+    {
+        @Html.ActionLink("돌아가기", "ImageEmbed", "Storage")
+    }
+    @if (Model.Type == "Video")
+    {
+        @Html.ActionLink("돌아가기", "VideoEmbed", "Storage")
+    }    
+    @if (Model.Type == "Attachment")
+    {
+        @Html.ActionLink("돌아가기", "AttachmentEmbed", "Storage")
+    }
+</p>
+
+
+

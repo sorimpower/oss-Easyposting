@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>키워드 관리</h2>
+
+@using (Html.BeginForm("Index", "Keyword", FormMethod.Post, new { @class = "form-inline" }))
+{
+    <input type="hidden" name="val" value="1"/>
+    <input type="submit" value="키워드 추출" class="btn btn-danger btn-sm"/>
+}

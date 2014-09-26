@@ -1,0 +1,124 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+@Styles.Render("~/Content/fonts")
+@Scripts.Render("~/bundles/jquery")
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+<link href="~/assets/plugins/jquery-ui-1.10.4/themes/base/minified/jquery-ui.min.css" rel="stylesheet" />
+<link href="~/assets/plugins/bootstrap-3.2.0/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/assets/css/style-responsive.min.css" rel="stylesheet" />
+<!-- Modal -->
+
+<div class="container" style="width:560px;">
+    <div class="form-group row">
+        <div class="input-group col-xs-8">
+            <div class="input-group-addon"><i class="fa fa-windows"></i> Bing</div>
+            @Html.TextBox("searchText", null, new { @required = "yes", @class = "form-control", @placeholder = "검색어를 입력하세요", @id = "bingtext" })
+            <div class="input-group-btn">
+                <button id="bing_search" class="btn btn-default"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+    <div style="height:430px; text-align:center; overflow-y:auto;">
+        <div id="searchResults"></div>
+    </div>    
+</div>
+   
+<script src="~/assets/plugins/jquery-ui-1.10.4/ui/minified/jquery-ui.min.js"></script>
+<script src="~/assets/plugins/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+<script>
+    var bingdata=""; 
+
+    $('#bing_search').click(function () {
+        search_image();
+    });
+    $(document).keydown(function (e) {
+        if ($('#ImageSearchModal').attr('aria-hidden') != "true") {
+            if (e.keyCode == 13) {
+                search_image();
+            }
+        }
+    });
+
+    function search_image() {
+        var value = $('#bingtext').val();
+        if (value != "") {
+            $.ajax({
+                type: "POST",
+                url: "/Storage/ImageSearch",
+                traditional: true,
+                data: {
+                    searchText: value
+                }
+            }).done(function (data) {
+                if (data.success === true) {
+                    bingdata = data.bingData;
+                    insert_image();
+                }
+            }).fail(function (e) {
+                $.gritter.add({
+                    title: "이미지 업로드에 실패하였습니다."
+                });
+            });
+        }
+    }
+
+    function insert_image() {
+        var imgList = "";
+        imgList += "<div class='panel-group'><br/>";
+        for (var i = 0; i < bingdata.length; i++) {
+            imgList += '<div id="R' + i + '" type="button" class="btn btn-white imgbtnEffect" style="margin-bottom:10px; margin-right:10px;">';
+            imgList += '<img id="RI' + i + '" src="' + bingdata[i].Thumbnail.MediaUrl + '" style="width:130px; height:100px;">';
+            imgList += '</div>';
+        }
+        imgList += "</div>";
+        $('#searchResults').html(imgList);
+        set_event();       
+    }
+
+    // 이벤트 설정
+    function set_event() {
+        // 포커스 설정
+        $(".imgbtnEffect").mouseenter(function () {
+            $(this).toggleClass("btn-info btn-white");
+        });
+        $(".imgbtnEffect").mouseleave(function () {
+            $(this).toggleClass("btn-info btn-white");
+        });
+        var url = "";
+        //버튼 이벤트 설정
+        for (var i = 0; i < bingdata.length; i++) {
+            $("#RI" + i).click(function () {
+                var id = this.id;
+                id = id.split('I');
+                id = id[1];
+                $.ajax({
+                    type: "POST",
+                    url: "/Storage/Savetag",
+                    traditional: true,
+                    data: {
+                        Type: "Image",
+                        Title: bingdata[id].Title,
+                        MediaUrl: bingdata[id].MediaUrl,
+                        Thumbnail: bingdata[id].Thumbnail.MediaUrl
+                    }
+                }).done(function (data) {
+                    if (data.success === true) {
+                        url = data.url;                        
+                        if (url != "") {                            
+                            var front_url = document.location.origin;
+                            $('#media_data_Image', parent.document).val(front_url + url);
+                            parent.$('#widgetMedia_Image').modal('hide');
+                            parent.$('#Media_Image').modal('hide');
+                        }
+                    }
+                });                
+            });
+        }        
+    }
+
+
+</script>

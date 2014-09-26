@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://rss.kbench.com/hardware.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>RSS_하드웨어</title>
+    <link>http://rss.kbench.com/hardware.xml</link>
+    <description></description>
+    <language>ko</language>
+          <item>
+    <title>맥미니 신제품, 10월 중 아이패드 에어2와 동시 출시?</title>
+    <link>http://www.kbench.com/?q=node/139705</link>
+    <description><![CDATA[애플 맥미니 신제품이 다음달 출시될 수 있다는 소식이 전해졌다.
+IT매체 맥루머스에 소식을 전한 소식통에 따르면, 애플은 다음달 
+맥미니(Mac mini) 신제품이 10월 중 열리는 아이패드 신제품, OS X 요세미티와 함께 
+출시될 예정이다.
+새로운 맥미니에 어떤 프로세서가 탑재될 지는 아직 확인되지 
+않고 있다.&nbsp;맥미니에 탑재될 것으로 예상되는 인텔의 차세대 브로드웰 프로세서는 
+내년 초까지 생산 계획이 없어, 만약 맥미니가 다음달 출시된다면 하스웰 프로세서가 
+탑재될 가능성도 있다.
+지난 2005년 첫 ... ]]></description>
+     <pubDate>Fri, 26 Sep 2014 07:05:39 +0000</pubDate>
+ <dc:creator>godbless</dc:creator>
+ <guid isPermaLink="false">139705 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>서버용으로 최적화 된 SATA3 기반 SSD, 인텔 SSD Pro 2500</title>
+    <link>http://www.kbench.com/?q=node/139379</link>
+    <description><![CDATA[&nbsp;SSD의 가장 큰 특징은 HDD보다 데이터 전송 속도가 빠른 저장매체라는 것이어서 계속 그 부분을 강조하고 실제로도 비약적인 발전이 이루어졌지만 데스크톱 제품의 경우에는 주력 인터페이스인 SATA의 최대 대역폭이 걸림돌이 되어 이제는 새로운 인터페이스 쪽으로 관심이 옮겨지고 있는 추세이다.
+그러나 스토리지의 발전 방향이 어디 속도 뿐이겠는가? 장시간 안정적으로 성능을 유지하고 데이터를 안전하게 보호하는 것 역시 중요한 부분이어서 주요 제조사들은 그 두 가지 요소가 개선 된 SSD 제품군을 서서히 늘려가고 있다.
+이번 ... ]]></description>
+     <pubDate>Fri, 26 Sep 2014 03:11:59 +0000</pubDate>
+ <dc:creator>bmw375</dc:creator>
+ <guid isPermaLink="false">139379 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>지포스 GTX 980 Ti? 타이탄 X? 엔비디아, Q4에 다음 카드 꺼낸다</title>
+    <link>http://www.kbench.com/?q=node/139686</link>
+    <description><![CDATA[엔비디아가 지포스 GTX 980과 970에 사용한 GM204에 이어 최상위 라인업을 구축할 
+GM200 GPU를 선보일 계획이라는 소식이 전해졌다.
+체코의 PCTuning이 확인한 바에 따르면, 엔비디아는 2048개의 쿠다 코어를 탑재한 
+GM204 GPU에 이어 최대 2816개 까지 쿠다 코어를 사용할 수 있는 GM200 GPU 개발을 
+이미 완료했다고 한다. 메모리 버스도 GM204 GPU 보다 확장된 384 또는 512-bit를 
+사용하게 되어 기존 지포스 GTX 타이탄 블랙 보다 40~50% 정도 높은 성능을 기대할... ]]></description>
+     <pubDate>Fri, 26 Sep 2014 02:12:33 +0000</pubDate>
+ <dc:creator>guygun</dc:creator>
+ <guid isPermaLink="false">139686 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>기가바이트, 오디오 기능 강화한 보급형 메인보드 &#039;H81M-WW&#039; 공개</title>
+    <link>http://www.kbench.com/?q=node/139690</link>
+    <description><![CDATA[기가바이트가 오디오 기능을 강화한 보급형 H81 칩셋 메인보드를 공개했다는 소식이 Techpowerup을 통해 전해졌다.
+인텔 8 시리즈 칩셋 메인보드 출시 시기를 기점으로 주요 메인보드 제조사들은 그 동안 상대적으로 비중이 낮았던 오디오 기능에 집중하는 모습을 보이고 있는데 가격대가 낮은 보급형 제품들은 대상에서 제외 되는 것이 일반적이었다.
+기가바이트 H81M-WW는 독립형 PCB와 오디오 전용 커패시터를 적용해 기존 제품들보다 내장 사운드 기능을 향상 시킨 것이 특징이다. 다만 상위 제품군과 달리 사운드 코덱에 별도의 EM... ]]></description>
+     <pubDate>Fri, 26 Sep 2014 02:09:03 +0000</pubDate>
+ <dc:creator>bmw375</dc:creator>
+ <guid isPermaLink="false">139690 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>피씨디렉트, 기가바이트 X99-GAMING G1 WI 출시 </title>
+    <link>http://www.kbench.com/?q=node/139688</link>
+    <description><![CDATA[전세계 메인보드 시장을 선도하는 글로벌 메인보드 제조사인 기가바이트 테크놀로지 (GIGABYTE Technology Co., Ltd.)사의 한국 공식 유통사인 ㈜피씨디렉트(대표 서대식)는 디지털 전원부와 서버급 메탈 쵸크와 Pluse Beat LED 백-패널, 대형 히트-싱크 탑재로 극한의 발열도 순식간에 냉각하고 LED튜닝효과를 향상 시킨 워크스테이션 및 게이밍 최상급 모델GA-X99-Gaming G1 WIFI를 정식 출시하였다.
+ 
+ 
+
+ 
+새롭게 출시된 기가바이트 X99-Gaming G1 WIFI 메인보드는 강력한 멀... ]]></description>
+     <pubDate>Fri, 26 Sep 2014 01:52:03 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139688 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>엠아이에스디, MLC/SLC SATA3 T250 SSD  시리즈 9월 24일 론칭 </title>
+    <link>http://www.kbench.com/?q=node/139680</link>
+    <description><![CDATA[세계 초소형 차세대 SSD인 원칩SSD (One-Chip SSD)를 생산하는 ㈜엠아이에스디( http://www.misd-kr.com/ )에서 반도체 집적기술인 MCP(Multi-Chip-Package)를 이용하여 직접 생산하여 우월한 가성비의 MLC 및 SLC 낸드플래시를 사용한 2.5인치 SATA3 T250 시리즈를 9월 24일 론칭 출시한다고 밝혔다.
+ 
+ 
+
+ 
+외국 대기업 및 중국, 대만산에 제품에 밀려 국내 토종 SSD 메이커의 자리가 좁아진 현 시장 상황에서 국내 시장 환경에 맞춘 높은 신뢰성과 안정성을 확보하... ]]></description>
+     <pubDate>Fri, 26 Sep 2014 01:32:09 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139680 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>엠에스아이코리아, 반석전자와 메인보드 및 그래픽카드 공식 유통사 계약 체결 </title>
+    <link>http://www.kbench.com/?q=node/139679</link>
+    <description><![CDATA[글로벌 PC기업인 MSI 의 한국지사 ㈜엠에스아이코리아(http://kr.msi.com/, 대표 공번서)는 PC주변기기 전문 유통 기업 ㈜반석전자( http://www.dati.co.kr/ , 대표 진형건)와 MSI 메인보드 및 그래픽카드 제품의 국내 공식 유통사(디스트리뷰터) 계약을 체결했다고 밝혔다.
+
+
+㈜엠에스아이코리아는 이번 국내 공식 유통사 계약을 통하여 ㈜반석전자가 보유하고 있는 다방면의 유통망과 영업력을 기반으로 메인보드와 그래픽카드 사업 부분을 더욱 크게 확장하고 보다 신속하고 적극적인 소비자 중심의 A/S를 통... ]]></description>
+     <pubDate>Fri, 26 Sep 2014 01:28:53 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139679 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>앱코, 가성비 뛰어난 &#039;뱀파이어&#039; 게이밍 마우스 인기 </title>
+    <link>http://www.kbench.com/?q=node/139665</link>
+    <description><![CDATA[IT제조/유통 전문기업 앱코( http://www.abko.co.kr/  대표 이태화)는 자사가 최근 출시한 게이밍 마우스 '뱀파이어(VAMPIRE)'가 가격대비 성능비를 등에 업고 사용자들로부터 인기를 끌고 있다고 26일 밝혔다.
+ 
+ 
+
+ 
+출시된지 1주일만에 국내 최대 가격비교사이트 등에서 큰 인기를 끌고 있다. 앱코측은 가격대비 우수한 성능비와 '뱀파이어' 마우스는 흡혈귀라는 이름답게 날카로운 형상의 디자인을 제공해 소비자들로부터 주목을 받고 있다고 설명했다. 또한 구매일 기준 1년의 '무상품질 보증기간'을 제공하며... ]]></description>
+     <pubDate>Fri, 26 Sep 2014 00:29:20 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139665 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>엔비디아, 과학 인재 발굴을 위한 젯슨 TK1 워크샵 진행 </title>
+    <link>http://www.kbench.com/?q=node/139664</link>
+    <description><![CDATA[엔비디아 코리아( http://www.nvidia.co.kr/ , 지사장 이용덕)는 10월 7일(화) 양재동 더케이호텔에서 엔비디아 젯슨(Jetson) TK1 워크샵을 진행한다. 
+ 
+ 
+
+ 
+10월 6일부터 8일까지 개최되는 2014 한국 슈퍼컴퓨팅 컨퍼런스(ksc2014.re.kr)의 일환으로 마련되는 엔비디아 젯슨 TK1 워크샵에서는 임베디드 시스템을 위한 세계 최초의 모바일 슈퍼컴퓨터 기반의 개발자 플랫폼 젯슨 TK1에 대해 소개하고, 엔비디아의 강력한 병렬 컴퓨팅 플랫폼이자 프로그래밍 모델인 CUDA와 모바일 플랫... ]]></description>
+     <pubDate>Fri, 26 Sep 2014 00:27:14 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139664 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>WD, NAS 전용 HDD제품군 확장 기념 </title>
+    <link>http://www.kbench.com/?q=node/139662</link>
+    <description><![CDATA[스토리지 솔루션 분야의 세계적 선도 기업 WD(한국 지사장 조원석, www.wdc.com/kr )가 WD Red™ 하드디스크(5-6TB 및 WD Red™ Pro) 제품군 확장 기념 페이스북 이벤트를 9월26일부터 10월 30일 까지 진행한다.
+ 
+ 
+
+ 
+이번 이벤트 참여방법은 WD 코리아 페이스북을 방문하여 이벤트 탭 또는 포스트에 게재된 링크를 통해 이벤트 페이지로 이동, WD Red™ 하드디스크 신제품(5-6TB 및 WD Red™ Pro)에 관한 퀴즈에 정답을 입력하면 된다. 
+전체 응모자 중 추첨을 통해 1등 한 ... ]]></description>
+     <pubDate>Fri, 26 Sep 2014 00:22:32 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139662 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>가을 옷 갈아입은 IT기기 </title>
+    <link>http://www.kbench.com/?q=node/139660</link>
+    <description><![CDATA[푸른빛의 나뭇잎들이 조금씩 붉게 물들고, 큰 일교차로 도톰한 가을 외투를 입는 사람들이 많아져 가을이 왔음을 실감 나게 한다. 
+ 
+단풍놀이 및 갈대, 코스모스, 국화 축제 등 각종 가을 축제들도 줄줄이 계획되고 있어 나들이 객들을 설레게 하는 가운데 가을의 정취를 담은 브라운 컬러의 IT기기들이 출시돼 가을 남녀의 가슴을 두근거리게 하고 있다. 스마트한 기능은 물론 가을 색감으로 멋을 더해 올가을을 더욱 낭만적으로 즐길 수 있게 해 줄 IT기기들을 소개한다.■ 가을에 듣기 좋은 음악을 들려줄 블루투스 스피커
+ 
+
+ 
+가... ]]></description>
+     <pubDate>Fri, 26 Sep 2014 00:17:09 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139660 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>레이저, 레이저 데스에더 크로마 출시 </title>
+    <link>http://www.kbench.com/?q=node/139656</link>
+    <description><![CDATA[커넥티드 디바이스 및 게이머들용 소프트웨어의 세계적인 리더 레이저(Razer)는 자사의 대표 게이밍 마우스인 레이저 데스에더의 신모델, 레이저 데스에더 크로마(Razer DeathAdder Chroma)의 출시를 발표했다. 
+ 
+ 
+
+ 
+레이저 데스에더 크로마는 많은 사랑을 받았던 레이저 데스에더의 인체공학적 디자인을 채용했으며 유리 재질의 표면를 비롯한 대부분의 물질 위에서 1mm의 리프트 오프 거리(Lift-off Distance)를 선보이는 10,000DPI 광학 센서(Optical Sensor)를 탑재했다. 진보한 ... ]]></description>
+     <pubDate>Fri, 26 Sep 2014 00:04:08 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139656 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>피씨팝 컴퍼니, “JACKPOT 게이밍 장패드” 한달만에 1만장 판매 </title>
+    <link>http://www.kbench.com/?q=node/139655</link>
+    <description><![CDATA[컴퓨터 주변 기기 전문 업체 피씨팝 컴퍼니㈜(대표:안용모, http://www.pcpop.kr/ )에서 출시한 전문 게이밍 마우스 패드인 “JACKPOT 게이밍 장패드”가 출시 한달만에 첫번째 입고문 1만장이 모두 판매 완료 되었다. 
+ 
+ 
+
+ 
+이번 “JACKPOT 게이밍 장패드” 1만장 판매 돌파는 PC방의 대량 구매뿐만 아니라 일반 소비자의 구매율도 높은점이 타사 제품과 가장 큰 차이점이다. 현재 가격 비교 사이트에서 소모품 차트에서 이미 1위를 석권하고 있으며, 출시 기념으로 진행된 특가 행사로 제품의 품질이 입소... ]]></description>
+     <pubDate>Fri, 26 Sep 2014 00:01:05 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139655 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>디앤디컴, ASRock Killer 시리즈 메인보드 구매 시 피자헛 상품권 증정 </title>
+    <link>http://www.kbench.com/?q=node/139651</link>
+    <description><![CDATA[ASROCK Inc.(이하 애즈락)의 국내 공식 공급사인 디앤디컴(주)(대표 : 최유길)에서 게이밍 메인보드인 Killer 시리즈 구매 시 피자헛 상품권을 1대1로 증정하는 ‘배는 든든! 메인보드는 탄탄! 애즈락 Killer (게이밍) 시리즈 피자헛 상품권 증정 이벤트!’를 실시한다고 밝혔다.
+ &nbsp; 
+ &nbsp; 
+
+ &nbsp; 
+디앤디컴(주)에서 진행하는 '배는 든든! 메인보드는 탄탄! 피자헛 상품권 증정 이벤트!’는 애즈락의 게이밍 전용 보드인 Killer 시리즈를 대상으로 진행하며, 게이밍 최상위 모델인 ... ]]></description>
+     <pubDate>Thu, 25 Sep 2014 11:31:21 +0000</pubDate>
+ <dc:creator>bmw375</dc:creator>
+ <guid isPermaLink="false">139651 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>한글과컴퓨터, 오중석 작가가 들려주는 사진 강의와 작품 설명회 마련 </title>
+    <link>http://www.kbench.com/?q=node/139650</link>
+    <description><![CDATA[한글과컴퓨터(http://www.hancom.com/, 대표 이홍구/이하 한컴)는 순수 국내 기술로 개발된 이미지편집 소프트웨어(SW) ‘이지포토3 VP’의 론칭을 기념하여, 스타 사진작가인 오중석과 사진을 좋아하는 일반인들의 특별한 만남의 자리를 마련한다.
+ &nbsp; 
+ &nbsp; 
+
+ &nbsp; 
+일반인들도 쉽게 전문가 수준의 이미지작업을 할 수 있는 ‘이지포토3 VP’의 특성에 맞춰 평소 사진에 관심이 많은 일반인들을 초청해 이뤄지는 이번 행사는, 오는 30일 역삼동 오중석 스튜디오에서 열릴 예정이다.
+ &n... ]]></description>
+     <pubDate>Thu, 25 Sep 2014 11:16:26 +0000</pubDate>
+ <dc:creator>bmw375</dc:creator>
+ <guid isPermaLink="false">139650 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>한국마이크로소프트, 재생PC 업체 20곳과 &#039;Re-Windows 파트너십&#039; 체결</title>
+    <link>http://www.kbench.com/?q=node/139649</link>
+    <description><![CDATA[한국마이크로소프트는 9월 25일 광화문 사옥에서 재생PC 대상 정품 윈도우 사용 기회를 확대하기 위해 전국에 위치한 재생PC 업체 20곳과 ‘Re-Windows 파트너십’을 체결했다.
+‘Re-Windows 파트너십’은 중고 재생 PC업체를 대상으로 ‘등록된 리퍼비셔 업체(Microsoft Registered Refurbisher Providers, 이하 RRP)’를 선정해, 정품 윈도우 소프트웨어 라이선스를 제공 및 ‘Re-Windows PC’ 와 관련된 다양한 마케팅 지원을 하는 프로그램이다.
+이번 파트너십 체결을 통해 기존 ... ]]></description>
+     <pubDate>Thu, 25 Sep 2014 10:49:32 +0000</pubDate>
+ <dc:creator>bmw375</dc:creator>
+ <guid isPermaLink="false">139649 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>피씨디렉트, 인텔 그랜틀리 플랫폼 기반 기가바이트 서버 메인보드 출시</title>
+    <link>http://www.kbench.com/?q=node/139648</link>
+    <description><![CDATA[기가바이트 테크놀로지 (GIGABYTE Technology Co., Ltd.)사의 한국 공식 유통사인 ㈜피씨디렉트(대표 서대식)는 새로운 인텔 제 4세대 플랫폼인 그랜틀리(Grantley) 아키텍처 제품을 정식 출시하였다.
+그랜틀리 아키텍처를 채용한 기가바이트 서버/워크스테이션 보드는 E5-2600 v3 (최대 18 코어, 36 쓰레드)를 지원하여 가격대비 최소 10%, 최대 30% 의 성능 향상을 가져오며 DDR4 ( 최대 1.5TB 지원 ) 메모리를 지원하여 20% 소비전력을 절감(메모리만 해당)하여 유지비용 절감 효과를 제공... ]]></description>
+     <pubDate>Thu, 25 Sep 2014 10:42:53 +0000</pubDate>
+ <dc:creator>bmw375</dc:creator>
+ <guid isPermaLink="false">139648 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>HGST, 엔터프라이즈급 SAS SSD 개발 위해 인텔과의 협력 관계 연장 </title>
+    <link>http://www.kbench.com/?q=node/139647</link>
+    <description><![CDATA[HGST(웨스턴디지털 자회사)는 오늘 자사의 SAS(Serial Attached SCSI) SSD에 인텔의 NAND 플래시 기술을 적용키로 한 인텔과의 협력 계약을 연장한다고 밝혔다. HGST는 지난 2008년부터 업계 최고 수준의 서버, 워크스테이션 및 스토리지 시스템을 위한 엔터프라이즈급 SAS SSD를 개발하기 위해 인텔과 협업해왔다.
+ &nbsp; 
+ &nbsp; 
+
+ &nbsp; 
+HGST는 SAS 설계•펌웨어•안정성•고객 적격성 평가•시스템통합 영역 등 기업용 스토리지 부문에 대한 전문성을 인정받은 바 있으며, ... ]]></description>
+     <pubDate>Thu, 25 Sep 2014 10:03:18 +0000</pubDate>
+ <dc:creator>bmw375</dc:creator>
+ <guid isPermaLink="false">139647 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>TI, 25~160MSPS 아날로그 디지털 컨버터 제품군 출시 </title>
+    <link>http://www.kbench.com/?q=node/139639</link>
+    <description><![CDATA[TI(대표이사 켄트 전)는 업계 최고 전력 대 성능비를 제공하는 소형의 핀 호환 가능 아날로그 디지털 컨버터(ADC)를 출시함으로써 데이터 컨버터 포트폴리오를 확장한다고 밝혔다. ADC3k 제품군은 최대 160MSPS 속도 등급으로 2 또는 4채널, LVDS 또는 JESD204B 인터페이스를 제공하는 12bit 및 14bit 옵션을 포함한다. 이들 디바이스는 산업용 제품 온도범위인 -40C ~ 85C의 온도 범위를 지원하여 소프트웨어 정의 무선, MINO 통신과 같은 방위 및 통신 애플리케이션뿐만 아니라 모터 제어, 의료 영상, 휴... ]]></description>
+     <pubDate>Thu, 25 Sep 2014 05:42:43 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139639 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>AMD, 라데온 R9 390X는 2014년 안으로 출시 되기 어려울 전망</title>
+    <link>http://www.kbench.com/?q=node/139631</link>
+    <description><![CDATA[AMD의 차세대 플래그십 그래픽카드 라데온 R9 390X는 2014년 
+안으로 출시 되기 어렵다는  루머가 Kitguru를 통해 전해졌다.
+올해 여름에 AMD는 350mm&sup2;와 500mm&sup2; 크기의 GPU 칩을 테이프 아웃(tape out, 제품 설계 완료)하였고 이후 TSMC의 28nm HPM (High-Performance Mobile) 공정 기술을 통해 Tonga GPU (350mm&sup2;) 기반 그래픽카드 라데온 R9 285가 제조 되어 9월에 출시 되었다.
+즉 테이프 아웃 이후 제품 출시까지 3개월 ... ]]></description>
+     <pubDate>Thu, 25 Sep 2014 05:42:32 +0000</pubDate>
+ <dc:creator>bmw375</dc:creator>
+ <guid isPermaLink="false">139631 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>SSD 용량 한계 극복! 삼성전자, 3차원 V낸드기반 3.2TB 카드타입 SSD 양산</title>
+    <link>http://www.kbench.com/?q=node/139637</link>
+    <description><![CDATA[삼성전자가 3차원 V낸드 플래시 기반 카드 타입의 ‘3.2테라바이트(TB) NVMe SSD’(SM1715) 
+제품을 양산하기 시작했다. 
+이번 NVMe SSD는 3차원 V낸드 플래시를 탑재하고 카드타입의 폼펙터를 새롭게 
+적용해, 기존 1테라바이트 용량에 머물렀던 2.5인치 SSD의 용량 한계를 극복했다.
+특히 SM1715는 카드타입을 적용함으로써, 지난 8월 미국에서 열린 ‘2014 플래시 
+메모리 서밋’에서 가장 혁신적인 플래시 메모리 제품으로 선정된 2.5인치 ‘1.6테라바이트 
+NVMe SSD’ XS1715에 비해... ]]></description>
+     <pubDate>Thu, 25 Sep 2014 05:35:19 +0000</pubDate>
+ <dc:creator>godbless</dc:creator>
+ <guid isPermaLink="false">139637 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>MS, &#039;윈도7 OEM&#039; 내달 31일 판매 종료</title>
+    <link>http://www.kbench.com/?q=node/139623</link>
+    <description><![CDATA[마이크로소프트(MS)가 다음달 31일 윈도7 OEM 판매를&nbsp;종료한다.
+MS는 새로운 OS가 출시되면 1년 뒤에 이전 버전 OS의 소매점 
+판매를 중단하고, 2년 뒤에는 OEM 판매도 중단한다. 
+이같은 정책에 따라 2012년 10월 윈도8 출시 1년 후인 지난해 
+10월 윈도7의 소매점 판매가 먼저 종료됐으며, 올 10월에는 OEM 판매도 종료하게 
+된다.
+한편, 윈도7 판매는 완전히 종료 되지만, MS는 내년 1월 13일까지 
+윈도7 서비스팩1에 대한 무상지원을 제공하며, 버그수정과 보안패치는 2020년 1월... ]]></description>
+     <pubDate>Thu, 25 Sep 2014 02:32:21 +0000</pubDate>
+ <dc:creator>godbless</dc:creator>
+ <guid isPermaLink="false">139623 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>엔비디아, 메인보드 호환성 개선한 지포스 344.16 WHQL 드라이버 공개</title>
+    <link>http://www.kbench.com/?q=node/139619</link>
+    <description><![CDATA[엔비디아(NVIDIA)가 새로운 지포스 그래픽카드 드라이버를 공개했다는 소식이 tom's hardware를 통해 전해졌다.
+이번에 공개 된 드라이버는 지포스 344.16 WHQL 베타(Beta)로 지원 대상은 최근 출시 된 2세대 맥스웰(Maxwell) 아키텍처 기반 그래픽카드 지포스 GTX 980 / 970뿐이다.
+이번 드라이버를 통해 성능이 향상 되는지에 대한 정보는 없으며 ASUS 램페이지 블랙(Rampage Black)과 ASRock X79 시리즈 메인보드에서 그래픽카드 장착 시 발생하는 코드 49 및 코드 43 오류 문... ]]></description>
+     <pubDate>Thu, 25 Sep 2014 02:00:59 +0000</pubDate>
+ <dc:creator>bmw375</dc:creator>
+ <guid isPermaLink="false">139619 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>LG-MS, 사물 인터넷 제품 개발 목적으로 MOU 협약 체결</title>
+    <link>http://www.kbench.com/?q=node/139612</link>
+    <description><![CDATA[LG전자와 MS (마이크로소프트)가 사물 인터넷(Internet of Things) 제품 개발을 위해 MOU (양해각서) 협약을 체결하였다고 밝혔다.
+LG전자는 MS의 독자적인 클라우드 컴퓨팅 플랫폼을 활용해 일반 소비자와 기업 분야 모두에 호환 되는 제품을 출시할 계획이며 일부 제품들은 내년 1월 CES 2015에서 발표 될 것으로 보인다. 
+ 한편 이번 협약 체결은 단순히 사물 인터넷 제품 개발을 위한 것이 아닐 수도 있다. MS가 차세대 윈도우폰 개발 시 안드로이드 스마트폰 분야에서 두각을 드러내는 LG전자의 협력을 받는다... ]]></description>
+     <pubDate>Thu, 25 Sep 2014 01:36:25 +0000</pubDate>
+ <dc:creator>bmw375</dc:creator>
+ <guid isPermaLink="false">139612 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>갤럭시코리아, 통합브랜드 갤럭스출범  &#039;맥스웰아키텍쳐&#039;로 스타트</title>
+    <link>http://www.kbench.com/?q=node/139603</link>
+    <description><![CDATA[&nbsp;그래픽카드 전문 제조기업인 갤럭시 마이크로시스템(Galaxy Microsystems Ltd. /
+www.galaxytech.com ) 이 통합 브랜드 갤럭스를 정식으로 
+출범하고 맥스웰 아키텍쳐 시대가 본격화 되었음을 알렸다. 
+&nbsp;
+&nbsp;
+
+&nbsp;
+
+새롭게 출발한 통합 브랜드 갤럭스(GALAX)는 기존의 갤럭시 테크(GALAXY TECH) 와 유럽 브랜드 KFA2 가 통합되어 하나의 브랜드로 
+탄생한 형태다. 갤럭시코리아는 통합 브랜드인 갤럭스 론칭을 시작으로 갤럭시의 프리미엄 제품 출... ]]></description>
+     <pubDate>Thu, 25 Sep 2014 00:43:46 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139603 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>와콤, 신티크(Cintiq) 전 제품 대상 사은품 증정 프로모션 실시 </title>
+    <link>http://www.kbench.com/?q=node/139600</link>
+    <description><![CDATA[세계적인 태블릿 전문 기업 와콤(Wacom)의 한국법인 한국와콤(대표 서석건, http://www.wacom.com/ )은 금일부터 오는 10월 31일까지 액정 태블릿 신티크(Cintiq) 전 모델을 대상으로 다양한 사은품을 증정하는 프로모션을 진행한다. 
+
+
+ 
+이번 신티크 사은품 증정 이벤트는 ▲신티크13HD, ▲신티크22HD 및 신티크22HD 터치, ▲신티크24HD 및 신티크24HD 터치 등 전 모델을 대상으로 진행된다. 프로모션 기간 동안 신티크13HD, 신티크22HD 및 신티크22HD 터치 구매고객에게는 디지털 스케... ]]></description>
+     <pubDate>Thu, 25 Sep 2014 00:38:28 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139600 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>스틸시리즈, 게이밍 헤드셋 9H(SteelSeries 9H headset) 출시 </title>
+    <link>http://www.kbench.com/?q=node/139599</link>
+    <description><![CDATA[게이밍 주변기기 글로벌 리더 스틸시리즈 코리아(지사장 박재천 / http://www.steelseries.com/ )는 차세대 오디오 드라이버와 7.1채널 돌비 사운드 기술을 사용하여 최상의 퍼포먼스와 편안함을 전하는 토너먼트급 게이밍 헤드셋 9H(SteelSeries 9H Headset / 이하 9H 헤드셋)을 출시한다고 9월 25일 밝혔다.
+ 
+ 
+
+ 
+토너먼트급 오디오, 사용자에 맞춘 설계
+9H 헤드셋은 세계적인 게이밍 헤드셋 카테고리 분야에서 선두를 지켜온 스틸시리즈사에서 10년 이상 축적한 오디오 기술력을 토대로... ]]></description>
+     <pubDate>Thu, 25 Sep 2014 00:34:36 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139599 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>로지텍, 광범위한 사운드 제공하는 무선 블루투스 스피커 X300 출시 </title>
+    <link>http://www.kbench.com/?q=node/139595</link>
+    <description><![CDATA[개인용 주변기기 전문기업 로지텍 코리아(지사장 정철교, http://www.logitech.co.kr/ )는 광범위한 사운드를 제공하는 무선 블루투스 스피커 ‘로지텍 X300 모바일 무선 스테레오 스피커(Logitech X300 Mobile Wireless Stereo Speaker)’를 출시했다.
+
+ 
+로지텍이 새롭게 선보이는 모바일 무선 스테레오 스피커 X300은 광범위한 사운드를 제공하기 위해 설계된 각도의 드라이버를 통해 깊고 정밀한 저음과 디테일한 중음, 고음 등 넓은 사운드 스펙트럼을 제공한다. 또한 *9m가량 떨어... ]]></description>
+     <pubDate>Thu, 25 Sep 2014 00:20:50 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139595 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>에즈윈, ROCCAT SENSE Military Edition 마우스패드 3종 출시 </title>
+    <link>http://www.kbench.com/?q=node/139590</link>
+    <description><![CDATA[독일의 유명 게이밍기어 브랜드, ROCCAT의 한국 공인 유통사 ㈜에즈윈(대표 박노선)은 독일의 게임 주변기기 전문 브랜드 ROCCAT의 게이밍 마우스 패드 SENSE Military Edition 3종을 출시한다고 밝혔다.
+
+새롭게 출시한 SENSE Military Edition은 이전출시한 KONE PURE Military Edition 처럼 정글의 'CAMO CHARGE', 사막의 'DESERT STRIKE', 바다의 'NAVAL STROM'으로 3종이다. SENSE 마우스 패드는 마우스와의 마찰을 최소화하기위해 울트라 소... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 12:07:26 +0000</pubDate>
+ <dc:creator>lerker</dc:creator>
+ <guid isPermaLink="false">139590 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>충전기를 품은 케이스 volo 더 쉴드 10월 출시 임박 </title>
+    <link>http://www.kbench.com/?q=node/139589</link>
+    <description><![CDATA[PC 주변기기 브랜드 volo(볼로)를 유통하는 (주)아이티컴파스(www.itcompass.co.kr, 대표:천영호)에서 특허를 출원한 스마트폰 고속충전 USB 포트가 있는 멀티가이드를 기본 제공하여 기존 USB 포트 대비 2-4배 빠른 충전이 가능한 volo 더 쉴드의 10월 출시를 예고했다.
+
+세계최초 충전기를 품은 케이스 더 쉴드는 다른 제품과 차별화 되는 4가지 중요 특징을 가지고 있다.
+하나. 스마트폰 고속충전 전용 USB 포트를 제공한다. 애플과 안드로이드에 맞는 전용 USB 충전포트를 제공하며 기존 데이터용 USB... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 11:55:20 +0000</pubDate>
+ <dc:creator>lerker</dc:creator>
+ <guid isPermaLink="false">139589 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>디앤디컴, 서버급 전원 설계 기반 메인보드 ASRock X99 WS 출시 </title>
+    <link>http://www.kbench.com/?q=node/139587</link>
+    <description><![CDATA[ASROCK Inc.(이하 애즈락)의 국내 공식 공급사인 디앤디컴(주)(대표 : 최유길)에서는 인텔 X99 칩셋계열중 애즈락의 모든 최신 기술이 집적된 ASRock X99 WS를 공식 출시한다고 밝혔다.
+
+디앤디컴(주)에서 출시한 ASRock X99 WS는 한 세트에 3.3V 전압에서 1.5V로, 다른 하나는 3.3V 에서 1.8V로 전환되는 스위칭 전원 설계기능이 있어 더 적은 에너지 소비로 서버급의 높은 전력 효율을 전달, 최상의 전력 효율을 시스템에 제공하는 것이 특징이다. 또한 프리미엄 60A 전원 쵸크 설계로, 일반적인... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 11:31:29 +0000</pubDate>
+ <dc:creator>lerker</dc:creator>
+ <guid isPermaLink="false">139587 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>제이씨현, GIGABYTE 지포스 750 시리즈 구매 시 게이밍 마우스 패드 증정 </title>
+    <link>http://www.kbench.com/?q=node/139586</link>
+    <description><![CDATA[GIGABYTE Technology Co., LTD (이하 기가바이트)의 공식 공급원인 제이씨현시스템㈜ (대표: 차현배)에서는 2014년 9월 24일 (수)부터 GIGABYTE 지포스 GTX 750 시리즈 구매 시 고급 게이밍 마우스 패드 증정 행사를 진행 한다고 밝혔다.
+
+차세대 Maxwell 아키텍쳐를 사용하여 뛰어난 성능을 자랑하는 이번 행사의 주인공 GIGABYTE 지포스 GTX 750 그래픽 카드는 GIGABYTE Ultra Durable 디자인 그리고 팩토리 오버클럭이 적용되어 높은 그래픽 성능을 요구하는 최신게임에서... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 11:27:49 +0000</pubDate>
+ <dc:creator>lerker</dc:creator>
+ <guid isPermaLink="false">139586 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>컴포인트, 오프라인 활성화 위해 기가바이트 키보드/마우스 경매 이벤트 실시 </title>
+    <link>http://www.kbench.com/?q=node/139580</link>
+    <description><![CDATA[기가바이트 키보드/마우스 공식수입사 ㈜컴포인트(대표:유재호)는 2014년 9월 27일부터 3개월간 매주 토요일에 자사 유통제품의 오프라인 경매 이벤트를 실시한다고 밝혔다.
+
+ 
+침체된 용산 오프라인 시장에 활력소 되고자
+최근 컴퓨터 및 관련제품 업계는 쇼핑의 주 무대가 기존 오프라인에서 온라인으로 대거 전향됨에 따라 상대적인 침체를 맞고 있다. 이에 컴포인트는 침체된 오프라인 시장을 활성화 하고자 기가바이트 주변기기의 오프라인 공식대리점이자 용산 선인상가의 터줏대감격인 ㈜제이테크와 함께 파격적인 가격의 경매 이벤트를 실시한다... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 11:04:16 +0000</pubDate>
+ <dc:creator>lerker</dc:creator>
+ <guid isPermaLink="false">139580 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>제이씨현, Pulse Beat &amp; 히트-싱크 LED로 튜닝 효과 배가한 GA-X99-UD4 출시 </title>
+    <link>http://www.kbench.com/?q=node/139578</link>
+    <description><![CDATA[GIGABYTE Technology Co. LTD (이하 기가바이트)의 국내 공식 수입유통사인 제이씨현시스템(주)(대표:차현배)에서 강력한 연산 처리 능력을 자랑하는 하스웰-E CPU를 지원하는 X99 칩셋과, 다양한 LED 모드로 멋스러운 튜닝 효과를 제공하는 Pluse Beat LED 백-패널, 그리고 대형 히트-싱크 탑재로 극한의 발열도 순식간에 냉각하고 LED를 탑재하여 튜닝효과를 배가시킨 메탈릭 골드 히트-싱크 디자인으로 화려한 워크스테이션을 구축할 수 있는 GA-X99-UD4 메인보드를 정식 출시 한다고 밝혔다.
+
+새... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 10:59:54 +0000</pubDate>
+ <dc:creator>lerker</dc:creator>
+ <guid isPermaLink="false">139578 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>애플의 보루 iOS 8, 그 특징을 요모조모 살펴보자</title>
+    <link>http://www.kbench.com/?q=node/139577</link>
+    <description><![CDATA[애플(Apple)은 지난 9월 18일 자사의 모바일 운영체제 iOS 8을 정식 공개하였다.
+역대 가장 큰 규모라는 문구답게 사진, 메시지 등 주요 기능은 각종 편의 기능이 추가 되어 큰 변화가 이루어졌으며, '아이클라우드 드라이브(iCloud Drive)', '가족 공유' 및 '건강' 같은 신규 기능도 추가 되어 기존 iOS 사용자들에게도 생소한 부분이 많아졌다.
+그에 따라 케이벤치에서는 이번 기사를 통해 iOS 8의 주요 특징을 간단히 살펴보고 앞으로의 전망에 대해 논해보도록 하겠다.
+&nbsp;
+■ 대대적인 개편이 이루어... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 09:32:55 +0000</pubDate>
+ <dc:creator>bmw375</dc:creator>
+ <guid isPermaLink="false">139577 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>ARM, 사물인터넷 시장 겨냥 &#039;Cortex M7&#039; 프로세서 출시</title>
+    <link>http://www.kbench.com/?q=node/139573</link>
+    <description><![CDATA[ARM이 사물인터넷(IoT) 시장을 겨냥해 기존 ARM 기반 MCU 제품군 대비 두 배 향상된 
+연산 속도와 디지털 신호 처리(Digital Signal Processing, 이하 DSP) 능력을 제공하는 
+새로운 32비트 코어텍스(Cortex) M7 프로세서를 출시했다. 
+ARM 코어텍스-M7은 차세대 자동차, 커넥티드 디바이스 및 스마트 홈, 또는 공장에서 
+필요로 하는 하이엔드 임베디드 애플리케이션을 겨냥해 개발된 제품으로 5 코어마켓/MHz의 
+빼어난 성능을 자랑한다. 
+이로 인해 뛰어난 성능과 디지털 신호 컨트롤... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 07:10:26 +0000</pubDate>
+ <dc:creator>godbless</dc:creator>
+ <guid isPermaLink="false">139573 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>삼성전자, 유럽서 당분간 노트북 판매 중단.. 왜?</title>
+    <link>http://www.kbench.com/?q=node/139567</link>
+    <description><![CDATA[삼성전자가 유럽서 노트북 판매를 일시 중단했다.
+23일(현지시간) 영국 IT매체 'PC 어드바이저'는 삼성전자가 유럽에서 
+크롬북을 포함한 노트북 판매를 중단했다고 전했다.
+삼성전자 대변인은 &quot;줄어든 시장 수요로 인해 유럽서 노트북 
+판매를 당분간 중단한다&quot;면서 &quot;이번 중단 조치는 유럽에만 해당되며 다른 
+시장에는 영향을 미치치 않는다&quot;고 덧붙였다.
+삼성전자는 올해 초 라스베가스에서 열린 소비자가전전시회(CES)2014에서 
+윈도 기반 아티브북 등 노트북 신제품을 선보였지만, 9월초 ... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 04:33:00 +0000</pubDate>
+ <dc:creator>godbless</dc:creator>
+ <guid isPermaLink="false">139567 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>인텔, 하스웰-EP 기반 CPU 제온 E5-1600 v3 및 E5-2600 v3 시리즈 공개</title>
+    <link>http://www.kbench.com/?q=node/139564</link>
+    <description><![CDATA[9월 초에 하스웰-EP 기반의 서버 및 워크스테이션용 신규 제온(Xeon) 시리즈 프로세서를 공개했던 인텔이 추가로 제온 E5-1600 및 E5-2600 시리즈를 공개하였다는 소식이 CPU World를 통해 전해졌다.
+새로 공개 된 제온 E5-1600 및 E5-2600 시리즈는 E5-1603 v3, E5-1607 v3, E5-1681 v3, E5-1686 v3, E5-1691 v3, E5-2628 v3, E5-2663 
+v3 등 총 7종이며 엔트리 라인업에 속하는 E5-1603 v3와 E5-1607 v3는 현재 델(Dell)과 ... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 03:28:34 +0000</pubDate>
+ <dc:creator>bmw375</dc:creator>
+ <guid isPermaLink="false">139564 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>에이수스, 고유 기술인 OC Socket의 특허 등록 완료</title>
+    <link>http://www.kbench.com/?q=node/139561</link>
+    <description><![CDATA[&nbsp;1989년 이후 4억 2천 만개 이상의 마더보드를 선적하며 전세계 마더보드 시장을 이끌고 있는 마더보드 세계 1위 브랜드 
+에이수스(ASUS)가 최근 출시된 X99 시리즈 마더보드에 적용된 독자적인 기술인 ‘OC Socket’의 특허 등록이 완료되었고, 이와 관련하여 
+경쟁사들의 특허 침해 행위에 대해 강력하게 대응하겠다고 밝혔습니다.
+&nbsp;
+&nbsp;
+
+&nbsp;
+
+인텔이 지난 8월 말 최상위급 CPU 모델인 Haswell-E 프로세서와 X99 시리즈 칩셋을 발표하면서 다양한 마더보드 제조사들은 ... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 02:36:14 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139561 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>하이비젼시스템 3D프린터 큐비콘 론칭쇼 개최 </title>
+    <link>http://www.kbench.com/?q=node/139543</link>
+    <description><![CDATA[㈜하이비젼시스템(대표 최두원)은 오는 9월 30일 오전11시 인터컨티넨탈호텔 2층 국화룸에서 자체 설계한 3D프린터 큐비콘 완제품을 선보이는 론칭쇼를 개최한다.
+ 
+ 
+
+ 
+이번 런칭쇼에 선보이는 3D프린터 ‘큐비콘 싱글’(모델명:3DP-110F)은 하이비젼시스템이 국내 최초로 자체 설계한 분리형 출력 노즐(Extruder)과 세계 최초로 출력 베드가 자동으로 수평을 맞춰 조형의 안정성을 보장하는 오토레벨링 플러스 기능을 탑재한 산업형 보급모델로, 여러 종류의 필라멘트 교체 사용시 분리형 출력 노즐만 교체하여 최적의 프린팅... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 01:07:23 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139543 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>한국엡손, 신학기 맞이 이벤트 진행 </title>
+    <link>http://www.kbench.com/?q=node/139541</link>
+    <description><![CDATA[한국엡손(대표 시부사와 야스오, http://www.epson.co.kr/ )이 신학기를 맞아 9월 30일까지 온라인 이벤트를 진행한다. 
+ 
+ 
+
+ 
+엡손은 9월 한 달간 엡손의 스캐너를 구매한 고객 전원에게 ‘SK 상품권’을 증정하는 ’엡손 문서 스캐너 신학기 이벤트’를 진행한다. 이벤트 진행 제품은 모바일 스캐너 ‘워크포스 DS-40’을 비롯한 총 7종의 스캐너이다. 이벤트 응모 방법은 이벤트 진행 제품을 구매한 뒤 온라인 쇼핑몰 사이트에 상품평을 작성하고 엡손 공식 홈페이지 이벤트란에서 참여 신청을 완료하면 된다. ... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 00:58:05 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139541 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>제이씨현시스템, GIGABYTE 지포스 GTX 970 G1게이밍 출시 </title>
+    <link>http://www.kbench.com/?q=node/139540</link>
+    <description><![CDATA[GIGABYTE Technology Co., LTD(이하 기가바이트)의 공식 공급원인 제이씨현시스템㈜(대표:차현배)에서는 2014년 9월 24일(수), GIGABYTE 지포스 GTX 970 G1게이밍 그래픽카드를 공식 출시한다고 밝혔다.
+ 
+ 
+ 
+
+
+새롭게 출시되는 GIGABYTE 지포스 GTX 970 G1게이밍 제품은 GPU Gauntlet™(세계 최고 GPU 선별과정)을 통과한 칩셋에 슈퍼 오버클럭을 적용시켰고, NVIDIA 최신 Maxwell 아키텍쳐를 사용하여 뛰어난 전력 효율과 높은 성능을 가지도록 설계된 제품... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 00:55:33 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139540 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>2014 인텔 프로세서 오버클럭 가이드- CPU 오버클럭 따라해 보자</title>
+    <link>http://www.kbench.com/?q=node/138037</link>
+    <description><![CDATA[&nbsp;1부-2014 인텔 프로세서 오버클럭 가이드- 
+오버클럭이란게 뭐지?
+2부-2014 인텔 프로세서 오버클럭 가이드- 오버클럭을 위한 준비물은?
+3부-2014 인텔 프로세서 오버클럭 가이드- CPU 
+오버클럭 따라해 보자
+
+▲ 오버클럭을 위해서는 CPU와 메인보드 뿐 아니라 다른 부분도 꼼꼼한 점검이 필요하다
+지난 1,2 부에서는 오버클럭이 무엇이고, 2014년 인텔 프로세서의 오버클럭은 어떤 특징을 가지고 있는 지, 오버클럭용 CPU에는 어떤 
+것이 있고, 오버클럭을 위한 메인보드를 선택하는 법, 목적에 따... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 00:50:03 +0000</pubDate>
+ <dc:creator>macga</dc:creator>
+ <guid isPermaLink="false">138037 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>웨이코스, 가을맞이, MANLI GTX780 Ultimate 시리즈 가격인하 </title>
+    <link>http://www.kbench.com/?q=node/139527</link>
+    <description><![CDATA[세계적인 그래픽카드 제조/유통 그룹인 PC Partner 그룹 산하의 MANLI 브랜드 한국 공식 디스트리뷰터인 ㈜웨이코스가, 가을 시즌을 맞이하여 고성능 제품군인 MANLI 지포스 GTX780 Ti Ultimate 제품과 MANLI 지포스 GTX780 Ultimate 제품의 가격을 파격적으로 인하한다고 밝혔다.
+ 
+ 
+
+ 
+세계적인 PC Partner 그룹 산하의 MANLI 브랜드
+MANLI 브랜드는 세계적인 그래픽카드 제조/유통 그룹인 PC Partner 그룹 산하의 브랜드이다. PC Partner 그룹은 NVIDIA... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 00:11:38 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139527 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>캔스톤, 모니터링 스피커 LX-6000 마테호른(Matterhorn) 출시 </title>
+    <link>http://www.kbench.com/?q=node/139524</link>
+    <description><![CDATA[세계적인 스피커 브랜드 F&D를 국내에 공급하는 캔스톤어쿠스틱스(이하 캔스톤)가 또 하나의 북쉘프 타입의 스피커 LX-6000 마테호른(Matterhorn)을 출시했다.
+ 
+ 
+
+ 
+앞서 출시된 하이파이급 스피커 LX-8000 헤스티아(Hestia)가 톨보이 형태의 최고급형 스피커를 모델이라면, LX-6000 마테호른은 모니터링 타입의 표준화된 사이즈로 디자인 되어 대중화를 목표로 한 것. 보다 저렴해진 현실적인 가격대에 고품질의 사운드를 구현하는 모니터링 스피커를 소유할 수 있게 됐다.앞서 캔스톤은 LX-3000 이클립스... ]]></description>
+     <pubDate>Wed, 24 Sep 2014 00:02:40 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139524 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>웨이코스, 컴퓨존에서 XFX 파워서플라이 구매 시 휴대용 배터리 증정 </title>
+    <link>http://www.kbench.com/?q=node/139516</link>
+    <description><![CDATA[㈜웨이코스가, XFX 파워 서플라이 출시를 기념하여 온라인 종합컴퓨터쇼핑몰인 컴퓨존에서 구매자들을 위한 이벤트를 실시한다고 밝혔다.
+ &nbsp; 
+ &nbsp; 
+
+ &nbsp; 
+컴퓨존에서 진행되는 이번 행사는 우수한 효율과 성능을 갖춘 XFX의 3 시리즈 10종 전 제품에 반영되는 구매고객 행사로 고용량의 보조배터리를 사은품으로 증정하며 컴퓨존 홈페이지를 통해 참여할 수 있다.
+ &nbsp; 
+이번 행사에 소개되는 XFX 파워 서플라이는 PRO / XTR / TS 시리즈 10 모델이 출시되었으며, Full 모듈러 ... ]]></description>
+     <pubDate>Tue, 23 Sep 2014 10:09:14 +0000</pubDate>
+ <dc:creator>bmw375</dc:creator>
+ <guid isPermaLink="false">139516 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>이엠텍, &#039;HV 지포스 GTX 970 Extreme OC D5 4GB&#039; 출시 </title>
+    <link>http://www.kbench.com/?q=node/139511</link>
+    <description><![CDATA[이엠텍아이엔씨(대표:이덕수, 이하 이엠텍)는 NVIDIA가 새로 발표한 GeForce GTX 900 시리즈 칩셋 그래픽카드, 이엠텍 [HV GeForce GTX 970 Extreme OC D5 4GB] 를 출시한다.
+ &nbsp; 
+ &nbsp; 
+
+ &nbsp; 
+이엠텍 [HV GeForce GTX 970 Extreme OC D5 4GB]는 향상된 소비전력 대비 성능으로 많은 사랑을 받고 있는 엔비디아 맥스웰 아키텍쳐를 기반으로 1,664개의 쿠다코어를 탑재한 GTX 970과 4GB 용량의 초고속 DDR5 메모리를 채택하... ]]></description>
+     <pubDate>Tue, 23 Sep 2014 09:43:02 +0000</pubDate>
+ <dc:creator>bmw375</dc:creator>
+ <guid isPermaLink="false">139511 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>조텍코리아, PC방 대상 GTX750 Ti X 웨스턴디지털 HDD 패키지 프로모션 실시 </title>
+    <link>http://www.kbench.com/?q=node/139484</link>
+    <description><![CDATA[글로벌 리딩 IT 컴퍼니 조텍코리아(ZOTAC Korea)에서는 조텍 지포스 GTX 750 Ti 2종 제품과 웨스턴디지털의 HDD 2종을 패키지로 묶은 프로모션을 딜러 및 PC방을 대상으로 9월 22일부터 10월 4일까지 선착순 1000대 한정으로 실시한다고 밝혔다.
+ 
+ 
+
+ 
+본 프로모션에 해당하는 조텍의 제품은 조텍 지포스 GTX 750 Ti D5 2GB와 조텍 지포스 GTX 750 Ti D5 2GB Dual Silencer 제품이다. 두 제품 모두 저전력, 저발열, 그리고 고성능을 자랑하는 맥스웰 아키텍쳐가 적용되어... ]]></description>
+     <pubDate>Tue, 23 Sep 2014 01:40:45 +0000</pubDate>
+ <dc:creator>zhstjxm2001</dc:creator>
+ <guid isPermaLink="false">139484 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>AMD 싸움은 시작도 안했다, 25일 인도에서 반격 카드 꺼내나?</title>
+    <link>http://www.kbench.com/?q=node/139473</link>
+    <description><![CDATA[엔비디아의 지포스 GTX 980과 970 시리즈로 허를 찔린 AMD가 반격을 위해 준비한 
+카드를 꺼낼 것이라는 소문이 나돌고 있다.
+25일 인도에서 예정된 행사에서 AMD가 신형 GPU와 그래픽카드를 발표할 것이라는 
+기사가 외신을 통해 계속 이어지고 있는데 최근 AMD 인도가 'No Pills Required'라는 
+새로운 마케팅 캠페인을 트위터에 공개한 데 이어 AMD 글로벌 채널 세일즈 부사장 
+로이 테일러 (Roy Taylor)도 의미 심장한 글을 남긴 것으로 전해졌다.
+AMD 로이 테일러 (Roy Taylor)... ]]></description>
+     <pubDate>Tue, 23 Sep 2014 01:19:53 +0000</pubDate>
+ <dc:creator>guygun</dc:creator>
+ <guid isPermaLink="false">139473 at http://www.kbench.com</guid>
+  </item>
+  <item>
+    <title>지포스 GTX 960은 10월 출시 예정? 가격대는 250달러 내외로 예상</title>
+    <link>http://www.kbench.com/?q=node/139471</link>
+    <description><![CDATA[엔비디아(NIVIDA)의 차세대 퍼포먼스 라인업 그래픽카드 지포스 GTX 960은 10월에 출시 될 것이라는 루머가 Wccftech를 통해 전해졌다.
+이미 엔비디아는 2세대 맥스웰(Maxwell) 아키텍처 기반 GPU의 차세대 하이엔드 그래픽카드 지포스 GTX 980 / 970을 공식 발표한 상황이지만 다른 라인업의 제품에 대해서는 상세히 밝혀진 바가 없는데 지포스 GTX 960 역시 출시 예정이라는 것 외에는 알 수가 없는 상황이다.
+물론 성능과 가격은 하이엔드 라인업의 지포스 GTX 970보다는 낮게 책정 될 것이 충분히 예... ]]></description>
+     <pubDate>Tue, 23 Sep 2014 01:14:25 +0000</pubDate>
+ <dc:creator>bmw375</dc:creator>
+ <guid isPermaLink="false">139471 at http://www.kbench.com</guid>
+  </item>
+  </channel>
+</rss>

@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+
+<channel>
+	<title>ioriy2k's Knowledgebase</title>
+	
+	<link>http://ioriy2k.pe.kr</link>
+	<description>ioriy2k의 여러가지 지식 저장소</description>
+	<lastBuildDate>Fri, 18 Jul 2014 07:28:46 +0000</lastBuildDate>
+	<language>ko-KR</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/ioriy2k" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="ioriy2k" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://add.my.yahoo.com/rss?url=http%3A%2F%2Ffeeds.feedburner.com%2Fioriy2k" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://feeds.my.aol.com/add.jsp?url=http%3A%2F%2Ffeeds.feedburner.com%2Fioriy2k" src="http://o.aolcdn.com/favorites.my.aol.com/webmaster/ffclient/webroot/locale/en-US/images/myAOLButtonSmall.gif">Subscribe with My AOL</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.bloglines.com/sub/http://feeds.feedburner.com/ioriy2k" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2Fioriy2k" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.live.com/?add=http%3A%2F%2Ffeeds.feedburner.com%2Fioriy2k" src="http://tkfiles.storage.msn.com/x1piYkpqHC_35nIp1gLE68-wvzLZO8iXl_JMledmJQXP-XTBOLfmQv4zhj4MhcWEJh_GtoBIiAl1Mjh-ndp9k47If7hTaFno0mxW9_i3p_5qQw">Subscribe with Live.com</feedburner:feedFlare><feedburner:feedFlare xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" href="http://www.hanrss.com/add_sub.qst?url=http%3A%2F%2Ffeeds.feedburner.com%2Fioriy2k" src="http://static.hanrss.com/images/add_to_hanrss2.gif">Subscribe with HanRSS</feedburner:feedFlare><item>
+		<title>Blog 이전 공지</title>
+		<link>http://ioriy2k.pe.kr/archives/7897</link>
+		<comments>http://ioriy2k.pe.kr/archives/7897#comments</comments>
+		<pubDate>Tue, 08 Jul 2014 08:23:01 +0000</pubDate>
+		<dc:creator><![CDATA[ioriy2k]]></dc:creator>
+				<category><![CDATA[My Life]]></category>
+
+		<guid isPermaLink="false">http://ioriy2k.pe.kr/?p=7897</guid>
+		<description><![CDATA[정말 오랜만에 글을 쓰게 되는 것 같네요. Startup을 준비하고 시작하는 과정 가운데서 정신 없는 나날들을 보낸 것 같습니다. 일을 하면서도 계속 Blog를 어떻게 해야 하나 고민이 많았는데요, 이번에 새로 회사 Homepage를 Update하면서 이번 기회에 깊은 내용까지는 다루지 못하더라도, 회사 차원의 기술 Blog를 같이 운영해 보려 합니다. 그래서 이 Blog에 적었던 내용들 가운데서 저희 회사가 사용하고 [&#8230;]<div class='yarpp-related-rss yarpp-related-none'>
+
+관련된 Post가 없습니다.
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p>정말 오랜만에 글을 쓰게 되는 것 같네요. Startup을 준비하고 시작하는 과정 가운데서 정신 없는 나날들을 보낸 것 같습니다.</p>
+<p>일을 하면서도 계속 Blog를 어떻게 해야 하나 고민이 많았는데요, 이번에 새로 회사 Homepage를 Update하면서 이번 기회에 깊은 내용까지는 다루지 못하더라도, 회사 차원의 기술 Blog를 같이 운영해 보려 합니다.</p>
+<p>그래서 이 Blog에 적었던 내용들 가운데서 저희 회사가 사용하고 있는 기술과 관련된 내용들을 기술 Blog로 이전하고, 가능한 범위 내에서 지속적인 Update를 통해서 정보를 공유하게 될 것 같습니다.</p>
+<p>기술 Blog가 만들어지고 내용이 채워지는 동안은 이 Blog가 계속 유지될 것입니다. 그리고 기술 Blog가 어느 정도 공개할 만큼 준비가 되었다면 이 Blog는 삭제되고, 현 Domain 접속 시 회사 기술 Blog로 Forwarding 될 것입니다.</p>
+<p>또한, 새로 만들어지는 기술 Blog에서는 저희 회사에서 사용하지 않는 기술적인 내용들에 대해서는 다루지 않게 될 것입니다. 해당 내용이 삭제되는 것에 대해서 양해 부탁 드리겠습니다.</p>
+<p>앞으로 기술 Blog가 다루는 내용은 Web Service와 Android 개발, AWS, Ubuntu Server 운영과 기본적인 활용들이 주가 될 것 같습니다. 부족한 부분들도 있겠지만, 기대와 관심 부탁드립니다. <img src="http://ioriy2k.pe.kr/wordpress/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /></p>
+<p>마지막으로 부족한 Blog를 사랑해 주시고 격려와 도움 주신 분들께 감사드립니다. 감사합니다.</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>관련된 Post가 없습니다.</p>
+</div>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ioriy2k?a=MCh_Q3NrxCY:oe7HmG8mAaI:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ioriy2k?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ioriy2k?a=MCh_Q3NrxCY:oe7HmG8mAaI:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/ioriy2k?i=MCh_Q3NrxCY:oe7HmG8mAaI:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ioriy2k?a=MCh_Q3NrxCY:oe7HmG8mAaI:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/ioriy2k?i=MCh_Q3NrxCY:oe7HmG8mAaI:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ioriy2k?a=MCh_Q3NrxCY:oe7HmG8mAaI:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/ioriy2k?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ioriy2k?a=MCh_Q3NrxCY:oe7HmG8mAaI:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/ioriy2k?i=MCh_Q3NrxCY:oe7HmG8mAaI:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/ioriy2k/~4/MCh_Q3NrxCY" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://ioriy2k.pe.kr/archives/7897/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Ubuntu Server의 보안을 위해서 해야 할 것들</title>
+		<link>http://ioriy2k.pe.kr/archives/7307</link>
+		<comments>http://ioriy2k.pe.kr/archives/7307#comments</comments>
+		<pubDate>Wed, 31 Jul 2013 01:00:58 +0000</pubDate>
+		<dc:creator><![CDATA[ioriy2k]]></dc:creator>
+				<category><![CDATA[Linux, Just For Fun]]></category>
+		<category><![CDATA[Server]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+
+		<guid isPermaLink="false">http://ioriy2k.pe.kr/?p=7307</guid>
+		<description><![CDATA[Ubuntu를 사용하여 개인 Server를 운영하거나, NAS로 만들어서 외부에서 접속이 가능하도록 DDNS로 설정하여 사용하는 경우가 종종 있는 것 같습니다. 이번 Post에서는 Ubuntu가 설치된 Server가 외부 접속과 연결되어 있을 경우, 좀 더 안전하게 Server 운영을 할 수 있는 방법에 대해 몇 가지 알아봅니다. 1. Firewall Linux의 핵심인 Kernel은 Server에 대한 Client의 Network 접속을 제어하는 netfilter라는 Module을 가지고 [&#8230;]<div class='yarpp-related-rss'>
+
+관련된 Posts:<ol>
+<li><a href="http://ioriy2k.pe.kr/archives/55" rel="bookmark" title="Ubuntu Feisty에서 Flash의 한글이 깨질 경우..">Ubuntu Feisty에서 Flash의 한글이 깨질 경우.. </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/1316" rel="bookmark" title="Ubuntu 64bit에서 TweetDeck을 사용할 때 한글이 입력되지 않을 경우">Ubuntu 64bit에서 TweetDeck을 사용할 때 한글이 입력되지 않을 경우 </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/3927" rel="bookmark" title="Ubuntu Oneiric Ocelot 11.10을 설치한 후 해야 할 것들 (1. System 설정)">Ubuntu Oneiric Ocelot 11.10을 설치한 후 해야 할 것들 (1. System 설정) </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/149" rel="bookmark" title="Ubuntu 64bit에서 32bit AIR 2.0 Runtime 설치하기">Ubuntu 64bit에서 32bit AIR 2.0 Runtime 설치하기 </a></li>
+</ol>
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p>Ubuntu를 사용하여 개인 Server를 운영하거나, NAS로 만들어서 외부에서 접속이 가능하도록 DDNS로 설정하여 사용하는 경우가 종종 있는 것 같습니다.</p>
+<p>이번 Post에서는 Ubuntu가 설치된 Server가 외부 접속과 연결되어 있을 경우, 좀 더 안전하게 Server 운영을 할 수 있는 방법에 대해 몇 가지 알아봅니다.</p>
+
+<h3>1. Firewall</h3>
+<p>Linux의 핵심인 Kernel은 Server에 대한 Client의 Network 접속을 제어하는 netfilter라는 Module을 가지고 있습니다. </p>
+<p>Kernel은 이 netfilter를 사용하여 Packet Filtering를 수행하는데, 이것을 이용하여 Server 접속에 대한 Network 정책을 세우는 Program이 바로 Firewall입니다.</p>
+<p>Ubutnu Server의 보안을 위해서는 무엇보다도 Firewall을 통해 Client의 악의적이거나 불필요한 접속을 차단하는 것이 좋습니다.</p>
+<p><span id="more-7307"></span></p>
+<h4>1.1. UFW (Uncomplicated FireWall)</h4>
+<p>Linux System의 가장 기본적인 Firewall은 iptables입니다. 그러나 일반 사용자들이 사용하기에는 어려운 면이 있기 때문에, Ubuntu에서는 iptables를 쉽게 사용할 수 있도록 만든 UFW(Uncomplicated Firewall)라는 Firewall을 제공합니다.<sup class='footnote'><a href='#fn-7307-1' id='fnref-7307-1' onclick='return fdfootnote_show(7307)'>1</a></sup></p>
+<p>Ubuntu를 Server에 설치한 직후에는 UFW가 비활성화 되어 있습니다. 먼저, UFW를 가동하기 위해서 다음과 같이 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> ufw <span style="color: #7a0874; font-weight: bold;">enable</span></div></td></tr></tbody></table></div>
+<p>UFW를 활성화시키면 Firewall이 기본적인 동작을 하고, System 시작할 때 마다 자동으로 실행됩니다.</p>
+<p>Firewall의 기본적인 동작은 Server의 모든 Port로 접근하는 Client의 접속을 차단하는 것입니다. 때문에 Service가 Server에 실행된 상태라도, Firewall이 동작하고 있다면 외부에서 Server로의 접속이 불가능합니다.</p>
+<p>해당 Service에 대한 Client의 접근을 허용하기 위해서는 규칙을 추가해야 합니다. 예를 들어, Server가 OpenSSH Service를 실행하고 있다면 다음과 같이 입력하여 SSH Port(22)로의 접근을 허용하는 규칙을 Firewall에 추가합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> ufw allow <span style="color: #c20cb9; font-weight: bold;">ssh</span></div></td></tr></tbody></table></div>
+<p>규칙을 적용을 위해서 위에서는 ssh와 같은 Service명을 사용했지만, 다음과 같이 Service Port를 직접 적어도 됩니다. (TCP와 UDP 모두 22번 Port로의 접근을 허용하는 예)</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> ufw allow <span style="color: #000000;">22</span></div></td></tr></tbody></table></div>
+<p>그리고 위와 같이 설정한 규칙을 확인해 보려면 다음과 같이 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> ufw status verbose<br />
+Status: active<br />
+Logging: on <span style="color: #7a0874; font-weight: bold;">&#40;</span>low<span style="color: #7a0874; font-weight: bold;">&#41;</span><br />
+기본값: deny <span style="color: #7a0874; font-weight: bold;">&#40;</span>들어오는 패킷<span style="color: #7a0874; font-weight: bold;">&#41;</span>, allow <span style="color: #7a0874; font-weight: bold;">&#40;</span>나가는 패킷<span style="color: #7a0874; font-weight: bold;">&#41;</span><br />
+새 프로파일 skip<br />
+<br />
+To &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Action &nbsp; &nbsp; &nbsp;From<br />
+<span style="color: #660033;">--</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style="color: #660033;">------</span> &nbsp; &nbsp; &nbsp;<span style="color: #660033;">----</span><br />
+<span style="color: #000000;">22</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ALLOW IN &nbsp; &nbsp;Anywhere<br />
+<span style="color: #000000;">22</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ALLOW IN &nbsp; &nbsp;Anywhere <span style="color: #7a0874; font-weight: bold;">&#40;</span>v6<span style="color: #7a0874; font-weight: bold;">&#41;</span></div></td></tr></tbody></table></div>
+<p>허용된 SSH 접속을 다시 막으려면 아래와 같이 delete 명령을 사용하면 됩니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> ufw delete allow <span style="color: #c20cb9; font-weight: bold;">ssh</span></div></td></tr></tbody></table></div>
+<blockquote><p>
+<strong>NOTE 1</strong>: Command-line에서 작업하는 것이 불편하다면, UFW의 GUI Front-end인 Gufw를 사용하여 좀 더 쉽게 규칙을 추가하거나 삭제할 수 있습니다. 자세한 내용은 Ubuntu Precise Pangolin 12.04를 설치한 후 해야 할 것들의 <a href="http://ioriy2k.pe.kr/archives/5442#9_Network" target="_blank">9.Network 방화벽 설정</a>를 참고하기 바랍니다.
+</p></blockquote>
+<blockquote><p>
+<strong>NOTE 2</strong>: OS 재설치 등의 경우를 대비해 UFW 규칙들을 Backup하거나 다시 Restore할 수 있습니다. 자세한 내용은 Ubuntu Precise Pangolin 12.04를 설치한 후 해야 할 것들의 <a href="http://ioriy2k.pe.kr/archives/5442#91_UFW_BackupRestore" target="_blank">9.1. UFW Backup/Restore</a>를 참고하기 바랍니다.
+</p></blockquote>
+<h4>1.2. 특정 Client의 접속을 차단하는 방법</h4>
+<p>Service의 Log를 검색하다가 Cracking이 의심되는 시도가 발견되었다면, UFW 규칙 생성을 통해 해당 IP의 접속을 차단 할 수 있습니다.</p>
+<p>해당 IP의 Server 접속을 모두 차단하려면 다음과 같이 Terminal에서 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> ufw deny from xxx.xxx.xxx.xxx</div></td></tr></tbody></table></div>
+<p>또는, 다음과 같이 해당 IP가 관련 Service를 이용하지 못하도록 차단할 수 있습니다. (SSH Service의 예)</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> ufw deny from xxx.xxx.xxx.xxx to any port <span style="color: #000000;">22</span></div></td></tr></tbody></table></div>
+<h3>2. OpenSSH Server</h3>
+<p>OpenSSH Server를 사용하는 경우, 계정 인증에 대한 Log를 기록하는 /var/log/auth.log를 확인해 보면 다음과 같은 Error Message를 확인 할 수 있습니다.</p>
+<div class="codecolorer-container text blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">Jun 17 07:33:17 dev sshd[24500]: Failed password for invalid user root from &nbsp; &nbsp; &nbsp;xxx.xxx.xxx.xxx port 54817 ssh2</div></td></tr></tbody></table></div>
+<p>주로 중국쪽 IP나 우회 접속을 통해서 들어오는데, 악의적인 Cracker가 예상 가능한 ID와 Password를 사용하여 무작위로 인증을 시도하는 경우에 위와 같은 Message가 발생합니다.</p>
+<p>일반적으로는 신경쓰지 않아도 별 문제가 없겠지만, 혹여 계정이 뚫리게 되거나 인증 과정으로 인한 System Resource 사용 때문에 System 성능이 저하될 수 있습니다.</p>
+<p>이번 항목에서는 위와 같은 SSH Brute-force Attack을 방어하기 위한 방법을 간단하게 소개합니다.</p>
+<h4>2.1. Firewall 설정</h4>
+<p>OpenSSH Service에 외부 Client가 접근할 수 있도록 설정하면서, Brute-force Attack을 방어하기 위한다면 다음과 같이 Terminal에서 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> ufw allow <span style="color: #c20cb9; font-weight: bold;">ssh</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> ufw limit <span style="color: #c20cb9; font-weight: bold;">ssh</span></div></td></tr></tbody></table></div>
+<p>첫 번째 명령은 위에서 이미 살펴본 것과 같이 SSH 접속을 허용하는 명령입니다. 그리고 두 번째 명령은 SSH 접속을 허용하되, 지속적인 Login 시도가 발생한다면 해당 Client의 접속을 차단하기 때문에 Brute-force Attack의 영향을 줄일 수 있게 됩니다.</p>
+<blockquote><p>
+<strong>NOTE</strong>: UFW의 limit 명령은 IPv4로 Client가 접속했을 경우에만 적용됩니다.
+</p></blockquote>
+<h4>2.2. OpenSSH Server 설정</h4>
+<p>위의 Firewall의 설정으로 Brute-force Attack의 대부분을 막을 수 있습니다. 하지만 System의 계정이 뚫릴 위험이 여전히 존재하기 때문에 좀 더 안전하게 Service를 운영할 수 있도록 설정을 변경해 봅시다.</p>
+<p>Terminal에서 다음과 같이 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12<br />13<br />14<br />15<br />16<br />17<br />18<br />19<br />20<br />21<br />22<br />23<br />24<br />25<br />26<br />27<br />28<br />29<br />30<br />31<br />32<br />33<br />34<br />35<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>ssh<span style="color: #000000; font-weight: bold;">/</span>sshd_config<br />
+<br />
+LoginGraceTime <span style="color: #000000;">20</span><br />
+PermitRootLogin no<br />
+Banner <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>issue.net<br />
+AllowUsers foo<br />
+<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>issue.net<br />
+<br />
+<span style="color: #000000; font-weight: bold;">***************************************************************************</span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; NOTICE TO USERS<br />
+<br />
+This computer system is the private property of its owner, whether<br />
+individual, corporate or government. &nbsp;It is <span style="color: #000000; font-weight: bold;">for</span> authorized use only.<br />
+Users <span style="color: #7a0874; font-weight: bold;">&#40;</span>authorized or unauthorized<span style="color: #7a0874; font-weight: bold;">&#41;</span> have no explicit or implicit<br />
+expectation of privacy.<br />
+<br />
+Any or all uses of this system and all files on this system may be<br />
+intercepted, monitored, recorded, copied, audited, inspected, and<br />
+disclosed to your employer, to authorized site, government, and law<br />
+enforcement personnel, <span style="color: #c20cb9; font-weight: bold;">as</span> well <span style="color: #c20cb9; font-weight: bold;">as</span> authorized officials of government<br />
+agencies, both domestic and foreign.<br />
+<br />
+By using this system, the user consents to such interception, monitoring,<br />
+recording, copying, auditing, inspection, and disclosure at the<br />
+discretion of such personnel or officials. &nbsp;Unauthorized or improper use<br />
+of this system may result <span style="color: #000000; font-weight: bold;">in</span> civil and criminal penalties and<br />
+administrative or disciplinary action, <span style="color: #c20cb9; font-weight: bold;">as</span> appropriate. By continuing to<br />
+use this system you indicate your awareness of and consent to these terms<br />
+and conditions of use. LOG OFF IMMEDIATELY <span style="color: #000000; font-weight: bold;">if</span> you <span style="color: #000000; font-weight: bold;">do</span> not agree to the<br />
+conditions stated <span style="color: #000000; font-weight: bold;">in</span> this warning.<br />
+<br />
+<span style="color: #000000; font-weight: bold;">****************************************************************************</span><br />
+<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> service <span style="color: #c20cb9; font-weight: bold;">ssh</span> restart</div></td></tr></tbody></table></div>
+<blockquote><p>
+<strong>NOTE</strong>: issue.net의 내용은 Ubuntu Wiki의 것을 사용했습니다.<sup class='footnote'><a href='#fn-7307-2' id='fnref-7307-2' onclick='return fdfootnote_show(7307)'>2</a></sup> 내용은 Copy &#038; Paste로 Terminal에 붙여 넣어 사용하면 편리합니다.
+</p></blockquote>
+<p>sshd_config은 OpenSSH Server의 설정 File입니다. 각 Option의 의미는 다음과 같습니다.</p>
+<ul>
+<li>LoginGraceTime: Login Prompt에서 사용자 입력을 기다리는 시간을 초 단위로 입력합니다.</li>
+<li>PermitRootLogin: no로 설정하면 root 계정으로 Login 할 수 없게 됩니다.</li>
+<li>Banner: 설정한 경로에 존재하는 Text File의 내용을 Login Prompt에 출력합니다.</li>
+<li>AllowUsers: SSH 접속을 통해 Login을 허용할 User를 지정합니다. 지정된 User 외의 접속은 차단됩니다. 만약, 여러 사용자를 지정할 경우 Space로 구분합니다. (위의 설정은 foo계정을 허용하는 예)</li>
+</ul>
+<p>/etc/issue.net의 내용은 OpenSSH Server에 접속한 Client에게 고지하는 내용입니다. 영문으로 되어 있지만 특별한 것은 없고, 악의적인 의도로 접근하는 사람들에게 경고하는 내용으로 되어 있습니다.</p>
+<h4>2.3. Denyhosts</h4>
+<p>Hacker의 침입 시도가 있는지를 매번 마다 Log를 검사해서 의심되는 IP가 발견되었을 경우, UFW로 해당 IP로 부터의 접속을 차단하는 행동을 반복한다면 상당히 귀찮을 것입니다.</p>
+<p>Denyhosts는 auth.log를 분석해서 SSH Broute-force Attack과 같은 Cracking 시도가 의심되는 IP를 hosts.deny에 등록시켜 SSH Service에 접근하지 못하도록 차단하는 기능을 하는 Script입니다.</p>
+<blockquote><p>
+<strong>NOTE</strong>: hosts.deny는 TCP Wrapper를 사용하는 Service에 대한 접속을 차단할 Client의 List를 적어 놓는 Text File입니다. TCP Wrapper는 hosts.allow와 hosts.deny로 Client의 접속을 관리하는 간단한 Firewall이라고 생각하면 됩니다.
+</p></blockquote>
+<p>설치를 위해서 Terminal에서 다음과 같이 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">apt-get install</span> denyhosts</div></td></tr></tbody></table></div>
+<p>자동으로 Booting 시에 시작할 수 있도록 구성되기 때문에 설치는 간단합니다.</p>
+<p>설정을 특별히 건드릴 필요는 없지만, Cracker가 정직하게 자신의 IP로 접속하는 일은 드물기 때문에 다음과 같이 주기적으로 hosts.dedny에 등록된 IP를 제거하는 것이 좋습니다. 설정을 위해 다음과 같이 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>denyhosts.conf<br />
+<br />
+PURGE_DENY = 1w<br />
+<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> service denyhosts restart</div></td></tr></tbody></table></div>
+<p>Denyhosts가 실행되고 있는 동안에는 주기적으로 /var/log/auth.log를 검사해서 의심 IP들을 hosts.deny에 자동으로 추가해 줍니다.</p>
+<p>동작이 제대로 되는지 확인하고 싶다면 아래의 두 File을 확인해 보기 바랍니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">cat</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>hosts.deny<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">cat</span> <span style="color: #000000; font-weight: bold;">/</span>var<span style="color: #000000; font-weight: bold;">/</span>log<span style="color: #000000; font-weight: bold;">/</span>denyhosts</div></td></tr></tbody></table></div>
+<h3>3. Apache HTTP Server</h3>
+<p>이번 항목에서는 Apache Web Server 운영 시에 보안을 위한 기본적인 설정들을 소개합니다.</p>
+<h4>3.1. Server 정보 숨기기</h4>
+<p>Server의 정보(Apache Version이나 OS 정보 etc.)가 Cracker들에게 노출되면 해당 정보를 가지고 잘 알려진 취약점을 가지고 접근해 들어올 가능성이 있기 때문에, 가능한 한 System의 정보를  표시하지 않도록 하는 것이 좋습니다.</p>
+<p>설정을 위해 다음과 같이 Terminal에서 입력합니다. (Ubuntu Raring Ringtail 13.04 이하)</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>apache2<span style="color: #000000; font-weight: bold;">/</span>conf.d<span style="color: #000000; font-weight: bold;">/</span>security</div></td></tr></tbody></table></div>
+<p>Ubuntu Saucy Salamander 13.10에서는 다음과 같이 입력해야 합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>apache2<span style="color: #000000; font-weight: bold;">/</span>conf-enabled<span style="color: #000000; font-weight: bold;">/</span>security.conf</div></td></tr></tbody></table></div>
+<div class="codecolorer-container apache blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br /></div></td><td><div class="apache codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #00007f;">ServerTokens</span> Prod<br />
+<span style="color: #00007f;">ServerSignature</span> <span style="color: #0000ff;">Off</span><br />
+<span style="color: #00007f;">TraceEnable</span> <span style="color: #0000ff;">Off</span></div></td></tr></tbody></table></div>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> service apache2 reload</div></td></tr></tbody></table></div>
+<p>위와 같이 설정하면 Error Page와 같이 자동으로 생성되는 Page에서 System 정보가 숨겨지고, TRACE Request를 통한 System 정보 유출이 불가능해 집니다.</p>
+<h4>3.2. Directory Indexing 비활성화</h4>
+<p>기본적으로 HTTP 접속을 통해 Directory와 File 정보를 표시하는 Directory Indexing 기능이 활성화되어 있는데, 이런 식으로 Cracker들에게 Service 내의 정보를 보여주는 것은 위험할 수 있습니다.</p>
+<p>특별히 Directory나 File을 공개하는 경우가 아니라면 다음과 같이 입력하여 Directory Indexing을 비활성화 합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> a2dismod autoindex<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> service apache2 restart</div></td></tr></tbody></table></div>
+<h4>3.3. 중국에서의 접속을 차단하는 방법</h4>
+<p>/var/log/apache2/access.log나 error.log를 확인해 보면 알 수 있겠지만, 중국 쪽에서의 Cracking 시도가 빈번한 것이 사실입니다.</p>
+<p>이를 방지하기 위해서, 중국에서의 Web Site 접속을 차단하려면 다음과 같이 입력하면 됩니다. (HTTP의 경우의 예, HTTPS의 경우에는 default 대신 default-ssl을 편집) (Ubuntu Raring Ringtail 13.04 이하)</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>apache2<span style="color: #000000; font-weight: bold;">/</span>sites-available<span style="color: #000000; font-weight: bold;">/</span>default</div></td></tr></tbody></table></div>
+<p>Ubuntu Saucy Salamander 13.10일 경우에는 다음과 같이 입력해야 합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>apache2<span style="color: #000000; font-weight: bold;">/</span>apache2.conf</div></td></tr></tbody></table></div>
+<p>&lt;Directory /var/www/&gt;와 &lt;/Directory&gt; 사이에 다음과 같은 내용을 추가합니다.</p>
+<div class="codecolorer-container apache blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br /></div></td><td><div class="apache codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #00007f;">Order</span> <span style="color: #00007f;">allow</span>,<span style="color: #00007f;">deny</span><br />
+<span style="color: #00007f;">allow</span> from <span style="color: #0000ff;">all</span><br />
+<span style="color: #00007f;">deny</span> from .cn</div></td></tr></tbody></table></div>
+<p>저장 후, 다음과 같이 Apache를 재시작하면 중국에서의 접속을 차단하게 됩니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> service apache2 restart</div></td></tr></tbody></table></div>
+<h3>4. Fail2ban</h3>
+<p>Server 관리자가 늘 항상 Log를 검사하여 일일이 의심되는 IP를 찾아 Firewall에 Rule을 추가하는 일은 상당히 귀찮은 일이 될 수 있습니다.</p>
+<p>Fail2ban은 주기적으로 정규 표현식을 사용하여 Log에서 의심스러운 IP를 검출해 내어, 해당 IP를 Firewall에 등록하여 접근을 자동으로 차단합니다.</p>
+<p>관리자 입장에서는 의심스러운 행동을 검출할 수 있는 정규 표현식만 잘 만들어 놓으면, 자동으로 나머지 동작은 Fail2ban이 알아서 하기 때문에 좀 더 편리하게 Server의 보안을 유지할 수 있습니다.</p>
+<blockquote><p>
+<strong>NOTE</strong>: 역으로 생각하면, 정규 표현식이 잘못되었거나 Cracker의 접근 Pattern이 변경되어 Log가 이전과는 다르게 적혀있다면, Fail2ban을 사용해도 접근을 차단할 수 없다는 것을 알 수 있습니다.</p>
+<p>때문에 Fail2ban을 사용한다 할 지라도, 관리자의 주기적인 Log 검사나, Filter Update가 필요하다는 것을 유의하기 바랍니다.
+</p></blockquote>
+<h4>4.1. Install</h4>
+<p>Fail2ban을 설치하기 위해서 다음과 같이 Terminal에서 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">apt-get install</span> fail2ban<br />
+<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>fail2ban<span style="color: #000000; font-weight: bold;">/</span>jail.conf<br />
+<br />
+<span style="color: #7a0874; font-weight: bold;">&#91;</span>DEFAULT<span style="color: #7a0874; font-weight: bold;">&#93;</span><br />
+ignoreip = 127.0.0.1<span style="color: #000000; font-weight: bold;">/</span><span style="color: #000000;">8</span> 192.168.0.1<span style="color: #000000; font-weight: bold;">/</span><span style="color: #000000;">24</span><br />
+bantime = <span style="color: #000000;">2592000</span><br />
+maxretry = <span style="color: #000000;">3</span><br />
+<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> service fail2ban restart</div></td></tr></tbody></table></div>
+<p>위에서 jail.conf는 Fail2ban의 설정 File입니다. 이 File에서 Fail2ban의 기본 동작과 여러가지 Filter를 설정할 수 있습니다.</p>
+<p>DEFAULT Section의 3개의 Option은 다음과 같은 의미를 가집니다.</p>
+<ul>
+<li>ignoreip: 의심스러운 접근으로 검출되었다 할 지라도 무시해야 할 IP와 Network을 설정할 수 있습니다. 위의 설정은 Loopback과 Private Network을 무시합니다.</li>
+<li>bantime: 검출된 IP를 Firewall에 등록하여 접속을 차단할 기간을 초 단위로 설정합니다. 위의 설정은 1달(30일)을 설정한 것입니다.</li>
+<li>maxretry: 정규 표현식으로 검사했을 때, maxretry에 설정한 횟수만큼 Matching 되면 해당 IP를 검출합니다.</li>
+</ul>
+<h4>4.2. Test</h4>
+<p>Cracker의 의심스러운 동작을 검출하기 위한 정규 표현식을 저장해 놓은 것을 Fail2ban에서는 Filter라고 이야기합니다.</p>
+<p>jail.conf에 이 Filter를 사용할 지에 대한 설정을 지정할 수 있고, 원한다면 관리자가 직접 Filter를 만들어서 사용할 수도 있습니다.</p>
+<p>Filter를 새로 만들었거나 기존에 존재하는 Filter를 적용하기 전에, 관련된 Log를 검사하여 해당 Filter를 적용할 지 여부를 결정할 필요가 있습니다.</p>
+<p>다음과 같이 입력하면 Filter를 사용했을 때, Matching되는 IP를 보여줍니다. (ssh 접근 Log가 기록되어 있는 auth.log를 sshd Filter로 검사하는 예)</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> fail2ban-regex <span style="color: #000000; font-weight: bold;">/</span>var<span style="color: #000000; font-weight: bold;">/</span>log<span style="color: #000000; font-weight: bold;">/</span>auth.log <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>fail2ban<span style="color: #000000; font-weight: bold;">/</span>filter.d<span style="color: #000000; font-weight: bold;">/</span>sshd.conf</div></td></tr></tbody></table></div>
+<h4>4.3. Filter</h4>
+<p>이제 Filter를 활성화하여, Cracker의 의심스러운 접근을 방어해 봅시다. 굳이 Log에서 의심스러운 내용이 검출되지 않더라도, Server에서 제공하는 Service와 관련된 Filter가 아래에 소개하는 것들 중에 있다면 가급적 활성화하는 것이 좋습니다.</p>
+<h5>4.3.1. sshd</h5>
+<p>sshd Filter는 SSH 설정에서 언급한 Brute-force Attack과 같은 접근을 차단하는 Filter입니다. </p>
+<p>이 Filter를 사용하면 /var/log/auth.log에서 아래와 유사한 문장이 나오면 IP를 검출하여 접속을 차단합니다.</p>
+<div class="codecolorer-container text blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">Jul 22 06:56:50 foo sshd[14984]: Failed password for invalid user a from xxx.xxx.xxx.xxx port 55452 ssh2</div></td></tr></tbody></table></div>
+<p>sshd Filter를 설정하려면 Terminal에서 다음과 같이 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>fail2ban<span style="color: #000000; font-weight: bold;">/</span>jail.conf<br />
+<br />
+<span style="color: #7a0874; font-weight: bold;">&#91;</span><span style="color: #c20cb9; font-weight: bold;">ssh</span><span style="color: #7a0874; font-weight: bold;">&#93;</span><br />
+<br />
+enabled &nbsp;= <span style="color: #c20cb9; font-weight: bold;">true</span><br />
+port &nbsp; &nbsp; = <span style="color: #c20cb9; font-weight: bold;">ssh</span><br />
+filter &nbsp; = sshd<br />
+logpath &nbsp;= <span style="color: #000000; font-weight: bold;">/</span>var<span style="color: #000000; font-weight: bold;">/</span>log<span style="color: #000000; font-weight: bold;">/</span>auth.log<br />
+maxretry = <span style="color: #000000;">3</span><br />
+<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> service fail2ban restart</div></td></tr></tbody></table></div>
+<h5>4.3.2. ssh-ddos</h5>
+<p>ssh-ddos Filter는 SSH Service를 Scanning하거나 telnet으로 접속할 떄 발생하는 Message를 검사해서 해당 IP의 접근을 차단합니다.</p>
+<p>/var/log/auth.log의 Message는 다음과 같습니다.</p>
+<div class="codecolorer-container text blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">Jul 23 13:16:25 foo sshd[21989]: Did not receive identification string from xxx.xxx.xxx.xxx</div></td></tr></tbody></table></div>
+<p>설정을 위해서 다음과 같이 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>fail2ban<span style="color: #000000; font-weight: bold;">/</span>jail.conf<br />
+<br />
+<span style="color: #7a0874; font-weight: bold;">&#91;</span>ssh-ddos<span style="color: #7a0874; font-weight: bold;">&#93;</span><br />
+<br />
+enabled &nbsp;= <span style="color: #c20cb9; font-weight: bold;">true</span><br />
+port &nbsp; &nbsp; = <span style="color: #c20cb9; font-weight: bold;">ssh</span><br />
+filter &nbsp; = sshd-ddos<br />
+logpath &nbsp;= <span style="color: #000000; font-weight: bold;">/</span>var<span style="color: #000000; font-weight: bold;">/</span>log<span style="color: #000000; font-weight: bold;">/</span>auth.log<br />
+maxretry = <span style="color: #000000;">3</span><br />
+<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> service fail2ban restart</div></td></tr></tbody></table></div>
+<h5>4.3.3. apache-badbots</h5>
+<p>apache-badbots Filter는 Cracker가 자신이 만든 Program으로 HTTP, HTTPS Protocol을 통해 Server에 접근하려 했을 경우에 발생하는 Message를 검출하여 해당 IP를 차단합니다.</p>
+<p>/var/log/apache2/access.log의 Message는 다음과 같습니다.</p>
+<div class="codecolorer-container text blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">xxx.xxx.xxx.xxx - - [12/Jul/2013:01:21:37 +0900] &quot;GET /manager/html HTTP/1.1&quot; 302 520 &quot;-&quot; &quot;Mozilla/3.0 (compatible; Indy Library)&quot;</div></td></tr></tbody></table></div>
+<p>Filter를 사용하려면 다음과 같이 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>fail2ban<span style="color: #000000; font-weight: bold;">/</span>jail.conf<br />
+<br />
+<span style="color: #7a0874; font-weight: bold;">&#91;</span>apache-badbots<span style="color: #7a0874; font-weight: bold;">&#93;</span><br />
+enabled &nbsp;= <span style="color: #c20cb9; font-weight: bold;">true</span><br />
+port &nbsp; &nbsp; = http,https<br />
+filter &nbsp; = apache-badbots<br />
+logpath &nbsp;= <span style="color: #000000; font-weight: bold;">/</span>var<span style="color: #000000; font-weight: bold;">/</span>log<span style="color: #000000; font-weight: bold;">/</span>apache<span style="color: #000000; font-weight: bold;">*/*</span>access.log<br />
+maxretry = <span style="color: #000000;">0</span><br />
+<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> service fail2ban restart</div></td></tr></tbody></table></div>
+<h5>4.3.4. apache-proxy</h5>
+<p>apache-proxy Filter는 Cracker가 Server를 Proxy를 사용하듯이 Server를 경유하여 다른 Server로 접근하려는 시도를 검출하여 해당 IP를 차단합니다.<sup class='footnote'><a href='#fn-7307-3' id='fnref-7307-3' onclick='return fdfootnote_show(7307)'>3</a></sup></p>
+<p>/var/log/apache2/access.log의 Message는 다음과 같습니다.</p>
+<div class="codecolorer-container text blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">xxx.xxx.xxx.xxx - - [20/Jul/2013:13:53:46 +0900] &quot;GET http://www.baidu.com/ HTTP/1.1&quot; 302 499 &quot;-&quot; &quot;-&quot;</div></td></tr></tbody></table></div>
+<p>apache-proxy Filter는 기본적으로 설치되어 있지 않기 때문에 새로 만들어야 합니다. 다음과 같이 Terminal에서 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>fail2ban<span style="color: #000000; font-weight: bold;">/</span>filter.d<span style="color: #000000; font-weight: bold;">/</span>apache-proxy.conf<br />
+<br />
+<span style="color: #7a0874; font-weight: bold;">&#91;</span>Definition<span style="color: #7a0874; font-weight: bold;">&#93;</span><br />
+failregex = ^<span style="color: #7a0874; font-weight: bold;">&#40;</span>?:<span style="color: #7a0874; font-weight: bold;">&#40;</span>?<span style="color: #000000; font-weight: bold;">!</span><span style="color: #7a0874; font-weight: bold;">&#91;</span><span style="color: #000000;">0</span>-<span style="color: #000000;">9</span>\.<span style="color: #7a0874; font-weight: bold;">&#93;</span><span style="color: #000000; font-weight: bold;">*</span> - .<span style="color: #000000; font-weight: bold;">*</span>? \<span style="color: #7a0874; font-weight: bold;">&#91;</span>.<span style="color: #000000; font-weight: bold;">*</span>\<span style="color: #7a0874; font-weight: bold;">&#93;</span> <span style="color: #ff0000;">&quot;([A-Z]* /.* HTTP/1\.[0-9]|-)&quot;</span><span style="color: #7a0874; font-weight: bold;">&#41;</span><span style="color: #000000; font-weight: bold;">&lt;</span>HOST<span style="color: #000000; font-weight: bold;">&gt;</span><span style="color: #7a0874; font-weight: bold;">&#41;</span><br />
+ignoreregex =</div></td></tr></tbody></table></div>
+<p>생성한 Filter를 활성화하기 위해서 다음과 같이 입력하면 설정이 완료됩니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>fail2ban<span style="color: #000000; font-weight: bold;">/</span>jail.conf<br />
+<br />
+<span style="color: #7a0874; font-weight: bold;">&#91;</span>apache-proxy<span style="color: #7a0874; font-weight: bold;">&#93;</span><br />
+enabled = <span style="color: #c20cb9; font-weight: bold;">true</span><br />
+port &nbsp; &nbsp;= http,https<br />
+filter &nbsp;= apache-proxy<br />
+logpath = <span style="color: #000000; font-weight: bold;">/</span>var<span style="color: #000000; font-weight: bold;">/</span>log<span style="color: #000000; font-weight: bold;">/</span>apache<span style="color: #000000; font-weight: bold;">*/*</span>access.log<br />
+maxretry = <span style="color: #000000;">0</span><br />
+<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> service fail2ban restart</div></td></tr></tbody></table></div>
+<h5>4.3.5. apache-myadmin</h5>
+<p>apache-myadmin Filter는 MySQL을 Web으로 관리할 수 있도록 만든 Tool인 phpMyAdmin을 Target으로 한 취약점 공격을 방어합니다.<sup class='footnote'><a href='#fn-7307-4' id='fnref-7307-4' onclick='return fdfootnote_show(7307)'>4</a></sup></p>
+<blockquote><p>
+<strong>NOTE</strong>: 이 Filter는 phpMyAdmin이 설치되지 않은 경우에 적용하면 됩니다. 그리고 phpMyAdmin의 경우 취약점으로 인한 공격이 많기 때문에 가급적이면 사용하지 않는 편이 좋습니다.
+</p></blockquote>
+<p>/var/log/apache2/access.log에서 Message 내용은 다음과 같습니다.</p>
+<div class="codecolorer-container text blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">xxx.xxx.xxx.xxx - - [13/Jul/2013:09:15:09 +0900] &quot;GET /phpMyAdmin/scripts/setup.php HTTP/1.1&quot; 302 538 &quot;-&quot; &quot;ZmEu&quot;</div></td></tr></tbody></table></div>
+<p>apache-myadmin Filter는 기본적으로 설치되지 않습니다. Filter를 생성하기 위해서 다음과 같이 Terminal에서 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>fail2ban<span style="color: #000000; font-weight: bold;">/</span>filter.d<span style="color: #000000; font-weight: bold;">/</span>apache-myadmin.conf<br />
+<br />
+<span style="color: #7a0874; font-weight: bold;">&#91;</span>Definition<span style="color: #7a0874; font-weight: bold;">&#93;</span><br />
+failregex = ^<span style="color: #000000; font-weight: bold;">&lt;</span>HOST<span style="color: #000000; font-weight: bold;">&gt;</span>.<span style="color: #000000; font-weight: bold;">*</span><span style="color: #7a0874; font-weight: bold;">&#40;</span>GET<span style="color: #000000; font-weight: bold;">|</span>HEAD<span style="color: #7a0874; font-weight: bold;">&#41;</span>.<span style="color: #000000; font-weight: bold;">*</span><span style="color: #7a0874; font-weight: bold;">&#40;</span>?i<span style="color: #7a0874; font-weight: bold;">&#41;</span>admin.<span style="color: #000000; font-weight: bold;">*</span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ^<span style="color: #000000; font-weight: bold;">&lt;</span>HOST<span style="color: #000000; font-weight: bold;">&gt;</span>.<span style="color: #000000; font-weight: bold;">*</span><span style="color: #7a0874; font-weight: bold;">&#40;</span>GET<span style="color: #000000; font-weight: bold;">|</span>HEAD<span style="color: #7a0874; font-weight: bold;">&#41;</span>.<span style="color: #000000; font-weight: bold;">*</span><span style="color: #7a0874; font-weight: bold;">&#40;</span>?i<span style="color: #7a0874; font-weight: bold;">&#41;</span>manager.<span style="color: #000000; font-weight: bold;">*</span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ^<span style="color: #000000; font-weight: bold;">&lt;</span>HOST<span style="color: #000000; font-weight: bold;">&gt;</span>.<span style="color: #000000; font-weight: bold;">*</span><span style="color: #7a0874; font-weight: bold;">&#40;</span>GET<span style="color: #000000; font-weight: bold;">|</span>HEAD<span style="color: #7a0874; font-weight: bold;">&#41;</span>.<span style="color: #000000; font-weight: bold;">*</span><span style="color: #7a0874; font-weight: bold;">&#40;</span>?i<span style="color: #7a0874; font-weight: bold;">&#41;</span>setup.<span style="color: #000000; font-weight: bold;">*</span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ^<span style="color: #000000; font-weight: bold;">&lt;</span>HOST<span style="color: #000000; font-weight: bold;">&gt;</span>.<span style="color: #000000; font-weight: bold;">*</span><span style="color: #7a0874; font-weight: bold;">&#40;</span>GET<span style="color: #000000; font-weight: bold;">|</span>HEAD<span style="color: #7a0874; font-weight: bold;">&#41;</span>.<span style="color: #000000; font-weight: bold;">*</span><span style="color: #7a0874; font-weight: bold;">&#40;</span>?i<span style="color: #7a0874; font-weight: bold;">&#41;</span>mysql.<span style="color: #000000; font-weight: bold;">*</span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ^<span style="color: #000000; font-weight: bold;">&lt;</span>HOST<span style="color: #000000; font-weight: bold;">&gt;</span>.<span style="color: #000000; font-weight: bold;">*</span><span style="color: #7a0874; font-weight: bold;">&#40;</span>GET<span style="color: #000000; font-weight: bold;">|</span>HEAD<span style="color: #7a0874; font-weight: bold;">&#41;</span>.<span style="color: #000000; font-weight: bold;">*</span><span style="color: #7a0874; font-weight: bold;">&#40;</span>?i<span style="color: #7a0874; font-weight: bold;">&#41;</span>sqlweb.<span style="color: #000000; font-weight: bold;">*</span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ^<span style="color: #000000; font-weight: bold;">&lt;</span>HOST<span style="color: #000000; font-weight: bold;">&gt;</span>.<span style="color: #000000; font-weight: bold;">*</span><span style="color: #7a0874; font-weight: bold;">&#40;</span>GET<span style="color: #000000; font-weight: bold;">|</span>HEAD<span style="color: #7a0874; font-weight: bold;">&#41;</span>.<span style="color: #000000; font-weight: bold;">*</span><span style="color: #7a0874; font-weight: bold;">&#40;</span>?i<span style="color: #7a0874; font-weight: bold;">&#41;</span>webdb.<span style="color: #000000; font-weight: bold;">*</span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ^<span style="color: #000000; font-weight: bold;">&lt;</span>HOST<span style="color: #000000; font-weight: bold;">&gt;</span>.<span style="color: #000000; font-weight: bold;">*</span><span style="color: #7a0874; font-weight: bold;">&#40;</span>GET<span style="color: #000000; font-weight: bold;">|</span>HEAD<span style="color: #7a0874; font-weight: bold;">&#41;</span>.<span style="color: #000000; font-weight: bold;">*</span><span style="color: #7a0874; font-weight: bold;">&#40;</span>?i<span style="color: #7a0874; font-weight: bold;">&#41;</span>pma.<span style="color: #000000; font-weight: bold;">*</span><br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ^<span style="color: #000000; font-weight: bold;">&lt;</span>HOST<span style="color: #000000; font-weight: bold;">&gt;</span>.<span style="color: #000000; font-weight: bold;">*</span><span style="color: #7a0874; font-weight: bold;">&#40;</span>GET<span style="color: #000000; font-weight: bold;">|</span>HEAD<span style="color: #7a0874; font-weight: bold;">&#41;</span>.<span style="color: #000000; font-weight: bold;">*</span><span style="color: #7a0874; font-weight: bold;">&#40;</span>?i<span style="color: #7a0874; font-weight: bold;">&#41;</span>vtigercrm.<span style="color: #000000; font-weight: bold;">*</span><br />
+ignoreregex =</div></td></tr></tbody></table></div>
+<p>생성한 Filter를 적용하기 위해서 다음과 같이 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>fail2ban<span style="color: #000000; font-weight: bold;">/</span>jail.conf<br />
+<br />
+<span style="color: #7a0874; font-weight: bold;">&#91;</span>apache-myadmin<span style="color: #7a0874; font-weight: bold;">&#93;</span><br />
+enabled = <span style="color: #c20cb9; font-weight: bold;">true</span><br />
+port &nbsp; &nbsp;= http,https<br />
+filter &nbsp;= apache-myadmin<br />
+logpath = <span style="color: #000000; font-weight: bold;">/</span>var<span style="color: #000000; font-weight: bold;">/</span>log<span style="color: #000000; font-weight: bold;">/</span>apache<span style="color: #000000; font-weight: bold;">*/*</span>access.log<br />
+maxretry = <span style="color: #000000;">2</span><br />
+<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> service fail2ban restart</div></td></tr></tbody></table></div>
+<h4>4.4. Log</h4>
+<p>Filter가 작동되면 /var/log/fail2ban.log에 관련된 내용이 저장됩니다. 아래는 fail2ban.log의 일부를 옮겨 놓은 것입니다.</p>
+<div class="codecolorer-container text blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br /></div></td><td><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">2013-07-24 01:05:03,100 fail2ban.jail &nbsp; : INFO &nbsp; Jail 'ssh' started<br />
+2013-07-24 01:05:03,101 fail2ban.jail &nbsp; : INFO &nbsp; Jail 'ssh-ddos' started<br />
+2013-07-24 01:05:03,101 fail2ban.jail &nbsp; : INFO &nbsp; Jail 'apache-badbots' started<br />
+2013-07-24 01:05:03,102 fail2ban.jail &nbsp; : INFO &nbsp; Jail 'apache-proxy' started<br />
+2013-07-24 01:05:03,103 fail2ban.jail &nbsp; : INFO &nbsp; Jail 'apache-myadmin' started<br />
+2013-07-25 00:38:06,817 fail2ban.actions: WARNING [apache-proxy] Ban xxx.xxx.xxx.xxx<br />
+2013-07-25 12:57:27,497 fail2ban.actions: WARNING [ssh] Ban xxx.xxx.xxx.xxx<br />
+2013-07-25 23:21:05,672 fail2ban.actions: WARNING [apache-proxy] Ban xxx.xxx.xxx.xxx</div></td></tr></tbody></table></div>
+<p>설정한 Filter를 동작하게 하는 단위를 Jail이라고 합니다. 위의 내용을 통해 Jail이 시작되었고, 해당 Jail을 통해서 검출된 IP가 접속이 차단된 것을 알 수 있습니다.</p>
+<p>실제로 접속 차단이 동작하는 것을 확인하기 위해서는 다음과 같이 입력하면 됩니다. (ssh Jail의 예)</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> iptables <span style="color: #660033;">-L</span> fail2ban-ssh<br />
+Chain fail2ban-ssh <span style="color: #7a0874; font-weight: bold;">&#40;</span><span style="color: #000000;">1</span> references<span style="color: #7a0874; font-weight: bold;">&#41;</span><br />
+target &nbsp; &nbsp; prot opt <span style="color: #7a0874; font-weight: bold;">source</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; destination &nbsp; &nbsp; &nbsp; &nbsp; <br />
+DROP &nbsp; &nbsp; &nbsp; all &nbsp;<span style="color: #660033;">--</span> &nbsp;www.example.com &nbsp; &nbsp; &nbsp;anywhere &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br />
+RETURN &nbsp; &nbsp; all &nbsp;<span style="color: #660033;">--</span> &nbsp;anywhere &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; anywhere</div></td></tr></tbody></table></div>
+<p>-L Option 뒤에는 fail2ban-&lt;Jail 명&gt;을 입력하면 해당 Jail의 동작으로 차단된 IP(또는 FQDN)을 확인할 수 있습니다.</p>
+<h3>5. Rkhunter (Rootkit checker)</h3>
+<p>보안에 대해서 신경을 쓴다 할 지라도 Cracking을 당할 가능성은 늘 존재합니다. </p>
+<p>혹여 root 권한을 획득한 침입자가 Rootkit과 같은 Malware를 System에 설치할 경우, 관리자도 모르게 System을 맘대로 주무르거나 Server의 Data를 빼돌릴 수 있습니다.</p>
+<p>Rkhunter는 이와 같은 Rootkit이 System에 설치되어 있는지 Check합니다.<sup class='footnote'><a href='#fn-7307-5' id='fnref-7307-5' onclick='return fdfootnote_show(7307)'>5</a></sup> 다음과 같이 입력하여 System에 설치합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">apt-get install</span> rkhunter</div></td></tr></tbody></table></div>
+<div id="attachment_7585" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/07/01-Postfix-Configuration.jpeg" rel="lightbox[7307]" title="Postfix Configuration"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/07/01-Postfix-Configuration-300x192.jpeg" alt="Postfix Configuration" width="300" height="192" class="size-medium wp-image-7585" /></a><p class="wp-caption-text">Postfix Configuration</p></div>
+<p>Quantal Quetzal 12.10이상에서는 MTA(Matil Transfer Agent)인 Postfix가 의존성으로 같이 설치됩니다. Postfix의 설정은 이 Post의 범위를 넘어가기 때문에 설명하지는 않고, 여기서는 설정 안함을 선택하고 진행합니다.</p>
+<p>설치 후에는 설정을 위해 아래와 같이 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>default<span style="color: #000000; font-weight: bold;">/</span>rkhunter<br />
+<br />
+<span style="color: #007800;">CRON_DAILY_RUN</span>=<span style="color: #ff0000;">&quot;true&quot;</span><br />
+<span style="color: #007800;">CRON_DB_UPDATE</span>=<span style="color: #ff0000;">&quot;true&quot;</span><br />
+<span style="color: #007800;">APT_AUTOGEN</span>=<span style="color: #ff0000;">&quot;true&quot;</span></div></td></tr></tbody></table></div>
+<p>위의 /etc/default/rkhunter 설정은 다음과 같은 의미가 있습니다.</p>
+<ul>
+<li>CRON_DAILY_RUN: 설정하면 매일마다 Rkhunter가 System을 Check해서 결과를 저장합니다.</li>
+<li>CRON_DB_UPDATE: 설정하면 매 주마다 Rkhunter가 Check하는 Program에 대한 정보를 Update합니다.</li>
+<li>APT_AUTOGEN: 설정하면 apt-get 명령으로 새로운 Package를 설치하거나 삭제할 때, 자동으로 Rkhunter의 DB를 Update합니다.</li>
+</ul>
+<p>수동으로 Rkhunter를 사용해 검사하려면 다음과 같이 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br />10<br />11<br />12<br />13<br />14<br />15<br />16<br />17<br />18<br />19<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> rkhunter <span style="color: #660033;">--propupd</span><br />
+<span style="color: #7a0874; font-weight: bold;">&#40;</span>현재의 System의 정보를 DB로 만드는 명령<span style="color: #7a0874; font-weight: bold;">&#41;</span><br />
+<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> rkhunter <span style="color: #660033;">--checkall</span><br />
+<span style="color: #7a0874; font-weight: bold;">&#40;</span>Rootkit 검사<span style="color: #7a0874; font-weight: bold;">&#41;</span><br />
+<br />
+System checks summary<br />
+=====================<br />
+<br />
+File properties checks...<br />
+&nbsp; &nbsp; Files checked: <span style="color: #000000;">135</span><br />
+&nbsp; &nbsp; Suspect files: <span style="color: #000000;">0</span><br />
+<br />
+Rootkit checks...<br />
+&nbsp; &nbsp; Rootkits checked : <span style="color: #000000;">245</span><br />
+&nbsp; &nbsp; Possible rootkits: <span style="color: #000000;">0</span><br />
+<br />
+Applications checks...<br />
+&nbsp; &nbsp; All checks skipped</div></td></tr></tbody></table></div>
+<p>실행해 보면 Application Check는 Ubuntu에서 Skip하게 되어 있는데, 그 이유는 Ubuntu의 Securiy Team이 Application에 대한 관리를 하기 때문이라고 합니다.</p>
+<p>검사 중간에 Warning이 표시되거나 Summary에서 Suspect files나 Possible rootkits의 값이 0이 아니라면 System에 Rootkit이 설치되어 있는지 확인이 필요합니다.</p>
+<p>자세한 Check한 결과가 저장된 /var/log/rkhunter.log의 내용을 토대로 Google에서 검색하거나 <a href="https://lists.sourceforge.net/lists/listinfo/rkhunter-users" target="_blank">Rkhunter Users Mailing List</a>를 이용하여 질문해 보기 바랍니다.</p>
+<p>그리고 실제적으로 Server에 Rootkit이 설치되었다면 중요 Data만을 Backup하고, Network 연결 없이 새로 OS를 설치하는 것이 가장 좋은 해결책이라 생각됩니다.</p>
+<h4>5.1. 무시해도 되는 문제들</h4>
+<ul>
+<li>/usr/bin/unhide.rb: System의 숨겨진 Process를 검사하는 Program인데 이것이 Ruby Script로 변경되었음을 통지하는 Warning이 발생할 수 있습니다.
+<div class="codecolorer-container text blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">Warning: The command '/usr/bin/unhide.rb' has been replaced by a script: /usr/bin/unhide.rb: Ruby script, ASCII text</div></td></tr></tbody></table></div>
+<p>unhide.rb는 원래부터 Ruby Script이기 때문에 해당 내용은 무시해도 됩니다. 다음과 같이 입력하여 Warning이 발생하지 않도록 설정합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>rkhunter.conf<br />
+<br />
+<span style="color: #007800;">SCRIPTWHITELIST</span>=<span style="color: #000000; font-weight: bold;">/</span>usr<span style="color: #000000; font-weight: bold;">/</span>bin<span style="color: #000000; font-weight: bold;">/</span>unhide.rb</div></td></tr></tbody></table></div>
+</li>
+<li>/dev/.udev/rules.d/root.rules: Quantal Quetzal 12.10이상에서 Rkhunter를 실행하면, &#8220;Checking /dev for suspicious file types&#8221; 항목에서 Warning이 발생합니다. 이 File은 Ubuntu에 기본적으로 설치되는 File이기 때문에, 다음과 같은 내용이 rkhunter.log에 적혀있다면 무시해도 됩니다.
+<div class="codecolorer-container text blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br /></div></td><td><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">Checking /dev for suspicious file types &nbsp; &nbsp; &nbsp; &nbsp; [ Warning ]<br />
+Warning: Suspicious file types found in /dev:<br />
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;/dev/.udev/rules.d/root.rules: ASCII text</div></td></tr></tbody></table></div>
+</li>
+<li>몇 가지의 숨겨진 File과 Directory: &#8220;Checking for hidden files and directories&#8221; 항목에서 Warning이 발생하고, 다음과 같은 내용이 /var/log/rkhunter.log에 적혀있다면 해당 문제는 무시해도 무방합니다.
+<div class="codecolorer-container text blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br /></div></td><td><div class="text codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">Warning: Hidden directory found: /etc/.java<br />
+Warning: Hidden directory found: /dev/.udev<br />
+Warning: Hidden file found: /dev/.blkid.tab: ASCII text<br />
+Warning: Hidden file found: /dev/.blkid.tab.old: ASCII text<br />
+Warning: Hidden file found: /dev/.initramfs: symbolic link to `/run/initramfs'</div></td></tr></tbody></table></div>
+<p>해당 File과 Directory에 대한 Warning을 무시하려면 다음과 같이 입력하고 Rkhunter를 다시 실행하면 됩니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>rkhunter.conf<br />
+<br />
+<span style="color: #007800;">ALLOWHIDDENDIR</span>=<span style="color: #ff0000;">&quot;/etc/.java&quot;</span><br />
+<span style="color: #007800;">ALLOWHIDDENDIR</span>=<span style="color: #ff0000;">&quot;/dev/.udev&quot;</span><br />
+<span style="color: #007800;">ALLOWHIDDENDIR</span>=<span style="color: #ff0000;">&quot;/dev/.initramfs&quot;</span><br />
+<span style="color: #007800;">ALLOWHIDDENFILE</span>=<span style="color: #ff0000;">&quot;/dev/.blkid.tab&quot;</span><br />
+<span style="color: #007800;">ALLOWHIDDENFILE</span>=<span style="color: #ff0000;">&quot;/dev/.blkid.tab.old&quot;</span></div></td></tr></tbody></table></div>
+<blockquote><p>
+<strong>NOTE</strong>: /dev/.initramfs의 경우 /run/initramfs의 Symbolic Link인데 위와 같이 Whitelist에 추가해도 계속 Warning이 발생하기 때문에 그냥 무시하면 됩니다.
+</p></blockquote>
+</li>
+</ul>
+<h3 class="collapseomatic noarrow" id="id946"  >Changelog</h3><div id="target-id946" class="collapseomatic_content">
+<ul>
+<li>Ubuntu Saucy Salamander 13.10에서 Test 완료. (2013-12-18)<br />
+(ufw 0.33-0, openssh-server 6.2p2-6, denyhosts 2.6-10, apache2-mpm-prefork 2.4.6-2, fail2ban 0.8.10-3, rkhunter 1.4.0-3)</li>
+<li>Ubuntu Raring Ringtail 13.04에서 Test 완료. (2013-08-03)<br />
+(ufw 0.33-0, openssh-server 6.1p1-4, denyhosts 2.6-10, apache2-mpm-prefork 2.2.22-6, fail2ban 0.8.7.1-1, rkhunter 1.4.0-2)</li>
+<li>Ubuntu Quantal Quetzal 12.10에서 Test 완료. (2013-08-03)<br />
+(ufw 0.33-0, openssh-server 6.0p1-3, denyhosts 2.6-10, apache2-mpm-prefork 2.2.22-6, fail2ban 0.8.7.1-1, rkhunter 1.4.0)</li>
+<li>Ubuntu Precise Pangolin 12.04에서 Test 완료. (2013-07-31)<br />
+(ufw 0.31.1-1, openssh-server 5.9p1-5, denyhosts 2.6-10, apache2-mpm-prefork 2.2.22-1, fail2ban 0.8.6-3, rkhunter 1.3.8-10)</li>
+</ul>
+<p></div>
+<h3>References</h3>
+<div class='footnotes' id='footnotes-7307'>
+<div class='footnotedivider'></div>
+<ol>
+<li id='fn-7307-1'>Ubuntu Wiki의 <a href="https://help.ubuntu.com/community/UFW" target="_blank">UFW</a> <span class='footnotereverse'><a href='#fnref-7307-1'>&#8617;</a></span></li>
+<li id='fn-7307-2'>Ubuntu Wiki의 <a href="https://help.ubuntu.com/community/SSH/OpenSSH/Configuring" target="_blank">SSH/OpenSSH/Configuring <span class='footnotereverse'><a href='#fnref-7307-2'>&#8617;</a></span></li>
+<li id='fn-7307-3'><a href="http://www.fail2ban.org/wiki/index.php/HOWTO_apache_proxy_filter" target="_blank">HOWTO &#8211; Apache Proxy Filter</a> <span class='footnotereverse'><a href='#fnref-7307-3'>&#8617;</a></span></li>
+<li id='fn-7307-4'><a href="http://www.fail2ban.org/wiki/index.php/HOWTO_apache_myadmin_filter" target="_blank">HOWTO &#8211; Apache MyAdmin Filter</a> <span class='footnotereverse'><a href='#fnref-7307-4'>&#8617;</a></span></li>
+<li id='fn-7307-5'>Ubuntu Wiki의 <a href="https://help.ubuntu.com/community/RKhunter" target="_blank">RKhunter <span class='footnotereverse'><a href='#fnref-7307-5'>&#8617;</a></span></li>
+</ol>
+</div>
+  
+<div class="wp_license">
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.0/kr/"><img src="http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png" alt="Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Korea" class="alignleft" style="margin-top:4px;" />
+</a>This work  is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.0/kr/">Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Korea</a>.</p>
+</div><div class='yarpp-related-rss'>
+<p>관련된 Posts:<ol>
+<li><a href="http://ioriy2k.pe.kr/archives/55" rel="bookmark" title="Ubuntu Feisty에서 Flash의 한글이 깨질 경우..">Ubuntu Feisty에서 Flash의 한글이 깨질 경우.. </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/1316" rel="bookmark" title="Ubuntu 64bit에서 TweetDeck을 사용할 때 한글이 입력되지 않을 경우">Ubuntu 64bit에서 TweetDeck을 사용할 때 한글이 입력되지 않을 경우 </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/3927" rel="bookmark" title="Ubuntu Oneiric Ocelot 11.10을 설치한 후 해야 할 것들 (1. System 설정)">Ubuntu Oneiric Ocelot 11.10을 설치한 후 해야 할 것들 (1. System 설정) </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/149" rel="bookmark" title="Ubuntu 64bit에서 32bit AIR 2.0 Runtime 설치하기">Ubuntu 64bit에서 32bit AIR 2.0 Runtime 설치하기 </a></li>
+</ol></p>
+</div>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ioriy2k?a=Hs3KypqzlHQ:1mztfKC91fE:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ioriy2k?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ioriy2k?a=Hs3KypqzlHQ:1mztfKC91fE:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/ioriy2k?i=Hs3KypqzlHQ:1mztfKC91fE:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ioriy2k?a=Hs3KypqzlHQ:1mztfKC91fE:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/ioriy2k?i=Hs3KypqzlHQ:1mztfKC91fE:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ioriy2k?a=Hs3KypqzlHQ:1mztfKC91fE:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/ioriy2k?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ioriy2k?a=Hs3KypqzlHQ:1mztfKC91fE:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/ioriy2k?i=Hs3KypqzlHQ:1mztfKC91fE:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/ioriy2k/~4/Hs3KypqzlHQ" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://ioriy2k.pe.kr/archives/7307/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Ubuntu에서 SSD의 성능과 안정성을 높이는 방법</title>
+		<link>http://ioriy2k.pe.kr/archives/7062</link>
+		<comments>http://ioriy2k.pe.kr/archives/7062#comments</comments>
+		<pubDate>Mon, 29 Apr 2013 00:00:28 +0000</pubDate>
+		<dc:creator><![CDATA[ioriy2k]]></dc:creator>
+				<category><![CDATA[Linux, Just For Fun]]></category>
+		<category><![CDATA[System Setup]]></category>
+		<category><![CDATA[Linux]]></category>
+		<category><![CDATA[SSD]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+
+		<guid isPermaLink="false">http://ioriy2k.pe.kr/?p=7062</guid>
+		<description><![CDATA[요즘 들어 SSD가 많이 보급되고 Kernel과 File System에서도 제대로 지원하게 된 덕분에, 이제는 Ubuntu Box에서도 SSD를 장착하여 사용하는데 어려움이 많이 줄어들게 되었습니다. 이번 Post에서는 개인적으로 SSD를 사용하면서 성능 향상과 안정성을 높이는 방법에 대하여 몇 가지 정리한 것들을 공유해 봅니다. 1. Mount Option 변경 /etc/fstab에서 SSD Partition에 대한 Mount Option을 조정하면 성능과 안정성을 높일 수 있습니다. [&#8230;]<div class='yarpp-related-rss'>
+
+관련된 Posts:<ol>
+<li><a href="http://ioriy2k.pe.kr/archives/1616" rel="bookmark" title="VirtualBox를 사용하여 Redhat 8 설치하기 : (2) Redhat 8 설치">VirtualBox를 사용하여 Redhat 8 설치하기 : (2) Redhat 8 설치 </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/1265" rel="bookmark" title="Ubuntu에서 VirtualBox 사용 시 USB 장치 연결이 비활성화 된 경우">Ubuntu에서 VirtualBox 사용 시 USB 장치 연결이 비활성화 된 경우 </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/1330" rel="bookmark" title="Ubuntu에서 성경을 공부하자 : Xiphos Bible Guide">Ubuntu에서 성경을 공부하자 : Xiphos Bible Guide </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/2310" rel="bookmark" title="Ubuntu에서 Zeitgeist 설정하기">Ubuntu에서 Zeitgeist 설정하기 </a></li>
+</ol>
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p>요즘 들어 SSD가 많이 보급되고 Kernel과 File System에서도 제대로 지원하게 된 덕분에, 이제는 Ubuntu Box에서도 SSD를 장착하여 사용하는데 어려움이 많이 줄어들게 되었습니다.</p>
+<p>이번 Post에서는 개인적으로 SSD를 사용하면서 성능 향상과 안정성을 높이는 방법에 대하여 몇 가지  정리한 것들을 공유해 봅니다.</p>
+
+<h3>1. Mount Option 변경</h3>
+<p>/etc/fstab에서 SSD Partition에 대한 Mount Option을 조정하면 성능과 안정성을 높일 수 있습니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>fstab<br />
+<br />
+<span style="color: #007800;">UUID</span>=<span style="color: #000000;">12345678</span>-<span style="color: #000000;">1234</span>-<span style="color: #000000;">1234</span>-<span style="color: #000000;">1234</span>-<span style="color: #000000;">123456789012</span> &nbsp; &nbsp;<span style="color: #000000; font-weight: bold;">/</span> &nbsp; &nbsp;xfs &nbsp; &nbsp;<span style="color: #007800;">errors</span>=remount-ro,noatime,discard &nbsp; &nbsp;<span style="color: #000000;">0</span> &nbsp; &nbsp;<span style="color: #000000;">1</span></div></td></tr></tbody></table></div>
+<p>위의 예는 Root Directory에 Mount되어 있는 SSD Partition의 Mount Option을 나타낸 것입니다.</p>
+<p><span id="more-7062"></span></p>
+<p>중요한 것은 errors=remount-ro,noatime,discard 이렇게 3가지 Mount Option인데, 이것은 다음과 같은 의미를 가집니다.<sup class='footnote'><a href='#fn-7062-1' id='fnref-7062-1' onclick='return fdfootnote_show(7062)'>1</a></sup></p>
+<ul>
+<li>errors=remount-ro: SSD Partition에 Error가 발생할 경우, 이 Partition을 다시 Read-only로 Mount합니다.</li>
+<li>noatime: SSD Partition의 File System에 atime(Access Time)정보를 적지 않도록 합니다. 이것은 File의 Read 동작 시에 불필요한 Write 동작이 일어나지 않게 만들어 주기 때문에 접근 속도를 향상 시킬 수 있습니다.</li>
+<li>discard: discard Option은 Storage Device에 더 이상 유효하지 않은 Data가 존재하는 Sector가 있음을 알리는 기능을 합니다. 이것을 사용하면 SSD의 TRIM Command를 자동으로 사용하게 되어 SSD의 수명을 연장 시킬 수 있습니다. 이 Option은 EXT4, btrfs, XFS File System에서만 지원됩니다. (JFS는 Kernel 3.7이상)</li>
+</ul>
+<p>SSD Partition이 여러 개 Mount 되어 있다면, 각 Partition마다 Mount Option을 위와 같이 변경하고 Rebooting하면 안정적으로 SSD를 사용할 수 있습니다.</p>
+<h3>2. TRIM</h3>
+<p>SSD는 H/W의 특성 상 쓰기 수명이 정해져 있기 때문에 가능한 Write 동작을 줄이기 위해서 SSD에서는 TRIM을 지원합니다.</p>
+<p>TRIM은 SSD에 사용자나 OS에 의해 삭제 명령이 실행되어 더 이상 사용하지 않게 된 Data Block을 실제로 삭제하지는 않고 SSD에 알리는 기능을 합니다.</p>
+<p>이전 항목의 Mount Option에서 보았듯이, discard Option으로 TRIM command를 자동으로 사용하도록 설정할 수 있습니다. </p>
+<p>하지만, 실제로 사용하다 보면 Write 속도가 현저히 느려지는 시점이 오게 됩니다. 이럴 때는 사용자가 직접 TRIM 동작을 실행시켜 주어야 합니다. </p>
+<p>다음과 같이 Terminal에서 입력합니다. (/에 Mount된 SSD Partition에 TRIM을 수행하는 경우의 예)</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> ionice <span style="color: #660033;">-c</span> <span style="color: #000000;">3</span> fstrim <span style="color: #660033;">-v</span> <span style="color: #000000; font-weight: bold;">/</span></div></td></tr></tbody></table></div>
+<blockquote><p>
+<strong>NOTE</strong>: SSD Partition이 여려 개 Mount되어 있다면 각 Mount Point마다 실행해야 합니다.
+</p></blockquote>
+<p>File System과 Mount된 Partition의 크기에 따라 속도는 달라질 수 있지만, 제 경우에는 20GB의 XFS Partition을 fstrim으로 TRIM 동작을 수행했을 때 27분 정도 걸렸습니다. (SATA3, Intel SSD 330 120GB)</p>
+<p>위의 명령과 같이 ionice로 I/O 접근 Priority를 낮추지 않으면 명령 실행 중에 Write 동작이 발생했을 때 System이 Block되는 현상을 겪을 수 있습니다.</p>
+<p>fstrim 명령은 자주 실행할 필요는 없고, 한 주에 한 번 정도 실행해 주면 좋습니다. 그래서 다음과 같이 Cron에 명령을 등록하여 자동으로 실행하도록 만들어 주면 간편합니다. (/에 Mount된 SSD Partition에 TRIM을 수행하는 경우의 예)</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br />7<br />8<br />9<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>cron.weekly<span style="color: #000000; font-weight: bold;">/</span>fstrim<br />
+<br />
+<span style="color: #666666; font-style: italic;">#!/bin/bash</span><br />
+<br />
+<span style="color: #666666; font-style: italic;"># TRIM for /</span><br />
+<span style="color: #000000; font-weight: bold;">/</span>usr<span style="color: #000000; font-weight: bold;">/</span>bin<span style="color: #000000; font-weight: bold;">/</span><span style="color: #000000; font-weight: bold;">time</span> <span style="color: #660033;">-a</span> <span style="color: #660033;">-f</span> <span style="color: #ff0000;">&quot;real: %E,user: %U,sys: %S&quot;</span> <span style="color: #660033;">-o</span> <span style="color: #000000; font-weight: bold;">/</span>var<span style="color: #000000; font-weight: bold;">/</span>log<span style="color: #000000; font-weight: bold;">/</span>fstrim.log <span style="color: #000000; font-weight: bold;">/</span>usr<span style="color: #000000; font-weight: bold;">/</span>bin<span style="color: #000000; font-weight: bold;">/</span>ionice <span style="color: #660033;">-c</span> <span style="color: #000000;">3</span> <span style="color: #000000; font-weight: bold;">/</span>sbin<span style="color: #000000; font-weight: bold;">/</span>fstrim <span style="color: #660033;">-v</span> <span style="color: #000000; font-weight: bold;">/</span> <span style="color: #000000; font-weight: bold;">&gt;</span> <span style="color: #000000; font-weight: bold;">/</span>var<span style="color: #000000; font-weight: bold;">/</span>log<span style="color: #000000; font-weight: bold;">/</span>fstrim.log<br />
+<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">chmod</span> <span style="color: #000000;">755</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>cron.weekly<span style="color: #000000; font-weight: bold;">/</span>fstrim<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> service cron restart</div></td></tr></tbody></table></div>
+<p>위와 같이 설정하면, 매 주마다 fstrim을 수행하면서 fstrim의 결과와 수행 시간을 /var/log/fstrim.log에 저장하게 됩니다.</p>
+<h3>3. I/O Scheduler 변경</h3>
+<p>I/O Scheduler는 Storage Device의 I/O 성능 관리를 위해서 사용되는 Kernel의 기능입니다.</p>
+<p>Linux에서는 Deadline, CFQ, NOOP을 지원하는데, SSD의 경우는 특별한 Scheduling을 없이 I/O 요청이 들어오는 대로 동작을 수행하는 NOOP을 사용하는 것이 성능 향상에 도움이 됩니다.</p>
+<p>SSD의 I/O Scheduler를 변경하려면 Terminal에서 다음과 같이 입력합니다. (SSD의 Device가 /dev/sda일 경우의 예)</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>rc.local<br />
+<br />
+<span style="color: #7a0874; font-weight: bold;">echo</span> noop <span style="color: #000000; font-weight: bold;">&gt;</span> <span style="color: #000000; font-weight: bold;">/</span>sys<span style="color: #000000; font-weight: bold;">/</span>block<span style="color: #000000; font-weight: bold;">/</span>sda<span style="color: #000000; font-weight: bold;">/</span>queue<span style="color: #000000; font-weight: bold;">/</span>scheduler</div></td></tr></tbody></table></div>
+<blockquote><p>
+<strong>NOTE</strong>: 자세한 성능 Benchmark를 확인하려면 Ubuntu Precise Pangolin 12.04를 설치한 후 해야 할 것들의 <a href="http://ioriy2k.pe.kr/archives/5442#_2_Block_Device_Scheduler" title="Ubuntu Precise Pangolin 12.04를 설치한 후 해야 할 것들 (1. System 설정)" target="_blank">Block Device Scheduler 설정</a>을 참고하기 바랍니다.
+</p></blockquote>
+<h3>4. System의 여유 Memory가 충분할 경우</h3>
+<p>이번 항목에서는 System의 여유 Memory가 충분한 경우(여유 Memory가 4GB 이상?)에 SSD의 안정성과 System의 성능을 높일 수 있는 방법을 소개합니다.</p>
+<h4>4.1. No Swap</h4>
+<p>Linux의 Swap Partition은 System의 가용 Memory가 부족할 경우에 Page Swapping을 위해서 사용됩니다.</p>
+<p>여러 Service를 운영하는 경우라면 가용 Memory에 대한 대비를 해야 하기에 Swap Partition을 사용하는 것이 맞지만, 개인적으로 사용하는 Server나 일반 Desktop 용도로 사용하는 경우라면 Swap Partition이 없이도 System을 사용하는데 문제가 없습니다.</p>
+<p>게다가 SSD에 Ubuntu가 설치된 경우라면, Swap Partition이 존재하지 않을 경우에 Swapping으로 인한 I/O가 발생하지 않기 때문에 SSD에 대한 Write 동작을 줄여 수명을 늘릴 수 있습니다.</p>
+<p>이번 항목에서는 Swap Partition 없이 설치하는 방법과 기존에 Swap Partition을 제거하는 방법, 그리고 Swap이 필요한 경우가 되었을 때 Swap을 추가하는 방법 등에 대해서 알아봅니다.</p>
+<blockquote><p>
+<strong>NOTE</strong>: 과거에는 Hibernation(절전 기능)을 위해서 Swap Partition을 사용했었지만, 최신의 Ubuntu에서는 Swap Partition이 없이도 Hibernation이 제대로 동작합니다. (Precise Pangolin 12.04 이상에서 Test됨)
+</p></blockquote>
+<h5>4.1.1. Swap Partition을 만들지 않고 Ubuntu 설치하기</h5>
+<p>Swap Partition을 설치 시에 기본적으로 생성하는 것이 관례지만, SSD에 Ubuntu를 설치할 경우에는 Swap Partition 없이 설치하는 것이 좋습니다.</p>
+<div id="attachment_7107" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/01-Ubuntu-Desktop-Edition-Installation-Type.jpeg" rel="lightbox[7062]" title="Ubuntu Desktop Edition - Installation Type"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/01-Ubuntu-Desktop-Edition-Installation-Type-300x187.jpeg" alt="Ubuntu Desktop Edition - Installation Type" width="300" height="187" class="size-medium wp-image-7107" /></a><p class="wp-caption-text">Ubuntu Desktop Edition &#8211; Installation Type</p></div>
+<p>Quantal Quetzal 12.10 Desktop Edition을 예로 들면, Installation Type에서 Something Else를 Check하고 Continue를 누릅니다.</p>
+<div id="attachment_7108" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/02-Ubuntu-Desktop-Edition-Edit-Partition.jpeg" rel="lightbox[7062]" title="Ubuntu Desktop Edition - Edit Partition"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/02-Ubuntu-Desktop-Edition-Edit-Partition-300x215.jpeg" alt="Ubuntu Desktop Edition - Edit Partition" width="300" height="215" class="size-medium wp-image-7108" /></a><p class="wp-caption-text">Ubuntu Desktop Edition &#8211; Edit Partition</p></div>
+<p>Partition 편집 화면이 표시되는 여기서 위와 같이 Swap Partition 없이 Partition을 구성하고 Install Now를 누릅니다.</p>
+<div id="attachment_7109" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/03-Ubuntu-Desktop-Edition-No-Swap-Message.jpeg" rel="lightbox[7062]" title="Ubuntu Desktop Edition - No Swap Message"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/03-Ubuntu-Desktop-Edition-No-Swap-Message-300x215.jpeg" alt="Ubuntu Desktop Edition - No Swap Message" width="300" height="215" class="size-medium wp-image-7109" /></a><p class="wp-caption-text">Ubuntu Desktop Edition &#8211; No Swap Message</p></div>
+<p>위의 그림과 같이 Swap Partition이 없는 것에 대한 경고 Message에서 Continue를 눌러 계속 설치하면, Swap Partition 없이 Ubuntu를 설치하게 됩니다.</p>
+<h5>4.1.2. Swap Partition 삭제</h5>
+<p>SSD에 Ubuntu를 설치할 때 Swap Partition을 생성하여 설치했다면, Ubuntu CD를 이용하여 Swap Partition을 제거하고, 추가로 확보된 공간을 기존 Partition에 추가할 수 있습니다.</p>
+<blockquote><p>
+<strong>WARNING</strong>: 이 작업은 Partition을 편집하기 때문에 Data의 Loss가 발생할 수도 있습니다. 실행 시 유의하기 바랍니다.
+</p></blockquote>
+<div id="attachment_7110" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/04-Ubuntu-Desktop-Edition-Try-Ubuntu.jpeg" rel="lightbox[7062]" title="Ubuntu Desktop Edition - Try Ubuntu"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/04-Ubuntu-Desktop-Edition-Try-Ubuntu-300x225.jpeg" alt="Ubuntu Desktop Edition - Try Ubuntu" width="300" height="225" class="size-medium wp-image-7110" /></a><p class="wp-caption-text">Ubuntu Desktop Edition &#8211; Try Ubuntu</p></div>
+<p>Ubuntu Quantal Quetzal 12.10을 예로 들면, 설치 화면에서 Ubuntu 체험하기를 누릅니다.</p>
+<div id="attachment_7111" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/05-Dash-gParted.jpeg" rel="lightbox[7062]" title="Dash - gParted"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/05-Dash-gParted-300x225.jpeg" alt="Dash - gParted" width="300" height="225" class="size-medium wp-image-7111" /></a><p class="wp-caption-text">Dash &#8211; gParted</p></div>
+<p>Dash의 검색창에 gparted를 입력하고 GParted Partition Editor를 Click합니다.</p>
+<div id="attachment_7112" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/06-gParted-Swap-off.jpeg" rel="lightbox[7062]" title="gParted - Swap off"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/06-gParted-Swap-off-300x226.jpeg" alt="gParted - Swap off" width="300" height="226" class="size-medium wp-image-7112" /></a><p class="wp-caption-text">gParted &#8211; Swap off</p></div>
+<p>gParted가 실행되면 위의 그림과 유사할 것입니다. SSD의 Partitioin 중의 Swap Partition을 Mouse 오른쪽 Button으로 선택한 후, Swapoff를 Click하여 Swap을 해제합니다.</p>
+<div id="attachment_7113" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/07-gParted-Delete-the-swap-partition.jpeg" rel="lightbox[7062]" title="gParted - Delete the swap partition"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/07-gParted-Delete-the-swap-partition-300x223.jpeg" alt="gParted - Delete the swap partition" width="300" height="223" class="size-medium wp-image-7113" /></a><p class="wp-caption-text">gParted &#8211; Delete the swap partition</p></div>
+<p>다시 Swap Partition을 Mouse 오른쪽 Button으로 선택한 후, Delete를 눌러 Partition을 삭제합니다.</p>
+<div id="attachment_7114" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/08-gParted-Resize-partition.jpeg" rel="lightbox[7062]" title="gParted - Resize partition"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/08-gParted-Resize-partition-300x216.jpeg" alt="gParted - Resize partition" width="300" height="216" class="size-medium wp-image-7114" /></a><p class="wp-caption-text">gParted &#8211; Resize partition</p></div>
+<p>그리고 Swap Partition의 공간이 여유 공간이 되었으므로, OS가 설치된 Partition (위의 그림에서는 XFS Partition)에 추가하기 위해서 해당 Partition을 Mouse 오른쪽 Button으로 선택한 다음 Resize를 Click합니다.</p>
+<div id="attachment_7115" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/09-gParted-Increase-partition-size.jpeg" rel="lightbox[7062]" title="gParted - Increase partition size"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/09-gParted-Increase-partition-size-300x207.jpeg" alt="gParted - Increase partition size" width="300" height="207" class="size-medium wp-image-7115" /></a><p class="wp-caption-text">gParted &#8211; Increase partition size</p></div>
+<p>Dialog에서 화살표와 같이 이동하여 여유 공간을 포함시킨 후, Resize를 누릅니다.</p>
+<div id="attachment_7116" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/10-gParted-Apply-changes.jpeg" rel="lightbox[7062]" title="gParted - Apply changes"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/10-gParted-Apply-changes-300x207.jpeg" alt="gParted - Apply changes" width="300" height="207" class="size-medium wp-image-7116" /></a><p class="wp-caption-text">gParted &#8211; Apply changes</p></div>
+<p>마지막으로, 지금까지의 변경을 실제로 SSD에 적용하기 위해 위의 그림과 같이 Apply Button을 누릅니다.</p>
+<div id="attachment_7117" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/11-gParted-Warning.jpeg" rel="lightbox[7062]" title="gParted - Warning"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/11-gParted-Warning-300x206.jpeg" alt="gParted - Warning" width="300" height="206" class="size-medium wp-image-7117" /></a><p class="wp-caption-text">gParted &#8211; Warning</p></div>
+<p>실제로 적용할 지 확인하는 Message가 표시된다면 적용을 위해 Apply를 누릅니다.</p>
+<div id="attachment_7118" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/12-gParted-Finished.jpeg" rel="lightbox[7062]" title="gParted - Finished"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/12-gParted-Finished-300x206.jpeg" alt="gParted - Finished" width="300" height="206" class="size-medium wp-image-7118" /></a><p class="wp-caption-text">gParted &#8211; Finished</p></div>
+<p>제대로 Apply 되었다면 위의 그림과 같이 됩니다. 하지만, gParted의 기능이 완전하지는 않기 때문에 중간에 문제가 발생할 수 있습니다.</p>
+<p>제 경우에는 Resize를 위해 XFS Partition을 복구하는 부분에서 문제가 발생하더군요. XFS Partition을 Resize하는 경우라면 Terminal을 열어서 다음과 같이 입력한 후 다시 적용하면 됩니다. (XFS Partition이 /dev/sda3일 경우의 예)</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap"><span style="color: #666666;">$ </span><span style="color: #c20cb9; font-weight: bold;">sudo</span> xfs_repair <span style="color: #660033;">-L</span> <span style="color: #000000; font-weight: bold;">/</span>dev<span style="color: #000000; font-weight: bold;">/</span>sda3</div></td></tr></tbody></table></div>
+<p>마지막으로 Rebooting하여 CD가 아닌 SSD에 설치된 Ubuntu로 Booting한 다음, 아래와 같이 /etc/fstab에서 Swap Partition에 대한 내용을 삭제하면 Swap Partition 삭제가 모두 완료됩니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>fstab<br />
+<br />
+<span style="color: #666666; font-style: italic;"># swap was on /dev/sda2 during installation</span><br />
+<span style="color: #007800;">UUID</span>=<span style="color: #000000;">12345678</span>-<span style="color: #000000;">1234</span>-<span style="color: #000000;">1234</span>-<span style="color: #000000;">1234</span>-<span style="color: #000000;">123456789012</span> &nbsp; &nbsp;none &nbsp; &nbsp;swap &nbsp; &nbsp;sw &nbsp; &nbsp;<span style="color: #000000;">0</span> &nbsp; &nbsp;<span style="color: #000000;">0</span><br />
+<span style="color: #7a0874; font-weight: bold;">&#40;</span>이 내용을 삭제한 후 저장<span style="color: #7a0874; font-weight: bold;">&#41;</span></div></td></tr></tbody></table></div>
+<h5>4.1.3. Swap File을 사용하여 Swap을 추가하는 방법</h5>
+<p>위에서 설정한 것과 같이 Swap Partition을 삭제하거나 아예 만들지 않은 경우에도 Swap 공간이 필요한 경우가 생길 수 있습니다.</p>
+<p>이 때는 Swap Partition을 다시 새로 만드는 것보다 Swap File을 사용하는 것이 추가 및 삭제가 용이하고, 크기도 쉽게 변경할 수 있기 때문에 더 편리합니다.<sup class='footnote'><a href='#fn-7062-2' id='fnref-7062-2' onclick='return fdfootnote_show(7062)'>2</a></sup></p>
+<p>Swap File을 생성하기 위해서는 다음과 같이 입력합니다. (512MiB 크기의 Swap File을 생성하는 경우의 예)</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">dd</span> <span style="color: #007800;">if</span>=<span style="color: #000000; font-weight: bold;">/</span>dev<span style="color: #000000; font-weight: bold;">/</span>zero <span style="color: #007800;">of</span>=<span style="color: #000000; font-weight: bold;">/</span>mnt<span style="color: #000000; font-weight: bold;">/</span>512MiB.swap <span style="color: #007800;">bs</span>=<span style="color: #000000;">1024</span> <span style="color: #007800;">count</span>=<span style="color: #000000;">524288</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">chmod</span> <span style="color: #000000;">600</span> <span style="color: #000000; font-weight: bold;">/</span>mnt<span style="color: #000000; font-weight: bold;">/</span>512MiB.swap<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> mkswap <span style="color: #000000; font-weight: bold;">/</span>mnt<span style="color: #000000; font-weight: bold;">/</span>512MiB.swap<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> swapon <span style="color: #000000; font-weight: bold;">/</span>mnt<span style="color: #000000; font-weight: bold;">/</span>512MiB.swap</div></td></tr></tbody></table></div>
+<p>위의 명령에서 첫번째 dd 명령은 Swap을 위해 사용할 File을 생성하는 명령입니다. 512MiB보다 큰 Swap File을 생성하려면 count 다음에 Byte단위로 크기를 입력해야 합니다.</p>
+<p>mkswap은 생성한 File을 Swap File로 만드는 명령이고, swapon은 이 Swap File을 Swap 공간으로 사용하도록 설정합니다.</p>
+<div id="attachment_7119" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/13-Gnome-System-Monitor.jpeg" rel="lightbox[7062]" title="Gnome System Monitor"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/04/13-Gnome-System-Monitor-300x227.jpeg" alt="Gnome System Monitor" width="300" height="227" class="size-medium wp-image-7119" /></a><p class="wp-caption-text">Gnome System Monitor</p></div>
+<p>Gnome System Monitor(시스템 감시)로 확인해 보면, 위의 그림과 같이 512MiB 만큼의 Swap이 설정되어 있는 것을 확인할 수 있습니다.</p>
+<p>생성한 Swap File을 Rebooting 시에도 계속 사용하고 싶다면 아래와 같이 입력하면 됩니다. (위에서 생성한 512MiB.swap을 사용하는 경우의 예)</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>fstab<br />
+<br />
+<span style="color: #000000; font-weight: bold;">/</span>mnt<span style="color: #000000; font-weight: bold;">/</span>512MiB.swap &nbsp;none &nbsp;swap &nbsp;sw &nbsp;<span style="color: #000000;">0</span> <span style="color: #000000;">0</span></div></td></tr></tbody></table></div>
+<p>그리고 사용하고 있는 Swap File을 제거하고 싶다면, 다음과 같이 입력하면 됩니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> swapoff <span style="color: #000000; font-weight: bold;">/</span>mnt<span style="color: #000000; font-weight: bold;">/</span>512MiB.swap<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">rm</span> <span style="color: #660033;">-f</span> <span style="color: #000000; font-weight: bold;">/</span>mnt<span style="color: #000000; font-weight: bold;">/</span>512MiB.swap<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>fstab<br />
+<br />
+<span style="color: #000000; font-weight: bold;">/</span>mnt<span style="color: #000000; font-weight: bold;">/</span>512MiB.swap &nbsp;none &nbsp;swap &nbsp;sw &nbsp;<span style="color: #000000;">0</span> <span style="color: #000000;">0</span><br />
+<span style="color: #7a0874; font-weight: bold;">&#40;</span>이 내용을 삭제 후 저장<span style="color: #7a0874; font-weight: bold;">&#41;</span></div></td></tr></tbody></table></div>
+<h4>4.2. Kernel Option 설정</h4>
+<p>여유 Memory가 충분하다면, Kernel이 Swap을 가급적 사용하지 않도록 설정하고 VFS Caching을 통해 I/O의 반응성을 높이도록 설정할 수 있습니다. 다음과 같이 Terminal에서 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>sysctl.d<span style="color: #000000; font-weight: bold;">/</span><span style="color: #000000;">60</span>-swap.conf<br />
+<br />
+vm.swappiness = <span style="color: #000000;">1</span><br />
+vm.vfs_cache_pressure = <span style="color: #000000;">50</span><br />
+<br />
+$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> service procps start</div></td></tr></tbody></table></div>
+<blockquote><p>
+<strong>NOTE</strong>: VFS Caching에 대한 자세한 내용과 Benchmark 정보는 Ubuntu Precise Pangolin 12.04를 설치한 후 해야 할 것들의 <a href="http://ioriy2k.pe.kr/archives/5442#_3_VFS_Caching" target="_blank">VFS Caching 설정</a>에서 확인할 수 있습니다.
+</p></blockquote>
+<h4>4.3. /tmp to RAM</h4>
+<p>과거의 DOS 시절에 System의 성능을 높이기 위해서 RAM Drive를 사용한 것과 유사한 방법으로, 임시적으로 사용하는 File뜰이 모여있는 /tmp를 Ram에 저장하여 System의 성능을 높이고 SSD에 불필요한 I/O를 줄여 수명을 늘릴 수 있습니다.</p>
+<p>설정을 위해서는 Terminal에서 다음과 같이 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>fstab<br />
+<br />
+<span style="color: #666666; font-style: italic;"># Move /tmp to RAM</span><br />
+tmpfs <span style="color: #000000; font-weight: bold;">/</span>tmp tmpfs defaults,nosuid <span style="color: #000000;">0</span> <span style="color: #000000;">0</span></div></td></tr></tbody></table></div>
+<p>저장한 후, Rebooting하면 /tmp의 모든 내용은 RAM에 저장됩니다. 그리고 /tmp의 크기는 실제 RAM의 절반 정도의 크기가 설정됩니다. 물론 그 정도 까지 사용 가능하다는 이야기고 실제로 그 만큼 Memory를 차지하고 있는 것은 아닙니다.</p>
+<p>그리고 당연한 이야기지만, /tmp에 저장된 내용은 Rebooting하면 모두 사라집니다.</p>
+<h5>4.3.1. RAM에 Browser Cache를 저장하는 방법</h5>
+<p>Ram에 저장하는 /tmp를 이용하는 방법 중 하나는, 빈번한 쓰기 동작이 일어나는 Web Browser Cache를 /tmp에 저장하는 것입니다.</p>
+<p>Cache를 RAM에 저장하면, Caching된 Web Page의 Rendering Speed가 증가하기 때문에 훨씬 쾌적하게 Web Surfing을 즐길 수 있습니다.</p>
+<p>각 Browser마다 Cache Directory가 다르기 때문에, Firefox와 Chrome의 경우에 맞춰서 설정하는 방법을 적어 봅니다. (bar라는 Group에 속한 foo 계정을 위한 Browser Cache Directory를 설정하는 예)</p>
+<blockquote><p>
+<strong>NOTE</strong>: 한 번이라도 Browser를 실행한 적이 있어야 Cache Directory를 제대로 설정할 수 있습니다.
+</p></blockquote>
+<ul>
+<li>Firefox의 경우:
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>rc.local<br />
+<br />
+<span style="color: #666666; font-style: italic;"># Browser cache dir</span><br />
+<span style="color: #c20cb9; font-weight: bold;">mkdir</span> <span style="color: #000000; font-weight: bold;">/</span>tmp<span style="color: #000000; font-weight: bold;">/</span>foo<span style="color: #000000; font-weight: bold;">/</span>ffcache <span style="color: #660033;">-p</span><br />
+<span style="color: #c20cb9; font-weight: bold;">chown</span> foo:bar <span style="color: #000000; font-weight: bold;">/</span>tmp<span style="color: #000000; font-weight: bold;">/</span>foo <span style="color: #660033;">-R</span><br />
+<span style="color: #c20cb9; font-weight: bold;">chmod</span> <span style="color: #000000;">700</span> <span style="color: #000000; font-weight: bold;">/</span>tmp<span style="color: #000000; font-weight: bold;">/</span>foo <span style="color: #660033;">-R</span></div></td></tr></tbody></table></div>
+<p>최신의 Firefox에서는 다음과 같이 설정합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #7a0874; font-weight: bold;">cd</span> &nbsp;~<span style="color: #000000; font-weight: bold;">/</span>.cache<span style="color: #000000; font-weight: bold;">/</span>mozilla<span style="color: #000000; font-weight: bold;">/</span>firefox<span style="color: #000000; font-weight: bold;">/*</span>.default<span style="color: #000000; font-weight: bold;">/</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">rm</span> <span style="color: #660033;">-rf</span> Cache<br />
+$ <span style="color: #c20cb9; font-weight: bold;">ln</span> <span style="color: #660033;">-sf</span> <span style="color: #000000; font-weight: bold;">/</span>tmp<span style="color: #000000; font-weight: bold;">/</span>foo<span style="color: #000000; font-weight: bold;">/</span>ffcache Cache</div></td></tr></tbody></table></div>
+<p>위의 Directory가 존재하지 않는 이전 Firefox version이라면 아래와 같이 진행합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #7a0874; font-weight: bold;">cd</span> &nbsp;~<span style="color: #000000; font-weight: bold;">/</span>.mozilla<span style="color: #000000; font-weight: bold;">/</span>firefox<span style="color: #000000; font-weight: bold;">/*</span>.default<span style="color: #000000; font-weight: bold;">/</span><br />
+$ <span style="color: #c20cb9; font-weight: bold;">rm</span> <span style="color: #660033;">-rf</span> Cache<br />
+$ <span style="color: #c20cb9; font-weight: bold;">ln</span> <span style="color: #660033;">-sf</span> <span style="color: #000000; font-weight: bold;">/</span>tmp<span style="color: #000000; font-weight: bold;">/</span>foo<span style="color: #000000; font-weight: bold;">/</span>ffcache Cache</div></td></tr></tbody></table></div>
+</li>
+<li>Chrome의 경우:
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">sudo</span> <span style="color: #c20cb9; font-weight: bold;">vi</span> <span style="color: #000000; font-weight: bold;">/</span>etc<span style="color: #000000; font-weight: bold;">/</span>rc.local<br />
+<br />
+<span style="color: #666666; font-style: italic;"># Browser cache dir</span><br />
+<span style="color: #c20cb9; font-weight: bold;">mkdir</span> <span style="color: #000000; font-weight: bold;">/</span>tmp<span style="color: #000000; font-weight: bold;">/</span>foo<span style="color: #000000; font-weight: bold;">/</span>crcache <span style="color: #660033;">-p</span><br />
+<span style="color: #c20cb9; font-weight: bold;">chown</span> foo:bar <span style="color: #000000; font-weight: bold;">/</span>tmp<span style="color: #000000; font-weight: bold;">/</span>foo <span style="color: #660033;">-R</span><br />
+<span style="color: #c20cb9; font-weight: bold;">chmod</span> <span style="color: #000000;">700</span> <span style="color: #000000; font-weight: bold;">/</span>tmp<span style="color: #000000; font-weight: bold;">/</span>foo <span style="color: #660033;">-R</span></div></td></tr></tbody></table></div>
+<p>최신의 Chrome에서는 아래와 같이 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">rm</span> <span style="color: #660033;">-rf</span> ~<span style="color: #000000; font-weight: bold;">/</span>.cache<span style="color: #000000; font-weight: bold;">/</span>google-chrome<span style="color: #000000; font-weight: bold;">/</span>Default<br />
+$ <span style="color: #c20cb9; font-weight: bold;">ln</span> <span style="color: #660033;">-sf</span> <span style="color: #000000; font-weight: bold;">/</span>tmp<span style="color: #000000; font-weight: bold;">/</span>foo<span style="color: #000000; font-weight: bold;">/</span>crcache ~<span style="color: #000000; font-weight: bold;">/</span>.cache<span style="color: #000000; font-weight: bold;">/</span>google-chrome<span style="color: #000000; font-weight: bold;">/</span>Default</div></td></tr></tbody></table></div>
+<p>위의 Directory가 존재하지 않는다면, 다음과 같이 입력합니다.</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">rm</span> <span style="color: #660033;">-rf</span> ~<span style="color: #000000; font-weight: bold;">/</span>.cache<span style="color: #000000; font-weight: bold;">/</span>google-chrome<br />
+$ <span style="color: #c20cb9; font-weight: bold;">ln</span> <span style="color: #660033;">-sf</span> <span style="color: #000000; font-weight: bold;">/</span>tmp<span style="color: #000000; font-weight: bold;">/</span>foo<span style="color: #000000; font-weight: bold;">/</span>crcache ~<span style="color: #000000; font-weight: bold;">/</span>.cache<span style="color: #000000; font-weight: bold;">/</span>google-chrome</div></td></tr></tbody></table></div>
+</li>
+</ul>
+<h3>5. System에 HDD가 추가로 존재하는 경우</h3>
+<p>대부분의 경우, SSD의 용량이 한정되어 있고 쓰기 횟수의 한계가 있기 때문에 OS는 SSD에, 그리고 그 외의 Data는 다른 대용량의 HDD에 저장하고 있을 것입니다.</p>
+<p>간단한 Tip이지만, System에 새로운 계정을 만들고 GNOME Session을 실행하면 자동으로 생기는 Default Directory에 다른 HDD의 Directory를 Symbolic Link로 연결하여 사용하면 SSD에 대한 쓰기 동작을 가급적 줄일 수 있으며 GNOME 환경 사용 시에도 편리합니다.</p>
+<p>ko_KR.UTF-8 Locale이라면, 다음과 같이 입력하면 됩니다. (HDD가 /media/data에 Mount되어 있을 경우의 예)</p>
+<div class="codecolorer-container bash blackboard" style="overflow:auto;white-space:nowrap;border:1px solid #9F9F9F;width:100%;"><table cellspacing="0" cellpadding="0"><tbody><tr><td style="padding:5px;text-align:center;color:#888888;background-color:#EEEEEE;border-right: 1px solid #9F9F9F;font: normal 12px/1.4em Monaco, Lucida Console, monospace;"><div>1<br />2<br />3<br />4<br />5<br />6<br /></div></td><td><div class="bash codecolorer" style="padding:5px;font:normal 12px/1.4em Monaco, Lucida Console, monospace;white-space:nowrap">$ <span style="color: #c20cb9; font-weight: bold;">rm</span> <span style="color: #660033;">-rf</span> ~<span style="color: #000000; font-weight: bold;">/</span>다운로드 ~<span style="color: #000000; font-weight: bold;">/</span>사진 ~<span style="color: #000000; font-weight: bold;">/</span>음악 ~<span style="color: #000000; font-weight: bold;">/</span>비디오 ~<span style="color: #000000; font-weight: bold;">/</span>문서<br />
+$ <span style="color: #c20cb9; font-weight: bold;">ln</span> <span style="color: #660033;">-sf</span> <span style="color: #000000; font-weight: bold;">/</span>media<span style="color: #000000; font-weight: bold;">/</span>data<span style="color: #000000; font-weight: bold;">/</span>Downloads ~<span style="color: #000000; font-weight: bold;">/</span>다운로드<br />
+$ <span style="color: #c20cb9; font-weight: bold;">ln</span> <span style="color: #660033;">-sf</span> <span style="color: #000000; font-weight: bold;">/</span>media<span style="color: #000000; font-weight: bold;">/</span>data<span style="color: #000000; font-weight: bold;">/</span>Pictures ~<span style="color: #000000; font-weight: bold;">/</span>사진<br />
+$ <span style="color: #c20cb9; font-weight: bold;">ln</span> <span style="color: #660033;">-sf</span> <span style="color: #000000; font-weight: bold;">/</span>media<span style="color: #000000; font-weight: bold;">/</span>data<span style="color: #000000; font-weight: bold;">/</span>Music ~<span style="color: #000000; font-weight: bold;">/</span>음악<br />
+$ <span style="color: #c20cb9; font-weight: bold;">ln</span> <span style="color: #660033;">-sf</span> <span style="color: #000000; font-weight: bold;">/</span>media<span style="color: #000000; font-weight: bold;">/</span>data<span style="color: #000000; font-weight: bold;">/</span>Movies ~<span style="color: #000000; font-weight: bold;">/</span>비디오<br />
+$ <span style="color: #c20cb9; font-weight: bold;">ln</span> <span style="color: #660033;">-sf</span> <span style="color: #000000; font-weight: bold;">/</span>media<span style="color: #000000; font-weight: bold;">/</span>data<span style="color: #000000; font-weight: bold;">/</span>Documents ~<span style="color: #000000; font-weight: bold;">/</span>문서</div></td></tr></tbody></table></div>
+<h3 class="collapseomatic noarrow" id="id5325"  >Changelog</h3><div id="target-id5325" class="collapseomatic_content">
+<ul>
+<li>Ubuntu Saucy Salamander 13.10에서 Test 완료. (2013-11-14)</li>
+<li>Ubuntu Raring Ringtail 13.04에서 Test 완료. (2013-05-22)</li>
+<li>Ubuntu Quantal Quetzal 12.10에서 Test 완료. (2013-04-26)</li>
+<li>Ubuntu Precise Pangolin 12.04에서 Test 완료. (2013-04-26)</li>
+</ul>
+<p></div>
+<h3>References</h3>
+<div class='footnotes' id='footnotes-7062'>
+<div class='footnotedivider'></div>
+<ol>
+<li id='fn-7062-1'><a href="https://wiki.archlinux.org/index.php/Solid_State_Drives#Tips_for_Maximizing_SSD_Performance" target="_blank">ArchWiki &#8211; Solid State Drives (Tips for Maximizing SSD Performance)</a> <span class='footnotereverse'><a href='#fnref-7062-1'>&#8617;</a></span></li>
+<li id='fn-7062-2'>Ubuntu Wiki의 <a href="https://help.ubuntu.com/community/SwapFaq#How_do_I_add_more_swap.3F" target="_blank">SwapFaq</a> <span class='footnotereverse'><a href='#fnref-7062-2'>&#8617;</a></span></li>
+</ol>
+</div>
+  
+<div class="wp_license">
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.0/kr/"><img src="http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png" alt="Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Korea" class="alignleft" style="margin-top:4px;" />
+</a>This work  is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.0/kr/">Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Korea</a>.</p>
+</div><div class='yarpp-related-rss'>
+<p>관련된 Posts:<ol>
+<li><a href="http://ioriy2k.pe.kr/archives/1616" rel="bookmark" title="VirtualBox를 사용하여 Redhat 8 설치하기 : (2) Redhat 8 설치">VirtualBox를 사용하여 Redhat 8 설치하기 : (2) Redhat 8 설치 </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/1265" rel="bookmark" title="Ubuntu에서 VirtualBox 사용 시 USB 장치 연결이 비활성화 된 경우">Ubuntu에서 VirtualBox 사용 시 USB 장치 연결이 비활성화 된 경우 </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/1330" rel="bookmark" title="Ubuntu에서 성경을 공부하자 : Xiphos Bible Guide">Ubuntu에서 성경을 공부하자 : Xiphos Bible Guide </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/2310" rel="bookmark" title="Ubuntu에서 Zeitgeist 설정하기">Ubuntu에서 Zeitgeist 설정하기 </a></li>
+</ol></p>
+</div>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ioriy2k?a=Fih-KProfvI:qKHH6rphJcU:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ioriy2k?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ioriy2k?a=Fih-KProfvI:qKHH6rphJcU:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/ioriy2k?i=Fih-KProfvI:qKHH6rphJcU:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ioriy2k?a=Fih-KProfvI:qKHH6rphJcU:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/ioriy2k?i=Fih-KProfvI:qKHH6rphJcU:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ioriy2k?a=Fih-KProfvI:qKHH6rphJcU:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/ioriy2k?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ioriy2k?a=Fih-KProfvI:qKHH6rphJcU:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/ioriy2k?i=Fih-KProfvI:qKHH6rphJcU:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/ioriy2k/~4/Fih-KProfvI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://ioriy2k.pe.kr/archives/7062/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Google Nexus 4 Review</title>
+		<link>http://ioriy2k.pe.kr/archives/6867</link>
+		<comments>http://ioriy2k.pe.kr/archives/6867#comments</comments>
+		<pubDate>Wed, 27 Mar 2013 22:45:25 +0000</pubDate>
+		<dc:creator><![CDATA[ioriy2k]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Product Review]]></category>
+		<category><![CDATA[Nexus]]></category>
+		<category><![CDATA[Smartphone]]></category>
+
+		<guid isPermaLink="false">http://ioriy2k.pe.kr/?p=6867</guid>
+		<description><![CDATA[1. H/W Details Google Nexus 4는 Nexus Series의 최신 Reference Phone으로 LG의 Optimus G와 유사한 Spec을 가지면서 가격은 저렴하여 해외에서 인기를 많이 끌었던 제품입니다. H/W Spec을 살펴보면, SoC(System On a Chip)으로는 Qualcomm의 Snapdragon S4 Pro를 사용하고 있습니다. 그래서 Krait Architecture의 Quad-core CPU(1.5 GHz)를 탑재하고 있으며, GPU로는 Adreno 320(28 GFLOPS)을 사용합니다. A6 Chipset을 사용하여 Dual-core 1.3 [&#8230;]<div class='yarpp-related-rss'>
+
+관련된 Posts:<ol>
+<li><a href="http://ioriy2k.pe.kr/archives/6724" rel="bookmark" title="Google Nexus 10 Review">Google Nexus 10 Review </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/1281" rel="bookmark" title="iPhone 4를 구입하다. (약정승계할 분들은 필독!)">iPhone 4를 구입하다. (약정승계할 분들은 필독!) </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/220" rel="bookmark" title="Incase Slider Case for iPhone 3GS 사용기">Incase Slider Case for iPhone 3GS 사용기 </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/358" rel="bookmark" title="iPhone 예약가입자를 위한 iPhone 악세사리 &#8211; Invisible Shield 사용기">iPhone 예약가입자를 위한 iPhone 악세사리 &#8211; Invisible Shield 사용기 </a></li>
+</ol>
+</div>
+]]></description>
+				<content:encoded><![CDATA[
+<h3>1. H/W Details</h3>
+<p>Google Nexus 4는 Nexus Series의 최신 Reference Phone으로 LG의 Optimus G와 유사한 Spec을 가지면서 가격은 저렴하여 해외에서 인기를 많이 끌었던 제품입니다.</p>
+<p>H/W Spec을 살펴보면, SoC(System On a Chip)으로는 Qualcomm의 Snapdragon S4 Pro를 사용하고 있습니다.</p>
+<p>그래서 Krait Architecture의 Quad-core CPU(1.5 GHz)를 탑재하고 있으며, GPU로는 Adreno 320(28 GFLOPS)을 사용합니다.</p>
+<p>A6 Chipset을 사용하여 Dual-core 1.3 Ghz의 CPU와 PowerVR SGX 543MP3(19.2 GFLOPS)를 탑재한 iPhone 5와 비교해 봤을 때, Spec상에서는 Nexus 4가 성능이 더 뛰어난 것을 알 수 있습니다.</p>
+<p>그리고 Display는 Nexus 4의 경우 4.7&#8243; 768 x 1280 해상도에 320 ppi의 Pixel Density를 가지고 있으며, 4&#8243; 640 x 1136 해상도에 326 ppi의 Pixel Density를 가지고 있는 iPhone 5와 거의 유사한 선명도를 갖고 있습니다.</p>
+<p><span id="more-6867"></span></p>
+<p>Cellular Network 사용 면에서 Nexus 4는 LTE를 지원하지 않기 때문에 3G Network를 사용해야 합니다. 하지만 HSPA+ 망을 사용하기 때문에 기존에 제가 사용하던 iPhone 4의 3G Data 전송속도보다 더 빠른 것을 확인할 수 있었습니다.</p>
+<p>그리고 WiFi는 802.11 a/b/g/n을 지원하며, Dual-band를 지원하기 때문에 2.4 GHz와 5 GHz 대역을 모두 사용할 수 있습니다.</p>
+<p>이 외에 자세한 Spec은 아래의 내용을 참고하기 바랍니다.</p>
+<ul>
+<li>Chipset: Qualcomm Snapdragon S4 Pro APQ8064</li>
+<li>CPU: Krait 1.5Ghz (Quad-core)</li>
+<li>GPU: Adreno 320 (Quad-core)</li>
+<li>Memory: 2GB</li>
+<li>Storage: 8GB or 16GB</li>
+<li>Wireless: WiFi 802.11 a/b/g/n, Dual Band, DLNA, WiFi Hotspot</li>
+<li>2G Network: GSM/EDGE/GPRS 850, 900, 1800, 1900 MHz</li>
+<li>3G Network: UMTS/HSPA+ 850, 900, 1700, 1900, 2100 MHz</li>
+<li>SIM: micro-SIM</li>
+<li>Screen: 4.7&#8243; WXGA IPS (768&#215;1280 320ppi), Corning Gorilla Glass 2</li>
+<li>Size: 133.9 x 68.7 x 9.1 mm</li>
+<li>Weight: 139g</li>
+<li>Cameras: 8 MP (main), 1.3 MP (front)</li>
+<li>Battery: 2100 mAh</li>
+<li>Miscellaneous: Bluetooth 4.0, micro-USB Port, 3.5mm Headset Jack, NFC, Wireless charging, Accelerometer, GPS, Gyroscope, Barometer, Microphone, Compass</li>
+</ul>
+<h3>2. Unboxing</h3>
+<div id="attachment_6870" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/01-Nexus-4-Box.jpeg" rel="lightbox[6867]" title="Nexus 4 - Box"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/01-Nexus-4-Box-300x225.jpeg" alt="Nexus 4 - Box" width="300" height="225" class="size-medium wp-image-6870" /></a><p class="wp-caption-text">Nexus 4 &#8211; Box</p></div>
+<p>Nexus 4 Box입니다. 이것도 Nexus 10과 마찬가지로 Simple한 Design이네요.</p>
+<div id="attachment_6871" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/02-Nexus-4-Box-Bottom.jpeg" rel="lightbox[6867]" title="Nexus 4 - Box (Bottom)"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/02-Nexus-4-Box-Bottom-300x225.jpeg" alt="Nexus 4 - Box (Bottom)" width="300" height="225" class="size-medium wp-image-6871" /></a><p class="wp-caption-text">Nexus 4 &#8211; Box (Bottom)</p></div>
+<p>아래에 보면 MADE IN KOREA라고 적혀있는 것을 확인할 수 있습니다. <del datetime="2013-05-30T07:41:00+00:00">국내에 Nexus 4가 출시된다는 말은 있지만, 아직까지도 출시되지 않고 있기에 외국에서 구입해서 들여오는 수밖에 없습니다.</del></p>
+<blockquote><p>
+<strong>NOTE</strong>: Nexus 4가 국내에 <a href="https://play.google.com/store/devices/details/Nexus_4_16_GB?id=nexus_4_16gb" target="_blank">출시</a>되었습니다. 해외에서 구매한 Nexus 4는 <a href="http://www.clien.net/cs2/bbs/board.php?bo_table=lecture&#038;wr_id=162965" target="_blank">A/S 유상수리</a>가 되니 참고하기 바랍니다.
+</p></blockquote>
+<div id="attachment_6872" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/03-Nexus-4-Box-Inner.jpeg" rel="lightbox[6867]" title="Nexus 4 - Box (Inner)"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/03-Nexus-4-Box-Inner-300x225.jpeg" alt="Nexus 4 - Box (Inner)" width="300" height="225" class="size-medium wp-image-6872" /></a><p class="wp-caption-text">Nexus 4 &#8211; Box (Inner)</p></div>
+<p>Box를 열면 바로 보호 Film이 씌워져 있는 Nexus 4가 보입니다.</p>
+<div id="attachment_6873" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/04-Nexus-4-Accessories.jpeg" rel="lightbox[6867]" title="Nexus 4 - Accessories"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/04-Nexus-4-Accessories-300x225.jpeg" alt="Nexus 4 - Accessories" width="300" height="225" class="size-medium wp-image-6873" /></a><p class="wp-caption-text">Nexus 4 &#8211; Accessories</p></div>
+<p>Box 안에는 Nexus 4 설명서와 인증서, USB Data Cable, AC Adapter, SIM Ejection Tool이 들어있습니다.</p>
+<blockquote><p>
+<strong>NOTE</strong>: AC Adapter는 Free Volt이기 때문에 국내에서는 110V to 220V Plug(일명 돼지코?)만 연결하여 사용하면 됩니다.
+</p></blockquote>
+<div id="attachment_6874" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/05-Nexus-4-Front.jpeg" rel="lightbox[6867]" title="Nexus 4 (Front)"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/05-Nexus-4-Front-300x225.jpeg" alt="Nexus 4 (Front)" width="300" height="225" class="size-medium wp-image-6874" /></a><p class="wp-caption-text">Nexus 4 (Front)</p></div>
+<p>Nexus 4의 전면부 모습입니다. 좌측 상단에는 근접 Sensor가 있고, 우측 상단에는 Camera가 있습니다. 그리고 그림에 표시되지는 않았지만 하단 정중앙에 알림을 표시하는 LED가 있습니다.</p>
+<div id="attachment_6875" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/06-Nexus-4-Back.jpeg" rel="lightbox[6867]" title="Nexus 4 (Back)"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/06-Nexus-4-Back-300x200.jpeg" alt="Nexus 4 (Back)" width="300" height="200" class="size-medium wp-image-6875" /></a><p class="wp-caption-text">Nexus 4 (Back)</p></div>
+<p>Nexus 4의 뒷면은 Crystal Reflection 공법으로 각인되어 시야각에 따라 아름다운 모양을 보여줍니다.</p>
+<p>뒷면의 좌측 상단에는 Camera와 Flash가, 우측 하단에는 Speaker가 있습니다. 그리고 보이지는 않지만 내부에 Induction Coil이 있어 Nexus 4 전용으로 출시된 무선 충전기를 별도로 구입하면 무선으로 충전이 가능합니다.</p>
+<div id="attachment_6876" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/07-Nexus-4-Upper-Side.jpeg" rel="lightbox[6867]" title="Nexus 4 (Top)"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/07-Nexus-4-Upper-Side-300x225.jpeg" alt="Nexus 4 (Top)" width="300" height="225" class="size-medium wp-image-6876" /></a><p class="wp-caption-text">Nexus 4 (Top)</p></div>
+<p>Nexus 4의 상단에는 3.5mm Headset Jack과 Microphone이 있습니다.</p>
+<div id="attachment_6877" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/08-Nexus-4-Right-Side.jpeg" rel="lightbox[6867]" title="Nexus 4 (Right)"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/08-Nexus-4-Right-Side-300x225.jpeg" alt="Nexus 4 (Right)" width="300" height="225" class="size-medium wp-image-6877" /></a><p class="wp-caption-text">Nexus 4 (Right)</p></div>
+<p>우측에는 전원 및 화면 잠금 Button이 있습니다.</p>
+<div id="attachment_6878" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/09-Nexus-4-Bottom-Side.jpeg" rel="lightbox[6867]" title="Nexus 4 (Bottom)"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/09-Nexus-4-Bottom-Side-300x225.jpeg" alt="Nexus 4 (Bottom)" width="300" height="225" class="size-medium wp-image-6878" /></a><p class="wp-caption-text">Nexus 4 (Bottom)</p></div>
+<p>하단에는 Data 전송이나 충전을 위한 micro-USB Port가 있습니다.</p>
+<div id="attachment_6879" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/10-Nexus-4-Left-Side.jpeg" rel="lightbox[6867]" title="Nexus 4 (Left)"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/10-Nexus-4-Left-Side-300x225.jpeg" alt="Nexus 4 (Left)" width="300" height="225" class="size-medium wp-image-6879" /></a><p class="wp-caption-text">Nexus 4 (Left)</p></div>
+<p>좌측에는 Volume Button과 micro-SIM을 넣을 수 있는 Tray가 있습니다.</p>
+<div id="attachment_6880" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/11-Nexus-4-First-Boot.jpeg" rel="lightbox[6867]" title="Nexus 4 - First Boot"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/11-Nexus-4-First-Boot-300x225.jpeg" alt="Nexus 4 - First Boot" width="300" height="225" class="size-medium wp-image-6880" /></a><p class="wp-caption-text">Nexus 4 &#8211; First Boot</p></div>
+<p>전원 Button을 눌러 Booting하면, Welcome 화면이 표시되면서 언어를 설정할 수 있습니다.</p>
+<div id="attachment_6881" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/12-Nexus-4-Home-Screen.jpeg" rel="lightbox[6867]" title="Nexus 4 - Home Screen"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/12-Nexus-4-Home-Screen-300x225.jpeg" alt="Nexus 4 - Home Screen" width="300" height="225" class="size-medium wp-image-6881" /></a><p class="wp-caption-text">Nexus 4 &#8211; Home Screen</p></div>
+<p>Nexus 4의 Home 화면입니다. 특별히 설치된 것이 없어 Simple합니다.</p>
+<div id="attachment_6882" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/13-Nexus-4-Updating.jpeg" rel="lightbox[6867]" title="Nexus 4 - OS Update"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/13-Nexus-4-Updating-300x225.jpeg" alt="Nexus 4 - OS Update" width="300" height="225" class="size-medium wp-image-6882" /></a><p class="wp-caption-text">Nexus 4 &#8211; OS Update</p></div>
+<p>Reference Phone이기 때문에 최신의 OS Update를 지원합니다. 위의 그림은 Jelly Bean 4.2.2로 Update하는 모습입니다.</p>
+<div id="attachment_6883" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/14-Nexus-4-and-iPhone-4-Size.jpeg" rel="lightbox[6867]" title="Nexus 4 and iPhone 4 (Size)"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/14-Nexus-4-and-iPhone-4-Size-300x225.jpeg" alt="Nexus 4 and iPhone 4 (Size)" width="300" height="225" class="size-medium wp-image-6883" /></a><p class="wp-caption-text">Nexus 4 and iPhone 4 (Size)</p></div>
+<p>제가 사용하던 iPhone 4와 나란히 놓은 그림입니다. 3.5&#8243;인 iPhone 4보다 4.7&#8243;인 Nexus 4가 큰 것은 당연한 것이겠죠. <img src="http://ioriy2k.pe.kr/wordpress/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /></p>
+<div id="attachment_6884" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/15-Nexus-4-and-iPhone-4-Thickness.jpeg" rel="lightbox[6867]" title="Nexus 4 and iPhone 4 (Thickness)"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/15-Nexus-4-and-iPhone-4-Thickness-300x225.jpeg" alt="Nexus 4 and iPhone 4 (Thickness)" width="300" height="225" class="size-medium wp-image-6884" /></a><p class="wp-caption-text">Nexus 4 and iPhone 4 (Thickness)</p></div>
+<p>두께를 비교한 모습입니다. Spec상 iPhone 4가 9.3 mm, Nexus 4가 9.1 mm이기 때문에 근소한 차이로 Nexus 4가 얇지만 육안으로 봤을 때는 동일해 보입니다.</p>
+<div id="attachment_6885" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/16-Nexus-4-and-iPhone-4-Display.jpeg" rel="lightbox[6867]" title="Nexus 4 and iPhone 4 (Display)"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/16-Nexus-4-and-iPhone-4-Display-300x225.jpeg" alt="Nexus 4 and iPhone 4 (Display)" width="300" height="225" class="size-medium wp-image-6885" /></a><p class="wp-caption-text">Nexus 4 and iPhone 4 (Display)</p></div>
+<p>둘의 Display를 비교한 모습입니다. iPhone 4가 326 ppi, Nexus 4가 320 ppi로 Spec 상에서는 iPhone 4가 더 선명하지만, 육안으로 봤을 때는 거의 차이를 느낄 수 없습니다.</p>
+<p>색감은 iPhone 4보다 Nexus 4의 색감이 Contrast가 더 강조된 느낌을 줍니다. 이것은 GPU의 색 재현으로 인한 차이로 보이는데 사람에 따라 호불호가 갈릴 수 있을 것 같습니다.</p>
+<h3>3. USIM 기변하는 방법</h3>
+<p>단말기 자급제의 시행에 따라 기존 단말기에서 사용하던 USIM을 Nexus 4에 끼우는 것 만으로 3G Network를 사용할 수 있습니다. (Nexus 4는 Unlock 되어 있어야 함.)</p>
+<div id="attachment_6887" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/18-Nexus-4-Ejecting-the-micro-SIM-Tray.jpeg" rel="lightbox[6867]" title="Nexus 4 - Ejecting the micro SIM Tray"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/18-Nexus-4-Ejecting-the-micro-SIM-Tray-300x225.jpeg" alt="Nexus 4 - Ejecting the micro SIM Tray" width="300" height="225" class="size-medium wp-image-6887" /></a><p class="wp-caption-text">Nexus 4 &#8211; Ejecting the micro SIM Tray</p></div>
+<p>Nexus 4와 같이 들어있는 SIM Ejection Tool을 가지고 왼쪽 Volume Button 옆 SIM Tray를 개방합니다.</p>
+<div id="attachment_6888" style="width: 310px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/19-Nexus-4-Inserting-a-micro-SIM.jpeg" rel="lightbox[6867]" title="Nexus 4 - Inserting a micro SIM"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/19-Nexus-4-Inserting-a-micro-SIM-300x174.jpeg" alt="Nexus 4 - Inserting a micro SIM" width="300" height="174" class="size-medium wp-image-6888" /></a><p class="wp-caption-text">Nexus 4 &#8211; Inserting a micro SIM</p></div>
+<p>그리고 기존에 사용하던 단말에서 SIM을 분리하여 Nexus 4에 삽입합니다.</p>
+<p>제 경우에는 iPhone 4에서 사용하던 SIM이 micro-SIM이었기 때문에 그것을 그대로 사용하였지만, SIM이 호환되지 않을 경우에는 통신사 대리점에서 micro-SIM을 구입해서 등록해야 합니다.</p>
+<div id="attachment_6893" style="width: 189px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/24-Android-Message-from-KT.jpeg" rel="lightbox[6867]" title="Android - Messages from KT"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/24-Android-Message-from-KT-179x300.jpeg" alt="Android - Messages from KT" width="179" height="300" class="size-medium wp-image-6893" /></a><p class="wp-caption-text">Android &#8211; Messages from KT</p></div>
+<p>삽입 후 몇 번 정도 켰다 껐다를 반복하면, 통신사에 등록이 되면서 위의 그림과 같이 114의 안내 문자를 수신하게 되고 정상적으로 이용이 가능하게 됩니다. (KT의 경우)</p>
+<p>KT의 경우 요금제에 따라 단말기에서 MAC주소 인증을 통하여 Olleh WiFi를 무료로 사용할 수 있는데, 새로 등록한 Nexus 4에서는 접속이 되지 않을 수 있습니다.</p>
+<p>해결을 위해서는 114에 문의하거나, olleh.com에서 E-mail 고객문의로 기기변경으로 인해 Olleh Wifi에 접속이 안된다고 문의하면 안내를 받아 Nexus 4의 MAC 주소를 등록할 수 있습니다.</p>
+<blockquote><p><strong>NOTE</strong>: KT 사용자의 경우, 단말기 자급제에 대한 자세한 내용은 <a href="http://smartblog.olleh.com/m/post/view/id/2187" target="_blank">Olleh 스마트 블로그</a>를 참고하기 바랍니다.</p></blockquote>
+<h3>4. Performance</h3>
+<p>이번 항목에서는 Nexus 4의 성능에 대해서 간략히 알아보겠습니다.</p>
+<h4>4.1. Benchmark</h4>
+<div id="attachment_6975" style="width: 190px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/AnTuTu-Benchamrk-Nexus-4.png" rel="lightbox[6867]" title="AnTuTu Benchamrk - Nexus 4"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/AnTuTu-Benchamrk-Nexus-4-180x300.png" alt="AnTuTu Benchamrk - Nexus 4" width="180" height="300" class="size-medium wp-image-6975" /></a><p class="wp-caption-text">AnTuTu Benchamrk &#8211; Nexus 4</p></div>
+<p>AnTuTu Benchmark로 Nexus 4의 성능을 측정한 화면입니다. 실제적으로 AnTuTu에 등록된 Nexus 4의 공식 Score보다 약간 적게 나오는데 이유는 잘 모르겠네요. </p>
+<p>그리고 Galaxy Note 2와 비교해 봤을 때 CPU 연산과 같은 부분에서는 Note 2가 앞서지만, 3D 성능은 Nexus 4가 우위에 있다는 것을 확인할 수 있습니다.</p>
+<h4>4.2. Network</h4>
+<table style="margin-left:auto;margin-right:auto;">
+<tr>
+<td>
+<div id="attachment_7017" style="width: 210px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/Benchbee-iPhone4-3G.jpeg" rel="lightbox[6867]" title="Benchbee - iPhone 4 (3G)"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/Benchbee-iPhone4-3G-200x300.jpeg" alt="Benchbee - iPhone 4 (3G)" width="200" height="300" class="size-medium wp-image-7017" /></a><p class="wp-caption-text">Benchbee &#8211; iPhone 4 (3G)</p></div>
+</td>
+<td>
+<div id="attachment_7000" style="width: 190px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/Banchbee-3G.jpeg" rel="lightbox[6867]" title="Benchbee - Nexus 4 (3G)"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/Banchbee-3G-180x300.jpeg" alt="Benchbee - Nexus 4 (3G)" width="180" height="300" class="size-medium wp-image-7000" /></a><p class="wp-caption-text">Benchbee &#8211; Nexus 4 (3G)</p></div>
+</td>
+</tr>
+</table>
+<p>위에서도 언급했지만, Nexus 4는 LTE를 지원하지 않습니다. 대신 3G Network의 HSPA+ 망을 사용할 수 있는데, 성능 확인을 위해 iPhone 4와 Nexus 4에서 Benchbee 성능측정을 해 봤습니다.</p>
+<table class="box-table">
+<thead>
+<th>&nbsp;</th>
+<th>iPhone 4</th>
+<th>Nexus 4</th>
+</thead>
+<tr>
+<td>3G Network</td>
+<td>KT ?</td>
+<td>KT HSPA+</td>
+</tr>
+<tr>
+<td>Download</td>
+<td>5.78 Mbps (0.72 MB/sec)</td>
+<td>8.23 Mbps (1.03 MB/sec)</td>
+</tr>
+<tr>
+<td>Upload</td>
+<td>9.27 Mbps (1.16 MB/sec)</td>
+<td>9.40 Mbps (1.18 MB/sec)</td>
+</tr>
+</table>
+<p>표를 보면 아시겠지만, Nexus 4에서 3G Network를 사용할 때의 Download 속도가 iPhone 4보다 1.4배 정도 빠른 것을 알 수 있습니다.</p>
+<p>물론 Download 속도가 30 Mbps이상 나오는 LTE에 비해 성능은 좀 떨어지지만 그래도 준수한 성능을 가지고 있다고 볼 수 있겠네요.</p>
+<table style="margin-left:auto;margin-right:auto;">
+<tr>
+<td>
+<div id="attachment_7018" style="width: 210px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/Benchbee-iPhone4-WiFi.jpeg" rel="lightbox[6867]" title="Benchbee - iPhone 4 (WiFi)"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/Benchbee-iPhone4-WiFi-200x300.jpeg" alt="Benchbee - iPhone 4 (WiFi)" width="200" height="300" class="size-medium wp-image-7018" /></a><p class="wp-caption-text">Benchbee &#8211; iPhone 4 (WiFi)</p></div>
+</td>
+<td>
+<div id="attachment_6999" style="width: 189px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/Banchbee-WiFi.jpeg" rel="lightbox[6867]" title="Benchbee - Nexus 4 (WiFi)"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/Banchbee-WiFi-179x300.jpeg" alt="Benchbee - Nexus 4 (WiFi)" width="179" height="300" class="size-medium wp-image-6999" /></a><p class="wp-caption-text">Benchbee &#8211; Nexus 4 (WiFi)</p></div>
+</td>
+</tr>
+</table>
+<p>이번에는 WiFi 속도를 비교해 보도록 하겠습니다. 10 Mbps Line에 802.11n으로 접속하여 Test한 결과입니다.</p>
+<table class="box-table">
+<thead>
+<th>&nbsp;</th>
+<th>iPhone 4</th>
+<th>Nexus 4</th>
+</thead>
+<tr>
+<td>WiFi</td>
+<td>802.11n 2.4GHz</td>
+<td>802.11n 5GHz</td>
+</tr>
+<tr>
+<td>Download</td>
+<td>9.27 Mbps (1.16 MB/sec)</td>
+<td>9.40 Mbps (1.18 MB/sec)</td>
+</tr>
+<tr>
+<td>Upload</td>
+<td>1.43 Mbps (0.18 MB/sec)</td>
+<td>1.57 Mbps (0.20 MB/sec)</td>
+</tr>
+</table>
+<p>10 Mbps Line에 물려있기 때문에 최상의 성능을 확인할 수는 없지만 둘 다 유사한 성능을 보여주는 것을 확인할 수 있습니다.</p>
+<p>Nexus 4의 경우, Gigabit으로 구성된 Private Network에서 최대 1.7 MB/sec으로 Download가 가능합니다.</p>
+<h4>4.3. Battery</h4>
+<div id="attachment_7014" style="width: 189px" class="wp-caption aligncenter"><a href="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/Nexus-4-Battery-Status.jpeg" rel="lightbox[6867]" title="Nexus 4 - Battery Status"><img src="http://ioriy2k.pe.kr/wordpress/wp-content/uploads/2013/03/Nexus-4-Battery-Status-179x300.jpeg" alt="Nexus 4 - Battery Status" width="179" height="300" class="size-medium wp-image-7014" /></a><p class="wp-caption-text">Nexus 4 &#8211; Battery Status</p></div>
+<p>Battery 성능의 경우는 사용자마다 이용형태가 다르기 때문에 정확한 결과를 얻기 어렵지만, 제 경우에는 위의 그림과 같이 1일 2시간 23분 정도를 사용할 수 있었습니다.</p>
+<p>물론, Network를 계속 사용하거나 3D Game을 Play하는 경우에는 이보다 사용시간이 더 줄어들 수 있습니다.</p>
+<p>충전 시간의 경우는 Rough하게 Test해 본 결과 약 5시간 정도면 완충이 가능했습니다.</p>
+<h3>5. Conclusion</h3>
+<p>지금까지 Nexus 4에 대해서 알아봤습니다. iPhone을 사용하다가 Nexus 4로 넘어가면서 느낀 점은 Android도 예전보다 많이 좋아졌다는 것과 Android의 자유로움이 편리함을 가져온다는 것이었습니다.</p>
+<p>그래서 개인적으로는 Nexus 4를 만족하며 사용하고 있습니다. 해외 배송을 통한 구입 문제와 A/S 문제가 있지만, 잘 관리한다면 계속 만족하면서 사용할 수 있을 것 같습니다.</p>
+<p>이 외에 제가 생각하는 Nexus 4의 장/단점을 간단하게 정리하면 다음과 같습니다.</p>
+<ul>
+<li>장점: Crystal Reflection 공법이 적용되어 뒷면이 예쁨, 최신의 Android OS Update (Reference의 특권?), Compact한 순정 상태의 Android를 사용할 수 있음</li>
+<li>단점: LTE 미지원, 일반 사용자 입장에서 전체적으로 불편하다고 느낄 수 있음(취향에 따라 Customizing이 많이 필요함), SD Card를 지원하지 않음, 고장 발생 시 A/S에 어려움을 겪을 수 있음</li>
+</ul>
+  
+<div class="wp_license">
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.0/kr/"><img src="http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png" alt="Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Korea" class="alignleft" style="margin-top:4px;" />
+</a>This work  is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.0/kr/">Creative Commons Attribution-NonCommercial-NoDerivs 2.0 Korea</a>.</p>
+</div><div class='yarpp-related-rss'>
+<p>관련된 Posts:<ol>
+<li><a href="http://ioriy2k.pe.kr/archives/6724" rel="bookmark" title="Google Nexus 10 Review">Google Nexus 10 Review </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/1281" rel="bookmark" title="iPhone 4를 구입하다. (약정승계할 분들은 필독!)">iPhone 4를 구입하다. (약정승계할 분들은 필독!) </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/220" rel="bookmark" title="Incase Slider Case for iPhone 3GS 사용기">Incase Slider Case for iPhone 3GS 사용기 </a></li>
+<li><a href="http://ioriy2k.pe.kr/archives/358" rel="bookmark" title="iPhone 예약가입자를 위한 iPhone 악세사리 &#8211; Invisible Shield 사용기">iPhone 예약가입자를 위한 iPhone 악세사리 &#8211; Invisible Shield 사용기 </a></li>
+</ol></p>
+</div>
+<div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/ioriy2k?a=jFi0tn1XzHo:LlGGLpP2cT4:yIl2AUoC8zA"><img src="http://feeds.feedburner.com/~ff/ioriy2k?d=yIl2AUoC8zA" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ioriy2k?a=jFi0tn1XzHo:LlGGLpP2cT4:F7zBnMyn0Lo"><img src="http://feeds.feedburner.com/~ff/ioriy2k?i=jFi0tn1XzHo:LlGGLpP2cT4:F7zBnMyn0Lo" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ioriy2k?a=jFi0tn1XzHo:LlGGLpP2cT4:V_sGLiPBpWU"><img src="http://feeds.feedburner.com/~ff/ioriy2k?i=jFi0tn1XzHo:LlGGLpP2cT4:V_sGLiPBpWU" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ioriy2k?a=jFi0tn1XzHo:LlGGLpP2cT4:qj6IDK7rITs"><img src="http://feeds.feedburner.com/~ff/ioriy2k?d=qj6IDK7rITs" border="0"></img></a> <a href="http://feeds.feedburner.com/~ff/ioriy2k?a=jFi0tn1XzHo:LlGGLpP2cT4:gIN9vFwOqvQ"><img src="http://feeds.feedburner.com/~ff/ioriy2k?i=jFi0tn1XzHo:LlGGLpP2cT4:gIN9vFwOqvQ" border="0"></img></a>
+</div><img src="http://feeds.feedburner.com/~r/ioriy2k/~4/jFi0tn1XzHo" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://ioriy2k.pe.kr/archives/6867/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

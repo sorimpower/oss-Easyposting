@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>La vida de Vagabundo</title>
+		<link>http://gitano.tistory.com/</link>
+		<description>[공지] 스페인어 강의를 전문으로 하는 팀블로그를 이번에 만들었어요.
+스페인어에 관심 있으신 분들은 많이 공부하러 오세요^^
+주소는 http://smexport.tistory.com/</description>
+		<language>ko</language>
+		<pubDate>Thu, 25 Sep 2014 15:04:21 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>Rio F</managingEditor>
+		<image>
+			<title>La vida de Vagabundo</title>
+			<url>http://cfile7.uf.tistory.com/image/24568E3352EDC8A52761E3</url>
+			<link>http://gitano.tistory.com</link>
+			<description>[공지] 스페인어 강의를 전문으로 하는 팀블로그를 이번에 만들었어요.
+스페인어에 관심 있으신 분들은 많이 공부하러 오세요^^
+주소는 http://smexport.tistory.com/</description>
+		</image>
+		<item>
+			<title>엑셀 pdf 변환 방법 &amp; 엑셀 2007 에서 pdf 변환 옵션이 안뜰때 해결방법</title>
+			<link>http://gitano.tistory.com/420</link>
+			<description>&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4641d9; FONT-SIZE: 12pt&quot;&gt;엑셀 pdf 변환 방법 &amp;amp; 엑셀 2007 pdf 변환 지원이 안될때 해결방법&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;제가 현재 수출업에 종사하고 있는데 해외 바이어 측에서 선적서류 스캔본을 이메일로 보내달라고 하더라구요. &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;저 같은 경우 선적서류를 엑셀 파일로 만들고 있는데 그걸 일일히 인쇄해서 스캔뜨고 하느니 그냥 pdf 파일로 보내야겠단&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;생각이 들어서 저도 직접 엑셀 파일을 pdf 로 변환해 볼겸 실시간으로 포스팅 해 보려고 합니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;참고로 저도 변환 방법을 잘 몰라서 이 글을 작성 전 타 블로그 글들을 보고 공부해봤는데 그 블로그 글과는 달리 같은 엑셀 2007 버전인데도 pdf 로 변환하여 저장하는 옵션 문구가 제 엑셀에선 안 뜨더라구요. &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그래서 이를 해결하는 방법도 같이 포스팅 해 보도록 할께요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;DIV style=&quot;BORDER-BOTTOM: #c1c1c1 1px solid; BORDER-LEFT: #c1c1c1 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #eeeeee; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #c1c1c1 1px solid; BORDER-RIGHT: #c1c1c1 1px solid; PADDING-TOP: 10px&quot; class=txc-textbox&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4641d9&quot;&gt;▶엑셀 -&amp;gt; PDF 변환 방법&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;1. 먼저 pdf 로 변환하길 원하는 엑셀 파일을 실행해 줍니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/277FF44B5423A7812835D2&quot; filemime=&quot;image/jpeg&quot; filename=&quot;1.jpg&quot; height=&quot;684&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;저는 서론에 말씀드린 것처럼 선적서류 파일을 열었습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;2. 이제 밑의 사진과 같이 상단 제일 좌측&amp;nbsp;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;office&lt;/SPAN&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt; 단추&lt;/SPAN&gt;&lt;/STRONG&gt; 버튼을 누르고 &lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;&lt;STRONG&gt;다른 이름으로 저장&lt;/STRONG&gt;&lt;/SPAN&gt;을 클릭해 줍니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/240F7B485423A7B720A700&quot; filemime=&quot;image/jpeg&quot; filename=&quot;2-1.jpg&quot; height=&quot;680&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;근데 여기에서 문제가 생겼네요. 다른 블로그 글에서 본 바에 따르면 &lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;&lt;STRONG&gt;다른 이름으로 저장&lt;/STRONG&gt;&lt;/SPAN&gt;을 클릭하면 세부 옵션에&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #2f9d27&quot;&gt;&lt;SPAN style=&quot;COLOR: #cc3d3d&quot;&gt;PDF 또는 XPS(P)&lt;/SPAN&gt; &lt;/SPAN&gt;&lt;/STRONG&gt;라는 옵션이 떠야 되는데 저는 안뜨네요. &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;뭔가 설치를 해야 하는 듯 합니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/2163A34E5423A89B0F7B35&quot; filemime=&quot;image/jpeg&quot; filename=&quot;2-2.jpg&quot; height=&quot;680&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그래서 &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff5e00&quot;&gt;다른 파일 형식에 대한 추가 기능 찾기 &lt;/SPAN&gt;&lt;/STRONG&gt;버튼을 눌러 보겠습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;(※만약 제 엑셀과는 달리&amp;nbsp;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #2f9d27&quot;&gt;&lt;SPAN style=&quot;COLOR: #cc3d3d&quot;&gt;PDF 또는 XPS(P)&lt;/SPAN&gt; &lt;/SPAN&gt;&lt;/STRONG&gt;라는 옵션이 뜨는 경우 지금부터의 설명은 무시하시고 바로 &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #cc3d3d&quot;&gt;9번&lt;/SPAN&gt;&lt;/STRONG&gt; 설명 단계로 &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;넘어가세요~~!!)&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;3. 그러면 다음과 같이 &lt;STRONG&gt;Excel 도움말 &lt;/STRONG&gt;창이 뜹니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/267C4E4B5423A9593AED85&quot; filemime=&quot;image/jpeg&quot; filename=&quot;3.jpg&quot; height=&quot;705&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;스크롤을&amp;nbsp;내리다 보면 페이지 중간쯤에 &lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;&lt;STRONG&gt;2007 Microsoft Office 프로그램의 ~~~ 추가 기능 &lt;/STRONG&gt;&lt;/SPAN&gt;이라는 문구가 있습니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이걸 클릭해 주세요.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;4. 그러면 다음과 같이 인터넷 페이지가 뜹니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/236463505423A9F5221C3D&quot; filemime=&quot;image/jpeg&quot; filename=&quot;4.jpg&quot; height=&quot;554&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;여기서 &lt;SPAN style=&quot;COLOR: #4641d9&quot;&gt;&lt;STRONG&gt;Download&lt;/STRONG&gt;&lt;/SPAN&gt; 버튼을 눌러주세요.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;회원가입이나 로그인 같은 건 필요 없습니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;5. 그러면 다음과 같은 화면이 뜹니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/215F67475423AA5D22BED3&quot; filemime=&quot;image/jpeg&quot; filename=&quot;5.jpg&quot; height=&quot;302&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;아..귀찮아 ㅠㅠ&amp;nbsp; &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;No thanks and continue&lt;/SPAN&gt;&lt;/STRONG&gt; 버튼을 클릭해 주세요. (예감에 의존하고 있습니다 ㅎㅎ)&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;6. 그러자 다운로드 메세지가 뜨네요 ㅎㅎ 다행히도 예감이 적중했습니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/2733484F5423AABA2CA2A1&quot; filemime=&quot;image/jpeg&quot; filename=&quot;6.jpg&quot; height=&quot;48&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이제 &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;실행&lt;/SPAN&gt;&lt;/STRONG&gt; 버튼을 눌러주세요.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;7. 그러자 다음과 같이 다운로드 창이 뜹니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:584px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/277571505423AB1208C155&quot; filemime=&quot;image/jpeg&quot; filename=&quot;7.jpg&quot; height=&quot;436&quot; width=&quot;584&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;Click here~~ &lt;/SPAN&gt;&lt;/STRONG&gt;에 체크한 후 &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;Continue&lt;/SPAN&gt; &lt;/STRONG&gt;버튼을 눌러주세요.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;8. 그러자 다음과 같이 자동으로 설치가 진행됩니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:412px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/2347454F5423AB7806528E&quot; filemime=&quot;image/jpeg&quot; filename=&quot;8.jpg&quot; height=&quot;164&quot; width=&quot;412&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;조금 기다리자~&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:458px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/25619D4E5423ABB326B842&quot; filemime=&quot;image/jpeg&quot; filename=&quot;9.jpg&quot; height=&quot;155&quot; width=&quot;458&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;설치 완료 메세지가 뜨네요. &lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;&lt;STRONG&gt;확인&lt;/STRONG&gt;&lt;/SPAN&gt; 버튼을 눌러주면 설치 끝!!&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;SCRIPT src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot; async&gt;&lt;/SCRIPT&gt;
+ &lt;!-- 300x250, 작성됨 09. 4. 11 --&gt;&lt;INS style=&quot;WIDTH: 300px; DISPLAY: inline-block; HEIGHT: 250px&quot; class=adsbygoogle data-ad-slot=&quot;4053791995&quot; data-ad-client=&quot;ca-pub-5531766526822887&quot;&gt;&lt;/INS&gt;
+&lt;SCRIPT&gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/SCRIPT&gt;
+
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;9. 자 그럼 다시 원점으로 돌아가서 엑셀 파일을 pdf 로 변환하도록 하겠습니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/2574FC4E5423ACD508DCCB&quot; filemime=&quot;image/jpeg&quot; filename=&quot;10.jpg&quot; height=&quot;684&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이제 위의 사진과 같이 상단 제일 좌측 &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;office&lt;/SPAN&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt; 단추&lt;/SPAN&gt;&lt;/STRONG&gt;&amp;nbsp;-&amp;gt; &lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;&lt;STRONG&gt;다른 이름으로 저장 &lt;/STRONG&gt;&lt;/SPAN&gt;-&amp;gt; &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;PDF&amp;nbsp;또는&amp;nbsp;XPS &lt;/SPAN&gt;&lt;/STRONG&gt;를 차례대로&amp;nbsp;클릭해 줍니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;10. 그러면 다음과 같이 저장하는 창이 뜹니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/2226704B5423AD56020BF3&quot; filemime=&quot;image/jpeg&quot; filename=&quot;11.jpg&quot; height=&quot;641&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;여기서 원하는 파일 이름을 적은 후 파일 형식은 PDF 로 선택한 후 &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;게시&lt;/SPAN&gt;&lt;/STRONG&gt; 버튼을 누릅니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;11. 그러자 다음과 같이 자동으로 PDF 로 변환된 파일이&amp;nbsp;실행됩니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/2151154A5423ADD30E88F8&quot; filemime=&quot;image/jpeg&quot; filename=&quot;12.jpg&quot; height=&quot;678&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;확인 차원에서 pdf 파일로 변환하여 저장해준 폴더에도 들어가 보니~&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:245px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/244EB34F5423ADFB0A2890&quot; filemime=&quot;image/jpeg&quot; filename=&quot;13.jpg&quot; height=&quot;152&quot; width=&quot;245&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;위와 같이 pdf 파일이 별도로 저장이 되었네요.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;엑셀 파일을 pdf 로 변환시 &quot;왜 난 블로그 글대로 안되지?&quot; 하시는 분들께 좋은 정보이길 바래봅니다^^&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-420-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-420-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-420-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>Utility/Internet</category>
+			<category>Excel pdf 변환</category>
+			<author>Rio F</author>
+			<guid>http://gitano.tistory.com/420</guid>
+			<comments>http://gitano.tistory.com/420#entry420comment</comments>
+			<pubDate>Thu, 25 Sep 2014 15:01:23 +0900</pubDate>
+		</item>
+		<item>
+			<title>전공학점계산기-학점계산기를 이용하여 전공평점 및 전체학점 계산해보기</title>
+			<link>http://gitano.tistory.com/419</link>
+			<description>&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #6b66ff; FONT-SIZE: 12pt&quot;&gt;전공학점계산기-학점계산기를 이용하여 전공평점 및 전체학점 계산해보기&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;제가 대학에 다닐때만 해도 보통 기말고사가 끝나고 과목당 학점이 하나 둘씩 뜨기 시작하면 미리 대략적인 전체 평균 학점을 계산해 보고 싶은데 계산 방법도 모르겠고 또 당시만 해도 인터넷이 지금처럼 발전하지 않았던 시절이라 마땅한 학점 계산 프로그램도 없었던 기억이 납니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;과목당 이수학점이 일괄적으로 2점이면 직접 계산해 보겠지만, 전공같은 경우 3점짜리도 있고 교양같은 경우 1점짜리도 있고 하니 머리가 복잡해 지더라구요 ㅎㅎ 그래서 그냥 성적표 나올때까지 겸허히 기다렸던 기억이 나네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그런데 요즘은 이런 학점을 계산할 수 있는 계산기 프로그램을 네이버, 다음 등 주요 포털사이트에서 제공하고 있더군요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그래서 오늘은 포털사이트를 이용하여 자신의 학점 평점을 미리 계산해 보는 방법을 소개해드리려 합니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;방법은 무지 간단합니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;먼저 네이버 기준으로 설명 드릴께요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:690px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/2506D04354224A7B0CBDE9&quot; filemime=&quot;image/jpeg&quot; filename=&quot;1.jpg&quot; height=&quot;145&quot; width=&quot;690&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;먼저 네이버 검색창에 &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000; FONT-SIZE: 11pt&quot;&gt;학점계산&lt;/SPAN&gt;&lt;/STRONG&gt;을 치고 검색을 눌러주세요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:656px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/2432F64054224AD4175805&quot; filemime=&quot;image/jpeg&quot; filename=&quot;2.jpg&quot; height=&quot;730&quot; width=&quot;656&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그러면 위와 같이 학점계산기 프로그램 창이 뜹니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:229px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/2427B14254224B1C3BA964&quot; filemime=&quot;image/jpeg&quot; filename=&quot;성적증명서.jpg&quot; height=&quot;185&quot; width=&quot;229&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그전에 미리 말씀드리자면 학점계산기 프로그램에 그냥 무작위로 아무 학점이나 기재해서 계산해 보는게 아니라&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;제 예전 성적표 중 한학기분 학점을 기재해서 프로그램이 오류가 있나를 역으로 검증해보는 방법으로 설명해 보겠습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이를 위해 위 사진처럼 한학기분 제 학점표를 가져왔습니다. 하도 오래전에 스캔을 했더니 화질이 참...&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;자...그럼 다시 프로그램으로 돌아가서 ~~&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:664px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/242C564054224BE62AC31C&quot; filemime=&quot;image/jpeg&quot; filename=&quot;10.jpg&quot; height=&quot;481&quot; width=&quot;664&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;먼저 자신의 학교의 학점제가 4.5점 만점인지 4.3점 만점인지를 선택해 주세요. (저는 4.5점을 선택!!)&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그 다음 각각 칸에 과목명, 학점점수, 학점(몇점 만점인지)을 기재하고, 전공 여부를 선택해 줍니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;기본적으로 16과목을 기재할 수 있도록 되어있는데 만약 자신의 이수과목이 더 많을 경우 &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;과목추가&lt;/SPAN&gt;&lt;/STRONG&gt; 버튼을 클릭해&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;주면 밑에 한줄씩 추가됩니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:654px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/2768EB3F54224CC22BAC0B&quot; filemime=&quot;image/jpeg&quot; filename=&quot;11.jpg&quot; height=&quot;450&quot; width=&quot;654&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이제 저는 제가 이수했던 11과목 전부를 기재했습니다. 전공부분은 그냥 제2전공까지 다 체크해 버렸어요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그 다음 &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;계산&lt;/SPAN&gt;&lt;/STRONG&gt; 버튼을 클릭해 줍니다.&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:652px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/25587B3E54224D372E18F2&quot; filemime=&quot;image/jpeg&quot; filename=&quot;12.jpg&quot; height=&quot;564&quot; width=&quot;652&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그러자 밑에 학점 총 평점 및 위에서 체크했던 전공만 따로 계산된 평점, 이수학점 및 전공이수학점 정보가 자동으로 계산&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;되어서 뜹니다. 위에 첨부했던 제 성적표 기록과 일치하네요. 오류가 없군요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;또 밑에줄엔 4.0 / 4.3 / 100 점 만점 기준으로 환산된 학점도 떠서 취업시 이력서 기재시 유용할 것 같습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;채용 업체에 따라 이력서 자사양식이 있으면서 변환해서 적으라는 업체들도 있으니까요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;(사람 귀찮게 하는 녀석들 ㅋㅋ 것보다 이력서에 사진이랑 부모 직업 쓰는거나 좀 없애게나들..&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&amp;nbsp;아주 오래전에 이력서 쓰다가 순간 짜증나서 부모 이름에 &lt;STRONG&gt;Juan CarlosⅠ&lt;/STRONG&gt;, 직업란에 &lt;STRONG&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial&quot;&gt;el &lt;/SPAN&gt;&lt;AUTOLINK lang=es search=&quot;rey&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial&quot;&gt;Rey&lt;/SPAN&gt;&lt;/AUTOLINK&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial&quot;&gt; &lt;/SPAN&gt;&lt;AUTOLINK lang=es search=&quot;del&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial&quot;&gt;del&lt;/SPAN&gt;&lt;/AUTOLINK&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial&quot;&gt; &lt;/SPAN&gt;&lt;AUTOLINK lang=es search=&quot;reinar&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial&quot;&gt;Reino&lt;/SPAN&gt;&lt;/AUTOLINK&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial&quot;&gt; de España&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&amp;nbsp;라 적었던 기억이 납니다. 스페인 국왕이지요 ㅎㅎ.....물론 떨어졌습니다. &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&amp;nbsp;국왕의 아들을 담을 그릇이 못되는 천민자본주의 기업이라 그랬나 봅니다 ㅎㅎ)&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;SCRIPT src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot; async&gt;&lt;/SCRIPT&gt;
+ &lt;!-- 300x250, 작성됨 09. 4. 11 --&gt;&lt;INS style=&quot;WIDTH: 300px; DISPLAY: inline-block; HEIGHT: 250px&quot; class=adsbygoogle data-ad-slot=&quot;4053791995&quot; data-ad-client=&quot;ca-pub-5531766526822887&quot;&gt;&lt;/INS&gt;
+&lt;SCRIPT&gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/SCRIPT&gt;
+
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;위에서는 네이버를 통한 학점계산기 이용법을 살펴 보았고 이번엔 다음 이용자를 위해 간단히 살펴볼께요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;다음에서도 검색창에 학점계산을 검색하면~&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:690px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/2670EC4554224EE1309CD6&quot; filemime=&quot;image/jpeg&quot; filename=&quot;daum.jpg&quot; height=&quot;511&quot; width=&quot;690&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이렇게 네이버와 유사한 학점계산기 프로그램을 이용하실 수 있습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;단, 아쉬운 점은 최대 10개 과목까지 밖에 계산할 수 없네요. 보통&amp;nbsp;한학기에 재수강 합쳐서&amp;nbsp;10과목 이상 듣지 않나요?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;다음...분발하세요 ㅋㅋ&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;아무튼 미리 학점을 계산해 보고 싶거나 혹은 구직활동시 이력서에 변환된 학점을 기재할 필요가 있을 경우 본 정보를 이용하시면 됩니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-419-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-419-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-419-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>생활정보</category>
+			<category>gkrwja</category>
+			<category>학점예상</category>
+			<author>Rio F</author>
+			<guid>http://gitano.tistory.com/419</guid>
+			<comments>http://gitano.tistory.com/419#entry419comment</comments>
+			<pubDate>Wed, 24 Sep 2014 14:10:36 +0900</pubDate>
+		</item>
+		<item>
+			<title>풀무원 오징어먹물짜장 후기; 생각외로 맛있었던 면제품(맛있는 라면 추천)</title>
+			<link>http://gitano.tistory.com/418</link>
+			<description>&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 12pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4641d9; FONT-SIZE: 14pt&quot;&gt;풀무원 오징어먹물짜장 후기; 생각외로 맛있었던 면제품&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;지난 주말 오랫만에 집 근처 롯데마트에 장보러 갔다가 평소에 못봤던(아니면 애써 외면했던?) 짜장면 류 면제품이&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;있길래 호기심에 사왔습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/2209D14554205C5609F06D&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0055.jpg&quot; height=&quot;754&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이름하여 &lt;STRONG&gt;풀무원 자연은 맛있다 - 오징어 먹물 짜장 &lt;/STRONG&gt;!!&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;4개들이 한 세트에 3,980원에 사왔네요. &lt;SPAN style=&quot;COLOR: #ff5e00&quot;&gt;&lt;STRONG&gt;개당 995원&lt;/STRONG&gt;&lt;/SPAN&gt;에 사온 꼴 !! &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;풀무원 제품은 나름 건강한 먹거리지만 가격은 비싸다..라는 선입견이 있었는데 나름 저렴하네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;동네 편의점이나 슈퍼마켓에서는 못 봤었는데 아마도 대형마트에서만 파나봅니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;솔직히 사올때만 해도 &quot;맛없어!!! 하지만 내 그대들의 실험정신만은 높게 평가하리라!!!&quot; 류의 후기글을 남길 것을 예상하고 사왔네요. 하지만...하지만...&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/2620C74354205D6608D71E&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0056.jpg&quot; height=&quot;707&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;제품 앞면 샷!!&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;언제나 포장지 음식사진은 실제보다 크고 아름답습니다. &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/2360144654205DBB2725A7&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0057.jpg&quot; height=&quot;483&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;카라멜 색소 대신 오징어먹물을 첨가했다고 자랑하고 있네요. 예..저도 색소 먹기 싫어요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;튀기지 않은 생라면에 감자전분까지 더한....아 이건 벌써부터 맛있을 것 같아요. 제가 농심 감자라면도 참 좋아하거든요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그 밖에 L-글루타민산 나트륨,합성착향료,고결방지제 등이 들어있지 않다고 하네요. 3개다 모르는 거라서 패스!!&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff5e00&quot;&gt;열량은 395kcal !! &lt;/SPAN&gt;&lt;/STRONG&gt;제가 일전에 이 블로그에 소개한 적 있는 뭔가 다이어트용으로 나온듯한 농심 야채라면이 350kcal 였던&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;것과 비교할때 열량은 이런 짜장면 류 제품들 치고 낮은 것 같습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:500px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/211AEC4554205E90014EEE&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0059.jpg&quot; height=&quot;307&quot; width=&quot;500&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;스프류 중 오징어가 36.4% 나 들어있다고 합니다. 어디..좀 이따 보겠습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/241E4743542060D40F1E48&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0060-1.jpg&quot; height=&quot;734&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이번엔 제품 뒷면샷!! 글씨가 작아서 안보여~~~&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:400px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/241E313F5420610508B2FB&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0060-2.jpg&quot; height=&quot;621&quot; width=&quot;400&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;불포화지방 &amp;amp; 포화지방은 들어봤는데 저포화지방이라... 기름에 튀기지 않은 생라면이라 그렇다 하네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;첨가재료들을 보니 와우!! 인떼르나씨오날 하네요.. 국제 식재료들의 향연~~!!&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그 중 오징어 먹물은 조국 에스빠냐 산!! Hecho en Espana !! Viva la patria !!&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;아..오징어는 저 멀리 페루에서 왔네요. 잉카의 후예들!! &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:400px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/2672B93E542061E814B598&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0061.jpg&quot; height=&quot;554&quot; width=&quot;400&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;조리방법은 일반적인 인스턴트 짜장면 제품들과 비슷합니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/2519EC455420622406AD96&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0062.jpg&quot; height=&quot;550&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이번에는 포장지를 개봉해 보았습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;스프류 포장지가 왠지 럭셔리 해 보입니다. 농심 올리브유 짜장이던가...그거 보면 올리브유 별첨 스프가 하나 들어있던데&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그것 대신 오징어먹물 섞인 올리브유 스프가 하나 들어있네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/23192945542062A708E62A&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0063.jpg&quot; height=&quot;527&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;건면의 아름다운 자태!! 건면이라 그냥 부셔먹으면 이빨 아파요!!&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;근데 색깔 참 먹음직 스럽네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:500px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/2173B83E5420630015EC77&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0065.jpg&quot; height=&quot;322&quot; width=&quot;500&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:500px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/2772A73E542063011676A4&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0066.jpg&quot; height=&quot;360&quot; width=&quot;500&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:500px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/2475233E5420630214F586&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0064.jpg&quot; height=&quot;466&quot; width=&quot;500&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이번엔 스프 3종 세트!! &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;확실히 건더기 스프에 오징어가 많이 들었네요. 농심 오징어짬뽕 보다 조금 더 들어있는 것 같아요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;오징어먹물 올리브유는 손에 약간 찍어서 먹어봤는데 원래 오징어먹물이 특유의 향이 없는지는 모르겠지만&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그냥 올리브유 맛만 나는 것 같아요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;SCRIPT src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot; async&gt;&lt;/SCRIPT&gt;
+ &lt;!-- 300x250, 작성됨 09. 4. 11 --&gt;&lt;INS style=&quot;WIDTH: 300px; DISPLAY: inline-block; HEIGHT: 250px&quot; class=adsbygoogle data-ad-slot=&quot;4053791995&quot; data-ad-client=&quot;ca-pub-5531766526822887&quot;&gt;&lt;/INS&gt;
+&lt;SCRIPT&gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/SCRIPT&gt;
+
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이제 조리법 대로 만들어 보겠습니다. 본 제품 그 자체의 맛을 즐겨보기 위해 기타 고명들 없이 재료 그대로 조리법&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그대로 만들어 볼게요!!&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/261D8A3F5420647E0D16CF&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0067.jpg&quot; height=&quot;496&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;먼저 끓는 물 600ml 에 면과~&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/23201F43542064A81233A7&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0068.jpg&quot; height=&quot;485&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;건더기스프를 넣고~~&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/22101446542064D306059D&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0069.jpg&quot; height=&quot;480&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;5분간 끓여 줍니다!!&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/211E403F542065000D824B&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0070.jpg&quot; height=&quot;512&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;5분간 끓인 후 물을 30ml (5스푼)만 남기고 따라 버립니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/251048465420657A07CFB7&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0071.jpg&quot; height=&quot;501&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그 다음 분만스프와~&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:500px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/24565642542065AA143898&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0072.jpg&quot; height=&quot;437&quot; width=&quot;500&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;오징어먹물 올리브유를 넣고~&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/2110D046542065C7071E3B&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0073.jpg&quot; height=&quot;504&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;잘 비벼주면~~&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/274ED141542065E3094CC5&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0074.jpg&quot; height=&quot;484&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;완성!!&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/22520A40542066350E029C&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0076.jpg&quot; height=&quot;570&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;완성작 !!&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;비쥬얼은 여타 인스턴트 짜장면들과 크게 다를 것&amp;nbsp;없어 보이네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/2419D7455420666A0BE383&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0077.jpg&quot; height=&quot;521&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;시식해 보겠습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;오 대박 &lt;IMG alt=대박 src=&quot;http://i1.daumcdn.net/mimg/mypeople/sticker/edit/02.png&quot;&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;
+&lt;DIV style=&quot;LINE-HEIGHT: 23px; FONT-FAMILY: NanumGothic; COLOR: rgb(121,121,121); FONT-SIZE: 17px&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;저는 오징어가 많이 들어가서 농심 오징어짬뽕면 처럼 많이 짤줄 알았는데 여타 인스턴트 짜장면류에 비해서 짠맛보다 달달한 향이 더 강하고 생각했던 것 보다 올리브유의 향취가 더 강해서 제 개인적으론 무척 맛있었습니다. &lt;/SPAN&gt;&lt;/DIV&gt;
+&lt;DIV style=&quot;LINE-HEIGHT: 23px; FONT-FAMILY: NanumGothic; COLOR: rgb(121,121,121); FONT-SIZE: 17px&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;단순히 짜장면이 아니라 남유럽의 면 퓨전요리를 먹는 느낌!!&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
+&lt;DIV style=&quot;LINE-HEIGHT: 23px; FONT-FAMILY: NanumGothic; COLOR: rgb(121,121,121); FONT-SIZE: 17px&quot;&gt;&lt;br /&gt;&lt;/DIV&gt;
+&lt;DIV style=&quot;LINE-HEIGHT: 23px; FONT-FAMILY: NanumGothic; COLOR: rgb(121,121,121); FONT-SIZE: 17px&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;특히 마음에 든건 튀기지 않은 건면의 식감. 튀긴면 특유의 푸석한 느낌 대신 정말 찰지고 쫄깃한 면의 식감이 무척이나 감칠맛 나더라구요. &lt;/SPAN&gt;&lt;/DIV&gt;
+&lt;DIV style=&quot;LINE-HEIGHT: 23px; FONT-FAMILY: NanumGothic; COLOR: rgb(121,121,121); FONT-SIZE: 17px&quot;&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;br /&gt;&lt;/DIV&gt;
+&lt;DIV style=&quot;LINE-HEIGHT: 23px; FONT-FAMILY: NanumGothic; COLOR: rgb(121,121,121); FONT-SIZE: 17px&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;한가지 아쉬운 점은 일반적인 짜장면류보다 양이 적다는 점. 원래 소식하는 제 입장엔 한끼로 그럭저럭 적절한 양이었지만 다른 분들에겐 간식꺼리 정도의 양밖에 안되더군요. 2개 끓여 드셔도 과식했단 느낌이 안들정도의 양.. &lt;/SPAN&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;모르겠네요.. 제가 일반적인 한국 분들의 입맛과는 많이 다른 것 같아서 다른 분들의 입맛에도 이게 맛있을지는 모르겠지만 제 개인적으론 한국에 있는 인스턴트 짜장면 중에선 제일 맛있는 것 같습니다. &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;저는 강추!!!&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/265414405420675F0FCAE2&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0078.jpg&quot; height=&quot;509&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;DIV style=&quot;LINE-HEIGHT: 23px; FONT-FAMILY: NanumGothic; COLOR: rgb(121,121,121); FONT-SIZE: 17px&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;왠지 다른 짜장면류는 밑에 국물이 남으면 짜고 나트륨 함량이 높을거 같아 그냥 버리게 되는데 요건 국물까지 남은 오징어 건더기와 함께 다 먹어버렸습니다. 왠지 국물까지 건강에 좋은것 같은 착각 ㅎㅎ 예..착각이겠죠~~ &lt;/SPAN&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;아무튼 4개들이 사온 것 다 먹으면 애써 롯데마트에 다시 가서라도 사올 것 같네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;한가지 슬픈 건 제가 맛있다고 부르짖으면 다 망해버리는 현실 ㅜㅜ&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;풀무원 계속 만들어 주세요.. &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&quot;한국인은 매운맛이야&quot;를&amp;nbsp;부르짖는 사람들에게 맛의 다양성을 보여주세요 ㅋㅋ&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이상 끝!!&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-418-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-418-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-418-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>먹거리,음료 리뷰</category>
+			<category>vnfandnjs</category>
+			<category>맵지않은 라면</category>
+			<category>짜장면 추천</category>
+			<category>짜지않은 라면</category>
+			<author>Rio F</author>
+			<guid>http://gitano.tistory.com/418</guid>
+			<comments>http://gitano.tistory.com/418#entry418comment</comments>
+			<pubDate>Tue, 23 Sep 2014 03:31:03 +0900</pubDate>
+		</item>
+		<item>
+			<title>태교음악무료듣기-태교에 좋은 음악,클래식 태교음악 소개</title>
+			<link>http://gitano.tistory.com/417</link>
+			<description>&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4174d9; FONT-SIZE: 12pt&quot;&gt;태교음악무료듣기-태교에 좋은 음악,클래식 태교음악 소개&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:434px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/24493A41541E6D720DA3A9&quot; filemime=&quot;image/jpeg&quot; filename=&quot;prenatal.jpg&quot; height=&quot;256&quot; width=&quot;434&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;일전에 제 블로그에 &lt;STRONG&gt;임산부에게 좋은 음식 및 과일 BEST 10 &lt;/STRONG&gt;이라는 주제로 건강 정보를 포스팅 한 적이 있었는데요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;(관련 글을 보시려면&amp;nbsp; ☞&amp;nbsp; &lt;A class=tx-link href=&quot;http://gitano.tistory.com/381&quot; target=_blank&gt;&lt;STRONG&gt;&lt;U&gt;&lt;SPAN style=&quot;COLOR: #4c4c4c&quot;&gt;http://gitano.tistory.com/381&lt;/SPAN&gt;&lt;/U&gt;&lt;/STRONG&gt;&lt;/A&gt;&lt;SPAN style=&quot;COLOR: #4c4c4c&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;)&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;산모에게 있어서 영양 섭취 만큼 중요한 부분이 바로 태교일 것 같아요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;특히&amp;nbsp;좋은 태교음악을&amp;nbsp;통해 새로 태어날 자녀의 정서 및 지능개발에 도움을 주는 것도 매우 중요하다는 생각이 듭니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;학자들의 연구 결과에 따르면 좋은 음악에 자극받고 태어난 아기들의 시각,청각,언어능력 및 학습 인지능력이&amp;nbsp;그렇지 못한&amp;nbsp;아기들에 비해 더 우수하다고 합니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그래서 오늘은 태교에 좋은 음악들을 몇가지 소개해 보려고 해요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4174d9; FONT-SIZE: 12pt&quot;&gt;1. 태아를 위한 베토벤 클래식 음악&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;IFRAME height=315 src=&quot;//www.youtube.com/embed/OQ-0Kse2-aY&quot; frameBorder=0 width=560 allowfullscreen&gt;&lt;/IFRAME&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;너무나도 유명한 베토벤(Ludwig Van Beethoven) 의 클래식 음악들 중 태교에 좋은 음악을 준비해 보았습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;런닝타임은 약 11분 정도 되네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4174d9; FONT-SIZE: 12pt&quot;&gt;2. 산모의 마음에 평온함을 주는 뉴에이지 계열의 음악&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;IFRAME height=315 src=&quot;//www.youtube.com/embed/baLDvk4OpnU&quot; frameBorder=0 width=420 allowfullscreen&gt;&lt;/IFRAME&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;산모가 편안한 마음으로 릴랙스 하면서 명상할 수 있는 서정적인 음악입니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;거의 4시간에 이르는 런닝타임의 음악이니 태교 음악 뿐 아니라 아기들 자장가로도 매우 좋은 음악이에요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;SCRIPT src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot; async&gt;&lt;/SCRIPT&gt;
+ &lt;!-- 300x250, 작성됨 09. 4. 11 --&gt;&lt;INS style=&quot;WIDTH: 300px; DISPLAY: inline-block; HEIGHT: 250px&quot; class=adsbygoogle data-ad-slot=&quot;4053791995&quot; data-ad-client=&quot;ca-pub-5531766526822887&quot;&gt;&lt;/INS&gt;
+&lt;SCRIPT&gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/SCRIPT&gt;
+
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4174d9; FONT-SIZE: 12pt&quot;&gt;3. 일동후디스가 제공하는&amp;nbsp;태교음악 웹사이트 이용하기&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;태교음악은 위에 제가 올려놓은 유튜브 동영상 말고도 무료이며&amp;nbsp;회원가입 필요없는 인터넷 사이트들을 통해서도 들으실 수 있어요. &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그런 사이트들 중 깔끔하게 한페이지에 잘 정리된 사이트가 있어서 소개해 드릴께요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;바로 일동후디스 공식 웹사이트 중 태교음악을 제공하는 페이지 인데요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;먼저&amp;nbsp;&amp;nbsp;&lt;A class=tx-link href=&quot;http://www.foodis.com/web/www/music&quot; target=_blank&gt;&lt;STRONG&gt;&lt;U&gt;&lt;SPAN style=&quot;COLOR: #980000&quot;&gt;http://www.foodis.com/web/www/music&lt;/SPAN&gt;&lt;/U&gt;&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;&amp;nbsp; ☜&amp;nbsp; 여기를 클릭해 주세요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;접속하면 바로 다음과 같은 화면이 뜨는데요~&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:695px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/2558224D541E72ED30F141&quot; filemime=&quot;image/jpeg&quot; filename=&quot;foodis_com_20140921_153832.jpg&quot; height=&quot;569&quot; width=&quot;695&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;총 20곡의 클래식 태교음악이 올려져 있네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;로그인 또는 회원가입 필요없이 바로 &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #980000&quot;&gt;음악감상&lt;/SPAN&gt;&lt;/STRONG&gt; 버튼을 누르면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:422px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/2672154A541E735C3178E8&quot; filemime=&quot;image/jpeg&quot; filename=&quot;2.jpg&quot; height=&quot;274&quot; width=&quot;422&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;바로 이렇게 음악 재생 플레이어 창이 뜨네요. 한가지 아쉬운 점은 20곡 연속 재생 기능은 없어서 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;한곡식 한곡씩 개별적으로 들어야 한다는 점이에요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그래도 쉽게 태교음악을 접할 수 있는 사이트이니 유용하실 것 같아요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;IFRAME height=110 marginHeight=0 src=&quot;http://ad.linkprice.com/stlink.php?m=kidsins&amp;amp;a=A100268067&amp;amp;width=400&amp;amp;height=110&amp;amp;target=_blank&quot; frameBorder=0 width=400 marginWidth=0 scrolling=no&gt;&lt;/IFRAME&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이상으로 태교음악 무료듣기 포스팅을 마칩니다^^&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-417-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-417-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-417-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>생활정보</category>
+			<category>xorydmadkr</category>
+			<category>자장가무료듣기</category>
+			<author>Rio F</author>
+			<guid>http://gitano.tistory.com/417</guid>
+			<comments>http://gitano.tistory.com/417#entry417comment</comments>
+			<pubDate>Sun, 21 Sep 2014 15:59:08 +0900</pubDate>
+		</item>
+		<item>
+			<title>Massimo Dutti(마시모두띠) 시계줄,밧데리 교체; 부평역 시계수리-정보석</title>
+			<link>http://gitano.tistory.com/416</link>
+			<description>&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4174d9; FONT-SIZE: 12pt&quot;&gt;Massimo Dutti(마시모두띠) 시계줄,밧데리 교체; 부평역 시계수리-정보석&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;DIV&gt;
+&lt;HR style=&quot;BORDER-BOTTOM: black 0px; BORDER-LEFT: black 0px; DISPLAY: block; HEIGHT: 1px; BORDER-TOP: black 1px dotted; BORDER-RIGHT: black 0px&quot;&gt;
+&lt;/DIV&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;오늘은 시계 정보글을 가장한 그냥 일상 포스팅이 될 것 같네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;지금으로부터 어언 3년전... &lt;STRONG&gt;Massimo Dutti &lt;/STRONG&gt;라는 Inditex 계열 브랜드에서 남성 가죽체인 시계를 구입하고 후기 포스팅을 한 적이 있는데요 (관련글을 보시려면&amp;nbsp; ☞&amp;nbsp; &lt;A class=tx-link href=&quot;http://gitano.tistory.com/232&quot; target=_blank&gt;&lt;STRONG&gt;&lt;U&gt;&lt;SPAN style=&quot;COLOR: #980000&quot;&gt;http://gitano.tistory.com/232&lt;/SPAN&gt;&lt;/U&gt;&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;)&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;보름전쯤 밧데리가 나가 버렸네요~~ 생각난김에&amp;nbsp;오늘 주말이고 해서 큰맘먹고 밧데리를 교체했습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/24798D39541D13AA3437E0&quot; filemime=&quot;image/jpeg&quot; filename=&quot;1.jpg&quot; height=&quot;639&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;밧데리 교체전 사진도 남기고.... 어디 죽으러 가나?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/230FA437541D13E43154BA&quot; filemime=&quot;image/jpeg&quot; filename=&quot;2.jpg&quot; height=&quot;665&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/2720D637541D13E51E1359&quot; filemime=&quot;image/jpeg&quot; filename=&quot;3.jpg&quot; height=&quot;633&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/2316A237541D13E62A8D36&quot; filemime=&quot;image/jpeg&quot; filename=&quot;4.jpg&quot; height=&quot;641&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;진짜 왜 찍었지? 팔 얼룩덜룩 한거....작년에 스티븐존슨 증후군에 걸렸어서 ㅜㅜ 마이 아파요 ㅜㅜ&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;SCRIPT src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot; async&gt;&lt;/SCRIPT&gt;
+ &lt;!-- 300x250, 작성됨 09. 4. 11 --&gt;&lt;INS style=&quot;WIDTH: 300px; DISPLAY: inline-block; HEIGHT: 250px&quot; class=adsbygoogle data-ad-slot=&quot;4053791995&quot; data-ad-client=&quot;ca-pub-5531766526822887&quot;&gt;&lt;/INS&gt;
+&lt;SCRIPT&gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/SCRIPT&gt;
+
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;아무튼 인터넷 검색해 보고 집에서 교체해 볼까 했는데...이거 괜히 시계에 기스만 날까봐 안되겠더라구요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;마침 제가 사는 동네인 부평 북부역 광장 근처에 시계수리점이 있어서 방문하기로 맘 먹었습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/251CC638541D14550AAE96&quot; filemime=&quot;image/jpeg&quot; filename=&quot;5.jpg&quot; height=&quot;519&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;아..이왕 밧데리 교체하는거 생각난김에 시계 줄도 교체해 보려구요. 새 시계 사는 기분으로다가...&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;검은 줄은 왠지 칙칙하고 싸구려 같아 보여서 옅은 갈색에 칙촉 초콜렛 박힌 듯한 시계줄로 교체하기로 결정하고~~&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;부평북부역 광장 바로 근처에 있는 &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4174d9&quot;&gt;정보석 &lt;/SPAN&gt;&lt;/STRONG&gt;이라는 시계방(시계수리점)을 방문했습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;위치는~~&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;iframe id=&quot;emap_844985&quot; src=&quot;/admin/entry/post/proxyPlusmapViewer.php?id=emap_844985&amp;amp;mapGb=V&quot; width=&quot;521&quot; height=&quot;451&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; mapdata=&quot;map_type=TYPE_MAP&amp;map_hybrid=false&amp;idx=1&amp;title=%EC%A0%95%EB%B3%B4%EC%84%9D&amp;addr=%EC%9D%B8%EC%B2%9C%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%80%ED%8F%89%EA%B5%AC%20%EB%B6%80%ED%8F%891%EB%8F%99&amp;tel=032-519-7775&amp;mapX=439120&amp;mapY=1108665&amp;ifrW=490px&amp;ifrH=362px&amp;addtype=1&amp;map_level=4&amp;rcode=2306051&amp;docid=&amp;confirmid=15231682&amp;mapWidth=490&amp;mapHeight=362&amp;mapInfo=%7B%22mapWidth%22%3A490%2C%22mapHeight%22%3A362%2C%22mapCenterX%22%3A439120%2C%22mapCenterY%22%3A1108665%2C%22mapLevel%22%3A4%2C%22coordinate%22%3A%22wcongnamul%22%2C%22markInfo%22%3A%5B%7B%22markerType%22%3A%22standPlace%22%2C%22coordinate%22%3A%22wcongnamul%22%2C%22x%22%3A439121%2C%22y%22%3A1108666%2C%22clickable%22%3Atrue%2C%22draggable%22%3Atrue%2C%22icon%22%3A%7B%22width%22%3A40%2C%22height%22%3A42%2C%22offsetX%22%3A14%2C%22offsetY%22%3A38%2C%22src%22%3A%22http%3A%2F%2Fi1.daumcdn.net%2Flocalimg%2Flocalimages%2F07%2F2012%2Fimg%2Fmarker_p.png%22%7D%2C%22content%22%3A%22%EC%A0%95%EB%B3%B4%EC%84%9D%22%2C%22confirmid%22%3A15231682%7D%5D%2C%22graphicInfo%22%3A%5B%5D%2C%22roadviewInfo%22%3A%5B%7B%22width%22%3A490%2C%22height%22%3A200%2C%22panoX%22%3A%22439113%22%2C%22panoY%22%3A%221108622%22%2C%22pan%22%3A%2210%22%2C%22tilt%22%3A%22-10%22%2C%22zoom%22%3A%220%22%2C%22panoId%22%3A%221017628582%22%2C%22storeId%22%3Anull%2C%22storePanoId%22%3Anull%2C%22storePan%22%3Anull%2C%22storeTilt%22%3Anull%2C%22storeZoom%22%3Anull%2C%22storePanoX%22%3Anull%2C%22storePanoY%22%3Anull%2C%22startStore%22%3Afalse%2C%22checkRoadView%22%3Atrue%2C%22checkStoreView%22%3Afalse%7D%5D%7D&amp;toJSONString=&quot;&gt;&lt;/iframe&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;오늘..그러니까 토요일 방문했는데 토요일이라 그런가.. 대략 10시 반~11시쯤 오픈하더군요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;시계 밧데리 + 시계 줄 교체에 6,000원&lt;/STRONG&gt; 들었습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/23200A36541D15AE25505B&quot; filemime=&quot;image/jpeg&quot; filename=&quot;10.jpg&quot; height=&quot;562&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;교체 후 사진1&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/246CC838541D15C841E580&quot; filemime=&quot;image/jpeg&quot; filename=&quot;11.jpg&quot; height=&quot;620&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;교체 후 사진2&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;시계 줄만 봤을땐 색이 너무 밝은 거 아닌가 싶었는데...막상 착용하고 보니 맘에 드네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;근데 아무래도 구입시 처음에 달려 있는 줄이 제일 예쁘고 가죽 질도 제일 나은 것 같아요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이 줄은 좀 뻑뻑하네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;하긴...품질이 제일 좋은 줄을 전면에 내세워서 팔겠죠... &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/23426536541D1663021FF6&quot; filemime=&quot;image/jpeg&quot; filename=&quot;12.jpg&quot; height=&quot;434&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그래도 30만원대 초반 가격대 제품에 시계줄 3개 + USB (이건 왜 넣어준겨???) 까지 주는 조건이면 꽤 합리적으로 보입니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;아..이쯤에서 갑자기 3년전 글에 달렸던 댓글이 생각나네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:417px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/26642A3A541D172F1077F5&quot; filemime=&quot;image/jpeg&quot; filename=&quot;tistory_com_20140920_142848.jpg&quot; height=&quot;147&quot; width=&quot;417&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이런 얘기를 해 주고 싶어요. &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;왜 샀냐고? 애국심 때문에 샀다!!&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;내가 차면 마시모 두띠도 까르띠에 같아 보이고...&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;니가 차면 까르띠에도 돌핀스 같아 보이고...&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;결국 패션의 완성은 얼굴 !! Vale?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이상 3년전 댓글에도 마음을 담아두고 있는 마음이 넓은 남자 Rio 였습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;마지막으로 나름 필터 효과 좀 준 착용샷!!&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:520px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/23621735541D17C5093B90&quot; filemime=&quot;image/jpeg&quot; filename=&quot;13.jpg&quot; height=&quot;520&quot; width=&quot;520&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:520px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/22300A39541D17F207BD49&quot; filemime=&quot;image/jpeg&quot; filename=&quot;14.jpg&quot; height=&quot;538&quot; width=&quot;520&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;도대체 오늘 글의 주제와 목적은 무엇인가?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;시계방 정보야? 시계 자랑이야? 악플 씹기야? 음.... 끝!!&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-416-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-416-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-416-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>생활정보</category>
+			<category>부평역 시계방</category>
+			<category>시계 밧데리 교체비용</category>
+			<author>Rio F</author>
+			<guid>http://gitano.tistory.com/416</guid>
+			<comments>http://gitano.tistory.com/416#entry416comment</comments>
+			<pubDate>Sat, 20 Sep 2014 15:11:13 +0900</pubDate>
+		</item>
+		<item>
+			<title>칠레 공휴일 정보 (2014년)</title>
+			<link>http://gitano.tistory.com/415</link>
+			<description>&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #2f9d27; FONT-SIZE: 12pt&quot;&gt;[무역관련 정보] 칠레 공휴일 정보 (2014년)&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;지금껏 몇번 제 블로그에서도 언급을 한 것 같은데&lt;br /&gt;저는 무역(수출)업에 종사하고 있으며 주로 중,남미(라틴 아메리카)로 수출을 진행하고 있습니다.&amp;nbsp;&lt;br /&gt;&amp;nbsp;&lt;br /&gt;&amp;nbsp;&lt;br /&gt;중남미 바이어들과 사업을 하면서 가장 답답한 부분이 그들의 느린 업무 패턴을 이해해 주어야 한다는 점인데요.&lt;br /&gt;아니...업무가 느린건 당연히 이해해 줄 수 있는 부분이지만 가장 답답한건 갑자기 예고도 없이 잠수를 잘탄다는 점이에요 ㅜㅜ &lt;br /&gt;&amp;nbsp;&lt;br /&gt;&amp;nbsp;&lt;br /&gt;뭔가 중요한 업무 협의차 긴급히 이메일을 바이어 측에 보냈는데 바이어로 부터 일주일이 지나도 답이 안오는 경우가 허다합니다.&lt;br /&gt;나중에 알고보면 예고도 없이 묻지도 따지지도 않고 공휴일 ㅜㅜ&lt;br /&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;br /&gt;이번주에도 칠레 바이어들 전부가 답변이 없고 단체로 잠수를 타버려서 내친김에 칠레 공휴일 정보를 알아 보았습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;차라리 공휴일이라 답이 없는걸 알게되면 마음이라도 편해지니까요 ㅎㅎ&amp;nbsp;&lt;br /&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;br /&gt;지금부터 칠레(Chile) 의 2014년도 공휴일 정보를 알려 드립니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;칠레와 무역업을 하거나 아니면 여행 등을 계획하실때 본 정보를 이용하시길 바랍니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4174d9; FONT-SIZE: 11pt&quot;&gt;▶먼저 칠레인 전체에 해당하는 공휴일 정보&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:616px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/2711B53D541BA1B72D23C2&quot; filemime=&quot;image/jpeg&quot; filename=&quot;feriados chilenos-2014.jpg&quot; height=&quot;527&quot; width=&quot;616&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;▲원문출처: &lt;A href=&quot;http://www.feriados.cl/&quot;&gt;http://www.feriados.cl/&lt;/A&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;역시나 이번주에 바이어들이 전멸인 이유가 있었네요. 독립기념일 연휴로군요. 9월 18~19일 목,금요일에 이어&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;토,일요일....연이어 4일을 쉬는군요...부..부럽다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #4174d9; FONT-SIZE: 11pt&quot;&gt;▶특정 지역 또는 특정 직업군에만 해당하는 공휴일 정보&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그 밖에 특정 지역 또는 특정 직업군에 해당하는 공휴일도 있는데..&lt;/SPAN&gt;&lt;/P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;
+&lt;P&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial&quot;&gt;2014년의 경우&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;☞ &lt;STRONG&gt;Arica&lt;/STRONG&gt; 와&lt;STRONG&gt; Parinacota &lt;/STRONG&gt;지방에서는 &lt;STRONG&gt;6월 7일 (토요일)&lt;/STRONG&gt; Asalto y Toma del Morro de Arica 기념일이며&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;☞ &lt;STRONG&gt;Chillán&lt;/STRONG&gt; 과 &lt;STRONG&gt;Chillán Viejo &lt;/STRONG&gt;지방에서는 &lt;STRONG&gt;8월 20일 (수요일)&lt;/STRONG&gt; 독립 영웅 탄생일로 쉬며&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;☞ &lt;STRONG&gt;Antofagasta&lt;/STRONG&gt; 지역에서는 &lt;STRONG&gt;9월 8일 (월요일)&lt;/STRONG&gt; 과달루뻬 성녀 기념일로 쉬며&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;☞ &lt;/SPAN&gt;&lt;STRONG&gt;Coquimbo&lt;/STRONG&gt; 지역에서는&lt;STRONG&gt; 9월 20일 (토요일) &lt;/STRONG&gt;Pampilla (빰삐야) 축제로 인해 쉬며&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;☞ &lt;/SPAN&gt;그 밖에 &lt;STRONG&gt;은행기관 노동자&lt;/STRONG&gt;의 경우 &lt;STRONG&gt;12월 31일 (수요일) &lt;/STRONG&gt;휴무입니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;SCRIPT src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot; async&gt;&lt;/SCRIPT&gt;
+ &lt;!-- 300x250, 작성됨 09. 4. 11 --&gt;&lt;INS style=&quot;WIDTH: 300px; DISPLAY: inline-block; HEIGHT: 250px&quot; class=adsbygoogle data-ad-slot=&quot;4053791995&quot; data-ad-client=&quot;ca-pub-5531766526822887&quot;&gt;&lt;/INS&gt;
+&lt;SCRIPT&gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/SCRIPT&gt;
+
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;DIV style=&quot;BORDER-BOTTOM: #f3c534 1px solid; BORDER-LEFT: #f3c534 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #fefeb8; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #f3c534 1px solid; BORDER-RIGHT: #f3c534 1px solid; PADDING-TOP: 10px&quot; class=txc-textbox&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4c4c4c; FONT-SIZE: 11pt&quot;&gt;기타 유용한 정보&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;콜롬비아 공휴일 정보 (2014년)&amp;nbsp; ☞ &lt;A class=tx-link href=&quot;http://muchodinero.tistory.com/21&quot; target=_blank&gt;&lt;STRONG&gt;&lt;U&gt;&lt;SPAN style=&quot;COLOR: #980000&quot;&gt;http://muchodinero.tistory.com/21&lt;/SPAN&gt;&lt;/U&gt;&lt;/STRONG&gt;&lt;/A&gt;&lt;/P&gt;&lt;/SPAN&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;한-칠레 FTA 에 따른 원산지증명서(C/O) 양식 파일 다운로드 및 작성방법&lt;/SPAN&gt;&lt;br /&gt;☞&amp;nbsp;&amp;nbsp; &lt;A class=tx-link href=&quot;http://gitano.tistory.com/383&quot; target=_blank&gt;&lt;STRONG&gt;&lt;U&gt;&lt;SPAN style=&quot;COLOR: #980000&quot;&gt;http://gitano.tistory.com/383&lt;/SPAN&gt;&lt;/U&gt;&lt;/STRONG&gt;&lt;/A&gt;&lt;br /&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-415-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-415-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-415-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>Negocio</category>
+			<category>clffp</category>
+			<category>중남미 공휴일</category>
+			<author>Rio F</author>
+			<guid>http://gitano.tistory.com/415</guid>
+			<comments>http://gitano.tistory.com/415#entry415comment</comments>
+			<pubDate>Fri, 19 Sep 2014 12:38:56 +0900</pubDate>
+		</item>
+		<item>
+			<title>무료 종이접기 사이트 소개 (오리가미,Origami)-회원가입 필요없이 무료로 배울 수 있는 사이트</title>
+			<link>http://gitano.tistory.com/414</link>
+			<description>&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;DIV style=&quot;BORDER-BOTTOM: #c1c1c1 1px solid; BORDER-LEFT: #c1c1c1 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #eeeeee; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #c1c1c1 1px solid; BORDER-RIGHT: #c1c1c1 1px solid; PADDING-TOP: 10px&quot; class=txc-textbox&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;무료 종이접기 사이트 소개 (오리가미,Origami)-회원가입 필요없이 무료로 배울 수 있는 사이트&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/DIV&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;오늘은 온라인 상으로 종이접기를 배울 수 있는 사이트인 &lt;STRONG&gt;오리가미&lt;/STRONG&gt; 라는 사이트를 소개해 보려고 합니다. &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;물론 회원가입 및 로그인 필요없고 &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;무료이면서 다양한 종이접기를 배울 수 있는 사이트 입니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;난이도 별, 카테고리 별로 매우 다양한 종류의 종이접기가 있으며 또 이미지 또는 애니메이션 두 가지&amp;nbsp;방식으로 쉽게 배울 수 있는 사이트에요.&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;종이접기에 관심이 많거나 아니면 누군가에게 선물하고 싶을때 유용한 사이트 일것 같네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;먼저 오리가미 사이트 주소는&amp;nbsp;&lt;A class=tx-link href=&quot;http://en.origami-club.com/&quot; target=_blank&gt;&lt;STRONG&gt;&lt;U&gt;&lt;SPAN style=&quot;COLOR: #980000&quot;&gt;http://en.origami-club.com/&lt;/SPAN&gt;&lt;/U&gt;&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;&amp;nbsp; ☜ 이 주소를 클릭하세요.&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:442px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/265E034A541A4E7E1902EB&quot; filemime=&quot;image/jpeg&quot; filename=&quot;1.jpg&quot; height=&quot;660&quot; width=&quot;442&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;접속하면 화면 중앙에 위와 같은 화면이 뜹니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;기본적으로 영어로 되어 있고 만약 다른 언어로 보고 싶으실 경우 윗부분 오렌지색 테두리 친 부분에서 원하는 언어를 선택할 수 있어요. &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;U&gt;영어 포함 일어,중국어,스페인어,불어,독어,러시아어,힌디어&lt;/U&gt;가 지원되지만 한국어는 지원되지 않네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;언어를 선택한 다음&amp;nbsp;밑 부분 빨간색 테두리 친 부분을 보면&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;여러가지 카테고리의 종이 접기를 선택할 수 있습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;U&gt;동물,해양생물,과일&amp;amp;야채,발렌타인,악세사리,꽃,곤충,크리스마스&lt;/U&gt; 등 다양한 카테고리가 있으니 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;관심있는 카테고리를 선택 하시면 되요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;저는 &lt;STRONG&gt;Bugs&lt;/STRONG&gt; (벌레)&amp;nbsp;를 선택해 볼께요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/2503F24E541A53022684F7&quot; filemime=&quot;image/jpeg&quot; filename=&quot;2.jpg&quot; height=&quot;759&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;Bugs 를 선택하니 여러가지 벌레류(곤충) 종이접기가 나오네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;별표는 난이도를 의미합니다. 별이 많을수록 난이도가 어렵다는 뜻이에요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;또 (anime) 라고 적혀 있는 것들은 애니메이션 즉 동영상 방식으로도 배울 수 있다는 의미입니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;저는 &lt;STRONG&gt;Grasshopper &lt;/STRONG&gt;(메뚜기)를 선택해 볼께요~&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:698px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/27778A4D541A542B107D24&quot; filemime=&quot;image/jpeg&quot; filename=&quot;3.jpg&quot; height=&quot;310&quot; width=&quot;698&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그러자 좀 더 큰 메뚜기 사진이&amp;nbsp;보여지면서 배울 수 있는 방식을 선택하는 부분이 나옵니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;▶먼저 &lt;STRONG&gt;Diagram&lt;/STRONG&gt; 을 선택해 볼께요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:571px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/2121C447541A549D233B8F&quot; filemime=&quot;image/jpeg&quot; filename=&quot;4.jpg&quot; height=&quot;725&quot; width=&quot;571&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;Diagram 은 쉽게 말해서 이미지를 통해 배우는 거에요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;영어에 약해도 그림만 보고도 따라할 수 있을 것 같아요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;▶이번에는&amp;nbsp;&lt;STRONG&gt;Animation&lt;/STRONG&gt; 을 선택해 볼께요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:493px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/24203B4F541A552B318B2F&quot; filemime=&quot;image/jpeg&quot; filename=&quot;5-1.jpg&quot; height=&quot;411&quot; width=&quot;493&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:482px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/272AF54F541A552B230AEE&quot; filemime=&quot;image/jpeg&quot; filename=&quot;5-2.jpg&quot; height=&quot;373&quot; width=&quot;482&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;플래쉬 파일 형식같네요. Start 와 Stop 버튼을 이용해서 재생해 볼 수 있으며&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;스피드 조절도 가능하네요. 난이도가 어려울 경우 천천히 스피드를 조절해서 보시면 될 것 같아요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이번엔 Bugs 말고 다른 카테고리에는 어떤 종이접기들이 있는지 몇가지 보여드릴께요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:604px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/23664F48541A56283F8121&quot; filemime=&quot;image/jpeg&quot; filename=&quot;6.jpg&quot; height=&quot;906&quot; width=&quot;604&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;발렌타인 데이를 위한 종이접기도 있네요. &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:589px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/2418AE47541A564935766E&quot; filemime=&quot;image/jpeg&quot; filename=&quot;7-sea.jpg&quot; height=&quot;555&quot; width=&quot;589&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이건 해양생물 접기 입니다. &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;거북이,고래,펭귄,게,상어 등 다양한 종이접기가 수록되어 있어요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;SCRIPT src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot; async&gt;&lt;/SCRIPT&gt;
+ &lt;!-- 300x250, 작성됨 09. 4. 11 --&gt;&lt;INS style=&quot;WIDTH: 300px; DISPLAY: inline-block; HEIGHT: 250px&quot; class=adsbygoogle data-ad-slot=&quot;4053791995&quot; data-ad-client=&quot;ca-pub-5531766526822887&quot;&gt;&lt;/INS&gt;
+&lt;SCRIPT&gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/SCRIPT&gt;
+
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이처럼 카테고리 별로 꽤 다양한 종이접기를 소개하고 있어 취미활동으로 종이접기에 도전해 보는것도&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;재미있을 것 같습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;또 발렌타인 데이용 종이접기는 이성친구에게 선물해 보는 것도 좋을 것 같아요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;결론은...&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;저는 안 접을 겁니다~~~ 귀찮아~~~&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-414-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-414-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-414-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>생활정보</category>
+			<category>공작</category>
+			<category>종이접기</category>
+			<category>종이접기교실</category>
+			<author>Rio F</author>
+			<guid>http://gitano.tistory.com/414</guid>
+			<comments>http://gitano.tistory.com/414#entry414comment</comments>
+			<pubDate>Thu, 18 Sep 2014 12:56:53 +0900</pubDate>
+		</item>
+		<item>
+			<title>MCC 고베식당 비프카레를 이용해서 정크 푸드를 만들어 봤어요!!</title>
+			<link>http://gitano.tistory.com/413</link>
+			<description>&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff5e00; FONT-SIZE: 12pt&quot;&gt;MCC 고베식당 비프카레로 만들어본 정크 푸드&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:520px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/22697D4C5418AF4334F082&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0001.jpg&quot; height=&quot;500&quot; width=&quot;520&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;며칠전 늦은 밤..&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;배는 무지 고픈데 집에 먹을 게 없길래 집근처 편의점을 갔다가 평소에 못봤던 카레 제품이 있길래 하나 사왔습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;뭔가 제품 포장이 3분카레보다 고급스러워 보여서~&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/2214374D5418AFE435BF27&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0001.jpg&quot; height=&quot;673&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;MCC 고베식당 비프카레 !!&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;편의점 진열대에 보니 종류는 &lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;MCC 고베식당 비프카레 순한맛,약간매운맛 // &lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;MCC 고베식당 치킨카레 순한맛,약간매운맛 &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이렇게 4종류가 있더라구요.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;제 개인적으론 카레는 약간 칼칼하게 매운 맛을 좋아해서 비프카레 약간매운맛으로 사왔어요.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;제품 앞면에 보니 큼직한 쇠고기가 들어있다고 자랑하고 있네요 ~&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/2769834C5418B0AB344FD7&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0003.jpg&quot; height=&quot;436&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;쇠고기가 9.38% 가 들어있으면 제법 많이 들어있는거 아닌가요? 아닌가...&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;무게는 160g, 칼로리는 150kcal 이군요. MCC 고베식당 치킨카레는 참고로 155kcal 이더군요.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;5kcal 가 부족해서 화가 나네요.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;가격은 편의점에서 2,400원에 사왔습니다. 대형마트나 동네 슈퍼에서도 판매하는지는 모르겠네요. 가격은 판매 장소마다&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;다를 것 같네요.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/245461395418D0371CDB13&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0009.jpg&quot; height=&quot;297&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;제품 측면 사진!!&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;지금 보니 매일유업에서 생산하는 제품이네요. &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;첨에 제품 앞면만 보고선 일본 기업 MCC 에서 만든 제품을 직수입 하는 것으로 생각했는데 기술제휴 한 제품인가&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;봅니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;매일유업에서 유제품이 아닌 인스턴트 식품도 나온다니 왠지 뜬금없지만...&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;뭐 제가 싫어하는 소젖파는 다른 업소 제품만 아니라면 상관 없습니다 ㅎㅎ&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; COLOR: #ff0000; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;젖파는 애들이 갑이 되길 원하는 세상을&amp;nbsp;nosotros lo llamamos &quot;젖갑&quot;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;쇠고기(호주산)이 9.38% 들어있고 그 밖에 양파,당근,MCC 카레분말 등이 들어있습니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;토마토페이스트도 들어가 있네요. 원래 카레에 들어가나요?!&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/2717B4365418D1621CE372&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0005.jpg&quot; height=&quot;741&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;제품 뒷면 사진!!&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;키미코는 누구야? 예쁜가?&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;80년 전통의 일본 식품기업 MCC 사와의 기술제휴로 만들어졌다고 하는데 전 소니,산요,도요타,닛산 말고는 일본 기업은&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;잘 모르니 패스!! &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;오레노 오야지다요 ~~~ 일본 친구에게 배운 뜬금없는 일본어 한마디 ㅋ&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/2303203C5418D20B195FED&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0006.jpg&quot; height=&quot;453&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;호기심에 &lt;A href=&quot;http://www.kobekitchen.com/&quot;&gt;www.kobekitchen.com&lt;/A&gt; 에도 접속해 봤는데 뭐 특별한건 없네요. 회사 소개정도 !!&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이 제품으로 할 수 있는 요리들 레시피도 올려주면 좋을 것 같은데...&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/242161335418D2771B548F&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0007.jpg&quot; height=&quot;390&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;조리법은 간단합니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;끓는물에 중탕시엔 3분,,, 전자렌지 이용시엔 2분,,, 단 전자렌지 이용시엔 포장용기채로 데우면 안되고 밥위에 부어서&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;데우라네요. &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;건방지게 명령하지마라...난 이런 고정관념이 싫단 말이다..왜 꼭 밥이랑 먹어야 하는가? 빵이랑 먹을거다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/2605CA355418D33B2D6545&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0010.jpg&quot; height=&quot;759&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;제품 개봉!!&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;왠지 이런 포장형태는 고래밥이나 칸초가 생각나게 하는 군요.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/22607C395418D3721DAF1F&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0012.jpg&quot; height=&quot;604&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;제품 뒷면에도 조리법이 한번 더 기재되어 있고..&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;제품 겉 박스 뜯으면서 그새 잊어버렸을까봐 친절하게 다시 설명해주니 감동적입니다 그려..&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/262D123A5418D3C32268BD&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0013.jpg&quot; height=&quot;601&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;물에 끓이도록 하겠습니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;SCRIPT type=text/javascript charset=euc-kr src=&quot;http://rsense-ad.realclick.co.kr/rsense/rsense_ad.js?rid=491652316480&amp;amp;stamp=1410915015&amp;amp;v_method=YmFubmVyfDI0MHgyNDA&quot;&gt;&lt;/SCRIPT&gt;
+ 
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;아..근데 생각해 보니 집에 인도 난이나 짜빠띠는 말할 것도 없고&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;밥도 빵도 없네요.. &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;집은 황량한 사막과도 같습니다. Un desierto donde nadie vive......la vida es asi siempre...&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그래서 오늘은 새로운 요리를 창조해 보기로 했습니다. &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;여러분은 실험정신 충만한 요리업계의 적그리스도 Rio 님의 블로그를 보고 계십니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;지난번에 제 블로그에도 소개한 적 있는 강식품 수연소면~~~&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;(관련 포스팅을 보시려면&amp;nbsp; ☞&amp;nbsp; &lt;A class=tx-link href=&quot;http://gitano.tistory.com/400&quot; target=_blank&gt;&lt;STRONG&gt;&lt;U&gt;&lt;SPAN style=&quot;COLOR: #ff5e00&quot;&gt;http://gitano.tistory.com/400&lt;/SPAN&gt;&lt;/U&gt;&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;)&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/250846355418D4E62E555A&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0014.jpg&quot; height=&quot;539&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이걸 사용해 보겠습니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;지금 다시봐도 비쥬얼 좋군요. 왠지 카레와 함께 먹으면 딸기 초콜렛 카레가 될 것 같은 로맨틱한 예감...&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/260362385418D53A06D264&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0016.jpg&quot; height=&quot;513&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;끓는물에 넣어야 하는데 실험정신의 일환으로 찬물에 넣습니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/2252D5395418D5652F2664&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0019.jpg&quot; height=&quot;494&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;다 익었습니다. 색감 예뻐요~~&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/222CCD3A5418D58327DBF3&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0020.jpg&quot; height=&quot;479&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;물을 따라 버린 후~~~&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/21167C335418D6682F328A&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0021.jpg&quot; height=&quot;528&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;카레를 부어줍니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;제가 올해 찍은 사진 중 가장 마음에 드는 작품사진입니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;저 영롱하게 떨어지는 한방울의 카레를 보십시오. 그 얼마나 아름답지 아니하리까..?!&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;마치 와이어에 매달린 여전사를 보는 듯한 고운 자태....&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/232DD93A5418D6D22C69D6&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0022.jpg&quot; height=&quot;496&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이번엔 두 방울!!&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/2606FB3C5418D6EC2764FF&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0023.jpg&quot; height=&quot;455&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;다 부어준 후 !!&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;카레의 좋은 향이 코끝을 자극합니다....같은 블로그용 스테레오타입 멘트....&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/22468F345418D74F04C875&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0024.jpg&quot; height=&quot;457&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;야채는 전반적으로 잘게 썰어져 있어요. 당근 같은 경우 밥알 크기!!&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;부드럽고 좋아요.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;카레의 맛은 전반적으로 3분카레류의 전형적인 인스턴트 맛 카레가 아니라 예전에 즐겨 먹었던 CJ 인델리 커리 시리즈&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;같은 좀 더 정통카레 같은 맛입니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;특히 토마토 페이스트가 제품에 들어 있어서 그런지 뭔가 스파게티의 향도 은은하게 나면서 적정하게 칼칼한 매운맛과&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;잘 어우러 집니다.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;제 취향엔 맛있어요. &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/2305C8395418D83405D641&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0025.jpg&quot; height=&quot;453&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;잘 비벼서~~&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/2626B0375418D8492F59C5&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0026.jpg&quot; height=&quot;463&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;블로그용 매우 상투적인 사진!!&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/2138AF375418D8761F50D3&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_0027.jpg&quot; height=&quot;466&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;쇠고기!!&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이런게 몇개 들었는지는 안세어봐서 모르겠네요.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;SCRIPT src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot; async&gt;&lt;/SCRIPT&gt;
+&lt;!-- 300x250, 작성됨 09. 4. 11 --&gt;&lt;INS style=&quot;WIDTH: 300px; DISPLAY: inline-block; HEIGHT: 250px&quot; class=adsbygoogle data-ad-slot=&quot;4053791995&quot; data-ad-client=&quot;ca-pub-5531766526822887&quot;&gt;&lt;/INS&gt;
+&lt;SCRIPT&gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/SCRIPT&gt;
+
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;앞에서 말씀드린 것 처럼 은은하게 토마토 향도 나고해서 밥보다는 마늘빵을 찍어먹으면 꽤 어울릴 것 같네요.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;아니면 난 만드는 가루도 팔던데 다음엔 집에서 난이나 해서 같이 먹어봐야 겠어요.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;아무튼 저는 이 제품 만족합니다!!&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;끝!!&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-413-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-413-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-413-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>먹거리,음료 리뷰</category>
+			<category>개밥</category>
+			<category>소젖사랑</category>
+			<author>Rio F</author>
+			<guid>http://gitano.tistory.com/413</guid>
+			<comments>http://gitano.tistory.com/413#entry413comment</comments>
+			<pubDate>Wed, 17 Sep 2014 09:48:48 +0900</pubDate>
+		</item>
+		<item>
+			<title>그림판 사진 크기 조절하는 법,그림판에서 사진크기(사이즈) 줄이는 방법</title>
+			<link>http://gitano.tistory.com/412</link>
+			<description>&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;DIV style=&quot;BORDER-BOTTOM: #c1c1c1 1px solid; BORDER-LEFT: #c1c1c1 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #eeeeee; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #c1c1c1 1px solid; BORDER-RIGHT: #c1c1c1 1px solid; PADDING-TOP: 10px&quot; class=txc-textbox&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;FONT-SIZE: 11pt&quot;&gt;그림판 사진 크기 조절하는 법,사진크기 줄이는 방법&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt; &lt;/DIV&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;저는 지금까지 사진 파일 사이즈를 조절해야 할때 보통 포토샵을 사용했었습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그런데 최근 윈도우를 다시 깐 후에는 포토샵이 컴퓨터에 설치되어 있지 않아서 그림판으로 사진 크기를 조절하고&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;있습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그림판을 이용해서 사진 크기를 줄이는 방법은 매우 간단한데 의외로 사용법을 모르는 분들이 계시더라구요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그래서 오늘은 그림판에서 사진 사이즈를 조정하는 방법에 대해 간단하게 설명해 보도록 할께요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;(※그전에 미리 말씀드릴 사항은 제 컴에 설치되어 있는 그림판은 윈도우7 에 딸린 그림판 입니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&amp;nbsp;&amp;nbsp; 윈도우 버전이 다르면 그림판의 세부적인 버튼 위치가 조금씩 다를 수도 있으니 이 점 참고하세요!!)&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:279px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/272065395418474A282CCD&quot; filemime=&quot;image/jpeg&quot; filename=&quot;0.jpg&quot; height=&quot;190&quot; width=&quot;279&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;먼저 위에 사진이 제가 오늘 사진 크기를 줄여 볼 실험용 사진입니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;가로 1600픽셀인데 제 블로그 가로폭은 700픽셀 입니다. &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;크기도 1.32mb !!! 쓸데 없이 커서 용량만 잡아 먹을 것 같네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;따라서 그림판을 사용하여 가로 700픽셀로 줄여보도록 할께요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/2279EB33541847AE1E61D6&quot; filemime=&quot;image/jpeg&quot; filename=&quot;1.jpg&quot; height=&quot;439&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;먼저 그림판을 실행시킨 다음 사이즈를 조절하고 싶은 사진을 불러와 주세요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;사진을 그림판으로 불러오는 방법에는 여러가지가 있는데 그 중에서 저는 위와같이 사진을 마우스로 드래그 하는 방법을&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;주로 사용합니다. 마우스 좌측 버튼을 사진에 클릭한 후 그대로 끌어와서 그림판에 옮겨주면 되요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/2572AC3A541848242FA996&quot; filemime=&quot;image/jpeg&quot; filename=&quot;2.jpg&quot; height=&quot;461&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그러면 이렇게 그림판에 사진이 불러와졌습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;확실히 가로 1600 픽셀이라 사진이 크네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:696px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/2540683C5418485537ED5C&quot; filemime=&quot;image/jpeg&quot; filename=&quot;3.jpg&quot; height=&quot;473&quot; width=&quot;696&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이제 사이즈를 줄여 볼께요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;사이즈를 줄이기 위해서는 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;먼저 그림판 상단의 &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;홈&lt;/SPAN&gt;&lt;/STRONG&gt; 버튼을 눌러준 다음 -&amp;gt; &lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;&lt;STRONG&gt;크기 조정&lt;/STRONG&gt;&lt;/SPAN&gt;을 클릭핵 줍니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:689px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/2553F93C541848A719C001&quot; filemime=&quot;image/jpeg&quot; filename=&quot;4.jpg&quot; height=&quot;516&quot; width=&quot;689&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그러면 이렇게 크기 조정을 위한 별도 창이 뜹니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:694px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/2353F93C541848C91A5493&quot; filemime=&quot;image/jpeg&quot; filename=&quot;5.jpg&quot; height=&quot;505&quot; width=&quot;694&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;여기서 백분율 대신 &lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;&lt;STRONG&gt;픽셀&lt;/STRONG&gt;&lt;/SPAN&gt;을 선택해 주세요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그리고 &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff5e00&quot;&gt;가로 세로 비율 유지&lt;/SPAN&gt;&lt;/STRONG&gt;에 체크 하신 다음에&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;가로&lt;/SPAN&gt;&lt;/STRONG&gt; 부분에 원하는 픽셀 사이즈를 적어 넣습니다. 그리고 &lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;&lt;STRONG&gt;확인&lt;/STRONG&gt;&lt;/SPAN&gt; 버튼 클릭 !!&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;** 만약 가로 세로 비율 유지를 체크 해제 하고 가로 사이즈를 줄이면 세로 사이즈가 따라서 안 줄어들기 때문에 사진이&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&amp;nbsp;&amp;nbsp; 짜부납니다 ~~&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/2717663B5418497C2DEDCA&quot; filemime=&quot;image/jpeg&quot; filename=&quot;6.jpg&quot; height=&quot;505&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이제 사진 사이즈가 가로 700 픽셀로 줄어 들었네요. 물론 세로 사이즈도 같은 비율로 줄어 들었습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이제 컴퓨터에 저장만 해 주면 되겠네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/2166BF34541849B30A93B6&quot; filemime=&quot;image/jpeg&quot; filename=&quot;7.jpg&quot; height=&quot;570&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;사진을 컴에 저장하려면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;상단 제일 좌측의 버튼을 클릭 한 다음 저장 또는 다른 이름으로 저장을 클릭해서 저장해 주면 됩니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;만약 사이즈 축소 전 원본사진도 보관하고 싶다면 다른 이름으로 저장을 클릭해서 새로운 이름으로 저장해 주시면 되요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:266px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/2666BC3454184A320C5D0F&quot; filemime=&quot;image/jpeg&quot; filename=&quot;8.jpg&quot; height=&quot;203&quot; width=&quot;266&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;자...이제 컴에 새로이 저장된 사이즈가 축소된 사진입니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;가로 세로 길이 뿐만 아니라 크기도 많이 줄어들었네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;SCRIPT src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot; async&gt;&lt;/SCRIPT&gt;
+ &lt;!-- 300x250, 작성됨 09. 4. 11 --&gt;&lt;INS style=&quot;WIDTH: 300px; DISPLAY: inline-block; HEIGHT: 250px&quot; class=adsbygoogle data-ad-slot=&quot;4053791995&quot; data-ad-client=&quot;ca-pub-5531766526822887&quot;&gt;&lt;/INS&gt;
+&lt;SCRIPT&gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/SCRIPT&gt;
+
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;이런 방법으로 윈도우에 기본적으로 깔려있는 그림판 프로그램을 통해서도 손쉽게 사진 크기를 조절할 수 있습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-412-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-412-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-412-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>Utility/Internet</category>
+			<category>사진크기 조절 프로그램</category>
+			<author>Rio F</author>
+			<guid>http://gitano.tistory.com/412</guid>
+			<comments>http://gitano.tistory.com/412#entry412comment</comments>
+			<pubDate>Tue, 16 Sep 2014 23:40:41 +0900</pubDate>
+		</item>
+		<item>
+			<title>불면증에 좋은 음식 &amp; 차, 숙면에 좋은 음식,잠잘오게하는음식 BEST 7</title>
+			<link>http://gitano.tistory.com/411</link>
+			<description>&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4c4c4c; FONT-SIZE: 11pt&quot;&gt;불면증에 좋은 음식,숙면에 좋은 음식,잠잘오게하는음식 BEST 7&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/21465B4754161E6516D2B4&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Insomnio.jpg&quot; height=&quot;394&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;저 역시 몇년전부터 불면증에 시달리고 있습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;아무래도 일로인한 스트레스 때문인 것 같은데요. 이걸 불면증이라 말할 수 있는지는 정확히 모르겠지만 한번에 2~3시간&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;밖에 못자서 하루에 두 번 끊어서 자게 되네요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;그러다보니 자연히 면역력이 떨어져서 작년에 중병으로 고생한 것 같기도 하구요.&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;아무튼 그래서 저도 불면증에 좋은 음식 또는 습관 등을 공부할 겸 해서 해외 건강관련 사이트에서 조사한 불면증 개선,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;즉, 숙면에 좋은 음식 7가지를 포스팅 해 보려고 합니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4174d9; FONT-SIZE: 11pt&quot;&gt;1. 우유&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:500px;WIDTH: 500px; HEIGHT: 504px;height:auto&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/217E114154164F2C1F0496&quot; filemime=&quot;image/jpeg&quot; filename=&quot;LECHE.png&quot; height=&quot;504&quot; style=&quot;WIDTH: 500px; HEIGHT: 504px&quot; width=&quot;500&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;우유는 수면에 도움이 되는 &lt;STRONG&gt;트립토판&lt;/STRONG&gt; 및 이 트립토판 성분을 우리 체내에 더 잘 흡수되게 해주는 &lt;STRONG&gt;칼슘&lt;/STRONG&gt;을 함유하고 있습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;잠을 청하기 위해 따뜻하게 데운&amp;nbsp;우유를 드시면 좋습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4174d9; FONT-SIZE: 11pt&quot;&gt;2. 아몬드 &amp;amp; 견과류&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:500px;WIDTH: 500px; HEIGHT: 460px;height:auto&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/2374554254164F853AC997&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Almondswiki.png&quot; height=&quot;460&quot; style=&quot;WIDTH: 500px; HEIGHT: 460px&quot; width=&quot;500&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:500px;WIDTH: 500px; HEIGHT: 273px;height:auto&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/2178064254164F8630752E&quot; filemime=&quot;image/jpeg&quot; filename=&quot;nueces.jpg&quot; height=&quot;273&quot; style=&quot;WIDTH: 500px; HEIGHT: 273px&quot; width=&quot;500&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;칼로리가 높고 몸에 좋은 지방 성분이 풍부한 아몬드와 견과류는 우리 뇌에 잘 시간을 알려주는 성분인 &lt;STRONG&gt;멜라토닌&lt;/STRONG&gt; 또한&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;다량 함유하고 있습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;잠자리에 들기 전에 아몬드 또는 견과류 한 줌을 드셔보세요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;단, 설탕이 가미된 견과류는 이러한 멜라토닌 성분의 효과를 반감시키므로 가급적 자연 그대로의 아몬드,견과류를 드세요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4174d9; FONT-SIZE: 11pt&quot;&gt;3. 체리&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/27234A4454164FB2281087&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_8288.jpg&quot; height=&quot;400&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;체리 역시 스트레스를 감소시켜 주며 수면을 도와주는 &lt;STRONG&gt;멜라토닌&lt;/STRONG&gt; 성분을 다량 함유하고 있습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;체리 그대로 드셔도 좋고 쥬스로 만들어 드셔도 좋습니다.&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;앞서 말씀드린 아몬드,견과류와 함께 체리를 드신다면 더욱 효과가 크겠네요.&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;대신 마찬가지로 설탕은&amp;nbsp;추가해서 드시지 마세요.&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4174d9; FONT-SIZE: 11pt&quot;&gt;4. 바나나&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/2121134354164FD80249BE&quot; filemime=&quot;image/jpeg&quot; filename=&quot;24oranges.nl_.jpg&quot; height=&quot;400&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;바나나는 많은 몸에 유익한 성분들을 함유하고 있는데 그 중에서 역시 &lt;STRONG&gt;트립토판&lt;/STRONG&gt; 및 &lt;STRONG&gt;멜라토닌&lt;/STRONG&gt; 성분도 다량 함유하고 있습니다. &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;또한 우리 몸의 근육의 긴장을 풀어주는 마그네슘과 칼륨 성분도 다량 함유하고 있습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4174d9; FONT-SIZE: 11pt&quot;&gt;5. 카모마일 차(Tea)&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/212C49445416505F19FEF6&quot; filemime=&quot;image/jpeg&quot; filename=&quot;te de manzanilla.jpg&quot; height=&quot;337&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/2121CC44541650602F70DC&quot; filemime=&quot;image/jpeg&quot; filename=&quot;manzanilla.jpg&quot; height=&quot;400&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;카밀레 라고도 불려지는 카모마일은 저도 이 글을 쓰기전에 다소 생소했는데 네이버에 카모마일차를 검색해 보니 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;예상외로 많이 판매되고 있는 차더라구요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;카모마일 차(티)를 따뜻하게 마시면 우리 몸의 체온을 높여주어 긴장을 풀어주게 됩니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;또한 카모마일은 카페인 성분이 없으며 부드러운 진정제 효과도 갖추고 있습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4174d9; FONT-SIZE: 11pt&quot;&gt;6. 통곡밀 씨리얼 &amp;amp; 통곡물 빵&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/257B9742541650AA2E7564&quot; filemime=&quot;image/jpeg&quot; filename=&quot;GRANOS1.jpg&quot; height=&quot;600&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;통곡밀은 바나나와 마찬가지로 근육의 긴장을 풀어주는 &lt;STRONG&gt;마그네슘&lt;/STRONG&gt; 성분을 함유하고 있습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;또한 섬유소가 풍부하여 잠자리에 들기 전 드셔도 괜찮습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;오히려 포만감을 주기 때문에 공복감을 느끼며 새벽에 잠에서 깨는 일도 막아주는 역할을 할 거에요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;잠자리에 들기 전 우유에 통곡물 씨리얼을 말아 드시거나 통곡물 빵을 드시면 좋습니다. 다만, 설탕은 가급적 첨가해서&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;드시지 마세요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;또한 통곡밀에는 &lt;STRONG&gt;세로토닌&lt;/STRONG&gt; 및 &lt;STRONG&gt;멜라토닌&lt;/STRONG&gt;을&amp;nbsp;생성시켜 주는 역할을 하는 트립토판 성분의 사용을 강화시켜 주기때문에&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;수면을 유도하는데&amp;nbsp;도움이 됩니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #4174d9; FONT-SIZE: 11pt&quot;&gt;7. 그리스식 요거트(요구르트)&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/244BDF45541650DA345C90&quot; filemime=&quot;image/jpeg&quot; filename=&quot;yogurt_griego.jpg&quot; height=&quot;428&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;우유와 마찬가지로 우리 뇌에 잘 시간을 알려주는 역할을 하는 &lt;STRONG&gt;트립토판&lt;/STRONG&gt; 성분을 함유하고 있습니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;또한 스트레스를 해소시켜 주며 수면을 준비하는데 도움이 되는 &lt;STRONG&gt;칼슘&lt;/STRONG&gt; 성분도 다량 함유하고 있구요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;제가 그냥 요구르트 대신 굳이 그리스식 요구르트라 말씀드린 이유는 그리스식 요구르트가 일반적인 요구르트에 비해 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;유당(락토오스)를 훨씬 덜 함유하고 있고 단백질은 더 풍부하기 때문인데요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;시중에서 그리스식 요구르트를 구하기 힘드시다면 대신 무가당 요구르트를 드셔보세요.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;SCRIPT src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot; async&gt;&lt;/SCRIPT&gt;
+ &lt;!-- 300x250, 작성됨 09. 4. 11 --&gt;&lt;INS style=&quot;WIDTH: 300px; DISPLAY: inline-block; HEIGHT: 250px&quot; class=adsbygoogle data-ad-slot=&quot;4053791995&quot; data-ad-client=&quot;ca-pub-5531766526822887&quot;&gt;&lt;/INS&gt;
+&lt;SCRIPT&gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&lt;/SCRIPT&gt;
+
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;마지막으로 정리해 보자면 불면증을 개선하고 숙면을 취하는데 있어서 트립토판,마그네슘,칼슘 및 멜라토닌 성분이 들어있는 음식물을 섭취하는 것이 도움이 된다는 것입니다.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;따라서 제가 소개한 상기 7가지 음식 말고도 해당 성분이 많이 들어있는 식품들을 더 찾아서 드시면 도움이 되리라 생각합니다.&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial; FONT-SIZE: 10pt&quot;&gt;&lt;/P&gt;&lt;/SPAN&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-411-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-411-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-411-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>Health/Salud</category>
+			<category>insomne</category>
+			<category>insomnia</category>
+			<category>insomnio</category>
+			<author>Rio F</author>
+			<guid>http://gitano.tistory.com/411</guid>
+			<comments>http://gitano.tistory.com/411#entry411comment</comments>
+			<pubDate>Mon, 15 Sep 2014 11:44:24 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

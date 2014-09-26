@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="http://rss.egloos.com/style/blog.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>남엑스의 잡생각</title>
+	<link>http://dgtgrade.egloos.com</link>
+	<description>잡생각</description>
+	<language>ko</language>
+	<pubDate>Fri, 17 Sep 2010 14:42:10 GMT</pubDate>
+	<generator>Egloos</generator>
+	<image>
+		<title>남엑스의 잡생각</title>
+		<url>http://pds2.egloos.com/logo/1/200602/11/79/a0010179.jpg</url>
+		<link>http://dgtgrade.egloos.com</link>
+		<width>80</width>
+		<height>80</height>
+		<description>잡생각</description>
+	</image>
+  	<item>
+		<title><![CDATA[ 인터넷 뱅킹, 한국/영국/미국 사고 통계 ]]> </title>
+		<link>http://dgtgrade.egloos.com/3442823</link>
+		<guid>http://dgtgrade.egloos.com/3442823</guid>
+		<description>
+			<![CDATA[ 
+  <span style="font-family: '굴림','Gulim';">인터넷 뱅킹과 보안을 논의할 때 참고가 되길 바라면서 올립니다.</span><div style="font-family: '굴림','Gulim';">제가 개인적으로 간단히 조사가 가능했던 한국/영국/미국에 대해서 올립니다.</div><div style="font-family: '굴림','Gulim';"><div><br />
+</div><div>당연한 얘기지만 국가별 경제 규모 및 인터넷 뱅킹 이용자수를 감안해서 봐야 합니다.</div><div><br />
+</div><div><div><b>한국</b></div><div><br />
+</div><div>금융감독원 -&nbsp;<a href="http://biz.heraldm.com/common/Detail.jsp?newsMLId=20100827000185">http://biz.heraldm.com/common/Detail.jsp?newsMLId=20100827000185</a></div><div><br />
+</div><div>2010년 <i>상반기</i>, 4건, 4천7백만원</div><div>2009년 23건, 3억4천2백만원</div><div>2008년 8건, 1억5천6백만원</div><div><br />
+</div><div><b>영국</b></div><div><br />
+</div><div><span class="Apple-style-span" style="line-height: 20px;">Financial Fraud Action UK -&nbsp;</span><a href="http://www.zdnetasia.com/uk-online-banking-fraud-rockets-as-fraudsters-get-smarter-62058443.htm">http://www.zdnetasia.com/uk-online-banking-fraud-rockets-as-fraudsters-get-smarter-62058443.htm</a></div><div><br />
+</div><div>2009년<i> 상반기</i>, 26,000건, 6천2백만 미국 달러 (대략 700억원)</div><div><br />
+</div><div>APACS -&nbsp;<a href="http://www.themoneystop.co.uk/042009/online-banking-fraud-is-on-the-rise-in-the-uk.html">http://www.themoneystop.co.uk/042009/online-banking-fraud-is-on-the-rise-in-the-uk.html</a></div><div><br />
+</div><div>2008년, 5천2백만 파운드 (대략 900억원)</div><div><br />
+</div><div><b>미국</b></div><div><br />
+</div><div>Anti-Phishing WG &amp; Gartner,&nbsp;<a href="http://www.darkreading.com/smb-security/security/attacks/showArticle.jhtml?articleID=227200174">http://www.darkreading.com/smb-security/security/attacks/showArticle.jhtml?articleID=227200174</a></div><div><br />
+</div><div>2010년, 10억 달라 (약 1조원) 넘을 수도...</div><div><br />
+</div><div>가트너 -&nbsp;<a href="http://www.msnbc.msn.com/id/5184077/">http://www.msnbc.msn.com/id/5184077/</a></div><div><br />
+</div><div>2004년, 약 200만 계좌, 2억달라 (약 2천억원)</div><div><br />
+</div><div>2004년이면 너무 옛날 자료이지만 일단 미국의 경우 자료를 많이 못 찾아서 일단 이 자료도 추가 합니다.&nbsp;참고로 대부분의 국가에서 인터넷 뱅킹 피해액은 매년 증가 추세인 듯 합니다.</div><div><br />
+</div><div>--</div><div><br />
+</div><div>마지막으로 참고 삼아, 한국의 보이스 피싱 피해 규모를 추가합니다.</div><div><br />
+</div><div><b>한국 &gt; 보이스 피싱&nbsp;</b></div><div><br />
+</div><div>경찰청 -&nbsp;<a href="http://www.todaykorea.co.kr/news/articleView.html?idxno=81724">http://www.todaykorea.co.kr/news/articleView.html?idxno=81724</a></div><div><br />
+</div><div>2008년, 8천450건, 877억원</div><div>2007년, 3천980건, 434억원</div><div><br />
+</div><div>이상 간단히 조사 해 봤는데요.</div><div><br />
+</div><div>혹시 제가 통계에 대한 이해가 부족한 부분이 있거나, 더 참고할 만한 자료가 있으면 덧글로 말씀 부탁 드립니다~</div><div><br />
+</div><div>---</div><div>관련글:&nbsp;<a href="http://dgtgrade.egloos.com/1893279">미국,캐나다,영국,일본 은행의 인터넷 이체 서비스 상황</a></div><div><br />
+</div><div><br />
+</div><div><br />
+</div><div><br />
+</div></div></div><div style="background-color: rgb(255, 255, 191); border-width: 0px; color: rgb(0, 0, 0); margin: 0px; padding: 0px; font-family: '굴림','Gulim'; font-size: 13px; font-style: normal; font-variant: normal; font-weight: normal; height: auto; line-height: normal; text-align: left; width: auto; direction: ltr; z-index: 99995;"></div><br/><br/>tag : <a href="/tag/뱅킹" rel="tag">뱅킹</a>,&nbsp;<a href="/tag/보안" rel="tag">보안</a>,&nbsp;<a href="/tag/금융감독원" rel="tag">금융감독원</a>,&nbsp;<a href="/tag/통계" rel="tag">통계</a>,&nbsp;<a href="/tag/인터넷" rel="tag">인터넷</a>			 ]]> 
+		</description>
+		<category>뱅킹</category>
+		<category>보안</category>
+		<category>금융감독원</category>
+		<category>통계</category>
+		<category>인터넷</category>
+
+		<comments>http://dgtgrade.egloos.com/3442823#comments</comments>
+		<pubDate>Fri, 17 Sep 2010 11:23:36 GMT</pubDate>
+		<dc:creator>NamX</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 세계 34개국 은행 사이트 디자인 비교 조사 (13) - 한국 ]]> </title>
+		<link>http://dgtgrade.egloos.com/1900056</link>
+		<guid>http://dgtgrade.egloos.com/1900056</guid>
+		<description>
+			<![CDATA[ 
+  마지막으로 한국입니다.<br />
+<br style="font-weight: bold;"><span style="font-weight: bold;">한국:</span><br />
+<ol><li>Kookmin Bank&nbsp;&nbsp;&nbsp; http://www.kbstar.com/<br />
+</li><li>Woori Bank&nbsp;&nbsp;&nbsp; http://www.wooribank.com/<br />
+</li><li>Shinhan Bank&nbsp;&nbsp;&nbsp; http://www.shinhan.com/<br />
+</li><li>Hana Financial Group&nbsp;&nbsp;&nbsp; http://www.hanafn.com/<br />
+</li><li>National Agricultural Cooperative Federation&nbsp;&nbsp;&nbsp; http://www.nonghyup.com/<br />
+</li><li>Korea Exchange Bank&nbsp;&nbsp;&nbsp; http://www.keb.co.kr/ <br />
+</li><li>Industrial Bank of Korea&nbsp;&nbsp;&nbsp; http://www.ibk.co.kr/<br />
+</li><li>Citibank Korea&nbsp;&nbsp;&nbsp; http://www.citibank.co.kr/<br />
+</li><li>SC First Bank&nbsp;&nbsp;&nbsp; http://www.scfirstbank.com/<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds15.egloos.com/pds/200904/29/79/a0010179_49f7c22534ea1.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds15.egloos.com/pds/200904/29/79/a0010179_49f7c22534ea1.png');" /></div><br />
+<br />
+이상입니다.<br />
+<br />
+<br />
+			 ]]> 
+		</description>
+
+		<comments>http://dgtgrade.egloos.com/1900056#comments</comments>
+		<pubDate>Wed, 29 Apr 2009 02:49:23 GMT</pubDate>
+		<dc:creator>NamX</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 세계 34개국 은행 사이트 디자인 비교 조사 (12) - 오세아니아 1개국 ]]> </title>
+		<link>http://dgtgrade.egloos.com/1898776</link>
+		<guid>http://dgtgrade.egloos.com/1898776</guid>
+		<description>
+			<![CDATA[ 
+  오세아니아에서는 호주 1개국만 선정 되었습니다.<br />
+<br />
+<span style="font-weight: bold;">호주:</span><br />
+<ol><li>National Australia Bank&nbsp;&nbsp;&nbsp; http://www.nab.com.au/<br />
+</li><li>ANZ Banking Group&nbsp;&nbsp;&nbsp; http://www.anz.com.au/<br />
+</li><li>Commonwealth Bank Group&nbsp;&nbsp;&nbsp; http://www.commbank.com.au/<br />
+</li><li>Westpac Banking Corporation&nbsp;&nbsp;&nbsp; http://www.westpac.com.au/<br />
+</li><li>St George Bank&nbsp;&nbsp;&nbsp; http://www.stgeorge.com.au/<br />
+</li><li>Macquarie Bank&nbsp;&nbsp;&nbsp; http://www.macquarie.com.au/<br />
+</li><li>Suncorp-Metway&nbsp;&nbsp;&nbsp; http://www.suncorp.com.au/<br />
+</li><li>Bendigo Bank&nbsp;&nbsp;&nbsp; http://www.bendigobank.com.au/<br />
+</li><li>Bank of Queensland&nbsp;&nbsp;&nbsp; http://www.boq.com.au/<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds10.egloos.com/pds/200904/25/79/a0010179_49f309b635fe4.png" width="500" height="556.062581486" onclick="Control.Modal.openDialog(this, event, 'http://pds10.egloos.com/pds/200904/25/79/a0010179_49f309b635fe4.png');" /></div><br />
+<br />
+이상입니다.<br />
+<br />
+			 ]]> 
+		</description>
+
+		<comments>http://dgtgrade.egloos.com/1898776#comments</comments>
+		<pubDate>Sat, 25 Apr 2009 13:01:54 GMT</pubDate>
+		<dc:creator>NamX</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 세계 34개국 은행 사이트 디자인 비교 조사 (11) - 아프리카 1개국 ]]> </title>
+		<link>http://dgtgrade.egloos.com/1898773</link>
+		<guid>http://dgtgrade.egloos.com/1898773</guid>
+		<description>
+			<![CDATA[ 
+  아프리카는 나이지리아 1개국만 조건에 맞아 선정 되었습니다.<br />
+<br />
+<span style="font-weight: bold;">나이지리아:</span><br />
+<ol><li>Intercontinental Bank&nbsp;&nbsp;&nbsp; http://www.intercontinentalbankplc.com/<br />
+</li><li>Union Bank of Nigeria&nbsp;&nbsp;&nbsp; http://www.unionbankng.com/<br />
+</li><li>Zenith International Bank&nbsp;&nbsp;&nbsp; http://www.zenithbank.com/<br />
+</li><li>First Bank of Nigeria&nbsp;&nbsp;&nbsp; http://www.firstbanknigeria.com/<br />
+</li><li>Guaranty Trust Bank&nbsp;&nbsp;&nbsp; http://www.gtbplc.com/<br />
+</li><li>IBTC Chartered Bank&nbsp;&nbsp;&nbsp; http://www.ibtc.com/<br />
+</li><li>Oceanic Bank&nbsp;&nbsp;&nbsp; http://www.oceanicbanknigeria.com/<br />
+</li><li>United Bank for Africa&nbsp;&nbsp;&nbsp; http://www.ubagroup.com/ <br />
+</li><li>First Inland Bank&nbsp;&nbsp;&nbsp; http://www.finbank.com.ng/<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds15.egloos.com/pds/200904/25/79/a0010179_49f3092a06db8.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds15.egloos.com/pds/200904/25/79/a0010179_49f3092a06db8.png');" /></div><br />
+<br />
+이상입니다. <br />
+<br />
+<br />
+			 ]]> 
+		</description>
+
+		<comments>http://dgtgrade.egloos.com/1898773#comments</comments>
+		<pubDate>Sat, 25 Apr 2009 12:59:33 GMT</pubDate>
+		<dc:creator>NamX</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 세계 34개국 은행 사이트 디자인 비교 조사 (10) - 북유럽 4개국 ]]> </title>
+		<link>http://dgtgrade.egloos.com/1898449</link>
+		<guid>http://dgtgrade.egloos.com/1898449</guid>
+		<description>
+			<![CDATA[ 
+  북유럽에서는 러시아, 노르웨이, 네덜란드, 덴마크 이렇게 4개국이 선정 되었습니다.<br />
+<br />
+<span style="font-weight: bold;">러시아:</span><br />
+<ol><li>Sberbank&nbsp;&nbsp;&nbsp; http://www.sbrf.ru/<br />
+</li><li>VTB Bank&nbsp;&nbsp;&nbsp; http://www.vtb.com/<br />
+</li><li>Bank Uralsib&nbsp;&nbsp;&nbsp; http://www.uralsib.com/<br />
+</li><li>International Industrial Bank&nbsp;&nbsp;&nbsp; http://www.iib.ru/<br />
+</li><li>Alfa Bank&nbsp;&nbsp;&nbsp; http://www.alfabank.ru/<br />
+</li><li>Bank of Moscow&nbsp;&nbsp;&nbsp; http://www.bm.ru/<br />
+</li><li>MDM Bank&nbsp;&nbsp;&nbsp; http://www.mdmbank.ru/<br />
+</li><li>Natsionalnyy Reservnyy Bank&nbsp;&nbsp;&nbsp; - (사이트를 찾지 못함)<br />
+</li><li>Rosbank&nbsp;&nbsp;&nbsp; http://www.rosbank.ru/<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds15.egloos.com/pds/200904/24/79/a0010179_49f179241a22e.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds15.egloos.com/pds/200904/24/79/a0010179_49f179241a22e.png');" /></div><br />
+<br />
+<br />
+<br />
+<span style="font-weight: bold;">노르웨이:</span><br />
+<ol><li>DnB NOR Group&nbsp;&nbsp;&nbsp; https://www.dnbnor.com/<br />
+</li><li>Nordea Bank Norge&nbsp;&nbsp;&nbsp; http://www.nordea.com/<br />
+</li><li>Fokus Bank&nbsp;&nbsp;&nbsp; http://www.fokus.no/<br />
+</li><li>SpareBank 1 SR-Bank&nbsp;&nbsp;&nbsp; http://www.sr-bank.no/<br />
+</li><li>SpareBank 1 Midt-Norge&nbsp;&nbsp;&nbsp; http://www.smn.no/ <br />
+</li><li>Sparebank 1 Nord Norge&nbsp;&nbsp;&nbsp; http://www.snn.no/<br />
+</li><li>Sparebanken Vest&nbsp;&nbsp;&nbsp; http://spv.no/<br />
+</li><li>Sparebanken Hedmark&nbsp;&nbsp;&nbsp; http://www.sparebanken-hedmark.no/<br />
+</li><li>BNbank (Bolig- og Næringsbanken)&nbsp;&nbsp;&nbsp; https://www.bnbank.no/<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds10.egloos.com/pds/200904/24/79/a0010179_49f1795309946.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds10.egloos.com/pds/200904/24/79/a0010179_49f1795309946.png');" /></div><br />
+<br />
+<br />
+<br />
+<br />
+<span style="font-weight: bold;">네덜란드:</span><br />
+<ol><li>Rabobank Group&nbsp;&nbsp;&nbsp; http://www.rabobank.com/<br />
+</li><li>ING Bank&nbsp;&nbsp;&nbsp; http://www.ing.com/<br />
+</li><li>ABN AMRO Bank&nbsp;&nbsp;&nbsp; http://www.abnamro.nl/<br />
+</li><li>Bank Nederlandse Gemeenten&nbsp;&nbsp;&nbsp; http://www.bng.nl/<br />
+</li><li>SNS Bank&nbsp;&nbsp;&nbsp; http://www.snsbank.nl/<br />
+</li><li>NIB Capital Bank&nbsp;&nbsp;&nbsp; http://www.nibc.com/<br />
+</li><li>F. van Lanschot Bankiers&nbsp;&nbsp;&nbsp; http://www.vanlanschot.nl/<br />
+</li><li>Nederlandse Waterschapsbank&nbsp;&nbsp;&nbsp; http://www.nwb.nl/<br />
+</li><li>Friesland Bank&nbsp;&nbsp;&nbsp; http://www.frieslandbank.nl/</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds12.egloos.com/pds/200904/24/79/a0010179_49f179662d07b.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds12.egloos.com/pds/200904/24/79/a0010179_49f179662d07b.png');" /></div><br />
+<br />
+<br />
+<br />
+<span style="font-weight: bold;">덴마크:</span><br />
+<ol><li>Danske Bank&nbsp;&nbsp;&nbsp; http://www.danskebank.com/<br />
+</li><li>Nykredit Realkredit Group&nbsp;&nbsp;&nbsp; http://www.nykredit.com/<br />
+</li><li>Nordea Bank Danmark&nbsp;&nbsp;&nbsp; http://www.nordea.dk/<br />
+</li><li>Jyske Bank&nbsp;&nbsp;&nbsp; http://www.jbpb.com/<br />
+</li><li>Sydbank Group&nbsp;&nbsp;&nbsp; http://www.sydbank.com/<br />
+</li><li>FIH Ehrvervsbank&nbsp;&nbsp;&nbsp; http://www.fih.dk/<br />
+</li><li>Spar Nord Bank&nbsp;&nbsp;&nbsp; https://www.sparnord.dk/<br />
+</li><li>Arbejdernes Landsbank&nbsp;&nbsp;&nbsp; http://www.al-bank.dk/<br />
+</li><li>Amagerbanken&nbsp;&nbsp;&nbsp; http://www.amagerbanken.dk/<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds15.egloos.com/pds/200904/24/79/a0010179_49f179764c5c9.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds15.egloos.com/pds/200904/24/79/a0010179_49f179764c5c9.png');" /></div><br />
+<br />
+이상입니다.<br />
+<br />
+<br />
+<br />
+			 ]]> 
+		</description>
+
+		<comments>http://dgtgrade.egloos.com/1898449#comments</comments>
+		<pubDate>Fri, 24 Apr 2009 11:01:47 GMT</pubDate>
+		<dc:creator>NamX</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 세계 34개국 은행 사이트 디자인 비교 조사 (9) - 서유럽 4개국 ]]> </title>
+		<link>http://dgtgrade.egloos.com/1898448</link>
+		<guid>http://dgtgrade.egloos.com/1898448</guid>
+		<description>
+			<![CDATA[ 
+  서유럽에서는 영국, 프랑스, 독일, 스위스가 선정 되었습니다.<br />
+<br />
+<span style="font-weight: bold;">영국:</span><br />
+<ol><li>HSBC Holdings&nbsp;&nbsp;&nbsp; http://www.hsbc.com/<br />
+</li><li>Royal Bank of Scotland&nbsp;&nbsp;&nbsp; http://www.rbs.co.uk/<br />
+</li><li>Barclays Bank&nbsp;&nbsp;&nbsp; http://www.barclays.co.uk/<br />
+</li><li>HBOS&nbsp;&nbsp;&nbsp; http://www.lloydsbankinggroup.com/<br />
+</li><li>Lloyds TSB Group&nbsp;&nbsp;&nbsp; http://www.lloydstsb.com/<br />
+</li><li>Standard Chartered&nbsp;&nbsp;&nbsp; http://www.standardchartered.com/<br />
+</li><li>Abbey National&nbsp;&nbsp;&nbsp; http://www.abbey.com/<br />
+</li><li>Northern Rock&nbsp;&nbsp;&nbsp; http://www.northernrock.co.uk/<br />
+</li><li>Alliance &amp; Leicester&nbsp;&nbsp;&nbsp; http://www.alliance-leicester.co.uk/<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds11.egloos.com/pds/200904/24/79/a0010179_49f176fc87364.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds11.egloos.com/pds/200904/24/79/a0010179_49f176fc87364.png');" /></div><br />
+<br />
+<br />
+<span style="font-weight: bold;">프랑스:</span><br />
+<ol><li>Crédit Agricole Group&nbsp;&nbsp;&nbsp; http://www.credit-agricole.com/<br />
+</li><li>BNP Paribas&nbsp;&nbsp;&nbsp; http://www.bnpparibas.net/<br />
+</li><li>Crédit Mutuel&nbsp;&nbsp;&nbsp; http://www.creditmutuel.fr/<br />
+</li><li>Société Générale&nbsp;&nbsp;&nbsp; http://www.sgcib.com/<br />
+</li><li>Groupe Caisse d’Epargne&nbsp;&nbsp;&nbsp; http://www.groupe.caisse-epargne.com/<br />
+</li><li>Groupe Banques Populaires&nbsp;&nbsp;&nbsp; http://www.banquepopulaire.fr/<br />
+</li><li>HSBC France&nbsp;&nbsp;&nbsp; http://www.hsbc.fr/<br />
+</li><li>Electro Banque&nbsp;&nbsp;&nbsp; - (사이트를 찾지 못함)<br />
+</li><li>Union de Banques Arabes et Françaises&nbsp;&nbsp;&nbsp; http://www.ubaf.fr/</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds12.egloos.com/pds/200904/24/79/a0010179_49f178009d2de.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds12.egloos.com/pds/200904/24/79/a0010179_49f178009d2de.png');" /></div><br />
+<br />
+<br />
+<span style="font-weight: bold;">독일:</span><br />
+<ol><li>Deutsche Bank&nbsp;&nbsp;&nbsp; http://www.db.com/<br />
+</li><li>HypoVereinsbank&nbsp;&nbsp;&nbsp; http://www.hypovereinsbank.de/<br />
+</li><li>Commerzbank&nbsp;&nbsp;&nbsp; https://www.commerzbank.com/<br />
+</li><li>Dresdner Bank&nbsp;&nbsp;&nbsp; http://www.dresdner-bank.de/<br />
+</li><li>Landesbank Baden-Württemberg&nbsp;&nbsp;&nbsp; http://www.lbbw.de/<br />
+</li><li>Bayerische Landesbank&nbsp;&nbsp;&nbsp; http://www.bayernlb.de/<br />
+</li><li>DZ BANK&nbsp;&nbsp;&nbsp; http://www.dzbank.de/<br />
+</li><li>HSH Nordbank&nbsp;&nbsp;&nbsp; http://www.hsh-nordbank.com/<br />
+</li><li>Norddeutsche Landesbank Girozentrale&nbsp;&nbsp;&nbsp; https://www.nordlb.de/<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds12.egloos.com/pds/200904/24/79/a0010179_49f177146e118.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds12.egloos.com/pds/200904/24/79/a0010179_49f177146e118.png');" /></div><br />
+<br />
+<span style="font-weight: bold;">스위스:</span><br />
+<ol><li>UBS&nbsp;&nbsp;&nbsp; http://www.ubs.com/<br />
+</li><li>Credit Suisse Group&nbsp;&nbsp;&nbsp; http://www.credit-suisse.com/ <br />
+</li><li>EFG Bank European Financial Group&nbsp;&nbsp;&nbsp; http://www.efggroup.com/<br />
+</li><li>Schweizer Verband der Raiffeisenbanken&nbsp;&nbsp;&nbsp; http://www.raiffeisen.ch/ <br />
+</li><li>Zürcher Kantonalbank&nbsp;&nbsp;&nbsp; http://www.zkb.ch/<br />
+</li><li>HSBC Private Bank Holdings&nbsp;&nbsp;&nbsp; http://www.hsbcprivatebank.com/<br />
+</li><li>Banque Cantonale Vaudoise&nbsp;&nbsp;&nbsp; http://www.bcv.ch/<br />
+</li><li>Basler Kantonalbank&nbsp;&nbsp;&nbsp; http://www.bkb.ch/<br />
+</li><li>EFG International&nbsp;&nbsp;&nbsp; http://www.efginternational.com/</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds11.egloos.com/pds/200904/24/79/a0010179_49f1771c4e0f1.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds11.egloos.com/pds/200904/24/79/a0010179_49f1771c4e0f1.png');" /></div><br />
+이상입니다.<br />
+<br />
+<br />
+<br />
+			 ]]> 
+		</description>
+
+		<comments>http://dgtgrade.egloos.com/1898448#comments</comments>
+		<pubDate>Fri, 24 Apr 2009 11:01:35 GMT</pubDate>
+		<dc:creator>NamX</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 세계 34개국 은행 사이트 디자인 비교 조사 (8) - 지중해 5개국 ]]> </title>
+		<link>http://dgtgrade.egloos.com/1898049</link>
+		<guid>http://dgtgrade.egloos.com/1898049</guid>
+		<description>
+			<![CDATA[ 
+  지중해는 포르투갈, 스페인, 이탈리아, 그리스, 터키 이렇게 5개국입니다.<br />
+<br />
+<span style="font-weight: bold;">포르투갈:</span><br />
+<ol><li>Millennium bcp&nbsp;&nbsp;&nbsp; http://www.millenniumbcp.pt/<br />
+</li><li>Caixa Geral de Depositos&nbsp;&nbsp;&nbsp; http://http://www.cgd.pt/<br />
+</li><li>Banco Espirito Santo Group&nbsp;&nbsp;&nbsp; http://http://www.bes.pt/<br />
+</li><li>Banco Santander Totta&nbsp;&nbsp;&nbsp; http://http://www.santandertotta.pt/<br />
+</li><li>Banco BPI&nbsp;&nbsp;&nbsp; http://http://www.bancobpi.pt/<br />
+</li><li>Crédito Agrícola&nbsp;&nbsp;&nbsp; http://www.credito-agricola.pt/<br />
+</li><li>BANIF-SGPS&nbsp;&nbsp;&nbsp; http://www.grupobanif.pt/<br />
+</li><li>Banco Itaú Europa&nbsp;&nbsp;&nbsp; http://www.itaueuropa.pt/<br />
+</li><li>BNC- Banco Nacional de Crédito Imobiliáro&nbsp;&nbsp;&nbsp; - (사이트를 찾지 못 함)<br />
+<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds15.egloos.com/pds/200904/23/79/a0010179_49f049cf7b341.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds15.egloos.com/pds/200904/23/79/a0010179_49f049cf7b341.png');" /></div><br />
+<br />
+<span style="font-weight: bold;">스페인:</span><br />
+<ol><li>Santander&nbsp;&nbsp;&nbsp; https://www.bancosantander.es/<br />
+</li><li>Banco Bilbao Vizcaya Argentaria&nbsp;&nbsp;&nbsp; https://www.bbva.es/<br />
+</li><li>Caja de A. y Pen. de Barcelona - la Caixa&nbsp;&nbsp;&nbsp; http://portal.lacaixa.es/<br />
+</li><li>Caja de A. y Monte de Piedad de Madrid&nbsp;&nbsp;&nbsp; http://www.cajamadrid.es/<br />
+</li><li>Banco Popular Español&nbsp;&nbsp;&nbsp; http://www.bancopopular.es/<br />
+</li><li>Banco Sabadell&nbsp;&nbsp;&nbsp; https://www.bancsabadell.com/<br />
+</li><li>Caja Mediterráneo&nbsp;&nbsp;&nbsp; https://www.cam.es/<br />
+</li><li>Grupo Bancaja&nbsp;&nbsp;&nbsp; https://www.bancaja.es/<br />
+</li><li>Bilbao Bizkaia Kutxa&nbsp;&nbsp;&nbsp; https://portal.bbk.es/<br />
+<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds13.egloos.com/pds/200904/23/79/a0010179_49f031e80d2bf.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds13.egloos.com/pds/200904/23/79/a0010179_49f031e80d2bf.png');" /></div><br />
+<br style="font-weight: bold;"><span style="font-weight: bold;">이탈리아:</span><br style="font-weight: bold;"><ol><li>UniCredit&nbsp;&nbsp;&nbsp; http://www.unicreditbanca.it/<br />
+</li><li>Banca Intesa&nbsp;&nbsp;&nbsp; http://www.intesasanpaolo.com/<br />
+</li><li>SanPaolo IMI&nbsp;&nbsp;&nbsp; http://www.intesasanpaolo.com/<br />
+</li><li>Banca Monte dei Paschi di Siena&nbsp;&nbsp;&nbsp; http://www.mps.it/<br />
+</li><li>Unione di Banche Italiane&nbsp;&nbsp;&nbsp; http://www.ubibanca.it/<br />
+</li><li>Capitalia Gruppo Bancario&nbsp;&nbsp;&nbsp; - (사이트를 찾지 못 함)<br />
+</li><li>Gruppo Banco Popolare di Verona e Novara&nbsp;&nbsp;&nbsp; http://www.bpv.it/<br />
+</li><li>Banca Popolare dell’Emilia Romagna&nbsp;&nbsp;&nbsp; http://www.bper.it/<br />
+</li><li>Banca Popolare di Milan&nbsp;&nbsp;&nbsp; http://www.bpm.it/<br />
+<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds11.egloos.com/pds/200904/23/79/a0010179_49f031f039868.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds11.egloos.com/pds/200904/23/79/a0010179_49f031f039868.png');" /></div><br />
+<br />
+<br />
+<span style="font-weight: bold;">그리스:</span><br />
+<ol><li>National Bank of Greece&nbsp;&nbsp;&nbsp; http://www.nbg.gr/<br />
+</li><li>Alpha Bank&nbsp;&nbsp;&nbsp; http://www.alpha.gr/<br />
+</li><li>EFG Eurobank Ergasias&nbsp;&nbsp;&nbsp; http://www.eurobank.gr/<br />
+</li><li>Piraeus Bank&nbsp;&nbsp;&nbsp; http://www.piraeusbank.gr/<br />
+</li><li>Agricultural Bank of Greece&nbsp;&nbsp;&nbsp; http://www.atebank.gr/<br />
+</li><li>Emporiki Bank&nbsp;&nbsp;&nbsp; http://www.emporiki.gr/<br />
+</li><li>Greek Postal Savings Bank&nbsp;&nbsp;&nbsp; http://www.ttbank.gr/<br />
+</li><li>Egnatia Bank&nbsp;&nbsp;&nbsp; http://www.marfinbank.gr/<br />
+</li><li>Geniki Bank&nbsp;&nbsp;&nbsp; http://www.geniki.gr/</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds12.egloos.com/pds/200904/23/79/a0010179_49f03211d8c18.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds12.egloos.com/pds/200904/23/79/a0010179_49f03211d8c18.png');" /></div><br />
+<br />
+<span style="font-weight: bold;">터키:</span><br />
+<ol><li>Türkiye Is Bankasi&nbsp;&nbsp;&nbsp; http://www.isbank.com.tr/<br />
+</li><li>Akbank&nbsp;&nbsp;&nbsp; http://www.akbank.com.tr/<br />
+</li><li>TC Ziraat Bankasi&nbsp;&nbsp;&nbsp; http://www.ziraat.com.tr/<br />
+</li><li>VakifBank (Türkiye Vakiflar Bankasi)&nbsp;&nbsp;&nbsp; http://www.vakifbank.com.tr/<br />
+</li><li>Türkiye Garanti Bankasi&nbsp;&nbsp;&nbsp; http://www.garanti.com.tr/<br />
+</li><li>Yapi ve Kredi Bankasi&nbsp;&nbsp;&nbsp; http://www.ykb.com.tr/<br />
+</li><li>Türkiye Halk Bankasi&nbsp;&nbsp;&nbsp; http://www.halkbank.com.tr/<br />
+</li><li>Finansbank&nbsp;&nbsp;&nbsp; http://www.finansbank.com.tr/<br />
+</li><li>Denizbank&nbsp;&nbsp;&nbsp; http://www.denizbank.com/<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds15.egloos.com/pds/200904/24/79/a0010179_49f168f5267e0.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds15.egloos.com/pds/200904/24/79/a0010179_49f168f5267e0.png');" /></div><br />
+<br />
+<br />
+이상입니다.<br />
+<br />
+			 ]]> 
+		</description>
+
+		<comments>http://dgtgrade.egloos.com/1898049#comments</comments>
+		<pubDate>Thu, 23 Apr 2009 10:34:06 GMT</pubDate>
+		<dc:creator>NamX</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 세계 34개국 은행 사이트 디자인 비교 조사 (7) - 동유럽 2개국 ]]> </title>
+		<link>http://dgtgrade.egloos.com/1898048</link>
+		<guid>http://dgtgrade.egloos.com/1898048</guid>
+		<description>
+			<![CDATA[ 
+  동유럽에서는 폴란드, 오스트리아 이렇게 2개 국가가 선정 되었습니다.<br />
+<br />
+<span style="font-weight: bold;">폴란드:</span><br />
+<ol><li>PKO Bank Polski&nbsp;&nbsp;&nbsp; http://www.pkobp.pl/<br />
+</li><li>Bank Pekao&nbsp;&nbsp;&nbsp; http://www.pekao.com.pl/<br />
+</li><li>Bank BPH&nbsp;&nbsp;&nbsp; http://www.bph.pl/<br />
+</li><li>Bank Handlowy w Warszawie&nbsp;&nbsp;&nbsp; http://www.citibank.pl/<br />
+</li><li>ING Bank Slaski&nbsp;&nbsp;&nbsp; http://www.ingbank.pl/<br />
+</li><li>Bank Zachodni WBK&nbsp;&nbsp;&nbsp; http://www.bzwbk.pl/<br />
+</li><li>Bank Millenium&nbsp;&nbsp;&nbsp; http://www.millenet.pl/<br />
+</li><li>BRE Bank&nbsp;&nbsp;&nbsp; http://www.brebank.com.pl/<br />
+</li><li>Kredyt Bank&nbsp;&nbsp;&nbsp; http://www.kredytbank.pl/<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds10.egloos.com/pds/200904/23/79/a0010179_49f030897220b.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds10.egloos.com/pds/200904/23/79/a0010179_49f030897220b.png');" /></div><br />
+<br />
+<br />
+<span style="font-weight: bold;">오스트리아:</span><br />
+<ol><li>Bank Austria Creditanstalt&nbsp;&nbsp;&nbsp; http://www.bankaustria.at/<br />
+</li><li>Erste Bank&nbsp;&nbsp;&nbsp; https://www.sparkasse.at/<br />
+</li><li>Raiffeisen Zentralbank Österreich&nbsp;&nbsp;&nbsp; http://www.rzb.at/<br />
+</li><li>Österreichische Volksbanken&nbsp;&nbsp;&nbsp; http://www.volksbank.at/<br />
+</li><li>Bank für Arbeit und Wirtschaft - PSK-Group&nbsp;&nbsp;&nbsp; http://www.bawag.com/<br />
+</li><li>Raiffeisenlandesbank Oberösterreich&nbsp;&nbsp;&nbsp; http://www.rlbooe.at/<br />
+</li><li>Hypo Alpe-Adria-Bank&nbsp;&nbsp;&nbsp; http://www.hypo-alpe-adria.at/<br />
+</li><li>Oberbank&nbsp;&nbsp;&nbsp; http://www.oberbank.at/<br />
+</li><li>Raiffeisenlandesbank Niederösterreich-Wien&nbsp;&nbsp;&nbsp; http://www.raiffeisen.at/<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds10.egloos.com/pds/200904/23/79/a0010179_49f03092dbb37.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds10.egloos.com/pds/200904/23/79/a0010179_49f03092dbb37.png');" /></div><br />
+이상입니다.<br />
+			 ]]> 
+		</description>
+
+		<comments>http://dgtgrade.egloos.com/1898048#comments</comments>
+		<pubDate>Thu, 23 Apr 2009 10:33:41 GMT</pubDate>
+		<dc:creator>NamX</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 세계 34개국 은행 사이트 디자인 비교 조사 (6) - 중동 4개국 ]]> </title>
+		<link>http://dgtgrade.egloos.com/1897912</link>
+		<guid>http://dgtgrade.egloos.com/1897912</guid>
+		<description>
+			<![CDATA[ 
+  중동에서는 사우디 아라비아, UAE, 이란, 바레인 이렇게 4개국이 선정 되었습니다. <br />
+월드컵 지역예선에서는 우리와 같은 지역에 속한 나라들이네요.<br />
+<br />
+<span style="font-weight: bold;">사우디 아라비아:</span><br />
+<ol><li>National Commercial Bank&nbsp;&nbsp;&nbsp; http://www.alahli.com/</li><li>Samba Financial Group&nbsp;&nbsp;&nbsp; http://www.samba.com/</li><li>Al Rajhi Banking &amp; Investment Corporation&nbsp;&nbsp;&nbsp; http://www.alrajhibank.com.sa/</li><li>Riyad Bank&nbsp;&nbsp;&nbsp; http://www.riyadbank.com/</li><li>Banque Saudi Fransi&nbsp;&nbsp;&nbsp; http://www.alfransi.com.sa/</li><li>Saudi British Bank&nbsp;&nbsp;&nbsp; http://www.sabb.com/</li><li>Arab National Bank&nbsp;&nbsp;&nbsp; http://www.anb.com.sa/</li><li>Saudi Investment Bank&nbsp;&nbsp;&nbsp; http://www.saib.com.sa/</li><li>Saudi Hollandi Bank&nbsp;&nbsp;&nbsp; http://www.shb.com.sa/</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds13.egloos.com/pds/200904/23/79/a0010179_49efe753c29c2.png" width="500" height="553.17769131" onclick="Control.Modal.openDialog(this, event, 'http://pds13.egloos.com/pds/200904/23/79/a0010179_49efe753c29c2.png');" /></div><br />
+<br />
+<span style="font-weight: bold;">UAE:</span><br />
+<ol><li>Abu Dhabi Commercial Bank&nbsp;&nbsp;&nbsp; http://www.adcb.com/</li><li>National Bank of Abu Dhabi&nbsp;&nbsp;&nbsp; http://www.nbad.com/</li><li>Emirates Bank International&nbsp;&nbsp;&nbsp; http://www.emiratesbank.ae/<br />
+</li><li>Dubai Islamic Bank&nbsp;&nbsp;&nbsp; http://www.alislami.ae/<br />
+</li><li>First Gulf Bank&nbsp;&nbsp;&nbsp; http://www.fgb.ae/<br />
+</li><li>Mashreqbank&nbsp;&nbsp;&nbsp; http://www.mashreqbank.com/<br />
+</li><li>National Bank of Dubai&nbsp;&nbsp;&nbsp; http://www.nbd.com/<br />
+</li><li>Union National Bank&nbsp;&nbsp;&nbsp; http://www.unb.co.ae/<br />
+</li><li>Sharjah Islamic Bank&nbsp;&nbsp;&nbsp; http://www.sib.ae/<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds10.egloos.com/pds/200904/23/79/a0010179_49efe75c3f320.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds10.egloos.com/pds/200904/23/79/a0010179_49efe75c3f320.png');" /></div><br />
+<br />
+<br />
+<span style="font-weight: bold;">이란:</span><br />
+<ol><li>Bank Saderat Iran&nbsp;&nbsp;&nbsp; http://www.cbi.ir/<br />
+</li><li>Bank Melli Iran&nbsp;&nbsp;&nbsp; http://www.bmi.ir/<br />
+</li><li>Bank of Industry and Mine&nbsp;&nbsp;&nbsp; http://w3.bim.ir/<br />
+</li><li>Bank Tejarat&nbsp;&nbsp;&nbsp; http://www.tejaratbank.ir/<br />
+</li><li>Parsian Bank&nbsp;&nbsp;&nbsp; http://www.parsian-bank.com/<br />
+</li><li>Bank Keshavarzi&nbsp;&nbsp;&nbsp; http://www.agri-bank.com/<br />
+</li><li>Bank Mellat&nbsp;&nbsp;&nbsp; http://bankmellat.ir/<br />
+</li><li>Bank Eghtesad Novin (EN Bank)&nbsp;&nbsp;&nbsp; http://www.en-bank.com/<br />
+</li><li>Bank Sepah&nbsp;&nbsp;&nbsp; http://www.banksepah.ir/<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds11.egloos.com/pds/200904/23/79/a0010179_49efe76f72ea5.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds11.egloos.com/pds/200904/23/79/a0010179_49efe76f72ea5.png');" /></div><br />
+<br />
+<br />
+<span style="font-weight: bold;">바레인:</span><br />
+<ol><li>Ahli United Bank&nbsp;&nbsp;&nbsp; http://www.ahliunited.com/<br />
+</li><li>Arab Banking Corporation&nbsp;&nbsp;&nbsp; http://www.arabbanking.com/<br />
+</li><li>Gulf International Bank&nbsp;&nbsp;&nbsp; http://www.gibonline.com/<br />
+</li><li>International Banking Corporation&nbsp;&nbsp;&nbsp; http://www.tibc-bahrain.com/<br />
+</li><li>Awal Bank&nbsp;&nbsp;&nbsp; http://www.awal-bank.com/<br />
+</li><li>National Bank of Bahrain&nbsp;&nbsp;&nbsp; http://www.nbbonline.com/<br />
+</li><li>United Gulf Bank&nbsp;&nbsp;&nbsp; http://www.ugbbh.com/<br />
+</li><li>Shamil Bank of Bahrain&nbsp;&nbsp;&nbsp; http://www.shamilbank.net/<br />
+</li><li>Bank of Bahrain and Kuwait&nbsp;&nbsp;&nbsp; http://www.bbkonline.com/<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds15.egloos.com/pds/200904/23/79/a0010179_49efe778adb05.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds15.egloos.com/pds/200904/23/79/a0010179_49efe778adb05.png');" /></div><br />
+이상입니다.<br />
+<br />
+<br />
+<br />
+			 ]]> 
+		</description>
+
+		<comments>http://dgtgrade.egloos.com/1897912#comments</comments>
+		<pubDate>Thu, 23 Apr 2009 03:59:05 GMT</pubDate>
+		<dc:creator>NamX</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 세계 34개국 은행 사이트 디자인 비교 조사 (5) - 남미 2개국 ]]> </title>
+		<link>http://dgtgrade.egloos.com/1897746</link>
+		<guid>http://dgtgrade.egloos.com/1897746</guid>
+		<description>
+			<![CDATA[ 
+  이번에는 남미이며, 2가지 국가가 조건을 만족하여 선정 되었습니다. 브라질과 칠레를 캡쳐 합니다.<br />
+<br />
+<span style="font-weight: bold;">브라질:</span><br />
+<ol><li>Banco Itaú Holding Financeira&nbsp;&nbsp;&nbsp; http://www.itauri.com.br/</li><li>Banco Bradesco&nbsp;&nbsp;&nbsp; http://www.bradesco.com.br/</li><li>Banco do Brasil&nbsp;&nbsp;&nbsp; http://www.bb.com.br/</li><li>Unibanco-União de Bancos Brasileiros&nbsp;&nbsp;&nbsp; http://www.unibanco.com.br/</li><li>Banco ABN AMRO Reál&nbsp;&nbsp;&nbsp; http://www.bancoreal.com.br/</li><li>Caixa Economica Federal&nbsp;&nbsp;&nbsp; http://www.caixa.gov.br/</li><li>Grupo Santander Banespa&nbsp;&nbsp;&nbsp; http://www.santander.com.br/</li><li>Banco Votorantim&nbsp;&nbsp;&nbsp; http://www.bancovotorantim.com.br/</li><li>Banco Safra&nbsp;&nbsp;&nbsp; http://www.safranet.com.br/<br />
+</li></ol><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds13.egloos.com/pds/200904/22/79/a0010179_49ef2db0cb834.png" width="500" height="554.545454545" onclick="Control.Modal.openDialog(this, event, 'http://pds13.egloos.com/pds/200904/22/79/a0010179_49ef2db0cb834.png');" /></div><br />
+<br />
+<span style="font-weight: bold;">칠레:</span><br />
+<ol><li>Banco Santander Santiago&nbsp;&nbsp;&nbsp; http://www.santander.cl/</li><li>Banco de Chile&nbsp;&nbsp;&nbsp; http://www.bancochile.cl/</li><li>Banco del Estado de Chile&nbsp;&nbsp;&nbsp; http://www.bancoestado.cl/</li><li>Banco de Crédito &amp; Inversiones&nbsp;&nbsp;&nbsp; http://www.bci.cl/</li><li>Corp Banca&nbsp;&nbsp;&nbsp; http://www.corpbanca.cl/</li><li>BBVA Chile&nbsp;&nbsp;&nbsp; http://www.bbva.cl/</li><li>Banco del Desarrollo&nbsp;&nbsp;&nbsp; http://www.bdd.cl/</li><li>Scotiabank Sud Americano&nbsp;&nbsp;&nbsp; http://www.scotiabank.cl/</li><li>Banco Security&nbsp;&nbsp;&nbsp; http://www.security.cl/<br />
+</li></ol><br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds15.egloos.com/pds/200904/22/79/a0010179_49ef2d9c95b99.png" width="500" height="553.896103896" onclick="Control.Modal.openDialog(this, event, 'http://pds15.egloos.com/pds/200904/22/79/a0010179_49ef2d9c95b99.png');" /></div><br />
+<br />
+이상입니다.<br />
+<br />
+<br />
+			 ]]> 
+		</description>
+
+		<comments>http://dgtgrade.egloos.com/1897746#comments</comments>
+		<pubDate>Wed, 22 Apr 2009 14:46:28 GMT</pubDate>
+		<dc:creator>NamX</dc:creator>
+	</item>
+</channel>
+</rss>

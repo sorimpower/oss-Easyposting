@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[imays: 게임엔진 개발자의 조용한 뒷담화]]></title>
+			<link>http://imays.blog.me</link>
+			
+				<image>
+					<url><![CDATA[http://blogpfthumb.phinf.naver.net/20131110_86/imays_13840916957861obCA_PNG/Map_of_MOBA.svg.png?type=m2]]></url>
+					<title><![CDATA[imays: 게임엔진 개발자의 조용한 뒷담화]]></title>
+					<link>http://imays.blog.me</link>
+				</image>
+			
+			<description><![CDATA[게임서버엔진 프라우드넷 개발자]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:50:41 +0900</pubDate>
+
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[프로그래머가 다루는 API의 레벨이 높아지면]]></title>
+					<link>http://imays.blog.me/150189309296</link>
+					<guid>http://imays.blog.me/150189309296</guid>
+					<description><![CDATA[프로그래머가 다루는 API의 레벨이 높아지면 기초 실력이 부족해진다? 물론 틀린 말은 아닙니다. 하지만 쉬워지고 가치가 떨어진다? 이것은 틀릴 수도 있다고 생각합니다.화학 아래에 양자역학이 있고 맨 아래에는 철학이 있지만 화학의 가치는 매우 높죠. (공과대학에서 가장 평균연봉이 높음) 그리고 화학은 매우 어려운 학문이고요.레벨이 높아지면 그만큼 쉬워지는 것이 아니라, 그만큼 쉬워졌기 때문에 상향 평준화가 되면서 그만큼 쉬워진 상황에서 더 복잡하고 어려운 주제를 다뤄야 하게 됩니다. 그만큼 나름대로 난이도 높은 분야가 되죠.한마디로, 레벨이 높아지고 개발이 편리해지면, 해당 분야의 가치와 난이도는 오히려 올라갈 수 있.......]]></description>
+					<pubDate>Wed, 23 Apr 2014 21:13:53 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[가치관]]></category>
+					<title><![CDATA[게임 중독법 및 규제에 찬성합니다.]]></title>
+					<link>http://imays.blog.me/150178765400</link>
+					<guid>http://imays.blog.me/150178765400</guid>
+					<description><![CDATA[게임 중독법 및 규제에 찬성합니다. 기금 징수,세금 징수,사용 규제 모두요.단, 아래 조건을 시행함을 선결한 후에만 찬성합니다.프랑스처럼, 전국 대학교의 평준화 및 공립화할 것. 서울대학교는 동작3대학교로 이름 바꾸고(숭실대는 동작1대학교로,중앙대는 동작2대학교로 개명), 연세대는 서대문2대학교로, 고려대는 성북구1대학교로 등등. 일반고 입학처럼 진입장벽을 없애버릴 것. 졸업은 빡세도 됨.한국식 석차제를 폐지하고, 핀란드식 협동기반 평가제로 바꿀 것.모든 사립학교,특목학교,사교육 입시학원을 폐교시키거나 지역 공립화&amp;평준화할 것.
+ 
+ 
+ ]]></description>
+					<pubDate>Sun, 03 Nov 2013 15:42:31 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,사회·정치]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[컴퓨터]]></category>
+					<title><![CDATA[프로그래머로서의 사고 능력과 실무 코딩 능력]]></title>
+					<link>http://imays.blog.me/150168728807</link>
+					<guid>http://imays.blog.me/150168728807</guid>
+					<description><![CDATA[제가 초등학교 3~4학년 즈음에 동네 컴퓨터 학원을 다니고 있었습니다.그때 APPLE ][를 이용해서 프로그래밍을 배웠죠.당시 학원 선생님을 통해서 여러가지를 배웠는데 궁극적으로 배웠던 것은 성적표를 만들어 내는 프로그램이었습니다. 실무 업무에도 쓸 수 있는 수준은 아니지만 실무 업무를 위해 다가가야 하는 단계 중 하나였던 것이라고 생각됩니다.KOR ENG MATH AVERAGE RANK000 000  000   0000     000000 000  000   0000     000000 000  000   0000     000000 000  000   0000     000000 000  000   0000     000대충 이런 결과물이 나오는 프로그램이었을 것입니다.학원 홍보때 제가 나가서 직접 타이핑하면서 결과가 나오는 것을.......]]></description>
+					<pubDate>Mon, 27 May 2013 12:14:10 +0900</pubDate>
+					<tag><![CDATA[프로그래머,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[프라우드넷과 유니티를 이용해서 소셜 게임 만들기 강연 동영상]]></title>
+					<link>http://imays.blog.me/150166221508</link>
+					<guid>http://imays.blog.me/150166221508</guid>
+					<description><![CDATA[프라우드넷과 유니티를 이용해서 소셜 게임 만들기 강연 동영상을 만들었습니다.http://www.screencast.com/t/3scpMaVgb]]></description>
+					<pubDate>Wed, 17 Apr 2013 16:46:33 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[폴란드,네덜란드 출장 사진들]]></title>
+					<link>http://imays.blog.me/150154279687</link>
+					<guid>http://imays.blog.me/150154279687</guid>
+					<description><![CDATA[링크]]></description>
+					<pubDate>Tue, 18 Dec 2012 16:14:12 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[일본 게임 개발자 컨퍼런스에서 강연 잘 마치고 왔습니다.]]></title>
+					<link>http://imays.blog.me/150147026953</link>
+					<guid>http://imays.blog.me/150147026953</guid>
+					<description><![CDATA[이번 갔다온 후기는 웹진 '인벤'에 기고되었습니다.http://www.inven.co.kr/webzine/news/?news=47267
+]]></description>
+					<pubDate>Mon, 10 Sep 2012 23:16:26 +0900</pubDate>
+					<tag><![CDATA[cedec]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[중국 게임 개발자 컨퍼런스에서 강연 잘 마치고 왔습니다.]]></title>
+					<link>http://imays.blog.me/150144020866</link>
+					<guid>http://imays.blog.me/150144020866</guid>
+					<description><![CDATA[상하이에서 열리는 차이나조이와 같이 열리는 중국 게임 개발자 컨퍼런스(CGDC)에 가서 강연을 하고 왔습니다.영어로 강연하면 통역사가 중국어로 통역. 통역사의 통역 스킬이 무척 좋은 편입니다.70여명 정도 들어와 주었습니다.강연 주제는 게임 서버 개발에서 당면하는 문제와 해결하는 케이스들의 소개입니다.매 강연일마다 간단한 뉴스레터가 배포됩니다. 저도 나왔네요.CGDC는 입장할 때 저렇게 RFID 뱃지를 검문합니다. 무려 RFID입니다... 위조 못하게큰 강연 홀거의 모두가 중국 현지인들입니다. 몇 개발자들과 얘기 나눠봤는데 실력 상당합니다. 이제 중국 무시하면 시대 착오하는 것임.열렬히 강연을 듣는 청중들.이렇게만 끝내면 재.......]]></description>
+					<pubDate>Wed, 01 Aug 2012 18:05:37 +0900</pubDate>
+					<tag><![CDATA[차이나조이,CGDC,중국게임]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[컴퓨터]]></category>
+					<title><![CDATA[imays의 프로그래밍 격언]]></title>
+					<link>http://imays.blog.me/150141188775</link>
+					<guid>http://imays.blog.me/150141188775</guid>
+					<description><![CDATA[제가 그동안 프로그래머로 일하면서 깨달은 것들입니다.단 10분만에 평소의 생각을 단번에,그리고 직설적으로 써내려갔습니다.------------------------------------------기초를 중요하게 여겨라- 딴건 몰라도 기초 지식은 달달 외워라. 대뇌가 아니라 소뇌와 연수에 새겨넣어라.- 기초부터 탄탄하지 않은 사람은 하드코어 기술을 다룰 자격이 없다. 건방떨다가 툭하면 사고치고 수습 못한다.다양한 알고리즘을 머리속에 담아라.- 자동차 운전은 2년 넘으면 그후부터 그게 그거다. 하지만 레이싱은 2년차와 10년차가 크게 차이난다.- 코딩도 2년 넘으면 그후부터 그게 그거다. 하지만 알고리즘 구사 능력은 2년차와 10년차가 크게 차이난다.- 현.......]]></description>
+					<pubDate>Thu, 21 Jun 2012 15:26:25 +0900</pubDate>
+					<tag><![CDATA[프로그래머격언,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[게임 서버에 대해 말해주마]]></title>
+					<link>http://imays.blog.me/150140297876</link>
+					<guid>http://imays.blog.me/150140297876</guid>
+					<description><![CDATA[게임 웹진 '인벤'에 '게임 서버에 대해 말해주마'라는 글을 기고중입니다.http://www.inven.co.kr/webzine/news/?news=42073
+게임 엔드 유저들이 재미있게 읽을 수 있게 썼습니다. (과연 그럴지는 모름 -_-)게임 개발에 입문하는 사람들도 읽어보면 좋습니다.
+ ]]></description>
+					<pubDate>Fri, 08 Jun 2012 15:51:58 +0900</pubDate>
+					<tag><![CDATA[게임서버,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[독일 출장 잘 갔다왔습니다~ (뒷북)]]></title>
+					<link>http://imays.blog.me/150139297931</link>
+					<guid>http://imays.blog.me/150139297931</guid>
+					<description><![CDATA[지난달에, 독일 게임 개발자 컨퍼런스에서 강연 잘 마치고 왔습니다~http://www.inven.co.kr/webzine/news/?news=43765
+정말 뒷북으로 포스팅함 ㅋㅋㅋ독일의 흔한 거리... 동독은 폭격을 심하게 당해서 고전적인 건물들이 상당량 사라졌다고 합니다. 작년에 갔던 Bonn과 분위기가 사뭇 다르네요.얘네들도 자물쇠로 사랑을 약속한다능발로 그린 사랑독일의 명물 브란덴부르크 대문. 역사책 읽어보고 나서야 왜 유명한지 알게 되었지만 그닥 와닿진 않네요.유태인 학살 추모공원입니다. 재미있는 놀이, 휴식공간이면서도 한편으로는 끝없이 쌓여있는 관을 연상시켜서 숙연해지기도 합니다.베를린 성당. 전역을 돌아다닐 수 있게 되어있어서 돌아.......]]></description>
+					<pubDate>Fri, 25 May 2012 12:10:44 +0900</pubDate>
+					<tag><![CDATA[베를린]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[Visual C++는 거대한 switch-case를 어떻게 처리하는가]]></title>
+					<link>http://imays.blog.me/150136323916</link>
+					<guid>http://imays.blog.me/150136323916</guid>
+					<description><![CDATA[서버 프로그래밍에서 패킷처리기를 한파일에 몰아넣는것이 좋은가요?
+http://www.gamecodi.com/board/zboard.php?id=GAMECODI_Talkdev&amp;no=1314&amp;z=23
+이 링크를 보다가, 거대한 switch-case 구문의 처리 성능이 어떻게 좋아지는지 궁금해졌습니다.과거에, 거대한 switch-case 구문은 binary search로 컴파일러가 최적화해준다는 소리를 들었습니다. 하지만 네트워크 패킷 처리에서는 case 에 들어가는 상수들이 연속되는 경우가 흔합니다. 그래서 메시지 처리를 해주는 함수들의 주소를 배열에 넣어서 처리하는 것 만큼 빠르게 처리되지는 않을 것입니다.화는 참아도 궁금한 것은 못 참습니다. 결국, 예제 프로그램을 만들어서 어셈블리.......]]></description>
+					<pubDate>Fri, 13 Apr 2012 13:01:38 +0900</pubDate>
+					<tag><![CDATA[C,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[책상 정리하다가 발견한, 해외 출장 추억]]></title>
+					<link>http://imays.blog.me/150132139303</link>
+					<guid>http://imays.blog.me/150132139303</guid>
+					<description><![CDATA[책상 정리하다가 발견한 것들입니다.작년 한해에는 미국,중국,독일의 게임 컨퍼런스를 신나게 다녀왔네요. ^^호랑이는 죽어서 가죽을 남기고 컨퍼런스는 끝나고 랜야드(뺏지 목걸이)를 남긴다는 -_-;독일 게임스컴 2011독일 쾰른 근처의 루트비히 박물관. 피카소 그림들을 봤죠.정작 베로니카와 아비뇽의 여인들이 없으므로 앙꼬없는 찐빵.중국 차이나조이와 China game developer conerence(CGDC)도 갔다 왔습니다.CGDC는 GDC와 달리 공개 자료도 구하기 어렵더군요.중국에서 서비스되는 우리 고객사 게임을 위해 기술지원하기 위해 묵었던 곳.근처에 대형 IT 단지가 있습니다.베토벤이 살던 집도 갔다왔습니다. 지금은 박물관이 되었죠.독일 관.......]]></description>
+					<pubDate>Mon, 20 Feb 2012 14:26:37 +0900</pubDate>
+					<tag><![CDATA[cgdc,gamescom,chinajoy,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임제작이야기]]></category>
+					<title><![CDATA[중국의 게임 개발 실력과 한국 게임 산업 규제]]></title>
+					<link>http://imays.blog.me/150131021650</link>
+					<guid>http://imays.blog.me/150131021650</guid>
+					<description><![CDATA[중국 게임 산업을 무시하지 마세요. 한국을 바짝 추격해 오는게 아니라 이미 지나가서 더 앞서 있습니다. 일부 분야는 한국을 몇년 이미 앞서 버렸습니다.중국은 못하는게 아니라 해야 할 동기부여가 덜 되어 있을 뿐입니다. 그들 스스로도 압니다. 그들이 일단 동기부여만 되면 국내 유수 게임 타이틀들을 훌쩍 뛰어넘는 명작 타이틀이 쏟아져 나오는 것은 시간 문제라고 생각합니다.한국 게임 산업 규제는 근미래에 중국 게임들이 한국 청소년들을 휘어잡음을 의미합니다. 미국이 아니라 중국입니다.청소년들의 게임 유흥을 막는 것은 이미 불가능합니다. 한국 게임 산업을 규제하면 중국 게임들이 들어옵니다. 한국 만화를 막았더니 일본 만화.......]]></description>
+					<pubDate>Tue, 07 Feb 2012 12:14:29 +0900</pubDate>
+					<tag><![CDATA[셧다운제,게임중독]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임제작이야기]]></category>
+					<title><![CDATA[김성익님의 NDC 2011 강연 '수퍼클래스']]></title>
+					<link>http://imays.blog.me/150125206039</link>
+					<guid>http://imays.blog.me/150125206039</guid>
+					<description><![CDATA[넥슨 게임 개발자 컨퍼런스(NDC) 2011에서 김성익님(noerror)의 강연은 '수퍼클래스'였습니다.이 강연을 직접 듣지는 못했습니다만 아래 링크를 통해 강연 자료를 볼 수 있었습니다.http://www.slideshare.net/noerror/ndc11-8209615요지는, 한 개의 클래스에 많은 기능을 넣어서, 게임 기획 내용의 변화에 쉽게 대응하자 입니다.마침 스타크래프트II 업데이트를 하는 중에 패치 노트를 읽어보다가 다음을 보게 되었습니다.무리군주는 비행 유닛인데, 지상의 적을 향해 벌레를 투하합니다. 투하된 벌레는 지상의 적을 근접 공격합니다.스타크래프트에서는 워포그에 가려진 유닛이 지상 유닛을 공격하는 순간에 한해 지상 유닛에게 자기 위치가 일.......]]></description>
+					<pubDate>Sun, 27 Nov 2011 14:04:58 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[독일에 왔습니다~]]></title>
+					<link>http://imays.blog.me/150116458446</link>
+					<guid>http://imays.blog.me/150116458446</guid>
+					<description><![CDATA[올해는 제가 유난히 출장이 많습니다. ㅠㅠ 미국 미국 중국 독일 지금 여기는 독일 퀠른입니다. 게임 전시회도 볼 겸,예약 업체 미팅차 왔습니다. 집 나가면 개고생~~~! (시차 적응 못하고 새벽에 깼음) 지나가는 사람들 다들 영어가 됩니다.택시가 벤츠입니다. @.@ 지나가면서 폰카로 찍은 퀠른 성당. 포스 작렬!
+ ]]></description>
+					<pubDate>Wed, 17 Aug 2011 14:24:15 +0900</pubDate>
+					<tag><![CDATA[독일,세계여행]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[가치관]]></category>
+					<title><![CDATA[중소기업 특허 빼앗는 매뉴얼 놓고 세미나하는 대기업]]></title>
+					<link>http://imays.blog.me/150109733076</link>
+					<guid>http://imays.blog.me/150109733076</guid>
+					<description><![CDATA[     
+     
+     
+ 중소기업 특허를 뺏기지 않기 위해서라도, 정부에서 중소기업 특허 분쟁을 위해 자금 대출이나 지원을 해주는 것이 필요하지 않을까 하는 생각이 듭니다.저희도 여러 특허들을 갖고 있는데, 겁이 덜컥 나네요.-------------------------------------------------( 프레시안 뉴스 기사(링크)에서 일부 발췌한 내용)중소기업 특허 빼앗는 매뉴얼 놓고 세미나하는 대기업하지만 이 과정에서 김 대표가 배운 것도 있었다. 재판 과정에서 '특허 분쟁 대응 전략 세미나' 자료를 입수했다. LG그룹에서 부장급 직원들이 참가한 세미나다. 자료의 내용은 적나라했다."중소기업 또는 개인발명가들이 많은 기술과 아이디어를 갖고 찾.......]]></description>
+					<pubDate>Wed, 25 May 2011 06:47:05 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,사회·정치]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[낙서장]]></category>
+					<title><![CDATA[마이크로소프트 본사를 갔다왔습니다.]]></title>
+					<link>http://imays.blog.me/150109613214</link>
+					<guid>http://imays.blog.me/150109613214</guid>
+					<description><![CDATA[ 
+초청방문은 아니고 무단침입 -_- 마이크로소프트는 인근 도시의 출퇴근용 셔틀이 수시로 돌아다닙니다. 출퇴근 시간대 뿐만 아니라 주간에 수시로 다니더군요.  
+마이크로소프트는 이런 건물이 44개로 구성되어 있습니다. 이게 전부다 마이크로소프트 건물들입니다. 건물 뿐만 아니라 건물들을 둘러싸는 도로와 공원도 모두 마이크로소프트 소유입니다.  건물명이 없고 번호만 적혀있습니다. 보안상 이유일지도. 
+마이크로소프트 병원에 오신 것을 환영합니다 -_- 직원 전용 야구장도 있고요 잔디 축구장까지! 역시 직원 전용 코딩하다 잘 안풀리면 여기 누워서 리프레시를 하래요. 역시 직원 전용 그래도 코.......]]></description>
+					<pubDate>Mon, 23 May 2011 18:31:54 +0900</pubDate>
+					<tag><![CDATA[마이크로소프트]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[패킷 송수신 코딩 중 실수를 예방하는 법]]></title>
+					<link>http://imays.blog.me/150107710276</link>
+					<guid>http://imays.blog.me/150107710276</guid>
+					<description><![CDATA[     
+     
+     
+ http://blog.daum.net/proudnet/49]]></description>
+					<pubDate>Fri, 29 Apr 2011 15:01:23 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[GDC 갔다옵니다~]]></title>
+					<link>http://imays.blog.me/150103732057</link>
+					<guid>http://imays.blog.me/150103732057</guid>
+					<description><![CDATA[     
+     
+     10년만에, 샌프란시스코 게임개발자 컨퍼런스(GDC)에 참관합니다. 그것도, 저희 회사 동료들 3명도 데리고 갑니다!비행기값, 호텔값은 그렇다 치고, 입장료가 한사람당 100만원이 넘습니다. 전부다 저희회사 넷텐션에서 쏘는거고요.참관자가 약 18,000명 정도 된다고 합니다. 굉장히 많은 파티도 열리고요. 약 400개 정도의 강연이 열립니다. 게임개발 관련 부스도 상당히 많고요.잘 갔다 오겠습니다~!
+ ]]></description>
+					<pubDate>Sat, 26 Feb 2011 23:46:25 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[프라우드넷 핵심 로직 멀티코어화 이야기]]></title>
+					<link>http://imays.blog.me/150101556464</link>
+					<guid>http://imays.blog.me/150101556464</guid>
+					<description><![CDATA[     
+     
+     1년 넘게 이슈 리스트에 있었지만 계속 개시를 하지 못했던 중대 이슈 하나가 있었다. 프라우드넷 서버 핵심 로직의 최적화&amp;멀티코어화였다.나는 윈도 서버도 MMO게임을 만들 수 있다는 가능성을 찾아냈고, IOCP와 제로 카피 기법을 연구했고, 12년전에 HP 서버 머신에서 동접 수천명을 커버할 수 있는 게임서버엔진을 개발했다. 지금은, IOCP는 게임 서버 개발자라면 누구나 다 아는 기본 상식이 되었다. 기존의 프라우드넷도 MMO게임을 위한 MMO 동접자 커버리지가 이미 제공되고 있었다. 어쩌다 보니 P2P 기능이 많이 부각됐을 뿐이다. 프라우드넷은 불특정 다수와 P2P 연결을 대기시간 없이 맺고 끊어도 잘 작동하는.......]]></description>
+					<pubDate>Tue, 25 Jan 2011 11:47:28 +0900</pubDate>
+					<tag><![CDATA[멀티코어프로그래밍,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[ProudNet 영문 소개 프리젠테이션]]></title>
+					<link>http://imays.blog.me/150099925190</link>
+					<guid>http://imays.blog.me/150099925190</guid>
+					<description><![CDATA[ProudNet 소개 on Prezi]]></description>
+					<pubDate>Fri, 31 Dec 2010 17:41:40 +0900</pubDate>
+					<tag><![CDATA[ProudNet,gameengine]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[프라우드넷 개발사 넷텐션에서 개발자를 추가 모집합니다.]]></title>
+					<link>http://imays.blog.me/150098247369</link>
+					<guid>http://imays.blog.me/150098247369</guid>
+					<description><![CDATA[     
+     
+     [업무 내용]프라우드넷 업그레이드 버전 개발신규 게임엔진 개발데모 게임 개발고객사 기술지원 문답 및 상담[업무 특징]웬만한 게임회사보다 5배의 경험치가 쌓입니다.세상은 넓고 괴물 프로그래머는 많으며 공부할 것이 산더미같이 많으며 오래 쌓은 자기의 경력이 생각보다 좁았다는 것을 느끼게 됩니다.완벽주의 프로그래밍을 하지 않으면 순식간에 뽀록나는 순간을 매번 경험하게 됩니다.자신의 진짜 실력과 한계를 뼈저리게 느끼게 됩니다.채용공고 전체 보기
+ ]]></description>
+					<pubDate>Fri, 03 Dec 2010 00:37:34 +0900</pubDate>
+					<tag><![CDATA[넷텐션,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[컴퓨터]]></category>
+					<title><![CDATA[문자열 클래스 CString의 GetBuffer 메서드의 함정]]></title>
+					<link>http://imays.blog.me/150098160266</link>
+					<guid>http://imays.blog.me/150098160266</guid>
+					<description><![CDATA[     
+     
+     회사내에서 풀었던 문서이지만 의외로 이걸 모르시는 분들이 많더군요.그래서 블로깅해봅니다.원문 링크
+ ]]></description>
+					<pubDate>Wed, 01 Dec 2010 14:35:33 +0900</pubDate>
+					<tag><![CDATA[문자열클래스]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임제작이야기]]></category>
+					<title><![CDATA[게임프로그래머 문답포럼 gpparty 재개장했습니다. ]]></title>
+					<link>http://imays.blog.me/150096289952</link>
+					<guid>http://imays.blog.me/150096289952</guid>
+					<description><![CDATA[거의 일년간 문 닫고 있던 게임프로그래머 문답포럼gpparty를다시 열었습니다~2009년 10월 21일에 백업되었던 데이터로 복구 후 재개장했습니다.많은 애용 바래요.http://www.gpparty.com]]></description>
+					<pubDate>Thu, 28 Oct 2010 12:51:42 +0900</pubDate>
+					<tag><![CDATA[gpparty]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임제작이야기]]></category>
+					<title><![CDATA[자신만의 코드 라이브러리 관련 몇 가지 케이스들]]></title>
+					<link>http://imays.blog.me/150095487232</link>
+					<guid>http://imays.blog.me/150095487232</guid>
+					<description><![CDATA[앞서 저는 자기만의 코드 라이브러리를 지키는 방법을
+소개하였습니다. 여기에 관해서 찐한 토론이
+벌어지고 있더군요. 자세히 다 읽지는 못했습니다만 대충 더 자세한 케이스들을 다루는 것이 좋겠다는 생각이 들었습니다. 오픈소스 관련하여 회사에서 자기가 짠 코드는 이미 회사의 재산입니다. 이를 오픈소스화
+한다는 것은 회사 재산을 사회에 기부하는 것입니다. 따라서 회사의 승인없이 회사에서 자기가 짠 코드를
+오픈소스화하면 안됩니다. 여기까지는 제가 아는 부분이고요, 오픈소스관련해서
+잘 모르는 부분을 짐작하자면, 그 소스의 작성자는 자기가 될 수 있지만(즉 명예 UP) 그 소스의 소유자는 회사가 되는게 아닌.......]]></description>
+					<pubDate>Thu, 14 Oct 2010 18:31:41 +0900</pubDate>
+					<tag><![CDATA[개인라이브러리]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임제작이야기]]></category>
+					<title><![CDATA[자기만의 코드 라이브러리를 지키는 방법]]></title>
+					<link>http://imays.blog.me/150095297183</link>
+					<guid>http://imays.blog.me/150095297183</guid>
+					<description><![CDATA[     
+     
+     회사에서 프로그램 개발을 위해 '자기만의 코드 라이브러리'라는 것을 가꾸어 나가는 분들이 간혹 있습니다.이른바,개인적으로 만든 라이브러리이며다른 회사로 옮길 때 그것을 같이 가져가서 사용하며,자기가 직접 만든 코드 외에는 아무것도 섞여 있지 않은 순수한 자기의 작품이라고 합니다.근데, 이거 저작권법 때문에 골치아플 수 있습니다.우리나라와 미국 저작권법에서는 회사에서 만든 프로그램은 누가 만들었건간에, 회사와의 별도 협약을 체결 안했을 경우, 기본적으로 회사만의 소유입니다. 즉 내가 만들어도 내게 아니다~ 라는거죠.예전에 개인적으로 만든 것을 회사에서 쓸 경우 회사와 별도 협의를 안하면 그 개.......]]></description>
+					<pubDate>Mon, 11 Oct 2010 14:36:56 +0900</pubDate>
+					<tag><![CDATA[라이브러리,게임]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[kgc 2010 후기]]></title>
+					<link>http://imays.blog.me/150094804519</link>
+					<guid>http://imays.blog.me/150094804519</guid>
+					<description><![CDATA[     
+     
+     최근에 너무 바빴던 관계로 kgc 2010 후기를 이제야 올립니다. -_-;;일등공신 홍보 동영상프라우드넷 홍보 동영상을 이번 스폰싱 부스에서 틀어놨습니다. 부스 위치도 사람들이 많이 드나드는 위치였고, 부스 맞은편은 Trinigy 부스 홍보자가 정면으로 보이는 곳이었습니다. (아마 삼일 내내 귓가에서 프라우드넷 인터뷰 멘트가 맴돌았을 것입니다. ㅎㅎㅎ)부스 위치이번 부스는 다른 부스보다 약간 좋은 것으로 주문했습니다. 부스 규모는 사정상 큰 것을 배정받지 못했지만 (-_-) 부스 자체의 위치가 좋았습니다.네트워크 파티gdc는 행사 기간 중 행사장 밖 여기저기서 다양한 파티가 열립니다. 9년전 gdc의 마지막날 저녁.......]]></description>
+					<pubDate>Sat, 02 Oct 2010 20:51:35 +0900</pubDate>
+					<tag><![CDATA[게임엔진,kgc]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[프라우드넷 광고 동영상]]></title>
+					<link>http://imays.blog.me/150094513686</link>
+					<guid>http://imays.blog.me/150094513686</guid>
+					<description><![CDATA[
+ ]]></description>
+					<pubDate>Mon, 27 Sep 2010 13:04:11 +0900</pubDate>
+					<tag><![CDATA[게임엔진]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[kgc 2010 제 강연 내용을 한줄로 요약]]></title>
+					<link>http://imays.blog.me/150094165858</link>
+					<guid>http://imays.blog.me/150094165858</guid>
+					<description><![CDATA[게임엔진 API를 잘 정의하려면 엔진 개발자보다 엔진 사용자의 수준에철저히 맞추어야 한다.끗.]]></description>
+					<pubDate>Mon, 20 Sep 2010 11:49:57 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[kgc2010에 저도 강연합니다.]]></title>
+					<link>http://imays.blog.me/150092800703</link>
+					<guid>http://imays.blog.me/150092800703</guid>
+					<description><![CDATA[이번 kgc2010에서 저도 강연합니다.
+강연 제목은 "게임엔진API 디자인 잘 하기"이고요,
+작년의 약장수스폰싱 강연이 아니라 순수하게 교육적 강연이니까 안심하시고 들으셔도 돼요.
+]]></description>
+					<pubDate>Fri, 27 Aug 2010 00:08:04 +0900</pubDate>
+					<tag><![CDATA[kgc]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[낙서장]]></category>
+					<title><![CDATA[일본어 공부 아이폰앱 '모찌모찌']]></title>
+					<link>http://imays.blog.me/150092592133</link>
+					<guid>http://imays.blog.me/150092592133</guid>
+					<description><![CDATA[전 직장 동료이자 선배님이신 김웅남님의 일본어 교육 아이폰 앱 '모찌모찌'가 출시했습니다.많이 애용해주세요~ 친한 분의 제품이라서를 떠나서 객관적으로 재미있게 공부할 수 있는 앱입니다.]]></description>
+					<pubDate>Mon, 23 Aug 2010 15:31:43 +0900</pubDate>
+					<tag><![CDATA[모찌모찌]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[프라우드넷 간단 소개 프리젠테이션 슬라이드]]></title>
+					<link>http://imays.blog.me/150088170361</link>
+					<guid>http://imays.blog.me/150088170361</guid>
+					<description><![CDATA[프라우드넷 간단 소개 프리젠테이션 슬라이드입니다.
+Game Server Middleware 'ProudNet'
+View more presentations from Nettention. ]]></description>
+					<pubDate>Mon, 14 Jun 2010 15:37:06 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[낙서장]]></category>
+					<title><![CDATA[아이폰]]></title>
+					<link>http://imays.blog.me/150087999592</link>
+					<guid>http://imays.blog.me/150087999592</guid>
+					<description><![CDATA[아이폰 아이콘을 정리하다 보면 B-tree가 생각난다. ]]></description>
+					<pubDate>Fri, 11 Jun 2010 18:10:59 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[넥슨 개발자 컨퍼런스(NDC) 후기]]></title>
+					<link>http://imays.blog.me/150087259879</link>
+					<guid>http://imays.blog.me/150087259879</guid>
+					<description><![CDATA[지금까지 KGC08,게임테크2009,KGC09,게임테크2010를 본게 전부이지만,넥슨 개발자 컨퍼런스(NDC)의 반도 못 따라가는 것 같다.정말로.]]></description>
+					<pubDate>Sun, 30 May 2010 21:43:53 +0900</pubDate>
+					<tag><![CDATA[넥슨개발자컨퍼런스]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[오늘 넥슨 개발자 컨퍼런스(NDC)에서 강연합니다.]]></title>
+					<link>http://imays.blog.me/150086965561</link>
+					<guid>http://imays.blog.me/150086965561</guid>
+					<description><![CDATA[오늘 넥슨 개발자 컨퍼런스(NDC)에서 강연합니다. 오후5시이고요, 주제는 "게임서버엔진 만고풍상 이야기"입니다.다른분들 발표가 너무 뛰어나셔서 걱정입니다. ㅜ.ㅜ]]></description>
+					<pubDate>Wed, 26 May 2010 09:18:10 +0900</pubDate>
+					<tag><![CDATA[넥슨]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[낙서장]]></category>
+					<title><![CDATA["손발이 오그라지는 영어"를 영어로 하면?]]></title>
+					<link>http://imays.blog.me/150086529153</link>
+					<guid>http://imays.blog.me/150086529153</guid>
+					<description><![CDATA[일전에 프라우드넷 도움말 번역을 위해 번역자 섭외를 했습니다.
+"손발이 오그라지는 영어"를 쓰면 안됩니다. 라는 중요 조건이 있었죠. 최근에 "손발이 오그라지는 영어"를 뜻하는 말을 찾았습니다. "너가 말하는게 무슨 소린지 모르겠다"
+"듣다 보니 손발이 오그라진다"
+"You speak like Yoda" 요다처럼 말하고 손발이 오그라지자http://www.yodaspeak.co.uk/ 이봐 자네,잠수함가어뢰를피격하다말하다두다가 선거 끝나면말 바꾸다생각을아닌가? 흐으으으으음.
+]]></description>
+					<pubDate>Wed, 19 May 2010 12:16:59 +0900</pubDate>
+					<tag><![CDATA[yoda]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[태환맘의 육아일기]]></category>
+					<title><![CDATA[태환이 고화질 사진]]></title>
+					<link>http://imays.blog.me/150086238567</link>
+					<guid>http://imays.blog.me/150086238567</guid>
+					<description><![CDATA[백화점에서, 가게 점원이 아기 이쁘다고 사진 찍어줬습니다.
+]]></description>
+					<pubDate>Fri, 14 May 2010 16:16:31 +0900</pubDate>
+					<tag><![CDATA[Canon_EOS_5D]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[넷텐션이 연구소 인증도 받았습니다]]></title>
+					<link>http://imays.blog.me/150086176609</link>
+					<guid>http://imays.blog.me/150086176609</guid>
+					<description><![CDATA[http://blog.daum.net/proudnet/25
+벤처기업 인증 한번 더 받고, 연구소 인증도 받았습니다~!
+임직원 노고에 감사드립니다.]]></description>
+					<pubDate>Thu, 13 May 2010 15:34:13 +0900</pubDate>
+					<tag><![CDATA[연구소]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[좌충우돌신혼일기]]></category>
+					<title><![CDATA[요리사 태환군]]></title>
+					<link>http://imays.blog.me/150086016033</link>
+					<guid>http://imays.blog.me/150086016033</guid>
+					<description><![CDATA["앗 딸기다 으으"
+태환이는 딸기를 싫어해요. 
+"선생님 안보시는 사이에..." 
+"딸기 아웃!" 
+"내가 좋아하는 사과로 체인지!" 
+약은 놈 같으니라구]]></description>
+					<pubDate>Mon, 10 May 2010 20:20:12 +0900</pubDate>
+					<tag><![CDATA[아들네미]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[온라인 게임에서 통신 암호화]]></title>
+					<link>http://imays.blog.me/150085692263</link>
+					<guid>http://imays.blog.me/150085692263</guid>
+					<description><![CDATA[온라인 게임에서 통신 암호화에 대한 개요 글입니다. (덤: 프라우드넷 자랑)
+http://blog.daum.net/proudnet/23 ]]></description>
+					<pubDate>Wed, 05 May 2010 11:50:51 +0900</pubDate>
+					<tag><![CDATA[게임엔진,통신보안]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임제작이야기]]></category>
+					<title><![CDATA[Game Programming Gems 7 책 왔습니다~]]></title>
+					<link>http://imays.blog.me/150084802186</link>
+					<guid>http://imays.blog.me/150084802186</guid>
+					<description><![CDATA[Game Programming Gems 7 책 왔습니다~ 번역을 하시는 류광님께서 증정해 주셨습니다.
+류광님은 Gems 5권때처럼저자들중 맨 앞에 제 이름과 소개를 달아주셨습니다. 다시 한번 감사드립니다. 류광님이 제 글을 번역하시던 중 저에게 질문을 하셨습니다. 첨부된 표의 행과 열을 맞바꿔도 되냐는 것이었죠. 한국어 어법상 그것이 더 자연스럽다는 것이 이유였습니다. 충격이었습니다! 단순히 번역으로 끝나는 것이 아니라 한국어 흐름에 맞도록 세심한 배려를 하시다니! 이번 계기를 통해 류광님이 번역한 책이라면 한번 더 눈여겨보게 될 것 같습니다. 류광님 킹왕짱. 
+영문본과 달리 한글본은 판타그램의 게임 이미지가 박혀있습니다.]]></description>
+					<pubDate>Mon, 19 Apr 2010 23:57:19 +0900</pubDate>
+					<tag><![CDATA[gameprogramminggems]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[낙서장]]></category>
+					<title><![CDATA[차 이름 '카덴자']]></title>
+					<link>http://imays.blog.me/150083999845</link>
+					<guid>http://imays.blog.me/150083999845</guid>
+					<description><![CDATA['카덴자(Cadenza, 음악용어)'란?
+"협주곡에서 1악장의 마지막에 독주자 혼자서 자기가 할 수 있는한 기교를 부려서 자신의 실력(기교)를 과시하고 멋지게 즉흥적으로 연주하는 것을 말한다." 고등학교 시절 음악수업시간에 '카덴자'를 소개하시던 음악선생님 말씀입니다."내가 차 이름을 짓는다면 카덴자라고 짓겠다. 악단들이 모두 연주를 멈추가 솔로 연주자가 마음껏 자신을 과시하는 순간. 멋지지 않은가?" 그리고 17년이 지났습니다. 그리고 진짜로 '카덴자'라는 이름을 가진 차가 등장했습니다!! 기아 K7의 수출 상품명입니다. 그리고카덴자는 제 손안에 들어왔슴다 (결국 자랑질! :p)]]></description>
+					<pubDate>Tue, 06 Apr 2010 10:50:16 +0900</pubDate>
+					<tag><![CDATA[카덴자]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[컴퓨터]]></category>
+					<title><![CDATA[아이패드]]></title>
+					<link>http://imays.blog.me/150083837213</link>
+					<guid>http://imays.blog.me/150083837213</guid>
+					<description><![CDATA[아이패드에 대한 imays의생각. 아이폰의 10배의성장 가능성을 가지고 있다.
+아이패드는 노트북PC을 대체하지 않는다. 핸드폰도 대체하지 않는다. 신 시장을 만들 것이다.
+아이패드의 경쟁자는 노트북 PC가 아니라 노트북이다.
+학생들은 노트북은 없어도 아이패드는 없어서는 안될 것이다.
+아이패드를 능숙히 다루지(앱개발 말고 그저 사용하기)못하면 취업에서도 불리할 것이다.
+아이폰 말고 아이패드 앱 개발에 관심을 가져봐야 하겠다. ]]></description>
+					<pubDate>Sat, 03 Apr 2010 15:51:57 +0900</pubDate>
+					<tag><![CDATA[아이패드]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[프라우드넷 테스트 환경 구축 비하인드 스토리]]></title>
+					<link>http://imays.blog.me/150083236275</link>
+					<guid>http://imays.blog.me/150083236275</guid>
+					<description><![CDATA[프라우드넷 테스트 환경(http://blog.daum.net/proudnet/13) 구축 비하인드 스토리입니다. 1~2년에 걸쳐 조금씩 증설된 테스트 환경입니다. 누적 총비용은 차 한대 값입니다.
+테스트 프로그램은 자체제작된 유닛테스트 프레임워크 기반입니다. 병렬로 여러 테스트 케이스를 서로 다른 프로세스에서 실행하는 기능과, 테스트 프로그램 모듈을 원격 컴퓨터에 일제히 자동업데이트해주는 기능을 가진 유닛테스트 프레임워크를 발견할 수 없었기 때문입니다. 유닛테스트 중앙관리 프로그램은 C++/CLI로 만들어졌습니다. 하지만 유닛테스트 에이전트 프로그램은 native C++로 만들어져 있습니다. Windows98등의 오래된 환경에서 최신 버전의 .net .......]]></description>
+					<pubDate>Wed, 24 Mar 2010 10:12:36 +0900</pubDate>
+					<tag><![CDATA[프라우드넷,P2P,홀펀칭,릴레이]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[가치관]]></category>
+					<title><![CDATA[나는 아직도 대학생이다]]></title>
+					<link>http://imays.blog.me/150083084166</link>
+					<guid>http://imays.blog.me/150083084166</guid>
+					<description><![CDATA[얼마전 인터넷에서, 자퇴한 고대생 이야기를 읽었습니다. 그리고 한창 인터넷이 뜨겁습니다. 맞습니다. 한국 고등학생은 세계적으로 유능하지만 한국 대학생은 세계적으로 무능하다는건 이미 잘 알려진 사실입니다. 컴퓨터공학 실려만 놓고 봐도 저는 S대와 KAIST 아니면 그밥에 그나물입니다. 다른 무능한(물론 모두가 그런건 아니지만졸업평점 3.5 이하들은)대학생들과 달리 그들은 실력자들입니다. (하지만 저는 두 대학 출신이 아닙니다.)
+3학년 기말고사 마지막 과제는 팀을 짜서 운영체제 하나씩 만들어올 것! 나초스 씹어먹으면서. 저도 대학 생활을 충실히 한 편은 아닙니다. 회사를 다니면서 학업을 병행했으니까요. 이것이 한국.......]]></description>
+					<pubDate>Sun, 21 Mar 2010 20:31:16 +0900</pubDate>
+					<tag><![CDATA[대학]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[넷텐션,프라우드넷 블로그 개설]]></title>
+					<link>http://imays.blog.me/150082710907</link>
+					<guid>http://imays.blog.me/150082710907</guid>
+					<description><![CDATA[넷텐션, 프라우드넷 블로그를 개설했습니다.
+개인 블로그가 아니라 회사 블로그입니다.
+http://blog.daum.net/proudnet
+]]></description>
+					<pubDate>Mon, 15 Mar 2010 15:52:11 +0900</pubDate>
+					<tag><![CDATA[게임서버엔진,게임엔진,프라우드넷,넷텐션]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[비즈니스를 하지 않는데 비즈니스가 되고 있다]]></title>
+					<link>http://imays.blog.me/150082528991</link>
+					<guid>http://imays.blog.me/150082528991</guid>
+					<description><![CDATA[아는 형이 이런 저에게 말씀을 했습니다.
+"너 비즈니스 굉장히 잘 하는 것 같아." 솔직히 말씀드리자면, 비즈니스를 너무 안하고 있습니다. 그리고 그 점을 부끄러워하고 있습니다. 아마 이게 맞을 것입니다.
+"비즈니스를 안함에도 불구하고 비즈니스가 되고 있다" 비즈니스 잘 되는 게임엔진은 영업, 마케팅 능력보다도 좋은 품질, 성실한 기술지원 서비스, 저렴한 가격이 더 중요하다고 생각합니다.  그렇다고 영업, 마케팅 능력을 등한시하는게 아닙니다. 이런 상황에서 영업, 마케팅 능력도 상향되면 극대화된 발전이 있을 것이라 생각합니다. 그래서 영업, 마케팅 쪽의 신경 비중을 높이는 중입니다. 침전물이 가라앉는 문.......]]></description>
+					<pubDate>Fri, 12 Mar 2010 17:23:24 +0900</pubDate>
+					<tag><![CDATA[게임엔진]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[엔진 개발시 지침 하나]]></title>
+					<link>http://imays.blog.me/150081932157</link>
+					<guid>http://imays.blog.me/150081932157</guid>
+					<description><![CDATA[세계 최고의 수요 높은 기술을 세계 최초로 만들었느냐 아니냐에 따라 엔진 가격의 자릿수가 달라진다]]></description>
+					<pubDate>Tue, 02 Mar 2010 16:56:55 +0900</pubDate>
+					<tag><![CDATA[게임엔진개발]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[엔진 사업시 지침 하나]]></title>
+					<link>http://imays.blog.me/150081931879</link>
+					<guid>http://imays.blog.me/150081931879</guid>
+					<description><![CDATA[엔진 가격 흥정 때는 왕이 되자.
+엔진 기술지원과 품질개선할 때는 노예가 되자.]]></description>
+					<pubDate>Tue, 02 Mar 2010 16:52:41 +0900</pubDate>
+					<tag><![CDATA[게임엔진사업]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임엔진개발]]></category>
+					<title><![CDATA[게임테크2010 피드백을 받고 싶습니다.]]></title>
+					<link>http://imays.blog.me/150081763637</link>
+					<guid>http://imays.blog.me/150081763637</guid>
+					<description><![CDATA[게임테크2010에서 발표를 잘 마쳤습니다. (링크)
+무척 떨렸습니다. 긴장탓으로 강연내용을 까먹는 바람에 메모를 읽는데 그친 것 같았습니다. 에휴. 피드백을 듣고 싶습니다. 특히, 홍보성과 유익성을 조율해야 하는 입장에서 고민을 많이 한 강연이었습니다.이 글에 댓글을 달아주셔도 좋고, 제 메일(imays 앳 nettention.co.kr)로 보내셔도 좋습니다.
+]]></description>
+					<pubDate>Sat, 27 Feb 2010 22:39:21 +0900</pubDate>
+					<tag><![CDATA[게임테크2010]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

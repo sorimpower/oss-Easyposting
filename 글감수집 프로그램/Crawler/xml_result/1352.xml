@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>ologist`s story</title>
+		<link>http://www.ologist.co.kr/</link>
+		<description></description>
+		<language>ko</language>
+		<pubDate>Sun, 31 Aug 2014 13:30:56 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>ologist</managingEditor>
+		<item>
+			<title>semi-microservice architecture</title>
+			<link>http://www.ologist.co.kr/1035</link>
+			<description>지난 주에는 신규입사한 개발자들을 대상으로 conway's law에 대해서 간단하게 설명을 했었다. 설명을 하다가 보니 더 자세하게 정리를 하고 싶어서 글을 쓰기 시작했는데 너무 방대하게 글이 써지기 시작을 했다.(글쓰기는 너무 어려워;;) conway's law로 시작을 해서 software architecture로 내용이 발전하기 시작했고 component architecture와 network architecture를 얘기하다가 급기야 mono..&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.ologist.co.kr/1035&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>programming</category>
+			<category>conway's law</category>
+			<category>microservice architectiure</category>
+			<category>monolithic architecture</category>
+			<category>semi-microservice architecture</category>
+			<author>ologist</author>
+			<guid>http://www.ologist.co.kr/1035</guid>
+			<comments>http://www.ologist.co.kr/1035#entry1035comment</comments>
+			<pubDate>Sun, 31 Aug 2014 13:22:13 +0900</pubDate>
+		</item>
+		<item>
+			<title>서비스중심의 소프트웨어 회사의 조직문화-Agile@쿠팡 - 2</title>
+			<link>http://www.ologist.co.kr/1007</link>
+			<description>애자일@쿠팡 비즈니스가 성장하고 조직이 커지면서 여러가지 문제들이 발생을 하는데 그 문제점들을 최소화할 수 있는 조직문화를 만들고 지켜야 한다. 우리 쿠팡의 개발조직은 처음부터 많은 수의 개발자들이 참여해서 업무를 할 수 있도록 설계를 하고 시작을 했다. 우리가 많이 보던 애자일 선언문이다. 애자일에 관심을 가진 사람이라면 한번씩을 읽어봤을 것이다. 선언문의 철학은 애자일/스크럼 전체 프랙티스들에 큰 영향을 끼치고 있다. 선언문은 단순하지만 애자일..&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.ologist.co.kr/1007&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>programming</category>
+			<author>ologist</author>
+			<guid>http://www.ologist.co.kr/1007</guid>
+			<comments>http://www.ologist.co.kr/1007#entry1007comment</comments>
+			<pubDate>Wed, 05 Mar 2014 21:08:08 +0900</pubDate>
+		</item>
+		<item>
+			<title>서비스중심의 소프트웨어 회사의 조직문화-Agile@쿠팡 - 1</title>
+			<link>http://www.ologist.co.kr/1006</link>
+			<description>2012년 2월에 NHN에서 쿠팡으로 이직을 한 이후에 돈을 주고 살수도 없는 값진 경험들이 있었다.(벌써 2년이 넘었군요!) 회사의 비즈니스가 급격하게 성장하면서 회사 조직의 변화가 많았는데 특히 내가 속한 기술조직은 더 큰 변화가 있었다. 그 변화의 중심에서 능동적이고 창의적인 개발조직의 기본기를 만들기 위해서 쿠팡 내에서 여러 동료들과 함께 노력을 하였다. 나는 이전 회사에서도 애자일에서 나온 여러가지 프랙티스, 특히 XP진영의 프랙티스들을 실..&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.ologist.co.kr/1006&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>programming</category>
+			<category>Agile</category>
+			<category>coupang</category>
+			<category>조직문화</category>
+			<category>쿠팡</category>
+			<author>ologist</author>
+			<guid>http://www.ologist.co.kr/1006</guid>
+			<comments>http://www.ologist.co.kr/1006#entry1006comment</comments>
+			<pubDate>Wed, 05 Mar 2014 10:00:40 +0900</pubDate>
+		</item>
+		<item>
+			<title>Pro JPA2책 중 code snippet중 이슈가 될만한 것</title>
+			<link>http://www.ologist.co.kr/1028</link>
+			<description>Pro JPA2를 보고 있는데 아래와 같은 코드가 있다. 어떤 문제가 있을까? 내가 면접 시에 코드를 리뷰할 때 가장 많은 질문 중에 하나인데 코드를 살펴보자. Listing 3-30. Using the EmployeeService Session Bean from a Servlet public class EmployeeServlet extends HttpServlet { @EJB EmployeeService bean; protected void do..&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.ologist.co.kr/1028&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>programming</category>
+			<author>ologist</author>
+			<guid>http://www.ologist.co.kr/1028</guid>
+			<comments>http://www.ologist.co.kr/1028#entry1028comment</comments>
+			<pubDate>Wed, 18 Dec 2013 01:53:08 +0900</pubDate>
+		</item>
+		<item>
+			<title>git을 이용한 간단한 릴리즈 노트</title>
+			<link>http://www.ologist.co.kr/1024</link>
+			<description>git을 이용할 때 배포 시에 tagging을 많이 하는데 이것을 이용해서 2개의 tag사이의 diff를 알수 있다. 배포 시마다 실제로 배포되는 커밋단위의 로그를 알면 변경사항에 대해서 정확하게 파악을 할 수가 있고 롤백을 빠르게 진행할 수 있다. &lt;메카니즘&gt; 1. 마지막으로 릴리즈한 태그정보를 가져온다. $ git describe --tag --abbrev=0 coupang-diary.20130814183258 2. 마지막 릴리즈한 태그와 현재..&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.ologist.co.kr/1024&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>programming</category>
+			<author>ologist</author>
+			<guid>http://www.ologist.co.kr/1024</guid>
+			<comments>http://www.ologist.co.kr/1024#entry1024comment</comments>
+			<pubDate>Thu, 12 Sep 2013 22:56:46 +0900</pubDate>
+		</item>
+		<item>
+			<title>코딩하는 쿠요일</title>
+			<link>http://www.ologist.co.kr/1022</link>
+			<description>쿠팡에는 한달에 한번 팀빌딩을 위한 행사를 할 수 있도록 오후5시에 조기퇴근을 하는 제도가 있다.(평소는 오후 6시30분 퇴근) 대부분의 팀은 영화관람, 볼링 등등을 하면서 팀워크를 다진다. 우리 팀은 특별한 취미(?)는 없고 해서 그 동안은 주로 술을 마시면서 팀워크를 다졌는데 이번에는 독특한 시도를 해봤다. &quot;코딩하는 쿠요일이다.&quot; 저녁을 맛나게 먹고 시원하고 물좋은 커피솝에서 가서 코딩을 하는 것이다. 랭귀지부터 개발플랫폼까지 모두 생소한 것을..&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.ologist.co.kr/1022&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>python</category>
+			<category>쿠요일</category>
+			<category>쿠팡</category>
+			<author>ologist</author>
+			<guid>http://www.ologist.co.kr/1022</guid>
+			<comments>http://www.ologist.co.kr/1022#entry1022comment</comments>
+			<pubDate>Wed, 14 Aug 2013 01:09:21 +0900</pubDate>
+		</item>
+		<item>
+			<title>ologist's refactoring #2 extract class</title>
+			<link>http://www.ologist.co.kr/1017</link>
+			<description>클래스가 너무 커지거나 extract method를 하다가 보면 private 메소드가 나오게 된다. 대부분 이런 경우는 그 클래스에 맡은 역할이 많아서 발생하는 경우가 많다. 이 경우에 context나 role이 묶이는 메소드들이 있는데 명시적으로 extract class를 하자. http://refactoring.com/catalog/extractMethod.html 기존에 클래스에 테스트 코드가 있으면 extract class를 한 후에 테스트..&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.ologist.co.kr/1017&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>programming</category>
+			<author>ologist</author>
+			<guid>http://www.ologist.co.kr/1017</guid>
+			<comments>http://www.ologist.co.kr/1017#entry1017comment</comments>
+			<pubDate>Fri, 02 Aug 2013 23:34:07 +0900</pubDate>
+		</item>
+		<item>
+			<title>ologist's refactoring #1 잘못된 extract method</title>
+			<link>http://www.ologist.co.kr/1016</link>
+			<description>long method smell을 발견하고 extract method로 refactoring을 하는 경우가 있다. http://refactoring.com/catalog/extractMethod.html 실제로 extract method 를 진행한 코드를 보다가 보면 많은 개발자들이 실수를 한다. 실수하는 경우를 예를 들면, - context에 맞지 않게 extract를 하는 경우 - extract한 메소드 간에 symmetry가 맞지 않는 경우 -..&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.ologist.co.kr/1016&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>programming</category>
+			<author>ologist</author>
+			<guid>http://www.ologist.co.kr/1016</guid>
+			<comments>http://www.ologist.co.kr/1016#entry1016comment</comments>
+			<pubDate>Thu, 01 Aug 2013 23:36:16 +0900</pubDate>
+		</item>
+		<item>
+			<title>팀사이즈가 크면?</title>
+			<link>http://www.ologist.co.kr/1013</link>
+			<description>애자일 조직에서 1년이상 근무를 하면서 가장 마음에 드는 규칙 중에 하나가 팀의 크기를 9명이하로 유지를 하는 것이다. 현재 우리 팀원은 5명인데 팀의 목표를 만들고 실행할 때 모두의 의견을 듣고 바반영할 수 있고 집중력이 좋다. 업무 시 발생하는 대부분의 이슈들을 같이 공유하면서 업무가 진행이 되고 식사나 티타임에도 모두가 같이 움직이기 편하다. 팀사이즈 문제를 다룬 아티클이다. http://www.itjoblog.co.uk/2011/05/team..&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.ologist.co.kr/1013&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>programming</category>
+			<category>Agile</category>
+			<category>Amazon</category>
+			<category>jeffbezos</category>
+			<category>제프베죠스</category>
+			<author>ologist</author>
+			<guid>http://www.ologist.co.kr/1013</guid>
+			<comments>http://www.ologist.co.kr/1013#entry1013comment</comments>
+			<pubDate>Thu, 25 Jul 2013 00:45:26 +0900</pubDate>
+		</item>
+		<item>
+			<title>Mac에서 Git Flow 설치 및 branch strategy</title>
+			<link>http://www.ologist.co.kr/1009</link>
+			<description>mac에서 port를 설치한다. http://www.macports.org/install.php git-flow를 설치한다. Coupang-ui-MacBook-Pro:~ Coupang$ sudo port install git-flow brew설치를 한다. http://mxcl.github.io/homebrew/ git-flow를 설치한다. Coupang-ui-MacBook-Pro:~ Coupang$ brew install git-flow git fl..&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://www.ologist.co.kr/1009&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<author>ologist</author>
+			<guid>http://www.ologist.co.kr/1009</guid>
+			<comments>http://www.ologist.co.kr/1009#entry1009comment</comments>
+			<pubDate>Tue, 28 May 2013 23:06:36 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

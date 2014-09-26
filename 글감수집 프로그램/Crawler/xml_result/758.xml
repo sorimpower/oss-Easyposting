@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Haeppa World</title>
+		<link>http://www.haeppa.kr/</link>
+		<description>저시력 시각장애인, 웹접근성  |  
+이 블로그는 시각장애인으로서 컴퓨터를 사용하면서 느낀점을 나누고 스크린리더와 웹접근성에 대한 정보를 공유하기 위한 곳입니다.</description>
+		<language>ko</language>
+		<pubDate>Sun, 31 Aug 2014 23:05:18 +0900</pubDate>
+		<generator>Textcube 1.9.3 : poco a poco</generator>
+		<item>
+			<title>Sitecues (저시력 지원 웹서비스)</title>
+			<link>http://www.haeppa.kr/120</link>
+			<description>이 문서에서 Sitecues를 리뷰하는 것은 글꼴크기 조절, 혹은 확대기능이 제공되는 서비스에서 저시력 사용자에게 보다 나은 경험을 제공할 수 있는 방법을 찾아보기 위함이다. Sitecues의 “도구모음 패널 확장”, “세밀한 배율조절”, “마우스포인터 확대”, “좌우스크롤”, “음성낭독” 등의 기능에서 모티브를 얻어 국내 웹서비스의 접근성이 조금이나마 더 개선되기를 기대한다. &amp;#160; A. Sitecues가 무엇일까? Ai squrared 사...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/120&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>저시력 이야기</category>
+			<category>sitecues</category>
+			<category>시각장애</category>
+			<category>음성낭독</category>
+			<category>저시력</category>
+			<category>확대</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/120</guid>
+			<comments>http://www.haeppa.kr/120#entry120comment</comments>
+			<pubDate>Wed, 27 Aug 2014 01:22:09 +0900</pubDate>
+		</item>
+		<item>
+			<title>센스리더 title 정보 음성출력의 변화</title>
+			<link>http://www.haeppa.kr/119</link>
+			<description>화면낭독기와 링크의 title 속성값 기존에는 센스리더를 포함한 PC 화면낭독기 대부분이 title 정보를 음성출력할 수 없는 상태에 있었습니다. 링크의 title 정보를 읽기 위해서는 (title 정보가 있는지 없는지 모른채) 기능키를 누르거나 설정을 바꿔서 링크텍스트와 title 중 하나를 선택해서 들어야 했습니다. 이런 이유로 대부분의 화면낭독기 사용자가 title 정보를 활용하지 않는 실정이었습니다. 덕분에 title 속성에 잘못된 정보, ...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/119&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>스크린리더 이야기</category>
+			<category>a</category>
+			<category>title</category>
+			<category>링크</category>
+			<category>센스리더</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/119</guid>
+			<comments>http://www.haeppa.kr/119#entry119comment</comments>
+			<pubDate>Tue, 15 Jul 2014 00:12:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>센스리더 재설치할 때 이상하면&amp;hellip;</title>
+			<link>http://www.haeppa.kr/117</link>
+			<description>최근 센스리더 4.0 beta 를 삭제하고 4.0.0.0 정식 버전을 설치할 때 아래와 같은 화면이 나오면서 설치가 잘 되지 않는 현상이 있었다요. 센스리더 설치 프로그램을 실행했을 때 수정, 복구, 제거 라디오버튼 중 선택하는 설치화면이 등장한다. 이 문제는 인스톨쉴드 설치 관련 파일이 제대로 삭제되지 않아 나타나는 현상으로 4.0 beta 버전 뿐 아니라 다른 버전에서도 발생할 수 있는 현상이라고 하네요 해결하는 방법은 제대로 삭제되지 않은 인...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/117&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>스크린리더 이야기</category>
+			<category>설치</category>
+			<category>센스리더</category>
+			<category>오류</category>
+			<category>인스톨쉴드</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/117</guid>
+			<comments>http://www.haeppa.kr/117#entry117comment</comments>
+			<pubDate>Wed, 09 Jul 2014 22:28:31 +0900</pubDate>
+		</item>
+		<item>
+			<title>센스리더 4.0.0.0 정식 출시</title>
+			<link>http://www.haeppa.kr/118</link>
+			<description>20014.07.07 센스리더에서 상당기간 베타테스트를 거친 4.0 버전이 드디어 정식으로 출시되었습니다. 가장 큰 특징은 윈도우즈8을 지원하는 것과 인터넷지원이 개선된것 그리고 설치패키지의 변경입니다. 베이직버전과 프로페셔널 버전 설치파일이 따로 있으며 세부사항을 선택해서 설치하는 것이 가능해졌습니다. 인터넷 관련 기능 중 가장 큰 특징은 4가지 정도인 것 같습니다. 브라우저탭키 모드를 도입해서 보다 동적인 웹 환경에 대응할 수 있도록 한 것 (...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/118&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>센스리더 버전은...</category>
+			<category>센스리더</category>
+			<category>업데이트</category>
+			<category>화면낭독기</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/118</guid>
+			<comments>http://www.haeppa.kr/118#entry118comment</comments>
+			<pubDate>Tue, 08 Jul 2014 01:21:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>앱 이름은 유니크하게~</title>
+			<link>http://www.haeppa.kr/116</link>
+			<description>연두군! 앱스토어의 이름하고 설치된 앱의 이름이 너무 달라서 못 찾을 때가 있다고~~ 이 말을 듣고 아이폰의 앱 이름을 살펴보니 보다 심각한 문제가 있었다. 앱 이름만 봐서는 어느 앱인지 알 수가 없자나! &amp;#160; 앱 이름을 살펴보자 iOS용 뱅킹앱을 마구 설치해서 살펴보니 어느 은행의 앱인지 조차 알 수 없는 앱이 있다는 것을 발견했다. &amp;#160; 아이폰 뱅킹앱 20개 앱이름 은행명 아이콘 이름 KB국민은행 KB스타뱅킹 신한은행 신한S뱅크 ...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/116&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>사용성 이야기</category>
+			<category>대체텍스트</category>
+			<category>뱅킹</category>
+			<category>아이콘</category>
+			<category>앱</category>
+			<category>은행</category>
+			<category>이름</category>
+			<category>접근성</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/116</guid>
+			<comments>http://www.haeppa.kr/116#entry116comment</comments>
+			<pubDate>Sun, 29 Jun 2014 05:07:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>센스리더 4.0 beta4 간단정보 및 기능키 정리</title>
+			<link>http://www.haeppa.kr/114</link>
+			<description>최근 센스리더(www.xvtech.com)는 4.0 beta 를 공개하고 베타테스트를 진행했습니다. 현재 beta4까지 공개되었고 곧 정식출시를 앞두고 있다고 합니다. 센스리더 4.0 업데이트는 Windows 8 지원이 가장 큰 키워드로 보일 수 있지만, 가상커서에서도 변화가 있었습니다. 센스리더 개발 이후 줄곧 유지하던 가상커서 체계에 큰 변화가 있었고, 복잡했던 기능키조합도 크게 바뀌었습니다. &amp;#160; 가상커서 - 브라우저 탭키의 등장 기존...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/114&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>스크린리더 이야기</category>
+			<category>4.0</category>
+			<category>sense reader</category>
+			<category>기능키</category>
+			<category>단축키</category>
+			<category>센스리더</category>
+			<category>화면낭독기</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/114</guid>
+			<comments>http://www.haeppa.kr/114#entry114comment</comments>
+			<pubDate>Sat, 07 Jun 2014 04:13:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>Minitool Partition Wizard Home Edition (파티션 관리)</title>
+			<link>http://www.haeppa.kr/113</link>
+			<description>파티션 관리 툴입니다. 윈도우 7 디스크관리자에서 기본으로 파티션 관리 기능을 제공하고 있지만 기능이 많이 미흡하죠? 예전에는 Partition Magic라는 프로그램을 참 많이 사용했는데 요즘엔 이 프로그램을 애용하고 있습니다. 파티션 생성, 삭제, 분할, 병합, 이동, 복구 등의 기능을 매우 편리하게 사용할 수 있구요 윈도우XP, VISTA, 7, 8까지 모든 버전을 지원하고 있어요. 게다가 개인사용자에게는 Home Edition을 무료로 제공...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/113&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>컴퓨터 일반</category>
+			<category>hdd</category>
+			<category>minitool</category>
+			<category>partition</category>
+			<category>디스크</category>
+			<category>파티션</category>
+			<category>하드</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/113</guid>
+			<comments>http://www.haeppa.kr/113#entry113comment</comments>
+			<pubDate>Sat, 07 Jun 2014 00:47:22 +0900</pubDate>
+		</item>
+		<item>
+			<title>링크에서 이미지의 공백처리와 센스리더</title>
+			<link>http://www.haeppa.kr/111</link>
+			<description>웹 접근성에 관심을 가지고 가장 처음 접하게 되는 정보 중 하나가 img의 alt 속성이다. 시각장애인은 이미지 정보를 눈으로 확인할 수 없기 때문에 이를 보완하기 위해 alt 속성을 사용하게 되고, 이것을 화면낭독기가 음성출력한다. 다들 알다시피 모든 이미지에 alt 속성값을 제공하는 것은 아니다. alt 속성의 제공에서 제외되는 것은 정보를 담지 않은 블릿, 선, 배경 등의 이미지다. 장식에 사용되는 이런 이미지에는 화면낭독기가 음성을 출력하지...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/111&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>스크린리더 이야기</category>
+			<category>a</category>
+			<category>alt</category>
+			<category>img</category>
+			<category>공백</category>
+			<category>링크</category>
+			<category>센스리더</category>
+			<category>스크린리더</category>
+			<category>이미지</category>
+			<category>죠스</category>
+			<category>화면낭독기</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/111</guid>
+			<comments>http://www.haeppa.kr/111#entry111comment</comments>
+			<pubDate>Fri, 06 Jun 2014 18:49:31 +0900</pubDate>
+		</item>
+		<item>
+			<title>웹접근성과 품질인증 - 책을 출판하다니요 ^^;</title>
+			<link>http://www.haeppa.kr/112</link>
+			<description>웹 접근성과 관련된 일을 하다보니 어찌어찌해서 책을 출판하게 되었어요~! 책을 준비한 기간은 1년 남짓~ 1년이란 준비기간은 좋은 분들과 함께한 오래 기억에 남을 시간들이었어요. ^^ 글을 쓰는 동안엔 미처 느끼지 못했는데 막상 출판되고 책을 받아보니 매우 민망하고 부끄럽고 그렇습니다. ㅎㅎ 책의 제목은 “웹접근성과 품질인증” 이에요. 품질인증이라는 이슈에 대응하기에는 다소 늦은 감이 있지만 지침에 대한 설명과 사례, 구현방법, 난제해결, 직군의 ...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/112&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>웹접근성&amp;표준 이야기</category>
+			<category>김혜일</category>
+			<category>웹접근성</category>
+			<category>접근성</category>
+			<category>책</category>
+			<category>품질인증</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/112</guid>
+			<comments>http://www.haeppa.kr/112#entry112comment</comments>
+			<pubDate>Thu, 23 Jan 2014 01:29:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>Macrium Reflect Free (드라이브 백업/복원)</title>
+			<link>http://www.haeppa.kr/110</link>
+			<description>사용하던 컴퓨터에 SSD를 추가할 때 Windows를 재설치하지 않고 기존 OS드라이브 백업 후 새로 설치한 SSD에 복원할 수 있는 유틸입니다.. 이런 류의 프로그램은 유료가 대부분인데 사용해보니 무료에서도 백업/복원 기능을 사용할 수 있고, Windows XP, VISTA, 7, 8을 지원하고 x86, x64 모두 지원하고 있습니다. &amp;#160; 다운로드와 사용방법 Macrium Reflect Free 홈페이지로 이동 - http://www.m...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/110&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>컴퓨터 일반</category>
+			<category>backup</category>
+			<category>hdd</category>
+			<category>macrium</category>
+			<category>restore</category>
+			<category>ssd</category>
+			<category>백업</category>
+			<category>복원</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/110</guid>
+			<comments>http://www.haeppa.kr/110#entry110comment</comments>
+			<pubDate>Wed, 11 Dec 2013 00:42:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>Firefox 에서 윈도우즈 미디어플레이어 재생문제</title>
+			<link>http://www.haeppa.kr/109</link>
+			<description>파이어폭스에서 윈도우즈 미디어 플레이어로 스트리밍되는 동영상을 보려면 별도의 플러그인을 설치해야 합니다. (모… 이건 다 아는 이야기죠) 파이어폭스용 윈도우즈 미디어 플레이어 플러그인 다운로드 : http://www.interoperabilitybridges.com/windows-media-player-firefox-plugin-download 원래는 위 플러그인을 설치하면 윈도우즈 미디어 플레이어의 이용이 가능했습니다. &amp;#160; 문제는… 파이...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/109&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>컴퓨터 일반</category>
+			<category>firefox</category>
+			<category>windows media</category>
+			<category>동영상</category>
+			<category>문제</category>
+			<category>윈도우즈 미디어</category>
+			<category>재생</category>
+			<category>파이어폭스</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/109</guid>
+			<comments>http://www.haeppa.kr/109#entry109comment</comments>
+			<pubDate>Thu, 14 Nov 2013 20:37:45 +0900</pubDate>
+		</item>
+		<item>
+			<title>Sharing is Victory 2013 접근성: 함께! 더 널리!</title>
+			<link>http://www.haeppa.kr/108</link>
+			<description>지난 2013년 7월 27일 NHN그린팩토리에서 NULI 주관으로 두번째 접근성 세미나가 있었다. Sharing is Victory 2013 세미나정보보기 &amp;#160; 이 세미나는 듣는 참석자가 아니라 전달하는 발표자로 참석하게 되었다. 처음 세미나 발표 제안을 받았을 때, 유명한 능력자가 아닌 나 같은 평민에게 발표 제안이 왔다는 사실에 너무 놀랍고 당황스러웠다. 그만큼 자주 오지 않을 기회라는 생각에 덥석! &amp;#160; 세미나를 위해 고민한 발...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/108&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>웹접근성&amp;표준 이야기</category>
+			<category>nhn</category>
+			<category>nuli</category>
+			<category>널리</category>
+			<category>사각지대</category>
+			<category>세미나</category>
+			<category>시각장애</category>
+			<category>접근성</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/108</guid>
+			<comments>http://www.haeppa.kr/108#entry108comment</comments>
+			<pubDate>Sat, 14 Sep 2013 09:25:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>Darum 오픈 기념 웹표준간담회 (Daum)</title>
+			<link>http://www.haeppa.kr/107</link>
+			<description>제주도에서 웹표준 간담회가 있었습니다. DAUM DNA 링크 : http://daumdna.tistory.com/771 13:00~13:10 오프닝 – 인사말 및 Darum 사이트 소개 13:10~14:30 Front-end 직군의 현재와 미래 홍윤표(CDK) 정찬명(NHN) 이원주(Daum) 조현진(ACG) 14:40~15:40 반응형 웹 디자인은 만능인가? 신현석(CDK) 방미희(CDK) 전승엽(CDK) 16:00~17:20 웹 접근성, 장애인...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/107&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>웹접근성&amp;표준 이야기</category>
+			<category>darum</category>
+			<category>daum</category>
+			<category>kwag</category>
+			<category>간담회</category>
+			<category>접근성</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/107</guid>
+			<comments>http://www.haeppa.kr/107#entry107comment</comments>
+			<pubDate>Tue, 16 Apr 2013 00:57:02 +0900</pubDate>
+		</item>
+		<item>
+			<title>플랫폼에 따라 달라지는 네이버의 CAPTCHA</title>
+			<link>http://www.haeppa.kr/106</link>
+			<description>먼저 특정 사이트에 악감정이 있거나 비방하기 위한 포스팅이 아님을 밝힙니다. 네이버에서 카페를 가입할 때 반드시 통과해야 하는 부분이 있습니다. &amp;#160; CAPTCHA… 보통 보안문자, 그림문자 라고도 부르는 녀석입니다. 다들 아시는 대로 봇에 의한 자동가입을 막기 위해 사용되는 녀석이지요. 예전부터 요게 문제입니다. CAPTCHA는 그 특성상 대체텍스트를 제공할 수 없어 시각장애인 혼자서는 통과할 수 없는 큰 장벽입니다. 카페 가입을 원하는 ...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/106&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>사용성 이야기</category>
+			<category>captcha</category>
+			<category>naver</category>
+			<category>가입</category>
+			<category>네이버</category>
+			<category>보안문자</category>
+			<category>스크린리더</category>
+			<category>시각장애</category>
+			<category>자동가입방지</category>
+			<category>카페</category>
+			<category>캡차</category>
+			<category>화면낭독기</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/106</guid>
+			<comments>http://www.haeppa.kr/106#entry106comment</comments>
+			<pubDate>Thu, 20 Dec 2012 03:48:41 +0900</pubDate>
+		</item>
+		<item>
+			<title>[좋아요] 네이버 me 메일 읽음표시 아이콘</title>
+			<link>http://www.haeppa.kr/104</link>
+			<description>새로운 카테고리의 첫 글은 기분 좋은 내용을 시작합니다~ ^^ 2011년 3월에 네이버 고객센터에 문의했던 내용입니다. 네이버me 서비스가 막 시작했을 때로 기억합니다. 문의내용 안녕하세요 네이버 메일을 사용하다 불편한점이 있어 문의드립니다. 네이버 me로 변경되면서 디자인이 변경이 많이 됐는데요 그 중 메일 새로운메일/읽은메일 을 구분하는 편지봉투 아이콘이 구분이 잘되지 않습니다. 전 저시력 시각장애인이라서 색상 차이가 크지 않을 경우 구분하기가...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/104&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>고객센터 이야기</category>
+			<category>네이버</category>
+			<category>메일</category>
+			<category>색상대비</category>
+			<category>아이콘</category>
+			<category>저시력</category>
+			<category>접근성</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/104</guid>
+			<comments>http://www.haeppa.kr/104#entry104comment</comments>
+			<pubDate>Mon, 29 Oct 2012 20:42:53 +0900</pubDate>
+		</item>
+		<item>
+			<title>카테고리 &quot;고객센터 이야기&quot; 추가...</title>
+			<link>http://www.haeppa.kr/103</link>
+			<description>블로그를 시작한지 3년쯤 되가는거 같아요... 오랜만에 새로운 카테고리를 추가했어요 &quot;고객센터 이야기&quot; 그동안 이런 저런 일이 많이 있었고... 앞으로도 있겠죠... 제목 그대로... 웹사이트나 프로그램 등 각종 장애관련 이슈에 대해서 고객센터에 질의를 하고 받은 답장을... 그 결과들를 공유하려고 해요. 앞으로 새로운 내용을 올리는 것도 좋지만 그동안 있었던 일들을 공유하려고 해요. 저 개인의 질의는 힘이 없으나 앞으로 이 카테고리의 글을 보게 ...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/103&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>고객센터 이야기</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/103</guid>
+			<comments>http://www.haeppa.kr/103#entry103comment</comments>
+			<pubDate>Sun, 21 Oct 2012 23:42:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>윈7에서 센스리더 실행해도 Aero 테마 꺼지지 않게 설정하기</title>
+			<link>http://www.haeppa.kr/102</link>
+			<description>센스리더는 화면상의 텍스트 정보를 가져오기 위해 그래픽 Mirror Driver를 사용합니다. 윈도우 7에서 Mirror Driver 가 동작하는 경우 Aero 테마를 사용할 수 없다고 합니다 센스리더를 실행하면 Aero 테마가 꺼지는 이유가 바로 이것 때문입니다. 해결 방법은 간단합니다. Mirror Driver를 없애면 되는거죠. 이 부분은 인터넷 가상커서를 사용하는 것과는 무관하기 때문에 웹접근성 테스트를 위해 센스리더를 사용하는 비장애인이라...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/102&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>스크린리더 이야기</category>
+			<category>aero</category>
+			<category>센스리더</category>
+			<category>에어로</category>
+			<category>윈7</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/102</guid>
+			<comments>http://www.haeppa.kr/102#entry102comment</comments>
+			<pubDate>Sat, 09 Jun 2012 22:09:34 +0900</pubDate>
+		</item>
+		<item>
+			<title>뉴 아이패드 카메라를 확대기로~</title>
+			<link>http://www.haeppa.kr/101</link>
+			<description>드디어 뉴 아이패드(64G/WIFI)를 구매했습니다. 5월 29일 밤 10시에 주문했는데 5월 31일 낮 1시에 도착하네요. 아이패드2 초기(2011년 3월)와는 다른 완전 빠른 DHL 배송!! 이미 아이패드2를 가지고 있어서 뉴아이패드 구입이 무척 망설여졌지만 제게는 남들과 조금 다른 뉴아이패드 구매 이유가 있습니다. 그것은 바로 카메라 화질!! 카메라의 화질에 주목하는 이유는 아이패드를 확대기 용도로 사용하기 위해서입니다. 아이패드와 확대기가 ...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/101&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>저시력 이야기</category>
+			<category>아이패드</category>
+			<category>아이폰</category>
+			<category>저시력</category>
+			<category>확대</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/101</guid>
+			<comments>http://www.haeppa.kr/101#entry101comment</comments>
+			<pubDate>Wed, 06 Jun 2012 00:30:26 +0900</pubDate>
+		</item>
+		<item>
+			<title>센스리더 베이직/프로페셔널 v3.0.0.0</title>
+			<link>http://www.haeppa.kr/100</link>
+			<description>2012.03.27에 진행된 업데이트입니다. 가장 큰 변화는 센스리더의 패키지 변경입니다.&amp;#160; IE9에서는 아직 버그가 있는 것 같습니다. 혹시 사용하시다가 버그가 발견되면 제보 부탁드립니다. 패키지 변경사항 변경 전 변경 후 센스리더 프로페셔널 베이직 센스리더 베이직 센스리더 프로페셔널 익스텐디드 폐지 센스리더 프로페셔널 풀 센스리더 프로페셔널 ※ 참고로 베이직과 프로페셔널의 인터넷 기능은 100% 동일합니다. 센스리더 일반 -32 / 6...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/100&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>센스리더 버전은...</category>
+			<category>reader</category>
+			<category>sense</category>
+			<category>센스리더</category>
+			<category>스크린리더</category>
+			<category>시각장애</category>
+			<category>화면낭독</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/100</guid>
+			<comments>http://www.haeppa.kr/100#entry100comment</comments>
+			<pubDate>Tue, 29 May 2012 20:53:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>센스리더 프로페셔널 v2.0.0.1 변경사항</title>
+			<link>http://www.haeppa.kr/99</link>
+			<description>2011.09.29에 진행되었던 업데이트입니다. 기록으로 남기기 위해 포스팅합니다. 센스리더 일반 -엑셀 2007에서 행과 열을 전체 선택할 경우 셀 개수를 잘못 읽는 문제 수정. -엑셀에서 조건부 서식이 지정된 셀의 서식을 정상적으로 읽지 못하던 문제 수정. -USB 버전을 만들 때 주소록, 타자연습 등의 아이콘이 원본 상태 그대로 적용되도록 수정. 센스 독서기 -독서기 실행시 녹음 폴더 등을 체크하여 폴더가 없는 경우 자동으로 폴더를 생성하도록...&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://www.haeppa.kr/99&quot;&gt;글 전체보기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>센스리더 버전은...</category>
+			<category>reader</category>
+			<category>sense</category>
+			<category>센스리더</category>
+			<category>스크린리더</category>
+			<category>시각장애</category>
+			<category>화면낭독기</category>
+			<author>haeppa@gmail.com (해빠)</author>
+			<guid>http://www.haeppa.kr/99</guid>
+			<comments>http://www.haeppa.kr/99#entry99comment</comments>
+			<pubDate>Tue, 29 May 2012 18:39:17 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

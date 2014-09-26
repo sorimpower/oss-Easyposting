@@ -1,0 +1,75 @@
+﻿@model EasyPosting.Models.EP_POSTS
+
+@{
+    ViewBag.Title = "링크 주소 추가";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Title, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Title)
+                @Html.ValidationMessageFor(model => model.Title)
+            </div>
+        </div>
+
+        @*
+             <div class="form-group">
+                @Html.LabelFor(model => model.Category, new { @class = "control-label col-md-2"})
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Category)
+                    @Html.ValidationMessageFor(model => model.Category)
+                </div>
+            </div>
+        *@
+        <div class="form-group">
+            @Html.LabelFor(model => model.Slug, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Slug)
+                @Html.ValidationMessageFor(model => model.Slug)
+            </div>
+        </div>
+
+
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.Date, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Date)
+                @Html.ValidationMessageFor(model => model.Date)
+            </div>
+        </div>*@
+
+        @*<div class="container col-md-6 col-md-offset-3">
+                <div id="mycanvas"></div>
+            </div>*@
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.Body, new { @class = "control-label col-md-2" })*@
+            <label class="control-label col-md-2">링크 주소</label>
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Body)
+                @*@Html.TextAreaFor(model => model.Body, new { rows = "20", cols = "200" })*@
+                @Html.ValidationMessageFor(model => model.Body)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="작성 완료" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("메인 페이지로", "Link", "Storage")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[제로벅의 DB 주무르기]]></title>
+			<link>http://blog.naver.com/jojosama</link>
+			
+				<image>
+					<url><![CDATA[http://blogpfthumb.phinf.naver.net/20140724_131/jojosama_1406179987659tYH72_JPEG/201407240928771905_53d053b285f7d.jpg?type=m2]]></url>
+					<title><![CDATA[제로벅의 DB 주무르기]]></title>
+					<link>http://blog.naver.com/jojosama</link>
+				</image>
+			
+			<description><![CDATA[목표설정과 10년계획세우기]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:43:02 +0900</pubDate>
+
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[오라클(ORACLE) ]]></category>
+					<title><![CDATA[AUTOMATIC UNDO MANAGEMENT 관리방법]]></title>
+					<link>http://blog.naver.com/jojosama/80094362733</link>
+					<guid>http://blog.naver.com/jojosama/80094362733</guid>
+					<description><![CDATA[제품 : ORACLE SERVER작성날짜 : 2002-11-20
+ORACLE9IAUM (AUTOMATIC UNDO MANAGEMENT)에서의 ROLLBACK/UNDO SEGMENT=====================================================================PURPOSE  
+이 문서는 Oracle 9i new featuer인 Automatic Undo Managemet (AUM)을어떻게 사용하는지를 설명하고, 일반적인 rollback segment와 관련된Manual Undo Management와의 차이점을 간략히 설명한다.
+Explanation  
+1.AUM 환경에서 Rollback/Undo Segment 관리AUM은 9i new feature로 undo segment에 대한 관리를 자동화, 단순화시켜 준다.DBA는 Oracle 7, Oracle 8, Oracle 8i에서와 같이 직접 rollback segment를관리해 줄 수도 있고.......]]></description>
+					<pubDate>Wed, 04 Nov 2009 12:34:08 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[TERADATA]]></category>
+					<title><![CDATA[고객정보가 포함된 테이블의 데이터 null 업데이트 쿼리 만들기]]></title>
+					<link>http://blog.naver.com/jojosama/80092539837</link>
+					<guid>http://blog.naver.com/jojosama/80092539837</guid>
+					<description><![CDATA[select 'update ' || tname || ' a set ' || trim(columnname) || ' = null where a.cust_cardno = sknwk.cu_mbship_upd2.cust_cardno ;'from(select trim(databasename )|| '.' || tablename as tname, columnnamefrom dbc.columnswhere columnname in ('eml_addr','po_telno','hom_telno','rps1_addr','rps2_addr','zip1no','zip2no'          'hom_addr','co_addr','hom_zipno','co_telno')and  databasename in ('SKNDW','SKNIDW','SKNOL','SKNIOL')and  tname in (select trim(databasename )|| '.' || tablename as tnamefrom dbc.columnswhere columnname = 'CUST_CARDNO'and  databasename in ('SKNDW','SKNIDW','SKNOL','SKNIOL') )) x;.......]]></description>
+					<pubDate>Thu, 08 Oct 2009 16:55:58 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[SQL 기 술 ]]></category>
+					<title><![CDATA[3일 연속발생된 데이터 조회 SQL]]></title>
+					<link>http://blog.naver.com/jojosama/80069841812</link>
+					<guid>http://blog.naver.com/jojosama/80069841812</guid>
+					<description><![CDATA[* 테이블 설명
+tab1 : 고객카드번호(cust_card_no), 포인트발생일자(occr_date) 가 PK인 포인트적립 이력테이블 * 쿼리 용도
+1)포인트 연속 적립한 고객에 대한 이벤트
+2) 포인트 부정 적립을 찾기 위한 목적 등 * 쿼리 설명
+LAG, LEAD 분석함수를 활용하여, 이전 / 이후 데이터를 한 row에서 조회한 뒤, 서로 값을 비교하여 데이터를 추출함. select *from (  select cust_card_no, occr_date --발생일자, LAG(occr_date, 2) OVER (partition by cust_card_no ORDER BY occr_date) AS pre_occr_date -- 발생일자 전 데이터, LEAD(occr_date, 1) OVER (partition by cust_card_no ORDER BY occr_date) AS post_occr_date -- 발생일.......]]></description>
+					<pubDate>Wed, 10 Jun 2009 11:00:58 +0900</pubDate>
+					<tag><![CDATA[연속,연속발생,포인트적립,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[오라클(ORACLE) ]]></category>
+					<title><![CDATA[proc 강좌 링크]]></title>
+					<link>http://blog.naver.com/jojosama/80064912143</link>
+					<guid>http://blog.naver.com/jojosama/80064912143</guid>
+					<description><![CDATA[http://www.joinc.co.kr/modules/moniwiki/wiki.php/article/oracle_proc_programing]]></description>
+					<pubDate>Thu, 12 Mar 2009 21:18:25 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[Informatica ]]></category>
+					<title><![CDATA[informatica trouble shooting ]]></title>
+					<link>http://blog.naver.com/jojosama/80063123648</link>
+					<guid>http://blog.naver.com/jojosama/80063123648</guid>
+					<description><![CDATA[Source: oracle, mssql, db2, 기타 text
+Target : Teradata, Oracle, mssql, 기타 text  ETL 시스템관리를 수행하면서 겪었던 여러가지 에러상황과 그에 따른 해결방안을 정리해 본다. 
+사실, 2009년 새해에는 블로그에 좀 더 적극적으로 글을 담아 보고자 했으나, 뜻대로 부지런하지 못했다. 
+이 글을 시작으로 좀 부지런해져야 할 텐데... 이 글도 앞서 작성한 글의 보충격... 신입사원 교육용으로 정리를 해 보았다.
+앞으로 다가 올 프로젝트의 먹구름이 또 앞을 가를 것만 같구나......... *** Trouble Shooting *** 1. WRT-8004 Writer Initiation ~ 
+1) Target table에 Secondary Index가 있는 경우, Mload 시에 에러 발생한.......]]></description>
+					<pubDate>Wed, 11 Feb 2009 17:22:10 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[DW 자료 ]]></category>
+					<title><![CDATA[[TERADATA]통계정보 생성 명령어]]></title>
+					<link>http://blog.naver.com/jojosama/80061109752</link>
+					<guid>http://blog.naver.com/jojosama/80061109752</guid>
+					<description><![CDATA[TERADATA DB에서는 컬럼레벨의 통계정보가 생성되어야 테이블의 JOIN 시에 실행속도가 보장된다. 
+* NODE의 CPU 사용량을 많이 사용하게 될 경우에 통계정보를 생성해서 실행해 보자.  COLLECT STATISTICS ONDB명.테이블명 column 컬럼명 ; ]]></description>
+					<pubDate>Thu, 08 Jan 2009 14:15:15 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[데이터품질관리 ]]></category>
+					<title><![CDATA[고객정보 암호화 - 세번째 (JAVA 프로그램가 맞서다)]]></title>
+					<link>http://blog.naver.com/jojosama/80058854680</link>
+					<guid>http://blog.naver.com/jojosama/80058854680</guid>
+					<description><![CDATA[암호화작업은 확정. 
+DB의 데이터를 암호화하기 위한 솔루션도입.
+소켓통신으로 데이터를 암호화하는 방식이었음.
+이것은 DB레벨에서 즉, SQL로는 암호화나 복호화를 할 수 없기 때문에 
+데이터를 처리하는 과정이 다소 복잡해 질 수 있었다. 
+소켓통신프로그램은 각 시스템에 개발된 환경에 맞게 모듈이 개발되었음.
+기본 모듈을 수정하는 작업 불가피. 자바개발... 2000년, 2001년 조금 해 보고, 계속 DB관리만 했었으니 
+어렴풋이 기억나는 대로 REFERENCE 참고하면서 수정작업 착수
+. 
+기존 프로그램은 DB테이블명이나 데이터 추출조건이나 암호화 대상 컬럼이 프로그램내에 코딩. 
+이 부분을 PARAMETER 방식으로 수정하였다. .......]]></description>
+					<pubDate>Tue, 25 Nov 2008 16:49:40 +0900</pubDate>
+					<tag><![CDATA[BufferedWriter,TEXTOUTPUT]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[오라클(ORACLE) ]]></category>
+					<title><![CDATA[Lock, Session, 현재 SQL 조회 및 Session Kill 명령어]]></title>
+					<link>http://blog.naver.com/jojosama/80058839949</link>
+					<guid>http://blog.naver.com/jojosama/80058839949</guid>
+					<description><![CDATA[/* Lock 조회 */SELECT s.sid, KGLLKHDL "Handle", lco.KGLNAOBJ, kgllkmod "Mode",KGLLKREQ "Req", SPID "OS Process" , KGLLKSQLIDFROM v$session_wait w, x$kgllk l, x$kglob lco, v$session s, v$process oWHERE l.kgllkuse=s.saddrAND kgllkhdl=w.p1rawand w.event like '%library cache lock%'and s.paddr=o.addrand lco.KGLHDADR = l.KGLLKHDL
+-- wait 가 가장 많은 사용자 조회select se.sid, p.spid,ss.status, ss.machine, ss.program, ss.terminal, ss.username, ss.sql_hash_value, se.event, se.time_waited, so.block_gets, so.consistent_gets, so.physical_reads
+from v$session_event se, v$session ss, v$process p, v$sess_.......]]></description>
+					<pubDate>Tue, 25 Nov 2008 10:32:14 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[데이터품질관리 ]]></category>
+					<title><![CDATA[고객정보 암호화 2단계]]></title>
+					<link>http://blog.naver.com/jojosama/80058798411</link>
+					<guid>http://blog.naver.com/jojosama/80058798411</guid>
+					<description><![CDATA[고객의 여러가지 정보들(주민등록번호, 성명, 연락처, 가족관계, 구매정보 등) 중에 
+주민번호를 우선 암호화 대상으로 선정하였다. 처음부터 암호화 대상의 범위도 누구하나 정해주진 않았다.
+IT기능상 암호화 과정에서 문제가 없는 한계내에서모든 데이터를 암호화 하는 것을 원칙으로 삼았다. 어처구니 없이... 우리가 관리하는 시스템은 주민번호를 기본으로, 파생되는 데이터를 모델링에서 말하는 인조식별자(또는 대체키)로 사용하고 있었기에
+주민번호가 암호화 되었을 경우에는 이를 다시 복호화 해서 대체키를 생성하는 추가과정이 필요했다. 
+그리고 주민번호에서 파생되는 성별, 생년월일 등도 복호화과정에서 파생속성으로 도.......]]></description>
+					<pubDate>Mon, 24 Nov 2008 13:58:27 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[IT 일 반]]></category>
+					<title><![CDATA[고객 정보 !!! 제대로 수집하자.]]></title>
+					<link>http://blog.naver.com/jojosama/80058617737</link>
+					<guid>http://blog.naver.com/jojosama/80058617737</guid>
+					<description><![CDATA[이런 저런 악성수단으로유출되어 버리는 고객정보 때문에 보안이슈가 화두로 떠오르고 있다. 고객마케팅과 고객만족에 대한 큰 포부로 수집했던 고객정보들이 얼마나 활용가치가 높은 지도 모르고, CRM으로 활용하려고 해도 그 정확성이 검증이 안 되고, 설령 정확한 정보라고 하더라도  고객들의 메일오픈률이나 SMS수신 및 반응율을 기대만큼높지 못한 것으로 보인다.  이런 상황에서 고객정보가 중요하다고 결론을 내렸다면, 정확한 고객정보를 고객으로부터 입력하도록 요구해야 한다.  그리고 입력받은 정보에 따라서 아래와 같은 방법으로 차별화와 검증방안 등을 고려해 볼 필요가 있다. 1. 반응율에 따른 혜택의 차별.......]]></description>
+					<pubDate>Thu, 20 Nov 2008 17:09:58 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[오라클(ORACLE) ]]></category>
+					<title><![CDATA[lock 발생 조회]]></title>
+					<link>http://blog.naver.com/jojosama/80058341421</link>
+					<guid>http://blog.naver.com/jojosama/80058341421</guid>
+					<description><![CDATA[RX 를 중심으로 lock을 발생시킨 user를 찾아냅니다.  select a.sid, a.serial#, a.username, a.process, substr(a.MACHINE,1,20), to_char(a.LOGON_TIME, 'yyyymmddhh24miss' ),b.object_name, decode(c.lmode, 2, 'RS', 3, 'RX',4, 'S', 5, 'SRX', 8, 'X', 'NO') TABLE_LOCK,decode(a.command, 2, 'INSERT',3, 'SELECT',6, 'UPDATE',7, 'DELETE', 12, 'DROP',6, 'LOCK', 'unknown') SQL,decode(a.lockwait, NULL, 'No Wait', 'Wait') STATUSfrom V$SESSION a, DBA_OBJECTS b, V$LOCK cwhere a.sid = c.sid and b.object_id = c.id1and c.type = 'TM'order by 6 ]]></description>
+					<pubDate>Fri, 14 Nov 2008 16:45:55 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[데이터품질관리 ]]></category>
+					<title><![CDATA[고객정보 암호화 - 그 시작.. ]]></title>
+					<link>http://blog.naver.com/jojosama/80058199706</link>
+					<guid>http://blog.naver.com/jojosama/80058199706</guid>
+					<description><![CDATA[얼마전 고객정보 유출과 관련된 대형사고가 터지고 나서부터 각 기업들은 고객정보의 보안과 관련된 업무에 혈안이 되었다.
+내가 근무하는 곳, 내가 관리하는 시스템이 CRM과 연관된 것이라 고객정보와 아주 밀접한 관계가 있기 때문에, 
+이와 관련된 작업을 하게 되었고, 현재는 작업이 진행 중이며,그동안 작업했던과정과 미로를 빠져나가기 위한 실험과정 등을
+작성해 보고자 한다.  GX XXX의 고객정보가 내부자에게서유출되고서부터,각 시스템에 대한 접근제어와 통제, 감시를 위한 작업을 시작했다.
+1. 실무담당자가 접근하는 ID를사용자마다 각각 부여.
+2. 접근 IP 고정 설정
+3. 데이터를 조회하는 View 영역을 설정하고, View에.......]]></description>
+					<pubDate>Tue, 11 Nov 2008 19:55:39 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[SQL 기 술 ]]></category>
+					<title><![CDATA[[오라클] 컬럼에 임시시퀀스 생성]]></title>
+					<link>http://blog.naver.com/jojosama/80058185523</link>
+					<guid>http://blog.naver.com/jojosama/80058185523</guid>
+					<description><![CDATA[컬럼에 임시 시퀀스 생성방법  UPDATE deptSET SEQ = ROWNUM;]]></description>
+					<pubDate>Tue, 11 Nov 2008 14:52:22 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[DW 자료 ]]></category>
+					<title><![CDATA[데이터웨어하우스 확장성 저해 7가지 요인   ]]></title>
+					<link>http://blog.naver.com/jojosama/80057723123</link>
+					<guid>http://blog.naver.com/jojosama/80057723123</guid>
+					<description><![CDATA[ 
+데이터웨어하우스 확장성 저해 7가지 요인   막연한 기대심리ㆍ요구사항이나 리스크 분석 무시ㆍ벤더에 올인 등      
+2008년 10월 30일 (목) 15:55:50
+InformationWeek USAwebmaster@itdaily.kr   데이터 웨어하우스 관리자들은 최근 확장성 문제에 직면해 있다. 데이터 량이 엄청나게 급증할 뿐만 아니라 데이터와 쿼리, 워크로드, 분석 등 DW 규모를 증폭시키는 주요 요소들의 복잡성이 증가하고 있기 때문이다. 본지와 특약을 맺고 있는 &lt;인포메이션위크&gt;는 “확장성이 향후 데이터 웨어하우스 구축의 성패를 좌우한다”면서 “데이터의 다면적인 성장을 고려해 데이터 웨어하우스의 아키텍처와 투.......]]></description>
+					<pubDate>Sat, 01 Nov 2008 21:59:18 +0900</pubDate>
+					<tag><![CDATA[dw,데이터웨어하우스,datawarehouse]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[IT 일 반]]></category>
+					<title><![CDATA[당신은 IT조직에서 핵심인력입니까]]></title>
+					<link>http://blog.naver.com/jojosama/80055559622</link>
+					<guid>http://blog.naver.com/jojosama/80055559622</guid>
+					<description><![CDATA[“당신은 IT조직에서 핵심인력입니까.”  기업·기관에서 IT의 비중이 날로 높아지면서 관련 직군에도 끊임없는 변화와 역량강화의 요구가 제기되고 있다. IT 종사자들은 이제 조직내 필수요원으로 살아남기 위해 기존 기술·지식을 갈고 닦는 동시에 떠오르는 새 기술과 변화까지 수용해야 한다. 이와 관련해 포레스터리서치는 최근 ‘IT에서 주목받는 직무’라는 보고서를 통해 기업의 성공을 위해 가장 중요한 16가지 핵심 IT직무를 총 4개 레벨로 나눠 정의했다.
+◇레벨1=가장 각광받고 있는 직무군으로 정보·데이터 아키텍트(설계자)와 정보보안 전문가 등이 여기에 속한다. ‘데이터 아키텍트’는 데이터웨어하우스(DW)·데이터마트(DM)·운.......]]></description>
+					<pubDate>Tue, 02 Sep 2008 13:33:10 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[소프트웨어공학 ]]></category>
+					<title><![CDATA[당신의 소프트웨어 프로젝트 10개의 위험신호]]></title>
+					<link>http://blog.naver.com/jojosama/80055139483</link>
+					<guid>http://blog.naver.com/jojosama/80055139483</guid>
+					<description><![CDATA[C# 프로그래머인 제프 앳우드(Jeff Atwood)의당신의 소프트웨어 프로젝트 10개의 위험신호 C# 프로그래머인 제프 앳우드(Jeff Atwood)가 운영하는 코딩호러(www.codinghorror.com)라는 블로그는 프로그래머에게 도움이 될 만한 이야기들을 많이 담고 있다. 그 중에는 “프로그래밍 탑 10 리스트 6개(Top 6 List of Programming Top 10 Lists)”라는 게시물이 있는데, 앳우드 자신이 작성한 목록이 아니라 다른 블로거/프로그래머가 작성한 10대 목록 중에서 가장 흥미로운 것으로 6개를 뽑아서 정리해 놓은 것이다. 그 중에서 두 개의 목록을 골라서 이 글의 소재로 삼아보았다.  임백준 | baekjunlim@gmail.com 
+이 가운데 먼저 살펴.......]]></description>
+					<pubDate>Thu, 21 Aug 2008 09:44:52 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[IT 일 반]]></category>
+					<title><![CDATA[IT 서비스 관리, 선택이 아닌 필수]]></title>
+					<link>http://blog.naver.com/jojosama/80055139433</link>
+					<guid>http://blog.naver.com/jojosama/80055139433</guid>
+					<description><![CDATA[http://www.dbguide.net/know/know101003.jsp?IDX=830&amp;divcateno=25&amp;catenum=14 최근 우리나라의 IT 환경은 그야말로 급속도로 발전하여 그 질적으로나 양적으로 눈부신 성장을 거두었다. 경쟁력 향상을 위한 기업이나 정부의 IT 인프라에 대한 투자는 날로 증가하고 있으며 이것은 결국 우리나라의 IT 인프라 수준과 경쟁력을 세계 최고의 수준으로 끌어 올려 놓았다. 그러나 한편으로 그것을 통해 제공되는 서비스 품질을 고려해 볼 때 인프라에 대한 투자가 서비스 수준 향상으로 직결되지는 못하고 있으며 많은 기업들이 이것을 위한 조직과 프로세스 개선에 노력하고 있다. 이번 호에서는 그러한 서비스 수준 관리의 개념과 최근.......]]></description>
+					<pubDate>Thu, 21 Aug 2008 09:42:56 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[DB 모 델 링 ]]></category>
+					<title><![CDATA[이화식 대가가 모델러에게 전하는 말...]]></title>
+					<link>http://blog.naver.com/jojosama/80053989641</link>
+					<guid>http://blog.naver.com/jojosama/80053989641</guid>
+					<description><![CDATA[발췌: 엔코아 데이터모델링 강좌 중에서..  사진관 아줌마
+우리는 가끔 사진관에 간다. 거기서 우리는 작품 사진을 기대하지 핞는다. 사진관 아줌마가 찍어 주는 사진은 작품사진이 아니며, 단지 있는 그대로를 제대로 살려 주는데 목적이 있다. 그렇지만 사진 작가는 피사체를 있는 그대로 찍어 내는 것이 아니라 자신의 작품세계를 표현한다.
+이와 같이 우리가 하고자 하는 모델링은 있는 그대로를 찾아서 그려 넣는 것이 아니고 작가의 작품세계를 만들어야 된다는 것이다.
+그 회사의 현재를 정밀하게 파악하고 문제점을 해결하며, 앞으로 다가 올 미래를 위해 무엇을 해야 할 것인가를 찾아 종합적이고 전략적인 시각에서 많은 것들을.......]]></description>
+					<pubDate>Thu, 17 Jul 2008 13:47:08 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[MS SQL ]]></category>
+					<title><![CDATA[T1 의 값을 T2 컬럼에 업데이트 하기]]></title>
+					<link>http://blog.naver.com/jojosama/80049175201</link>
+					<guid>http://blog.naver.com/jojosama/80049175201</guid>
+					<description><![CDATA[-- t1의 YN값으로 t2 컬럼 YN을 업데이트 하는 문법update t2 set yn = t1.ynfrom t1 inner join t2 on t1.id = t2.id where t1.yn &lt;&gt; t2.yn 오라클과는 사뭇 다르네요.. 
+-- 오라클은... 
+UPDATEt1 SET t1.yn = (SELECT t2.yn FROMt2 WHERE t1.id = t2.id)WHERE EXISTS (SELECT'' FROMt2 WHERE t2.id = t1.id);UPDATEt1 SET t1.yn = (SELECT t2.yn FROMt2 WHERE t2.id = t1.id)WHERE t1.id IN(SELECTt2.id FROM t2);]]></description>
+					<pubDate>Tue, 04 Mar 2008 18:17:21 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[오라클(ORACLE) ]]></category>
+					<title><![CDATA[FreeBSD Oracle Install]]></title>
+					<link>http://blog.naver.com/jojosama/80046514731</link>
+					<guid>http://blog.naver.com/jojosama/80046514731</guid>
+					<description><![CDATA[Installing Oracle9i on FreeBSDDocumentation Revision 1.1By Brian C. Ledbetter
+Table of Contents DISCLAIMER
+Before We Begin
+Step 1: Prerequisites
+Step 2: Getting Oracle9i for Linux Distribution
+Step 3: Preparing The Installation Process Creating /compat/linux/etc/mtab
+Symlink /bin/awk, /bin/sed, /sbin/chown
+Create /compat/linux/bin/arch
+Configure SYSV Shared Memory
+Step 4: Creating The Appropriate User Accounts
+Step 5: Running The Installer
+Step 6: Oracle Universal Installer
+Step 7: Starting The Database
+Appendix A: Credits
+Appendix B: References
+Appendix C: System As Teste.......]]></description>
+					<pubDate>Mon, 31 Dec 2007 11:30:04 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[IT 일 반]]></category>
+					<title><![CDATA[IT거버넌스, 표준이 절실하다]]></title>
+					<link>http://blog.naver.com/jojosama/80046111791</link>
+					<guid>http://blog.naver.com/jojosama/80046111791</guid>
+					<description><![CDATA[  
+'IT 거버넌스', 표준이 절실하다  IT 서비스 위한 '청사진'…ITIL, COBIT, ISO17799 집중 분석    
+2007년 12월 12일 (수) 15:42:47
+InformationWeek USA  webmaster@itdaily.kr  
+IT는 끊임없는 ‘변화’를 요구한다. 대부분의 IT 전문가들이 변화가 '게임'의 일부분이라는 것을 이해하고 있지만 이들이 지원하는 조직은 이를 거부하거나 이해하는데 어려움을 겪는 일이 많다. CIO들은 혁신을 추진할 때 모든 사람들이 수용할 수 있는 '표준'을 만들어 대비해야 한다. 이러한 변화에 대처하기 위해 리더십이나 카리스마에만 의존할 수는 없다. 확실한 '청사진'을 제시함으로써 조직의 목표를 설정하고 정해진.......]]></description>
+					<pubDate>Thu, 20 Dec 2007 10:11:28 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[IT 일 반]]></category>
+					<title><![CDATA[MSTR "우리는 장인, 기술을 판다" ]]></title>
+					<link>http://blog.naver.com/jojosama/80046037270</link>
+					<guid>http://blog.naver.com/jojosama/80046037270</guid>
+					<description><![CDATA[ 
+MSTR "우리는 장인, 기술을 판다"  인수합병 회오리에...'유일한 개방형 엔터프라이즈 벤더' 선언    
+2007년 12월 17일 (월) 19:04:15
+심정아 기자  sja@itdaily.kr   한동안 BI 시장에 휘몰아친 인수합병이라는 거대한 태풍 속에서도유독 독자노선을 고집하는 기업이있어 눈길을 끈다. 바로 마이크로스트레티지이다. 한정된 BI시장 안에서 서로 경쟁을 벌이는 입장에서 경쟁사의 인수합병이 대수롭지 않게 넘겨버릴 문제만은 아닐 터이다. 이에 대한 마이크로스트레티지(이하 MSTR)의 생각은 어떠할까.
+BI시장의 인수합병 물결, “위기가 아닌 호기(好機)”       마이크로스트레티지 이혁.......]]></description>
+					<pubDate>Tue, 18 Dec 2007 10:15:58 +0900</pubDate>
+					<tag><![CDATA[MSTR,BI]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jojosama</author>
+					<category><![CDATA[DW 자료 ]]></category>
+					<title><![CDATA[Teradata의 FastLoad 를 활용하기 위한 Script]]></title>
+					<link>http://blog.naver.com/jojosama/80045572477</link>
+					<guid>http://blog.naver.com/jojosama/80045572477</guid>
+					<description><![CDATA[
+/******************************************************************************/
+/* An Sample SCRIPT of FASTLOAD JOB with delimited file */
+/******************************************************************************/ .LOGON dbm/cms00,cms00; DATABASE SKNCM; ERRLIMIT 50; BEGIN LOADING
+ SKNCM.c2
+ ERRORFILES 
+ CMSIOS.t1,
+ CMSIOS.t2 
+ CHECKPOINT 100000; SET RECORD VARTEXT "," ; 
+/* RECORD FORMAT 지정=&gt; VARIABLE LENGTH = comma delimited 
+ 주의사항 =&gt; 구분자의 경우 fastload에서는 " "로 묶고 mload에서는 ' ' 임 */ DEFINE 
+gb (VARCHAR(16)),
+intg_cust_no (VARCHAR(.......]]></description>
+					<pubDate>Wed, 05 Dec 2007 15:41:59 +0900</pubDate>
+					<tag><![CDATA[teradata,fastload]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

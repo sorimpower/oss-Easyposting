@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Webreakstuff</title>
+	<atom:link href="http://blog.webreakstuff.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://blog.webreakstuff.com</link>
+	<description>A blog on entrepreneurship, user experience, and web innovation. Published by Fred Oliveira.</description>
+	<lastBuildDate>Fri, 01 Mar 2013 17:12:20 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5.1</generator>
+		<item>
+		<title>About Melee (part 2 of 2)</title>
+		<link>http://blog.webreakstuff.com/2013/03/about-melee-part-2-of-2/</link>
+		<comments>http://blog.webreakstuff.com/2013/03/about-melee-part-2-of-2/#comments</comments>
+		<pubDate>Fri, 01 Mar 2013 16:46:23 +0000</pubDate>
+		<dc:creator>fbatista</dc:creator>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Labs]]></category>
+		<category><![CDATA[Web]]></category>
+		<category><![CDATA[Web-Applications]]></category>
+
+		<guid isPermaLink="false">http://blog.webreakstuff.com/?p=705</guid>
+		<description><![CDATA[Part 2: From Single to Multi user In our previous post, we talked about we modeled our app to make Backbone and Redis integration as seamlessly as possible. Now as we develop our app and start adding it’s vital organs around the skeleton (backbone?) we designed, we need to keep in mind our end goal [...]]]></description>
+				<content:encoded><![CDATA[<h3 id="part-2-from-single-to-multi-user">Part 2: From Single to Multi user</h3>
+<p><a href="http://blog.webreakstuff.com/2013/02/about-melee-part-1-of-2/">In our previous post</a>, we talked about we modeled our app to make Backbone and Redis integration as seamlessly as possible. Now as we develop our app and start adding it’s vital organs around the skeleton <em>(backbone?)</em> we designed, we need to keep in mind our end goal as we develop the basic “Single User” version, since everyone hates to refactor code.</p>
+<p>
+In this post, we will do a step by step of how to transform that prototype version of the app into something people can actually use. In order to do that, we&#8217;ll look under the hood and check out Backbone, Redis, Node.js, Socket.IO and how everything is glued up together.
+</p>
+<p><span id="more-705"></span></p>
+<h3 id="backbone-and-redis-to-the-rescue">Backbone and Redis to the rescue</h3>
+<p>Whenever a user requests a new session, we randomly generate a session id and store that data in Redis. This is done when a user accesses the landing page for the first time and clicks the “Start” button. We use the basic Sinatra session management (cookie based) to identify each user.</p>
+<p>Clicking the button results in a post to “/” that retrieves the session id  (basically the session model data) as json:</p>
+<pre class="wp-code-highlight prettyprint">post &quot;/&quot; do
+    content_type &quot;application/json&quot;
+    {:id =&amp;gt; get_new_session}.to_json
+end
+
+def get_new_session
+    begin
+        #generate a key
+    end while $redis.sismember(&quot;melee:sessions&quot;, key)
+    $redis.sadd &quot;melee:sessions&quot;, key
+    return key
+end
+</pre>
+<p>Now let’s imagine our user (lets call her <strong>Alice</strong>) wants to invite a second user (<strong>Bob</strong>) to join her newly created brainstorming session. All she has to do is copy the URL, which by this point is “//ideate” since Ideate is the first step in the process, and share it with Bob.</p>
+<p>Bob accesses the URL and triggers the following action on the server:</p>
+<pre class="wp-code-highlight prettyprint">get &quot;/:id/ideate&quot; do
+    @ideas = get_ideas(params[:id]).to_json
+    erb :ideate
+end
+</pre>
+<p>This will render the ideate view inside the standard layout (that includes all the client application code), bootstrapping the application state with this additional data:</p>
+<pre class="wp-code-highlight prettyprint">$(function() {
+    /* bind melee var to global scope to ease debugging */
+    window.melee = new Melee({
+        /* 
+           in case any ideas have already been created,
+           before the user opened the link,
+           we send them through right away 
+        */
+        ideas : new IdeaList(&amp;lt;%= @ideas %&amp;gt;, {url:&#039;/&amp;lt;%= @sessionid %&amp;gt;/ideas&#039;}),
+        session : new Session({id : &#039;&amp;lt;%= @sessionid %&amp;gt;&#039;}),
+        socket_url : &#039;http://&amp;lt;%= SOCKET_IO_HOST %&amp;gt;&#039;
+    });
+    Backbone.history.start({pushState : true});
+});
+</pre>
+<p>So what we have now is a way to access a session, loading the relevant session data, through an entry point. We replicate this behaviour to all the steps in the Brainstorming process, and build the navigation accordingly.</p>
+<p>In order to create an idea, or any other resource in our app, we perform an AJAX request to Sinatra and receive a response handled by Backbone that contains the Model and creates the associated View(s). This kind of work is done almost automatically since that’s what Backbone was built for.</p>
+<pre class="wp-code-highlight prettyprint">post &quot;/:id/ideas&quot; do
+    content_type &quot;application/json&quot;
+
+    idea = JSON.parse(request.body.read)
+    idea_json = save_idea(params[:id], idea).to_json
+
+    #ignore the following line for now, we’ll go back to it further ahead
+    $redis.publish &quot;melee:data:#{params[:id]}:new idea&quot;, idea_json
+
+    idea_json #backbone will process this json response automatically
+end
+</pre>
+<p>The same process is used to create Clusters and to move ideas into clusters, although here we had to hand-code the drag-n-drop behaviour and callbacks so that the proper AJAX action is triggered: </p>
+<pre class="wp-code-highlight prettyprint">put &quot;/:sessionid/clusters/:cluster/ideas/:id&quot; do
+    content_type &quot;application/json&quot;
+
+    add_idea_to_cluster params[:sessionid], params[:cluster], params[:id]
+    idea_json = get_idea(params[:sessionid], params[:id]).to_json
+
+    $redis.publish &quot;melee:data:#{params[:session]}:move to cluster&quot;, idea_json
+
+    idea_json #bacbone ill proces this json response automatically
+end
+</pre>
+<p>That action is triggered here:</p>
+<pre class="wp-code-highlight prettyprint">/* Idea view */
+
+…
+events : {
+    &quot;cluster:idea:add&quot;: &quot;addToCluster&quot;,
+…
+
+addToCluster: function(ev, clusterView) {
+
+    /* 
+      remove an idea from the collection 
+      without triggering the remove event on the whole structure, 
+      which would cause backbone to try to destroy the model in the backend.
+    */
+    this.model.trigger(&#039;destroy&#039;);
+    this.model.collection.remove(this.model, {silent: true});
+
+    /* this will trigger an Http PUT in the backend. */
+    clusterView.model.ideas.add(this.model, {silent: true});
+
+    this.model.save({}, {success: $.proxy(function(){
+
+        /* manually trigger the add into the correct cluster ideas collection */
+        clusterView.model.ideas.trigger(&#039;add&#039;, this.model);
+    }, this)});     
+}
+</pre>
+<p>And finally, still working our way up the chain, the addToCluster function is bound to the &#8220;cluster:idea:add&#8221; event, triggered here:</p>
+<pre class="wp-code-highlight prettyprint">/* Cluster step View */
+…
+this.clusterListView.bind(&quot;cluster:add&quot;, this.makeDroppable);
+…
+
+makeDroppable: function(clusterView) {
+
+    /* 
+      Add droppable behaviour to a cluster in the clusterate view 
+      (that is comprised by several clusters, 
+      and the form to create a new cluster)
+    */
+    clusterView.droppable({
+        accept: &quot;.idea&quot;, 
+        drop: function(ev, ui) {
+
+            /*
+              when an idea is dropped, hide it and trigger the cluster:idea:add
+            */
+            ui.draggable.hide(&#039;scale&#039;, {}, $.proxy(function(){
+                $(this).effect(&#039;highlight&#039;).trigger(&quot;cluster:idea:add&quot;, ui.draggable);
+            }, this));
+        }
+    }).addTouch();
+    /* 
+      addTouch is a call to a jQuery plugin 
+      that enables drag an drop behaviour on iPad.
+    */
+},
+</pre>
+<p>That was a long chain of triggers! Looking back at it:</p>
+<ul>
+<li>On dropping an idea into a cluster (visually) =&gt; trigger &#8220;cluster:idea:add&#8221; on idea view</li>
+<li>On receiving a &#8220;cluster:idea:add&#8221; on an idea view =&gt; do ajax request on server to update data</li>
+</ul>
+<h3 id="whats-next">What’s next?</h3>
+<p>Users can already access the several actions to request the entry point views, can create content using regular AJAX calls, and if we have more than one user working on the brainstorm, if that user refreshes the page, he will see the changes others have done. <strong>But that’s not good enough</strong>.</p>
+<p>The brainstorming process <strong>needs to happen in realtime</strong>. You need to see what others are doing, as another person idea can trigger a new idea of your own, and while you’re focusing on the task of thinking of new ideas, you can’t really waste time refreshing your whole page and have a huge new chunk of information distract you from your strings of thought and take you out of your “flow”.</p>
+<p>So let’s look again at the snippet that creates an idea:</p>
+<pre class="wp-code-highlight prettyprint">post &quot;/:id/ideas&quot; do
+    content_type &quot;application/json&quot;
+    idea = JSON.parse(request.body.read)
+    idea_json = save_idea(params[:id], idea).to_json
+
+    $redis.publish &quot;melee:data:#{params[:id]}:new idea&quot;, idea_json
+
+    idea_json
+end
+</pre>
+<p>This is where our syncing work began. <strong>Using Redis PUB/SUB</strong> feature, we publish a message to a very specific channel, that is named after our session identifier. That message actually contains the same payload we’re delivering back to the user that made the AJAX call in the first place, just to make things easier in the next step.</p>
+<h3 id="let-me-introduce-you-to-nodejs-and-socketio">Let me introduce you to Node.js and Socket.io</h3>
+<p>Now that we have started adding a nice (and damn simple) Event Queue system to the actions on our App that alter data, we need a way to broadcast that data to every other user interested in it (users connected to the same session as <strong>Alice</strong>: Bob, Charlie, David, …)</p>
+<pre class="wp-code-highlight prettyprint">/*
+  Nothing fancy here, 
+  just create the socket.io server and prepare the Redis pubsub connection
+*/
+var io = require(&#039;socket.io&#039;).listen(8000),
+redis = require(&#039;redis&#039;),
+sessions = {},
+rc = redis.createClient(),
+pubsub = redis.createClient();
+
+/*
+  This will tell node to subscribe to the melee:data:* channels, 
+  so that any message arriving on any of those channels will be handled
+*/
+pubsub.on(&quot;connect&quot;, function() {
+    pubsub.psubscribe(&quot;melee:data:*&quot;);
+});
+
+/*
+  When we get a message in one of the channels we&#039;ve subscribed, 
+  send it over to all connected clients
+*/
+pubsub.on(&quot;pmessage&quot;, function (pattern, channel, message) {
+    var channel_meta = channel.split(&quot;:&quot;);
+    io.sockets.in(channel_meta[2]).emit(channel_meta[3], JSON.parse(message));
+});
+</pre>
+<p>Hold on a second. </p>
+<p>What are these channel_meta[<strong>2</strong>] and channel_meta[<strong>3</strong>] thingies ? </p>
+<p>Well, when a message is received on a channel we’re subscribed to, the Redis pubsub Javascript API tells us that we will receive 3 parameters: pattern, channel and message.<br />
+Here we pick up the channel parameter and split it on every occurrence of “:”, so that way we get an array with [“melee”, “data”, ?, ?] as a result. </p>
+<p>To understand what can go in the question marks, we need to look back at the place where we publish data into the redis channel in the first place.</p>
+<p>Let’s check out the line we highlighted before: </p>
+<pre class="wp-code-highlight prettyprint">$redis.publish &quot;melee:data:#{params[:id]}:new idea&quot;, idea_json
+</pre>
+<p>As you can see, the format is quite obvious. So, the first question mark represents the session ID, and the second question mark represents the specific message title or subject.  It’s a good practice to comment these out on your javascript, so that people won’t get confused later on staring at “magic” array index numbers.</p>
+<p>The only thing left now, is to let node (socket.io) know what session each socket client corresponds to. We achieved this by doing the following:</p>
+<pre class="wp-code-highlight prettyprint">io.sockets.on(&#039;connection&#039;, function(socket) { 
+    socket.on(&#039;join session&#039;, function(session_id, current_user_id, step){
+
+        /* 
+          The session id generated in sinatra, 
+          passed to the backbone initialization and passed back to node. 
+          The same session id used to namespace the redis pubsub channels and objects.
+
+          This the line that will allow us to do the io.sockets.in(session_id) call
+          and broadcast the pubsub synchronization messages to each user connected
+          on a specific session.
+        */
+        socket.join(session_id);
+
+        /*
+          These are needed later on to send a list of 
+          already connected users to each new user entering the session chat room.
+        */
+        socket.set(&#039;sessionid&#039;, session_id);
+        socket.set(&#039;currentuserid&#039;, current_user_id);
+        rc.hset(current_user_id, &#039;step&#039;, step);
+        socket.emit(&#039;ask nickname&#039;);
+    });
+});
+</pre>
+<p>Almost done, we just need to handle these messages on the client side</p>
+<p>On our main Backbone Router we have this function:</p>
+<pre class="wp-code-highlight prettyprint">initSocket : function(session, user) {
+    /*
+      This function is called just after bootstrapping the application 
+      (on any of the entry points), 
+      and it will take the session object as a parameter.
+    */
+    this.socket = new SocketHandler(this.opts, {
+
+        /*
+          This will setup the callbacks for each socket event 
+          defined on the SocketHandler object.
+        */
+        onWelcome : session.setUserId,
+        onAskNickname : this.chatView.askNickname,
+        onSessionStarted : this.chatView.sessionStarted,
+        onUserConnected : this.chatView.addUser,
+        onNewCluster : $.proxy(function(cluster) {
+            this.clusterateView.onNewCluster(cluster);
+            this.prioritizeView.onNewCluster(cluster);
+        }, this),
+    …
+    });
+    …
+
+    /* connect to our node.js through socket.io */
+    this.socket.connect();
+
+    /* send the “join session” message downstream */
+    this.socket.joinSession(session.id, user.id, this.currentStep);
+},
+</pre>
+<p>The SocketHandler object in it’s turn, works as the communication layer with socket.io. </p>
+<p>Here is what the connect function looks like</p>
+<pre class="wp-code-highlight prettyprint">connect : function() {
+    this.callbacks = callbacks;
+    this.socket = io.connect(opts.socket_url);
+    _.bindAll(this, 
+        &#039;askNickname&#039;, 
+        &#039;userConnected&#039;,
+        &#039;userDisconnected&#039;, 
+        &#039;setNickname&#039;, 
+        &#039;newMessage&#039;, 
+        &#039;newMessageIn&#039;, 
+        &#039;welcome&#039;,
+        &#039;newIdea&#039;,
+        …
+        &#039;voteReceived&#039;,
+        &#039;voteRetracted&#039;);
+
+    this.socket.on(&quot;welcome&quot;, this.welcome);
+    this.socket.on(&quot;ask nickname&quot;, this.askNickname);
+    this.socket.on(&quot;user connected&quot;, this.userConnected);
+    this.socket.on(&quot;user disconnected&quot;, this.userDisconnected);
+    this.socket.on(&quot;user updated&quot;, this.userUpdated);
+    this.socket.on(&quot;new message&quot;, this.newMessageIn);
+    this.socket.on(&quot;new idea&quot;, this.newIdea);
+    this.socket.on(&quot;new cluster&quot;, this.newCluster);
+    …
+},
+</pre>
+<p>and an example of a downstream message function implementation,</p>
+<pre class="wp-code-highlight prettyprint">joinSession : function(session_id, current_user_id, step) {
+    this.socket.emit(&#039;join session&#039;, session_id, current_user_id, step);
+},
+</pre>
+<p>and an upstream one.</p>
+<pre class="wp-code-highlight prettyprint">newIdea : function(data) {
+    if(this.callbacks[&quot;onNewIdea&quot;]) {
+        /*
+          This will call each callback registered with the SocketHandler
+          with the data received from the websocket through socket.io
+        */
+        this.callbacks.onNewIdea(data);
+    }
+},
+</pre>
+<p>Finally, what happens on, for example, the ideate view:</p>
+<pre class="wp-code-highlight prettyprint">/*
+  S O C K E T   E V E N T S
+*/
+onNewIdea : function(idea) {
+    if(this.bootstrapped &amp;amp;&amp;amp; !this.ideas.get(idea.id)){
+
+        /*
+          Backbone will take over from here and perform it’s magic,
+          since the “data” we received from the socket is actually 
+          a json representation of an Idea Model, whenever we add a new idea to
+          the ideas collection, Backbone will render it’s corresponding view
+          automatically!
+        */
+        this.ideas.add(idea);
+    }
+},
+
+onDestroyIdea : function(idea) {
+    if(this.bootstrapped &amp;amp;&amp;amp; this.ideas.get(idea.id)) {
+        this.ideas.get(idea.id).trigger(&#039;destroy&#039;);
+    }
+}
+</pre>
+<p>So there you have it, after all this work is done, Melee is now a realtime application. Notice the importance of defining an architecture that is flexible enough to allow for this kind of implementation process (single user first, multi user later).</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>After all these years, technology has yet evolved again, and nowdays there are frameworks other than Backbone that are a great fit for the kind of problem that we tackled here. Ember.js, for example, allows you to write much less boilerplate code, which is awesome! </p>
+<p>Nevertheless, looking back at the work we&#8217;ve done here, we feel like sometimes being explicit is not such a bad thing, specially when we want to demonstrate something.</p>
+<p>One question that people ask us is &#8220;Why haven&#8217;t you build everything with just Node.js ?&#8221;. Well, first, back in the day we didn&#8217;t had much experience with Node.js programming style and it was much more complicated for us to adapt and build the first version of the app due to the async-callback paradigm. </p>
+<p>On the other hand, this decision made it so that we can now look at this app, and easily figure out what we need to do, case we ever have to <strong>add realtime functionality to an existing app</strong>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.webreakstuff.com/2013/03/about-melee-part-2-of-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>About Melee (part 1 of 2)</title>
+		<link>http://blog.webreakstuff.com/2013/02/about-melee-part-1-of-2/</link>
+		<comments>http://blog.webreakstuff.com/2013/02/about-melee-part-1-of-2/#comments</comments>
+		<pubDate>Thu, 21 Feb 2013 18:04:04 +0000</pubDate>
+		<dc:creator>fbatista</dc:creator>
+				<category><![CDATA[Ajax]]></category>
+		<category><![CDATA[Culture]]></category>
+		<category><![CDATA[Development]]></category>
+		<category><![CDATA[Labs]]></category>
+		<category><![CDATA[Web-Applications]]></category>
+		<category><![CDATA[data-modeling]]></category>
+		<category><![CDATA[javascript]]></category>
+		<category><![CDATA[redis]]></category>
+
+		<guid isPermaLink="false">http://blog.webreakstuff.com/?p=685</guid>
+		<description><![CDATA[Let me introduce you to Melee. Melee is a collaborative brainstorming application. The idea (and implementation) for it dates back a few years (literally 2 years) and the reason we choose to unearth this relic is simple: we noticed that over the years, we had lots of promising ideas and internal tools that were left unfinished, so [...]]]></description>
+				<content:encoded><![CDATA[<p>Let me introduce you to <a href="http://meleeapp.com/">Melee</a>. Melee is a collaborative brainstorming application. The idea (and implementation) for it dates back a few years <em>(literally 2 years)</em> and the reason we choose to unearth this relic is simple: we noticed that over the years, we had lots of promising ideas and internal tools that were left unfinished, so we&#8217;ve recently decided that wasn&#8217;t going to happen again and also that some of those ideas actually deserved to be finished, even if that meant only releasing a prototype and posting something <em>(hopefully interesting)</em> about it.</p>
+<p>Keep on reading to learn about the story and the technology behind Melee!</p>
+<h3 id="the-story"><span id="more-685"></span></h3>
+<h3>The story</h3>
+<p>It all started on a hot summer afternoon of 2011, when one of us mentioned some amazing new javascript framework called <a href="http://backbonejs.org/">Backbone</a>, that provided the bare essentials an MVC pattern should. We’ve always had <a href="http://blog.webreakstuff.com/2013/02/ios-image-recognition-and-more/">a thing for trying out new stuff</a> and this was just about a good time as any.</p>
+<p>So, in order to be able to try out this awesome new toy &#8211; yes, learning Backbone was so fun that it wouldn’t be fair to call it a tool -, we picked up an old idea that we had shelved in the past and went with it.</p>
+<p>While developing <a href="http://goplanapp.com/">Goplan</a> 2.0, we began using a software development process that goes by the name of <a href="http://en.wikipedia.org/wiki/Scrum_(development)">SCRUM</a>. One of the things we used a lot back then was the <a href="http://en.wikipedia.org/wiki/Card_sorting">card-sorting</a>. Basically we would brainstorm on a lot of features we’d like to see implemented and then using that technique, we would end up with several groups or clusters and on each of these, we would have the top scoring ones. Those were the ones that went through and actually evolved from Ideas into Tasks and ultimately into Features.</p>
+<p>At that time we looked at each other and said:</p>
+<blockquote><p>Hey, wouldn’t it be nice if we had an app that could mimic this so that people working remotely could do this aswell?.</p></blockquote>
+<p>And so, Melee was born.</p>
+<p>The first iteration of Melee was somewhat clunky: server push techniques were still in embryonic state, so we actually ended up building a regular rails app, using a gem called <a href="https://github.com/maccman/juggernaut">juggernaut</a> for our server push needs. Juggernaut basically worked with an HTTP server and a flash client that ran inside the views of the rails app. A mess.</p>
+<p>This actually worked out pretty well as a prototype, but we knew it didn’t scale. We did end up making a nice video about the product, but it never saw the light of day. In good truth, we weren’t sufficiently confident or happy with it.</p>
+<p>So, back to a more recent past.</p>
+<h3 id="technologies">Technologies</h3>
+<p>With Backbone in hands we decided it was time to give a bunch of new sexy technologies a go; we threw in mix Node.js, Redis and Sinatra and the result was pretty impressive.</p>
+<h4 id="sinatra">Sinatra</h4>
+<p>To serve the primary end points that serve the app and the REST actions for our models. Has a connection to the Redis server to publish the data changes.</p>
+<h4 id="backbone-and-node">Backbone and Node</h4>
+<p>The Backbone client (supported by the standard Underscore.js templates) also includes a Socket.IO connector that links to Node in order to receive sync messages. Those messages get to Node through the Redis PUBSUB functionality.</p>
+<h4 id="redis">Redis</h4>
+<p>Working as the middle-man between Sinatra (the endpoint for data creation, except for chat) and Node (the synchronization mechanism through websockets), Redis provided us with the PUBSUB functionality. In addition, Redis also served as the database.</p>
+<blockquote><p>But doesn’t <a href="http://www.mongodb.org/">MongoDB</a> makes sense when using Backbone?</p></blockquote>
+<p>Usually it does. It does a lot of sense, and I really recommend looking into it and give it a thought when you’re building your apps, but for us, since the App isn’t supposed to hold the data entered permanently, it made sense to use Redis for it and simplify the whole system a bit. This is because after the card-sorting process ends, we provide the user with an export/download functionality and expire the whole session data after a period of inactivity.</p>
+<h3 id="part-1-modeling">Internals. Part 1: Modeling</h3>
+<p>After rebuilding the wireframes, we started by implementing a single-user version of the app, keeping in mind that it would later need to support more users. With this in mind, we started by designing the Data Model. The basic objects we identified were:</p>
+<ul>
+<li>User { id, votes_count }</li>
+<li>Idea { id, title, cluster_id, score }</li>
+<li>Cluster { id, title }</li>
+</ul>
+<p>We modeled these in Redis, using the standard structures provided: sets, sorted sets, hashes, etc. Note how from those objects and relations identified, a quite larger number of data structures spawned, due to relations and the need for session closure:</p>
+<p><img class="alignleft" src="http://d.pr/i/n16h+" alt="image" width="300" /></p>
+<p><img class="alignleft" src="http://d.pr/i/OqvU+" alt="image" width="300" /></p>
+<p>In Backbone we created Models in a way that they mapped seamlessly to what we had in Redis (so that we could just fetch data from Redis, invoke a to_json method and be done with it). This was an iterative process and it took us a couple of cycles to fine-tune.</p>
+<p>In Backbone.js, Models and Collections are the core of your app. Everything that happens, every bit of data passes through them and is handled by them. They are quite lean, and as you can see on Backbone.js documentation, you basically only need to provide them with an URL when you’re declaring them.</p>
+<p>But in our app, some models aren’t even directly accessible (like ideas), unless they’re part of a collection. Also, we wanted the URL to contain the session id so that users could share the brainstorm session with others&#8230; How will that work?</p>
+<pre class="wp-code-highlight prettyprint">window.Idea = Backbone.Model.extend({}); </pre>
+<p>Looks weird right?</p>
+<p>The solution was to take advantage of the Collection and make sure that when the initial collection of ideas is bootstrapped from the server the correct URL is assigned, since our URLs all obey to the /:session/* format!</p>
+<p>So,</p>
+<pre class="wp-code-highlight prettyprint">window.IdeaList = 
+  Backbone.Collection.extend({  
+    model: Idea, 
+    initialize: function(models, options){ 
+      this.url = options[&#039;url&#039;]; 
+    } 
+  });
+</pre>
+<p>combined with</p>
+<pre class="wp-code-highlight prettyprint">new IdeaList(
+  &lt;%= @ideas %&gt;;,
+  {url:&#039;/&lt;%= @sessionid %&gt;/ideas&#039;
+})
+</pre>
+<p>made sure that Backbone would build the urls for things like</p>
+<pre class="wp-code-highlight prettyprint">var idea = 
+  new Idea({
+    title: this.input.val()
+  }); 
+idea.collection = this.ideas; 
+idea.save();
+</pre>
+<p>as</p>
+<pre class="wp-code-highlight prettyprint">POST /&lt;session_id&gt;/ideas </pre>
+<p>which is exactly what makes sense and what we need!</p>
+<h3>That&#8217;s all for today!</h3>
+<p>With this post, we looked into Data-modeling for Redis, how to use Backbone with dynamic urls and some background story and motivations for building up Melee.</p>
+<p>On the next post, we’ll talk about how we built the Views, the Routers and how we leveraged on Socket.IO and Node.js to add realtime functionality and multi-user collaboration features to the app.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.webreakstuff.com/2013/02/about-melee-part-1-of-2/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>iOS Image Recognition and more</title>
+		<link>http://blog.webreakstuff.com/2013/02/ios-image-recognition-and-more/</link>
+		<comments>http://blog.webreakstuff.com/2013/02/ios-image-recognition-and-more/#comments</comments>
+		<pubDate>Mon, 18 Feb 2013 19:27:53 +0000</pubDate>
+		<dc:creator>fbatista</dc:creator>
+				<category><![CDATA[Development]]></category>
+		<category><![CDATA[Labs]]></category>
+		<category><![CDATA[Work]]></category>
+
+		<guid isPermaLink="false">http://blog.webreakstuff.com/?p=658</guid>
+		<description><![CDATA[Here at Webreakstuff we love fiddling with new technologies and sometimes we just have to come up with an idea to take advantage of some new shiny framework or language. It&#8217;s great because it&#8217;s really motivating to work with a new technology and by doing so implementing an idea of our own. Not to mention [...]]]></description>
+				<content:encoded><![CDATA[<p>Here at Webreakstuff we love fiddling with new technologies and sometimes we just have to come up with an idea to take advantage of some new shiny framework or language.</p>
+<p>It&#8217;s great because it&#8217;s really motivating to work with a new technology and by doing so implementing an idea of our own. Not to mention that regardless the idea turns out to be great or break, the learning experience will always pay off!</p>
+<p>A few months ago, when we launched <a href="http://bling.io">Bling</a>, we felt that it would be amazing if we could improve the user experience by auto-magically recognising products just by the picture. We did some study on that subject back then, but eventually the idea was abandoned and we moved on. The &#8220;problem&#8221; was that we didn&#8217;t forget about what we learned back then and we had the urge to still build something with that knowledge, still lingering inside our heads&#8230;</p>
+<p>Last week <a href="http://twitter.com/fbatista">Fábio</a> tweeted about 2 things he&#8217;s been working on lately:</p>
+<ul>
+<li>An iOS app for recognising Magic: The Gathering cards and tell the user relevant information about said cards (like price, for example).</li>
+<li>A blogging engine he built based on <a href="http://meteor.com">Meteor.js</a>.</li>
+</ul>
+<p>If you&#8217;ve ever wondered about ways to handle image recognition on iOS, or you are curious about the practical application of Meteor as a web development framework, you should check out his <a href="http://noopcode.com">blog</a> and the <a href="http://noopcode.com/posts/iOS-Image-Recognition">post</a> about image recognition. The iOS app isn&#8217;t finished yet, but it will be soon.</p>
+<p>After all this, we feel like we need to tell you: <strong>Try new things. Build new stuff.</strong> Even if you&#8217;re working on a corporate environment, talk to your boss / manager / superior and suggest that once every 2 weeks everyone takes a half a day to just brainstorm an idea and pick a new technology they are curious about and just hack away.</p>
+<p>It doesn&#8217;t matter if it&#8217;s an idea completely out of scope of your business area (in fact, it&#8217;s even better if it is!) and it doesn&#8217;t matter if the ideas actually go through till the end. The point is widening your mind&#8217;s eye. Learn. New. Stuff.</p>
+<p>You&#8217;ll feel like when you were a kid and you built your first original creation out of lego blocks.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.webreakstuff.com/2013/02/ios-image-recognition-and-more/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>log(r)</title>
+		<link>http://blog.webreakstuff.com/2013/02/logr/</link>
+		<comments>http://blog.webreakstuff.com/2013/02/logr/#comments</comments>
+		<pubDate>Fri, 15 Feb 2013 12:33:49 +0000</pubDate>
+		<dc:creator>Pedro Freitas</dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Labs]]></category>
+		<category><![CDATA[Work]]></category>
+		<category><![CDATA[app]]></category>
+		<category><![CDATA[labs]]></category>
+		<category><![CDATA[product]]></category>
+		<category><![CDATA[productivity]]></category>
+
+		<guid isPermaLink="false">http://blog.webreakstuff.com/?p=654</guid>
+		<description><![CDATA[Every other day, here at Webreakstuff, we have an idea for an app. Most of the time it&#8217;s a web or mobile app, other times it&#8217;s a game or even a physical product. These ideas may solve a problem or be completely useless. The majority of them is briefly mentioned and soon forgotten. Others though, [...]]]></description>
+				<content:encoded><![CDATA[<p>Every other day, here at Webreakstuff, we have an idea for an app. Most of the time it&#8217;s a web or mobile app, other times it&#8217;s a game or even a physical product. These ideas may solve a problem or be completely useless. The majority of them is briefly mentioned and soon forgotten. Others though, mingle in our minds for a while and turn into real products (<a href="http://bling.io/">Bling</a> was one of these).</p>
+<p>This week we felt like something was missing to maintain the team productive and communicating efficiently. We needed a simple way to keep everyone in sync without causing too much of a hassle. We figured that the solution would be a very simple app which allowed everyone to sum up their work day in a few sentences, kind of like a tweet about your output for the day. </p>
+<p>We put on our Rails cap and made <strong><a href="http://logr.webreakstuff.com">log(r)</a></strong> in a few hours &#8211; <em>never mind the name, we really suck at that</em>. </p>
+<p><a href="http://blog.webreakstuff.com/wp-content/uploads/2013/02/Screen-Shot-2013-02-15-at-12.06.07-PM.png"><img src="http://blog.webreakstuff.com/wp-content/uploads/2013/02/Screen-Shot-2013-02-15-at-12.06.07-PM-300x281.png" alt="" title="log(r)" width="300" height="281" class="alignnone size-medium wp-image-675" /></a></p>
+<p>After trying it out for a few days we really like using it. In a couple of minutes it makes you go over the whole day in your head and compact it into a small textarea for others to read. You can think of it as an agile version of the 15-5 feedback report. On that same screen you have all your teammates&#8217; reports. It also reminds you by email if you forget to log your day. </p>
+<p>We decided to open up the app for everyone to use, so we had to make a few changes, like adding teams and timezone settings (<em>oh, the dreadful timezones!</em>), while trying to keep the app super simple. </p>
+<p>Give it a spin at <a href="http://logr.webreakstuff.com">logr.webreakstuff.com</a>, get your workmates on it and let us know what you think!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.webreakstuff.com/2013/02/logr/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Notes for week #310</title>
+		<link>http://blog.webreakstuff.com/2011/12/week310/</link>
+		<comments>http://blog.webreakstuff.com/2011/12/week310/#comments</comments>
+		<pubDate>Sun, 18 Dec 2011 18:05:38 +0000</pubDate>
+		<dc:creator>Fred Oliveira</dc:creator>
+				<category><![CDATA[Work]]></category>
+		<category><![CDATA[bling]]></category>
+		<category><![CDATA[california]]></category>
+		<category><![CDATA[m]]></category>
+		<category><![CDATA[Personal]]></category>
+		<category><![CDATA[weeklynotes]]></category>
+
+		<guid isPermaLink="false">http://blog.webreakstuff.com/?p=638</guid>
+		<description><![CDATA[One of the things we used to do on our blog, mostly inspired by the brilliant folks at BERG, was maintain weekly notes about what was going on at the WBS offices. I last posted those about a year ago, and as you can imagine, lots has happened since. Since these weekly notes are great [...]]]></description>
+				<content:encoded><![CDATA[<p>One of the things we used to do on our blog, mostly inspired by the brilliant folks at <a href="http://berglondon.com/">BERG</a>, was maintain weekly notes about what was going on at the <a href="http://webreakstuff.com">WBS</a> offices. I last posted those about a year ago, and as you can imagine, lots has happened since. Since these weekly notes are great way to keep a finger on the pulse of the company and what we do, we&#8217;re bringing them back. These are, then, the notes for week 310.</p>
+<p><img class="alignright" src="http://blog.webreakstuff.com/wp-content/uploads/2011/12/photo.jpg" alt="Photo" title="photo.JPG" border="0" width="200" height="200" /></p>
+<p>For most of the last 9 months, we&#8217;ve been exploring several ideas in the social shopping and recommendation space, eventually culminating in the official launch of <a href="http://bling.io">Bling</a>, a platform where people share the things they&#8217;re buying and add things they want to a wishlist. In return, we&#8217;re able to provide users with all sorts of smarts regarding products they might like, what shops may have cheaper items, among other things. The amazing thing about <a href="http://bling.io">Bling</a> is that once you start uncovering the veil of possibility, it becomes immense. <span id="more-638"></span></p>
+<p>Bling is also the first project where we&#8217;re considering bringing in external funds to help us grow our talent faster. I&#8217;m a big proponent of going all-in and bootstrapping businesses &#8211; mostly because it is a great way to keep your ass on the line and make people move -, so this is definitely a conflicting position for me personally and the company as a whole. We&#8217;re lucky enough to have had a couple of offers already, which we are considering, but they all depend on a visit to California in January (more on that below).</p>
+<p>Parallel to Bling, we&#8217;ve been mulling a few other ideas for products and expansion. We&#8217;ve (very) quietly rolled out a private beta of a product we&#8217;ve had on the backburner for a while, that we rebuilt from the ground up with technologies we wanted to explore. More on project M &#8211; on which <a href="http://twitter.com/fbatista">Fabio</a> took lead development role, churning out exceptional stuff &#8211; soon, when it is closer to an actual launch. </p>
+<p>Plans are being made for a company-wide trip to California in January. I&#8217;m sure we can all benefit from a few days in a different environment, and we&#8217;re taking the opportunity of the <a href="http://500.co">500 Startups</a> demo-day &#8211; I&#8217;ll be going as a mentor &#8211; to go over for two weeks. Resting, sightseeing and a bunch of meetings with smart people should definitely stir up things around here. Plus, this is something that has been long overdue.</p>
+<p>More notes next week. Merry christmas!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.webreakstuff.com/2011/12/week310/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>It&#8217;s been a while</title>
+		<link>http://blog.webreakstuff.com/2010/11/comeback/</link>
+		<comments>http://blog.webreakstuff.com/2010/11/comeback/#comments</comments>
+		<pubDate>Wed, 24 Nov 2010 02:23:49 +0000</pubDate>
+		<dc:creator>Fred Oliveira</dc:creator>
+				<category><![CDATA[Personal]]></category>
+		<category><![CDATA[Work]]></category>
+
+		<guid isPermaLink="false">http://blog.webreakstuff.com/?p=528</guid>
+		<description><![CDATA[We&#8217;ve been mum in the last few months, but certainly not sitting on our hands. We&#8217;ve been working on new products, pushing quite a few new features on to Goplan, joining venture funds, speaking at Conferences, winning a few competitions and (lets be honest) having a bit of fun. We have, though, been missing writing [...]]]></description>
+				<content:encoded><![CDATA[<p>We&#8217;ve been mum in the last few months, but certainly not sitting on our hands. We&#8217;ve been working on new products, pushing quite a few new features on to <a href="http://goplanapp.com">Goplan</a>, joining <a href="http://helloform.com/blog/2010/10/500startups/">venture funds</a>, speaking at Conferences, winning a few competitions and (lets be honest) having a bit of fun. </p>
+<p>We have, though, been missing writing on our blog here, and we&#8217;ve made the decision of bringing this baby back, with a vengeance. Expect a flurry of new posts about our typical subjects of development, strategy and design (we have some exciting stuff to talk about) &#8211; starting first thing tomorrow. Now, we rest &#8211; today has been along, exciting day.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.webreakstuff.com/2010/11/comeback/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Notes for week #250</title>
+		<link>http://blog.webreakstuff.com/2010/03/notes-for-week-250/</link>
+		<comments>http://blog.webreakstuff.com/2010/03/notes-for-week-250/#comments</comments>
+		<pubDate>Sat, 20 Mar 2010 12:44:53 +0000</pubDate>
+		<dc:creator>Fred Oliveira</dc:creator>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[goplan]]></category>
+		<category><![CDATA[ipad]]></category>
+		<category><![CDATA[iphone]]></category>
+		<category><![CDATA[shift]]></category>
+		<category><![CDATA[shift2010]]></category>
+		<category><![CDATA[switchconf]]></category>
+		<category><![CDATA[uxlx]]></category>
+		<category><![CDATA[uxweek]]></category>
+		<category><![CDATA[weeklynotes]]></category>
+
+		<guid isPermaLink="false">http://blog.webreakstuff.com/?p=522</guid>
+		<description><![CDATA[It&#8217;s been a while since the last time I wrote weekly notes. We&#8217;ve been busy &#8211; a good thing, no doubt. Since the time we announced we were only doing a total of 4 consulting gigs this year, we&#8217;ve accepted one and have a second one on the deal table. We&#8217;re quite happy with the [...]]]></description>
+				<content:encoded><![CDATA[<p>It&#8217;s been a while since the last time I wrote weekly notes. We&#8217;ve been busy &#8211; a good thing, no doubt. Since the time we announced we were only doing a total of 4 consulting gigs this year, we&#8217;ve accepted one and have a second one on the deal table. We&#8217;re quite happy with the self-imposed constraint &#8211; it gives us more time to work on things we&#8217;re really passionate about (both personally and collectively).</p>
+<p><a href="http://goplanapp.com">Goplan</a> has been growing steadily, which is definitely exciting. Having companies like Boxee or Mozilla &#8211; both of whom we&#8217;re big fans of &#8211; using the product means we&#8217;re doing at least something right. Tiago has been working with our new credit card payment gateway to finally bring credit card processing into the application and dump Paypal, which will make it easier for us to change our pricing, give accounts away or offer discounts. Meanwhile, I&#8217;ve been <a href="http://blog.goplanapp.com/2010/03/18/design-top-bar-updates/">tightening pixels</a> inside the application, improving things one page at a time (no app is ever truly <em>&#8220;done&#8221;</em>).</p>
+<p>We&#8217;ve been thinking a lot about the iPhone and the iPad. We have ideas we want to try out on both platforms and we can&#8217;t wait to finally begin in a week or two when the bulk of the stuff we&#8217;re working on gets done. It&#8217;s weird that we&#8217;ve been on the development program since day 1 and haven&#8217;t been able to dedicate much time to it. </p>
+<p>Conference season is right around the corner. We&#8217;ll be at <a href="http://ux-lx.com">Ux-Lx</a>, <a href="http://2010.shift.pt">Shift</a> and <a href="http://switchconf.com/">Switch</a> in the next couple of months &#8211; hopefully others later in the year <sup>[1]</sup>. My new talk on entrepreneurship &#8211; a follow-up to the Lessons Learned talk I did way too many times last year &#8211; is on the light table and I&#8217;m quite excited about it. If you&#8217;re in or around Lisbon in a few weeks, you may catch it at Shift. Thanks to a partnership we just did with <a href="http://adaptivepath.com">Adaptive Path</a>, we&#8217;re probably heading out to <a href="http://uxweek.com">UXWeek</a> in San Francisco in August as well <sup>[2]</sup>.</p>
+<p>Speaking of conferences, we&#8217;re organizing a startup contest at Switch Conference this year and all the details on it are coming this monday. We&#8217;re excited to see what people around us have been working on &#8211; that should be pretty good. </p>
+<p>Have a great weekend!</p>
+<h2>Footnotes</h2>
+<p><sup>[1]</sup> It&#8217;s a shame that there will be no <a href="http://reboot.dk">Reboot</a> in 2010, but I&#8217;m sure Thomas needs a rest. Reboot is a delightful conference that everyone should experience at least once. I hope someone else steps up to organize a conference to fill its shoes this year.</p>
+<p><sup>[2]</sup> If you&#8217;ve read our notes for week #241 you know we&#8217;re thinking of moving out to the bay for a couple of months &#8211; for the change of air, mostly -, so it may end up being that we head out to UXWeek and just stick around. </p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.webreakstuff.com/2010/03/notes-for-week-250/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Notes for week #241</title>
+		<link>http://blog.webreakstuff.com/2010/01/notes-for-week-241/</link>
+		<comments>http://blog.webreakstuff.com/2010/01/notes-for-week-241/#comments</comments>
+		<pubDate>Mon, 18 Jan 2010 06:02:11 +0000</pubDate>
+		<dc:creator>Fred Oliveira</dc:creator>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[hiring]]></category>
+		<category><![CDATA[Personal]]></category>
+		<category><![CDATA[studio]]></category>
+		<category><![CDATA[valley]]></category>
+		<category><![CDATA[webreakstuff]]></category>
+		<category><![CDATA[weeklynotes]]></category>
+
+		<guid isPermaLink="false">http://blog.webreakstuff.com/?p=511</guid>
+		<description><![CDATA[Never underestimate the impact of freshly vacuumed studio. We started the week by rolling up our sleeves and cleaning up &#8211; something we were in dire need of doing, as the office was looking like the result of a high-speed crash between an Apple shop (because we&#8217;re all mac-heads), a Lego Factory (don&#8217;t ask) and [...]]]></description>
+				<content:encoded><![CDATA[<p>Never underestimate the impact of freshly vacuumed studio. We started the week by rolling up our sleeves and cleaning up &#8211; something we were in dire need of doing, as the office was looking like the result of a high-speed crash between an Apple shop (because we&#8217;re all mac-heads), a Lego Factory (don&#8217;t ask) and a paper recycling station (well, it&#8217;s an office, and the paper-less revolution isn&#8217;t really here yet). <a href="http://jnd.org/dn.mss/emotion_design_attractive_things_work_better.html">Attractive things work better</a>.</p>
+<h2>Decisions, guts</h2>
+<p>Monday&#8217;s highlight, however, was not the smell of clean floor tiles, the renovated color of our carpets, or the pixelated video-game-inspired posters that were hung on the walls. On Monday, right before dinner, we hit an odd milestone &#8211; one I briefly mentioned <a href="http://twitter.com/f/status/7639159083">on twitter</a>: We said no to a candidate that hit the mark on 99% of our hiring criteria. </p>
+<p>As you might have guessed if you&#8217;ve been reading our weekly notes, we&#8217;ve been rethinking the way we work for ourselves and our clients (we&#8217;ve recently decided to only take 4 consulting jobs in 2010 to make sure we&#8217;re completely passionate about everything we do &#8211; <a href="http://blog.webreakstuff.com/2010/01/notes-for-week-239/">more here</a>). So we&#8217;re not hiring until we have everything figured out. It was tough saying no to someone when our gut said yes but we believe it was for the best. If you&#8217;re hiring and looking for someone who&#8217;s revealed to be extremely passionate, a great PR person and an inspiring individual, get in touch and we&#8217;ll connect you.</p>
+<h2>Preparing for a stint in the valley</h2>
+<p><img src="http://blog.webreakstuff.com/wp-content/uploads/2010/01/19172785_f861c19e5f_o-300x225.jpg" alt="" title="19172785_f861c19e5f_o" width="300" height="225" class="alignright size-medium wp-image-519" /> Anyway, we&#8217;re making big plans for the future and it seems like we (the whole team) may be spending a few months in Silicon Valley soon. Me, I can&#8217;t wait to go back, and the rest of the guys can&#8217;t wait to see how things are like over the pond. The whole idea is still in its embryonic stage &#8211; and there&#8217;s quite a few things, namely with immigration, to figure out -, but we&#8217;re all very excited about the prospect. </p>
+<p>If you have ideas on how to solve the problem of hosting 6 or 7 people in or around San Francisco for about 4 months, please let us know. Housing is our number one concern at this point. But honestly, we see this as a good problem to have. We can&#8217;t wait, really.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.webreakstuff.com/2010/01/notes-for-week-241/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Heading out to (and sponsoring) UX-LX Lisbon</title>
+		<link>http://blog.webreakstuff.com/2010/01/heading-out-to-and-sponsoring-ux-lx-lisbon/</link>
+		<comments>http://blog.webreakstuff.com/2010/01/heading-out-to-and-sponsoring-ux-lx-lisbon/#comments</comments>
+		<pubDate>Mon, 18 Jan 2010 05:24:45 +0000</pubDate>
+		<dc:creator>Fred Oliveira</dc:creator>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[goplan]]></category>
+		<category><![CDATA[Personal]]></category>
+		<category><![CDATA[sponsorship]]></category>
+		<category><![CDATA[travelling]]></category>
+		<category><![CDATA[user experience]]></category>
+		<category><![CDATA[userexperience]]></category>
+		<category><![CDATA[uxlx]]></category>
+		<category><![CDATA[Work]]></category>
+
+		<guid isPermaLink="false">http://blog.webreakstuff.com/?p=504</guid>
+		<description><![CDATA[Being a team of user experience enthusiasts, we were extremely excited when we got word of Ux-Lx, a user experience conference, in Lisbon, organized by one of our friends. We got even more excited when we saw the line-up. People like Pete Merholz of Adaptive Path, Jared Spool, Dan Saffer, Luke Wroblewski or Manuel Lima [...]]]></description>
+				<content:encoded><![CDATA[<p><img src="http://blog.webreakstuff.com/wp-content/uploads/2010/01/uxlx.gif" alt="" title="uxlx" width="290" height="60" class="alignright size-full wp-image-503" /> Being a team of user experience enthusiasts, we were extremely excited when we got word of <a href="http://ux-lx.com">Ux-Lx</a>, a user experience conference, in Lisbon, organized by one of our friends. We got even more excited when we saw the line-up. People like Pete Merholz of Adaptive Path, Jared Spool, Dan Saffer, Luke Wroblewski or Manuel Lima are always inspiring individuals, so a chance to see them all (and get back in touch with a few of them) isn&#8217;t an opportunity we&#8217;d easily miss &#8211; so we&#8217;re not missing it at all.</p>
+<p>We&#8217;re bringing the whole team to Lisbon for three days packed with great talks and what we hope awesome inspiring conversations. And we&#8217;re not only bringing everyone down, we&#8217;re also &#8211; through our project management and online collaboration app, <a href="http://goplanapp.com">Goplan</a> &#8211; sponsoring the event. We&#8217;re giving everyone attending the conference 6 months free of Goplan&#8217;s <a href="http://goplanapp.com/home/plans">professional plan</a> &#8211; which we believe will make a few people quite happy. It&#8217;s a great way to give back to a community we love, and to hopefully get feedback from likeminded individuals.</p>
+<p>We do hope to see you at the conference, and if you&#8217;re not attending, we hope you&#8217;ll keep an eye on our blog as we&#8217;re planning on some really exciting ways to cover what&#8217;s being said on the event. Cheers!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.webreakstuff.com/2010/01/heading-out-to-and-sponsoring-ux-lx-lisbon/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Notes for week #239</title>
+		<link>http://blog.webreakstuff.com/2010/01/notes-for-week-239/</link>
+		<comments>http://blog.webreakstuff.com/2010/01/notes-for-week-239/#comments</comments>
+		<pubDate>Wed, 06 Jan 2010 06:13:37 +0000</pubDate>
+		<dc:creator>Fred Oliveira</dc:creator>
+				<category><![CDATA[General]]></category>
+		<category><![CDATA[consulting]]></category>
+		<category><![CDATA[goplan]]></category>
+		<category><![CDATA[passion]]></category>
+		<category><![CDATA[Personal]]></category>
+		<category><![CDATA[products]]></category>
+		<category><![CDATA[webreakstuff]]></category>
+		<category><![CDATA[weeklynotes]]></category>
+
+		<guid isPermaLink="false">http://blog.webreakstuff.com/?p=495</guid>
+		<description><![CDATA[You&#8217;ll notice this post is a few days late. New years got in the way of a timely post, but I believe the material herein makes up for it. This was a slow but important week. 2009 is done &#8211; it&#8217;s funny how time flies. The office stood still as we gathered with families, friends [...]]]></description>
+				<content:encoded><![CDATA[<p><em>You&#8217;ll notice this post is a few days late. New years got in the way of a timely post, but I believe the material herein makes up for it.</em></p>
+<p>This was a slow but important week. 2009 is done &#8211; it&#8217;s funny how time flies. The office stood still as we gathered with families, friends to celebrate the new year. Ourselves, we&#8217;re concentrating on 2010 &#8211; it&#8217;s going to be an important, career (and company) defining year.</p>
+<p>Important decisions were made. As I briefly mentioned <a href="http://blog.webreakstuff.com/2009/12/notes-for-week-238/">last week</a>, we have always struggled with the question of whether to focus on our products (which we love) or to help other people with their own through consulting (which we also love to do). We&#8217;ve reached a conclusion, we&#8217;re happy with our decision and we&#8217;re sticking with it.</p>
+<p>The decision is to do both, but with a twist: we&#8217;re taking a very limited number of consulting projects each year from now on &#8211; we&#8217;re thinking of about 4. This is the best of both worlds. When we&#8217;re consulting, we&#8217;re inspiring and getting inspired by other people. When we&#8217;re working for ourselves, we&#8217;re reinventing our ideas and hopefully building special <a href="http://goplanapp.com">products</a> that you can use. </p>
+<p>I wonder (and the others do too) how clients will receive the idea of us only doing a limited number of projects. We want to make the best out of the time we dedicate to other people. We want to be completely passionate about it, so four projects seems like the sweet spot. We&#8217;ll see how it goes. </p>
+<p>If we have one new year resolution, it is to bring passion back to our business. If you want to work with us (or to have us work for you) in 2010, <a href="mailto:hello@webreakstuff.com">get in touch</a> &#8211; we&#8217;ll try to help. Thank you, and happy new year!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://blog.webreakstuff.com/2010/01/notes-for-week-239/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>

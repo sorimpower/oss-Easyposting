@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>2BwithU's Blog</title>
+		<link>http://2bwithu.tistory.com/</link>
+		<description>지나치는 모든 게 살(矢)과 같다.</description>
+		<language>ko</language>
+		<pubDate>Mon, 05 Aug 2013 18:55:34 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>2BWithU</managingEditor>
+		<image>
+			<title>2BwithU's Blog</title>
+			<url>http://cfs3.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzMy50aXN0b3J5LmNvbTovYXR0YWNoLzEvMDgwMDAwMDAwMTU0LmpwZw%3D%3D</url>
+			<link>http://2bwithu.tistory.com</link>
+			<description>지나치는 모든 게 살(矢)과 같다.</description>
+		</image>
+		<item>
+			<title>TheWorld Browser 2.3.1.6 - 무설치(한글)</title>
+			<link>http://2bwithu.tistory.com/276</link>
+			<description>&lt;P&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfs14.tistory.com/original/10/tistory/2008/11/18/16/59/492275d7ab044&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs14.tistory.com/image/10/tistory/2008/11/18/16/59/492275d7ab044&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;TheWorld.jpg&quot; height=&quot;435&quot; width=&quot;580&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+제가 평소 회사에서나 집에서나 애용하는 브라우져인 TheWorld의 무설치 버젼입니다. 늘 그렇지만, 아래 몇 가지 사항에 신경을 써서 제작했습니다.&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;FONT color=#b50061&gt;- 프로그램 종료 후에 시스템에 사용 흔적을 남기지 않는다.&lt;br /&gt;
+&lt;/FONT&gt;&lt;FONT color=#b50061&gt;- 이미 TheWorld 브라우저가 설치되어 있는 시스템에서는 설치된 것을 실행한다.&lt;br /&gt;
+&lt;/FONT&gt;&lt;FONT color=#b50061&gt;- 무설치 버젼 실행 또는 설치 버젼 실행시 사용자에게 미리 알려준다.&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;TheWorld 같은 경우는 한 개의 단일 실행 파일로 만들지 않았는데, 그 이유는 대체로 즐겨찾기 때문입니다. 첨부 파일 압축 푸시면 App 폴더 내의 Favorites 폴더가 있는데, 거기다가 본인이 평소 쓰는 즐겨찾기 링크를 모두 복사해두면 어느 시스템에서나 본인이 원하는 즐겨찾기가 등록된 상태로 인터넷 서핑이 가능합니다. (Portable Theworld.exe 실행시 즐겨찾기를 자동 인식)&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;또한 이 프로그램을 사용하는 시스템 내의 즐겨찾기 폴더에 본인의 즐겨찾기 링크가 복사되는 것이 아니기 때문에, 사생활도 보호되고요.&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;아래 첨부파일 받으신 후 아무데나 압축을 푸시고, Portable TheWorld.exe 파일을 실행하면 브라우저가 작동합니다.&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock&quot; style=&quot;display:inline;&quot;&gt;&lt;a href=&quot;http://2bwithu.tistory.com/attachment/492275e8be531DK.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; TheWorldPortable.rar&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;(추가) 제 메인 블로그를 &lt;A title=&quot;[http://eohjun.textcube.com]로 이동합니다.&quot; href=&quot;http://eohjun.textcube.com/&quot; target=_blank&gt;텍스트큐브닷컴&lt;/A&gt;으로 옮겼습니다 &lt;br /&gt;
+&lt;/P&gt;&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-small&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/My%20Progys&quot;&gt;My Progys&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/276&quot; &gt;TheWorld Browser 2.3.1.6 - 무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/11/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/275&quot; &gt;CCleaner 2.13.720 - 무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/11/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/266&quot; &gt;CCleaner 2.12.660 -  무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/10/05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/264&quot; &gt;Portable CCleaner 2.09.600 - 무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(3)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/261&quot; &gt;울타리 1.770 - 무설치 버젼&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/260&quot; &gt;Portable CCleaner 2.07.575 - 무설치 버젼(한글판)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(4)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>My Progys</category>
+			<category>Portable</category>
+			<category>Portable TheWorld</category>
+			<category>TheWorld</category>
+			<category>TheWorld 2.3.1.6</category>
+			<category>TheWorld Portable</category>
+			<category>TheWorld 무설치</category>
+			<category>무설치</category>
+			<category>무설치 TheWorld</category>
+			<author>2BWithU</author>
+			<guid>http://2bwithu.tistory.com/276</guid>
+			<comments>http://2bwithu.tistory.com/276#entry276comment</comments>
+			<pubDate>Tue, 18 Nov 2008 13:56:34 +0900</pubDate>
+		</item>
+		<item>
+			<title>CCleaner 2.13.720 - 무설치(한글)</title>
+			<link>http://2bwithu.tistory.com/275</link>
+			<description>&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfs11.tistory.com/original/11/tistory/2008/11/18/13/31/4922452d261fb&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs11.tistory.com/image/11/tistory/2008/11/18/13/31/4922452d261fb&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;CCleaner.jpg&quot; height=&quot;450&quot; width=&quot;620&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;P&gt;아시는 분은 다 아시는 CCleaner 2.13.720 무설치 버젼입니다. 무료로 마음껏 사용할 수 있는 시스템 청소 프로그램입니다. 무설치 버젼으로 만들면서 아래 몇 가지 사항을 고려하였습니다.&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;FONT color=#b50061&gt;- 프로그램 종료 후에 사용 흔적을 남기지 않는다.&lt;br /&gt;
+&lt;/FONT&gt;&lt;FONT color=#b50061&gt;- 이미 CCleaner가 설치된 시스템에서는, 무설치 버젼 대신 설치되어 있는 프로그램을 실행한다.&lt;br /&gt;
+&lt;/FONT&gt;&lt;FONT color=#b50061&gt;&amp;nbsp; (물론 CCleaner가 설치되어 있지 않은 시스템에서는 당연히 무설치 버젼이 실행된다.)&lt;br /&gt;
+&lt;/FONT&gt;&lt;FONT color=#b50061&gt;- 시스템 설치버젼을 실행하든, 무설치 버젼을 실행하든 이를 팝업창으로 사용자에게 알림.&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;아래 첨부 파일 받으신 후 바로 실행하시면 프로그램을 사용하실 수 있습니다. 바로 위에 언급한 바와 같이 이미 프로그램이 설치되어 있는 경우에는 그냥 설치된 프로그램을 실행하므로, 사용 전에 이전 설치버젼을 굳이 삭제할 필요는 없습니다. &lt;br /&gt;
+&lt;br /&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;&lt;FONT color=#e31600&gt;티스토리에서 텍스트큐브닷컴으로&amp;nbsp;메인 블로그를 옮긴지 꽤 되었습니다&lt;/FONT&gt;&lt;/STRONG&gt;. 완전한 마이너 블로그를 지향하기에는 티스토리는 너무나 공개적인 공간이기 때문인데요. 요즘&amp;nbsp;블로그 관리가 소홀하긴 하지만, 되도록이면 텍스트큐브닷컴 쪽을 가끔씩 방문해주시는게 좋을 것 같습니다.&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock&quot; style=&quot;display:inline;&quot;&gt;&lt;a href=&quot;http://2bwithu.tistory.com/attachment/4922762253668CZ.exe&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; CCleaner.exe&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;STRONG&gt;텍스트큐브닷컴 블로그&lt;/STRONG&gt; : &lt;A href=&quot;http://eohjun.textcube.com/&quot;&gt;http://eohjun.textcube.com&lt;/A&gt; &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/P&gt;&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-small&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/My%20Progys&quot;&gt;My Progys&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/276&quot; &gt;TheWorld Browser 2.3.1.6 - 무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/11/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/275&quot; &gt;CCleaner 2.13.720 - 무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/11/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/266&quot; &gt;CCleaner 2.12.660 -  무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/10/05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/264&quot; &gt;Portable CCleaner 2.09.600 - 무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(3)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/261&quot; &gt;울타리 1.770 - 무설치 버젼&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/260&quot; &gt;Portable CCleaner 2.07.575 - 무설치 버젼(한글판)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(4)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>My Progys</category>
+			<category>CCleaner</category>
+			<category>CCleaner 2.13.720</category>
+			<category>CCleaner Portable</category>
+			<category>CCleaner 무설치</category>
+			<category>Portable</category>
+			<category>Portable CCleaner</category>
+			<category>무설치 CCleaner</category>
+			<category>시스템청소</category>
+			<author>2BWithU</author>
+			<guid>http://2bwithu.tistory.com/275</guid>
+			<comments>http://2bwithu.tistory.com/275#entry275comment</comments>
+			<pubDate>Tue, 18 Nov 2008 13:36:38 +0900</pubDate>
+		</item>
+		<item>
+			<title>CCleaner 2.12.660 -  무설치(한글)</title>
+			<link>http://2bwithu.tistory.com/266</link>
+			<description>&lt;P&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfs9.tistory.com/original/4/tistory/2008/10/05/20/30/48e8a53c3a726&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs9.tistory.com/image/4/tistory/2008/10/05/20/30/48e8a53c3a726&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;CCleaner.jpg&quot; height=&quot;450&quot; width=&quot;620&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;P&gt;최신 버젼으로 무설치 버젼을 업데이트했습니다. 또한 그동안 귀차니즘에 미루어두었던 사용자 편의성을 고려하여, 무설치 런쳐 스크립트에 약간 변화를 주었습니다.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;FONT color=#670037&gt;시스템에 CCleaner가 설치되었는지 확인할 때, 관련 메시지 창을 뛰우도록 변경&lt;/FONT&gt; 
+&lt;LI&gt;&lt;FONT color=#670037&gt;시스템에 CCleaner가 설치되어 있는 경우, 시스템에 설치되어 있는 프로그램을 실행한다는 메시지 창을 띄우고 실행하도록 변경&lt;/FONT&gt; 
+&lt;LI&gt;&lt;FONT color=#670037&gt;시스템에 CCleaner가 설치되어 있지 않은 경우, 무설치 프로그램이 실행된다는 메시지 차을 띄우고 실행하도록 변경&lt;/FONT&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;이번 업데이트는 2.12부터 지원하기 시작한 구글 크롬(Chrome) 관련 시스템 청소 기능을 개선한 정도인 것 같습니다. 필요하신 분들은 아래 첨부 파일 받으시기 바랍니다.&lt;/P&gt;
+&lt;P&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://2bwithu.tistory.com/attachment/48e8a65d616438X.exe&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; CCleaner.exe&lt;/a&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;(추가)&lt;/P&gt;
+&lt;P&gt;오랜만에 티스토리 블로그에 와보니, 편집기나 관리자 화면이 정말 많이 변했네요. 이미 포스팅한 바와 같인 저는 제 개인 블로그를 &lt;A title=&quot;[http://eohjun.textcube.com]로 이동합니다.&quot; href=&quot;http://eohjun.textcube.com/&quot; target=_blank&gt;텍스트큐브닷컴&lt;/A&gt;으로 옮겼습니다. 물론 귀차니즘 때문에 이 블로그 전체를 백업해서 옮겨놓지는 못했습니다.&lt;/P&gt;
+&lt;P&gt;아직까지는 동영상 관리 등의 멀티미디어 지원 측면에서 티스토리가 훨씬 낫다는 생각이 드네요. 현재 티스토리에 충분히 만족하고 계신 분들은 텍스트큐브닷컴으로 옮겨보려는 생각을 갖는 것은 시기상조가 아닐까하는 생각이 듭니다.&lt;br /&gt;
+&lt;br /&gt;다만, 저는 티스토리 블로그보다는 텍스트큐브닷컴 블로그에&amp;nbsp;주로 포스팅을 할 것입니다. 무설치 프로그램 등 때문에 제 블로그를 찾으시는 분들은 이 점 참고하시기 바랍니다. :)&lt;br /&gt;
+&lt;br /&gt;텍스트큐브닷컴 블로그 : &lt;A href=&quot;http://eohjun.textcube.com/&quot;&gt;http://eohjun.textcube.com&lt;/A&gt; &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;br /&gt;
+&amp;nbsp;&lt;/P&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-266-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-266-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-266-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-small&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/My%20Progys&quot;&gt;My Progys&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/276&quot; &gt;TheWorld Browser 2.3.1.6 - 무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/11/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/275&quot; &gt;CCleaner 2.13.720 - 무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/11/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/266&quot; &gt;CCleaner 2.12.660 -  무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/10/05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/264&quot; &gt;Portable CCleaner 2.09.600 - 무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(3)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/261&quot; &gt;울타리 1.770 - 무설치 버젼&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/260&quot; &gt;Portable CCleaner 2.07.575 - 무설치 버젼(한글판)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(4)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>My Progys</category>
+			<category>CCleaner</category>
+			<category>CCleaner 2.12.660</category>
+			<category>CCleaner Portable</category>
+			<category>CCleaner 무설치</category>
+			<category>Portable CCleaner</category>
+			<category>무설치 CCleaner</category>
+			<author>2BWithU</author>
+			<guid>http://2bwithu.tistory.com/266</guid>
+			<comments>http://2bwithu.tistory.com/266#entry266comment</comments>
+			<pubDate>Sun, 05 Oct 2008 20:38:18 +0900</pubDate>
+		</item>
+		<item>
+			<title>TextCube.com 에 새로 입주했습니다.</title>
+			<link>http://2bwithu.tistory.com/265</link>
+			<description>여러 가지 사정으로 활발한 블로깅을 하기 힘든 와중에도, 다행히 TextCube.com의 초대장을 얻었습니다. 따라서 당분간 두 블로그에 중복 포스팅을 할 예정임을 말씀드립니다. &lt;br /&gt;&lt;br /&gt;TextCube.com 블로그 주소 :&amp;nbsp; http://eohjun.textcube.com&lt;br /&gt;&lt;br /&gt;혹시나 같은 게시물이 올라온다고 해서 '펌 블로그'로 착각하시는 일이 없기를 바랍니다. 뭐, 워낙 마이너 블로그라 그런 걱정은 들하긴 하지만, 노파심에 한 말씀드립니다.&lt;br /&gt;&lt;br /&gt;차후 텍스트큐브닷컴 서비스의 변화 발전 추이를 봐가며 완전히 이주할 생각을 가지고 있다는 점 또한 말씀드리구요. :)&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-small&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/My%20Notes&quot;&gt;My Notes&lt;/a&gt;&amp;nbsp;&gt;&amp;nbsp;&lt;a href=&quot;/category/My%20Notes/Infos&quot;&gt;Infos&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/265&quot; &gt;TextCube.com 에 새로 입주했습니다.&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/263&quot; &gt;청와대에 '쥐매트 골드'(쥐끈끈이)나 보내볼까?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/262&quot; &gt;저는 요즘 날마다 꿈을 꿉니다.&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/259&quot; &gt;광우병 소고기 수입 반대 현수막이 강제 철거 대상인가요?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/258&quot; &gt;베란다에 미친소 수입 반대 현수막 걸면 처벌?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(10)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/257&quot; &gt;수업 시간에 고등학생을 끌어내서 조사?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>Infos</category>
+			<category>textcube</category>
+			<category>textcube.com</category>
+			<category>텍스트큐브</category>
+			<category>텍스트큐브닷컴</category>
+			<author>2BWithU</author>
+			<guid>http://2bwithu.tistory.com/265</guid>
+			<comments>http://2bwithu.tistory.com/265#entry265comment</comments>
+			<pubDate>Sat, 05 Jul 2008 23:12:54 +0900</pubDate>
+		</item>
+		<item>
+			<title>Portable CCleaner 2.09.600 - 무설치(한글)</title>
+			<link>http://2bwithu.tistory.com/264</link>
+			<description>&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfs9.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzOS50aXN0b3J5LmNvbTovYXR0YWNoLzAvNi5qcGc%3D&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs9.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzOS50aXN0b3J5LmNvbTovYXR0YWNoLzAvNi5qcGc%3D&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;450&quot; width=&quot;620&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+오랜만에 블로그에 포스팅하네요. 그놈의 2MB 덕에 세월도 하수상하고, 제 개인적으로 바빠서 블로그에 포스팅할 틈이 없었다는 핑계를 우선 대봅니다.&lt;br /&gt;
+&lt;br /&gt;프로그램에 대한 설명은 별도로 필요없을 것 같고요. 아래 첨부 파일 받으셔서 실행하시면 프로그램이 바로 작동합니다. &lt;FONT color=#006699&gt;유의하실 점은 홈페이지에서 공식적으로 제공되는 무설치 버젼과는 다른 것으로 설치 버젼을 이용해 제 개인이 직접 제작한 것&lt;/FONT&gt;입니다. &lt;FONT style=&quot;BACKGROUND-COLOR: #d0ff9d&quot;&gt;프로그램 사용 후 종료할 때 시스템에 흔적을 남기지 않도록 신경을 써서 제작&lt;/FONT&gt;했습니다.&lt;br /&gt;
+&lt;br /&gt;WinRAR를 이용하여 단일 파일로 만든 것이므로, 단일 파일 버젼이 싫으신 분은 압축을 푸셔서 사용하시면 되겠습니다. 단일 파일 버젼이 미세하게 실행 속도가 느린데, 이런 걸 싫어하시는 분들도 있더군요.&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock left&quot; style=&quot;float: left; margin-right: 10px;&quot;&gt;&lt;a href=&quot;http://2bwithu.tistory.com/attachment/hk7.exe&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; CCleaner.exe&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-small&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/My%20Progys&quot;&gt;My Progys&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/275&quot; &gt;CCleaner 2.13.720 - 무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/11/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/266&quot; &gt;CCleaner 2.12.660 -  무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/10/05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/264&quot; &gt;Portable CCleaner 2.09.600 - 무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(3)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/261&quot; &gt;울타리 1.770 - 무설치 버젼&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/260&quot; &gt;Portable CCleaner 2.07.575 - 무설치 버젼(한글판)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(4)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/255&quot; &gt;Complex TC Burner 3.69 - CD/DVD 굽개(토커 플러그인)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(4)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>My Progys</category>
+			<category>CCleaner</category>
+			<category>CCleaner 2.09</category>
+			<category>CCleaner Portable</category>
+			<category>CCleaner 무설치</category>
+			<category>Portable</category>
+			<category>Portable CCleaner</category>
+			<category>무설치</category>
+			<category>무설치 CCleaner</category>
+			<author>2BWithU</author>
+			<guid>http://2bwithu.tistory.com/264</guid>
+			<comments>http://2bwithu.tistory.com/264#entry264comment</comments>
+			<pubDate>Fri, 27 Jun 2008 14:13:11 +0900</pubDate>
+		</item>
+		<item>
+			<title>청와대에 '쥐매트 골드'(쥐끈끈이)나 보내볼까?</title>
+			<link>http://2bwithu.tistory.com/263</link>
+			<description>&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfs8.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzOC50aXN0b3J5LmNvbTovYXR0YWNoLzAvNi5qcGc%3D&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs8.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzOC50aXN0b3J5LmNvbTovYXR0YWNoLzAvNi5qcGc%3D&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;485&quot; width=&quot;640&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;다음 아고라에 가봤더니, 이런 센스쟁이가 있었네요. 부산에 사시는 분인데.. 실제로 쥐매트 골드를 거금 들여 사서, 택배를 이용해 청와대로 보내셨다는군요. &lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfs8.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzOC50aXN0b3J5LmNvbTovYXR0YWNoLzAvNy5qcGc%3D&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs8.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzOC50aXN0b3J5LmNvbTovYXR0YWNoLzAvNy5qcGc%3D&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;480&quot; width=&quot;640&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;이거 괜찮은 아이디어인 것 같아 저도 한번 보내볼까 고민 중입니다. 사실 쥐만 잘 잡는다면, 아무리 비싸도 사서 보내고 싶은데.. 청와대에 서식한다는 그 '쥐'는 워낙 악질이라고 하니, 이 정도로는 잡기가 힘들것 같긴 합니다.&lt;br /&gt;&lt;br /&gt;'&lt;STRONG&gt;쥐매트 골드 특대형&lt;/STRONG&gt;' 정도가 나와줘야 가능성이 좀 있지 싶은데..&lt;br /&gt;&lt;br /&gt;실제 청와대에 잘 배달했다고 택배회사에서 휴대폰 문자도 보내줬다는군요. 용기가 대단하신데, 별 문제 없을지 그게 좀 걱정 되긴 합니다.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfs7.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzNy50aXN0b3J5LmNvbTovYXR0YWNoLzAvNi5qcGc%3D&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs7.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzNy50aXN0b3J5LmNvbTovYXR0YWNoLzAvNi5qcGc%3D&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;422&quot; width=&quot;360&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;관련 링크 : &lt;A href=&quot;http://bbs1.agora.media.daum.net/gaia/do/debate/read?bbsId=D003&amp;amp;articleId=897394&quot; target=_blank&gt;다음 아고라 게시물 보기&lt;/A&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-small&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/My%20Notes&quot;&gt;My Notes&lt;/a&gt;&amp;nbsp;&gt;&amp;nbsp;&lt;a href=&quot;/category/My%20Notes/Infos&quot;&gt;Infos&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/265&quot; &gt;TextCube.com 에 새로 입주했습니다.&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/263&quot; &gt;청와대에 '쥐매트 골드'(쥐끈끈이)나 보내볼까?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/262&quot; &gt;저는 요즘 날마다 꿈을 꿉니다.&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/259&quot; &gt;광우병 소고기 수입 반대 현수막이 강제 철거 대상인가요?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/258&quot; &gt;베란다에 미친소 수입 반대 현수막 걸면 처벌?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(10)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/257&quot; &gt;수업 시간에 고등학생을 끌어내서 조사?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>Infos</category>
+			<category>2MB</category>
+			<category>명바기</category>
+			<category>이명박</category>
+			<category>쥐끈끈이</category>
+			<category>쥐매트</category>
+			<category>쥐매트 골드</category>
+			<category>쥐박이</category>
+			<category>청와대</category>
+			<author>2BWithU</author>
+			<guid>http://2bwithu.tistory.com/263</guid>
+			<comments>http://2bwithu.tistory.com/263#entry263comment</comments>
+			<pubDate>Wed, 04 Jun 2008 10:55:48 +0900</pubDate>
+		</item>
+		<item>
+			<title>저는 요즘 날마다 꿈을 꿉니다.</title>
+			<link>http://2bwithu.tistory.com/262</link>
+			<description>&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfs8.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzOC50aXN0b3J5LmNvbTovYXR0YWNoLzAvNS5qcGc%3D&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs8.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzOC50aXN0b3J5LmNvbTovYXR0YWNoLzAvNS5qcGc%3D&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;567&quot; width=&quot;640&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;저는 요즘 날마다 꿈을 꿉니다. 2MB가 온 나라 사람들 앞에서 그 간의 모든 잘못을 솔직히 시인하고, 본인의 무능함을 온 나라 사람 앞에서 고백하며 아무 조건없이 대통령 자리에서 물러나는 꿈을 꿉니다.&lt;br /&gt;&lt;br /&gt;이미 지난 대선 전에 예감했던 일이지만, 2MB가 대통령이 된 것부터가 대한민국의 대재앙입니다. 만에 하나 이번 '미친소 사태'가 모든 국민들이 바라는 대로 해결된다고 하더라도 &amp;nbsp;2MB가 대통령 자리에 있는 한 국가적인 재앙은 연속해서 이어질 것입니다. 그것은 다름아닌 2MB 본인이 대재앙의 본질이기 때문입니다.&lt;br /&gt;&lt;br /&gt;정말 취임 후 100일이 100년과 같은 악몽으로 느껴집니다. 철들고 나서 대통령 여럿 겪어 봤지만, 꿈에서조차 하야를 꿈꾸게 한 대통령은 2MB 당신이 처음입니다.&lt;br /&gt;&lt;br /&gt;제발 더이상 아무것도 하려들지 말아 주십시오. 진심으로 바라건데, 대통령 자리에서 물러나지 못하겠다면, 남은 재임 기간 동안 청와대에서 그저 무위도식 해주세요. 당신의 저질스런 한 마디 말, 행동 하나 하나가 국가의 위신을 실추시키고, 국민들에게 상처만을 안겨줄 뿐입니다.&lt;br /&gt;&lt;br /&gt;저는 모든 면에서 도저히 일국의 대통령이 될만한 어떤 자격도 갖추지 못한 당신같은 자가 대한민국의 대통령이라는 것이 너무 치욕스럽습니다. 또한 이번 일이 다만 앞으로 일어날 많은 일들의 전조에 불과하다는 것을 알기에 너무나 고통스럽습니다.&lt;br /&gt;&lt;br /&gt;저는 2MB 당신에게 묻고 싶은 말이 너무나 많습니다. 왜 하필이면 대한민국의 대통령이 되려고 한 것입니까? 대한민국에 무슨 억화 심정이라도 있었던 겁니까? 대통령 자리에 있으면서 국민들의 아픔을 어루만져 주지는 못할 망정 국민들에게 고통과 치욕만을 안겨주는 이유가 무엇입니까? 그리고...&lt;br /&gt;&lt;br /&gt;이제 그만 어울리지 않는 그 자리에서 스스로 물러나는 것이 어떻겠습니까?&amp;nbsp; 하고.. 정말 우레와 같은 목소리로 묻고 싶습니다. &lt;br /&gt;&lt;br /&gt;제발 이제..그만 그 자리에서 물러나세요.. 제발....너무나 간절히 소망합니다. 한번쯤은 국민들의 바람을 들어줄 수 있는 것 아닙니까..&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-small&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/My%20Notes&quot;&gt;My Notes&lt;/a&gt;&amp;nbsp;&gt;&amp;nbsp;&lt;a href=&quot;/category/My%20Notes/Infos&quot;&gt;Infos&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/265&quot; &gt;TextCube.com 에 새로 입주했습니다.&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/263&quot; &gt;청와대에 '쥐매트 골드'(쥐끈끈이)나 보내볼까?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/262&quot; &gt;저는 요즘 날마다 꿈을 꿉니다.&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/259&quot; &gt;광우병 소고기 수입 반대 현수막이 강제 철거 대상인가요?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/258&quot; &gt;베란다에 미친소 수입 반대 현수막 걸면 처벌?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(10)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/257&quot; &gt;수업 시간에 고등학생을 끌어내서 조사?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>Infos</category>
+			<category>2MB</category>
+			<category>광우병</category>
+			<category>이명박 탄핵</category>
+			<category>촛불</category>
+			<category>촛불집회</category>
+			<category>탄핵</category>
+			<category>하야</category>
+			<author>2BWithU</author>
+			<guid>http://2bwithu.tistory.com/262</guid>
+			<comments>http://2bwithu.tistory.com/262#entry262comment</comments>
+			<pubDate>Tue, 03 Jun 2008 09:49:27 +0900</pubDate>
+		</item>
+		<item>
+			<title>울타리 1.770 - 무설치 버젼</title>
+			<link>http://2bwithu.tistory.com/261</link>
+			<description>울타리 최신 버젼을 무설치 버젼으로 만들어 보았습니다. 울타리 자체는 좋은 프로그램이지만, 설치시 아무 생각없이 '다음' 버튼을 누르다 보면 대부분의 사용자가 원치 않는 소위 '스폰서' 프로그램이 설치됩니다.&lt;br /&gt;&lt;br /&gt;그래서 이런 부분에 대해 별다른 지식이 없는 제 주변인들이나 회사 사람들이 편하고 안전하게 프로그램을 사용할 수 있도록 무설치 버젼을 제작했습니다. (스폰서 프로그램, 방화벽 기능 등은 배제하고, 울타리 고유의 악성코드 제거 및 예방 기능에 주안점을 둠)&lt;br /&gt;&lt;br /&gt;&lt;FONT color=#d41a01&gt;&lt;STRONG&gt;&lt;U&gt;주의 사항&lt;/U&gt;&lt;/STRONG&gt; : &lt;FONT style=&quot;BACKGROUND-COLOR: #d0ff9d&quot;&gt;이미 울타리를 컴퓨터에 설치해서 쓰고 계신 분들은 절대 무설치 버젼을 실행하지 마세요&lt;/FONT&gt;. 프로그램 작동과 관련된 레지스트리가 삭제되어 버립니다. 귀차니즘 때문에,&amp;nbsp; 몇 줄 안되는 단순 코딩을 하면서도 기존 사용자들에 대한 고려는 완전히 배제하였습니다.&lt;br /&gt;&lt;/FONT&gt;&lt;br /&gt;&lt;div class=&quot;imageblock left&quot; style=&quot;float: left; margin-right: 10px;&quot;&gt;&lt;a href=&quot;http://2bwithu.tistory.com/attachment/hk4.exe&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; 울타리.exe&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;STRONG&gt;&lt;FONT color=#993366&gt;※ 권장 사용 방법&lt;br /&gt;&lt;/FONT&gt;&lt;/STRONG&gt;&lt;br /&gt;&lt;FONT color=#006699&gt;1. 우선 악성코드를 검색해서 모두 삭제(치료) 합니다.&lt;/FONT&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfs7.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzNy50aXN0b3J5LmNvbTovYXR0YWNoLzAvNS5qcGc%3D&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs7.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzNy50aXN0b3J5LmNvbTovYXR0YWNoLzAvNS5qcGc%3D&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;311&quot; width=&quot;303&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;FONT color=#006699&gt;2. 악성 코드 예방을 누르면, 뜨는 상단 메뉴 중에서 실시간 감시 기능(개인적으로 비추천) 제외한 3개 탭을 각각 선택하고, 아래쪽 '전체 선택'을 누른 후 하단 '확인' 버튼을 누른다.&lt;/FONT&gt;&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfs7.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzNy50aXN0b3J5LmNvbTovYXR0YWNoLzAvMy5qcGc%3D&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs7.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzNy50aXN0b3J5LmNvbTovYXR0YWNoLzAvMy5qcGc%3D&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;592&quot; width=&quot;520&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-small&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/My%20Progys&quot;&gt;My Progys&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/266&quot; &gt;CCleaner 2.12.660 -  무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/10/05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/264&quot; &gt;Portable CCleaner 2.09.600 - 무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(3)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/261&quot; &gt;울타리 1.770 - 무설치 버젼&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/260&quot; &gt;Portable CCleaner 2.07.575 - 무설치 버젼(한글판)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(4)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/255&quot; &gt;Complex TC Burner 3.69 - CD/DVD 굽개(토커 플러그인)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(4)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/253&quot; &gt;Portable Jv16 PowerTools 1.8.0.455 - 시스템 관리, 청소 툴(무설치)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/04/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>My Progys</category>
+			<category>Portable</category>
+			<category>무설치</category>
+			<category>무설치 울타리</category>
+			<category>악성 코드</category>
+			<category>악성코드</category>
+			<category>악성코드 예방</category>
+			<category>악성코드 제거</category>
+			<category>울타리</category>
+			<category>울타리 무설치</category>
+			<category>울타리 포터블</category>
+			<category>포터블</category>
+			<author>2BWithU</author>
+			<guid>http://2bwithu.tistory.com/261</guid>
+			<comments>http://2bwithu.tistory.com/261#entry261comment</comments>
+			<pubDate>Fri, 30 May 2008 14:55:41 +0900</pubDate>
+		</item>
+		<item>
+			<title>Portable CCleaner 2.07.575 - 무설치 버젼(한글판)</title>
+			<link>http://2bwithu.tistory.com/260</link>
+			<description>&lt;P&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfs7.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzNy50aXN0b3J5LmNvbTovYXR0YWNoLzAvMi5qcGc%3D&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs7.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzNy50aXN0b3J5LmNvbTovYXR0YWNoLzAvMi5qcGc%3D&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;450&quot; width=&quot;620&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;이 프로그램 홈페이지에서 공개하고 있는 최신 버젼을 가지고, 오랜만에 무설치 버젼을 제작했습니다.&lt;br /&gt;&lt;br /&gt;홈페이지에서 자체 제공하는 무설치 버젼이 아니라, 제 개인적으로 설치 버젼으로 제작한 비공식 무설치 버젼입니다. 늘 그렇듯 프로그램 작동 종료 후에 시스템에 흔적을 남기지 않도록 신경을 써서 제작했습니다.&lt;br /&gt;&lt;br /&gt;필요하신 분은 한번 받아서 써보시길. 워낙 유명한 프로그램이라, 별도의 설명은 생략합니다.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;imageblock left&quot; style=&quot;float: left; margin-right: 10px;&quot;&gt;&lt;a href=&quot;http://2bwithu.tistory.com/attachment/jk3.exe&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; CCleaner.exe&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/P&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-small&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/My%20Progys&quot;&gt;My Progys&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/264&quot; &gt;Portable CCleaner 2.09.600 - 무설치(한글)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(3)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/261&quot; &gt;울타리 1.770 - 무설치 버젼&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/260&quot; &gt;Portable CCleaner 2.07.575 - 무설치 버젼(한글판)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(4)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/255&quot; &gt;Complex TC Burner 3.69 - CD/DVD 굽개(토커 플러그인)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(4)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/253&quot; &gt;Portable Jv16 PowerTools 1.8.0.455 - 시스템 관리, 청소 툴(무설치)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/04/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/251&quot; &gt;Portable Jv16 PowerTools 1.8.0.449 - 시스템 관리, 청소 툴(무설치)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(9)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/03/21&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>My Progys</category>
+			<category>CCleaner</category>
+			<category>CCleaner Portable</category>
+			<category>CCleaner 무설치</category>
+			<category>Portable</category>
+			<category>Portable CCleaner</category>
+			<category>무설치</category>
+			<category>무설치 CCleaner</category>
+			<category>시스템 청소</category>
+			<author>2BWithU</author>
+			<guid>http://2bwithu.tistory.com/260</guid>
+			<comments>http://2bwithu.tistory.com/260#entry260comment</comments>
+			<pubDate>Mon, 26 May 2008 11:59:30 +0900</pubDate>
+		</item>
+		<item>
+			<title>광우병 소고기 수입 반대 현수막이 강제 철거 대상인가요?</title>
+			<link>http://2bwithu.tistory.com/259</link>
+			<description>&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfs8.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzOC50aXN0b3J5LmNvbTovYXR0YWNoLzAvMi5qcGc%3D&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfs8.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMzc1QGZzOC50aXN0b3J5LmNvbTovYXR0YWNoLzAvMi5qcGc%3D&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;340&quot; width=&quot;520&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;택배로 주문한 광우병 반대 현수막이 어제 집에 도착해서, 오늘 아침 출근하기 전에 아파트 베란다에 현수막을 걸어놓고 출근했습니다.&lt;br /&gt;&lt;br /&gt;집에서 사무실로 전화가 왔는데. &lt;FONT style=&quot;BACKGROUND-COLOR: #c9edff&quot; color=#d41a01&gt;&lt;STRONG&gt;아파트 관리사무소장이 와서 현수막 떼라고 하면서.. 만약 자진해서 철거하지 않으면 저녁에 강제로 철거하겠다고&lt;SPAN id=callbacknest2bwithutistorycom2599985 style=&quot;FLOAT: right; WIDTH: 1px; HEIGHT: 1px&quot;&gt;&lt;EMBED id=bootstrapper2bwithutistorycom2599985 src=http://2bwithu.tistory.com/plugin/CallBack_bootstrapperSrc width=1 height=1 type=application/x-shockwave-flash allowscriptaccess=&quot;always&quot; wmode=&quot;transparent&quot; EnableContextMenu=&quot;false&quot; FlashVars=&quot;&amp;amp;callbackId=2bwithutistorycom2599985&amp;amp;host=http://2bwithu.tistory.com&amp;amp;embedCodeSrc=http%3A%2F%2F2bwithu.tistory.com%2Fplugin%2FCallBack_bootstrapper%3F%26src%3Dhttp%3A%2F%2Fcfs.tistory.com%2Fblog%2Fplugins%2FCallBack%2Fcallback%26id%3D259%26callbackId%3D2bwithutistorycom2599985%26destDocId%3Dcallbacknest2bwithutistorycom2599985%26host%3Dhttp%3A%2F%2F2bwithu.tistory.com%26float%3Dleft&quot; swLiveConnect=&quot;true&quot;&gt;&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/FONT&gt;&lt;FONT color=#333333&gt; 했다고 합니다.&lt;br /&gt;&lt;br /&gt;일단 차분하게 대처하기 위해서 현수막을 임시로 철거를 해두고 여기 저기 알아보고 있는 중입니다. 이런 현수막 거는게 아파트 관리소장에게 '강제 철거' 운운하는 협박까지 들어야하는 일인지 혹시 아시는 분은 조언을 좀 해주시면 감사하겠습니다. &lt;/FONT&gt;&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-small&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/My%20Notes&quot;&gt;My Notes&lt;/a&gt;&amp;nbsp;&gt;&amp;nbsp;&lt;a href=&quot;/category/My%20Notes/Infos&quot;&gt;Infos&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/263&quot; &gt;청와대에 '쥐매트 골드'(쥐끈끈이)나 보내볼까?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/262&quot; &gt;저는 요즘 날마다 꿈을 꿉니다.&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/259&quot; &gt;광우병 소고기 수입 반대 현수막이 강제 철거 대상인가요?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/258&quot; &gt;베란다에 미친소 수입 반대 현수막 걸면 처벌?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(10)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/257&quot; &gt;수업 시간에 고등학생을 끌어내서 조사?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/256&quot; &gt;무설치(Portable) 프로그램 만드는 가장 쉬운 방법&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>Infos</category>
+			<category>강제철거</category>
+			<category>광우병</category>
+			<category>소고기</category>
+			<category>수입반대</category>
+			<category>현수막</category>
+			<author>2BWithU</author>
+			<guid>http://2bwithu.tistory.com/259</guid>
+			<comments>http://2bwithu.tistory.com/259#entry259comment</comments>
+			<pubDate>Tue, 20 May 2008 18:17:06 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

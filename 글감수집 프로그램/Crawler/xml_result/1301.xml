@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>빠른 맥정보, 매킨토시 이야기</title>
+		<link>http://weenybee.tistory.com/</link>
+		<description>좀 더 멀리서 바라보는 맥 이야기</description>
+		<language>ko</language>
+		<pubDate>Fri, 26 Sep 2014 00:06:23 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>weenybee</managingEditor>
+		<image>
+			<title>빠른 맥정보, 매킨토시 이야기</title>
+			<url>http://cfile4.uf.tistory.com/image/2119463C53BD6F600DAB47</url>
+			<link>http://weenybee.tistory.com</link>
+			<description>좀 더 멀리서 바라보는 맥 이야기</description>
+		</image>
+		<item>
+			<title>요세미티 부팅 디스크 만들기</title>
+			<link>http://weenybee.tistory.com/entry/%EC%9A%94%EC%84%B8%EB%AF%B8%ED%8B%B0-%EB%B6%80%ED%8C%85-%EB%94%94%EC%8A%A4%ED%81%AC-%EB%A7%8C%EB%93%A4%EA%B8%B0</link>
+			<description>&lt;p&gt;요세미티를 클린 인스톨 할 수 있는 방법중&amp;nbsp;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;그래도 가장 간편한 방법이라 메모해둡니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.tekrevue.com/tip/os-x-yosemite-usb-installer-public-beta/&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;http://www.tekrevue.com/tip/os-x-yosemite-usb-installer-public-beta/&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;USB용 8기가 이상의 플래시 메모리가 있어야 하고요.&amp;nbsp;&lt;/p&gt;&lt;p&gt;Yosemite 의 위치가 Applications 폴더 안에 있으면, Step 3의 명령어가 그대로 먹힙니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2030-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2030-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2030-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>기타</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2030</guid>
+			<comments>http://weenybee.tistory.com/entry/%EC%9A%94%EC%84%B8%EB%AF%B8%ED%8B%B0-%EB%B6%80%ED%8C%85-%EB%94%94%EC%8A%A4%ED%81%AC-%EB%A7%8C%EB%93%A4%EA%B8%B0#entry2030comment</comments>
+			<pubDate>Fri, 26 Sep 2014 00:05:51 +0900</pubDate>
+		</item>
+		<item>
+			<title>소비자의 마음을 잘 아는 아마존 킨들</title>
+			<link>http://weenybee.tistory.com/entry/%EC%86%8C%EB%B9%84%EC%9E%90%EC%9D%98-%EB%A7%88%EC%9D%8C%EC%9D%84-%EC%9E%98-%EC%95%84%EB%8A%94-%EC%95%84%EB%A7%88%EC%A1%B4-%ED%82%A8%EB%93%A4</link>
+			<description>&lt;p&gt;새로 킨들 라인업 발표.&lt;/p&gt;&lt;p&gt;파이어 HD, 99불&lt;/p&gt;&lt;p&gt;파이어 HD 애들 버전, 149불 (2년동안 깨먹으면 묻지도 따지지도 않고 무상 교체)&lt;/p&gt;&lt;p&gt;파이어 HD &amp;nbsp;8.9, 379달러.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;흑백킨들 79달러,&lt;/p&gt;&lt;p&gt;킨들 Voyage, 199달러.&lt;/p&gt;&lt;p&gt;둘다 6인치, Voyage는 300ppi, 자동 밝기 조절. 손쉬운 페이지 넘김 지원. (잡고 있는 베젤을 누르면 휘리릭)&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.amazon.com/&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;http://www.amazon.com/&amp;nbsp;&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2029-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2029-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2029-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>단신뉴스</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2029</guid>
+			<comments>http://weenybee.tistory.com/entry/%EC%86%8C%EB%B9%84%EC%9E%90%EC%9D%98-%EB%A7%88%EC%9D%8C%EC%9D%84-%EC%9E%98-%EC%95%84%EB%8A%94-%EC%95%84%EB%A7%88%EC%A1%B4-%ED%82%A8%EB%93%A4#entry2029comment</comments>
+			<pubDate>Thu, 18 Sep 2014 13:50:26 +0900</pubDate>
+		</item>
+		<item>
+			<title>아이폰 6 플러스도 1기가 메모리일듯.</title>
+			<link>http://weenybee.tistory.com/entry/%EC%95%84%EC%9D%B4%ED%8F%B0-6-%ED%94%8C%EB%9F%AC%EC%8A%A4%EB%8F%84-1%EA%B8%B0%EA%B0%80-%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%9D%BC%EB%93%AF</link>
+			<description>&lt;p&gt;그간 궁금한것중 하나였던 아이폰 플러스도 1기가 메모리로 굳어져 가는 분위기입니다.&lt;br /&gt;출처는 룰리웹&lt;/p&gt;&lt;p&gt;&lt;a class=&quot;tx-link&quot; target=&quot;_blank&quot; href=&quot;http://bbs2.ruliweb.daum.net/gaia/do/ruliweb/default/mobile/55/read?articleId=1512922&amp;amp;bbsId=G003&amp;amp;itemGroupId=2&quot;&gt;http://bbs2.ruliweb.daum.net/gaia/do/ruliweb/default/mobile/55/read?articleId=1512922&amp;amp;bbsId=G003&amp;amp;itemGroupId=2&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2028-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2028-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2028-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2028</guid>
+			<comments>http://weenybee.tistory.com/entry/%EC%95%84%EC%9D%B4%ED%8F%B0-6-%ED%94%8C%EB%9F%AC%EC%8A%A4%EB%8F%84-1%EA%B8%B0%EA%B0%80-%EB%A9%94%EB%AA%A8%EB%A6%AC%EC%9D%BC%EB%93%AF#entry2028comment</comments>
+			<pubDate>Wed, 17 Sep 2014 03:13:43 +0900</pubDate>
+		</item>
+		<item>
+			<title>새 맥북프로 들어온날</title>
+			<link>http://weenybee.tistory.com/entry/%EC%83%88-%EB%A7%A5%EB%B6%81%ED%94%84%EB%A1%9C-%EB%93%A4%EC%96%B4%EC%98%A8%EB%82%A0</link>
+			<description>&lt;div&gt;&lt;p&gt;&lt;span style=&quot;color:#555555;&quot;&gt;제껀 아니고 사모님꺼. 풀스펙 13인치 맥북프로. 그래서 기존 맥북에어 두대, 새 맥북 프로 한대가 마이그레이션을 당했다. &lt;br&gt;기존 고사양 올드 맥북에어 한대속 데이터는 새 맥북프로로 이사. &lt;br&gt;​&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile22.uf.tistory.com/original/275EFF3A5400C86720F2C5&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/275EFF3A5400C86720F2C5&quot; filemime=&quot;image/jpeg&quot; filename=&quot;140829133651.117.jpg&quot; height=&quot;450&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color:#555555;&quot;&gt;&lt;br&gt;그 기존 고사양 올드 맥북에어에 내 저사양 올드 맥북에어 데이타가 이사. &lt;br&gt;그리고 저사양 올드 맥북에어는 아들품으로. &lt;br&gt;&lt;br&gt;이게 하루에 이뤄지니 쉽지가 않네요.  노트북을 대단히 싫어하지만 요즘 맥북프로가 좋네요. &lt;br&gt;&lt;br&gt;​&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile30.uf.tistory.com/original/226FF9335400C85E1897BF&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/226FF9335400C85E1897BF&quot; filemime=&quot;image/jpeg&quot; filename=&quot;140829133515.168.jpg&quot; height=&quot;450&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color:#555555;&quot;&gt;​&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2027-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2027-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2027-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>기타</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2027</guid>
+			<comments>http://weenybee.tistory.com/entry/%EC%83%88-%EB%A7%A5%EB%B6%81%ED%94%84%EB%A1%9C-%EB%93%A4%EC%96%B4%EC%98%A8%EB%82%A0#entry2027comment</comments>
+			<pubDate>Sat, 30 Aug 2014 03:37:28 +0900</pubDate>
+		</item>
+		<item>
+			<title>맥을 잠그는 좀 다른 방법. Sesame 2</title>
+			<link>http://weenybee.tistory.com/entry/%EB%A7%A5%EC%9D%84-%EC%9E%A0%EA%B7%B8%EB%8A%94-%EC%A2%80-%EB%8B%A4%EB%A5%B8-%EB%B0%A9%EB%B2%95-Sesame-2</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Sesame 2는 맥에서 자신이 떨어져 있으면 맥이 스르르 잠겨버리는 솔루션입니다. 기본 그림은 이렇습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;맥에&amp;nbsp;Sesame &amp;nbsp;맥앱을 설치합니다. 그리고, usb 메모리사이즈의 블루투스 기기를 블루투스로 싱크해놓으면 끝입니다. 즉, 가까이 가면 패스워드없이 나의 맥이 언락이 된다고 합니다. 한발 더 나아가 내 패스워드와&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;Sesame가 같이 있어야 열릴수 있도록 할수도 있다고 합니다. 음악을 틀어놓고 어디 갔을때는 잠겨지면서 음악도 mute로 바뀌고 다시 돌아오면 원래 볼륨으로 자동으로 돌아간다고 합니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;일단, PC는 안되고요. 맥도 최신의 맥에 가까운 것들만 지원합니다. 동전사이즈의 배터리를 갈아뀌워야할거 같고요. &amp;nbsp;가격은 50불.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;지원 하드웨어는&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Verdana, sans-serif; font-size: 11px; line-height: 14px; background-color: rgb(252, 252, 252);&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Mac Compatibility:&lt;/span&gt;&lt;/span&gt;&lt;br style=&quot;color: rgb(34, 34, 34); font-family: Arial, Verdana, sans-serif; font-size: 11px; line-height: 14px; background-color: rgb(252, 252, 252);&quot;&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Verdana, sans-serif; font-size: 11pt; line-height: 14px; background-color: rgb(252, 252, 252);&quot;&gt;MacBook Air (Mid-2011, Mid-2012, Mid-2013, Early 2014)&lt;/span&gt;&lt;br style=&quot;color: rgb(34, 34, 34); font-family: Arial, Verdana, sans-serif; font-size: 11px; line-height: 14px; background-color: rgb(252, 252, 252);&quot;&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Verdana, sans-serif; font-size: 11pt; line-height: 14px; background-color: rgb(252, 252, 252);&quot;&gt;MacBook Pro (Mid-2012, Retina 2012, Early 2013, Late 2013)&lt;/span&gt;&lt;br style=&quot;color: rgb(34, 34, 34); font-family: Arial, Verdana, sans-serif; font-size: 11px; line-height: 14px; background-color: rgb(252, 252, 252);&quot;&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Verdana, sans-serif; font-size: 11pt; line-height: 14px; background-color: rgb(252, 252, 252);&quot;&gt;Mac mini (Mid 2011, Late 2012)&lt;/span&gt;&lt;br style=&quot;color: rgb(34, 34, 34); font-family: Arial, Verdana, sans-serif; font-size: 11px; line-height: 14px; background-color: rgb(252, 252, 252);&quot;&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Verdana, sans-serif; font-size: 11pt; line-height: 14px; background-color: rgb(252, 252, 252);&quot;&gt;iMac (Late 2012, Early 2013, Late 2013)&lt;/span&gt;&lt;br style=&quot;color: rgb(34, 34, 34); font-family: Arial, Verdana, sans-serif; font-size: 11px; line-height: 14px; background-color: rgb(252, 252, 252);&quot;&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Verdana, sans-serif; font-size: 11px; line-height: 14px; background-color: rgb(252, 252, 252);&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Mac Pro (Late 2013)&lt;/span&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;br style=&quot;color: rgb(34, 34, 34); font-family: Arial, Verdana, sans-serif; font-size: 11px; line-height: 14px; background-color: rgb(252, 252, 252);&quot;&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Verdana, sans-serif; font-size: 11pt; line-height: 14px; background-color: rgb(252, 252, 252);&quot;&gt;MacOS X 10.9.x&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://atama.io/sesame2&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Atama Sesame 2 Wireless Lock&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile10.uf.tistory.com/original/2521213653EE52D83164AD&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/2521213653EE52D83164AD&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-15 at 1.30.57 PM.png&quot; height=&quot;481&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile1.uf.tistory.com/original/2521593653EE52DA32BFAD&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/2521593653EE52DA32BFAD&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-15 at 1.31.03 PM.png&quot; height=&quot;594&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile6.uf.tistory.com/original/24225A3653EE52E0311B4B&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/24225A3653EE52E0311B4B&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-15 at 1.31.14 PM.png&quot; height=&quot;577&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2026-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2026-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2026-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>악세사리</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2026</guid>
+			<comments>http://weenybee.tistory.com/entry/%EB%A7%A5%EC%9D%84-%EC%9E%A0%EA%B7%B8%EB%8A%94-%EC%A2%80-%EB%8B%A4%EB%A5%B8-%EB%B0%A9%EB%B2%95-Sesame-2#entry2026comment</comments>
+			<pubDate>Sat, 16 Aug 2014 03:35:52 +0900</pubDate>
+		</item>
+		<item>
+			<title>루머 : 태국 정부, 두가지의 애플 아이폰 6 판매 승인</title>
+			<link>http://weenybee.tistory.com/entry/%EB%A3%A8%EB%A8%B8-%ED%83%9C%EA%B5%AD-%EC%A0%95%EB%B6%80-%EB%91%90%EA%B0%80%EC%A7%80%EC%9D%98-%EC%95%A0%ED%94%8C-%EC%95%84%EC%9D%B4%ED%8F%B0-6-%ED%8C%90%EB%A7%A4-%EC%8A%B9%EC%9D%B8</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;태국의 정보통신부 장관이 애플이 곧 발표할 아이폰 6 두 모델에 대한 판매 승인을 해주었다는 얘기가 나왔습니다. 4.7인치, 5.5인치 두 모델로 예상되고요. 태국도 아이폰 6 런칭과 함께 판매에 바로 들어갈 나라로 될 거 같다는 얘기입니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;두가지 모델이 &lt;/span&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;4.7인치, 5.5인치로 얘기가 나오고 있긴한데, 6s/6c로 나오진 않을까 하는 우려도 한번 해봅니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.electronista.com/articles/14/08/13/specifications.still.being.kept.secret/&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Thai government authorizes two iPhone 6 models for sale | Electronista&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2025-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2025-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2025-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>기타</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2025</guid>
+			<comments>http://weenybee.tistory.com/entry/%EB%A3%A8%EB%A8%B8-%ED%83%9C%EA%B5%AD-%EC%A0%95%EB%B6%80-%EB%91%90%EA%B0%80%EC%A7%80%EC%9D%98-%EC%95%A0%ED%94%8C-%EC%95%84%EC%9D%B4%ED%8F%B0-6-%ED%8C%90%EB%A7%A4-%EC%8A%B9%EC%9D%B8#entry2025comment</comments>
+			<pubDate>Thu, 14 Aug 2014 02:41:42 +0900</pubDate>
+		</item>
+		<item>
+			<title>AT&amp;T 아이폰 5s/5c 로 업그레이드할때 4G 아이패드 200불 할인</title>
+			<link>http://weenybee.tistory.com/entry/ATT-%EC%95%84%EC%9D%B4%ED%8F%B0-5s5c-%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C%ED%95%A0%EB%95%8C-4G-%EC%95%84%EC%9D%B4%ED%8C%A8%EB%93%9C-200%EB%B6%88-%ED%95%A0%EC%9D%B8</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;AT&amp;amp;T가 이제 슬슬 제고 정리하나요? 가입자가 5s/5c로 업그레이드할때, 4G 아이패드를 200불 할인해준다고 합니다. 즉, 아이폰 5s/5c로 업그레이드하면서 4G 아이패드를 살 경우입니다. 여기에는 모바일 쉐어 밸류 플랜이나 데이타 플랜 2년짜리 가입을 해야 된다고 합니다. (야, 이게 할인이냐?)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;좀있으면 새 아이폰, 새 아이패드가 나오긴 하지만, 아무래도 가격이 비슷하거나 싸진 않으니 그냥 할인된 걸로 구입을&amp;nbsp;하는 분들도 계시겠네요.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;http://www.electronista.com/articles/14/08/13/carrier.likely.clearing.out.stock.ahead.of.next.gen.hardware/&quot; style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;AT&amp;amp;T offers $200 off 4G iPads with Next upgrades to iPhone 5s and 5c | Electronista&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2024-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2024-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2024-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>단신뉴스</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2024</guid>
+			<comments>http://weenybee.tistory.com/entry/ATT-%EC%95%84%EC%9D%B4%ED%8F%B0-5s5c-%EB%A1%9C-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C%ED%95%A0%EB%95%8C-4G-%EC%95%84%EC%9D%B4%ED%8C%A8%EB%93%9C-200%EB%B6%88-%ED%95%A0%EC%9D%B8#entry2024comment</comments>
+			<pubDate>Thu, 14 Aug 2014 02:36:03 +0900</pubDate>
+		</item>
+		<item>
+			<title>펼치고 접혀지는 아이폰 컨셉</title>
+			<link>http://weenybee.tistory.com/entry/%ED%8E%BC%EC%B9%98%EA%B3%A0-%EC%A0%91%ED%98%80%EC%A7%80%EB%8A%94-%EC%95%84%EC%9D%B4%ED%8F%B0-%EC%BB%A8%EC%85%89</link>
+			<description>&lt;p&gt;&lt;a href=&quot;https://www.behance.net/gallery/9790367/iPhone-A-flat-flexible-concept&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;https://www.behance.net/gallery/9790367/iPhone-A-flat-flexible-concept&lt;/a&gt;&lt;/p&gt;&lt;p&gt;요즘 이런것에 별로 흥미가 없어서 봐도 그냥 넘어갔는데, 요즘 아무래도 때가 때다보니 이런 유머도 옮겨볼까 합니다. 하나의 사이즈로 두번 세번 펴지는 아이폰 컨셉입니다. 4.2인치, 5.8인치, 7,5인치로 쓸수 있다고 합니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;애플에서는 이거 보고 컨셉모델 만들지 궁금하네요. 만들어 보고 에이, 별로네…이럴까요? 우왕 굿 이럴까요?&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile28.uf.tistory.com/original/2233343353EA40483378D6&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/2233343353EA40483378D6&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-12 at 11.26.33 AM.png&quot; height=&quot;831&quot; style=&quot;&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2023-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2023-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2023-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>기타</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2023</guid>
+			<comments>http://weenybee.tistory.com/entry/%ED%8E%BC%EC%B9%98%EA%B3%A0-%EC%A0%91%ED%98%80%EC%A7%80%EB%8A%94-%EC%95%84%EC%9D%B4%ED%8F%B0-%EC%BB%A8%EC%85%89#entry2023comment</comments>
+			<pubDate>Wed, 13 Aug 2014 01:26:59 +0900</pubDate>
+		</item>
+		<item>
+			<title>유투브 관련 이모저모</title>
+			<link>http://weenybee.tistory.com/entry/%EC%9C%A0%ED%88%AC%EB%B8%8C-%EA%B4%80%EB%A0%A8-%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8</link>
+			<description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;유튜브 다운로드 유틸리티.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.alphasoftware.co/#!itubedownloader/cjg9&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;AlphaSoft - iTubeDownloader - The smartest way to download.&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;무료고요. 아마, 군데군데 광고가 보이긴 합니다만, 그리 뭐 신경쓸 정도는 아닙니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;유튜브 뷰어.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;원래 그냥 웹브라우저에서 봤는데, 이젠 좀 광고가 짜증이 납니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;딱 검색해서 원하는 유튜브 비디오만 보고 싶은데,유료로 좋은건 minitube.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://flavio.tordini.org/minitube&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Minitube, YouTube app for Mac, Windows and Linux&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;가격은 10불정도 였던듯.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;광고없이 깨끗하게 유튜브만 볼 수 있습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;무료로 비슷한 효과를 보여주는 거.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Youview UI나 뭐 기능성은 떨어지는데, 그래도 검색해서 딱 유튜브만 볼 수 있는 기능으로 따지면 얘도 좋습니다. 무료. 오래됐지만, 쓸만합니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://mrgeckosmedia.com/applications/info/YouView&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Mr. Gecko's Media - YouView&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;위의 두 앱은 그냥 유투브만 보고 싶을때고요. 댓글도 보고 옆에 목록도 보고 뭐도 보고 뭐도 봐야 하는데, 광고만 빼고 싶다면, adblock plus for safari 등등을 설치하면 됩니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;최근에는 그냥 앱만 띄워두고 원하는 유튜브 비디오 보기에 전 요런 앱들이 좋네요.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;이밖에도 아이폰에서 광고없이 유튜브보고 싶으면, instaTube 좋습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;일전에 무료로 풀렸을때 소개했었는데 지금은 모르겠습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2022-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2022-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2022-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2022</guid>
+			<comments>http://weenybee.tistory.com/entry/%EC%9C%A0%ED%88%AC%EB%B8%8C-%EA%B4%80%EB%A0%A8-%EC%9D%B4%EB%AA%A8%EC%A0%80%EB%AA%A8#entry2022comment</comments>
+			<pubDate>Wed, 13 Aug 2014 01:08:35 +0900</pubDate>
+		</item>
+		<item>
+			<title>메뉴바에서 사운드 소스를 쉽게 바꿀수 있는 유틸리티.</title>
+			<link>http://weenybee.tistory.com/entry/%EB%A9%94%EB%89%B4%EB%B0%94%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%B4%EB%93%9C-%EC%86%8C%EC%8A%A4%EB%A5%BC-%EC%89%BD%EA%B2%8C-%EB%B0%94%EA%BF%80%EC%88%98-%EC%9E%88%EB%8A%94-%EC%9C%A0%ED%8B%B8%EB%A6%AC%ED%8B%B0</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;메뉴바에서 사운드 소스를 쉽게 바꿀수 있는 유틸리티.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;AudioSwitcher 2.25 가격은 1불&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/audioswitcher/id561712678?mt=12&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;https://itunes.apple.com/us/app/audioswitcher/id561712678?mt=12&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;이게 없으면 클릭 preference, 클릭 sound 여기서 사운드 아웃풋 변경.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;이게 있으면 메뉴바에서 사운드 스위처 클릭, 그리고&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;여기서 사운드 아웃풋 변경.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;이것말고도 기능이 참 많습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile6.uf.tistory.com/original/2551B44D53EA2DB73C3DB6&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/2551B44D53EA2DB73C3DB6&quot; filemime=&quot;image/jpeg&quot; filename=&quot;screen800x500.jpg&quot; height=&quot;375&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&amp;nbsp;필요에 의해 구입하고 안까먹을려고 북마크.&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2021-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2021-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2021-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>소프트웨어업데이트</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2021</guid>
+			<comments>http://weenybee.tistory.com/entry/%EB%A9%94%EB%89%B4%EB%B0%94%EC%97%90%EC%84%9C-%EC%82%AC%EC%9A%B4%EB%93%9C-%EC%86%8C%EC%8A%A4%EB%A5%BC-%EC%89%BD%EA%B2%8C-%EB%B0%94%EA%BF%80%EC%88%98-%EC%9E%88%EB%8A%94-%EC%9C%A0%ED%8B%B8%EB%A6%AC%ED%8B%B0#entry2021comment</comments>
+			<pubDate>Wed, 13 Aug 2014 00:49:14 +0900</pubDate>
+		</item>
+		<item>
+			<title>해프닝 | 존그루버, &quot;애플 아이와치 9월에 발표한다&quot; 는건 조크</title>
+			<link>http://weenybee.tistory.com/entry/%ED%95%B4%ED%94%84%EB%8B%9D-%EC%A1%B4%EA%B7%B8%EB%A3%A8%EB%B2%84-%EC%95%A0%ED%94%8C-%EC%95%84%EC%9D%B4%EC%99%80%EC%B9%98-9%EC%9B%94%EC%97%90-%EB%B0%9C%ED%91%9C%ED%95%9C%EB%8B%A4-%EB%8A%94%EA%B1%B4-%EC%A1%B0%ED%81%AC</link>
+			<description>&lt;p&gt;&lt;a href=&quot;http://www.macrumors.com/2014/08/08/apple-iwatch-september-gruber/&quot; style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Apple to Introduce iWatch in September Suggests Apple Journalist John Gruber [Updated] - Mac Rumors&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;다른 뉴스싸이트에서 애플이 다음달 아이와치를 내놓을거라는 뉘앙스의 뉴스가 나왔는데, 원문을 보니, 뭐 그말은 아닌듯 합니다. (그래서 업데이트로 조크였다고...밝혔습니다)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;아래의 기사를 보고 존그루버가 한마디 남겼습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.theverge.com/2014/8/6/5974207/motorola-moto-360-wireless-charging-dock&quot; style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;This is how you'll charge a Moto 360 smartwatch | The Verge&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;동그란 디자인의 모토롤라 스마트 와치에 포인트를 주기 위한 것으로 디자인한 충전 방식은은&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;모토롤라 디자이너가 이런 멍청하고 웃긴 동그란 타이어 디자인의 스마트시계에 관심을 갖게끔 하려고 했는데, 다음달 애플의 스마트와치를 발표한후&amp;nbsp;쉬핑하지 않는다면 &amp;nbsp;이 우스운것을 얻을 수 있는 유일한 방법이라고...&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;이 분 한마디가 뉴스가 되는군요.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2020-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2020-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2020-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>단신뉴스</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2020</guid>
+			<comments>http://weenybee.tistory.com/entry/%ED%95%B4%ED%94%84%EB%8B%9D-%EC%A1%B4%EA%B7%B8%EB%A3%A8%EB%B2%84-%EC%95%A0%ED%94%8C-%EC%95%84%EC%9D%B4%EC%99%80%EC%B9%98-9%EC%9B%94%EC%97%90-%EB%B0%9C%ED%91%9C%ED%95%9C%EB%8B%A4-%EB%8A%94%EA%B1%B4-%EC%A1%B0%ED%81%AC#entry2020comment</comments>
+			<pubDate>Sat, 09 Aug 2014 14:25:11 +0900</pubDate>
+		</item>
+		<item>
+			<title>Flac 플레이어 : pono</title>
+			<link>http://weenybee.tistory.com/entry/Flac-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-pono</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;음악인이 만드는 음악 플레이어라고 해서 봤더니 예전 아이리버 디자인과 비슷한 삼각막대형 Flac 플레이어더군요. 64기가 내장+ 64기가 외장 = 128기가 인거 봐서 반은 뺐다꼈다가 가능한 제품으로 여겨집니다. 아직 나온 제품은 아니고, 내년 초에나 나올거 같다고 합니다. 가격은 400달러에서 1불 모자란 399달러.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;검정색과 노란색으로 나오고, 맥과 윈도우, 리눅스 앱을 제공할 것이라고 하면서 ponoMusic이라고 &amp;nbsp;flac 용 음악 스토어를 따로 열것으로 보입니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;닐영이라고 캐나다 출신 음악 아티스트가 이 회사의 주인입니다. 이미 킥스타터를 통해 알려졌고, 이미 많은 모금이 이뤄졌습니다.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.ponomusic.com/#home&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Pono Music&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.kickstarter.com/projects/1003614822/ponomusic-where-your-soul-rediscovers-music?ref=discovery&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Pono Music - Where Your Soul Rediscovers Music by the PonoMusic Team — Kickstarter&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;차라리 사라져가는 mp3 player들은 flac 플레이어처럼 이쪽으로 많이 넘어갔어야 하는데, 아마도 대중성과 전문성을 고려하면 쉽진 않겠지요. 대중은 음악을 듣는것을 중요로하지 심도 깊은 음악파일이 주는 풍부한 소리는&lt;/span&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&amp;nbsp;고려대상은 아니겠죠.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;이미 한국에서도 아이리버에서 나온 것도 있고, 이것도 나오면 그래도 flac 플레이어들이 하나둘씩 또 살살 나오지 않을까 합니다.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;그나저나, 저 디자인이면 아이리버에서 가만두진 않을것 같은데&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; line-height: 22px;&quot;&gt;…&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile5.uf.tistory.com/original/225F8D3353E52DC31A0628&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/225F8D3353E52DC31A0628&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-08 at 3.05.54 PM.png&quot; height=&quot;398&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile3.uf.tistory.com/original/2262593353E52DC516288A&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/2262593353E52DC516288A&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-08 at 3.06.05 PM.png&quot; height=&quot;335&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2019-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2019-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2019-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>단신뉴스</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2019</guid>
+			<comments>http://weenybee.tistory.com/entry/Flac-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-pono#entry2019comment</comments>
+			<pubDate>Sat, 09 Aug 2014 05:07:01 +0900</pubDate>
+		</item>
+		<item>
+			<title>파인더 관련 두가지 유틸리티</title>
+			<link>http://weenybee.tistory.com/entry/%ED%8C%8C%EC%9D%B8%EB%8D%94-%EA%B4%80%EB%A0%A8-%EB%91%90%EA%B0%80%EC%A7%80-%EC%9C%A0%ED%8B%B8%EB%A6%AC%ED%8B%B0</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;하나는 Files Lite 이건데, 검색하면 잘 안나오는 경향이…&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;그래서 오피셜 홈페이지.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://filesmanager.info/Home.html&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Files for OS X&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;토탈 커멘더스러운 맥용 무료 유틸리티. 파인더 두 윈도우 띄워두고 뭘 해야할 경우 유용합니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;윈도우스러운 테마 잊지 마세요.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile4.uf.tistory.com/original/262B004C53E525712B2477&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/262B004C53E525712B2477&quot; filemime=&quot;image/jpeg&quot; filename=&quot;classic_1280x800.png&quot; height=&quot;375&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile21.uf.tistory.com/original/272A484C53E5258030BC6D&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/272A484C53E5258030BC6D&quot; filemime=&quot;image/jpeg&quot; filename=&quot;modern_1280x800.png&quot; height=&quot;375&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;또 하나는 XtraFinder&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.trankynam.com/xtrafinder/&quot; style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;XtraFinder adds Tabs and features to Mac Finder.&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;맥 파인더에서 기능을 좀더 풍성하게 쓸수 있게 도와주는 유틸리티. 무료.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;탭과 듀얼패널 지원.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;폴더 위치 정리.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;그리고 자잘구레하지만 가끔 쓰는 기능들 포함.&lt;/span&gt;&lt;/p&gt;&lt;pre style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; white-space: pre-wrap; word-wrap: break-word; font-size: 14px; line-height: 19px; font-family: 'Segoe WPC', 'Segoe UI', Helvetica, Arial, 'Arial Unicode MS', sans-serif; color: rgb(102, 102, 102);&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt; &quot;Copy Path&quot;, &quot;Show Hidden Items&quot;, &quot;Hide Desktop&quot;, &quot;Refresh&quot;, &quot;New File&quot;, &quot;Copy to&quot;, &quot;Move to&quot;, &quot;New Terminal Here&quot;, &quot;Make Symbolic Link&quot;, &quot;Contents&quot;, &quot;Attributes&quot;, … .
+&lt;/span&gt;&lt;/pre&gt;&lt;div&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile25.uf.tistory.com/original/23480C3E53E5259722CF28&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/23480C3E53E5259722CF28&quot; filemime=&quot;image/jpeg&quot; filename=&quot;XtraFinderScreenshot1.png&quot; height=&quot;805&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile26.uf.tistory.com/original/2544473E53E52599273ECD&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/2544473E53E52599273ECD&quot; filemime=&quot;image/jpeg&quot; filename=&quot;XtraFinderScreenshot7.png&quot; height=&quot;290&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2018-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2018-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2018-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>소프트웨어업데이트</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2018</guid>
+			<comments>http://weenybee.tistory.com/entry/%ED%8C%8C%EC%9D%B8%EB%8D%94-%EA%B4%80%EB%A0%A8-%EB%91%90%EA%B0%80%EC%A7%80-%EC%9C%A0%ED%8B%B8%EB%A6%AC%ED%8B%B0#entry2018comment</comments>
+			<pubDate>Sat, 09 Aug 2014 04:36:07 +0900</pubDate>
+		</item>
+		<item>
+			<title>유틸리티. Undercover 6.0.1 잃어버린 맥을 찾아라.</title>
+			<link>http://weenybee.tistory.com/entry/%EC%9C%A0%ED%8B%B8%EB%A6%AC%ED%8B%B0-Undercover-601-%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0-%EB%A7%A5%EC%9D%84-%EC%B0%BE%EC%95%84%EB%9D%BC</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;&lt;a href=&quot;http://orbicule.com/undercover/mac/index.php&quot; style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;언더커버&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;언더커버라는 유틸리티가 있습니다. 기본적인 그림은 이렇습니다. 언더커버라는 유틸리티리를 깔면 이 유틸리티 회사인 언더커버 서버에 설치한 맥 고유의 id를 가지고 있게 되어, 계속 트래킹이 된다고 합니다. 도난됐을때, 내 맥의 위치를 알고 싶으면 인터넷으로 도난당한 맥의 위치를 알려준다고 합니다. 이 유틸리티는 도난 맥의 정보를 스크린샷으로 보내주고, 이를 바탕으로 도선생을 잡는데 도움을 준다고 합니다.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;만약, 위치를 찾는데 실패할경우, 언더커버는 플랜 B로 진행을 하게 되는데, 마치 고장난것처럼 작동을 시켜, 도선생은 팔아버리거나 고치려고 시도를 하게끔 만들 수 있다고 합니다. 여기에 언더커버는 새로 맥을 받은 사람에게 이 맥은 도난된 것이라고 알려주고, 빨리 리턴하게끔 안내해준다고 하네요.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;기본적인 건 이런 그림인데, 언더커버를 피할 수 있는 &lt;/span&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&amp;nbsp;그림을 제가 만일&lt;/span&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&amp;nbsp;그린다면요. 맥북을 훔쳐 달아납니다. 와이파이가 잡히지 않을 만한 곳에 가서 포멧을 하던가 하드디스크를 분리합니다. 여의치 않으면 그대로 모든 파트를 분해해 이베이로 팔러 달려갑니다. 아이맥이나 맥북류처럼 카메라가 달려있는 모델이면 이 앱이 유용한데, 맥미니, 맥프로는 일단 카메라가 없어 도선생님&lt;/span&gt;&lt;span style=&quot;font-size: 15px; line-height: 22px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 15px; line-height: 22px;&quot;&gt;얼굴은 볼수 없겠습니다.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile2.uf.tistory.com/original/230AE93953E4F32E22B107&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/230AE93953E4F32E22B107&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-08 at 10.53.37 AM.png&quot; height=&quot;308&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile10.uf.tistory.com/original/2610D73953E4F3301AF2BD&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/2610D73953E4F3301AF2BD&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-08 at 10.54.50 AM.png&quot; height=&quot;382&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 15px; line-height: 22px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;가격은 49불.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2017-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2017-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2017-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>소프트웨어업데이트</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2017</guid>
+			<comments>http://weenybee.tistory.com/entry/%EC%9C%A0%ED%8B%B8%EB%A6%AC%ED%8B%B0-Undercover-601-%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0-%EB%A7%A5%EC%9D%84-%EC%B0%BE%EC%95%84%EB%9D%BC#entry2017comment</comments>
+			<pubDate>Sat, 09 Aug 2014 00:56:49 +0900</pubDate>
+		</item>
+		<item>
+			<title>Wimoweh 맥이 잠드는 걸 도와주는 유틸리티.</title>
+			<link>http://weenybee.tistory.com/entry/Wimoweh-%EB%A7%A5%EC%9D%B4-%EC%9E%A0%EB%93%9C%EB%8A%94-%EA%B1%B8-%EB%8F%84%EC%99%80%EC%A3%BC%EB%8A%94-%EC%9C%A0%ED%8B%B8%EB%A6%AC%ED%8B%B0</link>
+			<description>&lt;p&gt;&lt;a href=&quot;http://www.serialangels.co.uk/index.php/wimoweh/&quot;&gt;Wimoweh&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;가끔 잠자기 기능을 해놔도 잠을 못잘때가 있습니다. 맥이요.&lt;/p&gt;&lt;p&gt;무슨 문제인지 알려주는 유틸리티입니다. 필요할까도 생각을 해봤는데, Activity monitor 대신 가볍게 써도 될거 같긴한데, 그냥 Activity Monitor 써도 될거 같은데…. 무료니까 그냥 쓸까도 생각해보고… 유틸리티 하나로 참 많은 생각을 만들게 합니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile21.uf.tistory.com/original/2656D33653E3B7401ECDA6&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/2656D33653E3B7401ECDA6&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-07 at 12.27.05 PM.png&quot; height=&quot;437&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2011-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2011-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2011-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>소프트웨어업데이트</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2011</guid>
+			<comments>http://weenybee.tistory.com/entry/Wimoweh-%EB%A7%A5%EC%9D%B4-%EC%9E%A0%EB%93%9C%EB%8A%94-%EA%B1%B8-%EB%8F%84%EC%99%80%EC%A3%BC%EB%8A%94-%EC%9C%A0%ED%8B%B8%EB%A6%AC%ED%8B%B0#entry2011comment</comments>
+			<pubDate>Fri, 08 Aug 2014 08:05:08 +0900</pubDate>
+		</item>
+		<item>
+			<title>Drobo mini ssd</title>
+			<link>http://weenybee.tistory.com/entry/Drobo-mini-ssd</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;외장 스토리지 회사 Drobo에서 드로보 미니 ssd를 발표했습니다. &amp;nbsp; ssd를 4개 설치가 가능하다고 합니다. &amp;nbsp;그 모양이랑 이름때문에 한번더 눈이 가는 회사인데, 특히 ssd는 4개 256기가로 1테라, 혹은 512 4개로 2테라, 1테라 4개로 4테라까지 옵션이 있고요. 가격은 뭐 예상하시듯, 하늘 꼭대기&lt;/span&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;까지 올라갑니다. 썬더볼트나 USB 3.0으로 연결이 됩니다. 가격이 사기라 사기는 싫지만 갖고는 싶습니다.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.drobostore.com/products/drobo-mini&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;http://www.drobostore.com/products/drobo-mini&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile9.uf.tistory.com/original/224A3F3E53E3B2DD02B154&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/224A3F3E53E3B2DD02B154&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-07 at 12.09.40 PM.png&quot; height=&quot;190&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.drobostore.com/products/drobo-mini&quot;&gt;&lt;br /&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile5.uf.tistory.com/original/264A493E53E3B2DE03DC74&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/264A493E53E3B2DE03DC74&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-07 at 12.09.34 PM.png&quot; height=&quot;191&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.drobostore.com/products/drobo-mini&quot;&gt;&lt;br /&gt;&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2008-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2008-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2008-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>악세사리</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2008</guid>
+			<comments>http://weenybee.tistory.com/entry/Drobo-mini-ssd#entry2008comment</comments>
+			<pubDate>Fri, 08 Aug 2014 08:04:39 +0900</pubDate>
+		</item>
+		<item>
+			<title>재미있는 맥 데스크 샷.</title>
+			<link>http://weenybee.tistory.com/entry/%EC%9E%AC%EB%AF%B8%EC%9E%88%EB%8A%94-%EB%A7%A5-%EB%8D%B0%EC%8A%A4%ED%81%AC-%EC%83%B7</link>
+			<description>&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile22.uf.tistory.com/original/247AAF3653E3C07A14AF0D&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/247AAF3653E3C07A14AF0D&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Workspace_Nahla-897x1024.png&quot; height=&quot;685&quot; style=&quot;&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;만지면 물린다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dribbble.com/shots/1523686-My-Home-Workspace?1398355204&quot; style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;Dribbble - My Home Workspace by Zach Roszczewski&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2016-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2016-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2016-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>기타</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2016</guid>
+			<comments>http://weenybee.tistory.com/entry/%EC%9E%AC%EB%AF%B8%EC%9E%88%EB%8A%94-%EB%A7%A5-%EB%8D%B0%EC%8A%A4%ED%81%AC-%EC%83%B7#entry2016comment</comments>
+			<pubDate>Thu, 07 Aug 2014 21:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>네이버에 blog.naver.com/weenybee 를 살려주세요.</title>
+			<link>http://weenybee.tistory.com/entry/%EB%84%A4%EC%9D%B4%EB%B2%84%EC%97%90-blognavercomweenybee-%EB%A5%BC-%EC%82%B4%EB%A0%A4%EC%A3%BC%EC%84%B8%EC%9A%94</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;네이버에 blog.naver.com/weenybee를 만들어두고 쓰질 못하고 있습니다. 예전에 동일 아이디를 쓰고 싶어서 만들어둔건데, 비실명으로 만들어 두고 패스워드를 까먹어 그냥 유령 블로그가 되었습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;혹, 네이버 분 계시면 살려줄 방법좀 알려주세요. &amp;nbsp;weenybee@gmail.com으로 연락 바랍니다. 아이디 weenybee이고, 이메일 주소는 weenybee@gmail.com으로 되어 있습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;패스워드 리셋을 하고 싶어도 못하고 있어요.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 15px; line-height: 22px;&quot;&gt;&quot;난감하네~~~.&quot;&lt;/span&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2015-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2015-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2015-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>기타</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2015</guid>
+			<comments>http://weenybee.tistory.com/entry/%EB%84%A4%EC%9D%B4%EB%B2%84%EC%97%90-blognavercomweenybee-%EB%A5%BC-%EC%82%B4%EB%A0%A4%EC%A3%BC%EC%84%B8%EC%9A%94#entry2015comment</comments>
+			<pubDate>Thu, 07 Aug 2014 21:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>내년 2015 WWDC는 6월 8일-12일.</title>
+			<link>http://weenybee.tistory.com/entry/%EB%82%B4%EB%85%84-2015-WWDC%EB%8A%94-6%EC%9B%94-8%EC%9D%BC12%EC%9D%BC</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;이건 뭐 허를 찌르는 정보입니다. 애플이 매년 WWDC는 언제 열린다고 얘기를 보통 하는데, 이번에는 WWDC가 열리는 장소 즉, 모스콘 센터의 스케줄표에 애플의 이벤트가 잡혔습니다. 그래도, 애플 이벤트라고는 안 나오고 &amp;nbsp;Corporate Event라고만 나오는군요. 근데, 이게 매년 이랬다고 합니다.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile30.uf.tistory.com/original/2708123953E3BEC91BBD03&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/2708123953E3BEC91BBD03&quot; filemime=&quot;image/jpeg&quot; filename=&quot;mosconeevent.jpg&quot; height=&quot;138&quot; style=&quot;&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;다른 회사의 이벤트일수도 있는데, 2008년, 2009년, 2010년, 2012년에도 이랬다고 하는군요. 그리고 모스콘 센터의&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;장기 스케줄표에도 2015년까지&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&amp;nbsp;대략 이 기간으로 설정되어 있다고 합니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;며칠며칠이 중요한거 보다는 뭐 내년에도 6월이라는 것은 달라지진 않을것 같습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.macrumors.com/2014/08/06/apple-wwdc-2015-dates/&quot; style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;Moscone Center Schedule Points Towards June 8-12 for 2015 Worldwide Developers Conference&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2014-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2014-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2014-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>단신뉴스</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2014</guid>
+			<comments>http://weenybee.tistory.com/entry/%EB%82%B4%EB%85%84-2015-WWDC%EB%8A%94-6%EC%9B%94-8%EC%9D%BC12%EC%9D%BC#entry2014comment</comments>
+			<pubDate>Thu, 07 Aug 2014 21:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>애플, 매버릭스 10.9.5 빌드 13F12 개발자에게 배포</title>
+			<link>http://weenybee.tistory.com/entry/%EC%95%A0%ED%94%8C-%EB%A7%A4%EB%B2%84%EB%A6%AD%EC%8A%A4-1095-%EB%B9%8C%EB%93%9C-13F12-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%97%90%EA%B2%8C-%EB%B0%B0%ED%8F%AC</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;한달전 10.9.4가 공식 베포되고 첫 10.9.5 베타가 지난주 나오고, 이번에 빌드넘버가 올라간 버전이 개발자들에게 배포되었다는 소식입니다. 요세미티팀은 새로운거 다듬느라 고생하고, 메버릭스팀은 끝물 버그 다듬느라 고생하고 있었군요. 이번 버전도 안정성, 버그 수정 등이 이뤄진것으로 보이고, USB, USB 스마트 카드, 그래픽, 사파리 썬더볼트 관련 마이너 업데이트로&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;예상하고 있습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;개인적으로 맥프로를 쓰고 있는데, 썬더볼트 모니터와 궁합이 잘 안 맞아서 잠자기때 전원은 들어오고 스크린이 안들어오는 기현상을 봐왔습니다. 이런류들이 고쳐져도 조만간 요세미티로 갈거라 그냥 참고 쓰고 있습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://9to5mac.com/2014/08/07/apple-seeds-os-x-mavericks-10-9-5-build-13f12-to-developers/&quot;&gt;Apple seeds OS X Mavericks 10.9.5 build 13F12 to developers | 9to5Mac&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile28.uf.tistory.com/original/2617F04653E3BD1A05AB51&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/2617F04653E3BD1A05AB51&quot; filemime=&quot;image/jpeg&quot; filename=&quot;screenshot-2014-08-07-10-15-37.png&quot; height=&quot;159&quot; style=&quot;&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2013-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2013-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2013-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>소프트웨어업데이트</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2013</guid>
+			<comments>http://weenybee.tistory.com/entry/%EC%95%A0%ED%94%8C-%EB%A7%A4%EB%B2%84%EB%A6%AD%EC%8A%A4-1095-%EB%B9%8C%EB%93%9C-13F12-%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%97%90%EA%B2%8C-%EB%B0%B0%ED%8F%AC#entry2013comment</comments>
+			<pubDate>Thu, 07 Aug 2014 21:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>그려서 소프트웨어를  디자인해주는 PaintCode</title>
+			<link>http://weenybee.tistory.com/entry/%EA%B7%B8%EB%A0%A4%EC%84%9C-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EB%A5%BC-%EB%94%94%EC%9E%90%EC%9D%B8%ED%95%B4%EC%A3%BC%EB%8A%94-PaintCode</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;이런류들은 간간히 보이긴 하는데요. 얘도 북마크해두고 봐볼 필요가 있다는 생각에 옮겨봅니다. PaintCode의 기본 컨셉은 일러스트레이터 소프트웨어같이 레이아웃을 잡듯이 요소요소를 배치해서 정의하면 제너레이팅을 통해 xcode로 가서 빌드해주면 나오는 거 같습니다. 간단한건 여기서 되고, 보다 디테일이 있는건 Xcode해서 해주면 됩니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile3.uf.tistory.com/original/266E634253E3BA9A1BDB9B&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/266E634253E3BA9A1BDB9B&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-07 at 12.42.28 PM.png&quot; height=&quot;239&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;재미있을거 같은데 가격은 재미가 없습니다. 100불에서 1불뺀 99달러.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;http://www.paintcodeapp.com/&quot; style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;PaintCode&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2012-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2012-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2012-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>소프트웨어업데이트</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2012</guid>
+			<comments>http://weenybee.tistory.com/entry/%EA%B7%B8%EB%A0%A4%EC%84%9C-%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EB%A5%BC-%EB%94%94%EC%9E%90%EC%9D%B8%ED%95%B4%EC%A3%BC%EB%8A%94-PaintCode#entry2012comment</comments>
+			<pubDate>Thu, 07 Aug 2014 21:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>딜: The Icon Bluetooth Speaker</title>
+			<link>http://weenybee.tistory.com/entry/%EB%94%9C-The-Icon-Bluetooth-Speaker</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;100불에 팔던걸 20불에 팔면, 얼마나 안팔렸길래라는 생각을 하게 됩니다. 그래도 원하신다면, 아래의 링크를 확인해보시면 되겠습니다. 싸긴 쌉니다. 아, 소리도 싸면 안되는데…&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;4시간 사용 가능. 스피커폰으로도 사용이 가능하다고 합니다. 마이크 내장. &amp;nbsp;아이폰, 안드로이드폰 지원.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://deals.ilounge.com/sales/the-icon-bluetooth-speaker-wirelessly-play-music-on-your-mobile-device#&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;https://deals.ilounge.com/sales/the-icon-bluetooth-speaker-wirelessly-play-music-on-your-mobile-device#&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile23.uf.tistory.com/original/24236A4553E3B5B428B52D&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/24236A4553E3B5B428B52D&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-07 at 12.21.39 PM.png&quot; height=&quot;371&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2010-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2010-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2010-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>악세사리</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2010</guid>
+			<comments>http://weenybee.tistory.com/entry/%EB%94%9C-The-Icon-Bluetooth-Speaker#entry2010comment</comments>
+			<pubDate>Thu, 07 Aug 2014 21:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>마젤란, 에코핏 스포츠 스마트 시계 발표</title>
+			<link>http://weenybee.tistory.com/entry/%EB%A7%88%EC%A0%A4%EB%9E%80-%EC%97%90%EC%BD%94%ED%95%8F-%EC%8A%A4%ED%8F%AC%EC%B8%A0-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%8B%9C%EA%B3%84-%EB%B0%9C%ED%91%9C</link>
+			<description>&lt;p&gt;삼성을 필두로 스마트와치들이 마구 쏟아질거 같았던 올해, 삼성과 LG만 뜬금없이 고전중입니다. 이 고전중에 마젤란이라는 회사가 에코핏을 발표했습니다. iOS와 호환이 되고, 두가지 모델이 있는데, 150달러와 200달러, 특히 200달러는 심장박동 모니터가 시계에 포함되어 있다고 합니다. &amp;nbsp;설명을 구구절절히 해도 뭐 특별한건 없고요, 워낙 헬스관련이 많다 보니 이젠 그 나물에 그밥이 되어 별로 신선하지도 않습니다.&lt;/p&gt;&lt;p&gt;애플 아이와치도 건강을 이런식으로 풀어간다면 망할듯요.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;특이하게도 코인셀베터리를 쓰고요. 4개월에서 8개월 쓸수 있다고 합니다. 5개월쓸수 있겠군요. 4가지 색상으로 9월에 런칭할 것이라고…&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.magellangps.com/lp/echofit/index.html&quot;&gt;http://www.magellangps.com/lp/echofit/index.html&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile2.uf.tistory.com/original/256F973753E3B4B3280A69&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/256F973753E3B4B3280A69&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-07 at 12.17.17 PM.png&quot; height=&quot;203&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2009-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2009-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2009-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>악세사리</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2009</guid>
+			<comments>http://weenybee.tistory.com/entry/%EB%A7%88%EC%A0%A4%EB%9E%80-%EC%97%90%EC%BD%94%ED%95%8F-%EC%8A%A4%ED%8F%AC%EC%B8%A0-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%8B%9C%EA%B3%84-%EB%B0%9C%ED%91%9C#entry2009comment</comments>
+			<pubDate>Thu, 07 Aug 2014 21:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>애플 TV 채널로 들어간 ABC 뉴스의 첫 한달 사용 결과.</title>
+			<link>http://weenybee.tistory.com/entry/%EC%95%A0%ED%94%8C-TV-%EC%B1%84%EB%84%90%EB%A1%9C-%EB%93%A4%EC%96%B4%EA%B0%84-ABC-%EB%89%B4%EC%8A%A4%EC%9D%98-%EC%B2%AB-%ED%95%9C%EB%8B%AC-%EC%82%AC%EC%9A%A9-%EA%B2%B0%EA%B3%BC</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;유저들중 모바일+데스크탑 사용자보다 더 많은&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;50% 이상이&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;애플 TV로 ABC 뉴스&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;라이브 비디오를 보고 있다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;데스크탑보다 애플 TV로&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;65% 이상 더 많은 시간을&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;&amp;nbsp;ABC 뉴스체널에서&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;보낸다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;애플 TV의 가장 황금시간은 9시 (EDT)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;지역 뉴스를 가장 많이 보는 도시는, San Francisco, LA, New York, 달라스&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;(대략)&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;,시카고&lt;/span&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;(대략). 대도시가 아무래도 많습니다.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;전체 비디오 시청의 20%는 라이브 보는 어카운트.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;이밖에도 몇가지가 더 있는데, 애플 TV용으로 따로 컨텐츠를 준비한것도 있다고 하네요. 오늘밤 한번 봐야겠습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;&lt;/span&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile27.uf.tistory.com/original/2371664053E25E060FA82E&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/2371664053E25E060FA82E&quot; filemime=&quot;image/jpeg&quot; filename=&quot;abc_news_apple_tv_infographic_crop.jpg&quot; height=&quot;435&quot; style=&quot;&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.macrumors.com/2014/08/06/abc-news-apple-tv-usage/&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;ABC News' New Apple TV Channel Showing Strong Live Video Usage - Mac Rumors&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://cdn.macrumors.com/article-new/2014/08/abc_news_apple_tv_infographic.jpg&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;abc_news_apple_tv_infographic.jpg 700×1,355 pixels&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2007-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2007-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2007-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>단신뉴스</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2007</guid>
+			<comments>http://weenybee.tistory.com/entry/%EC%95%A0%ED%94%8C-TV-%EC%B1%84%EB%84%90%EB%A1%9C-%EB%93%A4%EC%96%B4%EA%B0%84-ABC-%EB%89%B4%EC%8A%A4%EC%9D%98-%EC%B2%AB-%ED%95%9C%EB%8B%AC-%EC%82%AC%EC%9A%A9-%EA%B2%B0%EA%B3%BC#entry2007comment</comments>
+			<pubDate>Thu, 07 Aug 2014 08:06:44 +0900</pubDate>
+		</item>
+		<item>
+			<title>휴대폰 베터리로 쓰다가 자동차 점프스타터로 쓸수 있는 JUNOJUMPR</title>
+			<link>http://weenybee.tistory.com/entry/%ED%9C%B4%EB%8C%80%ED%8F%B0-%EB%B2%A0%ED%84%B0%EB%A6%AC%EB%A1%9C-%EC%93%B0%EB%8B%A4%EA%B0%80-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%A0%90%ED%94%84%EC%8A%A4%ED%83%80%ED%84%B0%EB%A1%9C-%EC%93%B8%EC%88%98-%EC%9E%88%EB%8A%94-JUNOJUMPR</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;이런 이상한 생각을 해본 회사가 있었네요. 평소에는 아이폰 베터리로 차 베터리가 나가 시동만 걸고 싶을때 점프 케이블로 다른 차에서 끌어오던가 베터리 갈던가 해야하는데, 이 아이폰 외장 베터리가 그 역활을 해준다고 합니다. 몇년에 한번 쓸까말까한 기능인데, 딱 그때 쓰시면 됩니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;근데, 그날따라 집에 두고 나오셨다고요? 그럼 뭐 꽝이죠.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;가격은 99달러.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;용량은 6,000mAh&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;자동차 충전 케이블 포함.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;아, 차에다 아예 예를 두고 다니면 되겠네요. 베터리로 쓰지말고…&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 1.5;&quot;&gt;&lt;a href=&quot;http://junopower.com/collections/junojumpr/products/junojumpr-black-most-portable-jump-starter&quot; style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;JUNOJUMPR - Most Portable Jump Starter | Juno Power&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile9.uf.tistory.com/original/2364DA4053E25A2F181EDD&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/2364DA4053E25A2F181EDD&quot; filemime=&quot;image/jpeg&quot; filename=&quot;JUMPR-HTC-One.jpg&quot; height=&quot;278&quot; style=&quot;&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile21.uf.tistory.com/original/2761D34053E25A321DB2CE&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/2761D34053E25A321DB2CE&quot; filemime=&quot;image/jpeg&quot; filename=&quot;JUMPR-car3.jpg&quot; height=&quot;278&quot; style=&quot;&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2006-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2006-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2006-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>악세사리</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2006</guid>
+			<comments>http://weenybee.tistory.com/entry/%ED%9C%B4%EB%8C%80%ED%8F%B0-%EB%B2%A0%ED%84%B0%EB%A6%AC%EB%A1%9C-%EC%93%B0%EB%8B%A4%EA%B0%80-%EC%9E%90%EB%8F%99%EC%B0%A8-%EC%A0%90%ED%94%84%EC%8A%A4%ED%83%80%ED%84%B0%EB%A1%9C-%EC%93%B8%EC%88%98-%EC%9E%88%EB%8A%94-JUNOJUMPR#entry2006comment</comments>
+			<pubDate>Thu, 07 Aug 2014 08:06:25 +0900</pubDate>
+		</item>
+		<item>
+			<title>딜: PhoneSuit Elite Battery Case</title>
+			<link>http://weenybee.tistory.com/entry/%EB%94%9C-PhoneSuit-Elite-Battery-Case</link>
+			<description>&lt;p&gt;요즘 참 관심이 카테고리중 하나가 베터리팩인데, 맥북에어부터 아이폰 아이패드까지 모두 베터리팩을 장만&amp;nbsp;하고 보니, 따로 가지고 다니기 귀찮습니다. 그래서 아이폰 케이스겸 베터리 팩이었으면 좋겠다는 생각으로 계속 보고는 있습니다만, 아이폰 6가 나오는 마당에 덜컥 사기 좀 그렇습니다. 사기 당하는 기분이라…&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;그래도, iLoungeDeals를 이용하면 90불짜리 베터리 케이스를 60불에 판다고 합니다. 33%로 할인이라고 하네요. 사고는 싶은데, 기변을 준비해야 하기에 북마크만 해뒀습니다. 혹시 못 바꾸게 되면 살려고요.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;아니다 사놓고 나중에 필요하면 쓸까도 생각은 해봐야겠습니다. 가볍고 얇고, 2100mAh용량의 베터리라 아이폰 하나를 다 쓰고도 그대로 꽉꽉 채울수 있는 용량입니다. 딱 두배 좀 이상으로 쓴다고 보시면 되겠습니다.&amp;nbsp;&lt;/p&gt;&lt;p&gt;그러고 보니, 아이폰 6에 들어갈지도 모른다는 비슷한 용량입니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile10.uf.tistory.com/original/2307593453E2549B0EDE29&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/2307593453E2549B0EDE29&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-06 at 11.13.07 AM.png&quot; height=&quot;446&quot; style=&quot;&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://deals.ilounge.com/sales/phonesuit-elite-battery-case-the-ultra-thin-case-that-delivers-2-days-of-life&quot;&gt;PhoneSuit Elite Battery Case: The Ultra-Thin Case That Delivers 2 Days Of Life | iLounge Deals&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2005-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2005-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2005-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>악세사리</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2005</guid>
+			<comments>http://weenybee.tistory.com/entry/%EB%94%9C-PhoneSuit-Elite-Battery-Case#entry2005comment</comments>
+			<pubDate>Thu, 07 Aug 2014 08:04:52 +0900</pubDate>
+		</item>
+		<item>
+			<title>무료 아이폰/아이패드 앱</title>
+			<link>http://weenybee.tistory.com/entry/%EB%AC%B4%EB%A3%8C-%EC%95%84%EC%9D%B4%ED%8F%B0%EC%95%84%EC%9D%B4%ED%8C%A8%EB%93%9C-%EC%95%B1</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt; line-height: 22px;&quot;&gt;인앱구매는 추가안했고, 제한적인 무료(오늘 하루만)도 있을 수 있습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 15px; line-height: 22px;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;아이폰 아이패드 앱&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/id887339711?mt=8&quot; style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;OPlayer Pro - The best video and music media player on the App Store on iTunes&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/id660783298?mt=8&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;The Island: Castaway 2® HD (Full) on the App Store on iTunes&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/id741224942?mt=8&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Dr. Panda's Home on the App Store on iTunes&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/id601171302?mt=8&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Instatube - Best Player for YouTube, Vimeo &amp;amp; Dailymotion on the App Store on iTunes&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/id671844532?mt=8&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;WriteRight: enjoy writing on the App Store on iTunes&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/id873639935?mt=8&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Notifyr - Receive iOS notifications on your Mac on the App Store on iTunes&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/id842906460?mt=8&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Timeful - Smart Calendar and To-Do List for Google Calendar, Exchange, and iCal on the App Store on iTunes&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/id845038867?mt=8&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;AVPlayer Plus Pro - VLC alternatives, Watch everything &amp;amp; Go anywhere on the App Store on iTunes&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;무료 맥앱&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/id518276207?mt=12&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Mac App Store - Magic Farm: Ultimate Flower&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/id834975771?mt=12&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Mac App Store - The Island: Castaway® 2 (Full)&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/id417976220?mt=12&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Mac App Store - Freeway Express AS&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/id874804012?mt=12&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Mac App Store - Webshot - Snapshot for full webpage&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2004-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2004-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2004-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>소프트웨어업데이트</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2004</guid>
+			<comments>http://weenybee.tistory.com/entry/%EB%AC%B4%EB%A3%8C-%EC%95%84%EC%9D%B4%ED%8F%B0%EC%95%84%EC%9D%B4%ED%8C%A8%EB%93%9C-%EC%95%B1#entry2004comment</comments>
+			<pubDate>Thu, 07 Aug 2014 08:04:31 +0900</pubDate>
+		</item>
+		<item>
+			<title>4.7인치 아이폰6, 2100 mAh  베터리 장착 루머</title>
+			<link>http://weenybee.tistory.com/entry/47%EC%9D%B8%EC%B9%98-%EC%95%84%EC%9D%B4%ED%8F%B06-2100-mAh-%EB%B2%A0%ED%84%B0%EB%A6%AC-%EC%9E%A5%EC%B0%A9-%EB%A3%A8%EB%A8%B8</link>
+			<description>&lt;p&gt;중국의 한 분석가가 9월 9일 발표할 차세대 4.7인치 아이폰 6는 2100mA베터리가 장착될 것이라고 의견을 내놨습니다. 현재 다른 안드로이드 스마트폰에&amp;nbsp;비하면 아직도 베터리 용량 자체는 좀 작지만, 아무래도 소프트웨어로 매꾸는 방식을 취하는 애플이라 기존 베터리타임을 계속 유지할 것으로 보입니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;이 분석가가 최근 아이폰 6에 대한 루머나 아이와치에 대한 루머를 많이 생산했는데, 다른 루머들은 좀 신빙성이 떨어져 보입니다.&lt;/p&gt;&lt;p&gt;이전 아이폰 6 베터리 루머는 1,810mAh이고, 현재 우리가 쓰는 아이폰 5s는 1,560mAh입니다.&lt;/p&gt;&lt;p&gt;정말 야금야금 업데이트하는군요. 3000mAh될려면 한 몇년은 더 기다려야 할것으로 보입니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.gforgames.com/gadgets/iphone-6-2100-mah-battery-44692/&quot;&gt;The 4.7-inch iPhone 6 To Feature A 2100mAh Battery?&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2003-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2003-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2003-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>기타</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2003</guid>
+			<comments>http://weenybee.tistory.com/entry/47%EC%9D%B8%EC%B9%98-%EC%95%84%EC%9D%B4%ED%8F%B06-2100-mAh-%EB%B2%A0%ED%84%B0%EB%A6%AC-%EC%9E%A5%EC%B0%A9-%EB%A3%A8%EB%A8%B8#entry2003comment</comments>
+			<pubDate>Thu, 07 Aug 2014 08:04:09 +0900</pubDate>
+		</item>
+		<item>
+			<title>페블, 블루, 핑크, 그린 컬러 리미티드 에디션 스마트 시계 발표</title>
+			<link>http://weenybee.tistory.com/entry/%ED%8E%98%EB%B8%94-%EB%B8%94%EB%A3%A8-%ED%95%91%ED%81%AC-%EA%B7%B8%EB%A6%B0-%EC%BB%AC%EB%9F%AC-%EB%A6%AC%EB%AF%B8%ED%8B%B0%EB%93%9C-%EC%97%90%EB%94%94%EC%85%98-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%8B%9C%EA%B3%84-%EB%B0%9C%ED%91%9C</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;150불이고요. &amp;nbsp;3가지 컬러로 나왔습니다. &amp;nbsp;시계 고유의 기능인 사용시간, 밖에서도 보기 편한 액정을 생각하면 하나 갖고 싶은데요. UI나 흑백액정이라 뭔가 좀 언발란스해보이는거라 조심스럽습니다. 150불에 저걸사느니 흠… 그냥 일반 시계 사는게…. 뭔가 액정에 표시되는게 장난감같기도 하고요.&lt;/span&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;자식한테 한번 물어는 봐야겠습니다. 원하면 사주고 구경해보게요.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile30.uf.tistory.com/original/253B9A3A53E120DF2357BB&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/253B9A3A53E120DF2357BB&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-05 at 1.22.07 PM.png&quot; height=&quot;280&quot; style=&quot;&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;&lt;/span&gt;&lt;a href=&quot;https://getpebble.com/freshhotfly&quot; style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;Pebble Smartwatch | Smartwatch for iPhone &amp;amp; Android&lt;/a&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2002-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2002-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2002-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>단신뉴스</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2002</guid>
+			<comments>http://weenybee.tistory.com/entry/%ED%8E%98%EB%B8%94-%EB%B8%94%EB%A3%A8-%ED%95%91%ED%81%AC-%EA%B7%B8%EB%A6%B0-%EC%BB%AC%EB%9F%AC-%EB%A6%AC%EB%AF%B8%ED%8B%B0%EB%93%9C-%EC%97%90%EB%94%94%EC%85%98-%EC%8A%A4%EB%A7%88%ED%8A%B8-%EC%8B%9C%EA%B3%84-%EB%B0%9C%ED%91%9C#entry2002comment</comments>
+			<pubDate>Wed, 06 Aug 2014 08:04:11 +0900</pubDate>
+		</item>
+		<item>
+			<title>애플, 9월 9일 아이폰 이벤트 발표 예정</title>
+			<link>http://weenybee.tistory.com/entry/%EC%95%A0%ED%94%8C-9%EC%9B%94-9%EC%9D%BC-%EC%95%84%EC%9D%B4%ED%8F%B0-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B0%9C%ED%91%9C-%EC%98%88%EC%A0%95</link>
+			<description>&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile28.uf.tistory.com/original/233A8A3A53E11E7B1F2D21&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/233A8A3A53E11E7B1F2D21&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Screen Shot 2014-08-05 at 1.11.37 PM.png&quot; height=&quot;227&quot; style=&quot;&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;애플이 9월 9일 화요일 아이폰 6를 발표하는 이벤트를 연다고 합니다. 이젠 애플 제품은 그냥 가을이군요. Re/Code에서 나온 얘기고요. 애플은 전통적으로 이 즈음 이벤트를 열였었다고 합니다. 이제 9월은 아이폰의 달이 되겠습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://recode.net/2014/08/05/codered-apple-to-hold-iphone-event-on-sept-9/&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;Apple to Hold iPhone Event on Sept. 9 | Re/code&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;그래서 확인해봤습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;이전 아이폰들은 언제 발표했었는지요.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;아이폰 1 : &lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;2007년 6월 29일&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;아이폰3G: &lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;2008&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;년 7월 11일&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;아이폰3GS: &lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;2009년 6월 19일&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;아이폰4: &lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;2010년 6월 24일&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;아이폰4S:&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;2011년 10월 14일&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;아이폰5:&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;2012년 9월 21일&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;아이폰5C,5S:&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;2013년 9월 20일&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/IPhone&quot;&gt;&lt;span style=&quot;font-size: 11pt;&quot;&gt;iPhone - Wikipedia, the free encyclopedia&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;이렇게 여름에 발표하다가 늦어져서 자꾸 가을로 밀리는 걸 볼수 있습니다. 따라서, 몇년 후에는 겨울에 나올것이고요. 그리고, 더 지나면 봄에도 나올수 있겠습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;그리고, 이번 9월 9일 발표후에 아이폰 6는 고객들에게 열흘뒤인 19일부터 판매가 될것으로 보인다고 합니다. (애플이 좋아하는 금토일입니다)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 11pt; font-family: Dotum, 돋움;&quot;&gt;지금까지 알려진 바로는 아이폰 6는 4.7인치로 나올것이고, 더 얇아지고 가벼워 마치 아이팟터치의 무게감을 가질 것으로 보이고요. 프로세서와 카메라가 향상될 것으로 예상됩니다. 제조의 문제로 5.5인치 아이폰 6는 2014년말이나 2015년초에 배송될것이라고 합니다. 즉 3개월, 4개월을 기다려야 할것이라고 합니다. 1년 내내 준비하면서 제조까지 생각을 못했나요? 제품 발표후 3~4개월이면 다른 회사에서 비슷하게 만들어 팔 충분한 시간을 벌어주지 않나 합니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2001-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2001-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2001-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>기타</category>
+			<author>weenybee</author>
+			<guid>http://weenybee.tistory.com/2001</guid>
+			<comments>http://weenybee.tistory.com/entry/%EC%95%A0%ED%94%8C-9%EC%9B%94-9%EC%9D%BC-%EC%95%84%EC%9D%B4%ED%8F%B0-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%B0%9C%ED%91%9C-%EC%98%88%EC%A0%95#entry2001comment</comments>
+			<pubDate>Wed, 06 Aug 2014 08:03:54 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

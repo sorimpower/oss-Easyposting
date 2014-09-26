@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>Weblog Tools Collection</title>
+	
+	<link>http://weblogtoolscollection.com</link>
+	<description>Weblog Tools Blogging Tools Blog</description>
+	<lastBuildDate>Wed, 22 May 2013 18:13:51 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.9.2</generator>
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/weblogtoolscollection/UXMP" /><feedburner:info uri="weblogtoolscollection/uxmp" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><geo:lat>41.626651</geo:lat><geo:long>-83.730472</geo:long><creativeCommons:license>http://creativecommons.org/licenses/by/2.0/</creativeCommons:license><image><link>http://creativecommons.org/licenses/by/2.0/</link><url>http://creativecommons.org/images/public/somerights20.gif</url><title>Some Rights Reserved</title></image><feedburner:feedFlare href="http://add.my.yahoo.com/rss?url=http%3A%2F%2Ffeeds.feedburner.com%2Fweblogtoolscollection%2FUXMP" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare><feedburner:feedFlare href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2Fweblogtoolscollection%2FUXMP" src="http://www.newsgator.com/images/ngsub1.gif">Subscribe with NewsGator</feedburner:feedFlare><feedburner:feedFlare href="http://feeds.my.aol.com/add.jsp?url=http%3A%2F%2Ffeeds.feedburner.com%2Fweblogtoolscollection%2FUXMP" src="http://o.aolcdn.com/favorites.my.aol.com/webmaster/ffclient/webroot/locale/en-US/images/myAOLButtonSmall.gif">Subscribe with My AOL</feedburner:feedFlare><feedburner:feedFlare href="http://www.bloglines.com/sub/http://feeds.feedburner.com/weblogtoolscollection/UXMP" src="http://www.bloglines.com/images/sub_modern11.gif">Subscribe with Bloglines</feedburner:feedFlare><feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeeds.feedburner.com%2Fweblogtoolscollection%2FUXMP" src="http://www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare><feedburner:feedFlare href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeeds.feedburner.com%2Fweblogtoolscollection%2FUXMP" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare><feedburner:feedFlare href="http://www.pageflakes.com/subscribe.aspx?url=http%3A%2F%2Ffeeds.feedburner.com%2Fweblogtoolscollection%2FUXMP" src="http://www.pageflakes.com/ImageFile.ashx?instanceId=Static_4&amp;fileName=ATP_blu_91x17.gif">Subscribe with Pageflakes</feedburner:feedFlare><feedburner:browserFriendly>Thank you for subscribing to our feed. We post new themes, plugins, news and information daily on WordPress, blogging and web design and development.</feedburner:browserFriendly><item>
+		<title>I am taking my leave of Weblog Tools Collection, and thanks for everything!</title>
+		<link>http://feedproxy.google.com/~r/weblogtoolscollection/UXMP/~3/NRKA8GMV-fA/</link>
+		<comments>http://weblogtoolscollection.com/archives/2013/03/31/i-am-taking-my-leave-of-weblog-tools-collection-and-thanks-for-everything/#comments</comments>
+		<pubDate>Sun, 31 Mar 2013 13:41:38 +0000</pubDate>
+		<dc:creator><![CDATA[Mark Ghosh]]></dc:creator>
+				<category><![CDATA[Blogging]]></category>
+
+		<guid isPermaLink="false">http://weblogtoolscollection.com/?p=12845</guid>
+		<description><![CDATA[Not many of the present readers might know me very well, and that in part, is the reason that I have made the decision to transfer WLTC to more willing and presently capable hands. I am a stranger on my blog and the time has come for me to make sure that this blog, its contents and its knowledge are archived and preserved and maybe rejuvenated at a later time. I delved into blogging tools back in 2004 when I started my Masters degree in CS. I wanted some code to mess around with in my free time and everyone was talking about blogging. I looked into a variety of tools, built a small Linux server for myself at home, and installed a few of the tools that were freely available at that time. I had a heck of a time getting a hold of MT (Moveable Type, the most well-known name) and [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Not many of the present readers might know me very well, and that in part, is the reason that I have made the decision to transfer WLTC to more willing and presently capable hands. I am a stranger on my blog and the time has come for me to make sure that this blog, its contents and its knowledge are archived and preserved and maybe rejuvenated at a later time.</p>
+<p>I delved into blogging tools back in 2004 when I started my Masters degree in CS. I wanted some code to mess around with in my free time and everyone was talking about blogging. I looked into a variety of tools, built a small Linux server for myself at home, and installed a few of the tools that were freely available at that time. I had a heck of a time getting a hold of MT (Moveable Type, the most well-known name) and then found b2 by sheer luck. I loved the cool look of Michael&#8217;s blog and the people involved in the tool seemed to be open to comments and replied warmly to my emails and questions. Through the b2 forums I heard about WordPress and proceeded to install it on my own. To my astonishment, it worked without a hitch and I was blogging away in no time. I started looking through the code to understand how it worked and it drew me in every step of the way.</p>
+<p>Within a few months of installing WordPress, I started to take part in the forums and wrote a few plugins and created some &#8220;hacks&#8221; for the tool. I even gained some notoriety with my MT VS WP post and that&#8217;s when the WordPress ecosphere started to look very attractive to me. I did not do this to seek attention, but I was getting a lot of attention and I was loving it. I believe that was when Matt first noticed me and we exchanged some emails and chatted with each other. With every month and with every release of WordPress I was getting more involved. At some point I realized that I could not do it alone and hired a few interested people to help me write posts and the blog started to get popular. I brought on some advertisers to help me offset costs. Matt gave me and my blog the highest honor of being included in the WordPress Planet and that&#8217;s when things really started to happen for this blog. I also started a WordPress Job blog (http://jobs.wordpress.net) which I still curate and I got involved in WordPress evangelism. Somewhere within this time, Matt had asked me to work for him at the new company he was starting and I had to turn him down because of visa restrictions and because I wanted to finish school (I kick myself every time I think about that).</p>
+<p>WordPress started to mature and WordCamps started to happen. I graduated from school with a Master&#8217;s Degree in Computer Science and found a job. I wanted to stay involved but it was getting bigger than I could handle. I could either dive in and get into WordPress and the blogging world, or I could focus on my job, career and family. I decided to choose the latter. I still wanted to loosely be involved with WordPress and things went well for a couple of years with me being casually involved. I even visited and spoke at a couple of WordCamps.</p>
+<p>When my son Lucien was born, all my time and attention was exhausted on him. I could not spend any time with WordPress or blogging at all. In addition to my growing family, I was diagnosed with a serious health condition just as I was starting a new job and moving to a new city. Needless to say, the blog was the last thing on my mind. James, who has been the sole author and curator for a long time, was my winning hand and just a fantastic helper and well wisher. He has kept things running for a long time and I have had no complaints.</p>
+<p>But I have found very little time to come back and spend with my old friends, Weblog Tools Collection and WordPress. I do not want this blog&#8217;s content and conversations to be lost or forgotten because of my neglect. I am hoping this move will help it live on as an archive, or find new lifeblood in another form. I know that it is in the right hands.</p>
+<p>So Adios and Gracias. I hope to see you in another blog, and take part in another conversation with you someday. It has been a wonderful journey and I appreciate everything that has taken place because of WordPress and every bit of help and encouragement that has been provided to me by so many of you. So thank to my wonderful audience of many years, thanks to my advertisers, thanks to my authors and finally thanks to Matt and to WordPress for making my life so much more fulfilling and successful.</p>
+<p>Peace on Earth, Goodwill to All, And to All a Goodnight!</p>
+<img src="http://feeds.feedburner.com/~r/weblogtoolscollection/UXMP/~4/NRKA8GMV-fA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://weblogtoolscollection.com/archives/2013/03/31/i-am-taking-my-leave-of-weblog-tools-collection-and-thanks-for-everything/feed/</wfw:commentRss>
+		<slash:comments>27</slash:comments>
+		<feedburner:origLink>http://weblogtoolscollection.com/archives/2013/03/31/i-am-taking-my-leave-of-weblog-tools-collection-and-thanks-for-everything/</feedburner:origLink></item>
+		<item>
+		<title>Where to Find WordPress News</title>
+		<link>http://feedproxy.google.com/~r/weblogtoolscollection/UXMP/~3/ah3QRPNnlhs/</link>
+		<comments>http://weblogtoolscollection.com/archives/2013/03/30/where-to-find-wordpress-news/#comments</comments>
+		<pubDate>Sun, 31 Mar 2013 00:05:06 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+				<category><![CDATA[LinkyLoo]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[WordPress News]]></category>
+		<category><![CDATA[curated news]]></category>
+		<category><![CDATA[curation]]></category>
+		<category><![CDATA[official news]]></category>
+
+		<guid isPermaLink="false">http://weblogtoolscollection.com/?p=12846</guid>
+		<description><![CDATA[The landscape of news has changed so much over the last few years that news about a particular topic or platform is readily available to anyone within an instant. With WordPress, I imagine that could be one of the perks of powering over 16% of the web, but it&#8217;s true that news is becoming incredibly accessible. In short, news is everywhere. Speaking of WordPress in general, you can of course acquire official direct news from WordPress News, but you can also take a peak behind the curtain and follow news in the making at Make WordPress.org. Though it&#8217;s only specific to the WordPress.com blogging platform, WordPress.com News is also worth watching for WordPress development news, as WordPress.com users often get access to new WordPress features before they&#8217;re released, so you&#8217;ll be able to try new features rather than just read about them. There&#8217;s more news than just direct official news, like I [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>The landscape of news has changed so much over the last few years that news about a particular topic or platform is readily available to anyone within an instant. With <a href="http://wordpress.org">WordPress</a>, I imagine that could be one of the perks of <a href="http://weblogtoolscollection.com/archives/2012/08/08/the-state-of-the-word-in-2012/">powering over 16% of the web</a>, but it&#8217;s true that news is becoming incredibly accessible. In short, news is everywhere.</p>
+<p>Speaking of WordPress in general, you can of course acquire official direct news from <a href="http://wordpress.org/news/">WordPress News</a>, but you can also take a peak behind the curtain and follow news in the making at <a href="http://make.wordpress.org">Make WordPress.org</a>. Though it&#8217;s only specific to the <a href="http://wordpress.com">WordPress.com</a> blogging platform, <a href="http://en.blog.wordpress.com">WordPress.com News</a> is also worth watching for WordPress development news, as WordPress.com users often get access to new WordPress features before they&#8217;re released, so you&#8217;ll be able to try new features rather than just read about them.</p>
+<p>There&#8217;s more news than just direct official news, like I said earlier, it&#8217;s everywhere. You could subscribe to every general news site, every core developer&#8217;s personal blog, every premium theme shop, and every plugin developer, but why not subscribe to a few curated news sources instead? I guess you could call <a href="http://planet.wordpress.org">WordPress Planet</a> the official curated news source, but it&#8217;s really just a collection of all news items from a particular set of curated blogs. For specific news items curated from sources through the entire WordPress community, subscribe to <a href="http://poststat.us">Post Status</a>, and don&#8217;t neglect the power of allowing the folks you follow on <a href="http://twitter.com">Twitter</a>, <a href="http://plus.google.com">Google+</a>, and/or <a href="http://www.facebook.com">Facebook</a> to curate news for you.</p>
+<p>Speaking of the WordPress community, you should <a href="http://codex.wordpress.org/Contributing_to_WordPress">get involved</a> if you aren&#8217;t already. If you don&#8217;t even use WordPress yet, it&#8217;s time to get started <a href="http://codex.wordpress.org/Getting_Started_with_WordPress">with either WordPress.org</a> or <a href="http://learn.wordpress.com/get-started/">with WordPress.com</a>, share your thoughts with the world, and maybe spread some WordPress news on your blog too.</p>
+<p>The news is out there, and it&#8217;s well within your reach. If you can&#8217;t find the news, it&#8217;s time to make your own.</p>
+<img src="http://feeds.feedburner.com/~r/weblogtoolscollection/UXMP/~4/ah3QRPNnlhs" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://weblogtoolscollection.com/archives/2013/03/30/where-to-find-wordpress-news/feed/</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+		<feedburner:origLink>http://weblogtoolscollection.com/archives/2013/03/30/where-to-find-wordpress-news/</feedburner:origLink></item>
+		<item>
+		<title>WordPress Plugin Releases for 3/30</title>
+		<link>http://feedproxy.google.com/~r/weblogtoolscollection/UXMP/~3/-vmyakR-BnA/</link>
+		<comments>http://weblogtoolscollection.com/archives/2013/03/30/wordpress-plugin-releases-for-330-2/#comments</comments>
+		<pubDate>Sat, 30 Mar 2013 14:00:38 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+				<category><![CDATA[WordPress Plugins]]></category>
+		<category><![CDATA[plugins]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://weblogtoolscollection.com/?p=12837</guid>
+		<description><![CDATA[New plugins GC Message Box allows you to highlight your key message(s) in smart ways within articles and blog posts. Simple Social Icons allows you to insert social icons in any widget area. Stick It allows you to stick the navigation menu in any theme to the top of browser window. Updated plugins Jetpack allows you to supercharge your WordPress site with powerful features previously only available to WordPress.com users. Nav Menu Images enables uploading of images for nav menu items on the menu edit screen.]]></description>
+				<content:encoded><![CDATA[<h3>New plugins</h3>
+<p><a href="http://wordpress.org/extend/plugins/gc-message-box/"><strong>GC Message Box</strong></a> allows you to highlight your key message(s) in smart ways within articles and blog posts.</p>
+<p><a href="http://wordpress.org/extend/plugins/simple-social-icons/"><strong>Simple Social Icons</strong></a> allows you to insert social icons in any widget area.</p>
+<p><a href="http://askwebexpert.com/stick-it/"><strong>Stick It</strong></a> allows you to stick the navigation menu in any theme to the top of browser window.</p>
+<h3>Updated plugins</h3>
+<p><a href="http://jetpack.me/"><strong>Jetpack</strong></a> allows you to supercharge your WordPress site with powerful features previously only available to <a href="http://wordpress.com/">WordPress.com</a> users.</p>
+<p><a href="http://blog.milandinic.com/wordpress/plugins/nav-menu-images/"><strong>Nav Menu Images</strong></a> enables uploading of images for nav menu items on the menu edit screen.</p>
+<img src="http://feeds.feedburner.com/~r/weblogtoolscollection/UXMP/~4/-vmyakR-BnA" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://weblogtoolscollection.com/archives/2013/03/30/wordpress-plugin-releases-for-330-2/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://weblogtoolscollection.com/archives/2013/03/30/wordpress-plugin-releases-for-330-2/</feedburner:origLink></item>
+		<item>
+		<title>WordPress Theme Releases for 3/28</title>
+		<link>http://feedproxy.google.com/~r/weblogtoolscollection/UXMP/~3/gKIU6AevNTQ/</link>
+		<comments>http://weblogtoolscollection.com/archives/2013/03/28/wordpress-theme-releases-for-328-3/#comments</comments>
+		<pubDate>Thu, 28 Mar 2013 14:00:13 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+				<category><![CDATA[WordPress Templates WordPress Skins WordPress Themes]]></category>
+		<category><![CDATA[themes]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[wordpress themes]]></category>
+
+		<guid isPermaLink="false">http://weblogtoolscollection.com/?p=12825</guid>
+		<description><![CDATA[AirTime is a subtle and simple theme. FirmaSite is a responsive theme with BuddyPress and bbPress support. Stark Lite is a minimalist and simple theme.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://emptynestthemes.com/2013/03/26/airtime-wordpress-blog-theme"><img class="alignnone size-thumbnail wp-image-12826" alt="screenshot2" src="http://i1.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/screenshot21.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://emptynestthemes.com/2013/03/26/airtime-wordpress-blog-theme/"><strong>AirTime</strong></a> is a subtle and simple theme.</p>
+<p><a href="http://wordpress.org/extend/themes/firmasite"><img class="alignnone size-thumbnail wp-image-12827" alt="screenshot" src="http://i2.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/screenshot6.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://wordpress.org/extend/themes/firmasite"><strong>FirmaSite</strong></a> is a responsive theme with <a href="http://buddypress.org">BuddyPress</a> and <a href="http://bbpress.org">bbPress</a> support.</p>
+<p><a href="http://wordpress.org/extend/themes/stark-lite"><img class="alignnone size-thumbnail wp-image-12828" alt="screenshot-1" src="http://i2.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/screenshot-16.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://wordpress.org/extend/themes/stark-lite"><strong>Stark Lite</strong></a> is a minimalist and simple theme.</p>
+<img src="http://feeds.feedburner.com/~r/weblogtoolscollection/UXMP/~4/gKIU6AevNTQ" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://weblogtoolscollection.com/archives/2013/03/28/wordpress-theme-releases-for-328-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://weblogtoolscollection.com/archives/2013/03/28/wordpress-theme-releases-for-328-3/</feedburner:origLink></item>
+		<item>
+		<title>WordPress Plugin Releases for 3/25</title>
+		<link>http://feedproxy.google.com/~r/weblogtoolscollection/UXMP/~3/J5kgleppg3E/</link>
+		<comments>http://weblogtoolscollection.com/archives/2013/03/25/wordpress-plugin-releases-for-325/#comments</comments>
+		<pubDate>Mon, 25 Mar 2013 18:03:16 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+				<category><![CDATA[WordPress Plugins]]></category>
+		<category><![CDATA[plugins]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://weblogtoolscollection.com/?p=12819</guid>
+		<description><![CDATA[New plugins Easy Watermark automatically adds watermark to images when they are uploaded. Internet Defense League Cat Signal automatically loads either the modal or the banner Cat Signal when there is an active campaign from the Internet Defense League. Updated plugins BFT Autoresponder allows scheduling of automated autoresponder messages and managing a mailing list. Google Analytics Dashboard for WP will display Google Analytics data and statistics inside your Dashboard. WordPress MU Domain Mapping allows users of a WordPress MU site or WordPress 3.0 network to map their blog/site to another domain.]]></description>
+				<content:encoded><![CDATA[<h3>New plugins</h3>
+<p><a href="http://wordpress.org/extend/plugins/easy-watermark/"><strong>Easy Watermark</strong></a> automatically adds watermark to images when they are uploaded.</p>
+<p><a href="http://wordpress.org/extend/plugins/cat-signal/"><strong>Internet Defense League Cat Signal</strong></a> automatically loads either the modal or the banner Cat Signal when there is an active campaign from <a href="http://internetdefenseleague.org">the Internet Defense League</a>.</p>
+<h3>Updated plugins</h3>
+<p><a href="http://calendarscripts.info/autoresponder-wordpress.html"><strong>BFT Autoresponder</strong></a> allows scheduling of automated autoresponder messages and managing a mailing list.</p>
+<p><a href="http://wordpress.org/extend/plugins/google-analytics-dashboard-for-wp/"><strong>Google Analytics Dashboard for WP</strong></a> will display Google Analytics data and statistics inside your Dashboard.</p>
+<p><a href="http://wordpress.org/extend/plugins/wordpress-mu-domain-mapping/"><strong>WordPress MU Domain Mapping</strong></a> allows users of a WordPress MU site or WordPress 3.0 network to map their blog/site to another domain.</p>
+<img src="http://feeds.feedburner.com/~r/weblogtoolscollection/UXMP/~4/J5kgleppg3E" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://weblogtoolscollection.com/archives/2013/03/25/wordpress-plugin-releases-for-325/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://weblogtoolscollection.com/archives/2013/03/25/wordpress-plugin-releases-for-325/</feedburner:origLink></item>
+		<item>
+		<title>WordPress Theme Releases for 3/23</title>
+		<link>http://feedproxy.google.com/~r/weblogtoolscollection/UXMP/~3/RRyaMSkB1LI/</link>
+		<comments>http://weblogtoolscollection.com/archives/2013/03/23/wordpress-theme-releases-for-323-2/#comments</comments>
+		<pubDate>Sat, 23 Mar 2013 14:00:42 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+				<category><![CDATA[WordPress Templates WordPress Skins WordPress Themes]]></category>
+		<category><![CDATA[themes]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[wordpress themes]]></category>
+
+		<guid isPermaLink="false">http://weblogtoolscollection.com/?p=12813</guid>
+		<description><![CDATA[Memori Jingga is a responsive, clean, and simple theme. Rockers is a responsive theme with a clean design. Satu is an elegant single-column responsive theme.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://wordpress.org/extend/themes/memori-jingga"><img class="alignnone size-thumbnail wp-image-12814" alt="screenshot" src="http://i1.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/screenshot5.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://wordpress.org/extend/themes/memori-jingga"><strong>Memori Jingga</strong></a> is a responsive, clean, and simple theme.</p>
+<p><a href="http://wordpress.org/extend/themes/rockers"><img class="alignnone size-thumbnail wp-image-12815" alt="screenshot-1" src="http://i0.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/screenshot-15.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://wordpress.org/extend/themes/rockers"><strong>Rockers</strong></a> is a responsive theme with a clean design.</p>
+<p><a href="http://wordpress.org/extend/themes/satu"><img class="alignnone size-thumbnail wp-image-12816" alt="screenshot-2" src="http://i0.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/screenshot-23.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://wordpress.org/extend/themes/satu"><strong>Satu</strong></a> is an elegant single-column responsive theme.</p>
+<img src="http://feeds.feedburner.com/~r/weblogtoolscollection/UXMP/~4/RRyaMSkB1LI" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://weblogtoolscollection.com/archives/2013/03/23/wordpress-theme-releases-for-323-2/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://weblogtoolscollection.com/archives/2013/03/23/wordpress-theme-releases-for-323-2/</feedburner:origLink></item>
+		<item>
+		<title>WordCamp San Francisco 2013 Dates Announced</title>
+		<link>http://feedproxy.google.com/~r/weblogtoolscollection/UXMP/~3/tdYxbhgsXyo/</link>
+		<comments>http://weblogtoolscollection.com/archives/2013/03/22/wordcamp-san-francisco-2013-dates-announced/#comments</comments>
+		<pubDate>Fri, 22 Mar 2013 22:24:49 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+				<category><![CDATA[wordcamp]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[WordPress News]]></category>
+		<category><![CDATA[wcsf2013]]></category>
+
+		<guid isPermaLink="false">http://weblogtoolscollection.com/?p=12807</guid>
+		<description><![CDATA[The dates have been announced for WordCamp San Francisco 2013, an event which is often heralded as the annual WordPress conference. WordCamp San Francisco 2013 will be held on July 26 and 27 at the Mission Bay Conference Center with a Developer Hack Day on July 28. A list of speakers is not yet available, but they would like you to nominate your favorite past WordCamp speakers. Will you be attending WordCamp San Francisco this year?]]></description>
+				<content:encoded><![CDATA[<p>The dates <a href="http://2013.sf.wordcamp.org/2013/03/22/wordcamp-sf-2013-announcement/">have been announced</a> for <a href="http://2013.sf.wordcamp.org">WordCamp San Francisco 2013</a>, an event which is often heralded as the annual <a href="http://wordpress.org/">WordPress</a> conference.</p>
+<p>WordCamp San Francisco 2013 will be held on July 26 and 27 at <a href="http://goo.gl/maps/rT6ou">the Mission Bay Conference Center</a> with a Developer Hack Day on July 28. A list of speakers is not yet available, but they would like you to <a href="http://wordcampcentral.polldaddy.com/s/best-2012-2013-wordcamp-speakers-so-far">nominate your favorite past WordCamp speakers</a>.</p>
+<p>Will you be attending WordCamp San Francisco this year?</p>
+<img src="http://feeds.feedburner.com/~r/weblogtoolscollection/UXMP/~4/tdYxbhgsXyo" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://weblogtoolscollection.com/archives/2013/03/22/wordcamp-san-francisco-2013-dates-announced/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://weblogtoolscollection.com/archives/2013/03/22/wordcamp-san-francisco-2013-dates-announced/</feedburner:origLink></item>
+		<item>
+		<title>WordPress Plugin Releases for 3/21</title>
+		<link>http://feedproxy.google.com/~r/weblogtoolscollection/UXMP/~3/0LUWJ6dWyoE/</link>
+		<comments>http://weblogtoolscollection.com/archives/2013/03/21/wordpress-plugin-releases-for-321-2/#comments</comments>
+		<pubDate>Thu, 21 Mar 2013 14:00:16 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+				<category><![CDATA[WordPress Plugins]]></category>
+		<category><![CDATA[plugins]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://weblogtoolscollection.com/?p=12802</guid>
+		<description><![CDATA[New plugins Google Adsense Dashboard for WP will display your Google Adsense earnings and related reports inside your Dashboard. Google Analytics Dashboard for WP will display Google Analytics data and statistics inside your Dashboard. Updated plugins Ad Code Manager allows you to manage your ad codes through the WordPress admin in a safe and easy way. BFT Autoresponder allows scheduling of automated autoresponder messages and managing a mailing list. CampTix Event Ticketing is an easy to use and flexible event ticketing plugin.]]></description>
+				<content:encoded><![CDATA[<h3>New plugins</h3>
+<p><a href="http://wordpress.org/extend/plugins/google-adsense-dashboard-for-wp/"><strong>Google Adsense Dashboard for WP</strong></a> will display your Google Adsense earnings and related reports inside your Dashboard.</p>
+<p><a href="http://wordpress.org/extend/plugins/google-analytics-dashboard-for-wp/"><strong>Google Analytics Dashboard for WP</strong></a> will display Google Analytics data and statistics inside your Dashboard.</p>
+<h3>Updated plugins</h3>
+<p><a href="http://wordpress.org/extend/plugins/ad-code-manager/"><strong>Ad Code Manager</strong></a> allows you to manage your ad codes through the WordPress admin in a safe and easy way.</p>
+<p><a href="http://calendarscripts.info/autoresponder-wordpress.html"><strong>BFT Autoresponder</strong></a> allows scheduling of automated autoresponder messages and managing a mailing list.</p>
+<p><a href="http://wordpress.org/extend/plugins/camptix/"><strong>CampTix Event Ticketing</strong></a> is an easy to use and flexible event ticketing plugin.</p>
+<img src="http://feeds.feedburner.com/~r/weblogtoolscollection/UXMP/~4/0LUWJ6dWyoE" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://weblogtoolscollection.com/archives/2013/03/21/wordpress-plugin-releases-for-321-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://weblogtoolscollection.com/archives/2013/03/21/wordpress-plugin-releases-for-321-2/</feedburner:origLink></item>
+		<item>
+		<title>WordPress Theme Releases for 3/19</title>
+		<link>http://feedproxy.google.com/~r/weblogtoolscollection/UXMP/~3/yiyrwU_8gQQ/</link>
+		<comments>http://weblogtoolscollection.com/archives/2013/03/19/wordpress-theme-releases-for-319-2/#comments</comments>
+		<pubDate>Tue, 19 Mar 2013 14:00:17 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+				<category><![CDATA[WordPress Templates WordPress Skins WordPress Themes]]></category>
+		<category><![CDATA[themes]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[wordpress themes]]></category>
+
+		<guid isPermaLink="false">http://weblogtoolscollection.com/?p=12792</guid>
+		<description><![CDATA[Cazuela is a neutral colored theme. Ilisa is a clean and minimal theme that can be easily used as a personal portfolio or a business website. Partition has a light, lively, colorful, yet professional and classic appearance.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://wordpress.org/extend/themes/cazuela"><img class="alignnone size-thumbnail wp-image-12793" alt="screenshot" src="http://i2.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/screenshot4.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://wordpress.org/extend/themes/cazuela"><strong>Cazuela</strong></a> is a neutral colored theme.</p>
+<p><a href="http://wordpress.org/extend/themes/ilisa"><img class="alignnone size-thumbnail wp-image-12795" alt="screenshot-1" src="http://i2.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/screenshot-14.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://wordpress.org/extend/themes/ilisa"><strong>Ilisa</strong></a> is a clean and minimal theme that can be easily used as a personal portfolio or a business website.</p>
+<p><a href="http://emptynestthemes.com/2013/03/18/partition-professional-wordpress-theme/"><img class="alignnone size-thumbnail wp-image-12794" alt="DemoBlog" src="http://i0.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/DemoBlog3.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://emptynestthemes.com/2013/03/18/partition-professional-wordpress-theme/"><strong>Partition</strong></a> has a light, lively, colorful, yet professional and classic appearance.</p>
+<img src="http://feeds.feedburner.com/~r/weblogtoolscollection/UXMP/~4/yiyrwU_8gQQ" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://weblogtoolscollection.com/archives/2013/03/19/wordpress-theme-releases-for-319-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://weblogtoolscollection.com/archives/2013/03/19/wordpress-theme-releases-for-319-2/</feedburner:origLink></item>
+		<item>
+		<title>WordPress Plugin Releases for 3/17</title>
+		<link>http://feedproxy.google.com/~r/weblogtoolscollection/UXMP/~3/iCzrsWmhJSE/</link>
+		<comments>http://weblogtoolscollection.com/archives/2013/03/17/wordpress-plugin-releases-for-317-2/#comments</comments>
+		<pubDate>Sun, 17 Mar 2013 14:00:24 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+				<category><![CDATA[WordPress Plugins]]></category>
+		<category><![CDATA[plugins]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://weblogtoolscollection.com/?p=12787</guid>
+		<description><![CDATA[New plugins Barc Chat provides a simple yet feature rich chat room for your whole community to interact in real-time directly on your site. Get Directions is a flexible and responsive map plugin. Namaste! LMS is a learning management system for WordPress. Pinterest Verify Meta Tag simply inserts the Pinterest meta tag verification code to the correct section of your site. Updated plugins BackWPup allows you to backup your WordPress database, files, and more. Ooyala Video allows you to easily embed videos from the Ooyala Video Platform.]]></description>
+				<content:encoded><![CDATA[<h3>New plugins</h3>
+<p><a href="http://wordpress.org/extend/plugins/barc-chat/"><strong>Barc Chat</strong></a> provides a simple yet feature rich chat room for your whole community to interact in real-time directly on your site.</p>
+<p><a href="http://wordpress.org/extend/plugins/get-directions/"><strong>Get Directions</strong></a> is a flexible and responsive map plugin.</p>
+<p><a href="http://namaste-lms.org/"><strong>Namaste! LMS</strong></a> is a learning management system for WordPress.</p>
+<p><a href="http://tutskid.com/pinterest-verify-meta-tag/"><strong>Pinterest Verify Meta Tag</strong></a> simply inserts the Pinterest meta tag verification code to the correct section of your site.</p>
+<h3>Updated plugins</h3>
+<p><a href="http://wordpress.org/extend/plugins/backwpup/"><strong>BackWPup</strong></a> allows you to backup your WordPress database, files, and more.</p>
+<p><a href="http://wordpress.org/extend/plugins/ooyala-video-browser/"><strong>Ooyala Video</strong></a> allows you to easily embed videos from the Ooyala Video Platform.</p>
+<img src="http://feeds.feedburner.com/~r/weblogtoolscollection/UXMP/~4/iCzrsWmhJSE" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://weblogtoolscollection.com/archives/2013/03/17/wordpress-plugin-releases-for-317-2/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		<feedburner:origLink>http://weblogtoolscollection.com/archives/2013/03/17/wordpress-plugin-releases-for-317-2/</feedburner:origLink></item>
+		<item>
+		<title>WordPress Theme Releases for 3/15</title>
+		<link>http://feedproxy.google.com/~r/weblogtoolscollection/UXMP/~3/lRqztGNTtv8/</link>
+		<comments>http://weblogtoolscollection.com/archives/2013/03/15/wordpress-theme-releases-for-315-2/#comments</comments>
+		<pubDate>Fri, 15 Mar 2013 17:40:38 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+				<category><![CDATA[WordPress Templates WordPress Skins WordPress Themes]]></category>
+		<category><![CDATA[themes]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[wordpress themes]]></category>
+
+		<guid isPermaLink="false">http://weblogtoolscollection.com/?p=12779</guid>
+		<description><![CDATA[Ease is a simple red and white theme. Nomad is an attractive professional, business or blog theme with an unusual, very narrow orientation and design. Sensitive is fully responsive theme using Twitter Bootstrap and a Metro-styled accent. Visual is a dark minimalist theme for displaying photos and images.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://wordpress.org/extend/themes/ease"><img class="alignnone size-thumbnail wp-image-12780" alt="screenshot" src="http://i0.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/screenshot3.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://wordpress.org/extend/themes/ease"><strong>Ease</strong></a> is a simple red and white theme.</p>
+<p><a href="http://emptynestthemes.com/2013/03/14/nomad-wordpress-blog-theme/"><img class="alignnone size-thumbnail wp-image-12783" alt="DemoBlog" src="http://i2.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/DemoBlog2.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://emptynestthemes.com/2013/03/14/nomad-wordpress-blog-theme/"><strong>Nomad</strong></a> is an attractive professional, business or blog theme with an unusual, very narrow orientation and design.</p>
+<p><a href="http://wordpress.org/extend/themes/sensitive"><img class="alignnone size-thumbnail wp-image-12782" alt="screenshot-2" src="http://i2.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/screenshot-22.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://wordpress.org/extend/themes/sensitive"><strong>Sensitive</strong></a> is fully responsive theme using Twitter Bootstrap and a Metro-styled accent.</p>
+<p><a href="http://wordpress.org/extend/themes/visual"><img class="alignnone size-thumbnail wp-image-12781" alt="screenshot-1" src="http://i0.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/screenshot-13.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://wordpress.org/extend/themes/visual"><strong>Visual</strong></a> is a dark minimalist theme for displaying photos and images.</p>
+<img src="http://feeds.feedburner.com/~r/weblogtoolscollection/UXMP/~4/lRqztGNTtv8" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://weblogtoolscollection.com/archives/2013/03/15/wordpress-theme-releases-for-315-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://weblogtoolscollection.com/archives/2013/03/15/wordpress-theme-releases-for-315-2/</feedburner:origLink></item>
+		<item>
+		<title>WordPress 3.6 Release Delayed</title>
+		<link>http://feedproxy.google.com/~r/weblogtoolscollection/UXMP/~3/N8oZD4gd_rM/</link>
+		<comments>http://weblogtoolscollection.com/archives/2013/03/14/wordpress-3-6-release-delayed/#comments</comments>
+		<pubDate>Thu, 14 Mar 2013 14:00:45 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+				<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[WordPress News]]></category>
+		<category><![CDATA[wordpress 3.6]]></category>
+
+		<guid isPermaLink="false">http://weblogtoolscollection.com/?p=12772</guid>
+		<description><![CDATA[The impending release of WordPress 3.6 has been pushed back one more week to April 29. At this time, WordPress 3.6 is not yet feature complete (meaning that all intended new features have not been entirely finished), so the decision was made to push the first beta release back two weeks to March 27 and the final release back one week to April 29. This will allow the team time to focus on finalizing the in-progress new features so that they (and the brave folks who enjoy running beta software) can simply focus on testing and bug fixing rather than polishing up partial features.]]></description>
+				<content:encoded><![CDATA[<p>The impending release of <a href="http://wordpress.org">WordPress</a> 3.6 has been pushed back one more week to April 29.</p>
+<p>At this time, WordPress 3.6 is not yet feature complete (meaning that all intended new features have not been entirely finished), so <a href="http://make.wordpress.org/core/2013/03/13/the-road-to-3-6-beta-1/">the decision was made</a> to push the first beta release back two weeks to March 27 and the final release back one week to April 29. This will allow the team time to focus on finalizing the in-progress new features so that they (and the brave folks who enjoy running beta software) can simply focus on testing and bug fixing rather than polishing up partial features.</p>
+<img src="http://feeds.feedburner.com/~r/weblogtoolscollection/UXMP/~4/N8oZD4gd_rM" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://weblogtoolscollection.com/archives/2013/03/14/wordpress-3-6-release-delayed/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		<feedburner:origLink>http://weblogtoolscollection.com/archives/2013/03/14/wordpress-3-6-release-delayed/</feedburner:origLink></item>
+		<item>
+		<title>WordPress Plugin Releases for 3/13</title>
+		<link>http://feedproxy.google.com/~r/weblogtoolscollection/UXMP/~3/nc1L0kLDbSc/</link>
+		<comments>http://weblogtoolscollection.com/archives/2013/03/13/wordpress-plugin-releases-for-313-2/#comments</comments>
+		<pubDate>Wed, 13 Mar 2013 16:51:04 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+				<category><![CDATA[WordPress Plugins]]></category>
+		<category><![CDATA[plugins]]></category>
+		<category><![CDATA[WordPress]]></category>
+
+		<guid isPermaLink="false">http://weblogtoolscollection.com/?p=12768</guid>
+		<description><![CDATA[New plugins Easy Media Gallery is designed to display portfolios and various media types including gallery sets, single images, google maps, video, audio, and links with ease and elegance. ytlink provides a preview image for embedded YouTube videos. Updated plugins BackWPup allows you to backup your WordPress database, files, and more. Genericon&#8217;d enables easy use of the Genericons icon font set from within WordPress. Icons can be inserted using either HTML or a shortcode. Keyring provides a very hookable, completely customizable framework for connecting your WordPress site to an external service. WP All Import makes it easy to import any XML or CSV file into your WordPress site.]]></description>
+				<content:encoded><![CDATA[<h3>New plugins</h3>
+<p><a href="http://wordpress.org/extend/plugins/easy-media-gallery/"><strong>Easy Media Gallery</strong></a> is designed to display portfolios and various media types including gallery sets, single images, google maps, video, audio, and links with ease and elegance.</p>
+<p><a href="http://wordpress.org/extend/plugins/ytlink/"><strong>ytlink</strong></a> provides a preview image for embedded YouTube videos.</p>
+<h3>Updated plugins</h3>
+<p><a href="http://wordpress.org/extend/plugins/backwpup/"><strong>BackWPup</strong></a> allows you to backup your WordPress database, files, and more.</p>
+<p><a href="http://wordpress.org/extend/plugins/genericond/"><strong>Genericon&#8217;d</strong></a> enables easy use of the <a href="http://genericons.com">Genericons</a> icon font set from within WordPress. Icons can be inserted using either HTML or a shortcode.</p>
+<p><a href="http://wordpress.org/extend/plugins/keyring/"><strong>Keyring</strong></a> provides a very hookable, completely customizable framework for connecting your WordPress site to an external service.</p>
+<p><a href="http://wordpress.org/extend/plugins/wp-all-import/"><strong>WP All Import</strong></a> makes it easy to import any XML or CSV file into your WordPress site.</p>
+<img src="http://feeds.feedburner.com/~r/weblogtoolscollection/UXMP/~4/nc1L0kLDbSc" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://weblogtoolscollection.com/archives/2013/03/13/wordpress-plugin-releases-for-313-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://weblogtoolscollection.com/archives/2013/03/13/wordpress-plugin-releases-for-313-2/</feedburner:origLink></item>
+		<item>
+		<title>Do You Work From Home?</title>
+		<link>http://feedproxy.google.com/~r/weblogtoolscollection/UXMP/~3/x7WcwEeaJQk/</link>
+		<comments>http://weblogtoolscollection.com/archives/2013/03/12/do-you-work-from-home/#comments</comments>
+		<pubDate>Tue, 12 Mar 2013 14:00:46 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+				<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[discussion]]></category>
+		<category><![CDATA[distributed workforce]]></category>
+		<category><![CDATA[working from home]]></category>
+
+		<guid isPermaLink="false">http://weblogtoolscollection.com/?p=12760</guid>
+		<description><![CDATA[There has been a lot of talk lately about working from home and maintaining a distributed workforce. Web-based software, like WordPress, Joomla, and Drupal, are taking over the publishing industry and allow you to work from anywhere with an internet connection. Though, even though they can be managed  from home, working from home and maintaining a distributed workforce is not yet broadly acknowledged in society as a successful and efficient alternative to working in an office. Despite working with software that doesn&#8217;t need to be tied to one specific workstation, you could still find yourself tied to a desk in cubicle. I work full-time for Automattic and have the pleasure of both working from home and setting my own hours. After all, I only need a browser, an email client, and IRC client, and Skype to do my job. A desk is nice, but there&#8217;s no one saying that said desk has to be [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>There has been <a href="http://scottberkun.com/2013/grand-summary-of-posts-on-remote-work-yahoo/">a lot of talk lately</a> about working from home and maintaining a distributed workforce.</p>
+<p>Web-based software, like <a href="http://wordpress.org">WordPress</a>, <a href="http://www.joomla.org">Joomla</a>, and <a href="http://drupal.org">Drupal</a>, are taking over the publishing industry and allow you to work from anywhere with an internet connection. Though, even though they can be managed  from home, working from home and maintaining a distributed workforce is not yet broadly acknowledged in society as a successful and efficient alternative to working in an office. Despite working with software that doesn&#8217;t need to be tied to one specific workstation, you could still find yourself tied to a desk in cubicle.</p>
+<p>I work full-time for <a href="http://automattic.com">Automattic</a> and have the pleasure of both working from home and setting my own hours. After all, I only need a browser, an email client, and IRC client, and <a href="http://www.skype.com/">Skype</a> to do my job. A desk is nice, but there&#8217;s no one saying that said desk has to be in the dark corner of some corporate office. As for communication between the 150 of us (130 who work from home, far away from the central &#8220;office&#8221; in San Francisco), we communicate mostly via a variety of blogs running the <a href="http://p2theme.com">P2 theme</a>. It&#8217;s as close as you can get to a water cooler or a meeting room with text, you should try it. For other communication needs, we use primarily IRC followed by Skype for less work-related chats.</p>
+<p>Do you work from home? And, if you work from home for a larger company (not just yourself), how is communication and overall efficiency maintained?</p>
+<img src="http://feeds.feedburner.com/~r/weblogtoolscollection/UXMP/~4/x7WcwEeaJQk" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://weblogtoolscollection.com/archives/2013/03/12/do-you-work-from-home/feed/</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+		<feedburner:origLink>http://weblogtoolscollection.com/archives/2013/03/12/do-you-work-from-home/</feedburner:origLink></item>
+		<item>
+		<title>WordPress Theme Releases for 3/11</title>
+		<link>http://feedproxy.google.com/~r/weblogtoolscollection/UXMP/~3/VEQ7XOUJdgU/</link>
+		<comments>http://weblogtoolscollection.com/archives/2013/03/11/wordpress-theme-releases-for-311-2/#comments</comments>
+		<pubDate>Mon, 11 Mar 2013 14:00:16 +0000</pubDate>
+		<dc:creator><![CDATA[James]]></dc:creator>
+				<category><![CDATA[WordPress Templates WordPress Skins WordPress Themes]]></category>
+		<category><![CDATA[themes]]></category>
+		<category><![CDATA[WordPress]]></category>
+		<category><![CDATA[wordpress themes]]></category>
+
+		<guid isPermaLink="false">http://weblogtoolscollection.com/?p=12751</guid>
+		<description><![CDATA[Attitude is a simple, clean, and responsive retina-ready theme. Catch Everest is a simple, clean, and responsive theme. Liberus is an ideal business related theme that is relatively simple and would suit any blog or website. Stitch is an elegant, modern theme with optional fixed header.]]></description>
+				<content:encoded><![CDATA[<p><a href="http://wordpress.org/extend/themes/attitude"><img class="alignnone size-thumbnail wp-image-12752" alt="screenshot" src="http://i0.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/screenshot2.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://wordpress.org/extend/themes/attitude"><strong>Attitude</strong></a> is a simple, clean, and responsive retina-ready theme.</p>
+<p><a href="http://wordpress.org/extend/themes/catch-everest"><img class="alignnone size-thumbnail wp-image-12753" alt="screenshot-1" src="http://i0.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/screenshot-12.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://wordpress.org/extend/themes/catch-everest"><strong>Catch Everest</strong></a> is a simple, clean, and responsive theme.</p>
+<p><a href="http://emptynestthemes.com/2013/03/05/liberus-wordpress-business-theme/"><img class="alignnone size-thumbnail wp-image-12755" alt="DemoBlog" src="http://i0.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/DemoBlog1.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://emptynestthemes.com/2013/03/05/liberus-wordpress-business-theme/"><strong>Liberus</strong></a> is an ideal business related theme that is relatively simple and would suit any blog or website.</p>
+<p><a href="http://wordpress.org/extend/themes/stitch"><img class="alignnone size-thumbnail wp-image-12754" alt="screenshot-2" src="http://i2.wp.com/weblogtoolscollection.com/wp-content/uploads/2013/03/screenshot-21.png?resize=150%2C150" data-recalc-dims="1" /></a></p>
+<p><a href="http://wordpress.org/extend/themes/stitch"><strong>Stitch</strong></a> is an elegant, modern theme with optional fixed header.</p>
+<img src="http://feeds.feedburner.com/~r/weblogtoolscollection/UXMP/~4/VEQ7XOUJdgU" height="1" width="1"/>]]></content:encoded>
+			<wfw:commentRss>http://weblogtoolscollection.com/archives/2013/03/11/wordpress-theme-releases-for-311-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://weblogtoolscollection.com/archives/2013/03/11/wordpress-theme-releases-for-311-2/</feedburner:origLink></item>
+	</channel>
+</rss><!-- This Quick Cache file was built for (  weblogtoolscollection.com/feed/ ) in 1.01330 seconds, on Sep 25th, 2014 at 2:55 pm UTC. --><!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Sep 25th, 2014 at 3:55 pm UTC --><!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ --><!-- Quick Cache Is Fully Functional :-) ... A Quick Cache file was just served for (  weblogtoolscollection.com/feed/ ) in 0.00075 seconds, on Sep 25th, 2014 at 3:46 pm UTC. -->

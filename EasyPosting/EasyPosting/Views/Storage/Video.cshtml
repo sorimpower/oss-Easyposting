@@ -1,0 +1,295 @@
+﻿@*@model IEnumerable<EasyPosting.Models.EP_POSTS>*@
+@model PagedList.IPagedList<EasyPosting.Models.EP_POSTS>
+@using PagedList.Mvc;
+@using EasyPosting.Models
+@{
+    ViewBag.Title = "스토리지";
+    Layout = "~/Views/Shared/_StorageLayout.cshtml";
+}
+
+@Styles.Render("~/Content/storage")
+@Scripts.Render("~/bundles/storage")
+
+<div class="p-20">
+    <!-- begin row -->
+    <div class="row">
+        <!-- begin col-2 -->
+        <div class="col-md-2">
+            <div class="m-b-15">      
+                <button class="btn btn-primary" data-toggle="modal" data-target="#VideoSearchModal"><i class="fa fa-youtube-play"></i> Youtube</button>
+            </div>
+            @using (Html.BeginForm("Video", "Storage", FormMethod.Post))
+            {
+                <div class="input-group m-b-15">
+                    @Html.AntiForgeryToken()
+                    @Html.TextBox("Search_Data", null, new { @required = "yes", @class = "form-control input-sm input-white", @placeholder = "스토리지 검색" })
+                    @*<input type="text" class="form-control input-sm input-white" placeholder="스토리지 검색" />*@
+                    <span class="input-group-btn">
+                        <button class="btn btn-sm btn-inverse" type="submit"><i class="fa fa-search"></i></button>
+                    </span>
+                </div>
+            }
+            <div class="hidden-sm hidden-xs" id="options">
+                <h5 class="m-t-20">스토리지</h5>
+                <ul class="nav nav-pills nav-stacked nav-inbox">
+                    <li><a href="@Url.RouteUrl(new { controller = "Storage", action = "Image"})"><i class="fa fa-inbox fa-fw m-r-5"></i> 이미지<span class="badge pull-right">@ViewBag.imagenum</span></a></li>
+                    <li><a href="@Url.RouteUrl(new { controller = "Storage", action = "Attachment"})"><i class="fa fa-inbox fa-fw m-r-5"></i> 첨부파일<span class="badge pull-right">@ViewBag.attachnum</span></a></li>
+                    <li class="active"><a href="@Url.RouteUrl(new { controller = "Storage", action = "Video"})"><i class="fa fa-pencil fa-fw m-r-5"></i> 동영상<span class="badge pull-right">@ViewBag.videonum</span></a></li>    
+                </ul>
+            </div>
+        </div>
+        <!-- end col-2 -->
+
+
+        <div class="col-md-10">
+
+            <div id="gallery" class="gallery">
+                @foreach (var item in Model)
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="image gallery-group-1 col-xs-6 col-md-3">
+                        <div class="image-inner">
+                                <img class="img-responsive" src="@Html.DisplayFor(model => item.Thumbnail)" alt="" />
+                            <div class="over">
+                                <div class="func">
+                                    <a class="videowatch" href="#" data-name="@Html.DisplayFor(model => item.Body)"><i class="fa fa-search"></i></a>
+                                    <a class="item-delete" data-filename="@Html.DisplayFor(model => item.Title)" data-name="@Html.DisplayFor(model => item.ID)" href="#"><i class="fa fa-trash-o"></i></a>
+                                </div>
+                            </div>
+                            <p class="image-caption"> @Html.DisplayFor(model => item.Date) </p>
+                        </div>
+                        <div class="image-info">
+                                <h5 class="title">@Html.DisplayFor(model => item.Title)</h5>
+                            </div>
+                        </div>
+                }
+            </div>
+        </div>
+        <center>
+            @Html.PagedListPager(Model, Page_No => Url.Action("Image", new { Page_No }))
+        </center> 
+     </div>
+</div>       
+<!-- Modal -->
+<div class="modal fade" id="VideoSearchModal" tabindex="-1" role="dialog" aria-labelledby="VideoSearchModal" aria-hidden="true">
+    <div class="modal-dialog" style="width:900px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <div class="modal-title">
+                    @*@using (Html.BeginForm("ImageSearch", "Storage",FormMethod.Get))
+                        {
+                        @Html.AntiForgeryToken()
+                            @Html.TextBox("searchText")
+                        <input type="submit" value="작성 완료" style='border:none 0 transparent; height:24px; width:24px; vertical-align:top;'>
+                        }*@
+
+
+                    <div class="form-group row">
+                        <div class="input-group col-xs-8">
+                            <div class="input-group-addon"><i class="fa fa-youtube-play"></i> Youtube</div>
+                            @Html.TextBox("searchText", null, new { @required = "yes", @class = "form-control", @placeholder = "검색어를 입력하세요", @id = "youtubetext" })
+                            <div class="input-group-btn">
+                                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="youtube-body" class="modal-body" style="height:550px;">
+                <div id="searchResults" style="position:absolute; width:200px; height:530px; overflow-y:auto; text-align:center; "></div>
+                <h3 id="title" style="position:absolute; margin-top:20px; margin-left:250px; width:600px;"></h3>
+                <iframe id="preview" frameborder='0' style="position:absolute; margin-top:100px; margin-left:250px; width:600px; height:330px;" allowfullscreen></iframe>
+                <h5 id="discription" style="position:absolute; margin-top:450px; margin-left:260px; width:600px;"></h5>
+            </div>
+            <div class="modal-footer">
+                <button id="insertyoutube" type="button" class="btn btn-primary">확인</button>
+                <button type="button" class="btn btn-info" data-dismiss="modal">닫기</button>
+            </div>
+        </div>
+    </div><!-- modal dialog -->
+</div><!-- modal -->
+<!-- Modal -->
+<div class="modal fade in" id="DeleteMedia" tabindex="-1" role="dialog" aria-labelledby="DeleteMedia" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="DeleteMediaLabel">파일 삭제하기</h4>
+            </div>
+            <div class="modal-body">
+                <p><span id="filenames"></span> 동영상을 삭제하시겠습니까?</p>
+                @using (Html.BeginForm("Delete", "Storage", FormMethod.Post, new { @id = "deleteform" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <input name="id" id="delete_media_data" type="hidden" />
+                }
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="deletedata" class="btn btn-primary">삭제하기</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">취소</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+<!-- Modal -->
+<div class="modal fade in" id="ViewMedia" tabindex="-1" role="dialog" aria-labelledby="ViewMedia" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="ViewMediaLabel">동영상 미리보기</h4>
+            </div>
+            <div class="modal-body">
+               
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="viewmediaclose" class="btn btn-primary" data-dismiss="modal">닫기</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+<script>
+    $(document).ready(function () {
+        $('#ViewMedia').on('hidden.bs.modal', function () {
+            $('#ViewMedia .modal-body').html("");
+        });
+        $('#VideoSearchModal').on('hidden.bs.modal', function () {
+            $('#preview').attr('src', "");
+        });
+    });
+    $('.item-delete').click(function () {
+        var delval = $(this).attr('data-name');
+        var delname = $(this).attr('data-filename');
+        //console.log($(this).attr('data-name'));
+        $('#delete_media_data').val(delval);
+        $('#filenames').html(delname);
+        $('#DeleteMedia').modal('show');
+        //console.log($('#delete_media_data').val(delval));
+    });
+    $('#deletedata').click(function () {
+        $('#deleteform').submit();
+        $('#DeleteMedia').modal('hide');
+    });
+    $('.videowatch').click(function(){
+        var src = $(this).attr('data-name');
+
+        var start = "<iframe width='100%' height='300px' z-index src='https://www.youtube.com/embed/";
+        var end = "' frameborder='0' allowfullscreen></iframe>";
+        var youtubeRegex = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
+        var youtubeMatch = src.match(youtubeRegex);
+        //console.log(youtubeMatch);
+        var result = start + youtubeMatch[7] + end;
+        $('#ViewMedia .modal-body').html(result);
+        $('#ViewMedia').modal('show');  
+    });  
+</script>
+
+
+<script>
+    var youtubedata = "";
+    var id = "";
+
+    $('#youtube_search').click(function () {
+        search_image();
+    });
+    $(document).keydown(function (e) {
+        if ($('#VideoSearchModal').attr('aria-hidden') != "true") {
+            if (e.keyCode == 13) {
+                search_image();
+            }
+        }
+    });
+
+    function search_image() {
+        var value = $('#youtubetext').val();
+        if (value != "") {
+            $.ajax({
+                type: "POST",
+                url: "/Storage/VideoSearch",
+                traditional: true,
+                data: {
+                    searchText: value
+                }
+            }).done(function (data) {
+                if (data.success === true) {
+                    youtubedata = data.youtubeData;
+                    insert_image();
+                }
+            }).fail(function (e) {
+                $.gritter.add({
+                    title: "이미지 업로드에 실패하였습니다."
+                });
+            });
+        }
+    }
+
+    function insert_image() {
+        var imgList = "";
+        imgList += "<div class='panel-group'><br/>";
+        for (var i = 0; i < youtubedata.length; i++) {
+            imgList += '<div id="R' + i + '" type="button" class="btn btn-white imgbtnEffect" style="margin-bottom:10px; margin-right:10px;">';
+            imgList += '<img id="RI' + i + '" src="' + youtubedata[i].Thumbnail + '" style="width:130px; height:100px;">';
+            imgList += '</div>';
+        }
+        imgList += "</div>";
+        $('#searchResults').html(imgList);
+        set_event();
+    }
+
+
+    $('#insertyoutube').click(function () {
+        $.ajax({
+            type: "POST",
+            url: "/Storage/Savetag",
+            traditional: true,
+            data: {
+                Type: "Video",
+                Title: youtubedata[id].Title,
+                MediaUrl: youtubedata[id].MediaUrl,
+                Thumbnail: youtubedata[id].Thumbnail
+            }
+        }).done(function (data) {
+            if (data.success === true) {
+                document.location.reload(true);
+            }
+        });
+        $('#VideoSearchModal').modal('hide');
+    });
+
+    // 이벤트 설정
+    function set_event() {
+        // 포커스 설정
+        $(".imgbtnEffect").mouseenter(function () {
+            $(this).toggleClass("btn-info btn-white");
+        });
+        $(".imgbtnEffect").mouseleave(function () {
+            $(this).toggleClass("btn-info btn-white");
+        });
+
+        //버튼 이벤트 설정
+        for (var i = 0; i < youtubedata.length; i++) {
+            $("#RI" + i).click(function () {
+                id = this.id;
+                id = id.split('I');
+                id = id[1];
+                $('#title').html(youtubedata[id].Title);
+                $('#discription').html(youtubedata[id].DisplayUrl);
+
+                var src = youtubedata[id].MediaUrl;
+                var youtubeRegex = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#\&\?]*).*/;
+                var youtubeMatch = src.match(youtubeRegex);
+               
+                src = "https://www.youtube.com/embed/" + youtubeMatch[7];
+                $('#preview').attr('src', src);
+            });
+        }
+    }  
+</script>

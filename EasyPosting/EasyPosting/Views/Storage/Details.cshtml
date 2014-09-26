@@ -1,0 +1,93 @@
+﻿@model EasyPosting.Models.EP_POSTS
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Html.DisplayFor(model => model.Title)</h2>
+
+<div>
+    <h4>@Html.DisplayFor(model => model.Date)</h4>
+	<hr />
+
+
+    
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Slug)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Slug)
+        </dd>
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category)
+        </dd>*@
+        @if (ViewBag.posttype == "Post")
+        {
+            <dt>
+            @Html.DisplayNameFor(model => model.Body)
+            </dt>
+            <dd>
+            @*@Html.DisplayFor(model => model.Body)*@
+            @Html.Raw(Model.Body)
+            </dd>
+            <dt>
+            최근 업로드
+            </dt>
+            <dd>
+                @if (Model.Publish1 != null) { @Html.DisplayFor(model=>model.Publish1) <b>|</b>  @Html.DisplayFor(model=>model.Publish1_time)}
+                @if (Model.Publish2 != null) { @Html.DisplayFor(model=>model.Publish2) <b>|</b>  @Html.DisplayFor(model=>model.Publish2_time)}
+            </dd>     
+        }
+    </dl>
+    
+    @if (ViewBag.posttype == "Image")
+    {
+        <img src="@Url.Content("~/User/Posts/Image/"+ Model.Body)" class="img-responsive img-thumbnail" alt="@Html.DisplayFor(model => model.Title)">
+    }
+    @if (ViewBag.posttype == "Video")
+    {
+       @Html.Raw(ViewBag.Videoembed)
+    }    
+    @if (ViewBag.posttype == "Attachment")
+    {
+        if(Model.Mime_type == "application/vnd.openxmlformats-officedocument.presentationml.presentation" )
+        {
+           @*<iframe style="width:1400px; height:700px;" src="@Url.Content("~/User/Posts/Attachment/"+ Model.GUID + ".pptx.files/slide0001.htm")"></iframe>*@
+           <img src="@Url.Content("~/User/Posts/Attachment/" + Model.GUID + ".pptx.files/slide0001_image001.PNG")" class="img-responsive img-thumbnail" alt="@Html.DisplayFor(model => model.Title)">
+        }
+    }
+</div>
+<p>
+    @Html.ActionLink("삭제하기", "Delete", "Storage",routeValues: new { id = Model.ID }, htmlAttributes: null) |
+    @if (Model.Type == "Post")
+    {
+        @Html.ActionLink("돌아가기", "Index", "Storage")
+    }
+    @if (Model.Type == "Image")
+    {
+        @Html.ActionLink("돌아가기", "Image", "Storage")
+    }
+    @if (Model.Type == "Video")
+    {
+        @Html.ActionLink("돌아가기", "Video", "Storage")
+    }    
+    @if (Model.Type == "Attachment")
+    {
+        @Html.ActionLink("돌아가기", "Attachment", "Storage")
+    }
+    @if (Model.Type == "Link")
+    {
+        @Html.ActionLink("돌아가기", "Link", "Storage")
+    }
+    
+</p>
+
+
+

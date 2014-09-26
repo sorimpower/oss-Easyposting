@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>울지않는벌새 : Security, Movie &amp; Society</title>
+		<link>http://hummingbird.tistory.com/</link>
+		<description>울지않는벌새가 되고 싶은 나..</description>
+		<language>ko</language>
+		<pubDate>Fri, 26 Sep 2014 17:37:06 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>벌새</managingEditor>
+		<image>
+			<title>울지않는벌새 : Security, Movie &amp; Society</title>
+			<url>http://cfile21.uf.tistory.com/image/2162793F53571DC00CB852</url>
+			<link>http://hummingbird.tistory.com</link>
+			<description>울지않는벌새가 되고 싶은 나..</description>
+		</image>
+		<item>
+			<title>VMware 유사 아이콘으로 위장한 1회성 검색 애드웨어 유포 사례 (2014.9.26)</title>
+			<link>http://hummingbird.tistory.com/5584</link>
+			<description>최근 광고 프로그램 배포 목적으로 운영되는 파일 다운로드 창에 포함된 제휴 프로그램 중에서 &quot;윈 검색도우미&quot; 이름의 광고 프로그램이 1회 동작을 목적으로 다운로드 및 실행되는 사례를 확인하였습니다.  확인된 배포지는 이큐브파일(ecubefile) 자료실에서 배포하는 DownloadController 창에 포함된 다수의 권장 프로그램 중에 포함되어 있었으며, 현재는 AhnLab V3 보안 제품의 애드웨어(Adware) 진단으로 인해 배포가 중지된 것으..</description>
+			<category>벌새::Analysis</category>
+			<category>Adware</category>
+			<category>Adware/Win32.Clicker.C571438</category>
+			<category>AhnLab V3</category>
+			<category>cafe24</category>
+			<category>DownloadController</category>
+			<category>ecubefile</category>
+			<category>VMware</category>
+			<category>광고</category>
+			<category>백그라운드</category>
+			<category>아이콘</category>
+			<category>애드웨어</category>
+			<category>윈 검색도우미</category>
+			<category>이큐브파일</category>
+			<category>제휴 프로그램</category>
+			<author>벌새</author>
+			<guid>http://hummingbird.tistory.com/5584</guid>
+			<comments>http://hummingbird.tistory.com/5584#entry5584comment</comments>
+			<pubDate>Fri, 26 Sep 2014 13:40:26 +0900</pubDate>
+		</item>
+		<item>
+			<title>업데이트 : Google Chrome 37.0.2062.124</title>
+			<link>http://hummingbird.tistory.com/5583</link>
+			<description>구글(Google) 업체에서 제공하는 구글 크롬(Google Chrome) 웹 브라우저의 RSA 인증서 위조 관련 보안 취약점(CVE-2014-1568) 문제를 해결한 Google Chrome 37.0.2062.124 버전이 긴급 업데이트 되었습니다.  업데이트 : Mozilla Firefox 32.0.3 (2014.9.25) 이번 업데이트에서는 최근 Mozilla FireFox 웹 브라우저의 Network Security Services(NSS)..</description>
+			<category>벌새::Security</category>
+			<category>CVE-2014-1568</category>
+			<category>Google</category>
+			<category>Google Chrome</category>
+			<category>Network Security Services</category>
+			<category>NSS</category>
+			<category>RSA</category>
+			<category>구글</category>
+			<category>구글 크롬</category>
+			<category>보안 취약점</category>
+			<category>보안 패치</category>
+			<category>암호화</category>
+			<category>업데이트</category>
+			<category>웹 브라우저</category>
+			<category>인증서</category>
+			<author>벌새</author>
+			<guid>http://hummingbird.tistory.com/5583</guid>
+			<comments>http://hummingbird.tistory.com/5583#entry5583comment</comments>
+			<pubDate>Thu, 25 Sep 2014 10:47:47 +0900</pubDate>
+		</item>
+		<item>
+			<title>업데이트 : Mozilla Firefox 32.0.3</title>
+			<link>http://hummingbird.tistory.com/5582</link>
+			<description>모질라(Mozilla) 재단에서 제공하는 오픈 소스 기반 Mozilla Firefox 웹 브라우저에서 발견된 Mozilla Network Security Services(NSS) 보안 우회 취약점(CVE-2014-1568) 문제를 해결한 Mozilla Firefox 32.0.3 버전이 긴급 업데이트 되었습니다.  [긴급] MFSA 2014-73 : RSA Signature Forgery in NSS 이번 CVE-2014-1568 보안 취약점은 Ant..</description>
+			<category>벌새::Security</category>
+			<category>BERSERK</category>
+			<category>CVE-2014-1568</category>
+			<category>Mozilla</category>
+			<category>Mozilla Firefox</category>
+			<category>Network Security Services</category>
+			<category>NSS</category>
+			<category>RSA</category>
+			<category>SSL/TLS</category>
+			<category>모질라</category>
+			<category>보안 취약점</category>
+			<category>암호화</category>
+			<category>업데이트</category>
+			<category>오픈 소스</category>
+			<category>웹 브라우저</category>
+			<author>벌새</author>
+			<guid>http://hummingbird.tistory.com/5582</guid>
+			<comments>http://hummingbird.tistory.com/5582#entry5582comment</comments>
+			<pubDate>Thu, 25 Sep 2014 10:31:59 +0900</pubDate>
+		</item>
+		<item>
+			<title>검색 도우미 : DreamPrime - tidbit (2014.9.24)</title>
+			<link>http://hummingbird.tistory.com/5581</link>
+			<description>◇ [공지] 광고 프로그램 삭제 관련 문의 방법 인터넷 검색 및 웹 사이트 접속시 다양한 광고창을 생성하여 불편을 유발하며, 사용자에 의한 프로그램 삭제를 방해할 목적으로 제어판에 등록하지 않는 국내에서 제작된 DreamPrime 악성 광고 프로그램의 변종이 수집되어 정보를 공개해 드립니다. &lt;2014년 상반기 관련 정보&gt; 검색 도우미 : DreamPrime - vladimir (2014.6.24) 외 12종 검색 도우미 : DreamPrime -..</description>
+			<category>벌새::PUP Info</category>
+			<category>AhnLab V3</category>
+			<category>AhnLab V3 365 Clinic</category>
+			<category>down.dreamprime.net</category>
+			<category>Dream WebAD Application</category>
+			<category>Dream WebAD run-Application</category>
+			<category>dreamprime</category>
+			<category>Internet Explorer</category>
+			<category>Microsoft AD WS</category>
+			<category>Now Dream Service Application</category>
+			<category>PUP/Win32.SubShop</category>
+			<category>subpop</category>
+			<category>subpop.dll</category>
+			<category>SubShop</category>
+			<category>TabStation</category>
+			<category>tidbit</category>
+			<category>tidbit.exe</category>
+			<category>tidbitup.exe</category>
+			<category>tidbitv</category>
+			<category>tidbitvc.exe</category>
+			<category>Windows 작업 관리자</category>
+			<category>wingad</category>
+			<category>wingad.dll</category>
+			<category>Yestoplib.dll</category>
+			<category>yssoft</category>
+			<category>Zest On co ltd</category>
+			<category>검색 도우미</category>
+			<category>관리자 권한으로 실행</category>
+			<category>광고 모듈</category>
+			<category>광고창</category>
+			<category>디지털 서명</category>
+			<category>명령 프롬프트</category>
+			<category>명령어</category>
+			<category>변종</category>
+			<category>불필요한 사이트(PUS) 접근 차단</category>
+			<category>삭제</category>
+			<category>서비스</category>
+			<category>웹 보안</category>
+			<category>웹 브라우저</category>
+			<author>벌새</author>
+			<guid>http://hummingbird.tistory.com/5581</guid>
+			<comments>http://hummingbird.tistory.com/5581#entry5581comment</comments>
+			<pubDate>Wed, 24 Sep 2014 15:52:09 +0900</pubDate>
+		</item>
+		<item>
+			<title>검색 도우미 : Windows Conveniences</title>
+			<link>http://hummingbird.tistory.com/5580</link>
+			<description>바탕 화면과 웹 브라우저의 배경색을 체크하여 우측 영역에 &quot;Powered by cloudget&quot; 광고 배너를 생성하며, 특정 시스템 부팅 과정에서 추가적인 파일 생성을 통한 구글 애드센스(Google AdSense) 팝업창을 생성할 수 있는 &quot;Windows Conveniences&quot; 검색 도우미 프로그램&lt;SHA-1 : 9c19fe7ce9375f5c9fb2fdf300bccfa789a0b7f3 - AhnLab V3 : PUP/Win32.Winerspop...</description>
+			<category>벌새::Analysis</category>
+			<category>AhnLab V3</category>
+			<category>Google Adsense</category>
+			<category>Now Media Corp.</category>
+			<category>Powered by cloudget</category>
+			<category>PUP/Win32.Winerspop.C238222</category>
+			<category>Windows Conveniences</category>
+			<category>Windows Conveniences Manager</category>
+			<category>Windows 작업 관리자</category>
+			<category>wscnvcs</category>
+			<category>wscnvcs.dll</category>
+			<category>wscnvcsk.exe</category>
+			<category>wscnvcsr.exe</category>
+			<category>wscnvcsv.exe</category>
+			<category>wscnvcsv32</category>
+			<category>검색 도우미</category>
+			<category>광고 배너</category>
+			<category>구글 애드센스</category>
+			<category>디지털 서명</category>
+			<category>바탕 화면</category>
+			<category>변종</category>
+			<category>삭제</category>
+			<category>서비스</category>
+			<category>업데이트</category>
+			<category>웹 브라우저</category>
+			<category>팝업창</category>
+			<author>벌새</author>
+			<guid>http://hummingbird.tistory.com/5580</guid>
+			<comments>http://hummingbird.tistory.com/5580#entry5580comment</comments>
+			<pubDate>Wed, 24 Sep 2014 13:53:45 +0900</pubDate>
+		</item>
+		<item>
+			<title>한컴오피스 제품군 보안 업데이트 (2014.9.24)</title>
+			<link>http://hummingbird.tistory.com/5579</link>
+			<description>(주)한글과컴퓨터 업체에서 제공하는 한컴오피스 2014, 한컴오피스 2010 SE+, 한글과컴퓨터 오피스 2007, 한/글 2005, 한/글 2004, 한/글 2002 SE 제품군에서 발견된 다수의 보안 취약점 문제를 해결한 보안 업데이트가 공개되었습니다. &lt;KISA 인터넷침해대응센터&gt; 아래한글 임의코드 실행 취약점 보안 업데이트 권고 (2014.9.23) 이번 업데이트에서는 한글 임의코드 실행(CGM 버퍼오버플로우) 취약점, 한글 임의코드 실행(V..</description>
+			<category>벌새::Security</category>
+			<category>(주)한글과컴퓨터</category>
+			<category>보안 업데이트</category>
+			<category>보안 취약점</category>
+			<category>보안 패치</category>
+			<category>업데이트 서버</category>
+			<category>한/글 2002 SE</category>
+			<category>한/글 2004</category>
+			<category>한/글 2005</category>
+			<category>한글과컴퓨터 오피스 2007</category>
+			<category>한컴 자동 업데이트 2014</category>
+			<category>한컴오피스</category>
+			<category>한컴오피스 2005</category>
+			<category>한컴오피스 2010 SE+</category>
+			<category>한컴오피스 2014</category>
+			<author>벌새</author>
+			<guid>http://hummingbird.tistory.com/5579</guid>
+			<comments>http://hummingbird.tistory.com/5579#entry5579comment</comments>
+			<pubDate>Wed, 24 Sep 2014 10:02:11 +0900</pubDate>
+		</item>
+		<item>
+			<title>검색 도우미 : Windows Inforetrieval</title>
+			<link>http://hummingbird.tistory.com/5578</link>
+			<description>바탕 화면과 웹 브라우저의 우측 영역에 &quot;Powered by cloudget&quot; 광고 배너를 생성하며, 특정 시점에서 Windows 부팅시 구글 애드센스(Google AdSense) 광고 팝업창을 생성하는 검색 도우미 &quot;Windows Inforetrieval&quot; 프로그램&lt;SHA-1 : e2795b28ddcd01363aa3d266766926d6857624fc - AhnLab V3 : PUP/Win32.Generic.C528289 (VT : 4/53)&gt;에..</description>
+			<category>벌새::Analysis</category>
+			<category>AhnLab V3</category>
+			<category>Google Adsense</category>
+			<category>Now Media Corp.</category>
+			<category>Powered by cloudget</category>
+			<category>PUP/Win32.Generic.C528289</category>
+			<category>szpart3</category>
+			<category>Windows Inforetrieval</category>
+			<category>Windows Inforetrieval Manager</category>
+			<category>Windows 작업 관리자</category>
+			<category>wsifvel</category>
+			<category>wsifvel.dll</category>
+			<category>wsifvel32</category>
+			<category>wsifvelk.exe﻿﻿</category>
+			<category>wsifvelr.exe</category>
+			<category>wsifvelv.exe</category>
+			<category>검색 도우미</category>
+			<category>광고 배너</category>
+			<category>구글 애드센스</category>
+			<category>디지털 서명</category>
+			<category>바탕 화면</category>
+			<category>변종</category>
+			<category>삭제</category>
+			<category>서비스</category>
+			<category>업데이트</category>
+			<category>웹 브라우저</category>
+			<category>팝업창</category>
+			<author>벌새</author>
+			<guid>http://hummingbird.tistory.com/5578</guid>
+			<comments>http://hummingbird.tistory.com/5578#entry5578comment</comments>
+			<pubDate>Tue, 23 Sep 2014 20:59:11 +0900</pubDate>
+		</item>
+		<item>
+			<title>우체국 소포, 택배를 사칭한 스미싱(Smishing) 문자 주의 (2014.9.23)</title>
+			<link>http://hummingbird.tistory.com/5577</link>
+			<description>최근에 많이 이용되는 우체국 등기 소포, 선물 택배 스미싱(Smishing) 문자를 이용한 안드로이드(Android) 악성앱에 대해 살펴보도록 하겠습니다. &lt;ASEC Threat Research &amp; Response Blog&gt; ☆돌☆잔☆치☆초☆대☆장☆ 보냈습니다. (2014.9.17) 유사한 악성앱과 관련된 세부적인 정보는 안랩(AhnLab) 분석 정보를 함께 참고하여 피해를 당하지 않도록 주의하시기 바랍니다.  대표적인 스미싱(Smishing) 문자..</description>
+			<category>벌새::Analysis</category>
+			<category>126.com</category>
+			<category>192.151.226.133:80</category>
+			<category>192.151.226.69</category>
+			<category>AhnLab V3 Mobile Plus 2.0</category>
+			<category>AhnLab V3 모바일</category>
+			<category>Android</category>
+			<category>Android-Malicious/Bankun</category>
+			<category>android.permission.KILL_BACKGROUND_PROCESSES</category>
+			<category>captcha</category>
+			<category>CHINA</category>
+			<category>com.epost.psf.sdsi</category>
+			<category>com.hanabank.ebk.channel.android.hananbank</category>
+			<category>com.ibk.neobanking</category>
+			<category>com.kbstar.kbbank</category>
+			<category>com.keb.android.mbank</category>
+			<category>com.shinhan.sbanking</category>
+			<category>com.smg.spbs</category>
+			<category>com.wooribank.pib.smart</category>
+			<category>Copy.com</category>
+			<category>EMS.apk</category>
+			<category>google app store</category>
+			<category>IBK ONE뱅킹 개인</category>
+			<category>ID</category>
+			<category>ip</category>
+			<category>iphone</category>
+			<category>KB국민은행 스타뱅킹</category>
+			<category>mvbedx.vicp.co</category>
+			<category>NH 스마트뱅킹</category>
+			<category>nh.smart</category>
+			<category>npki</category>
+			<category>Play 스토어</category>
+			<category>rz9.de</category>
+			<category>Smishing</category>
+			<category>계좌 번호</category>
+			<category>계좌 비밀번호</category>
+			<category>공인인증서</category>
+			<category>권한</category>
+			<category>금융앱</category>
+			<category>단축 URL 주소</category>
+			<category>동적 DNS 서비스</category>
+			<category>모바일 백신</category>
+			<category>바로가기 아이콘</category>
+			<category>보안 카드</category>
+			<category>비밀번호</category>
+			<category>삭제</category>
+			<category>새마을금고 스마트뱅킹</category>
+			<category>스마트뱅크</category>
+			<category>스마트택배</category>
+			<category>스마트폰</category>
+			<category>스미싱</category>
+			<category>신한S뱅크</category>
+			<category>아이디</category>
+			<category>아이폰</category>
+			<category>악성앱</category>
+			<category>안드로이드</category>
+			<category>업데이트</category>
+			<category>우리은행 원터치개인뱅킹</category>
+			<category>우체국 소포</category>
+			<category>우체국 스마트뱅킹</category>
+			<category>자동 입력 방지 문자</category>
+			<category>주민등록번호</category>
+			<category>중국</category>
+			<category>택배</category>
+			<category>하나N bank</category>
+			<author>벌새</author>
+			<guid>http://hummingbird.tistory.com/5577</guid>
+			<comments>http://hummingbird.tistory.com/5577#entry5577comment</comments>
+			<pubDate>Tue, 23 Sep 2014 15:25:53 +0900</pubDate>
+		</item>
+		<item>
+			<title>특정 스포츠 배팅 사이트를 표적으로 한 Winpcapture.exe 악성코드 주의 (2014.9.22)</title>
+			<link>http://hummingbird.tistory.com/5576</link>
+			<description>최근 특정 스포츠 배팅 정보 및 동영상 서비스를 제공하는 웹 사이트 접속시 Win24_Update 파일을 다운로드하도록 유도하는 메시지 창을 통해 정보 유출을 시도하는 악성코드에 대해 언급한 적이 있었습니다. 스포츠 배팅 사이트에서 배포하는 Win24 업데이트 파일 주의 (2014.9.16) 그런데 추가적인 모니터링 과정에서 지속적으로 공격자가 웹 사이트 접속시 감염을 유발하는 행위가 확인되었으며, 특히 감염으로 인해 특정 운영 체제 환경에서 Win..</description>
+			<category>벌새::Analysis</category>
+			<category>AhnLab V3</category>
+			<category>AhnLab V3 Lite</category>
+			<category>alyac</category>
+			<category>Bit.ly</category>
+			<category>DEL</category>
+			<category>f8</category>
+			<category>Gen:Trojan.Heur.PT.cqW@aii4r7mG</category>
+			<category>RawSockets.exe</category>
+			<category>reg</category>
+			<category>shutdown</category>
+			<category>sniffer1.ddns.info</category>
+			<category>Spyware.Infostealer.Win24</category>
+			<category>Trojan/Win32.Sniffer.R119774</category>
+			<category>vv3.exe</category>
+			<category>Win24_Update</category>
+			<category>Windows 7</category>
+			<category>windows 8</category>
+			<category>Windows 8.1</category>
+			<category>Windows Vista</category>
+			<category>Windows XP</category>
+			<category>Winpcapture.exe</category>
+			<category>wintv_update.exe</category>
+			<category>win_24.exe</category>
+			<category>고급 부팅 옵션</category>
+			<category>관리자 계정</category>
+			<category>단축 URL</category>
+			<category>레지스트리</category>
+			<category>명령 프롬프트 사용</category>
+			<category>명령어</category>
+			<category>무료 백신</category>
+			<category>백그라운드</category>
+			<category>부팅</category>
+			<category>사용자 계정 컨트롤</category>
+			<category>삭제</category>
+			<category>스포츠 배팅</category>
+			<category>악성 사이트 접근 차단</category>
+			<category>악성코드</category>
+			<category>안전 모드</category>
+			<category>알약</category>
+			<category>운영 체제</category>
+			<category>취약점</category>
+			<category>포맷</category>
+			<category>휴리스틱</category>
+			<author>벌새</author>
+			<guid>http://hummingbird.tistory.com/5576</guid>
+			<comments>http://hummingbird.tistory.com/5576#entry5576comment</comments>
+			<pubDate>Mon, 22 Sep 2014 14:31:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[영화] Transformers : Age of Extinction (2014)</title>
+			<link>http://hummingbird.tistory.com/5575</link>
+			<description>2007년에 첫 개봉한 변신 로보트를 소재로 한 트랜스포머(Transformers) 시리즈는 화려한 CG를 이용하여 인간과 로보트를 자연스럽게 한 화면에서 보여주며 오토봇(Autobot)과 디셉티콘(Decepticon)간의 대결을 그리고 있습니다. Transformers (2007) Transformers : Revenge of the Fallen (2009) [영화] Transformers : Dark of the Moon (2011) 그리고 마..</description>
+			<category>벌새::Movie</category>
+			<category>age of extinction</category>
+			<category>Autobot</category>
+			<category>CG</category>
+			<category>Decepticon</category>
+			<category>Galvatron</category>
+			<category>Lockdown</category>
+			<category>Mark Wahlberg</category>
+			<category>Michael Bay</category>
+			<category>Optimus Prime</category>
+			<category>Shia Labeouf</category>
+			<category>Transformers</category>
+			<category>갈바트론</category>
+			<category>감독</category>
+			<category>디셉티콘</category>
+			<category>마이클 베이</category>
+			<category>마크 월버그</category>
+			<category>미국</category>
+			<category>변신 로보트</category>
+			<category>사라진 시대</category>
+			<category>샤이아 라보프</category>
+			<category>액션</category>
+			<category>영화</category>
+			<category>오토봇</category>
+			<category>옵티머스 프라임</category>
+			<category>중국</category>
+			<category>트랜스포머</category>
+			<author>벌새</author>
+			<guid>http://hummingbird.tistory.com/5575</guid>
+			<comments>http://hummingbird.tistory.com/5575#entry5575comment</comments>
+			<pubDate>Sun, 21 Sep 2014 18:51:00 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

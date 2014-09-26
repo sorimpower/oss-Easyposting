@@ -1,0 +1,22 @@
+﻿@model EasyPosting.Models.ApplicationUser
+
+@{
+    ViewBag.Title = "상세 정보";
+}
+
+<h2>사용자 상세 정보</h2>
+
+<div>
+<hr />
+
+<h4>사용자명</h4>
+   @Html.DisplayFor(modelItem => modelItem.UserName)
+</div>
+
+<p>
+    @Html.ActionLink("수정하기", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("돌아가기", "Index")
+</p>
+
+
+

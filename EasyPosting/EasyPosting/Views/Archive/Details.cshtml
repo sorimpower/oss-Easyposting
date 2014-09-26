@@ -1,0 +1,195 @@
+﻿@model EasyPosting.Models.EP_POSTS
+@*@(ViewBag.metas as List<EasyPosting.Controllers.Metaweb>)*@
+
+@{
+    ViewBag.Title = "미리보기";
+    Layout = "~/Views/Shared/_ArchiveDetailLayout.cshtml";
+
+    if (Model.Publish1 == "Naver")
+    {
+        ViewBag.Color1 = "label-success";
+    }
+    else if (Model.Publish1 == "Tistory")
+    {
+        ViewBag.Color1 = "label-warning";
+    }
+    else
+    {
+        ViewBag.Color1 = "label-inverse";
+    }
+
+    if (Model.Publish2 == "Naver")
+    {
+        ViewBag.Color2 = "label-success";
+    }
+    else if (Model.Publish2 == "Tistory")
+    {
+        ViewBag.Color2 = "label-warning";
+    }
+    else
+    {
+        ViewBag.Color2 = "label-inverse";
+    }
+
+}
+<!-- begin row -->
+<div class="row">
+    <!-- begin col-7 -->
+    <div class="col-md-6">
+        <div class="panel panel-inverse">
+            <div class="panel-heading">
+                <div class="panel-heading-btn"></div>
+                <h4 class="panel-title">미리보기</h4>
+            </div>
+            <div class="panel-toolbar">
+
+                @Html.DisplayNameFor(model => model.Title) :
+
+                @Html.DisplayFor(model => model.Title)
+
+                @Html.DisplayNameFor(model => model.Slug) :
+
+                @Html.DisplayFor(model => model.Slug)
+
+                @Html.DisplayNameFor(model => model.Date) :
+
+                @Html.DisplayFor(model => model.Date)
+            </div>
+            <div class="panel-body">
+                @*<div class="height-sm" data-scrollbar="true">*@
+                <div style="overflow-x:auto;">
+                    @Html.Raw(Model.Body)
+                </div>
+                @*</div>*@
+            </div>
+        </div>
+    </div>
+    <!-- end col-7 -->
+    <!-- begin col-5 -->
+    <div class="col-md-6">
+        <div class="panel panel-inverse">
+            <div class="panel-heading">
+                <h4 class="panel-title">블로그 서비스로 포스팅</h4>
+            </div>
+            <div class="panel-body">
+                @using (Html.BeginForm("Posting", "Archive", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    @*@ViewBag.metablog*@
+                    <input type="hidden" name="id" value="@Model.ID" />
+                    @*<label><input type="checkbox" name="post_private"/> 비공개</label>*@
+
+                    <input type="submit" value="포스팅하기" class="btn btn-white" />
+
+                    <table class="table table-valign-middle m-b-0">
+                        <thead>
+                            <tr>
+                                @*<th>서비스</th>*@
+                                <th></th>
+                                <th>주소</th>
+                                <th>카테고리</th>
+                                <th>너비</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @{int cnt = 0;  }
+                            @foreach (var a in ViewBag.metas)
+                            {
+                                <tr>
+                                    <td>
+                                        <label class="checkbox-inline" style="margin-bottom:17px;">
+                                            <input type="checkbox" id="BlogService[]" name="BlogService[]" value="@cnt|@a.site">
+                                        </label>
+                                    </td>
+                                    <td>
+                                        @a.site
+                                    </td>
+                                    @if (a.category.Length != 0)
+                                    {
+                                        <td>
+                                            <select class="form-control" name="category[]">
+                                                @for (int i = 0; i < a.category.Length; i++)
+                                                {
+                                                    <option value="@a.category[i]">@a.category[i]</option>
+                                                }
+                                            </select>
+                                        </td>
+                                    }
+                                    else
+                                    {
+                                        <td>
+                                            <select class="form-control" name="category[]">
+                                                <option value="@a.category[0]">@a.category[0]</option>
+                                            </select>
+                                        </td>
+                                    }
+                                    <td><input type="text" name="size[@cnt]" style="width:30px;" /></td>
+                                    <td>
+                                        <div class="btn-group" data-toggle="buttons">
+                                            <label class="btn btn-white btn-xs active">
+                                                <input type="radio" name="pub[@cnt]" checked="checked" value="1"> 공개
+                                            </label>
+                                            <label class="btn btn-white btn-xs">
+                                                <input type="radio" name="pub[@cnt]" value=0> 비공개
+                                            </label>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                    cnt++;
+                            }
+                            <tr>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                }
+            </div>
+        </div>
+        <div class="panel panel-inverse">
+            <div class="panel-heading">
+                <div class="panel-heading-btn"></div>
+                <h4 class="panel-title">최근 포스팅</h4>
+            </div>
+            <div class="panel-body p-t-0">
+
+                <table class="table table-valign-middle m-b-0">
+                    <thead>
+                        <tr>
+                            <th>서비스</th>
+                            <th>포스팅 일자</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @if (Model.Publish1 != null)
+                        {
+                            <tr>
+                                <td><label class="label @ViewBag.Color1">@Html.DisplayFor(model => model.Publish1)</label></td>
+                                <td>@Html.DisplayFor(model => model.Publish1_time)</td>
+                            </tr>
+                        }
+                        @if (Model.Publish2 != null)
+                        {
+                            <tr>
+                                <td><label class="label @ViewBag.Color2">@Html.DisplayFor(model => model.Publish2)</label></td>
+                                <td>@Html.DisplayFor(model => model.Publish2_time)</td>
+                            </tr>
+                        }
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- end col-5 -->
+</div>
+<!-- end row -->

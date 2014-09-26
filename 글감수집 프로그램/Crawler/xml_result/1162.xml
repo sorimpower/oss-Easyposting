@@ -1,0 +1,2484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>파이어폭스 인사이드</title>
+		<link>http://firefoxinside.tistory.com/</link>
+		<description>여러분의 웹을 되찾으세요!</description>
+		<language>ko</language>
+		<pubDate>Mon, 20 May 2013 01:44:39 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>토이</managingEditor>
+		<item>
+			<title>파이어폭스 책이 출간됩니다.</title>
+			<link>http://firefoxinside.tistory.com/281</link>
+			<description>&lt;p style=&quot;margin:0&quot;&gt;파이어폭스 인사이드를 운영하는 토이입니다.&amp;nbsp;&lt;br /&gt;
+곧 파이어폭스 인사이드의 내용을 토대로 파이어폭스[스토리&amp;amp; 가이드북]이 출간됩니다. 거창한 수백쪽 분량의 책이 아니라 얇고 핵심만 담은 핸드북으로 제작하였습니다. 파이어폭스의 역사적 의의와 사건을 다룬 전반, 사용법과 확장기능을 다루는 후반으로 구성되어 있습니다. 파이어폭스와 웹브라우저에 관심이 있거나 궁금하신 분들을 위한 소박한 팝콘북이라 생각하시면 됩니다.&lt;br /&gt;
+&lt;br /&gt;
+* &lt;a href=&quot;http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&amp;amp;ejkGb=KOR&amp;amp;linkClass=130719&amp;amp;barcode=9788992168816#N&quot; target=&quot;_blank&quot; title=&quot;[http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&amp;amp;ejkGb=KOR&amp;amp;linkClass=130719&amp;amp;barcode=9788992168816#N]로 이동합니다.&quot;&gt;교보문고&lt;/a&gt;, &lt;a href=&quot;http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8992168810&quot; target=&quot;_blank&quot; title=&quot;[http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8992168810]로 이동합니다.&quot;&gt;알라딘&lt;br /&gt;
+&amp;nbsp;&lt;/a&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/200F3E374EEB397525E096&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;x9788992168816.jpg&quot; height=&quot;692&quot; width=&quot;458&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-281-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=23612314&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/281&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/칼%20럼&quot;&gt;칼 럼&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/281&quot; &gt;파이어폭스 책이 출간됩니다.&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/280&quot; &gt;[R.I.P 스티브 잡스] 세상에 존재하는 세 부류&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/10/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/279&quot; &gt;구글이 타락했다! 'The Fall of Google'&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(13)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/01/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/278&quot; &gt;단상. 내가 오픈소스보다 맥을 지지하는 이유 - האלמוני בדיחות&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(13)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2010/10/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/274&quot; &gt;[특집]파이어폭스 인사이드 2주년을 통해 돌아본 우리의 웹&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/08/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/269&quot; &gt;티맥스 윈도우9 - 총체적 재앙&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(18)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/07/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>칼 럼</category>
+			<category>책</category>
+			<category>파이어폭스</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/281</guid>
+			<comments>http://firefoxinside.tistory.com/281#entry281comment</comments>
+			<pubDate>Fri, 16 Dec 2011 21:34:47 +0900</pubDate>
+		</item>
+		<item>
+			<title>[R.I.P 스티브 잡스] 세상에 존재하는 세 부류</title>
+			<link>http://firefoxinside.tistory.com/280</link>
+			<description>&lt;b&gt;따라가는 자&lt;br /&gt;
+&lt;/b&gt;&lt;div&gt;
+세상은 '무어의 법칙'처럼 그렇게 빠르게 발전하지 않는다. 단지 숫자만 올라갈 뿐 진정한 변화는 그리 빨리 찾아오지 않는다. 경쟁이란 선구자를 따라가려는 나머지 무리에 의해 생겨난다. IT바닥에서는 삼성이나 마이크로소프트를 예로 들 수 있다. 저들은 그냥 공장일 뿐이다. 찍어내기 바쁜 기업이고 공장이다. 그리고 이들이 지배하는 시장이 얼마나 참혹한지는 모두가 겪었으리라. 불과 수년 전 인터넷 익스플로러 6를 기억하는가? 웹 브라우저 시장에는 선구자가 없었고 독점적 위치를 차지한 그 웹 브라우저는 승리와 동시에 - 개발팀이 해체되었다. - 자멸했다. 이로 인해 파생된 문제는 지금까지도 골치가 아프다. 선구자가 없는 통신시장은 어떠한가? 통신사와 제조사의 공굴리기에 사람들은 지갑만 털렸다. 이들은 생각할 능력이 없다. 자본으로 뭉친 거대한 비곗덩어리일 뿐이다. 저들 회사가 정말 진정 뭔가를 창조한다고 생각할 수 있을까?&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;중재하는 자&lt;br /&gt;
+&lt;/b&gt;파이어폭스를 만드는 모질라 재단의 한 중역은 &quot;우리의 목표는 시장에서 큰 점유율을 얻는 것이 아니다.&quot;라고 말했다. 3~40% 정도면 충분하다는 것이다. 자본 기업은 이런 말을 상상이나 할 수 있을까? 비영리 재단이기에 가능하다. 그렇다면 저들의 의도는 무엇일까? 모질라 재단은 인간의 이익 추구를 가치로 삼고 있다. 차가운 현대인들에게는 만화 속 장난 같은 말로 들리겠지만 모질라는 정말로 그렇게 생각하고 행동한다. 마이크로소프트가 잠식한 웹 브라우저 시장에서 그들이 해낸 성과가 이를 대변한다. 독점의 시대를 종식시키고 현재는 훌륭한 중재자로서의 역할을 하고 있다. 자본 기업들의 피 튀기는 전쟁에서 돈 없는 이들이 혁신의 중간 바퀴가 되어 돌아가고 있는 것이다. 뇌가 없는 자본 기업은 시장에서 1위가 되는 - 경쟁자들이 사라지는 순간 - 현실에 안주한다. 혁신이 멈추는 것이다. 모질라가 존재하는 한 이같은 일은 일어나지 않을 것이다. 돈이 전부인 세상에서 돈 없는 자들이 더 큰 일을 하고 있다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;이끄는 자&lt;br /&gt;
+&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;
+개인적인 이야기다. 애플을 알고부터 항상 그들에게 크던 작던 영감을 받아왔다. 조금씩 삶에 스며들면서 '왜'와 '어떻게'에 대한 화두를 던저왔다. 아무리 사소한 것에도 이유가 있고 의미가 있었다. 단순한 기계 덩어리 이상의 의미로 말이다. '따라가는 자'와 '중재하는 자'는 다수가 될 수 있다. 그러나 지금까지 이들을 이끄는 '선도자'에서는 다수를 발견할 수 없었다. 애플이 그러하다. 시작부터 현재까지 의미와 철학을 바탕으로 움직였고 시장을 선도했다. 단순한 이야기가 아니다. 진정한 구루이다.&lt;br /&gt;
+&lt;br /&gt;
+동성애를 반대하는 미국의 교회가 스티브 잡스의 장례식때 시위를 한다는 글을 트위터에 올렸다. 애플이 친동성애 기업이기 때문이란다. 그런데 그 글을 올린 이는 아이폰을 사용해 글을 올렸다. 나는 애플과 스티브 잡스가 여러 대기업 중 하나, 여러 잘나신 기업가들 중 하나로 보지 않는다. 창의와 혁신으로 세상을 이끌었고 경쟁에 불을 붙였으며 진짜 인간에게 참다운 결과물을 만들었다. 농담이 아니라 Windows와 안드로이드는 애플이 만든 것이다. 이같은 이유로서, 또 개인적인 존경심에 의해서 글을 쓴다. 매년 새벽을 행복하게 해준 스티브 잡스에게 감사함을 표한다.&lt;br /&gt;
+&lt;br /&gt;
+Send from my Mac&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/182DE74E4E8DAFDD02B3D1&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile25.uf@182DE74E4E8DAFDD02B3D1.jpg&quot; height=&quot;334&quot; width=&quot;500&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-280-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=21201588&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/280&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/칼%20럼&quot;&gt;칼 럼&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/281&quot; &gt;파이어폭스 책이 출간됩니다.&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/280&quot; &gt;[R.I.P 스티브 잡스] 세상에 존재하는 세 부류&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/10/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/279&quot; &gt;구글이 타락했다! 'The Fall of Google'&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(13)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/01/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/278&quot; &gt;단상. 내가 오픈소스보다 맥을 지지하는 이유 - האלמוני בדיחות&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(13)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2010/10/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/274&quot; &gt;[특집]파이어폭스 인사이드 2주년을 통해 돌아본 우리의 웹&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/08/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/269&quot; &gt;티맥스 윈도우9 - 총체적 재앙&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(18)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/07/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>칼 럼</category>
+			<category>스티브 잡스</category>
+			<category>애플</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/280</guid>
+			<comments>http://firefoxinside.tistory.com/280#entry280comment</comments>
+			<pubDate>Thu, 06 Oct 2011 22:41:27 +0900</pubDate>
+		</item>
+		<item>
+			<title>구글이 타락했다! 'The Fall of Google'</title>
+			<link>http://firefoxinside.tistory.com/279</link>
+			<description>&lt;div&gt;
+&lt;b&gt;
+&lt;span style=&quot;font-size: 12pt; &quot;&gt;- 2011년 1월 22일&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+무슨 일이 일어났을까? 여전히 나는 &lt;b&gt;Gmail&lt;/b&gt;을 쓰고 사람들에게 권장한다. 또한 &lt;b&gt;Apple Mail&lt;/b&gt;의 &lt;b&gt;RSS&lt;/b&gt;를 포기하고 다시 &lt;b&gt;구글 Reader&lt;/b&gt;를 사용한다. 여전히 동영상은 &lt;b&gt;유투브&lt;/b&gt;에 올리고 가끔이지만 &lt;b&gt;Adsene &lt;/b&gt;로그를 확인한다. 예전만 못하지만 여전히 심시티같은 재미를 준다.&amp;nbsp;&lt;div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+모든 것이 예전과 같지만 달라진게 있다. 나와같은 많은 친구들이 그럴 것이다. 구글을 바라보는 삐딱한 시선이 바로 그것이다. 자바나라에서 밀입국한(시킨?) 안드로이드 때문이라고 구지 말하지는 않겠다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;b&gt;
+&lt;span style=&quot;font-size: 12pt; &quot;&gt;- 2007년&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;
+세상에 이런 기업이 있다니, Don't be evil이 사명이다. 홀로 바다에 떠있는 네이버같은 서비스가 일등하는 나라에서 구글은 신선한 충격이었다. 부정적인 이미지였던 웹의 광고, 그러나 구글이 만드니 찬양하지 않을 수 없다.(나랑 김중태 선생님 뿐만 아니었다) 그들이 말하는 10개의 고백은 경이롭기 까지 하다. 겉으로 떠벌리는 좋은 소리가 아니라 정말 실천하는 회사가 구글이었다. Adsense만 보아도 그렇다. 광고주-게시자-방문자-구글이 윈윈하는 이 아름다운 시스템. 그들이 추구하는 바가 그대로 들어났다. 돈이 되지 않아도 일단 본인들의 기준으로 흥미롭고 가치있다고 생각하면 일을 추진하는 모습이 구글의 매력 중 하나였다. 구글어스를 비롯한 다양한 서비스들이 증거이다. 비록 애플같은 장인의 모습은 아니었지만 그 누구보다 긱스럽고 혈기왕성했다. 나를 비롯한 많은 사람들이 구글이 하면 보지도 않고 엎드렸다. 젠장! 우리네 대기업이란 그렇지 않나? 키드들이 치고 올라오면 홀랑 빼껴서 고사시키는 더러운 방법밖에 쓸줄 모른다. 구글은 저렇게 인수해서 안정적으로 일할 수 있도록 지원해주니 누이좋고 매부좋고 부럽고 근사하다! 절대 까페테리아에서 나오는 음식 따위때문에 구글을 좋아한게 아니다. 회사에 있는 공룡화석은 예외로 하겠다.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;span style=&quot;font-size: 12pt; &quot;&gt;&lt;b&gt;- 2008년&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+이젠 너무 익숙해서 감흥이 없지만 다시 기억을 떠올려보자. 최면 따위도 필요없다. 조금만 노력해보시라. 천지가 개벽했다. 아..아이폰이라고라? 스티브 발머가 다시 한번 박살나는 순간이었다. 그냥 장난감을 만들줄 알았더니 사실 이게 컴퓨터였단 말이야. 애플은 &quot;twice as faster(두배 빠르고), half the price(반값인)&quot;라는 카피를 내걸었지만 정말 중요했던건 App이었다 App. 모두가 App을 이야기했다. 아니 App만 이야기하더라. 저 구석탱이에서 누가 웅얼웅얼 거리던데 기억나는 사람?&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;span style=&quot;font-size: 12pt; &quot;&gt;&lt;b&gt;- 2009년&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+우리는 너무 쉽게 잊어서 문제다. 때론 공룡도 잊는다. 옹알거림은 구글의 것이었고 이때까지도 그들은&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&quot;중요한건 Web이야!.....ㅜㅜ&quot;라고 진상떨고 있었다. 아이고 2년 사이에 세상이 바뀌었는데 구글만 바뀌지 않았다. 업계에서 제일 너드같은 애들이 무어의 법칙도 모르나? 뭐 좀 다르긴 하지만... 좌우당간 &quot;뭔가 다른 대책이 있긴 한데, 어쨋든 중요한건 Web!&quot;이라니 언제부터 이들이 이렇게 구질구질했을까. 이때 의심을 했었어야 했다. 설령 돈없이, 돈 보지 않고 일어선 구글이었지만 어쨋든 현재는 공룡이고 핑퐁게임 만들면서 카페테리아에서 점심만 먹고 놀 수는 없다. 언제 쓰러질지 모르는 가운데 지탱하고 있는건 광고밖에 없다는거다. 하! 그 잘 나가는 구글이 가진 카드가 한장 뿐이었다니, 왜 몰랐을까? 화성이랑 통신하는 기술을 개발하고 바다속에 서버를 심고 날고 기고 망토만 안 둘렀지 수퍼히어로나 다름없는 구글의 카드가 한장이었다. Web 위의 초라한 '광고' 하나. 모두의 시선은 App으로 갔건만...&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;b&gt;
+&lt;span style=&quot;font-size: 12pt; &quot;&gt;- 2010년&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;
+구글이 완전히 돌아버렸다. 천재소년 슈미츠는 우리 대통령보다 더 험한 소리를 지껄였다. 뭐? &quot;잘못한게 없으면 사생활이 꿀릴게 없다고?&quot;(소년 슈미츠야, 너는 줄리언 어샌지가 아니다)&lt;/div&gt;
+&lt;div&gt;
+줄리안 어샌지가 1%의 사생활을 까발릴때 구글은 99%의 사생활을 까발리고 다녔다. 그것도 뻔뻔하게! 게다가 그때까지도 구글의 Web신봉에 계속 충성하던 이들의 뒤통수를 치는 사생아 안드로이드가 활개를 쳤다. 스티브 잡스고 양복쟁이들 코를 박살내고 소비자들에게 돌려주었던 주권을 이 망나니 자식은 꺼꾸로 돌려놓고 있으니 속이 뒤집히는 노릇 아닌가? 아이고 안드로이드 네놈 아니었으면 거니거니 삼송 거니 할배도 진작에 끝인데! 옷 뒤에 도적질 한 흔적(자바 상표도 안땟더라고)이 그대로이다. 오픈소스 가면을 쓰고 난잡을 벌이는 이 깡통로봇이 옥스포드 사전에 &quot;오픈 소스의 가장 추악한 사용 사례&quot;로 기록되어야 마땅하다. 이 와중에 통신사와 나눈 더러운 밀담까지 까발렸다. 완전히 타락했다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;b&gt;
+&lt;span style=&quot;font-size: 12pt; &quot;&gt;- 다시 2011년 2월 22일&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div&gt;
+소년 에릭이 CEO 자리에서 내려온단다. 그러고는 세르게이 브린인지 레리 페이지인지가 다시 CEO로 올라간다는데(브린이나 페이지나 뭐가 달라 이 둘은 하나 아니었나? 항상 같이 언급되잖아?..) 이게 무슨 의미인지 모르겠다. 순수했던 정신은 퇴색되었고, 안타깝고 불안하기만 하다. 여전히 까페테리아에서 나오는 맛난 밥과, 본사 앞의 공룡 화석은 멋지지만(이건 정말 쿨하다고) it계의 악역은 바뀐거 같다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+난 여전히 Gmail을 쓰고 구글어스로 5사단 27연대 막사를 구경하지만 구글 버즈 이후의 서비스들은 관심도 없다. 여전히 가치있고 흥미로와 수십개의 서비스를 만들까? 예전같지도 않지만 마구 쏟아지는 서비스들은 위태롭다. 구글 웨이브를 잊지마시라. 깡통로봇에 정신팔려 아니다 싶으면 쓰레기 통에 처박는게 지금의 구글이다. 선택의 자유 좋아하시네. &quot;깡통 안드로이드는 전기 양의 꿈을 꾸나요?&quot;&lt;/div&gt;
+&lt;div&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/165605454D3AEC43290A9A&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile1.uf@165605454D3AEC43290A9A.jpg&quot; height=&quot;205&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-279-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=13320550&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/279&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/칼%20럼&quot;&gt;칼 럼&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/281&quot; &gt;파이어폭스 책이 출간됩니다.&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/280&quot; &gt;[R.I.P 스티브 잡스] 세상에 존재하는 세 부류&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/10/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/279&quot; &gt;구글이 타락했다! 'The Fall of Google'&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(13)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/01/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/278&quot; &gt;단상. 내가 오픈소스보다 맥을 지지하는 이유 - האלמוני בדיחות&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(13)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2010/10/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/274&quot; &gt;[특집]파이어폭스 인사이드 2주년을 통해 돌아본 우리의 웹&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/08/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/269&quot; &gt;티맥스 윈도우9 - 총체적 재앙&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(18)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/07/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>칼 럼</category>
+			<category>구글</category>
+			<category>아이폰</category>
+			<category>안드로이드</category>
+			<category>애플</category>
+			<category>오픈소스</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/279</guid>
+			<comments>http://firefoxinside.tistory.com/279#entry279comment</comments>
+			<pubDate>Sat, 22 Jan 2011 23:47:57 +0900</pubDate>
+		</item>
+		<item>
+			<title>단상. 내가 오픈소스보다 맥을 지지하는 이유 - האלמוני בדיחות</title>
+			<link>http://firefoxinside.tistory.com/278</link>
+			<description>&lt;div&gt;
+&lt;b&gt;&lt;span style=&quot;font-size: 14pt; &quot;&gt;האלמוני בדיחות.&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+모순일 수도 있고, 몽상일 수도 있지만 난 어쨋든 정확하게 하자면 궁극적으로 오픈소스를 지지한다. 그러나 매킨토시를 더 사랑하며, 나에게 컴퓨터에 익숙하지 않은 아이들, 늙은이들, 신체가 온전치 못한 장애인들에게 딱 하나의 컴퓨터를 추천하라면 주저없이 리눅스 머신보다는 한대의 아이맥을 추천할 것이다. 외적인 요소 이를테면 돈에 대한 문제가 개입된다면 모르겠지만(사실 이것이 너무나 중요한 문제이긴 하지만) 내 생각에는 변함이 없다.&lt;div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+모르겠다. 오픈소스가 가지는 의의가 장벽없이 모든 이들이 발전된 기술을 쉽게 접하여 더 나은 삶을 살게 한다는 것이라 생각하지만, 오픈소스가 돌아가는 시스템이란 내가 봤을 때 모두를 위한 것이라기엔 너무나 배려가 없어 보인다. 가령 당장 준비된 리눅스 머신이나 안드로이드(사실 내가 정말 의문을 품고 있는 것은 바로 이것)를 다른 자본을 우선시 하는 것들보다 더 쉽게 사용할 수 있을까? 물론 금전적인 면에서는 다르겠지만 그것을 사용하는데에는 이야기가 다르다고 생각한다. 너무나 다루기 어려워보인다. 다수의 집단 지성이 만들어나가는 거대한 지성을 지닌 이상적인 이 소프트웨어들은 사람에게서 너무나 동떨어져보인다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+애플은 오픈소스 진영과 너무나 동떨어져보이지만 돈에 대한 문제만 제외한다면 사실 추구하는 바는 (내가 보기에는) 비슷하며 아직까지는 그래도 이상을 위해 일하는 집단이다. 오픈소스 진영과 완전하게 다른 작업방식으로 그들은 매우 인간친화적인 소프트웨어를 만들었다. Mac OS X과 그 어떤 리눅스 시스템을 비교해 보아도 생각에 변함은 없다. 하드웨어의 범위가까 더 나아간다면 비교는 불가능에 가깝다. 오픈소스 진영이 좀 더 자신들의 궁극의 목표에 접근하려면 좀 더 다른 방식으로 접근해야하지 않을까? 나에게 있어 이 모든 시스템들은 너무나 모호하고 목적이 없어보인다. 내가 근본을 부정하는 것일 수 있음에도 불구하고 매킨토시나 i가 붙은 모바일 기기를 사용함에 있어서 지속적으로 드는 이 의구심이 문제이다.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div class=&quot;imageblock left&quot; style=&quot;float: left; margin-right: 10px;&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/190C05044CBB65A708E93C&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile8.uf@190C05044CBB65A708E93C.jpg&quot; height=&quot;225&quot; width=&quot;300&quot;/&gt;&lt;/div&gt;&lt;div&gt;
+그나마 대중적인 리눅스 OS인 우분투를 예로 들자. 무료로 세계 어디든 배송되는 이 운영체제는 미스테리나 다름 없다. 훌륭하지만 그 쉬운 습득에 비하면 미약하기 그지없는 점유율을 가지고 있다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+여러가지 이유가 있지만 이런 이유들을 극복하기 위한 해결책에는 답이 없다. 저 상태에 스스로들이 만족하는 것인지 어찌할 바를 모르는 것인지 모르겠다. 이른바 착한 오픈소스의 예이며 착해 빠져서 바보처럼 보인다.&amp;nbsp;그렇다면 가장 반대되는 오픈소스인 안드로이드를 살펴보자. 무서운 속도로 점유율을 올려 나가며 짧은 기간에 크게 성장했지만 안드로이드는 오픈소스의 가면을 쓴 악마이다. 방법론 자체에 있어서는 오픈소스가 맞지만 철학이 없고 못된 속셈을 가지고 있다고 의심할 수 밖에 없다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+아이폰이 2007년에 소비자들에게 돌려주었던 그 권리를 모두 다시 통신사들에게 돌려주고 있다. 겉으로는 사용자들에게 선택의 기회를 주는 듯 하지만 실상은 반대인 것이다. 안드로이드에는 다른 오픈소스 프로젝트들이 가지는 이상과 의의가 없다. 게다가 현재로는 보다 쉽게 구매할 수 있는 것도 아니다. 매력이 없으며 결과적으로 악하다고 볼 수 있다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+이처럼 기존의 착해빠진 오픈소스에 문제를 해결하기 위해서는 안드로이드의 전략과 애플의 배려가 필요하다. 이 필요요소를 위해서 무엇이 필요한지 다시 생각에 생각이 꼬리를 물다보면 결국 오픈소스와 적대시되는 자본과 거대기업으로 귀결됨을 알 수 있다. 어쩌면 오픈소스란건 몽상가들이 꾸는 철없는 꿈일 수도 있다. 모 기업의 요직자는 &quot;오픈 소스는 절대 죽지 않는다&quot;라고 말했지만 그것은 틀린 말이다. 오픈소스는 그 언제던 살아 일어나 큰 소리를 질러본적이 없다. 따라서 산적이 없으니 죽을 수도 없다. 매우 비관적이고 염세적이다. 이것이 나를 매우 안타깝게 만드는 것이다. 그럼에도 불구하고 나는 오픈소스를 지지한다. 아니 난 어쨋든 정확하게 하자면 궁극적으로 맥을 지지한다. 그 이유는 맥이 오픈소스의 이상을 닮았기 때문이다.&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-278-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=10472145&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/278&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/칼%20럼&quot;&gt;칼 럼&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/280&quot; &gt;[R.I.P 스티브 잡스] 세상에 존재하는 세 부류&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/10/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/279&quot; &gt;구글이 타락했다! 'The Fall of Google'&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(13)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/01/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/278&quot; &gt;단상. 내가 오픈소스보다 맥을 지지하는 이유 - האלמוני בדיחות&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(13)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2010/10/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/274&quot; &gt;[특집]파이어폭스 인사이드 2주년을 통해 돌아본 우리의 웹&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/08/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/269&quot; &gt;티맥스 윈도우9 - 총체적 재앙&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(18)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/07/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/267&quot; &gt;무한한 확장성의 시대 - 아이폰OS&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/06/14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>칼 럼</category>
+			<category>농담</category>
+			<category>안드로이드</category>
+			<category>애플</category>
+			<category>오픈소스</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/278</guid>
+			<comments>http://firefoxinside.tistory.com/278#entry278comment</comments>
+			<pubDate>Mon, 18 Oct 2010 06:08:49 +0900</pubDate>
+		</item>
+		<item>
+			<title>파이어폭스 인사이드 개편 준비중</title>
+			<link>http://firefoxinside.tistory.com/277</link>
+			<description>안녕하세요. 파이어폭스 인사이드의 토이입니다.&lt;br /&gt;
+&lt;br /&gt;그동안 파이어폭스 인사이드가 많이 조용했습니다. 제가 홀로 운영하는 이곳의 특성상 개인적인 일들로 운영이 원할하지 못했습니다. 그에 따라 많은 분들이 아쉬워 하셨습니다. 미약한 이곳에 많은 관심과 사랑을 주셔서 정말 감사하게 생각합니다.&lt;br /&gt;
+&lt;br /&gt;파이어폭스 인사이드는 (건방지게도)2007년에 대한민국의 웹에 문제제기를 하고자 개설되었습니다. 시간이 많이 흘렀고 그때와는 상황이 매우 달라졌습니다. 웹 브라우저의 전쟁을 선포하면서 시작했지만 이제는 -(또)건방질 수도 있겠습니다만 종전을 이야기하고자 합니다. 3년이라는 세월동안 패러다임이 이동한 것이 가장 큰 요인이고 일단 절대 악으로 규정했던 인터넷 익스플로러와 마이크로소프트가 패배했습니다. 죽어가고 있다고 표현해야 할까요? 여하튼 상황이 급변하였습니다. 그에 발맞추어 파이어폭스 인사이드는 2010년에 다른 이야기를 하고자 합니다.&lt;br /&gt;
+&lt;br /&gt;글이 뜸했음에도 불구하고 아직도 많은 분들이 파이어폭스 인사이드를 구독해 주고 계십니다. 이 글은 그 분들을 위해서 드리는 일종의 러브레터입니다. 상당한 시간이 걸리겠지만 앞으로 좀 더 공격적인 운영을 하고자 합니다. &lt;br /&gt;
+&lt;br /&gt;새로운 글을 쓰는데 많은 시간이 걸렸습니다. 이유는 판이 변했고 기존의 주장을 더이상 펼칠 수 없었기 때문입니다. 아무런 이야기도 하지 못했던 것은, 이제 어떤 이야기를 할 것인가에 대한 고민때문이었고 일단 저는 그 해답을 찾은 것 같습니다. 앞으로는 제가 찾은 그 이야기를 하고자 합니다.&lt;br /&gt;
+&lt;br /&gt;당장은 어렵겠지만 파이어폭스 인사이드를 개편하고 새롭게 운영할 것입니다. 앞서 이야기했던 것 처럼 공격적인 운영을 할 것입니다. 이 글은 흥미있게 봐주시고 바로 잊어주세요. 관심을 주시는 분들에게 시간의 지연으로 실망을 드리고 싶지는 않습니다. 다만, 확실한 것은 분명히 새롭게 시작한다는 것입니다. &lt;br /&gt;
+&lt;br /&gt;제가 드리고 싶었던 첫번째 이야기는 이제 끝났습니다. 이르다고 생각할 수 있지만 첫번째 이야기의 문제에서 우리는 이겼습니다. 과정에 대한 논란은 있겠지만, 여러분이 승리했습니다. 이제 두번째 이야기를 하려 합니다. 조금만 기다려주세요. 새롭게 시작하겠습니다.&lt;br /&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=7499509&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/277&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/뉴스&quot;&gt;뉴스&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/277&quot; &gt;파이어폭스 인사이드 개편 준비중&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(4)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2010/06/12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/272&quot; &gt;모질라 10억 다운로드 기념 사이트 오픈&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(9)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/08/01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/257&quot; &gt;파이어폭스3, 첫날 1분만에 1,4000회 이상 다운로드!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(10)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/228&quot; &gt;국제 영화제 홈피는 국내용? (부천 판타스틱 영화제)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(20)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/07/08&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/227&quot; &gt;파이어폭스3 알파는 끝이다! 그란 파라디소 최종 버전 공개&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(9)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/07/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/221&quot; &gt;애플 사파리, 한글 버그 수정&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(22)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/06/23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>뉴스</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/277</guid>
+			<comments>http://firefoxinside.tistory.com/277#entry277comment</comments>
+			<pubDate>Sat, 12 Jun 2010 00:37:10 +0900</pubDate>
+		</item>
+		<item>
+			<title>프로그램 없이 유투브 동영상 다운받기 - 사파리 팁</title>
+			<link>http://firefoxinside.tistory.com/276</link>
+			<description>&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(85, 122, 116); font-family: 돋움; font-size: 13px; border-collapse: collapse; &quot;&gt;&lt;div style=&quot;line-height: 1.4; &quot;&gt;
+사파리를 사용하시고 계시는 분들은 특정 소프트웨어를 사용하지 않고도 유투브나 다음뷰 등 동영상 스트리밍 서비스 사이트의 영상들을 다운 받으실 수 있는 방법이 있습니다. (Mac OS X에서는 검증되지 않았음을 미리 밝혀둡니다.)&lt;/div&gt;
+&lt;div style=&quot;line-height: 1.4; &quot;&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;line-height: 1.4; &quot;&gt;
+사파리를 실행하신 후&amp;nbsp;&lt;b&gt;Option + Command + A&lt;/b&gt;를 눌러 사파리의 브라우저 상태도를 불러옵니다.&lt;/div&gt;
+&lt;div style=&quot;line-height: 1.4; &quot;&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;line-height: 1.4; &quot;&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/184CCD234AF7A0FC953FCA&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile26.uf@184CCD234AF7A0FC953FCA.png&quot; height=&quot;285&quot; width=&quot;500&quot;/&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div style=&quot;line-height: 1.4; &quot;&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;line-height: 1.4; &quot;&gt;
+이 상태도는 사파리가&amp;nbsp;각각의 웹 페이지를 불러오는 상태를 모니터링할 수 있게 도와주는 창이랍니다.&amp;nbsp;이 창을 살펴보면 각각의 개체들이 로드되는 내역을&amp;nbsp;확인할 수 있는데 여기서 다운된 영상만 자신의 맥으로 쏙 저장할 수 있습니다.&lt;/div&gt;
+&lt;div style=&quot;line-height: 1.4; &quot;&gt;
+&amp;nbsp;&amp;nbsp;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/123DBB214AF7A11B952B31&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile4.uf@123DBB214AF7A11B952B31.png&quot; height=&quot;372&quot; width=&quot;500&quot;/&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div style=&quot;line-height: 1.4; &quot;&gt;
+이제 영상을 다운받아 보도록 하겠습니다. 우선 원하는 영상을 유투브에서 찾으신 후 브라우저 상태도에 나타나는 각각의 개체들을 확인해 봅니다.&amp;nbsp;다른 파일들은 Kb단윈인데&amp;nbsp;유독 Mb단위로 크기가 큰 파일들이 보입니다. 이것들이 바로 영상파일입니다.&lt;/div&gt;
+&lt;div style=&quot;line-height: 1.4; &quot;&gt;
+이제 해당하는 파일을 선택하신 후&amp;nbsp;&lt;b&gt;Option + 더블 클릭&lt;/b&gt;으로 다운로드 받으시면 자신의 컴퓨터에 저장하실 수 있습니다.&amp;nbsp;&amp;nbsp;&lt;/div&gt;
+&lt;div style=&quot;line-height: 1.4; &quot;&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/116186204AF7A12CA31657&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile10.uf@116186204AF7A12CA31657.png&quot; height=&quot;303&quot; width=&quot;500&quot;/&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style=&quot;line-height: 1.4; &quot;&gt;
+이 방법은 꼭 유투브뿐만 아니라 다른 영상 스트리밍 사이트에서도 사용가능하니, 영상을 받기 위해서 번거롭게&amp;nbsp;영상 다운로드 프로그램을 사용하지 마시고, 사파리를 이용해서 쉽게 영상을 자신의 컴퓨터에 소장해세요&lt;/div&gt;
+&lt;div style=&quot;line-height: 1.4; &quot;&gt;
+&lt;div class=&quot;autosourcing-stub-extra&quot; style=&quot;position: absolute; opacity: 0; line-height: 1.4; &quot;&gt;
+&lt;p style=&quot;margin-top: 11px; margin-right: 0px; margin-bottom: 7px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; line-height: 1.4; font-size: 12px; font-family: Dotum; font-style: normal; font-weight: normal; &quot;&gt;&lt;strong style=&quot;padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 0px; &quot;&gt;[출처]&lt;/strong&gt;&amp;nbsp;&lt;a href=&quot;http://blog.naver.com/frisbeestory/120094436025&quot; target=&quot;_blank&quot; style=&quot;text-decoration: none; &quot;&gt;유투브 영상을 갖고 싶다면? 사파리를 사용하세요!&lt;/a&gt;&lt;span style=&quot;padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 5px; &quot;&gt;|&lt;/span&gt;&lt;strong style=&quot;padding-top: 0px; padding-right: 7px; padding-bottom: 0px; padding-left: 0px; &quot;&gt;작성자&lt;/strong&gt;&amp;nbsp;&lt;a href=&quot;http://blog.naver.com/frisbeestory&quot; target=&quot;_blank&quot; style=&quot;text-decoration: none; &quot;&gt;frisbeestory&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/span&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=4716584&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/276&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/＊FireFox%20팁&quot;&gt;＊FireFox 팁&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/276&quot; &gt;프로그램 없이 유투브 동영상 다운받기 - 사파리 팁&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/11/09&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/258&quot; &gt;페이지를 확대/축소해보자! - (파이어폭스3)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/21&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/242&quot; &gt;파이어폭스의 프로필에 대해 알아보자.&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(21)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/11/13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/248&quot; &gt;우클릭 사용을 막아 놓았다면? (우클릭 금지 해제하기)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(19)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/241&quot; &gt;파이어폭스 &amp;quot;About:ㅇㅇㅇ&amp;quot; 페이지에 대해...&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(16)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/07/21&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/222&quot; &gt;구글 툴바는 숨기고, 원하는 기능은 사용하자&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(13)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/06/26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>＊FireFox 팁</category>
+			<category>동영상</category>
+			<category>사파리</category>
+			<category>유투브</category>
+			<category>팁</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/276</guid>
+			<comments>http://firefoxinside.tistory.com/276#entry276comment</comments>
+			<pubDate>Mon, 09 Nov 2009 13:58:14 +0900</pubDate>
+		</item>
+		<item>
+			<title>[특집]파이어폭스 인사이드 2주년을 통해 돌아본 우리의 웹</title>
+			<link>http://firefoxinside.tistory.com/274</link>
+			<description>&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;2007년 2월 13일 개설!&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+2007년 2월에 개설되어, 약 2년여간 여러분들의 사랑을 무럭무럭 받아온 파이어폭스 인사이드가 &lt;span style=&quot;font-weight: bold;&quot;&gt;2주년&lt;/span&gt;을 기념하여 특별 포스트를 보내드립니다.&lt;br /&gt;
+&lt;br /&gt;
+사실 기간으로만 따지만&lt;span style=&quot;font-weight: bold;&quot;&gt; 30개월&lt;/span&gt;로서 3년에 가깝지만, 제가 운영 중간에 군 입대를 하게되었습니다. 그래서 2주년이 되던 시기에 최전방에 있던 관계로 부득이 하게 2주년 &lt;span style=&quot;font-weight: bold;&quot;&gt;기념 포스트&lt;/span&gt;를 이제서야 작성해 봅니다.&lt;br /&gt;
+&lt;br /&gt;
+네 그렇습니다. 사실 30개월의 시간동안 20개월을 활동하지 못하였습니다. 하지만 발전한 육군의 병영문화 덕분(?)  틈틈히 포스팅을 할 수 있었고, 파이어폭스에 있어서 매우 중요했던 시기(&lt;span style=&quot;font-weight: bold;&quot;&gt;3번째 버전 출시, &lt;a title=&quot;[http://firefoxinside.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A43-%EA%B8%B0%EB%84%A4%EC%8A%A4-%EA%B8%B0%EB%A1%9D-%EB%8B%AC%EC%84%B1]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://firefoxinside.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A43-%EA%B8%B0%EB%84%A4%EC%8A%A4-%EA%B8%B0%EB%A1%9D-%EB%8B%AC%EC%84%B1&quot;&gt;기네스 기록 달성&lt;/a&gt;&lt;/span&gt;)도 같이 할 수 있었습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock left&quot; style=&quot;float: left; margin-right: 10px;&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/134838284A7AA3BD53FA3C&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;logo.png&quot; height=&quot;105&quot; width=&quot;102&quot;/&gt;&lt;/div&gt;무엇보다 방문자 분들께 고마운 것은 활동이 뜸했음에도 불구하고 지속적으로 찾아와 주시고 관심을 가져 주신 것입니다. 물론 각종 문제나 질문사항들을 답변해 드리지 못해서 정말로 죄송스럽게 생각했습니다.&amp;nbsp;&lt;div&gt;
+&lt;br /&gt;
+&lt;div&gt;
+전역 30일 차인 이 시점에도 방명록, 메일 등으로 질문해 주셨던 문제들의 90%를 답변해 드리지 못하고 있습니다. 그간 쌓여온 메일과 방명록 글이 상당하고, 또 저의 관련지식이 많이 낡아버린 등, 지금까지의 미답변 질문들은 앞으로도 모두 답해드릴 수 없을 것 같아 미리 양해의 말씀을 드립니다. 앞으로는 과거와 같이 각종 질문사항에 최대한 도움을 드리도록 하겠습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;2년간의 많은 변화 / 파이어폭스 인사이드&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock left&quot; style=&quot;float: left; margin-right: 10px;&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/1430481B4A7A9F89179D05&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;preview.gif&quot; height=&quot;135&quot; width=&quot;160&quot;/&gt;&lt;/div&gt;개설 후 수많은 변화가 있었지만 &lt;span style=&quot;font-weight: bold;&quot;&gt;운영방향&lt;/span&gt;은 변한적이 없었습니다. 많은 변화가 있었던 부분이라면, 역시 &lt;span style=&quot;font-weight: bold;&quot;&gt;디자인&lt;/span&gt;적인 변화가 아닐까 합니다. 빌리디안님의 자유스킨으로 시작해서 html에 관해서는 하나도 모르던 제가 추구하는 디자인을 얻기 위해 피나는 &lt;span style=&quot;font-weight: bold;&quot;&gt;삽질&lt;/span&gt;을 벌이며 결국 이제는 만족할 만한 모습을 만들어 냈습니다. &lt;br /&gt;
+이 모든 것이 최초 스킨 제작자인&lt;span style=&quot;font-weight: bold;&quot;&gt; 빌리디안&lt;/span&gt;님과 놀라운 서비스를 무료로 제공하고 있는&lt;span style=&quot;font-weight: bold;&quot;&gt; 티스토리&lt;/span&gt;, 피가 되고 살이되는 지적을 해주신 방문자님들 덕분입니다.&lt;/div&gt;
+&lt;div&gt;
+&lt;a title=&quot;[http://2007firefoxinside.tistory.com/]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://2007firefoxinside.tistory.com/&quot;&gt;(2007년 파이어폭스 인사이드 샘플 보기)&lt;/a&gt; / &lt;span style=&quot;color: rgb(142, 142, 142);&quot;&gt;페이지는 한달 뒤에 삭제됩니다.&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;07년&lt;/span&gt; 초반에 파이어폭스 인사이드 방문자의&lt;span style=&quot;font-weight: bold;&quot;&gt; 90%가 인터넷 익스플로러 유저&lt;/span&gt;였고 &lt;span style=&quot;font-weight: bold;&quot;&gt;5% 정도가 파이어폭스 유저&lt;/span&gt;였다면, 현재는 &lt;span style=&quot;font-weight: bold;&quot;&gt;50%&lt;/span&gt;가 넘는 방문자 분들이 파이어폭스를 사용하고 계십니다. 이 작은 자료로 얻을 수 있는 결론은 확실하지 않지만, 파이어폭스가 2년전 보다는 많이&lt;span style=&quot;font-weight: bold;&quot;&gt; 대중화&lt;/span&gt; 되었다는 증거정도로는 보아도 무방할 듯 합니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;2년간의 많은 변화 / 파이어폭스 + 웹 환경&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+제가 파이어폭스 인사이드를 운영하면서 파이어폭스에게나 우리나라의 웹 환경에게나 정말 많은&lt;span style=&quot;font-weight: bold;&quot;&gt; 변화&lt;/span&gt;가 있었습니다. 대충 되돌아 보아도 2번째 버전에서 &lt;a title=&quot;[http://firefoxinside.tistory.com/entry/1]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://firefoxinside.tistory.com/entry/1&quot;&gt;3번째 버전으로의 판올림&lt;/a&gt;, &lt;a title=&quot;[http://firefoxinside.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A43-%EA%B8%B0%EB%84%A4%EC%8A%A4-%EA%B8%B0%EB%A1%9D-%EB%8B%AC%EC%84%B1]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://firefoxinside.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A43-%EA%B8%B0%EB%84%A4%EC%8A%A4-%EA%B8%B0%EB%A1%9D-%EB%8B%AC%EC%84%B1&quot;&gt;기네스 기록 갱신&lt;/a&gt;, &lt;a title=&quot;[http://firefoxinside.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4-10%EC%96%B5-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%8F%8C%ED%8C%8C]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://firefoxinside.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4-10%EC%96%B5-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C-%EB%8F%8C%ED%8C%8C&quot;&gt;10억 다운로드 돌파&lt;/a&gt;, 각종 IE전용 웹 사이트들의 파이어폭스 지원 등 자랑스러운 변화도 있었지만 그때나 지금이나 변하지 않은 &lt;span style=&quot;font-weight: bold;&quot;&gt;본질적인 문제&lt;/span&gt;들도 있습니다.&lt;br /&gt;
+&lt;br /&gt;
+가장 주목할만한 점이라면 파이어폭스 인사이드가 개설되던 시점에서, 파이어폭스의 &lt;span style=&quot;font-weight: bold;&quot;&gt;세계 점유율&lt;/span&gt;은 &lt;span style=&quot;font-weight: bold;&quot;&gt;20%&lt;/span&gt;가 되지 않았지만 현재는 &lt;span style=&quot;font-weight: bold;&quot;&gt;30%&lt;/span&gt;를 돌파하였으며, 수년간 변화가 없던 MS의 인터넷 익스플로러를 &lt;span style=&quot;font-weight: bold;&quot;&gt;자극&lt;/span&gt;하여 2년동안 2번의 판올림을 하게 만든&lt;span style=&quot;font-weight: bold;&quot;&gt; 촉매 역활&lt;/span&gt;을 하였습니다. 그 외에도 &lt;span style=&quot;font-weight: bold;&quot;&gt;애플 사파리, 구글 크롬 &lt;/span&gt;등, 사실상 반 MS 익스플로러 세력을 이끌었던 &lt;span style=&quot;font-weight: bold;&quot;&gt;수장격 역활&lt;/span&gt;을 수행하였습니다. 그 결과는 매우 고무적이라고 할 수 있겠습니다. &lt;br /&gt;
+저는 현재를 &lt;span style=&quot;font-weight: bold;&quot;&gt;제 3차 웹 브라우저 전쟁&lt;/span&gt;이라고 보고 있으며, 아직도 익스플로러의 영향력은 상당하지만 수 많은 브라우저들이 탄생, 서로 경쟁하며 계속 좋은 방향으로&lt;span style=&quot;font-weight: bold;&quot;&gt; 발전&lt;/span&gt; 하고 있다고 봅니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/126806154A7AA1592B1C5E&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;download.blog.jpg&quot; height=&quot;56&quot; width=&quot;480&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;ie6 Must Die&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+특히 최근에 &lt;span style=&quot;font-weight: bold;&quot;&gt;유투브, 트위터 등의 사례&lt;/span&gt;를 시작으로&lt;span style=&quot;font-weight: bold;&quot;&gt; 구세대의 대표적 유물&lt;/span&gt;인 인터넷&lt;span style=&quot;font-weight: bold;&quot;&gt; 익스플로러6의 퇴진 운동&lt;/span&gt;이 벌어지고 있으며, 이것이 그간의 노력들이 이룩한 &lt;span style=&quot;font-weight: bold;&quot;&gt;최고의 결과물&lt;/span&gt;이 아닐까 합니다. 아직도 익스플로러6는 X지지 않고 살아 있지만&lt;span style=&quot;font-weight: bold;&quot;&gt;(특히 한국)&lt;/span&gt; 숨이 끊어질 날이 얼마 남지 않았다는게 저의 생각입니다. 관심있는 분들의 지속적인 참여를 부탁드립니다. 주변에 ie6를 사용하고 계신 분이 있다면&lt;span style=&quot;font-weight: bold;&quot;&gt; 스위칭&lt;/span&gt;을 독려해 주시고 이끌어 주세요.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/1546AF284A7AA69D73283A&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;표준2.jpg&quot; height=&quot;400&quot; width=&quot;500&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;우리의 목적은 모두에게 열린 진정한 IT강국를 만드는 것!&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+어느 &lt;span style=&quot;font-weight: bold;&quot;&gt;맥 유저&lt;/span&gt;가 자신이 자주 찾는 사이트가 맥을 지원하지 않자 지속적으로 사이트 관계자에게 요청을 하여 결국 그 사이트가 맥도 지원하게 되었다는 놀라운 &lt;span style=&quot;font-weight: bold;&quot;&gt;사례&lt;/span&gt;가 있습니다. 개개인의 힘으로는 힘들 것 같지만, 지속적으로 노력하거나, 모두가 힘을 합치다 보면 결국 목표를&lt;span style=&quot;font-weight: bold;&quot;&gt; 성취&lt;/span&gt;할 수 있습니다. 자본주의 사회의 권력은 자본이며, 그 자본은 소비자에게 나온다는 &lt;span style=&quot;font-weight: bold;&quot;&gt;논리&lt;/span&gt;는 웹에서도 적용되기 때문입니다. &lt;br /&gt;
+&lt;br /&gt;
+점점 대한민국은 살기 싫은 나라가 되어가지만, &lt;span style=&quot;font-weight: bold;&quot;&gt;주권&lt;/span&gt;을 가진 &lt;span style=&quot;font-weight: bold;&quot;&gt;우리&lt;/span&gt;가 이 나라를 바꿀 수 있듯이, 꽉 막힌 이 나라의 &lt;span style=&quot;font-weight: bold;&quot;&gt;웹&lt;/span&gt;을 바꿀 수 있는 힘은 우리에게 있으며, &lt;span style=&quot;font-weight: bold;&quot;&gt;그 시작은 웹 브라우저&lt;/span&gt;에서 시작한다는 것이 저의 주장입니다.&lt;br /&gt;
+&lt;br /&gt;
+이 짧은 글로 2주년 포스트를 마치겠습니다.&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(48, 88, 210);&quot;&gt; 그동안 파이어폭스와 파이어폭스 인사이드에 관심을 가져주신 분들에게 정말 감사의 말씀을 드리고 싶습니다.&lt;/span&gt; 앞으로도 계속 활동하는 모습을 지켜봐 주세요!&lt;br /&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=3859387&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/274&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/칼%20럼&quot;&gt;칼 럼&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/279&quot; &gt;구글이 타락했다! 'The Fall of Google'&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(13)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/01/22&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/278&quot; &gt;단상. 내가 오픈소스보다 맥을 지지하는 이유 - האלמוני בדיחות&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(13)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2010/10/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/274&quot; &gt;[특집]파이어폭스 인사이드 2주년을 통해 돌아본 우리의 웹&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/08/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/269&quot; &gt;티맥스 윈도우9 - 총체적 재앙&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(18)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/07/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/267&quot; &gt;무한한 확장성의 시대 - 아이폰OS&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/06/14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/266&quot; &gt;구글 크롬, 오픈소스 브라우저의 새로운 친구&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(20)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/09/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>칼 럼</category>
+			<category>2주년</category>
+			<category>웹 표준</category>
+			<category>파이어폭스</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/274</guid>
+			<comments>http://firefoxinside.tistory.com/274#entry274comment</comments>
+			<pubDate>Thu, 06 Aug 2009 19:48:37 +0900</pubDate>
+		</item>
+		<item>
+			<title>파이어폭스, 화려한 탭 전환의 극치(Fox Tab)</title>
+			<link>http://firefoxinside.tistory.com/273</link>
+			<description>이번에 소개해 드리는 확장기능은 실용성 보다는&lt;span style=&quot;font-weight: bold;&quot;&gt; 화려함&lt;/span&gt;을 강조한 &lt;span style=&quot;font-weight: bold;&quot;&gt;탭 전환&lt;/span&gt; 확장기능으로서 시중에 나온 메이저 소프트웨어들에게서 볼 수 있었던 거의 대부분의 &lt;span style=&quot;font-weight: bold;&quot;&gt;3D효과&lt;/span&gt;를 볼 수 있습니다.&lt;br /&gt;
+&lt;br /&gt;화려한 효과를 통해 즐거운 웹 브라우징을 즐길 수 있는 것이 이 확장기능의 가장 큰 특징입니다.&lt;br /&gt;
+&lt;br /&gt;
+설치하신 뒤 부가기능 설정에서 자세한 세부 설정 또한 가능합니다. 이외에도 메뉴바에 &lt;span style=&quot;font-weight: bold;&quot;&gt;아이콘&lt;/span&gt;(아래 그림의 &lt;span style=&quot;font-weight: bold; color: rgb(227, 22, 0);&quot;&gt;0&lt;/span&gt;)을 이용해서 간편하게 개인화가 가능합니다. &lt;a title=&quot;[https://addons.mozilla.org/ko/firefox/addon/8879]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;https://addons.mozilla.org/ko/firefox/addon/8879&quot;&gt;(설치하기)&lt;/a&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/11746B104A76764401E905&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;fox-tab.jpg&quot; height=&quot;458&quot; width=&quot;500&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;/ 1&lt;/span&gt; - 이곳에서는 순서대로 &lt;span style=&quot;font-weight: bold;&quot;&gt;세부옵션, 개별보기&lt;/span&gt;(Grouping),&lt;span style=&quot;font-weight: bold;&quot;&gt; 페이지 찾기&lt;/span&gt;(페이지가 많을 경우 페이지 이름을 검색가능), &lt;span style=&quot;font-weight: bold;&quot;&gt;현재 페이지 숫자&lt;/span&gt;를 볼 수 있습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;/ 2&lt;/span&gt; - 웹 페이지의 미묘한 &lt;span style=&quot;font-weight: bold;&quot;&gt;각도&lt;/span&gt;를 조절 할 수 있습니다, 미리 정해진 &lt;span style=&quot;font-weight: bold;&quot;&gt;배경&lt;/span&gt;과 개인이 선택한 배경으로 수정이 가능합니다. 웹 페이지의 경로를 입력하여 배경을 바꾸는 것도 가능한데, 위에 보시는 배경도 구글링을 통한 윈도우7 테마입니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;/ 3&lt;/span&gt; - 페이지의&lt;span style=&quot;font-weight: bold;&quot;&gt; 배열 디자인&lt;/span&gt;을 선택 할 수 있습니다. 유명한 애플의 커버 플로우, 윈도우 비스타에서 적용되었던 프로그램 전환 효과, 사파리의 전광판식 효과 등 원하는 것을 골라서 선택 할 수 있습니다.&lt;br /&gt;
+&lt;br /&gt;
+이 화면 효과들은&lt;span style=&quot;font-weight: bold;&quot;&gt; 컨트롤 + 탭&lt;/span&gt;(기본 설정)을 통해 불러 올 수 있으며 &lt;span style=&quot;font-weight: bold;&quot;&gt;컨트롤 + 쉬프트 + 탭&lt;/span&gt;으로 역순 방향으로 진행도 가능합니다. &lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/19706E284A7679B63C49A4&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;fox-tab2.jpg&quot; height=&quot;384&quot; width=&quot;500&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+앞에서도 언급했듯이 실용성 보다는 다른 이들에게 화려한 효과를 보여주거나 즐기기 위해 사용하면 참 좋은 확장기능입니다.&lt;br /&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/273&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/＊FireFox%20확장&quot;&gt;＊FireFox 확장&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/273&quot; &gt;파이어폭스, 화려한 탭 전환의 극치(Fox Tab)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/08/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/268&quot; &gt;파이어폭스에서 트위터를 즐기자(TwitterFox)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(4)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/06/14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/239&quot; &gt;파이어폭스 사이트 차단 확장기능(원하는 사이트 차단하기)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(23)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/07/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/219&quot; &gt;불여우에서 음악 듣자! (파이어폭스 음악 재생기)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(17)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/06/23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/207&quot; &gt;구글이 만든 파이어폭스 확장기능 - Google Browser Sync&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(20)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/06/10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/180&quot; &gt;황당한 파이어폭스 확장기능&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(33)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/05/25&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>＊FireFox 확장</category>
+			<category>Fox tab</category>
+			<category>파이어폭스</category>
+			<category>확장기능</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/273</guid>
+			<comments>http://firefoxinside.tistory.com/273#entry273comment</comments>
+			<pubDate>Mon, 03 Aug 2009 14:47:01 +0900</pubDate>
+		</item>
+		<item>
+			<title>모질라 10억 다운로드 기념 사이트 오픈</title>
+			<link>http://firefoxinside.tistory.com/272</link>
+			<description>2004년 출시된 파이어폭스가 어제 5년여만에 &lt;span style=&quot;font-weight: bold;&quot;&gt;10억 다운로드&lt;/span&gt;를 돌파하였습니다. &lt;br /&gt;
+이에 모질라에서는 &lt;a title=&quot;[http://www.onebillionplusyou.com/?lang=ko#feature-instant]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://www.onebillionplusyou.com/?lang=ko#feature-instant&quot;&gt;10억+You&lt;/a&gt;라는 &lt;span style=&quot;font-weight: bold;&quot;&gt;기념 사이트&lt;/span&gt;를 오늘 오픈하였습니다. &lt;br /&gt;
+&lt;br /&gt;
+이 사이트에서는 10억 다운로드된 파이어폭스의 의의와 10억이라는 숫자와 관련된 재미있는 정보들을 전달하고 있습니다. 꼭 방문해 보시기 바랍니다.&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/170C52194A73E3F0235070&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;10b.jpg&quot; height=&quot;540&quot; width=&quot;500&quot;/&gt;&lt;/div&gt;&lt;br /&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/272&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/뉴스&quot;&gt;뉴스&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/277&quot; &gt;파이어폭스 인사이드 개편 준비중&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(4)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2010/06/12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/272&quot; &gt;모질라 10억 다운로드 기념 사이트 오픈&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(9)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/08/01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/257&quot; &gt;파이어폭스3, 첫날 1분만에 1,4000회 이상 다운로드!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(10)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/228&quot; &gt;국제 영화제 홈피는 국내용? (부천 판타스틱 영화제)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(20)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/07/08&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/227&quot; &gt;파이어폭스3 알파는 끝이다! 그란 파라디소 최종 버전 공개&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(9)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/07/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/221&quot; &gt;애플 사파리, 한글 버그 수정&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(22)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/06/23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>뉴스</category>
+			<category>파이어폭스</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/272</guid>
+			<comments>http://firefoxinside.tistory.com/272#entry272comment</comments>
+			<pubDate>Sat, 01 Aug 2009 15:43:17 +0900</pubDate>
+		</item>
+		<item>
+			<title>파이어폭스 10억 다운로드 돌파!</title>
+			<link>http://firefoxinside.tistory.com/271</link>
+			<description>&lt;span style=&quot;font-weight: bold;&quot;&gt;2004년&lt;/span&gt;에 출시되어 많은 수상과 갖가지 기록을 만들어낸 파이어폭스가 출시 5년여만에 &lt;span style=&quot;font-weight: bold;&quot;&gt;10억 다운로드 돌파&lt;/span&gt;했습니다. 이 수치는 거의 하루에 &lt;span style=&quot;font-weight: bold;&quot;&gt;50만회&lt;/span&gt; 이상 다운 되었다는 것을 의미합니다.&lt;br /&gt;
+&lt;br /&gt;현재 &lt;span style=&quot;font-weight: bold;&quot;&gt;구글 크롬, 사파리, 오페라 &lt;/span&gt;등 많은 브라우저들이 활약하고 있지만 90%의 독점체제를 유지하던 MS의 &lt;span style=&quot;font-weight: bold;&quot;&gt;인터넷 익스플로러(이하 iE)&lt;/span&gt;에 도전하여 큰 성과를 거둔 거의 유일한 웹 브라우저가 파이어폭스 입니다. &lt;br /&gt;
+&lt;br /&gt;파이어폭스는 iE의 뒤를 이어 약 30%의 점유율로 많은 사랑을 받고 있습니다. 이번 10억 다운로드 돌파는 지난 &lt;a title=&quot;[http://firefoxinside.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A43-%EA%B8%B0%EB%84%A4%EC%8A%A4-%EA%B8%B0%EB%A1%9D-%EB%8B%AC%EC%84%B1]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://firefoxinside.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A43-%EA%B8%B0%EB%84%A4%EC%8A%A4-%EA%B8%B0%EB%A1%9D-%EB%8B%AC%EC%84%B1&quot;&gt;기네스 기록갱신&lt;/a&gt;과 더불어 아주 의미가 깊다고 생각합니다.&lt;br /&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;embed width=&quot;402&quot; height=&quot;324&quot; src=&quot;http://www.spreadfirefox.com/files/images/1billiondownloads-landscape.png&quot;/&gt;&lt;br /&gt;
+&lt;/div&gt;/ 10억 다운로드를 축하하기 위한&lt;a title=&quot;[http://www.onebillionplusyou.com/]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://www.onebillionplusyou.com/&quot;&gt; 기념 사이트&lt;/a&gt;가 오픈직전에 있습니다.(추가/8월 4일 오픈예정)&lt;br /&gt;
+/ 트위터를 사용하시는 분들은 &lt;a title=&quot;[http://twibbon.com/join/1-billion-Firefox-downloads]로 이동합니다.&quot; target=&quot;_blank&quot; href=&quot;http://twibbon.com/join/1-billion-Firefox-downloads&quot;&gt;10억 돌파 기념 트윗본&lt;/a&gt;이 있으니 많이 활용해 주시기 바랍니다. &lt;br /&gt;
+&lt;div&gt;/ 파이어폭스 &lt;a href=&quot;http://twitter.com/firefox&quot; target=&quot;_blank&quot; title=&quot;[http://twitter.com/firefox]로 이동합니다.&quot;&gt;공식 트위터&lt;/a&gt; 팔로우하시고 최신 소식받아보시기 바랍니다.&lt;/div&gt;
+&lt;div&gt;/ 파이어폭스 인사이드를 운영중인 저의 &lt;a href=&quot;http://twitter.com/toyiloveu&quot; target=&quot;_blank&quot; title=&quot;[http://twitter.com/toyiloveu]로 이동합니다.&quot;&gt;트위터&lt;/a&gt;로도 파이어폭스 소식을 전하고 있습니다.&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/271&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/기%20타&quot;&gt;기 타&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/271&quot; &gt;파이어폭스 10억 다운로드 돌파!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(3)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/08/01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/265&quot; &gt;구글의 차세대 웹 브라우저 크롬, 비하인드 스토리&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/09/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/263&quot; &gt;서태지도 파이어폭스의 팬이다?!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/28&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/261&quot; &gt;파이어폭스3 기네스 기록 달성!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/256&quot; &gt;파이어폭스3 다운로드 데이는 6월 17일!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/255&quot; &gt;파이어폭스3 다운로드 데이 - 이제는 행동할 시간이다!(Download Day)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(6)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>기 타</category>
+			<category>파이어폭스</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/271</guid>
+			<comments>http://firefoxinside.tistory.com/271#entry271comment</comments>
+			<pubDate>Sat, 01 Aug 2009 00:04:56 +0900</pubDate>
+		</item>
+		<item>
+			<title>파이어폭스3.5 초기구동 느려짐 문제</title>
+			<link>http://firefoxinside.tistory.com/270</link>
+			<description>&lt;span style=&quot;font-weight: bold;&quot;&gt;파이어폭스3.5&lt;/span&gt; 출시 후 &lt;span style=&quot;font-weight: bold;&quot;&gt;초기 구동&lt;/span&gt;이 지연되는 &lt;span style=&quot;font-weight: bold;&quot;&gt;문제&lt;/span&gt;가 발생하고 있습니다. &lt;br /&gt;이 문제는 &lt;span style=&quot;font-weight: bold;&quot;&gt;버그&lt;/span&gt;로서 인터넷 &lt;span style=&quot;font-weight: bold;&quot;&gt;익스플로러&lt;/span&gt;의 &lt;span style=&quot;font-weight: bold;&quot;&gt;임시파일&lt;/span&gt; 폴더에 파일들이 많은 경우 나타나는 문제라고 합니다. 이 버그는 곧&lt;span style=&quot;font-weight: bold;&quot;&gt; 패치&lt;/span&gt;를 통해 해결된다고 합니다. 하지만 그때까지 기다리기 힘드신 분들은 인터넷 익스플로러의 설정에서 임시파일을 제거하는 방법으로 &lt;span style=&quot;font-weight: bold;&quot;&gt;해결&lt;/span&gt;이 가능합니다.&lt;br /&gt;&lt;br /&gt;(인터넷 익스플로러7 사용시)&lt;br /&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;/인터넷 익스플로러 &lt;/span&gt;실행&lt;span style=&quot;font-weight: bold;&quot;&gt; - 도구 - 인터넷 옵션&lt;/span&gt;&lt;br style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;/&quot;일반&quot; &lt;/span&gt;탭 선택&lt;span style=&quot;font-weight: bold;&quot;&gt; - 검색기록 - &quot;삭제&quot; &lt;/span&gt;선택 후&lt;span style=&quot;font-weight: bold;&quot;&gt; &quot;모두 삭제&quot; &lt;/span&gt;선택&lt;br /&gt;&lt;br /&gt;이와 더불어 위의 상태를 계속 유지시켜 주시려면 케시파일 용량을 줄여주시면 되겠습니다.&lt;br /&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;/인터넷 익스플로러 &lt;/span&gt;실행 &lt;span style=&quot;font-weight: bold;&quot;&gt;- 도구 - 인터넷 옵션&lt;/span&gt;&lt;br style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;/&quot;일반&quot; &lt;/span&gt;탭 선택&lt;span style=&quot;font-weight: bold;&quot;&gt; - 설정 - &quot;사용할 디스크 공간&quot; &lt;/span&gt;을 줄여준다&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfs13.tistory.com/image/33/tistory/2009/07/10/18/07/4a5704e5ee05d&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;349&quot; width=&quot;334&quot;/&gt;&lt;/div&gt;&lt;br /&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/270&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/＊FireFox%20문제&quot;&gt;＊FireFox 문제&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/270&quot; &gt;파이어폭스3.5 초기구동 느려짐 문제&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(4)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/07/10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/225&quot; &gt;[파이어폭스 문제해결] about:config(환경설정)에서 실수를 했다면?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(6)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/07/01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/159&quot; &gt;[파이어폭스 문제해결] 불법적인 플러그인 동작&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(4)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/04/30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/158&quot; &gt;[파이어폭스 문제해결] kernel32.dll 오류&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/04/30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/156&quot; &gt;[파이어폭스 문제해결] 북마크가 사라졌어요!!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(3)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/04/29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/120&quot; &gt;[파이어폭스 문제해결] 왜 웹사이트가 이상하게 보이죠?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/04/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>＊FireFox 문제</category>
+			<category>문제해결</category>
+			<category>초기구동</category>
+			<category>팁</category>
+			<category>파이어폭스</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/270</guid>
+			<comments>http://firefoxinside.tistory.com/270#entry270comment</comments>
+			<pubDate>Fri, 10 Jul 2009 18:08:52 +0900</pubDate>
+		</item>
+		<item>
+			<title>티맥스 윈도우9 - 총체적 재앙</title>
+			<link>http://firefoxinside.tistory.com/269</link>
+			<description>7월 7일 오늘, 티맥스 소프트사의 자칭 &lt;strong&gt;&quot;위대한 도전&quot;&lt;/strong&gt;의 발표회가 있었습니다. &lt;br /&gt;
+몇일 전 공개된 &lt;strong&gt;조작&lt;/strong&gt;된 스크린샷 화면덕에 많이 이들의 &lt;strong&gt;관심&lt;/strong&gt;을 받고 있었고, 저 또한 얼마나 위대한 도전인지 궁금하여 확인해 보았습니다.&lt;br /&gt;
+&lt;br /&gt;
+일단 이번 발표회를 한마디로 요약하자면&lt;strong&gt; &quot;총체적 재앙&quot;&lt;/strong&gt;이라고 볼 수 있겠습니다. &lt;strong&gt;스타크래프트&lt;/strong&gt;는 구동에만 1분이 넘게 걸렸고, 동영상 프로그램은 &lt;strong&gt;다운&lt;/strong&gt;되는 등 제대로 돌아가는 프로그램도 없었으며, 몇몇 &lt;strong&gt;자체제작&lt;/strong&gt; 프로그램이라고 우기는 것들은 아에 티맥스 윈도우9에서는 구동도 되지 않아 &lt;strong&gt;윈도우XP&lt;/strong&gt;에서 시연해주는 어처구니 없는 상황도 연출되었습니다.&lt;br /&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;object width=&quot;400&quot; height=&quot;300&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/tw--ZZ24n6g&amp;amp;hl=ko&amp;amp;fs=1&amp;amp;&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/tw--ZZ24n6g&amp;amp;hl=ko&amp;amp;fs=1&amp;amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;400&quot; height=&quot;300&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+그리고 가장 &lt;strong&gt;불쾌&lt;/strong&gt;했던 것은, 사실 티맥스 윈도우9과 관계된 것들 중 티맥스가 제대로 만든 것이 무엇인가 하는 것입니다. 누가 보더라도 윈도우 기반에 &lt;strong&gt;오픈소스&lt;/strong&gt;를 짜집기 해놓은 것에 불과한 것이 오늘 목격한 티맥스 윈도우였습니다. 그럼에도 불구하고 자기들이&lt;strong&gt; 100%&lt;/strong&gt; 만든 것인양 떠벌이는 이 티맥스라는 회사는 &lt;strong&gt;양심&lt;/strong&gt;이 있는지 의문스럽습니다. 또한 짝퉁 윈도우를 만든 사람들이 &lt;strong&gt;마이크로소프트&lt;/strong&gt;를 비난하는 것도 이해가 되지 않는 부분입니다.&lt;div&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/1232E1244A609CAE070993&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Tmax.png&quot; height=&quot;342&quot; width=&quot;500&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+이번 &lt;strong&gt;티맥스 윈도우9&lt;/strong&gt;은 &lt;strong&gt;중국&lt;/strong&gt;이 &lt;strong&gt;짝퉁 아이폰&lt;/strong&gt;을 만들어서 대대적으로 홍보하는 것과 같은 모습이었습니다.&lt;br /&gt;
+부디 이번 사태가 후대에 &lt;strong&gt;끔찍한 사례&lt;/strong&gt;로 남아 다시는 이런 일이 일어나지 않았으면 합니다.&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/269&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/칼%20럼&quot;&gt;칼 럼&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/278&quot; &gt;단상. 내가 오픈소스보다 맥을 지지하는 이유 - האלמוני בדיחות&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(13)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2010/10/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/274&quot; &gt;[특집]파이어폭스 인사이드 2주년을 통해 돌아본 우리의 웹&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/08/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/269&quot; &gt;티맥스 윈도우9 - 총체적 재앙&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(18)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/07/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/267&quot; &gt;무한한 확장성의 시대 - 아이폰OS&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/06/14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/266&quot; &gt;구글 크롬, 오픈소스 브라우저의 새로운 친구&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(20)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/09/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/264&quot; &gt;IE8, 버그투성이 브라우저?(머니투데이의 버그투성이 기사)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(10)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/08/02&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>칼 럼</category>
+			<category>마이크로소프트</category>
+			<category>아이폰</category>
+			<category>윈도우</category>
+			<category>티맥스</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/269</guid>
+			<comments>http://firefoxinside.tistory.com/269#entry269comment</comments>
+			<pubDate>Tue, 07 Jul 2009 19:43:10 +0900</pubDate>
+		</item>
+		<item>
+			<title>파이어폭스에서 트위터를 즐기자(TwitterFox)</title>
+			<link>http://firefoxinside.tistory.com/268</link>
+			<description>요즘 어딜가나 &lt;span style=&quot;font-weight: bold;&quot;&gt;트위터&lt;/span&gt; 이야기가 빠지지 않습니다. &lt;span style=&quot;font-weight: bold;&quot;&gt;아이폰&lt;/span&gt;같은 휴대용 디바이스에서도 &lt;span style=&quot;font-weight: bold;&quot;&gt;앱&lt;/span&gt;(app)을 통해 사용할 수 있게되어 어디에서나 쉽고 편하게 자기의 생각을 트위터에 올립니다. &lt;span style=&quot;font-weight: bold;&quot;&gt;파이어폭스&lt;/span&gt;에서도 팝업 구조로 간편하게 트위터를 사용할 수 있게 해주는 &lt;span style=&quot;font-weight: bold;&quot;&gt;확장기능(TwitterFox)&lt;/span&gt;이 있어서 소개해 드립니다.&lt;br /&gt;&lt;br /&gt;기존 &lt;span style=&quot;font-weight: bold;&quot;&gt;Twitter.com&lt;/span&gt;에서 제공하는 기본적인 기능을 마치 &lt;span style=&quot;font-weight: bold;&quot;&gt;매신저&lt;/span&gt;처럼 사용 할 수 있게 해주는 확장기능입니다. 설치하신 후 &lt;span style=&quot;font-weight: bold;&quot;&gt;설정옵션&lt;/span&gt;에서 자신의 트위터 &lt;span style=&quot;font-weight: bold;&quot;&gt;계정&lt;/span&gt;을 입력해주면 자동으로 로그인 됩니다. 우측 하단을 보시면 트위터 아이콘이 생긴걸 보실 수 있습니다. 앞에 말씀드린 설정에서는 &lt;span style=&quot;font-weight: bold;&quot;&gt;글씨크기&lt;/span&gt;나 새로고침 &lt;span style=&quot;font-weight: bold;&quot;&gt;시간간격&lt;/span&gt;, &lt;span style=&quot;font-weight: bold;&quot;&gt;알림소리&lt;/span&gt; 등을 자신에 맞게 조절해 줄 수 있으며 팝업을 키고 끄는 &lt;span style=&quot;font-weight: bold;&quot;&gt;단축키&lt;/span&gt;도 설정이 가능합니다. &lt;span style=&quot;font-weight: bold;&quot;&gt;(기본값은 컨트롤*쉬프트+i)&lt;/span&gt;입니다.&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfs14.tistory.com/image/24/tistory/2009/06/14/20/50/4a34e40fa5abb&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;318&quot; width=&quot;450&quot;/&gt;&lt;/div&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;TwitterFox&lt;/span&gt;만의 장점 한가지를 꼽자면 편리한&lt;span style=&quot;font-weight: bold;&quot;&gt; 링크사용&lt;/span&gt;이 있겠습니다. 웹 서핑중 트위터에 링크하고 싶은 곳을 발견하면 그 상태에서 트위터 링크를 키고&lt;span style=&quot;font-weight: bold;&quot;&gt;(컨트롤+쉬프트+i)&lt;/span&gt;, &lt;span style=&quot;font-weight: bold;&quot;&gt;[컨트롤+쉬프트+L]&lt;/span&gt;(이 역시 임의 설정 가능)을 입력하면 팝업창에 그대로 링크가 입력되는 방식입니다. 상당히 유용하고 편리해서 한번 맛들이면 빠져나오기 힙들더군요.&lt;br /&gt;&lt;a href=&quot;https://addons.mozilla.org/ko/firefox/addon/5081&quot; target=&quot;_blank&quot;&gt;설치하기&lt;/a&gt;&lt;br /&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/268&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/＊FireFox%20확장&quot;&gt;＊FireFox 확장&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/273&quot; &gt;파이어폭스, 화려한 탭 전환의 극치(Fox Tab)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/08/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/268&quot; &gt;파이어폭스에서 트위터를 즐기자(TwitterFox)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(4)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/06/14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/239&quot; &gt;파이어폭스 사이트 차단 확장기능(원하는 사이트 차단하기)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(23)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/07/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/219&quot; &gt;불여우에서 음악 듣자! (파이어폭스 음악 재생기)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(17)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/06/23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/207&quot; &gt;구글이 만든 파이어폭스 확장기능 - Google Browser Sync&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(20)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/06/10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/180&quot; &gt;황당한 파이어폭스 확장기능&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(33)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/05/25&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>＊FireFox 확장</category>
+			<category>아이팟</category>
+			<category>아이폰</category>
+			<category>트위터</category>
+			<category>파이어폭스</category>
+			<category>확장기능</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/268</guid>
+			<comments>http://firefoxinside.tistory.com/268#entry268comment</comments>
+			<pubDate>Sun, 14 Jun 2009 20:51:12 +0900</pubDate>
+		</item>
+		<item>
+			<title>무한한 확장성의 시대 - 아이폰OS</title>
+			<link>http://firefoxinside.tistory.com/267</link>
+			<description>요즘 세상이 떠들썩 하다. 너도 나도 모두 뛰어들고 있고 ,옆집 철수는 하루 아침에 백만장자가 되었단다. 쉽고, 간단하고, 모두에게 열린 진정한 월드 클레스 &lt;B&gt;블루오션&lt;/B&gt;이라는 이것은&amp;nbsp;바로 &lt;B&gt;아이폰/아이팟 터&lt;/B&gt;&lt;B&gt;치&lt;/B&gt; OS의 &lt;B&gt;앱 스토어(App store)&lt;/B&gt; 이야기이다.&lt;br /&gt;
+&lt;br /&gt;&lt;B&gt;앱 스토어&lt;/B&gt;는 누구나 아이폰/아이팟 터치의 &lt;B&gt;응용 프로그램&lt;/B&gt;을 만들고, 살 수 있는 &lt;B&gt;응용 프로그램 장터&lt;/B&gt;이다. &lt;B&gt;하드웨어&lt;/B&gt;는 한번 만들어지면 추후에 발전시키기 힘든 물건이다. 이런 하드웨어의 단점을 극복시켜 주는 것이 바로 &lt;B&gt;소프트웨어&lt;/B&gt;인데 다양한 기술을 접목시킨 하드웨어 안에 자신이 원하는 것을 쉽게 구현 시킬 수 있는 &lt;B&gt;소프트웨어 제작 도구(iPhone OS SDK)&lt;/B&gt;를 포함시킨 애플은 조직적이고 거대한 기업이 아니더라도, 기본적인 실력과 열정, 그리고 아이디어만 있다면 응용 프로그램을 만들 수 있게 하였다. 개발자들은 이렇게 만들어진 앱 스토어 상에서 무료로 공유시키거나 &lt;B&gt;유료&lt;/B&gt;로 팔아서 &lt;B&gt;이익&lt;/B&gt;을 챙길 수 있게 한 것이다. 지금&amp;nbsp;앱스토어 안에서는 &lt;B&gt;평범한&amp;nbsp;개인 개발자&lt;/B&gt;들이 EA같은 &lt;B&gt;대기업&lt;/B&gt;과 &lt;B&gt;동등한 조건&lt;/B&gt;에서 활동하고 있다. 이전에는 있을 수 없는 일이었다.
+&lt;DIV&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/122729174A609F0692B354&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;iphone os.jpg&quot; height=&quot;254&quot; width=&quot;402&quot;/&gt;&lt;/div&gt;&lt;/DIV&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;B&gt;
+&lt;DIV class=txc-textbox style=&quot;BORDER-RIGHT: rgb(219,232,251) 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: rgb(219,232,251) 1px solid; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; BORDER-LEFT: rgb(219,232,251) 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: rgb(219,232,251) 1px solid; BACKGROUND-COLOR: rgb(219,232,251)&quot;&gt;세계적으로&amp;nbsp;약 2억개가 판매된 이 디바디스에는 사용가능한&amp;nbsp;5만개의 프로그램이 있고, &lt;br /&gt;
+이것들은 얼마전&amp;nbsp;10억 다운로드를 돌파했다.&lt;/DIV&gt;&lt;/B&gt;&lt;/DIV&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;
+&lt;/DIV&gt;Wifi, 가속도 센서, 멀티터치 제스처, 카메라 등 흥미로운 기술의 집합체인 아이폰/아이팟 터치는 기본기능 그 자체로도 충분히 매력적인 기기이지만&lt;B&gt; 애플&lt;/B&gt;은 여기에 앞에서 언급했던 앱 스토어라는 개념을 추가 시켜 개발자와 소비자가 알아서 거품을 물고 뛰어 놀 수 있는 &lt;B&gt;놀이터&lt;/B&gt;를 만들어 줌으로 인해서 - 흥미로운 기능과 놀라운 보급량의 하드웨어 + 쉬운 개발자 툴 + 상식적인 수익 구조등이 연쇄효과를 일으키며 &lt;B&gt;세계적인 붐&lt;/B&gt;을 일으키고 있다.&lt;br /&gt;
+&lt;br /&gt;이렇게 수많은 사람들이 참여한 아이폰/아이팟 터치라는 바다는 하드웨어라는 한계를 뛰어넘어 놀라운 모습을 보여주고 있다. 닌텐도DS 급의 &lt;B&gt;게임&lt;/B&gt;에서 부터 혈당을 계산하고, 입으로 바람을 불어 소리를 내는 &lt;B&gt;악기&lt;/B&gt;까지 과연 이렇게 &lt;B&gt;무궁무진&lt;/B&gt;하고 &lt;B&gt;경이&lt;/B&gt;로운 기능을 보여주었던 &lt;B&gt;휴대용 기기&lt;/B&gt;가 있었나 돌아보게 만들고 있다. &lt;br /&gt;
+&lt;br /&gt;이 &lt;B&gt;놀라운 성공&lt;/B&gt;은 사실 엄청 &lt;B&gt;혁신&lt;/B&gt;적인 개념에서 나온 것은 아니다. 단지 애플은 &lt;B&gt;개인 컴퓨터&lt;/B&gt;&lt;FONT class=Apple-style-span color=#7293fa&gt;(소프트웨어가 하드웨어를 확장시킨다)&lt;/FONT&gt;에서 이미 &lt;B&gt;증명&lt;/B&gt;된 것을 휴대용 디바이스라는 것에 구현시킨 것이다. 다만 눈 부실정도로 아름답고 정교하게 말이다. 웹 브라우저 &lt;B&gt;파이어폭스&lt;/B&gt;도 애플과는 다른 &lt;B&gt;철학&lt;/B&gt;을 가지고 있지만, 큰 틀에서 보면 아이폰과 같은 &lt;B&gt;이유&lt;/B&gt;에서 성공하였다. 이 둘의 &lt;B&gt;공통점&lt;/B&gt;은 바로 쉽고 널리 &lt;B&gt;공유&lt;/B&gt;될 수 있는 &lt;B&gt;확장성&lt;/B&gt;이다. 그런데 이 둘에는 &lt;B&gt;다른 공통점&lt;/B&gt;이 있는데 그것은 바로&lt;B&gt; 대한민국&lt;/B&gt;이란 나라에서 사용하기 매우 힘들다는 것이다. &lt;br /&gt;
+자랑스러운 세계최고의 &lt;B&gt;IT강국&lt;/B&gt;에서 세계 최고의 디바이스와 웹 브라우저는 단지 &lt;B&gt;돌맹이&lt;/B&gt;와 &lt;B&gt;그림외 떡&lt;/B&gt;일 뿐이다. 잘나가는 이들도 이 &lt;B&gt;우물안 나라&lt;/B&gt;에만 오면&amp;nbsp;&lt;B&gt;장애판정&lt;/B&gt;을 받는다는 말이다.&lt;br /&gt;
+&lt;br /&gt;요즘 들어 사람들의 &lt;B&gt;아우성&lt;/B&gt;이 자자하다. 우리 국민들은 엄청 영리하다. 그럼에도 이런 요구를 무시하는 사람들이 있다(그것도&amp;nbsp;많이). 언제까지 버틸 수 있을까? 그렇다 언젠가는 우리의 요구가 이루어질 것이다.. 단지 그 세상이&amp;nbsp;빨리 오느냐 or 늦게 오느냐의 문제인데, 그것은 그 세상을 갈망하는 함성이 크냐 작냐의 문제 아닐까?&lt;A href=&quot;&quot;&gt;&lt;/A&gt;&lt;A href=&quot;&quot;&gt;&lt;/A&gt;&lt;/DIV&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/267&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/칼%20럼&quot;&gt;칼 럼&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/274&quot; &gt;[특집]파이어폭스 인사이드 2주년을 통해 돌아본 우리의 웹&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/08/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/269&quot; &gt;티맥스 윈도우9 - 총체적 재앙&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(18)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/07/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/267&quot; &gt;무한한 확장성의 시대 - 아이폰OS&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/06/14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/266&quot; &gt;구글 크롬, 오픈소스 브라우저의 새로운 친구&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(20)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/09/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/264&quot; &gt;IE8, 버그투성이 브라우저?(머니투데이의 버그투성이 기사)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(10)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/08/02&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/262&quot; &gt;케이크와 철 구조물(마이크로소프트의 장난)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(6)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>칼 럼</category>
+			<category>mp3</category>
+			<category>스마트폰</category>
+			<category>아이팟</category>
+			<category>아이폰</category>
+			<category>애플</category>
+			<category>앱 스토어</category>
+			<category>통신사</category>
+			<category>파이어폭스</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/267</guid>
+			<comments>http://firefoxinside.tistory.com/267#entry267comment</comments>
+			<pubDate>Sun, 14 Jun 2009 19:27:32 +0900</pubDate>
+		</item>
+		<item>
+			<title>구글 크롬, 오픈소스 브라우저의 새로운 친구</title>
+			<link>http://firefoxinside.tistory.com/266</link>
+			<description>&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;지난 2일, 웹에서 절대적인 &lt;STRONG&gt;권력&lt;/STRONG&gt;을 가지고 있는 &lt;STRONG&gt;구글&lt;/STRONG&gt;이 자신들의 첨단 기술을 총 동원하여 만든 차세대 웹 브라우저&lt;STRONG&gt; 크롬(Chrome)&lt;/STRONG&gt;을 공개했습니다. &lt;br /&gt;
+구글은 그동안&lt;STRONG&gt; 마이크로소프트&lt;/STRONG&gt;(의 인터넷 익스플로러)를 &lt;STRONG&gt;견제&lt;/STRONG&gt;하기 위해&lt;STRONG&gt; 오픈소스&lt;/STRONG&gt; 웹 브라우저 &lt;STRONG&gt;파이어폭스&lt;/STRONG&gt;를 파트너로 삼고 엄청난 &lt;STRONG&gt;지원&lt;/STRONG&gt;을 아끼지 않았습니다. 하지만 파이어폭스만으로는 &lt;STRONG&gt;역부족 &lt;/STRONG&gt;했는지 드디어 자신들만의 웹 브라우저 크롬을 만들기에 이르렀습니다.&lt;br /&gt;
+&lt;br /&gt;&lt;STRONG&gt;크롬&lt;/STRONG&gt;은 구글의 모든 제품과 서비스가 그러하듯이 &lt;STRONG&gt;심플&lt;/STRONG&gt; 그 자체입니다. &lt;STRONG&gt;복잡한 메뉴&lt;/STRONG&gt;도 없으며, 디자인 또한 검색창의 그것을 연상시킬 정도로 &lt;STRONG&gt;간단명료&lt;/STRONG&gt;합니다. 또한 브라우저 위주의 시스템에서, &lt;STRONG&gt;탭을 중심&lt;/STRONG&gt;으로 한 시스템으로 각각의 탭은 모두 저마다 &lt;STRONG&gt;자체적인 프로세서&lt;/STRONG&gt;로 구동되어 한쪽의 탭이 먹통이 되더라도 다른 탭에는 조금의 영향도 끼치지 않도록 설계되었습니다.&lt;br /&gt;
+&lt;br /&gt;속도 또한 심플한 외관처럼 상상을 초월하는 &lt;STRONG&gt;속도&lt;/STRONG&gt;를 보여줍니다. 일을 &lt;STRONG&gt;순차적&lt;/STRONG&gt;으로 진행하는 것이 아니라 여러가지 일을, 마치 &lt;STRONG&gt;다수의 코어&lt;/STRONG&gt;가 있는 CPU처럼 한번에 처리한 것이 이런&lt;STRONG&gt; 놀라운 속도&lt;/STRONG&gt;를 가능하게끔 하였습니다.&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock left&quot; style=&quot;float: left; margin-right: 10px;&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/13280E174A609F84781A35&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;googleChrome.jpg&quot; height=&quot;200&quot; width=&quot;152&quot;/&gt;&lt;/div&gt;구글이 또 어떠한 &lt;STRONG&gt;음모&lt;/STRONG&gt;(?)를 꾸미는지 모르겠지만, 일단&lt;STRONG&gt; 또 하나의 오픈소스 웹 브라우저&lt;/STRONG&gt;가 시장에 출시한 것은 &lt;STRONG&gt;사용자의 입장&lt;/STRONG&gt;에서 환영할 만한 일이라고 생각합니다. 현시대의 사용자들은 &lt;U&gt;불과 몇년전&lt;/U&gt;보다도 &lt;STRONG&gt;엄청 큰 선택권&lt;/STRONG&gt;을 가지게 되었습니다. 구글 크롬이 그러한 의미에서 웹 브라우저 시장에 &lt;STRONG&gt;활력소&lt;/STRONG&gt;가 되어 주었으면 좋겠습니다. &lt;br /&gt;
+&lt;STRONG&gt;파이어폭스 &lt;/STRONG&gt;인사이드에서는 앞으로도 계속 구글 크롬을 주시하며 많은 정보제공에 온 힘을 다하겠습니다.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;/ 구글 크롬은 구글이 구상하고 있는 거대한 계획의 한 부분에 불과해 보입니다.&lt;br /&gt;
+/ 구글 크롬은 베타버전이지만 놀라운 완성도를 보여주고 있습니다.&lt;br /&gt;
+/ 크롬의 로고에서 &lt;STRONG&gt;스탠리 큐브릭&lt;/STRONG&gt; 감독의 명작, &lt;STRONG&gt;2001 스페이스 오디세이&lt;/STRONG&gt;에 나오는 로봇 &lt;STRONG&gt;HAL&lt;/STRONG&gt;이 연상되는 것은 저뿐일까요?&lt;br /&gt;
+/ 구글 크롬 엔지니어들의 개발 이야기는 &lt;A href=&quot;http://firefoxinside.tistory.com/entry/구글의-차세대-웹-브라우저-크롬-비하인드-스토리&quot;&gt;여기&lt;/A&gt;에서 볼 수 있습니다.&lt;/P&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/266&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/칼%20럼&quot;&gt;칼 럼&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/269&quot; &gt;티맥스 윈도우9 - 총체적 재앙&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(18)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/07/07&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/267&quot; &gt;무한한 확장성의 시대 - 아이폰OS&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/06/14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/266&quot; &gt;구글 크롬, 오픈소스 브라우저의 새로운 친구&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(20)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/09/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/264&quot; &gt;IE8, 버그투성이 브라우저?(머니투데이의 버그투성이 기사)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(10)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/08/02&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/262&quot; &gt;케이크와 철 구조물(마이크로소프트의 장난)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(6)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/238&quot; &gt;새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-8&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>칼 럼</category>
+			<category>구글</category>
+			<category>마이크로소프트</category>
+			<category>오픈소스</category>
+			<category>인터넷 익스플로러8</category>
+			<category>크롬</category>
+			<category>파이어폭스</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/266</guid>
+			<comments>http://firefoxinside.tistory.com/266#entry266comment</comments>
+			<pubDate>Sat, 06 Sep 2008 19:38:59 +0900</pubDate>
+		</item>
+		<item>
+			<title>구글의 차세대 웹 브라우저 크롬, 비하인드 스토리</title>
+			<link>http://firefoxinside.tistory.com/265</link>
+			<description>&lt;P align=center&gt;&lt;IMG style=&quot;webkit-user-select: none&quot; src=&quot;http://www.inews24.com/image_gisa/200809/1220340758421_1.jpg&quot;&gt;&lt;br /&gt;&lt;/P&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: left&quot;&gt;이달 2일, &lt;STRONG&gt;구글&lt;/STRONG&gt;이 야심차게 선보인 차세대 웹 브라우저&lt;STRONG&gt; 크롬(Chrome)&lt;/STRONG&gt;의 &lt;STRONG&gt;비하인드 스토리가&lt;/STRONG&gt; 세계적인 동영상 공유 사이트(Youtube)에 공개되었습니다.&lt;br /&gt;&lt;br /&gt;5&lt;STRONG&gt;분 &lt;/STRONG&gt;가량의 이 영상에는 크롬을 직접 개발한 &lt;STRONG&gt;엔지니어&lt;/STRONG&gt;들이 출현하여 크롬의 &lt;STRONG&gt;제작 배경&lt;/STRONG&gt;과 다른 웹 브라우저와 &lt;STRONG&gt;차별화&lt;/STRONG&gt;되는 크롬의 &lt;STRONG&gt;특징&lt;/STRONG&gt;을 자세하게 설명해 주고 있습니다.&lt;br /&gt;&lt;br /&gt;&lt;STRONG&gt;마이크로소프트&lt;/STRONG&gt;의 &lt;STRONG&gt;인터넷 익스플로러8&lt;/STRONG&gt;의 공개가 다가오는 시점에서 구글의 &lt;STRONG&gt;비밀 카드&lt;/STRONG&gt;인 크롬이 웹 브라우저 시장에서 어떤 &lt;STRONG&gt;위치&lt;/STRONG&gt;를 차지할 수 있을 것인지 많은 관심을 가져주시기 바랍니다.&lt;object width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/zT_ayPh0Kd0&amp;amp;hl=ko&amp;amp;fs=1&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/zT_ayPh0Kd0&amp;amp;hl=ko&amp;amp;fs=1&quot; type=&quot;application/x-shockwave-flash&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/DIV&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/265&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/기%20타&quot;&gt;기 타&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/271&quot; &gt;파이어폭스 10억 다운로드 돌파!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(3)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/08/01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/265&quot; &gt;구글의 차세대 웹 브라우저 크롬, 비하인드 스토리&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/09/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/263&quot; &gt;서태지도 파이어폭스의 팬이다?!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/28&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/261&quot; &gt;파이어폭스3 기네스 기록 달성!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/256&quot; &gt;파이어폭스3 다운로드 데이는 6월 17일!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/255&quot; &gt;파이어폭스3 다운로드 데이 - 이제는 행동할 시간이다!(Download Day)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(6)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>기 타</category>
+			<category>구글</category>
+			<category>마이크로소프트</category>
+			<category>인터넷 익스플로러8</category>
+			<category>크롬</category>
+			<category>파이어폭스3</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/265</guid>
+			<comments>http://firefoxinside.tistory.com/265#entry265comment</comments>
+			<pubDate>Sat, 06 Sep 2008 15:48:42 +0900</pubDate>
+		</item>
+		<item>
+			<title>IE8, 버그투성이 브라우저?(머니투데이의 버그투성이 기사)</title>
+			<link>http://firefoxinside.tistory.com/264</link>
+			<description>&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&quot;MS 차기 브라우저'버그 투성이'&lt;/span&gt;&quot;&lt;/font&gt;&lt;br /&gt;
+기존의 행보와는 달리, &lt;span style=&quot;font-weight: bold;&quot;&gt;웹 표준 준수&lt;/span&gt;를 최우선의 목적으로 제작되고 있는 마이크로소프트의 &lt;span style=&quot;font-weight: bold;&quot;&gt;인터넷 익스플로러8&lt;/span&gt;(이하 ie8)의 베타(1)버전을 사용해본 &lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;a href=&quot;http://www.moneytoday.co.kr/view/mtview.php?type=1&amp;amp;no=2008073016010981384&amp;amp;outlink=1&quot; target=&quot;_blank&quot;&gt;머니 투데이의 기사&lt;/a&gt;&lt;/span&gt; 제목입니다.&lt;br /&gt;
+&lt;br /&gt;과연 ie8이 &lt;span style=&quot;font-weight: bold;&quot;&gt;버그 투성이&lt;/span&gt;일까? 기사내용을 읽어보면 &lt;span style=&quot;font-weight: bold;&quot;&gt;머니 투데이&lt;/span&gt;가 &lt;span style=&quot;font-weight: bold;&quot;&gt;주장하는 버그&lt;/span&gt;란 웹 표준을 준수함으로서 생기는 국내 &lt;span style=&quot;font-weight: bold;&quot;&gt;&quot;ie전용&quot;&lt;/span&gt;(사실 따로 이 말을 붙일 필요도 없습니다.) 사이트들의&lt;span style=&quot;font-weight: bold;&quot;&gt; 문제점&lt;/span&gt;들입니다.&lt;br /&gt;
+&lt;br /&gt;국내 사이트들이 웹 표준을 준수하지 않음으로 인해 생기는 문제가, 표준을 준수하는 웹 브라우저의 버그라는 말은, &lt;span style=&quot;font-weight: bold;&quot;&gt;국내 웹 환경&lt;/span&gt;과 그에 대한 &lt;span style=&quot;font-weight: bold;&quot;&gt;인식&lt;/span&gt;이 얼마나 &lt;span style=&quot;font-weight: bold;&quot;&gt;열악&lt;/span&gt;하고, &lt;span style=&quot;font-weight: bold;&quot;&gt;조악&lt;/span&gt;한지 보여주는&lt;span style=&quot;font-weight: bold;&quot;&gt; 단적인 예&lt;/span&gt;라고 할 수 있겠습니다. 쓴 웃음이 나오지만, 이 기사가 우리나라의 &lt;span style=&quot;font-weight: bold;&quot;&gt;메이져급 언론&lt;/span&gt;의 기사 제목이라는 점을 생각해보면 그 웃음도 안나옵니다. 하긴 얼마전에 벌어졌던 어이없는 소송을 돌이켜 볼면 일게 언론이야 이런 말을 하고도 남습니다.&lt;br /&gt;
+&lt;br /&gt;이 기사는 그로인해, &lt;span style=&quot;font-weight: bold;&quot;&gt;수정에 비용&lt;/span&gt;을 들일 수 밖에 없는 사이트들의&lt;span style=&quot;font-weight: bold;&quot;&gt; 손해&lt;/span&gt;를 이야기 하고 있으며, 국내 웹 환경의 &lt;span style=&quot;font-weight: bold;&quot;&gt;웹 표준 무시&lt;/span&gt;와 &lt;span style=&quot;font-weight: bold;&quot;&gt;Active X 오남용 &lt;/span&gt;문제도&lt;span style=&quot;font-weight: bold;&quot;&gt; &quot;살짝&quot;&lt;/span&gt; 지적하고 있지만, 엉터리 기사제목부터 &lt;span style=&quot;font-weight: bold;&quot;&gt;문제의 원인&lt;/span&gt;을 제대로 이해하지 못하는 부분에서&lt;span style=&quot;font-weight: bold;&quot;&gt; 실망감&lt;/span&gt;을 감출 수가 없습니다.&lt;br /&gt;
+&lt;br /&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;마이크로소프트조차&lt;/span&gt; 본인들이 창조한 &lt;span style=&quot;font-weight: bold;&quot;&gt;문제아 Active X&lt;/span&gt;를 서서히 떨쳐내려 하고 있으며, 비 표준에서 웹 표준으로 이동하고 있습니다. 지금이라도 늦지 않았으니 우리나라의 &lt;span style=&quot;font-weight: bold;&quot;&gt;정부부처&lt;/span&gt;와 &lt;span style=&quot;font-weight: bold;&quot;&gt;대기업 &lt;/span&gt;등은 한시라도 빨리&lt;span style=&quot;font-weight: bold;&quot;&gt; 웹 표준 대란&lt;/span&gt;의 &lt;span style=&quot;font-weight: bold;&quot;&gt;대책&lt;/span&gt;을 마련해야 할 것입니다.&lt;br /&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/264&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/칼%20럼&quot;&gt;칼 럼&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/267&quot; &gt;무한한 확장성의 시대 - 아이폰OS&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/06/14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/266&quot; &gt;구글 크롬, 오픈소스 브라우저의 새로운 친구&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(20)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/09/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/264&quot; &gt;IE8, 버그투성이 브라우저?(머니투데이의 버그투성이 기사)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(10)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/08/02&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/262&quot; &gt;케이크와 철 구조물(마이크로소프트의 장난)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(6)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/238&quot; &gt;새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-8&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/237&quot; &gt;새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-7&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(19)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>칼 럼</category>
+			<category>ActiveX</category>
+			<category>IE</category>
+			<category>마이크로소프트</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/264</guid>
+			<comments>http://firefoxinside.tistory.com/264#entry264comment</comments>
+			<pubDate>Sat, 02 Aug 2008 18:11:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>서태지도 파이어폭스의 팬이다?!</title>
+			<link>http://firefoxinside.tistory.com/263</link>
+			<description>&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;4&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;서태지도 파이어폭스의 팬이다?!&lt;/span&gt;&lt;/font&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;바로 내일, &lt;span style=&quot;font-weight: bold;&quot;&gt;한국 음악역사상&lt;/span&gt; 가장 &lt;span style=&quot;font-weight: bold;&quot;&gt;뛰어난 뮤지션&lt;/span&gt;들 중 하나로 평가받고 있는 &lt;span style=&quot;font-weight: bold;&quot;&gt;서태지&lt;/span&gt;의&lt;span style=&quot;font-weight: bold;&quot;&gt; 8번째 정규 앨범&lt;/span&gt;(의 첫번째 싱글)이 공개되는 날입니다. &lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;img style=&quot;width: 225px; height: 226px;&quot; alt=&quot;http://isplus.joins.com/component/castnet/200807/200807230826061002_1.jpg&quot; src=&quot;http://isplus.joins.com/component/castnet/200807/200807230826061002_1.jpg&quot;&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;br /&gt;&lt;/div&gt;서태지는 각종 언론과 방송매체, 인터넷을 통해 이번 앨범을 &lt;span style=&quot;font-weight: bold;&quot;&gt;대대적으로 홍보&lt;/span&gt;하고 있고, 그 특유의 &lt;span style=&quot;font-weight: bold;&quot;&gt;신비스러운 홍보 전략&lt;/span&gt;으로 음악에 대한 많은 이들의 궁금증을 자아내고 있습니다. 특히 &lt;span style=&quot;font-weight: bold;&quot;&gt;짧은 티져영상&lt;/span&gt;으로 D-Day를 홍보하고 있는데, 빠른 편집과 현란한 내용으로 구성된 티져 영상을 보던 중 &lt;span style=&quot;font-weight: bold;&quot;&gt;아주 흥미로운 장면&lt;/span&gt;을 목격하였습니다.&lt;br /&gt;&lt;/div&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfs8.tistory.com/image/29/tistory/2008/07/28/21/33/488dbcb461ddb&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;430&quot; width=&quot;430&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;문제의 장면! 파이어폭스 미스테리 서클이다!&lt;/p&gt;&lt;/div&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;문제의 장면&lt;/span&gt;은 바로&lt;span style=&quot;font-weight: bold;&quot;&gt; 파이어폭스 &lt;/span&gt;&lt;a style=&quot;font-weight: bold;&quot; href=&quot;http://firefoxinside.tistory.com/entry/%EA%B5%AC%EA%B8%80%EC%96%B4%EC%8A%A4%EB%A1%9C-%EB%B3%B8-%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4-%EC%8D%A8%ED%81%B4&quot; target=&quot;_blank&quot;&gt;&quot;미스테리 서클&quot;&lt;/a&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;! &lt;/span&gt;유독 미스테리 서클과 연관성을 강조하는 이번 앨범과 파이어폭스 미스테리 서클은 단지 우연으로 영상 속에 삽입된 것일까요? 아니면 정말 서태지가 파이어폭스에 남다른 애정을 가지고 있어서 자신의 컴백 티져속에 파이어폭스 미스테리 서클을 집어넣은 것일까요? 진실은 저 너머에....&lt;br /&gt;&lt;br /&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;서태지 컴백 티져영상&lt;/span&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;object width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/ZmKlAh5q6_Y&amp;amp;hl=ko&amp;amp;fs=1&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/ZmKlAh5q6_Y&amp;amp;hl=ko&amp;amp;fs=1&quot; type=&quot;application/x-shockwave-flash&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;&lt;a href=&quot;http://firefoxinside.tistory.com/entry/%EA%B5%AC%EA%B8%80%EC%96%B4%EC%8A%A4%EB%A1%9C-%EB%B3%B8-%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4-%EC%8D%A8%ED%81%B4&quot;&gt;/파이어폭스 미스테리 서클이란?&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/263&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/기%20타&quot;&gt;기 타&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/271&quot; &gt;파이어폭스 10억 다운로드 돌파!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(3)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/08/01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/265&quot; &gt;구글의 차세대 웹 브라우저 크롬, 비하인드 스토리&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/09/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/263&quot; &gt;서태지도 파이어폭스의 팬이다?!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/28&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/261&quot; &gt;파이어폭스3 기네스 기록 달성!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/256&quot; &gt;파이어폭스3 다운로드 데이는 6월 17일!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/255&quot; &gt;파이어폭스3 다운로드 데이 - 이제는 행동할 시간이다!(Download Day)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(6)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>기 타</category>
+			<category>8집</category>
+			<category>미스테리 서클</category>
+			<category>서태지</category>
+			<category>파이어폭스</category>
+			<category>파이어폭스3</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/263</guid>
+			<comments>http://firefoxinside.tistory.com/263#entry263comment</comments>
+			<pubDate>Mon, 28 Jul 2008 21:32:02 +0900</pubDate>
+		</item>
+		<item>
+			<title>케이크와 철 구조물(마이크로소프트의 장난)</title>
+			<link>http://firefoxinside.tistory.com/262</link>
+			<description>&lt;font style=&quot;color: rgb(0, 102, 153);&quot; size=&quot;4&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;MS의 선물&lt;/span&gt;&lt;/font&gt;&lt;br /&gt;
+지난달 웹은 마이크로소프트(이하 MS)의 선물로 인해 떠들썩 했습니다. 바로, 모질라 제단의 파이어폭스3를 축한다는 의미로&lt;span style=&quot;font-weight: bold;&quot;&gt; MS에서 모질라로 보낸&lt;/span&gt; 인터넷 익스플로러(이하 IE)&lt;span style=&quot;font-weight: bold;&quot;&gt; 케이크 &lt;/span&gt;때문이었습니다.&lt;br /&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;a href=&quot;http://www.flickr.com/photos/robceemoz/2587912633/&quot;&gt;&lt;img style=&quot;width: 270px; height: 314px;&quot; alt=&quot;Al with Cake&quot; src=&quot;http://farm4.static.flickr.com/3122/2587912633_9084fecde4.jpg&quot; border=&quot;1&quot;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;MS의 케이크 선물&lt;/span&gt;이 이번 처음은 아닙니다. 지난 &lt;span style=&quot;font-weight: bold;&quot;&gt;파이어폭스2&lt;/span&gt;가 출시되었을 때도 MS에서는 &lt;span style=&quot;font-weight: bold;&quot;&gt;IE 케이크&lt;/span&gt;를 보낸 적이 있습니다. 현재 가장&lt;span style=&quot;font-weight: bold;&quot;&gt; 치열한 경쟁자&lt;/span&gt;인 모질라에게 &lt;span style=&quot;font-weight: bold;&quot;&gt;MS&lt;/span&gt;가 보낸 케이크는 &lt;span style=&quot;font-weight: bold;&quot;&gt;어떤 의미&lt;/span&gt;일지 고민하게 만듭니다. 과연 순수한 의미의 축하 선물일까 아니면 어떤 다른 의도가 담겨 있을까?&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;font style=&quot;color: rgb(0, 102, 153);&quot; size=&quot;4&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;MS의 만행 or 심한 농담&lt;/span&gt;&lt;/font&gt;&lt;br /&gt;
+의문도 잠시, 과거 MS가 보여주었던 &lt;span style=&quot;font-weight: bold;&quot;&gt;또 다른 선물&lt;/span&gt;을 이쯤에서 다시 기억해보면 웃지 않을 수 없습니다. &lt;br /&gt;
+과거 MS는 그 치열했던 1차 웹 브라우저 전쟁에서&lt;span style=&quot;font-weight: bold;&quot;&gt; IE4&lt;/span&gt;를 출시하면서 당시 넷스케이프 코퍼레이션 앞마당에 &lt;span style=&quot;font-weight: bold;&quot;&gt;초대형 철제 IE모형&lt;/span&gt;을 설치해준(놓은) 전례가 있습니다. 모질라에게 보낸 케이크와 같은 &lt;span style=&quot;font-weight: bold;&quot;&gt;선물&lt;/span&gt;이라고 볼 수 있습니다. 당시 &lt;span style=&quot;font-weight: bold;&quot;&gt;MS는 IE의 부흥과 넷스케이프의 몰락&lt;/span&gt;을 선언이라도 하듯이 이러한 일을 했습니다. 그리고 곧 그들은 &lt;span style=&quot;font-weight: bold;&quot;&gt;원하던 것&lt;/span&gt;을 얻었습니다.&lt;br /&gt;
+&lt;pre&gt;&lt;img style=&quot;width: 331px; height: 382px;&quot; alt=&quot;[Picture of Mozilla standing on IE logo, thumb up]&quot; src=&quot;http://home.snafu.de/tilman/mozilla/moz-ie.jpg&quot; height=&quot;477&quot; width=&quot;549&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;/pre&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+&lt;font style=&quot;color: rgb(0, 102, 153);&quot; size=&quot;4&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;2년 전의 케이크와는 맛이 틀릴 것&lt;/span&gt;&lt;/font&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;2008년&lt;/span&gt; 오늘 이 시기에서 보자면, 1997년 당시 넷스케이프 앞마당에 철 구조물을 설치할 때의 &lt;span style=&quot;font-weight: bold;&quot;&gt;심정&lt;/span&gt;과 2008년 케이크를 모질라로 보낼 때 MS의 &lt;span style=&quot;font-weight: bold;&quot;&gt;심정&lt;/span&gt;을 같을 수가 없을 겁니다. 또한, 2006년에 보냈던 케이크과 2008년에 보낸 케이크의 &lt;span style=&quot;font-weight: bold;&quot;&gt;맛은 분명 다를 겁니다.&lt;/span&gt;&lt;span style=&quot;color: rgb(142, 142, 142);&quot;&gt;(모질라는 2006년에 MS로 부터 받은 케이크 조각을 계속 보관하고 있습니다.)&lt;/span&gt; 그것도 08년 것이 &lt;span style=&quot;font-weight: bold;&quot;&gt;아주 짤 것&lt;/span&gt;이라고 저는 확신합니다.&lt;br /&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;br /&gt;현재에 와서, 우리가 이 &lt;span style=&quot;font-weight: bold;&quot;&gt;선물 사례&lt;/span&gt;를 돌아보면서 느끼는 알 수 없는 미묘한 감정이&lt;span style=&quot;font-weight: bold;&quot;&gt; 5년 후, 10년 후&lt;/span&gt;에는 더&lt;span style=&quot;font-weight: bold;&quot;&gt; 명확해 질 것&lt;/span&gt;이라고 믿습니다.&lt;br /&gt;
+&lt;br style=&quot;color: rgb(142, 142, 142);&quot;&gt;
+&lt;div style=&quot;color: rgb(142, 142, 142); text-align: center;&quot;&gt;
+&lt;div style=&quot;text-align: left;&quot;&gt;
+/ 1997년 당시 넷스케이프 직원들은 자기들 앞마당에 놓여진 거대한 선물을 넘어뜨린 후 모질라 인형을 올리고 각종 낙서로 응수했었습니다.&lt;br /&gt;
+/ 또한, 구조물 위에 프랜카드를 걸었었는데 거기에는 &quot;넷스케이프 72 / IE 18&quot;(시장 점유율)이라고 써있었답니다.&lt;br /&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/262&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/칼%20럼&quot;&gt;칼 럼&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/266&quot; &gt;구글 크롬, 오픈소스 브라우저의 새로운 친구&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(20)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/09/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/264&quot; &gt;IE8, 버그투성이 브라우저?(머니투데이의 버그투성이 기사)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(10)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/08/02&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/262&quot; &gt;케이크와 철 구조물(마이크로소프트의 장난)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(6)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/238&quot; &gt;새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-8&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/237&quot; &gt;새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-7&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(19)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/235&quot; &gt;새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-6&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>칼 럼</category>
+			<category>넷스케이프</category>
+			<category>마이크로소프트</category>
+			<category>모질라</category>
+			<category>케이크</category>
+			<category>파이어폭스</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/262</guid>
+			<comments>http://firefoxinside.tistory.com/262#entry262comment</comments>
+			<pubDate>Sun, 06 Jul 2008 11:10:42 +0900</pubDate>
+		</item>
+		<item>
+			<title>파이어폭스3 기네스 기록 달성!</title>
+			<link>http://firefoxinside.tistory.com/261</link>
+			<description>&lt;span style=&quot;font-weight: bold;&quot;&gt;파이어폭스3&lt;/span&gt;를 공개와 동시에, &quot;하루동안 가장 많이 다운로드 된 소프트웨어&quot;라는 &lt;span style=&quot;font-weight: bold;&quot;&gt;기네스 기록&lt;/span&gt;으로 올리기 위한 이벤트/운동이였던 &lt;a href=&quot;http://firefoxinside.tistory.com/entry/1&quot; target=&quot;_blank&quot;&gt;&quot;다운로드 데이&quot;&lt;/a&gt;가 성공적으로 끝났다는걸 많은 분들이 알고 계실 겁니다.&lt;br /&gt;&lt;br /&gt;공식기관의 집계결과, 다운도르 데이 &lt;span style=&quot;font-weight: bold;&quot;&gt;24시간 동안 8,002,530건 다운로드&lt;/span&gt;된 파이어폭스3가 &lt;span style=&quot;font-weight: bold; color: rgb(255, 0, 0);&quot;&gt;기네스 기록 경신&lt;/span&gt;에 성공했습니다!&lt;br /&gt;&lt;br /&gt;이번 다운로드 데이에 참가하셨던 분들은 이벤트를&lt;span id=&quot;callbacknestfirefoxinsidetistorycom2595565&quot; style=&quot;width: 1px; height: 1px; float: right;&quot;&gt;&lt;embed allowscriptaccess=&quot;always&quot; id=&quot;bootstrapperfirefoxinsidetistorycom2595565&quot; src=&quot;../../plugin/CallBack_bootstrapperSrc&quot; wmode=&quot;transparent&quot; type=&quot;application/x-shockwave-flash&quot; enablecontextmenu=&quot;false&quot; flashvars=&quot;&amp;amp;callbackId=firefoxinsidetistorycom2595565&amp;amp;host=http://firefoxinside.tistory.com&amp;amp;embedCodeSrc=http%3A%2F%2Ffirefoxinside.tistory.com%2Fplugin%2FCallBack_bootstrapper%3F%26src%3Dhttp%3A%2F%2Fcfs.tistory.com%2Fblog%2Fplugins%2FCallBack%2Fcallback%26id%3D259%26callbackId%3Dfirefoxinsidetistorycom2595565%26destDocId%3Dcallbacknestfirefoxinsidetistorycom2595565%26host%3Dhttp%3A%2F%2Ffirefoxinside.tistory.com%26float%3Dleft&quot; swliveconnect=&quot;true&quot; width=&quot;1&quot; height=&quot;1&quot;&gt;&lt;/span&gt; 진행했던 &lt;a href=&quot;http://www.spreadfirefox.com/en-US/worldrecord/certificate_form&quot; target=&quot;_blank&quot;&gt;&quot;스프레드 파이어폭스&quot;&lt;/a&gt;에 방문하셔서 모질라 제단에서 제공하는 공식 인증서를 받아보시기 바랍니다. &lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfs8.tistory.com/image/31/tistory/2008/07/06/10/12/48701c15f175a&quot; alt=&quot;사용자 삽입 이미지&quot; width=&quot;484&quot; height=&quot;367&quot;&gt;&lt;p class=&quot;cap1&quot;&gt;이름, 혹은 메일 주소를 입력하시면 인증서를 보실 수 있습니다.&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;매우 뜻깊었던 이번 이벤트에 참여해주신 모든 분들께 감사드리며, 이러한&lt;span style=&quot;font-weight: bold;&quot;&gt; 행동에 동참했다는 것에 큰 자부심&lt;/span&gt;을 느끼시면서, 파이어폭스3로 더욱 더 즐거운 웹 서핑을 즐기셨으면 좋겠습니다.&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/261&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/기%20타&quot;&gt;기 타&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/265&quot; &gt;구글의 차세대 웹 브라우저 크롬, 비하인드 스토리&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/09/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/263&quot; &gt;서태지도 파이어폭스의 팬이다?!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/28&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/261&quot; &gt;파이어폭스3 기네스 기록 달성!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/256&quot; &gt;파이어폭스3 다운로드 데이는 6월 17일!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/255&quot; &gt;파이어폭스3 다운로드 데이 - 이제는 행동할 시간이다!(Download Day)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(6)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/254&quot; &gt;파이어폭스3 새로이 추가된 명령어! about:robots&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(19)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>기 타</category>
+			<category>기네스</category>
+			<category>다운로드 데이</category>
+			<category>파이어폭스3</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/261</guid>
+			<comments>http://firefoxinside.tistory.com/261#entry261comment</comments>
+			<pubDate>Sun, 06 Jul 2008 11:08:29 +0900</pubDate>
+		</item>
+		<item>
+			<title>페이지를 확대/축소해보자! - (파이어폭스3)</title>
+			<link>http://firefoxinside.tistory.com/258</link>
+			<description>&lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt;파이어폭스3&lt;/SPAN&gt;에서는 웹 페이지의 &lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt;확대&lt;/SPAN&gt;와 &lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt;축소&lt;/SPAN&gt;를 마음대로 조정할 수 있는 완벽한 기능이 추가되었습니다.&lt;br /&gt;&lt;br /&gt;이 기능을 통하여 웹 페이지마다 본인의 취향, 혹은 요구에 맞게 크게 만들어서 보거나 작게 줄여서 볼 수 있게 되었습니다. 이 페이지 확대 기능은 설정을 통하여 &lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt;글자 크기&lt;/SPAN&gt;만 확대 / 축소할 수 있도록 설정도 가능하기 때문에 사용자에 따라서 글자 크기만 달리 설정해 줄 수 있습니다.&lt;br /&gt;&lt;br /&gt;파이어폭스3가 지원하는 페이지 확대/축소 기능이 정말 놀라운 것은 사용자가 임의로 확대 / 축소해 놓은 웹 페이지들의 &lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt;목록과 적용된 수치를 그대로 기억&lt;/SPAN&gt;하고 있다는 것입니다. 이 똑똑한 기능으로 인하여, 단 한번만 원하는 크기로 설정해 두면 다음에 다시 방문할 때 전에 설정해 두었었던 모습 그대로 웹 페이지를 볼 수 있기 때문에 번거롭게 원하는 크기로 두번 수정할 필요가 없습니다.&lt;br /&gt;&lt;br /&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;IMG height=91 alt=&quot;사용자 삽입 이미지&quot; src=&quot;http://mr-dust.pe.kr/attach/1/1140267093.png&quot; width=300&gt;&lt;br /&gt;&lt;br /&gt;&lt;/DIV&gt;과장된 말일 수도 있으나 더 심플하고 더 쉬운 &lt;A href=&quot;http://firefoxinside.tistory.com/entry/%EC%B4%88%EB%B3%B4%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4-TOP-10&quot;&gt;&lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt;그리스몽키&lt;/SPAN&gt;&lt;/A&gt;의 축소판이라고 평가하고 싶습니다. &lt;br /&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;&lt;/DIV&gt;&lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt;/ 보기 - 크기 조정 - &lt;/SPAN&gt;에서 &quot;확대&quot;, &quot;축소&quot;, &quot;원래 크기로&quot;, &quot;글자 크기만&quot;을 설정할 수 있습니다.&lt;br /&gt;&lt;br /&gt;더 쉽게 웹 페이지 크기/축소를 다루고 싶으시면 아래 &lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt;단축키&lt;/SPAN&gt;들을 외워 두시기 바랍니다.&lt;br /&gt;&lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt;/ 화면 확대 : 컨트롤 + + &lt;/SPAN&gt;(또는)&lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt; 컨트롤 + 마우스 휠 우로 굴리기&lt;/SPAN&gt;&lt;BR style=&quot;FONT-WEIGHT: bold&quot;&gt;&lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt;/ 화면 축소 : 컨트롤 + -&lt;/SPAN&gt; (또는) &lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt;컨트롤 + 마우스 휠 아래로 굴리기&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt;/ 화면 원래대로 : 컨트롤 + 0(숫자)&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt;/ &lt;/SPAN&gt;OSX의 경우 &lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt;컨트롤&lt;/SPAN&gt; 대신&lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt; 애플키&lt;/SPAN&gt;&lt;br /&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/258&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/＊FireFox%20팁&quot;&gt;＊FireFox 팁&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/276&quot; &gt;프로그램 없이 유투브 동영상 다운받기 - 사파리 팁&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/11/09&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/258&quot; &gt;페이지를 확대/축소해보자! - (파이어폭스3)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/21&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/242&quot; &gt;파이어폭스의 프로필에 대해 알아보자.&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(21)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/11/13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/248&quot; &gt;우클릭 사용을 막아 놓았다면? (우클릭 금지 해제하기)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(19)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/241&quot; &gt;파이어폭스 &amp;quot;About:ㅇㅇㅇ&amp;quot; 페이지에 대해...&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(16)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/07/21&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/222&quot; &gt;구글 툴바는 숨기고, 원하는 기능은 사용하자&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(13)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/06/26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>＊FireFox 팁</category>
+			<category>단축키</category>
+			<category>축소</category>
+			<category>팁</category>
+			<category>파이어폭스3</category>
+			<category>확대</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/258</guid>
+			<comments>http://firefoxinside.tistory.com/258#entry258comment</comments>
+			<pubDate>Sat, 21 Jun 2008 14:34:03 +0900</pubDate>
+		</item>
+		<item>
+			<title>파이어폭스3, 첫날 1분만에 1,4000회 이상 다운로드!</title>
+			<link>http://firefoxinside.tistory.com/257</link>
+			<description>&amp;nbsp;드디어 기다리고, 기다리던 &lt;em&gt;파이어폭스3&lt;/em&gt;의 정식 버전이 공개되었습니다.&lt;br /&gt;모질라와 파이어폭스 유저들이 함께한 이벤트인 &lt;a href=&quot;http://firefoxinside.tistory.com/entry/1&quot; target=&quot;_blank&quot;&gt;다운로드 데이&lt;/a&gt;가 성공적으로 끝났으며 &lt;strong&gt;기네스 기록&lt;/strong&gt;을 갱신했는지는 아직 확실지 않습니다.&lt;br /&gt;&lt;br /&gt;하지만 기네스 기록 갱신이라는 도전에 매우 희망적인 소식이 있다면 파이어폭스3가 정식 출시되고 &lt;strong&gt;1분만에 1만 4천회&lt;/strong&gt; 이상 다운로드 되었다는 소식입니다. 넘어야 할 기네스 기록의 수치에 대해서는 정확한 이야기가 없지만 이정도 호응이라면 충분히 &lt;strong&gt;기네스 기록 달성&lt;/strong&gt;이 가능하지 않을까 생각됩니다.
+&lt;p align=&quot;center&quot;&gt;&lt;img style=&quot;width: 377px; height: 202px;&quot; alt=&quot;http://techfreep.com/images/firefox580.jpg&quot; src=&quot;http://techfreep.com/images/firefox580.jpg&quot; width=&quot;377&quot; height=&quot;178&quot;&gt;&lt;/p&gt;&lt;br /&gt;파이어폭스3가 공개된 지금, 국가를 불문하고 전 세계에서 사용기와 리뷰가 올라오고 있고 대부분 기대 이상이라는 평가가 많습니다. 매우 기쁜 소식이 아닐 수 없습니다.&lt;br /&gt;&lt;br /&gt;아직 파이어폭스3를 설치하지 않으신 분들은 직접 사용해보시고, 월스트리트 저널로부터  &lt;font color=&quot;#ff0000&quot;&gt;사실상 세계에서 가장 뛰어난 웹 브라우저&lt;/font&gt;라는 평가를 받은 파이어폭스3가 왜 그러한 평가와 극찬을 받는지 직접 경험해 보시기 바랍니다.&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&quot;추가&quot; _ 파이어폭스3는 현재 공식적으로 6,084,512회 다운로드 되었다고 합니다.&lt;/span&gt;&lt;br /&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/257&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/뉴스&quot;&gt;뉴스&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/277&quot; &gt;파이어폭스 인사이드 개편 준비중&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(4)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2010/06/12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/272&quot; &gt;모질라 10억 다운로드 기념 사이트 오픈&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(9)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/08/01&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/257&quot; &gt;파이어폭스3, 첫날 1분만에 1,4000회 이상 다운로드!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(10)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/18&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/228&quot; &gt;국제 영화제 홈피는 국내용? (부천 판타스틱 영화제)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(20)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/07/08&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/227&quot; &gt;파이어폭스3 알파는 끝이다! 그란 파라디소 최종 버전 공개&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(9)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/07/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/221&quot; &gt;애플 사파리, 한글 버그 수정&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(22)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/06/23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>뉴스</category>
+			<category>기네스</category>
+			<category>파이어폭스</category>
+			<category>파이어폭스3</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/257</guid>
+			<comments>http://firefoxinside.tistory.com/257#entry257comment</comments>
+			<pubDate>Wed, 18 Jun 2008 20:32:21 +0900</pubDate>
+		</item>
+		<item>
+			<title>파이어폭스3 다운로드 데이는 6월 17일!</title>
+			<link>http://firefoxinside.tistory.com/256</link>
+			<description>얼마전에 말씀드린 &lt;STRONG&gt;파이어폭스3&lt;/STRONG&gt;의 &lt;STRONG&gt;정식 공개일&lt;/STRONG&gt;이자 기네스 기록에 파이어폭스3를 올리기 위한 모질라와 파이어폭스 유저들의 &lt;A href=&quot;http://firefoxinside.tistory.com/entry/1&quot; target=_blank&gt;다운로드 데이&lt;/A&gt;가 &lt;STRONG&gt;&lt;FONT color=#ff0000&gt;6월 17일&lt;/FONT&gt;&lt;/STRONG&gt;(한국 시간으로는 18일 오전)로 정해졌다는 기쁜 소식을 알려드렸습니다.&lt;br /&gt;&lt;br /&gt;다운로드 데이를 알리던 파이어폭스 인사이드의 &lt;A href=&quot;http://firefoxinside.tistory.com/entry/1&quot; target=_blank&gt;첫 글&lt;/A&gt;을 쓸때까지, 다운로드 데이에 파이어폭스3를 다운로드 받겠다고 약속한 전 세계의 파이어폭스 유저는 &lt;STRONG&gt;45,892명 &lt;/STRONG&gt;밖에 되지 않았었지만, 현재 글을 쓰고 있는 시점에서는 &lt;STRONG&gt;1,187,742명&lt;/STRONG&gt;까지 늘어났습니다.&lt;br /&gt;
+&lt;P align=center&gt;&lt;IMG src=&quot;http://www.mozilla.or.kr/ko/img/468x60_dday.png&quot;&gt;&lt;/P&gt;이 정도의 반응이라면 파이어폭스3가 정식 공개되면서 기네스에 오르는 것은 문제도 아니라고 봅니다. 더 많은 분들이 관심을 가져주시고 축복속에서 파이어폭스3가 태어나게 도와주셨으면 좋겠습니다.&lt;br /&gt;&lt;br /&gt;&lt;FONT color=#8e8e8e&gt;ps)&lt;/FONT&gt; 다운로드 데이를 소개하던 글 마지막에 &quot;파이어폭스3 만세!&quot;라는 의미에서 &lt;STRONG&gt;&quot;Viva la firefox3!&quot;&lt;/STRONG&gt;라는 문장을 넣었는데 공교롭게도 파이어폭스3가 정식 공개되는 날이 동명의(Viva la Vida!) 앨범 타이틀 명을 사용하는 영국의 록밴드 콜드플레이의 앨범이 발매되는 날이었습니다. &lt;br /&gt;재미있는 우연인 것 같습니다.^^&lt;br /&gt;&lt;br /&gt;&lt;FONT color=#8e8e8e&gt;ps)&lt;/FONT&gt; Viva la vida는 멕스코의 유명한 여류화가 프리다 칼로가 그린 마지막 작품의 제목입니다.&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/256&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/기%20타&quot;&gt;기 타&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/263&quot; &gt;서태지도 파이어폭스의 팬이다?!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/28&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/261&quot; &gt;파이어폭스3 기네스 기록 달성!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/256&quot; &gt;파이어폭스3 다운로드 데이는 6월 17일!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/255&quot; &gt;파이어폭스3 다운로드 데이 - 이제는 행동할 시간이다!(Download Day)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(6)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/254&quot; &gt;파이어폭스3 새로이 추가된 명령어! about:robots&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(19)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/253&quot; &gt;애드센스 디자인 공모전 당선 작품&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>기 타</category>
+			<category>다운로드 데이</category>
+			<category>파이어폭스3</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/256</guid>
+			<comments>http://firefoxinside.tistory.com/256#entry256comment</comments>
+			<pubDate>Sat, 14 Jun 2008 11:42:37 +0900</pubDate>
+		</item>
+		<item>
+			<title>파이어폭스3 다운로드 데이 - 이제는 행동할 시간이다!(Download Day)</title>
+			<link>http://firefoxinside.tistory.com/255</link>
+			<description>&lt;p&gt;&lt;strong&gt;파이어폭스&lt;/strong&gt; 유저들이 기다리고 기다리던 그 날이 가까워지고 있는 것 같습니다!&lt;br /&gt;Spreadfirefox에서 &lt;strong&gt;파이어폭스3&lt;/strong&gt;의 정식 공개에 맞추어, 파이어폭스3를 &lt;strong&gt;24시간&lt;/strong&gt; 동안 가장 많이 다운로드된 소프트웨어로 &lt;strong&gt;기네스북&lt;/strong&gt;에 올리기 위해 전세계의 모든 파이어폭스 유저들의 서약과 함께 &lt;strong&gt;다운로드 데이&lt;/strong&gt;(Download Day!)라는 이벤트를 시작합니다.&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfs8.tistory.com/image/2/tistory/2008/05/29/19/29/483e8579cc54f&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;180&quot; width=&quot;473&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;이제는 우리가 행동으로 보여줄 때다!&lt;/p&gt;&lt;/div&gt;본격적인 &lt;a href=&quot;http://firefoxinside.tistory.com/entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-1&quot; target=&quot;_blank&quot;&gt;웹 브라우저 전쟁&lt;/a&gt;의 &lt;strong&gt;주인공&lt;/strong&gt; 격인 파이어폭스3로서는 최다 다운로드 &lt;strong&gt;기네스&lt;/strong&gt; &lt;strong&gt;기록&lt;/strong&gt;만큼 좋은 출발도 없을 것입니다. 현재 파이어폭스3의 정식 공개일은 비밀로 유지되고 있고, 유저들이 다운르도 데이 이벤트에 참여하여 &lt;strong&gt;해당 날에 다운로드 하겠다는 서약&lt;/strong&gt;을 하게 되면 정식 공개일 확정과 동시에 메일을 통해서 확정된 일정을 알려줍니다.&lt;br /&gt;&lt;br /&gt;파이어폭스는 모든 유저들이 &lt;strong&gt;함께 만들어가는 웹 브라우저&lt;/strong&gt;이고 최다 다운로드라는 &lt;strong&gt;영광스럽고 자랑스러운 기록&lt;/strong&gt; 또한 우리 유저들이 만들어내는 것입니다. 전 세계 곳곳에서 파이어폭스를 사용하는 &lt;strong&gt;유저들이 한날 한뜻으로 모인다면&lt;/strong&gt; 최다 다운로드 기네스라는 축복 속에서 파이어폭스3를 탄생시킬 수 있을 것이라 생각합니다.&lt;br /&gt;&lt;br /&gt;현재 글을 쓰고있는 시점에서 &lt;strong&gt;45,892명&lt;/strong&gt;의 파이어폭스 유저들이 이벤트에 동참한 상태입니다.&lt;br /&gt;우리나라의 파이어폭스 유저분들도 이런 중요한 시점을 맞이하여 적극적으로 행동해주셔서 &lt;strong&gt;진짜 IT강국&lt;/strong&gt;의 국민이라는 것을 보여주셨으면 좋겠습니다.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.spreadfirefox.com/en-US/worldrecord&quot; target=&quot;_blank&quot;&gt;해당 사이트&lt;/a&gt;에서&amp;nbsp; &lt;strong&gt;Pledge Now!&lt;/strong&gt;(맹세하다!)를 선택하여 국가와 이메일만 입력해 주시면 쉽게 참여가 되고, 때가 되면 자동으로 입력해주신 메일로 시간을 알려드립니다.&lt;br /&gt;&lt;br /&gt;전 세계의 모든 유저들이&lt;strong&gt; 더 나은 웹에 대한 열정과 희망&lt;/strong&gt;으로 파이어폭스3를 축복 속에서 탄생시킴으로서, 파이어폭스3가 탄생한 &lt;strong&gt;2008&lt;/strong&gt;년이 인터넷 역사에서 &lt;strong&gt;기념비적인 해&lt;/strong&gt;로 기록되었으면 좋겠습니다.&lt;br /&gt;파이어폭스 인사이드는 어려운 환경 속에서도 &lt;strong&gt;다운로드 데이&lt;/strong&gt;가 더 많은 이들에게 알려질 수 있도록 노력할 것이며 많은 파이어폭스 유저분들도 관심과 열정 속에서 이 이벤트를 지켜봐 주셨으면 좋겠습니다. &lt;br /&gt;&lt;br /&gt;&lt;strong&gt;&lt;font size=&quot;5&quot;&gt;Viva La Firefox3!&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/255&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/기%20타&quot;&gt;기 타&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/261&quot; &gt;파이어폭스3 기네스 기록 달성!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/256&quot; &gt;파이어폭스3 다운로드 데이는 6월 17일!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/255&quot; &gt;파이어폭스3 다운로드 데이 - 이제는 행동할 시간이다!(Download Day)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(6)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/254&quot; &gt;파이어폭스3 새로이 추가된 명령어! about:robots&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(19)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/253&quot; &gt;애드센스 디자인 공모전 당선 작품&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/252&quot; &gt;자신의 PC 어떻게 관리하세요?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(23)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>기 타</category>
+			<category>기네스</category>
+			<category>다운로드 데이</category>
+			<category>파이어폭스</category>
+			<category>파이어폭스3</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/255</guid>
+			<comments>http://firefoxinside.tistory.com/255#entry255comment</comments>
+			<pubDate>Thu, 29 May 2008 19:38:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>파이어폭스3 새로이 추가된 명령어! about:robots</title>
+			<link>http://firefoxinside.tistory.com/254</link>
+			<description>이제 정식 버전의 출시가 임박한 &lt;span style=&quot;font-weight: bold;&quot;&gt;파이어폭스3!&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;현제 &lt;span style=&quot;font-weight: bold;&quot;&gt;베타5&lt;/span&gt;까지 나온 상태이고 그대로 사용해도 별 무리없이 사용할 수 있을 정도로 &lt;span style=&quot;font-weight: bold;&quot;&gt;뛰어난 상태&lt;/span&gt;를 보여주고 있습니다.&lt;br /&gt;
+&lt;br /&gt;이 파이어폭스3에서 일단 (수치와 데이터에 대한 이야기 외에)가장 눈에 띄는 점이라면 &lt;span style=&quot;font-weight: bold;&quot;&gt;불여우의 새로운 친구&lt;/span&gt;로 등장한 캐릭터 &lt;span style=&quot;font-weight: bold;&quot;&gt;로봇&lt;/span&gt;입니다. 지난 베타버전 부터 계속적으로 등장하며 앞으로 파이어폭스3에서 중요한 역할을 할 캐릭터로 예상되는 로봇입니다.&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock left&quot; style=&quot;float: left; margin-right: 10px;&quot;&gt;&lt;img src=&quot;http://cfs4.tistory.com/image/15/tistory/2008/05/03/12/25/481bdb1f9f742&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;196&quot; width=&quot;220&quot;/&gt;&lt;p class=&quot;cap1&quot; style=&quot;width: 220px&quot;&gt;첫 실행과 동시에 우리를 반겨주는 로봇&lt;/p&gt;&lt;/div&gt;이 로봇과 관련하여 새롭게 추가된 재미있는 &lt;span style=&quot;font-weight: bold;&quot;&gt;about: 명령어&lt;/span&gt;가 있어서 소개해 드립니다.&lt;a href=&quot;http://firefoxinside.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4-About%E3%85%87%E3%85%87%E3%85%87-%ED%8E%98%EC%9D%B4%EC%A7%80%EC%97%90-%EB%8C%80%ED%95%B4&quot;&gt;(about:명령어가 무엇일까?)&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;새로 추가된 명령어는 바로 &lt;span style=&quot;font-weight: bold;&quot;&gt;about:robots&lt;/span&gt; 입니다.&lt;br /&gt;
+주소창에 이 명령어를 입력하면 아래와 같은 재미있는 화면을 볼 수 있습니다.&lt;br /&gt;
+&lt;br /&gt;장난같은 말들이지만 여러가지로 깊게 생각해 보면 아주 의미심장하게 느껴집니다. 여러분들도 각자 다양한 쪽으로 해석해보시면 아주 재미있을 것 같습니다.&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfs4.tistory.com/image/8/tistory/2008/05/03/12/30/481bdc53f2fae&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;241&quot; width=&quot;529&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;새로운 캐릭터 로봇의 활약을 기대해 봅니다&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+관련 글 : &lt;a href=&quot;http://firefoxinside.tistory.com/entry/%EC%82%AC%ED%83%84%EC%9D%98-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4-%EB%B6%88%EC%97%AC%EC%9A%B0%EC%9D%98-%EB%B9%84%EB%B0%80%EC%9D%B4%EC%8A%A4%ED%84%B0-%EC%97%90%EA%B7%B8&quot;&gt;사탄의 브라우저 파이어폭스 - 불여우의 (비밀이스터-에그)&lt;/a&gt;&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; : &lt;a href=&quot;http://firefoxinside.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4-About%E3%85%87%E3%85%87%E3%85%87-%ED%8E%98%EC%9D%B4%EC%A7%80%EC%97%90-%EB%8C%80%ED%95%B4&quot;&gt;파이어폭스 &quot;About:ㅇㅇㅇ&quot; 페이지에 대해...&lt;/a&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/254&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/기%20타&quot;&gt;기 타&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/256&quot; &gt;파이어폭스3 다운로드 데이는 6월 17일!&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/14&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/255&quot; &gt;파이어폭스3 다운로드 데이 - 이제는 행동할 시간이다!(Download Day)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(6)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/254&quot; &gt;파이어폭스3 새로이 추가된 명령어! about:robots&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(19)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/253&quot; &gt;애드센스 디자인 공모전 당선 작품&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/252&quot; &gt;자신의 PC 어떻게 관리하세요?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(23)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/250&quot; &gt;심형래 디워, 파이어폭스 패러디&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(25)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>기 타</category>
+			<category>about:config</category>
+			<category>파이어폭스</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/254</guid>
+			<comments>http://firefoxinside.tistory.com/254#entry254comment</comments>
+			<pubDate>Sat, 03 May 2008 16:34:02 +0900</pubDate>
+		</item>
+		<item>
+			<title>애드센스 디자인 공모전 당선 작품</title>
+			<link>http://firefoxinside.tistory.com/253</link>
+			<description>지난번에 &lt;span style=&quot;font-weight: bold;&quot;&gt;구글 코리아&lt;/span&gt;에서 주최했던 애드센스 &lt;span style=&quot;font-weight: bold;&quot;&gt;디자인 공모전&lt;/span&gt;에 저 또한 &lt;span style=&quot;font-weight: bold;&quot;&gt;몇가지 샘플&lt;/span&gt;을 보낸적이 있습니다.&lt;br /&gt;
+&lt;br /&gt;샘플 출모 후 개인적인 사정으로 &lt;span style=&quot;font-weight: bold;&quot;&gt;파이어폭스 인사이드&lt;/span&gt;를 한동안 관리하지 못하다가 몇달 전에 제 샘플들이 채택되었다는 것을 알게 되었습니다.(물론 채택 선물과 함께^^) 요즘 못보던 &lt;span style=&quot;font-weight: bold;&quot;&gt;새로운 광고 디자인&lt;/span&gt;들이 출현하던데 그 광고들이 디자인 공모전에서 채택되었던 다른 애드센서님들의 광고라는 것도 알게 되었습니다. &lt;br /&gt;
+상당히 &lt;span style=&quot;font-weight: bold;&quot;&gt;참신하고 심플&lt;/span&gt;하던데, 저의 샘플들도 그분들의 샘플처럼 실제로 테스트되고 있는지는 잘 모르겠군요.&lt;br /&gt;
+&lt;br /&gt;여하튼 저의 소박한 작품들을 이 기회를 통하여 공개해 봅니다.&lt;br /&gt;
+&lt;br /&gt;&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;-----------(아래의 이미지는 구글 광고가 아닙니다.)-----------&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfs4.tistory.com/image/20/tistory/2008/05/03/11/25/481bcd2269cd0&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;125&quot; width=&quot;125&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;125x125 사이즈 디자인&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfs4.tistory.com/image/9/tistory/2008/05/03/11/25/481bcd2807516&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;280&quot; width=&quot;336&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;336x280 사이즈 디자인&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfs4.tistory.com/image/1/tistory/2008/05/03/11/25/481bcd2a3a5f2&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;66&quot; width=&quot;540&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;리더보드&lt;/p&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfs4.tistory.com/image/20/tistory/2008/05/03/11/25/481bcd257967b&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;600&quot; width=&quot;160&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;160x600 사이즈 디자인&lt;/p&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/253&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/기%20타&quot;&gt;기 타&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/255&quot; &gt;파이어폭스3 다운로드 데이 - 이제는 행동할 시간이다!(Download Day)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(6)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/29&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/254&quot; &gt;파이어폭스3 새로이 추가된 명령어! about:robots&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(19)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/253&quot; &gt;애드센스 디자인 공모전 당선 작품&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/252&quot; &gt;자신의 PC 어떻게 관리하세요?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(23)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/250&quot; &gt;심형래 디워, 파이어폭스 패러디&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(25)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/244&quot; &gt;로드 브라우저 사용기(Road)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(35)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/07/26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>기 타</category>
+			<category>공모전</category>
+			<category>구글</category>
+			<category>애드센스</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/253</guid>
+			<comments>http://firefoxinside.tistory.com/253#entry253comment</comments>
+			<pubDate>Sat, 03 May 2008 16:28:48 +0900</pubDate>
+		</item>
+		<item>
+			<title>자신의 PC 어떻게 관리하세요?</title>
+			<link>http://firefoxinside.tistory.com/252</link>
+			<description>&lt;p class=&quot;MsoNormal&quot;&gt;&lt;b&gt;&lt;font size=&quot;3&quot;&gt;자신의&lt;/font&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;font size=&quot;3&quot;&gt; PC 어떻게 관리하세요?&lt;/font&gt;&lt;br /&gt;
+PC청소 프로그램&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;
+윈도 PC를 장기간 사용하다 보면 프로그램들을 깔았다 지웠던 흔적들, 즉 찌꺼기가 남고 이러한 찌꺼기는 컴퓨터 속도 저하의 원인이 된다. 윈도에
+전문적인 지식이 있는 사람들은 PC의 관리를 체계적이고 깔끔하게 해서 이런 문제들을 미연에 방지하지만 일반적인 윈도 사용자들은 느려진 컴퓨터를
+어쩔 수 없이 그냥 사용하거나 결국 귀찮게 윈도 포맷을 선택하기도 한다. 하지만, 주변을 둘러보면 이러한 문제들을 해결해주는 컴퓨터 청소 프로그램들이
+많이 존재한다. 컴퓨터를 사용할 때 이 프로그램들로 조금의 시간만 투자해도 컴퓨터를 깨끗하게 유지/관리할 수 있어서 느려진 컴퓨터와 포맷의 악몽에서
+벗어날 수 있다. 정기적으로 자동차를 점검해주듯이 컴퓨터의 건강에도 관심을 가져보자. &lt;br /&gt;
+&lt;b&gt;&lt;br /&gt;
+이지클린 &lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot; lang=&quot;EN-US&quot;&gt;–&lt;/span&gt;쉽고 가벼운 국산 프로그램&lt;/b&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;br /&gt;
+이지클린은 윈도의 불필요한 임시 파일과 레지스트리를 정리해주는 국산 프로그램으로 쉽게 구해서 무료로 사용할 수 있다. 파일 삭제와 레지스트리 정리
+이외에 인터넷 최적화, 메모리 최적화, 기록 관리 등 컴퓨터 관리에 필요한 기본적인 기능들을 탑재하고 있기 때문에 컴퓨터 관리가 필요한 사람들이
+많은 도움을 받을 수 있다. 이름처럼 쉽게 사용할 수 있기 때문에 복잡한 것을 싫어하는 사람들에게 좋다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;!--[if !supportEmptyParas]--&gt;&amp;nbsp;&lt;!--[endif]--&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;다운 받을 수 있는 곳&lt;span lang=&quot;EN-US&quot;&gt; : www.forusersoft.com&lt;br /&gt;
+&lt;br /&gt;
+1. 자동 최적화&lt;br /&gt;
+자동 최적화를 선택하면 컴퓨터 디스크의 불필요한 파일들과 레지스트리 청소를 한 번에 해줄 수 있다. [디스크 최적화 설정]과 [레지스트리 최적화
+설정]에서 각각의 최적화가 적용될 범위와 위치를 마음대로 지정해 줄 수 있다. 좌측 하단의 [최적화 후 시스템 종료]를 체크하면 최적화 후 자동으로
+컴퓨터가 종료된다. 최적화 중에는 다른 작업은 하지 않는 것이 좋으므로 최적화 중에 지루하게 기다리는 것보다는 컴퓨터를 끄기 전에 실행해 놓으면
+지혜롭게 사용할 수 있다. &lt;br /&gt;
+&lt;br /&gt;
+2. 디스크 최적화/레지스트리 최적화&lt;br /&gt;
+자동 최적화에서 한꺼번에 할 수 있는 [디스크 최적화]와 [레지스트리 최적화]를 각각 따로 해줄 수 있다. 두 가지 모두를 원하지 않고 한 가지만
+원할 때 이용하자&lt;br /&gt;
+&lt;br /&gt;
+3. 인터넷 최적화&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;레지스트리를 조작하여 인터넷 속도를 향상시켜주는 기능이다&lt;span lang=&quot;EN-US&quot;&gt;. [ADSL 일반 연결],
+[ADSL PPPoE 연결], [케이블 LAN 연결], [VDSL 일반 연결] 중 자신의 인터넷 환경을 선택해주면 된다. 만약 이 기능을 사용해서
+인터넷 속도가 더 느려진다든가, 기타 문제가 방생할 수도 있는데, 이럴 때는 [윈도 초기값 복구]를 선택하고서 이전의 레지스트리 환경으로 돌아가
+주면 된다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+4. 익스플로러 최적화&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;만약 자신이 사용하는 웹 브라우저가 마이크로소프트의 인터넷 익스플로러라면 이 기능을 사용하자&lt;span lang=&quot;EN-US&quot;&gt;. 익스플로러의 속도를 저하하는 방해요소(악성코드, Active X)를 제거하여 속도를 올려준다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+5. 메모리 최적화&lt;br /&gt;
+시스템의 메모리를 확보하여 컴퓨터의 속도를 올려주는 기능이다. [빠른 최적화], [보통 최적화], [최대한 최적화]로 나누어지며, 원하는 것을
+선택하고 [메모리 최적화]를 선택해주면 된다. 화면에서 현재 컴퓨터의 메모리 사용량을 실시간으로 확인해 줄 수 있다. 체감상 그리 뛰어난 기능은
+아니다.&lt;br /&gt;
+&lt;br /&gt;
+6. 파일, 레지스트리 복구&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;이지클린은 혹시 알 수 없는 문제가 발생했을 경우를 대비해서 과거에 최적화한 파일과 레지스트리를 백업해 두고
+있다&lt;span lang=&quot;EN-US&quot;&gt;. 행여나 문제가 발생하면 이 기능을 이용해 문제 발생 이전에 백업 된 파일을 이용해 복구해 주면 된다.&lt;br /&gt;
+&lt;br /&gt;
+7. 시작 프로그램 관리&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;윈도 실행 시 자동으로 실행되는 프로그램들을 제어해 줄 수 있다&lt;span lang=&quot;EN-US&quot;&gt;. 원하는 파일을
+체크하고 [선택 삭제]를 선택해주면 된다. 만약 해당 프로그램에서 자체적으로 자동 실행 기능을 꺼줄 수 있는 설정을 제공한다면 그것을 통해 제어하도록
+하자.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+8. 기록, 목록 관리&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;익스플로러의 주소창에 남는 주소 목록이나 쿠키&lt;span lang=&quot;EN-US&quot;&gt;, 시작 문서 목록 등 윈도에 전반적인
+기록과 목록을 관리해줄 수 있다. 해당 기록을 선택하고 [선택 삭제]를 선택하면 된다. 프로그램 추가/제거 목록 같은 경우 잘못해서 지우면 나중에
+해당 프로그램을 지울 때 난감한 경우가 생기므로 꼭, 프로그램을 지웠음에도 남아있는 추가/제거 목록만 제거하도록 하자. &lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;&lt;br /&gt;
+Ccleaner -빠르고 강력하다&lt;/b&gt;&lt;br /&gt;
+믿을만한 해외의 청소 프로그램 중 하나이다. 외국 프로그램이긴 하지만 한글화가 이루어져 일반 사용자들도 편리하게 사용할 수 있다. 이지클린보다
+약간 더 강력한 관리 기능을 가지고 있고 성능이 뛰어나다. 한글을 원하는 사람들은 설치 시에 언어를 선택하는 단계에서 한글을 선택하자.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;!--[if !supportEmptyParas]--&gt;&amp;nbsp;&lt;!--[endif]--&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;다운 받을 수 있는 곳&lt;span lang=&quot;EN-US&quot;&gt; : www.ccleaner.com/download&lt;br /&gt;
+&lt;br /&gt;
+1. Cleaner&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;각종 파일과 기록 정보들을 사용자들이 원하는 것만 골라 삭제해 줄 수 있다&lt;span lang=&quot;EN-US&quot;&gt;. 윈도와
+프로그램 두 가지로 분류되면 윈도에서는 시스템이나 익스플로러의 종류를, 프로그램에서는 사용자가 설치한 기타 프로그램들의 항목을 살펴볼 수 있다.
+원하는 목록을 체크해준 뒤 [분석]을 누르면 삭제할 목록을 알아서 골라준다. 삭제를 원한다면 [정리시작을] 선택해주자. &lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+2. 문제&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;Cleaner 기능과 같이 레지스트리를 청소해주는 기능이다. 원하는 항목을 체크하고
+[문제 검사]를 눌러 필요없는 레지스트리를 분석하고 나서 [선택된 문제 수정]을 이용해 청소해 줄 수 있다. [선택된 문제 수정]을 누르면 레지스트리
+변경 사항을 백업할지 물어보는데 꼭 백업하도록 하자. 훗날 문제가 생겼을 때 필요하기 때문이다. 레지스트리는 꼭 백업하도록 하자. &lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+3. 도구&lt;br /&gt;
+[프로그램 삭제] 메뉴에서는 윈도에 설치된 프로그램을 삭제하거나 이름을 바꿔줄 수 있다. 프로그램 말고 목록만 지워줄 수 있다. [시작]에서는
+윈도 실행 시 자동으로 실행되는 프로그램들을 제어할 수 있다. 원하지 않는 자동실행 프로그램들을 선택하고 나서 [항목 삭제]를 선택하면 된다.&lt;br /&gt;
+&lt;br /&gt;
+4. 설정&lt;br /&gt;
+[설정]에서는 사용 언어와 CCleaner의 자동 기능들을 설정해 줄 수 있다. [쿠키]에서는 원하는 쿠키를 삭제해주거나 반대로 삭제를 원하지
+않는 쿠키를 보호해 줄 수 있다. 이외에 메뉴에서도 동작과 관련된 몇 가지 설정을 조정할 수 있다. [고급]에서 [백업 된 레지스트리 보관]은
+꼭 선택해놓자.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;b&gt;&lt;br /&gt;
+RegSeeker&lt;span style=&quot;&quot;&gt;&amp;nbsp; &lt;/span&gt;-번거로운 설치가 필요 없다&lt;/b&gt;&lt;br /&gt;
+'RegSeeker' 는 설치과정이 없이 다운 받은 파일을 압축만 풀어주면 바로 실행 시킬 수 있는 프로그램으로 구동은 매우 쉽지만 사용할 수
+있는 기능은 매우 뛰어나고 고급스러운 청소 프로그램이다. 기본적인 청소 기능 이외에도 다양한 부가 기능을 제공하기 때문에 보다 더 강력한 관리
+기능을 원하는 사람들에게 좋다. 아울러 다양한 언어를 지원하고 그중에 한글도 포함되어 있기 때문에 언어로 고생할 필요가 없다. 우측 상단에
+[Languages...] 버튼을 선택하고서 [Korea]를 선택하면 한글을 사용할 수 있기 때문에 쉽게 접근할 수 있다. &lt;br style=&quot;&quot;&gt;
+&lt;!--[if !supportLineBreakNewLine]--&gt;&lt;br style=&quot;&quot;&gt;
+&lt;!--[endif]--&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;다운 받을 수 있는 곳&lt;span lang=&quot;EN-US&quot;&gt; : www.hoverdesk.net/freeware.htm
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;br /&gt;
+1. 레지스트리 검색&lt;br /&gt;
+윈도를 사용하다 보면 레지스트리를 편집 해야 할 일이 생기는데 이럴 때 유용한 기능이다. 윈도에서 기본적으로 지원하는 레지스트리 편집기를 이용하는
+것보다, RegSeeker의 레지스트리 검색을 이용하면 더 편리하다. 검색 범위를 체크하고 이름을 입력한 뒤 검색하자.&lt;br /&gt;
+2. 설치된 프로그램&lt;br /&gt;
+내 컴퓨터에 설치된 프로그램들을 살펴볼 수 있고 설정을 해줄 수 있다. 목록의 해당 레지스트리 키를 더블 클릭하면 각각의 위치에서 윈도 레지스트리
+편집기가 실행된다.&lt;br /&gt;
+&lt;br /&gt;
+3. 등록된 시작 프로그램&lt;br /&gt;
+윈도 실행 시 자동으로 시작되는 프로그램들을 제어해줄 수 있다. 원하는 목록을 선택하고 우클릭하면 팝업 메뉴가 나타난다. 자동 실행을 원하지 않는다면
+항목을 삭제해 주자. 삭제를 원하는 목록을 우클릭하고 [선택된 항목 삭제]를 선택하면 된다.&lt;br /&gt;
+&lt;br /&gt;
+4. 이력관리&lt;br /&gt;
+인터넷 익스플로러의 URL 목록, 히스토리, 캐시, 쿠키, 파일/컴퓨터 찾기 등 윈도 상에 기록된 내역을 살펴보고 삭제할 수 있다. [이력관리]를
+누르면 메뉴가 나타나는데, 원하는 메뉴를 선택하고 원하는 목록을 지워주면 된다.&lt;br /&gt;
+&lt;br /&gt;
+5. 즐겨찾기&lt;br /&gt;
+자주 찾는 레지스트리 파일을 목록으로 만들어 쉽게 사용하게 해주는 기능이다. 레지스트리를 자주 편집하는 사람들에게 유용하다. 즐겨찾기를 선택하고
+[즐겨찾기 관리]를 눌러준 뒤, 키 이름을 입력하고 [첨가]를 눌러주면 된다.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;br /&gt;
+6. 기능향상&lt;br /&gt;
+윈도의 여러가지 기능들을 제어해서 자신의 컴퓨터를 더 뛰어난 기능을 가진 컴퓨터로 만들자. 원하지 않는 항목은 체크를 풀어주고 [변경 적용]을
+선택한다. 아이콘의 크기나 휠 스크롤의 범위도 편하게 설정할 수 있다.&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;
+7. 레지스트리 지우기&lt;br /&gt;
+다른 프로그램들의 기능과 마찬가지로 레지스트리를 청소해주는 기능이다. RegSeeker도 다른 프로그램과 마찬가지로 문제가 발생할 때를 대비해서
+백업 기능을 지원한다. 레지스트리를 청소해주기 전에는 꼭 프로그램 촤측 하단에 위치한 [삭제 전에 백업하기]를 체크하고 실행하자. [Auto
+Clean]을 선택하면 청소가 실행된다.&lt;br /&gt;
+&lt;br /&gt;
+8. 백업 &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;레지스트리를 청소할 때 백업 된 파일들의 목록이다&lt;span lang=&quot;EN-US&quot;&gt;. 훗날을 대비해서 잘 관리해두는
+것이 좋다. 만약 문제가 생긴다면 원하는 백업 파일을 더블 클릭하여 실행한 뒤 [Restore]를 선택하면 된다.(그림 21)&lt;br /&gt;
+&lt;b&gt;&lt;br /&gt;
+WinTools.net &lt;/b&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot; lang=&quot;EN-US&quot;&gt;–&lt;/span&gt;최고급 기능들을 한곳에&lt;/b&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;;&quot; lang=&quot;EN-US&quot;&gt;…&lt;/span&gt;&lt;/b&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;br /&gt;
+다른 프로그램들과 마찬가지로 WinTools.net은 윈도를 최적화시켜주고 레지스트리를 청소해주는 프로그램이다. 지금 설명한 프로그램들 중에서는
+가장 복잡한 인터페이스를 가지고 있지만 그만큼 할 수 있는 일이 많기 때문에 괜찮은 프로그램이다. [Option]-[Languages]에서
+[Korea]를 선택하면 한글을 이용할 수 있다. 처음 실행하면 컴퓨터의 세부 사양을 보여주는 것이 특이하다. 유료 프로그램으로 인터넷 상에서
+21일 체험판을 구할 수 있다. 체험판은 몇몇 기능에 제한이 있다. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;&lt;!--[if !supportEmptyParas]--&gt;&amp;nbsp;&lt;!--[endif]--&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=&quot;MsoNormal&quot;&gt;다운 받을 수 있는 곳&lt;span lang=&quot;EN-US&quot;&gt; : www.wintools.net&lt;br /&gt;
+&lt;br /&gt;
+1. Clean Uninstaller&lt;br /&gt;
+프로그램을 지울 때 같이 지워지지 않는 임시 파일들을 남아 있지 않게 미연에 방지하는 기능이다. 프로그램의 설치과정을 제어하거나 감시할 수 있다.
+[설정]에서 적용될 디스크를 지정해주고 레지스트리도 추가해줄 수 있다. [생성하기]를 선택하면 제어시점을 지정할 수 있고 [분석하기]를 통해 변경된
+사항을 찾아볼 수 있다.&lt;br /&gt;
+&lt;br /&gt;
+2. Scan Files&lt;br /&gt;
+컴퓨터에 불필요한 임시파일들을 검색하고 삭제해주는 기능이다. [검사를 원하지 않는 폴더는 [제외] 메뉴를 통해서 지정해 주면 되고, 옵션에서 제거된
+파일을 영구히 지우거나 휴지통으로 이동할지도 정해줄 수 있다.&lt;br /&gt;
+&lt;br /&gt;
+3. Scan Registry&lt;br /&gt;
+레지스트리를 청소하는 기능이다. 다른 프로그램들과 마찬가지로 미리 레지스트리를 백업해준 뒤 사용하자. [백업]메뉴에서 [생성하기]를 선택하여 백업해두면
+되고 [복원]을 통해 문제를 해결할 수 있다.&lt;br /&gt;
+&lt;br /&gt;
+4. Start up&lt;br /&gt;
+시작 프로그램들을 관리할 수 있게 도와주는 기능이다. 시작 프로그램 관리에서 원하지 않는 프로그램을 체크해 주고 우측에 있는 [적용]을 선택하면
+된다. 이외에 [프로세스]에서는 실행 중인 프로세스를 끄거나 새로 고침 해줄 수 있다. &lt;br /&gt;
+&lt;br /&gt;
+5. Tweaki UI&lt;br /&gt;
+윈도의 여러 숨겨진 항목들을 설정할 수 있게 해주는 기능이다. [전체], [바탕화면], [시스템], [시작메뉴], [보안], [제어판]으로 나뉘며
+해당 메뉴를 클릭하면 세부적인 설정의 목록이 보인다. 체크로 원하는 항목을 설정해주고 우측 하단에 [적용]을 눌러주자.&lt;br /&gt;
+&lt;br /&gt;
+6. Net Tweak&lt;br /&gt;
+인터넷을 최적화시켜서 속도를 향상시켜주는 기능이다. 약간 복잡하고 자신의 컴퓨터에 대한 전문적인 지식이 필요하기 때문에 쉽게 사용하기는 힘들다.
+과거의 설정 값으로 되돌리려면 [기본 값]을 선택하면 된다.&lt;br /&gt;
+&lt;br /&gt;
+7. The Privacy&lt;br /&gt;
+컴퓨터에 남은 민감한 정보들을 삭제해 줄 수 있다. [윈도우 로그 파일], [파일 기록], [휴지통] 등 삭제를 원하는 목록을 체크하고 [지우기]를
+눌러주면 된다. 다른 메뉴에서는 [사용내역]을 생성하여 복구에 사용할 수 있고 [파일 슈레더]에서는 디스크에서 조각난 파일을 삭제해 줄 수 있다.&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span lang=&quot;EN-US&quot;&gt;(이 글은 펌을 금지합니다.)&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/252&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/기%20타&quot;&gt;기 타&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/254&quot; &gt;파이어폭스3 새로이 추가된 명령어! about:robots&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(19)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/253&quot; &gt;애드센스 디자인 공모전 당선 작품&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/252&quot; &gt;자신의 PC 어떻게 관리하세요?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(23)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/05/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/250&quot; &gt;심형래 디워, 파이어폭스 패러디&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(25)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/244&quot; &gt;로드 브라우저 사용기(Road)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(35)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/07/26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/226&quot; &gt;사탄의 브라우저 파이어폭스? 불여우의 비밀...(이스터 에그)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(28)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/07/04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>기 타</category>
+			<category>악성코드</category>
+			<category>청소</category>
+			<category>프로그램</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/252</guid>
+			<comments>http://firefoxinside.tistory.com/252#entry252comment</comments>
+			<pubDate>Sat, 03 May 2008 16:27:38 +0900</pubDate>
+		</item>
+		<item>
+			<title>파이어폭스의 프로필에 대해 알아보자.</title>
+			<link>http://firefoxinside.tistory.com/242</link>
+			<description>&lt;strong&gt;파이어폭스&lt;/strong&gt;는 다른 웹 브라우저와 달리 &lt;strong&gt;프로필을 기반&lt;/strong&gt;으로 데이터를 관리한다. 이는 윈도우의 사용자 시스템과 같다고 보면 쉽다. &lt;br /&gt;&lt;br /&gt;이런 프로필 사용은 &lt;strong&gt;한대의 컴퓨터로 다수&lt;/strong&gt;가 파이어폭스를 사용할 때 유용하다. 이 프로필에는 &lt;strong&gt;북마크, 확장기능, 메일 등&lt;/strong&gt; 모든 세부 설정들이 저장되기 때문에 프로필만 새로 만들어 주면 완전히 초기화된 파이어폭스를 같은 컴퓨터에서 다른 사람이 자기만의 파이어폭스로 만들어가며 사용할 수 있다. &lt;br /&gt;&lt;br /&gt;아울러 이렇게 프로필에 모든 것이 저장되는 것은 파이어폭스를 완전히&lt;strong&gt; 초기화&lt;/strong&gt; 해야 할 필요가 있을 때 번거롭게 프로그램 전체를 지웠다 새로 깔 필요 없이 &lt;strong&gt;프로필만 제거&lt;/strong&gt;하고 다시 만들어주는 과정 만으로 해결이 가능하기 때문에 좋다.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;imageblock left&quot; style=&quot;float: left; margin-right: 10px;&quot;&gt;&lt;img src=&quot;http://cfs2.tistory.com/upload_control/download.blog?fhandle=YmxvZzQzMDYzQGZzMi50aXN0b3J5LmNvbTovYXR0YWNoLzEvMTgyLkpQRw%3D%3D&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;247&quot; width=&quot;377&quot;/&gt;&lt;/div&gt;앞에서 말한 것 외에도 프로필 시스템은 얼마든지 유용하게 사용할 수 있기 때문에 꼭 알아두도록 하자.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;&lt;font size=&quot;3&quot;&gt;*실행 방법&lt;br /&gt;&lt;/font&gt;&lt;/strong&gt;&lt;br /&gt;프로필 관리자 메뉴를 불러 오려면 &lt;strong&gt;시작 -&lt;/strong&gt; &lt;strong&gt;실행&lt;/strong&gt;에 &lt;strong&gt;firefox.exe -p&lt;/strong&gt;를 입력하면 된다. &lt;br /&gt;&lt;br /&gt;만약 실행할 때 마다 계속 프로필 관리자를 실행시키고 싶다면 아이콘을 &lt;strong&gt;우클릭&lt;/strong&gt; 한 뒤, &lt;strong&gt;등록 정보 - 바로가기 - 대상&lt;/strong&gt;의 주소 마지막에&lt;strong&gt; firefox.exe -p&lt;/strong&gt;를 붙여주면(예 &quot;C:\Program Files\Mozilla Firefox\firefox.exe&quot; -p) 다음부터 해당 아이콘으로 실행 시 프로필 관리자가 나오게 만들어서 프로필을 선택해서 들어갈 수 있다.&lt;br /&gt;&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfs2.tistory.com/upload_control/download.blog?fhandle=YmxvZzQzMDYzQGZzMi50aXN0b3J5LmNvbTovYXR0YWNoLzEvMTgzLmpwZw%3D%3D&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;303&quot; width=&quot;450&quot;/&gt;&lt;/div&gt;Thanks to. 알려주신 &lt;a onclick=&quot;return openLinkInNewWindow(this)&quot; href=&quot;http://channy.creation.net/&quot;&gt;&lt;strong&gt;Channy&lt;/strong&gt;&lt;/a&gt;님 감사드립니다.&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/242&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/＊FireFox%20팁&quot;&gt;＊FireFox 팁&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/276&quot; &gt;프로그램 없이 유투브 동영상 다운받기 - 사파리 팁&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2009/11/09&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/258&quot; &gt;페이지를 확대/축소해보자! - (파이어폭스3)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/06/21&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/242&quot; &gt;파이어폭스의 프로필에 대해 알아보자.&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(21)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/11/13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/248&quot; &gt;우클릭 사용을 막아 놓았다면? (우클릭 금지 해제하기)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(19)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/241&quot; &gt;파이어폭스 &amp;quot;About:ㅇㅇㅇ&amp;quot; 페이지에 대해...&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(16)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/07/21&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/222&quot; &gt;구글 툴바는 숨기고, 원하는 기능은 사용하자&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(13)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/06/26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>＊FireFox 팁</category>
+			<category>파이어폭스</category>
+			<category>프로필</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/242</guid>
+			<comments>http://firefoxinside.tistory.com/242#entry242comment</comments>
+			<pubDate>Tue, 13 Nov 2007 15:04:45 +0900</pubDate>
+		</item>
+		<item>
+			<title>새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-8</title>
+			<link>http://firefoxinside.tistory.com/238</link>
+			<description>&lt;font size=&quot;4&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;VIII. 맺음말&lt;/span&gt;&lt;/font&gt;&lt;p&gt;&lt;font face=&quot;Verdana&quot; size=&quot;2&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;A. 인터넷 익스플로러 7 (Internet Explorer 7)&lt;/span&gt; &lt;/font&gt;&lt;/p&gt;&lt;font face=&quot;Verdana&quot; size=&quot;2&quot;&gt;인터넷 익스플로러는 다른 
+브라우저에 비해 기능은 많이 떨어질 수도 있으나 기본기능에 
+아주 충실한 브라우저이다. 그렇기 때문에 복잡하고 
+어려운 것을 싫어하고 간단하게 웹 서핑만을 원하는 
+사용자들에게는 가장 알맞은 브라우저이다. 아울러 
+우리나라는 아직도 Active X를 이용하지 않으면 이용할 
+수 없는 웹 사이트들이 상당수 존재한다. &lt;br /&gt;&lt;br /&gt;인터넷 뱅킹은 
+물론이고 각종 동영상 서비스나 게임도 인터넷 익스플로러가 
+필수적이기 때문에 원하지 않아도 어쩔 수 없이 사용할 
+수 밖에 없는 일이 있다. 이런 문제들을 고려해 봤을 
+때 인터넷 익스플로러 7도 6버전만큼은 아니겠지만 
+대중들로부터 많은 사랑을 받을 것이라고 예상 할 수 
+있다.&lt;/font&gt;&lt;font face=&quot;Verdana&quot; size=&quot;2&quot;&gt;&lt;br /&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;
+&lt;p&gt;&lt;font face=&quot;Verdana&quot; size=&quot;2&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;B. 파이어폭스 2 (Firefox 2)&lt;/span&gt; &lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font face=&quot;Verdana&quot; size=&quot;2&quot;&gt;파이어폭스는 웹 사이트에서 
+구할 수 있는 수많은 확장 기능들 덕분에 익스플로러에 
+질린 사용자들을 많이 끌어들이고 있다. 현재 세계 
+점유율 15%로 익스플로러의 뒤로 바짝 추격하고 있다. &lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font face=&quot;Verdana&quot; size=&quot;2&quot;&gt;파이어폭스는 사용자의 기호에 
+따라 좋아하는 디자인으로 테마를 바꿀 수도 있고 웹 
+서핑에 도움을 주는 수많은 보조 기능에서부터 간단한 
+게임까지 정말 많은 즐길 거리와 꾸밀 거리가 존재하기 
+때문에 자신만의 웹 브라우저를 원하는 수많은 사람들로부터 
+계속적으로 지지를 얻음과 동시에 점유율도 계속 높여 
+나갈 것이라고 본다. &lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font face=&quot;Verdana&quot; size=&quot;2&quot;&gt;&amp;nbsp;&lt;span style=&quot;font-weight: bold;&quot;&gt; &lt;/span&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font face=&quot;Verdana&quot; size=&quot;2&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;C. 사파리 3 (Safari 3)&lt;/span&gt; &lt;/font&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font face=&quot;Verdana&quot; size=&quot;2&quot;&gt;아직은 미완성 버전인 관계로 
+수많은 버그와 문제들이 있지만 이런 문제들은 베타 
+단계이므로 곧 해결되리라 본다. 공개된 애플의 사파리는 
+윈도용이지만 Mac OS X용 사파리의 뛰어난 미적 감각과 
+능력을 그대로 가지고 윈도로 넘어 왔다. 안티 앨리언싱 
+처리된 폰트는 아주 아름답고 각종 애니메이션 이팩트는 
+바로 맥을 연상케 할 정도이다. 아이폰을 위해서 윈도에 
+출시된 감이 없지않아 있지만, 사파리도 아이 튠즈와 
+같이 윈도 사용자들을 애플의 세계로 이끄는데 한몫을 
+할 것이다.&lt;/font&gt;&lt;font face=&quot;Verdana&quot; size=&quot;2&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;br style=&quot;font-weight: bold;&quot;&gt;
+&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;color: rgb(142, 142, 142); font-weight: bold;&quot;&gt;&lt;a href=&quot;../../../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-1&quot;&gt;1&lt;/a&gt; /&lt;a href=&quot;../../../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-2&quot;&gt;2&lt;/a&gt; /&lt;a href=&quot;../../../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-3&quot;&gt;3&lt;/a&gt; /&lt;a href=&quot;../../../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-4&quot;&gt;4&lt;/a&gt; /&lt;a href=&quot;../../../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-5&quot;&gt;5&lt;/a&gt; /&lt;a href=&quot;../../../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-6&quot;&gt;6&lt;/a&gt; /&lt;a href=&quot;../../../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-7-1&quot;&gt;7&lt;/a&gt; /&lt;/span&gt;&lt;a style=&quot;font-weight: bold;&quot; href=&quot;../../../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-8&quot;&gt;8&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;
+
+&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/238&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/칼%20럼&quot;&gt;칼 럼&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/264&quot; &gt;IE8, 버그투성이 브라우저?(머니투데이의 버그투성이 기사)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(10)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/08/02&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/262&quot; &gt;케이크와 철 구조물(마이크로소프트의 장난)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(6)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/238&quot; &gt;새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-8&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/237&quot; &gt;새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-7&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(19)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/235&quot; &gt;새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-6&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/234&quot; &gt;새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-5&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(10)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>칼 럼</category>
+			<category>사파리</category>
+			<category>익스플로러</category>
+			<category>파이어폭스</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/238</guid>
+			<comments>http://firefoxinside.tistory.com/238#entry238comment</comments>
+			<pubDate>Thu, 30 Aug 2007 19:24:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-7</title>
+			<link>http://firefoxinside.tistory.com/237</link>
+			<description>&lt;font style=&quot;font-weight: bold;&quot; size=&quot;3&quot;&gt;VII. 웹 표준 테스트&lt;/font&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt; &lt;/span&gt;&lt;br style=&quot;font-weight: bold;&quot;&gt;&lt;p&gt;&lt;font face=&quot;Verdana&quot; size=&quot;2&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;
+A. Acid2 테스트 &lt;/span&gt;&lt;br /&gt;
+웹 표준이란, 다양한 환경에서 웹 페이지가 다르게 
+보이지 않고 모두 동일하게 보일 수 있도록 국제적으로 
+정해놓은 기준이라고 생각하면 아주 쉽다. &lt;br /&gt;
+Acid2 테스트는 바로 이 웹 표준을, 사용하는 웹 브라우저가 
+HTML과 CSS를 작성된 코드의 상관관계에 맞게 똑바로 
+사용자에게 보여주는지 확인해 볼 수 있는 웹 표준 
+테스트 중 하나이다. &lt;br /&gt;
+Active X나 인터넷 익스플로러 전용 웹 사이트처럼 기형적인 
+국내의 웹 환경에서는 사실상 이 웹 표준이란 것이 
+무색하지만, 그래도 테스트하는 웹 브라우저가 얼마나 
+기본에 충실한지 알아볼 수 있는 좋은 방법 중 하나이다. 
+웹 브라우저가 [그림 17]번의 스마일 그림을 기준으로 
+얼마나 동일한 그림을 보여주는지로 웹 표준 지원 수준을 
+가늠할 수 있다. 아래의 그림들을 보다시피 인터넷 
+익스플로러, 파이어폭스, 사파리마다 확연한 차이를 
+보여준다. 사파리가 가장 원본 그림과 유사한 모습을 
+보여주며 파이어폭스도 부족하긴 하지만 상당히 뛰어난 
+모습을 보여준다. 인터넷 익스플로러는 조금 실망스러운 
+모습을 보여주고 있다.&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfs2.tistory.com/upload_control/download.blog?fhandle=YmxvZzQzMDYzQGZzMi50aXN0b3J5LmNvbTovYXR0YWNoLzEvMTgwLmpwZw%3D%3D&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;200&quot; width=&quot;200&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;Acid2 TEST 원본&lt;/p&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfs3.tistory.com/upload_control/download.blog?fhandle=YmxvZzQzMDYzQGZzMy50aXN0b3J5LmNvbTovYXR0YWNoLzEvMTU2LmpwZw%3D%3D&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;158&quot; width=&quot;450&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;Acid2 테스트(왼쪽부터 익스플로러7-파이어폭스2-사파리3)&lt;/p&gt;&lt;/div&gt;&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;font face=&quot;Verdana&quot; size=&quot;2&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(0, 128, 0);&quot;&gt;잠깐!!!&lt;/span&gt; &lt;/b&gt;– &lt;b&gt;직접 Acid2 테스트 
+해보기&lt;/b&gt;&amp;nbsp;&lt;br /&gt;
+ 자신이 직접 사용하고 있는 브라우저로 테스트해볼 
+수 있다. 테스트를 원하는 브라우저를 실행시키고서 
+&quot;&lt;a href=&quot;http://www.webstandards.org/files/acid2/test.html&quot; target=&quot;_blank&quot;&gt;www.webstandards.org/files&lt;wbr&gt;/acid2/test.html&lt;/a&gt;&quot;를 방문한다. 
+이곳에서 Take The Acid2 Test를 선택하면 브라우저가 어떤 
+모습의 스마일 그림을 보여주는지 알 수 있다. the reference 
+rendering를 선택하면 원본 스마일 그림을 확인할 수 있다.&lt;/font&gt;&lt;br style=&quot;font-weight: bold;&quot;&gt;
+&lt;/p&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-1&quot;&gt;&lt;font face=&quot;Verdana&quot; size=&quot;2&quot;&gt;&lt;/font&gt;&lt;/a&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;color: rgb(142, 142, 142); font-weight: bold;&quot;&gt;&lt;a href=&quot;../../../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-1&quot;&gt;1&lt;/a&gt; /&lt;a href=&quot;../../../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-2&quot;&gt;2&lt;/a&gt; /&lt;a href=&quot;../../../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-3&quot;&gt;3&lt;/a&gt; /&lt;a href=&quot;../../../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-4&quot;&gt;4&lt;/a&gt; /&lt;a href=&quot;../../../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-5&quot;&gt;5&lt;/a&gt; /&lt;a href=&quot;../../../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-6&quot;&gt;6&lt;/a&gt; /&lt;a href=&quot;../../../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-7-1&quot;&gt;7&lt;/a&gt; /&lt;/span&gt;&lt;a style=&quot;font-weight: bold;&quot; href=&quot;../../../../../entry/%EC%83%88%EB%A1%AD%EA%B2%8C-%EC%8B%9C%EC%9E%91%EB%90%9C-%EC%9B%B9-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%A0%84%EC%9F%81-%EC%9D%B5%EC%8A%A4%ED%94%8C%EB%A1%9C%EB%9F%ACvs%ED%8C%8C%EC%9D%B4%EC%96%B4%ED%8F%AD%EC%8A%A4vs%EC%82%AC%ED%8C%8C%EB%A6%AC-8&quot;&gt;8&lt;/a&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align:left; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=firefoxinside.tistory.com/237&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/칼%20럼&quot;&gt;칼 럼&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/262&quot; &gt;케이크와 철 구조물(마이크로소프트의 장난)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(6)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2008/07/06&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/238&quot; &gt;새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-8&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/30&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/237&quot; &gt;새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-7&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(19)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/235&quot; &gt;새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-6&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/234&quot; &gt;새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-5&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(10)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/08/05&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/233&quot; &gt;새롭게 시작된 웹 브라우저 전쟁 (익스플로러vs파이어폭스vs사파리)-4&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2007/07/25&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>칼 럼</category>
+			<category>사파리</category>
+			<category>익스플로러</category>
+			<category>파이어폭스</category>
+			<author>토이</author>
+			<guid>http://firefoxinside.tistory.com/237</guid>
+			<comments>http://firefoxinside.tistory.com/237#entry237comment</comments>
+			<pubDate>Mon, 20 Aug 2007 16:22:00 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

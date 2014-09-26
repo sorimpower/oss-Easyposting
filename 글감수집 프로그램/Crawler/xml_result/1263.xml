@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>달도깨비[월정]의 이상한 공간 2 [SSX2]</title>
+		<link>http://moonbogy.tistory.com/</link>
+		<description>컴퓨터와 잡다한 글들이 모여 있는 이상한 공간 &amp; 꿈은 그것을 버리지 않는 한 결코 사라지지 않는다. &amp; 세상을 바꾸는 것은 단 한 사람 &amp; 훌륭한 예술가는 모방하고 위대한 예술가는 도용한다</description>
+		<language>ko</language>
+		<pubDate>Sat, 17 Dec 2011 10:41:19 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>달도깨비[월정]</managingEditor>
+		<image>
+		<title>달도깨비[월정]의 이상한 공간 2 [SSX2]</title>
+		<url><![CDATA[http://cfile25.uf.tistory.com/image/156931224D00620E2803F6]]></url>
+		<link>http://moonbogy.tistory.com/</link>
+		<description>컴퓨터와 잡다한 글들이 모여 있는 이상한 공간 &amp; 꿈은 그것을 버리지 않는 한 결코 사라지지 않는다. &amp; 세상을 바꾸는 것은 단 한 사람 &amp; 훌륭한 예술가는 모방하고 위대한 예술가는 도용한다</description>
+		</image>
+		<item>
+			<title>압축과 해제 [01] Windows [원도우]에서 ZIP 파일 만들기 및 해제 풀기</title>
+			<link>http://moonbogy.tistory.com/866</link>
+			<description>	&lt;div class=&quot;ad250_outter&quot; style=&quot;float: right; margin: 0 0 20px 10px; position: relative; width: 250px;&quot;&gt;
+		&lt;div class=&quot;ad250&quot; style=&quot;background: transparent url(http://i1.daumcdn.net/img-media/media3/common/ad250_bar_r2.gif) no-repeat scroll 0 0; width: 250px; height: 250px; padding: 18px 0 0; position: relative; width: 250px&quot;&gt;
+			&lt;iframe width=&quot;250&quot; height=&quot;250&quot; border=&quot;0&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://amsv2.daum.net/ad/adview?secid=00659&amp;mkvid=1&amp;blogid=349834&quot;&gt;&lt;/iframe&gt;		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/1460883B4EE95106233801&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;winzip.jpg&quot; height=&quot;117&quot; width=&quot;140&quot;/&gt;&lt;/div&gt;&lt;/P&gt;글 쓴 날 : 2011-12-15 목요일&lt;br /&gt;
+글 쓴 이 : 달도깨비&lt;br /&gt;
+&lt;br /&gt;Windows은 1998년부터 zip파일을 지원했다고 합니다.&lt;br /&gt;
+아마도 Windows 98부터 지원한 것 같습니다.&lt;br /&gt;
+지금은 대부분 Windows 2000이상 사용하니 대부분 사용이 가능할 것입니다.&lt;br /&gt;
+&lt;br /&gt;Windows에서 압축파일인 zip 파일을 어떻게 만들 것인가?&lt;br /&gt;
+방법은 원하는 파일들은 선택합니다.&lt;br /&gt;
+폴더을 선택해도 됩니다.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/167DE5394EE952A32877E6&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;zip 01.jpg&quot; height=&quot;422&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;선택을 했으면 마우스 오른쪽 버튼 클릭합니다.&lt;br /&gt;
+선택된 파일 위에서 해야 됩니다.&lt;br /&gt;
+보내기에 보면 압축(ZIP) 폴더라는 것이 있습니다.&lt;br /&gt;
+그 메뉴 선택하면 압축이 이루어지게 됩니다.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/1472F0374EE952E12B7D5D&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;zip 02.jpg&quot; height=&quot;130&quot; width=&quot;593&quot;/&gt;&lt;/div&gt;&lt;/P&gt;해제는 ZIP 파일로 만들어진 파일 위에 마우스 오른쪽 버튼 클릭하시면 압축풀기라는 메뉴 나옵니다.&lt;br /&gt;
+그러나 다른 압축해제프로그램 설치하면 이 메뉴 사라집니다.&lt;br /&gt;
+&lt;br /&gt;= 달도깨비 =&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-866-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-866-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-866-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=23550950&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:center; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=moonbogy.tistory.com/866&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;script type=&#039;text/javascript&#039; src=&#039;http://mixsh.com/widget/mixupcast/loader.js?domain=moonbogy.tistory.com&amp;type=random&amp;itemcnt=7&amp;platform=10&#039;&gt;&lt;/script&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>컴퓨터 길잡이</category>
+			<category>windows</category>
+			<category>Zip</category>
+			<category>ZIP 압축</category>
+			<category>ZIP 풀기</category>
+			<category>ZIP 해제</category>
+			<author>달도깨비[월정]</author>
+			<guid>http://moonbogy.tistory.com/866</guid>
+			<comments>http://moonbogy.tistory.com/866#entry866comment</comments>
+			<pubDate>Thu, 15 Dec 2011 10:59:02 +0900</pubDate>
+		</item>
+		<item>
+			<title>압축과 해제란? [00]</title>
+			<link>http://moonbogy.tistory.com/865</link>
+			<description>	&lt;div class=&quot;ad250_outter&quot; style=&quot;float: right; margin: 0 0 20px 10px; position: relative; width: 250px;&quot;&gt;
+		&lt;div class=&quot;ad250&quot; style=&quot;background: transparent url(http://i1.daumcdn.net/img-media/media3/common/ad250_bar_r2.gif) no-repeat scroll 0 0; width: 250px; height: 250px; padding: 18px 0 0; position: relative; width: 250px&quot;&gt;
+			&lt;iframe width=&quot;250&quot; height=&quot;250&quot; border=&quot;0&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://amsv2.daum.net/ad/adview?secid=00659&amp;mkvid=1&amp;blogid=349834&quot;&gt;&lt;/iframe&gt;		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;글 쓴 날 : 2011-12-12 월요일&lt;br /&gt;
+글 쓴 이 : 달도깨비&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/131657434EE59D72271D25&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;winzip.jpg&quot; height=&quot;117&quot; width=&quot;140&quot;/&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;P&gt;&lt;br /&gt;
+&lt;br /&gt;요즘 파일들은 대부분 자동압축풀림[SFX] 형태로&amp;nbsp;배포합니다.&lt;br /&gt;
+즉 이런 프로그램들은 파일이름이 실행파일이라 실행시 자동으로 설치화면까지 나옵니다..&lt;br /&gt;
+그러나 초창기에는 자동압축풀림이 아닌 확장자가 zip인 파일로 많이 공급되었습니다.&lt;br /&gt;
+즉 프로그램 설치에 필요한 파일들을 한꺼번에 배포할려니 해당 파일들을 하나의 파일로 만들어야 했습니다.&lt;br /&gt;
+그래서 생긴 게 압축파일입니다.&lt;br /&gt;
+사실 이런 이유 말고도 파일을 압축하는 기능도 있습니다.&lt;br /&gt;
+즉 해당파일을 적게 만드는 것입니다.&lt;br /&gt;
+이 작업을 반대되는 뜻이 해제입니다.&lt;br /&gt;
+&lt;br /&gt;먼저 파일들은 압축해서 배포합니다.&lt;br /&gt;
+그러면 필요한 사용자가 받아서 압축을 해제하고 setup나 install 파일을 실행하면 설치프로그램이 시작됩니다.&lt;br /&gt;
+&lt;br /&gt;오래전에는 그래픽 드라이버을 비롯해서 많은 프로그램들이 이렇게 나왔습니다.&lt;br /&gt;
+요즘은 자동압축풀림으로 파일들이 나와서 필요없는 것 같지만 문서 파일 같은 것은 아직도 압축해서 제공하는 경우가 있습니다.&lt;br /&gt;
+물론 드라이버도 압축해서 제공하는 경우도 있습니다.&lt;br /&gt;
+&lt;br /&gt;= 달도깨비 =&lt;/P&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-865-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-865-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-865-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=23439439&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:center; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=moonbogy.tistory.com/865&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;script type=&#039;text/javascript&#039; src=&#039;http://mixsh.com/widget/mixupcast/loader.js?domain=moonbogy.tistory.com&amp;type=random&amp;itemcnt=7&amp;platform=10&#039;&gt;&lt;/script&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>컴퓨터 길잡이</category>
+			<category>압축</category>
+			<category>해제</category>
+			<author>달도깨비[월정]</author>
+			<guid>http://moonbogy.tistory.com/865</guid>
+			<comments>http://moonbogy.tistory.com/865#entry865comment</comments>
+			<pubDate>Mon, 12 Dec 2011 15:24:52 +0900</pubDate>
+		</item>
+		<item>
+			<title>마이 블랙 미니드레스 Little Black Dress, 2011 = 친구 돈이면 그런 것 필요 없어~ 넌 나의 적</title>
+			<link>http://moonbogy.tistory.com/864</link>
+			<description>	&lt;div class=&quot;ad250_outter&quot; style=&quot;float: right; margin: 0 0 20px 10px; position: relative; width: 250px;&quot;&gt;
+		&lt;div class=&quot;ad250&quot; style=&quot;background: transparent url(http://i1.daumcdn.net/img-media/media3/common/ad250_bar_r2.gif) no-repeat scroll 0 0; width: 250px; height: 250px; padding: 18px 0 0; position: relative; width: 250px&quot;&gt;
+			&lt;iframe width=&quot;250&quot; height=&quot;250&quot; border=&quot;0&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://amsv2.daum.net/ad/adview?secid=00659&amp;mkvid=1&amp;blogid=349834&quot;&gt;&lt;/iframe&gt;		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/1955244A4EE434581FCE6E&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;마이 블랙 미니드레스 Little Black Dress, 2011.jpg&quot; height=&quot;866&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+글 쓴 날 : 2011-12-11 일요일&lt;br /&gt;
+글 쓴 이 : 달도깨비&lt;br /&gt;
+&lt;br /&gt;영화는 영화가 아니라 TV용으로 해도 될 정도입니다.&lt;br /&gt;
+개인적으로 드라마 안좋아 합니다.&lt;br /&gt;
+졸업을 하고 사회에 나오면 친구고 머고 다 적이 됩니다.&lt;br /&gt;
+누군가 잘 되면 열받죠.&lt;br /&gt;
+학교 다닐 때는 나보다 못한 것이라며~~&lt;br /&gt;
+개인적으로 드라마을 안좋아해서 지루함이~~&lt;br /&gt;
+&lt;br /&gt;그리고 블랙 드레스는 샤넬이라는 분의 작품이고 합니다.&lt;br /&gt;
+디자이너라는데 이쪽으로는 아는게 없어서~~&lt;br /&gt;
+&lt;br /&gt;= 월정 =&lt;br /&gt;
+
+&lt;STYLE type=text/css&gt;
+
+#e_DaumMovie53804 * {margin:0;padding:0;font:normal 11px AppleGothic,Dotum;letter-spacing:-1px;color:#666;border:0;list-style: none;line-height:1.5em;}
+#e_DaumMovie53804 {position:relative;width:382px;background:#f9f9f9;padding:13px;overflow:hidden;}
+#e_DaumMovie53804 h3 {display:block;}
+#e_DaumMovie53804 h3 a {color:#5569d3;}
+#e_DaumMovie53804 a {color:#9098ea;}
+#e_DaumMovie53804 #e_title {margin-bottom:8px;}
+#e_DaumMovie53804 .more {background:url(http://i1.daumcdn.net/img-contents/movie/2008_home/popup/bullet01.gif) no-repeat 33px 3px;padding-right:8px;}
+
+#e_DaumMovie53804 #e_image {float:left;margin-right:13px;}
+#e_DaumMovie53804 li {}&lt;/STYLE&gt;
+
+&lt;DIV id=e_DaumMovie53804&gt;
+&lt;DIV id=e_image&gt;&lt;A href=&quot;http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=53804&quot; target=_blank&gt;&lt;IMG id=e_img alt=&quot;마이 블랙 미니드레스&quot; src=&quot;http://cfile118.uf.daum.net/C74x107/146F7F484D6BB72C0F3452&quot; height=107&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV id=c_title&gt;
+&lt;H3 id=e_title&gt;&lt;A href=&quot;http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=53804&quot; target=_blank&gt;마이 블랙 미니드레스&lt;/A&gt;&lt;/H3&gt;&lt;/DIV&gt;
+&lt;UL id=c_info&gt;
+&lt;LI id=e_directors&gt;감독 : &lt;A title=허인무 href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=42057&quot; target=_blank&gt;허인무&lt;/A&gt;&lt;/LI&gt;
+&lt;LI id=e_actors&gt;출연 : &lt;A title=윤은혜 href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=95613&quot; target=_blank&gt;윤은혜&lt;/A&gt;, &lt;A title=박한별 href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=42695&quot; target=_blank&gt;박한별&lt;/A&gt;&amp;nbsp;&lt;SPAN class=more&gt;&lt;A style=&quot;COLOR: #666&quot; title=&quot;배우 더보기&quot; href=&quot;http://movie.daum.net/moviedetailCastCrew.do?movieId=53804&quot; target=_blank&gt;더보기&lt;/A&gt;&lt;/SPAN&gt;&lt;/LI&gt;
+&lt;LI id=e_synopsis&gt;&lt;B&gt;누구보다 눈부시게 살고 싶던 그녀들... 현실의 벽에 부딪히다! &lt;/B&gt;&lt;br /&gt;
+&lt;br /&gt;명문대 연영과 학생 유민, 혜지, 민희,.. &lt;/B&gt;&lt;SPAN class=more&gt;&lt;A href=&quot;http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=53804&quot; target=_blank&gt;더보기&lt;/A&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;&lt;object type=&#039;application/x-shockwave-flash&#039; id=&#039;4hbWuCa4Nj8$&#039; width=&#039;642px&#039; height=&#039;390px&#039; align=&#039;middle&#039; classid=&#039;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&#039; codebase=&#039;http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0&#039;&gt;&lt;param name=&#039;movie&#039; value=&#039;http://flvs.daum.net/flvPlayer.swf?vid=4hbWuCa4Nj8$&#039; /&gt;&lt;param name=&#039;allowScriptAccess&#039; value=&#039;always&#039; /&gt;&lt;param name=&#039;allowFullScreen&#039; value=&#039;true&#039; /&gt;&lt;param name=&#039;bgcolor&#039; value=&#039;#000000&#039; /&gt;&lt;param name=&#039;wmode&#039; value=&#039;opaque&#039; /&gt;&lt;embed src=&#039;http://flvs.daum.net/flvPlayer.swf?vid=4hbWuCa4Nj8$&#039; width=&#039;642px&#039; height=&#039;390px&#039; allowScriptAccess=&#039;always&#039; type=&#039;application/x-shockwave-flash&#039; allowFullScreen=&#039;true&#039; bgcolor=&#039;#000000&#039; &gt;&lt;/embed&gt;&lt;/object&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-864-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-864-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-864-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=23401913&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:center; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=moonbogy.tistory.com/864&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;script type=&#039;text/javascript&#039; src=&#039;http://mixsh.com/widget/mixupcast/loader.js?domain=moonbogy.tistory.com&amp;type=random&amp;itemcnt=7&amp;platform=10&#039;&gt;&lt;/script&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>영화/만화</category>
+			<category>2011</category>
+			<category>마이 블랙 미니드레스 Little Black Dress</category>
+			<category>박한별</category>
+			<category>샤넬</category>
+			<category>윤은혜</category>
+			<author>달도깨비[월정]</author>
+			<guid>http://moonbogy.tistory.com/864</guid>
+			<comments>http://moonbogy.tistory.com/864#entry864comment</comments>
+			<pubDate>Sun, 11 Dec 2011 13:51:27 +0900</pubDate>
+		</item>
+		<item>
+			<title>이러시면 안됩니다?! IOBIT 한국버렸나~~ Advanced SystemCare 어드밴스 시스템케어 5 나왔지만 백~~</title>
+			<link>http://moonbogy.tistory.com/863</link>
+			<description>	&lt;div class=&quot;ad250_outter&quot; style=&quot;float: right; margin: 0 0 20px 10px; position: relative; width: 250px;&quot;&gt;
+		&lt;div class=&quot;ad250&quot; style=&quot;background: transparent url(http://i1.daumcdn.net/img-media/media3/common/ad250_bar_r2.gif) no-repeat scroll 0 0; width: 250px; height: 250px; padding: 18px 0 0; position: relative; width: 250px&quot;&gt;
+			&lt;iframe width=&quot;250&quot; height=&quot;250&quot; border=&quot;0&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://amsv2.daum.net/ad/adview?secid=00659&amp;mkvid=1&amp;blogid=349834&quot;&gt;&lt;/iframe&gt;		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/1641F4414EDEDCA02A2A9F&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Advanced SystemCare 5 - setup 00.jpg&quot; height=&quot;398&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+글 쓴 날 : 2011-12-07 수요일 대설이라는데 무슨 소리인지는??&lt;br /&gt;
+글 쓴 이 : 달도깨비&lt;br /&gt;
+&lt;br /&gt;업그레이드 된 지 한참되었습니다.&lt;br /&gt;
+업그레이드 되었다고 나오는 컴퓨터가 있고 아직 안나오는 컴퓨터도 있습니다.&lt;br /&gt;
+업그레이드 되었다니 받아서 설치합니다.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/11080F404EDEDE202A32C7&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Advanced SystemCare 5 - setup 01.jpg&quot; height=&quot;171&quot; width=&quot;469&quot;/&gt;&lt;/div&gt;&lt;/P&gt;V4을 제거하고 계속하겠습니까라고 합니다.&lt;br /&gt;
+그래 믿겠어~~&lt;br /&gt;
+예 클릭하면 제거하고 설치 시작합니다.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/124EBB414EDEDE99207BF4&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Advanced SystemCare 5 - setup 02.jpg&quot; height=&quot;398&quot; width=&quot;513&quot;/&gt;&lt;/div&gt;&lt;/P&gt;앗! 영어다. 한국어로 나와야 하는데~~&lt;br /&gt;
+설치하고 봐야죠.&lt;br /&gt;
+Next 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/1978CE404EDEDEEF38C53C&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Advanced SystemCare 5 - setup 03.jpg&quot; height=&quot;398&quot; width=&quot;513&quot;/&gt;&lt;/div&gt;&lt;/P&gt;이건 언제나 영어 동의 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/2042963D4EDEDF3934BFD2&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Advanced SystemCare 5 - setup 04.jpg&quot; height=&quot;398&quot; width=&quot;513&quot;/&gt;&lt;/div&gt;&lt;/P&gt;기본 설치 폴더 위치 알려줍니다.&lt;br /&gt;
+Next 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/116D88454EDEDF8A35BE91&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Advanced SystemCare 5 - setup 05.jpg&quot; height=&quot;398&quot; width=&quot;513&quot;/&gt;&lt;/div&gt;&lt;/P&gt;추가 사항이 나옵니다.&lt;br /&gt;
+하나는 바탕화면에 아이콘 만드는 것이고 하나는 즐겨찾기에 iobit 추가하는 것입니다.&lt;br /&gt;
+Next 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/162111454EDEE04C035858&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Advanced SystemCare 5 - setup 06.jpg&quot; height=&quot;398&quot; width=&quot;513&quot;/&gt;&lt;/div&gt;&lt;/P&gt;Finish 클릭하면 설치가 끝납니다.&lt;br /&gt;
+이번버전은 이상합니다.&lt;br /&gt;
+보통 설치가 끝나면 해당 프로그램 자동으로&amp;nbsp;언어설정화면 나옵니다.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/1601FC434EDEE14105EA26&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Advanced SystemCare 5 - setup 11.jpg&quot; height=&quot;479&quot; width=&quot;560&quot;/&gt;&lt;/div&gt;&lt;/P&gt;보통 한국어가 선택되어 있는데 찾아봤습니다.&lt;br /&gt;
+언제나 그러하듯 일본어는 보이는군요.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/204E2F3F4EDEE1A82F8447&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Advanced SystemCare 5 - setup 12.jpg&quot; height=&quot;478&quot; width=&quot;562&quot;/&gt;&lt;/div&gt;&lt;/P&gt;없어습니다.&lt;br /&gt;
+Korea도 Korean도 학국어도 아무것도 없어습니다.&lt;br /&gt;
+즉 한국어는 아직 포함이 되어 있지 않다는 것입니다.&lt;br /&gt;
+&lt;br /&gt;그러나 실망하지 마세요.&lt;br /&gt;
+처음에 대부분 프로그램에서 한국어 빠져 있습니다.&lt;br /&gt;
+이 프로그램도 마찬가지 였습니다.&lt;br /&gt;
+시간이 지나면 누군가[당신이 될 수도 글쓴이가 될지도~~]가 한국어 만들어서 아오비트사로 보내면 포함되어서 나올 것입니다.&lt;br /&gt;
+사실 이미 사용 해 보신분들은 한국어 필요없을 수도 있습니다.&lt;br /&gt;
+&lt;br /&gt;글쓴이는 사실 빠른최적화와 정밀최적화만 사용하니 영어버전도 큰문제는 없습니다만 업데이트 하라고 나올 때까지 기다리기로 했습니다.&lt;br /&gt;
+다시 V4 설치하니 설치되더군요.&lt;br /&gt;
+&lt;br /&gt;필요한 분은 사용하시길~~&lt;br /&gt;
+&lt;br /&gt;= 달도깨비 =&lt;br /&gt;
+&lt;br /&gt;받아서 실행하면 하나로 합체됩니다.&lt;br /&gt;
+그 파일 실행하세요.&lt;br /&gt;
+&lt;br /&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://moonbogy.tistory.com/attachment/cfile7.uf@167796414EDEE3F803FA89.exe&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Advanced SystemCare 5 - setup.sfx.part1.exe&lt;/a&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://moonbogy.tistory.com/attachment/cfile7.uf@1272F6414EDEE3FF07E078.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Advanced SystemCare 5 - setup.sfx.part2.rar&lt;/a&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://moonbogy.tistory.com/attachment/cfile6.uf@173FE8414EDEE4063CEB8D.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Advanced SystemCare 5 - setup.sfx.part3.rar&lt;/a&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://moonbogy.tistory.com/attachment/cfile9.uf@204506414EDEE40E36CD74.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Advanced SystemCare 5 - setup.sfx.part4.rar&lt;/a&gt;&lt;/div&gt;&lt;/P&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-863-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-863-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-863-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=23275210&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:center; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=moonbogy.tistory.com/863&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;script type=&#039;text/javascript&#039; src=&#039;http://mixsh.com/widget/mixupcast/loader.js?domain=moonbogy.tistory.com&amp;type=random&amp;itemcnt=7&amp;platform=10&#039;&gt;&lt;/script&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Utilities[유틸리티]</category>
+			<category>advanced systemcare</category>
+			<category>Advanced SystemCare 5</category>
+			<category>iobit</category>
+			<category>시스템 최적화</category>
+			<category>아이오비트</category>
+			<category>아이오빗</category>
+			<category>어드밴스 시스템케어</category>
+			<author>달도깨비[월정]</author>
+			<guid>http://moonbogy.tistory.com/863</guid>
+			<comments>http://moonbogy.tistory.com/863#entry863comment</comments>
+			<pubDate>Wed, 07 Dec 2011 13:05:54 +0900</pubDate>
+		</item>
+		<item>
+			<title>멀티미디어팝 배터리 사용시간 그리고...  sens q230 ps65</title>
+			<link>http://moonbogy.tistory.com/862</link>
+			<description>	&lt;div class=&quot;ad250_outter&quot; style=&quot;float: right; margin: 0 0 20px 10px; position: relative; width: 250px;&quot;&gt;
+		&lt;div class=&quot;ad250&quot; style=&quot;background: transparent url(http://i1.daumcdn.net/img-media/media3/common/ad250_bar_r2.gif) no-repeat scroll 0 0; width: 250px; height: 250px; padding: 18px 0 0; position: relative; width: 250px&quot;&gt;
+			&lt;iframe width=&quot;250&quot; height=&quot;250&quot; border=&quot;0&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://amsv2.daum.net/ad/adview?secid=00659&amp;mkvid=1&amp;blogid=349834&quot;&gt;&lt;/iframe&gt;		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/151B17394EDC86E1072F6C&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;삼성노트북 NT-Q230-PS65.jpg&quot; height=&quot;300&quot; width=&quot;300&quot;/&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+글 쓴 날 : 2011-12-05 월요일 &lt;br /&gt;
+글 쓴 이 : 달도깨비&lt;br /&gt;
+&lt;br /&gt;삼성 노트북 Q230 PS65 바탕 화면에 보면 multimidiapop 라는 아이콘이 있습니다.&lt;br /&gt;
+이 프로그램 이름으로 봐서는 멀티 미디어 관련 프로그램인지 알았습니다.&lt;br /&gt;
+그러나 시행 하니~~&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/126B9E384EDC8AB3082043&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;MultimediaPOP0.jpg&quot; height=&quot;373&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;노트북 기능에 대한 설염이었습니다.&lt;br /&gt;
+사실 글쓴이에게는 거의 필요 없는 기능입니다.&lt;br /&gt;
+글이 있는 곳에 마우스 클릭하면 설명 나옵니다.&lt;br /&gt;
+보시면 나름 재미있을 수도 있습니다.&lt;br /&gt;
+&lt;br /&gt;필요없으면 제어판에 프로그램 및 제어에서 제거 하시면 됩니다.&lt;br /&gt;
+그리고 어도브에어라는 것도 설치되어 있을 것입니다.&lt;br /&gt;
+필요여부는 어도브사에 가서 무엇에 필요한 프로그램인지 보시기 바랍니다.&lt;br /&gt;
+&lt;br /&gt;&lt;A title=&quot;[http://www.adobe.com/kr/]로 이동합니다.&quot; href=&quot;http://www.adobe.com/kr/&quot; target=_blank&gt;http://www.adobe.com/kr/&lt;/A&gt;&lt;br /&gt;
+&lt;br /&gt;그리고 배터리&lt;br /&gt;
+배터리 몇번 사용하다 보면 어래 사용할려면 80%만 충전시킨다라는 창이 나옵니다.&lt;br /&gt;
+당연이 예라고 했습니다.&lt;br /&gt;
+다시 100%로 만들려면 설명서보면 완전 방전해서 충전시키는 방법 나옵니다.&lt;br /&gt;
+&lt;br /&gt;77%정도 남으니 3시간이라고 나오더군요.&lt;br /&gt;
+이 시간은 아마도 프로그램에 따라서 차이가 있을 것입니다.&lt;br /&gt;
+&lt;br /&gt;다나와에 가서 상품설명보다보면 옵티머스 스티커가 붙어 있습니다.&lt;br /&gt;
+글쓴이는 그런것 없는데~~&lt;br /&gt;
+[사실 있어도 필요 없습니다. 스티커 중요하게 생각안해서~~]&lt;br /&gt;
+&lt;br /&gt;옵티머스 기능이란 그래픽 카드을 노트북이 알아서 선탣하는 기능이라고 합니다.&lt;br /&gt;
+당연이 노트북이라 전력 때문이겠죠.&lt;br /&gt;
+NVIDIA그래픽에 있습니다.&lt;br /&gt;
+&lt;br /&gt;- 월정 -&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-862-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-862-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-862-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=23208042&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:center; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=moonbogy.tistory.com/862&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;script type=&#039;text/javascript&#039; src=&#039;http://mixsh.com/widget/mixupcast/loader.js?domain=moonbogy.tistory.com&amp;type=random&amp;itemcnt=7&amp;platform=10&#039;&gt;&lt;/script&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>노트북[Notebook]</category>
+			<category>SENS Q230 PS565</category>
+			<category>노트북</category>
+			<category>삼성노트북 NT-Q230-PS65</category>
+			<category>센스</category>
+			<category>옵티머스</category>
+			<author>달도깨비[월정]</author>
+			<guid>http://moonbogy.tistory.com/862</guid>
+			<comments>http://moonbogy.tistory.com/862#entry862comment</comments>
+			<pubDate>Mon, 05 Dec 2011 18:34:51 +0900</pubDate>
+		</item>
+		<item>
+			<title>라스트 갓파더 The Last Godfather, 2010 = 포레스트검프 + 로미오와 줄리엣 + 찰리채플린</title>
+			<link>http://moonbogy.tistory.com/861</link>
+			<description>	&lt;div class=&quot;ad250_outter&quot; style=&quot;float: right; margin: 0 0 20px 10px; position: relative; width: 250px;&quot;&gt;
+		&lt;div class=&quot;ad250&quot; style=&quot;background: transparent url(http://i1.daumcdn.net/img-media/media3/common/ad250_bar_r2.gif) no-repeat scroll 0 0; width: 250px; height: 250px; padding: 18px 0 0; position: relative; width: 250px&quot;&gt;
+			&lt;iframe width=&quot;250&quot; height=&quot;250&quot; border=&quot;0&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://amsv2.daum.net/ad/adview?secid=00659&amp;mkvid=1&amp;blogid=349834&quot;&gt;&lt;/iframe&gt;		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/1756C5454ECCA5CB2DC84F&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;라스트 갓파더 (The Last Godfather, 2010).jpg&quot; height=&quot;859&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+글 쓴 날 : 2011-11-23 수요일&lt;br /&gt;
+글 쓴 이 : 달도깨비&lt;br /&gt;
+&lt;br /&gt;이 글 적을려다 앞에 다른 글 적었는데 사진이 안변하내요.&lt;br /&gt;
+티스토리 버그인 듯~~&lt;br /&gt;
+아직도 안고쳐지다니~~&lt;br /&gt;
+&lt;br /&gt;사실 영화 재미 없습니다.&lt;br /&gt;
+처음에 영구가 어떻게 생기게 되었는지 나오는데 그 다음에는 포레스트 검프가 생각 났습니다.&lt;br /&gt;
+그 다음은 원수지간인 두 가문의 사랑이야기가 로미오와 줄리엣이죠.&lt;br /&gt;
+그리고 끝은 팔리채플린 영화에서 많이 나오는 엔딩~~&lt;br /&gt;
+&lt;br /&gt;옛날 보았던 코미디 나오지만 하나도 재미 없어습니다.&lt;br /&gt;
+완전 유치찬란이라고 이야기 할 수 있습니다.&lt;br /&gt;
+&lt;br /&gt;이 영화 역시 드라마 수준에서 벗어나지 못합니다.&lt;br /&gt;
+아마 TV에서 볼 수 있을 것 같기도 하지만 여러가지 문제가 있어서~~&lt;br /&gt;
+영화 내용상으로는 아무런 문제 없습니다.&lt;br /&gt;
+&lt;br /&gt;- 달도깨비 -&lt;br /&gt;
+
+&lt;STYLE type=text/css&gt;
+
+#e_DaumMovie44675 * {margin:0;padding:0;font:normal 11px AppleGothic,Dotum;letter-spacing:-1px;color:#666;border:0;list-style: none;line-height:1.5em;}
+#e_DaumMovie44675 {position:relative;width:382px;background:#f9f9f9;padding:13px;overflow:hidden;}
+#e_DaumMovie44675 h3 {display:block;}
+#e_DaumMovie44675 h3 a {color:#5569d3;}
+#e_DaumMovie44675 a {color:#9098ea;}
+#e_DaumMovie44675 #e_title {margin-bottom:8px;}
+#e_DaumMovie44675 .more {background:url(http://i1.daumcdn.net/img-contents/movie/2008_home/popup/bullet01.gif) no-repeat 33px 3px;padding-right:8px;}
+
+#e_DaumMovie44675 #e_image {float:left;margin-right:13px;}
+#e_DaumMovie44675 li {}&lt;/STYLE&gt;
+
+&lt;DIV id=e_DaumMovie44675&gt;
+&lt;DIV id=e_image&gt;&lt;A href=&quot;http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=44675&quot; target=_blank&gt;&lt;IMG id=e_img alt=&quot;라스트 갓파더&quot; src=&quot;http://cfile18.uf.daum.net/C74x107/1720EE424D0A7E552AE2E1&quot; height=107&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV id=c_title&gt;
+&lt;H3 id=e_title&gt;&lt;A href=&quot;http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=44675&quot; target=_blank&gt;라스트 갓파더&lt;/A&gt;&lt;/H3&gt;&lt;/DIV&gt;
+&lt;UL id=c_info&gt;
+&lt;LI id=e_directors&gt;감독 : &lt;A title=심형래 href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=13&quot; target=_blank&gt;심형래&lt;/A&gt;&lt;/LI&gt;
+&lt;LI id=e_actors&gt;출연 : &lt;A title=심형래 href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=13&quot; target=_blank&gt;심형래&lt;/A&gt;, &lt;A title=&quot;하비 키이텔&quot; href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=43808&quot; target=_blank&gt;하비 키이텔&lt;/A&gt;&amp;nbsp;&lt;SPAN class=more&gt;&lt;A style=&quot;COLOR: #666&quot; title=&quot;배우 더보기&quot; href=&quot;http://movie.daum.net/moviedetailCastCrew.do?movieId=44675&quot; target=_blank&gt;더보기&lt;/A&gt;&lt;/SPAN&gt;&lt;/LI&gt;
+&lt;LI id=e_synopsis&gt;&lt;B&gt;마피아 대부의 숨겨진 아들.. 바로 ‘영구’?!&lt;/B&gt;&lt;br /&gt;
+덜 생긴 외모, 덜 떨어진 행동, 누가 봐도 남다른 ‘영구(심형래)’.. &lt;/B&gt;&lt;SPAN class=more&gt;&lt;A href=&quot;http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=44675&quot; target=_blank&gt;더보기&lt;/A&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;&lt;object type=&#039;application/x-shockwave-flash&#039; id=&#039;ZywXORKUXkE$&#039; width=&#039;642px&#039; height=&#039;390px&#039; align=&#039;middle&#039; classid=&#039;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&#039; codebase=&#039;http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0&#039;&gt;&lt;param name=&#039;movie&#039; value=&#039;http://flvs.daum.net/flvPlayer.swf?vid=ZywXORKUXkE$&#039; /&gt;&lt;param name=&#039;allowScriptAccess&#039; value=&#039;always&#039; /&gt;&lt;param name=&#039;allowFullScreen&#039; value=&#039;true&#039; /&gt;&lt;param name=&#039;bgcolor&#039; value=&#039;#000000&#039; /&gt;&lt;param name=&#039;wmode&#039; value=&#039;opaque&#039; /&gt;&lt;embed src=&#039;http://flvs.daum.net/flvPlayer.swf?vid=ZywXORKUXkE$&#039; width=&#039;642px&#039; height=&#039;390px&#039; allowScriptAccess=&#039;always&#039; type=&#039;application/x-shockwave-flash&#039; allowFullScreen=&#039;true&#039; bgcolor=&#039;#000000&#039; &gt;&lt;/embed&gt;&lt;/object&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-861-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-861-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-861-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=22797590&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:center; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=moonbogy.tistory.com/861&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;script type=&#039;text/javascript&#039; src=&#039;http://mixsh.com/widget/mixupcast/loader.js?domain=moonbogy.tistory.com&amp;type=random&amp;itemcnt=7&amp;platform=10&#039;&gt;&lt;/script&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>영화/만화</category>
+			<category>라스트 갓파더</category>
+			<category>라스트갓파더</category>
+			<category>로미오와줄리엣</category>
+			<category>심형래</category>
+			<category>영구</category>
+			<category>찰리채플린</category>
+			<category>티스토리</category>
+			<category>포레스트검프</category>
+			<author>달도깨비[월정]</author>
+			<guid>http://moonbogy.tistory.com/861</guid>
+			<comments>http://moonbogy.tistory.com/861#entry861comment</comments>
+			<pubDate>Wed, 23 Nov 2011 17:02:35 +0900</pubDate>
+		</item>
+		<item>
+			<title>프린터 가능한 문서을 PDF 파일로~~ novaPDF 노바PDF</title>
+			<link>http://moonbogy.tistory.com/859</link>
+			<description>	&lt;div class=&quot;ad250_outter&quot; style=&quot;float: right; margin: 0 0 20px 10px; position: relative; width: 250px;&quot;&gt;
+		&lt;div class=&quot;ad250&quot; style=&quot;background: transparent url(http://i1.daumcdn.net/img-media/media3/common/ad250_bar_r2.gif) no-repeat scroll 0 0; width: 250px; height: 250px; padding: 18px 0 0; position: relative; width: 250px&quot;&gt;
+			&lt;iframe width=&quot;250&quot; height=&quot;250&quot; border=&quot;0&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://amsv2.daum.net/ad/adview?secid=00659&amp;mkvid=1&amp;blogid=349834&quot;&gt;&lt;/iframe&gt;		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/201024454ECA0BBA2C2847&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;novaPDF 12.jpg&quot; height=&quot;389&quot; width=&quot;553&quot;/&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+글 쓴 날 : 2011-11-21 월요일&lt;br /&gt;
+글 쓴 이 : 달도깨비&lt;br /&gt;
+&lt;br /&gt;PDF 파일이란 &lt;STRONG&gt;PDF&lt;/STRONG&gt;(Portable Document Format, 이동 가능한 문서 형식)&lt;br /&gt;
+이라고 위키백과에 나옵니다.&lt;br /&gt;
+자세한 것은 아래 주소 참고 하세요.&lt;br /&gt;
+&lt;br /&gt;&lt;A title=&quot;[http://ko.wikipedia.org/wiki/PDF]로 이동합니다.&quot; href=&quot;http://ko.wikipedia.org/wiki/PDF&quot; target=_blank&gt;http://ko.wikipedia.org/wiki/PDF&lt;/A&gt;&lt;br /&gt;
+&lt;br /&gt;본 프로그램은 문서을 PDF파일로 만드는 프로그램입니다.&lt;br /&gt;
+파일을 받아서 설치을 합니다.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/165FCC414ECA0D9E06EAB3&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;novaPDF 01.jpg&quot; height=&quot;163&quot; width=&quot;313&quot;/&gt;&lt;/div&gt;&lt;/P&gt;설치는 한국어을 지원하지만~~&lt;br /&gt;
+확인 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/187636424ECA0DC812A25C&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;novaPDF 02.jpg&quot; height=&quot;398&quot; width=&quot;513&quot;/&gt;&lt;/div&gt;&lt;/P&gt;모든 프로그램 종료하라는데 대부분 그냥 합니다.&lt;br /&gt;
+다음 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/1170F1424ECA0E2F1CE913&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;novaPDF 03.jpg&quot; height=&quot;398&quot; width=&quot;513&quot;/&gt;&lt;/div&gt;&lt;/P&gt;동의 클릭하고 다음 클릭&lt;br /&gt;
+동의 안하면 다음 창 클릭 못 합니다.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/191BC9454ECA0F022A5FD1&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;novaPDF 04.jpg&quot; height=&quot;398&quot; width=&quot;513&quot;/&gt;&lt;/div&gt;&lt;/P&gt;대부분 프로그램과 같이 설치되는 폴더을 알려 줍니다.&lt;br /&gt;
+다음 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/151A41454ECA0F443029F7&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;novaPDF 06.jpg&quot; height=&quot;398&quot; width=&quot;513&quot;/&gt;&lt;/div&gt;&lt;/P&gt;기본값으로 나두고 다음 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/145879414ECA0F891D6C58&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;novaPDF 07.jpg&quot; height=&quot;398&quot; width=&quot;513&quot;/&gt;&lt;/div&gt;&lt;/P&gt;기본값으로 다음 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/195ACD444ECA100144E4A0&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;novaPDF 08.jpg&quot; height=&quot;398&quot; width=&quot;513&quot;/&gt;&lt;/div&gt;&lt;/P&gt;건드릴 것 거의 없습니다.&lt;br /&gt;
+다음 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/19520D3D4ECA1029163BC8&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;novaPDF 09.jpg&quot; height=&quot;398&quot; width=&quot;513&quot;/&gt;&lt;/div&gt;&lt;/P&gt;다음 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/13308E434ECA1043159A2B&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;novaPDF 10.jpg&quot; height=&quot;398&quot; width=&quot;513&quot;/&gt;&lt;/div&gt;&lt;/P&gt;설치 클릭하시면 설치가 됩니다.&lt;br /&gt;
+설치 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/16486E464ECA10672E985F&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;novaPDF 11.jpg&quot; height=&quot;398&quot; width=&quot;513&quot;/&gt;&lt;/div&gt;&lt;/P&gt;설치가 끝났습니다.&lt;br /&gt;
+완료 클릭&lt;br /&gt;
+그러나 아무런 변화가 없습니다.&lt;br /&gt;
+보통 프로그램 설치가 끝나고 나면 해당 프로그램 실행되는데 이 프로그램은 그런 것 없습니다.&lt;br /&gt;
+실행 할려면 시작에 프로그램에 가서 설치된 것을 클릭 해야 됩니다.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/162E713F4ECA10BC0F0D37&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;novaPDF 12.jpg&quot; height=&quot;389&quot; width=&quot;553&quot;/&gt;&lt;/div&gt;&lt;/P&gt;... 을 클릭해서 바꿀 파일을 선택합니다.&lt;br /&gt;
+선택했으면 생성 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/1222093F4ECA10F524A597&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;novaPDF 13.jpg&quot; height=&quot;142&quot; width=&quot;490&quot;/&gt;&lt;/div&gt;&lt;/P&gt;기본 프린터가 변경 됩니다.&lt;br /&gt;
+이 프로그램은 프린터 드라이버을 이용해서 PDF파일로 바꾸어 줍니다.&lt;br /&gt;
+예 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/2034D4434ECA114C162520&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;novaPDF 14.jpg&quot; height=&quot;443&quot; width=&quot;553&quot;/&gt;&lt;/div&gt;&lt;/P&gt;저렇게 나옵니다.&lt;br /&gt;
+바로 PDF로 된 파일을 볼 수 있습니다.&lt;br /&gt;
+물론 PDF 파일 볼 수 있는 프로그램이 지정 되어 있어야 합니다.&lt;br /&gt;
+확인 클릭하면 PDF파일 만들어서 보여 줍니다.&lt;br /&gt;
+&lt;br /&gt;등록되지 않으면 무슨 일이 생기나?&lt;br /&gt;
+바로 이런게 PDF파일에 찍게 됩니다.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/147D79424ECA120822197E&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;novaPDF 15.jpg&quot; height=&quot;80&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;요즘은 문서작성기에서 대부분 PDF 파일로 저장하는 기능을 지원합니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://moonbogy.tistory.com/attachment/cfile25.uf@205837414ECA12622C8A4F.exe&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; novapl.exe&lt;/a&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+- 달도깨비 -&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-859-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-859-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-859-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=22718674&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:center; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=moonbogy.tistory.com/859&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;script type=&#039;text/javascript&#039; src=&#039;http://mixsh.com/widget/mixupcast/loader.js?domain=moonbogy.tistory.com&amp;type=random&amp;itemcnt=7&amp;platform=10&#039;&gt;&lt;/script&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>소프트웨어[S/W]</category>
+			<category>novapdf</category>
+			<category>PDF</category>
+			<category>pdf 변환 프로그램</category>
+			<category>노바pdf</category>
+			<author>달도깨비[월정]</author>
+			<guid>http://moonbogy.tistory.com/859</guid>
+			<comments>http://moonbogy.tistory.com/859#entry859comment</comments>
+			<pubDate>Mon, 21 Nov 2011 18:06:39 +0900</pubDate>
+		</item>
+		<item>
+			<title>조나 헥스 Jonah Hex, 2010 = 복수을 위해서는 오동나무 코트을 두벌 준비하게~~</title>
+			<link>http://moonbogy.tistory.com/858</link>
+			<description>	&lt;div class=&quot;ad250_outter&quot; style=&quot;float: right; margin: 0 0 20px 10px; position: relative; width: 250px;&quot;&gt;
+		&lt;div class=&quot;ad250&quot; style=&quot;background: transparent url(http://i1.daumcdn.net/img-media/media3/common/ad250_bar_r2.gif) no-repeat scroll 0 0; width: 250px; height: 250px; padding: 18px 0 0; position: relative; width: 250px&quot;&gt;
+			&lt;iframe width=&quot;250&quot; height=&quot;250&quot; border=&quot;0&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://amsv2.daum.net/ad/adview?secid=00659&amp;mkvid=1&amp;blogid=349834&quot;&gt;&lt;/iframe&gt;		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/1130754D4EC767A813E70E&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;조나 헥스 Jonah Hex, 2010.jpg&quot; height=&quot;888&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+글 쓴 날 : 2011-11-19 토요일 날씨가 식은 싸구려 커피~~&lt;br /&gt;
+글 쓴 이 : 달도깨비&lt;br /&gt;
+&lt;br /&gt;조나 헥스&lt;br /&gt;
+조나 헥사 아닌지~~&lt;br /&gt;
+hex 헥사로 안읽었나 16진법이라고 해서~~&lt;br /&gt;
+그렇다는데 그런지 알아야죠.&lt;br /&gt;
+&lt;br /&gt;디씨코믹스로 나와서 만화인줄 알았습니다.&lt;br /&gt;
+그런데 아니더군요.&lt;br /&gt;
+요즘은 실사가 대부분인가 봅니다.&lt;br /&gt;
+이자도 영웅이라는데 글쓴이 들어 본 적 없다는~~&lt;br /&gt;
+&lt;br /&gt;전쟁중에 일어난 일로 헥사는 멘스 블랙인지 그 사람 처럼 현상범 사냥꾼이 됩니다.&lt;br /&gt;
+가족도 읽고 자신도 죽다가 주술[?]의 도움으로 살아나지만 완전하지 않아서 초능력이 생기게 됩니다.&lt;br /&gt;
+죽을 자와 대화하는~~[맞나~~공포물도 아닌데~~]&lt;br /&gt;
+&lt;br /&gt;큰재미는 없습니다.&lt;br /&gt;
+&lt;br /&gt;거의 서부극이지만 액션이 약합니다.&lt;br /&gt;
+어디에 중심을&amp;nbsp; 두고 만든 것인지~~&lt;br /&gt;
+&lt;br /&gt;다 아는 스토리입니다.&lt;br /&gt;
+한 남자가 가족을 읽고 턴불인지 탄불인지 하는 남자을 찾아 복수하는데 죽었다고 해서 현상범을 잡아서 살아 가는데 국가을 전복시킬려고 해서 정부에서 헥스을 고용해서 붙이는 내용입니다.&lt;br /&gt;
+주인공이 이렇게 죽다가 살아나는 것은 아마 007 두번살다인가 그 영화에서 주인공 죽은 것으로 나왔을 것입니다.&lt;br /&gt;
+이 영화는 이보다 더 하더군요.&lt;br /&gt;
+&lt;br /&gt;지루한 감이 있습니다.&lt;br /&gt;
+&lt;br /&gt;- 달도깨비 -&lt;br /&gt;
+
+&lt;STYLE type=text/css&gt;
+
+#e_DaumMovie50490 * {margin:0;padding:0;font:normal 11px AppleGothic,Dotum;letter-spacing:-1px;color:#666;border:0;list-style: none;line-height:1.5em;}
+#e_DaumMovie50490 {position:relative;width:382px;background:#f9f9f9;padding:13px;overflow:hidden;}
+#e_DaumMovie50490 h3 {display:block;}
+#e_DaumMovie50490 h3 a {color:#5569d3;}
+#e_DaumMovie50490 a {color:#9098ea;}
+#e_DaumMovie50490 #e_title {margin-bottom:8px;}
+#e_DaumMovie50490 .more {background:url(http://i1.daumcdn.net/img-contents/movie/2008_home/popup/bullet01.gif) no-repeat 33px 3px;padding-right:8px;}
+
+#e_DaumMovie50490 #e_image {float:left;margin-right:13px;}
+#e_DaumMovie50490 li {}&lt;/STYLE&gt;
+
+&lt;DIV id=e_DaumMovie50490&gt;
+&lt;DIV id=e_image&gt;&lt;A href=&quot;http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=50490&quot; target=_blank&gt;&lt;IMG id=e_img alt=&quot;조나 헥스&quot; src=&quot;http://cfile78.uf.daum.net/C74x107/153ABC1E4BE17B628FB960&quot; height=107&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV id=c_title&gt;
+&lt;H3 id=e_title&gt;&lt;A href=&quot;http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=50490&quot; target=_blank&gt;조나 헥스&lt;/A&gt;&lt;/H3&gt;&lt;/DIV&gt;
+&lt;UL id=c_info&gt;
+&lt;LI id=e_directors&gt;감독 : &lt;A title=&quot;지미 헤이워드&quot; href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=107882&quot; target=_blank&gt;지미 헤이워드&lt;/A&gt;&lt;/LI&gt;
+&lt;LI id=e_actors&gt;출연 : &lt;A title=&quot;조쉬 브롤린&quot; href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=17430&quot; target=_blank&gt;조쉬 브롤린&lt;/A&gt;, &lt;A title=&quot;존 말코비치&quot; href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=17671&quot; target=_blank&gt;존 말코비치&lt;/A&gt;&amp;nbsp;&lt;SPAN class=more&gt;&lt;A style=&quot;COLOR: #666&quot; title=&quot;배우 더보기&quot; href=&quot;http://movie.daum.net/moviedetailCastCrew.do?movieId=50490&quot; target=_blank&gt;더보기&lt;/A&gt;&lt;/SPAN&gt;&lt;/LI&gt;
+&lt;LI id=e_synopsis&gt;남북 전쟁 당시, 남부 연합군에 속해 있었던 조나는 가장 친한 친구의 아버지이자 부대장인 턴불 장군의 명령을 거역하고 친구인 제브까지 죽이.. &lt;SPAN class=more&gt;&lt;A href=&quot;http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=50490&quot; target=_blank&gt;더보기&lt;/A&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-858-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-858-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-858-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=22662269&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:center; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=moonbogy.tistory.com/858&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;script type=&#039;text/javascript&#039; src=&#039;http://mixsh.com/widget/mixupcast/loader.js?domain=moonbogy.tistory.com&amp;type=random&amp;itemcnt=7&amp;platform=10&#039;&gt;&lt;/script&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>영화/만화</category>
+			<category>남북전쟁</category>
+			<category>오동나무</category>
+			<category>조쉬브롤린</category>
+			<category>지미헤이워드</category>
+			<author>달도깨비[월정]</author>
+			<guid>http://moonbogy.tistory.com/858</guid>
+			<comments>http://moonbogy.tistory.com/858#entry858comment</comments>
+			<pubDate>Sat, 19 Nov 2011 17:38:15 +0900</pubDate>
+		</item>
+		<item>
+			<title>내 남자의 아내도 좋아 Vicky Cristina Barcelona, 2009 = 일탈은 좋지만 위험하기도~~</title>
+			<link>http://moonbogy.tistory.com/857</link>
+			<description>	&lt;div class=&quot;ad250_outter&quot; style=&quot;float: right; margin: 0 0 20px 10px; position: relative; width: 250px;&quot;&gt;
+		&lt;div class=&quot;ad250&quot; style=&quot;background: transparent url(http://i1.daumcdn.net/img-media/media3/common/ad250_bar_r2.gif) no-repeat scroll 0 0; width: 250px; height: 250px; padding: 18px 0 0; position: relative; width: 250px&quot;&gt;
+			&lt;iframe width=&quot;250&quot; height=&quot;250&quot; border=&quot;0&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://amsv2.daum.net/ad/adview?secid=00659&amp;mkvid=1&amp;blogid=349834&quot;&gt;&lt;/iframe&gt;		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/1264113E4EC7621205D1F8&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;내 남자의 아내도 좋아 (Vicky Cristina Barcelona, 2.jpg&quot; height=&quot;859&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+글 쓴 날 : 2011-11-19 토요일&lt;br /&gt;
+글 쓴 이 : 달도깨비&lt;br /&gt;
+&lt;br /&gt;제목이 참~~&lt;br /&gt;
+여자는 다 좋다는 소리인지~~&lt;br /&gt;
+원제는 위에 있듯이&lt;br /&gt;
+비키 크리스티나 바로셀로나~~&lt;br /&gt;
+&lt;br /&gt;즉 비키랑 크리스티나 두 낭자[?]가 삶이 지긋지긋해서 바로셀로나로 도망가서 일어나는 일을 찍은 영화입니다.&lt;br /&gt;
+한마디로 드라마라고 하면 되겠습니다.&lt;br /&gt;
+아마 사랑과 전쟁 정도 되겠습니다.&lt;br /&gt;
+사실 이런 영화 안좋아합니다.&lt;br /&gt;
+한마디로 지루한 이야기라고 볼 수 있습니다.&lt;br /&gt;
+처음 경쾌한 음악과 같이 시작하지만 뒤로 갈 수록 수맨제가 되어가는 영화입니다.&lt;br /&gt;
+&lt;br /&gt;- 달도깨비 -&lt;br /&gt;
+
+&lt;STYLE type=text/css&gt;
+
+#e_DaumMovie45344 * {margin:0;padding:0;font:normal 11px AppleGothic,Dotum;letter-spacing:-1px;color:#666;border:0;list-style: none;line-height:1.5em;}
+#e_DaumMovie45344 {position:relative;width:382px;background:#f9f9f9;padding:13px;overflow:hidden;}
+#e_DaumMovie45344 h3 {display:block;}
+#e_DaumMovie45344 h3 a {color:#5569d3;}
+#e_DaumMovie45344 a {color:#9098ea;}
+#e_DaumMovie45344 #e_title {margin-bottom:8px;}
+#e_DaumMovie45344 .more {background:url(http://i1.daumcdn.net/img-contents/movie/2008_home/popup/bullet01.gif) no-repeat 33px 3px;padding-right:8px;}
+
+#e_DaumMovie45344 #e_image {float:left;margin-right:13px;}
+#e_DaumMovie45344 li {}&lt;/STYLE&gt;
+
+&lt;DIV id=e_DaumMovie45344&gt;
+&lt;DIV id=e_image&gt;&lt;A href=&quot;http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=45344&quot; target=_blank&gt;&lt;IMG id=e_img alt=&quot;내 남자의 아내도 좋아&quot; src=&quot;http://cfile189.uf.daum.net/C74x107/1545C41249C9EBF37C0183&quot; height=107&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV id=c_title&gt;
+&lt;H3 id=e_title&gt;&lt;A href=&quot;http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=45344&quot; target=_blank&gt;내 남자의 아내도 좋아&lt;/A&gt;&lt;/H3&gt;&lt;/DIV&gt;
+&lt;UL id=c_info&gt;
+&lt;LI id=e_directors&gt;감독 : &lt;A title=&quot;우디 앨런&quot; href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=2721&quot; target=_blank&gt;우디 앨런&lt;/A&gt;&lt;/LI&gt;
+&lt;LI id=e_actors&gt;출연 : &lt;A title=&quot;스칼렛 요한슨&quot; href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=11739&quot; target=_blank&gt;스칼렛 요한슨&lt;/A&gt;, &lt;A title=&quot;페넬로페 크루즈&quot; href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=19865&quot; target=_blank&gt;페넬로페 크루즈&lt;/A&gt;&amp;nbsp;&lt;SPAN class=more&gt;&lt;A style=&quot;COLOR: #666&quot; title=&quot;배우 더보기&quot; href=&quot;http://movie.daum.net/moviedetailCastCrew.do?movieId=45344&quot; target=_blank&gt;더보기&lt;/A&gt;&lt;/SPAN&gt;&lt;/LI&gt;
+&lt;LI id=e_synopsis&gt;&lt;B&gt;셋이 함께일 때 더 즐거운… &lt;br /&gt;
+그와 그녀들의 비밀스러운 사랑이 시작된다. &lt;/B&gt;&lt;br /&gt;
+로맨스라면 고통도 달콤하다고 느.. &lt;/B&gt;&lt;SPAN class=more&gt;&lt;A href=&quot;http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=45344&quot; target=_blank&gt;더보기&lt;/A&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;&lt;object type=&#039;application/x-shockwave-flash&#039; id=&#039;kBkpoyVX-kI$&#039; width=&#039;642px&#039; height=&#039;390px&#039; align=&#039;middle&#039; classid=&#039;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&#039; codebase=&#039;http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0&#039;&gt;&lt;param name=&#039;movie&#039; value=&#039;http://flvs.daum.net/flvPlayer.swf?vid=kBkpoyVX-kI$&#039; /&gt;&lt;param name=&#039;allowScriptAccess&#039; value=&#039;always&#039; /&gt;&lt;param name=&#039;allowFullScreen&#039; value=&#039;true&#039; /&gt;&lt;param name=&#039;bgcolor&#039; value=&#039;#000000&#039; /&gt;&lt;param name=&#039;wmode&#039; value=&#039;opaque&#039; /&gt;&lt;embed src=&#039;http://flvs.daum.net/flvPlayer.swf?vid=kBkpoyVX-kI$&#039; width=&#039;642px&#039; height=&#039;390px&#039; allowScriptAccess=&#039;always&#039; type=&#039;application/x-shockwave-flash&#039; allowFullScreen=&#039;true&#039; bgcolor=&#039;#000000&#039; &gt;&lt;/embed&gt;&lt;/object&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-857-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-857-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-857-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=22661861&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:center; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=moonbogy.tistory.com/857&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;script type=&#039;text/javascript&#039; src=&#039;http://mixsh.com/widget/mixupcast/loader.js?domain=moonbogy.tistory.com&amp;type=random&amp;itemcnt=7&amp;platform=10&#039;&gt;&lt;/script&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>영화/만화</category>
+			<category>내남자의아내도좋아</category>
+			<category>사랑과전쟁</category>
+			<category>스칼렛요한슨</category>
+			<category>우디앨런</category>
+			<category>지루한이야기</category>
+			<category>페넬로페크루즈</category>
+			<author>달도깨비[월정]</author>
+			<guid>http://moonbogy.tistory.com/857</guid>
+			<comments>http://moonbogy.tistory.com/857#entry857comment</comments>
+			<pubDate>Sat, 19 Nov 2011 17:15:32 +0900</pubDate>
+		</item>
+		<item>
+			<title>한컴오피스 2010 60일 체험판 설치기</title>
+			<link>http://moonbogy.tistory.com/856</link>
+			<description>	&lt;div class=&quot;ad250_outter&quot; style=&quot;float: right; margin: 0 0 20px 10px; position: relative; width: 250px;&quot;&gt;
+		&lt;div class=&quot;ad250&quot; style=&quot;background: transparent url(http://i1.daumcdn.net/img-media/media3/common/ad250_bar_r2.gif) no-repeat scroll 0 0; width: 250px; height: 250px; padding: 18px 0 0; position: relative; width: 250px&quot;&gt;
+			&lt;iframe width=&quot;250&quot; height=&quot;250&quot; border=&quot;0&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot; src=&quot;http://amsv2.daum.net/ad/adview?secid=00659&amp;mkvid=1&amp;blogid=349834&quot;&gt;&lt;/iframe&gt;		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/1460AE404EC49A253307DD&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HOffice2010Trial 00.jpg&quot; height=&quot;518&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+글 쓴 날 : 2011-11-17 목요일&lt;br /&gt;
+글 쓴 이 : 달도깨비&lt;br /&gt;
+&lt;br /&gt;4월달에 받아 놓은 것 이제 설치 해 보았습니다.&lt;br /&gt;
+이제는 한컴도 MS처럼 오피스로 내는군요.&lt;br /&gt;
+오피스란 통합프로그램으로 사무실에서 주로 사용하는 프로그램들을 모아 놓은 것입니다.&lt;br /&gt;
+워드프로세스, 스프레드쉬트,프로젠테이션 아니 파워포인터&amp;nbsp;같은 것을 하나로 묶어서 판매하는 방식입니다.&lt;br /&gt;
+&lt;br /&gt;받은 파일 실행 합니다.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/144CC3414EC49B43300783&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HOffice2010Trial 01.jpg&quot; height=&quot;418&quot; width=&quot;596&quot;/&gt;&lt;/div&gt;&lt;/P&gt;다음과 모종의 계약으로 그냥 동의함 클릭하시면 IE 실행하시면 바로 다음으로 접속됩니다.&lt;br /&gt;
+요즘 저렇게 하는게 유행인 듯~~&lt;br /&gt;
+다른 프로그램 설치할 때 잘 보고 하세요.&lt;br /&gt;
+프로그램 막 설치하다 보면 무엇하는지 알 수도 없는 프로그램 엄청 설치 됩니다.&lt;br /&gt;
+체크&amp;nbsp;지우고 동의함 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/2042F3464EC49C210107D4&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HOffice2010Trial 02.jpg&quot; height=&quot;418&quot; width=&quot;596&quot;/&gt;&lt;/div&gt;&lt;/P&gt;바로 설치시작 화면 나옵니다.&lt;br /&gt;
+중간에 묻고 그런 것 없습니다.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/113EF83E4EC49C522CED8C&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HOffice2010Trial 03.jpg&quot; height=&quot;418&quot; width=&quot;596&quot;/&gt;&lt;/div&gt;&lt;/P&gt;상태바 나옵니다.&lt;br /&gt;
+모니터가 이상한지 처음에는 안 보이던데~~&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/1169BF3D4EC49C7D1D947D&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HOffice2010Trial 04.jpg&quot; height=&quot;418&quot; width=&quot;596&quot;/&gt;&lt;/div&gt;&lt;/P&gt;설치는 끝났습니다. 그러나~~&lt;br /&gt;
+다음 엄청 거머리처럼 달라 붙습니다.&lt;br /&gt;
+당연이 체크 지우고[클릭하며 지우고 나오고 그럽니다. 토글방식이라고~~] 설정 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/195EE63E4EC49D11138455&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HOffice2010Trial 05.jpg&quot; height=&quot;331&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;너 테마도 있었어~~&lt;br /&gt;
+마음에 드는 것으로 설정하고 설정 클릭합니다.&lt;br /&gt;
+나중에 변경해도 됩니다.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/133AE63F4EC49E111EEFAA&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HOffice2010Trial 06.jpg&quot; height=&quot;331&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;파일 연결은 설치 후 못 찾았는 듯~~&lt;br /&gt;
+기본값으로 해서 차후에 원도우에서 변경 해도 됩니다.&lt;br /&gt;
+설정 클릭&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/1902DE3E4EC49F4901962D&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HOffice2010Trial 07.jpg&quot; height=&quot;331&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;마침을 클릭하면 이제 설치가 끝입니다.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/1314A8404EC49F6E22E196&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HOffice2010Trial 10.jpg&quot; height=&quot;248&quot; width=&quot;528&quot;/&gt;&lt;/div&gt;&lt;/P&gt;60일 체험판입니다.&lt;br /&gt;
+&lt;br /&gt;&lt;FONT color=#e31600&gt;&lt;SPAN style=&quot;FONT-SIZE: 18pt&quot;&gt;주의&lt;/SPAN&gt;&lt;br /&gt;
+&lt;SPAN style=&quot;FONT-SIZE: 18pt&quot;&gt;60일은 본 프로그램이 설치한 날로부터 60일입니다.&lt;/SPAN&gt;&lt;br /&gt;
+&lt;SPAN style=&quot;FONT-SIZE: 18pt&quot;&gt;절대로 60번 실행 할 수 있는 것이 아닙니다.&lt;/SPAN&gt;&lt;br /&gt;
+&lt;SPAN style=&quot;FONT-SIZE: 18pt&quot;&gt;한번도 사용 안해도 60일 지나면 사용기간 끝났다고 나올 것입니다.&lt;/SPAN&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/15478E3E4EC4A01529E231&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HOffice2010Trial 11.jpg&quot; height=&quot;427&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;&lt;/FONT&gt;한글입니다. 문서작성기라고도 하고 워드프로세스라고도 합니다.&lt;br /&gt;
+125%로 잡혀 있습니다.&lt;br /&gt;
+그리고 워드처럼 아래 문서 제목별로 찾기 쉽도록 되어 있내요.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/17172D404EC4A075256679&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HOffice2010Trial 00.jpg&quot; height=&quot;518&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;버전 8.0입니다.&lt;br /&gt;
+참 많이도 왔내요.&lt;br /&gt;
+1.2x나올 때가 언제였는데~~&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/196EFC3D4EC4A0B8268C77&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HOffice2010Trial 12.jpg&quot; height=&quot;427&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;스프레드쉬트인 한셀입니다.&lt;br /&gt;
+엑셀이라고 보시면 됩니다.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/14364B3F4EC4A0F22BCD86&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HOffice2010Trial 13.jpg&quot; height=&quot;427&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;한쇼라고하지만 파워포인트입니다.&lt;br /&gt;
+프로젠테이션할 때 자료 만들려면 필요한 프로그램입니다.&lt;br /&gt;
+이 외에도 몇가지 프로그램 더 포함되어 있습니다.&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/11317A3F4EC4A15F335E68&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HOffice2010Trial 14.jpg&quot; height=&quot;175&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/P&gt;타자연습은 끝까지 붙어 다닐 듯~~&lt;br /&gt;
+&lt;br /&gt;필요한 분은 한글과 컴퓨터사에 가서 받으시길~~&lt;br /&gt;
+&lt;br /&gt;지금은 이 버전이 안나오고 한컴오피스 2010 SE가 나오고 있습니다.&lt;br /&gt;
+&lt;br /&gt;&lt;A title=&quot;[http://www.hancom.co.kr/downLoad.downPU.do?mcd=003]로 이동합니다.&quot; href=&quot;http://www.hancom.co.kr/downLoad.downPU.do?mcd=003&quot; target=_blank&gt;http://www.hancom.co.kr/downLoad.downPU.do?mcd=003&lt;/A&gt;&lt;br /&gt;
+&lt;br /&gt;- 달도깨비 -&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-856-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-856-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-856-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+		  					&lt;embed src=&quot;http://api.v.daum.net/static/recombox1.swf&quot; quality=&quot;high&quot; flashvars=&quot;nid=22594729&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;false&quot; bgcolor=&quot;#ffffff&quot; width=&quot;400&quot; height=&quot;80&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot;&gt;&lt;/embed&gt;
+						&lt;/div&gt;&lt;div style=&quot;text-align:center; padding-top:10px;&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=moonbogy.tistory.com/856&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:65px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;script type=&#039;text/javascript&#039; src=&#039;http://mixsh.com/widget/mixupcast/loader.js?domain=moonbogy.tistory.com&amp;type=random&amp;itemcnt=7&amp;platform=10&#039;&gt;&lt;/script&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>소프트웨어[S/W]</category>
+			<category>한글과컴퓨터</category>
+			<category>한셀</category>
+			<category>한쇼</category>
+			<category>한컴오피스 2010</category>
+			<author>달도깨비[월정]</author>
+			<guid>http://moonbogy.tistory.com/856</guid>
+			<comments>http://moonbogy.tistory.com/856#entry856comment</comments>
+			<pubDate>Thu, 17 Nov 2011 15:03:26 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

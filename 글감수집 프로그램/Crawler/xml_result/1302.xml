@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>@hof 블로그 &#187; @hof 블로그</title>
+	<atom:link href="http://hof.pe.kr/wp/feed/" rel="self" type="application/rss+xml" />
+	<link>http://hof.pe.kr/wp</link>
+	<description>따뜻함과 뻘쭘함이 교차하는 하이브리드 퓨전 바스타드 블로그-_-;;</description>
+	<lastBuildDate>Wed, 24 Sep 2014 12:30:23 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.0</generator>
+	<item>
+		<title>키노트,페이지에서 차트 입력한 소수가 날짜형식으로 바뀔 때</title>
+		<link>http://hof.pe.kr/wp/archives/5015/</link>
+		<comments>http://hof.pe.kr/wp/archives/5015/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 12:18:09 +0000</pubDate>
+		<dc:creator><![CDATA[hof]]></dc:creator>
+				<category><![CDATA[IT & NET]]></category>
+
+		<guid isPermaLink="false">http://hof.pe.kr/wp/?p=5015</guid>
+		<description><![CDATA[맥의 키노트와 페이지에 차트를 삽입 할 때 차트 데이타에 소수를 넣으면 날짜 형식으로 바뀌는 문제가 있습니다. 검색해보니 혹자는 버그라고도 하는데 정확한 원인은 모르겠습니다만 저는 자주 이런 현상이 일어나더군요. 차트 데이타에 17.1 이라고 써 넣으면 2017.1.1로 바뀝니다. 55.3 이라고 넣으면 1955.3.1 로 바뀝니다. 차트의 포맷 옵션에서 이리 저리 만져봐도 별 도리가 없었습니다. 결국 찾은 꼼수는 이렇습니다. [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/5015/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div><p>맥의 키노트와 페이지에 차트를 삽입 할 때 차트 데이타에 소수를 넣으면 날짜 형식으로 바뀌는 문제가 있습니다. 검색해보니 혹자는 버그라고도 하는데 정확한 원인은 모르겠습니다만 저는 자주 이런 현상이 일어나더군요.<br />
+차트 데이타에 17.1 이라고 써 넣으면 2017.1.1로 바뀝니다. 55.3 이라고 넣으면 1955.3.1 로 바뀝니다.</p>
+<p><object width="480" height="360"><param name="movie" value="//www.youtube.com/v/wA8ZM9ex-90?hl=ko_KR&amp;version=3&amp;rel=0"/><param name="allowFullScreen" value="true"/><param name="allowscriptaccess" value="always"/><embed src="//www.youtube.com/v/wA8ZM9ex-90?hl=ko_KR&amp;version=3&amp;rel=0" type="application/x-shockwave-flash" width="480" height="360" allowscriptaccess="always" allowfullscreen="true"/></object></p>
+<p>차트의 포맷 옵션에서 이리 저리 만져봐도 별 도리가 없었습니다. 결국 찾은 꼼수는 이렇습니다. </p>
+<p>자동으로 날짜 형식으로 바뀌는 걸 보니, 입력한 숫자의 소숫점 뒷 부분이 1(월)부터 12(월)까지면 그 숫자를 월로 바꾸고 그 달의 1일로 간주해서 붙입니다. 소숫점 앞의 숫자가 1~49면 2001부터 2049년까지로 바뀌고 50 이상이면 1950년으로 바뀝니다. </p>
+<p>그러니 데이타를 넣을 때 월로 바꿀 수 없는 숫자를 넣어주고 화면에 표시할 때 실제 써야할 데이타 부분만 보여주는 방법을 사용하면 될 것 같았습니다.</p>
+<p>즉 17.1은 2017년 1월1일로 바꿀테니 17.1111로 바꿔넣으면 월로 자동으로 바꿀 수 없어서 입력값이 유지됩니다. 그리고 그 값으로 차트를 그린 후 값을 표시할 때는 소숫점 두번째 자리 이하는 떼어버리고 출력하는 것입니다.</p>
+<p>물론 17.1과 17.1111간의 값이 차이는 미묘하게 있겠습니다만 프레젠테이션 할 때 이정도의 차이는 눈에 띄지 않을 것으로 예상합니다.</p>
+<p>표시할 값은 포맷의 값 꼬리표에서 소수 항목의 수치를 조절하면 됩니다. </p>
+<p>입력한 차트 데이터와 실제 화면에 그려진 차트 그래프입니다. </p>
+<p><a href="https://www.flickr.com/photos/hof/15340497542" title="keynote_chart by hof, on Flickr"><img src="https://farm3.staticflickr.com/2943/15340497542_041a5090ba_o.png" width="395" height="574" alt="keynote_chart"/></a></p>
+<p>혹시 &#8220;저기 키노트 그 문제는 &#8230; *&#038;*^&#038;^$&#038; 에서 #$%#$&#038;*%#$ 를 설정해주면 해결되는건데 왜 이런짓을&#8230;.&#8221;  이라고 알려주실 분 계실려나요. ㅠㅠ</p>
+<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/5015/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div>]]></content:encoded>
+			<wfw:commentRss>http://hof.pe.kr/wp/archives/5015/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>맥에서 SSD+USB 3.0 외장하드에 패러럴즈 가상윈도우 돌리기</title>
+		<link>http://hof.pe.kr/wp/archives/4999/</link>
+		<comments>http://hof.pe.kr/wp/archives/4999/#comments</comments>
+		<pubDate>Wed, 06 Aug 2014 14:15:14 +0000</pubDate>
+		<dc:creator><![CDATA[hof]]></dc:creator>
+				<category><![CDATA[IT & NET]]></category>
+
+		<guid isPermaLink="false">http://hof.pe.kr/wp/?p=4999</guid>
+		<description><![CDATA[맥에서 윈도우를 쓰기 위한 방법중 대표적인 두가지가 맥이 제공하는 부트캠프를 이용해서 윈도우와 맥을 선택적으로 부팅하여 사용하는 방법, 또 하나는 맥에 패러럴즈나 vmware같은 가상머신 프로그램을 설치하고 맥 상에서 가상컴퓨터를 띄우는 방법입니다. 가상머신 파일은 OS와 설치 프로그램에 따라 다르지만 수십기가의 용량을 잡아먹고 스냅샷을 뜰 경우 용량이 대폭 증가하게 됩니다. 현재 맥북에어에서 패러럴즈를 이용해서 윈도우7을 필요시마다 띄워서 사용하고 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4999/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div><p>맥에서 윈도우를 쓰기 위한 방법중 대표적인 두가지가 맥이 제공하는 부트캠프를 이용해서 윈도우와 맥을 선택적으로 부팅하여 사용하는 방법, 또 하나는 맥에 패러럴즈나 vmware같은 가상머신 프로그램을 설치하고 맥 상에서 가상컴퓨터를 띄우는 방법입니다.</p>
+<p>가상머신 파일은 OS와 설치 프로그램에 따라 다르지만 수십기가의 용량을 잡아먹고 스냅샷을 뜰 경우 용량이 대폭 증가하게 됩니다. 현재 맥북에어에서 패러럴즈를 이용해서 윈도우7을 필요시마다 띄워서 사용하고 있는데 약 25기가바이트 정도의 용량을 차지하고 있습니다. 128기가짜리 플래쉬저장장치가 달려있기 때문에 맥북에어 저장공간의 약 20% 정도를 가상윈도우파일이 차지하고 있는 것입니다.</p>
+<p>저장공간 용량이 아깝기도 하여 이 가상컴퓨터 파일을 USB 3.0 메모리로 한번 옮겨서 읽어들여본 적이 있으나 거의 사용이 불가능할정도로 느렸습니다. 가상컴퓨터는 처음 읽어들일때 뿐 아니라 가상OS상에서 일어나는 수많은 읽고쓰기 (예를 들어 웹브라우징을 하여 캐쉬 파일이 쌓이는 경우 등) 과정이 일어나므로 이게 느리면 아주 느린 컴퓨터에 윈도우를 깔고 쓰는 것처럼 화면이 수시로 멈추곤 합니다. </p>
+<p>집에 굴러다니는(?) 인텔 330 시리즈 120GB SSD가 있어서 혹시나 하고 USB 3.0 외장하드케이스 (IPTIME의 HDD 3025B 모델)에 끼웠습니다. 원래 쓰고 있던  win7 가상OS 파일(pvm)을 SSD를 끼운 외장하드로 옮긴후 가상윈도우를 띄워보았습니다. </p>
+<p>원래 SSD에서도 가상윈도우를 띄웠다가 종료하고, SSD-외장하드에 복사한 가상윈도우도 마찬가지로 띄웠다가 종료하기를 교대로 3회씩 반복하였습니다.</p>
+<table>
+<tr>
+<td></td>
+<td colspan=2>맥북에어의 플래쉬저장장치</td>
+<td colspan=2>SSD+USB 3.0외장하드</td>
+</tr>
+<tr>
+<td>윈도우</td>
+<td>시작</td>
+<td>종료</td>
+<td>시작</td>
+<td>종료</td>
+</tr>
+<tr>
+<td>1회차</td>
+<td>32초</td>
+<td>22초</td>
+<td>35초</td>
+<td>20초</td>
+</tr>
+<tr>
+<td>2회차</td>
+<td>30초</td>
+<td>24초</td>
+<td>32초</td>
+<td>24초</td>
+</tr>
+<tr>
+<td>3회차</td>
+<td>30초</td>
+<td>23초</td>
+<td>36초</td>
+<td>19초</td>
+</tr>
+<tr>
+<td>평균</td>
+<td>30.6초</td>
+<td>23초</td>
+<td>34.6초</td>
+<td>21초</td>
+</tr>
+</table>
+<p>결과는 매우 만족스럽게 나왔습니다. </p>
+<p>외장SSD에서 윈도우를 띄우고 웹브라우저로 여기저기 열어보고 윈도우를 종료해보았습니다. 맥의 기본 플래쉬저장장치에서 띄웠을때와 비교해서 불편할 정도로 속도저하가 느껴지진 않았습니다. 어디서 띄웠는지를 알고 있으니 좀 느린가보다, 좀 빠른가보다 하는 편견이 있을 수 있는데 곰곰히 테스트 과정을 되새겨보니 내부냐 외부SSD냐를 몰랐다면, 속도차이를 알아차릴 수 없을 정도로 모두 빨랐다고 보는게 맞을 것 같습니다.</p>
+<p>당장은 아니지만 맥북 저장공간이 부족해지면 고려해볼만한 해결방안이라고 생각합니다.</p>
+<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4999/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div>]]></content:encoded>
+			<wfw:commentRss>http://hof.pe.kr/wp/archives/4999/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>사용자 도메인으로 이메일 쓰기 : 다음스마트워크, 네이버웍스 &amp;  zoho.com</title>
+		<link>http://hof.pe.kr/wp/archives/4992/</link>
+		<comments>http://hof.pe.kr/wp/archives/4992/#comments</comments>
+		<pubDate>Mon, 04 Aug 2014 01:55:58 +0000</pubDate>
+		<dc:creator><![CDATA[hof]]></dc:creator>
+				<category><![CDATA[blah~blah~]]></category>
+
+		<guid isPermaLink="false">http://hof.pe.kr/wp/?p=4992</guid>
+		<description><![CDATA[올해 초 개인 도메인으로 이메일을 사용하기 위해 아웃룩닷컴이 무료로 제공하는 사용자 지정 도메인 가입을 하였다. 구글이 제공하는 구글앱스를 무료로 사용할 수 있었는데 몇년전 모두 유료로 전환되어 차선으로 선택한 것이 MS의 아웃룩 서비스다. 그런데 올 봄 지나면서부터 MS의 이 서비스 역시 종료되었다. 새로운 계정을 생성하거나 삭제할 수 없이 이미 만들어 놓은 계정으로 로그인만 가능하도록 바뀐 것이다. [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4992/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div><p>올해 초 개인 도메인으로 이메일을 사용하기 위해  아웃룩닷컴이 무료로 제공하는 사용자 지정 도메인 가입을 하였다. 구글이 제공하는 구글앱스를 무료로 사용할 수 있었는데 몇년전 모두 유료로 전환되어 차선으로 선택한 것이 MS의 아웃룩 서비스다. 그런데 올 봄 지나면서부터 MS의 이 서비스 역시 <a href="http://www.itworld.co.kr/news/87019" target="_blank">종료</a>되었다. 새로운 계정을 생성하거나 삭제할 수 없이 이미 만들어 놓은 계정으로 로그인만 가능하도록 바뀐 것이다.  경험상 이러한 경우에는 데이타가 쌓이고 익숙해지기 전에 다른 서비스를 알아보는 것이 늘 나았다.  </p>
+<p>비슷한 서비스를 제공하는 곳이 zoho.com 이 있었고 국내에는 네이버와 다음이 각각 네이버웍스와 다음스마트워크라는 이름으로 제공하고 있다. </p>
+<p>세군데 모두에 차례대로 도메인의 메일서버를 지정하고 테스트를 해 보았다. </p>
+<p>맨 처음 해본 다음은, 자신의 다음 아이디로 로그인하면 기존에 쓰던 다음메일의 받은 편지함으로  다음 메일과 스마트워크에서 지정한 메일이 함께 들어오는 방식이었다. 스마트워크 메일 주소로  서비스 로그인도 불가능했고 다음메일함으로 도메인의 메일을 받을 수 있다는 사실에만 만족해야 했다. 개인 메일과 사용자가 설정한 도메인으로 날아오는 업무메일이 섞이는 것은 납득하기 어려운 방식. </p>
+<p>다음의 스마트워크를 해지하고 두번째로 네이버의 네이버웍스로 다시 메일을 옮겨보았다.  네이버웍스는 오피스 문서편집 기능까지 포함하여  더 강력한 기능을 제공한다. 사용할 일은 없기 때문에 효용성에 대해서는 판단 불가. 사용자 도메인을 설정하는 과정에서 다음스마트워크보다 더 많은 사용자 정보를 요구하였다.  </p>
+<p>두 서비스 모두 테스트 해보고 zoho.com 으로 옮겨본 후 zoho.com 의 서비스를 사용하기로 결정하였다. </p>
+<p>앞의 두 국내 서비스는 아직 zoho.com 과 비교할 만큼 완성된 서비스가 아니다. 서비스 맨 첫 단계인 도메인의 소유주인지를 인증하는 절차부터 다음과 네이버는 MX레코드를 변경하는 한가지 방법만을 제공하고 있는데 이는 도메인 정보 변경이 퍼져나가는  수시간~ 수십시간이 지나야 인증이 가능하다. zoho.com 은 이 방법은 물론 txt와 html 인증 두가지 방법을 더 제공한다.  내 도메인이 홈페이지를 갖고 있을 경우 html 방식 인증은 zoho가 요구하는 특정 html 파일내용을 서버에 올려두고 인증버튼을 눌러서 zoho가 그 웹문서를 읽어가면 해당 도메인을 인증하는 방식이다. ftp 사용법이 익숙할 경우 1분내에 인증이 가능했다. </p>
+<p>zoho.com은 국내 서비스가 제공하지 않는 메일 포워딩 기능과 영문 1글자 이메일 계정 생성이 가능했다. 국내 서비스인 경우 기술적인 문제가 있는지 다른 이유에서인지 한글자 계정인 &#8220;i@자신의 도메인&#8221;등을 만들수 없는데 그 이유가 궁금하다. </p>
+<p>네이버는 여러 메뉴들이 화면상에는 보이지만 눌러보면 &#8220;준비중&#8221;이라는 안내창만 뜰 뿐 쓸 수는 없었다. </p>
+<p>다음스마트워크와 네이버웍스는 정책이 개선되거나  완성도가 높아지면 이전을 고려해볼 서비스로 남겨둔다. 그러나 지금 상태를 보면, 만약 zoho.com 도 유료화가 되는 상황이 오더라도 차라리 구글앱스 유료서비스를 쓰는 편이  나을 것 같다.</p>
+<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4992/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div>]]></content:encoded>
+			<wfw:commentRss>http://hof.pe.kr/wp/archives/4992/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>차량 브레이크를 필요이상으로 자주 밟는 운전자들</title>
+		<link>http://hof.pe.kr/wp/archives/4988/</link>
+		<comments>http://hof.pe.kr/wp/archives/4988/#comments</comments>
+		<pubDate>Sat, 02 Aug 2014 10:39:56 +0000</pubDate>
+		<dc:creator><![CDATA[hof]]></dc:creator>
+				<category><![CDATA[blah~blah~]]></category>
+
+		<guid isPermaLink="false">http://hof.pe.kr/wp/?p=4988</guid>
+		<description><![CDATA[운전을 잘한다 못한다의 기준은 주차냐, 방어운전이냐, 속도냐, 탑승자의 편안함이냐 여러가지가 있을 수 있겠지만 내가 보는 기준 하나는 브레이크등을 자주 밟는 차량을 보면 아 운전을 잘 못하는구나, 라고 생각을 한다. 우선 자기 차가 얼만큼 가속페달을 밟았을 때 얼만큼 가는지를 제대로 모르는 사람들이 있다. 가속페달을 살짝 밟거나 어느 정도 밟아서 탄력으로 주행을 하는게 아니라 꾸욱 밟고 속도가 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4988/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div><p>운전을 잘한다 못한다의 기준은 주차냐, 방어운전이냐, 속도냐, 탑승자의 편안함이냐 여러가지가 있을 수 있겠지만 내가 보는 기준 하나는 브레이크등을 자주 밟는 차량을 보면 아 운전을 잘 못하는구나, 라고 생각을 한다. </p>
+<p>우선 자기 차가 얼만큼 가속페달을 밟았을 때 얼만큼 가는지를 제대로 모르는 사람들이 있다. 가속페달을 살짝 밟거나 어느 정도 밟아서 탄력으로 주행을 하는게 아니라 꾸욱 밟고 속도가 나서 차간거리가 좁혀지면 브레이크를 밟는 것이다.  신호등 없고 차량소통이 원활한 자동차전용도로에서 제한속도까지 내면서 순조롭게 갈 수 있는 도로에서도 10초에 한번씩 브레이크를 밟았다 뗐다 하는 차들을 보곤한다. 이 사람의 오른발은 운전 내내 가속페달을 밟고 있던지 아니면 브레이크를 밟고 있는 상태인 것이다.</p>
+<p>두번째는 양보,방어운전을 하지 않는 사람들도 브레이크를 자주 밟는 편이다. 왜냐하면 내 앞쪽으로 들어오려는 옆 차선의 차에게 공간을 내어주지 않기 위해 앞차와의 간격을 좁히기 위해 가속 후 감속을 하기 때문이다. 대부분 옆차가 무리한 끼어들기가 아닌 깜빡이 켜고 들어오는 경우에는 내가 가속페달에서 발만 떼어 주면 상대차량이 무리없이 끼어들 수 있다. 이 꼴을 못보겠다고 다른 차의 깜빡이를 마치 내가 가속해서 공간을 방어해야하는 신호탄으로 간주하는 운전자들 역시 방어운전,양보운전이라는 면에서 보면 운전을 제대로 못하고 있는 것이다.</p>
+<p>마지막 세번째는 과속 그리고 이른바 칼치기를 하는 차량들 중에서도 브레이크를 자주 밟는 경우를 볼 수 있다.  빠르게 차선을 바꿔가며 앞질러가려는 마음은 알겠는데 마음과는 달리 차량흐름을 제대로 읽지 못하는 차들이 있다. 빈 공간이 있어서 차선을 바꾸었는데 앞차가 저속으로 가고 있는 경우 브레이크를 밟고 감속한 후에 다시 원래 차선으로 돌아와야 한다. 자기 차 한대 들어갈 공간은 봤는데 그 공간이 열리고 있는 공간인지 막다른 골목인지는 파악하지 못한 경우다.  이런 차들은 난폭하게 차선을 바꿔가면서 다른 차들한테 시선을 끌며 지나가긴 하는데 얼마 못가서 저 앞에서 다시 사방에 트레일러와 저속 차량 사이에 갖혀 가는 경우를 본다. </p>
+<p>브레이크를 밟는다는 것은 안전운전에 매우 중요한 일이지만  필요 이상 자주 밟는 것은 결국 불필요한, 미숙한, 공격적인 가속의 결과일 수도 있다. </p>
+<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4988/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div>]]></content:encoded>
+			<wfw:commentRss>http://hof.pe.kr/wp/archives/4988/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>2014년 여름 휴가</title>
+		<link>http://hof.pe.kr/wp/archives/4980/</link>
+		<comments>http://hof.pe.kr/wp/archives/4980/#comments</comments>
+		<pubDate>Tue, 22 Jul 2014 13:45:44 +0000</pubDate>
+		<dc:creator><![CDATA[hof]]></dc:creator>
+				<category><![CDATA[blah~blah~]]></category>
+
+		<guid isPermaLink="false">http://hof.pe.kr/wp/?p=4980</guid>
+		<description><![CDATA[올해 여름휴가는 아내가 때맞춰 예약해둔 오서산휴양림으로 짧게 다녀왔다. 휴양림은 예전에 산책삼아 한번 가봤을 뿐, 이렇게 숙소를 잡아 간 것은 처음이었다. 휴양림과 숙소는 물론 인근 고운식물원 그리고 냉풍욕장 모두 만족스러웠다. 가장 마음에 들었던 곳은 고운식물원 처가식구들과 모두 같이 처음 간 가족여행이었다. 다친 사람 없이, 작은 사고도 없이 잘 다녀왔다. 예전 여행에선 주차장에 주차해둔 차량이 받히거나 난로에 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4980/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div><p>올해 여름휴가는 아내가 때맞춰 예약해둔 오서산휴양림으로 짧게 다녀왔다. 휴양림은 예전에 산책삼아 한번 가봤을 뿐, 이렇게 숙소를 잡아 간 것은 처음이었다. </p>
+<ul>
+<li>휴양림과 숙소는 물론 인근 고운식물원 그리고 냉풍욕장 모두 만족스러웠다. 가장 마음에 들었던 곳은 고운식물원</li>
+<li>처가식구들과 모두 같이 처음 간 가족여행이었다. </li>
+<li>다친 사람 없이, 작은 사고도 없이 잘 다녀왔다. 예전 여행에선 주차장에 주차해둔 차량이 받히거나 난로에 덴 적도 있고 작년 여름엔 아내가 콘도에서 발을 크게 다친 적이 있었다.  </li>
+<li>홀로 다녀온 아침 숲길 산책의 댓가로 모기에게 거하게 뜯겼다. 밤새 굶은 녀석들에게 팔다리 다 내놓고 올라오는 사람은 얼마나 맛있는 먹이였을까</li>
+<li>전국에 쫙 깔린 모 생활용품할인점이라는 곳에서 산 숯과 가스토치는 사진으로 찍어놓고 FAIL! 이라고 크게 써놓고 싶다. 착화탄은 숯에 옮겨붙기도 전에 순식간에 타버리고 숯은 토치로 아무리 화염을 쏴도 불이 붙질 않는다. 토치는 토출구 일부가 하얗게 일어나며 변색되어 불안한 마음으로 사용. </li>
+</ul>
+<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4980/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div>]]></content:encoded>
+			<wfw:commentRss>http://hof.pe.kr/wp/archives/4980/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>요즘 새로운 가수 찾는 방법</title>
+		<link>http://hof.pe.kr/wp/archives/4978/</link>
+		<comments>http://hof.pe.kr/wp/archives/4978/#comments</comments>
+		<pubDate>Wed, 16 Jul 2014 01:42:06 +0000</pubDate>
+		<dc:creator><![CDATA[hof]]></dc:creator>
+				<category><![CDATA[blah~blah~]]></category>
+
+		<guid isPermaLink="false">http://hof.pe.kr/wp/?p=4978</guid>
+		<description><![CDATA[옷은 새옷이 좋고 친구는 오래될수록 좋다는 말이 있던데 노래는 새 노래가 좋을까, 오래된 노래가 좋을까. 최근 몇년간 듣는 노래를 곰곰히 생각해보니 새 노래보다는 예전 노래들을 훨씬 더 많이 찾아 듣고 있다. 그렇지만 새로운 노래가 종종 듣기목록에 추가되곤 하는데 대개 아래와 같은 경우다. 1. 친구들의 추천 절친들이 종종 추천하는 음악들이 있다. 각자 취향이 다르기에 좋아하는 노래들도 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4978/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div><p>옷은 새옷이 좋고 친구는 오래될수록 좋다는 말이 있던데 노래는 새 노래가 좋을까, 오래된 노래가 좋을까. </p>
+<p>최근 몇년간 듣는 노래를 곰곰히 생각해보니 새 노래보다는 예전 노래들을 훨씬 더 많이 찾아 듣고 있다. 그렇지만 새로운 노래가 종종 듣기목록에 추가되곤 하는데 대개 아래와 같은 경우다.</p>
+<p>1. 친구들의 추천<br />
+절친들이 종종 추천하는 음악들이 있다. 각자 취향이 다르기에 좋아하는 노래들도 다르지만 추천곡은 한번씩은 들어보고는 있는데 그 중 내 취향에도 맞는 노래나 가수들이 있다. 야광토끼나 허클베리핀 등이 그러한 예다.</p>
+<p>2. 인터넷 스트리밍 서비스<br />
+인터넷 스트리밍 라디오에서 흘러나오는 노래 중 꽂히는 곡이 있으면 적어뒀다가 찾아보고 있다. 요즘은 맥을 주로 사용하고 있기 때문에 샤우트캐스트 대신 아이튠즈 라디오와 재즈라디오 닷컴을 아이튠즈에 등록해서 주로 듣고 있다. 전에 spotify 들을때 괜찮은 노래가 상당히 많이 나왔었는데 한국에선 듣기가 번거로운 편이다. Brian Culbertson이나 Peter White는 이렇게 스트리밍 듣던 중에 찾았다. </p>
+<p>3. 마음에 드는 가수 직접 찾기<br />
+새로운 가수,음악가의 노래를 찾기 위해 종종 쓰는 방법으로, 무척 만족스럽다. 좋아하는 노래, 내 경우엔 예를 들자면 Somewhere over the rainbow 나 The Girl From Ipanema 를 음원사이트에서 곡명으로 검색한 다음 주욱~ 들어본다. 그러다가 마음에 드는 편곡이나 창법, 목소리, 연주를 듣게 되면 그 가수의 앨범을 살펴보고 마음에 들면 음원을 구매한다. Nakajima Akane나 Frank Sinatra는 이렇게 찾았다. </p>
+<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4978/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div>]]></content:encoded>
+			<wfw:commentRss>http://hof.pe.kr/wp/archives/4978/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Forklift 앱스토어 버젼을 제작자 직접 판매버젼으로 교환하기</title>
+		<link>http://hof.pe.kr/wp/archives/4965/</link>
+		<comments>http://hof.pe.kr/wp/archives/4965/#comments</comments>
+		<pubDate>Thu, 19 Jun 2014 04:29:26 +0000</pubDate>
+		<dc:creator><![CDATA[hof]]></dc:creator>
+				<category><![CDATA[IT & NET]]></category>
+
+		<guid isPermaLink="false">http://hof.pe.kr/wp/?p=4965</guid>
+		<description><![CDATA[맥에서 파일과 폴더를 관리하고 FTP, AFP 클라이언트로 사용하는 forklift가 앱스토어와 제작자 홈페이지에서 모두 팔리고 있습니다. 기능 중 disklets 라고, 연결한 외부 서버를 마치 나의 맥에 붙어있는 저장장치처럼 보이게 해주는 기능이 제작사에서 판매하는 버젼에는 들어있는데 앱스토어에서 판매하는 버젼에는 애플 정책상 빠져있습니다. 앱스토어에서 구매했다면 제작사에게 요청하여, disklets 기능이 포함된 제작사 판매버젼의 라이센스를 받을 수 있습니다. 맥 앱스토어에서 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4965/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div><p>맥에서 파일과 폴더를 관리하고 FTP, AFP 클라이언트로 사용하는 <a href="http://www.binarynights.com/forklift/" target="_blank">forklift</a>가 앱스토어와 제작자 홈페이지에서 모두 팔리고 있습니다. 기능 중 disklets 라고, 연결한 외부 서버를 마치 나의 맥에 붙어있는 저장장치처럼 보이게 해주는 기능이 제작사에서 판매하는 버젼에는 들어있는데 앱스토어에서 판매하는 버젼에는 애플 정책상 빠져있습니다.</p>
+<p><a href="https://www.flickr.com/photos/hof/14452784441/" title="Flickr에서 hof님의 forklift"><img src="https://farm6.staticflickr.com/5515/14452784441_aec8b26e21_o.png" width="600" height="400" alt="forklift"/></a></p>
+<p>앱스토어에서 구매했다면 제작사에게 요청하여, disklets 기능이 포함된 제작사 판매버젼의 라이센스를 받을 수 있습니다. </p>
+<p>맥 앱스토어에서 구입하고나면 애플에서 메일로 보내주는 영수증이 필요합니다.  &#8220;Your receipt No.XXXXXXXXXX&#8221; 라는 제목이고 본문에는 구매자 정보와 구매한 앱, 가격, 주문 번호 등이 써 있습니다. </p>
+<p>http://www.binarynights.com/forklift/support 페이지 맨 아래 있는 담당자 이메일로</p>
+<p>1. 영문 이름<br />
+2. 이메일 주소<br />
+3. 앱스토어에서 받았던 구매 내역 메일</p>
+<p>이 세가지를 보내면 자체 판매하는 앱에 등록할 수 있는 이름과 이메일 주소, 그리고  시리얼 번호를 셋트로 만들어서 메일로 보내줍니다. </p>
+<p>앱스토어에서 받은 앱을 삭제하고 자체 판매버젼 앱을 다운받은 후 위 정보를 입력하면 disklets 기능이 들어있는 forklift 를 사용할 수 있습니다.</p>
+<p>어제 밤에 메일 보내서 라이센스 받았는데 라이센스가 필요해 &#8211;> 영수증과 이름을 보내렴. &#8211;> 자 여기~ &#8211;> 오케이 여기 시리얼 번호 </p>
+<p>이렇게 네 통의 메일이 오고간게 5분이 채 안걸렸습니다. 무척 빠르게 처리해주더군요.</p>
+<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4965/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div>]]></content:encoded>
+			<wfw:commentRss>http://hof.pe.kr/wp/archives/4965/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>유니세프 후원을 중단하고&#8230;</title>
+		<link>http://hof.pe.kr/wp/archives/4953/</link>
+		<comments>http://hof.pe.kr/wp/archives/4953/#comments</comments>
+		<pubDate>Mon, 09 Jun 2014 00:22:32 +0000</pubDate>
+		<dc:creator><![CDATA[hof]]></dc:creator>
+				<category><![CDATA[blah~blah~]]></category>
+
+		<guid isPermaLink="false">http://hof.pe.kr/wp/?p=4953</guid>
+		<description><![CDATA[이번달 5일 기부를 마지막으로 하여 얼추 지난 10년간 매월 후원금을 보냈던 유니세프에 대한 기부를 중단하기로 하였다. 처음 유니세프에 기부를 결정한 것은 우리 부모님께서 어린 시절이었던 한국전쟁 이후 받으셨을 여러 나라와 단체의 구호식량,물품에 대한 감사와 보답을 해야겠다는 생각에서였다. 해당 기구나 활동에 이의가 있어서는 아니다. 그간의 후원이 충분했다는 의미도 아니다. 누군가는 평생을 꾸준히 한 곳에 후원을 할 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4953/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div><p>이번달 5일 기부를 마지막으로 하여 얼추 지난 10년간 매월 후원금을 보냈던 유니세프에 대한 기부를 중단하기로 하였다. </p>
+<p>처음 유니세프에 기부를 결정한 것은 우리 부모님께서 어린 시절이었던 한국전쟁 이후 받으셨을 여러 나라와 단체의 구호식량,물품에 대한 감사와 보답을 해야겠다는 생각에서였다. </p>
+<p>해당 기구나 활동에 이의가 있어서는 아니다. 그간의 후원이 충분했다는 의미도 아니다. 누군가는 평생을 꾸준히 한 곳에 후원을 할 수도 있고 아니면 도움이 필요한 다른 곳에 후원을 하는 사람도 있을 수 있다. 후원단체에서도 후원금을 받아 사용할 때 가치판단을 하여 가장 필요하다고 판단되는 곳에 집행을 하는 것과 마찬가지로 나 역시 후원에 사용할 수 있는 한정된 금액을 나의 판단에 따라 기부할 곳을 정하는 것이다. </p>
+<p>아직 새로운 기부처를 정하지는 못하였으나  우리 사회의, 우리의 현실의 고통을 해소하는데 노력하는 곳 중에서 찾아보고 있다.</p>
+<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4953/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div>]]></content:encoded>
+			<wfw:commentRss>http://hof.pe.kr/wp/archives/4953/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+		</item>
+		<item>
+		<title>안전하게 공용컴퓨터로 파일을 전송하는 방법</title>
+		<link>http://hof.pe.kr/wp/archives/4949/</link>
+		<comments>http://hof.pe.kr/wp/archives/4949/#comments</comments>
+		<pubDate>Sun, 08 Jun 2014 16:26:23 +0000</pubDate>
+		<dc:creator><![CDATA[hof]]></dc:creator>
+				<category><![CDATA[blah~blah~]]></category>
+		<category><![CDATA[IT & NET]]></category>
+
+		<guid isPermaLink="false">http://hof.pe.kr/wp/?p=4949</guid>
+		<description><![CDATA[드문 경우긴 하지만 로컬프린트를 사용해야 한다거나 특정한 프로그램이 깔려있다는 이유 등으로, 보안 상 신뢰할 수 없는 컴퓨터로 파일을 보내야 할 경우가 있다. 악성코드나 바이러스에 감염되었수 있기 때문에 이메일이나 클라우드 등으로 파일을 보내고 작업할 컴퓨터에 로그인하여 받는 방식은 매우 위험하다. 감염된 PC는 사이트 주소를 위조하여 연결시킬 수도 있고 입력하는 비밀번호를 가로챌 수도 있다. 가능한 충분히 안전하다고 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4949/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div><p>드문 경우긴 하지만 로컬프린트를 사용해야 한다거나 특정한 프로그램이 깔려있다는 이유 등으로, 보안 상 신뢰할 수 없는 컴퓨터로 파일을 보내야 할 경우가 있다.</p>
+<p>악성코드나 바이러스에 감염되었수 있기 때문에 이메일이나 클라우드 등으로 파일을 보내고 작업할 컴퓨터에 로그인하여 받는 방식은 매우 위험하다. 감염된 PC는 <a href="http://news.nate.com/view/20140528n16255" target="_blank">사이트 주소를 위조하여 연결</a>시킬 수도 있고 입력하는 비밀번호를 가로챌 수도 있다. </p>
+<p>가능한 충분히 안전하다고 확인된 컴퓨터에서 작업을 해야하지만 부득이하게 그렇지 못한 컴퓨터로 파일을 보내야할 땐 아래와 같은 방법을 사용하고 있다. </p>
+<ol>
+<li>드롭박스에 (편의상) send 등의 이름으로 폴더를 하나 만들어 둔다.</li>
+<li>전송해야할 파일을 올린다.</li>
+<li>드롭박스에 저장된 파일을 공유 기능을 이용하여 공유 URL을 생성한다.</li>
+<li>만들어진 URL을 URL 단축 사이트 (goo.gl 또는 bitly.com 등)를 이용하여 주소를 줄인다.</li>
+<li>줄여진 주소를 스마트폰으로 촬영한다.</li>
+<li>작업해야할 컴퓨터 (파일을 다운받을 컴퓨터)로 간다.</li>
+<li>웹 브라우저를 띄우고, 사진으로 찍어온 URL을 주소창에 입력한다.</li>
+<li>파일을 다운받고 필요한 작업을 한다. </li>
+<li>스마트폰의 앱에서 해당 파일을 삭제한다.</li>
+<li>작업을 마친 후 파일을 삭제한다. 필요할 경우 완전삭제 프로그램으로 복구불가능한 방법으로 삭제한다.</li>
+<li>다운로드에 사용한 브라우저의 캐쉬, URL 히스토리 등을 삭제한다.</li>
+</ol>
+<p>이 방법의 장점은</p>
+<ul>
+<li>위험한 컴퓨터쪽에 아무런 로그인 정보를 입력할 필요가 없다.</li>
+<li>파일 전송을 위한 프로그램을 설치하지 않아도 된다.</li>
+<li>URL단축 서비스를 이용해서 입력할 파일 주소를 최소화시킨다.</li>
+<li>스마트폰 앱을 이용해서 파일 전송 직후 즉시 서버에서 데이타를 삭제할 수 있다.</li>
+</ul>
+<p>등이다.</p>
+<p>일부 URL 단축 서비스 (예, goo.gl)은 생성한 URL 자체를 폐기시킬 수 없다. 따라서 해당 URL이 어떤 식으로든 외부로 유출될 가능성이 있으니 그 URL이 가리키는 실제 주소에서 파일을 삭제할 수 있어야 한다.  간혹 일부 로그인이 필요없는 파일 전송 서비스 중에는 올린 후 일정 기간 후 자동으로 삭제되기만 할 뿐 방금 올린 파일에 대한 제어권이 없는 경우가 있으니 주의해야 한다.</p>
+<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4949/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div>]]></content:encoded>
+			<wfw:commentRss>http://hof.pe.kr/wp/archives/4949/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>맥북에어 어댑터(맥세이프2) 정품벌크(?) 구입했다가 날벼락</title>
+		<link>http://hof.pe.kr/wp/archives/4938/</link>
+		<comments>http://hof.pe.kr/wp/archives/4938/#comments</comments>
+		<pubDate>Tue, 27 May 2014 05:56:45 +0000</pubDate>
+		<dc:creator><![CDATA[hof]]></dc:creator>
+				<category><![CDATA[IT & NET]]></category>
+
+		<guid isPermaLink="false">http://hof.pe.kr/wp/?p=4938</guid>
+		<description><![CDATA[어댑터를 사무실과 집 양쪽에 꼽아두고 맥북만 갖고 왔다갔다 할 생각으로 어댑터(맥세이프2)를 하나 더 구입하였다. 애플공식스토어에서는 9만9천원. 애플 제품이 대개 그러하듯 가격이 만만치 않다. 혹시나 하고 오픈마켓을 찾아보니 이른바 &#8220;정품 벌크&#8221;라고 해놓고 판매하고 있었다. 제품 소개에는 애플 정품이나 박스포장은 아니고 벌크포장이라고 한다. 가격은 판매자마다 조금 차이가 있는데 대략 5만원 초반에서 6만원 초반 사이. 정품과 비교해서 거의 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4938/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div><p>어댑터를 사무실과 집 양쪽에 꼽아두고 맥북만 갖고 왔다갔다 할 생각으로 어댑터(맥세이프2)를 하나 더 구입하였다. 애플공식스토어에서는 9만9천원. 애플 제품이 대개 그러하듯 가격이 만만치 않다. </p>
+<p>혹시나 하고 오픈마켓을 찾아보니 이른바 &#8220;정품 벌크&#8221;라고 해놓고 판매하고 있었다. 제품 소개에는 애플 정품이나 박스포장은 아니고 벌크포장이라고 한다. 가격은 판매자마다 조금 차이가 있는데 대략 5만원 초반에서 6만원 초반 사이. </p>
+<p>정품과 비교해서 거의 절반에 가까운 가격에 혹해서 하나를 주문했다.</p>
+<p>주문 다음날 어댑터가 도착했다. 제품의 완성도는 크게 짝퉁같진 않았지만 그렇다고 원래 쓰던 어댑터와 비교해보면 애매하게 어설픈 구석이 눈에 띄었다.  돼지코 또는 덕헤드라고 불리우는 우리나라 콘센트에 맞는 플러그를 어댑터에 결합한 후 멀티탭에 꼽았다.</p>
+<p>잠시후&#8230;</p>
+<p>뻑! 하는 소리와 함께 섬광이 번쩍하더니만 어댑터에서 연기가 피어오르고 매캐한 냄새가 풀풀 났다. 살펴보니 어댑터와 덕헤드 연결부위가 새까맣게 그을렸는데 어댑터나 덕헤드 내부에서 스파크가 터져나온 것 같기도 하고 어떻게 보면 또  연결되는 단자쪽에서 문제가 생긴 것 같기도 하고&#8230; </p>
+<p><a href="https://www.flickr.com/photos/hof/14300783633/" title="Flickr에서 hof님의 magsafe2_1"><img src="https://farm6.staticflickr.com/5076/14300783633_d2b146cf40_o.jpg" width="452" height="602" alt="magsafe2_1"/></a></p>
+<p>사고(?)가 터지고 나니 애플 제품이 어떻게 &#8220;정품벌크&#8221;  형태로 유통되는지 아무런 근거나 확신도 없었으면서 대뜸 제품을 구입했던게 이해할 수 없는 바보같은 행동이었던걸 깨달았다. </p>
+<p>판매자에게 제품을 반품하고 애플 온라인스토어에서 정품을 구입하기로 하였다.</p>
+<p>그런데  현재 애플 온라인스토어에서 판매중인 45W와 85W 어댑터 가격이 모두 9만 9천원이다. 45W짜리는 맥북에어용, 60W는 13인치 백북프로용 그리고 85W는 15인치 맥북프로용에 맞는 어댑터다.  </p>
+<p>이리저리 검색해보니 낮은 와트의 어댑터를 높은 와트가 필요한 장비에 연결하면 문제가 생길 수 있지만 그 반대의 경우 그러니까 맥북프로용 85W 어댑터를 45W 어댑터가 필요한 맥북에어에 연결하는 것은 문제가 없다고 한다. </p>
+<p>애플 온라인 스토어에 가면 전문상담원과 채팅 상담이 가능하기에, 이 내용을 물어보았더니 맞다고 한다. 당장은 예정에 없지만 나중에 맥북프로를 구입할수도 있으니 85W 어댑터를 구입하기로 하였다.</p>
+<p>오늘 어댑터를 받고 확인해보니 45W 어댑터보다 조금 크긴 크다. 어차피 꽂아둔 채로 쓰려고 산 것이기 때문에 크기가 조금 크다고해서 별 상관은 없지만&#8230; </p>
+<p>↓ 포장상자 열어서 보이는 85W 어댑터 위에 45W 어댑터를 포개보았다. 이정도 크기. 오른쪽 위 귀퉁이를 맞추고 찍었다.<br />
+<a href="https://www.flickr.com/photos/hof/14278559132/" title="Flickr에서 hof님의 magsafe2_2"><img src="https://farm6.staticflickr.com/5545/14278559132_b8e77b405e_o.jpg" width="602" height="452" alt="magsafe2_2"/></a></p>
+<p>↓옆에서 본 모습. 케이블 위치를 맞춰 (중앙정렬?) 찍었다.<br />
+<a href="https://www.flickr.com/photos/hof/14093934399/" title="Flickr에서 hof님의 magsafe2_3"><img src="https://farm6.staticflickr.com/5520/14093934399_54655deed4_o.jpg" width="602" height="452" alt="magsafe2_3"/></a></p>
+<p>↓ 평평한 책상위에 나란히 놓고 연필을 올려놔 보았다. 높이(두께)는 비슷해보인다.<br />
+<a href="https://www.flickr.com/photos/hof/14280597445/" title="Flickr에서 hof님의 magsafe2_4"><img src="https://farm3.staticflickr.com/2920/14280597445_6ccffd395f_o.jpg" width="602" height="452" alt="magsafe2_4"/></a></p>
+<p>↓ 나란히 놓으니 크기 차이를 알아보기 쉽다.<br />
+<a href="https://www.flickr.com/photos/hof/14093946958/" title="Flickr에서 hof님의 magsafe2_5"><img src="https://farm6.staticflickr.com/5034/14093946958_e2c2091d6c_o.jpg" width="602" height="452" alt="magsafe2_5"/></a></p>
+<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4938/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div>]]></content:encoded>
+			<wfw:commentRss>http://hof.pe.kr/wp/archives/4938/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>무선공유기 가끔 끊기는 현상, 채널 변경으로 해결</title>
+		<link>http://hof.pe.kr/wp/archives/4932/</link>
+		<comments>http://hof.pe.kr/wp/archives/4932/#comments</comments>
+		<pubDate>Fri, 25 Apr 2014 07:20:05 +0000</pubDate>
+		<dc:creator><![CDATA[hof]]></dc:creator>
+				<category><![CDATA[IT & NET]]></category>
+
+		<guid isPermaLink="false">http://hof.pe.kr/wp/?p=4932</guid>
+		<description><![CDATA[어제그제 사무실에 무선랜을 설정했다. 환경은 공유기에서 나온 유선케이블에 무선공유기를 달아 무선인터넷 환경을 마련하는 것이었다. 유선랜 연결단자가 없는 맥북에어를 사용하고 있기 때문에 USB로 연결되는 이더넷포트를 구입해서 유선랜을 사용할 수도 있었으나 거추장스러워지기도 하거니와 어차피 아이폰에서도 사용할 와이파이가 필요했기에 무선인터넷을 생성하기로 하였다. 기본 설정방법과는 조금 다르게 공유기를 공유기모드 아닌 허브(스위치)모드로 사용하도록 설정하여야 하는데 iptime 공유기 허브 설정 방법이 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4932/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div><p>어제그제 사무실에 무선랜을 설정했다. 환경은 공유기에서 나온 유선케이블에 무선공유기를 달아 무선인터넷 환경을 마련하는 것이었다. 유선랜 연결단자가 없는 맥북에어를 사용하고 있기 때문에  USB로 연결되는 이더넷포트를 구입해서 유선랜을 사용할 수도 있었으나 거추장스러워지기도 하거니와 어차피 아이폰에서도 사용할 와이파이가 필요했기에 무선인터넷을 생성하기로 하였다.</p>
+<p>기본 설정방법과는 조금 다르게 공유기를 공유기모드 아닌 허브(스위치)모드로 사용하도록 설정하여야 하는데 <a href="http://iptime.co.kr/bbs/view.php?id=faq_setup&#038;no=37" target="_blank">iptime 공유기 허브 설정 방법</a>이  잘 설명되어 있어서 별 무리없이 설정이 가능했다. (..라곤 하지만 열번쯤 공유기와 맥북 설정을 바꾸고 리부팅한 듯 하다.)</p>
+<p>다 설정해놓고 쓰다보니 수십분 간격으로 잠깐씩 무선랜이 끊기는 현상이 생겼고 단말쪽(아이폰,맥북에어)에서 와이파이를 껐다가 다시 켜서 붙이면 제대로 붙었다. </p>
+<p>공유기 설정에서 내부 아이피를 바꿔도 보고 암호화 방법도 바꿔보았는데 잘 해결이 안되었다. 물리적인 문제인가 싶어 공유기쪽으로 들어가는 유선랜도 포트 바꿔 꼽아보고 안테나도 점검해봤지만 여전히 끊김 현상이 발생했다. </p>
+<p>이도 저도 안되면 내키진 않지만 유선랜을 연결해서 쓰던가 아니면 이 근방에서 아주 강하게 잡히는 모 이통사의 와이파이 전용 서비스를 구입해서 써볼까 싶기도 했었고 느린 속도 때문에 울며겨자먹기로 썼던  에그(와이브로) 서비스로 가야 할려나 이런 저런 생각만 많았다. </p>
+<p>혹시나 싶어서 근처 와이파이의 정보를 보여주는 프로그램 (wifi scanner 등으로 검색하면 숱하게 나옴)으로 쭈욱 훑어보고나서 주위 와이파이들이 쓰는 채널 목록 중 그나마 덜 겹치게 쓰는 채널로 바꾸어 보았다. 결과는 매우 만족. 채널을 바꾼 후 종일 한번도 끊기지 않고 잘 붙어있다. </p>
+<p>원래 공유기의 설정 메뉴 중 설정 마법사 등을 사용하면 안겹치는 채널을 찾아준다고 하는데 수동으로 설정하는 바람에 복잡한 채널과 겹치게 설정이 되었었다보다. </p>
+<p><a href="https://www.flickr.com/photos/hof/14004538194/" title="Flickr에서 hof님의 wifi_scanner"><img src="https://farm8.staticflickr.com/7411/14004538194_052ba89069_o.png" width="600" height="402" alt="wifi_scanner"/></a><br />
+[ 주위 와이파이 신호들의 정보를 보여주는 프로그램 화면 ]</p>
+<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4932/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div>]]></content:encoded>
+			<wfw:commentRss>http://hof.pe.kr/wp/archives/4932/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>처음 보이스피싱 전화를 받아보다</title>
+		<link>http://hof.pe.kr/wp/archives/4924/</link>
+		<comments>http://hof.pe.kr/wp/archives/4924/#comments</comments>
+		<pubDate>Fri, 18 Apr 2014 07:25:58 +0000</pubDate>
+		<dc:creator><![CDATA[hof]]></dc:creator>
+				<category><![CDATA[blah~blah~]]></category>
+
+		<guid isPermaLink="false">http://hof.pe.kr/wp/?p=4924</guid>
+		<description><![CDATA[1시간쯤 전에 모르는 핸드폰 번호에서 전화가 걸려왔다. 내 이름을 대면서 &#8220;여보세요? 호프씨?&#8221; 란다. 아래는 대화내용 기록이다. 호프 : 네.. 남자 : 호프씨. 지금 어머니가 크게 다치셨어요. (살짝 놀랐으나 억양이 약간 이상하다 느낌..) 호프 : 네&#8230; 남자 : 여보세요? 어머니가 머리를 크게 다치셨어요. 호프 : 네.. 남자 : 바꿔드릴게요. 호프 : 네. 그쪽 여자 : (흐느낌..) [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4924/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div><p>1시간쯤 전에 모르는 핸드폰 번호에서 전화가 걸려왔다. 내 이름을 대면서 &#8220;여보세요? 호프씨?&#8221; 란다. 아래는 대화내용 기록이다.</p>
+<blockquote><p>호프 : 네.. </p>
+<p>남자 : 호프씨. 지금 어머니가 크게 다치셨어요. </p>
+<p>(살짝 놀랐으나 억양이 약간 이상하다 느낌..)</p>
+<p>호프 : 네&#8230;</p>
+<p>남자 : 여보세요? 어머니가 머리를 크게 다치셨어요.</p>
+<p>호프 : 네.. </p>
+<p>남자 : 바꿔드릴게요.</p>
+<p>호프 : 네.</p>
+<p>그쪽 여자 : (흐느낌..) 호프야 &#8230;  너무 아프다.. 흑흑흑&#8230;<br />
+(제대로 못알아듣게 하려고 흑흑거리며 꺽꺽대지만 어머니 목소리가 아니다.)</p>
+<p>호프 : 네..</p>
+<p>(남자가 전화를 다시 받는다.)</p>
+<p>남자: 어머니가 지하창고에서 머리를 많이 다치셨어요. </p>
+<p>(어머니가 계신 본가에는 지하실도 없고 창고도 없다. 그런데 지하창고라니..)</p>
+<p>호프 : 네.. </p>
+<p>(남자, 말을 바꾼다.)</p>
+<p>남자 : 내가 엊그저께 감방에서 나왔는데 돈이 필요합니다. </p>
+<p>호프 : 네..</p>
+<p>남자 : 돈이 필요해서 어머니를 지하창고에 가뒀어요. </p>
+<p>호프 : 네..</p>
+<p>남자 : 지금 어디야. 회사야? </p>
+<p>호프 : 어&#8230;으음.. </p>
+<p>남자 : 어디냐고</p>
+<p>호프 : 전화 걸때 로밍 메세지 안나왔나? 나 외국 출장중인데&#8230;</p>
+<p>남자 : 이 ㅅㅂ새끼 뭐라는거야.. (전화끊음)
+</p></blockquote>
+<p>보이스피싱을 처음 당해보니 까딱하다가는 당황해서 속아넘어갈 수 밖에 없겠다.  상대방과의 대화에서 나는 많은 것을 묻지도 않았고 말하지 않았다. 오히려 마치 상담원들이 전화받을 때 &#8220;네에에↗︎&#8221; 하는 말투를 흉내내서 어디 한번 계속 읊어봐라, 는 추임새만을 넣었을 뿐이다. 그러면서 머리속으로는 이 대화가 실제 상황이 아니라는 징후들을 관찰한 후 일정정도 수준까지 정보가 모인 다음에는 보이스피싱이라고 결론을 내릴 수 있었다. </p>
+<ul>
+<li>전화건 이의 말투 : 꽤 우리나라 사람 말투와 비슷했다.  그동안 방송이나 동영상 등에서 보이스피싱이라고 해서 듣던 목소리와는 딴판으로 상당히 자연스러운 말투였다. 다만 매끈하지 않고 약간 어색한 억양이 거슬리긴 했다.</li>
+<li>길에서 다친 사람을 발견하면 어떻게 보호자에게 알리나 : 길가다 다친 사람을 발견했으면 119 에 신고를 해야지 보호자(자식)에게 전화를 왜 하나. 그 정도까지 친절을 베풀 행인이었으면 자기는 누구고 여기는 어디 동네 어디앞인데 어머니가 다치셔서 119를 불러놓고 기다리고 있다, 등등을 이야하기해야지 머리를 다쳤다고 자식한테 전화하는 사람은, 전화받은 자식이 뭘 어떻게 해주길 바라나. 이건 흔히 하는 말로 스토리텔링이 약한거다. 자기 입장에서 이게 말이 될거 같은게 중요한게 아니고 상대방이 납득할 수 있는지가 문제다.  그리고 모르긴 몰라도 (우리) 부모님은 통화할 수 있을 정도로 다치셨으면 그 순간에 자식한테 전화해달라고 하지 않았을거다. 놀라고 걱정할거 뻔히 아는데 멀리 떨어져 사는 자식한테 (병원으로 가기도 전에) 다쳤다고 알려달라고 하진 않았을 것이라는 생각이 든다.</li>
+<li>조급함에서 나온 말 바꾸기 : 처음에는 어머니가 (있지도 않은) 지하창고에서 다치셨다고 하더니 그 다음에는 돈이 필요해서 지하창고에 자기가 가둔거라고 한다. 두 경우중 하나만 해도 사람들을은 충분히 당황하고 속을 수 있는데 두 상황을 섞어놓으니 대체 이 사람이 왜 이러나 싶다. 정말 다쳤다면 납치했다고 이야기할 필요가 없고 정말 납치했다면 처음부터 납치범답게 밀어붙였어야지 왜 착한 행인인척 하나.</li>
+</ul>
+<p>대화 도중에 이 상황이 어머니와 관계없는 보이스피싱이라는걸 알아차렸지만 상대방을 조롱하거나 역공을 하진 않았다. 그렇게 했다고 한들 그들이 개과천선하여 이런 쓰레기같은 짓을 그만둘 리는 없다. 게다가 그들이 알고 있는 개인정보의 수준이 어느 정도까지인지 모르겠다. 이미 털릴대로 털린 개인정보가 아닌가. 단지 전화번호와 이름만인지 아니면 가족관계나 주소까지 털렸는지 알 수 없다. 생각해보면 난 그들의 오늘 보이스피싱  업무할당량 수백수천명 중 한명이었을 뿐인데 굳이 언쟁을 벌이고 욕설을 퍼부어 기억에 남는 특정인이 될 필요는 없다. 그냥 말이 안통하고 더 설득하고 작업하느니 다음 순서로 넘어가는게 낫다고만 여기게 해주는게 최선의 대응이 아닐까 싶다. </p>
+<p>통화가 끝나고 어머니께 전화해서 방금 일을 말씀드렸다. ㅎ~ .  또 110번(정부민원콜센터)에 전화하여 해당 사실을 알리고 이 번호를 http://www.missed-call.com 등에 등록해주는 정도, 그리고 핸드폰에서 수신거부등록까지 하여 대략 첫 보이스피싱 전화 경험을 마무리 하였다.</p>
+<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4924/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div>]]></content:encoded>
+			<wfw:commentRss>http://hof.pe.kr/wp/archives/4924/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>후불하이패스카드 대신 자동충전 하이패스카드로 변경</title>
+		<link>http://hof.pe.kr/wp/archives/4919/</link>
+		<comments>http://hof.pe.kr/wp/archives/4919/#comments</comments>
+		<pubDate>Sun, 13 Apr 2014 01:16:49 +0000</pubDate>
+		<dc:creator><![CDATA[hof]]></dc:creator>
+				<category><![CDATA[blah~blah~]]></category>
+
+		<guid isPermaLink="false">http://hof.pe.kr/wp/?p=4919</guid>
+		<description><![CDATA[쓰고 있는 신용카드사에서 함께 발급해준 후불 하이패스카드를 사용하고 있는데 조만간 이 신용카드를 없앨 예정이라 다른 하이패스카드를 알아보았다. 미리 사용금액을 충전해놓는 선불카드로 하려니 늘 남은 금액을 신경써야하고 어느 정도 사용하고 나면 은행이나 휴게소 등에서 충전해줘야 하는 점이 불편해 보였다. 카드리더기를 구입해서 스스로 인터넷 충전할 수도 있으나 몇만원을 주고 리더기를 구입해야 하는 점이 단점이다. 이런 저런 생각을 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4919/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div><p>쓰고 있는 신용카드사에서 함께 발급해준 후불 하이패스카드를 사용하고 있는데 조만간 이 신용카드를 없앨 예정이라 다른 하이패스카드를 알아보았다. 미리 사용금액을 충전해놓는 선불카드로 하려니 늘 남은 금액을 신경써야하고 어느 정도 사용하고 나면 은행이나 휴게소 등에서 충전해줘야 하는 점이 불편해 보였다. 카드리더기를 구입해서 스스로 인터넷 충전할 수도 있으나 몇만원을 주고 리더기를 구입해야 하는 점이 단점이다. </p>
+<p>이런 저런 생각을 하다가 찾은 답은  <a href="http://www.hi-pass.co.kr/hpcapp/autofill/autofill_01.jsp" target="_blank">자동충전이 되는 하이패스카드</a>다. </p>
+<p>홈페이지 설명을 잘 읽어보고 어제 고속도로 타는 김에  휴게소에 있는 관광안내소에 들러서 신청을 하였다.  </p>
+<p>홈페이지 상에는 카드 발급을 위해 차량등록증, 통장, 주민등록증 등을 요구하고 있길래 챙겨갔으나 실제로 발급받아보니 차량은 차량번호만 물어보고 신분증 확인 후 발급해 주었다.  만원 이하로 잔액이 떨어지게 되면 자동으로 3만원이 충전되도록 신청하였다. 처음 카드발급 받고나서는 잔액이 0원이니까 발급받으면서  신용카드 또는 현금으로 최초 충전금액을 채워넣어야 한다.  2만원을 충전하였고 앞으로 이 카드는 고속도로 톨게이트를 지날때마다 통행료가 차감될 것이며 금액이 1만원 이하가 남게 되면 바로 3만원이 자동이체로 출금되어 하이패스 카드에 충전되는 것이다. 자동충전방식 카드는 따로 발급비용은 없다. </p>
+<p>아래 첨부사진은 하이패스카드를 발급받으면서 받은 확인증<br />
+ <a href="https://www.flickr.com/photos/hof/13810159533/" title="Flickr에서 hof님의 auto_charge_hipass"><img src="https://farm8.staticflickr.com/7415/13810159533_ed640fd468_o.jpg" width="452" height="602" alt="auto_charge_hipass"/></a></p>
+<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4919/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div>]]></content:encoded>
+			<wfw:commentRss>http://hof.pe.kr/wp/archives/4919/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>맥에서 spotlight나 alfred로 기억하기 어려운 앱이름 실행해야할 때</title>
+		<link>http://hof.pe.kr/wp/archives/4909/</link>
+		<comments>http://hof.pe.kr/wp/archives/4909/#comments</comments>
+		<pubDate>Fri, 14 Feb 2014 03:08:51 +0000</pubDate>
+		<dc:creator><![CDATA[hof]]></dc:creator>
+				<category><![CDATA[IT & NET]]></category>
+
+		<guid isPermaLink="false">http://hof.pe.kr/wp/?p=4909</guid>
+		<description><![CDATA[맥에서 이미지의 크기를 바꾸는 앱으로 Th-makerX라는 앱을 사용하고 있습니다. 무료인데다가 미리 정의한 규격을 선택하고 파일을 던져넣으면 리사이즈되어 나오니 꽤 편리합니다. 문제는 이미지를 리사이즈하기 위해서 앱을 실행할 때 이 앱 이름을 기억하지 못하겠다는 겁니다. ㅎㅎ&#8230; 앱 실행시 주로 알프레드나 맥 자체의 스팟라이트로 앱 이름을 키보드로 쳐서 불러내는데, 앱 이름에 &#8220;이미지(image)&#8221;나 &#8220;리사이즈(resize)&#8221;가 포함되지 않다보니 저 이름을 계속 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4909/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div><p>맥에서 이미지의 크기를 바꾸는 앱으로 <a href="http://www5.wind.ne.jp/miko/mac_soft/th-maker_x/index-en.html" target="_blank">Th-makerX</a>라는 앱을 사용하고 있습니다. 무료인데다가 미리 정의한 규격을 선택하고 파일을 던져넣으면 리사이즈되어 나오니 꽤 편리합니다. </p>
+<p>문제는 이미지를 리사이즈하기 위해서 앱을 실행할 때 이 앱 이름을 기억하지 못하겠다는 겁니다. ㅎㅎ&#8230; 앱 실행시 주로 알프레드나 맥 자체의 스팟라이트로 앱 이름을 키보드로 쳐서 불러내는데, 앱 이름에 &#8220;이미지(image)&#8221;나 &#8220;리사이즈(resize)&#8221;가 포함되지 않다보니 저 이름을 계속 까먹네요. 할 수 없이 매번 Launchpad를 띄우고 이미지편집 그룹을 열어서 찾아보게 됩니다. </p>
+<p>이 문제(?)는 앱의 정보란 중   설명 항목에 필요한 키워드를 추가하는 것으로 해결할 수 있는데요, </p>
+<p><a href="http://www.flickr.com/photos/hof/12512396735/" title="Flickr에서 hof님의 file_info_comment"><img src="https://v4s.yimg.com/sk/3805/12512396735_2d40bf8472_o.png" width="420" height="473" alt="file_info_comment"/></a></p>
+<p>이렇게 해두면 알프레드나 스팟라이트에서 원래 앱 이름은 물론 설명을 달아놓은 내용중에서도 검색해서 실행할 수 있습니다.<br />
+<a href="http://www.flickr.com/photos/hof/12512608454/" title="Flickr에서 hof님의 file_info_comment_spotlight"><img src="http://farm8.staticflickr.com/7370/12512608454_e3d3418950_o.png" width="431" height="170" alt="file_info_comment_spotlight"/></a></p>
+<p>동영상,앱,그림 등에 대한 검색에 이 코멘트 기능을 활용하라는 ONE님의 &#8220;<a href="http://macnews.tistory.com/1351" target="_blank">[맥 기초] OS X 파인더의 &#8216;정보 가져오기&#8217;, &#8216;속성 보기&#8217; 기능을 최대한 활용해 봅시다!</a>&#8221; 글도 참고하시면 좋겠습니다.</p>
+<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4909/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div>]]></content:encoded>
+			<wfw:commentRss>http://hof.pe.kr/wp/archives/4909/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>SD어댑터로 맥북에어 저장용량을 늘리기</title>
+		<link>http://hof.pe.kr/wp/archives/4903/</link>
+		<comments>http://hof.pe.kr/wp/archives/4903/#comments</comments>
+		<pubDate>Fri, 17 Jan 2014 14:02:18 +0000</pubDate>
+		<dc:creator><![CDATA[hof]]></dc:creator>
+				<category><![CDATA[IT & NET]]></category>
+
+		<guid isPermaLink="false">http://hof.pe.kr/wp/?p=4903</guid>
+		<description><![CDATA[2012년 중반 모델인 맥북에어는 120기가 SSD를 달고 있는데 주력으로 쓰던 윈도우 노트북에서 맥북으로 넘어오고, 따라서 아이튠즈 옮겨오고 여기에 패러럴즈로 윈도우즈 설치해놓고 쓰다보니 점점 여유용량이 줄어든다. 지금 보니 대략 40기가 정도 남은 것으로 나온다. 미디어 데이터들은 NAS에 보관하고 있어서 용량이 부족해서 뭘 못하는 일이 일어나진 않았지만 구입후 1년 반 정도 지났는데 이미 70% 정도 사용했고 SSD는 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4903/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div><p>2012년 중반 모델인 맥북에어는  120기가 SSD를 달고 있는데 주력으로 쓰던 윈도우 노트북에서 맥북으로 넘어오고, 따라서 아이튠즈 옮겨오고 여기에 패러럴즈로 윈도우즈 설치해놓고 쓰다보니 점점 여유용량이 줄어든다. 지금 보니 대략 40기가 정도 남은 것으로 나온다. </p>
+<p>미디어 데이터들은 NAS에 보관하고 있어서 용량이 부족해서 뭘 못하는 일이 일어나진 않았지만 구입후 1년 반 정도 지났는데 이미 70% 정도 사용했고 SSD는 기기 특성상 여유공간을 확보해두어야 한다는 이야기도 들어온 터라 대책을 생각해보기로 하였다. 게다가 맥북에어에 들어간 SSD는 기판에 붙어있어서 교체,업그레이드를 할 수 없다는 것도 SSD의 용량이나 억세스로부터의 부하를 어느 정도 줄여줄 궁리를 하게 된 계기다.</p>
+<p>SD카드를 미리 준비된 슬롯에 꼽는 것이 가장 쉬운 방법이지만 이 방법은 슬롯 밖으로 카드가 꽤 튀어나온다는 문제가 있다. 이를 해결하기 위해 매우 작은 크기인 마이크로SD를 꼽을 수 있는 깔끔한 <a href="http://theniftyminidrive.com/" target="_blank">Nifty 미니드라이브</a>가 있긴 하지만 배송비 포함하여 70$은 쉽게 구입 결정하기 어려운 가격이다. </p>
+<p>검색을 해보니 얼마전에는 마이크로SD카드를 꼽고 USB나 SD카드슬롯에 연결할 수 있는 어댑터를 구입해서 USB단자 부분을 잘라내고 쓰는 <a href="http://blog.naver.com/tooyaa12345/80156725517" target="_blank">방법</a>이 있었는데 칼이나 공구로 어댑터 일부를 잘라내다 보니 마감부분이 거칠다는 것이 단점. 더 찾아보니 요즘엔 USB 부분이 없는 어댑터도 판매하고 있었다. </p>
+<p>ebay에서 제품은 더 싼것도, 더 비싼것도 있으나 6$정도에 국제우편으로 무료배송을 해주는 업자를 찾아서 지난 연말에 주문을 했고 오늘 배송을 받았다. 얼추 3주 정도 걸렸다. 이런 국제우편배송은 주문해놓고 신경쓰지 않는 것이 마음 편하다. </p>
+<p><a href="http://www.flickr.com/photos/hof/11995137366/" title="Flickr에서 hof님의 th_사진 2014. 1. 17. 18 21 42"><img src="http://farm3.staticflickr.com/2847/11995137366_85b451fa1f_z.jpg" width="602" height="452" alt="th_사진 2014. 1. 17. 18 21 42"/></a><br />
+↑ 보관케이스에 담겨왔으나 케이스가 SD카드용이라 고정되지 않아 마치 통에 담겨왔다고 보는게 맞겠다. ㅎ;;</p>
+<p><a href="http://www.flickr.com/photos/hof/11994690634/" title="Flickr에서 hof님의 th_사진 2014. 1. 17. 18 23 00"><img src="http://farm8.staticflickr.com/7339/11994690634_0c6d34d48b_z.jpg" width="602" height="452" alt="th_사진 2014. 1. 17. 18 23 00"/></a><br />
+↑ 테스트를 위해 집에 굴러다니는 마이크로SD카드를 준비했다. 저 방향으로 끼우면 된다.</p>
+<p><a href="http://www.flickr.com/photos/hof/11994690164/" title="Flickr에서 hof님의 th_사진 2014. 1. 17. 18 23 26"><img src="http://farm4.staticflickr.com/3764/11994690164_88cfe4e8c3_z.jpg" width="602" height="452" alt="th_사진 2014. 1. 17. 18 23 26"/></a><br />
+↑ 이렇게 끼운 후 이걸 맥북에어 옆면에 있는 SD카드 슬롯에 넣으면 된다.</p>
+<p><a href="http://www.flickr.com/photos/hof/11994619753/" title="Flickr에서 hof님의 th_사진 2014. 1. 17. 18 24 32"><img src="http://farm3.staticflickr.com/2808/11994619753_411a4ee61c_z.jpg" width="602" height="452" alt="th_사진 2014. 1. 17. 18 24 32"/></a><br />
+↑  잘 들어갔다. 외부로 1.5mm 정도 튀어 나와있고 윗쪽에 가느다란 홈이 있어서 손톱을 걸고 당기면 잘 꺼내진다.</p>
+<p>테스트가 끝났으니 실제로 사용할 마이크로SD카드를 구입할 차례다. 현재 나와있는 마이크로SD카드는 64GB가 최대용량이고  클래스10 또는 UHS-I 기준 4만5천원에서 5만원정도다. 처음엔 64GB짜리를 살까 하다가 결제 직전에 다시 한번 생각해보자 하고 실제 필요로 하는 용량을 한번 계산해보았다.</p>
+<p>옴니포커스, 옴니플랜 등으로 유명한 옴니그룹에서 배포하는 <a href="http://www.omnigroup.com/more" target="_blank">OmniDiskSweeper</a>라는 무료프로그램을 사용하였다. </p>
+<p>가장 큰 단일 파일은 패러럴즈가 사용하는 윈도우가상머신 이미지로 약 35기가를 사용하고 있었다. 이 파일을 마이크로SD로 옮길 수는 있으나 이렇게 해서 윈도우를 띄울 경우 너무 느릴 것이기 때문에 미련을 두지 말고 바로 포기.  </p>
+<p>아이튠즈 음악파일과 동영상 파일들을 찾아보니 약 10여기가였고 앞으로 더 채운다고 했을 때에도 32기가 용량으로 구입하면 몇년간은 충분할 듯 싶었다. 나중에 더 용량이 필요하면 경험적으로 볼때 아마 가격이 많이 내려갔을테니 그때 구입하는 것도 일리있는 선택이다.</p>
+<p>결국 최종적으로는 2만원짜리 32기가 class 10짜리로 구입했다.  </p>
+<p>저렴한 가격에, 나쁘지 않은 모양새를 가진 저장공간을 적당히 잘 늘린것 같다.  </p>
+<div class="fcbk_share"><div class="fcbk_like"><fb:like href="http://hof.pe.kr/wp/archives/4903/" layout="button_count" width="450" show_faces="false" share="false"></fb:like></div></div>]]></content:encoded>
+			<wfw:commentRss>http://hof.pe.kr/wp/archives/4903/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

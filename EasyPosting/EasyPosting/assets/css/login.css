@@ -1,0 +1,327 @@
+/**
+	Login.css
+*/
+a {
+    transition: color 100ms ease-in-out;
+    -o-transition: color 100ms ease-in-out;
+    -ms-transition: color 100ms ease-in-out;
+    -moz-transition: color 100ms ease-in-out;
+    -webkit-transition: color 100ms ease-in-out;
+}
+
+a:hover {
+  text-decoration:none !important;
+  color: #29c5f6;
+}
+a i {	
+  font-size: 18px;
+}
+a {
+	/* color: #8e9aa4 */;
+	color: white;
+	font-size: 12px;
+	font-weight: 700;
+	text-decoration:none !important;
+    transition: color 100ms ease-in-out;
+    -o-transition: color 100ms ease-in-out;
+    -ms-transition: color 100ms ease-in-out;
+    -moz-transition: color 100ms ease-in-out;
+    -webkit-transition: color 100ms ease-in-out;
+}
+
+a:focus {
+text-decoration:none !important;
+  outline: none;
+}
+
+p{
+color:white;
+font-size: 11px;
+}
+
+.login-page {
+/*   background: url('../img/login-bg/bg-6.jpg') no-repeat center center fixed;  */
+
+  background-color: #02324A;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+}
+.login-box {
+  border-radius: 3px;
+  background-color: #fff;
+  margin: 0 auto;
+  width: 330px;
+ 
+  /* ie를 제외 백그라운드 필터 */
+  background: none rgba(0, 0, 0, 0);     
+  /* ie전용 백그라운드 필터 */
+  filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#00000000', endColorstr='#00000000');
+  margin-top: 9%;
+  overflow: hidden;
+}
+.login-box-title-logo {
+  /* background-color: #ffffff; */
+  padding: 5px 25px;
+  color: #fff;
+  font-family: 'Lobster', cursive;
+  /* font-weight: 700; */
+  /* font-style: italic; */
+  font-size: 42px;
+  /* font-style: bold; */
+  /* ie를 제외 백그라운드 필터 */
+  background: none rgba(0, 0, 0, 0);
+  /* ie전용 백그라운드 필터 */
+  filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#40000000', endColorstr='#00000000');
+
+}
+.login-box-title {
+  /* background-color: #ffffff; */
+  padding: 5px 25px;
+  font-size: 18px;
+  color: #fff;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  /* ie를 제외 백그라운드 필터 */
+  background: none rgba(0, 0, 0, 0);
+     
+  /* ie전용 백그라운드 필터 */
+  filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#00000000', endColorstr='#00000000');
+
+  padding-bottom: 5px;
+}
+.login-box-error {
+  
+  width: 100%;
+  font-size: 13px;
+  text-align: center;
+  padding: 11px 5px 5px 5px;
+  color: #fff;
+  background: #96C653;
+  background: rgba(0,0,0,0.4);
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  box-sizing: padding-box;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  /* ie를 제외 백그라운드 필터 */
+/*   background: none rgba(0, 0, 0, 0.4); */
+     
+  /* ie전용 백그라운드 필터 */
+ /*  filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#40000000', endColorstr='#40000000'); */
+
+  
+}
+ul{
+   list-style:none;
+   padding-left:0px;
+   }
+.register-box-error {
+  
+  width: 100%;
+  font-size: 13px;
+  text-align: center;
+  padding: 11px 5px 5px 5px;
+  color: #fff;
+  list-style:none;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+
+  margin-bottom: 15px;
+  /* ie를 제외 백그라운드 필터 */
+/*   background: none rgba(0, 0, 0, 0.4); */
+     
+  /* ie전용 백그라운드 필터 */
+ /*  filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#40000000', endColorstr='#40000000'); */
+
+  
+}
+.login-box-content {
+  padding: 20px;
+  font-family: 'Noto Sans', sans-serif;
+}
+.login-box-content label {
+  padding: 10px;
+  color: #252b33;
+}
+.login-box-content input{
+  margin-bottom: 30px;
+  width: 100%;
+  border: 0px;
+  font-size: 17px;
+  border-bottom: 0.5px solid #e1e5e6;
+  padding: 13px 10px;
+  box-sizing: padding-box;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+
+}
+
+.login-box-content input[id="Email"] {
+  margin-bottom: 0px;
+  font-size: 17px;
+  box-sizing: padding-box;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+
+}
+.login-box-content input[id="Password"] {
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: 400;
+  box-sizing: padding-box;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+}
+
+
+.login-box-content input[type="submit"] {
+  /* background-color: #323a45; */
+  background-color: #31bbbb;
+  margin-bottom: 5px;
+  font-weight: 700;
+  box-sizing: padding-box;
+  border-radius: 2px;
+  color: #fff;
+  border-bottom: 0px !important;
+}
+.login-box-content .half {
+  width: 49%;
+  display: inline-block;
+  font-family: 'Noto Sans', sans-serif;
+}
+.login-box-content .half.last {
+  text-align: right;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.register-box-content{
+  padding: 20px;
+  font-family: 'Noto Sans', sans-serif;
+}
+.register-box-content label {
+  padding: 10px;
+  color: #252b33;
+}
+.register-box-content input{
+  margin-bottom: 30px;
+  width: 100%;
+  border: 0px;
+  font-size: 17px;
+  border-bottom: 0.5px solid #e1e5e6;
+  padding: 13px 10px;
+  box-sizing: padding-box;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+
+}
+
+.register-box-content input[id="Email"] {
+  margin-bottom: 0px;
+  font-size: 17px;
+  box-sizing: padding-box;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+
+}
+.register-box-content input[id="Password"] {
+  margin-bottom: 0px;
+  font-size: 17px;
+}
+.register-box-content input[id="ConfirmPassword"] {
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: 400;
+  box-sizing: padding-box;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+}
+
+
+.register-box-content input[type="submit"] {
+  /* background-color: #323a45; */
+  background-color: #31bbbb;
+  margin-bottom: 5px;
+  font-weight: 700;
+  box-sizing: padding-box;
+  border-radius: 2px;
+  color: #fff;
+  border-bottom: 0px !important;
+}
+.register-box-content .half {
+  width: 49%;
+  display: inline-block;
+  font-family: 'Noto Sans', sans-serif;
+}
+.register-box-content .half.last {
+  text-align: right;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.oauth-box {
+  border-radius: 3px;
+  
+  background-color: #fff;
+  margin: 0 auto;
+  width: 340px;  
+  /* ie를 제외 백그라운드 필터 */
+  background: none rgba(0, 0, 0, 0);     
+  /* ie전용 백그라운드 필터 */
+  filter: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#00000000', endColorstr='#00000000');
+  margin-top: 9%;
+  overflow: hidden;
+}
+
+.oauth-box-content{
+  padding: 20px;
+  font-family: 'Noto Sans', sans-serif;
+}
+.oauth-box-content label {
+  padding: 10px;
+  color: #252b33;
+}
+.oauth-box-content input{
+  margin-bottom: 30px;
+  width: 100%;
+  border: 0px;
+  font-size: 17px;
+  border-bottom: 0.5px solid #e1e5e6;
+  padding: 5px 11px;
+  box-sizing: padding-box;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+
+}
+
+.oauth-box-content input[id="Email"] {
+  margin-bottom: 10px;
+  font-size: 17px;
+  box-sizing: padding-box;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+
+}
+.oauth-box-content input[type="submit"] {
+  /* background-color: #323a45; */
+  background-color: #31bbbb;
+  margin-bottom: 5px;
+  font-weight: 700;
+  box-sizing: padding-box;
+  border-radius: 2px;
+  color: #fff;
+  border-bottom: 0px !important;
+}
+.oauth-box-content .half {
+  width: 49%;
+  display: inline-block;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.oauth-box-content .half.last {
+  text-align: right;
+  font-family: 'Noto Sans', sans-serif;
+}

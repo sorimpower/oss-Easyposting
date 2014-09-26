@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[여유만만 gump의 게임&가족 이야기]]></title>
+			<link>http://blog.naver.com/gamediz</link>
+			
+				<image>
+					<url><![CDATA[http://blogpfthumb.phinf.naver.net/20101027_3/gamediz_1288150930061_V5Nqs3_jpg/hhh003_835ho.jpg?type=m2]]></url>
+					<title><![CDATA[여유만만 gump의 게임&가족 이야기]]></title>
+					<link>http://blog.naver.com/gamediz</link>
+				</image>
+			
+			<description><![CDATA[이쁜  다은냥, 세은냥 아빠 !!!!  두 딸램 Princess Making ^0^ ]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:42:17 +0900</pubDate>
+
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 신변잡기]]></category>
+					<title><![CDATA[에오스 오픈]]></title>
+					<link>http://blog.naver.com/gamediz/20195163945</link>
+					<guid>http://blog.naver.com/gamediz/20195163945</guid>
+					<description><![CDATA[9월 11일에엔비어스 들어와서3년간 힘을 쏟은 에오스 온라인이 오픈한다.최근몇 달간 정말 극도로 힘들었는데, 오늘 파이널 테스트를 하고 있자니, 기분이 새록새록하고여전히 아쉬운 것들이 가득하다. 조금만 더 열심히 했더라면조금만 더 시간이 있었더라면조금만 더 똑똑? 했더라면이런 생각들이 많이 든다. 패키지 게임 개발 이후 처음으로 크래딧에 이름이 올라온 것을 보면서(실크로드는 크래딧이 없었음....)감회도 새롭고, 기대와 두려움이 공존하는 묘한 기분이다. 진인사 대천명이라 했으니... 이젠 좋은 결과가 있기를 바랄 뿐....]]></description>
+					<pubDate>Thu, 05 Sep 2013 16:16:57 +0900</pubDate>
+					<tag><![CDATA[iPhone_4]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[[펌]영화/애니/기타]]></category>
+					<title><![CDATA[취해라! 취해라! 취해라! - 샤를 피에르 보들레르      ]]></title>
+					<link>http://blog.naver.com/gamediz/20174700388</link>
+					<guid>http://blog.naver.com/gamediz/20174700388</guid>
+					<description><![CDATA[
+오! 그렇다! 시간이 다시 나타났다. 시간은 이제 지배자로 군림한다.그리고 이 혐오스런 늙은이 시간과 
+함께 추억, 회환, 경련, 공포, 고통, 악몽분노, 신경증 등 시간의 악마 같은 수행원들이 모두 되돌아왔다.맹세코 초침 소리가 
+이제 더욱 힘차고 엄숙하게, 일 초 일 초 시계추에서 튀어나와 말한다."나는 "삶이다" 견디기 힘든, 냉혹한 
+삶!"
+인간의 삶에서 어떤 희소식을 알려 주는 임무를 띤 것은 다만 "1초"에 지나지 않는다.그 희소식이라는 것도 결국 우리에게 설명할 수 
+없는 공포를 불러일으킬 뿐이지만,
+그렇다 시간이 군림한다. 시간이 그의 난폭한 독재권을 되찾았다.그리고 시간은 마치 
+황소를 부리듯 그의 두개의 바.......]]></description>
+					<pubDate>Sat, 29 Dec 2012 02:36:45 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 신변잡기]]></category>
+					<title><![CDATA[참 쉬운 시리즈 강좌 예정]]></title>
+					<link>http://blog.naver.com/gamediz/20170559760</link>
+					<guid>http://blog.naver.com/gamediz/20170559760</guid>
+					<description><![CDATA[나름 눈코뜰새 없이 바쁜 생활을 하다보니 어느새 블로그도 방치 수준이고 하여노는 시간을 조금 줄이고 가벼운 수준에서 강좌를 써보려고 합니다. 참 쉬운 시리즈... 라는 이름을 붙여서 이것 저것 개발에서 느낀 어려운 문제들을 아주 쉽고, 단순하게 써보려고 생각중입니다. 뭐 예를 들어서 정말 쉬운 것들파티 인던 설계나, 레이드 설계, 퀘스트 제작 같은 것들을세부적으로 어떻게 까지 설명하면 쉽지가 않으니어떤 순서를 통해야 하는지, 어떤 과정을 거쳐야 하는 지에 대해서맥만 살짝 살짝 집어서 제 마음대로 강좌를 써보려고 합니다. 순서는 대략 이렇게 될 거 같네요.1. 참 쉬운 레이드 던전 설계하기2. 참 쉬운 퀘스트 제작 팁일단 이.......]]></description>
+					<pubDate>Tue, 06 Nov 2012 02:04:43 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 신변잡기]]></category>
+					<title><![CDATA[최근 신변잡기]]></title>
+					<link>http://blog.naver.com/gamediz/20170098797</link>
+					<guid>http://blog.naver.com/gamediz/20170098797</guid>
+					<description><![CDATA[팀장이 되고, 어언 1년(아니 내일이면 1년...) 요즘 여러가지로 생각이 많다.여전히 못하고 있는 것들도 보이고조금 늘은 듯한 부분들도 보이고하고는 싶지만 과연 내가 할 수 있을까? 싶은 것들도 보이고묵묵히 내 자신과 싸우면서 심플하게 모든 일들을 처리할 수 있는 수준은 언제쯤이면 도달할 수 있을까?어떻게 하면 좀 더 시간이라는 부분을 효과적으로 잘 사용할 수 있을까?무엇을 통해서 팀원들의 커뮤니케이션 능력을 증가시켜야 할까?어떻게 하면 정보가 물처럼 잘 흘러내려갈 수 있을까?어떻게 하면 지시가 내려갔을 때... 그저 수행하는 것이 아니라, 의도까지 파악해서 처리하도록 만들 수 있을까?경력이 쌓이고 시간이 쌓일 수록 해.......]]></description>
+					<pubDate>Wed, 31 Oct 2012 00:30:56 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[[펌]기획자료]]></category>
+					<title><![CDATA[[가마수트라] 베테랑 플레이어들의 이탈을 예측하다]]></title>
+					<link>http://blog.naver.com/gamediz/20169235302</link>
+					<guid>http://blog.naver.com/gamediz/20169235302</guid>
+					<description><![CDATA[주옥같은 자료...  [원문] 가마수트라]]></description>
+					<pubDate>Fri, 19 Oct 2012 11:09:31 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[[펌]기획자료]]></category>
+					<title><![CDATA[각종 지도들 참고자료]]></title>
+					<link>http://blog.naver.com/gamediz/20169006048</link>
+					<guid>http://blog.naver.com/gamediz/20169006048</guid>
+					<description><![CDATA[http://www.andysowards.com/blog/2012/70-epic-map-design/]]></description>
+					<pubDate>Tue, 16 Oct 2012 12:17:45 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[[펌]기획강좌]]></category>
+					<title><![CDATA[이상균씨 강연자료]]></title>
+					<link>http://blog.naver.com/gamediz/20165492791</link>
+					<guid>http://blog.naver.com/gamediz/20165492791</guid>
+					<description><![CDATA[ 이상균 씨의 강연 자료정말 주옥 같네요...  http://www.slideshare.net/iyooha/2010-05-06 ]]></description>
+					<pubDate>Wed, 29 Aug 2012 14:28:13 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[[구인/구직]]]></category>
+					<title><![CDATA[[구인] 망상 공작소(스마트폰 게임) 기획자 구인]]></title>
+					<link>http://blog.naver.com/gamediz/20162965080</link>
+					<guid>http://blog.naver.com/gamediz/20162965080</guid>
+					<description><![CDATA[전 회사에서 서버 팀장과 실장을 거치신 매우 훌륭하신 분이얼마전에 망상 공작소 라는 회사를 만드시고 열심히 게임을 몇 개 만드시고는...아 이래서 기획자는 필요하구나? 좋은 기획자를 뽑아서 더 좋은 프로젝트를 만들어 보자! 라고 생각을 하셨답니다.그 분이 뽑고 싶어하는 스펙은 다음과 같습니다. 1. 수학 or 통계학 관련 학과 출신자 완전 우대2. farm 류 게임 제작 경험자 완전 우대3. 웹 게임(땅따먹기 rpg 비스무리) 제작 경험자 역시 완전 우대망상공작소 프로젝트들 www.delusionstudio.net 지금 만드는 것http://www.facebook.com/houseofmice 회사 이름은 "망상 공작소"Delusion Studio Inc.6인조 보컬 그룹전 멤버 약 12 ~ 15년.......]]></description>
+					<pubDate>Fri, 27 Jul 2012 01:47:12 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 신변잡기]]></category>
+					<title><![CDATA[위대한 게임의 탄생2 - 실크로드]]></title>
+					<link>http://blog.naver.com/gamediz/20157086645</link>
+					<guid>http://blog.naver.com/gamediz/20157086645</guid>
+					<description><![CDATA[&#65279;위대한 게임의 탄생2 에 제가 기고한 실크로드 온라인이 실렸습니다. 책에 실리니 기분이 참 묘하네요 ...실크로드 온라인에서 함께 개발했던 많은 분들 고생하셨습니다. 더불어 지금 하고 있는 에오스프로젝트 역시 좋은 결과를 내서, 위대한 게임의 탄생 3권에 수록되었으면 좋겠네요 ^^=== 관련 목차 ===Chapter 9 실크로드 온라인잘된 점 세계화에 주슷하다 동양적 환타지를 어필하다 쉬운 접근성 글로벌 서버와 롱테일의 경제학 결제 수단의 확보 아쉬웠던 점 온라인 게임 개발 경험의 부재 콘텐츠의 부족 고객과 서비스 관리 대표 콘텐츠의 실패 유저 어뷰즈 대처 미숙 오토(봇) 캐릭터 문제 정리 &#65279;&#65279;&#65279;&#65279.......]]></description>
+					<pubDate>Fri, 04 May 2012 16:46:24 +0900</pubDate>
+					<tag><![CDATA[실크로드온라인,위대한게임의탄생2,실크로드온라인기고]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 바스켓볼]]></category>
+					<title><![CDATA[간만에 농구 사진]]></title>
+					<link>http://blog.naver.com/gamediz/20156937588</link>
+					<guid>http://blog.naver.com/gamediz/20156937588</guid>
+					<description><![CDATA[요즘 더워져서 농구도 참 힘들다.회사일이 바빠서 많이 빠지기도 하고.시원한? 곳에서 씬나게 농구 실컷 하고 싶네&#65279;&#65279;]]></description>
+					<pubDate>Wed, 02 May 2012 14:33:10 +0900</pubDate>
+					<tag><![CDATA[스포츠]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[My KGCA]]></category>
+					<title><![CDATA[kgca 특강자 모집(5월 2일)]]></title>
+					<link>http://blog.naver.com/gamediz/20156469371</link>
+					<guid>http://blog.naver.com/gamediz/20156469371</guid>
+					<description><![CDATA[kgca 게임아카데미에서 5월 2일 오전 10~오후1시까지 3시간 동안 기획강의 해주실 분을 모집합니다. 약간?의 보수가 있고.. 주제는 자유롭게 선택하실 수 있습니다. 들을 대상은 22기 재학중인 지망생들입니다.최소 경력2년 이상(가능하면 3년 이상의 분이면 좋겠네요 ^^)혹 가능하신 분은 댓글이나 쪽지 주시면 남겨주시면 감사하겠습니다.]]></description>
+					<pubDate>Wed, 25 Apr 2012 17:00:56 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[[펌]기획참고]]></category>
+					<title><![CDATA[나운영 작곡법에 쓰인 창작에 대한 이야기]]></title>
+					<link>http://blog.naver.com/gamediz/20154556170</link>
+					<guid>http://blog.naver.com/gamediz/20154556170</guid>
+					<description><![CDATA["나운영 &lt;작곡법&gt; 마지막 챕터에 써있는 것들 이라고 합니다. 원문은 아래 링크에서 가져왔고요... 정말정말 모든 창작활동을 하는 사람들이 새겨 들을 내용이라고 생각합니다.http://www.facebook.com/home.php?sk=lf#!/kernel0/posts/30676820971871. 먼저 무엇을 표현할 것인가를 생각하고 다음에 그것을 어떻게 표현할 것인가 생각하라. 2. 매너리즘을 경계하라. 작품마다 스타일과 테크닉을 바꿔라. 3. 독창성은 새로운 선율, 화성, 리듬 그 자체보다는 새로운 사용 방법에서 발휘되는 것이다. 4. 영감은 쓰는 동안에 떠오르는 법이다. Fustave Flaubert. 프랑스 소설가. 5. 아무리 짧은 곡이라도 완성하는 습관을 기르라. 끝마치는 것.......]]></description>
+					<pubDate>Fri, 30 Mar 2012 21:11:46 +0900</pubDate>
+					<tag><![CDATA[게임]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 신변잡기]]></category>
+					<title><![CDATA[간만에 쓰는 신변잡기]]></title>
+					<link>http://blog.naver.com/gamediz/20153794440</link>
+					<guid>http://blog.naver.com/gamediz/20153794440</guid>
+					<description><![CDATA[회사일은 수 많은 결정과 고민 사이에서 멘붕 근처까지 갔다가 서서히 회복 하는 중이네요이제 조금씩 무엇을 해야 할지 조금씩 보이기 시작했다... 정도의 느낌이랄까요...올해 말정도에는 무엇을 해야할지도 명확히 보이고, 좀 더 현명하게 일할 수 있게 되는 게 일단은 목표에요집에서는 예쁜 딸램들과 색시님에게 좋은 아빠는 못되고 있어요바쁘다는 핑계를 대보기도 하지만, 여전히 많은 내 자신에 대한 욕심과내 시간에 대한 집착? 그리고 내 스트레스를 풀기 위한 여러가지 것들이가족과 함께하는 착한 아빠가 되는 길을 방해? 하네요게임을 만드는 개발자로서, 실무에서 점점 멀어지는 거 같아서 가슴이 아프다가도관리도 제대로 못하는.......]]></description>
+					<pubDate>Wed, 21 Mar 2012 01:07:26 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[[구인/구직]]]></category>
+					<title><![CDATA[엔비어스 에오스 프로젝트 퀘스트 기획자 구인]]></title>
+					<link>http://blog.naver.com/gamediz/20153375202</link>
+					<guid>http://blog.naver.com/gamediz/20153375202</guid>
+					<description><![CDATA[기획자 구인 광고만 몇 번째 하는지 모르겠네요 ^^;퀘스트 규모가 커져서 퀘스트 기획자를 2명 구인합니다.한 분은 경력 2년 이상, 한 분은 경력무관으로 구하고 있습니다.&#65279;&#65279;지원하실 때는 gamediz@naver.com 으로 메일 주시면 됩니다. [구인정보]퀘스트 2명 [우대 스펙]공통 : &#65279;&#65279;&#65279;경력 2년 이상의 분이 였으면 합니다. 가능하면 MMORPG 플레이를 많이 즐겨보신 분이면 좋겠고, 1개 이상의 상용화 프로젝트에 참석하셨던 분이면 좋겠네요... MMORPG 개발 경력이 꼭 필요합니다. 퀘스트 :퀘스트 파트에 남은 1명의 TO이기 때문에 마지막 퍼즐을 맞추실 분을 원합니다.세계관이나 설정에 강하신 분 보다는 퀘스.......]]></description>
+					<pubDate>Thu, 15 Mar 2012 18:27:58 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[[펌]기획자료]]></category>
+					<title><![CDATA["좋은 기획서는 '형용사' 가 없다."]]></title>
+					<link>http://blog.naver.com/gamediz/20152699580</link>
+					<guid>http://blog.naver.com/gamediz/20152699580</guid>
+					<description><![CDATA[완전 좋은글!!!원문: http://m.blog.daum.net/_blog/_m/articleView.do?blogid=0VeUb&amp;articleno=277좋은 기획서는 무엇을까? 좋은 기획서는 어떻게 작성해야 할까? 기획자 커뮤니티를 가면 좋은 기획서를 쓰는방법에 대해서 많이 나열되어 있다. 하지만 나는 기획자가 아니기 때문에 무엇이 좋은 기획서인지? 어떻게 해야 좋은 기획서를 쓸수 있는지 전혀 모른다. 다만 나는 프로그래머와 아티스트를 혼란스럽게 하는 기획서는 잘 알고 있다. 나의 의견을 한문장으로 종합하면 다음과 같다. "좋은 기획서는 '형용사' 가 없다." 사실이다. '형용사' 는 실무 개발자를 혼동으로 빠뜨리고, 수많은 똥개훈련으로 개발자를 지치게 하는 단어이다. .......]]></description>
+					<pubDate>Tue, 06 Mar 2012 18:35:31 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 신변잡기]]></category>
+					<title><![CDATA[WOW 타렉고사를 만들다. ]]></title>
+					<link>http://blog.naver.com/gamediz/20146920921</link>
+					<guid>http://blog.naver.com/gamediz/20146920921</guid>
+					<description><![CDATA[ 
+몇 달간의 인고의 시간을 거쳐 남들보다 완전 늦은 시간에 타렉을 만들었어염.. 
+이제 딜킹이 될꺼야 ㅜ.ㅜ ]]></description>
+					<pubDate>Thu, 29 Dec 2011 00:40:26 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 신변잡기]]></category>
+					<title><![CDATA[김주성 선수와 사진을 ㅋ]]></title>
+					<link>http://blog.naver.com/gamediz/20145547290</link>
+					<guid>http://blog.naver.com/gamediz/20145547290</guid>
+					<description><![CDATA[웅캬캬영광이다.왠지농구실력이늘거같다.]]></description>
+					<pubDate>Sun, 11 Dec 2011 22:37:25 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 기획잡담]]></category>
+					<title><![CDATA[스킬설계 목차 예제]]></title>
+					<link>http://blog.naver.com/gamediz/20144861040</link>
+					<guid>http://blog.naver.com/gamediz/20144861040</guid>
+					<description><![CDATA[ 
+&#65279;예전에 개인적으로 작업했던 스킬설계 관련 제안 문서중 일부입니다. 
+요즘 스킬에 대해서도 고민이 많은터라 참고삼아 올려봅니다. 
+목차 정도의 수준에서는 참고할만하다고 생각합니다.
+(그래봐야 난 컨텐츠 기획에 가까운 사람이지만 ...)
+0000 스킬설계 목차 설정
+목차
+1. 액션에 대한 설정.... 2
+① 액션 컨셉 설정.... 2
+② 액션 기본 개념 설정.... 2
+③ 액션 GUI 설정(조작 및 인터페이스) 2
+2. 클래스별 역할 설정 개요.... 2
+① 기본 역할 정의.... 2
+② 클래스별 장비착용.... 2
+3. 기반 시스템 설정 및 재정의.... 2
+① 스탯 설정.... 2
+② 상태이상 설정.... 2
+③ 물약 및 아이템 사용.... 2
+④ 버프 체.......]]></description>
+					<pubDate>Sat, 03 Dec 2011 12:05:08 +0900</pubDate>
+					<tag><![CDATA[스킬설계목차]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[[구인/구직]]]></category>
+					<title><![CDATA[[구인] 이키나 게임즈]]></title>
+					<link>http://blog.naver.com/gamediz/20143400743</link>
+					<guid>http://blog.naver.com/gamediz/20143400743</guid>
+					<description><![CDATA[ 
+이키나 게임즈에서 스마트 폰 프로그래머를 모집하네요.. 
+아래는 링크고요...  http://www.gamejob.co.kr/List_GI/GIB_Read.asp?GI_No=68252 
+이키나 게임즈 대표는제가게임계에 들어올 수 있도록 이끌어준 멘토고... 
+열정적이고 훌륭한 사람이라고 생각해요
+센스도 좋고 ㅋㅋ 관심있으신 분들은 링크 누르셔서 살펴보세요 ^^
+]]></description>
+					<pubDate>Wed, 16 Nov 2011 17:55:51 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 신변잡기]]></category>
+					<title><![CDATA[지스타 판다렌 플레이하다.]]></title>
+					<link>http://blog.naver.com/gamediz/20142904403</link>
+					<guid>http://blog.naver.com/gamediz/20142904403</guid>
+					<description><![CDATA[판다렌플레이.짱귀엽다.구르기최고ㅋㅋ  ]]></description>
+					<pubDate>Fri, 11 Nov 2011 13:27:20 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 엔비어스]]></category>
+					<title><![CDATA[엔비어스 신규 채용 부분 20111031]]></title>
+					<link>http://blog.naver.com/gamediz/20141872756</link>
+					<guid>http://blog.naver.com/gamediz/20141872756</guid>
+					<description><![CDATA[ 
+엔비어스 신규 채용 부분입니다.  기획관련 분야는 그림과는 다르게 퀘스트1, 레벨디자인1, 시스템 기획1명을 충원 중입니다.
+기획관련 (특히 컨텐츠) 분이거나 제 지인 분들은 저를 통해주시면 감사하겠습니다. 
+gamediz@naver.com 
+gump@nvius.co.kr 기획관련도 아니시고 제 지인도 아니시라면 ㅋ
+Recruit@nvius.co.kr 이 쪽을 이용해주세요 ^^ ]]></description>
+					<pubDate>Mon, 31 Oct 2011 18:09:02 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[이런저런 이야기]]></category>
+					<title><![CDATA[[공유] 기획자를 위한 LUA 과정(무료!)]]></title>
+					<link>http://blog.naver.com/gamediz/20141018765</link>
+					<guid>http://blog.naver.com/gamediz/20141018765</guid>
+					<description><![CDATA[ 
+한국 콘텐츠 진흥원에서 루아 과정이 있네요... 
+무려 무료!!! 입니다. 
+정원이 20명이니... 관심 있으신 분들은 후딱 신청하시면 좋을 거 같네요 ^^ http://edu.kocca.or.kr/servlet/controller.off.ProposeOffServlet?p_process=SubjectPreviewPage&amp;gubun=2&amp;menuid=02&amp;p_subj=SG11014&amp;p_year=2011&amp;p_subjseq=0001&amp;p_seq=1&amp;tem_grcode=N000001]]></description>
+					<pubDate>Fri, 21 Oct 2011 15:39:49 +0900</pubDate>
+					<tag><![CDATA[LUA,진흥원이런건좋구나ㅋㅋ,근데난안들엌ㅋㅋ]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 개발일기]]></category>
+					<title><![CDATA[일정 재연마]]></title>
+					<link>http://blog.naver.com/gamediz/20140982906</link>
+					<guid>http://blog.naver.com/gamediz/20140982906</guid>
+					<description><![CDATA[일정을 잡고 있는데 ....
+기분이 마치.. 딱 이런 기분 와우 암사 만적중 17%를 위해
+어떤 아이템에서 얼만큼의 어떤 능력치를 빼서 정신력으로 돌릴까? 를 마구 고민하면서
+계산기 두드리며 딱 17% (1742)를 맞추기 위해 온갖 경우에 수를 돌려보는 기분... 한 1~5까지는 뭐 그냥저냥 오버될 수 있다 쳐도
+그 이상 오버되지 않기 위해; 쌩 난리를 치는 딱 그 기분... 
+참 묘하군하...  난 일정을 잡고 있는것처럼 사실 재연마를 하고 있는 거였어 ㅋㅋㅋ
+UI만 촘 더 재미있었음 더 좋았을 껀데.. 아쉽 ㅋㅋㅋ
+(근데 17% 딱 맞추면 정말 좋긴 좋은거임?)]]></description>
+					<pubDate>Fri, 21 Oct 2011 03:07:15 +0900</pubDate>
+					<tag><![CDATA[WOW재연마,일정재연마]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[My KGCA]]></category>
+					<title><![CDATA[kgca 기획강의 특강 해주실 분?]]></title>
+					<link>http://blog.naver.com/gamediz/20140868246</link>
+					<guid>http://blog.naver.com/gamediz/20140868246</guid>
+					<description><![CDATA[ 
+본래 나름의 인맥을 동원해서 kgca 게임아카데미에 우수한? 분들을 자주 연결해드렸는데
+최근 지스타 등등으로 다들 바쁘셔서; 이렇게블로그를 통해서 기획강의 해주실 분을 모셔봅니다.  장소 : 구로디지털
+시간 : 10월 26일, 11월 2일 (오전 10~1시)
+혜택? : 강의 끝나고 본부장님이 맛있는 점심을 사주심, kgca 아카데미와 끈이 연결됨, 소정의 강의료
+자격? : 경력 2년 이상의 분이면 좋겠습니다.  kgca 21기를 대상으로 하며, 1주일에 한번씩 기획강사가 특강하는 형태로 강의가 진행중인 형태입니다. 강의 내용등에 대한 문의나 신청은 블로그 비밀 댓글이나 쪽지 이용해주시면 감사하겠습니다.  블로그 주소 : http://blo.......]]></description>
+					<pubDate>Wed, 19 Oct 2011 18:09:10 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[이런저런 이야기]]></category>
+					<title><![CDATA[[야구/LG] 쌍마대피소에서 퍼온 글]]></title>
+					<link>http://blog.naver.com/gamediz/20140166226</link>
+					<guid>http://blog.naver.com/gamediz/20140166226</guid>
+					<description><![CDATA[ 
+운영자님 안녕하십니까. 
+저희 유료회원은 이번 사건으로 인하여 엘지트윈스에 해명을 요청하는 바입니다.
+이유는 다음과 같습니다. 저희는 이번 사건을 인위적인 폐쇄로 보고있습니다.
+만약 인위적인 폐쇄라면, 채권관계상 반대급부에 관한 이행거절에 의사표시에 해당합니다.
+만약 인위적 폐쇄가 확실하게 되면 이와같은 사유로 엘지 유료회원들이 단체 행동을 할까합니다.
+내용은 이와 같습니다. 우선 쌍파 폐쇄 사안은 약관계약으로 인한 양방 채권관계에 관한 사안인것 같습니다.
+채관관계란 일방 당사자 (LGor 회원)가 타방 당사자 (LGor회원)대하여 일정한 급부를 청구할수있는 권리를 말합니다.
+즉 우리는 엘지트윈스에.......]]></description>
+					<pubDate>Tue, 11 Oct 2011 11:09:05 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 사진창고]]></category>
+					<title><![CDATA[내가 키우는 펫]]></title>
+					<link>http://blog.naver.com/gamediz/20140121094</link>
+					<guid>http://blog.naver.com/gamediz/20140121094</guid>
+					<description><![CDATA[스스로한살강아지라고우기는6년생사람여자임]]></description>
+					<pubDate>Mon, 10 Oct 2011 20:14:45 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 신변잡기]]></category>
+					<title><![CDATA[하악 꼬꼬면 먹고 싶다.]]></title>
+					<link>http://blog.naver.com/gamediz/20139704643</link>
+					<guid>http://blog.naver.com/gamediz/20139704643</guid>
+					<description><![CDATA[정말 먹어도 될까? ㅜ.ㅜ
+먹고 싶다 ... 
+야식은 살찌는데 흑흑;
+꼬꼬면 먹고 싶다 ㅜ.ㅜ]]></description>
+					<pubDate>Thu, 06 Oct 2011 05:21:38 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 사진창고]]></category>
+					<title><![CDATA[1학년 6반 네집이 모여서 놀러갔던 강릉]]></title>
+					<link>http://blog.naver.com/gamediz/20139237207</link>
+					<guid>http://blog.naver.com/gamediz/20139237207</guid>
+					<description><![CDATA[   
+또가고싶다ㅜㅜ ]]></description>
+					<pubDate>Fri, 30 Sep 2011 17:10:56 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[[구인/구직]]]></category>
+					<title><![CDATA[[구직] 중국어 번역 관련]]></title>
+					<link>http://blog.naver.com/gamediz/20139131020</link>
+					<guid>http://blog.naver.com/gamediz/20139131020</guid>
+					<description><![CDATA[ 
+한국에서 5년정도 거주한 한국말에 능통한 중국인?을 보유하고 있습니다.
+게임도 어느정도 알고 있어서 번역 관련 일을 하면 잘할 거 같네요
+혹 그런 분을 원하시는 곳 있으시면 저테 연락주세요 블로그 비밀댓글이나 쪽지 주시면 확인해볼께요 ^^]]></description>
+					<pubDate>Thu, 29 Sep 2011 14:39:09 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 사진창고]]></category>
+					<title><![CDATA[우리가족 머리했어용 ㅋ]]></title>
+					<link>http://blog.naver.com/gamediz/20138268117</link>
+					<guid>http://blog.naver.com/gamediz/20138268117</guid>
+					<description><![CDATA[]]></description>
+					<pubDate>Mon, 19 Sep 2011 13:56:42 +0900</pubDate>
+					<tag><![CDATA[가족머리했어용ㅋ]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[이런저런 이야기]]></category>
+					<title><![CDATA[흑흑 LG 트윈스]]></title>
+					<link>http://blog.naver.com/gamediz/20137458226</link>
+					<guid>http://blog.naver.com/gamediz/20137458226</guid>
+					<description><![CDATA[ 
+http://www.youtube.com/watch?v=a-IqWS68i88&amp;feature=player_embedded 정말 감동적이고, 슬프면서도, 웃기고, 눈물나면서도, 짜증나는 동영상]]></description>
+					<pubDate>Fri, 09 Sep 2011 15:49:06 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 신변잡기]]></category>
+					<title><![CDATA[Kgca 21기 기획강의]]></title>
+					<link>http://blog.naver.com/gamediz/20137269232</link>
+					<guid>http://blog.naver.com/gamediz/20137269232</guid>
+					<description><![CDATA[늘보람있고재미있는후배님들과함께하는시간  
+]]></description>
+					<pubDate>Wed, 07 Sep 2011 14:56:25 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[[펌]게임자료]]></category>
+					<title><![CDATA[롤리팝 ㅋㅋ]]></title>
+					<link>http://blog.naver.com/gamediz/20136220607</link>
+					<guid>http://blog.naver.com/gamediz/20136220607</guid>
+					<description><![CDATA[ 
+미소녀 좀비물 ㅋㅋ
+왠지 재미있을 듯? ㅋㅋㅋ http://www.thisisgame.com/board/view.php?id=744635&amp;category=102
+&#65279;]]></description>
+					<pubDate>Thu, 25 Aug 2011 17:47:54 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[[구인/구직]]]></category>
+					<title><![CDATA[[구인] 마이어스 게임즈 기획자 모집]]></title>
+					<link>http://blog.naver.com/gamediz/20134800963</link>
+					<guid>http://blog.naver.com/gamediz/20134800963</guid>
+					<description><![CDATA[친한 후배가 일하는 회사에서 사람을 구하네요
+이 친구 너무 훌륭한 친구라서 같이 일하는 것만으로도 많은 것을 배울 수 있을 거 같습니다.
+관심 있으신 분들은 아래의 주소로 지원해주세용 ^^ -------------------------------------------------------------- (주) 마이어스게임즈에서 게임 기획자를 구인합니다.
+신생 개발사라 회사 소개를 잠깐 드리자면,
+2008년 8월에 설립된 회사로, 과거 판타그램의 N3, KUF 시리즈 개발자와 RF Online, 리니지 개발자들이 주축이 되어 설립한 회사입니다. 현재 개발 관련한 투자는 완료된 상태로 분당 서현동에 위치하고 있습니다. (회사 위치는 http://www.maiusgames.com 참조해주세요.)
+.......]]></description>
+					<pubDate>Tue, 09 Aug 2011 17:45:36 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 엔비어스]]></category>
+					<title><![CDATA[익간지 탄생 이야기]]></title>
+					<link>http://blog.naver.com/gamediz/20134473233</link>
+					<guid>http://blog.naver.com/gamediz/20134473233</guid>
+					<description><![CDATA[엔비어스 모바일팀에서 만든 익시드 소울에 보스 탄생 비화 ㅋㅋ 
+&#65279;]]></description>
+					<pubDate>Fri, 05 Aug 2011 21:30:00 +0900</pubDate>
+					<tag><![CDATA[엔비어스,익시드소울,익간지]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[[펌]기획자료]]></category>
+					<title><![CDATA[테라 환경 변화 시스템]]></title>
+					<link>http://blog.naver.com/gamediz/20134473105</link>
+					<guid>http://blog.naver.com/gamediz/20134473105</guid>
+					<description><![CDATA[ 
+게임테크에 공개된 테라 환경 변화 시스템 문서
+우리 게임에도 개발된 부분이 많이 있는데... 
+테라.. 참 꾸미는 부분에 엄청 공을 많이 들였네요
+멋지네 정말 ~&#65279; ]]></description>
+					<pubDate>Fri, 05 Aug 2011 15:57:01 +0900</pubDate>
+					<tag><![CDATA[테라,테라환경변화시스템,테라는뽀대]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 신변잡기]]></category>
+					<title><![CDATA[아 아이온... ㅜ.ㅜ]]></title>
+					<link>http://blog.naver.com/gamediz/20134262420</link>
+					<guid>http://blog.naver.com/gamediz/20134262420</guid>
+					<description><![CDATA[ 
+혼자 하려니 넘 힘들고 재미없다... 흑흑흑~
+3개월 결재에 3주 정도 지났는데...
+와우로 복귀할 까 말까 고민중 ... 
+블소 나오기 전에는 와우를 달려야 할 팔자인갑다 흑흑 ~&#65279;]]></description>
+					<pubDate>Wed, 03 Aug 2011 00:21:48 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 신변잡기]]></category>
+					<title><![CDATA[10년 만에 기타 연주? 1편 ㅋㅋ]]></title>
+					<link>http://blog.naver.com/gamediz/20134151645</link>
+					<guid>http://blog.naver.com/gamediz/20134151645</guid>
+					<description><![CDATA[ 
+(도촬? 당했음 ㅋ)
+일어나 ~~ 일어나 ~~ 다시 한번 해보는 거야!   ]]></description>
+					<pubDate>Mon, 01 Aug 2011 17:32:44 +0900</pubDate>
+					<tag><![CDATA[10년만에기타,일어나,김광석,음악]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 엔비어스]]></category>
+					<title><![CDATA[회사 원화 파트 loped님의 낭보]]></title>
+					<link>http://blog.naver.com/gamediz/20133941701</link>
+					<guid>http://blog.naver.com/gamediz/20133941701</guid>
+					<description><![CDATA[   회사 원화파트 loped 님의 일러스트와 작업과정 튜토리얼이 일본잡지 touch에 실렸네용..
+표지에도 떡하니 ㄷㄷㄷ
+잘하시는 분들이 많은 회사지만, 뿌듯하네염 ^^
+]]></description>
+					<pubDate>Fri, 29 Jul 2011 16:30:28 +0900</pubDate>
+					<tag><![CDATA[엔비어스,에오스,touch,loped]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 엔비어스]]></category>
+					<title><![CDATA[20110727 엔비어스 채용 부분 갱신]]></title>
+					<link>http://blog.naver.com/gamediz/20133774555</link>
+					<guid>http://blog.naver.com/gamediz/20133774555</guid>
+					<description><![CDATA[  TO가 변동되어 갱신합니다.  * 추가된 인원 
+시스템 1 : MMORPG 경력2년 이상 우대, 전반적인 시스템 기획
+컨텐츠 1 : MMORPG 경력1년 이상 우대, 몬스터 설정, 맵 배치, 아이템, 레벨 디자인 많은 지원 바라고... gamediz@naver.com 으로 이력서 및 포트폴리오 주세요 ^^  
+]]></description>
+					<pubDate>Wed, 27 Jul 2011 17:35:28 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 엔비어스]]></category>
+					<title><![CDATA[엔비어스 구인 리스트 (갱신)]]></title>
+					<link>http://blog.naver.com/gamediz/20133595516</link>
+					<guid>http://blog.naver.com/gamediz/20133595516</guid>
+					<description><![CDATA[사람 뽑는게 점점 늘어나네요... 
+프로젝트가 점점 커지는 느낌!
+많은 지원 바라고... gamediz@naver.com 으로 이력서 및 포트폴리오 주세요 ^^ 시스템쪽은 경제 벨런스 쪽이 아니더라도, 3년 이상의 잘하는 분이라면 일단 두드려주세요 ~ 
+]]></description>
+					<pubDate>Mon, 25 Jul 2011 16:30:25 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 엔비어스]]></category>
+					<title><![CDATA[엔비어스 구인 리스트]]></title>
+					<link>http://blog.naver.com/gamediz/20133185657</link>
+					<guid>http://blog.naver.com/gamediz/20133185657</guid>
+					<description><![CDATA[ 
+1. 기획
+경제 벨런스 : 1명
+MMO 경제벨런스만 2년 이상 한 분이면 &#65279;좋을 거 같습니다.  시나리오&amp;퀘스트: 1명
+순수 시나리오 보다는 퀘스트에 강하신 분을 원합니다. 가능하면 퀘스트가 잘 짜여진 프로젝트를 경험해보신 분이면 좋을 거 같아요. 경력 2년 이상의 주니어를 어느정도 탈피하신 분을 원해요 ~ 2. 그래픽
+캐릭터 모델러 : 2명
+그래픽은 거의 모집이 끝났네요.. 캐릭터 모델러만 구인한답니다. 경력이 조금이라도 있어야 가능하실 거 같아요, 아마 한분은 쩌는? 분으로 한분은 1년 이상 중에 잘하시는 분으로 뽑을 거 같네요 gamediz@naver.com 으로 보내주심 감사요
+(회사 메일로 받으면 자꾸 스팸 처.......]]></description>
+					<pubDate>Wed, 20 Jul 2011 11:39:08 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 개발일기]]></category>
+					<title><![CDATA[2011년 7월 17일 개발일기[엔비어스]]]></title>
+					<link>http://blog.naver.com/gamediz/20132965288</link>
+					<guid>http://blog.naver.com/gamediz/20132965288</guid>
+					<description><![CDATA[ 
+(게임 개발에 필요한 3대 능력)
+게임 개발은 열정, 세심함, &#65279;통찰력 이라는 3가지의 능력을 기반으로 만들어 지는 거 같다.  열정....
+말해 무엇할까? 이거 없이 게임을 잘 만들 수 있는 사례는 없을 듯 싶다.
+열정이 있어야 미심적은 부분을 한번 더 쳐다보고
+열정이 있어야 미운 사람이 있어도 그 미운사람의 그 허물이 잔뜩담긴 XX 결과물도 처리해주고
+열정이 있어서 게임을 만들겠다는 의지가 있어야, 내가 정말 미워하는 사람이 있어도 착하게 말하게 되고 뭐 사실 열정은 그 자체의 순수 에너지라는 생각이 든다. 
+가끔 쓸데없는 곳에 쓰일 가능성도 다분하지만, 에너지가 많으면 많을 수록 삽질을 하더라도
+다시.......]]></description>
+					<pubDate>Sun, 17 Jul 2011 15:32:30 +0900</pubDate>
+					<tag><![CDATA[nvius,엔비어스,envy_us,개발일기,게임,에오스]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 기획잡담]]></category>
+					<title><![CDATA[스킬 기획 이렇게 시작하자]]></title>
+					<link>http://blog.naver.com/gamediz/20132546272</link>
+					<guid>http://blog.naver.com/gamediz/20132546272</guid>
+					<description><![CDATA[  최근에 예전에 했던 스킬 기획들을 꺼내보며 이런 저런 생각을 하다가
+전에 쓴 스킬 강좌들은 좀 많이 복잡했고, 좀 더 심플하게스킬 기획에 대한 시작에 대해
+글을 써보고 싶다는 생각이 들어서 짧게 정리를 좀 해봤습니다. 
+(뭐 기존에 스킬 강좌의 요약본 정도 되겠네요) 
+먼저 스킬이 만들어지고 나서의 불만 사항들을 정리해봤습니다. 
+* 쓰다보니 뭐랄까... 적절한가? 라는 말이 제일 많이 나오네요 역시 적절하게 뭘 하긴 힘들어요 ㅋ 1. 클래스의 역할 분배
+- 초기 설계시 큰 그림 설계가 적절했는가?
+- 큰 그림 밑으로 적절하게 스킬들이 잘 배치 되었는가?
+이 짓을 하는 이유는 정말 해보면 압니다. 큰 그림없이 만.......]]></description>
+					<pubDate>Tue, 12 Jul 2011 02:59:18 +0900</pubDate>
+					<tag><![CDATA[기획잡담,스킬설계]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 기획공부]]></category>
+					<title><![CDATA[부분 유료화에 가벼운 정보]]></title>
+					<link>http://blog.naver.com/gamediz/20132459108</link>
+					<guid>http://blog.naver.com/gamediz/20132459108</guid>
+					<description><![CDATA[ 
+최근에 들었던 유료화에 대한 몇 가지 정보 생각해보니 최근 유료화에 대한 매우 많은 정보를 들었네요
+스톰님의 NDC 강연도 들었고, 회사에서 초빙한 분을 통해서도 좋은 이야기를 많이 들었고, 개인적인 서핑과 NDC 자료 등을 통해서도 여러 가지를 배웠습니다.  최근에 들었던 부분 유료화 관련 된 몇 가지 것들을 가볍게 적어봅니다.  
+[구매고객 분석]
+- 유저가 아이템을 사는 것은 즉흥적이다. 
+&agrave; 하루에 1만원씩 쓰는 유저가 있다고 가정할 때 하루 동안 결재 부분이 문제가 생겨서 결재를 할 수 없다고 해도 그 다음날 2만원을 결재하지 않는다. 
+- 부분 유료화를 통해 아이템을 많이 지를수록 충성도가 높아진.......]]></description>
+					<pubDate>Mon, 11 Jul 2011 00:31:41 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 신변잡기]]></category>
+					<title><![CDATA[블로그 소생시키기]]></title>
+					<link>http://blog.naver.com/gamediz/20132456860</link>
+					<guid>http://blog.naver.com/gamediz/20132456860</guid>
+					<description><![CDATA[그 동안 너무 바쁘고 정신없다는 핑계로 블로그를 조금 쉬엄 쉬엄했는데
+이 번주 부터는 다시금 열심히 글을 쓰려고 합니다.  글을 안쓰다 보니 머리가 굳는 느낌이네요 좋은글, 괜찮은 글을 얼마나 쓸 수 있을지 
+얼마나 좋은 정보를 전달할 수 있을지는 잘 모르겠지만
+1주일에 적어도 한 개씩은 쓸만한 글을 써보려고 합니다.  &#65279;&#65279;]]></description>
+					<pubDate>Mon, 11 Jul 2011 00:10:00 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[[구인/구직]]]></category>
+					<title><![CDATA[조이맥스 컨텐츠 기획자 모집]]></title>
+					<link>http://blog.naver.com/gamediz/20132299901</link>
+					<guid>http://blog.naver.com/gamediz/20132299901</guid>
+					<description><![CDATA[ 
+조이맥스에서 컨텐츠 기획자를 구한다고 합니다. 
+성실하고 실력 좋으신 분으로 가능하면 경력 1년 이상의 분을 원한다고 하는데
+신입이라도 자신있고, 기본기 탄탄한 분이면 지원 가능하다고 하네요 파트장으로 있는 친구가 성실하고 잘하는 친구라서 실력을 쌓고 컨텐츠에 대해
+배우는 데 도움이 될 거라고 생각합니다 ^^ 지원은 아래의 주소로... 
+lovewind2@joymax.com 
+]]></description>
+					<pubDate>Fri, 08 Jul 2011 18:34:37 +0900</pubDate>
+					<tag><![CDATA[구인,조이맥스]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 신변잡기]]></category>
+					<title><![CDATA[최근 근황]]></title>
+					<link>http://blog.naver.com/gamediz/20132088252</link>
+					<guid>http://blog.naver.com/gamediz/20132088252</guid>
+					<description><![CDATA[  어찌사나?
+포스팅을 하기 어려울 정도로 미친듯이 바쁘게 살고 있음 포스팅은 이제 안할껀가?
+이번 주 부터 살살 잠에서 깨어날 예정 건강은?
+그럭저럭, 엇그제 먹은 곱창 때문에 두드러기로 살짝 고생중...
+몇 일전에 음식 먹다가 살짝 이빨이 초큼 깨져서 돈 깨지는 소리가 들림 가족들은?
+작은 누나가 수술후 집에서 요양중
+딸램 및 색시님은 서방이 바빠서 초큼 심심해 하는 중 (반성중임)
+동생놈은 회사 이직.. (잘 적응좀 해라 촘) 회사는?
+계속되는 FQA와 각종 테스트 들로 난리도 아님 ㅋㅋ
+바쁜척을 참 많이 했지만, 요즘 처럼 정신없는 건 최근 몇년 사이에도 드물듯 정신상태는?
+예전에 봤던 와우 관련.......]]></description>
+					<pubDate>Wed, 06 Jul 2011 01:16:44 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[My KGCA]]></category>
+					<title><![CDATA[KGCA 22기 모집]]></title>
+					<link>http://blog.naver.com/gamediz/20132087924</link>
+					<guid>http://blog.naver.com/gamediz/20132087924</guid>
+					<description><![CDATA[ 
+엄청난 수상 경력을 가지고 있는 KGCA 게임 아카데미에서 
+22기 교육생 모집하네염 
+http://www.kgcaschool.com/education/education04.html 이곳 참고하시고...
+특히나 기획과 프로그램쪽으로는 좋은 학원이니 관심있으신 분들은 도전해보세용...
+프로그램 쪽은 지원자가 많아서 간혹 시험을 보기도 합니다 -_-; 추천인에 '안진용' (gump) 써주심 더 감사 ㅋㅋ  22기 교육생 지원안내
+　
+  지원과정 : 그래픽 디자인, 프로그램(기획 공통)
+  입학정원 :그래픽 디자인 21명, 프로그램 39명
+  교육기간 : 2011년 9월 1일 ~ 2012년 8월 (1년 과정)
+  제출기간 : 2011년 6월 13일 ~ 2011년 7월 29일
+  등록금 : 1학기 320만원.......]]></description>
+					<pubDate>Wed, 06 Jul 2011 01:07:53 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>gamediz</author>
+					<category><![CDATA[gump의 사진창고]]></category>
+					<title><![CDATA[옛날 사진]]></title>
+					<link>http://blog.naver.com/gamediz/20130957534</link>
+					<guid>http://blog.naver.com/gamediz/20130957534</guid>
+					<description><![CDATA[ 
+저랑 동생놈의 어릴 적 사진, 중간에 가족들도 간간히 찬조 출현 ㅋ
+아 풋풋하군하 ... 음화화 -_-;; 
+&#65279;]]></description>
+					<pubDate>Mon, 20 Jun 2011 13:02:45 +0900</pubDate>
+					<tag><![CDATA[어릴적사진,큭큭큭큭큭큭귀여워]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

@@ -1,0 +1,10 @@
+* csharptest 프로젝트 설명
+
+csharptest는 easyposting에서 글감을 제공하기 위한 블로그 주소 크롤러로 
+HanRss와 naver, tistory에서 블로그 주소를 수집하여 rss주소 유효성을 검사한 뒤
+그 주소를 통해 글감을 수집하는 기능을 합니다.
+ HanrssParser 클래스에서는 각각의 사이트의 HTML을 분석하여 블로그 주소를 
+파싱하는 기능을 하며 RssDetection클래스에서는 수집한 주소의 rss 주소를 찾고
+유효한 블로그 주소를 따로 분류한 뒤 글을 수집하는 기능을 담당하고 있습니다.
+ 전체적인 부분은 Program.cs에서 돌아갑니다.
+ 

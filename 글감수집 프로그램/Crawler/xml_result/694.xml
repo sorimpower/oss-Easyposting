@@ -1,0 +1,2134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss1full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.nature.com/~d/styles/itemcontent.css"?><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/" xmlns:admin="http://webns.net/mvcb/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+   <channel rdf:about="http://www.nature.com/nature/current_issue/rss">
+      <title>Nature - Issue - nature.com science feeds</title>
+      <description>Nature is the international weekly journal of science: a magazine style journal that publishes full-length research papers in all disciplines of science, as well as News and Views, reviews, news, features, commentaries, web focuses and more, covering all branches of science and how science impacts upon all aspects of society and life.</description>
+      <link>http://www.nature.com/nature/current_issue/</link>
+      <admin:generatorAgent rdf:resource="http://www.nature.com/" />
+      <admin:errorReportsTo rdf:resource="mailto:feedback@nature.com" />
+      <dc:publisher>Nature Publishing Group</dc:publisher>
+      <dc:language>en</dc:language>
+      <dc:rights>© 2014 Nature Publishing Group</dc:rights>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:issn>0028-0836</prism:issn>
+      <prism:eIssn>1476-4687</prism:eIssn>
+      <prism:copyright>© 2014 Nature Publishing Group</prism:copyright>
+      <prism:rightsAgent>permissions@nature.com</prism:rightsAgent>
+      <image rdf:resource="http://www.nature.com/includes/rj_globnavimages/nature_logo.gif" />
+      <items>
+         <rdf:Seq>
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513459a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513459b" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513460a" />
+            <rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/513461a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513462a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513462b" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513462c" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513462d" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513462e" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513463a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513463b" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513463c" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513463d" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513463e" />
+            <rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/513464a" />
+            <rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/513467a" />
+            <rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/513468a" />
+            <rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/513469a" />
+            <rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/513470a" />
+            <rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/513471a" />
+            <rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/513472a" />
+            <rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/513474a" />
+            <rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/513478a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513481a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513484a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513485a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513486a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513487a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513487b" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513487c" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513487d" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nj7519-575a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nj7519-577a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nj7519-577b" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nj7519-577c" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513580a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13626" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13627" />
+            <rdf:li rdf:resource="http://www.nature.com/doifinder/10.1038/513472b" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513490a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13747" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513492a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513493a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13750" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13753" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513497a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13749" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/513498a" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13704" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13775" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13495" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13737" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13662" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13785" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13698" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13779" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13486" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13739" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13776" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13536" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13575" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13490" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13577" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13579" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13675" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13699" />
+            <rdf:li rdf:resource="http://dx.doi.org/10.1038/nature13720" />
+         </rdf:Seq>
+      </items>
+   <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rdf+xml" href="http://feeds.nature.com/nature/rss/current" /><feedburner:info uri="nature/rss/current" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /></channel>
+   <image rdf:about="http://www.nature.com/includes/rj_globnavimages/nature_logo.gif">
+      <title>Nature</title>
+      <url>http://www.nature.com/includes/rj_globnavimages/nature_logo.gif</url>
+      <link>http://www.nature.com/nature/</link>
+   </image>
+   <item rdf:about="http://dx.doi.org/10.1038/513459a">
+      <title>First response, revisited</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/prpPwNsd3q8/513459a</link>
+      <description>The Ebola outbreak in West Africa has starkly exposed major gaps in plans to tackle emerging infectious diseases. Lessons must be learned.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>First response, revisited</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513459a">doi:10.1038/513459a</a>
+         </p>
+         <p>The Ebola outbreak in West Africa has starkly exposed major gaps in plans to tackle emerging infectious diseases. Lessons must be learned.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/prpPwNsd3q8" height="1" width="1"/>]]></content:encoded>
+      <dc:title>First response, revisited</dc:title>
+      <dc:identifier>doi:10.1038/513459a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-23</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-23</prism:publicationDate>
+      <prism:doi>10.1038/513459a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513459a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Editorial</prism:section>
+      <prism:startingPage>459</prism:startingPage>
+      <prism:endingPage>459</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513459a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513459b">
+      <title>Staff support</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/MnAzH4zlTS4/513459b</link>
+      <description>German research organizations need to help their workers to defend animal research.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Staff support</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513459b">doi:10.1038/513459b</a>
+         </p>
+         <p>German research organizations need to help their workers to defend animal research.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/MnAzH4zlTS4" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Staff support</dc:title>
+      <dc:identifier>doi:10.1038/513459b</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513459b</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513459b</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Editorial</prism:section>
+      <prism:startingPage>459</prism:startingPage>
+      <prism:endingPage>460</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513459b</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513460a">
+      <title>Special interest</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/uVY6CpCA1mI/513460a</link>
+      <description>As the Scottish referendum showed, scientists’ views can influence political debate.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Special interest</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513460a">doi:10.1038/513460a</a>
+         </p>
+         <p>As the Scottish referendum showed, scientists’ views can influence political debate.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/uVY6CpCA1mI" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Special interest</dc:title>
+      <dc:identifier>doi:10.1038/513460a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513460a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513460a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Editorial</prism:section>
+      <prism:startingPage>460</prism:startingPage>
+      <prism:endingPage>460</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513460a</feedburner:origLink></item>
+   <item rdf:about="http://www.nature.com/doifinder/10.1038/513461a">
+      <title>Istanbul canal needs environmental study</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/V8JLnb3qSjk/513461a</link>
+      <description>Scientists must ensure that the ambitious plan of Turkey’s president does not move forward without a thorough impact assessment, says Derin Orhon.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Istanbul canal needs environmental study</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://www.nature.com/doifinder/10.1038/513461a">http://www.nature.com/doifinder/10.1038/513461a</a>
+         </p>
+         <p>Author: Derin Orhon</p>
+         <p>Scientists must ensure that the ambitious plan of Turkey’s president does not move forward without a thorough impact assessment, says Derin Orhon.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/V8JLnb3qSjk" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Istanbul canal needs environmental study</dc:title>
+      <dc:creator>Derin Orhon</dc:creator>
+      <dc:identifier>doi:10.1038/513461a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513461a</prism:doi>
+      <prism:url>http://www.nature.com/doifinder/10.1038/513461a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Column</prism:section>
+      <prism:startingPage>461</prism:startingPage>
+      <prism:endingPage>461</prism:endingPage>
+   <feedburner:origLink>http://www.nature.com/doifinder/10.1038/513461a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513462a">
+      <title>Zoology: Clock ticks for tiny group of fish</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/g9DbKHBYYeA/513462a</link>
+      <description>One of Earth's rarest fish, the Devil's Hole pupfish, is often cited as an unusual example of a small but long-lasting population of animals. But these fish may not have been isolated for as long as once thought.Less than 100 adult pupfish (Cyprinodon </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Zoology: Clock ticks for tiny group of fish</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513462a">doi:10.1038/513462a</a>
+         </p>
+         <p>One of Earth's rarest fish, the Devil's Hole pupfish, is often cited as an unusual example of a small but long-lasting population of animals. But these fish may not have been isolated for as long as once thought.Less than 100 adult pupfish (Cyprinodon </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/g9DbKHBYYeA" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Zoology: Clock ticks for tiny group of fish</dc:title>
+      <dc:identifier>doi:10.1038/513462a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513462a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513462a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Research Highlights</prism:section>
+      <prism:startingPage>462</prism:startingPage>
+      <prism:endingPage>462</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513462a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513462b">
+      <title>Stem cells: Cord-blood cells made plentiful</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/OZWxaLh4DvA/513462b</link>
+      <description>A group of small molecules can spur the growth of stem cells from umbilical cord blood. These could one day be used as transplants to treat, for example, certain blood cancers.Guy Sauvageau at the University of Montreal in Canada and his colleagues screened a </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Stem cells: Cord-blood cells made plentiful</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513462b">doi:10.1038/513462b</a>
+         </p>
+         <p>A group of small molecules can spur the growth of stem cells from umbilical cord blood. These could one day be used as transplants to treat, for example, certain blood cancers.Guy Sauvageau at the University of Montreal in Canada and his colleagues screened a </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/OZWxaLh4DvA" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Stem cells: Cord-blood cells made plentiful</dc:title>
+      <dc:identifier>doi:10.1038/513462b</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513462b</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513462b</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Research Highlights</prism:section>
+      <prism:startingPage>462</prism:startingPage>
+      <prism:endingPage>462</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513462b</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513462c">
+      <title>Ecology: Boring invaders held at the border</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/i2NR-JQIMoE/513462c</link>
+      <description>Insect traps near busy ports could provide crucial early warnings of the arrival of invasive tree-boring beetles.These pests can damage forests and can travel around the world hidden in wood. So Davide Rassati and his colleagues at the University of Padua in Legnaro, Italy, </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Ecology: Boring invaders held at the border</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513462c">doi:10.1038/513462c</a>
+         </p>
+         <p>Insect traps near busy ports could provide crucial early warnings of the arrival of invasive tree-boring beetles.These pests can damage forests and can travel around the world hidden in wood. So Davide Rassati and his colleagues at the University of Padua in Legnaro, Italy, </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/i2NR-JQIMoE" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Ecology: Boring invaders held at the border</dc:title>
+      <dc:identifier>doi:10.1038/513462c</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513462c</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513462c</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Research Highlights</prism:section>
+      <prism:startingPage>462</prism:startingPage>
+      <prism:endingPage>462</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513462c</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513462d">
+      <title>Virology: Flu virus comes in various flavours</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/NBsuCFDdo2Q/513462d</link>
+      <description>The proteins that make up the influenza viral particle differ depending on which species the virus was generated in.The composition of a virus is important for its ability to infect and spread. Edward Hutchinson, Ervin Fodor and their colleagues at the University of Oxford, </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Virology: Flu virus comes in various flavours</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513462d">doi:10.1038/513462d</a>
+         </p>
+         <p>The proteins that make up the influenza viral particle differ depending on which species the virus was generated in.The composition of a virus is important for its ability to infect and spread. Edward Hutchinson, Ervin Fodor and their colleagues at the University of Oxford, </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/NBsuCFDdo2Q" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Virology: Flu virus comes in various flavours</dc:title>
+      <dc:identifier>doi:10.1038/513462d</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513462d</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513462d</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Research Highlights</prism:section>
+      <prism:startingPage>462</prism:startingPage>
+      <prism:endingPage>462</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513462d</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513462e">
+      <title>Cancer immunology: Therapy broadens immune response</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/kWwD0XZWw3w/513462e</link>
+      <description>A drug that activates the immune system against a type of skin cancer does so by promoting new immune responses to cancer, rather than amplifying pre-existing ones.The melanoma drug ipilimumab boosts the activity of immune-system cells called T cells, which recognize a variety of </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Cancer immunology: Therapy broadens immune response</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513462e">doi:10.1038/513462e</a>
+         </p>
+         <p>A drug that activates the immune system against a type of skin cancer does so by promoting new immune responses to cancer, rather than amplifying pre-existing ones.The melanoma drug ipilimumab boosts the activity of immune-system cells called T cells, which recognize a variety of </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/kWwD0XZWw3w" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Cancer immunology: Therapy broadens immune response</dc:title>
+      <dc:identifier>doi:10.1038/513462e</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513462e</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513462e</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Research Highlights</prism:section>
+      <prism:startingPage>462</prism:startingPage>
+      <prism:endingPage>463</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513462e</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513463a">
+      <title>Quantum optics: Photons made to dance together</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/CJI0JE3HmWY/513463a</link>
+      <description>Physicists have made two beams of light interact at the level of individual photons.Getting photons to interact is important for all-optical computation and for producing new quantum states of light. Kristin Beck at the Massachusetts Institute of Technology in Cambridge and her colleagues crossed </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Quantum optics: Photons made to dance together</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513463a">doi:10.1038/513463a</a>
+         </p>
+         <p>Physicists have made two beams of light interact at the level of individual photons.Getting photons to interact is important for all-optical computation and for producing new quantum states of light. Kristin Beck at the Massachusetts Institute of Technology in Cambridge and her colleagues crossed </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/CJI0JE3HmWY" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Quantum optics: Photons made to dance together</dc:title>
+      <dc:identifier>doi:10.1038/513463a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513463a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513463a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Research Highlights</prism:section>
+      <prism:startingPage>463</prism:startingPage>
+      <prism:endingPage>463</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513463a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513463b">
+      <title>Chemistry: On the trail of a drug in plants</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/tuRajN0faKU/513463b</link>
+      <description>The painkiller tramadol is not made naturally by plants despite last year's surprising finding that the drug was present in the roots of a Cameroonian plant (Nauclea latifolia).Michael Spiteller from the Technical University of Dortmund in Germany and his team analysed plant, </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Chemistry: On the trail of a drug in plants</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513463b">doi:10.1038/513463b</a>
+         </p>
+         <p>The painkiller tramadol is not made naturally by plants despite last year's surprising finding that the drug was present in the roots of a Cameroonian plant (Nauclea latifolia).Michael Spiteller from the Technical University of Dortmund in Germany and his team analysed plant, </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/tuRajN0faKU" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Chemistry: On the trail of a drug in plants</dc:title>
+      <dc:identifier>doi:10.1038/513463b</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513463b</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513463b</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Research Highlights</prism:section>
+      <prism:startingPage>463</prism:startingPage>
+      <prism:endingPage>463</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513463b</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513463c">
+      <title>Genomics: Mutation has big disease effect</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/t8hiBN86z08/513463c</link>
+      <description>A genetic mutation is associated with a change in a person's risk of heart disease from high to low — one of the first rare gene variants found, by sequencing large numbers of people, that has a sizable impact on disease risk.Nicole Soranzo of </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Genomics: Mutation has big disease effect</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513463c">doi:10.1038/513463c</a>
+         </p>
+         <p>A genetic mutation is associated with a change in a person's risk of heart disease from high to low &#8212; one of the first rare gene variants found, by sequencing large numbers of people, that has a sizable impact on disease risk.Nicole Soranzo of </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/t8hiBN86z08" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Genomics: Mutation has big disease effect</dc:title>
+      <dc:identifier>doi:10.1038/513463c</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513463c</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513463c</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Research Highlights</prism:section>
+      <prism:startingPage>463</prism:startingPage>
+      <prism:endingPage>463</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513463c</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513463d">
+      <title>Materials: Squid skin inspires colourful display</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/-g7ZFggkdUQ/513463d</link>
+      <description>A flexible material can display patterns much in the same way that cuttlefish, octopuses and squid (pictured) form colourful spots in their skin.To quickly change their appearance and camouflage themselves, such cephalopods use their muscles to stretch and relax small sacs of </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Materials: Squid skin inspires colourful display</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513463d">doi:10.1038/513463d</a>
+         </p>
+         <p>A flexible material can display patterns much in the same way that cuttlefish, octopuses and squid (pictured) form colourful spots in their skin.To quickly change their appearance and camouflage themselves, such cephalopods use their muscles to stretch and relax small sacs of </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/-g7ZFggkdUQ" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Materials: Squid skin inspires colourful display</dc:title>
+      <dc:identifier>doi:10.1038/513463d</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513463d</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513463d</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Research Highlights</prism:section>
+      <prism:startingPage>463</prism:startingPage>
+      <prism:endingPage>463</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513463d</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513463e">
+      <title>How to draw perfect figures</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/PAqKZzVCcek/513463e</link>
+      <description>Jumbled charts and misleading graphs — illustrations in a paper can go wrong in many ways. Now, a treatise that attempts to rescue science from bad figures has been getting rave reviews on social media (N. P. Rougier et al. PLoS Comput. Biol.10,</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>How to draw perfect figures</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513463e">doi:10.1038/513463e</a>
+         </p>
+         <p>Jumbled charts and misleading graphs — illustrations in a paper can go wrong in many ways. Now, a treatise that attempts to rescue science from bad figures has been getting rave reviews on social media (N. P. Rougier et al. PLoS Comput. Biol.10,</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/PAqKZzVCcek" height="1" width="1"/>]]></content:encoded>
+      <dc:title>How to draw perfect figures</dc:title>
+      <dc:identifier>doi:10.1038/513463e</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513463e</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513463e</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Research Highlights</prism:section>
+      <prism:startingPage>463</prism:startingPage>
+      <prism:endingPage>463</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513463e</feedburner:origLink></item>
+   <item rdf:about="http://www.nature.com/doifinder/10.1038/513464a">
+      <title>Seven days: 19–25 September 2014</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/_uER9DHbIJ8/513464a</link>
+      <description>The week in science: NASA mission reaches Mars, Arctic sea-ice hits annual minimum, and extreme drought fuels California fires.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Seven days: 19–25 September 2014</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://www.nature.com/doifinder/10.1038/513464a">http://www.nature.com/doifinder/10.1038/513464a</a>
+         </p>
+         <p>The week in science: NASA mission reaches Mars, Arctic sea-ice hits annual minimum, and extreme drought fuels California fires.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/_uER9DHbIJ8" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Seven days: 19–25 September 2014</dc:title>
+      <dc:identifier>doi:10.1038/513464a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513464a</prism:doi>
+      <prism:url>http://www.nature.com/doifinder/10.1038/513464a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Seven Days</prism:section>
+      <prism:startingPage>464</prism:startingPage>
+      <prism:endingPage>465</prism:endingPage>
+   <feedburner:origLink>http://www.nature.com/doifinder/10.1038/513464a</feedburner:origLink></item>
+   <item rdf:about="http://www.nature.com/doifinder/10.1038/513467a">
+      <title>Brazil warming to ‘green’ policies</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/mOiV-UicO6c/513467a</link>
+      <description>Activist Marina Silva is gaining ground in presidential polls.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Brazil warming to ‘green’ policies</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://www.nature.com/doifinder/10.1038/513467a">http://www.nature.com/doifinder/10.1038/513467a</a>
+         </p>
+         <p>Author: Jeff Tollefson</p>
+         <p>Activist Marina Silva is gaining ground in presidential polls.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/mOiV-UicO6c" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Brazil warming to ‘green’ policies</dc:title>
+      <dc:creator>Jeff Tollefson</dc:creator>
+      <dc:identifier>doi:10.1038/513467a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513467a</prism:doi>
+      <prism:url>http://www.nature.com/doifinder/10.1038/513467a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>News</prism:section>
+      <prism:startingPage>467</prism:startingPage>
+      <prism:endingPage>468</prism:endingPage>
+   <feedburner:origLink>http://www.nature.com/doifinder/10.1038/513467a</feedburner:origLink></item>
+   <item rdf:about="http://www.nature.com/doifinder/10.1038/513468a">
+      <title>Chinese science gets mass transformation</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/K2xiMzF5xqc/513468a</link>
+      <description>Teamwork at centre of Chinese Academy of Sciences reform.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Chinese science gets mass transformation</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://www.nature.com/doifinder/10.1038/513468a">http://www.nature.com/doifinder/10.1038/513468a</a>
+         </p>
+         <p>Author: David Cyranoski</p>
+         <p>Teamwork at centre of Chinese Academy of Sciences reform.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/K2xiMzF5xqc" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Chinese science gets mass transformation</dc:title>
+      <dc:creator>David Cyranoski</dc:creator>
+      <dc:identifier>doi:10.1038/513468a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-23</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-23</prism:publicationDate>
+      <prism:doi>10.1038/513468a</prism:doi>
+      <prism:url>http://www.nature.com/doifinder/10.1038/513468a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>News</prism:section>
+      <prism:startingPage>468</prism:startingPage>
+      <prism:endingPage>469</prism:endingPage>
+   <feedburner:origLink>http://www.nature.com/doifinder/10.1038/513468a</feedburner:origLink></item>
+   <item rdf:about="http://www.nature.com/doifinder/10.1038/513469a">
+      <title>Global Ebola response kicks into gear at last</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/7rNgLdZx0zM/513469a</link>
+      <description>US and UN mobilizations are welcome but overdue.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Global Ebola response kicks into gear at last</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://www.nature.com/doifinder/10.1038/513469a">http://www.nature.com/doifinder/10.1038/513469a</a>
+         </p>
+         <p>Author: Declan Butler</p>
+         <p>US and UN mobilizations are welcome but overdue.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/7rNgLdZx0zM" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Global Ebola response kicks into gear at last</dc:title>
+      <dc:creator>Declan Butler</dc:creator>
+      <dc:identifier>doi:10.1038/513469a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-23</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-23</prism:publicationDate>
+      <prism:doi>10.1038/513469a</prism:doi>
+      <prism:url>http://www.nature.com/doifinder/10.1038/513469a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>News</prism:section>
+      <prism:startingPage>469</prism:startingPage>
+      <prism:endingPage>469</prism:endingPage>
+   <feedburner:origLink>http://www.nature.com/doifinder/10.1038/513469a</feedburner:origLink></item>
+   <item rdf:about="http://www.nature.com/doifinder/10.1038/513470a">
+      <title>Cheap solar cells tempt businesses</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/JGOA-qtlLCY/513470a</link>
+      <description>Easy-to-make perovskite films rival silicon for efficiency.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Cheap solar cells tempt businesses</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://www.nature.com/doifinder/10.1038/513470a">http://www.nature.com/doifinder/10.1038/513470a</a>
+         </p>
+         <p>Author: Richard Van Noorden</p>
+         <p>Easy-to-make perovskite films rival silicon for efficiency.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/JGOA-qtlLCY" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Cheap solar cells tempt businesses</dc:title>
+      <dc:creator>Richard Van Noorden</dc:creator>
+      <dc:identifier>doi:10.1038/513470a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513470a</prism:doi>
+      <prism:url>http://www.nature.com/doifinder/10.1038/513470a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>News</prism:section>
+      <prism:startingPage>470</prism:startingPage>
+      <prism:endingPage>470</prism:endingPage>
+   <feedburner:origLink>http://www.nature.com/doifinder/10.1038/513470a</feedburner:origLink></item>
+   <item rdf:about="http://www.nature.com/doifinder/10.1038/513471a">
+      <title>US vows to combat antibiotic resistance</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/loM7jzP2mSg/513471a</link>
+      <description>Strategy lauded, but some fear it is lax on agricultural use.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>US vows to combat antibiotic resistance</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://www.nature.com/doifinder/10.1038/513471a">http://www.nature.com/doifinder/10.1038/513471a</a>
+         </p>
+         <p>Author: Sara Reardon</p>
+         <p>Strategy lauded, but some fear it is lax on agricultural use.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/loM7jzP2mSg" height="1" width="1"/>]]></content:encoded>
+      <dc:title>US vows to combat antibiotic resistance</dc:title>
+      <dc:creator>Sara Reardon</dc:creator>
+      <dc:identifier>doi:10.1038/513471a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-23</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-23</prism:publicationDate>
+      <prism:doi>10.1038/513471a</prism:doi>
+      <prism:url>http://www.nature.com/doifinder/10.1038/513471a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>News</prism:section>
+      <prism:startingPage>471</prism:startingPage>
+      <prism:endingPage>471</prism:endingPage>
+   <feedburner:origLink>http://www.nature.com/doifinder/10.1038/513471a</feedburner:origLink></item>
+   <item rdf:about="http://www.nature.com/doifinder/10.1038/513472a">
+      <title>Drug-safety pilot makes the grade</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/DKPP9yx83mg/513472a</link>
+      <description>FDA will continue to monitor safety from health records.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Drug-safety pilot makes the grade</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://www.nature.com/doifinder/10.1038/513472a">http://www.nature.com/doifinder/10.1038/513472a</a>
+         </p>
+         <p>Author: Heidi Ledford</p>
+         <p>FDA will continue to monitor safety from health records.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/DKPP9yx83mg" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Drug-safety pilot makes the grade</dc:title>
+      <dc:creator>Heidi Ledford</dc:creator>
+      <dc:identifier>doi:10.1038/513472a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-23</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-23</prism:publicationDate>
+      <prism:doi>10.1038/513472a</prism:doi>
+      <prism:url>http://www.nature.com/doifinder/10.1038/513472a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>News</prism:section>
+      <prism:startingPage>472</prism:startingPage>
+      <prism:endingPage>472</prism:endingPage>
+   <feedburner:origLink>http://www.nature.com/doifinder/10.1038/513472a</feedburner:origLink></item>
+   <item rdf:about="http://www.nature.com/doifinder/10.1038/513474a">
+      <title>Infectious disease: Ebola’s lost ward</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/EJvEbUe9SCQ/513474a</link>
+      <description>A hospital in Sierra Leone has struggled to continue its research amid the worst Ebola outbreak in history.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Infectious disease: Ebola’s lost ward</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://www.nature.com/doifinder/10.1038/513474a">http://www.nature.com/doifinder/10.1038/513474a</a>
+         </p>
+         <p>Author: Erika Check Hayden</p>
+         <p>A hospital in Sierra Leone has struggled to continue its research amid the worst Ebola outbreak in history.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/EJvEbUe9SCQ" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Infectious disease: Ebola’s lost ward</dc:title>
+      <dc:creator>Erika Check Hayden</dc:creator>
+      <dc:identifier>doi:10.1038/513474a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513474a</prism:doi>
+      <prism:url>http://www.nature.com/doifinder/10.1038/513474a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Feature</prism:section>
+      <prism:startingPage>474</prism:startingPage>
+      <prism:endingPage>477</prism:endingPage>
+   <feedburner:origLink>http://www.nature.com/doifinder/10.1038/513474a</feedburner:origLink></item>
+   <item rdf:about="http://www.nature.com/doifinder/10.1038/513478a">
+      <title>Renewable energy: Wind power tests the waters</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/mPf8KldDcxE/513478a</link>
+      <description>The United States has plenty of strong winds offshore, but it has struggled to harness them for energy.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Renewable energy: Wind power tests the waters</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://www.nature.com/doifinder/10.1038/513478a">http://www.nature.com/doifinder/10.1038/513478a</a>
+         </p>
+         <p>Author: Gene Russo</p>
+         <p>The United States has plenty of strong winds offshore, but it has struggled to harness them for energy.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/mPf8KldDcxE" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Renewable energy: Wind power tests the waters</dc:title>
+      <dc:creator>Gene Russo</dc:creator>
+      <dc:identifier>doi:10.1038/513478a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513478a</prism:doi>
+      <prism:url>http://www.nature.com/doifinder/10.1038/513478a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Feature</prism:section>
+      <prism:startingPage>478</prism:startingPage>
+      <prism:endingPage>480</prism:endingPage>
+   <feedburner:origLink>http://www.nature.com/doifinder/10.1038/513478a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513481a">
+      <title>Chemistry: Chemical con artists foil drug discovery</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/m__hKAxPlOQ/513481a</link>
+      <description>Naivety about promiscuous, assay-duping molecules is polluting the literature and wasting resources, warn Jonathan Baell and Michael A. Walters.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Chemistry: Chemical con artists foil drug discovery</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513481a">doi:10.1038/513481a</a>
+         </p>
+         <p>Authors: Jonathan Baell &amp; Michael A. Walters</p>
+         <p>Naivety about promiscuous, assay-duping molecules is polluting the literature and wasting resources, warn Jonathan Baell and Michael A. Walters.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/m__hKAxPlOQ" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Chemistry: Chemical con artists foil drug discovery</dc:title>
+      <dc:creator>Jonathan Baell</dc:creator>
+      <dc:creator>Michael A. Walters</dc:creator>
+      <dc:identifier>doi:10.1038/513481a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513481a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513481a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Comment</prism:section>
+      <prism:startingPage>481</prism:startingPage>
+      <prism:endingPage>483</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513481a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513484a">
+      <title>In retrospect: The Courtship Habits of the Great Crested Grebe</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/13GJulBpBik/513484a</link>
+      <description>Michael Brooke reappraises Julian Huxley's pioneering classic of animal behaviour on its centenary.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>In retrospect: The Courtship Habits of the Great Crested Grebe</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513484a">doi:10.1038/513484a</a>
+         </p>
+         <p>Author: Michael Brooke</p>
+         <p>Michael Brooke reappraises Julian Huxley's pioneering classic of animal behaviour on its centenary.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/13GJulBpBik" height="1" width="1"/>]]></content:encoded>
+      <dc:title>In retrospect: The Courtship Habits of the Great Crested Grebe</dc:title>
+      <dc:creator>Michael Brooke</dc:creator>
+      <dc:identifier>doi:10.1038/513484a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513484a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513484a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Books and Arts</prism:section>
+      <prism:startingPage>484</prism:startingPage>
+      <prism:endingPage>485</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513484a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513485a">
+      <title>Cosmology: A few words on infinity</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/LD9r_DjTcAc/513485a</link>
+      <description>Lucy Fortson enjoys a slim primer on cosmology that uses a cleverly constrained lexicon.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Cosmology: A few words on infinity</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513485a">doi:10.1038/513485a</a>
+         </p>
+         <p>Author: Lucy Fortson</p>
+         <p>Lucy Fortson enjoys a slim primer on cosmology that uses a cleverly constrained lexicon.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/LD9r_DjTcAc" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Cosmology: A few words on infinity</dc:title>
+      <dc:creator>Lucy Fortson</dc:creator>
+      <dc:identifier>doi:10.1038/513485a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513485a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513485a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Books and Arts</prism:section>
+      <prism:startingPage>485</prism:startingPage>
+      <prism:endingPage>485</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513485a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513486a">
+      <title>Q&amp;A: Violin detective</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/kKzc9rTU-D0/513486a</link>
+      <description>Peter Ratcliff uses dendrochronology — tree-ring dating — to pin down the age and suggest the provenance of stringed instruments. As he prepares to speak at the Woodmusick instrument identification conference in Cremona, Italy, on 30 September, he talks about the science of spotting fakes, and the 14 Stradivarius instruments made from the same spruce tree.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Q&amp;A: Violin detective</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513486a">doi:10.1038/513486a</a>
+         </p>
+         <p>Author: Jascha Hoffman</p>
+         <p>Peter Ratcliff uses dendrochronology &#8212; tree-ring dating &#8212; to pin down the age and suggest the provenance of stringed instruments. As he prepares to speak at the Woodmusick instrument identification conference in Cremona, Italy, on 30 September, he talks about the science of spotting fakes, and the 14 Stradivarius instruments made from the same spruce tree.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/kKzc9rTU-D0" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Q&amp;A: Violin detective</dc:title>
+      <dc:creator>Jascha Hoffman</dc:creator>
+      <dc:identifier>doi:10.1038/513486a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513486a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513486a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Books and Arts</prism:section>
+      <prism:startingPage>486</prism:startingPage>
+      <prism:endingPage>486</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513486a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513487a">
+      <title>Environment: Social change affects Antarctic priorities</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/iIKnCMLB9Zk/513487a</link>
+      <description>New research priorities will arise for Antarctic science as a result of climate change and possible tensions between conservation and resource utilization. These priorities are not captured in the Scientific Committee on Antarctic Research's Antarctic and Southern Ocean Horizon Scan (see M. C.Kennicuttet </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Environment: Social change affects Antarctic priorities</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513487a">doi:10.1038/513487a</a>
+         </p>
+         <p>Authors: Nick Gales, Phil Trathan &amp; Anthony Worby</p>
+         <p>New research priorities will arise for Antarctic science as a result of climate change and possible tensions between conservation and resource utilization. These priorities are not captured in the Scientific Committee on Antarctic Research's Antarctic and Southern Ocean Horizon Scan (see M. C.Kennicuttet </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/iIKnCMLB9Zk" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Environment: Social change affects Antarctic priorities</dc:title>
+      <dc:creator>Nick Gales</dc:creator>
+      <dc:creator>Phil Trathan</dc:creator>
+      <dc:creator>Anthony Worby</dc:creator>
+      <dc:identifier>doi:10.1038/513487a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513487a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513487a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Correspondence</prism:section>
+      <prism:startingPage>487</prism:startingPage>
+      <prism:endingPage>487</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513487a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513487b">
+      <title>Agriculture: Intensive dairy farms becoming greener</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/_pIWEggdBTA/513487b</link>
+      <description>I disagree with some of the assertions made by Mark Eisler and colleagues about how to provide a growing human population with high-quality protein from limited arable land (see M. C.Eisleret al. Nature512, 371;10.1038/512371a2014). Their conjecture </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Agriculture: Intensive dairy farms becoming greener</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513487b">doi:10.1038/513487b</a>
+         </p>
+         <p>Author: Stephen LeBlanc</p>
+         <p>I disagree with some of the assertions made by Mark Eisler and colleagues about how to provide a growing human population with high-quality protein from limited arable land (see M. C.Eisleret al. Nature512, 371;10.1038/512371a2014). Their conjecture </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/_pIWEggdBTA" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Agriculture: Intensive dairy farms becoming greener</dc:title>
+      <dc:creator>Stephen LeBlanc</dc:creator>
+      <dc:identifier>doi:10.1038/513487b</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513487b</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513487b</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Correspondence</prism:section>
+      <prism:startingPage>487</prism:startingPage>
+      <prism:endingPage>487</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513487b</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513487c">
+      <title>Social media: Research critics to be properly informed</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/_7VSFCEJnIM/513487c</link>
+      <description>You highlight social-media activity following publication of our papers on Homo floresiensis (dubbed hobbits), quoting a tweet that dismisses our conclusions as “based seemingly on zilch” (see Nature512, 235;10.1038/512235a2014). Critics of our findings, which question the taxonomic validity </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Social media: Research critics to be properly informed</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513487c">doi:10.1038/513487c</a>
+         </p>
+         <p>Authors: Robert B. Eckhardt &amp; Maciej Henneberg</p>
+         <p>You highlight social-media activity following publication of our papers on Homo floresiensis (dubbed hobbits), quoting a tweet that dismisses our conclusions as &#8220;based seemingly on zilch&#8221; (see Nature512, 235;10.1038/512235a2014). Critics of our findings, which question the taxonomic validity </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/_7VSFCEJnIM" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Social media: Research critics to be properly informed</dc:title>
+      <dc:creator>Robert B. Eckhardt</dc:creator>
+      <dc:creator>Maciej Henneberg</dc:creator>
+      <dc:identifier>doi:10.1038/513487c</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513487c</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513487c</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Correspondence</prism:section>
+      <prism:startingPage>487</prism:startingPage>
+      <prism:endingPage>487</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513487c</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513487d">
+      <title>Society: Science should boost well-being, not GDP</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/HHNPbo2Fat4/513487d</link>
+      <description>To achieve a more socially equitable society in which science benefits everybody, we need structural changes in the way that our economy works to remove the quest for constant growth of gross domestic product (see www.positivemoney.org). Spending billions of dollars on better versions of </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Society: Science should boost well-being, not GDP</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513487d">doi:10.1038/513487d</a>
+         </p>
+         <p>Author: Mark A. de Vries</p>
+         <p>To achieve a more socially equitable society in which science benefits everybody, we need structural changes in the way that our economy works to remove the quest for constant growth of gross domestic product (see www.positivemoney.org). Spending billions of dollars on better versions of </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/HHNPbo2Fat4" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Society: Science should boost well-being, not GDP</dc:title>
+      <dc:creator>Mark A. de Vries</dc:creator>
+      <dc:identifier>doi:10.1038/513487d</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513487d</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513487d</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Correspondence</prism:section>
+      <prism:startingPage>487</prism:startingPage>
+      <prism:endingPage>487</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513487d</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nj7519-575a">
+      <title>Work–life balance: Kid-friendly digs</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/wdk754ghalY/nj7519-575a</link>
+      <description>How to blend fieldwork and far-flung travel with raising little people.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Work–life balance: Kid-friendly digs</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nj7519-575a">doi:10.1038/nj7519-575a</a>
+         </p>
+         <p>Author: Kendall Powell</p>
+         <p>How to blend fieldwork and far-flung travel with raising little people.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/wdk754ghalY" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Work–life balance: Kid-friendly digs</dc:title>
+      <dc:creator>Kendall Powell</dc:creator>
+      <dc:identifier>doi:10.1038/nj7519-575a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/nj7519-575a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nj7519-575a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Naturejobs</prism:section>
+      <prism:startingPage>575</prism:startingPage>
+      <prism:endingPage>577</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nj7519-575a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nj7519-577a">
+      <title>Gender gaps</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/VCXe1bvPYxs/nj7519-577a</link>
+      <description>Report confirms broad gender pay disparity in United States.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Gender gaps</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nj7519-577a">doi:10.1038/nj7519-577a</a>
+         </p>
+         <p>Report confirms broad gender pay disparity in United States.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/VCXe1bvPYxs" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Gender gaps</dc:title>
+      <dc:identifier>doi:10.1038/nj7519-577a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/nj7519-577a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nj7519-577a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Naturejobs</prism:section>
+      <prism:startingPage>577</prism:startingPage>
+      <prism:endingPage>577</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nj7519-577a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nj7519-577b">
+      <title>Cross-discipline focus</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/ETsrymCEZ7o/nj7519-577b</link>
+      <description>Institutions globally aim to support interdisciplinarity.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Cross-discipline focus</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nj7519-577b">doi:10.1038/nj7519-577b</a>
+         </p>
+         <p>Institutions globally aim to support interdisciplinarity.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/ETsrymCEZ7o" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Cross-discipline focus</dc:title>
+      <dc:identifier>doi:10.1038/nj7519-577b</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/nj7519-577b</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nj7519-577b</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Naturejobs</prism:section>
+      <prism:startingPage>577</prism:startingPage>
+      <prism:endingPage>577</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nj7519-577b</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nj7519-577c">
+      <title>Wellcome re-entry</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/zkmaT9-3rwY/nj7519-577c</link>
+      <description>Foundation provides a roadmap back to the bench.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Wellcome re-entry</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nj7519-577c">doi:10.1038/nj7519-577c</a>
+         </p>
+         <p>Foundation provides a roadmap back to the bench.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/zkmaT9-3rwY" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Wellcome re-entry</dc:title>
+      <dc:identifier>doi:10.1038/nj7519-577c</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/nj7519-577c</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nj7519-577c</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Naturejobs</prism:section>
+      <prism:startingPage>577</prism:startingPage>
+      <prism:endingPage>577</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nj7519-577c</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513580a">
+      <title>Post-apocalyptic conversations with a sidewalk</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/oWiH26U8v70/513580a</link>
+      <description>A trip to remember.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Post-apocalyptic conversations with a sidewalk</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513580a">doi:10.1038/513580a</a>
+         </p>
+         <p>Author: Beth Cato</p>
+         <p>A trip to remember.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/oWiH26U8v70" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Post-apocalyptic conversations with a sidewalk</dc:title>
+      <dc:creator>Beth Cato</dc:creator>
+      <dc:identifier>doi:10.1038/513580a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513580a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513580a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Futures</prism:section>
+      <prism:startingPage>580</prism:startingPage>
+      <prism:endingPage>580</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513580a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13626">
+      <title>Mitochondrial Ca2+ uniporter and CaMKII in heart</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/gl4RqaocO6Y/nature13626</link>
+      <description>Arising from M. A. Joiner et al.Nature491, 269–273 (2012); doi:10.1038/nature10234The influx of cytosolic Ca2+ into mitochondria is mediated primarily by the mitochondrial calcium uniporter (MCU), a small-conductance, Ca2+-selective channel—MCU modulates intracellular Ca2+ transients and regulates ATP production and cell death. Recently, Joiner et al. reported that MCU is regulated by mitochondrial CaMKII, and this regulation determines stress response in heart. They reported a very large current putatively mediated by MCU that was about two orders of magnitude greater than the MCU current (IMCU) that we previously measured in heart mitochondria; furthermore, the current traces presented by Joiner et al. showed unusually high fluctuations incompatible with the low single-channel conductance of MCU. Here we performed patch-clamp recordings from mouse heart mitochondria under the exact conditions used by Joiner et al., and confirm that IMCU in cardiomyocytes is very small and is not directly regulated by CaMKII; thus, the currents presented by Joiner et al. do not appear to correspond to MCU, and there is no direct electrophysiological evidence that CaMKII regulates MCU. There is a Reply to this Brief Communication Arising by Joiner, M. A. et al. Nature513,http://dx.doi.org/10.1038/nature13627 (2014).</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Mitochondrial Ca2+ uniporter and CaMKII in heart</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13626">doi:10.1038/nature13626</a>
+         </p>
+         <p>Authors: Francesca Fieni, Derrick E. Johnson, Andy Hudmon &amp; Yuriy Kirichok</p>
+         <p>Arising from M. A. Joiner et al.Nature491, 269&#8211;273 (2012); doi:10.1038/nature10234The influx of cytosolic Ca2+ into mitochondria is mediated primarily by the mitochondrial calcium uniporter (MCU), a small-conductance, Ca2+-selective channel&#8212;MCU modulates intracellular Ca2+ transients and regulates ATP production and cell death. Recently, Joiner et al. reported that MCU is regulated by mitochondrial CaMKII, and this regulation determines stress response in heart. They reported a very large current putatively mediated by MCU that was about two orders of magnitude greater than the MCU current (IMCU) that we previously measured in heart mitochondria; furthermore, the current traces presented by Joiner et al. showed unusually high fluctuations incompatible with the low single-channel conductance of MCU. Here we performed patch-clamp recordings from mouse heart mitochondria under the exact conditions used by Joiner et al., and confirm that IMCU in cardiomyocytes is very small and is not directly regulated by CaMKII; thus, the currents presented by Joiner et al. do not appear to correspond to MCU, and there is no direct electrophysiological evidence that CaMKII regulates MCU. There is a Reply to this Brief Communication Arising by Joiner, M. A. et al. Nature513,http://dx.doi.org/10.1038/nature13627 (2014).</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/gl4RqaocO6Y" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Mitochondrial Ca2+ uniporter and CaMKII in heart</dc:title>
+      <dc:creator>Francesca Fieni</dc:creator>
+      <dc:creator>Derrick E. Johnson</dc:creator>
+      <dc:creator>Andy Hudmon</dc:creator>
+      <dc:creator>Yuriy Kirichok</dc:creator>
+      <dc:identifier>doi:10.1038/nature13626</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/nature13626</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13626</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Brief Communication Arising</prism:section>
+      <prism:startingPage>E1</prism:startingPage>
+      <prism:endingPage>E2</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13626</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13627">
+      <title>Joiner et al. reply</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/vCKsP85IpTo/nature13627</link>
+      <description>Replying to F. Fieni et al.Nature513, http://dx.doi.org/10.1038/nature13626 (2014)In our Letter identifying mitochondrial CaMKII as a crucial component of a Ca2+-dependent process of heart disease, we used multiple methods to show that CaMKII modulates mitochondrial Ca2+ homeostasis, as outlined below. First, we carried out electrophysiology of the mitochondrial calcium uniporter (MCU) current in mitoplasts. In our report we did not claim to measure capacitance of the mitoplast separately from the total capacitance of the mitoplast and pipette. Although we concede that the approach of Fieni et al. is preferable, we found that even after removing any correction for capacitance, dialysis with constitutively active CaMKII monomers increased MCU current whereas dialysis with catalytically dead CaMKII monomers did not.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Joiner et al. reply</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13627">doi:10.1038/nature13627</a>
+         </p>
+         <p>Authors: Mei-ling A. Joiner, Olha M. Koval, Jingdong Li, B. Julie He, Chantal Allamargot, Zhan Gao, Elizabeth D. Luczak, Duane D. Hall, Brian D. Fink, Biyi Chen, Jinying Yang, Steven A. Moore, Thomas D. Scholz, Stefan Strack, Peter J. Mohler, William I. Sivitz, Long-Sheng Song &amp; Mark E. Anderson</p>
+         <p>Replying to F. Fieni et al.Nature513, http://dx.doi.org/10.1038/nature13626 (2014)In our Letter identifying mitochondrial CaMKII as a crucial component of a Ca2+-dependent process of heart disease, we used multiple methods to show that CaMKII modulates mitochondrial Ca2+ homeostasis, as outlined below. First, we carried out electrophysiology of the mitochondrial calcium uniporter (MCU) current in mitoplasts. In our report we did not claim to measure capacitance of the mitoplast separately from the total capacitance of the mitoplast and pipette. Although we concede that the approach of Fieni et al. is preferable, we found that even after removing any correction for capacitance, dialysis with constitutively active CaMKII monomers increased MCU current whereas dialysis with catalytically dead CaMKII monomers did not.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/vCKsP85IpTo" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Joiner et al. reply</dc:title>
+      <dc:creator>Mei-ling A. Joiner</dc:creator>
+      <dc:creator>Olha M. Koval</dc:creator>
+      <dc:creator>Jingdong Li</dc:creator>
+      <dc:creator>B. Julie He</dc:creator>
+      <dc:creator>Chantal Allamargot</dc:creator>
+      <dc:creator>Zhan Gao</dc:creator>
+      <dc:creator>Elizabeth D. Luczak</dc:creator>
+      <dc:creator>Duane D. Hall</dc:creator>
+      <dc:creator>Brian D. Fink</dc:creator>
+      <dc:creator>Biyi Chen</dc:creator>
+      <dc:creator>Jinying Yang</dc:creator>
+      <dc:creator>Steven A. Moore</dc:creator>
+      <dc:creator>Thomas D. Scholz</dc:creator>
+      <dc:creator>Stefan Strack</dc:creator>
+      <dc:creator>Peter J. Mohler</dc:creator>
+      <dc:creator>William I. Sivitz</dc:creator>
+      <dc:creator>Long-Sheng Song</dc:creator>
+      <dc:creator>Mark E. Anderson</dc:creator>
+      <dc:identifier>doi:10.1038/nature13627</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/nature13627</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13627</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Brief Communication Arising</prism:section>
+      <prism:startingPage>E3</prism:startingPage>
+      <prism:endingPage>E3</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13627</feedburner:origLink></item>
+   <item rdf:about="http://www.nature.com/doifinder/10.1038/513472b">
+      <title>Clarification</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/f4ULWur4U0I/513472b</link>
+      <description>The graphic in the News Feature ‘The fusion upstarts’ (Nature511, 398–400; 2014) omitted to note that the deuterium–deuterium reaction has a 50% chance of producing tritium and a proton.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Clarification</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://www.nature.com/doifinder/10.1038/513472b">http://www.nature.com/doifinder/10.1038/513472b</a>
+         </p>
+         <p>The graphic in the News Feature ‘The fusion upstarts’ (Nature511, 398–400; 2014) omitted to note that the deuterium–deuterium reaction has a 50% chance of producing tritium and a proton.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/f4ULWur4U0I" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Clarification</dc:title>
+      <dc:identifier>doi:10.1038/513472b</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513472b</prism:doi>
+      <prism:url>http://www.nature.com/doifinder/10.1038/513472b</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Correction</prism:section>
+      <prism:startingPage>472</prism:startingPage>
+      <prism:endingPage>472</prism:endingPage>
+   <feedburner:origLink>http://www.nature.com/doifinder/10.1038/513472b</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513490a">
+      <title>Earth science: A fresh look at river flow</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/X44aLKIlHp4/513490a</link>
+      <description>A detailed survey of the Fraser River in Canada challenges preconceptions about how river water flows. The results call for a re-evaluation of how waterways carve through bedrock to form canyons. See Letter p.534</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Earth science: A fresh look at river flow</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513490a">doi:10.1038/513490a</a>
+         </p>
+         <p>Authors: Nicole M. Gasparini</p>
+         <p>A detailed survey of the Fraser River in Canada challenges preconceptions about how river water flows. The results call for a re-evaluation of how waterways carve through bedrock to form canyons. See Letter p.534</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/X44aLKIlHp4" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Earth science: A fresh look at river flow</dc:title>
+      <dc:creator>Nicole M. Gasparini</dc:creator>
+      <dc:identifier>doi:10.1038/513490a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513490a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513490a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>News &amp; Views</prism:section>
+      <prism:startingPage>490</prism:startingPage>
+      <prism:endingPage>491</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513490a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13747">
+      <title>Structural biology: Ribosome revelations</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/I7fpaCbFhOE/nature13747</link>
+      <description>Proteins are synthesized in cells by the ribosome apparatus. A report of 16 yeast ribosome structures, each bound by a different inhibitor, broadens our understanding of how drugs affect ribosome activity. See Article p.517</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Structural biology: Ribosome revelations</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13747">doi:10.1038/nature13747</a>
+         </p>
+         <p>Authors: Nelson B. Olivier</p>
+         <p>Proteins are synthesized in cells by the ribosome apparatus. A report of 16 yeast ribosome structures, each bound by a different inhibitor, broadens our understanding of how drugs affect ribosome activity. See Article p.517</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/I7fpaCbFhOE" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Structural biology: Ribosome revelations</dc:title>
+      <dc:creator>Nelson B. Olivier</dc:creator>
+      <dc:identifier>doi:10.1038/nature13747</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-10</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-10</prism:publicationDate>
+      <prism:doi>10.1038/nature13747</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13747</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>News &amp; Views</prism:section>
+      <prism:startingPage>491</prism:startingPage>
+      <prism:endingPage>492</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13747</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513492a">
+      <title>Biodiversity: Leaping lizards</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/jhuIuLRRNhM/513492a</link>
+      <description>Loss of biodiversity is a hallmark of the human-dominated era, but our influence can also alter the processes that generate biodiversity. On page 543 of this issue, Helmus et al. study human-assisted movement of lizards around Caribbean islands, and show that a major </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Biodiversity: Leaping lizards</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513492a">doi:10.1038/513492a</a>
+         </p>
+         <p>Author: Patrick Goymer</p>
+         <p>Loss of biodiversity is a hallmark of the human-dominated era, but our influence can also alter the processes that generate biodiversity. On page 543 of this issue, Helmus et al. study human-assisted movement of lizards around Caribbean islands, and show that a major </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/jhuIuLRRNhM" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Biodiversity: Leaping lizards</dc:title>
+      <dc:creator>Patrick Goymer</dc:creator>
+      <dc:identifier>doi:10.1038/513492a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513492a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513492a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>News &amp; Views</prism:section>
+      <prism:startingPage>492</prism:startingPage>
+      <prism:endingPage>492</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513492a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513493a">
+      <title>Extrasolar planets: Window on a watery world</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/i0-T64wrJDk/513493a</link>
+      <description>The first definitive signs of water have been seen in the atmosphere of a Neptune-sized exoplanet, paving the way towards the search for water on smaller Earth-like planets. See Letter p.526</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Extrasolar planets: Window on a watery world</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513493a">doi:10.1038/513493a</a>
+         </p>
+         <p>Authors: Eliza M. R. Kempton</p>
+         <p>The first definitive signs of water have been seen in the atmosphere of a Neptune-sized exoplanet, paving the way towards the search for water on smaller Earth-like planets. See Letter p.526</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/i0-T64wrJDk" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Extrasolar planets: Window on a watery world</dc:title>
+      <dc:creator>Eliza M. R. Kempton</dc:creator>
+      <dc:identifier>doi:10.1038/513493a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513493a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513493a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>News &amp; Views</prism:section>
+      <prism:startingPage>493</prism:startingPage>
+      <prism:endingPage>494</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513493a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13750">
+      <title>Disease models: Statins give bone growth a boost</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/BOuV1Tmpwj8/nature13750</link>
+      <description>The development of stem-cell-based models of two diseases that cause dwarfism reveals that statins — drugs that are used to treat high levels of blood cholesterol — may also promote cartilage formation and bone growth. See Article p.507</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Disease models: Statins give bone growth a boost</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13750">doi:10.1038/nature13750</a>
+         </p>
+         <p>Authors: Bjorn R. Olsen</p>
+         <p>The development of stem-cell-based models of two diseases that cause dwarfism reveals that statins &#8212; drugs that are used to treat high levels of blood cholesterol &#8212; may also promote cartilage formation and bone growth. See Article p.507</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/BOuV1Tmpwj8" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Disease models: Statins give bone growth a boost</dc:title>
+      <dc:creator>Bjorn R. Olsen</dc:creator>
+      <dc:identifier>doi:10.1038/nature13750</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-17</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-17</prism:publicationDate>
+      <prism:doi>10.1038/nature13750</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13750</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>News &amp; Views</prism:section>
+      <prism:startingPage>494</prism:startingPage>
+      <prism:endingPage>495</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13750</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13753">
+      <title>Inorganic chemistry: How calcium affects oxygen formation</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/gxvZ67idusg/nature13753</link>
+      <description>Calcium is an essential component of the catalyst that forms oxygen from water during photosynthesis. It seems that part of calcium's job is to enable the release of oxygen from this catalyst.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Inorganic chemistry: How calcium affects oxygen formation</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13753">doi:10.1038/nature13753</a>
+         </p>
+         <p>Authors: Davide Lionetti &amp; Theodor Agapie</p>
+         <p>Calcium is an essential component of the catalyst that forms oxygen from water during photosynthesis. It seems that part of calcium's job is to enable the release of oxygen from this catalyst.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/gxvZ67idusg" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Inorganic chemistry: How calcium affects oxygen formation</dc:title>
+      <dc:creator>Davide Lionetti</dc:creator>
+      <dc:creator>Theodor Agapie</dc:creator>
+      <dc:identifier>doi:10.1038/nature13753</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-17</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-17</prism:publicationDate>
+      <prism:doi>10.1038/nature13753</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13753</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>News &amp; Views</prism:section>
+      <prism:startingPage>495</prism:startingPage>
+      <prism:endingPage>496</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13753</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513497a">
+      <title>50 &amp; 100 Years Ago</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/UwqVRgxjbSI/513497a</link>
+      <description>50 Years AgoThe capacity exhibited by all organisms to develop tolerance for new environmental conditions has been an important factor in the continuing existence of life on Earth. It has also had adverse effects on some creatures. To man, one of the most disturbing </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>50 &amp; 100 Years Ago</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513497a">doi:10.1038/513497a</a>
+         </p>
+         <p>50 Years AgoThe capacity exhibited by all organisms to develop tolerance for new environmental conditions has been an important factor in the continuing existence of life on Earth. It has also had adverse effects on some creatures. To man, one of the most disturbing </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/UwqVRgxjbSI" height="1" width="1"/>]]></content:encoded>
+      <dc:title>50 &amp; 100 Years Ago</dc:title>
+      <dc:identifier>doi:10.1038/513497a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513497a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513497a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>News &amp; Views</prism:section>
+      <prism:startingPage>497</prism:startingPage>
+      <prism:endingPage>497</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513497a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13749">
+      <title>Plant science: Towards turbocharged photosynthesis</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/S9kH0d4tNmg/nature13749</link>
+      <description>The development of tobacco plants that are genetically engineered to produce a more efficient form of Rubisco, an enzyme involved in photosynthesis, marks a step towards increasing crop yields. See Letter p.547</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Plant science: Towards turbocharged photosynthesis</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13749">doi:10.1038/nature13749</a>
+         </p>
+         <p>Authors: G. Dean Price &amp; Susan M. Howitt</p>
+         <p>The development of tobacco plants that are genetically engineered to produce a more efficient form of Rubisco, an enzyme involved in photosynthesis, marks a step towards increasing crop yields. See Letter p.547</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/S9kH0d4tNmg" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Plant science: Towards turbocharged photosynthesis</dc:title>
+      <dc:creator>G. Dean Price</dc:creator>
+      <dc:creator>Susan M. Howitt</dc:creator>
+      <dc:identifier>doi:10.1038/nature13749</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-17</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-17</prism:publicationDate>
+      <prism:doi>10.1038/nature13749</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13749</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>News &amp; Views</prism:section>
+      <prism:startingPage>497</prism:startingPage>
+      <prism:endingPage>498</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13749</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/513498a">
+      <title>Network biology: A compass for stem-cell differentiation</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/R-QLVJ27umA/513498a</link>
+      <description>The development of CellNet — network-biology software that determines how cell types generated in vitro relate to their naturally occurring counterparts — could improve our ability to produce desirable cells in culture.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Network biology: A compass for stem-cell differentiation</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/513498a">doi:10.1038/513498a</a>
+         </p>
+         <p>Authors: Franz-Josef M&#252;ller &amp; Jeanne F. Loring</p>
+         <p>The development of CellNet &#8212; network-biology software that determines how cell types generated in vitro relate to their naturally occurring counterparts &#8212; could improve our ability to produce desirable cells in culture.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/R-QLVJ27umA" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Network biology: A compass for stem-cell differentiation</dc:title>
+      <dc:creator>Franz-Josef Müller</dc:creator>
+      <dc:creator>Jeanne F. Loring</dc:creator>
+      <dc:identifier>doi:10.1038/513498a</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/513498a</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/513498a</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>News &amp; Views</prism:section>
+      <prism:startingPage>498</prism:startingPage>
+      <prism:endingPage>499</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/513498a</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13704">
+      <title>Asian monsoons in a late Eocene greenhouse world</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/thSv2yFewWg/nature13704</link>
+      <description>The strong present-day Asian monsoons are thought to have originated between 25 and 22 million years (Myr) ago, driven by Tibetan–Himalayan uplift. However, the existence of older Asian monsoons and their response to enhanced greenhouse conditions such as those in the Eocene period (55–34 Myr ago) </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Asian monsoons in a late Eocene greenhouse world</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13704">doi:10.1038/nature13704</a>
+         </p>
+         <p>Authors: A. Licht, M. van Cappelle, H. A. Abels, J.-B. Ladant, J. Trabucho-Alexandre, C. France-Lanord, Y. Donnadieu, J. Vandenberghe, T. Rigaudier, C. L&#233;cuyer, D. Terry Jr, R. Adriaens, A. Boura, Z. Guo, Aung Naing Soe, J. Quade, G. Dupont-Nivet &amp; J.-J. Jaeger</p>
+         <p>The strong present-day Asian monsoons are thought to have originated between 25 and 22 million years (Myr) ago, driven by Tibetan&#8211;Himalayan uplift. However, the existence of older Asian monsoons and their response to enhanced greenhouse conditions such as those in the Eocene period (55&#8211;34&#160;Myr ago) </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/thSv2yFewWg" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Asian monsoons in a late Eocene greenhouse world</dc:title>
+      <dc:creator>A. Licht</dc:creator>
+      <dc:creator>M. van Cappelle</dc:creator>
+      <dc:creator>H. A. Abels</dc:creator>
+      <dc:creator>J.-B. Ladant</dc:creator>
+      <dc:creator>J. Trabucho-Alexandre</dc:creator>
+      <dc:creator>C. France-Lanord</dc:creator>
+      <dc:creator>Y. Donnadieu</dc:creator>
+      <dc:creator>J. Vandenberghe</dc:creator>
+      <dc:creator>T. Rigaudier</dc:creator>
+      <dc:creator>C. Lécuyer</dc:creator>
+      <dc:creator>D. Terry Jr</dc:creator>
+      <dc:creator>R. Adriaens</dc:creator>
+      <dc:creator>A. Boura</dc:creator>
+      <dc:creator>Z. Guo</dc:creator>
+      <dc:creator>Aung Naing Soe</dc:creator>
+      <dc:creator>J. Quade</dc:creator>
+      <dc:creator>G. Dupont-Nivet</dc:creator>
+      <dc:creator>J.-J. Jaeger</dc:creator>
+      <dc:identifier>doi:10.1038/nature13704</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-14</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-14</prism:publicationDate>
+      <prism:doi>10.1038/nature13704</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13704</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>501</prism:startingPage>
+      <prism:endingPage>506</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13704</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13775">
+      <title>Statin treatment rescues FGFR3 skeletal dysplasia phenotypes</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/wxtq9zltnRo/nature13775</link>
+      <description>Gain-of-function mutations in the fibroblast growth factor receptor 3 gene (FGFR3) result in skeletal dysplasias, such as thanatophoric dysplasia and achondroplasia (ACH). The lack of disease models using human cells has hampered the identification of a clinically effective treatment for these diseases. Here </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Statin treatment rescues FGFR3 skeletal dysplasia phenotypes</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13775">doi:10.1038/nature13775</a>
+         </p>
+         <p>Authors: Akihiro Yamashita, Miho Morioka, Hiromi Kishi, Takeshi Kimura, Yasuhito Yahara, Minoru Okada, Kaori Fujita, Hideaki Sawai, Shiro Ikegawa &amp; Noriyuki Tsumaki</p>
+         <p>Gain-of-function mutations in the fibroblast growth factor receptor 3 gene (FGFR3) result in skeletal dysplasias, such as thanatophoric dysplasia and achondroplasia (ACH). The lack of disease models using human cells has hampered the identification of a clinically effective treatment for these diseases. Here </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/wxtq9zltnRo" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Statin treatment rescues FGFR3 skeletal dysplasia phenotypes</dc:title>
+      <dc:creator>Akihiro Yamashita</dc:creator>
+      <dc:creator>Miho Morioka</dc:creator>
+      <dc:creator>Hiromi Kishi</dc:creator>
+      <dc:creator>Takeshi Kimura</dc:creator>
+      <dc:creator>Yasuhito Yahara</dc:creator>
+      <dc:creator>Minoru Okada</dc:creator>
+      <dc:creator>Kaori Fujita</dc:creator>
+      <dc:creator>Hideaki Sawai</dc:creator>
+      <dc:creator>Shiro Ikegawa</dc:creator>
+      <dc:creator>Noriyuki Tsumaki</dc:creator>
+      <dc:identifier>doi:10.1038/nature13775</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-17</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-17</prism:publicationDate>
+      <prism:doi>10.1038/nature13775</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13775</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>507</prism:startingPage>
+      <prism:endingPage>511</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13775</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13495">
+      <title>Loss of oncogenic Notch1 with resistance to a PI3K inhibitor in T-cell leukaemia</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/Pu3M5oAySVU/nature13495</link>
+      <description>Mutations that deregulate Notch1 and Ras/phosphoinositide 3 kinase (PI3K)/Akt signalling are prevalent in T-cell acute lymphoblastic leukaemia (T-ALL), and often coexist. Here we show that the PI3K inhibitor GDC-0941 is active against primary T-ALLs from wild-type and KrasG12D mice, and addition of the </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Loss of oncogenic Notch1 with resistance to a PI3K inhibitor in T-cell leukaemia</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13495">doi:10.1038/nature13495</a>
+         </p>
+         <p>Authors: Monique Dail, Jason Wong, Jessica Lawrence, Daniel O&#8217;Connor, Joy Nakitandwe, Shann-Ching Chen, Jin Xu, Leslie B. Lee, Keiko Akagi, Qing Li, Jon C. Aster, Warren S. Pear, James R. Downing, Deepak Sampath &amp; Kevin Shannon</p>
+         <p>Mutations that deregulate Notch1 and Ras/phosphoinositide 3 kinase (PI3K)/Akt signalling are prevalent in T-cell acute lymphoblastic leukaemia (T-ALL), and often coexist. Here we show that the PI3K inhibitor GDC-0941 is active against primary T-ALLs from wild-type and KrasG12D mice, and addition of the </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/Pu3M5oAySVU" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Loss of oncogenic Notch1 with resistance to a PI3K inhibitor in T-cell leukaemia</dc:title>
+      <dc:creator>Monique Dail</dc:creator>
+      <dc:creator>Jason Wong</dc:creator>
+      <dc:creator>Jessica Lawrence</dc:creator>
+      <dc:creator>Daniel O’Connor</dc:creator>
+      <dc:creator>Joy Nakitandwe</dc:creator>
+      <dc:creator>Shann-Ching Chen</dc:creator>
+      <dc:creator>Jin Xu</dc:creator>
+      <dc:creator>Leslie B. Lee</dc:creator>
+      <dc:creator>Keiko Akagi</dc:creator>
+      <dc:creator>Qing Li</dc:creator>
+      <dc:creator>Jon C. Aster</dc:creator>
+      <dc:creator>Warren S. Pear</dc:creator>
+      <dc:creator>James R. Downing</dc:creator>
+      <dc:creator>Deepak Sampath</dc:creator>
+      <dc:creator>Kevin Shannon</dc:creator>
+      <dc:identifier>doi:10.1038/nature13495</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-07-20</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-07-20</prism:publicationDate>
+      <prism:doi>10.1038/nature13495</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13495</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>512</prism:startingPage>
+      <prism:endingPage>516</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13495</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13737">
+      <title>Structural basis for the inhibition of the eukaryotic ribosome</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/-IekJxz9IUA/nature13737</link>
+      <description>The ribosome is a molecular machine responsible for protein synthesis and a major target for small-molecule inhibitors. Compared to the wealth of structural information available on ribosome-targeting antibiotics in bacteria, our understanding of the binding mode of ribosome inhibitors in eukaryotes is currently limited. Here </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Structural basis for the inhibition of the eukaryotic ribosome</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13737">doi:10.1038/nature13737</a>
+         </p>
+         <p>Authors: Nicolas Garreau de Loubresse, Irina Prokhorova, Wolf Holtkamp, Marina V. Rodnina, Gulnara Yusupova &amp; Marat Yusupov</p>
+         <p>The ribosome is a molecular machine responsible for protein synthesis and a major target for small-molecule inhibitors. Compared to the wealth of structural information available on ribosome-targeting antibiotics in bacteria, our understanding of the binding mode of ribosome inhibitors in eukaryotes is currently limited. Here </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/-IekJxz9IUA" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Structural basis for the inhibition of the eukaryotic ribosome</dc:title>
+      <dc:creator>Nicolas Garreau de Loubresse</dc:creator>
+      <dc:creator>Irina Prokhorova</dc:creator>
+      <dc:creator>Wolf Holtkamp</dc:creator>
+      <dc:creator>Marina V. Rodnina</dc:creator>
+      <dc:creator>Gulnara Yusupova</dc:creator>
+      <dc:creator>Marat Yusupov</dc:creator>
+      <dc:identifier>doi:10.1038/nature13737</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-10</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-10</prism:publicationDate>
+      <prism:doi>10.1038/nature13737</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13737</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Article</prism:section>
+      <prism:startingPage>517</prism:startingPage>
+      <prism:endingPage>522</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13737</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13662">
+      <title>Early turbulent mixing as the origin of chemical homogeneity in open star clusters</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/36newcQ8mWI/nature13662</link>
+      <description>The abundances of elements in stars are critical clues to stars’ origins. Observed star-to-star variations in logarithmic abundance within an open star cluster—a gravitationally bound ensemble of stars in the Galactic plane—are typically only about 0.01 to 0.05 over many elements, which is noticeably smaller than the variation of about 0.06 to 0.3 seen in the interstellar medium from which the stars form. It is unknown why star clusters are so homogenous, and whether homogeneity should also prevail in regions of lower star formation efficiency that do not produce bound clusters. Here we report simulations that trace the mixing of chemical elements as star-forming clouds assemble and collapse. We show that turbulent mixing during cloud assembly naturally produces a stellar abundance scatter at least five times smaller than that in the gas, which is sufficient to explain the observed chemical homogeneity of stars. Moreover, mixing occurs very early, so that regions with star formation efficiencies of about 10 per cent are nearly as well mixed as those with formation efficiencies of about 50 per cent. This implies that even regions that do not form bound clusters are likely to be well mixed, and improves the prospects of using ‘chemical tagging’ to reconstruct (via their unique chemical signatures, or tags) star clusters whose constituent stars have become unbound from one another and spread across the Galactic disk.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Early turbulent mixing as the origin of chemical homogeneity in open star clusters</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13662">doi:10.1038/nature13662</a>
+         </p>
+         <p>Authors: Yi Feng &amp; Mark R. Krumholz</p>
+         <p>The abundances of elements in stars are critical clues to stars&#8217; origins. Observed star-to-star variations in logarithmic abundance within an open star cluster&#8212;a gravitationally bound ensemble of stars in the Galactic plane&#8212;are typically only about 0.01 to 0.05 over many elements, which is noticeably smaller than the variation of about 0.06 to 0.3 seen in the interstellar medium from which the stars form. It is unknown why star clusters are so homogenous, and whether homogeneity should also prevail in regions of lower star formation efficiency that do not produce bound clusters. Here we report simulations that trace the mixing of chemical elements as star-forming clouds assemble and collapse. We show that turbulent mixing during cloud assembly naturally produces a stellar abundance scatter at least five times smaller than that in the gas, which is sufficient to explain the observed chemical homogeneity of stars. Moreover, mixing occurs very early, so that regions with star formation efficiencies of about 10 per cent are nearly as well mixed as those with formation efficiencies of about 50 per cent. This implies that even regions that do not form bound clusters are likely to be well mixed, and improves the prospects of using &#8216;chemical tagging&#8217; to reconstruct (via their unique chemical signatures, or tags) star clusters whose constituent stars have become unbound from one another and spread across the Galactic disk.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/36newcQ8mWI" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Early turbulent mixing as the origin of chemical homogeneity in open star clusters</dc:title>
+      <dc:creator>Yi Feng</dc:creator>
+      <dc:creator>Mark R. Krumholz</dc:creator>
+      <dc:identifier>doi:10.1038/nature13662</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-08-31</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-08-31</prism:publicationDate>
+      <prism:doi>10.1038/nature13662</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13662</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Letter</prism:section>
+      <prism:startingPage>523</prism:startingPage>
+      <prism:endingPage>525</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13662</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13785">
+      <title>Water vapour absorption in the clear atmosphere of a Neptune-sized exoplanet</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/tykWYHwqQVU/nature13785</link>
+      <description>Transmission spectroscopy has so far detected atomic and molecular absorption in Jupiter-sized exoplanets, but intense efforts to measure molecular absorption in the atmospheres of smaller (Neptune-sized) planets during transits have revealed only featureless spectra. From this it was concluded that the majority of small, warm planets evolve to sustain atmospheres with high mean molecular weights (little hydrogen), opaque clouds or scattering hazes, reducing our ability to observe the composition of these atmospheres. Here we report observations of the transmission spectrum of the exoplanet HAT-P-11b (which has a radius about four times that of Earth) from the optical wavelength range to the infrared. We detected water vapour absorption at a wavelength of 1.4 micrometres. The amplitude of the water absorption (approximately 250 parts per million) indicates that the planetary atmosphere is predominantly clear down to an altitude corresponding to about 1 millibar, and sufficiently rich in hydrogen to have a large scale height (over which the atmospheric pressure varies by a factor of e). The spectrum is indicative of a planetary atmosphere in which the abundance of heavy elements is no greater than about 700 times the solar value. This is in good agreement with the core-accretion theory of planet formation, in which a gas giant planet acquires its atmosphere by accreting hydrogen-rich gas directly from the protoplanetary nebula onto a large rocky or icy core.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Water vapour absorption in the clear atmosphere of a Neptune-sized exoplanet</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13785">doi:10.1038/nature13785</a>
+         </p>
+         <p>Authors: Jonathan Fraine, Drake Deming, Bjorn Benneke, Heather Knutson, Andr&#233;s Jord&#225;n, N&#233;stor Espinoza, Nikku Madhusudhan, Ashlee Wilkins &amp; Kamen Todorov</p>
+         <p>Transmission spectroscopy has so far detected atomic and molecular absorption in Jupiter-sized exoplanets, but intense efforts to measure molecular absorption in the atmospheres of smaller (Neptune-sized) planets during transits have revealed only featureless spectra. From this it was concluded that the majority of small, warm planets evolve to sustain atmospheres with high mean molecular weights (little hydrogen), opaque clouds or scattering hazes, reducing our ability to observe the composition of these atmospheres. Here we report observations of the transmission spectrum of the exoplanet HAT-P-11b (which has a radius about four times that of Earth) from the optical wavelength range to the infrared. We detected water vapour absorption at a wavelength of 1.4&#160;micrometres. The amplitude of the water absorption (approximately 250 parts per million) indicates that the planetary atmosphere is predominantly clear down to an altitude corresponding to about 1&#160;millibar, and sufficiently rich in hydrogen to have a large scale height (over which the atmospheric pressure varies by a factor of e). The spectrum is indicative of a planetary atmosphere in which the abundance of heavy elements is no greater than about 700 times the solar value. This is in good agreement with the core-accretion theory of planet formation, in which a gas giant planet acquires its atmosphere by accreting hydrogen-rich gas directly from the protoplanetary nebula onto a large rocky or icy core.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/tykWYHwqQVU" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Water vapour absorption in the clear atmosphere of a Neptune-sized exoplanet</dc:title>
+      <dc:creator>Jonathan Fraine</dc:creator>
+      <dc:creator>Drake Deming</dc:creator>
+      <dc:creator>Bjorn Benneke</dc:creator>
+      <dc:creator>Heather Knutson</dc:creator>
+      <dc:creator>Andrés Jordán</dc:creator>
+      <dc:creator>Néstor Espinoza</dc:creator>
+      <dc:creator>Nikku Madhusudhan</dc:creator>
+      <dc:creator>Ashlee Wilkins</dc:creator>
+      <dc:creator>Kamen Todorov</dc:creator>
+      <dc:identifier>doi:10.1038/nature13785</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/nature13785</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13785</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Letter</prism:section>
+      <prism:startingPage>526</prism:startingPage>
+      <prism:endingPage>529</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13785</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13698">
+      <title>Placing an upper limit on cryptic marine sulphur cycling</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/hubJrAKD3NY/nature13698</link>
+      <description>A quantitative understanding of sources and sinks of fixed nitrogen in low-oxygen waters is required to explain the role of oxygen-minimum zones (OMZs) in controlling the fixed nitrogen inventory of the global ocean. Apparent imbalances in geochemical nitrogen budgets have spurred numerous studies to measure the contributions of heterotrophic and autotrophic N2-producing metabolisms (denitrification and anaerobic ammonia oxidation, respectively). Recently, ‘cryptic’ sulphur cycling was proposed as a partial solution to the fundamental biogeochemical problem of closing marine fixed-nitrogen budgets in intensely oxygen-deficient regions. The degree to which the cryptic sulphur cycle can fuel a loss of fixed nitrogen in the modern ocean requires the quantification of sulphur recycling in OMZ settings. Here we provide a new constraint for OMZ sulphate reduction based on isotopic profiles of oxygen (18O/16O) and sulphur (33S/32S, 34S/32S) in seawater sulphate through oxygenated open-ocean and OMZ-bearing water columns. When coupled with observations and models of sulphate isotope dynamics and data-constrained model estimates of OMZ water-mass residence time, we find that previous estimates for sulphur-driven remineralization and loss of fixed nitrogen from the oceans are near the upper limit for what is possible given in situ sulphate isotope data.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Placing an upper limit on cryptic marine sulphur cycling</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13698">doi:10.1038/nature13698</a>
+         </p>
+         <p>Authors: D. T. Johnston, B. C. Gill, A. Masterson, E. Beirne, K. L. Casciotti, A. N. Knapp &amp; W. Berelson</p>
+         <p>A quantitative understanding of sources and sinks of fixed nitrogen in low-oxygen waters is required to explain the role of oxygen-minimum zones (OMZs) in controlling the fixed nitrogen inventory of the global ocean. Apparent imbalances in geochemical nitrogen budgets have spurred numerous studies to measure the contributions of heterotrophic and autotrophic N2-producing metabolisms (denitrification and anaerobic ammonia oxidation, respectively). Recently, &#8216;cryptic&#8217; sulphur cycling was proposed as a partial solution to the fundamental biogeochemical problem of closing marine fixed-nitrogen budgets in intensely oxygen-deficient regions. The degree to which the cryptic sulphur cycle can fuel a loss of fixed nitrogen in the modern ocean requires the quantification of sulphur recycling in OMZ settings. Here we provide a new constraint for OMZ sulphate reduction based on isotopic profiles of oxygen (18O/16O) and sulphur (33S/32S, 34S/32S) in seawater sulphate through oxygenated open-ocean and OMZ-bearing water columns. When coupled with observations and models of sulphate isotope dynamics and data-constrained model estimates of OMZ water-mass residence time, we find that previous estimates for sulphur-driven remineralization and loss of fixed nitrogen from the oceans are near the upper limit for what is possible given in situ sulphate isotope data.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/hubJrAKD3NY" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Placing an upper limit on cryptic marine sulphur cycling</dc:title>
+      <dc:creator>D. T. Johnston</dc:creator>
+      <dc:creator>B. C. Gill</dc:creator>
+      <dc:creator>A. Masterson</dc:creator>
+      <dc:creator>E. Beirne</dc:creator>
+      <dc:creator>K. L. Casciotti</dc:creator>
+      <dc:creator>A. N. Knapp</dc:creator>
+      <dc:creator>W. Berelson</dc:creator>
+      <dc:identifier>doi:10.1038/nature13698</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-07</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-07</prism:publicationDate>
+      <prism:doi>10.1038/nature13698</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13698</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Letter</prism:section>
+      <prism:startingPage>530</prism:startingPage>
+      <prism:endingPage>533</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13698</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13779">
+      <title>Flow in bedrock canyons</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/J0HT_tcqkMI/nature13779</link>
+      <description>Bedrock erosion in rivers sets the pace of landscape evolution, influences the evolution of orogens and determines the size, shape and relief of mountains. A variety of models link fluid flow and sediment transport processes to bedrock incision in canyons. The model components that represent sediment transport processes are increasingly well developed. In contrast, the model components being used to represent fluid flow are largely untested because there are no observations of the flow structure in bedrock canyons. Here we present a 524-kilometre, continuous centreline, acoustic Doppler current profiler survey of the Fraser Canyon in western Canada, which includes 42 individual bedrock canyons. Our observations of three-dimensional flow structure reveal that, as water enters the canyons, a high-velocity core follows the bed surface, causing a velocity inversion (high velocities near the bed and low velocities at the surface). The plunging water then upwells along the canyon walls, resulting in counter-rotating, along-stream coherent flow structures that diverge near the bed. The resulting flow structure promotes deep scour in the bedrock channel floor and undercutting of the canyon walls. This provides a mechanism for channel widening and ensures that the base of the walls is swept clear of the debris that is often deposited there, keeping the walls nearly vertical. These observations reveal that the flow structure in bedrock canyons is more complex than assumed in the models presently used. Fluid flow models that capture the essence of the three-dimensional flow field, using simple phenomenological rules that are computationally tractable, are required to capture the dynamic coupling between flow, bedrock erosion and solid-Earth dynamics.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Flow in bedrock canyons</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13779">doi:10.1038/nature13779</a>
+         </p>
+         <p>Authors: Jeremy G. Venditti, Colin D. Rennie, James Bomhof, Ryan W. Bradley, Malcolm Little &amp; Michael Church</p>
+         <p>Bedrock erosion in rivers sets the pace of landscape evolution, influences the evolution of orogens and determines the size, shape and relief of mountains. A variety of models link fluid flow and sediment transport processes to bedrock incision in canyons. The model components that represent sediment transport processes are increasingly well developed. In contrast, the model components being used to represent fluid flow are largely untested because there are no observations of the flow structure in bedrock canyons. Here we present a 524-kilometre, continuous centreline, acoustic Doppler current profiler survey of the Fraser Canyon in western Canada, which includes 42 individual bedrock canyons. Our observations of three-dimensional flow structure reveal that, as water enters the canyons, a high-velocity core follows the bed surface, causing a velocity inversion (high velocities near the bed and low velocities at the surface). The plunging water then upwells along the canyon walls, resulting in counter-rotating, along-stream coherent flow structures that diverge near the bed. The resulting flow structure promotes deep scour in the bedrock channel floor and undercutting of the canyon walls. This provides a mechanism for channel widening and ensures that the base of the walls is swept clear of the debris that is often deposited there, keeping the walls nearly vertical. These observations reveal that the flow structure in bedrock canyons is more complex than assumed in the models presently used. Fluid flow models that capture the essence of the three-dimensional flow field, using simple phenomenological rules that are computationally tractable, are required to capture the dynamic coupling between flow, bedrock erosion and solid-Earth dynamics.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/J0HT_tcqkMI" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Flow in bedrock canyons</dc:title>
+      <dc:creator>Jeremy G. Venditti</dc:creator>
+      <dc:creator>Colin D. Rennie</dc:creator>
+      <dc:creator>James Bomhof</dc:creator>
+      <dc:creator>Ryan W. Bradley</dc:creator>
+      <dc:creator>Malcolm Little</dc:creator>
+      <dc:creator>Michael Church</dc:creator>
+      <dc:identifier>doi:10.1038/nature13779</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/nature13779</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13779</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Letter</prism:section>
+      <prism:startingPage>534</prism:startingPage>
+      <prism:endingPage>537</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13779</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13486">
+      <title>Brain structure resolves the segmental affinity of anomalocaridid appendages</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/_S-vDJkIwTs/nature13486</link>
+      <description>Despite being among the most celebrated taxa from Cambrian biotas, anomalocaridids (order Radiodonta) have provoked intense debate about their affinities within the moulting-animal clade that includes Arthropoda. Current alternatives identify anomalocaridids as either stem-group euarthropods, crown-group euarthropods near the ancestry of chelicerates, or a segmented ecdysozoan lineage with convergent similarity to arthropods in appendage construction. Determining unambiguous affinities has been impeded by uncertainties about the segmental affiliation of anomalocaridid frontal appendages. These structures are variably homologized with jointed appendages of the second (deutocerebral) head segment, including antennae and ‘great appendages’ of Cambrian arthropods, or with the paired antenniform frontal appendages of living Onychophora and some Cambrian lobopodians. Here we describe Lyrarapax unguispinus, a new anomalocaridid from the early Cambrian Chengjiang biota, southwest China, nearly complete specimens of which preserve traces of muscles, digestive tract and brain. The traces of brain provide the first direct evidence for the segmental composition of the anomalocaridid head and its appendicular organization. Carbon-rich areas in the head resolve paired pre-protocerebral ganglia at the origin of paired frontal appendages. The ganglia connect to areas indicative of a bilateral pre-oral brain that receives projections from the eyestalk neuropils and compound retina. The dorsal, segmented brain of L. unguispinus reinforces an alliance between anomalocaridids and arthropods rather than cycloneuralians. Correspondences in brain organization between anomalocaridids and Onychophora resolve pre-protocerebral ganglia, associated with pre-ocular frontal appendages, as characters of the last common ancestor of euarthropods and onychophorans. A position of Radiodonta on the euarthropod stem-lineage implies the transformation of frontal appendages to another structure in crown-group euarthropods, with gene expression and neuroanatomy providing strong evidence that the paired, pre-oral labrum is the remnant of paired frontal appendages.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Brain structure resolves the segmental affinity of anomalocaridid appendages</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13486">doi:10.1038/nature13486</a>
+         </p>
+         <p>Authors: Peiyun Cong, Xiaoya Ma, Xianguang Hou, Gregory D. Edgecombe &amp; Nicholas J. Strausfeld</p>
+         <p>Despite being among the most celebrated taxa from Cambrian biotas, anomalocaridids (order Radiodonta) have provoked intense debate about their affinities within the moulting-animal clade that includes Arthropoda. Current alternatives identify anomalocaridids as either stem-group euarthropods, crown-group euarthropods near the ancestry of chelicerates, or a segmented ecdysozoan lineage with convergent similarity to arthropods in appendage construction. Determining unambiguous affinities has been impeded by uncertainties about the segmental affiliation of anomalocaridid frontal appendages. These structures are variably homologized with jointed appendages of the second (deutocerebral) head segment, including antennae and &#8216;great appendages&#8217; of Cambrian arthropods, or with the paired antenniform frontal appendages of living Onychophora and some Cambrian lobopodians. Here we describe Lyrarapax unguispinus, a new anomalocaridid from the early Cambrian Chengjiang biota, southwest China, nearly complete specimens of which preserve traces of muscles, digestive tract and brain. The traces of brain provide the first direct evidence for the segmental composition of the anomalocaridid head and its appendicular organization. Carbon-rich areas in the head resolve paired pre-protocerebral ganglia at the origin of paired frontal appendages. The ganglia connect to areas indicative of a bilateral pre-oral brain that receives projections from the eyestalk neuropils and compound retina. The dorsal, segmented brain of L. unguispinus reinforces an alliance between anomalocaridids and arthropods rather than cycloneuralians. Correspondences in brain organization between anomalocaridids and Onychophora resolve pre-protocerebral ganglia, associated with pre-ocular frontal appendages, as characters of the last common ancestor of euarthropods and onychophorans. A position of Radiodonta on the euarthropod stem-lineage implies the transformation of frontal appendages to another structure in crown-group euarthropods, with gene expression and neuroanatomy providing strong evidence that the paired, pre-oral labrum is the remnant of paired frontal appendages.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/_S-vDJkIwTs" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Brain structure resolves the segmental affinity of anomalocaridid appendages</dc:title>
+      <dc:creator>Peiyun Cong</dc:creator>
+      <dc:creator>Xiaoya Ma</dc:creator>
+      <dc:creator>Xianguang Hou</dc:creator>
+      <dc:creator>Gregory D. Edgecombe</dc:creator>
+      <dc:creator>Nicholas J. Strausfeld</dc:creator>
+      <dc:identifier>doi:10.1038/nature13486</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-07-16</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-07-16</prism:publicationDate>
+      <prism:doi>10.1038/nature13486</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13486</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Letter</prism:section>
+      <prism:startingPage>538</prism:startingPage>
+      <prism:endingPage>542</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13486</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13739">
+      <title>Island biogeography of the Anthropocene</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/onWYCKuPi7I/nature13739</link>
+      <description>For centuries, biogeographers have examined the factors that produce patterns of biodiversity across regions. The study of islands has proved particularly fruitful and has led to the theory that geographic area and isolation influence species colonization, extinction and speciation such that larger islands have more species and isolated islands have fewer species (that is, positive species–area and negative species–isolation relationships). However, experimental tests of this theory have been limited, owing to the difficulty in experimental manipulation of islands at the scales at which speciation and long-distance colonization are relevant. Here we have used the human-aided transport of exotic anole lizards among Caribbean islands as such a test at an appropriate scale. In accord with theory, as anole colonizations have increased, islands impoverished in native species have gained the most exotic species, the past influence of speciation on island biogeography has been obscured, and the species–area relationship has strengthened while the species–isolation relationship has weakened. Moreover, anole biogeography increasingly reflects anthropogenic rather than geographic processes. Unlike the island biogeography of the past that was determined by geographic area and isolation, in the Anthropocene—an epoch proposed for the present time interval—island biogeography is dominated by the economic isolation of human populations.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Island biogeography of the Anthropocene</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13739">doi:10.1038/nature13739</a>
+         </p>
+         <p>Authors: Matthew R. Helmus, D. Luke Mahler &amp; Jonathan B. Losos</p>
+         <p>For centuries, biogeographers have examined the factors that produce patterns of biodiversity across regions. The study of islands has proved particularly fruitful and has led to the theory that geographic area and isolation influence species colonization, extinction and speciation such that larger islands have more species and isolated islands have fewer species (that is, positive species&#8211;area and negative species&#8211;isolation relationships). However, experimental tests of this theory have been limited, owing to the difficulty in experimental manipulation of islands at the scales at which speciation and long-distance colonization are relevant. Here we have used the human-aided transport of exotic anole lizards among Caribbean islands as such a test at an appropriate scale. In accord with theory, as anole colonizations have increased, islands impoverished in native species have gained the most exotic species, the past influence of speciation on island biogeography has been obscured, and the species&#8211;area relationship has strengthened while the species&#8211;isolation relationship has weakened. Moreover, anole biogeography increasingly reflects anthropogenic rather than geographic processes. Unlike the island biogeography of the past that was determined by geographic area and isolation, in the Anthropocene&#8212;an epoch proposed for the present time interval&#8212;island biogeography is dominated by the economic isolation of human populations.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/onWYCKuPi7I" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Island biogeography of the Anthropocene</dc:title>
+      <dc:creator>Matthew R. Helmus</dc:creator>
+      <dc:creator>D. Luke Mahler</dc:creator>
+      <dc:creator>Jonathan B. Losos</dc:creator>
+      <dc:identifier>doi:10.1038/nature13739</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/nature13739</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13739</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Letter</prism:section>
+      <prism:startingPage>543</prism:startingPage>
+      <prism:endingPage>546</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13739</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13776">
+      <title>A faster Rubisco with potential to increase photosynthesis in crops</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/yUGTimtN-yY/nature13776</link>
+      <description>In photosynthetic organisms, d-ribulose-1,5-bisphosphate carboxylase/oxygenase (Rubisco) is the major enzyme assimilating atmospheric CO2 into the biosphere. Owing to the wasteful oxygenase activity and slow turnover of Rubisco, the enzyme is among the most important targets for improving the photosynthetic efficiency of vascular plants. It has been anticipated that introducing the CO2-concentrating mechanism (CCM) from cyanobacteria into plants could enhance crop yield. However, the complex nature of Rubisco’s assembly has made manipulation of the enzyme extremely challenging, and attempts to replace it in plants with the enzymes from cyanobacteria and red algae have not been successful. Here we report two transplastomic tobacco lines with functional Rubisco from the cyanobacterium Synechococcus elongatus PCC7942 (Se7942). We knocked out the native tobacco gene encoding the large subunit of Rubisco by inserting the large and small subunit genes of the Se7942 enzyme, in combination with either the corresponding Se7942 assembly chaperone, RbcX, or an internal carboxysomal protein, CcmM35, which incorporates three small subunit-like domains. Se7942 Rubisco and CcmM35 formed macromolecular complexes within the chloroplast stroma, mirroring an early step in the biogenesis of cyanobacterial β-carboxysomes. Both transformed lines were photosynthetically competent, supporting autotrophic growth, and their respective forms of Rubisco had higher rates of CO2 fixation per unit of enzyme than the tobacco control. These transplastomic tobacco lines represent an important step towards improved photosynthesis in plants and will be valuable hosts for future addition of the remaining components of the cyanobacterial CCM, such as inorganic carbon transporters and the β-carboxysome shell proteins.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>A faster Rubisco with potential to increase photosynthesis in crops</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13776">doi:10.1038/nature13776</a>
+         </p>
+         <p>Authors: Myat T. Lin, Alessandro Occhialini, P. John Andralojc, Martin A. J. Parry &amp; Maureen R. Hanson</p>
+         <p>In photosynthetic organisms, d-ribulose-1,5-bisphosphate carboxylase/oxygenase (Rubisco) is the major enzyme assimilating atmospheric CO2 into the biosphere. Owing to the wasteful oxygenase activity and slow turnover of Rubisco, the enzyme is among the most important targets for improving the photosynthetic efficiency of vascular plants. It has been anticipated that introducing the CO2-concentrating mechanism (CCM) from cyanobacteria into plants could enhance crop yield. However, the complex nature of Rubisco&#8217;s assembly has made manipulation of the enzyme extremely challenging, and attempts to replace it in plants with the enzymes from cyanobacteria and red algae have not been successful. Here we report two transplastomic tobacco lines with functional Rubisco from the cyanobacterium Synechococcus elongatus PCC7942 (Se7942). We knocked out the native tobacco gene encoding the large subunit of Rubisco by inserting the large and small subunit genes of the Se7942 enzyme, in combination with either the corresponding Se7942 assembly chaperone, RbcX, or an internal carboxysomal protein, CcmM35, which incorporates three small subunit-like domains. Se7942 Rubisco and CcmM35 formed macromolecular complexes within the chloroplast stroma, mirroring an early step in the biogenesis of cyanobacterial &#946;-carboxysomes. Both transformed lines were photosynthetically competent, supporting autotrophic growth, and their respective forms of Rubisco had higher rates of CO2 fixation per unit of enzyme than the tobacco control. These transplastomic tobacco lines represent an important step towards improved photosynthesis in plants and will be valuable hosts for future addition of the remaining components of the cyanobacterial CCM, such as inorganic carbon transporters and the &#946;-carboxysome shell proteins.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/yUGTimtN-yY" height="1" width="1"/>]]></content:encoded>
+      <dc:title>A faster Rubisco with potential to increase photosynthesis in crops</dc:title>
+      <dc:creator>Myat T. Lin</dc:creator>
+      <dc:creator>Alessandro Occhialini</dc:creator>
+      <dc:creator>P. John Andralojc</dc:creator>
+      <dc:creator>Martin A. J. Parry</dc:creator>
+      <dc:creator>Maureen R. Hanson</dc:creator>
+      <dc:identifier>doi:10.1038/nature13776</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-17</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-17</prism:publicationDate>
+      <prism:doi>10.1038/nature13776</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13776</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Letter</prism:section>
+      <prism:startingPage>547</prism:startingPage>
+      <prism:endingPage>550</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13776</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13536">
+      <title>Glial origin of mesenchymal stem cells in a tooth model system</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/gT5jIYacc4g/nature13536</link>
+      <description>Mesenchymal stem cells occupy niches in stromal tissues where they provide sources of cells for specialized mesenchymal derivatives during growth and repair. The origins of mesenchymal stem cells have been the subject of considerable discussion, and current consensus holds that perivascular cells form mesenchymal stem cells in most tissues. The continuously growing mouse incisor tooth offers an excellent model to address the origin of mesenchymal stem cells. These stem cells dwell in a niche at the tooth apex where they produce a variety of differentiated derivatives. Cells constituting the tooth are mostly derived from two embryonic sources: neural crest ectomesenchyme and ectodermal epithelium. It has been thought for decades that the dental mesenchymal stem cells giving rise to pulp cells and odontoblasts derive from neural crest cells after their migration in the early head and formation of ectomesenchymal tissue. Here we show that a significant population of mesenchymal stem cells during development, self-renewal and repair of a tooth are derived from peripheral nerve-associated glia. Glial cells generate multipotent mesenchymal stem cells that produce pulp cells and odontoblasts. By combining a clonal colour-coding technique with tracing of peripheral glia, we provide new insights into the dynamics of tooth organogenesis and growth.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Glial origin of mesenchymal stem cells in a tooth model system</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13536">doi:10.1038/nature13536</a>
+         </p>
+         <p>Authors: Nina Kaukua, Maryam Khatibi Shahidi, Chrysoula Konstantinidou, Vyacheslav Dyachuk, Marketa Kaucka, Alessandro Furlan, Zhengwen An, Longlong Wang, Isabell Hultman, Lars &#196;hrlund-Richter, Hans Blom, Hjalmar Brismar, Natalia Assaife Lopes, Vassilis Pachnis, Ueli Suter, Hans Clevers, Irma Thesleff, Paul Sharpe, Patrik Ernfors, Kaj Fried &amp; Igor Adameyko</p>
+         <p>Mesenchymal stem cells occupy niches in stromal tissues where they provide sources of cells for specialized mesenchymal derivatives during growth and repair. The origins of mesenchymal stem cells have been the subject of considerable discussion, and current consensus holds that perivascular cells form mesenchymal stem cells in most tissues. The continuously growing mouse incisor tooth offers an excellent model to address the origin of mesenchymal stem cells. These stem cells dwell in a niche at the tooth apex where they produce a variety of differentiated derivatives. Cells constituting the tooth are mostly derived from two embryonic sources: neural crest ectomesenchyme and ectodermal epithelium. It has been thought for decades that the dental mesenchymal stem cells giving rise to pulp cells and odontoblasts derive from neural crest cells after their migration in the early head and formation of ectomesenchymal tissue. Here we show that a significant population of mesenchymal stem cells during development, self-renewal and repair of a tooth are derived from peripheral nerve-associated glia. Glial cells generate multipotent mesenchymal stem cells that produce pulp cells and odontoblasts. By combining a clonal colour-coding technique with tracing of peripheral glia, we provide new insights into the dynamics of tooth organogenesis and growth.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/gT5jIYacc4g" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Glial origin of mesenchymal stem cells in a tooth model system</dc:title>
+      <dc:creator>Nina Kaukua</dc:creator>
+      <dc:creator>Maryam Khatibi Shahidi</dc:creator>
+      <dc:creator>Chrysoula Konstantinidou</dc:creator>
+      <dc:creator>Vyacheslav Dyachuk</dc:creator>
+      <dc:creator>Marketa Kaucka</dc:creator>
+      <dc:creator>Alessandro Furlan</dc:creator>
+      <dc:creator>Zhengwen An</dc:creator>
+      <dc:creator>Longlong Wang</dc:creator>
+      <dc:creator>Isabell Hultman</dc:creator>
+      <dc:creator>Lars Ährlund-Richter</dc:creator>
+      <dc:creator>Hans Blom</dc:creator>
+      <dc:creator>Hjalmar Brismar</dc:creator>
+      <dc:creator>Natalia Assaife Lopes</dc:creator>
+      <dc:creator>Vassilis Pachnis</dc:creator>
+      <dc:creator>Ueli Suter</dc:creator>
+      <dc:creator>Hans Clevers</dc:creator>
+      <dc:creator>Irma Thesleff</dc:creator>
+      <dc:creator>Paul Sharpe</dc:creator>
+      <dc:creator>Patrik Ernfors</dc:creator>
+      <dc:creator>Kaj Fried</dc:creator>
+      <dc:creator>Igor Adameyko</dc:creator>
+      <dc:identifier>doi:10.1038/nature13536</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-07-27</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-07-27</prism:publicationDate>
+      <prism:doi>10.1038/nature13536</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13536</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Letter</prism:section>
+      <prism:startingPage>551</prism:startingPage>
+      <prism:endingPage>554</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13536</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13575">
+      <title>Antifungal drug resistance evoked via RNAi-dependent epimutations</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/eRpiIjJZELU/nature13575</link>
+      <description>Microorganisms evolve via a range of mechanisms that may include or involve sexual/parasexual reproduction, mutators, aneuploidy, Hsp90 and even prions. Mechanisms that may seem detrimental can be repurposed to generate diversity. Here we show that the human fungal pathogen Mucor circinelloides develops spontaneous resistance to the antifungal drug FK506 (tacrolimus) via two distinct mechanisms. One involves Mendelian mutations that confer stable drug resistance; the other occurs via an epigenetic RNA interference (RNAi)-mediated pathway resulting in unstable drug resistance. The peptidylprolyl isomerase FKBP12 interacts with FK506 forming a complex that inhibits the protein phosphatase calcineurin. Calcineurin inhibition by FK506 blocks M. circinelloides transition to hyphae and enforces yeast growth. Mutations in the fkbA gene encoding FKBP12 or the calcineurin cnbR or cnaA genes confer FK506 resistance and restore hyphal growth. In parallel, RNAi is spontaneously triggered to silence the fkbA gene, giving rise to drug-resistant epimutants. FK506-resistant epimutants readily reverted to the drug-sensitive wild-type phenotype when grown without exposure to the drug. The establishment of these epimutants is accompanied by generation of abundant fkbA small RNAs and requires the RNAi pathway as well as other factors that constrain or reverse the epimutant state. Silencing involves the generation of a double-stranded RNA trigger intermediate using the fkbA mature mRNA as a template to produce antisense fkbA RNA. This study uncovers a novel epigenetic RNAi-based epimutation mechanism controlling phenotypic plasticity, with possible implications for antimicrobial drug resistance and RNAi-regulatory mechanisms in fungi and other eukaryotes.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Antifungal drug resistance evoked via RNAi-dependent epimutations</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13575">doi:10.1038/nature13575</a>
+         </p>
+         <p>Authors: Silvia Calo, Cecelia Shertz-Wall, Soo Chan Lee, Robert J. Bastidas, Francisco E. Nicol&#225;s, Joshua A. Granek, Piotr Mieczkowski, Santiago Torres-Mart&#237;nez, Rosa M. Ruiz-V&#225;zquez, Maria E. Cardenas &amp; Joseph Heitman</p>
+         <p>Microorganisms evolve via a range of mechanisms that may include or involve sexual/parasexual reproduction, mutators, aneuploidy, Hsp90 and even prions. Mechanisms that may seem detrimental can be repurposed to generate diversity. Here we show that the human fungal pathogen Mucor circinelloides develops spontaneous resistance to the antifungal drug FK506 (tacrolimus) via two distinct mechanisms. One involves Mendelian mutations that confer stable drug resistance; the other occurs via an epigenetic RNA interference (RNAi)-mediated pathway resulting in unstable drug resistance. The peptidylprolyl isomerase FKBP12 interacts with FK506 forming a complex that inhibits the protein phosphatase calcineurin. Calcineurin inhibition by FK506 blocks M. circinelloides transition to hyphae and enforces yeast growth. Mutations in the fkbA gene encoding FKBP12 or the calcineurin cnbR or cnaA genes confer FK506 resistance and restore hyphal growth. In parallel, RNAi is spontaneously triggered to silence the fkbA gene, giving rise to drug-resistant epimutants. FK506-resistant epimutants readily reverted to the drug-sensitive wild-type phenotype when grown without exposure to the drug. The establishment of these epimutants is accompanied by generation of abundant fkbA small RNAs and requires the RNAi pathway as well as other factors that constrain or reverse the epimutant state. Silencing involves the generation of a double-stranded RNA trigger intermediate using the fkbA mature mRNA as a template to produce antisense fkbA RNA. This study uncovers a novel epigenetic RNAi-based epimutation mechanism controlling phenotypic plasticity, with possible implications for antimicrobial drug resistance and RNAi-regulatory mechanisms in fungi and other eukaryotes.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/eRpiIjJZELU" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Antifungal drug resistance evoked via RNAi-dependent epimutations</dc:title>
+      <dc:creator>Silvia Calo</dc:creator>
+      <dc:creator>Cecelia Shertz-Wall</dc:creator>
+      <dc:creator>Soo Chan Lee</dc:creator>
+      <dc:creator>Robert J. Bastidas</dc:creator>
+      <dc:creator>Francisco E. Nicolás</dc:creator>
+      <dc:creator>Joshua A. Granek</dc:creator>
+      <dc:creator>Piotr Mieczkowski</dc:creator>
+      <dc:creator>Santiago Torres-Martínez</dc:creator>
+      <dc:creator>Rosa M. Ruiz-Vázquez</dc:creator>
+      <dc:creator>Maria E. Cardenas</dc:creator>
+      <dc:creator>Joseph Heitman</dc:creator>
+      <dc:identifier>doi:10.1038/nature13575</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-07-27</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-07-27</prism:publicationDate>
+      <prism:doi>10.1038/nature13575</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13575</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Letter</prism:section>
+      <prism:startingPage>555</prism:startingPage>
+      <prism:endingPage>558</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13575</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13490">
+      <title>Functional polarization of tumour-associated macrophages by tumour-derived lactic acid</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/GFoB5x5xUlY/nature13490</link>
+      <description>Macrophages have an important role in the maintenance of tissue homeostasis. To perform this function, macrophages must have the capacity to monitor the functional states of their ‘client cells’: namely, the parenchymal cells in the various tissues in which macrophages reside. Tumours exhibit many features of abnormally developed organs, including tissue architecture and cellular composition. Similarly to macrophages in normal tissues and organs, macrophages in tumours (tumour-associated macrophages) perform some key homeostatic functions that allow tumour maintenance and growth. However, the signals involved in communication between tumours and macrophages are poorly defined. Here we show that lactic acid produced by tumour cells, as a by-product of aerobic or anaerobic glycolysis, has a critical function in signalling, through inducing the expression of vascular endothelial growth factor and the M2-like polarization of tumour-associated macrophages. Furthermore, we demonstrate that this effect of lactic acid is mediated by hypoxia-inducible factor 1α (HIF1α). Finally, we show that the lactate-induced expression of arginase 1 by macrophages has an important role in tumour growth. Collectively, these findings identify a mechanism of communication between macrophages and their client cells, including tumour cells. This communication most probably evolved to promote homeostasis in normal tissues but can also be engaged in tumours to promote their growth.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Functional polarization of tumour-associated macrophages by tumour-derived lactic acid</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13490">doi:10.1038/nature13490</a>
+         </p>
+         <p>Authors: Oscar R. Colegio, Ngoc-Quynh Chu, Alison L. Szabo, Thach Chu, Anne Marie Rhebergen, Vikram Jairam, Nika Cyrus, Carolyn E. Brokowski, Stephanie C. Eisenbarth, Gillian M. Phillips, Gary W. Cline, Andrew J. Phillips &amp; Ruslan Medzhitov</p>
+         <p>Macrophages have an important role in the maintenance of tissue homeostasis. To perform this function, macrophages must have the capacity to monitor the functional states of their &#8216;client cells&#8217;: namely, the parenchymal cells in the various tissues in which macrophages reside. Tumours exhibit many features of abnormally developed organs, including tissue architecture and cellular composition. Similarly to macrophages in normal tissues and organs, macrophages in tumours (tumour-associated macrophages) perform some key homeostatic functions that allow tumour maintenance and growth. However, the signals involved in communication between tumours and macrophages are poorly defined. Here we show that lactic acid produced by tumour cells, as a by-product of aerobic or anaerobic glycolysis, has a critical function in signalling, through inducing the expression of vascular endothelial growth factor and the M2-like polarization of tumour-associated macrophages. Furthermore, we demonstrate that this effect of lactic acid is mediated by hypoxia-inducible factor 1&#945; (HIF1&#945;). Finally, we show that the lactate-induced expression of arginase 1 by macrophages has an important role in tumour growth. Collectively, these findings identify a mechanism of communication between macrophages and their client cells, including tumour cells. This communication most probably evolved to promote homeostasis in normal tissues but can also be engaged in tumours to promote their growth.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/GFoB5x5xUlY" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Functional polarization of tumour-associated macrophages by tumour-derived lactic acid</dc:title>
+      <dc:creator>Oscar R. Colegio</dc:creator>
+      <dc:creator>Ngoc-Quynh Chu</dc:creator>
+      <dc:creator>Alison L. Szabo</dc:creator>
+      <dc:creator>Thach Chu</dc:creator>
+      <dc:creator>Anne Marie Rhebergen</dc:creator>
+      <dc:creator>Vikram Jairam</dc:creator>
+      <dc:creator>Nika Cyrus</dc:creator>
+      <dc:creator>Carolyn E. Brokowski</dc:creator>
+      <dc:creator>Stephanie C. Eisenbarth</dc:creator>
+      <dc:creator>Gillian M. Phillips</dc:creator>
+      <dc:creator>Gary W. Cline</dc:creator>
+      <dc:creator>Andrew J. Phillips</dc:creator>
+      <dc:creator>Ruslan Medzhitov</dc:creator>
+      <dc:identifier>doi:10.1038/nature13490</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-07-13</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-07-13</prism:publicationDate>
+      <prism:doi>10.1038/nature13490</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13490</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Letter</prism:section>
+      <prism:startingPage>559</prism:startingPage>
+      <prism:endingPage>563</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13490</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13577">
+      <title>The alarmin IL-33 promotes regulatory T-cell function in the intestine</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/tURUma8XQKk/nature13577</link>
+      <description>FOXP3+ regulatory T cells (Treg cells) are abundant in the intestine, where they prevent dysregulated inflammatory responses to self and environmental stimuli. It is now appreciated that Treg cells acquire tissue-specific adaptations that facilitate their survival and function; however, key host factors controlling the Treg response in the intestine are poorly understood. The interleukin (IL)-1 family member IL-33 is constitutively expressed in epithelial cells at barrier sites, where it functions as an endogenous danger signal, or alarmin, in response to tissue damage. Recent studies in humans have described high levels of IL-33 in inflamed lesions of inflammatory bowel disease patients, suggesting a role for this cytokine in disease pathogenesis. In the intestine, both protective and pathological roles for IL-33 have been described in murine models of acute colitis, but its contribution to chronic inflammation remains ill defined. Here we show in mice that the IL-33 receptor ST2 is preferentially expressed on colonic Treg cells, where it promotes Treg function and adaptation to the inflammatory environment. IL-33 signalling in T cells stimulates Treg responses in several ways. First, it enhances transforming growth factor (TGF)-β1-mediated differentiation of Treg cells and, second, it provides a necessary signal for Treg-cell accumulation and maintenance in inflamed tissues. Strikingly, IL-23, a key pro-inflammatory cytokine in the pathogenesis of inflammatory bowel disease, restrained Treg responses through inhibition of IL-33 responsiveness. These results demonstrate a hitherto unrecognized link between an endogenous mediator of tissue damage and a major anti-inflammatory pathway, and suggest that the balance between IL-33 and IL-23 may be a key controller of intestinal immune responses.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>The alarmin IL-33 promotes regulatory T-cell function in the intestine</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13577">doi:10.1038/nature13577</a>
+         </p>
+         <p>Authors: Chris Schiering, Thomas Krausgruber, Agnieszka Chomka, Anja Fr&#246;hlich, Krista Adelmann, Elizabeth A. Wohlfert, Johanna Pott, Thibault Griseri, Julia Bollrath, Ahmed N. Hegazy, Oliver J. Harrison, Benjamin M. J. Owens, Max L&#246;hning, Yasmine Belkaid, Padraic G. Fallon &amp; Fiona Powrie</p>
+         <p>FOXP3+ regulatory T cells (Treg cells) are abundant in the intestine, where they prevent dysregulated inflammatory responses to self and environmental stimuli. It is now appreciated that Treg cells acquire tissue-specific adaptations that facilitate their survival and function; however, key host factors controlling the Treg response in the intestine are poorly understood. The interleukin (IL)-1 family member IL-33 is constitutively expressed in epithelial cells at barrier sites, where it functions as an endogenous danger signal, or alarmin, in response to tissue damage. Recent studies in humans have described high levels of IL-33 in inflamed lesions of inflammatory bowel disease patients, suggesting a role for this cytokine in disease pathogenesis. In the intestine, both protective and pathological roles for IL-33 have been described in murine models of acute colitis, but its contribution to chronic inflammation remains ill defined. Here we show in mice that the IL-33 receptor ST2 is preferentially expressed on colonic Treg cells, where it promotes Treg function and adaptation to the inflammatory environment. IL-33 signalling in T cells stimulates Treg responses in several ways. First, it enhances transforming growth factor (TGF)-&#946;1-mediated differentiation of Treg cells and, second, it provides a necessary signal for Treg-cell accumulation and maintenance in inflamed tissues. Strikingly, IL-23, a key pro-inflammatory cytokine in the pathogenesis of inflammatory bowel disease, restrained Treg responses through inhibition of IL-33 responsiveness. These results demonstrate a hitherto unrecognized link between an endogenous mediator of tissue damage and a major anti-inflammatory pathway, and suggest that the balance between IL-33 and IL-23 may be a key controller of intestinal immune responses.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/tURUma8XQKk" height="1" width="1"/>]]></content:encoded>
+      <dc:title>The alarmin IL-33 promotes regulatory T-cell function in the intestine</dc:title>
+      <dc:creator>Chris Schiering</dc:creator>
+      <dc:creator>Thomas Krausgruber</dc:creator>
+      <dc:creator>Agnieszka Chomka</dc:creator>
+      <dc:creator>Anja Fröhlich</dc:creator>
+      <dc:creator>Krista Adelmann</dc:creator>
+      <dc:creator>Elizabeth A. Wohlfert</dc:creator>
+      <dc:creator>Johanna Pott</dc:creator>
+      <dc:creator>Thibault Griseri</dc:creator>
+      <dc:creator>Julia Bollrath</dc:creator>
+      <dc:creator>Ahmed N. Hegazy</dc:creator>
+      <dc:creator>Oliver J. Harrison</dc:creator>
+      <dc:creator>Benjamin M. J. Owens</dc:creator>
+      <dc:creator>Max Löhning</dc:creator>
+      <dc:creator>Yasmine Belkaid</dc:creator>
+      <dc:creator>Padraic G. Fallon</dc:creator>
+      <dc:creator>Fiona Powrie</dc:creator>
+      <dc:identifier>doi:10.1038/nature13577</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-07-16</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-07-16</prism:publicationDate>
+      <prism:doi>10.1038/nature13577</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13577</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Letter</prism:section>
+      <prism:startingPage>564</prism:startingPage>
+      <prism:endingPage>568</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13577</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13579">
+      <title>Structural basis of PAM-dependent target DNA recognition by the Cas9 endonuclease</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/aJpd-ugyNps/nature13579</link>
+      <description>The CRISPR-associated protein Cas9 is an RNA-guided endonuclease that cleaves double-stranded DNA bearing sequences complementary to a 20-nucleotide segment in the guide RNA. Cas9 has emerged as a versatile molecular tool for genome editing and gene expression control. RNA-guided DNA recognition and cleavage strictly require the presence of a protospacer adjacent motif (PAM) in the target DNA. Here we report a crystal structure of Streptococcus pyogenes Cas9 in complex with a single-molecule guide RNA and a target DNA containing a canonical 5′-NGG-3′ PAM. The structure reveals that the PAM motif resides in a base-paired DNA duplex. The non-complementary strand GG dinucleotide is read out via major-groove interactions with conserved arginine residues from the carboxy-terminal domain of Cas9. Interactions with the minor groove of the PAM duplex and the phosphodiester group at the +1 position in the target DNA strand contribute to local strand separation immediately upstream of the PAM. These observations suggest a mechanism for PAM-dependent target DNA melting and RNA–DNA hybrid formation. Furthermore, this study establishes a framework for the rational engineering of Cas9 enzymes with novel PAM specificities.</description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Structural basis of PAM-dependent target DNA recognition by the Cas9 endonuclease</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13579">doi:10.1038/nature13579</a>
+         </p>
+         <p>Authors: Carolin Anders, Ole Niewoehner, Alessia Duerst &amp; Martin Jinek</p>
+         <p>The CRISPR-associated protein Cas9 is an RNA-guided endonuclease that cleaves double-stranded DNA bearing sequences complementary to a 20-nucleotide segment in the guide RNA. Cas9 has emerged as a versatile molecular tool for genome editing and gene expression control. RNA-guided DNA recognition and cleavage strictly require the presence of a protospacer adjacent motif (PAM) in the target DNA. Here we report a crystal structure of Streptococcus pyogenes Cas9 in complex with a single-molecule guide RNA and a target DNA containing a canonical 5&#8242;-NGG-3&#8242; PAM. The structure reveals that the PAM motif resides in a base-paired DNA duplex. The non-complementary strand GG dinucleotide is read out via major-groove interactions with conserved arginine residues from the carboxy-terminal domain of Cas9. Interactions with the minor groove of the PAM duplex and the phosphodiester group at the +1 position in the target DNA strand contribute to local strand separation immediately upstream of the PAM. These observations suggest a mechanism for PAM-dependent target DNA melting and RNA&#8211;DNA hybrid formation. Furthermore, this study establishes a framework for the rational engineering of Cas9 enzymes with novel PAM specificities.</p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/aJpd-ugyNps" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Structural basis of PAM-dependent target DNA recognition by the Cas9 endonuclease</dc:title>
+      <dc:creator>Carolin Anders</dc:creator>
+      <dc:creator>Ole Niewoehner</dc:creator>
+      <dc:creator>Alessia Duerst</dc:creator>
+      <dc:creator>Martin Jinek</dc:creator>
+      <dc:identifier>doi:10.1038/nature13579</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-07-27</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-07-27</prism:publicationDate>
+      <prism:doi>10.1038/nature13579</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13579</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Letter</prism:section>
+      <prism:startingPage>569</prism:startingPage>
+      <prism:endingPage>573</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13579</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13675">
+      <title>Corrigendum: Quantitative flux analysis reveals folate-dependent NADPH production</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/0mYy5rzjLjQ/nature13675</link>
+      <description>Nature510, 298–302 (2014); doi:10.1038/nature13236In the interests of transparency, we wish to amend the ‘Competing financial interests’ section of our Letter to read: “J.D.R. is the only author with a competing financial interest with respect to the current </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Corrigendum: Quantitative flux analysis reveals folate-dependent NADPH production</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13675">doi:10.1038/nature13675</a>
+         </p>
+         <p>Authors: Jing Fan, Jiangbin Ye, Jurre J. Kamphorst, Tomer Shlomi, Craig B. Thompson &amp; Joshua D. Rabinowitz</p>
+         <p>Nature510, 298&#8211;302 (2014); doi:10.1038/nature13236In the interests of transparency, we wish to amend the &#8216;Competing financial interests&#8217; section of our Letter to read: &#8220;J.D.R. is the only author with a competing financial interest with respect to the current </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/0mYy5rzjLjQ" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Corrigendum: Quantitative flux analysis reveals folate-dependent NADPH production</dc:title>
+      <dc:creator>Jing Fan</dc:creator>
+      <dc:creator>Jiangbin Ye</dc:creator>
+      <dc:creator>Jurre J. Kamphorst</dc:creator>
+      <dc:creator>Tomer Shlomi</dc:creator>
+      <dc:creator>Craig B. Thompson</dc:creator>
+      <dc:creator>Joshua D. Rabinowitz</dc:creator>
+      <dc:identifier>doi:10.1038/nature13675</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/nature13675</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13675</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Corrigendum</prism:section>
+      <prism:startingPage>574</prism:startingPage>
+      <prism:endingPage>574</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13675</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13699">
+      <title>Corrigendum: Elephant shark genome provides unique insights into gnathostome evolution</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/5aJnslyYv5Q/nature13699</link>
+      <description>Nature505, 174–179 (2014); doi:10.1038/nature12826The ranges of accession numbers JW861113–JW881738 and KA353634–KA353668 (20,661 in total) cited in this Article include 3,630 sequences that were unrelated and hence removed from the NCBI GenBank database before the analysis of the </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Corrigendum: Elephant shark genome provides unique insights into gnathostome evolution</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13699">doi:10.1038/nature13699</a>
+         </p>
+         <p>Authors: Byrappa Venkatesh, Alison P. Lee, Vydianathan Ravi, Ashish K. Maurya, Michelle M. Lian, Jeremy B. Swann, Yuko Ohta, Martin F. Flajnik, Yoichi Sutoh, Masanori Kasahara, Shawn Hoon, Vamshidhar Gangu, Scott W. Roy, Manuel Irimia, Vladimir Korzh, Igor Kondrychyn, Zhi Wei Lim, Boon-Hui Tay, Sumanty Tohari, Kiat Whye Kong, Shufen Ho, Belen Lorente-Galdos, Javier Quilez, Tomas Marques-Bonet, Brian J. Raney, Philip W. Ingham, Alice Tay, LaDeana W. Hillier, Patrick Minx, Thomas Boehm, Richard K. Wilson, Sydney Brenner &amp; Wesley C. Warren</p>
+         <p>Nature505, 174&#8211;179 (2014); doi:10.1038/nature12826The ranges of accession numbers JW861113&#8211;JW881738 and KA353634&#8211;KA353668 (20,661 in total) cited in this Article include 3,630 sequences that were unrelated and hence removed from the NCBI GenBank database before the analysis of the </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/5aJnslyYv5Q" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Corrigendum: Elephant shark genome provides unique insights into gnathostome evolution</dc:title>
+      <dc:creator>Byrappa Venkatesh</dc:creator>
+      <dc:creator>Alison P. Lee</dc:creator>
+      <dc:creator>Vydianathan Ravi</dc:creator>
+      <dc:creator>Ashish K. Maurya</dc:creator>
+      <dc:creator>Michelle M. Lian</dc:creator>
+      <dc:creator>Jeremy B. Swann</dc:creator>
+      <dc:creator>Yuko Ohta</dc:creator>
+      <dc:creator>Martin F. Flajnik</dc:creator>
+      <dc:creator>Yoichi Sutoh</dc:creator>
+      <dc:creator>Masanori Kasahara</dc:creator>
+      <dc:creator>Shawn Hoon</dc:creator>
+      <dc:creator>Vamshidhar Gangu</dc:creator>
+      <dc:creator>Scott W. Roy</dc:creator>
+      <dc:creator>Manuel Irimia</dc:creator>
+      <dc:creator>Vladimir Korzh</dc:creator>
+      <dc:creator>Igor Kondrychyn</dc:creator>
+      <dc:creator>Zhi Wei Lim</dc:creator>
+      <dc:creator>Boon-Hui Tay</dc:creator>
+      <dc:creator>Sumanty Tohari</dc:creator>
+      <dc:creator>Kiat Whye Kong</dc:creator>
+      <dc:creator>Shufen Ho</dc:creator>
+      <dc:creator>Belen Lorente-Galdos</dc:creator>
+      <dc:creator>Javier Quilez</dc:creator>
+      <dc:creator>Tomas Marques-Bonet</dc:creator>
+      <dc:creator>Brian J. Raney</dc:creator>
+      <dc:creator>Philip W. Ingham</dc:creator>
+      <dc:creator>Alice Tay</dc:creator>
+      <dc:creator>LaDeana W. Hillier</dc:creator>
+      <dc:creator>Patrick Minx</dc:creator>
+      <dc:creator>Thomas Boehm</dc:creator>
+      <dc:creator>Richard K. Wilson</dc:creator>
+      <dc:creator>Sydney Brenner</dc:creator>
+      <dc:creator>Wesley C. Warren</dc:creator>
+      <dc:identifier>doi:10.1038/nature13699</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/nature13699</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13699</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Corrigendum</prism:section>
+      <prism:startingPage>574</prism:startingPage>
+      <prism:endingPage>574</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13699</feedburner:origLink></item>
+   <item rdf:about="http://dx.doi.org/10.1038/nature13720">
+      <title>Corrigendum: Coupling of angiogenesis and osteogenesis by a specific vessel subtype in bone</title>
+      <link>http://feeds.nature.com/~r/nature/rss/current/~3/1W9MI7epaRk/nature13720</link>
+      <description>Nature507, 323–328 (2014); doi:10.1038/nature13145In this Article, the labels ‘Metaphysis’ and ‘Diaphysis’ were inadvertently swapped in Extended Data Fig 3d. In the Methods Summary on page 327 and in the third paragraph of the Methods it should state </description>
+      <content:encoded><![CDATA[
+			<p>
+            <b>Corrigendum: Coupling of angiogenesis and osteogenesis by a specific vessel subtype in bone</b>
+         </p>
+         <p>Nature 513, 7519 (2014). <a href="http://dx.doi.org/10.1038/nature13720">doi:10.1038/nature13720</a>
+         </p>
+         <p>Authors: Anjali P. Kusumbe, Saravana K. Ramasamy &amp; Ralf H. Adams</p>
+         <p>Nature507, 323&#8211;328 (2014); doi:10.1038/nature13145In this Article, the labels &#8216;Metaphysis&#8217; and &#8216;Diaphysis&#8217; were inadvertently swapped in Extended Data Fig 3d. In the Methods Summary on page 327 and in the third paragraph of the Methods it should state </p>
+				<img src="http://feeds.feedburner.com/~r/nature/rss/current/~4/1W9MI7epaRk" height="1" width="1"/>]]></content:encoded>
+      <dc:title>Corrigendum: Coupling of angiogenesis and osteogenesis by a specific vessel subtype in bone</dc:title>
+      <dc:creator>Anjali P. Kusumbe</dc:creator>
+      <dc:creator>Saravana K. Ramasamy</dc:creator>
+      <dc:creator>Ralf H. Adams</dc:creator>
+      <dc:identifier>doi:10.1038/nature13720</dc:identifier>
+      <dc:source>Nature 513, 7519 (2014)</dc:source>
+      <dc:date>2014-09-24</dc:date>
+      <prism:publicationName>Nature</prism:publicationName>
+      <prism:publicationDate>2014-09-24</prism:publicationDate>
+      <prism:doi>10.1038/nature13720</prism:doi>
+      <prism:url>http://dx.doi.org/10.1038/nature13720</prism:url>
+      <prism:volume>513</prism:volume>
+      <prism:number>7519</prism:number>
+      <prism:section>Corrigendum</prism:section>
+      <prism:startingPage>574</prism:startingPage>
+      <prism:endingPage>574</prism:endingPage>
+   <feedburner:origLink>http://dx.doi.org/10.1038/nature13720</feedburner:origLink></item>
+</rdf:RDF>

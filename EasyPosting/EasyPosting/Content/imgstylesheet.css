@@ -1,0 +1,47 @@
+#upFile{
+    
+}
+
+.ui-resizable-handle {
+	background:    #FFF;
+	border:        1px solid #949494;
+	z-index:    20;
+}
+
+.ui-resizable { position: absolute;}
+.ui-resizable-handle { position: absolute;font-size: 0.1px;z-index: 99999; display: block; }
+.ui-resizable-disabled .ui-resizable-handle, .ui-resizable-autohide .ui-resizable-handle { display: none; }
+.ui-resizable-n { cursor: n-resize; width: 9px; height: 10px; top: -2px; left: 47%; }
+.ui-resizable-s { cursor: s-resize; width: 9px; height: 10px; bottom: -2px; left: 47%; }
+.ui-resizable-e { cursor: e-resize; width: 10px; height: 9px; right: -2px; top: 47%; }
+.ui-resizable-w { cursor: w-resize; width: 10px; height: 9px; left: -2px; top: 47%; }
+.ui-resizable-se { cursor: se-resize; width: 13px; height: 13px; right: -5px; bottom: -5px; }
+.ui-resizable-sw { cursor: sw-resize; width: 13px; height: 13px; left: -5px; bottom: -5px; }
+.ui-resizable-nw { cursor: nw-resize; width: 13px; height: 13px; left: -5px; top: -5px; }
+.ui-resizable-ne { cursor: ne-resize; width: 13px; height: 13px; right: -5px; top: -5px;}
+
+/** Bootstrap Dark Modal Styles **/
+.modal-open .modal, .btn:focus {
+    outline: none !important;
+}
+/*.modal.dark { background-color: #2d3032; }*/
+.modal.dark .modal-body {
+  background: #40464b;
+}
+
+.modal.dark .modal-header {
+  background: #2d3032;
+  border-bottom: 1px solid #2a2c2e;
+}
+.modal.dark .modal-header h1, .modal.dark .modal-header h2, .modal.dark .modal-header h3, .modal.dark .modal-header h4 {
+  color: #ccc;
+}
+
+.modal.dark .modal-footer {
+  background: #2d3032;
+  border-top: 1px solid #2a2c2e;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+

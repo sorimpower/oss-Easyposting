@@ -1,0 +1,1548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>&quot;엄준일&quot;과 함께하는 소프트웨어를 위한 플랫폼 이야기</title>
+		<link>http://blog.powerumc.kr/</link>
+		<description>소프트웨어를 위한 개발, 테스팅, 통합, 프로세스, 플랫폼의 경험과 새로운 기술을 소개하는 블로그입니다.</description>
+		<language>ko</language>
+		<pubDate>Wed, 17 Sep 2014 08:53:43 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>POWERUMC</managingEditor>
+		<image>
+			<title>&quot;엄준일&quot;과 함께하는 소프트웨어를 위한 플랫폼 이야기</title>
+			<url>http://cfile2.uf.tistory.com/image/2777194F5230845A146C52</url>
+			<link>http://blog.powerumc.kr</link>
+			<description>소프트웨어를 위한 개발, 테스팅, 통합, 프로세스, 플랫폼의 경험과 새로운 기술을 소개하는 블로그입니다.</description>
+		</image>
+		<item>
+			<title>[Synergy] 여러 컴퓨터에서 키보드, 마우스 공유</title>
+			<link>http://blog.powerumc.kr/475</link>
+			<description>개요 윈도우 &lt;-&gt; 맥 &lt;-&gt; 리눅스 등 멀티 컴퓨터에서 마우스와 키보드를 공유할 수 있는 소프트웨어로 편하게 개발하기 Pair Programming 시에 키보드의 마우스를 주거니 받거니 할 필요 없이 각각 키보드와 마우스를 이용하여 개발하기 설치하기 1. 공식 홈페이지 http://synergy-project.org/ 2. 다운로드 링크 http://synergy-project.org/download/?list 3. 바로 다운로드 Stable ve..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-475-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-475-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-475-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/475&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>O/S</category>
+			<category>Keyboard</category>
+			<category>Mouse</category>
+			<category>share</category>
+			<category>synergy</category>
+			<category>마우스</category>
+			<category>시너지</category>
+			<category>키보드</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/475</guid>
+			<comments>http://blog.powerumc.kr/475#entry475comment</comments>
+			<pubDate>Wed, 17 Sep 2014 08:52:39 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Handlebars] Handlebars.java 버전의 with helper 버그 패치 커밋</title>
+			<link>http://blog.powerumc.kr/474</link>
+			<description>회사에서 Handlebars.java 와 관련된 이슈가 공유가 되었다. Handlebars 가 Javascript 버전과 Java 버전의 #with helper 결과가 동일하지 않습니다. 우선 이 이슈 버그를 해결한 코드는 필자의 github 저장소 https://github.com/powerumc/handlebars.java.bug-fix 에 커밋 되어 있고, 원본 저장소의 이슈 번호 #314, Pull Request #315 에 등록 되었다...&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-474-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-474-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-474-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/474&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Java</category>
+			<category>Handlebars</category>
+			<category>Handlebars.java</category>
+			<category>java</category>
+			<category>Javascript</category>
+			<category>템플릿</category>
+			<category>핸들바</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/474</guid>
+			<comments>http://blog.powerumc.kr/474#entry474comment</comments>
+			<pubDate>Sun, 17 Aug 2014 23:18:13 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Java] Java 8 Interface, default 메서드의 고찰</title>
+			<link>http://blog.powerumc.kr/473</link>
+			<description>얼마 전 자바8 람다 나머지 이야기를 보면서 평소 필자가 알던 Java와는 완전히 달라 보였다. 필자가 알고 있던 Java는 보수적이지만 정통적이라고 생각 해왔는데 과감히 이 생각을 깨졌다.  Java 8 Lambda 에 대해 궁금한 부분은 필자가 예전에 작성한 아티클을 참고하기 바란다. [Java] Java 8 의 Lambda(람다) 표현식에 대한 고찰 Java 8 Interface 변경 사항 default 키워드 오라클의 Defining an I..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-473-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-473-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-473-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/473&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Java</category>
+			<category>default method</category>
+			<category>default 메서드</category>
+			<category>Interface</category>
+			<category>java</category>
+			<category>Java 8</category>
+			<category>JDK</category>
+			<category>JRE</category>
+			<category>lambda</category>
+			<category>람다</category>
+			<category>자바</category>
+			<category>자바8</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/473</guid>
+			<comments>http://blog.powerumc.kr/473#entry473comment</comments>
+			<pubDate>Wed, 06 Aug 2014 23:57:59 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Markdown Toc] Markdown 콘텐트를 랜더링, 목차를 만들어 주는 소스 공개</title>
+			<link>http://blog.powerumc.kr/472</link>
+			<description>필자 만든 소스 코드가 GitHub에 올린 것들이 20여 가지가 넘어간다. 소스 코드도 중요 하지만 이것을 잘 설명하는 것도 무척 중요한 것 같다. 거기에 예쁘게 꾸밀 수 있다면 이건 신이 주신 능력임이 분명할 거다. ㅠ Markdown ToC (Table of Contents) 이런 어려움에 착안하여 Markdown ToC를 만들어 GitHub에 공개했다. 링크 : https://github.com/powerumc/markdown-toc Markd..&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/472&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Umc Projects</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/472</guid>
+			<comments>http://blog.powerumc.kr/472#entry472comment</comments>
+			<pubDate>Thu, 15 May 2014 22:40:42 +0900</pubDate>
+		</item>
+		<item>
+			<title>[MonoDevelop] MonoDevelop 한글 버전 프로젝트 오픈</title>
+			<link>http://blog.powerumc.kr/471</link>
+			<description>지난 2013년 7월부터 MonoDevelop 공식 프로젝트를 Fork 하여 MonoDevelop Korean 프로젝트를 진행 하였습니다. 그 결과 한 달을 매달려 약 4,500여 문장을 번역하였습니다. 그냥 번역 작업만 하면 쉽게 생각하겠지만, IDE 툴에서 보여주는 메시지를 영문으로 보여야 할지, 한글로 보여야 할지… 여러 문장이 합쳐지면 어색해 지지 않는지… 그리고 직역을 하게 되면 의미가 잘못 전달되지 않는지… 번역에 따른 크래시 버그…. 이..&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/471&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>MonoDevelop Korean</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/471</guid>
+			<comments>http://blog.powerumc.kr/471#entry471comment</comments>
+			<pubDate>Mon, 12 May 2014 20:24:04 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Redis] 새로 추가한 mysql 명령어로 db 연동</title>
+			<link>http://blog.powerumc.kr/469</link>
+			<description>데이터베이스로 데이터를 조회하는 데, 성능을 꾀하기 위해 redis와 연동을 한다. 신규 기능에 적용하는 것은 어렵지 않을 것 같다. 하지만 기존 legacy 코드를 db에서 redis로 변경 한다면 새로운 전략이 필요할 것이다. 이런 경우가 얼마나 많겠냐마는 때때로 미션 크리티컬한 시스템 문제가 발생하면 한 번쯤 고려해 볼 만한 시나리오다. db에서 redis로 변경한다면 redis client 코드로 db 데이터를 조회하고 redis 데이터를..&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/469&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>C++</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/469</guid>
+			<comments>http://blog.powerumc.kr/469#entry469comment</comments>
+			<pubDate>Mon, 21 Apr 2014 00:45:09 +0900</pubDate>
+		</item>
+		<item>
+			<title>[OpenSSL] 디버깅을 통해 알아보는 Heartbleed 취약성 버그</title>
+			<link>http://blog.powerumc.kr/468</link>
+			<description>전 세계 인터넷은 OpenSSL의 중대한 버그로 난리다. 이 버그의 주요 요지는 특정 OpenSSL을 사용할 경우 메모리의 64KB를 획득할 수 있고, 이 버그로 서버 인증서의 비밀키(개인키)를 취득하여 서버로 오가는 모든 패킷을 취득할 수 있다. 라는 것인데, 이를 가리켜 Heartbleed(심장출혈) 버그라고 한다. 그 만큼 심각한 버그가 맞는데, 일각의 미디어에서 최악의 시나리오를 너무 일반화시키는 것이 아닌가 싶다. 필자가 보안 전문가는 아..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-468-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-468-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-468-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/468&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>C++</category>
+			<category>heartbeat</category>
+			<category>Heartbleed</category>
+			<category>HTTPS</category>
+			<category>OpenSSL</category>
+			<category>TLS</category>
+			<category>버그</category>
+			<category>보안</category>
+			<category>취약성</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/468</guid>
+			<comments>http://blog.powerumc.kr/468#entry468comment</comments>
+			<pubDate>Thu, 17 Apr 2014 01:05:43 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Mac] DeskBoard 앱 할인 이벤트, 프레젠테이션을 위한 앱</title>
+			<link>http://blog.powerumc.kr/467</link>
+			<description>DeskBoard 앱은 프레젠테이션 등으로 발표를 자주 하는 분들을 위해 필자가 만든 앱입니다. (지난 블로그 글) 이번에 $9.99의 앱 가격을 이달 4월 말까지 $2.99 로 할인합니다. DeskBoard 앱은 유료/무료 버전 두 가지가 있습니다. 무료 버전도 모든 기능을 지원 하지만 멀티 모니터(두 대 이상 모니터)를 지원하지 않습니다. 그러므로 외부 모니터에 연결하거나 멀티 모니터 지원이 필요한 분만 유료 버전을 구매하시면 됩니다. 자세한..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-467-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-467-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-467-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/467&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>[Mac App] DeskBoard</category>
+			<category>app</category>
+			<category>AppStore</category>
+			<category>DeskBoard</category>
+			<category>Mac</category>
+			<category>POWERUMC</category>
+			<category>엄준일</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/467</guid>
+			<comments>http://blog.powerumc.kr/467#entry467comment</comments>
+			<pubDate>Tue, 08 Apr 2014 23:54:14 +0900</pubDate>
+		</item>
+		<item>
+			<title>[JAVASCRIPT] 왜 인터넷 웹 서비스가 느려져 가는가?</title>
+			<link>http://blog.powerumc.kr/466</link>
+			<description>인터넷 웹 서비스들이 느려졌다 HTML5 구현체가 속속 모습을 보이면서 웹 서비스들은 다양한 시도를 하고 있다. 과거에는 인터넷을 통해 콘텐트를 생산하여 전파를 했고, 이 콘텐트가 사람들을 모이게 했다. 웹을 통해 커뮤니케이션이 이루어 지면서 비슷한 관심사의 유저들에 의해 인터넷 커뮤니티가 속속 등장했다. 이것이 개인화로 이어지면서 개인이 운영하는 블로그가 많은 인기를 얻었다. 블로그를 열심히 잘 운영하면 사회 지위적인 약자도(a weak perso..&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/466&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Javascript</category>
+			<category>Ajax</category>
+			<category>angular</category>
+			<category>AngularJS</category>
+			<category>Comet</category>
+			<category>Javascript</category>
+			<category>over engineering</category>
+			<category>Web DB</category>
+			<category>web socket</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/466</guid>
+			<comments>http://blog.powerumc.kr/466#entry466comment</comments>
+			<pubDate>Tue, 08 Apr 2014 00:41:08 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Mono] Mono 플랫폼에서 데스크탑 응용 프로그램 개발 3가지 방법</title>
+			<link>http://blog.powerumc.kr/465</link>
+			<description>Mono 데스크탑 응용 프로그램 개발 3가지 방법 클라이언트 응용 프로그램 또는 데스크탑 응용 프로그램을 Mono로 만든다면, 어떤 방법으로 만들면 좋을까? 이 세 가지 방법을 알아본다. 1. System.Windows.Forms System.Windows.Forms(일명 윈폼-WinForm)으로 GDI(그래픽 장치 인터페이스(Graphics Device Interface)의 APIs를 객체지향적으로 제공하는 것을 일컷는다. 이제 대한 자세한 설명은..&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/465&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Mono</category>
+			<category>Glade</category>
+			<category>glade#</category>
+			<category>gtk</category>
+			<category>Gtk#</category>
+			<category>mono</category>
+			<category>monodevelop</category>
+			<category>PANGO</category>
+			<category>pango#</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/465</guid>
+			<comments>http://blog.powerumc.kr/465#entry465comment</comments>
+			<pubDate>Thu, 20 Mar 2014 22:18:46 +0900</pubDate>
+		</item>
+		<item>
+			<title>[MySQL/C/JAVA] MySQL 5.6 버전의 DATETIME 이슈</title>
+			<link>http://blog.powerumc.kr/464</link>
+			<description>프로그래밍은 언제나 숫자와의 경쟁인 것 같다. 반올림이 되느냐, 부동소수점이냐, 정수 오버플로우(integer overflow) 등은 백발이 되어 코드를 만질 때 까지 항상 따라다니는 문제가 될 것이다.  MySQL 날짜 관련 이슈 얼마 전 필자가 다니는 회사에서 발생한 데이터베이스 관련 이슈로 다음과 같은 문제가 발생하였다. 아래는 MySQL 관련 문제에 대하여 공유된 내용이다. MySQL 5.6.4 부터 시간값 저장시 밀리세컨드를 지원한다. 하지..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-464-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-464-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-464-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/464&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Java</category>
+			<category>c</category>
+			<category>java</category>
+			<category>mysql</category>
+			<category>MySQL Connector/J</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/464</guid>
+			<comments>http://blog.powerumc.kr/464#entry464comment</comments>
+			<pubDate>Wed, 12 Mar 2014 22:34:25 +0900</pubDate>
+		</item>
+		<item>
+			<title>[GitHub] 세 가지 업데이트 소식 js-lambda-expression, js-array-extensions, monodevelop-korean</title>
+			<link>http://blog.powerumc.kr/463</link>
+			<description>필자가 github를 통해서 제공하는 자바스크립트 두 가지 패키지 모두 npm과 관련된 버그가 픽스 되었다. 각각 npm package 버전이 업데이트 되었고, nuget은 금주 중으로 패키지를 재배포 할 예정이다. 또한, Unity 게임 개발 및 Mono 개발에 필요한 MonoDevelop 한국어 버전도 몇 주 전 최신 저장소 코드로 업데이트가 완료 되었다. Bugs related to npm both packages provided the au..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-463-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-463-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-463-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/463&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Javascript</category>
+			<category>array-extensions</category>
+			<category>Javascript</category>
+			<category>js-array-extensions</category>
+			<category>JS-Lambda</category>
+			<category>js-lambda-expression</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/463</guid>
+			<comments>http://blog.powerumc.kr/463#entry463comment</comments>
+			<pubDate>Thu, 20 Feb 2014 22:59:36 +0900</pubDate>
+		</item>
+		<item>
+			<title>[GDB] Hopper Disassembler 앱</title>
+			<link>http://blog.powerumc.kr/462</link>
+			<description>필자는 소프트웨어 개발에 필요한 앱은 라이선스를 구매해서 쓴다. 자랑은 아니지만 앱스토어와 그 외 구매한 앱의 개수가 200개가 넘어간다. 히힣; 오늘 소개하는 앱 처럼 제값어치 하는 앱에겐 뭔가 모를 희열을 느낀다. 여성분들이 쇼핑을 좋아하는 것처럼 -0- Hopper Disassembler 이 앱은 윈도우의 WinDbg, 그리고 GNU gdb처럼 디버거 명령줄(Command Line)에 익숙하지 않은 디버거에게 유용한 앱이다. 몇 달 전, Obj..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-462-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-462-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-462-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/462&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>C++</category>
+			<category>c</category>
+			<category>c++</category>
+			<category>Disassembler</category>
+			<category>disassembly</category>
+			<category>Hopper</category>
+			<category>Mac</category>
+			<category>맥</category>
+			<category>어셈블리어</category>
+			<category>역어셈블리</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/462</guid>
+			<comments>http://blog.powerumc.kr/462#entry462comment</comments>
+			<pubDate>Wed, 12 Feb 2014 02:21:19 +0900</pubDate>
+		</item>
+		<item>
+			<title>[크롬 브라우저] 팝업 창에서 스크롤바 비활성 되는 버그</title>
+			<link>http://blog.powerumc.kr/461</link>
+			<description>현재 사용하는 크롬 브라우저 버전은 32.0.1700.77. 이 버전에서 팝업창에서 스크롤바가 비활성화되는 버그가 있다. 이 버그는 윈도우 운영체제에서 발생한다. 필자가 사용하는 맥OS 버전의 크롬에서는 발생하지 않는다. 버그 환경 재연 방법 The Pro Shop 웹 사이트에서 상품 상세 페이지에서 ‘Size Chart’ 링크를 클릭하여 팝업창을 열어 마우스 휠로 스크롤이 잘 되는 것을 확인할 수 있다. 하지만 클릭을 하거나 드래그를 하면 가로/세..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-461-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-461-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-461-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/461&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Javascript</category>
+			<category>canary</category>
+			<category>chrome</category>
+			<category>chromium</category>
+			<category>git</category>
+			<category>Open Source</category>
+			<category>버그</category>
+			<category>오픈소스</category>
+			<category>이슈</category>
+			<category>카나리아</category>
+			<category>크로미움</category>
+			<category>크롬</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/461</guid>
+			<comments>http://blog.powerumc.kr/461#entry461comment</comments>
+			<pubDate>Sun, 26 Jan 2014 21:58:07 +0900</pubDate>
+		</item>
+		<item>
+			<title>[엄씨생각] `C언어로 API 서버 개발, 생각보다 나쁘지 않아요' 글을 보고...</title>
+			<link>http://blog.powerumc.kr/460</link>
+			<description>최근 재미있는 글을 봤다. C 언어로 모바일을 위한 API 서버를 만들었는데, 이에 대해 댓글의 토론이 가관이 아니다. 물귀신들이 들러 붙고 난리도 아니다. 아파치 모듈로 개발된 API 서버, 이음 베이론을 소개합니다. C언어로 API 서버 개발, 생각보다 나쁘지 않아요 글의 결론은 ‘모바일 API 서버를 C 언어로 만드니 성능이 좋네요’.. 이에 대항하는 물귀신들은 ‘나를 납득시킬만한 근거를 대라’, ‘C언어로 만들었다고 자랑질이냐’ 등등…  모든..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-460-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-460-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-460-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/460&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>엄씨 생각</category>
+			<category>c</category>
+			<category>C 언어</category>
+			<category>java</category>
+			<category>Python</category>
+			<category>RUBY</category>
+			<category>댓글</category>
+			<category>루비</category>
+			<category>찌질이들</category>
+			<category>토론</category>
+			<category>파이썬</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/460</guid>
+			<comments>http://blog.powerumc.kr/460#entry460comment</comments>
+			<pubDate>Thu, 23 Jan 2014 01:30:10 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Mac App] 프레젠테이션을 위한 앱 - DeskBoard</title>
+			<link>http://blog.powerumc.kr/459</link>
+			<description>맥 앱스토어 다운로드 DeskBoard (유료) DeskBoard Free (무료) 프레젠테이션 앱 - DeskBoard 여러분의 성공적인 발표나 세미나를 위해 당신에게 더 집중할 수 있도록 DeskBoard 앱을 사용해 보세요. 여러분이 전달하고자 하는 메시지를 다양한 도형을 사용하여 청중들에게 정확하게 전달할 수 있어요. 그럼 청중들은 당신이 무엇을 강조하는지 쉽게 알 수 있답니다. DeskBoard 앱은 다음과 같은 분들이 사용하는 것을 권장합..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-459-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-459-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-459-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/459&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>[Mac App] DeskBoard</category>
+			<category>board</category>
+			<category>brush</category>
+			<category>DeskBoard</category>
+			<category>Desktop</category>
+			<category>DRAW</category>
+			<category>drawing</category>
+			<category>pen</category>
+			<category>Present</category>
+			<category>presentation</category>
+			<category>그리기</category>
+			<category>데스크탑</category>
+			<category>데스크톱</category>
+			<category>드로잉</category>
+			<category>발표</category>
+			<category>보드</category>
+			<category>브러시</category>
+			<category>스피커</category>
+			<category>프레젠테이션</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/459</guid>
+			<comments>http://blog.powerumc.kr/459#entry459comment</comments>
+			<pubDate>Sun, 12 Jan 2014 23:49:42 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Mac App] 자신있고 용감하게 눈팅하기 위한 앱 - 슈퍼 눈팅 (무료)</title>
+			<link>http://blog.powerumc.kr/458</link>
+			<description>맥 앱스토어 다운로드 슈퍼 눈팅 (무료) 슈퍼 눈팅 (무료) 눈치 보지 말고 눈으로 팅하자… 눈팅!! 소셜 네트워킹을 하고 있는데 눈치 보인다면… 인터넷 쇼핑을 하고 있는데 눈치 보인다면… 이제 눈팅 하세요… 눈팅 ^_^ 주요 기능 인기 있는 웹사이트 목록 투명도를 조절할 수 있음 아이폰, 아이패드, 랩탑 중 원하는 디바이스 모드로 브라우징 v1.1 페이스북, 트위터 등 공유 기능 브라우저 캐시 및 쿠키 제거 기능 소소한 버그 수정 스크린샷&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-458-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-458-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-458-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/458&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>[Mac App] 슈퍼 눈팅</category>
+			<category>App Store</category>
+			<category>coupang</category>
+			<category>facebook</category>
+			<category>github</category>
+			<category>Google</category>
+			<category>Internet</category>
+			<category>Mac AppStore</category>
+			<category>naver</category>
+			<category>Shopping</category>
+			<category>Social</category>
+			<category>twitter</category>
+			<category>눈팅</category>
+			<category>맥</category>
+			<category>맥 앱스토어</category>
+			<category>서핑</category>
+			<category>쇼핑</category>
+			<category>앱스토어</category>
+			<category>엡</category>
+			<category>인터넷</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/458</guid>
+			<comments>http://blog.powerumc.kr/458#entry458comment</comments>
+			<pubDate>Sun, 12 Jan 2014 23:37:19 +0900</pubDate>
+		</item>
+		<item>
+			<title>[퀴즈] 프로그래머를 위한 문제 #4 - 또라이 같은 C 언어 코드를 설명하라</title>
+			<link>http://blog.powerumc.kr/457</link>
+			<description>재미있는 C 언어 문제 인터넷 RSS 피드를 구독해서 보다가 재미있는 C 언어 코드를 발견했다. 조금 난해하게 보이는 코드다. 이런 코드로 신입 개발자 면접 시험을 보면 재미있겠단 생각이 든다. 문제의 C 언어 코드는 다음과 같다. 소스 코드와 실행 결과가 전혀 매치가 안되는 이 또라이 같은 코드를 보고 순간 멈칫 할 것이다. 하지만 조금 귀 기울여 보면 말 되는 코드다. 이 링크를 클릭하면 즉시 컴파일 된 실행 결과도 함께 볼 수 있다. main(..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-457-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-457-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-457-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/457&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>C++</category>
+			<category>c</category>
+			<category>c++</category>
+			<category>C언어</category>
+			<category>Quiz</category>
+			<category>문제</category>
+			<category>코드 분석</category>
+			<category>퀴즈</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/457</guid>
+			<comments>http://blog.powerumc.kr/457#entry457comment</comments>
+			<pubDate>Mon, 30 Dec 2013 20:28:26 +0900</pubDate>
+		</item>
+		<item>
+			<title>[MAC] OSX 매버릭스에서 마운틴 라이언으로 다운그레이드 하기</title>
+			<link>http://blog.powerumc.kr/456</link>
+			<description>OSX 매버릭스(maverics)에서 마운틴 라이언(mountain lion)으로 다운그레이드 해야 할 필요가 생겼다. 매버릭스 환경에서 OSX 1.8 SDK 버전으로 맥 앱을 개발하면 OSX 1.9(매버릭스)에서 잘 실행되지만, OSX 1.8(마운틴 라이언)에서 맥 앱이 crash가 발생하는 경우가 있다. crashing이 발생하는 경우의 대부분이 OSX SDK의 일부 obsulete 함수가 있는데, 이 함수를 사용하는 경우다. 이런 crashin..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-456-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-456-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-456-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/456&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Mac</category>
+			<category>Downgrade</category>
+			<category>Mac</category>
+			<category>Macintosh</category>
+			<category>maverics</category>
+			<category>Mountain Lion</category>
+			<category>OSX</category>
+			<category>다운그레이드</category>
+			<category>마운틴 라이언</category>
+			<category>매버릭스</category>
+			<category>매킨토시</category>
+			<category>맥</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/456</guid>
+			<comments>http://blog.powerumc.kr/456#entry456comment</comments>
+			<pubDate>Thu, 26 Dec 2013 23:25:36 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Gradle] Java 버전 업그레이드 후 Gradle 빌드 오류</title>
+			<link>http://blog.powerumc.kr/455</link>
+			<description>Gradle 로컬 캐시로 인한 빌드 실패 얼마 전 회사에서 Java 버전을 Java 7 버전으로 업그레이드 했다. 이에 따라 JDK, Tomcat 7을 구성하고 언어 스팩을 @1.7 버전으로 설정한 후 다음과 같은 오류가 발생하였다. MCPOWERUMC:coupang powerumc$ ./gradlew FAILURE: Build failed with an exception. * What went wrong: A problem occurred conf..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-455-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-455-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-455-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/455&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Java</category>
+			<category>gradle</category>
+			<category>java</category>
+			<category>Java 6</category>
+			<category>Java 7</category>
+			<category>JDK</category>
+			<category>JDK 1.6</category>
+			<category>JDK 1.7</category>
+			<category>Upgrade</category>
+			<category>업그레이드</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/455</guid>
+			<comments>http://blog.powerumc.kr/455#entry455comment</comments>
+			<pubDate>Sun, 17 Nov 2013 22:04:05 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Objective-C] OSX 매버릭스(Mavericks) 업데이트 후 개발 중인 앱이 정상 작동하지 않는다면</title>
+			<link>http://blog.powerumc.kr/454</link>
+			<description>매버릭스 업데이트 후 개발 중인 맥 앱에서 발생하는 문제 OSX 매버릭스로 업데이트한 후 XCode로 개발 중인 유틸리티 프로그램의 일부 기능이 작동하지 않는 현상이 발생한다. 원래 Alpha 버전으로 곧 배포할 예정이었는데, 이 문제로 배포가 늦어질 것 같다. 문제는 Objective-C와 Cocoa를 사용하여 전역 마우스 및 키보드 후킹(hook global mouse and keyboard event)을 사용하는 코드가 있는데, 그 중 키보드..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-454-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-454-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-454-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/454&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>C++</category>
+			<category>app</category>
+			<category>cocoa</category>
+			<category>Global Event</category>
+			<category>hook</category>
+			<category>Hooking</category>
+			<category>Mac</category>
+			<category>Objective-C</category>
+			<category>OSX</category>
+			<category>xcode</category>
+			<category>맥</category>
+			<category>손쉬운 사용</category>
+			<category>앱</category>
+			<category>전역 이벤트</category>
+			<category>후킹</category>
+			<category>훅</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/454</guid>
+			<comments>http://blog.powerumc.kr/454#entry454comment</comments>
+			<pubDate>Fri, 25 Oct 2013 01:07:33 +0900</pubDate>
+		</item>
+		<item>
+			<title>[IntelliJ] Tomcat 구동 오류 해결</title>
+			<link>http://blog.powerumc.kr/453</link>
+			<description>IntelliJ 배포 오류 Gradle로 구성된 프로젝트가 여러개 있는데, 그 중 하나만 IntelliJ에서 제대로 인식하는데 실패한 적이 있다. Tomcat으로 올바로 구동이 되어야 하는데, 배포가 되었다고만 나오고 Tomcat Context에 로드되지 않는 현상이 발생한다.  관련된 오류를 검색해 보았다. 하지만 전혀 다른 문제의 답변이었다. Artifact XXX:war exploded: Server is not connected. Deploy..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-453-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-453-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-453-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/453&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Java</category>
+			<category>IntelliJ</category>
+			<category>java</category>
+			<category>spring</category>
+			<category>Spring MVC</category>
+			<category>Tomcat</category>
+			<category>스프링</category>
+			<category>인텔리J</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/453</guid>
+			<comments>http://blog.powerumc.kr/453#entry453comment</comments>
+			<pubDate>Mon, 21 Oct 2013 00:25:48 +0900</pubDate>
+		</item>
+		<item>
+			<title>[보안] 각종 보안 소프트웨어 우회 방법과 개인 정보 보호</title>
+			<link>http://blog.powerumc.kr/452</link>
+			<description>[보안] 각종 보안 소프트웨어 우회 방법과 개인 정보 보호 개인의 보안 유출은 누구의 책임? 각종 엑티브 엑스(ActiveX)를 아무리 욕해도 분명 여러분은 은행권 등의 보안 엑티브 엑스(ActiveX)의 덕을 많이 봤으리라 믿는다. 엑티브 엑스를 옹호하는 것은 아니지만, 당장 이 개인 정보 보호 수단을 철회하면 훨씬 쉽게 여러분이 입력하는 키보드 문자를 엿볼 수 있고, 세션 타임 아웃 전에 당신의 쿠키를 취득하여 방문한 웹 사이트에 로그인 할 수도..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-452-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-452-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-452-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/452&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>엄씨 이야기</category>
+			<category>activex</category>
+			<category>aladdin</category>
+			<category>crack</category>
+			<category>Cracker</category>
+			<category>cracking</category>
+			<category>hack</category>
+			<category>hacker</category>
+			<category>hacking</category>
+			<category>ID</category>
+			<category>Operation System</category>
+			<category>OS</category>
+			<category>password</category>
+			<category>USB</category>
+			<category>Windows</category>
+			<category>개인 정보</category>
+			<category>게임 소프트웨어</category>
+			<category>결제</category>
+			<category>드롭박스</category>
+			<category>방화벽</category>
+			<category>보안</category>
+			<category>보안 업데이트</category>
+			<category>복구모드</category>
+			<category>비밀번호</category>
+			<category>소프트웨어</category>
+			<category>아이디</category>
+			<category>안전모드</category>
+			<category>알라딘</category>
+			<category>에버노트</category>
+			<category>엑티브 엑스</category>
+			<category>엑티브엑스</category>
+			<category>우회하기</category>
+			<category>운영체제</category>
+			<category>웹 브라우저</category>
+			<category>윈도우</category>
+			<category>은행</category>
+			<category>크래커</category>
+			<category>크래킹</category>
+			<category>해커</category>
+			<category>해킹</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/452</guid>
+			<comments>http://blog.powerumc.kr/452#entry452comment</comments>
+			<pubDate>Mon, 07 Oct 2013 06:30:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[마이크로소프트의 몰락] .NET 개발자가 .NET 플랫폼을 떠나는 이유</title>
+			<link>http://blog.powerumc.kr/451</link>
+			<description>.NET 플랫폼이 나오고 십 여년 동안 마이크로소프트(Microsoft)는 .NET 플랫폼 시장을 개척하고 활성화 하기 위해 많은 투자를 아끼지 않았다. 많은 사람들이 주저 없이 .NET 개발에 뛰어 들었고, 비주얼 스튜디오(Visual Studio) 편리한 개발 도구는 .NET 플랫폼 개발에 필수 도구가 되었다. 하지만, 이제 한 때 과거의 이야기가 되어가고 있다. .NET은 새로 익히기 꺼려지는 플랫폼 중 하나가 되었고, 사회에 진출하는 새로운..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-451-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-451-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-451-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/451&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>.NET</category>
+			<category>.NET</category>
+			<category>.NET Platform</category>
+			<category>.NET 플랫폼</category>
+			<category>ASP.NET</category>
+			<category>ASP.NET MVC</category>
+			<category>Developer</category>
+			<category>java</category>
+			<category>Microsoft</category>
+			<category>native</category>
+			<category>play framework</category>
+			<category>Spring Framework</category>
+			<category>struts</category>
+			<category>Team Foundation Server</category>
+			<category>TFS</category>
+			<category>VB</category>
+			<category>VB6</category>
+			<category>VISUAL BASIC</category>
+			<category>Visual C</category>
+			<category>Visual C++</category>
+			<category>Visual Studio</category>
+			<category>Windows 8</category>
+			<category>windows phone 7</category>
+			<category>Windows Phone 8</category>
+			<category>개발자</category>
+			<category>네이티브</category>
+			<category>닷넷</category>
+			<category>닷넷 플랫폼</category>
+			<category>마이크로소프트</category>
+			<category>비주얼 스튜디오</category>
+			<category>스트럿츠</category>
+			<category>스프링 프레임워크</category>
+			<category>윈도우 8</category>
+			<category>윈도우 폰 7</category>
+			<category>윈도우 폰 8</category>
+			<category>팀 파운데이션 서버</category>
+			<category>플레이 프레임워크</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/451</guid>
+			<comments>http://blog.powerumc.kr/451#entry451comment</comments>
+			<pubDate>Tue, 24 Sep 2013 07:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Ruby] Ruby 컴파일 및 설치</title>
+			<link>http://blog.powerumc.kr/450</link>
+			<description>Ruby 컴파일 및 설치  최신 rails를 설치하려면 ruby 1.8.3 버전보다 높아야 한다. 그러므로 git 저장소에서 현재 개발 버전인 trunk 브랜치를 받아야 하는데, 필자의 경우는 ruby_2_0_0 버전을 fetching 하였다. 필자는 이런 저런 실험을 하는 것을 좋아해서 소스 코드를 직접 컴파일해서 사용하는 방법을 선호한다. 대부분 컴파일 순서나 방식은 대체로 비슷하다. [1] 컴파일 환경은 MacOS. $ git clone htt..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-450-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-450-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-450-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/450&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>make</category>
+			<category>rails</category>
+			<category>RUBY</category>
+			<category>RubyOnRails</category>
+			<category>루비</category>
+			<category>루비 온 레일즈</category>
+			<category>컴파일</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/450</guid>
+			<comments>http://blog.powerumc.kr/450#entry450comment</comments>
+			<pubDate>Mon, 23 Sep 2013 07:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[GIT] 외부 모듈 추가/제거, 나중에 추가된 submodule deinit 명령</title>
+			<link>http://blog.powerumc.kr/449</link>
+			<description>개요 Git을 이용하여 외부 모듈을 참조하려면 git submodule 명령을 이용해서 외부 모듈을 clone 할 수 있다. git submodule 명령은 git clone 과 달리 같은 작업 디렉토리(Working Directory)에 여러 모듈을 추가할 수 있는 장점이 있다. 샘플 코드 추가 (연습하기) 본 아티클에서 사용하는 샘플 코드는 필자가 개발한 Umc.Core의 의존성 주입(DI, Dependency Injection), 역전 제어(I..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-449-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-449-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-449-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/449&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Software Development</category>
+			<category>git</category>
+			<category>git submodule</category>
+			<category>git submodule add</category>
+			<category>submodule</category>
+			<category>submodule deinit</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/449</guid>
+			<comments>http://blog.powerumc.kr/449#entry449comment</comments>
+			<pubDate>Mon, 16 Sep 2013 06:30:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Objective-C] 아름다움을 추구하는 오브젝티브-C 2/2 - 객체지향</title>
+			<link>http://blog.powerumc.kr/448</link>
+			<description>반 객체지향(Half-of-OOP) 가장 먼저 명심하자. 오브젝티브-C는 C언어의 슈퍼셋(Super Set)이고 C++의 객체 지향과는 거리가 멀다. 오브젝티브-C 언어는 마치 객체지향 프로그래밍(OOP, Object-Oriented Programming) 처럼 보이지만 객체지향 언어가 아니다. 그렇다고 완전히 함수형 언어도 아니다. 하지만, 오브젝티브-C는 객체지향의 가장 대표적인 특징인 상속(Inheritence)이 가능하고 인터페이스 구현이 가..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-448-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-448-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-448-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/448&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>C++</category>
+			<category>@category</category>
+			<category>@protocol</category>
+			<category>Mac</category>
+			<category>Object Oriented Programming</category>
+			<category>Objective-C</category>
+			<category>OOP</category>
+			<category>객체지향</category>
+			<category>맥</category>
+			<category>맥킨토시</category>
+			<category>애플</category>
+			<category>오브젝티브-C</category>
+			<category>카테고리</category>
+			<category>프로토콜</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/448</guid>
+			<comments>http://blog.powerumc.kr/448#entry448comment</comments>
+			<pubDate>Thu, 12 Sep 2013 07:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Objective-C] 아름다움을 추구하는 오브젝티브-C 언어 1/ 2- 언어적 특성</title>
+			<link>http://blog.powerumc.kr/447</link>
+			<description>아름답고 자연스러운 오브젝티브-C 필자가 오브젝티브-C(Objective-C)를 접한 것은 올해 초, 갑갑한 문법적인 표현(Syntax)을 보니 코드를 보기가 싫어졌었다. 하지만 많은 iOS 개발자가 생겨나고 맥킨토시(Macintosh)를 쓰면서 자연스럽게 맥용 응용 프로그램에 관심이 생기기 시작했다. 처음에는 리눅스와 대부분의 운영체제를 지원하는 Qt(큐티) 프레임워크를 봐오다가, 코코아(Cocoa) 를 알게 되면서 맥킨토시에 가장 아름다운 UI..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-447-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-447-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-447-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/447&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>C++</category>
+			<category>C 언어</category>
+			<category>c++</category>
+			<category>LLVM</category>
+			<category>Mac</category>
+			<category>Objective-C</category>
+			<category>POWERUMC</category>
+			<category>RTTI</category>
+			<category>Runtime Type Information</category>
+			<category>umc</category>
+			<category>땡초</category>
+			<category>맥</category>
+			<category>맥킨토시</category>
+			<category>엄준일</category>
+			<category>오브젝티브-C</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/447</guid>
+			<comments>http://blog.powerumc.kr/447#entry447comment</comments>
+			<pubDate>Wed, 11 Sep 2013 06:30:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[빅데이터] R / R-Studio 작업 환경 구성</title>
+			<link>http://blog.powerumc.kr/446</link>
+			<description>R-Studio 입문 갑자기 뭔가 분석을 하고 싶었다. 하나의 큰 용량이 아닌 작고 많은 데이터를 분석을 하고자 했다. 이에 가장 적합한 도구는 무엇일까? 빅데이터 트랜드를 대표하는 하둡(Hadoop)의 대용량 분산 파일 시스템(Distributed File System)과 맵리듀스(Map Reduce)는 하나의 큰 용량을 처리하는 데 적합한 플랫폼이다. 왜냐하면 하둡의 분산 파일 시스템은 읽기에 적합하며 추가하여 쓰기 작업을 하기에 매우 비효율 적..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-446-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-446-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-446-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/446&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>BigData</category>
+			<category>bigdata</category>
+			<category>r</category>
+			<category>R-Studio</category>
+			<category>빅데이터</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/446</guid>
+			<comments>http://blog.powerumc.kr/446#entry446comment</comments>
+			<pubDate>Tue, 10 Sep 2013 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[자연] 바다에 사는 포유류와 어류를 구분하는 방법</title>
+			<link>http://blog.powerumc.kr/445</link>
+			<description>바다에 사는 포유류와 어류를 구분하는 방법 개요 필자는 여러 가지 과학에 관심이 많다. 특히 우주 과학에 관심이 많은데, 중학교 때 아인슈타인의 ‘상대성 이론’을 읽으면서 상상을 초월하는 시공간에 많은 의문을 품게 되었다. 그래서 가끔 머릿속으로 ‘저 먼 우주에서 일어나는 일’이나 ‘다차원 우주가 가능할까?’ 라는 도무지 쓸 때 없는 질문을 스스로 하기도 한다. ㅋㅋㅋ 다큐멘터리를 보는 것을 매우 좋아하는데, 바닷속에 사는 어류와 바다를 품에 안고..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-445-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-445-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-445-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://blog.powerumc.kr/445&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-sa/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-동일조건변경허락 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/ShareAlike&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>엄씨 이야기</category>
+			<category>고래</category>
+			<category>바다</category>
+			<category>범고래</category>
+			<category>상어</category>
+			<category>아가미</category>
+			<category>어류</category>
+			<category>폐</category>
+			<category>포유류</category>
+			<category>해양 포유류</category>
+			<author>POWERUMC POWERUMC</author>
+			<guid>http://blog.powerumc.kr/445</guid>
+			<comments>http://blog.powerumc.kr/445#entry445comment</comments>
+			<pubDate>Sat, 24 Aug 2013 09:41:35 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

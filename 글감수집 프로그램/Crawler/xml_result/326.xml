@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="http://rss.egloos.com/style/blog.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>餘分D: physics and fun</title>
+	<link>http://extrad.egloos.com</link>
+	<description>이론물리학자의 물리 이야기</description>
+	<language>ko</language>
+	<pubDate>Thu, 27 Mar 2014 22:55:55 GMT</pubDate>
+	<generator>Egloos</generator>
+	<image>
+		<title>餘分D: physics and fun</title>
+		<url>http://pds20.egloos.com/logo/201107/04/64/a0006364.jpg</url>
+		<link>http://extrad.egloos.com</link>
+		<width>80</width>
+		<height>60</height>
+		<description>이론물리학자의 물리 이야기</description>
+	</image>
+  	<item>
+		<title><![CDATA[ 맥스웰 방정식과 단위계 ]]> </title>
+		<link>http://extrad.egloos.com/4013566</link>
+		<guid>http://extrad.egloos.com/4013566</guid>
+		<description>
+			<![CDATA[ 
+  이번학기 대학원 전자기학 강의를 준비하면서 어떤 단위계를 써야 좋을 지 고민을 많이 했습니다. Jackson이나 제가 이번에 선택한 Zangwill에선 SI 단위계를 쓰고 있는데, 입자물리학자들은 흔히 "God-given-natural-unit"을 사용하고 있고, 물리적으로 후자가 더 명확하게 의미를 보여준다고 생각하기에 고민을 할 수 밖에 없었죠. 물론 "물리" 그 자체는 단위계와 무관하기 때문에 제 고민은 별로 의미 없는 고민 일 수도 있겠습니다만 아무튼 그 이야기를 해볼까 합니다. <br />
+<br />
+일단 맥스웰의 장방정식 부터 써보면 이렇게 써집니다. <br />
+<br />
+$$ \nabla \cdot \vec{E} = K_1 \rho_e  --(1)\\<br />
+ \nabla \cdot \vec{B} = K_2 \rho_m --(2) \\<br />
+\nabla \times \vec{E} = -K_3 \frac{\partial \vec{B}}{\partial t}-K_4 \vec{j}_m --(3)\\<br />
+ \nabla \times \vec{B} = K_5 \frac{\partial \vec{E}}{\partial t} + K_6 \vec{j}_e --(4)$$<br />
+<br />
+여기서 \( (\rho_e, \vec{j}_e) \)는 전기전하밀도와 전기전류밀도이고, \( (\rho_m, \vec{j}_m) \)는 자기전하밀도와 자기전류밀도이고, \(K_1, K_2, \cdots K_6\)는 물리량을 정하는 단위를 어떻게 정하는지에 의해 결정되는 상수들입니다. 즉, 그 자체로는 아무런 물리적 의미가 없이 순전히 단위계를 선택하기 위해 도입된 량들입니다. (quiz:: 이중 몇개가 실제로 independent한 량들일까요?)<br />
+<br />
+이제 몇가지 물리적 조건들로 부터 이 방정식들의 성질을 좀 더 살펴보겠습니다. <br />
+<br />
+1. 전하량 보존 법칙과 자하량 보존 법칙으로 부터 <br />
+<br />
+$$ \nabla \cdot \vec{j}_e + \frac{\partial \rho_e}{\partial t} =0 \Rightarrow K_6 = K_1 K_5 \\<br />
+\nabla \cdot \vec{j}_m + \frac{\partial \rho_m}{\partial t} =0 \Rightarrow K_4 = K_2 K_3 $$<br />
+<br />
+(**위 관계식은 \( \partial Eq.(1)/\partial t\) 그리고 Eq.(4)로 부터 얻을 수 있고, 비슷하게 자하밀도 변화율로부터 아래 관계식도 얻을 수 있습니다. 각 상수들 사이의 상대적인 부호에 유의. **)<br />
+<br />
+ <br />
+2. 진공에서 (in vaccuum, \(\rho_e =\rho_m =0, ~\vec{j}_e =\vec{j}_m=0 \)), curl Eq(3), curl Eq(4) 에서 파동방정식을 얻을 수 있습니다. <br />
+<br />
+$$ (-\nabla^2 + K_3 K_5 \frac{\partial^2}{\partial t^2}) \vec{E} =0 \\<br />
+(-\nabla^2 + K_3 K_5 \frac{\partial^2}{\partial t^2}) \vec{B} =0  $$<br />
+<br />
+그런데, \( [K_3 K_5] = T^2 L^{-2} \sim 1/velocity^2\)이고, 좌표계 선택과 상관없으므로, 일종의 "universal velocity parameter"를 도입할 수 있습니다. \( K_3 K_5 \equiv 1/c^2\). 여기서 \( c\)는 전기장과 자기장의 전파속도를 나타냅니다. (이 값은 이론으로 정할 수 없고, 실험을 통해 측정해야하며, \( c =299792458 {\rm m/sec}\)로 빛의 속도와 같습니다.)<br />
+<br />
+3. 지금까지의 식을 종합하면 \(K_1, K_2 \cdots K_6 \)는 실은 3개의 파라메터만 독립적임을 알 수 있습니다. 여기서 \(K_4, K_5, K_6\)를 택하겠습니다:<br />
+<br />
+$$ K_1 = \frac{K_6}{K_5}, \, K_2 = K_4 K_5 c^2, \, K_3 = \frac{1}{c^2 K_5}$$<br />
+<br />
+특히, \( K_4 = 0 \)이면, \(K_2 =0\)입니다. (만약 \( K_5 \to 0\) 이면 \(K_1, K_3 \to \infty\) 이므로 받아들일 수 없습니다.) 이는 자하의 존재와 자류의 존재가 함께 결정된다는 물리학적 직관과도 일치합니다. 물론 여기서 어느 것이 자하고 어느것이 전하인지는 순전히 우리의 선택에 불과함을 다시 한 번 강조합니다! <br />
+<br />
+자하가 0이라고 하면 (i.e. \(K_2 = 0 = K_4\)), 두개의 상수만이 남습니다. (i.e. \(K_5, K_6\)). 대표적인 몇가지 단위계에서 나타내면,<br />
+<br />
+$$<br />
+(K_5, K_6) = (\frac{1}{c^2}, \mu_0)_\text{SI} =(\frac{1}{c}, \frac{4\pi}{c})_\text{Gaussian}=(1,4\pi)_\text{Natural}$$<br />
+<br />
+이고, "Natural" 단위계에서 빛의 속도를 1로 두었습니다. (관련글 <a href="http://extrad.egloos.com/1586698"> http://extrad.egloos.com/1586698 </a>)<br />
+<br />
+4. Zangwill의 2.7절 내용이 흥미로와 소개합니다. (제 생각에 더 맞게 수정했습니다만 기본적 논의는 비슷합니다.)<br />
+<br />
+전기장과 자기장의 존재는 소위 Lorentz force로부터 알아낼 수 있습니다. SI-unit에서 그 표현은 아래와 같습니다. <br />
+<br />
+$$ \vec{F} = q ( \vec{E} + \vec{v} \times \vec{B} ) $$<br />
+<br />
+여기서 힘-벡터는 소위 polar vector이므로, 전기장은 polar vector이고, 자기장은 외적이 포함되므로 axial vector임을 알 수 있습니다. (polar vector는 방향역전 \(\vec{r}\to -\vec{r}\) 변환에 대해 \(\vec{V}\to -\vec{V}\)가 되는 반면, axial vector는 \(\vec{W} \to \vec{W}\)가 되는 벡터입니다. 참조: <a href="http://en.wikipedia.org/wiki/Pseudovector">http://en.wikipedia.org/wiki/Pseudovector</a>)<br />
+<br />
+따라서, 진공에서 전기장의 시간에 대한 변화율은 "벡터" 성질로 부터, 아래 두가지 가능성으로 좁혀집니다. <br />
+<br />
+$$ \frac{\partial E}{\partial t} \sim a \vec{E}+ b \nabla \times \vec{B} + c "\vec{j}"$$<br />
+(한편, 예를 들어 \(\vec{r} \times \vec{B}\)는 좌표계에 의존하는 값이 되어 적합하지 않습니다.)<br />
+<br />
+그런데 "a"항은 전기장이 exponentially growing/decaying 하는 성질을 가지므로 적합하지 않고, 오직 "b"항 그리고 "전류"로 해석할 수 있는 "c" 항만이 적합함을 알 수 있고, 다름아닌 Eq.(4)임을 확인 할 수 있습니다. 같은 논리로 Eq.(3)도 얻을 수 있습니다. 거기에 전하량 보존 법칙을 적용하면 Eq.(1)과 Eq.(4)는 직접 관계를 갖고 있음을 이미 보았습니다. 다른 식으로 접근하자면, 전류항에 대해 좀 더 생각해보면, 물리적으로 "전하분포의 변화로  전기장의 시간에 대한 변화가 발생한다"는 것을 나타냅니다. 이로부터 다시 전하량 보존 법칙에서 Eq.(1)을 얻는다고도 볼 수 있겠습니다. <br />
+<br />
+결론적으로, 맥스웰의 방정식은 벡터와 액시얼 벡터의 성질로 부터 상당 부분 그 형태가 결정되며, 전하량 보존 법칙까지 고려하면 거의 유일하게 가능한 모양임을 알 수 있게 됩니다. <br />
+<br />
+5. 현대 입자물리 언어로 하면 U(1) 게이지 대칭성을 요구했을 때 상대론적으로 유일하게 가능한 장이론이 바로 맥스웰 이론이므로 전자기학이 보다 근원적인 대칭성에 의해 유도되는 이론으로 볼 수도 있습니다. (This is fun!)<br />
+<br/><br/>tag : <a href="/tag/맥스웰" rel="tag">맥스웰</a>,&nbsp;<a href="/tag/전자기학" rel="tag">전자기학</a>,&nbsp;<a href="/tag/물리량" rel="tag">물리량</a>,&nbsp;<a href="/tag/단위계" rel="tag">단위계</a>			 ]]> 
+		</description>
+		<category>물리 이야기</category>
+		<category>맥스웰</category>
+		<category>전자기학</category>
+		<category>물리량</category>
+		<category>단위계</category>
+
+		<comments>http://extrad.egloos.com/4013566#comments</comments>
+		<pubDate>Thu, 27 Mar 2014 09:50:10 GMT</pubDate>
+		<dc:creator>ExtraD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ BICEP2 중력파 검출 ]]> </title>
+		<link>http://extrad.egloos.com/4012399</link>
+		<guid>http://extrad.egloos.com/4012399</guid>
+		<description>
+			<![CDATA[ 
+  1. 남극에 위치한 실험 BICEP2에서 어제 논문 공개와 동시에 (정확히는 1시간 후에) 기자회견을 개최하고 '빅뱅으로 부터 비롯한 중력파'를 최초로 검출하는데 성공했다고 보고했다. <br />
+<br />
+'빅뱅으로 부터 비롯한 중력파'는 우주배경복사의 편광 패턴에 그 흔적을 드러낼 수 있는데, 소위 발산 편광(divergent polarization, E-mode)와 대별하여 비발산 편광(divergence-free polarization, B-mode) 형태로 나타난다. E-와 B-는 전기장(E)와 자기장(B)으로 부터 온 이름이지만 직접 연관있지는 않고, 자기장이 divergence-free \(\nabla \cdot \vec{B} =0 \)라는데서 따온 명칭이다. <br />
+<br />
+이번 발견은 B-mode 중 우주 먼지(dust)로 불리는 중력 렌즈 효과에 의한 시그널이 아닌 '태초로 부터 기인한' 부분을 검출했다는 것이다. 물론 엄청나게 어려운 일이지만 7.0 \(\sigma\) 정도의 신뢰도를 가진다고 실험팀은 밝히고 있다. (혹은 백그라운드 제거 방법에 따라서는 5.9 \(\sigma\))<br />
+<br />
+아래는 BICEP2에서 발표한 '발견' 시그널.<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds26.egloos.com/pds/201403/19/64/a0006364_5328cec8164c5.png" width="500" height="389.210019268" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201403/19/64/a0006364_5328cec8164c5.png');" /></div><br />
+<br />
+BICEP2의 결과가 Planck에 의해 검증되기까지 수 개월이 걸릴 것으로 보인다. 엄청나게 어려운 실험인데도, 발견-검증의 건강한 과학적 프로세스가 비교적 짧은 시간에 제대로 작동할 것을 기대한다. <br />
+<br />
+BICEP2의 논문과 관련 자료는 <a href="http://bicepkeck.org/">[여기]</a>에서 찾으면 된다.<br />
+<br />
+<br />
+2. BICEP2 결과를 그대로 받아들인다고 가정하면, 인플레이션을 발생시킨 '인플라톤' 에너지 밀도가 대략 \( \rho\sim (M_{Planck}/100)^4 \) 였다. \(M_{Planck} = 1/\sqrt{8\pi G} \approx 2\times 10^{15}~{\rm TeV}\)는 변환플랑크에너지(reduced Planck energy), \(G\)는 뉴턴 상수. <br />
+<br />
+LHC의 충돌에너지가 대략 10 TeV라는 것을 고려하면, 이보다  100조배 (\(10^{14}\)배) 더 큰 에너지에서 발생한 물리현상을 본 셈이다. <br />
+<br />
+이 에너지는 흥미롭게도 전자기력, 약한핵력, 강한핵력 등 중력을 제외한 자연계의 기본 상호작용의 세기가 같아지는 에너지와 거의  일치한다. 일부 학자들은 이것이 `대통일 이론의 증거'라고 까지 이야기한다. 너무 많이 나가고 싶진 않지만, 아무튼 대단히 흥미롭다.<br />
+<br />
+3. 인플레이션 이론을 써본 학자들에게 이번 결과는 충격이다. 그 이유는 간단하다. 대부분의 이론이 틀렸다는 것을 말해주기 때문이다. 이에 비해 가장 단순한 인플레이션 이론인 '인플레이션 이론의 아버지' Linde의 Chaotic inflation 이론의 예측치는 놀랍게도 실험 결과와 일치한다.<br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds26.egloos.com/pds/201403/19/64/a0006364_5328d56ebcb97.png" width="500" height="320.105820106" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201403/19/64/a0006364_5328d56ebcb97.png');" /></div><br />
+<br />
+참고로 '초끈이론'에서 나온 'prediction'은 다음과 같다. (They are all ruled out by many sigmas..)<br />
+<br />
+(from) C.P. Burgess et al JCAP11(2013)003 <br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds26.egloos.com/pds/201403/19/64/a0006364_5328dc2fa07f2.jpg" width="500" height="289.126853377" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201403/19/64/a0006364_5328dc2fa07f2.jpg');" /></div><br />
+<br />
+<br />
+4. BICEP2의 결과가 대단히 흥미롭지만 문제가 보이지 않는 것도 아니다. 특히 Lensing에 의한 B-mode 백그라운드를 얼마나 잘 제거했느냐에 대해서도 의문이 있다. 아래 그래프를 보면 초록색 동그라미(태초에서 비롯한 중력파)와 관측 결과(노란색 동그라미) 사이에 일정한 차이가 보이고, 이것이 얼마나 시그널 신뢰도를 바꿀 것인지 전문가들 사이에 논의가 있다. 당연히 추가 검증이 엄청나게 중요하다고 본다. <br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds27.egloos.com/pds/201403/19/64/a0006364_5328cfc0ba8e2.png" width="500" height="389.961389961" onclick="Control.Modal.openDialog(this, event, 'http://pds27.egloos.com/pds/201403/19/64/a0006364_5328cfc0ba8e2.png');" /></div><br />
+<br />
+5. 발견의 시대에 물리학자로 살고 있다는 행운에 다시 한 번 감사!!<br />
+ <br/><br/>tag : <a href="/tag/중력파" rel="tag">중력파</a>,&nbsp;<a href="/tag/인플레이센" rel="tag">인플레이센</a>,&nbsp;<a href="/tag/대통일" rel="tag">대통일</a>,&nbsp;<a href="/tag/BICEP2" rel="tag">BICEP2</a>,&nbsp;<a href="/tag/CMBR" rel="tag">CMBR</a>			 ]]> 
+		</description>
+		<category>물리 이야기</category>
+		<category>중력파</category>
+		<category>인플레이센</category>
+		<category>대통일</category>
+		<category>BICEP2</category>
+		<category>CMBR</category>
+
+		<comments>http://extrad.egloos.com/4012399#comments</comments>
+		<pubDate>Tue, 18 Mar 2014 23:09:57 GMT</pubDate>
+		<dc:creator>ExtraD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 힉스에 대한 느낌적 느낌 ...(1부) ]]> </title>
+		<link>http://extrad.egloos.com/3985793</link>
+		<guid>http://extrad.egloos.com/3985793</guid>
+		<description>
+			<![CDATA[ 
+  사실 힉스 메커니즘과 힉스 입자에 대해 입자물리학을 전공하지 않은 사람에게 설명하는 것은 대단히 어려운 일이다. 곰곰히 생각해보면 오개념만을 가져올 위험한 일일 수도 있겠다. (난로위에 앉아 있으면 시간이 느리게 가는 것이 상대론이라고 믿어 버린다면 너무 허무하지 않은가..)  <br />
+<br />
+힉스 메커니즘의 언어는 양자장이론 (quantum field theory)이고, 불행히도 양자장 이론을 일상 언어로 옮겨적는 것은 오해를 불러일으키기 십상이다. 힉스장(the Higgs field), 힉스장의 진공 기대값 (Vacuum expectation value of the Higgs field), 힉스장의 양자 요동( quantum fluctuation of the Higgs field), 힉스 입자 (the Higgs particle), 힉스 보존 (the Higgs boson) 등 비슷하면서도 다른 개념들이 동원되는 이 "힉스 물리학"을 공짜로 배울 수도 가르칠 수도 없는 노릇이다. <br />
+<br />
+그럼에도 불구하고 ...<br />
+<br />
+굳이 이 고단한 일을 해보려고 한다. 그 이유는 힉스 메커니즘의 물리학과 힉스 입자의 발견이 가져다준 깊은 전율감을 물리학자들끼리만 나누고 있기엔 아무래도 부족하다고 느끼기 때문이다. 언론에 공개된 다분히 피상적인 설명만으론 그 심오함에 대해 물리학자들이 느끼는 그 경외감이 전해질리 만무하기 때문이다. <br />
+<br />
+[1탄: 초등학생도 이해하는 힉스 물리학] <br />
+<br />
+초등학생인 딸들에게 힉스가 대체 무슨 일을 해서 질량을 부여하는지 설명하고 싶다면 이렇게 하면 도움이 될 것같다. 일단 '질량'을 이해해야한다. 질량과 무게를 혼돈하기 쉬운데 이 혼돈이 힉스에 대한 이해에 큰 걸림돌이 되므로 이 부분을 명확히 할 필요가 있다. 무게는 물체가 느끼는 중력의 크기를 나타내는 물리량이다. 같은 중력장 내에서 더 큰 질량을 가지는 물체가 더 큰 중력을 느끼게 되는 것은 사실이지만 무게와 질량은 엄연히 다른 물리량이며 다른 개념이다. <br />
+<br />
+초등학생 딸에게 질량을 어떻게 설명할까? 내 생각에 "고집"으로 설명하는게 괜찮을 것 같다. 질량이 큰 물체는 왠만한 힘을 가하지 않고는 움직임이 잘 변하지 않는다. 질량이 작은 물체는 작은 힘에도 이리저리 방향을 바꾸고 또 빨라졌다 느려졌다 할 수 있다. 자신의 '운동 상태'를 지키려는 성질을 물리학에선 '관성'이라고 부르며 그것을 재는 척도가 바로 질량이다.  힉스장 (Higgs field)은 바로 이런 '고집스러움'을 만들어 내는 역할을 하기 때문에 질량의 근원이 된다고 일컬어진다. <br />
+<br />
+"힉스와 친한 녀석들은 고집이 세고 좀체로 자기의 상황 (운동 상태)을 바꾸려 들지 않는 법이다." <br />
+<br />
+이제 "힉스와 친하다"는게 무슨 말인지 설명해보자. <br />
+<br />
+만약 물리학과 대학원에서 2년 이상 입자물리 트레이닝을 받은 사람에게라면 이런 식의 설명을 할 것이다. ...양자장이론에선 소위 유카와 결합을 통해 물질이 힉스장과 상호작용하며 그 세기를 유카와 결합 상수라고 부른다. 힘을 전달하는 "게이지 입자"의 경우엔 힉스 입자와 소위 게이지 결합이라 불리는 방식으로 상호작용한다. 유카와 결합 상수나 게이지 결합 상수가 크면 클수록 더 강하게 힉스 입자와 결합할 수 있으며 이 때 더 큰 질량을 획득할 수 있다. ... <br />
+<br />
+하지만 이걸 초등학생에게 말할 수는 없는 노릇.   <br />
+<br />
+대신 (오개념의 위험성이 있지만)  이런 상상을 해보자. 만약 우리 주변의 공기가 끈끈하다면 무슨 일이 벌어질까? 공기가 끈끈하고 뻑뻑하다면 당연히 공기를 뚫고 걸어다니기가 힘들다. 움직임을 만들 때마다 끈끈함 때문에 큰 힘을 주어야만 하고, 왠만해선 가만히 있는 편이 쉽다. 많은 힘을 주어야 겨우 방향을 틀 수 있고 또 속력을 올릴 수 있다. 끈끈하지 않은 경우와 비교해서 우리는 '운동 상태'를 바꾸기가 훨씬 힘들다. <br />
+<br />
+힉스장은 말하자면 이 끈끈한 공기와 같은 역할을 한다. 마치 꿀 속을 움직이는 벌레처럼 힉스장으로 채워진 공간을 움직이는 입자들은 쉽사리 움직이지 않고 힘에 대해 저항한다. 달리고 싶지만 슬로 모션처럼 주어진 힘에 충분히 빠른 반응을 보이지 못하고 움직임이 "무겁다". <br />
+<br />
+어떤 물체는 꿀 속에서도 유유히 움직일 수 있다. 특히 크기가 작아서 마찰을 덜 받는 녀석들은 꿀 속에서도 꽤나 일상적인 생활이 가능하다. 하지만 어떤 물체는 단면적이 커서 조금만 움직임을 만들려고 해도 큰 저항을 받는다. 이 녀석은 '무거운' 녀석이다.  어떤 의미로 이 무거운 녀석들이야말로 꿀과 친한 녀석들이다. 꿀이 있건 없건 마음대로 나다니는 '가벼운' 녀석들과 달리, 이들은 꿀의 존재를 온몸으로 느끼고 늘 존중하며 살 수 밖에 없다. <br />
+<br />
+"힉스는 온 공간을 채우고 있는 공기처럼, 늘 우리에게 영향을 준다." <br />
+<br />
+<br />
+<div style="border:1px solid darkseagreen; padding:9px; background:#EBFFEB;"> (Note) 물론 이 비유는 몇가지 점에서 오개념을 만들 수 있어 주의해야한다. <br />
+<br />
+1. 꿀이 만들어내는 것은 실제론 관성이 아니라 마찰이다. 마찰이 있을 경우 힘을 주지 않으면 운동은 더뎌지고 끝내 멈추고 만다. 하지만 진공을 날아가는 입자는 힘을 주지 않을 때 느려지지 않고 속도를 그대로 유지한다. '꿀의 비유'는 정지해 있는 물체에 같은 힘을 주었을 때 얼마나 운동 상태가 변하는지를 비교하기 위한 비유로 그쳐야한다.<br />
+<br />
+2. 힉스장과 강하게 결합하는 물체는 더 끈끈한 꿀속을 움직이는 물체처럼 더 큰 '관성'을 가진다. 이 관성은 힉스장과의 결합세기에 의해 결정된다. 한편 꿀속의 물체가 받는 마찰력은 물체의 모양에 따라 결정된다. 한편 표준모형에서 입자들은 일상언어에서 '모양'이라고 일컬을 만한 성질을 갖지 않는다.  '꿀과의 끈끈함'에 해당하는 '힉스장과의 결합세기'는 입자의 모양과 상관없다.  <br />
+<br />
+3. 예고: [2부: 물리를 싫어하는 여자친구도 이해하는 힉스 물리학]  <br />
+</div><br />
+<br />
+<br />
+<br/><br/>tag : <a href="/tag/힉스" rel="tag">힉스</a>,&nbsp;<a href="/tag/물리학" rel="tag">물리학</a>,&nbsp;<a href="/tag/물리학자" rel="tag">물리학자</a>			 ]]> 
+		</description>
+		<category>물리 이야기</category>
+		<category>힉스</category>
+		<category>물리학</category>
+		<category>물리학자</category>
+
+		<comments>http://extrad.egloos.com/3985793#comments</comments>
+		<pubDate>Wed, 16 Oct 2013 02:52:46 GMT</pubDate>
+		<dc:creator>ExtraD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 이휘소 선생이 붙인 이름 "힉스 입자" ]]> </title>
+		<link>http://extrad.egloos.com/3984767</link>
+		<guid>http://extrad.egloos.com/3984767</guid>
+		<description>
+			<![CDATA[ 
+  이번 노벨상 공동 수상자인 앙글레르의 이름은 왜 '힉스 입자'에 들어 있지 않은걸까요? <br />
+<br />
+그 답은 런던 킹스 컬리지에서 2010년 11월 24일 피터 힉스 선생께서 강연하신  "My Life as a boson"에서 찾을 수 있습니다. <a href="http://www.ph.ed.ac.uk/higgs/life-boson">My Life as a boson (video) </a><br />
+<br />
+강연의 내용에서 일부 인용합니다.<br />
+<br />
+<div style="border:1px solid tan; padding:9px; background:lightyellow;"><br />
+"1972년 로체스터 대학에서의 한 파티장에서 함께 와인과 샌드위치를 들었던 벤 리(=이휘소 선생님)가  이 내용 (=힉스의 논문)을 알게된 후 내 이름(=힉스)을 대칭성의 자발적 깨짐 현상과 관련된 모든 곳에 붙이면서 다른 이들(앙글레어-브라우트 ...)은 각주 정도로 밀려나게 되었다"<br />
+<br />
+"In 1972 Ben Lee, who had learnt about it first at a party in the University of Rochester at which we were both holding a glass of wine and a plate of sandwiches, then plastered my name over everything connected with spontaneous symmetry breaking, and other people were relegated to a footnote."<br />
+</div><br />
+<br />
+피터 힉스의 논문은 1972년까지 사실상 그렇게 주목받지 못하고 있었습니다. 하지만 로체스터 학회장에서 만난 이휘소 선생께서 힉스 기작(Higgs mechanism)으로 이름 붙이고 그 중요성에 대해 "와인버그 모델"과 엮어서 강조하신 후 상황이 180도 바뀌게 된 것이죠.  1972년 이 일이 있은 후 급격히 피터 힉스의 논문이 각광을 받게된 것은 인용수의 역사를 보면 쉽게 알 수 있습니다. <br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds26.egloos.com/pds/201310/11/64/a0006364_52578cf342c5c.png" width="500" height="352.090032154" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201310/11/64/a0006364_52578cf342c5c.png');" /></div><br />
+(출처:<a href="http://blog.inspirehep.net/2013/10/nobel-prize-in-physics-awarded-to-peter.html">Inspirehep: The 2013 Nobel Prize</a>)<br />
+<br />
+이휘소 선생의 영향력이 어느 정도였는지도 바로 알 수 있는 귀중한 에피소드로 많은 분들이 알면 좋을 것 같아서 글을 써보았습니다. <br/><br/>tag : <a href="/tag/과학" rel="tag">과학</a>,&nbsp;<a href="/tag/물리학" rel="tag">물리학</a>,&nbsp;<a href="/tag/이휘소" rel="tag">이휘소</a>,&nbsp;<a href="/tag/힉스" rel="tag">힉스</a>			 ]]> 
+		</description>
+		<category>물리 이야기</category>
+		<category>과학</category>
+		<category>물리학</category>
+		<category>이휘소</category>
+		<category>힉스</category>
+
+		<comments>http://extrad.egloos.com/3984767#comments</comments>
+		<pubDate>Fri, 11 Oct 2013 05:37:07 GMT</pubDate>
+		<dc:creator>ExtraD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 2013년 노벨물리학상 : 앙글레르, 힉스 ]]> </title>
+		<link>http://extrad.egloos.com/3984410</link>
+		<guid>http://extrad.egloos.com/3984410</guid>
+		<description>
+			<![CDATA[ 
+  <div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds27.egloos.com/pds/201310/10/64/a0006364_5255a6ff94bbe.png" width="476" height="547" onclick="Control.Modal.openDialog(this, event, 'http://pds27.egloos.com/pds/201310/10/64/a0006364_5255a6ff94bbe.png');" /></div><br />
+<br />
+0. 두 분께 축하!!! 노벨상에도 굳이 '급'을 나누자면 이번 상은 특급!<br />
+<br />
+1. 노벨프라이즈.org 공식 발표 내용에 따르면 "아원자 입자의 질량의 근원을 이해할 수 있게한 메커니즘을 이론적으로 발견한 공로"로 엥글레르와 힉스에 노벨상이 주어졌으며 "CERN LHC의 ATLAS와 CMS 실험에서 예견된 기본 입자를 발견함을 통해 최근 검증되었다"라는 언급이 있는 것으로 보아 발견자인 실험팀에는 향후에도 노벨상이 수여되지 않을 가능성이 커보입니다. <br />
+<br />
+심각하게 이 거대 실험의 노력과 성과에 대해 노벨상을 수여할 방법을 찾아야한다고 생각합니다. 현재의 3인 규칙, 평화상을 제외하고는 단체에 수여하지 않는 점 등 아무래도 시대에 뒤떨어진 규칙들이 수정되어야 하지 않을까 싶습니다. 물론 노벨상 자체와 비교할 수 없는 발견의 커다란 기쁨으로 실험가 동료들이 일부 보상을 받았다고 생각은 합니다만 이번 힉스 입자 발견의 공로를 이론가들에게만 돌리는건 분명 불공평!<br />
+<br />
+2. 피터 힉스의 논문(앙글레르-브라우트 논문도 마찬가지로)은 소위 "Abelian Higgs model"로 불리는 U(1) 게이지 대칭성의 자발적 깨짐현상을 고전장론으로 다루고 있습니다. 실제 표준입자물리학 모형에서 약전자기력이 약한핵력과 전자기력으로 분화하는 것을 정확히 짚어낸 사람은 와인버그로 이번에 발견된 '힉스 입자'에 대해서 가장 정확한 픽쳐를 보여준 사람도 와인버그입니다.&nbsp; 와인버그는 이런 공로를 이미 인정받아 살람, 글라쇼 등과 노벨상을 1979년 수상했습니다.<br />
+<br />
+3. 앙글레르(1932년생)와 함께 작업한 브라우트(1928년생)는 2011년 사망하여 노벨상 수상자가 되지 못했습니다. 피터 힉스는 1929년생. 그들이 논문을 쓴 시기는 1964년으로 힉스(35세), 앙글레르(32세), 브라우트(36세) 였군요. <br />
+<br />
+4. 힉스 입자 발견 이후로 '이제 남은 문제가 무엇이냐?'고 반은 진지하게 반은 skeptic하게 묻는 질문을 종종 봅니다만, 제 생각에 이런 질문을 던지는건 여전히 사치입니다.  일단 LHC의 본격 가동! 13TeV, 14TeV 가동이 우리를 기다립니다. 지난 10여년 인공위성을 이용한 새로운 우주선 관측 실험과 IceCube 우주 중성미자 실험 들이 새로운 에너지 영역에서 데이터를 던져줄 때마다 이론가들의 예측이 데이터를 제대로 설명하지 못한다는 사실이 드러나고 있습니다. 우주론 관측은 우리의 물질에 대한 이해가 겨우 5% 남짓이라고 말해줍니다. High Intensity Frontier는 Flavour와 중성미자 영역에서 현재 표준입자물리학모형이 단지 데이터를 accommodate하는 것이 아니라 설명할 수 있는 단초를 마련해 주리라 기대하게 합니다.<br />
+<br />
+한마디로 갈길이 멀~었어요.			 ]]> 
+		</description>
+		<category>물리 이야기</category>
+
+		<comments>http://extrad.egloos.com/3984410#comments</comments>
+		<pubDate>Wed, 09 Oct 2013 19:10:39 GMT</pubDate>
+		<dc:creator>ExtraD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ TeV-PeV neutrinos at IceCube ]]> </title>
+		<link>http://extrad.egloos.com/3968506</link>
+		<guid>http://extrad.egloos.com/3968506</guid>
+		<description>
+			<![CDATA[ 
+  IceCube 실험은 남극 빙하에 구멍을 뚫고 포토튜브가 달린 스트링을 삽입하여 수행하는 초거대 규모 중성미자 검출 실험입니다. 전체 부피가 세제곱 킬로미터에 달하니 명실공히 지구 최대의 검출기.  물론 우주에서 날아온 중성미자는 지구상의 물질과의 반응률이 매우 낮기 때문에 검출을 위해서는 큰 검출기가 있어야 하겠지요.<br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds26.egloos.com/pds/201307/22/64/a0006364_51ed1bbf5ed0c.jpg" width="500" height="548.695652174" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201307/22/64/a0006364_51ed1bbf5ed0c.jpg');" /></div><br />
+<br />
+<br />
+최근 IceCube는 최초로 PeV 에너지 (1peta eV= \(10^{15}\) eV)를 가지는 중성미자 이벤트를 두개 검출하는데 성공하였습니다.  PeV 에너지는 1000 TeV에 해당하므로, LHC에서 주로 논의되는 1 TeV에 비해 1000배 높은 영역에 해당하며, 이렇게 고 에너지 이벤트를 통해 고에너지 영역에서 일어나는 천체입자물리학적 현상에 대해 배울 수 있을 것으로 기대할 수 있겠습니다. 이 발견은 4월에 arXiv에 올라왔고, 최근 PRL에 출판되었습니다. 아래 실험 관련 내용은 모두 원 논문에 있습니다. (http://arxiv.org/abs/arXiv:1304.5356)<br />
+<br />
+일단 두 이벤트는 각각 2011년 8월과 2012년 1월에 검출되었고, 총 615.9일 간 모은 데이터에 들어 있었습니다. IceCube는 그 후로도 계속 데이터를 모으고 있기 때문에 후속 검출이 예상됩니다.<br />
+<br />
+1. 검출기 상단에서 내려다 보았을 때 검출 위치<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds27.egloos.com/pds/201307/22/64/a0006364_51ed1f2c5b3f5.png" width="314" height="296" onclick="Control.Modal.openDialog(this, event, 'http://pds27.egloos.com/pds/201307/22/64/a0006364_51ed1f2c5b3f5.png');" /></div><br />
+<br />
+2. 검출된 시그널의 모습 (붉은 색 부분이 DOM에 먼저 검출되고, 푸른 색 부분이 후에 검출)<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds26.egloos.com/pds/201307/22/64/a0006364_51ed1f32ec61b.png" width="437" height="179" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201307/22/64/a0006364_51ed1f32ec61b.png');" /></div><br />
+<br />
+615.9일 동안 두개의 시그널이 잡혔으니 대략 일년에 1-2개 정도의 빈도로 시그널이 잡힌 셈인데요, 바로 이 빈도와 검출된 에너지 값으로부터 중성미자가 어떤 origin을 갖고 있는지 유추해 볼 수 있습니다. 특히 'line'은 언제나 입자물리학적 대상을 상상하게 만드는데요, 이 정도 질량 범위에서 라인 시그널을 만들어 낼 수 있는 입자물리학적 대상으로 일단 암흑물질을 생각해 보려합니다. <br />
+<br />
+1. 암흑물질이 쌍소멸 하면서 중성미자+X를 만들어 낸다. <br />
+2. 암흑물질이 붕괴하면서 중성미자+X를 만들어 낸다.<br />
+<br />
+1번의 경우라면 쌍소멸 단면적, 2번의 경우라면 붕괴율이 바로 이번 실험치를 통해 결정할 수 있는 물리량입니다. <br />
+일단 검출기에 잡히는 시그널의 빈도(Rate)를 다음 식으로 계산할 수 있습니다.<br />
+<br />
+$$Rate = \sigma_{\rm eff}^{\nu N} \times \frac{d {\cal L}}{dt}$$<br />
+<br />
+여기서 실험결과로부터 Rate는 대략 1년에 1-2개 정도가 나와야합니다. 위 수식에서 첫번째는 중성미자가 IceCube detector에 있는 핵(Ice)와 충돌하는 효과 단면적이고, 두번째는 암흑물질로부터 제공되는 중성미자의 양을 나타냅니다. 첫번째 항은 당연히 암흑물질의 성질과 관련이 없고, 다만 디텍터의 성질로부터 결정합니다. 두번째 항이 바로 암흑물질로부터 영향을 받습니다.<br />
+<br />
+$$\sigma_{\rm eff}^{\nu N} = n_N \sigma_{\nu N} V \simeq 4.5\times 10^5 {\rm cm^2}$$.<br />
+여기서 핵입자 수밀도, 중성미자-핵입자 산란단면적, 디텍터 사이즈를 각각 \( n_N \approx n_{\rm ice} \approx 5\times 10^{23}/{\rm cm^3}, \sigma_{\nu N} \simeq 9\times 10^{-34}{\rm cm^2}, V\simeq 1{\rm km^3}\)를 사용하였습니다. <br />
+<br />
+Annihilating DM의 경우라면,<br />
+<br />
+$$\left(\frac{d{\cal L}}{dt}\right)_A = \langle \sigma v \rangle n_{DM}^2 L_{DM}$$<br />
+<br />
+붕괴하는 DM 경우라면,<br />
+<br />
+$$ \left(\frac{d{\cal L}}{dt}\right)_D =\Gamma_{\rm DM} n_{DM} L_{DM}$$<br />
+<br />
+로 나타낼 수 있으며, 암흑물질 입자 수밀도, \(n_{DM} = \rho_{DM}/m_{DM} \simeq 0.4 {\rm GeV/cm^3}/1.2 {\rm PeV}\simeq 3.3 \times 10^{-6}/{\rm cm^3}\), 우리 은하의 대략적인 크기 \(L_{DM}\sim 10{\rm kpc}\simeq 3.1\times 10^{22}{\rm cm}\), 암흑물질 입자 속도, \(v\sim 10^{-3}c\)를 사용하면, <br />
+<br />
+\begin{eqnarray}<br />
+R \sim 1.53 \times 10^{15} \times \langle \sigma_A v \rangle/{\rm cm^3},\\<br />
+R \sim 4.5 \times 10^{21} \Gamma_{DM}<br />
+\end{eqnarray}<br />
+<br />
+여기서 \(R\simeq 2/615.9 days \)를 대입하면,<br />
+<br />
+\begin{eqnarray}<br />
+\langle \sigma v \rangle \sim 2.45 \times 10^{-23} {\rm cm^3/sec},\\<br />
+\Gamma_{DM} \sim 8.35 \times 10^{-30}/{\rm sec}<br />
+\end{eqnarray}<br />
+혹은, \(\tau_{DM} \sim 1.2 \times 10^{29} {\rm sec}\)를 얻을 수 있습니다.<br />
+<br />
+이런 암흑물질 이론을 만들 수 있을까요?<br />
+<br />
+<br />
+===References===<br />
+<br />
+1. Talk, N. Whitehorn at IPA2013.<br />
+2. <a href="http://arxiv.org/abs/arXiv:1304.5356">arXiv:1304.5356 </a>[IceCube collaboration], PRL 111, 021103 (2013) <br />
+3. <a href="http://arxiv.org/abs/1303.7320">arXiv:1303.7320</a> Feldman, Kusenko, Matsumoto, Yanagida<br/><br/>tag : <a href="/tag/Icecube" rel="tag">Icecube</a>,&nbsp;<a href="/tag/particle" rel="tag">particle</a>,&nbsp;<a href="/tag/darkmatter" rel="tag">darkmatter</a>,&nbsp;<a href="/tag/암흑물질" rel="tag">암흑물질</a>,&nbsp;<a href="/tag/입자물리" rel="tag">입자물리</a>			 ]]> 
+		</description>
+		<category>물리 이야기</category>
+		<category>Icecube</category>
+		<category>particle</category>
+		<category>darkmatter</category>
+		<category>암흑물질</category>
+		<category>입자물리</category>
+
+		<comments>http://extrad.egloos.com/3968506#comments</comments>
+		<pubDate>Tue, 23 Jul 2013 07:44:15 GMT</pubDate>
+		<dc:creator>ExtraD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 국제 선형 가속기 일본에 지어질까? ]]> </title>
+		<link>http://extrad.egloos.com/3959242</link>
+		<guid>http://extrad.egloos.com/3959242</guid>
+		<description>
+			<![CDATA[ 
+  유럽에서 결국 힉스 입자가 발견됨에 따라 "boson은 유럽에서, fermion은 북미에서" 공식이 일단 계속 성립하는 것 처럼 보이는 요즘 최대 화두는 post-Higgs 물리학의 방향에 대한 것이라고 생각합니다. <br />
+<br />
+1964년 만들어진 물리학자들의 상상속의 입자가 실재한다는 것이 50년이 걸려 밝혀진 이 대사건이 물리학의 새 장을 열어가는 새로운 시발점이라고 말을 하지만,  정작 어떤 방향으로 어떻게 나아가야 할지에 대해선 그 누구도 확실한 대답을 할 수 없는 시점이기도 합니다. 새로운 모색과 방법론이 요구되는 시대가 되었고, 새로운 실험 결과들이 우리를 더 인도해 줄 수 있길 희망하지만 그 누구도 무엇이 나올 지 장담할 수 없는 시대가 되었습니다.<br />
+<br />
+미국의 경우 1. 에너지 프론티어, 2. 인텐시티 프론티어, 3. 코스믹 프론티어라는 3대 과제를 내걸고 방향을 찾으려 하고 있는데요,  대략 LHC 물리학 참여, 중성미자 물리학과 뮤온 가속기 연구 그리고 천체및 우주론 연구 쪽으로 가닥을 잡고 있습니다. 그런데 제 생각엔 훨씬 중요한 움직임이 일본을 중심으로 발생하고 있습니다. 바로 차세대 국제 선형 가속기(International Linear Collider, ILC)를 일본에 건설한다는 것이지요.<br />
+<br />
+지난 일주일 동안 일본 토호쿠 대학에서 관련 학회에 초대받아 다녀왔는데요, 학회의 마지막 날은 ILC 건설 후보지 중 하나인 이와테현의 현장 답사가 있었습니다. 물론 아직은 아무런 ILC 관련 시설이 존재하지 않았지만 지질 검사와 지하 터널 건설을 위한 기본 조사 그리고 ILC 기술에 관한 연구는 상당 부분 진척이 되어 있었습니다. 그리고 지역 단체들이 ILC 유치를 위해 협의회를 구성하고 서포팅 팀을 이미 가동하고 있다는 것도 인상적이었습니다. 실제로 답사 내내 지역 방송국에서 촬영을 했고, 참여한 외국인들의 표정을 읽기 위해 노력하고 있었습니다.  ".. ILC 센세이들이 방문하는 거에요.." 같은 말들을 하면 지역 주민들이 인사를 하는 식이었죠.<br />
+<br />
+아래는 ILC 기본 개념도이고, 토호쿠 대학의 실험 입자물리학자인 히토시 야마모토 교수님께서 발표한 자료의 한 페이지입니다.  (이 교수님은 일본 다도의 정식 라이센스를 가지고 계신데, 학회 참석자 중 일부를 초대해서 직접 다도회를 열어주시기도 했습니다. 난생 처음 참석한 전통 다도회였고, 꿇어 앉아서 기다리는 동안 다리가 너무 아팠지만 대단히 흥미로왔습니다. 아마 다시 참석하고 싶진 않지만..^^)<br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds25.egloos.com/pds/201306/10/64/a0006364_51b5bd31bd30c.png" width="500" height="343.780135005" onclick="Control.Modal.openDialog(this, event, 'http://pds25.egloos.com/pds/201306/10/64/a0006364_51b5bd31bd30c.png');" /></div><br />
+<br />
+기본적으로 ILC는 35 km 길이로 건설되고 일단은 500 GeV 이하의 에너지에서 전자-반전자 충돌을 통해 힉스 입자의 물리학을 보다 정밀하게 측정하는 것을 목표로 삼게 됩니다. 실제 힉스를 가장 많이 만들어 내는 에너지는 250GeV 언저리인데, 톱 쿼크와의 결합을 정밀하게 재기 위해서는 보다 높은 에너지인 350GeV 정도가 필요하고 500 GeV 이상 올라가면 힉스 이외의 물리학에도 접근할 수 있게 됩니다. 이후 상황에 따라 1 TeV (50 km)로 업그레이드 할 수 있는 가능성을 열어둡니다. <br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds27.egloos.com/pds/201306/10/64/a0006364_51b5be7625459.png" width="500" height="345.367847411" onclick="Control.Modal.openDialog(this, event, 'http://pds27.egloos.com/pds/201306/10/64/a0006364_51b5be7625459.png');" /></div><br />
+<br />
+ILC와 LHC를 비교했을 때 얼마나 ILC가 강력한 실험인지 보여주는 그래프인데 D. Zerwas 교수님께서 만든 것입니다.  이 그래프가 얼마나 실제 상황을 반영했느냐에 대해서 격론이 있었습니다.<br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds25.egloos.com/pds/201306/10/64/a0006364_51b5beef4ccb0.png" width="500" height="294.061302682" onclick="Control.Modal.openDialog(this, event, 'http://pds25.egloos.com/pds/201306/10/64/a0006364_51b5beef4ccb0.png');" /></div><br />
+<br />
+현재 논의되는 후보지는 키타카미 산 이외에 큐슈에도 위치합니다. 올 7월 말 이전에 두 곳 중 한 곳으로 물리학 코뮤니티의 결정이 내려질 것으로 보이고 이후 보다 실질적인 문제 (건설 비용을 어떻게 국제 사회가 공유할 것인가 등..)이 논의 될 것입니다. 이 단계가 실제 건설을 위해 너무나 중요한 단계가 되겠지요. 물론 한국도 이 때 정부 차원의 협의가 이루어질 것으로 보이고, 당연히 이 때 한국 과학계의 목소리 모아 많은 기여를 해야한다고 생각합니다. 실험가와 이론가들의 협업이 무엇보다 중요하다고 생각하고 많은 노력을 기울여 실험 성공을 위해 나서야 할 것입니다.<br />
+<br />
+ILC는 아마도 2020년 이후에 본격적으로 지어질 것이고, 2030년 이후에야 실험을 시작할 것입니다. 2040년-2070년 보다 높은 에너지의 가속기가 지어지기 이전까지 이번 세대가 다음 세대를 위해 노력할 기회로 많은 분들이 노력을 쌓고 있는 만큼 큰 희망을 가져봅니다. <br />
+<br />
+<br />
+(수정 6/11 7:35PM, 전북대 C교수님께서 D. Zerwas는 P. Zerwas의 아들 물리학자라고 알려주셨습니다.)			 ]]> 
+		</description>
+		<category>물리 이야기</category>
+
+		<comments>http://extrad.egloos.com/3959242#comments</comments>
+		<pubDate>Mon, 10 Jun 2013 12:11:19 GMT</pubDate>
+		<dc:creator>ExtraD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ AMS-02 results on positron fraction ]]> </title>
+		<link>http://extrad.egloos.com/3942710</link>
+		<guid>http://extrad.egloos.com/3942710</guid>
+		<description>
+			<![CDATA[ 
+  AMS(The Alpha Magnetic Spectrometer) 공동 연구팀을 대표해서, Sam Ting (J/ψ (J/Psi) meson 발견자, 1976년 노벨상 수상자이자 AMS PI) 교수님께서 조금전 CERN 대강당에서 인터넷을 통해 전 세계로 중계되는 세미나 발표를 하셨습니다. 여유로운 말투, 실험 결과에 대한 확신, 중요성에 대한 확고한 믿음이 전달된 대단히 인상적인 강연이었고, 그 결과 또한 대단히 흥미로운 것이어서 소개하고자 합니다. 아래 모든 자료는 팅 교수님의 세미나 슬라이드를 캡쳐한 것입니다.<br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds27.egloos.com/pds/201304/04/64/a0006364_515c5d255c33a.png" width="500" height="214.435146444" onclick="Control.Modal.openDialog(this, event, 'http://pds27.egloos.com/pds/201304/04/64/a0006364_515c5d255c33a.png');" /></div><br />
+<br />
+AMS는 국제우주정거장(ISS)의 외부에 장착된 디텍터를 이용하여 전하를 가진 고에너지 입자 (전자, 반전자, 양성자, 반양성자 등)와 감마선의 Flux를 정밀하게 측정하여 이로부터 암흑물질의 증거를 포착하려는 목표를 가지고 있습니다. 암흑물질은 쌍소멸 혹은 붕괴 과정에서 이들 입자를 직접 내놓거나 혹은 2차 붕괴 부산물로 내놓을 것으로 이론가들이 오래 전부터 예측하고 있어왔고, 실제로 최근의 여러 실험들 (PAMELA, FERMI, AMS-1, HEAT ..)등을 통해 그 실체가 드러나기 시작했습니다. <br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds26.egloos.com/pds/201304/04/64/a0006364_515c5d4639b55.png" width="500" height="375.961538462" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201304/04/64/a0006364_515c5d4639b55.png');" /></div><br />
+<br />
+이번 발표에서 특히 주목한 물리량은 소위 positron fraction. 즉, 반전자 플럭스와 전자와 반전자 플럭스의 합의 비율입니다.<br />
+<br />
+ $$\frac{\phi(e^+)}{\phi(e^-+e^+)}$$ <br />
+<br />
+대부분의 천체물리학적 과정에서 전자는 다수 만들어 질 수 있으나, 고에너지 반전자는 오직 특별한 과정, 특히 암흑물질 쌍소명 과정 등을 통해 만들어 질 것으로 생각되며 따라서 고에너지 영역에서 positron fraction은 서서히 증가하다가 어느 이상 에너지에서 급격하게 감소하는 "sudden drop"의 형태를 띌 것으로 예상됩니다. <br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds25.egloos.com/pds/201304/04/64/a0006364_515c5d501b34a.png" width="500" height="375.478927203" onclick="Control.Modal.openDialog(this, event, 'http://pds25.egloos.com/pds/201304/04/64/a0006364_515c5d501b34a.png');" /></div><br />
+<br />
+그리고 아래는 PRL을 통해 조만간 발표될 AMS-2의 결과입니다. 빨간색 점들이 새로운 데이터 입니다.<br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds25.egloos.com/pds/201304/04/64/a0006364_515c5dd896d6a.png" width="500" height="357.142857143" onclick="Control.Modal.openDialog(this, event, 'http://pds25.egloos.com/pds/201304/04/64/a0006364_515c5dd896d6a.png');" /></div><br />
+<br />
+현재 "완전하게 확실한" 데이터는 분명한 증가 패턴을 보여줍니다. 이건 분명합니다. 하지만, 암흑물질의 증거가 되기 위해선 반드시 어느 에너지 영역에서 뚝 떨어지는 패턴을 추가적으로 보여주어야 하며, 바로 그 점이 암흑물질의 질량이 될 것이기 때문에 엄청나게 중요하다고 할 수 있을 것입니다. 더 높은 에너지 영역의 데이터를 이미 AMS 팀은 가지고 있으나, 팅 교수님은 이 실험이 너무나 어려운 실험이고, 본인은 평생 단 한번의 실험적 실수를 한 적이 없는 만큼 충분히 확신을 가질 때까지 기다려 달라고 합니다. 만약 AMS-2가 이 "sudden drop"을 확인하게 된다면, 분명 중요한 발견으로 인정받게 될 것인 만큼 신중에 신중을 기한다는 인상입니다.<br />
+<br />
+흥분되고, 저도 후속 발표를 기다립니다. (앞으로 20년간 죽~!)<br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds27.egloos.com/pds/201304/04/64/a0006364_515c5fd65fe8c.png" width="500" height="376.923076923" onclick="Control.Modal.openDialog(this, event, 'http://pds27.egloos.com/pds/201304/04/64/a0006364_515c5fd65fe8c.png');" /></div><br />
+<br />
+...<br />
+<br />
+팅 교수님의 강연은 개인적으론 두번째 보는 건데요, 정말 대단하시네요.<br />
+<br />
+***추가 자료***<br />
+<br />
+1. <a href="http://press.web.cern.ch/backgrounders/first-result-ams-experiment">First result from the AMS experiment</a> at CERN Press Office<br />
+<br />
+2. <a href="http://prl.aps.org/abstract/PRL/v110/i14/e141102">Phys. Rev. Lett. 110, 141102 (2013)</a>: First Result from the Alpha Magnetic Spectrometer on the International Space Station: Precision Measurement of the Positron Fraction in Primary Cosmic Rays of 0.5–350 GeV<br />
+<br />
+3. <a href="http://physics.aps.org/articles/v6/40">Viewpoint: Positrons Galore</a> APS.<br />
+<br/><br/>tag : <a href="/tag/암흑물질" rel="tag">암흑물질</a>,&nbsp;<a href="/tag/darkmatter" rel="tag">darkmatter</a>,&nbsp;<a href="/tag/물리학자" rel="tag">물리학자</a>,&nbsp;<a href="/tag/AMS" rel="tag">AMS</a>,&nbsp;<a href="/tag/positron" rel="tag">positron</a>			 ]]> 
+		</description>
+		<category>물리 이야기</category>
+		<category>암흑물질</category>
+		<category>darkmatter</category>
+		<category>물리학자</category>
+		<category>AMS</category>
+		<category>positron</category>
+
+		<comments>http://extrad.egloos.com/3942710#comments</comments>
+		<pubDate>Wed, 03 Apr 2013 17:01:27 GMT</pubDate>
+		<dc:creator>ExtraD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Planck new data release ]]> </title>
+		<link>http://extrad.egloos.com/3939678</link>
+		<guid>http://extrad.egloos.com/3939678</guid>
+		<description>
+			<![CDATA[ 
+  어제 드디어 Planck에서 데이터를 발표했습니다: <a href="http://www.sciops.esa.int/index.php?project=PLANCK&amp;page=Planck_Published_Papers">Planck 2013 Results Papers</a><br />
+<br />
+Planck는 European Space Agency (ESA)의 인공위성 베이스 관측실험으로 우주배경복사의 정밀한 관측을 위해 2009년 론치되어 지난 4년간 데이터를 축적해왔으며, COBE-WMAP을 잇는 초정밀 우주론 관측 시대를 이어가는 실험으로 관심을 모아왔습니다. <br />
+<br />
+우주배경복사(Cosmic Microwave Background Radiation: CMBR)는 빅뱅이후 우주팽창에 따라 우주의 온도가 떨어져, 대략 원자가 생성되는 온도에 도달했을 무렵의 '우주가 아기였을 때 모습'을 보여줍니다. 과학자들은 이를 통해 우주 팽창과 구조생성에 대한 가장 정확한 정보를 얻을 수 있습니다. <br />
+<br />
+아래는 차례대로 COBE(1992)-WMAP(2003)-Planck(2013)에서 얻은 CMBR 사진입니다. 확실한 발전을 확인할 수 있고, 이 발전을 통해 그대로 우주에 대해 더 정밀한 정보를 얻을 수 있게됩니다. <br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds27.egloos.com/pds/201303/22/64/a0006364_514b9a5af2675.jpg" width="500" height="270.12195122" onclick="Control.Modal.openDialog(this, event, 'http://pds27.egloos.com/pds/201303/22/64/a0006364_514b9a5af2675.jpg');" /></div><br />
+<br />
+<br />
+위 사진을 angular power spectrum을 통해 분석한 결과는 아래와 같은데 소위 Lambda-CDM 모형 (즉, 우주상수와 Cold Dark Matter가 포함된 빅뱅우주모형)의 이론치(실선)와 엄청난 정밀도로 일치하는 것을 확인할 수 있습니다. 낮은 "\(\ell\)"쪽은 더 넓은 영역에 대한 것이므로 데이터 수가 작을 수 밖에 없고 따라서 error-bar가 큽니다만 높은 쪽은 정말 놀라울 따름입니다. <br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds21.egloos.com/pds/201303/22/64/a0006364_514b916d4783a.png" width="500" height="290.20979021" onclick="Control.Modal.openDialog(this, event, 'http://pds21.egloos.com/pds/201303/22/64/a0006364_514b916d4783a.png');" /></div><br />
+<br />
+개인적으론 인플레이션에 대한 아래 플롯이 특히 흥미롭습니다. 인플레이션 모형들이 관측결과와 비교를 통해 검증되기 시작했다는 것이 이론가들에게 일할 거리를 만들어 주고 있어요. \(V=\lambda \phi^4\)는 이제 더 이상 보이지 않고, \(V=m^2 \phi^2\)도 더 이상 훌륭하다고 말하기 힘들어졌습니다. <br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds26.egloos.com/pds/201303/22/64/a0006364_514b917385aa2.png" width="500" height="280.892448513" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201303/22/64/a0006364_514b917385aa2.png');" /></div><br />
+<br />
+우주가 단열팽창했으며 Dark Radiation (제4의 중성미자)이 없다는 등 보다 단순한 '표준우주모형'이 우주를 잘 설명한다는 것이 어떻게 보면 지루하긴 하지만 아무튼 대단해요!<br />
+<br />
+새로 나온 데이터에 기반한 우주의 'parameter'는 아래와 같습니다. (Planck+WP)<br />
+<br />
+\begin{eqnarray}<br />
+\text{Age/Gyr} =13.817\pm 0.048\\<br />
+\Omega_\Lambda =0.685^{+0.018}_{-0.016}\\<br />
+\Omega_M=0.315^{+0.016}_{-0.018}\\<br />
+n_s=0.9603\pm 0.0073 \\<br />
+r&lt;0.11 (95\% {\rm CL})\\<br />
+f^{local}_{NL}=2.7\pm 5.8<br />
+\end{eqnarray}<br />
+<br />
+제 inflation 이론도 있는데, 새 Planck data와 잘 맞아서 기분이 좋아요. ^^<br />
+제가 2008년 사토시 야마구치 교수(현 오사카대학교 교수)와  연구했던 non-minimal inflation 이론에서 예측했던 값은 아래와 같습니다. <a href="http://arxiv.org/abs/arXiv:0801.1722">arXiv:0801.1722</a><br />
+<br />
+\begin{eqnarray}<br />
+n_s \approx 0.965\\<br />
+r \approx 0.004<br />
+\end{eqnarray}<br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds26.egloos.com/pds/201303/22/64/a0006364_514ba2dcb5779.png" width="445" height="291" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201303/22/64/a0006364_514ba2dcb5779.png');" /></div><br />
+<br />
+<br />
+**관련 글 읽기<br />
+<br />
+<a href="http://extrad.egloos.com/1949842">플랑크: 최초의 빛</a><br/><br/>tag : <a href="/tag/Planck" rel="tag">Planck</a>,&nbsp;<a href="/tag/WMAP" rel="tag">WMAP</a>,&nbsp;<a href="/tag/CBMR" rel="tag">CBMR</a>,&nbsp;<a href="/tag/Inflation" rel="tag">Inflation</a>			 ]]> 
+		</description>
+		<category>물리 이야기</category>
+		<category>Planck</category>
+		<category>WMAP</category>
+		<category>CBMR</category>
+		<category>Inflation</category>
+
+		<comments>http://extrad.egloos.com/3939678#comments</comments>
+		<pubDate>Thu, 21 Mar 2013 23:28:14 GMT</pubDate>
+		<dc:creator>ExtraD</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Moriond "힉스" 업데이트 ]]> </title>
+		<link>http://extrad.egloos.com/3937250</link>
+		<guid>http://extrad.egloos.com/3937250</guid>
+		<description>
+			<![CDATA[ 
+  지난주 Moriond 연례회의 (<a href="https://indico.in2p3.fr/conferenceDisplay.py?confId=7411">The XLVIIIth Rencontres de Moriond session devoted to ELECTROWEAK INTERACTIONS AND UNIFIED THEORIES</a>)에서 `힉스입자'의 여러 채널에 대한 업데이트가 있었습니다. 저는 KEK 이론회의 참석차 일본에 있었는데요, 학회에 참석한 많은 분들과 마찬가지로 Moriond의 수요일 오전 발표 (일본시간=한국시간으론 오후 4시 발표)를 기다리고 있었습니다. <br />
+<br />
+발표 결과를 요약하면<br />
+<br />
+1. ATLAS의 쌍둥이 피크(Twin Peaks)는 그대로 (2.5 GeV 차이), diphoton enhancement는 center value가 1.8에서 1.6으로 줄었으나, error bar도 함께 줄어서(0.3) 여전히 significant (\(2\sigma\))<br />
+<br />
+\begin{eqnarray}<br />
+m_H = 125.4\pm 0.2 ({\rm stat}) ^{+0.5}_{-0.6}({\rm sys}) ~{\rm GeV} \quad \text{ATLAS, all, Moriond},\\<br />
+\Delta \hat{m}_H =\hat{m}_H^{\gamma\gamma}-\hat{m}_H^{4\ell}=2.3^{+0.6}_{-0.7} ({\rm stat}) \pm 0.6 ({\rm sys}) ~{\rm GeV} \quad \text{ATLAS, Moriond}<br />
+\end{eqnarray}<br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds25.egloos.com/pds/201303/11/64/a0006364_513d2467522a7.png" width="317" height="192" onclick="Control.Modal.openDialog(this, event, 'http://pds25.egloos.com/pds/201303/11/64/a0006364_513d2467522a7.png');" /></div><br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds27.egloos.com/pds/201303/11/64/a0006364_513db3d136000.png" width="500" height="509.584664537" onclick="Control.Modal.openDialog(this, event, 'http://pds27.egloos.com/pds/201303/11/64/a0006364_513db3d136000.png');" /></div><br />
+<br />
+2. 불행히도 CMS는 가장 관심을 끌 던 diphoton channel 업데이트가 없었으나, 아마도 이번주 혹은 다음 주 내로 발표가 있을 예정이라고 합니다. 하지만 WW,ZZ,tau tau 채널 등은 8TeV 데이터의 최종 업데이트가 있었고, 아래에서 보는 바와 같이 표준 모형의 예측 (1)과 대략 일치하는 경향이 확연하게 보입니다. <br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds25.egloos.com/pds/201303/11/64/a0006364_513daf1d3b258.png" width="491" height="474" onclick="Control.Modal.openDialog(this, event, 'http://pds25.egloos.com/pds/201303/11/64/a0006364_513daf1d3b258.png');" /></div><br />
+<br />
+3. 개인적으론 새로운 'Higgs precision era'의 개막과 함께 새로운 물리학 가능성들에 대해 반성의 기회가 주어졌다는 것을 우선 중요하게 생각합니다. 우선 Higgsless 이론들은 대단히 어려워졌고 (what is the 125 GeV peak ?), 힉스 질량을 양자역학적 효과로 주는 이론들은 더욱 심한 constraints를 받게 되었고 (Gauge-Higgs unification, Little Higgs..),  힉스 입자의 생성률과 붕괴 Branching fraction을 심하게 바꾸는 이론들도 오직 높은 에너지에서만 가능할 것으로 생각됩니다 (Light top-partners in various models..). <br />
+<br />
+4.  일본이 주축이 되어 국제선형가속기 (International Linear Collider, ILC) 쪽으로 많은 힘이 걸리고 있습니다. 차세대 가속기에서 보다 정밀하게 힉스의 성질을 탐구하고 또 Hadron 가속기에서 미쳐 담아내지 못하는 새로운 물리학의 가능성을 연구하는 것이 새로운 문제로 떠오르는 지금 미래의 연구 방향을 하나로 모으기 보다 더 큰 상상력을 발휘해야할 때가 아닌가 생각해봅니다. 물론 Fermi-LAT, PAMELA, AMS, Planck 등 새로운 데이터가 쏟아지는 우주선(cosmic ray) 분야에서 break-through가 나올 가능성도 크다고 봅니다. <br />
+<br />
+5. LHC 14 TeV 가동에서 threshold를 넘어서자 새로운 물리학이 쏟아져 나오는 상상은 즐겁지만, 냉정하게 그리고 대자연앞에 겸손하게 한발한발 걸어나가야 할 때라는 생각을 더 하게 됩니다. <br />
+<br />
+<br />
+<br />
+---References----<br />
+<br />
+1. <a href="http://cds.cern.ch/collection/ATLAS%20Conference%20Notes?ln=en">ATLAS conference note</a><br />
+2. <a href="http://cds.cern.ch/collection/CMS%20Conference%20Reports?ln=en">CMS conference report</a><br/><br/>tag : <a href="/tag/LHC" rel="tag">LHC</a>,&nbsp;<a href="/tag/physics" rel="tag">physics</a>,&nbsp;<a href="/tag/higgs" rel="tag">higgs</a>			 ]]> 
+		</description>
+		<category>물리 이야기</category>
+		<category>LHC</category>
+		<category>physics</category>
+		<category>higgs</category>
+
+		<comments>http://extrad.egloos.com/3937250#comments</comments>
+		<pubDate>Mon, 11 Mar 2013 10:34:09 GMT</pubDate>
+		<dc:creator>ExtraD</dc:creator>
+	</item>
+</channel>
+</rss>

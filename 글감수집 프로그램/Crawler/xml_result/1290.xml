@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>블로그맨토리 Blogmantory</title>
+		<link>http://sinsatory.tistory.com/</link>
+		<description>정보의 바다를 지향합니다.</description>
+		<language>ko</language>
+		<pubDate>Sun, 06 Oct 2013 23:33:58 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>신사토리</managingEditor>
+		<image>
+			<title>블로그맨토리 Blogmantory</title>
+			<url>http://cfile2.uf.tistory.com/image/1934F0244CEE956F17BA5A</url>
+			<link>http://sinsatory.tistory.com</link>
+			<description>정보의 바다를 지향합니다.</description>
+		</image>
+		<item>
+			<title>마운틴라이언 부팅디스크 만들기 usb 부팅디스크</title>
+			<link>http://sinsatory.tistory.com/219</link>
+			<description>&lt;p&gt;&lt;b&gt;&lt;span style=&quot;font-size: 10pt; &quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); &quot;&gt;마운틴라이언 부팅디스크 만들기 usb 부팅디스크&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); &quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;마운틴 라이언이 출시된 후 앱스토어에서 바로 받아 기존의 맥 OS 에서 업그레이드를 할 수 있지만 경우에 따라 발열이 심해지거나 일부 응용프로그램이 오류가 나는 경우가 있다. 이럴 경우에 디스크를 포맷하고 osx을 새로 설치하는 클린설치의 과정이 필요하다.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; &quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-size: 10pt; line-height: 20px; font-family: Gulim, 굴림, AppleGothic, sans-serif; &quot;&gt;8GB USB로 부팅 디스크 만들어 쉽게 마운틴 라이언을 클린 설치를 할 수가 있다.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; &quot;&gt;&lt;font face=&quot;Gulim, 굴림, AppleGothic, sans-serif&quot; size=&quot;2&quot;&gt;&lt;span style=&quot;line-height: 20px; &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; &quot;&gt;&lt;span style=&quot;line-height: 20px; font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 14pt; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;준비물&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; &quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; &quot;&gt;&lt;span style=&quot;line-height: 20px; font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; color: rgb(255, 0, 0); &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(255, 0, 0); &quot;&gt;1. 8GB 이상 용량의 USB 메모리&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; &quot;&gt;&lt;b&gt;&lt;span style=&quot;line-height: 20px; font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 10pt; &quot;&gt;2. DiskMaker [&lt;/span&gt;&lt;a href=&quot;http://blog.gete.net/lion-diskmaker-us/&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot; style=&quot;text-decoration: underline; color: rgb(138, 138, 138); &quot;&gt;&lt;span style=&quot;color: rgb(255, 0, 0); font-size: 10pt; &quot;&gt;다운로드&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; line-height: 20px; color: rgb(255, 0, 0); &quot;&gt;]&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; line-height: 20px; color: rgb(255, 0, 0); &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(255, 0, 0); &quot;&gt;3. Mac OS 시스템&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; line-height: 20px; color: rgb(255, 0, 0); &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(255, 0, 0); &quot;&gt;4. 마운틴 라이언 설치 파일&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; line-height: 20px; &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; line-height: 20px; &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; text-align: center; clear: none; float: none; &quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:591px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile24.uf.tistory.com/original/136332505078D8EB2B12BF&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/136332505078D8EB2B12BF&quot; filemime=&quot;image/jpeg&quot; filename=&quot;osx.png&quot; height=&quot;332&quot; width=&quot;591&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; line-height: 20px; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; line-height: 20px; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; line-height: 20px; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;미리 마운틴 라이언을 app store에서 구입을 해야한다.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; line-height: 20px; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;app store의 구매내역에서 OS X Mountain Lion을 다운로드 받은 후에&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;8GB USB 메모리를 노트북에 장착한 후 다운 받은 DiskMaker를 실행하면 다음과 같은 창이 뜨게 된다.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; text-align: center; clear: none; float: none; &quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;margin: 5px 0px; display: inline-block; width: 489px; &quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/197CB54B504378B32C1F57&quot; height=&quot;182&quot; width=&quot;489&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 1.3; font-family: 돋움, Dotum, AppleGothic, sans-serif; &quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; text-align: center; clear: none; float: none; &quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;Mountain Lion(10.8)용 설치&amp;nbsp;USB를 만들기 때문에 &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; line-height: 20px; color: rgb(51, 51, 51); &quot;&gt;Mountain Lion(10.8)를 클릭한다.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; text-align: center; clear: none; float: none; &quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; text-align: center; clear: none; float: none; &quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;margin: 5px 0px; display: inline-block; width: 521px; &quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/2027884750437A8F188B30&quot; height=&quot;190&quot; width=&quot;521&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 1.3; font-family: 돋움, Dotum, AppleGothic, sans-serif; &quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 15px; font-family: 돋움, Dotum, AppleGothic, sans-serif; color: rgb(138, 138, 138); &quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: Gulim, 굴림, AppleGothic, sans-serif; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 15px; font-family: 돋움, Dotum, AppleGothic, sans-serif; color: rgb(138, 138, 138); &quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: Gulim, 굴림, AppleGothic, sans-serif; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;위에 표시한 Select an Install file....를 클릭해 마운틴 라이언 설치 파일을 클릭해준다.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; text-align: left; clear: none; float: none; &quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;margin: 5px 0px; display: inline-block; width: 694px; &quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/1724604750437A901C6452&quot; height=&quot;439&quot; width=&quot;694&quot; style=&quot;margin-top: 0px; margin-bottom: 0px; padding: 0px; border: 0px; line-height: 1.3; font-family: 돋움, Dotum, AppleGothic, sans-serif; cursor: pointer; &quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 15px; font-family: 돋움, Dotum, AppleGothic, sans-serif; color: rgb(138, 138, 138); &quot;&gt;&lt;br /&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 15px; font-family: 돋움, Dotum, AppleGothic, sans-serif; color: rgb(138, 138, 138); &quot;&gt;&lt;font face=&quot;Gulim, 굴림, AppleGothic, sans-serif&quot; size=&quot;2&quot;&gt;&lt;span style=&quot;line-height: 20px; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;응용 프로그램 -&amp;gt; OS X Mountain Lion 설치 클릭 -&amp;gt; 선택 클릭&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 15px; font-family: 돋움, Dotum, AppleGothic, sans-serif; color: rgb(138, 138, 138); &quot;&gt;&lt;font face=&quot;Gulim, 굴림, AppleGothic, sans-serif&quot; size=&quot;2&quot;&gt;&lt;span style=&quot;line-height: 20px; &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; text-align: center; clear: none; float: none; &quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;margin: 5px 0px; display: inline-block; width: 476px; &quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/1926134750437A901E4BA7&quot; height=&quot;302&quot; width=&quot;476&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 1.3; font-family: 돋움, Dotum, AppleGothic, sans-serif; &quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;font face=&quot;Gulim, 굴림, AppleGothic, sans-serif&quot; size=&quot;2&quot;&gt;&lt;span style=&quot;line-height: 20px; font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;이제는 부팅 디스크를 만들어야 하는데&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;DVD로 부팅 디스크를 만들 수도 있다. 우리는 USB로 만들기 위해 Create a boot disk를 클릭해주면 된다.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; text-align: center; clear: none; float: none; &quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;margin: 5px 0px; display: inline-block; width: 618px; &quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/18180E4750437A902E5A8B&quot; height=&quot;196&quot; width=&quot;618&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 1.3; font-family: 돋움, Dotum, AppleGothic, sans-serif; &quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;여기서는 An 8 GB USB thumb drive를 클릭한다.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; text-align: center; clear: none; float: none; &quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;margin: 5px 0px; display: inline-block; width: 312px; &quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/1206C03E5046023F208C6B&quot; height=&quot;171&quot; width=&quot;312&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 1.3; font-family: 돋움, Dotum, AppleGothic, sans-serif; &quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 15px; font-family: 돋움, Dotum, AppleGothic, sans-serif; color: rgb(138, 138, 138); &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 15px; font-family: 돋움, Dotum, AppleGothic, sans-serif; color: rgb(138, 138, 138); &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;메모리가 여러개 꽂혀있다면 항목이 나타날 것인데. 그 중에서 만들고자 하는 USB를 선택하여 Choose this disk를 클릭해주면 된다.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; text-align: center; clear: none; float: none; &quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;margin: 5px 0px; display: inline-block; width: 490px; &quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/1803AD3E5046023F21CE0C&quot; height=&quot;273&quot; width=&quot;490&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 1.3; font-family: 돋움, Dotum, AppleGothic, sans-serif; &quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;div style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 15px; font-family: 돋움, Dotum, AppleGothic, sans-serif; color: rgb(138, 138, 138); &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 15px; font-family: 돋움, Dotum, AppleGothic, sans-serif; color: rgb(138, 138, 138); &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;USB 메모리 안에 파일들이 있다면 삭제 한 후에 부팅디스크를 만든다는 뜻이다. 파일들을 노트북에 옮겨 놓거나 삭제 후에 진행하면 된다.&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; text-align: center; clear: none; float: none; &quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;margin: 5px 0px; display: inline-block; width: 488px; &quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/200D793E5046023F18556B&quot; height=&quot;189&quot; width=&quot;488&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 1.3; font-family: 돋움, Dotum, AppleGothic, sans-serif; &quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;span style=&quot;color: rgb(51, 51, 51); &quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;부팅 디스크를 만들고 있는 중이다. 이 과정이 다 될 때까지 기다리면 된다. 진행이 빨리 안된다고 해서 중간에 종료하지 말고 끝까지 참고 기다리면 된다.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; text-align: center; clear: none; float: none; &quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;margin: 5px 0px; display: inline-block; width: 575px; &quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/143798435046078A04D1B3&quot; height=&quot;192&quot; width=&quot;575&quot; style=&quot;margin: 0px; padding: 0px; border: 0px; line-height: 1.3; font-family: 돋움, Dotum, AppleGothic, sans-serif; &quot;&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;과정이 끝나면 윈도우들이 여러개 뜨는데 놔두면 자동으로 꺼지면서 위의 그림이 나타난다.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;span style=&quot;font-size: 10pt; color: rgb(51, 51, 51); &quot;&gt;Quit를 클릭하면 USB 부팅 디스크 설치 완료 된다. 이제부터 부팅 시에 옵션을 눌러 마운틴 된 USB를 클릭하면 마운틴 라이언 설치 화면으로 넘어가게 된다.&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;span style=&quot;font-family: Gulim, 굴림, AppleGothic, sans-serif; font-size: 10pt; &quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 1em 0px; color: rgb(138, 138, 138); font-family: dotum; line-height: 15px; clear: none; float: none; &quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;iframe width=&quot;100%&quot; height=&quot;30px&quot; src=&quot;http://api.v.daum.net/widget4?nid=35228105&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/IT%20/%20Apple&quot;&gt;IT / Apple&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/219&quot; &gt;마운틴라이언 부팅디스크 만들기 usb 부팅디스크&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/10/13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/211&quot; &gt;[세느]갤럭시S의 후속작 삼성 세느 공개&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/213&quot; &gt;아이폰4 거치대 신지모루 싱크스탠드&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(18)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/202&quot; &gt;아이폰에서 아이튠즈 미국계정 만들기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2010/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/196&quot; &gt;아이폰 카메라로 찍은 개기월식&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2010/12/23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/171&quot; &gt;아이폰 업데이트 ios 4.2 적용하기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(3)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2010/11/28&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>IT / Apple</category>
+			<author>신사토리</author>
+			<guid>http://sinsatory.tistory.com/219</guid>
+			<comments>http://sinsatory.tistory.com/219#entry219comment</comments>
+			<pubDate>Sat, 13 Oct 2012 11:51:36 +0900</pubDate>
+		</item>
+		<item>
+			<title>아빠와나 아들편 인기 플래시게임</title>
+			<link>http://sinsatory.tistory.com/189</link>
+			<description>&lt;div style=&quot;MARGIN-LEFT: -8px&quot; id=&quot;gadm_1&quot;&gt;
+&lt;/div&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#000000&quot;&gt;아빠와나 아들편 인기 플래시게임&lt;br /&gt;
+&lt;br /&gt;
+&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿인기 플래시게임 중에 하나인 아빠와나 시리즈 입니다. 그 중에서도 아빠와나 아들편 인데요. 재미로 즐기기에는 조큼! 잔인합니다. ㅋㅋ 하지만 정말 재밌습니다. &lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;아빠와나 아들편, 아빠편&amp;nbsp;총 2편이 있습니다. 아빠편은 조금 심심한 감이 있는데요. 아들편은 다이나믹한 구성으로 조작의 묘미를 살릴 수 있는 게임입니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+옛날에 오락실에서 하던 게임의 느낌이 조금 나네요.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;font color=&quot;#c8056a&quot;&gt;&lt;span style=&quot;FONT-SIZE: 12pt&quot;&gt;&lt;strong&gt;# 아빠와나 아들편 게임하기&lt;br /&gt;
+&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿&lt;br /&gt;
+&lt;/span&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile4.uf.tistory.com/original/1163E24D4D0B898009E8C7&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/1163E24D4D0B898009E8C7&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;아빠와나.jpg&quot; height=&quot;449&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/strong&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;﻿ &lt;/strong&gt;
+&lt;center&gt;
+&lt;center&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;&lt;embed src=&quot;http://file.norara.com/game/gameFile/dot.gif&quot; width=&quot;640&quot; height=&quot;1&quot;&gt; &lt;embed src=&quot;http://uploads.ungrounded.net/254000/254456_DadNMeNewgrounds.swf&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/embed&gt;&lt;br /&gt;
+﻿&lt;/strong&gt;&lt;/span&gt;&lt;/center&gt;&lt;/center&gt;
+&lt;div&gt;
+&lt;center&gt;&lt;strong&gt;&lt;object name=&quot;allblet&quot; id=&quot;allblet_player_bff01c0cf803acde2e6e61d66f768ce7&quot; classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot; codebase=&quot;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0&quot; width=&quot;470&quot; height=&quot;70&quot;&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;quality&quot; value=&quot;high&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot; /&gt;&lt;param name=&quot;movie&quot; value=&quot;http://showman.allblet.net/abp.swf&quot; /&gt;&lt;param name=&quot;FlashVars&quot; value=&quot;aid=101098&amp;amp;type=9&quot; /&gt;&lt;embed src=&quot;http://showman.allblet.net/abp.swf&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; wmode=&quot;transparent&quot; flashvars=&quot;aid=101098&amp;amp;type=9&quot; width=&quot;470&quot; height=&quot;70&quot; /&gt;&lt;/object&gt;&lt;/strong&gt;&lt;/center&gt;&lt;/div&gt;
+&lt;font color=&quot;#801fbf&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;strong&gt;﻿&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿&lt;/span&gt;&lt;br /&gt;
+[&lt;/strong&gt;&lt;/span&gt;&lt;font size=&quot;+0&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;strong&gt;아빠와나 아들편 조작법]&lt;/strong&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;br /&gt;
+&lt;strong&gt;이동: 화살표 방향키&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;/font&gt;&lt;strong&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿큰 기술: S&lt;/span&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;작은 기술: A&lt;/span&gt;&lt;/font&gt;&lt;br /&gt;
+&lt;/strong&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;strong&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;﻿&lt;br /&gt;
+&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 12pt&quot;&gt;# 아빠와나 아들편 플레이 화면&lt;/span&gt;&amp;nbsp;&lt;br /&gt;
+&lt;/strong&gt;&lt;/span&gt;&lt;span style=&quot;FONT-SIZE: 12pt&quot;&gt;&lt;strong&gt;&amp;nbsp; &lt;/strong&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;﻿&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile22.uf.tistory.com/original/15307D494D0B8E0C03D7E8&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/15307D494D0B8E0C03D7E8&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;아빠와나2.jpg&quot; height=&quot;449&quot; width=&quot;599&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile10.uf.tistory.com/original/1422D0484D0B8E2420B5F4&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/1422D0484D0B8E2420B5F4&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;아빠와나3.jpg&quot; height=&quot;449&quot; width=&quot;598&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile6.uf.tistory.com/original/206B734F4D0B8E3205DBFA&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/206B734F4D0B8E3205DBFA&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;아빠와나4.jpg&quot; height=&quot;449&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/strong&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;﻿&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;font size=&quot;+0&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;콤보 기술 들어갈때 키보드 누르는 맛이 아주 일품입니다. 스트레스 푸는 데이는 딱 이네요.&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;가끔식 시간 죽이기용 게임으로도 쓸만한 괜찮은 플래시게임 입니다.&lt;/span&gt;&lt;/font&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;한게임 하실래요? ㅎㅎ&lt;/span&gt;&lt;/font&gt;&lt;br /&gt;
+&lt;/font&gt;&lt;/span&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;iframe width=&quot;100%&quot; height=&quot;30px&quot; src=&quot;http://api.v.daum.net/widget4?nid=12266121&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/이전%20글%20모음&quot;&gt;이전 글 모음&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/189&quot; &gt;아빠와나 아들편 인기 플래시게임&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/190&quot; &gt;아빠와나 시리즈 아빠편 인기 플래시게임&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/193&quot; &gt;무료백신 추천 - 터보백신(Turbo Vaccine)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/197&quot; &gt;유투브 버퍼링 문제해결 유투브 가속기 설치하기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/205&quot; &gt;진저브레드 점핑 인기 플래시게임&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/207&quot; &gt;10원 경매 사이트의 위험성&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>이전 글 모음</category>
+			<category>게임</category>
+			<category>아빠와나</category>
+			<category>아빠와나아들편</category>
+			<category>아빠와나아빠편</category>
+			<category>오락실게임</category>
+			<category>웹게임</category>
+			<category>콤보기술</category>
+			<category>플래시게임</category>
+			<author>신사토리</author>
+			<guid>http://sinsatory.tistory.com/189</guid>
+			<comments>http://sinsatory.tistory.com/189#entry189comment</comments>
+			<pubDate>Tue, 27 Dec 2011 20:44:59 +0900</pubDate>
+		</item>
+		<item>
+			<title>아빠와나 시리즈 아빠편 인기 플래시게임</title>
+			<link>http://sinsatory.tistory.com/190</link>
+			<description>&lt;div style=&quot;MARGIN-LEFT: -8px&quot; id=&quot;gadm_1&quot;&gt;
+&lt;/div&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;strong&gt;아빠와나 시리즈 아빠편 인기 플래시게임&lt;br /&gt;
+&lt;br /&gt;
+&lt;/strong&gt;아빠와나 아빠편 플래시게임 입니다. 아빠와나 아들편과 함께 시리즈를 이루는 플래시게임인데요.&lt;br /&gt;
+역시 아들편과 마찬가지로 조금 잔인하고 화끈한 영상을 보여줍니다.&lt;br /&gt;
+&lt;br /&gt;
+아빠편은 아빠가 거대한 전기톱으로 아들편에 나온 것들과 같은 평범한 양민(?)들을 학살합니다. 양민들은 전기톱을 피해 마구 도망다니는데요. 나무를 타기도 하고&amp;nbsp;반대편으로 뛰어서 도망가기도 합니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+전기톱으로 나무를 베다 보면 가스가 나오는데요. 가스를 획득하면 게임을 플레이 할 수 있는 시간이 늘어납니다. &lt;br /&gt;
+만약 게임화면 오른쪽 위에는 해골모양의 바가 가득차게 되면 전기톱의 가스가 떨어져서 게임이 종료됩니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;&lt;font color=&quot;#c8056a&quot;&gt;&lt;span style=&quot;FONT-SIZE: 12pt&quot;&gt;# 아빠와나 아빠편 게임하기&lt;/span&gt;&lt;br /&gt;
+&lt;/font&gt;&lt;/strong&gt;&lt;br /&gt;
+아빠와나 아빠편 입니다. 활기찬 게임음악과 함께 신나게 베어보자구요~! ㅋㅋ&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile25.uf.tistory.com/original/1354034D4D0CBAD20B78A0&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/1354034D4D0CBAD20B78A0&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;아빠와나.jpg&quot; height=&quot;449&quot; width=&quot;601&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+
+&lt;div style=&quot;TEXT-ALIGN: center&quot;&gt;
+&lt;EMBED style=&quot;WIDTH: 600px; HEIGHT: 450px&quot; src=http://oldgame.nefficient.co.kr/flash/7-78.swf type=application/x-shockwave-flash allowNetworking=&quot;internal&quot; allowScriptAccess=&quot;never&quot; invokeURLS=&quot;false&quot; autostart=&quot;false&quot;&gt; &lt;/div&gt;
+&lt;br /&gt;
+
+&lt;div&gt;
+&lt;center&gt;&lt;object name=&quot;allblet&quot; id=&quot;allblet_player_bff01c0cf803acde2e6e61d66f768ce7&quot; classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot; codebase=&quot;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0&quot; width=&quot;470&quot; height=&quot;70&quot;&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;quality&quot; value=&quot;high&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot; /&gt;&lt;param name=&quot;movie&quot; value=&quot;http://showman.allblet.net/abp.swf&quot; /&gt;&lt;param name=&quot;FlashVars&quot; value=&quot;aid=101098&amp;amp;type=9&quot; /&gt;&lt;embed src=&quot;http://showman.allblet.net/abp.swf&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; wmode=&quot;transparent&quot; flashvars=&quot;aid=101098&amp;amp;type=9&quot; width=&quot;470&quot; height=&quot;70&quot; /&gt;&lt;/object&gt;&lt;/center&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#801fbf&quot;&gt;[아빠와나 아빠편 게임 조작법]&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;﻿&lt;/strong&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;strong&gt;이동: 화살표 방향키&lt;br /&gt;
+전기톱 가동: A&lt;br /&gt;
+터보: Shift&lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 12pt&quot;&gt;&lt;span&gt;﻿&lt;font color=&quot;#c8056a&quot;&gt;&lt;strong&gt;# 아빠와나 아빠편 플레&lt;/strong&gt;&lt;/font&gt;&lt;font color=&quot;#c8056a&quot;&gt;&lt;strong&gt;이 화면&lt;br /&gt;
+&lt;/strong&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;﻿&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;﻿&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile29.uf.tistory.com/original/155393474D0CBB961DA53F&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/155393474D0CBB961DA53F&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;아빠와나2.jpg&quot; height=&quot;452&quot; width=&quot;599&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿&lt;br /&gt;
+&lt;/span&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile29.uf.tistory.com/original/160EEF484D0CBBA8343F23&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/160EEF484D0CBBA8343F23&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;아빠와나3.jpg&quot; height=&quot;453&quot; width=&quot;601&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile29.uf.tistory.com/original/152E72504D0CBBB930674B&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/152E72504D0CBBB930674B&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;아빠와나4.jpg&quot; height=&quot;450&quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿&lt;font color=&quot;#000000&quot;&gt;전기톱 소리가 아주 경쾌하지 않나요? 마음에 안드는 사람이 있으면 이렇게 날려버리세요~ㅎㅎ&lt;br /&gt;
+이 게임은 앞 뒤로 모두 진행이 가능하기 때문에 양민이 뒤로 도망가면 부담없이 지구 끝까지 쫓아가서 처리하면 된답니다 ㅋㅋ&lt;br /&gt;
+&lt;/font&gt;&lt;/span&gt;&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;iframe width=&quot;100%&quot; height=&quot;30px&quot; src=&quot;http://api.v.daum.net/widget4?nid=12280670&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/이전%20글%20모음&quot;&gt;이전 글 모음&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/189&quot; &gt;아빠와나 아들편 인기 플래시게임&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/190&quot; &gt;아빠와나 시리즈 아빠편 인기 플래시게임&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/193&quot; &gt;무료백신 추천 - 터보백신(Turbo Vaccine)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/197&quot; &gt;유투브 버퍼링 문제해결 유투브 가속기 설치하기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/205&quot; &gt;진저브레드 점핑 인기 플래시게임&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/207&quot; &gt;10원 경매 사이트의 위험성&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>이전 글 모음</category>
+			<category>게임플레이</category>
+			<category>아빠와나</category>
+			<category>아빠와나아들편</category>
+			<category>아빠와나아빠편</category>
+			<category>웹게임</category>
+			<category>키보드조작</category>
+			<category>플래시게임</category>
+			<author>신사토리</author>
+			<guid>http://sinsatory.tistory.com/190</guid>
+			<comments>http://sinsatory.tistory.com/190#entry190comment</comments>
+			<pubDate>Tue, 27 Dec 2011 20:44:48 +0900</pubDate>
+		</item>
+		<item>
+			<title>무료백신 추천 - 터보백신(Turbo Vaccine)</title>
+			<link>http://sinsatory.tistory.com/193</link>
+			<description>&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#000000&quot;&gt;무료백신 추천 - 터보백신(Turbo Vaccine)&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;font color=&quot;#000000&quot;&gt;&lt;br /&gt;
+&lt;/font&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿&lt;font color=&quot;#000000&quot;&gt;많은 사람들이 자신의 PC에 백신 프로그램을 설치하는데요. 특히 요즘에는 무료백신 프로그램이 쓸만한게 많더군요.&lt;br /&gt;
+&lt;br /&gt;
+예전에는 무료백신이라고 하면 기본적인 컴퓨터 바이러스 또는 악성코드 치료 정도의 기능만 제공하고 그마져도 제대로 잡아내지 못하는 경우가 수두룩했는데 최근 무료백신 프로그램의 3대 천황이라 할 수 있는 v3 lite, 알약, 네이버백신 모두 일반 사용자들이 만족할만한 성능을 보여주고 있습니다.&lt;br /&gt;
+&lt;br /&gt;
+이번에 소개할 무료 백신 프로그램은 &lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;한때 안철수 연구소의 v3 백신 시리즈와 쌍벽을 이뤘던 백신 프로그램 터보백신(Turbo Vaccine) 입니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile8.uf.tistory.com/original/182C9A4F4D0E1CBF0E44F8&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/182C9A4F4D0E1CBF0E44F8&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;터보백신.jpg&quot; height=&quot;186&quot; width=&quot;683&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+터보백신 프리 v 1.1.0.6 입니다. 지원하는 운영체제는 WinXP, WinVISTA 32 bit, Win7 32bit 입니다. Win7 64 bit는 지원하지 않는군요. 맥os,리눅스 등도 지원하지 않습니다. 설치파일 용량은 꽤 무겁군요...104MB 입니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 12pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#c8056a&quot;&gt;#1 터보백신 프리 v 1.1.0.6 설치하기&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+터보백신 설치방법 입니다. 천천히 읽어보세요.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile5.uf.tistory.com/original/136DFF484D0E1D87105DC8&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/136DFF484D0E1D87105DC8&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;백신1.jpg&quot; height=&quot;397&quot; width=&quot;513&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile8.uf.tistory.com/original/1707764B4D0E1D92090CD6&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/1707764B4D0E1D92090CD6&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;백신2.jpg&quot; height=&quot;397&quot; width=&quot;513&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile30.uf.tistory.com/original/1223764D4D0E1DA134876E&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/1223764D4D0E1DA134876E&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;백신3.jpg&quot; height=&quot;397&quot; width=&quot;513&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile25.uf.tistory.com/original/173094474D0E1DAE07C81D&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/173094474D0E1DAE07C81D&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;터보백신.jpg&quot; height=&quot;397&quot; width=&quot;513&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile22.uf.tistory.com/original/1127A34F4D0E1DBD3001EE&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/1127A34F4D0E1DBD3001EE&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;터보백신2.jpg&quot; height=&quot;397&quot; width=&quot;513&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+설치가 완료됬습니다. 터보백신 프로그램은 재부팅을 해야 정상 작동합니다. 사용하려면 반드시 재부팅을 해주세요.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;
+&lt;center&gt;&lt;span style=&quot;TEXT-ALIGN: center; FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#193da9&quot;&gt;&lt;strong&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;무료 백신 프로그램&lt;/span&gt;&lt;br /&gt;
+&lt;/strong&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#193da9&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;터보백신 v 1.1.0.6 다운로드&lt;br /&gt;
+&lt;/strong&gt;&lt;/span&gt;&lt;font color=&quot;#8e8e8e&quot;&gt;&lt;a title=&quot;[http://file.naver.com/view.php?fnum=268671]로 이동합니다.&quot; href=&quot;http://file.naver.com/view.php?fnum=268671&quot; target=&quot;_blank&quot;&gt;네이버자료실&lt;/a&gt; &lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/center&gt;
+&lt;center style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#193da9&quot;&gt;&lt;font color=&quot;#8e8e8e&quot;&gt;
+&lt;div&gt;
+&lt;center&gt;&lt;object name=&quot;allblet&quot; id=&quot;allblet_player_bff01c0cf803acde2e6e61d66f768ce7&quot; classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot; codebase=&quot;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0&quot; width=&quot;470&quot; height=&quot;70&quot;&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;quality&quot; value=&quot;high&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot; /&gt;&lt;param name=&quot;movie&quot; value=&quot;http://showman.allblet.net/abp.swf&quot; /&gt;&lt;param name=&quot;FlashVars&quot; value=&quot;aid=101098&amp;amp;type=9&quot; /&gt;&lt;embed src=&quot;http://showman.allblet.net/abp.swf&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; wmode=&quot;transparent&quot; flashvars=&quot;aid=101098&amp;amp;type=9&quot; width=&quot;470&quot; height=&quot;70&quot; /&gt;&lt;/object&gt;&lt;/center&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 12pt&quot;&gt;&lt;font color=&quot;#c8056a&quot;&gt;&lt;strong&gt;#2 터보백신 주요기능&lt;br /&gt;
+&lt;/strong&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;﻿&lt;br /&gt;
+&lt;/strong&gt;&lt;font color=&quot;#000000&quot;&gt;터보백신&amp;nbsp;주요기능 입니다. 일반적인 무료 백신 프로그램들과 비슷한 기능을 제공합니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile25.uf.tistory.com/original/1708244A4D0E1F791BE4B4&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/1708244A4D0E1F791BE4B4&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;터보백신기능.jpg&quot; height=&quot;551&quot; width=&quot;681&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/center&gt;&lt;br /&gt;
+&lt;font color=&quot;#801fbf&quot;&gt;&lt;strong&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;1. 바이러스 &amp;amp; 악성코드 검사 및 치료&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;2. 실시간 감시&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;3.&amp;nbsp;PC절전모드&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;4.&amp;nbsp;PC최적화&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;5.&amp;nbsp;시작프로그램 관리&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;6.&amp;nbsp;시스템 정보 확인&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;/strong&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;strong&gt;7.&amp;nbsp;예약검사&lt;/strong&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;﻿&lt;br /&gt;
+&lt;br /&gt;
+&lt;/strong&gt;&lt;font color=&quot;#000000&quot;&gt;PC절전모드와 예약검사 시스템정보를 간편하게 원터치로 확인할 수 있습니다.&amp;nbsp;나머지는 기타 무료 백신 프로그램과 큰 차이가 없어 보입니다.&lt;/font&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;font color=&quot;#000000&quot;&gt;터보백신은 국산 백신 엔진인 터보백신 인공지능 엔진을 채용하여 더욱 강력한 실시간 감시 기능을 제공합니다.&lt;br /&gt;
+&lt;br /&gt;
+&amp;nbsp;&lt;/font&gt;&lt;br /&gt;
+&lt;font color=&quot;#c8056a&quot;&gt;&lt;span style=&quot;FONT-SIZE: 12pt&quot;&gt;&lt;strong&gt;#3 터보백신의 리소스 용량은? &lt;br /&gt;
+&lt;/strong&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;﻿&lt;br /&gt;
+&lt;/strong&gt;&lt;font color=&quot;#000000&quot;&gt;터보백신의 시스템 리소스 용량을 알아봤습니다. 실시간감시 기능이 작동할때를 기준으로 했습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile1.uf.tistory.com/original/110B264A4D0E239015FF2E&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/110B264A4D0E239015FF2E&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;터보백신.jpg&quot; height=&quot;462&quot; width=&quot;450&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;br /&gt;
+&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;실시간 감시 기능이 켜진 상태에서 약 23MB정도의 시스템 리소스를 차지합니다. 가볍기로 소문난 v3 lite의 약 10배 정도의 시스템 리소스 용량을 보이네요. 만약 성능이 낮은 컴퓨터 또는 고사양의 프로그램을 작동할 경우 컴퓨터가 조금 버벅거릴 수 있겠네요.&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;터보백신의 강력한 실시간 감시 기능이 오히려 컴퓨터 성능에는 독이 되는 것 같습니다.&lt;/span&gt;&lt;/font&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;BORDER-BOTTOM: #9fd331 1px solid; BORDER-LEFT: #9fd331 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #e7fdb5; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #9fd331 1px solid; BORDER-RIGHT: #9fd331 1px solid; PADDING-TOP: 10px&quot; class=&quot;txc-textbox&quot;&gt;
+&lt;font color=&quot;#000000&quot;&gt;&lt;strong&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;관련글&lt;/span&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;/font&gt;&lt;a href=&quot;http://sinsatory.tistory.com/175&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#193da9&quot;&gt;2010/11/30 - [토리의 유용한 이야기/프리웨어 쉐어웨어] - V3 lite 무료백신 프로그램&lt;/font&gt;&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://sinsatory.tistory.com/147&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#193da9&quot;&gt;2010/10/23 - [토리의 유용한 이야기/프리웨어 쉐어웨어] - 알약 다운로드 알약 v1.51 사용법&lt;/font&gt;&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://sinsatory.tistory.com/168&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#193da9&quot;&gt;2010/11/25 - [토리의 유용한 이야기/프리웨어 쉐어웨어] - 어베스트 홈에디션 다운로드 어베스트 5.0 사용법&lt;/font&gt;&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://sinsatory.tistory.com/165&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#193da9&quot;&gt;2010/11/14 - [토리의 유용한 이야기/프리웨어 쉐어웨어] - pc최적화 프로그램 고클린v1.2.8&lt;/font&gt;&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;iframe width=&quot;100%&quot; height=&quot;30px&quot; src=&quot;http://api.v.daum.net/widget4?nid=12298761&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/이전%20글%20모음&quot;&gt;이전 글 모음&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/189&quot; &gt;아빠와나 아들편 인기 플래시게임&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/190&quot; &gt;아빠와나 시리즈 아빠편 인기 플래시게임&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/193&quot; &gt;무료백신 추천 - 터보백신(Turbo Vaccine)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/197&quot; &gt;유투브 버퍼링 문제해결 유투브 가속기 설치하기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/205&quot; &gt;진저브레드 점핑 인기 플래시게임&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/207&quot; &gt;10원 경매 사이트의 위험성&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>이전 글 모음</category>
+			<category>PC최적화</category>
+			<category>V3 Lite</category>
+			<category>네이버백신</category>
+			<category>무료 백신 프로그램</category>
+			<category>백신프로그램</category>
+			<category>악성코드</category>
+			<category>알약</category>
+			<category>컴퓨터 바이러스</category>
+			<category>터보백신</category>
+			<category>터보백신 v1.1.0.6</category>
+			<author>신사토리</author>
+			<guid>http://sinsatory.tistory.com/193</guid>
+			<comments>http://sinsatory.tistory.com/193#entry193comment</comments>
+			<pubDate>Tue, 27 Dec 2011 20:44:29 +0900</pubDate>
+		</item>
+		<item>
+			<title>유투브 버퍼링 문제해결 유투브 가속기 설치하기</title>
+			<link>http://sinsatory.tistory.com/197</link>
+			<description>&lt;div style=&quot;MARGIN-LEFT: -8px&quot; id=&quot;gadm_1&quot;&gt;
+&lt;/div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;strong&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;유투브 버퍼링 문제해결 유투브 가속기 설치하기&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;/strong&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;﻿&lt;/strong&gt;유투브에서는 셀수 없을 만큼 많은 종류의 동영상들이 있죠. 더군다나&amp;nbsp;다양한 국가에서 실시간으로 동영상이 올라옵니다. 그래서 유투브를 뒤지다 보면 정말 참신하고 재미있는 동영상을 감상할 수 있습니다. 하지만 한가지 단점이 있죠. 바로 일부 동영상의 경우 버퍼링이 심하다는 점인데요. &lt;br /&gt;
+&lt;br /&gt;
+아무래도 유투브서버가 외국에 있다보니 한국에서 접속하여 감상하려면 속도가 느려지겠지만 동영상이 툭툭 끊긴다면 감상하는 맛도 안살고 짜증을 유발하게 되는데요.&lt;br /&gt;
+&lt;br /&gt;
+유투브 버퍼링을 해결하기 위해서는 우선 유투브 가속기를 설치해야 합니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 12pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#c8056a&quot;&gt;# 유투브 버퍼링 문제 해결! 유투브 가속기 설치하기&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+유투브 가속기 설치방법 입니다. 스폰서 프로그램이 없으니 안심하고 설치해도 됩니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile4.uf.tistory.com/original/134FD8504D174CE522E1B7&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/134FD8504D174CE522E1B7&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;유튜브1.jpg&quot; height=&quot;388&quot; width=&quot;508&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile7.uf.tistory.com/original/13703C494D174CF22E865B&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/13703C494D174CF22E865B&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;유투브2.jpg&quot; height=&quot;388&quot; width=&quot;508&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile7.uf.tistory.com/original/15423E4C4D174CFD243452&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/15423E4C4D174CFD243452&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;유투브3.jpg&quot; height=&quot;388&quot; width=&quot;508&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile1.uf.tistory.com/original/204582474D174D080A0685&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/204582474D174D080A0685&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;유투브4.jpg&quot; height=&quot;388&quot; width=&quot;508&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile10.uf.tistory.com/original/171FB74A4D174D13090D8B&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/171FB74A4D174D13090D8B&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;유투브5.jpg&quot; height=&quot;388&quot; width=&quot;508&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile25.uf.tistory.com/original/19084C4A4D174D224401D5&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/19084C4A4D174D224401D5&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;유투브6.jpg&quot; height=&quot;388&quot; width=&quot;508&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;center&gt;&lt;strong&gt;&lt;font color=&quot;#193da9&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;유투브 버퍼링 문제해결 &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;유투브 동영상 가속기 설치하기&lt;/span&gt;&lt;/font&gt;&lt;/strong&gt; &lt;/center&gt;
+&lt;center&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://sinsatory.tistory.com/attachment/cfile10.uf@1944884B4D174D881EB69A.exe&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; va31_update.exe&lt;/a&gt;&lt;/div&gt;&lt;/center&gt;
+&lt;center&gt;&lt;/center&gt;&lt;/span&gt;&lt;/font&gt;&lt;font style=&quot;TEXT-ALIGN: left&quot; color=&quot;#000000&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;
+&lt;center&gt;
+&lt;center&gt;&lt;object name=&quot;allblet&quot; id=&quot;allblet_player_bff01c0cf803acde2e6e61d66f768ce7&quot; classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot; codebase=&quot;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0&quot; width=&quot;470&quot; height=&quot;70&quot;&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;quality&quot; value=&quot;high&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot; /&gt;&lt;param name=&quot;movie&quot; value=&quot;http://showman.allblet.net/abp.swf&quot; /&gt;&lt;param name=&quot;FlashVars&quot; value=&quot;aid=101098&amp;amp;type=9&quot; /&gt;&lt;embed src=&quot;http://showman.allblet.net/abp.swf&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; wmode=&quot;transparent&quot; flashvars=&quot;aid=101098&amp;amp;type=9&quot; width=&quot;470&quot; height=&quot;70&quot; /&gt;&lt;/object&gt;&lt;/center&gt;
+&lt;center&gt;&amp;nbsp;&lt;/center&gt;
+&lt;center&gt;&amp;nbsp;&lt;/center&gt;
+&lt;center&gt;&amp;nbsp;&lt;/center&gt;
+&lt;center&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile24.uf.tistory.com/original/187697494D174E6527F0BC&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/187697494D174E6527F0BC&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;유투브가속기.jpg&quot; height=&quot;165&quot; width=&quot;224&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/center&gt;&lt;/center&gt;&lt;/span&gt;&lt;/font&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿&lt;font color=&quot;#000000&quot;&gt;유투브 동영상을 재생하면 버퍼링이 있을 경우 위와 같이 가속중임을 알리는 안내창이 나타납니다. HD동영상 가속기능도 있기 때문에 고화질 유투브 동영상도 끊김 없이 재생이 가능합니다.&lt;br /&gt;
+&lt;br /&gt;
+유투브 동영상을 자주 시청하는 분들은 반드시 필요한 프로그램 이라는 생각이 드네요.&lt;br /&gt;
+&amp;nbsp; 
+&lt;div style=&quot;BORDER-BOTTOM: #9fd331 1px solid; BORDER-LEFT: #9fd331 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #e7fdb5; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #9fd331 1px solid; BORDER-RIGHT: #9fd331 1px solid; PADDING-TOP: 10px&quot; class=&quot;txc-textbox&quot;&gt;
+&lt;strong&gt;&lt;font color=&quot;#000000&quot;&gt;관련글&lt;/font&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;http://sinsatory.tistory.com/159&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#193da9&quot;&gt;2010/11/09 - [토리의 유용한 이야기/프리웨어 쉐어웨어] - 유투브 다운로더 사용법 유투브 동영상 다운로드&lt;/font&gt;&lt;/span&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/font&gt;&lt;/span&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;iframe width=&quot;100%&quot; height=&quot;30px&quot; src=&quot;http://api.v.daum.net/widget4?nid=12499806&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/이전%20글%20모음&quot;&gt;이전 글 모음&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/190&quot; &gt;아빠와나 시리즈 아빠편 인기 플래시게임&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/193&quot; &gt;무료백신 추천 - 터보백신(Turbo Vaccine)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/197&quot; &gt;유투브 버퍼링 문제해결 유투브 가속기 설치하기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/205&quot; &gt;진저브레드 점핑 인기 플래시게임&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/207&quot; &gt;10원 경매 사이트의 위험성&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/209&quot; &gt;화면캡쳐프로그램 오픈캡쳐&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>이전 글 모음</category>
+			<category>HD동영상</category>
+			<category>HD화질</category>
+			<category>구글</category>
+			<category>유투브 가속기</category>
+			<category>유투브 다운로더</category>
+			<category>유투브 동영상</category>
+			<category>유투브 버퍼링</category>
+			<category>유투브 버퍼링 문제</category>
+			<category>유투브서버</category>
+			<author>신사토리</author>
+			<guid>http://sinsatory.tistory.com/197</guid>
+			<comments>http://sinsatory.tistory.com/197#entry197comment</comments>
+			<pubDate>Tue, 27 Dec 2011 20:44:01 +0900</pubDate>
+		</item>
+		<item>
+			<title>[세느]갤럭시S의 후속작 삼성 세느 공개</title>
+			<link>http://sinsatory.tistory.com/211</link>
+			<description>&lt;div style=&quot;MARGIN-LEFT: -8px&quot; id=&quot;gadm_1&quot;&gt;
+&lt;/div&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#000000&quot;&gt;[세느]갤럭시S의 후속작 삼성 세느 공개&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿&lt;font color=&quot;#000000&quot;&gt;전 세계적으로 1000만대라는 경이로운 판매대수를 기록했던 삼성 갤럭시S의 후속작이 오는 2월 14일&amp;nbsp;모바일 월드 콩글레스(MWC) 2011에서 공개된다고 합니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+프로젝트명 &lt;strong&gt;&lt;font color=&quot;#c8056a&quot;&gt;'세느'&lt;/font&gt;&lt;/strong&gt;&amp;nbsp;로 알려진 새 스마트폰은 듀얼코어CPU에 안드로이드 2.3 버전인 진저브레드가 탑재되었다고 하네요. &lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile21.uf.tistory.com/original/164A71554D4C13080C21C2&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/164A71554D4C13080C21C2&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Galaxy_S-2.jpg&quot; height=&quot;299&quot; width=&quot;450&quot;/&gt;&lt;/span&gt;&lt;/div&gt;(위 사진은 삼성 갤럭시S의 후속작인 '세느' 로 추정되는 이미지 일뿐 실제와는 다를 수 있습니다.)&lt;br /&gt;
+&lt;br /&gt;
+세느는 800만 화소 카메라와 자이로스코프를 장착했으며&amp;nbsp;티저 동영상에서 강조하는 9mm이하의 얇은 두께를 자랑합니다. 전작인 갤럭시S 보다는 훨씬 얇아진 두께로 현재 아이폰4의 두께와 비슷한 수준으로 맞춘 듯 하네요.&lt;br /&gt;
+&lt;br /&gt;
+개인적인 생각이지만 위의 추정되는 이미지로 볼 때 세느의 디자인은 전체적으로&amp;nbsp;갤럭시S&amp;nbsp;보다는&amp;nbsp;아이폰4 와 비슷한&amp;nbsp;느낌을&amp;nbsp;주는데요. &lt;br /&gt;
+&lt;br /&gt;
+뭐...아이폰4를 카피했다는 의미가 아닌 아이폰4의 영향을 받지 않았나 정도의 의미를 가지고 있다고 생각하면 되겠습니다.&lt;br /&gt;
+&lt;br /&gt;
+사실 갤럭시S가 처음 출시되었을때도 아이폰3GS와 비슷한 디자인이라는 지적을 많이 받았었죠. 이번에 공개될 세느의 실제 모습이 어떨지 사뭇 궁금해지는데요 :)&lt;br /&gt;
+&lt;br /&gt;
+갤럭시S의 후속작 세느는 프로젝트 명이고 실제로 출시할 때 제품명이 어떨지는 좀 더 두고 봐야겠습니다. 갤럭시S2? 혹은 갤럭시 세느 등 다양한&amp;nbsp;추측이 나오고 있는데요.&amp;nbsp;적어도 한국에서 만큼은 갤럭시S의 후속작임을 강조하기 위해 갤럭시라는 명칭을 달고 나올 것 같다는 생각이 드는군요.&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile24.uf.tistory.com/original/1970BC4C4D4C1B2B05FFC3&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/1970BC4C4D4C1B2B05FFC3&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;갤럭시S.jpg&quot; height=&quot;330&quot; width=&quot;534&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+세느의 공식적인 발표는 오는 2월 14일에 있을 예정이지만 한국에 출시할 날짜는 아직 미정이라고 합니다. 다만 올해 상반기 안으로 SK텔레콤을 통해 출시할 예정이라고 하네요.&lt;br /&gt;
+&lt;br /&gt;
+아래는 갤럭시S의 후속작 '세느' 의 티저영상입니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;iframe title=&quot;YouTube video player&quot; height=&quot;390&quot; src=&quot;http://www.youtube.com/embed/R97HgGlC4Cw&quot; frameborder=&quot;0&quot; width=&quot;640&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;br /&gt;
+&lt;/font&gt;&lt;/span&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;iframe width=&quot;100%&quot; height=&quot;30px&quot; src=&quot;http://api.v.daum.net/widget4?nid=13661208&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/IT%20/%20Apple&quot;&gt;IT / Apple&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/219&quot; &gt;마운틴라이언 부팅디스크 만들기 usb 부팅디스크&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2012/10/13&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/211&quot; &gt;[세느]갤럭시S의 후속작 삼성 세느 공개&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(7)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/213&quot; &gt;아이폰4 거치대 신지모루 싱크스탠드&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(18)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/202&quot; &gt;아이폰에서 아이튠즈 미국계정 만들기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(8)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2010/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/196&quot; &gt;아이폰 카메라로 찍은 개기월식&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2010/12/23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/171&quot; &gt;아이폰 업데이트 ios 4.2 적용하기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(3)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2010/11/28&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>IT / Apple</category>
+			<category>MWC2011</category>
+			<category>sk텔레콤</category>
+			<category>갤럭시S 후속</category>
+			<category>듀얼코어</category>
+			<category>모바일 월드 콩그레스</category>
+			<category>삼성</category>
+			<category>삼성 세느</category>
+			<category>삼성 스마트폰</category>
+			<category>세느</category>
+			<category>스마트폰</category>
+			<category>아이폰3GS</category>
+			<category>아이폰4</category>
+			<category>안드로이드2.3</category>
+			<category>애니콜</category>
+			<category>진저브레드</category>
+			<category>티저영상</category>
+			<author>신사토리</author>
+			<guid>http://sinsatory.tistory.com/211</guid>
+			<comments>http://sinsatory.tistory.com/211#entry211comment</comments>
+			<pubDate>Tue, 27 Dec 2011 20:43:44 +0900</pubDate>
+		</item>
+		<item>
+			<title>진저브레드 점핑 인기 플래시게임</title>
+			<link>http://sinsatory.tistory.com/205</link>
+			<description>&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#000000&quot;&gt;진저브레드 점핑 인기 플래시게임&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;이번에 소개할 게임은 진저브레드 점핑 이라는 게임입니다. 사람 모양을 한 진저브레드 빵 아시죠? 귀여운 진저브레드가 게임에 등장하여 로켓처럼 날아올라 크리스마스 트리 위로 점핑하는 게임인데요. 한번 즐겨보자구요~!&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile6.uf.tistory.com/original/174D47574D208DC51286A8&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/174D47574D208DC51286A8&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;진저브레드0.jpg&quot; height=&quot;481&quot; width=&quot;322&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 12pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#c8056a&quot;&gt;# 진저브레드 점핑 플래시게임 즐겨보자!&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+이런 게임은 크리스마스 때 하면 딱인데...정말 아쉽네요 ㅠ 하지만 정말 재밌는 게임입니다. 어렵지도 않구요.&lt;br /&gt;
+게임을 직접 퍼올 수 없어서 링크를 걸어 놨습니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;a title=&quot;[http://www.addictinggames.com/jump-for-fun-game.html]로 이동합니다.&quot; href=&quot;http://www.addictinggames.com/jump-for-fun-game.html&quot; target=&quot;_blank&quot;&gt;&lt;font color=&quot;#193da9&quot;&gt;GAME PLAY&lt;/font&gt;&lt;/a&gt;&lt;/strong&gt;&lt;br /&gt;
+
+&lt;div&gt;
+&lt;center&gt;&lt;object name=&quot;allblet&quot; id=&quot;allblet_player_bff01c0cf803acde2e6e61d66f768ce7&quot; classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot; codebase=&quot;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0&quot; width=&quot;470&quot; height=&quot;70&quot;&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;quality&quot; value=&quot;high&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot; /&gt;&lt;param name=&quot;movie&quot; value=&quot;http://showman.allblet.net/abp.swf&quot; /&gt;&lt;param name=&quot;FlashVars&quot; value=&quot;aid=101098&amp;amp;type=9&quot; /&gt;&lt;embed src=&quot;http://showman.allblet.net/abp.swf&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; wmode=&quot;transparent&quot; flashvars=&quot;aid=101098&amp;amp;type=9&quot; width=&quot;470&quot; height=&quot;70&quot; /&gt;&lt;/object&gt;&lt;/center&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#801fbf&quot;&gt;[진저브레드 점핑 플레이 화면]&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+게임 플레이 화면입니다. 저는 최고 고도 2553m를 기록했네요. 여러분도 한번 도전해보세요~!&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile3.uf.tistory.com/original/132D92484D2090A61D9C7E&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/132D92484D2090A61D9C7E&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;진저브레드2.jpg&quot; height=&quot;480&quot; width=&quot;323&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile9.uf.tistory.com/original/13597F4E4D2090B7154E12&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/13597F4E4D2090B7154E12&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;진저브레드3.jpg&quot; height=&quot;481&quot; width=&quot;320&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile24.uf.tistory.com/original/1870BB4F4D2090C50EDDDF&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/1870BB4F4D2090C50EDDDF&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;진저브레드.jpg&quot; height=&quot;478&quot; width=&quot;321&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+정말 귀여운 진저브레드죠? ㅎㅎ&lt;/font&gt;&lt;/span&gt; 
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;iframe width=&quot;100%&quot; height=&quot;30px&quot; src=&quot;http://api.v.daum.net/widget4?nid=12698583&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/이전%20글%20모음&quot;&gt;이전 글 모음&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/193&quot; &gt;무료백신 추천 - 터보백신(Turbo Vaccine)&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/197&quot; &gt;유투브 버퍼링 문제해결 유투브 가속기 설치하기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/205&quot; &gt;진저브레드 점핑 인기 플래시게임&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/207&quot; &gt;10원 경매 사이트의 위험성&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/209&quot; &gt;화면캡쳐프로그램 오픈캡쳐&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/210&quot; &gt;데몬 최신버전 다운로드 데몬툴즈&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>이전 글 모음</category>
+			<category>인기플래시게임</category>
+			<category>진저브래드</category>
+			<category>진저브레드</category>
+			<category>진저브레드 점핑</category>
+			<category>플래시게임</category>
+			<author>신사토리</author>
+			<guid>http://sinsatory.tistory.com/205</guid>
+			<comments>http://sinsatory.tistory.com/205#entry205comment</comments>
+			<pubDate>Tue, 27 Dec 2011 20:43:20 +0900</pubDate>
+		</item>
+		<item>
+			<title>10원 경매 사이트의 위험성</title>
+			<link>http://sinsatory.tistory.com/207</link>
+			<description>&lt;div style=&quot;MARGIN-LEFT: -8px&quot; id=&quot;gadm_1&quot;&gt;
+&lt;/div&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#000000&quot;&gt;10원 경매 사이트의 위험성&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#c8056a&quot;&gt;&lt;strong&gt;&lt;br /&gt;
+&lt;/strong&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;﻿&lt;/strong&gt;&lt;font color=&quot;#000000&quot;&gt;알만한 사람들은 다 아는 10원 경매 사이트들이 요즘 들어 우후죽순 생겨나고 있습니다. 10원 경매란 말 그대로 입찰을 할 때마다 물건값이 10원씩 올라가서 마지막으로 최고가에 입찰한 사람이 낙찰되는 방식인데요.&lt;br /&gt;
+&lt;br /&gt;
+당연히 공짜로 입찰은 불가능하고 해당 사이트에서 판매하는 콩 또는 칩 등의 사이버 머니를 구매해야 입찰할 수 있습니다. 콩이나 칩의 가격은 개당 500원~1000원 정도이며(사이트마다 다름) 경매에 입찰할 때마다 하나씩 소모됩니다.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile22.uf.tistory.com/original/204A974F4D3AFA5631E695&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/204A974F4D3AFA5631E695&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;옥션%2~1.jpg&quot; height=&quot;381&quot; width=&quot;498&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+고가의 제품을 말도 안되는 싼 가격에 살 수도 있다는 점을 내세우며 많은 사람들은 끌어들이고 있는데요.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+낙찰 받은 사람은 입찰에 사용한 칩 가격을 포함해서 원래 상품 가격의 반 값도 안되는 가격에 물건을 살 수 있지만 낙찰 받지 못한 사람은 투자한 돈을 고스란히 날리게 됩니다.&amp;nbsp;그래서&amp;nbsp;일부 인기상품의 경우 여러명의&amp;nbsp;입찰자들이 죽기살기로 몇 시간씩 무한 레이스를 펼치기도 하죠.&lt;br /&gt;
+&lt;br /&gt;
+더군다나 새로운 입찰자가 참여할 경우&amp;nbsp;경매시간이 10초~15초씩 늘어나기 때문에 마지막까지 결과를 알 수 없는 피말리는 싸움이 전개됩니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+10원 경매 사이트들은 이러한&amp;nbsp;입찰자들의 심리를 이용하여&amp;nbsp;앉아서 떼돈을 벌고 있습니다. &lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile9.uf.tistory.com/original/1903E3474D3B02F40CD490&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/1903E3474D3B02F40CD490&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;경매사이트.jpg&quot; height=&quot;484&quot; width=&quot;683&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+한 10원 경매 사이트에서 캡쳐한 화면입니다. 11만원짜리 후지쯔 파인픽스 카메라가 단돈 7790원에 낙찰되었는데요.&lt;br /&gt;
+&lt;br /&gt;
+과연 이 사이트는 물건값과 낙찰가의 차이인 102210원을 손해보았을까요?&lt;br /&gt;
+&lt;br /&gt;
+당연히 아닙니다. 10원 경매의 특성상 0원에서 시작한 입찰가가 10원씩 올라가게 되고 7790원에 낙찰되었다는 것은 총 779번의 입찰이 있었다는 얘기가 됩니다. 입찰에 참여하기 위한 칩 가격이 개당 500원이므로&amp;nbsp;계산해보면 779x500 + 7790 = &amp;nbsp;397290원에 물건을 구입한 셈이 됩니다. &lt;br /&gt;
+&lt;br /&gt;
+10원 경매 사이트에서는 11만원짜리 디카를 39만 7290원에 팔았으니 무려 네배 가까이 남는 장사를 한 셈이죠.&lt;br /&gt;
+&lt;br /&gt;
+물론 일부 상품의 경우 상품가격에도 못미치는 낙찰가가 나오기도 하지만 입찰자로서는 일단 낙찰만&amp;nbsp;받으면 대박이기 때문에 낙찰을 받기 위해 여러 경매 상품을 기웃거리며 끊임없이 칩을 소모하게 됩니다. 물론 낙찰을 받으면 다행이지만 못 받으면 본전생각에 계속해서 결제를 하게 만드는 악순환이 이어지게 되죠.&lt;br /&gt;
+&lt;br /&gt;
+그래서&amp;nbsp;10원 경매 사이트들은 일부 상품에서 손해를 보더라도 입찰자를 늘리기 위해 추천인 제도 등으로 대대적인 홍보를 하고 있습니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+일부에서는 &lt;strong&gt;&lt;font color=&quot;#801fbf&quot;&gt;시간대와 상품을 잘 고르면 경쟁없이 낙찰 받을 수 있지 않을까?&lt;/font&gt;&lt;/strong&gt; 라는 생각을 하는데 10원 경매를 한번이라도 해봤다면&amp;nbsp;경쟁 없이 낙찰 받는다는 것은&amp;nbsp;거의 불가능하다는 사실을 알 수 있습니다.&lt;br /&gt;
+&lt;br /&gt;
+더군다나 인기 상품의 경우 낙찰 받기가 하늘에 별따기 수준으로 로또 복권 당첨되는 것만큼 어렵기 때문에&amp;nbsp;잘못 건드렸다간 돈은 돈대로 쓰고 본전생각에 계속해서 지르게 되는 악순환이 이어질 수 있겠다는 생각이 들더군요.&lt;br /&gt;
+&lt;br /&gt;
+한마디로 10원 경매 사이트는 &lt;strong&gt;&lt;font color=&quot;#c8056a&quot;&gt;'도박'&lt;/font&gt;&lt;/strong&gt; 과 다를바가&amp;nbsp;없다고&amp;nbsp;봅니다.&amp;nbsp;적어도 중독성만큼은 도박이죠. 또한 로또와 마찬가지로 1등에게 무한 몰아주기 방식입니다. 그래도 로또는 한 사람당 최대 10만원 구입제한이 있는데다가 수익금으로는 공익사업을 한다는 명분이라도 있죠.&amp;nbsp;이런 10원 경매 사이트는 제한도 없습니다.&amp;nbsp;공익사업도 하지도 않고요. &lt;br /&gt;
+&lt;br /&gt;
+아래 10원 경매 사이트 캡쳐화면을 보면 10000원 이상 충전하면 보너스를 준다고 선전하고 있고 최대 20만원까지 충전이 가능합니다.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile26.uf.tistory.com/original/183E8F494D3B0BF016A676&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/183E8F494D3B0BF016A676&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;고액결제.jpg&quot; height=&quot;492&quot; width=&quot;683&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+제가 알기로는 몇번을&amp;nbsp;충전하든 충전횟수에는 제한이 없는 것으로 알고 있습니다. 수백만원을 충전하더라도 아무 문제가 없다는 얘기죠. 실제로 네이버 지식인을 뒤져보니 이런 10원 경매 사이트에서 몇백만원을 썼다는 글도&amp;nbsp;보이더군요.&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+현재 10원 경매 사이트는 &lt;font color=&quot;#801fbf&quot;&gt;&lt;strong&gt;'소비자들의&amp;nbsp;합리적인 소비 방식' &lt;/strong&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;이라느니 '&lt;strong&gt;&lt;font color=&quot;#801fbf&quot;&gt;새로운 소셜 커머스 산업'&lt;/font&gt;&lt;/strong&gt; 등으로 그럴듯하게 포장하면서 대대적인 홍보를 통해 지금도 선량한(?) 사람들을 끌어들이고 있습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile25.uf.tistory.com/original/1962794F4D3B0E9735617F&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/1962794F4D3B0E9735617F&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;10원경매사기.jpg&quot; height=&quot;315&quot; width=&quot;683&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+네이버에서&amp;nbsp;&lt;strong&gt;&lt;font color=&quot;#c8056a&quot;&gt;'10원&amp;nbsp;경매'&lt;/font&gt;&lt;/strong&gt; 로 검색하면 위와 같이 스폰서 링크들이 줄줄이 뜹니다. 그만큼 많은 업체들이 경쟁하면서 사람들을 끌어들이고 있다는 의미겠지요? &lt;br /&gt;
+&lt;br /&gt;
+한편으로는 이렇게 수 많은 사이트들이 경쟁을&amp;nbsp;하면서도 망하지 않는 것을 보면 얼마나 많은 사람들이 사행성을 조장하는 이런 경매 사이트에 돈을 지불했는지 짐작이 갑니다.&lt;br /&gt;
+&lt;br /&gt;
+사람들의 심리를 교묘히 이용하여 사행성을 조장하는 10원 경매 사이트들에 대해 경각심을 가지는 것이 필요하다고 봅니다. 또한 정부에서 더 큰 사회문제로 발전하기 전에 10원 경매 사이트에 대한 제재 방안을 마련한 필요가 있다는 생각이&amp;nbsp;드네요.&lt;br /&gt;
+&lt;br /&gt;
+하지만 무엇보다도 이런 10원 경매 사이트에 낚여 혹하는 마음에 입찰 레이스에 뛰어들지 말고 사고 싶은 상품이 있으면 속편하게 인터넷으로 최저가를 검색하여 구매하는 것이 합리적인 소비방법이라는&amp;nbsp;사실을 명심할 필요가 있다고 봅니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+엉뚱한 사이트 배불리지 말고요 ㅋ &lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;iframe width=&quot;100%&quot; height=&quot;30px&quot; src=&quot;http://api.v.daum.net/widget4?nid=13323737&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/이전%20글%20모음&quot;&gt;이전 글 모음&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/197&quot; &gt;유투브 버퍼링 문제해결 유투브 가속기 설치하기&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(1)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/205&quot; &gt;진저브레드 점핑 인기 플래시게임&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/207&quot; &gt;10원 경매 사이트의 위험성&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/209&quot; &gt;화면캡쳐프로그램 오픈캡쳐&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/210&quot; &gt;데몬 최신버전 다운로드 데몬툴즈&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/45&quot; &gt;부동산 등기 가 뭔가요? 부동산 등기 에 대해 알아보자&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>이전 글 모음</category>
+			<category>10원 경매</category>
+			<category>10원경매사이트</category>
+			<category>낙찰</category>
+			<category>로또</category>
+			<category>사이버 머니</category>
+			<category>소셜커머스</category>
+			<category>입찰</category>
+			<author>신사토리</author>
+			<guid>http://sinsatory.tistory.com/207</guid>
+			<comments>http://sinsatory.tistory.com/207#entry207comment</comments>
+			<pubDate>Tue, 27 Dec 2011 20:42:51 +0900</pubDate>
+		</item>
+		<item>
+			<title>화면캡쳐프로그램 오픈캡쳐</title>
+			<link>http://sinsatory.tistory.com/209</link>
+			<description>&lt;div style=&quot;MARGIN-LEFT: -8px&quot; id=&quot;gadm_1&quot;&gt;
+&lt;/div&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#000000&quot;&gt;화면캡쳐프로그램 오픈캡쳐(Open Capture)&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;무료로 사용할 수 있는 화면캡쳐프로그램 오픈캡쳐 입니다. 무료 프로그램 치고는 세련된 인터페이스와 함께 다양한 부가기능을 제공합니다. 캡순이, 안카메라 등 무료 캡쳐 프로그램들이 많지만 오픈캡쳐 하나면 나머지는 필요 없겠다는 생각이 드네요.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#c8056a&quot;&gt;#1 오픈캡쳐의 주요기능&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile23.uf.tistory.com/original/177B9C474D4B9A982CF341&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/177B9C474D4B9A982CF341&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;오픈캡쳐1.png&quot; height=&quot;330&quot; width=&quot;451&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;font color=&quot;#000000&quot;&gt;오픈캡쳐를 실행하면 나오는 메인화면 입니다. 공지사항과 함께 사진에는 없지만 최근에 유투브 동영상 감상 기능과 공식 블로그 탭도 생겼습니다. &lt;/font&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;strong&gt;&lt;font color=&quot;#801fbf&quot;&gt;[다양한 캡쳐 기능]&lt;/font&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;font color=&quot;#000000&quot;&gt;오픈캡쳐는 기본적인 화면캡쳐 기능 뿐만 아니라 윈도우 캡쳐 기능, 사용자 정의 캡쳐, 스크롤 캡쳐 기능 등 다양한 캡쳐 옵션을 선택할 수 있습니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+기본에 충실한 캡쳐 프로그램이라는 생각이 드네요.&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile7.uf.tistory.com/original/1979994F4D4B9D012D31E5&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/1979994F4D4B9D012D31E5&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;화면캡쳐3.jpg&quot; height=&quot;364&quot; width=&quot;683&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#801fbf&quot;&gt;﻿&lt;br /&gt;
+[이미지 편집 기능]&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;﻿오픈캡쳐는 캡쳐한 이미지의 간단한 편집 툴도 제공합니다. 이미지 크기 조절, 색 조절, 뽀샵 기능, 텍스트 삽입 기능 등을 사용할 수 있습니다. &lt;br /&gt;
+&lt;br /&gt;
+간단한 이미지 편집의 경우 포토샵을 사용할 필요가 없다는 생각이 드네요.&lt;br /&gt;
+&lt;/font&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile9.uf.tistory.com/original/191B194E4D4B9F16024639&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/191B194E4D4B9F16024639&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;오픈캡쳐3.jpg&quot; height=&quot;517&quot; width=&quot;683&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#801fbf&quot;&gt;&lt;strong&gt;&lt;br /&gt;
+[트위터 공유 기능]&lt;/strong&gt;&lt;/font&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;font size=&quot;+0&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿최근에 불고 있는 SNS 열풍에 편승하는 느낌의 트위터 공유 기능입니다. 캡쳐한 이미지, 편집한 이미지를 트위터로 바로 팔로어들과 공유할 수 있습니다.&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;트위터로 보내진 이미지는 트윗픽 단축 주소로 보여집니다. 이미지와 함께 메시지도 적어서 보낼 수 있네요.&lt;/span&gt;&lt;br /&gt;
+&lt;/font&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;웹에서 트위터를 많이 하시는 분들에게는 아주 편리한 기능이 아닐 수 없겠네요.&lt;/span&gt;&lt;br /&gt;
+&lt;/font&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile3.uf.tistory.com/original/1220704B4D4BA0350162B3&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/1220704B4D4BA0350162B3&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;트위터.jpg&quot; height=&quot;443&quot; width=&quot;582&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 12pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#c8056a&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;#2 오픈캡쳐 프로그램 다운로드&lt;/span&gt;&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;font color=&quot;#000000&quot;&gt;오픈캡쳐 프로그램은 프리웨어로 누구나 자유롭게 비영리 목적으로 배포할 수 있습니다. 다만 최신 업데이트 파일을 바로 받아볼 수 있게 하기 위하여 오픈캡쳐 공식 홈페이지와 네이버 자료실의 자료를 링크하도록 하겠습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;BORDER-BOTTOM: #9fd331 1px solid; BORDER-LEFT: #9fd331 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #e7fdb5; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #9fd331 1px solid; BORDER-RIGHT: #9fd331 1px solid; PADDING-TOP: 10px&quot; class=&quot;txc-textbox&quot;&gt;
+&lt;strong&gt;&lt;font color=&quot;#000000&quot;&gt;오픈캡쳐 공식 다운로드 링크 [&lt;a title=&quot;[http://simples.kr/OpenCapture]로 이동합니다.&quot; href=&quot;http://simples.kr/OpenCapture&quot; target=&quot;_blank&quot;&gt;&lt;font color=&quot;#193da9&quot;&gt;바로가기&lt;/font&gt;&lt;/a&gt;]&lt;br /&gt;
+네이버 자료실 [&lt;a title=&quot;[http://file.naver.com/pc/view.html?fnum=270772&amp;amp;cat=42]로 이동합니다.&quot; href=&quot;http://file.naver.com/pc/view.html?fnum=270772&amp;amp;cat=42&quot; target=&quot;_blank&quot;&gt;&lt;font color=&quot;#193da9&quot;&gt;바로가기&lt;/font&gt;&lt;/a&gt;]&lt;/font&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;center&gt;&amp;nbsp;&lt;/center&gt;
+&lt;center&gt;
+&lt;div&gt;
+&lt;center&gt;&lt;object name=&quot;allblet&quot; id=&quot;allblet_player_bff01c0cf803acde2e6e61d66f768ce7&quot; classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot; codebase=&quot;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0&quot; width=&quot;470&quot; height=&quot;70&quot;&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;quality&quot; value=&quot;high&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot; /&gt;&lt;param name=&quot;movie&quot; value=&quot;http://showman.allblet.net/abp.swf&quot; /&gt;&lt;param name=&quot;FlashVars&quot; value=&quot;aid=101098&amp;amp;type=9&quot; /&gt;&lt;embed src=&quot;http://showman.allblet.net/abp.swf&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; wmode=&quot;transparent&quot; flashvars=&quot;aid=101098&amp;amp;type=9&quot; width=&quot;470&quot; height=&quot;70&quot; /&gt;&lt;/object&gt;&lt;/center&gt;&lt;/div&gt;
+&lt;/center&gt;&lt;/div&gt;
+&lt;br /&gt;
+
+&lt;div style=&quot;BORDER-BOTTOM: #9fd331 1px solid; BORDER-LEFT: #9fd331 1px solid; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #e7fdb5; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #9fd331 1px solid; BORDER-RIGHT: #9fd331 1px solid; PADDING-TOP: 10px&quot; class=&quot;txc-textbox&quot;&gt;
+&lt;strong&gt;&lt;font color=&quot;#000000&quot;&gt;관련글&lt;/font&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;http://sinsatory.tistory.com/85&quot; target=&quot;_blank&quot;&gt;&lt;font color=&quot;#193da9&quot;&gt;2010/08/07 - [토리의 유용한 이야기/프리웨어 쉐어웨어] - 간편한 무료 화면녹화 프로그램 camstudio&lt;/font&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://sinsatory.tistory.com/90&quot; target=&quot;_blank&quot;&gt;&lt;font color=&quot;#193da9&quot;&gt;2010/08/11 - [토리의 유용한 이야기/프리웨어 쉐어웨어] - 강력한 화면캡쳐 프로그램 snagit(스네그잇)&lt;/font&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://sinsatory.tistory.com/123&quot; target=&quot;_blank&quot;&gt;&lt;font color=&quot;#193da9&quot;&gt;2010/09/21 - [토리의 유용한 이야기/프리웨어 쉐어웨어] - 초코플레이어 간편한 동영상플레이어 초코플레이어&lt;/font&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://sinsatory.tistory.com/133&quot; target=&quot;_blank&quot;&gt;&lt;font color=&quot;#193da9&quot;&gt;2010/10/04 - [토리의 유용한 이야기/프리웨어 쉐어웨어] - 화면캡쳐 프로그램 캡순이 5.06&lt;/font&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&quot;http://sinsatory.tistory.com/144&quot; target=&quot;_blank&quot;&gt;&lt;font color=&quot;#193da9&quot;&gt;2010/10/18 - [토리의 유용한 이야기/프리웨어 쉐어웨어] - 동영상녹화 캡쳐 프로그램 프랩스 3.2.3&lt;/font&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;/font&gt;&lt;/span&gt;
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;iframe width=&quot;100%&quot; height=&quot;30px&quot; src=&quot;http://api.v.daum.net/widget4?nid=13654952&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/이전%20글%20모음&quot;&gt;이전 글 모음&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/205&quot; &gt;진저브레드 점핑 인기 플래시게임&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(5)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/207&quot; &gt;10원 경매 사이트의 위험성&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/209&quot; &gt;화면캡쳐프로그램 오픈캡쳐&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/210&quot; &gt;데몬 최신버전 다운로드 데몬툴즈&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/45&quot; &gt;부동산 등기 가 뭔가요? 부동산 등기 에 대해 알아보자&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/50&quot; &gt;등록세 취득세 세율에 대해 알아보자&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>이전 글 모음</category>
+			<category>무료 프로그램</category>
+			<category>쉐어웨어</category>
+			<category>스네그잇</category>
+			<category>안카메라</category>
+			<category>오픈캡쳐</category>
+			<category>오픈캡쳐 다운로드</category>
+			<category>캡순이</category>
+			<category>프로그램 다운로드</category>
+			<category>프리웨어</category>
+			<category>화면캡쳐프로그램</category>
+			<author>신사토리</author>
+			<guid>http://sinsatory.tistory.com/209</guid>
+			<comments>http://sinsatory.tistory.com/209#entry209comment</comments>
+			<pubDate>Tue, 27 Dec 2011 20:42:29 +0900</pubDate>
+		</item>
+		<item>
+			<title>데몬 최신버전 다운로드 데몬툴즈</title>
+			<link>http://sinsatory.tistory.com/210</link>
+			<description>&lt;div style=&quot;MARGIN-LEFT: -8px&quot; id=&quot;gadm_1&quot;&gt;
+&lt;/div&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#000000&quot;&gt;데몬 최신버전 다운로드 데몬툴즈&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿시디스페이스와 함께 &lt;/span&gt;&lt;font size=&quot;+0&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;가상 CD롬 드라이버의 양대 산맥을 이루고 있는 데몬 입니다. 데몬툴즈 라이트 버전은 비영리 목적의 개인 사용자에 한해 무료로 사용이 가능합니다.&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿가상 CD롬 드라이버란 &lt;/span&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;CD나 DVD에 대한 각종 이미지 파일을 애뮬레이션하여 가상의 CD-ROM 드라이브의 역할을 하게 하는 프로그램입니다.&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile30.uf.tistory.com/original/1227C4554D4C06F72A2FCA&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/1227C4554D4C06F72A2FCA&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;데몬툴즈.jpg&quot; height=&quot;185&quot; width=&quot;683&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿네이버 자료실의 데몬툴즈 라이트 버전입니다. 총 24만여회의 다운로드 횟수를 자랑합니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;데몬은 기본적으로 원도우2000 이상의 운영체제에서 사용이&amp;nbsp;가능하며 32비트 64비트 모두 지원합니다. 윈도우가 아닌 운영체제 즉, 리눅스, 맥OS 등에서는 사용이 불가능하다는 사실 참고하면 되겠습니다.&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#c8056a&quot;&gt;#1 데몬툴즈 설치하기&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿&lt;font color=&quot;#000000&quot;&gt;데몬툴즈는 기본 프로그램과 함께 데몬툴바, 윈도우가젯, 검색설정변경 등이 적용됩니다. 원하는 항목만 선택한 뒤에 설치를 진행하는 것이 중요합니다. 여기서는 나머지 부가 프로그램 없이 기본 툴만 설치를 하도록 하겠습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile3.uf.tistory.com/original/14729A474D4CC02D01C578&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/14729A474D4CC02D01C578&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;데몬1.png&quot; height=&quot;397&quot; width=&quot;513&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile24.uf.tistory.com/original/176C9F4E4D4CC06102C5C0&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/176C9F4E4D4CC06102C5C0&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;데몬2.png&quot; height=&quot;397&quot; width=&quot;513&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile30.uf.tistory.com/original/186268504D4CC06C38A227&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/186268504D4CC06C38A227&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;데몬3.png&quot; height=&quot;397&quot; width=&quot;513&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile23.uf.tistory.com/original/187F304D4D4CC07901A1E9&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/187F304D4D4CC07901A1E9&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;데몬4.png&quot; height=&quot;397&quot; width=&quot;513&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile4.uf.tistory.com/original/1848EE484D4CC2580CAF48&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/1848EE484D4CC2580CAF48&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;데몬5.png&quot; height=&quot;397&quot; width=&quot;513&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile23.uf.tistory.com/original/19444D484D4CC26112D8A6&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/19444D484D4CC26112D8A6&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;데몬6.png&quot; height=&quot;397&quot; width=&quot;513&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile23.uf.tistory.com/original/184A3B484D4CC26D092B00&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/184A3B484D4CC26D092B00&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;데몬7.png&quot; height=&quot;397&quot; width=&quot;513&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+
+&lt;center&gt;&amp;nbsp;&lt;br /&gt;
+&lt;font size=&quot;+0&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#801fbf&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;데몬툴즈 최신버전 다운로드&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;/font&gt;&lt;/strong&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#801fbf&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;DAEMON Tools Lite v4.40.2.0131 32/64 B&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;it&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;s&lt;/font&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/center&gt;
+&lt;center&gt;
+&lt;div style=&quot;BORDER-BOTTOM: #cbcbcb 3px double; BORDER-LEFT: #cbcbcb 3px double; PADDING-BOTTOM: 10px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; BORDER-TOP: #cbcbcb 3px double; BORDER-RIGHT: #cbcbcb 3px double; PADDING-TOP: 10px&quot; class=&quot;txc-textbox&quot;&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#000000&quot;&gt;네이버 자료실 [&lt;/font&gt;&lt;/strong&gt;&lt;a title=&quot;[http://file.naver.com/pc/view.html?fnum=277449&amp;amp;cat=44]로 이동합니다.&quot; href=&quot;http://file.naver.com/pc/view.html?fnum=277449&amp;amp;cat=44&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#193da9&quot;&gt;바로가기&lt;/font&gt;&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;&lt;font color=&quot;#000000&quot;&gt;]&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#000000&quot;&gt;데몬 공식 홈페이지 [&lt;/font&gt;&lt;/strong&gt;&lt;a title=&quot;[http://dt-updates.com/activate?query=hpNkYDz69kW1HWkXhYArgwlf86x%2fkH9uLVL5AD7UNWyAFFRckVAE%2fGkrIF%2bYHz5VT6JTwJuwPQwYMQ5UMuBwDjoyrqlaTLr821SIy890o3JEpEqkPBOSvfOJFV2MxpXi8QYP9RB8Ref3W%2bohjRtSLhUC1DpdpDZrUOYSP5rKC4CVgoYV515x3xYWzF3e3nEcsx8Zpis6sITczuVXPIUb5651zMjlz3RHyY9euvvvSKe33dJe881Y6FoiMqyDuzTDbUwvq5jAwoEVpi0NMEm6bYMzCw6jkDksQ6MUHinzcMNAqw3NU86wxDgBOvQnHSFkd%2bqMD1XXw4Nixw6Pc1lUiGClwV8M5C0Bv%2fFk6MiT%2fp%2fH6EVLXiLo64mXwoQOhKNYCAYctDQiuIyzip2vnQseaQ%3d%3d]로 이동합니다.&quot; href=&quot;http://dt-updates.com/activate?query=hpNkYDz69kW1HWkXhYArgwlf86x%2fkH9uLVL5AD7UNWyAFFRckVAE%2fGkrIF%2bYHz5VT6JTwJuwPQwYMQ5UMuBwDjoyrqlaTLr821SIy890o3JEpEqkPBOSvfOJFV2MxpXi8QYP9RB8Ref3W%2bohjRtSLhUC1DpdpDZrUOYSP5rKC4CVgoYV515x3xYWzF3e3nEcsx8Zpis6sITczuVXPIUb5651zMjlz3RHyY9euvvvSKe33dJe881Y6FoiMqyDuzTDbUwvq5jAwoEVpi0NMEm6bYMzCw6jkDksQ6MUHinzcMNAqw3NU86wxDgBOvQnHSFkd%2bqMD1XXw4Nixw6Pc1lUiGClwV8M5C0Bv%2fFk6MiT%2fp%2fH6EVLXiLo64mXwoQOhKNYCAYctDQiuIyzip2vnQseaQ%3d%3d&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#193da9&quot;&gt;바로가기&lt;/font&gt;&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt;&lt;font color=&quot;#000000&quot;&gt;]&lt;br /&gt;
+
+&lt;div&gt;
+&lt;center&gt;&lt;object name=&quot;allblet&quot; id=&quot;allblet_player_bff01c0cf803acde2e6e61d66f768ce7&quot; classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot; codebase=&quot;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0&quot; width=&quot;470&quot; height=&quot;70&quot;&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;&lt;param name=&quot;quality&quot; value=&quot;high&quot; /&gt;&lt;param name=&quot;wmode&quot; value=&quot;transparent&quot; /&gt;&lt;param name=&quot;movie&quot; value=&quot;http://showman.allblet.net/abp.swf&quot; /&gt;&lt;param name=&quot;FlashVars&quot; value=&quot;aid=101098&amp;amp;type=9&quot; /&gt;&lt;embed src=&quot;http://showman.allblet.net/abp.swf&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; type=&quot;application/x-shockwave-flash&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; wmode=&quot;transparent&quot; flashvars=&quot;aid=101098&amp;amp;type=9&quot; width=&quot;470&quot; height=&quot;70&quot; /&gt;&lt;/object&gt;&lt;/center&gt;&lt;/div&gt;
+&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;/center&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;font color=&quot;#c8056a&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;#2 데몬의 주요기능&lt;/span&gt;&lt;br /&gt;
+&lt;/font&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;﻿&lt;font color=&quot;#000000&quot;&gt;데몬 공식 홈페이지에 소개된 데몬 주요 기능 입니다.&lt;br /&gt;
+&lt;/font&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile29.uf.tistory.com/original/170B2D504D4CC6DE0D54CB&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/170B2D504D4CC6DE0D54CB&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;highlight-dtLite-1.jpg&quot; height=&quot;147&quot; width=&quot;430&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#801fbf&quot;&gt;[기본적인 백업 기능]&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+
+&lt;p class=&quot;featureListIEPadding&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;CD/DVD/Blu-ray 디스크의 .iso, *.mds/*.mdf 및 *.mdx 이미지 작성&lt;br /&gt;
+&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;비밀번호로 이미지 보호&lt;br /&gt;
+&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;이미지 압축 및 분할&lt;br /&gt;
+&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;이미지 컬렉션 관리&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile5.uf.tistory.com/original/1576894C4D4CC769132C73&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/1576894C4D4CC769132C73&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;highlight-dtLite-2.jpg&quot; height=&quot;191&quot; width=&quot;430&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;subTitleFontSize subTitleFontColor&quot;&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#801fbf&quot;&gt;[미디어 디바이스 가상화]&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;br /&gt;
+
+&lt;p style=&quot;PADDING-RIGHT: 15px&quot; class=&quot;featureListIEPadding&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;최대 4개의 가상 디바이스를 만들어 다수의 이미지를 동시에 삽입&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;가상 드라이브 맞춤화: 드라이브 표시글자, DVD 영역 등 변경&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;*.mdx, *.mds/*.mdf, *.iso, *.b5t, *.b6t, *.bwt, *.ccd, *.cdi, *.cue, *.nrg, *.pdi, *.isz 디스크 이미지를 가상 드라이브에 삽입&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;/font&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile23.uf.tistory.com/original/156D014E4D4CC7D711BB8C&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/156D014E4D4CC7D711BB8C&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;highlight-dtLite-3.jpg&quot; height=&quot;246&quot; width=&quot;430&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;strong&gt;&lt;font color=&quot;#801fbf&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;[기본적인 시스템 통합을 통한 단순 사용자 인터페이스]&lt;/span&gt;&lt;br /&gt;
+&lt;/font&gt;&lt;/strong&gt;&lt;br /&gt;
+&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;System Tray에서 프로그램 아이콘을 통해 모든 기능에 빠르게 접근 &lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;파일 연계를 사용하여 윈도우스 탐색기에서 곧장 이미지 삽입&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;자동화 용도로 강력한 명령 행 인터페이스 사용&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;윈도우스 데스크탑에서 편리한 DAEMON Tools 도구로 기본적인 액션 수행&lt;/span&gt;&lt;/font&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#c8056a&quot;&gt;#3 데몬으로 가상CD롬 드라이브 실행하기&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;데몬을 실행합니다.&lt;/font&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile7.uf.tistory.com/original/1373484C4D4CC98D1E32B9&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/1373484C4D4CC98D1E32B9&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;가상CD1.png&quot; height=&quot;446&quot; width=&quot;486&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;왼쪽 하단의 추가하기 버튼을 누릅니다.&lt;/font&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile25.uf.tistory.com/original/1574C74E4D4CC9C60C5F64&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/1574C74E4D4CC9C60C5F64&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;가상CD.png&quot; height=&quot;480&quot; width=&quot;610&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;데몬과 호환되는 데이터 이미지 파일 포맷이 있으면 자동으로 화면에 나타납니다. 만약 압축이 되어있을 경우 먼저 압축을 해제하고 실행하면 됩니다.&lt;/span&gt;&lt;br /&gt;
+&lt;/font&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile3.uf.tistory.com/original/1477A94A4D4CCB5F0A4E2A&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/1477A94A4D4CCB5F0A4E2A&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;가상CD2.png&quot; height=&quot;446&quot; width=&quot;486&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;위와 같이 이미지 포맷이 나타나면 화살표 모양의 삽입하기를 선택하면 됩니다.&lt;/font&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;strong&gt;&lt;font color=&quot;#801fbf&quot;&gt;[데몬이 지원하는 포맷의 종류]&lt;/font&gt;&lt;/strong&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;cue/bin &lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;iso &lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;ccd (CloneCD) &lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;bwt (Blindwrite) &lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;mds (Media Descriptor File) &lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;cdi (Discjuggler) &lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;nrg (Nero) &lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;pdi (Instant CD/DVD) &lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;b5t (BlindWrite 5) &lt;/span&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;FONT-SIZE: 11pt&quot;&gt;&lt;span style=&quot;FONT-SIZE: 10pt&quot;&gt;isz (UltraISO)&lt;/span&gt;&lt;/span&gt;&lt;/font&gt; 
+&lt;div class=&quot;tt-plugin tt-share-entry-with-sns tt-sns-icon-alignment-center tt-sns-icon-size-big&quot;&gt;
+	&lt;div class=&quot;tt-sns-wrap&quot; id=&quot;ttSnsWrap-&quot;&gt;
+		&lt;ul class=&quot;tt-sns-service-default&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-mypeople&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('mypeople', '', '');&quot;&gt;마이피플&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-twitter&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('twitter', '', '');&quot;&gt;트위터&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-facebook&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('facebook', '', '');&quot;&gt;페이스북&lt;/a&gt;&lt;/li&gt;
+			&lt;li class=&quot;tt-sns-service-other&quot;&gt;&lt;a href=&quot;javascript:;&quot; onmouseover=&quot;ShareEntryWithSNS.showLayer(event, '');&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;더보기&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+		&lt;ul class=&quot;tt-sns-service-more&quot; id=&quot;ttSnsServiceMore-&quot; onmouseout=&quot;ShareEntryWithSNS.hideLayer(event, '');&quot;&gt;
+			&lt;li class=&quot;tt-sns-service-me2day&quot;&gt;&lt;a href=&quot;javascript:;&quot; onclick=&quot;ShareEntryWithSNS.share('me2day', '', '');&quot;&gt;미투데이&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	&lt;div class=&quot;tt-sns-clear&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;iframe width=&quot;100%&quot; height=&quot;30px&quot; src=&quot;http://api.v.daum.net/widget4?nid=13666928&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div class=&quot;another_category another_category_color_gray&quot;&gt;
+&lt;h4&gt;'&lt;a href=&quot;/category/이전%20글%20모음&quot;&gt;이전 글 모음&lt;/a&gt;' 카테고리의 다른 글&lt;/h4&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/207&quot; &gt;10원 경매 사이트의 위험성&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/209&quot; &gt;화면캡쳐프로그램 오픈캡쳐&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/210&quot; &gt;데몬 최신버전 다운로드 데몬툴즈&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/45&quot; &gt;부동산 등기 가 뭔가요? 부동산 등기 에 대해 알아보자&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/50&quot; &gt;등록세 취득세 세율에 대해 알아보자&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(0)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;a href=&quot;/48&quot; &gt;수입인지 수입증지 차이점은?&lt;/a&gt;&amp;nbsp;&amp;nbsp;&lt;span&gt;(2)&lt;/span&gt;
+&lt;/th&gt;
+&lt;td&gt;
+2011/12/23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;/div&gt;</description>
+			<category>이전 글 모음</category>
+			<category>가상CD롬</category>
+			<category>데몬 다운로드</category>
+			<category>데몬 최신버전</category>
+			<category>데몬툴즈</category>
+			<category>데몬툴즈 라이트</category>
+			<category>데이터이미지</category>
+			<category>쉐어웨어</category>
+			<category>시디스페이스</category>
+			<category>애뮬레이션</category>
+			<category>윈도우</category>
+			<category>포맷</category>
+			<category>프리웨어</category>
+			<author>신사토리</author>
+			<guid>http://sinsatory.tistory.com/210</guid>
+			<comments>http://sinsatory.tistory.com/210#entry210comment</comments>
+			<pubDate>Tue, 27 Dec 2011 20:41:55 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

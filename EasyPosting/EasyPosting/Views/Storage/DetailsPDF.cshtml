@@ -1,0 +1,17 @@
+﻿@model EasyPosting.Models.EP_POSTS
+
+@{
+    //ViewBag.Title = Model.Title; 
+    Layout = null;
+}
+
+<meta http-equiv="Content-type" content="text/html; charset=euc-kr">
+    <h2>@Html.DisplayFor(model => model.Title)</h2>
+
+    <h3>@Html.DisplayFor(model => model.Date)</h3>
+    <h4>@Html.DisplayFor(model => model.Slug), @Html.DisplayFor(model => model.Category)</h4>
+
+    <div>
+        @Html.Raw(Model.Body)
+    </div>
+

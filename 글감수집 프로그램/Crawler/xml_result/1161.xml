@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>NTFAQ</title>
+		<link>http://ntfaq.co.kr/</link>
+		<description>윈도우 서버 및 클라어언트 기술자료,FAQ 문서, 재난복구 강좌,중소기업 솔루션정보</description>
+		<language>ko</language>
+		<pubDate>Mon, 18 Aug 2014 23:17:55 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>NTFAQ</managingEditor>
+		<item>
+			<title>OWASP Top2010 정식 발표</title>
+			<link>http://ntfaq.co.kr/4349</link>
+			<description>OWASP Top 10은 웹 애플리케이션을 운영할 때에 발생할 수 있는 웹 취약점을 중요성, 전파성, 유행성 등을 기준으로 정리한 문서입니다.  이미 지난 해에 RC1이 발표되었으며, 지난 4월 19일에 정식으로 발표되었습니다. OWASP top 10 2010 RC1 - http://moonslab.com/770 RC1 버전에 비해 정식 버전에서 새롭게 추가되거나 변경된 취약점은 없습니다만, A7-A10 까지 순위가 일부 변경되었습니다. OWASP..&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;iframe width=&quot;100%&quot; height=&quot;44px&quot; src=&quot;http://api.v.daum.net/widget3?nid=6669648&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>웹방화벽(트릿센트리)</category>
+			<category>OWASP</category>
+			<category>OWASP 2007</category>
+			<category>OWASP 2010</category>
+			<category>OWASP TOP 10</category>
+			<category>OWASP Top10</category>
+			<category>OWASP2007</category>
+			<category>OWASP2010</category>
+			<category>sql injection</category>
+			<category>XSS</category>
+			<author>문스랩닷컴</author>
+			<guid>http://ntfaq.co.kr/4349</guid>
+			<comments>http://ntfaq.co.kr/4349#entry4349comment</comments>
+			<pubDate>Tue, 20 Apr 2010 07:47:47 +0900</pubDate>
+		</item>
+		<item>
+			<title>윈도우 홈서버 파워 팩 3 베타 출시</title>
+			<link>http://ntfaq.co.kr/4346</link>
+			<description>올해 MS에서 출시하는 제품의 화두는 단연 Windows 7 이라고 말씀드릴 수 있습니다. 넷북의 대중화, 쓰기 불편한(보안은 튼튼하지만) 윈도우 비스타보다 인터페이스 향상, 하드웨어 요구사양이 적게 되는, 어떻게 보면 Windows 98의 OSR2와 같은 존재로 느껴지기도 합니다. 국내에는 별로 알려지지 않았지만 MS에서 가정용 컴퓨터 환경을 겨냥해 개발한 윈도우 홈 서버는, 서비스팩 개념이 아닌 파워팩(PP)의 형태로 버그 패치 및 기능 향상을..&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;iframe width=&quot;100%&quot; height=&quot;44px&quot; src=&quot;http://api.v.daum.net/widget3?nid=3699218&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>Windows Home Server</category>
+			<category>Power Pack 3</category>
+			<category>PowerPack</category>
+			<category>PP</category>
+			<category>PP3</category>
+			<category>WHS</category>
+			<category>Windows Home Server</category>
+			<category>Windows HomeServer</category>
+			<category>윈도우 홈서버</category>
+			<category>윈도우홈서버</category>
+			<category>파워팩</category>
+			<category>파워팩3</category>
+			<author>문스랩닷컴</author>
+			<guid>http://ntfaq.co.kr/4346</guid>
+			<comments>http://ntfaq.co.kr/4346#entry4346comment</comments>
+			<pubDate>Sat, 18 Jul 2009 19:13:31 +0900</pubDate>
+		</item>
+		<item>
+			<title>IIS WebDAV 보안 우회 취약점 발견돼</title>
+			<link>http://ntfaq.co.kr/4343</link>
+			<description>최근 이 취약점을 이용하여 IIS 웹서버를 공격하는 사례가 발생하고 있습니다. 아직 패치가 발표되지 않은 만큼, WebDAV의 기능을 중지시켜 미연에 방지하시기 바랍니다. 5월 18일 오늘(미국 기준), IIS 5/6의 WebDAV에서 보안 인증을 우회하는 취약점이 발견되었습니다. 보안에 관심을 가지고 계신 분이라면 WebDAV 취약점은 지난 2001년도에 IIS 4/5에서 발생한 MS01-26이 생각날 수도 있습니다. 이는 폴더 이름에 사용되는 문..</description>
+			<category>MS 관련 자료</category>
+			<category>%c0%af</category>
+			<category>FPSE</category>
+			<category>PROPFIND</category>
+			<category>webdav</category>
+			<category>취약점</category>
+			<author>문스랩닷컴</author>
+			<guid>http://ntfaq.co.kr/4343</guid>
+			<comments>http://ntfaq.co.kr/4343#entry4343comment</comments>
+			<pubDate>Thu, 28 May 2009 15:34:44 +0900</pubDate>
+		</item>
+		<item>
+			<title>[PDF]윈도우 2000 재난 복구 및 복원 기술강좌</title>
+			<link>http://ntfaq.co.kr/4337</link>
+			<description>윈도우 2000 재난 복구 및 복원 (Windows 2000 Disaster Recovery and Restore ) 책으로 소개된 내용 전부를 PDF 파일로 공개합니다. 윈도우 2000 운영체제를 사용하는데 도움이 되기를 바라겠습니다. (Windows 2000 Disaster Recovery and Restore ) 1장. 시스템 재난 복구 방안 개요 1. 개요 2. 시스템 복구 시 피해야 할 작업들 3. 문제 발생 시 바로 찾아 볼 수 있는 채널..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4337-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;iframe width=&quot;100%&quot; height=&quot;44px&quot; src=&quot;http://api.v.daum.net/widget3?nid=2877608&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>윈도우 재난복구 강좌</category>
+			<author>혜민아빠</author>
+			<guid>http://ntfaq.co.kr/4337</guid>
+			<comments>http://ntfaq.co.kr/4337#entry4337comment</comments>
+			<pubDate>Mon, 06 Apr 2009 11:30:34 +0900</pubDate>
+		</item>
+		<item>
+			<title>Forefront Threat Management Gateway Beta 2</title>
+			<link>http://ntfaq.co.kr/4336</link>
+			<description>Forefront TMG(Threat Management Gateway) Beta 2 제품이 나왔다. 일명 FTMG 라는 제품으로 기업보안관리를 제공하는 통합위협관리(UTM) 기능을 제공한다고 보면 된다. FTMG 제품은 기존 ISA 2006 업그레이드 제품이기도 한다.  통합 보안 공격으로부터 경계하는 통합 애플 리케이션 및 네트워크 - 레이어 방화벽, 침입 방지, VPN을 연결 기능을 제공하여 네트워크를 보호하기 위해, 제공 및 e - 메일 보안..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4336-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>윈도우 서버군 기술 강좌</category>
+			<category>Forefront TMG</category>
+			<category>Threat Management Gateway</category>
+			<author>혜민아빠</author>
+			<guid>http://ntfaq.co.kr/4336</guid>
+			<comments>http://ntfaq.co.kr/4336#entry4336comment</comments>
+			<pubDate>Thu, 26 Mar 2009 10:56:45 +0900</pubDate>
+		</item>
+		<item>
+			<title>액티브 디렉터리는 기반 시설이다</title>
+			<link>http://ntfaq.co.kr/4326</link>
+			<description>Windows 2008이 나오면서 액티브 디렉터리(Active Directory)의 위상이 바뀌고 있습니다. 과거 시스템의 대부분이 AD가 없어도 잘 동작하는 환경에서 나왔지만, 보안이 점차 중요해지면서 합법적인 권한을 부여 받기 위한 환경을 구성하기 위해 AD를 요구하는 프로그램들이 점차 늘어가고 있기 때문입니다. 물론, AD가 없는 환경에서도 잘 동작하는 프로그램도 많이 있지만, AD가 없어도 잘 동작하는 프로그램이라도 AD가 있으면 보다 더 짧..&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;iframe width=&quot;100%&quot; height=&quot;44px&quot; src=&quot;http://api.v.daum.net/widget3?nid=2702574&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>윈도우 서버군 기술 강좌</category>
+			<category>Active Directory</category>
+			<category>ad</category>
+			<category>관리</category>
+			<category>보안</category>
+			<category>액티브 디렉터리</category>
+			<category>통합</category>
+			<author>데굴대굴</author>
+			<guid>http://ntfaq.co.kr/4326</guid>
+			<comments>http://ntfaq.co.kr/4326#entry4326comment</comments>
+			<pubDate>Tue, 10 Mar 2009 18:04:20 +0900</pubDate>
+		</item>
+		<item>
+			<title>USB 사용하여 넷북에 윈도우 7 설치</title>
+			<link>http://ntfaq.co.kr/4335</link>
+			<description>넷북에 윈도우 7 설치작업을 했다. CD-ROM이 없는 관계로 USB(4GB)메모리를 통해서 설치 작업을 했다. 그동안 기존 서브노트북을 통해 2번에 윈도우 7 설치 작업을 했으며, 노트북 교체로 또 다시 작업 진행을 했다. 윈도우 7 이젠 바꿀만 하네 - 사용후기 윈도우 7 두번째 설치, 실제 사용해도 될듯 현 윈도우 7 사용하다보면 IE8 때문에 실제 업무가 안되는 경우가 있다. 아직 베타라 지원이 많이 되고 있기 때문인데, 최근 자료에 의라면..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4335-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+			  				&lt;iframe width=&quot;100%&quot; height=&quot;44px&quot; src=&quot;http://api.v.daum.net/widget3?nid=2683791&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>Windows 7</category>
+			<category>USB 설치드라이브</category>
+			<category>넷북설치</category>
+			<category>윈도우7</category>
+			<author>혜민아빠</author>
+			<guid>http://ntfaq.co.kr/4335</guid>
+			<comments>http://ntfaq.co.kr/4335#entry4335comment</comments>
+			<pubDate>Fri, 06 Mar 2009 17:19:30 +0900</pubDate>
+		</item>
+		<item>
+			<title>DPM에서 SMTP를 설정하면 ID:3040 오류가 발생한다</title>
+			<link>http://ntfaq.co.kr/4296</link>
+			<description>DPM에서는 작업 실패나 복구 알림, 치명적인 문제 등의 알림 및 DPM의 동작에 대한 보고서를 E-mail로 받을 수 있는데, 이를 사용하기 위해서는 SMTP를 설정해야 한다. DPM의 도움말로 SMTP 설정에 대한 문서(http://technet.microsoft.com/ko-kr/library/bb808912(en-us).aspx)가 제공되고 있으나, 이 문서의 내용과는 다르게 옵션에 있는 SMTP 서버를 설정하면 오류가 발생한다. 오류 내용은..</description>
+			<category>Data Protection Manager</category>
+			<category>3040</category>
+			<category>Data Protection Manager</category>
+			<category>DPM</category>
+			<category>DPMDB</category>
+			<category>Reporting Service</category>
+			<category>SMTP</category>
+			<category>보고서 서버</category>
+			<category>오류</category>
+			<category>이메일</category>
+			<author>데굴대굴</author>
+			<guid>http://ntfaq.co.kr/4296</guid>
+			<comments>http://ntfaq.co.kr/4296#entry4296comment</comments>
+			<pubDate>Wed, 04 Mar 2009 18:36:22 +0900</pubDate>
+		</item>
+		<item>
+			<title>넷북에서 윈도우 PPTP 연결이 비활성화 일때</title>
+			<link>http://ntfaq.co.kr/4334</link>
+			<description>넷북을 통해 윈도우 PPTP 연결을 하고자 하는데 비활성화가 되어있다면 당황하지 말고 아래의 두개의 서비스를 시작 시켜 주어라. Telephony - 로컬 컴퓨터 및 LAN을 통해 TAPI 서비스를 실행하는 서버에서, 전화 통신 장치 및 IP 기반 음성 연결을 제어하는 프로그램에게 TAPI(Telephony API) 지원을 제공합니다. Remote Access Connection Manager - 네트워크 연결을 만듭니다. 종속성 서비스이기 때문에..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4334-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>Windows XP</category>
+			<author>혜민아빠</author>
+			<guid>http://ntfaq.co.kr/4334</guid>
+			<comments>http://ntfaq.co.kr/4334#entry4334comment</comments>
+			<pubDate>Wed, 04 Mar 2009 18:04:24 +0900</pubDate>
+		</item>
+		<item>
+			<title>트릿센트리 라이선스 등록 방법</title>
+			<link>http://ntfaq.co.kr/4331</link>
+			<description>트릿센트르 평가버전을 통해서 30일동안은 무료로 사용할 수 있다. 30일 이전에 라이선스를 신규로 받아서 넣어주어야 하는데, 그렇지 않을 경우 서비스가 정상적으로 가동되지 않는다. 라이선스 발급은 제품 구매 신청 후 2~3일 정도 소요됨. 라이선스 적용 방법 트릿센트리 관리자 콘솔 실행 관리자 콘솔에서 [그림1] 화면에 따라 'Register ThreatSentry' 기능을 클릭한다.  'Register ThreatSentry' 클릭 하게 되면 그림..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-4331-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>웹방화벽(트릿센트리)</category>
+			<category>관리콘솔</category>
+			<category>라이선스</category>
+			<category>트릿센트리</category>
+			<author>혜민아빠</author>
+			<guid>http://ntfaq.co.kr/4331</guid>
+			<comments>http://ntfaq.co.kr/4331#entry4331comment</comments>
+			<pubDate>Tue, 03 Mar 2009 13:39:25 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,58 @@
+﻿@model EasyPosting.Models.EP_POSTS
+@{
+    ViewBag.Title = "아카이브";
+    Layout = "~/Views/Shared/_ArchiveLayout.cshtml";
+}
+
+<!-- begin timeline -->
+<ul class="timeline">
+    @{int cnt = 0;  }
+    @foreach (var a in ViewBag.child)
+    {
+        if ((@a.GUID == @a.Ref && @a.Type != "Version") || @a.GUID != @a.Ref)
+        {
+            <li>
+                <!-- begin timeline-time -->
+                <div class="timeline-time">
+                    <span class="date">@a.Date.ToString("yyyy/MM/dd")</span>
+                    <span class="time">@a.Date.ToString("HH:mm")</span>
+                </div>
+                <!-- end timeline-time -->
+                <!-- begin timeline-icon -->
+                <div class="timeline-icon">
+                    @if (cnt != 0)
+                    {
+                        <a href="/Archive/VersionEdit/@a.ID"></a>
+                    }
+                    else
+                    {
+                        <a href="/Archive/VersionEdit/@a.ID"><i class="fa fa-flag"></i></a>
+                    }
+                </div>
+                <!-- end timeline-icon -->
+                <!-- begin timeline-body -->
+                <div class="timeline-body">
+                    <div class="timeline-header">
+                        <span class="username">@a.Title</span>
+                        <span class="pull-right text-muted">Tags - @a.Slug</span>
+                    </div>
+                    <div class="timeline-content">
+                        @Html.Raw(a.Body)
+                    </div>
+                </div>
+                <!-- end timeline-body -->
+            </li>
+                    cnt++;
+        }
+    }
+    <li>
+        <!-- begin timeline-icon -->
+        <div class="timeline-icon">
+            <a href="javascript:;"><i class="fa fa-flag-checkered"></i></a>
+        </div>
+        <!-- end timeline-icon -->
+        <!-- begin timeline-body -->
+        <!-- end timeline-body -->
+    </li>
+</ul>
+<!-- end timeline -->

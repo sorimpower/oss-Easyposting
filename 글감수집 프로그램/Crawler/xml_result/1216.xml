@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Google Earth Blog</title>
+	<atom:link href="http://www.gearthblog.com/feed" rel="self" type="application/rss+xml" />
+	<link>http://www.gearthblog.com</link>
+	<description>The amazing things about Google Earth</description>
+	<lastBuildDate>Thu, 25 Sep 2014 19:39:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	
+	<item>
+		<title>Moving to the new My Maps</title>
+		<link>http://www.gearthblog.com/blog/archives/2014/09/moving-mymaps.html</link>
+		<comments>http://www.gearthblog.com/blog/archives/2014/09/moving-mymaps.html#respond</comments>
+		<pubDate>Thu, 25 Sep 2014 09:38:18 +0000</pubDate>
+		<dc:creator><![CDATA[Timothy Whitehead]]></dc:creator>
+				<category><![CDATA[Google Earth News]]></category>
+		<category><![CDATA[google maps]]></category>
+		<category><![CDATA[google maps engine]]></category>
+		<category><![CDATA[my maps]]></category>
+		<category><![CDATA[myreadingmapped]]></category>
+
+		<guid isPermaLink="false">http://www.gearthblog.com/?p=8834</guid>
+		<description><![CDATA[<p>Back in 2007 Google first introduced My Maps which allowed anyone to create and share their own maps directly in the Google Maps interface. Since then Google Maps has received a significant upgrade which went live for all users in February this year. The older version, now referred to as &#8216;classic Google Maps&#8217;, still exists [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/moving-mymaps.html">Moving to the new My Maps</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Back in 2007 Google <a href="http://www.gearthblog.com/blog/archives/2007/04/my_maps_new_google_m.html">first introduced</a> My Maps which allowed anyone to create and share their own maps directly in the Google Maps interface. Since then Google Maps has received a significant upgrade which went live for all users in <a href="http://www.gearthblog.com/blog/archives/2014/02/new-google-maps-going-live.html">February this year</a>. The older version, now referred to as &#8216;classic Google Maps&#8217;, still exists and if necessary you can switch back to it by clicking on the question mark in the lower right hand corner of the new Maps, and selecting &#8216;Return to classic Google Maps&#8217;.</p>
+<p>Separately, Google created <a href="http://www.google.com/enterprise/mapsearth/products/mapsengine.html">Google Maps Engine</a>, formerly known as Google Earth Builder, which was initially targeted at enterprise customers and later extended for use by nonprofits and researchers in the <a href="http://www.google.co.za/earth/outreach/grants/software/mapsengine.html">Google Earth Outreach program</a>. In March last year, Google <a href="http://google-latlong.blogspot.com/2013/03/create-collaborate-and-share-advanced.html">introduced</a> Maps Engine Lite, a free version of Maps Engine. In October last year, it <a href="http://google-latlong.blogspot.com/2013/10/introducing-google-maps-engine-pro.html">introduced</a> Maps Engine Pro, a paid for version targeted at small businesses. These last two products were <a href="http://google-latlong.blogspot.com/2014/09/make-your-own-way-with-new-my-maps.html">recently</a> renamed My Maps Pro, and My Maps.</p>
+<p><img src="http://www.gearthblog.com/wp-content/uploads/2014/09/MapsGallery.jpg" alt="Maps Gallery" /><br />
+<i><a href="http://maps.google.com/gallery/">Maps Gallery</a> is the place to find maps that users have created and shared publicly.</i></p>
+<p>People who had created custom maps were, until recently, mostly still using the classic My Maps. However, Google <a href="https://support.google.com/maps/answer/6009908?p=upgrade_issues&amp;rd=1">is encouraging</a> users to switch over to the new My Maps, and in the near future will transition everyone automatically.</p>
+<p>One such user is George Stiller, the creator of MyReadingMapped, an excellent site with a lot of Maps content that we have featured no less than 17 times in the past. For a list of those articles, <a href="http://www.gearthblog.com/tag/myreadingmapped">click here</a>. George <a href="http://myreadingmapped.blogspot.com/2014/09/new-mandatory-google-mymaps-upgrade-to.html">decided</a> last week to take the plunge and switch over to the new maps before being automatically upgraded. He has <a href="http://myreadingmapped.blogspot.com/2014/09/converting-from-old-custom-classic.html">blogged about</a> his experience and I highly recommend that anyone who is facing the upgrade read through his blog posts so that you know what to expect.</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/moving-mymaps.html">Moving to the new My Maps</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.gearthblog.com/blog/archives/2014/09/moving-mymaps.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Google Earth drone control</title>
+		<link>http://www.gearthblog.com/blog/archives/2014/09/happykillmores-ground-control-station.html</link>
+		<comments>http://www.gearthblog.com/blog/archives/2014/09/happykillmores-ground-control-station.html#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 09:30:51 +0000</pubDate>
+		<dc:creator><![CDATA[Timothy Whitehead]]></dc:creator>
+				<category><![CDATA[Flying]]></category>
+		<category><![CDATA[GE Plugin]]></category>
+		<category><![CDATA[drone]]></category>
+		<category><![CDATA[HappyKillmore's Ground Control Station]]></category>
+		<category><![CDATA[QGroundControl]]></category>
+
+		<guid isPermaLink="false">http://www.gearthblog.com/?p=8782</guid>
+		<description><![CDATA[<p>After our post on drones, GEB reader Satyen Sarhad (creator of Geoception that we looked at back in 2012), pointed us to a couple of Ground Control Station systems for drones that make excellent use of the Google Earth plugin. Open source software HappyKillmore&#8217;s Ground Control Station is focused on being easy to use and [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/happykillmores-ground-control-station.html">Google Earth drone control</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>After our post on drones, GEB reader Satyen Sarhad (creator of <a href="http://geoception.com/">Geoception</a> that we <a href="http://www.gearthblog.com/blog/archives/2012/09/geoception_a_great_new_game_for_goo.html">looked at</a> back in 2012), pointed us to a couple of Ground Control Station systems for drones that make excellent use of the Google Earth plugin.</p>
+<p>Open source software <a href="https://code.google.com/p/happykillmore-gcs/">HappyKillmore&#8217;s Ground Control Station</a> is focused on being easy to use and working well on low resolution screens. The primary purpose of the software appears to be to monitor a drone in flight. It displays the data that is received from the drone on the various instruments displayed and also shows the position, attitude and path of the drone in the Google Earth plugin display. You can also download a number of 3D models of drones for use in the software. It can show a live video feed from the drone. Although it can be used to set up a mission with way points, it doesn&#8217;t appear to allow direct manual control of the drone.</p>
+<p><img src="http://www.gearthblog.com/wp-content/uploads/2014/09/HappyKillmoreGCS_1.jpg" alt="HappyKillmores Ground Control Station" /><br />
+<i>Chase Camera view</i></p>
+<p><span class='embed-youtube' style='text-align:center; display: block;'><iframe class='youtube-player' type='text/html' width='640' height='390' src='http://www.youtube.com/embed/zwAfO_bOu28?version=3&#038;rel=1&#038;fs=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' frameborder='0'></iframe></span></p>
+<p><i>Above: HappyKillmore&#8217;s Ground Control Station in action.</i></p>
+<p>Another YouTube video with a vertical perspective showing the flight path can be found <a href="https://www.youtube.com/watch?v=3_WbMZhqE2c">here</a>.</p>
+<p>Open source project QGroundControl allows you to create a mission by setting way-points by clicking directly on the Google Earth plugin.</p>
+<p><span class='embed-youtube' style='text-align:center; display: block;'><iframe class='youtube-player' type='text/html' width='640' height='390' src='http://www.youtube.com/embed/8PwrCuifj0w?version=3&#038;rel=1&#038;fs=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' frameborder='0'></iframe></span></p>
+<p><i>Above: QGroundControl Ground Control Station features.</i></p>
+<p>Check out <a href="http://www.qgroundcontrol.org/users/start#google_earth_3d_view">their website</a> for more videos showing its capabilities.</p>
+<p>Both programs make good use of the capabilities of the Google Earth plugin, including different perspectives, the ability to work offline and the ability to display 3D models. Also of note is that they use the plugin directly and are not dependent on web browser support, so they should continue to work even if web browsers start to <a href="http://www.gearthblog.com/blog/archives/2014/09/64-bit-chrome-drops-support-google-earth-plugin.html">drop support</a> for the plugin.</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/happykillmores-ground-control-station.html">Google Earth drone control</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.gearthblog.com/blog/archives/2014/09/happykillmores-ground-control-station.html/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>3D Updates in Google Earth</title>
+		<link>http://www.gearthblog.com/blog/archives/2014/09/3d-update-google-earth.html</link>
+		<comments>http://www.gearthblog.com/blog/archives/2014/09/3d-update-google-earth.html#comments</comments>
+		<pubDate>Tue, 23 Sep 2014 09:33:28 +0000</pubDate>
+		<dc:creator><![CDATA[Timothy Whitehead]]></dc:creator>
+				<category><![CDATA[3D Models]]></category>
+		<category><![CDATA[Sightseeing]]></category>
+		<category><![CDATA[3d imagery]]></category>
+		<category><![CDATA[cruise ships]]></category>
+		<category><![CDATA[marinetraffic]]></category>
+
+		<guid isPermaLink="false">http://www.gearthblog.com/?p=8842</guid>
+		<description><![CDATA[<p>A few weeks ago we created a KML of all the known areas covered by the automatically generated 3D mesh that Google is rolling out in Google Earth, and followed that up with some fun with the stats of the areas covered. Since then, we have been receiving regular finds from GEB readers. Last weekend [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/3d-update-google-earth.html">3D Updates in Google Earth</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>A few weeks ago <a href="http://www.gearthblog.com/blog/archives/2014/09/google-earth-automatically-generated-3d-mesh.html">we created</a> a KML of all the known areas covered by the automatically generated 3D mesh that Google is rolling out in Google Earth, and followed that up with <a href="http://www.gearthblog.com/blog/archives/2014/09/fun-kml-areas.html">some fun</a> with the stats of the areas covered. Since then, we have been receiving regular finds from GEB readers. Last weekend was a particularly large batch with around 40 new areas. Our readers reported that at least two of the areas, La Rochelle and Clermont–Ferrand both in France, were available previously but had been temporarily removed.</p>
+<p>So, given all this new eye candy, lets have a look at one of the locations and see what can be seen. We picked Bergen, Norway. The new 3D imagery generation depends on taking pictures from different angles and using that to automatically generate the 3D structure. This means that moving objects cannot be captured. It seems to do particularly badly with water, as the water is constantly moving and has a changing texture. However, cruise ships docked in harbor seem to be stable enough for fairly good imagery. We were able to quickly identify two of them because their names are actually just legible &#8211; something we were never able to see on ordinary overhead imagery. There is a third cruise ship in harbor that we were not able to identify so easily.</p>
+<p><img src="http://www.gearthblog.com/wp-content/uploads/2014/09/RichardWith.jpg" alt="Richard With" /><br />
+<i>The cruise ship <a href="http://hurtigrutencruiseline.com/cruise_ship/Richard_With.cfm">Richard With</a>.</i></p>
+<p><img src="http://www.gearthblog.com/wp-content/uploads/2014/09/AIDAcara.jpg" alt="AIDAcara" /><br />
+<i>The cruise ship <a href="www.aida.de/kreuzfahrt/schiffe/aidacara.18784.html">AIDAcara</a>.</i></p>
+<p>Prior to the 3D mesh update, there was a 3D model of another ship the Costa Medterranea made by LadZ who has made quite a number of ship models that you can see in the <a href="https://3dwarehouse.sketchup.com/user.html?id=0192121904760045774845531">SketchUp 3D Warehouse</a>.</p>
+<p><img src="http://www.gearthblog.com/wp-content/uploads/2014/09/CostaMedterranea.png" alt="Costa Medterranea" /><br />
+<i>The cruise ship <a href="http://www.costacruise.com/no/costa_mediterranea.html">Costa Medterranea</a>.</i></p>
+<p>Back in 2005, <a href="http://www.gearthblog.com/blog/archives/2005/10/cruise_ship_pos.html">we pointed you</a> to a network linked KML showing the current locations of all Costa Cruise ships and amazingly, it still works! However, we found that if you leave it running for a while it can crash Google Earth. You can use it to find the location of the Costa Medterranea above. We <a href="http://www.gearthblog.com/blog/archives/2009/05/current_positions_of_10000_ships_wo.html">also showed you</a> in 2009, an excellent site <a href="http://www.marinetraffic.com/">Marine Traffic</a> that shows the current positions of nearly 70,000 ships, including locations of <a href="http://www.marinetraffic.com/en/ais/home/centerx:10.10564/centery:63.47297/zoom:8/mmsi:258500000">Richard With</a> and <a href="http://www.marinetraffic.com/en/ais/home/centerx:9.4447/centery:58.31804/zoom:8/mmsi:247117300">AIDAcara</a>.</p>
+<p>And for cruise ship enthusiasts out there, at least two more are visible from Street View.</p>
+<p>Recently found locations with 3D imagery are:</p>
+<p><strong>Belgium:</strong> Antwerp<br />
+<strong>Denmark:</strong> Esbjerg<br />
+<strong>France:</strong> Ajaccio, Auxerre, Montpellier, Montauban, Carcassonne, Strasbourg, Bordeaux, Clermont-Ferrand, Albi, Roanne, Tarbes, Vannes, Laval, Gujan-Mestras, La Rochelle, Quimper, La Roche-sur-Yon, Cholet<br />
+<strong>Germany:</strong> Stuttgart, Schweinfurt<br />
+<strong>Greece:</strong> Argostolion<br />
+<strong>Ireland:</strong> Dublin<br />
+<strong>Italy:</strong> Milan, Piacenza, Pavia, Syracuse, Parma.<br />
+<strong>New Zealand:</strong> Auckland<br />
+<strong>Norway:</strong> Stavanger, Bergen,  Brevik / Eikstrand / Porsgrunn / Skien, Lillehammer<br />
+<strong>Spain:</strong> Cuenca, Jerez<br />
+<strong>Sweden:</strong> Norrköping, Växjö, Karlstad<br />
+<strong>USA:</strong> Oklahoma City(OK), Memphis (TN), Expansion to New York, Alexandria (LA)</p>
+<p>And a big thank you to all contributors so far:<br />
+GEB readers ΜaNos ΠαΝ. ΠαπαΝικοΛάου, David Timpe, ehog, bubollofo, Jonah, Anxo, Uri, alfski, Rogério Coelho, jebster, Anton Rudolfsson, CB, Sebastien, Chris, ChrisAjayi, Frank, Ryan, Wikipedia editors.</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/3d-update-google-earth.html">3D Updates in Google Earth</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.gearthblog.com/blog/archives/2014/09/3d-update-google-earth.html/feed</wfw:commentRss>
+		<slash:comments>14</slash:comments>
+		</item>
+		<item>
+		<title>Skybox Imaging captures Burning Man</title>
+		<link>http://www.gearthblog.com/blog/archives/2014/09/skybox-imaging-burning-man.html</link>
+		<comments>http://www.gearthblog.com/blog/archives/2014/09/skybox-imaging-burning-man.html#respond</comments>
+		<pubDate>Mon, 22 Sep 2014 09:35:43 +0000</pubDate>
+		<dc:creator><![CDATA[Timothy Whitehead]]></dc:creator>
+				<category><![CDATA[Sightseeing]]></category>
+		<category><![CDATA[burning man]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[skybox]]></category>
+
+		<guid isPermaLink="false">http://www.gearthblog.com/?p=8762</guid>
+		<description><![CDATA[<p>Last month we covered the Burning Man festival, and how the event has been captured by satellite imagery a number of times, with the images available in Google Earth&#8217;s Historical Imagery. It turns out that this year&#8217;s event was also captured on 8 different days &#8211; this time with Google&#8217;s own satellites! Thanks to GEB [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/skybox-imaging-burning-man.html">Skybox Imaging captures Burning Man</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Last month <a href="http://www.gearthblog.com/blog/archives/2014/08/burning-man-2014.html">we covered</a> the Burning Man festival, and how the event has been captured by satellite imagery a number of times, with the images available in Google Earth&#8217;s Historical Imagery. It turns out that this year&#8217;s event was also captured on 8 different days &#8211; this time with Google&#8217;s own satellites! Thanks to GEB reader Eric for letting us know.</p>
+<p>The images were taken by SkySat-1 and SkySat-2 owned by Skybox Imaging, which Google <a href="http://www.gearthblog.com/blog/archives/2014/06/google-acquires-skybox-imaging-500-million.html">acquired</a> earlier this year. Skybox have released the images via the <a href="http://mapsengine.google.com/gallery/mapviewer?id=zK_ghNc0p65g.kaWuvvipHkks&amp;hl=en">Maps Gallery</a>, as well as creating a number of animated gif images shown on <a href="http://www.skybox.com/blog/the-transformation-of-burning-man">their official blog</a>. You can also read more about it <a href="http://techcrunch.com/2014/09/17/burning-man-satellite-photos/?ncid=fb&amp;utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=fb&amp;utm_content=FaceBook">on TechCrunch</a>.</p>
+<p><img src="http://www.gearthblog.com/wp-content/uploads/2014/09/half_city-labeled-medres.gif" alt="Burning Man gif animation" /><br />
+<i>A gif animation of the Burning Man festival created by Skybox Imaging.</i></p>
+<p>It is possible to view the images in Google Earth using this <a href="http://www.gearthblog.com/wp-content/uploads/2014/09/Burning-Man-2014-Skybox.kml">kml file</a><img border="0" src="http://www.gearthblog.com/images/gelogoicon.gif" title="Google Earth File.  You must have GE installed."> from the <a href="http://mapsengine.google.com/gallery/mapviewer?id=zK_ghNc0p65g.kaWuvvipHkks&amp;hl=en">Maps Gallery</a>.</p>
+<p>Skybox currently has two satellites, but is planning a constellation of 24. SkySat-1 also captured the first HD resolution video of Earth from space as seen in the YouTube video below. For the best results be sure to watch it in high resolution and full screen.</p>
+<p><iframe width="676" height="381" src="//www.youtube.com/embed/fCrB1t8MncY" frameborder="0" allowfullscreen></iframe></p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/skybox-imaging-burning-man.html">Skybox Imaging captures Burning Man</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.gearthblog.com/blog/archives/2014/09/skybox-imaging-burning-man.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Censoring in Google Earth</title>
+		<link>http://www.gearthblog.com/blog/archives/2014/09/censored-areas-google-earth.html</link>
+		<comments>http://www.gearthblog.com/blog/archives/2014/09/censored-areas-google-earth.html#comments</comments>
+		<pubDate>Fri, 19 Sep 2014 09:27:51 +0000</pubDate>
+		<dc:creator><![CDATA[Timothy Whitehead]]></dc:creator>
+				<category><![CDATA[Sightseeing]]></category>
+		<category><![CDATA[aerial imagery]]></category>
+		<category><![CDATA[censorship]]></category>
+		<category><![CDATA[satellite imagery]]></category>
+		<category><![CDATA[white house]]></category>
+
+		<guid isPermaLink="false">http://www.gearthblog.com/?p=8704</guid>
+		<description><![CDATA[<p>In the early days of Google Earth the US White House and Capitol Building were blurred in Google Earth. But in 2005 this censorship was stopped, and today, there is high quality satellite imagery, 3D models of the buildings, and you can even explore the White House in Street View. The most pervasive form of [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/censored-areas-google-earth.html">Censoring in Google Earth</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>In the early days of Google Earth the US White House and Capitol Building were blurred in Google Earth. But in <a href="http://www.gearthblog.com/blog/archives/2005/08/google_earth_un.html">2005</a> this censorship was stopped, and today, there is high quality satellite imagery, 3D models of the buildings, and you can even <a href="https://www.google.co.za/maps/@38.8976269,-77.0361766,3a,75y,19.44h,75t/data=!3m5!1e1!3m3!1sX9eZkJjuD9OAWoiSedZMTA!2e0!3e4!6m1!1e1">explore the White House</a> in Street View.</p>
+<p>The most pervasive form of censorship in the imagery today, is a result of antiquated US regulations that place a restriction on the the maximum resolution that commercial satellite imagery companies are allowed to sell to their customers. Thankfully, this restriction is being relaxed over time, with Digital Globe <a href="http://www.marketwired.com/press-release/us-department-commerce-relaxes-resolution-restrictions-digitalglobe-extends-lead-image-nyse-dgi-1919482.htm">announcing</a> in June that the restriction had been reduced from a maximum resolution of 50 cm, to 40 cm, with a further reduction to 25 cm in February 2015. The key reason for the relaxation, is that several other countries are launching satellites with competitive resolutions and maintaining the regulations would not only serve no useful purpose, but also make US satellite imagery providers uncompetitive.</p>
+<p>The above restriction on satellite imagery, does not apply to aerial imagery, and since much of the globes&#8217; more densely populated regions now has aerial imagery, that is often the default imagery in Google Earth. However, aerial imagery comes from a variety of different providers, and sometimes that imagery is censored by the local government before it is given to Google.</p>
+<p><img src="http://www.gearthblog.com/wp-content/uploads/2014/09/CensoredLocationNetherlands.jpg" alt="A censored location in the Netherlands" /><br />
+<i>A censored location in the Netherlands. Uncensored satellite imagery for the location can be found in Google Earth&#8217;s Historical Imagery.</i></p>
+<p>Google Street view is censored for privacy reasons in  a number of ways. Some countries refuse to allow it, or delay its publication while they consider the implications. Some communities, such as North Oaks Minnesota, <a href="http://www.cnet.com/news/minnesota-town-tells-google-maps-to-get-lost/">have got it removed</a> for the whole community. Individual users can also request to have specific images removed or blurred. Google uses image recognition software to automatically blur faces and car number plates. For more on Street View censorship see the <a href="http://en.wikipedia.org/wiki/Google_Street_View_privacy_concerns#European_Union">Wikipedia Page</a></p>
+<p>So, apart from the US government regulations mentioned above, how widespread is direct censorship of aerial and satellite imagery these days? If you look around on the web, there are plenty of articles listing examples of &#8216;censored&#8217; imagery, but when you actually go through the list, about half the locations are merely cases of Google lacking high quality imagery for the location, with no good reason to think that it has been censored. However, there are a number of locations that are clearly censored by different pixelation methods, by completely wiping the location out, or in rare cases, using sneaky techniques like pasting imagery from somewhere else over the location.</p>
+<p><img src="http://www.gearthblog.com/wp-content/uploads/2014/09/censorship_comparison.jpg" alt="Censorship is ineffective" /><br />
+<i>Censorship can be ineffective if there are other sources of imagery beyond your control. Above left, aerial imagery taken in the Netherlands and censored. Above right, the same location taken by Digital Globe, a US satellite imagery provider not subject to Netherlands law.</i></p>
+<p>Good comprehensive lists are surprisingly rare, and the best list we could find was <a href="http://en.wikipedia.org/wiki/Satellite_map_images_with_missing_or_unclear_data">on Wikipedia</a> and it sensibly qualifies its claims as including both censored and &#8216;unclear&#8217; areas. It turns out there are surprisingly few locations with known censored imagery, and for most of those there is reasonably good uncensored satellite imagery available. About a third of the locations are from aerial imagery taken in the Netherlands in 2005.</p>
+<p>We have <a href="http://www.gearthblog.com/kmfiles/CensoredLocations.kml">made a KML</a><img border="0" src="http://www.gearthblog.com/images/gelogoicon.gif" title="Google Earth File.  You must have GE installed."> for your convenience including all the locations from the Wikipedia page that have coordinates, and that we think do show strong evidence of censorship. There are also some locations mentioned in the article but without coordinates given and we have included one or two, but not all. If any of our readers knows of a more comprehensive list, or even better, a list designed for exploring in Google Earth, let us know and we will update this post with a link to it.</p>
+<p><B>[ Update:</b> Thank you to GEB reader Hill, for letting us know in the comments that there is a much more comprehensive list in the <a href="https://productforums.google.com/forum/#!topic/gec-data-discussions/z2rEahyQa3U%5B1-25-false%5D">Google Earth Community Forums</a> including a <a href="https://groups.google.com/a/googleproductforums.com/group/gec-data-discussions/attach/f663b8b1caa10a5d/Compendium_v_1110.kmz?part=0.2&amp;authuser=0">KML file</a><img border="0" src="http://www.gearthblog.com/images/gelogoicon.gif" title="Google Earth File.  You must have GE installed."> Check only the “Censorship” box, and remember that the censorship may, in some cases, only be in the Historical Imagery. ]</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/censored-areas-google-earth.html">Censoring in Google Earth</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.gearthblog.com/blog/archives/2014/09/censored-areas-google-earth.html/feed</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>Mapping with Google Map Maker</title>
+		<link>http://www.gearthblog.com/blog/archives/2014/09/updating-map.html</link>
+		<comments>http://www.gearthblog.com/blog/archives/2014/09/updating-map.html#comments</comments>
+		<pubDate>Thu, 18 Sep 2014 09:29:07 +0000</pubDate>
+		<dc:creator><![CDATA[Timothy Whitehead]]></dc:creator>
+				<category><![CDATA[Site News]]></category>
+		<category><![CDATA[livingstone]]></category>
+		<category><![CDATA[map maker]]></category>
+		<category><![CDATA[zambia]]></category>
+
+		<guid isPermaLink="false">http://www.gearthblog.com/?p=8486</guid>
+		<description><![CDATA[<p>In last week&#8217;s post about the Ground Truth Project we told you how Google Map Maker is a key component of Google&#8217;s strategy to achieve more accurate maps &#8211; and keep them accurate. When Google introduced Map Maker to the public back in 2008, it was initially only available in a small number of countries, [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/updating-map.html">Mapping with Google Map Maker</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>In last week&#8217;s post about the <a href="http://www.gearthblog.com/blog/archives/2014/09/ground-truth-project.html">Ground Truth Project</a> we told you how Google Map Maker is a key component of Google&#8217;s strategy to achieve more accurate maps &#8211; and keep them accurate. When Google <a href="http://www.gearthblog.com/blog/archives/2008/06/google_releases_more_map_crowdsourc.html">introduced</a> Map Maker to the public back in 2008, it was initially only available in a small number of countries, but over the years its has been made available in more and more places. The relevant Map Maker <a href="https://support.google.com/mapmaker/answer/155415?hl=en">support page</a> lists 227 countries or locations where it is now available. Some of the few remaining countries not yet covered are: Colombia, Chile, Argentina, Ireland, Portugal, Spain, Turkey, China, Thailand, Indonesia, South Korea and Japan.</p>
+<p>Zambia is one of those countries where the Ground Truth Project has not yet got to, so its maps depends almost entirely on Map Maker. I was recently asked by my sister, who lives in Livingstone, Zambia, if I would update some street names in Google Earth.  The streets are in a fairly new development, and the local council has recently put up some street signs, so she wrote down the names of some of the streets and sent them to me.</p>
+<p>When I first used Google Map Maker, every edit had to be reviewed by someone else before it went live, but over time, I have been allowed to make some changes without them waiting for review. So when I added street names to roads that were unnamed, the changes were reflected in Google Maps immediately. However, a few of the roads were not in Google Maps, so I had to add the roads as well as name them and this had to be reviewed, which took about a week. As you can see below there are still a lot more streets without names, so perhaps next time I am in Livingstone I will go around and collect the names of all unlabeled streets that do have street signs, or perhaps I will ask the local City Council if they can give me an official map.</p>
+<p><img src="http://www.gearthblog.com/wp-content/uploads/2014/09/MapMakerUpdates.jpg" alt="Google Maps After Update" /></p>
+<p>One interesting thing I have noticed though is that although the streets show in Google Maps immediately, they cannot be found when doing a search. Other streets nearby do show up in search results, including ones that I have personally added the names for in the past. I am guessing that it takes a while for new additions to get into the search database.</p>
+<p>If one of our readers is a Map Maker aficionado, maybe they can let us know if this is a correct guess, and if so, how long it typically takes to for names to get into search.</p>
+<p>It used to be the case that changes made in Map Maker would eventually filter through to Google Earth. However, I corrected the name of a major road (Airport Road) in that area in January of this year and it still shows the old name in Google Earth (Libala Drive). However if you search for &#8216;Airport Road&#8217; in Google Earth, it finds the correct road.</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/updating-map.html">Mapping with Google Map Maker</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.gearthblog.com/blog/archives/2014/09/updating-map.html/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>Flying around with Blue Magpie Tea in Taiwan</title>
+		<link>http://www.gearthblog.com/blog/archives/2014/09/flying-around-blue-magpie-tea-taiwan.html</link>
+		<comments>http://www.gearthblog.com/blog/archives/2014/09/flying-around-blue-magpie-tea-taiwan.html#respond</comments>
+		<pubDate>Wed, 17 Sep 2014 09:30:49 +0000</pubDate>
+		<dc:creator><![CDATA[Timothy Whitehead]]></dc:creator>
+				<category><![CDATA[3D Models]]></category>
+		<category><![CDATA[Flying]]></category>
+		<category><![CDATA[Tours]]></category>
+		<category><![CDATA[blue magpie]]></category>
+		<category><![CDATA[steven ho]]></category>
+
+		<guid isPermaLink="false">http://www.gearthblog.com/?p=8068</guid>
+		<description><![CDATA[<p>Over the years we&#8217;ve seen some great files come from Steven Ho, such as his panorama from the top of Mount Everest, his tribute to Steve Jobs and his Trip View Bowl visualization. He&#8217;s back with another one, which follows the path of a blue magpie as it flies along the Xindieng River, to promote [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/flying-around-blue-magpie-tea-taiwan.html">Flying around with Blue Magpie Tea in Taiwan</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Over the years we&#8217;ve seen some great files come from Steven Ho, such as his <a href="http://www.gearthblog.com/blog/archives/2011/05/a_panorama_from_the_top_of_mount_ev.html">panorama from the top of Mount Everest</a>, his <a href="http://www.gearthblog.com/blog/archives/2011/10/a_tribute_to_steve_jobs_in_google_e.html">tribute to Steve Jobs</a> and his <a href="http://www.gearthblog.com/blog/archives/2011/09/see_the_trip_view_bowl_in_google_e.html">Trip View Bowl visualization</a>.  He&#8217;s back with another one, which follows the path of a blue magpie as it flies along the Xindieng River, to promote eco-friendly tea farms.</p>
+<p><img src="http://www.gearthblog.com/wp-content/uploads/2014/08/magpie.jpg" alt="blue magpie tea in google earth" /></p>
+<p>The unique part of this is the way he controls the camera during the flight.  Steven says it was quite challenging to control the perspective like a movie scene. If you just keep the bird in the same position on the screen the results are inferior. So he has the camera move around the bird to get different perspectives, with the bird even going off camera for brief periods. Also, to get the bird to appear properly in Google Earth he enlarged it several hundred times, which has the added benefit of making it easier to control the perspective.</p>
+<p>You can try it for yourself by loading <a href="http://www.gearthblog.com/wp-content/uploads/2014/08/teatowntour.kmz">this KML file</a>,<img border=0 src="http://www.gearthblog.com/images/gelogoicon.gif" title="Google Earth File.  You must have GE installed."> or read the full write-up on <a href="http://en.gemvg.com/archives/539">his blog</a>.</p>
+<p>Great work, Steven!</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/flying-around-blue-magpie-tea-taiwan.html">Flying around with Blue Magpie Tea in Taiwan</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.gearthblog.com/blog/archives/2014/09/flying-around-blue-magpie-tea-taiwan.html/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>SketchUp 3D Warehouse URL issues</title>
+		<link>http://www.gearthblog.com/blog/archives/2014/09/3d-warehouse.html</link>
+		<comments>http://www.gearthblog.com/blog/archives/2014/09/3d-warehouse.html#comments</comments>
+		<pubDate>Tue, 16 Sep 2014 09:26:48 +0000</pubDate>
+		<dc:creator><![CDATA[Timothy Whitehead]]></dc:creator>
+				<category><![CDATA[3D Models]]></category>
+		<category><![CDATA[3d warehouse]]></category>
+		<category><![CDATA[sketchup]]></category>
+
+		<guid isPermaLink="false">http://www.gearthblog.com/?p=8572</guid>
+		<description><![CDATA[<p>Back in 2012 Google sold SketchUp, the excellent 3D modeling tool that was used to make most of the older 3D models found in Google Earth. In October 2013, Google stopped importing models from the SketchUp 3D Warehouse, and now solely rely on automatic generation methods for 3D imagery. Earlier this year the 3D Warehouse [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/3d-warehouse.html">SketchUp 3D Warehouse URL issues</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Back in 2012 Google <a href="http://www.gearthblog.com/blog/archives/2012/04/google_sells_sketchup.html">sold SketchUp</a>, the excellent 3D modeling tool that was used to make most of the older 3D models found in Google Earth. In October 2013, <a href="http://www.gearthblog.com/blog/archives/2013/08/google-continues-to-expand-3d-imagery.html">Google stopped</a> importing models from the SketchUp 3D Warehouse, and now solely rely on automatic generation methods for 3D imagery.</p>
+<p>Earlier this year the 3D Warehouse was <a href="http://www.gearthblog.com/blog/archives/2014/03/sketchup-2014-refreshed-3d-warehouse-released.html">completely revamped</a> by new owner <a href="http://www.trimble.com/">Trimble</a>. Also, at some point, the URL for the warehouse has changed from the Google domain (sketchup.google.com/3dwarehouse/) to a the sketchup.com domain (3dwarehouse.sketchup.com).</p>
+<p>Google has implemented <a href="http://en.wikipedia.org/wiki/URL_redirection">redirects</a> on the former URLs, but they are not all working correctly. The result is that links that we created in the past to KML/KMZs of models in the 3D Warehouse no longer work correctly. Instead of being redirected to the download of the KML/KMZ, they get redirected to the SketchUp model (.skp) download instead.</p>
+<p>Also, it seems most of the links within Google Earth relating to 3D models are broken. If you click on a 3D model, a popup shows more information about the model. It used to display a small picture of the model on the right, but now there is just a question mark. In addition, almost all the links in the popup are supposed to direct you to the 3D warehouse, but most of them do not work correctly.</p>
+<p><img src="http://www.gearthblog.com/wp-content/uploads/2014/09/TowerBridge.jpg" alt="Broken links in Google Earth" /></p>
+<p>If you have links to KML/KMZ files on your website then it is not difficult to correct them. Each model has a unique ID that has not changed. A typical old URL will look like this:</p>
+<p><tt>http://sketchup.google.com/3dwarehouse/download?mid=<b>2fc1bb50f5aaf8ab91735325f76051</b>&amp;rtyp=k2&amp;fn=Stadhuis+1&amp;ctyp=other&amp;prevstart=0</tt></p>
+<p>To fix it:</p>
+<ul>
+<li>Copy the unique ID shown in <b>bold</b> above.</li>
+<li>Search for it in the <a href="https://3dwarehouse.sketchup.com">Sketchup 3D Warehouse</a>.</li>
+<li>Click on the &#8216;Download&#8217; button, and you should see two options, the Sketchup model and the KML/KMZ file. </li>
+<li>Right click on the KML/KMZ link and select &#8216;copy link address&#8217; (or your browser&#8217;s equivalent).</li>
+<li>Replace your old link with this URL. </li>
+</ul>
+<p>The new link should look something like this:</p>
+<p><tt>https://3dwarehouse.sketchup.com/warehouse/getpubliccontent?contentId=57bca5fd-1c8d-4e4f-a8a7-ca4985b230c3&amp;fn=Stadhuis-1.kmz</tt></p>
+<p>Although the &#8216;report a problem&#8217; link on the 3D building popup does not work correctly, we did use Google Earths &#8216;report a problem&#8217; feature to let Google know about this issue.</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/3d-warehouse.html">SketchUp 3D Warehouse URL issues</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.gearthblog.com/blog/archives/2014/09/3d-warehouse.html/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Aerial imagery from drones</title>
+		<link>http://www.gearthblog.com/blog/archives/2014/09/aerial-imagery-drones.html</link>
+		<comments>http://www.gearthblog.com/blog/archives/2014/09/aerial-imagery-drones.html#comments</comments>
+		<pubDate>Mon, 15 Sep 2014 09:30:17 +0000</pubDate>
+		<dc:creator><![CDATA[Timothy Whitehead]]></dc:creator>
+				<category><![CDATA[Flying]]></category>
+		<category><![CDATA[Aerial photography]]></category>
+		<category><![CDATA[drone]]></category>
+		<category><![CDATA[FAA]]></category>
+
+		<guid isPermaLink="false">http://www.gearthblog.com/?p=8708</guid>
+		<description><![CDATA[<p>Back in 2007 we took a look at the concept of capturing aerial imagery from drones. Since then a lot of progress has been made in drone and camera technology. Now it is no longer the technology that is an issue, but rather regulations surrounding the flying of drones. For example, we told you last [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/aerial-imagery-drones.html">Aerial imagery from drones</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Back in 2007 we <a href="http://www.gearthblog.com/blog/archives/2007/01/high_res_photos_from.html">took a look</a> at the concept of capturing aerial imagery from drones. Since then a lot of progress has been made in drone and camera technology. Now it is no longer the technology that is an issue, but rather regulations surrounding the flying of drones. For example, we <a href="http://www.gearthblog.com/blog/archives/2013/09/falcon-uav-drones-assisting-flooding-colorado-fema-stops.html">told you last year</a> how Falcon UAV were assisting with the emergency response to flooding in Colorado, but were stopped by FEMA.</p>
+<p><img src="http://www.gearthblog.com/wp-content/uploads/2014/09/senseFly-eBee.jpg" alt="senseFly eBee" /><br />
+<i>The <a href="https://www.sensefly.com/drones/ebee.html">senseFly eBee</a>, an example of a commercially available drone capable of capturing aerial imagery and producing 3D elevation models.</i></p>
+<p>In the US the Federal Aviation Administration (FAA) has <a href="http://www.faa.gov/news/updates/?newsid=76381">strict rules</a> regarding drones, especially around airports, flight paths, and populated areas. Drones operated for hobby and recreation purposes fall under a special exception and are subject to different restrictions, but may not be used for commercial purposes under this exception.</p>
+<p>However, there have recently been some reports of drones being approved by the FAA for use in capturing aerial photography. For example, <a href="http://www.southernminn.com/le_sueur_news_herald/news/article_d8aca013-f43b-5c22-9e5a-86a86fa0924d.html">this article</a> about Le Sueur county being the first county in Minnesota to get FAA approval for drone operations. However, even in that instance, there are still tough restrictions.</p>
+<p>Here in South Africa drones are already being used for commercial filming and anti-poaching operations, and possibly in the near future, for <a href="http://www.groundup.org.za/article/city-cape-town-plan-acquire-drones_2226">crime prevention and disaster management</a>. South Africa, however, also has strict rules about the use of drones, and many of the current users are probably breaking the law.</p>
+<p>Drones have a significant cost advantage over manned aircraft, which means that aerial imagery can be captured much more frequently, as well as after natural disasters or other important events. As the use of drones for aerial imagery acquisition takes off around the world, we should start to see a major boost to both the quality of imagery as well as the frequency with which it is refreshed.</p>
+<p>In April this year, Google <a href="http://titanaerospace.com/">acquired</a> drone maker Titan Aerospace and it has been <a href="http://techcrunch.com/2014/04/14/google-acquires-titan-aerospace-the-drone-company-pursued-by-facebook/">speculated</a> that capturing aerial imagery may be one reason for the acquisition, although another possibility is that Google wants to use them for providing internet access similar to <a href="http://www.google.com/loon/">Project Loon</a>.</p>
+<p>Google has also been developing drones for use in delivery of goods, and they chose Australia for the tests because it has less restrictive rules for flying drones. For more on that project, see the video below.</p>
+<p><span class='embed-youtube' style='text-align:center; display: block;'><iframe class='youtube-player' type='text/html' width='640' height='390' src='http://www.youtube.com/embed/cRTNvWcx9Oo?version=3&#038;rel=1&#038;fs=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;wmode=transparent' frameborder='0'></iframe></span></p>
+<p>Do any of our readers know whether any of the imagery currently in Google Earth was taken by drone?</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/aerial-imagery-drones.html">Aerial imagery from drones</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.gearthblog.com/blog/archives/2014/09/aerial-imagery-drones.html/feed</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+		<item>
+		<title>The Ground Truth project</title>
+		<link>http://www.gearthblog.com/blog/archives/2014/09/ground-truth-project.html</link>
+		<comments>http://www.gearthblog.com/blog/archives/2014/09/ground-truth-project.html#comments</comments>
+		<pubDate>Fri, 12 Sep 2014 09:29:20 +0000</pubDate>
+		<dc:creator><![CDATA[Timothy Whitehead]]></dc:creator>
+				<category><![CDATA[Navigation]]></category>
+		<category><![CDATA[Street View]]></category>
+		<category><![CDATA[google maps]]></category>
+		<category><![CDATA[ground truth]]></category>
+		<category><![CDATA[lat long blog]]></category>
+		<category><![CDATA[map maker]]></category>
+
+		<guid isPermaLink="false">http://www.gearthblog.com/?p=8596</guid>
+		<description><![CDATA[<p>We told you earlier in the week how the Google Maps data is not always 100% accurate. Google does, however, put in an extraordinary amount effort into making it the best it can be. Google originally depended largely on external data providers for its maps information. But that changed in 2008 when project Ground Truth [&#8230;]</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/ground-truth-project.html">The Ground Truth project</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>We <a href="http://www.gearthblog.com/blog/archives/2014/09/conman-get-false-information-google-maps-google-earth.html">told you</a> earlier in the week how the Google Maps data is not always 100% accurate. Google does, however, put in an extraordinary amount effort into making it the best it can be.</p>
+<p>Google originally depended largely on external data providers for its maps information. But that changed in 2008 when project Ground Truth was founded. The Ground Truth project involves getting data from authoritative sources such as governments, postal services and map providers, which is then overlayed on satellite imagery and updated to make it more accurate. Google then uses satellite imagery and Street View imagery to add a lot more data to the map. It uses a variety of processes including a lot of manual editing by highly trained map editors, as well as a number of algorithmic methods, such as using computer vision to go through Street View imagery and pick out street signs, street names, business logos and more. Finally, they get feed back from users via the <a href="http://www.gearthblog.com/blog/archives/2014/03/fix-errors-google-earth.html">&#8216;Report a problem&#8217;</a> feature, or <a href="http://www.gearthblog.com/blog/archives/2011/12/help_keep_google_earth_accurate_wit.html">Google Map Maker</a>.</p>
+<p>It is important to realize that there is a lot more to maps than what you see directly in Google Maps. Google Maps also contains a lot of hidden information such as road rules, including speed limits, one way streets, traffic lights, stop/yield signs and no turn signs. These are used by Google maps when providing directions.</p>
+<p><img src="http://www.gearthblog.com/wp-content/uploads/2014/09/bucharest_business_sv_small.jpg" alt="Street View to Map" /><br />
+<i>Google Maps contains a lot more than just street names.</i></p>
+<p>The Ground Truth project is not yet used for the whole world, but they have been expanding rapidly. Ground Truth <a href="http://google-latlong.blogspot.com/2014/09/making-of-maps-reaching-milestone.html">recently announced</a> their 50th country. For the remaining countries they use a combination of external data providers and <a href="http://www.gearthblog.com/blog/archives/2009/05/google_mapmaker_-_64_new_countries.html">Google Map Maker</a>.</p>
+<p>For a more in depth look at the Ground Truth project watch <a href="https://www.youtube.com/watch?v=FsbLEtS0uls">this excellent presentation</a> from Google I/O 2013 and read a four part series on the making of maps on the Google Lat Long Blog. (<a href="http://google-latlong.blogspot.com/2014/09/making-of-maps-reaching-milestone.html">Part 1</a>, <a href="http://google-latlong.blogspot.com/2014/09/making-of-maps-cornerstones.html">Part 2</a>, <a href="http://google-latlong.blogspot.com/2014/09/making-of-maps-perspective-from-ground.html">Part 3</a>, <a href="http://google-latlong.blogspot.com/2014/09/making-of-maps-ground-truth-glue.html">Part 4</a>)</p>
+<p>The post <a rel="nofollow" href="http://www.gearthblog.com/blog/archives/2014/09/ground-truth-project.html">The Ground Truth project</a> appeared first on <a rel="nofollow" href="http://www.gearthblog.com">Google Earth Blog</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.gearthblog.com/blog/archives/2014/09/ground-truth-project.html/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>

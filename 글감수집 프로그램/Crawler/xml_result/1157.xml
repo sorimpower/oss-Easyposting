@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>TechCrunch</title>
+	<atom:link href="http://techcrunch.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://techcrunch.com</link>
+	<description>Startup and Technology News</description>
+	<lastBuildDate>Fri, 26 Sep 2014 08:09:43 +0000</lastBuildDate>
+	<language>en</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+<cloud domain='techcrunch.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<image>
+		<url>http://1.gravatar.com/blavatar/d9ea925a71f82f06a1e6224298f7fe80?s=96&#038;d=http%3A%2F%2Fs2.wp.com%2Fi%2Fbuttonw-com.png</url>
+		<title>TechCrunch</title>
+		<link>http://techcrunch.com</link>
+	</image>
+	<atom:link rel="search" type="application/opensearchdescription+xml" href="http://techcrunch.com/osd.xml" title="TechCrunch" />
+	<atom:link rel='hub' href='http://techcrunch.com/?pushpress=hub'/>
+	<item>
+		<title>Apple Apologizes For iPhone Update Bug And Releases New iOS 8.0.2</title>
+		<link>http://techcrunch.com/2014/09/25/apple-apologizes-for-iphone-update-bug-and-releases-new-ios-8-0-2/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/apple-apologizes-for-iphone-update-bug-and-releases-new-ios-8-0-2/#comments</comments>
+		<pubDate>Fri, 26 Sep 2014 00:31:41 +0000</pubDate>
+		<dc:creator><![CDATA[Darrell Etherington]]></dc:creator>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[iOS 8]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1062651</guid>
+		<description><![CDATA[<img width="680" height="382" src="http://tctechcrunch2011.files.wordpress.com/2014/09/ios802.jpg?w=680" class="attachment-large wp-post-image" alt="ios802" />&nbsp;Apple has moved quickly to release iOS 8.0.2, the update that fixes iOS 8.0.1&#8217;s problem of zapping cellular reception on iPhone 6 and 6 Plus devices. It also includes all the fixes listed in iOS 8.0.1 originally, including a fix for the HealthKit bug that held up release of compatible Health apps in iOS 8. It also addresses a problem whereby third-party keyboards wouldn&#8217;t stick&hellip; <a href="http://techcrunch.com/2014/09/25/apple-apologizes-for-iphone-update-bug-and-releases-new-ios-8-0-2/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/apple-apologizes-for-iphone-update-bug-and-releases-new-ios-8-0-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/ios802.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/ios802.jpg" type="image/jpeg" medium="image"><media:title type="html">Apple%20Apologizes%20For%20iPhone%20Update%20Bug%20And%20Releases%20New%20iOS%26nbsp%3B8.0.2</media:title></media:content><twitter> <![CDATA[ drizzled ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/ios802.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/ios802.jpg?w=150" medium="image">
+			<media:title type="html">ios802</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/188039e12983eb749171a75cfd01378d?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">etherin</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>MasteryConnect Collects $15.2 Million So Teachers Can Teach To Students And Not To Tests</title>
+		<link>http://techcrunch.com/2014/09/25/masteryconnect-collects-15-2-million-so-teachers-can-teach-to-students-and-not-to-tests/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/masteryconnect-collects-15-2-million-so-teachers-can-teach-to-students-and-not-to-tests/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 23:22:20 +0000</pubDate>
+		<dc:creator><![CDATA[Jonathan Shieber]]></dc:creator>
+				<category><![CDATA[Education]]></category>
+		<category><![CDATA[Fundings & Exits]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[MasteryConnect]]></category>
+		<category><![CDATA[standardized testing]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1061106</guid>
+		<description><![CDATA[<img width="680" height="452" src="http://tctechcrunch2011.files.wordpress.com/2014/09/7403731050_9a1ee480de_b.jpg?w=680" class="attachment-large wp-post-image" alt="7403731050_9a1ee480de_b" />&nbsp;MasteryConnect has raised $15.2 million to further market its software that it hopes will help enable educators to teach to their students, and not teach their students how to take tests.
+&#8220;We&#8217;ve created a platform that lets teachers identify a student&#8217;s level of understanding against any set of standards, in real-time,&#8221; says chief executive Cory Reid. <a href="http://techcrunch.com/2014/09/25/masteryconnect-collects-15-2-million-so-teachers-can-teach-to-students-and-not-to-tests/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/masteryconnect-collects-15-2-million-so-teachers-can-teach-to-students-and-not-to-tests/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/7403731050_9a1ee480de_b.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/7403731050_9a1ee480de_b.jpg" type="image/jpeg" medium="image"><media:title type="html">MasteryConnect%20Collects%20%2415.2%20Million%20So%20Teachers%20Can%20Teach%20To%20Students%20And%20Not%20To%26nbsp%3BTests</media:title></media:content><twitter> <![CDATA[ jshieber ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/7403731050_9a1ee480de_b.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/7403731050_9a1ee480de_b.jpg?w=150" medium="image">
+			<media:title type="html">7403731050_9a1ee480de_b</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/5633afc3b452c34446afd2ae0174cf86?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">shieberj</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Komoot Launches In The U.S. So You Can Enjoy A Guided Trip Through The Great Outdoors</title>
+		<link>http://techcrunch.com/2014/09/25/komoot-launches-in-the-u-s-so-you-can-enjoy-a-guided-trip-through-the-great-outdoors/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/komoot-launches-in-the-u-s-so-you-can-enjoy-a-guided-trip-through-the-great-outdoors/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 22:13:57 +0000</pubDate>
+		<dc:creator><![CDATA[Jonathan Shieber]]></dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Komoot]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1061063</guid>
+		<description><![CDATA[<img width="680" height="382" src="http://tctechcrunch2011.files.wordpress.com/2014/09/komoot.jpg?w=680" class="attachment-large wp-post-image" alt="komoot" />&nbsp;For about four years now, Europeans trekking in the wilderness have had access to an app that ensured they would always be able to find their way in the woods as long as they had a mobile phone&#8230; and had downloaded Komoot.
+Now those of us in the U.S. can get the same benefits; the company has just launched its app for iOS and Android for North America. It&#8217;s exhaustive in its coverage. <a href="http://techcrunch.com/2014/09/25/komoot-launches-in-the-u-s-so-you-can-enjoy-a-guided-trip-through-the-great-outdoors/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/komoot-launches-in-the-u-s-so-you-can-enjoy-a-guided-trip-through-the-great-outdoors/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/komoot.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/komoot.jpg" type="image/jpeg" medium="image"><media:title type="html">Komoot%20Launches%20In%20The%20U.S.%20So%20You%20Can%20Enjoy%20A%20Guided%20Trip%20Through%20The%20Great%26nbsp%3BOutdoors</media:title></media:content><twitter> <![CDATA[ jshieber ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/komoot.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/komoot.jpg?w=150" medium="image">
+			<media:title type="html">komoot</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/5633afc3b452c34446afd2ae0174cf86?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">shieberj</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/ios_3__information_tour_difficulty.png?w=149" medium="image">
+			<media:title type="html">iOS_3__Information_Tour_Difficulty</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Andreessen Goes On Tweet Storm About Burn Rates, Says To Worry</title>
+		<link>http://techcrunch.com/2014/09/25/andreessen-goes-on-tweet-storm-about-burn-rates-and-says-worry/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/andreessen-goes-on-tweet-storm-about-burn-rates-and-says-worry/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 20:38:48 +0000</pubDate>
+		<dc:creator><![CDATA[Ron Miller]]></dc:creator>
+				<category><![CDATA[Finance]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[funding]]></category>
+		<category><![CDATA[Burn Rates]]></category>
+		<category><![CDATA[Marc Andreessen]]></category>
+		<category><![CDATA[Tweet Storms]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1062569</guid>
+		<description><![CDATA[In one of his famous &#8220;tweet storms,&#8221; Marc Andreessen from Andreessen Horowitz went to town on burn rates. He was reacting to Bill Gurley&#8217;s comments from last week &#8211;and Andreessen is worried too. He sees companies overspending, especially on fancy buildings and big staffs that make them look successful, but are just basically paper facades. And Andreessen expects some&hellip; <a href="http://techcrunch.com/2014/09/25/andreessen-goes-on-tweet-storm-about-burn-rates-and-says-worry/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/andreessen-goes-on-tweet-storm-about-burn-rates-and-says-worry/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://i1.wp.com/tctechcrunch2011.files.wordpress.com/2014/09/18.jpg?resize=210%2C158" />
+<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/18.jpg?w=300" type="image/jpeg" medium="image"><media:title type="html">Andreessen%20Goes%20On%20Tweet%20Storm%20About%20Burn%20Rates%2C%20Says%20To%26nbsp%3BWorry</media:title></media:content><twitter> <![CDATA[ ron_miller ]]> </twitter>
+		<media:content url="http://0.gravatar.com/avatar/0b82cfe9f0e15c08c5816481c9f383d9?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">ronjourn</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/18.jpg?w=300" medium="image">
+			<media:title type="html">18</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>The Oatmeal Launches Another Crowdfunding Campaign To Build The Tesla Museum, One Brick At A Time</title>
+		<link>http://techcrunch.com/2014/09/25/the-oatmeal-launches-another-crowdfunding-campaign-to-build-the-tesla-museum-one-brick-at-a-time/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/the-oatmeal-launches-another-crowdfunding-campaign-to-build-the-tesla-museum-one-brick-at-a-time/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 20:13:16 +0000</pubDate>
+		<dc:creator><![CDATA[Greg Kumparak]]></dc:creator>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[the oatmeal]]></category>
+		<category><![CDATA[oatmeal]]></category>
+		<category><![CDATA[Tesla]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1062557</guid>
+		<description><![CDATA[<img width="680" height="347" src="http://tctechcrunch2011.files.wordpress.com/2014/09/tesla.png?w=680" class="attachment-large wp-post-image" alt="tesla" />&nbsp;The Oatmeal (aka Matthew Inman, aka &#8220;that artist who makes web comics that take over your Facebook feed every few weeks&#8221;) is at it again. <a href="http://techcrunch.com/2014/09/25/the-oatmeal-launches-another-crowdfunding-campaign-to-build-the-tesla-museum-one-brick-at-a-time/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/the-oatmeal-launches-another-crowdfunding-campaign-to-build-the-tesla-museum-one-brick-at-a-time/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/tesla.png?w=210&#038;h=158&#038;crop=1" />
+<twitter> <![CDATA[ grg ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/tesla.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/tesla.png?w=150" medium="image">
+			<media:title type="html">tesla</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/86f75cc66896ab9b0602715f082803d6?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">gregkumparak</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/tesla.png" medium="image">
+			<media:title type="html">tesla</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-1-12-07-pm.png" medium="image">
+			<media:title type="html">Screen Shot 2014-09-25 at 1.12.07 PM</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-1-10-23-pm.png" medium="image">
+			<media:title type="html">Screen Shot 2014-09-25 at 1.10.23 PM</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>#GamerGate &#8211; An Issue With Two Sides</title>
+		<link>http://techcrunch.com/2014/09/25/gamergate-an-issue-with-2-sides/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/gamergate-an-issue-with-2-sides/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 20:00:38 +0000</pubDate>
+		<dc:creator><![CDATA[Allum Bokhari]]></dc:creator>
+				<category><![CDATA[Column]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[TC]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1060872</guid>
+		<description><![CDATA[<img width="680" height="382" src="http://tctechcrunch2011.files.wordpress.com/2014/09/gamergate-corner.jpg?w=680" class="attachment-large wp-post-image" alt="gamergate-corner" />&nbsp;Nearly a month after it began, GamerGate is a fire that refuses to go out. The hashtag campaign has opened up a chasm between the gaming press and their audience. Currently standing at close to a million tweets (over twice that of #Destiny), it shows no signs of stopping. A related tag, #NotYourShield, has cleared 120,000. But what lies behind it? Why did it come about? And why are people&hellip; <a href="http://techcrunch.com/2014/09/25/gamergate-an-issue-with-2-sides/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/gamergate-an-issue-with-2-sides/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/gamergate-corner.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/gamergate-corner.jpg" type="image/jpeg" medium="image"><media:title type="html">%23GamerGate%20%26%238211%3B%20An%20Issue%20With%20Two%26nbsp%3BSides</media:title></media:content><twitter> <![CDATA[ pickavet ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/gamergate-corner.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/gamergate-corner.jpg?w=150" medium="image">
+			<media:title type="html">gamergate-corner</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/1e86d9c92b3cd6f22f7af2317d348375?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">CP</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Media Veteran Fred Seibert Ties Up With Betaworks To Create Video Technology Incubator Thirty Labs</title>
+		<link>http://techcrunch.com/2014/09/25/fred-seibert-thirty-labs/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/fred-seibert-thirty-labs/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 20:00:10 +0000</pubDate>
+		<dc:creator><![CDATA[Ryan Lawler]]></dc:creator>
+				<category><![CDATA[Media]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Fred Seibert]]></category>
+		<category><![CDATA[Thirty Labs]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1062520</guid>
+		<description><![CDATA[<img width="680" height="237" src="http://tctechcrunch2011.files.wordpress.com/2014/09/14952112567_a3989cc440_b.jpg?w=680" class="attachment-large wp-post-image" alt="Thirty Labs" />&nbsp;Fred Seibert just won&#8217;t slow down. After living what he counts as five lives in different forms of media, the 63-year old veteran of cable and online programming is working on a new project to incubate ideas and products that he hopes will &#8212; once again &#8212; change the way people think about and consume video content. Seibert&#8217;s new company is called Thirty Labs, and was&hellip; <a href="http://techcrunch.com/2014/09/25/fred-seibert-thirty-labs/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/fred-seibert-thirty-labs/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/14952112567_a3989cc440_b.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/14952112567_a3989cc440_b.jpg" type="image/jpeg" medium="image"><media:title type="html">Media%20Veteran%20Fred%20Seibert%20Ties%20Up%20With%20Betaworks%20To%20Create%20Video%20Technology%20Incubator%20Thirty%26nbsp%3BLabs</media:title></media:content><twitter> <![CDATA[ ryanlawler ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/14952112567_a3989cc440_b.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/14952112567_a3989cc440_b.jpg?w=150" medium="image">
+			<media:title type="html">Thirty Labs</media:title>
+		</media:content>
+
+		<media:content url="http://0.gravatar.com/avatar/3c5a6332c8200dfda8d15c74ebcc06d1?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">ryanlawler</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/fred-seibert.jpg?w=300" medium="image">
+			<media:title type="html">Fred Seibert at Vidcon</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/05/borthwick-7977236145_5fc3f0abaa_o.jpg?w=300" medium="image">
+			<media:title type="html">Betaworks founder John Borthwick</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Amazon&#8217;s Goodreads App Finally Gets A Makeover</title>
+		<link>http://techcrunch.com/2014/09/25/amazons-goodreads-app-finally-gets-a-makeover/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/amazons-goodreads-app-finally-gets-a-makeover/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 19:24:56 +0000</pubDate>
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[goodreads]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[books]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1062522</guid>
+		<description><![CDATA[<img width="680" height="453" src="http://tctechcrunch2011.files.wordpress.com/2014/08/books-shutterstock_112295444.jpg?w=680" class="attachment-large wp-post-image" alt="books-shutterstock_112295444" />&nbsp;Goodreads, the social network for book lovers, has at last seen its first major update since Amazon bought the company last March. This week, Goodreads rolled out a significant redesign on iOS (coming soon to Android) &#8211; something regular Goodreads users have wanted for some time. Now, instead of having you land on an outdated, grid-like homescreen when the app is first launched, it&#8230; <a href="http://techcrunch.com/2014/09/25/amazons-goodreads-app-finally-gets-a-makeover/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/amazons-goodreads-app-finally-gets-a-makeover/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/08/books-shutterstock_112295444.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/08/books-shutterstock_112295444.jpg" type="image/jpeg" medium="image"><media:title type="html">Amazon%26%238217%3Bs%20Goodreads%20App%20Finally%20Gets%20A%26nbsp%3BMakeover</media:title></media:content><twitter> <![CDATA[ sarahintampa ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/08/books-shutterstock_112295444.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/08/books-shutterstock_112295444.jpg?w=150" medium="image">
+			<media:title type="html">books-shutterstock_112295444</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/5225bb627e112543aa03bf3b2958be3f?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">sarahintampa</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-3-12-16-pm.png?w=680" medium="image">
+			<media:title type="html">Screen Shot 2014-09-25 at 3.12.16 PM</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Y Combinator-Backed Clara Labs Getting Funding From Sequoia Capital</title>
+		<link>http://techcrunch.com/2014/09/25/y-combinator-backed-clara-labs-getting-funding-from-sequoia-capital/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/y-combinator-backed-clara-labs-getting-funding-from-sequoia-capital/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 19:08:14 +0000</pubDate>
+		<dc:creator><![CDATA[Sarah Buhr]]></dc:creator>
+				<category><![CDATA[Fundings & Exits]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Clara Labs]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1062285</guid>
+		<description><![CDATA[<img width="680" height="381" src="http://tctechcrunch2011.files.wordpress.com/2014/09/clara.png?w=680" class="attachment-large wp-post-image" alt="clara" />&nbsp;Y Combinator-backed virtual assistant startup Clara Labs might be getting an infusion of cash, rumored to be in the $3-4 million range from Sequoia Capital. Co-founder of Clara Labs, Maran Nelson, doesn&#8217;t want to talk about that just yet and neither does Sequoia. However, a tweet sent from the Information&#8217;s Eric Newcomer on September 18 urged the Twittersphere to keep an eye on&hellip; <a href="http://techcrunch.com/2014/09/25/y-combinator-backed-clara-labs-getting-funding-from-sequoia-capital/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/y-combinator-backed-clara-labs-getting-funding-from-sequoia-capital/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/clara.png?w=210&#038;h=158&#038;crop=1" />
+<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/clara.png" type="image/png" medium="image"><media:title type="html">Y%20Combinator-Backed%20Clara%20Labs%20Getting%20Funding%20From%20Sequoia%26nbsp%3BCapital</media:title></media:content><twitter> <![CDATA[ sarahbuhr ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/clara.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/clara.png?w=150" medium="image">
+			<media:title type="html">clara</media:title>
+		</media:content>
+
+		<media:content url="http://0.gravatar.com/avatar/fd29b49402f568221dff899bf12b7c14?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">sarahbuhr</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>3D Printing With Sand Using The Power Of The Sun</title>
+		<link>http://techcrunch.com/2014/09/25/3d-printing-with-sand-using-the-power-of-the-sun/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/3d-printing-with-sand-using-the-power-of-the-sun/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 19:07:30 +0000</pubDate>
+		<dc:creator><![CDATA[Greg Kumparak]]></dc:creator>
+				<category><![CDATA[TC]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1062533</guid>
+		<description><![CDATA[<img width="680" height="373" src="http://tctechcrunch2011.files.wordpress.com/2014/09/sand.png?w=680" class="attachment-large wp-post-image" alt="sand" />&nbsp;&#8220;So what are you doing this weekend, Markus?&#8221;
+&#8220;Oh, you know. Heading out to the desert and harnessing the power of the sun to make a 3D printer that can print objects out of sand. You?&#8221;
+&#8220;&#8230; catching up on Breaking Bad.&#8220; <a href="http://techcrunch.com/2014/09/25/3d-printing-with-sand-using-the-power-of-the-sun/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/3d-printing-with-sand-using-the-power-of-the-sun/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/sand.png?w=210&#038;h=158&#038;crop=1" />
+<twitter> <![CDATA[ grg ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/sand.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/sand.png?w=150" medium="image">
+			<media:title type="html">sand</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/86f75cc66896ab9b0602715f082803d6?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">gregkumparak</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/sand.png?w=680" medium="image">
+			<media:title type="html">sand</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Apple Says iPhone 6 And 6 Plus Bending Complaints Number Less Than 10</title>
+		<link>http://techcrunch.com/2014/09/25/apple-says-iphone-6-and-6-plus-bending-complaints-number-less-than-10/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/apple-says-iphone-6-and-6-plus-bending-complaints-number-less-than-10/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 18:35:21 +0000</pubDate>
+		<dc:creator><![CDATA[Darrell Etherington]]></dc:creator>
+				<category><![CDATA[Gadgets]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Apple]]></category>
+		<category><![CDATA[iPhone 6]]></category>
+		<category><![CDATA[iPhone 6 Plus]]></category>
+		<category><![CDATA[Bendgate]]></category>
+		<category><![CDATA[Bend]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1062519</guid>
+		<description><![CDATA[<img width="680" height="453" src="http://tctechcrunch2011.files.wordpress.com/2014/09/iphone-6-plus-rear-flat.jpg?w=680" class="attachment-large wp-post-image" alt="iphone-6-plus-rear-flat" />&nbsp;Apple has responded to the various reports of iPhone 6 and 6 Plus bending, saying that it&#8217;s &#8220;extremely rare,&#8221; and that in fact, only nine people out of all the customers that bought devices thus far have complained. That would presumably mean nine out of the well over 10 million that have sold thus far. Apple noted to TechCrunch that under normal use, the problem rarely&hellip; <a href="http://techcrunch.com/2014/09/25/apple-says-iphone-6-and-6-plus-bending-complaints-number-less-than-10/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/apple-says-iphone-6-and-6-plus-bending-complaints-number-less-than-10/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/iphone-6-plus-rear-flat.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/iphone-6-plus-rear-flat.jpg" type="image/jpeg" medium="image"><media:title type="html">Apple%20Says%20iPhone%206%20And%206%20Plus%20Bending%20Complaints%20Number%20Less%20Than%26nbsp%3B10</media:title></media:content><twitter> <![CDATA[ drizzled ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/iphone-6-plus-rear-flat.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/iphone-6-plus-rear-flat.jpg?w=150" medium="image">
+			<media:title type="html">iphone-6-plus-rear-flat</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/188039e12983eb749171a75cfd01378d?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">etherin</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Ballmer To Purge His Sportsball Team Of Those Evil Apple Things</title>
+		<link>http://techcrunch.com/2014/09/25/ballmer-to-purge-his-sportsball-team-of-those-evil-apple-things/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/ballmer-to-purge-his-sportsball-team-of-those-evil-apple-things/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 17:53:20 +0000</pubDate>
+		<dc:creator><![CDATA[Alex Wilhelm]]></dc:creator>
+				<category><![CDATA[TC]]></category>
+		<category><![CDATA[WTF]]></category>
+		<category><![CDATA[Ballmer]]></category>
+		<category><![CDATA[Sports]]></category>
+		<category><![CDATA[Microsoft]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1062504</guid>
+		<description><![CDATA[<img width="680" height="299" src="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-10-42-03-am.png?w=680" class="attachment-large wp-post-image" alt="Screen Shot 2014-09-25 at 10.42.03 AM" />&nbsp;Steve Ballmer, former CEO of Microsoft, and new owner of some sort of sports team, is still pretty serious about hardware.
+In an interview with Reuters, Ballmer indicated that his team, the one he paid $2 billion for, won&#8217;t use Apple tech. Nope. It&#8217;s Microsoft all the way down. <a href="http://techcrunch.com/2014/09/25/ballmer-to-purge-his-sportsball-team-of-those-evil-apple-things/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/ballmer-to-purge-his-sportsball-team-of-those-evil-apple-things/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-10-42-03-am.png?w=210&#038;h=158&#038;crop=1" />
+<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-10-42-03-am.png" type="image/png" medium="image"><media:title type="html">Ballmer%20To%20Purge%20His%20Sportsball%20Team%20Of%20Those%20Evil%20Apple%26nbsp%3BThings</media:title></media:content><twitter> <![CDATA[ alex ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-10-42-03-am.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-10-42-03-am.png?w=150" medium="image">
+			<media:title type="html">Screen Shot 2014-09-25 at 10.42.03 AM</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/a3a71bf0d3d22efa0db4b77936a066b8?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">alexjameswilhelm</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Instagram Lets You #Selfielapse By Adding Front-Facing Camera Option To Hyperlapse</title>
+		<link>http://techcrunch.com/2014/09/25/selfielapse/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/selfielapse/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 17:24:26 +0000</pubDate>
+		<dc:creator><![CDATA[Josh Constine]]></dc:creator>
+				<category><![CDATA[TC]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1062490</guid>
+		<description><![CDATA[<img width="680" height="539" src="http://tctechcrunch2011.files.wordpress.com/2014/09/selfielapse.png?w=680" class="attachment-large wp-post-image" alt="Selfielapse" />&nbsp;Instagram&#8217;s first update to its timelapse app Hyperlapse will let you create mini-travelogues of your face hurtling through the world. Hyperlapse now lets you capture timelapses with the front-facing camera to create what Instagram calls a #Selfielapse. The app also now supports iPhone 6 and 6 Plus screen sizes.
+Instagram tells TechCrunch that since Hyperlapse&#8217;s August 26th&#8230; <a href="http://techcrunch.com/2014/09/25/selfielapse/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/selfielapse/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/selfielapse.png?w=210&#038;h=158&#038;crop=1" />
+<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/selfielapse.png" type="image/png" medium="image"><media:title type="html">Instagram%20Lets%20You%20%23Selfielapse%20By%20Adding%20Front-Facing%20Camera%20Option%20To%26nbsp%3BHyperlapse</media:title></media:content><twitter> <![CDATA[ joshconstine ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/selfielapse.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/selfielapse.png?w=150" medium="image">
+			<media:title type="html">Selfielapse</media:title>
+		</media:content>
+
+		<media:content url="http://0.gravatar.com/avatar/fd3b857e7f0024396cdbd36c4c102a5d?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">joshsc</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Ello, Ello? New &#8216;No Ads&#8217;  Social Network Ello Is Blowing Up Right Now</title>
+		<link>http://techcrunch.com/2014/09/25/ello-ello-new-no-ads-social-network-ello-is-blowing-up-right-now/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/ello-ello-new-no-ads-social-network-ello-is-blowing-up-right-now/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 16:11:46 +0000</pubDate>
+		<dc:creator><![CDATA[Mike Butcher]]></dc:creator>
+				<category><![CDATA[Social]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[Ello]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1062467</guid>
+		<description><![CDATA[<img width="680" height="512" src="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-19-03-44.png?w=680" class="attachment-large wp-post-image" alt="Screen Shot 2014-09-25 at 19.03.44" />&nbsp;In March a new social network launched promising the opposite business model to Facebook &#8211; i.e. Not selling ads based on user data and instead relying on, perhaps, paid premium features to keep going. Ello then sunk without trace until, in the last 24/48 hrs or so, activity on the site completely blew up. And this is a pretty basic social network with the bare minimum of features. Why?&hellip; <a href="http://techcrunch.com/2014/09/25/ello-ello-new-no-ads-social-network-ello-is-blowing-up-right-now/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/ello-ello-new-no-ads-social-network-ello-is-blowing-up-right-now/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-19-03-44.png?w=210&#038;h=158&#038;crop=1" />
+<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-19-03-44.png" type="image/png" medium="image"><media:title type="html">Ello%2C%20Ello%3F%20New%20%26%238216%3BNo%20Ads%26%238217%3B%20%20Social%20Network%20Ello%20Is%20Blowing%20Up%20Right%26nbsp%3BNow</media:title></media:content><twitter> <![CDATA[ mikebutcher ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-19-03-44.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-19-03-44.png?w=150" medium="image">
+			<media:title type="html">Screen Shot 2014-09-25 at 19.03.44</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/ef4a4ab87c72738ed187e21de55b2fc6?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">mike-butcher</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>SurveyMonkey Makes Its First Investment, Leads Mobile App CRM Solution Provider Apptentive&#8217;s $5.3M Series A</title>
+		<link>http://techcrunch.com/2014/09/25/surveymonkey-makes-its-first-investment-leads-apptentives-5-3m-series-a/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/surveymonkey-makes-its-first-investment-leads-apptentives-5-3m-series-a/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 15:58:11 +0000</pubDate>
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Fundings & Exits]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[CRM]]></category>
+		<category><![CDATA[developers]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1062431</guid>
+		<description><![CDATA[<img width="680" height="510" src="http://tctechcrunch2011.files.wordpress.com/2014/09/apptentive.jpg?w=680" class="attachment-large wp-post-image" alt="apptentive" />&nbsp;Apptentive, a company offering in-app feedback tools that allow developers to engage an app&#8217;s users, communicate directly, request reviews and more, has now closed on $5.3 million in Series A funding. In an unusual turn, the new funding round was led in part by SurveyMonkey, and will see Damon Cronkey,VP of Corporate Development and Strategy for SurveyMonkey, joining&#8230; <a href="http://techcrunch.com/2014/09/25/surveymonkey-makes-its-first-investment-leads-apptentives-5-3m-series-a/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/surveymonkey-makes-its-first-investment-leads-apptentives-5-3m-series-a/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/apptentive.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/apptentive.jpg" type="image/jpeg" medium="image"><media:title type="html">SurveyMonkey%20Makes%20Its%20First%20Investment%2C%20Leads%20Mobile%20App%20CRM%20Solution%20Provider%20Apptentive%26%238217%3Bs%20%245.3M%20Series%26nbsp%3BA</media:title></media:content><twitter> <![CDATA[ sarahintampa ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/apptentive.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/apptentive.jpg?w=150" medium="image">
+			<media:title type="html">apptentive</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/5225bb627e112543aa03bf3b2958be3f?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">sarahintampa</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/image-2014-09-25-at-11-39-22-am.png?w=680" medium="image">
+			<media:title type="html">Image 2014-09-25 at 11.39.22 AM</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-11-40-25-am.png?w=585" medium="image">
+			<media:title type="html">Screen Shot 2014-09-25 at 11.40.25 AM</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Sendwithus Raises $2.3M To Help Marketers Optimize Their Emails</title>
+		<link>http://techcrunch.com/2014/09/25/sendwithus-seed-funding/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/sendwithus-seed-funding/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 15:43:30 +0000</pubDate>
+		<dc:creator><![CDATA[Anthony Ha]]></dc:creator>
+				<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[sendwithus]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1062430</guid>
+		<description><![CDATA[<img width="680" height="382" src="http://tctechcrunch2011.files.wordpress.com/2014/09/shutterstock_171007445.png?w=680" class="attachment-large wp-post-image" alt="parachute package" />&nbsp;Email marketing startup Sendwithus is announcing that it has raised $2.3 million in additional seed funding. This is one of those funding announcements that comes months after the deal itself. Co-founder Matt Harris told me that the company, which was incubated by Y Combinator, raised its initial seed funding &#8220;right before Y Combinator started&#8221;, then raised additional funding on&hellip; <a href="http://techcrunch.com/2014/09/25/sendwithus-seed-funding/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/sendwithus-seed-funding/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/shutterstock_171007445.png?w=210&#038;h=158&#038;crop=1" />
+<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/shutterstock_171007445.png" type="image/png" medium="image"><media:title type="html">Sendwithus%20Raises%20%242.3M%20To%20Help%20Marketers%20Optimize%20Their%26nbsp%3BEmails</media:title></media:content><twitter> <![CDATA[ anthonyha ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/shutterstock_171007445.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/shutterstock_171007445.png?w=150" medium="image">
+			<media:title type="html">parachute package</media:title>
+		</media:content>
+
+		<media:content url="http://1.gravatar.com/avatar/72b358648f4587cc2a11895c32b8e979?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">anthha</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>SK Planet Launches Wayfare In App Stores To Take Penpalling To Your Mobile Device</title>
+		<link>http://techcrunch.com/2014/09/25/sk-planet-launches-wayfare-in-app-stores-to-take-penpalling-to-your-mobile-device/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/sk-planet-launches-wayfare-in-app-stores-to-take-penpalling-to-your-mobile-device/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 15:30:37 +0000</pubDate>
+		<dc:creator><![CDATA[Jonathan Shieber]]></dc:creator>
+				<category><![CDATA[TC]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1061412</guid>
+		<description><![CDATA[<img width="680" height="351" src="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-11-19-04-am.png?w=680" class="attachment-large wp-post-image" alt="Screen Shot 2014-09-25 at 11.19.04 AM" />&nbsp;If you&#8217;re looking for something more from your online or mobile social media than hot-or-not left and right swiping, the SK Planet, the media and messaging subsidiary of Korea&#8217;s telecom giant SK Telecom, has just launched a new app called Wayfare in android and iOS app stores to bring penpalling to social media. Developed by a young Korean programming wunderkind, Jiho Kang, Wayfare&hellip; <a href="http://techcrunch.com/2014/09/25/sk-planet-launches-wayfare-in-app-stores-to-take-penpalling-to-your-mobile-device/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/sk-planet-launches-wayfare-in-app-stores-to-take-penpalling-to-your-mobile-device/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-11-19-04-am.png?w=210&#038;h=158&#038;crop=1" />
+<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-11-19-04-am.png" type="image/png" medium="image"><media:title type="html">SK%20Planet%20Launches%20Wayfare%20In%20App%20Stores%20To%20Take%20Penpalling%20To%20Your%20Mobile%26nbsp%3BDevice</media:title></media:content><twitter> <![CDATA[ jshieber ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-11-19-04-am.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-11-19-04-am.png?w=150" medium="image">
+			<media:title type="html">Screen Shot 2014-09-25 at 11.19.04 AM</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/5633afc3b452c34446afd2ae0174cf86?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">shieberj</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-11-22-23-am.png?w=300" medium="image">
+			<media:title type="html">Screen Shot 2014-09-25 at 11.22.23 AM</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-11-20-14-am.png?w=300" medium="image" />
+	</item>
+		<item>
+		<title>Niantic Labs Announces User-Generated Missions In Ingress</title>
+		<link>http://techcrunch.com/2014/09/25/niantic-labs-announces-user-generated-missions-in-ingress/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/niantic-labs-announces-user-generated-missions-in-ingress/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 15:13:43 +0000</pubDate>
+		<dc:creator><![CDATA[Kyle Russell]]></dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Gaming]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Google]]></category>
+		<category><![CDATA[Niantic Labs]]></category>
+		<category><![CDATA[ingress]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1062426</guid>
+		<description><![CDATA[<img width="680" height="448" src="http://tctechcrunch2011.files.wordpress.com/2014/09/finish_creating_mission_creator-tool.png?w=680" class="attachment-large wp-post-image" alt="Ingress Missions" />&nbsp;Those interested in blurring the lines between the real world and video games should out the latest update to Ingress, the augmented reality game from Google&#8217;s Niantic Labs. <a href="http://techcrunch.com/2014/09/25/niantic-labs-announces-user-generated-missions-in-ingress/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/niantic-labs-announces-user-generated-missions-in-ingress/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/finish_creating_mission_creator-tool.png?w=210&#038;h=158&#038;crop=1" />
+<twitter> <![CDATA[ kylebrussell ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/finish_creating_mission_creator-tool.png?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/finish_creating_mission_creator-tool.png?w=150" medium="image">
+			<media:title type="html">Ingress Missions</media:title>
+		</media:content>
+
+		<media:content url="http://0.gravatar.com/avatar/6e588b9518f29ec55c08c7d488798840?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">kylebrussell</media:title>
+		</media:content>
+
+		<media:content url="https://tctechcrunch2011.files.wordpress.com/2014/09/finish_creating_mission_creator-tool.png?w=680" medium="image">
+			<media:title type="html">Ingress Missions</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Disrupt In London To Showcase New Google Ventures Europe Partners</title>
+		<link>http://techcrunch.com/2014/09/25/disrupt-in-london-to-showcase-new-google-ventures-europe-partners/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/disrupt-in-london-to-showcase-new-google-ventures-europe-partners/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 14:40:34 +0000</pubDate>
+		<dc:creator><![CDATA[Mike Butcher]]></dc:creator>
+				<category><![CDATA[Europe]]></category>
+		<category><![CDATA[TC]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1062418</guid>
+		<description><![CDATA[<img width="680" height="439" src="http://tctechcrunch2011.files.wordpress.com/2014/09/disrupteu14a1.jpg?w=680" class="attachment-large wp-post-image" alt="disrupteu14a" />&nbsp;The second TechCrunch Disrupt Europe will take place from 18-21st October 2014 in London and will see the first outing of the Google Ventures team in Europe. There&#8217;s still time to grab an early bird ticket before they sell out. Earlier this year Google announced it was launching a branch of its venture capital investment arm in London. Google Ventures Europe will have an initial fund of&hellip; <a href="http://techcrunch.com/2014/09/25/disrupt-in-london-to-showcase-new-google-ventures-europe-partners/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/disrupt-in-london-to-showcase-new-google-ventures-europe-partners/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/disrupteu14a1.jpg?w=210&#038;h=158&#038;crop=1" />
+<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/disrupteu14a1.jpg" type="image/jpeg" medium="image"><media:title type="html">Disrupt%20In%20London%20To%20Showcase%20New%20Google%20Ventures%20Europe%26nbsp%3BPartners</media:title></media:content><twitter> <![CDATA[ mikebutcher ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/disrupteu14a1.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/disrupteu14a1.jpg?w=150" medium="image">
+			<media:title type="html">disrupteu14a</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/ef4a4ab87c72738ed187e21de55b2fc6?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">mike-butcher</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Price-Tracking Service Nifti Switches Gears, Launches Social Polling App Cinch</title>
+		<link>http://techcrunch.com/2014/09/25/price-tracking-service-nifti-switches-gears-launches-social-polling-app-cinch/?ncid=rss</link>
+		<comments>http://techcrunch.com/2014/09/25/price-tracking-service-nifti-switches-gears-launches-social-polling-app-cinch/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 14:37:36 +0000</pubDate>
+		<dc:creator><![CDATA[Sarah Perez]]></dc:creator>
+				<category><![CDATA[Apps]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Social]]></category>
+		<category><![CDATA[Startups]]></category>
+		<category><![CDATA[TC]]></category>
+		<category><![CDATA[cinch]]></category>
+		<category><![CDATA[polling]]></category>
+		<category><![CDATA[social]]></category>
+
+		<guid isPermaLink="false">http://techcrunch.com/?p=1062416</guid>
+		<description><![CDATA[<img width="680" height="381" src="http://tctechcrunch2011.files.wordpress.com/2014/09/cinch-screen.jpg?w=680" class="attachment-large wp-post-image" alt="cinch-screen" />&nbsp;Pricing tracking and alerts service Nifti is testing the waters with a new application called Cinch (no, not Klout&#8217;s advice-giving app also called Cinch, but very close.) In fact, Nifti&#8217;s new app is practically a variation on Klout&#8217;s earlier arrival, as Klout&#8217;s Cinch is about asking for recommendations and Nifti&#8217;s Cinch is about asking for opinions. That is&#8230; <a href="http://techcrunch.com/2014/09/25/price-tracking-service-nifti-switches-gears-launches-social-polling-app-cinch/?ncid=rss">Read More</a>]]></description>
+		<wfw:commentRss>http://techcrunch.com/2014/09/25/price-tracking-service-nifti-switches-gears-launches-social-polling-app-cinch/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/cinch-screen.jpg?w=210&#038;h=158&#038;crop=1" />
+<twitter> <![CDATA[ sarahintampa ]]> </twitter>
+		<media:thumbnail url="http://tctechcrunch2011.files.wordpress.com/2014/09/cinch-screen.jpg?w=150" />
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/cinch-screen.jpg?w=150" medium="image">
+			<media:title type="html">cinch-screen</media:title>
+		</media:content>
+
+		<media:content url="http://2.gravatar.com/avatar/5225bb627e112543aa03bf3b2958be3f?s=96&#38;d=identicon&#38;r=G" medium="image">
+			<media:title type="html">sarahintampa</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/screen-shot-2014-09-25-at-10-28-53-am.png" medium="image">
+			<media:title type="html">Screen Shot 2014-09-25 at 10.28.53 AM</media:title>
+		</media:content>
+
+		<media:content url="http://tctechcrunch2011.files.wordpress.com/2014/09/cinch_home_thumb.png" medium="image">
+			<media:title type="html">Cinch_Home_thumb</media:title>
+		</media:content>
+	</item>
+	</channel>
+</rss>

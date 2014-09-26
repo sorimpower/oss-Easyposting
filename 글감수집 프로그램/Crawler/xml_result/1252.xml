@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>UX팩토리</title>
+		<link>http://uxfactory.tistory.com/</link>
+		<description>다양한 분야의 실무자 &amp; 필자들이 모여서 UX의 의미와 사용자경험 디자인에 대해 이야기 합니다. 사용자 경험 디자인, 경험디자인, HCI, 인터랙션 디자인, IA</description>
+		<language>ko</language>
+		<pubDate>Wed, 30 Jul 2014 19:41:09 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>황리건</managingEditor>
+		<image>
+			<title>UX팩토리</title>
+			<url>http://cfile24.uf.tistory.com/image/201D00244A6201BE5D6A7D</url>
+			<link>http://uxfactory.tistory.com</link>
+			<description>다양한 분야의 실무자 &amp; 필자들이 모여서 UX의 의미와 사용자경험 디자인에 대해 이야기 합니다. 사용자 경험 디자인, 경험디자인, HCI, 인터랙션 디자인, IA</description>
+		</image>
+		<item>
+			<title>UI로써의 URL</title>
+			<link>http://uxfactory.tistory.com/923</link>
+			<description>&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://xguru.net/1333&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;구루의 기술뉴스&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt; 에 &lt;/span&gt;&lt;a href=&quot;http://www.nngroup.com/articles/url-as-ui/&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;UI로써의 URL&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt; 이라는 글이 소개되었네요:&lt;/span&gt;&lt;/p&gt;&lt;blockquote class=&quot;tx-quote-tistory&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;무려 1999년도에 작성된 글. 하지만 아직 수많은 국내 사이트들이 제대로 하지 못하는 것. 2007년 업뎃내용을 보면 사람들이 검색엔진 결과에서 URL을 보는데 24%정도 시간을 소요&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12pt; line-height: 1.5;&quot;&gt;URL 을 디자인 할 때 아래와 같은 규칙을 지키면 유용합니다:&lt;/span&gt;&lt;/p&gt;&lt;ol style=&quot;list-style-type: decimal;&quot;&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;기억하기 쉬운 도메인&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;짧고 타이핑 하기 쉬운&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;사이트의 구조를 잘 보여주는 URL.&amp;nbsp;&lt;/span&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;UXFactory 사이트에서는&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&amp;nbsp;- http://uxfactory.com/ &amp;nbsp;-메인화면&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&amp;nbsp;- http://uxfactory.com/{글번호} &amp;nbsp;-포스팅&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&amp;nbsp;- http://uxfactory.com/category/{필자ID} &amp;nbsp;-필자 별 포스팅&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size:12pt;&quot;&gt;사용자의 해킹을 허용하는&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&amp;nbsp;URL.&amp;nbsp;&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;&lt;a href=&quot;http://uxfactory.com/category/youminkim&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;http://uxfactory.com/category/youminkim&lt;/a&gt;&amp;nbsp;에서 제&amp;nbsp;포스팅들을 보다가 모든 필자의 글을 보고 싶을 때 사용자가 임의로 URL의 한단계 상위 레벨인 &lt;a href=&quot;http://uxfactory.com/category/&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;http://uxfactory.com/category/&lt;/a&gt; 로 들어가볼 수 있게 허용.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;변하지 않는 URL.&amp;nbsp;&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;SNS 컨텐츠를 공유하는 빈도가 높아지면서 더 중요해진 규칙인듯 합니다. 예를 들어, &lt;a href=&quot;http://uxfactory.com/921&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;http://uxfactory.com/921&lt;/a&gt; 라는 포스팅은 시간이 지나도 동일한 내용을 가리키고 있어야 합니다. 포스팅 번호를 단순히 최신순으로 정렬해 매기는 바람에, 고유 URL을 사용하기 힘든 서비스들이 있습니다.&amp;nbsp;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;78글자 이내의 URL&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;본문에는 email 로 이유를 들었는데, 요즘엔 트위터가 더 좋은 이유겠네요.&amp;nbsp;&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;소문자로만&amp;nbsp;&lt;/span&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;사용자가 대/소문자를 혼동해 입력할 수 있으니, 어떻게 입력하던 모두 소문자로 변경해 처리해주는 것이 편리해 보입니다.&amp;nbsp;&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12pt; line-height: 1.5;&quot;&gt;로컬 브랜드라면 .com 보다는 .kr&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;닐슨노만 그룹에서 99년도에 올린 글이라는데, 이 할아버지들 참 대단하네요 :D&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;원문링크: &lt;a href=&quot;http://www.nngroup.com/articles/url-as-ui/&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;http://www.nngroup.com/articles/url-as-ui/&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-923-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-fr/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-fr/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>youminkim</category>
+			<author>김유민</author>
+			<guid>http://uxfactory.tistory.com/923</guid>
+			<comments>http://uxfactory.tistory.com/923#entry923comment</comments>
+			<pubDate>Mon, 08 Apr 2013 11:27:30 +0900</pubDate>
+		</item>
+		<item>
+			<title>Google HackFair 2012</title>
+			<link>http://uxfactory.tistory.com/921</link>
+			<description>&lt;p&gt;&lt;a href=&quot;http://googledevkr.blogspot.kr/2012/12/google-hackfair-summary.html&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;Google HackFair 2012 행사&lt;/a&gt;가 지난 11월 17일과 18일에 있었습니다. 개발자가 주된 대상이었던 이 행사에는 다양한 구글의 제품과 관련 기술, 이를 응용한 프로젝트들이 소개되었습니다. 출품작들은 &lt;a href=&quot;http://googledevkr.blogspot.kr/2012/12/ghackfair-winners-smart-browser.html&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;여기&lt;/a&gt;서 보실 수 있습니다.&lt;/p&gt;&lt;p&gt;이 행사가 개발자들을 위한 행사였습니다만, 저도 발표 세션을 하나 진행할 기회가 있었습니다. &quot;Designing beautiful apps without designer&quot;라는 주제로 발표했는데요, 생각보다&amp;nbsp;디자인 배경을 가지신 분들이 많이 참석해주셨습니다.&lt;/p&gt;&lt;p&gt;발표내용을 요약하자면,&lt;/p&gt;&lt;ul style=&quot;list-style-type: disc;&quot;&gt;&lt;li&gt;제품 개발 사이클에서 기능을 계속 추가하는 것이 왜 나쁜가 - &lt;a href=&quot;http://en.wikipedia.org/wiki/Feature_creep&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;Creeping featurism&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Creeping featurism을 피하는 방법&lt;/li&gt;&lt;ul style=&quot;list-style-type: disc;&quot;&gt;&lt;li&gt;구글은 어떻게 하고 있나: Google's design principles&lt;/li&gt;&lt;li&gt;순차적인 제품 런치: 핵심적인 Use case만 해결하는 단순한&amp;nbsp;제품을 먼저 출시하고, 시장에서의 반응에 따라 순차적으로 기능을 추가&lt;/li&gt;&lt;li&gt;기능의 우선순위&amp;nbsp;조정: 프로젝트를 잘게 나누고 중요한 기능을 먼저 개발하는 iteration을 통해서 제품의 컨셉을 명확하게 만들기&lt;/li&gt;&lt;li&gt;Elevator pitch: 비엔지니어 배경을 가진 사람이 쉽게 이해할 수 있도록 제품을 단순화&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;디자이너 없이 디자인하기&lt;/li&gt;&lt;ul style=&quot;list-style-type: disc;&quot;&gt;&lt;li&gt;디자이너와 점심: 비격식적인 디자인 리뷰를 진행&lt;/li&gt;&lt;li&gt;단순하게 만들기:&amp;nbsp;핵심적인 Use case가 아닌 기능들을 고급기능으로 재정의하고 숨기기&lt;/li&gt;&lt;li&gt;디자인 가이드의 Principle: 대개 디자인 가이드에는 왜 이런 가이드가 만들어졌는지 배경에 대한 설명과 디자인 철학이 녹아 있음, 자신이 처한 상황과 유사한 디자인 가이드를 참조&lt;/li&gt;&lt;li&gt;디자인 패턴 활용: 이미 잘 정의되어 있는 디자인 패턴을 사용하면 UI에 대한 고민을 줄일 수 있음&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;iframe src=&quot;https://docs.google.com/file/d/0ByZGJ926FVmTeXZpbmZWS1Z0VEU/preview&quot; width=&quot;640&quot; height=&quot;480&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;발표시간이 30분이라 많은 얘기를 드리지는 못했지만, 디자인하시는 분들의 고충과 디자인을 고민하시는 엔지니어분들의 생각을 들을 수 있어 좋은 시간이었습니다. 앞으로도 다양한 기회를 통해 여러분들을 만나뵈면 좋겠네요&amp;nbsp;:)&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+			<category>withtony</category>
+			<category>creeping featurism</category>
+			<category>Design</category>
+			<category>google</category>
+			<category>hackfair</category>
+			<category>use case</category>
+			<author>김수 (토니)</author>
+			<guid>http://uxfactory.tistory.com/921</guid>
+			<comments>http://uxfactory.tistory.com/921#entry921comment</comments>
+			<pubDate>Fri, 07 Dec 2012 17:58:37 +0900</pubDate>
+		</item>
+		<item>
+			<title>윈도우 스토어를 준비하며</title>
+			<link>http://uxfactory.tistory.com/920</link>
+			<description>&lt;P&gt;지난 &lt;A class=tx-link href=&quot;http://uxfactory.com/918&quot; target=_blank&gt;포스트&lt;/A&gt;에서는 하는 일에 대해서 글을 쓰는 것을 얘기했는데, 그 아이디어를 더 발전시켜서 하고 있는 일에 대해서 글쓰기를 해보면 어떨까 싶어요.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;이런 생각을 하게 된 계기는 윈도우8의 수장인 스티븐 시납스키의 &lt;A class=tx-link href=&quot;http://www.amazon.com/One-Strategy-Organization-Planning-Decision/dp/0470560452&quot; target=_blank&gt;책&lt;/A&gt;을 읽으면서에요. &lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;FLOAT: none; TEXT-ALIGN: center; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:330px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile9.uf.tistory.com/original/1311F144507ECCD415D9BB&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/1311F144507ECCD415D9BB&quot; filemime=&quot;image/jpeg&quot; filename=&quot;one-strategy.png&quot; height=&quot;500&quot; width=&quot;330&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P style=&quot;FLOAT: none; TEXT-ALIGN: left; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;FLOAT: none; TEXT-ALIGN: left; CLEAR: none&quot;&gt;국내에서는 거의 알려지지 않은 책인데(아마도 제가 우리나라에서 처음으로 이 책을 소개하는 듯), 저는 회사에서 일하다 보니까 스티븐 시납스키라는 인물에 대해서 관심을 갖게 되더라고요. &lt;/P&gt;
+&lt;P style=&quot;FLOAT: none; TEXT-ALIGN: left; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;FLOAT: none; TEXT-ALIGN: center; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:618px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile8.uf.tistory.com/original/0236B540507ECD61021228&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/0236B540507ECD61021228&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Steven-Sinofsky.jpg&quot; height=&quot;433&quot; width=&quot;618&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P style=&quot;FLOAT: none; TEXT-ALIGN: left; CLEAR: none&quot;&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;이 책의 저자인 스티븐 시납스키는 현재 스티브 발머 회장 바로 아래서 윈도우8을 총괄하는 사장을 맡고 있는데, 이 사람이 책임을 맡은 후로 많은 것이 달라지고 있어서 제가 관심을 갖게 되었죠. 마이크로소프트가 거의 5만명 이상이 일하는 회사이고 그러다 보니 윈도우8과 관련된 사람만도 수만명인데 어떻게 이렇게 한 사람의 영향력이 큰 기업에 끼칠 수가 있는지 궁금하지 않을 수가 없었죠. 작년 연말에 외부에서 마이크로소프트를 평가하기를 이 사람을 승진시킨 것이 회사가 잘 한 것 중에 하나라는 평도 있을 정도 였어요.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;제가 스티븐 시납스키를 소개하는 이유는, 자기가 하는 일을 블로그를 통해서 잘 소개하는 사람이고, 책에서 이야기하지만 마이크로소프트처럼 큰 조직을 운영하는데 있어 가장&amp;nbsp;중요한 도구 중에 하나라고 강조하고 있기 때문이지요.&amp;nbsp;그 이유가 매니저의 역량이 Top-Down 전략을 Bottom-Up&amp;nbsp;실행과 어떻게 잘 일치시키는지 여부가 가장 중요한데, 블로그와 같은 툴이 Top-Down 전략을 전달하는데 있어서 효과적이기 때문이라고 합니다.&amp;nbsp;블로그를 통해서 일대다로 커뮤니케이션하면 효율성&amp;nbsp;측면에서도&amp;nbsp;좋겠죠. 사람 마다 매번 반복해서 얘기하거나 메일/미팅을 통해서 일방적으로 같은 시간에 전달하지 않아도 되니까요. 스티븐 시납스키가 직접 사내 블로그도 운영하고, 윈도우8 개발팀은 스티븐 주도로 엔지니어링 &lt;A class=tx-link href=&quot;http://blogs.msdn.com/b/b8_ko/&quot; target=_blank&gt;블로그&lt;/A&gt;를 꾸준히 해오고 있어요. 이 블로그는 기술적인 내용 뿐 아니라 UX 적인 내용이 많아서 관심있는 분들에게 추천해주고 싶은 블로그입니다.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;저는 요즘에 테크니컬 이반젤리스트로써 윈도우8 관련한 일을 하고 있다고 &lt;A class=tx-link href=&quot;http://uxfactory.com/914&quot; target=_blank&gt;지난 글&lt;/A&gt;에서 소개했는데요. 좀 더 구체적으로 10월 26일 출시하는 윈도우8의 스토어에 앱을 확보하는 일을 하고 있어요. 윈도우8의 성공에는 스토어앱의 확보가 관건이라고 여러 기사들을 통해서 언급되고 있어요. &lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:730px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile10.uf.tistory.com/original/032F8E46507ED02C0D0899&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/032F8E46507ED02C0D0899&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Picture1.png&quot; height=&quot;411&quot; width=&quot;730&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;사용자 입장에서 스토어에 들어갔을 때 충분한 앱이 있고 거기서 새로운 경험을 가치를 느끼게 하는 것이 목적이지요. 반면, 앱 개발사 입장에서는 윈도우8을 통해서 마켓이 새로 열리기 때문에 그 시장에서 어떻게 비즈니스를 만드느냐가 관건이기도 해요.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;제가 UX팩토리를 통해서 공부했던 UX에 대한 지식들은 윈도우8 앱을 만드는 개발사들을 도우면서 활용하고 있어요. 어떤&amp;nbsp;앱을 만들어야 좋을지 초기 단계의 기획부터 시작해서, UI/UX를 어떻게 구성하면 좋을지, 비즈니스와는 어떻게 연결해야 하는지, 개발 또는 운영&amp;nbsp;전략을 어떻게 가져가야 할지 등이요. 이 일이 재밌는 점은 여러 시나리오의 앱들을 짧은 기간동안 많이 진행해 볼 수 있다는 점이에요.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;초기에는 개발자도 없고 강사나 컨텐츠도 없는 황무지에서 시작하기 때문에 여러가지를 준비해야 했어요. 모든 일이 우리나라에서 처음으로 하는 일이었죠. 저처럼 플랫폼 관련 업무를 하는 분이 우리나라에 얼마나 있을지 모르지만 만약 그런 업무를 하시는 분이 있다면 참고가 되지 않을까 싶어서 몇 가지 경험과 배운 점들을 공유해 봅니다.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;일을 시작하기 전에는&amp;nbsp;전세계의 저와 같은 일을 하는 사람들이 모여서 사내 커뮤니티를 구성하고, 온라인 미팅과 그룹 메일을 통해서 정보와 의견을 주고 받았어요. 여전히 2주에 한번씩은 그 사람들과 밤 12시에 온라인 미팅에 참여하는데 전세계적으로 150명에 이르는 사람이 이 미팅에 참가하기 때문에 보통은&amp;nbsp;이반젤리즘&amp;nbsp;프로그램팀이나 본사의 프로그램 매니저들이 정해진 아젠다로 정보 업데이트를 진행하고 피드백이나 질의응답식으로 진행되지요. 상시로 있는 커뮤니케이션은 주로 그룹 메일이나 담당자들끼리의 메일/메시지로 이뤄지고요.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;전세계적으로 제공된 정보, 가이드, 리소스를 바탕으로&amp;nbsp;현지의 상황에 맞춰 계획이 만들어지고 그에 따라 프로그램이 진행되는데,&amp;nbsp;한국에서 진행되는 일들을 예를 들면, 개발자들을 준비시키기 위해서 미국에서 진행하는&amp;nbsp;최초의 개발자 교육에 한국 개발자&amp;nbsp;분들(예를 들면 &lt;A class=tx-link href=&quot;http://gilverlight.net/&quot; target=_blank&gt;이런 분&lt;/A&gt;)을&amp;nbsp;초대해서 강사 교육을 위한 강사로써&amp;nbsp;준비할 수 있도록 하고, 그 분이 다시 한국에 와서 초기 개발사와 강사분들을 대상으로 하는 교육을 준비해서 진행했고, 다시 교육을 받은 강사분들이 강의를 개설하는 식으로 개발자 교육을 진행했어요.&amp;nbsp;컨텐츠의 경우도 본사에서 제작을 해서 로컬라이징을&amp;nbsp;하지만&amp;nbsp;번역 퀄리티가 좋지 않아서 피드백을 주고 리뷰 프로세스를 바꿔서 좀 더 꼼꼼하게 번역할 수 있도록 하는 등 챙길 일이 상당히 많았죠. 그 와중에 스스로 앱 개발에 대한 공부도 해야 하고, 한국에 있는 직원들에게 정보를 전달해줘야 하는 일도 하고요.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;사실 이 일을 시작한 작년 말~올해초에는&amp;nbsp;아주 초기였기 때문에 앱을 확보하기 위해서 스스로&amp;nbsp;앱 개발사를 만나보는 것부터 시작했어요.&amp;nbsp;초기에 20~30개 정도의 업체를 먼저 만나봤는데 그 동안 실버라이트나 익스플로러 등의 기술을&amp;nbsp;다루면서&amp;nbsp;알아온 업체 들과 같이 앱을 만들기 시작했죠. 태블릿이나 데스크탑을 대상으로 앱을 개발하는 것이 모바일과도 다르고 기존 윈도우 응용프로그램도 달라 생소하기 때문에 시행착오도 많이 하고 배운 것도 많았습니다. 이 때 함께 만들었던 앱이 &lt;A class=tx-link href=&quot;http://archwin.net/52&quot; target=_blank&gt;다음 테이블&lt;/A&gt;, &lt;A class=tx-link href=&quot;http://archwin.net/54&quot; target=_blank&gt;네이버 라인&lt;/A&gt;, &lt;A class=tx-link href=&quot;http://archwin.net/49&quot; target=_blank&gt;알송&lt;/A&gt;,&amp;nbsp;&lt;A class=tx-link href=&quot;https://www.facebook.com/photo.php?pid=949143&amp;amp;l=8d32f6f951&amp;amp;id=164928090234371&quot; target=_blank&gt;버즐&lt;/A&gt;&amp;nbsp;등이지요. &lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;EMBED type=application/x-shockwave-flash pluginspage=http://www.macromedia.com/go/getflashplayer height=399 width=502 src=http://flvs.daum.net/flvPlayer.swf?vid=SRE5jReSO8E$ wmode=&quot;transparent&quot; allowfullscreen=&quot;true&quot; allowScriptAccess=&quot;always&quot; quality=&quot;high&quot;&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;마이크로소프트 같은 플랫폼 제공자는&amp;nbsp;직접 개발하는게 아니기 때문에 제가 했다기 보다는 그 쪽 업체에 계신 실무자 분들이 고생하셔서 앱이 나온거죠. 제가 하는 일은 플랫폼을 소개해서 시작할 수 있도록 하고, 앱 개발시 다양한&amp;nbsp;의견을 주고, 출시 스케줄을 같이 조정하고, 기술이나 스토어 문제들을 해결해 주는 등의 일이에요. &lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;올해 중순까지는 스토어가 열리지 않은 상태였기 때문에 아주 초기 스토어에 탑재될 앱들을 개발하는데 힘을 집중했고, 때문에 공개적으로 대대적인 행사나 이벤트, 세미나&amp;nbsp;등은 진행하지 않았죠. 그러나 하반기 부터는 본격적으로 더 많은 앱이 등록될 수 있도록 하기 위해서 다양한 행사와 이벤트를 진행했어요. 앱 개발 컨퍼런스, 비즈니스 세미나, 미니 콘서트, 해커톤 등등이지요. 그리고 이제는 서울시에서 진행하는 &lt;A class=tx-link href=&quot;http://www.appnjob.com/&quot; target=_blank&gt;앱&amp;amp;잡 페스티벌&lt;/A&gt;과 같은 외부 컨퍼런스에서도 윈도우8 스토어앱을 소개하고요. &lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;그래서 올해 하반기 부터는 어떻게 하면 그 동안 해온 일을 Scale-Out 할 수 있을까가 가장 큰 관심사였습니다. 사실 얼마 전에 올렸던 &lt;A class=tx-link href=&quot;http://uxfactory.com/916&quot; target=_blank&gt;Scalability에 대한 글&lt;/A&gt;은 이런 고민에서 비롯됐죠. 어떻게 하면 20~30개 업체와 하던 일을 100~1000개 이상의 업체와 할 수 있을까 관점에서요. 사실 이 부분은 아직도 고민을 계속하고 있어요. 약간의 힌트 정도는 얻어서 아직은 그 것들을 계속 테스트해보는 단계이고요.&amp;nbsp;최근에 한국 마이크로소프트에서 진행한 &lt;A class=tx-link href=&quot;http://startsomething.co.kr/&quot; target=_blank&gt;APP STAR&lt;/A&gt; 같은 캠페인을 통해서 앱 비즈니스에서부터 개발자 컨퍼런스, 경진대회, 앱 마 케팅에 이르는 프로그램으로 다수의 개발자를 대상으로 캠페인을 진행하는 것이 한 예이지요. 마케팅 캠페인들은 저희 부서에 개발자 마케팅만 전문으로 하시는 분들이 주도로 해서 함께 협업하고 있어요. 그 결과로 8월 말 경에 한국 스토어에&amp;nbsp;21개 정도의 앱이 올라와 있던 것이 현재는 100개가 넘는 앱들이 등록되어 있지요.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;FLOAT: none; TEXT-ALIGN: center; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:459px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile1.uf.tistory.com/original/182E8742507ED967077F9B&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/182E8742507ED967077F9B&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Capture.PNG&quot; height=&quot;303&quot; width=&quot;459&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;P&gt;이제 며칠 후면 윈도우8이 출시가 되는데, 저희 부서가 현재 집중하고 있는 앱 측면이 아니더라도&amp;nbsp;전사적으로&amp;nbsp;출시를 준비하는 수많은 계획들을 바탕으로 많은 사람들이 일하고&amp;nbsp;있어요. 아마 곧 다양한 채널을 통해 여러분도 윈도우8 광고를 보게&amp;nbsp;될텐데&amp;nbsp;어쩌면&amp;nbsp;제가 함께 작업한&amp;nbsp;앱들을 사용해 보시게 되지 않을까 싶어요. 앞으로 몇 개월 동안 어떤 모습이 펼쳐질지 정말 기대가 되네요.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;제가 하고 있는&amp;nbsp;일들을 대략적으로 소개했는데 기회가 되면 계속 소개할게요. 이번에는 자세히 못 다뤘지만 윈도우8 앱을 만들면서 경험한 UX 적인 이슈들에 대해서 다루면 어떨까 싶네요&lt;/P&gt;</description>
+			<category>HRG</category>
+			<author>황리건</author>
+			<guid>http://uxfactory.tistory.com/920</guid>
+			<comments>http://uxfactory.tistory.com/920#entry920comment</comments>
+			<pubDate>Thu, 18 Oct 2012 01:48:17 +0900</pubDate>
+		</item>
+		<item>
+			<title>내가 하는 일에 대해 글쓰기</title>
+			<link>http://uxfactory.tistory.com/918</link>
+			<description>&lt;P&gt;글을 쓰는 것은 상대방에게 내가 생각한 것을 문자로 표현하는 것이죠. 생각 중인 것일 수도 있고요. 그렇기 때문에 다른 사람의 글을 보면 그 사람이 어떻게 생각을 하는지, 무슨 생각을 하는지 알 수 있어요. 글을 잘 쓰는 사람들은 생각도 명료하고 어려운 것도 상대방 입장에서 쉽게 설명하는 재주가 있죠. 그래서 글을 쓴다는 것은 단지 문자로 표현을 잘하는 것 뿐만 아니라 글을 읽는 사람의 경험을 잘 고려해서 표현해낸다는 점에서 사용자 경험과 관련이 있는 것 같아요. 그래서, 같은 실력을 가진 사람이라면 글을 잘 쓰는 사람을 뽑으라는 &lt;A href=&quot;http://tumblr.austinkleon.com/post/1262929388&quot;&gt;조언&lt;/A&gt;도 있어요. 그 사람을 뽑아서 글쓰기만 시키라는 얘기는 아닐 거에요.&lt;/P&gt;
+&lt;P&gt;보통 사람들은 블로그를 통해서 글 쓰는 것을 두려워하고 내 이야기를 하는 것에 소극적인데, 만약 그렇다면 일에 대해서 이야기를 해보면 어떨까 싶어요. 자기 일에 대해서 쓴다면 사생활을 노출하지 않으면서도 누군가가 흥미로워할 글을 쓸 수 있고, 자신의 경험에서 우러나온 것이기 때문에 정말 진정성 있는 글이 될 수가 있죠. 그 분야를 공부하는 사람에게도 도움이 되고, 더 나아가서는 자신이 하는 일을 알리는 데에도 도움이 될 거에요. 직책, 경력, 학력 등만 봐서는 그 사람이 어떻게 일을 했는지, 얼마나 제대로 알고 있는지 알기 어렵죠. 하지만 스스로&amp;nbsp;하는&amp;nbsp;일을 설명한 글이 있다면 더 이해하기 쉬울 거에요. (&lt;A class=tx-link href=&quot;http://www.uxfactory.com/914&quot; target=_blank&gt;저도 해봤어요&lt;/A&gt;) 그런 면에서 이 분야에 있는 사람들이 자신이 하고 있는 일에 대한 전문적인 글을 더 많이 써야 할 것 같아요. 여러분이 하는 일이나 생각한 것에 대해서 글쓰기를 시작해보면 어떨까요? 정말 짧은 글부터 라도요. 생각하는 힘을 기르는 셈치고 꾸준히 써봐도 좋을 것 같아요. &lt;/P&gt;
+&lt;P&gt;만약 이 글을 보고 용기를 얻고 지금 하고 있는 일에 대한 글을 쓴다면, 함께 볼 수 있도록 트랙백을 걸거나 댓글로 링크를 남겨 주세요. ^^&lt;/P&gt;</description>
+			<category>HRG</category>
+			<author>황리건</author>
+			<guid>http://uxfactory.tistory.com/918</guid>
+			<comments>http://uxfactory.tistory.com/918#entry918comment</comments>
+			<pubDate>Thu, 26 Jul 2012 23:09:33 +0900</pubDate>
+		</item>
+		<item>
+			<title>블로깅을 다시 시작하며</title>
+			<link>http://uxfactory.tistory.com/917</link>
+			<description>&lt;P&gt;한 몇개월간 UX팩토리를 방치하다가 최근에 블로깅을 다시 시작했는데요. 블로그 구독자분들에게 왜 블로그를 쉬었고, 왜 다시 시작하는지 이야기를 들려드려야 할 것 같아서요.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:271px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile8.uf.tistory.com/original/187661505009200512E532&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/187661505009200512E532&quot; filemime=&quot;image/jpeg&quot; filename=&quot;uxfactory0428-1.png&quot; height=&quot;65&quot; width=&quot;271&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;A class=tx-link href=&quot;http://uxfactory.com/1&quot; target=_blank&gt;처음&lt;/A&gt;에 UX팩토리는 스스로 호기심을 가지고 공부했던 것을 다른 사람과 공유하는 공간이었는데, 구독자가 많아지면서 일종의 의무감이 생겼던 것 같아요.&amp;nbsp;UX팩토리 초기에는 기존에 존재하는 국내의 UX 글들을 모으고 블로그와 커뮤니티들을 연결하는 목적을 가지고 블로깅을 했어요. 그래서 외부 링크를 많이 했고, 이왕이면 한국에서 운영되는 블로그나 커뮤니티로 링크를 걸었죠. 그리고 어느 정도 시간이 흐르니까 더 이상 새롭게 소개할 내용이 없어서 해외 자료들을 찾아서 전달을 했고요. 어느 시점이 되니까 해외 자료도 아주 새로운 것이 없어서,&amp;nbsp;새로운 자료나&amp;nbsp;튜토리얼 정도만 공유하게 되더라고요. 블로그는 사실 서로 링크를 공유하고 소통을 한다는 것이 정말&amp;nbsp;의미있는 일이거든요. 단지 정보만을 전달하는 것이 재미가 없었고, 제가 의무적으로 하지 않더라도&amp;nbsp;누구라도 할 수 있는 일이라고 생각했어요. 그렇다고 제가 &lt;A class=tx-link href=&quot;http://story.pxd.co.kr/&quot; target=_blank&gt;PXD 블로그&lt;/A&gt;처럼 현장에서 고민하는 이야기를 재미있게 할 수 있는 것도 아니고 해서요.&amp;nbsp;그래서 어느 날 의무감으로 하던 블로깅에서 손을 띄었고 한참을 쉬었어요. 한참 많이 하던 외부 활동도&amp;nbsp;일절 하지 않았고요. 그러면서 &lt;A class=tx-link href=&quot;https://www.facebook.com/groups/189801707717156/?bookmark_t=group&quot; target=_blank&gt;페이스북 그룹&lt;/A&gt;을 만들었는데 감사하게도 많은 분들이 참여하면서 정보 공유의 장으로 역할을 하고 있어서 다행이에요.&amp;nbsp;제가 참여하지 않아도&amp;nbsp;열정적인 분들이 &lt;A class=tx-link href=&quot;http://blog.daum.net/miriya/15601338&quot; target=_blank&gt;UXCampSeoul&lt;/A&gt;과 같은 행사를 열어주시기도 하셨고요.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;FLOAT: none; TEXT-ALIGN: center; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:730px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile25.uf.tistory.com/original/1852E5425009251C1BAC36&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/1852E5425009251C1BAC36&quot; filemime=&quot;image/jpeg&quot; filename=&quot;MRYA8441.jpg&quot; height=&quot;486&quot; width=&quot;730&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&lt;EM&gt;&lt;/EM&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;EM&gt;정말 멋진 UXCampSeoul 오거나이저 분들. 고생 많으셨어요!&lt;/EM&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;최근에 들어서 블로그를 통해서 예전처럼 생각을 공유하고 소통하고 싶다는 생각이&amp;nbsp;들었어요. 하지만,&amp;nbsp;이 블로그를 구독하시는 분들은 UX 관련 정보를 기대할텐데 고민이 많이 되더라고요. 블로그를 새로운 주제로 다시 시작해 볼까도 싶었는데, 그렇다고 UX팩토리를 계속 방치할 수도 없어서요. 결국 내린 결론은 스스로 관심 갖는 주제가 UX든 아니든 계속 써보자는 것이었어요. UX팩토리를 처음 시작할 때도 이 분야가 재미있었고 스스로 알아본 것을 단지 주변의 다른 사람들과 공유해보겠다는 생각에서 시작한 것이거든요. 어쨌든,&amp;nbsp;관심 분야가 UX라는 개념과 사고 방식의 연장선 상에 있기 때문에 주제에 얽매이지 않고 쓰고 싶을 때 써야겠다고 생각했어요.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;개인적인 관심사에서 공공 정보 서비스처럼 발전했지만, 계속하기 위해서 앞으로 다시 필자들의 개인적인&amp;nbsp;관심사를 반영한 블로그로&amp;nbsp;나아가야 하지 않을까 싶어요.&amp;nbsp;사실 구독하시는 분들이 실망하고 많이 떠나가진 않을까 겁나기도 해요. 하지만&amp;nbsp;결국 필자들의 이야기와 생각을 담는 것이&amp;nbsp;장기적으로는 의미있는 길이고 UX팩토리만이 가질 수 있는 가치라고 생각했어요.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;참고로 저의&amp;nbsp;개인적인 최근 관심사는 실제 앱 또는 서비스 기획에서 개발까지의 경험, 디자인 언어와 마케팅 전략을 통한 UX의 관리(ex 메트로 스타일), 다양한 분야의 전략(기술, 디자인, 경영, 경쟁), 스타트업 비즈니스, 뇌과학&amp;nbsp;이런 것들이에요. 그 중에서 아직 UX 만큼 아주 매력적인 주제는 찾지 못했지만 이런 주제들을 다루면서 또 흥미로운 개념과 생각들을 탐험해 봐야 하지 않을까 싶어요. 다시 공부한 것들을 공유하고 함께 이야기 하는거지요.&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;UX라는 개념 위에서 주제에 얽매이지 않는 새로운 UX팩토리가 되었으면 해요.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;계속 지켜봐 주시고 재밌는 생각이나&amp;nbsp;주제가 있으면 덧글이나 트랙백으로 많이 알려주세요.&amp;nbsp;^^ &lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;</description>
+			<category>HRG</category>
+			<author>황리건</author>
+			<guid>http://uxfactory.tistory.com/917</guid>
+			<comments>http://uxfactory.tistory.com/917#entry917comment</comments>
+			<pubDate>Fri, 20 Jul 2012 18:20:03 +0900</pubDate>
+		</item>
+		<item>
+			<title>Scalability 개념의 일반화</title>
+			<link>http://uxfactory.tistory.com/916</link>
+			<description>&lt;P&gt;&lt;/P&gt;
+&lt;DIV&gt;&lt;A class=tx-link href=&quot;http://www.slideshare.net/directi/building-a-scalable-architecture-for-web-apps&quot; target=_blank&gt;Scalability&lt;/A&gt;는&amp;nbsp;원래 웹서비스를 수백만에서 수억에 이르는 사용자들에게 원활하게 서비스하기 위해 사용하는 개념이지만, 꼭 이 분야가 아니더라도 참고할만한 부분이 있어서 조금 일반화를 시켜 보면 어떨까 싶어요.&amp;nbsp;우리 주변에서도 Scalability를 위해서 고안된 시스템을 어렵지 않게 찾아볼 수 있는데,&amp;nbsp;예를 들면, 주소 시스템이라던지, 학교 학급 구성이라던지, 주민등록번호 시스템, 군대의 병력 운용, 기업의 조직 설계 등 어려 분야에 Scalability가 고려되어 있음을 알 수 있어요.&lt;/DIV&gt;
+&lt;DIV&gt;&lt;br /&gt;&lt;A title=&quot;Flickr에서 Bill Ward's Brickpile님의 daveporter-20060122-21.jpg&quot; href=&quot;http://www.flickr.com/photos/billward/90160248/&quot;&gt;&lt;IMG alt=daveporter-20060122-21.jpg src=&quot;http://farm1.staticflickr.com/28/90160248_8e0ee1ff11.jpg&quot; width=500 height=375&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV&gt;&lt;I&gt;Scailability의 대명사는 역시 레고&lt;/I&gt;&lt;/DIV&gt;
+&lt;DIV&gt;&lt;br /&gt;&lt;/DIV&gt;
+&lt;DIV&gt;
+&lt;P&gt;&lt;A class=tx-link href=&quot;http://occamsrazr.net/tt/3&quot; target=_blank&gt;Scalability&lt;/A&gt;의 번역&amp;nbsp;-&amp;nbsp;설치 상황이나 운영 상황에 따라 규모가 동적으로 변할 수 있는 능력이 scalability이다. 번역하자면,&amp;nbsp;'규모 가변성'&lt;/P&gt;
+&lt;P&gt;&lt;A class=tx-link href=&quot;http://blog.naver.com/PostView.nhn?blogId=imredviolet&amp;amp;logNo=10083170744&quot; target=_blank&gt;Scale Up vs. Scale Out&lt;/A&gt; - 스케일 업은 하나의 성능을 높이는 것, 스케일 아웃은 병렬로 확장하는 것(ex. 건전지 큰 것 vs 여러개 연결)&lt;/P&gt;
+&lt;P&gt;&lt;A class=tx-link href=&quot;http://logics-textcube.blogspot.kr/2010/10/scale-out-%EC%9D%98-%ED%95%9C%EA%B3%84.html&quot; target=_blank&gt;Scale Out의 한계&lt;/A&gt; - 스케일 업에는 성능 향상의 한계가 있기 때문에 스케일 아웃을 선호하지만, 스케일 아웃도 설계나 운영상의 한계가 있다는 점.&lt;/P&gt;
+&lt;P&gt;&lt;A class=tx-link href=&quot;http://nephilim.tistory.com/122&quot; target=_blank&gt;Language &amp;amp; Scalability&lt;/A&gt;&amp;nbsp;- 프로그래밍 언어 관점에서는 적은 수의 용어로 더 많은 의미를 표현 가능한 경우&lt;/P&gt;&lt;/DIV&gt;
+&lt;DIV&gt;&lt;br /&gt;&lt;/DIV&gt;
+&lt;DIV&gt;아래는 일반적으로 웹서비스에서의&amp;nbsp;Scalability를 이루기 위해 필요한 원칙 또는 방안들인데,&amp;nbsp;최대한 일반화를 시켜서 기술이나 전문용어를 없애봤어요.&amp;nbsp;&lt;/DIV&gt;
+&lt;UL style=&quot;LIST-STYLE-TYPE: disc&quot;&gt;
+&lt;LI&gt;처리시간 최소화&lt;/LI&gt;
+&lt;UL style=&quot;LIST-STYLE-TYPE: square&quot;&gt;
+&lt;LI&gt;collocation : 잦은 커뮤니케이션이 있는 경우&amp;nbsp;짝 지어 놓기&lt;/LI&gt;
+&lt;LI&gt;caching : 위와 같은 결합이 힘든 경우 중간 역할&amp;nbsp;만들기&lt;/LI&gt;
+&lt;LI&gt;pooling : 비싼 리소스는 리소스풀로 만들어서 사용 시간 줄임&lt;/LI&gt;
+&lt;LI&gt;parallelization : 문제를 분해해서 병행 처리&lt;/LI&gt;
+&lt;LI&gt;partitioning : 관련있는 것들끼리 묶어서 구분&lt;/LI&gt;
+&lt;LI&gt;remoting : 관리 대상을 여러 곳에&amp;nbsp;분산시키지&amp;nbsp;않음&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;동시성(concurrency)&lt;/LI&gt;
+&lt;UL style=&quot;LIST-STYLE-TYPE: square&quot;&gt;
+&lt;LI&gt;규모가 커져도 공유 자원이나 유일한 접점이&amp;nbsp;병목되지 않는 구조&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;비동기적(asynchronously)으로 기능 분리&lt;/LI&gt;
+&lt;UL style=&quot;LIST-STYLE-TYPE: square&quot;&gt;
+&lt;LI&gt;서로&amp;nbsp;완료할 때까지&amp;nbsp;대기할 필요&amp;nbsp;없도록 분리&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;처리는 비동기적으로&lt;/LI&gt;
+&lt;UL style=&quot;LIST-STYLE-TYPE: disc&quot;&gt;
+&lt;LI&gt;지켜보거나 관리하지 않아도 어디선가 처리되도록&amp;nbsp;&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;리소스&amp;nbsp;경합(Contention)을 피함&lt;/LI&gt;
+&lt;LI&gt;기능별로&amp;nbsp;분리&amp;nbsp;&lt;/LI&gt;
+&lt;UL style=&quot;LIST-STYLE-TYPE: square&quot;&gt;
+&lt;LI&gt;병목되는&amp;nbsp;구간에 추가 자원 투입해서 해결할 수 있는 구조&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;수평 분할&lt;/LI&gt;
+&lt;UL style=&quot;LIST-STYLE-TYPE: square&quot;&gt;
+&lt;LI&gt;종류 별로 나누는 것이 아니라 분량으로 나눔(예, 1학년 1반 2반 3반...)&amp;nbsp;&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;모든 레벨을 가상화 또는 추상화&lt;/LI&gt;
+&lt;LI&gt;비싼 리소스를 아낄 수 있는&amp;nbsp;중간 역할(캐시)&lt;/LI&gt;
+&lt;LI&gt;계속 테스트&lt;/LI&gt;
+&lt;LI&gt;반대로 작아지는 경우에 대한 고려&lt;/LI&gt;
+&lt;LI&gt;거시/미시 설계 고려&lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;br /&gt;&lt;/P&gt;</description>
+			<category>HRG</category>
+			<author>황리건</author>
+			<guid>http://uxfactory.tistory.com/916</guid>
+			<comments>http://uxfactory.tistory.com/916#entry916comment</comments>
+			<pubDate>Wed, 18 Jul 2012 12:49:18 +0900</pubDate>
+		</item>
+		<item>
+			<title>RIA 기술에 대한 애꿎은 편견, 그 후</title>
+			<link>http://uxfactory.tistory.com/915</link>
+			<description>&lt;p&gt;&lt;i&gt;이 글은 제가 5년 전에 썼던 &lt;a href=&quot;http://uxfactory.com/29&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;RIA 기술에 대한 애꿎은 편견&lt;/a&gt;을 보고 이어서 쓰는 글이에요.&lt;/i&gt;&lt;/p&gt;&lt;p&gt;RIA는 Rich Internet Application의 약자로, 플래시나 플렉스 실버라이트 같이 웹 환경에서 풍부한 경험을 제공하는 플러그인 기술을 말합니다. 웹브라우저의&amp;nbsp;발전이 정체되는 동안 플래시 같은 기술이 사용자 경험을 향상시키고자 하는 디자이너의 니즈에 부합하면서 굉장히 많은 사용자들에게 쓰이게 되었죠.&amp;nbsp;그러는 한편, 웹 전문가들은 이들 기술이 표준이 아닌 특정 기업들의 기술이라는 점에서 많은 우려를 하게 됩니다.&amp;nbsp;&lt;/p&gt;&lt;p&gt;어쩌면 RIA 기술이 웹이냐 아니냐는 사용자에게 별로 중요하지 않은 것일지도 모릅니다. 아이패드가 처음 출시됐을 때 오히려 사용자들은 플래시가 되지 않는다고 불평을 했고, 비평가들은 아이패드를 사지 말아야 하는 이유 중에 하나로 언급하기도 했어요. 물론 아이패드는 잘 팔렸고 대세는 HTML5로 바뀌고 있지만요.&lt;/p&gt;&lt;p&gt;저는 사용자에게 주는 가치가 가장 중요하다고 생각하기 때문에 그 기술이 웹인지 아닌지는 별로 중요하지 않다고 생각했고, 현명하게 기술을 사용할 수 있는데도&amp;nbsp;사용자에게 주는 가치를 폄하하고 웹이 아니라고 배척하는 것이 지나치다고 생각했어요. 하지만,&amp;nbsp;인터넷 익스플로러 관련 업무를 하면서 표준을 지키는 것이 보이지 않는&amp;nbsp;사용자 경험 가치도 향상할 수 있다는 것을 이해하게 되었어요. 직접적인&amp;nbsp;그래픽이나 미디어 경험 외에도 접근성이나 호환성도&amp;nbsp;사용자 경험에 영향을 미칠 수 있다는 것을요.&lt;/p&gt;&lt;p&gt;여전히 기술보다는 사용자 경험이 중요하다고 생각해요. 뉴스에서 플래시와 실버라이트가 죽었다는 둥 미래가 어둡다는 둥 하지만,&amp;nbsp;RIA 기술은 여전히 많이 쓰이고 있고 사용자나 개발자에게&amp;nbsp;줄 수 있는 가치가 있어요.&amp;nbsp;어디까지나 기술을 쓰는 사람이 현명한 선택을 할 수 있을 때 이야기이긴 하지만요. 보통의 경우는 사용자 경험이나 미래에 일어날 기술 변화를&amp;nbsp;고려해서 기술을 선택하지 않고, 현재 잘 아는 기술이라서&amp;nbsp;또는 돈이 되기 때문에&amp;nbsp;그렇게 하지 못하죠. 웹 전문가들이 소리내서 &quot;그건 아니야!&quot;라고 하는 건, 아이들에게 칼을 주면서 이건 신중하게 써야해라고 하는 것보다 손대지 말라고 하는 것이 더 효과적이기 때문일지도요.&lt;/p&gt;&lt;p&gt;기술을 잘 쓰기 위해서는 어떤 기술을 선택하는 것이 장기적으로 도움이 되는지에 대해서도 충분히 고려해서 선택을 해야 합니다. ActiveX의 경우엔&amp;nbsp;이 기술이 이제는 좋은 사용자 경험을 주지 않는데도(표준이 아니라서 타브라우저에서 안된다던지, 설치나 실행에서 경험이 유쾌하지 못하다던지, 보안상의 위협이 있다던지) 불구하고 그 동안 해왔던 관성 때문에 계속 선택하고, 선택할 수 밖에 없는 상황에 있는 것이 문제라고 생각해요. &lt;/p&gt;&lt;p&gt;P.S.&amp;nbsp;&lt;a href=&quot;http://view.asiae.co.kr/news/view.htm?idxno=2012071215584302348&amp;amp;nvr=Y&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;오늘 ActiveX 없이도 공인인증서를 쓴다&lt;/a&gt;는 기사를 봤는데, 매우 반가운 소식이지만 뉴스를 보는 사람들은 당장 되는 줄 알텐데...&amp;nbsp;뉴스가 현실을 너무 앞서간 건&amp;nbsp;아닐까 싶어요.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:600px;text-align: center; ;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile4.uf.tistory.com/original/1553224B4FFEE0CB2348FF&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/1553224B4FFEE0CB2348FF&quot; filemime=&quot;image/jpeg&quot; filename=&quot;26472_54404_410.jpg&quot; height=&quot;321&quot; style=&quot;text-align: center; &quot; width=&quot;600&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</description>
+			<category>HRG</category>
+			<author>황리건</author>
+			<guid>http://uxfactory.tistory.com/915</guid>
+			<comments>http://uxfactory.tistory.com/915#entry915comment</comments>
+			<pubDate>Thu, 12 Jul 2012 23:20:14 +0900</pubDate>
+		</item>
+		<item>
+			<title>테크니컬 이반젤리스트가 하는 일</title>
+			<link>http://uxfactory.tistory.com/914</link>
+			<description>&lt;P&gt;국내에서 이반젤리스트로 일하는 사람들도 별로 없고 이 분야에 대해서 제대로 알리는 것이 필요하다고 생각해서 이반젤리스트에 대한 &lt;A href=&quot;http://uxfactory.com/35&quot;&gt;소개 글&lt;/A&gt;을 쓴 적이 있는데요. 지금 보니 벌써 5년 전에 쓴 글이네요. 이번에 한번 그 동안의 경험과 생각을 토대로 이어서 써보려고 합니다.&lt;/P&gt;
+&lt;P&gt;지난 글에서 쓴 것처럼 이반젤리스트는 가이 가와사키가 기독교의 ‘전도사’에서 개념을 차용해서 애플에 처음 도입했다고 알려져 있지만, &lt;A href=&quot;http://www.creatingcustomerevangelists.com/resources/evangelists/guy_kawasaki.asp&quot;&gt;사실&lt;/A&gt;은 애플에 합류하기 전부터 애플에는 이반젤리스트라는 역할이 있었고 처음에는 영업이나 마케팅을 하는 사람에 가까웠다고 하네요. &lt;/P&gt;
+&lt;P align=center&gt;&lt;A href=&quot;http://www.uxfactory.com/admin/entry/post/http://cfile25.uf.tistory.com/image/1259C43C4FF84A7A3061DD&quot;&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;FLOAT: none; TEXT-ALIGN: center; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:250px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile4.uf.tistory.com/original/116235424FFA693B090F14&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/116235424FFA693B090F14&quot; filemime=&quot;image/jpeg&quot; filename=&quot;250px-Guy_Kawasaki,_2006.jpg&quot; height=&quot;333&quot; width=&quot;250&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P align=center&gt;이반젤리스트의 이반젤리스트, 가이 가와사키(Guy Kawasaki)&lt;/P&gt;
+&lt;BLOCKQUOTE&gt;
+&lt;P&gt;에반젤리즘의 원래 의미는 “좋은 소식을 전해주는 것”입니다. 영업은 나에게 좋은 것에 기반하고 있지만, 이반젤리즘은 상대에게 좋은 것에 기반합니다. 그리고 마케팅 활동의 일부로 이반젤리즘을 생각하지만, 이반젤리즘을 철학적으로 보면 회사의 모든 활동이 이반젤리스트 같아야 합니다. 마케팅이나 엔지니어링, 기술지원도 모두 이반젤리스트처럼될 필요가 있는 것이죠. &lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;P&gt;사실 저도 이반젤리스트로 활동을 하면서 스스로 정체성에 혼란을 많이 느끼는 편이에요. 엔지니어, 기술 영업, 기술 지원, 기술 마케팅 사이에서요. 또한 회사에게 좋은 것과 상대방에게 좋은 것 사이에서 무엇을 중요하게 생각해야 하는지 고민을 하기도 하고요. 가이 가와사키의 이반젤리즘에 대한 철학은 이반젤리스트가 하는 일의 가치와 사명감에 대해 잘 설명해준다고 생각해요.&lt;/P&gt;
+&lt;P&gt;이어서 이반젤리스트가 하는 일의 실제에 대해서 계속 이야기를 해볼까 합니다.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;이반젤리스트의 역할은 어떻게 되나요?&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;회사에서 이반젤리스트의 역할은 전문가 그룹에 새로운 기술을 소개하고 관계를 유지하는 것이라고 할 수 있습니다. 일반인이나 소비자가 아닌 개발자나 디자이너와 같이 어떤 한 분야에서 전문성을 가지고 있는 사람들과 소통을 하죠. 그 관계를 통해서 정말 기술을 좋아하는 열광적인 사람들에게 좋은 소식을 전하는 것입니다.&lt;/P&gt;
+&lt;P&gt;이반젤리스트는 기술 전문가로 활동하는 경우가 많습니다. 보통 전도사라고 하면 널리 알리는 역할을 하는 사람으로 이해하기 쉽지만, 그보다는 아직 알려지지 않은 내용들을 미리 접해서 조금 더 쉽게 설명해 줄 수 있는 사람입니다. 알리는 일은 홍보 전문가나 마케터와 함께 하는 거구요.&lt;/P&gt;
+&lt;P&gt;이반젤리스트가 속한 부서는 보통 개발자 관계(Developer Relations)인 경우가 많아요. 대표적으로 애플, 구글, 어도비 등이 그렇고, 마이크로소프트도 초창기에는 Developer Relations이었습니다.(현재는 Developer &amp;amp; Platform Evangelism) 이반젤리스트의 명칭 역시 개발자 이반젤리스트(Developer Evangelist)인 경우가 많은데 이는 개발자와의 소통이 이반젤리스트의 가장 중요한 역할이기 때문이죠.&lt;/P&gt;
+&lt;P&gt;홍보를 Public Relations이라고 하고 기자나 매체와의 관계를 중요하게 생각하는 것처럼 이반젤리스트는 개발자와 같은 전문가 그룹과의 관계를 잘 형성하는 것이 중요합니다.&lt;/P&gt;
+&lt;P style=&quot;FLOAT: none; TEXT-ALIGN: center; CLEAR: none&quot;&gt;&lt;A href=&quot;http://www.uxfactory.com/admin/entry/post/http://cfile29.uf.tistory.com/image/1848FC354FF84A7A169176&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/132200384FF84A7A17128B&quot; width=&quot;374&quot; height=&quot;308&quot; /&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P align=center&gt;마이크로소프트에서 이반젤리즘을 담당했던 구글의 빅 군토트라(Vic Gundotra)&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;이반젤리스트가 하는 일의 결과는 무엇인가요?&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;윈도우폰에 카카오톡이 없으면 아무도 윈도우폰을 사지 않겠지만, 반대로 윈도우폰 사용자가 없으면 카카오톡도 앱을 만들지 않겠죠.(실제로 이 문제 때문에 카카오톡 출시가 어려웠는데 윈도우폰에 열정을 가진 사람들로 인해서 최근에 &lt;A href=&quot;http://www.windowsphone.com/ko-KR/apps/bd5729eb-0c01-4889-8798-6060cd6a14f6?wa=wsignin1.0&quot;&gt;윈도우폰용 카카오톡&lt;/A&gt;이 출시 됐습니다. 놀라운 일이죠.) &lt;/P&gt;
+&lt;P&gt;이반젤리스트는 이러한 패러독스를 극복해야 합니다. 아직 출시되지 않아서 성공 여부는 장담할 수 없지만, 앞으로 생길 기회를 보고 미리 앱들을 만들어야 하지요. 보통 새로운 기술이 출시되고 얼마 안 지난 시점에 사용자들은 이미 냉정한 평가를 내리기 때문에, 새로운 플랫폼을 성공궤도에 안착시키는데 있어서 이반젤리스트의 역할이 매우 중요합니다. 반대로 성공시켜야 할 플랫폼이 없다면 이반젤리스트의 활동은 피상적일 수 밖에 없어요. 국내에서도 여러 기업에서 이반젤리스트를 도입하는 경우가 있지만, 플랫폼이 없는 상태에서 이반젤리스트를 뽑는 것은 좋은 생각이 아닙니다.&lt;/P&gt;
+&lt;P&gt;기술 이반젤리스트로 범위를 좁혀서 좀 더 현실적인 얘기를 하자면, 전문가 그룹과의 관계를 통해서 기술이 채택되는 것이 이반젤리스트가 하는 일의 결과입니다. 마이크로소프트의 초창기에 이반젤리스트 전략을 세웠던 &lt;A href=&quot;http://en.wikipedia.org/wiki/Jim_Plamondon&quot;&gt;짐 플라몬돈&lt;/A&gt;은 이반젤리스트의 역할이 윈도우 플랫폼을 사실상 표준(de facto standard)로 만드는 것이라고 하였는데, 이를 위해서 개발자들이 윈도우에서 코드를 작성하도록 돕는 것이 이반젤리스트의 역할이라고 했습니다. &lt;/P&gt;
+&lt;BLOCKQUOTE&gt;
+&lt;P&gt;&lt;EM&gt;“Every line of code that is written to our standards is a small victory; every line of code that is written to any other standard, is a small defeat.”&lt;/EM&gt; 
+&lt;P&gt;–&lt;A href=&quot;http://boycottnovell.com/wp-content/uploads/2008/08/comes-3096.pdf&quot;&gt;James Plamondon, Microsoft Technical Evangelist. From Exhibit 3096; Comes v. Microsoft litigation&lt;/A&gt;&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;P&gt;이를 위해서 강좌를 만들고, 매체에 기고를 하고, 개발자 세미나에서 발표하고, 웹캐스트를 만들고, 블로깅과 SNS등 소셜 활동을 하고, 개발자를 만나서 프로젝트를 진행하는 것이 그 방법들이죠. 이걸 잘하는 방법에 대해서는 야후의 개발자 이반젤리스트였던 크리스 헤일만(Chris Heilmann, 현재는 모질라 이반젤리스트)가 &lt;A href=&quot;http://developer-evangelism.com/&quot;&gt;여기&lt;/A&gt;에 잘 정리해 놨습니다. &lt;/P&gt;
+&lt;P style=&quot;FLOAT: none; TEXT-ALIGN: center; CLEAR: none&quot;&gt;&lt;A href=&quot;http://www.uxfactory.com/admin/entry/post/http://cfile27.uf.tistory.com/image/115714364FF84A7D11BBED&quot;&gt;&lt;/A&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;FLOAT: none; TEXT-ALIGN: center; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:500px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile4.uf.tistory.com/original/154E13454FFA696705F3F9&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/154E13454FFA696705F3F9&quot; filemime=&quot;image/jpeg&quot; filename=&quot;mswindows8dev-1.jpg&quot; height=&quot;333&quot; width=&quot;500&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;A href=&quot;http://www.uxfactory.com/admin/entry/post/http://cfile27.uf.tistory.com/image/115714364FF84A7D11BBED&quot;&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P align=center&gt;새로운 플랫폼에는 이반젤리스트의 역할이 매우 중요. &lt;A href=&quot;http://www.bloter.net/archives/105510&quot;&gt;출처&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;최근에 저는 아직 출시되지 않은 &lt;A href=&quot;http://www.microsoft.com/korea/techdays/developers_12.aspx?s=devs_t6_subtrack1_2&quot;&gt;윈도우8의 개발 플랫폼&lt;/A&gt;을 전달하는 일을 하고 있어요. 아직 윈도우8의 경우는 개발자 등록이 오픈되어 있지 않기 때문에, 지금 스토어에 등록되는 앱은 보이지 않는 곳에서 마이크로소프트 직원들이 직접 앱 개발부터 등록까지 관여를 하고 있답니다. 어떻게 보면 밖으로 보이지 않는 일이 더 많지요. 만약 개발자 등록이 모든 사람에게 공개된다면 활동은 위에 언급한 것처럼 밖으로 보이는 일이 더 많을 거에요.&lt;/P&gt;
+&lt;P&gt;사실 이반젤리스트의 결과를 평가하는데 있어서는 애매한 부분이 있습니다. 이러한 활동 들이 실제로 얼마나 기술 채택에 도움이 되었는지를 평가하기가 어렵다는 점이지요. 보통은 얼마나 많은 사람들에게 메시지를 전달했는지, 얼마나 많은 활동을 했는지 등으로 활동의 결과를 간접적으로 측정하기도 하지만, 최종 결과인 기술 채택과의 상관관계를 밝혀내기가 어려워요. 이러한 활동의 퀄리티에 대해서 평가하는 것도 어려운 것도 현실이고요.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;회사 밖에도 이반젤리스트처럼 활동하는 전문가들이 있는데?&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;소수의 활동적인 전문가들은 진정한 이반젤리스트 역할을 합니다. 월급을 받는 것도 아니지만 그 기술을 정말로 좋아하고 그러한 열정을 바탕으로 강의도 하고 글도 쓰고 주변 사람들에게 소개도 하지요. 우리는 흔히 인터넷 전도사, 영어 전도사 등 무슨 무슨 전도사 이런 표현을 많이 쓰는데 꼭 기술 분야가 아니더라도 이반젤리스트처럼 활동하는 사람들이 있습니다.&lt;/P&gt;
+&lt;P align=center&gt;&lt;A href=&quot;http://www.uxfactory.com/admin/entry/post/http://cfile4.uf.tistory.com/image/204F85344FF8505D1BAA8D&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/141F33454FF8505D295977&quot; width=&quot;295&quot; height=&quot;350&quot; /&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P align=center&gt;얼마 전 &lt;A href=&quot;http://www.zdnet.co.kr/news/news_view.asp?artice_id=20120424155032&quot;&gt;인터넷 명예의 전당&lt;/A&gt;에 헌액된 전길남 박사님&lt;/P&gt;
+&lt;P&gt;회사에 속해있는 이반젤리스트는 외부에 자사의 기술 전문가들이 더 많아지도록 새로운 소식을 알려준다 던지 초기에 제한적으로 제공되는 교육 기회나 기술 자료들을 제공하죠. 개발팀 엔지니어와의 미팅에 초대하기도 하고 미리 제품을 써볼 수 있는 기회를 주기도 합니다. &lt;/P&gt;
+&lt;P&gt;반면에 이반젤리스트는 활동적인 외부 전문가들을 통해서 더 많은 사람들에게 기술을 알리고 전파하는데 도움을 받을 수 있습니다. 성공한 전문가들은 많은 다른 전문가들의 롤모델이 되기도 하고, 플랫폼을 선택하는데 긍정적인 영향력을 미칩니다. 그래서 이런 활동적인 전문가들을 영향력을 행사하는 사람(Influencer)라고도 하지요. 인플루언서와의 관계도 이반젤리스트의 중요한 역할 중에 하나입니다.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;이반젤리스트가 되려면 어떻게 해야 하는지?&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;사실 전문가 그룹에서 알려진 사람이 이반젤리스트가 되는 경우가 많습니다. 앞서 말한 인플루언서 활동을 하다가 아예 회사에 이반젤리스트로 회사에 입사를 하는 것이죠. 그래서 이반젤리스트가 되려면 커뮤니티 활동이나 기고나 강연 등의 활동을 하는 것이 도움이 됩니다. 기술에 대한 전문성을 키우면서 자신이 공부한 것을 다른 사람들에게 알리는 것이죠. (저도 이반젤리스트가 되기 전엔 &lt;A href=&quot;http://book.naver.com/bookdb/book_detail.nhn?bid=158251&quot;&gt;책&lt;/A&gt;도 쓰고 &lt;A href=&quot;http://ejungle.co.kr/workshop/wks_past_overview.asp?p_no=546&amp;amp;pm_no=459&quot;&gt;강의 활동&lt;/A&gt;들을 많이 했어요.)&lt;/P&gt;
+&lt;P&gt;보통 많은 전문가들이 본업이 있는 상태에서 이러한 활동을 하기 때문에 본격적인 외부 활동을 하기란 어렵습니다. 회사에서는 이러한 활동을 장려하기 보다는 제한하는 경우도 있기 때문에 스스로 이러한 활동에 가치를 두고 적극적으로 기회를 만들어서 해야 하지요. 그러나, 이런 활동도 꾸준히 하기 어려워서 현업이 바쁘면 그만두는 경우가 많아요. 이반젤리스트가 되기 전에는 과외활동으로 하는 활동들이 이반젤리스트가 되면 풀타임으로 전문적으로 한다고 볼 수 있어요.&lt;/P&gt;
+&lt;P style=&quot;FLOAT: none; TEXT-ALIGN: center; CLEAR: none&quot;&gt;&lt;A href=&quot;http://www.uxfactory.com/admin/entry/post/http://cfile29.uf.tistory.com/image/1503AB334FF84E580BA185&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/135EC63E4FF84E58059B03&quot; width=&quot;516&quot; height=&quot;360&quot; /&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P align=center&gt;UX팩토리처럼 운영자가 바빠서 뜸한 HTML5 커뮤니티 &lt;A href=&quot;http://www.clearboth.org/&quot;&gt;클리어보스&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;앞서 말한 것처럼 인플루언서 활동에서 이반젤리스트로부터 정보나 기회를 얻는 경우가 많기 때문에 이반젤리스트와 협력을 하면서 경험을 쌓는다 던지, 커뮤니티 활동을 통해 다른 인플루언서들과의 네트워크를 만드는 것도 향후에 이반젤리스트 활동을 하는데 도움이 됩니다. 이반젤리스트 업무에서 인적 네트워크가 굉장히 중요한 기반이 되기 때문입니다.&lt;/P&gt;
+&lt;P&gt;기술적인 전문성과 네트워크 외에도 글이나 영상, 프리젠테이션으로 지식을 전달하는 것을 훈련하는 것도 중요합니다. 훈련이라는 표현을 쓴 것은 이러한 기술을 단기간에 습득하기 보다는 오랜 시간을 투자해서 갈고 닦아야 하는 것이기 때문이지요. &lt;/P&gt;
+&lt;P&gt;그리고 마지막으로 전략적인 사고 방식을 갖추는 것도 매우 중요합니다. 앞서 말한 것처럼 이반젤리스트의 결과는 평가하기가 어렵기 때문에 효과적으로 이반젤리즘을 하기 위해 스스로 전략을 세울 수 있어야 합니다. 글쓰고, 발표하고, 업체 만나고, 커뮤니티 만나는 등등 일을 벌리면 끝도 없지만 혼자서 모든 일을 다할 수는 없거든요. 또한 기술적으로도 현재 업계의 기술 트렌드와 기업들의 비즈니스를 이해하고 기술 전략에 맞춰서 기술의 가치를 개발자들에게 제안해야 하기 때문에 전략적인 사고를 해야 합니다.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;이반젤리즘을 잘 하려면?&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;이반젤리즘의 핵심은 정말 좋아하는 기술을 선택하는 것에서 시작해요. 그래야 스스로 동기부여가 되어서 진심으로 기술을 다른 사람에게 도움이 되라고 권장할 수 있거든요. 이반젤리스트로 일을 하다보면 가끔은 사람들이 별로 좋아하지 않는 기술을 전달해야 하는 경우도 있는데, 내부에서는 그런 이유 때문에 이반젤리즘이 필요한 게 아닐까 하는 농담도 한답니다. &lt;/P&gt;
+&lt;P style=&quot;FLOAT: none; TEXT-ALIGN: center; CLEAR: none&quot;&gt;&lt;A href=&quot;http://www.uxfactory.com/admin/entry/post/http://cfile4.uf.tistory.com/image/1531B5454FF84E590572F6&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/187695334FF84E591D87D5&quot; width=&quot;524&quot; height=&quot;414&quot; /&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P align=center&gt;그래도 &lt;A href=&quot;http://blog.naver.com/gowone1/90109247227&quot;&gt;이런 분들&lt;/A&gt;이 있기 때문에 외롭지 않아요&lt;/P&gt;
+&lt;P&gt;이 경우에는 그 기술의 장점에 집중하고 더 좋아질 것이라는 믿음을 갖고, 외부 개발자들의 의견을 내부 개발팀에 전달해서 좋은 제품이 될 수 있도록 기여할 수도 있어요. 실제로 마이크로소프트는 초기에는 부족한 부분이 있지만 버전을 거듭하면서 피드백을 받아서 발전이 되더라고요. 인터넷 익스플로러 10은 아직 출시되지 않았지만 벌써부터 개발자들로부터 정말 많이 좋아졌다는 평을 받고 있어요. &lt;/P&gt;
+&lt;P&gt;이처럼 기술 개발팀과의 관계를 통해서 이반젤리스트는 외부의 목소리를 내부에 전달해서 더 좋은 제품을 만들 수 있도록 하는 좀 더 적극적인 역할을 할 수도 있습니다. 그래서 정말 뛰어난 이반젤리스트는 개발팀과 긴밀하게 일하면서 전문가 그룹의 피드백을 전달해서 다음 버전의 기술에 영향을 미치기도 합니다. 나중에는 그 경험을 바탕으로 실제 새로운 기술을 개발하거나 제품 담당 마케팅을 하는 경우도 있어요.&lt;/P&gt;
+&lt;P align=center&gt;&lt;A href=&quot;http://www.uxfactory.com/admin/entry/post/http://cfile4.uf.tistory.com/image/184C3F354FF8505D34C781&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/154DA5354FF8505E3258FF&quot; width=&quot;288&quot; height=&quot;371&quot; /&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P align=center&gt;현재 AIR 프로덕트 매니저인 어도비의 마이크 챔버스(Mike Chambers)&lt;/P&gt;
+&lt;P align=center&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;FLOAT: none; TEXT-ALIGN: center; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:329px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile1.uf.tistory.com/original/14611C444FFA69140598E7&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/14611C444FFA69140598E7&quot; filemime=&quot;image/jpeg&quot; filename=&quot;92e9bbc791a376d5effa8655e153616f9d72e1e4.jpg&quot; height=&quot;329&quot; width=&quot;329&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P align=center&gt;&lt;A href=&quot;http://www.uxfactory.com/admin/entry/post/http://cfile10.uf.tistory.com/image/11531B444FF854B716C310&quot;&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P align=center&gt;jQuery 등 오픈소스 개발에도 참여하는 구글의 폴 아이리시(Paul Irish)&lt;/P&gt;
+&lt;P align=center&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;이반젤리스트의 가능성&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;가이 가와사키가 말한 것처럼 많은 기업들이 총체적 이반젤리즘적인 기업활동(표현이 좀 이상하지만 스티브 잡스를 떠올리면 이해하기 쉬울 듯)을 배우고 이런 전도사들을 고용해서 전문적인 이반젤리스트가 많아질 것이라고 생각해요. 여전히 많은 기업들이 이반젤리즘과 이반젤리스트에 대해서 잘 모르거나 오해하고 있지만 그 가치와 역할에 대해서 제대로 받아들여지면 좋겠네요. &lt;/P&gt;
+&lt;P&gt;이번 글에서는 비교적 제가 잘 알고 있는 기술 영역의 이반젤리스트에 대해서 이야기했지만 디자인이나 다른 영역에서도 마찬가지로 이반젤리스트가 활용할 여지는 충분히 있다고 생각합니다. 저도 처음에는 UX 개념을 알리는 이반젤리스트로 활동했던 것처럼요. 요즘엔 꼭 제가 아니더라도 많은 분들이 UX 이반젤리스트처럼 활동하고 있고, 저도 개인적으로 바쁘고 해서 UXFactory나 커뮤니티 활동이 뜸 했지만요. 여러분도 취미로든 전문 영역으로든 좋은 소식을 전하는 메신저가 되어서 여러분이 좋아하는 것에 대해서 이반젤리스트의 역할을 해보셨으면 좋겠습니다.&lt;/P&gt;</description>
+			<category>HRG</category>
+			<author>황리건</author>
+			<guid>http://uxfactory.tistory.com/914</guid>
+			<comments>http://uxfactory.tistory.com/914#entry914comment</comments>
+			<pubDate>Mon, 09 Jul 2012 08:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>사람에 대한 100가지 심리학적 접근 방법.</title>
+			<link>http://uxfactory.tistory.com/913</link>
+			<description>안녕하세요? 이재명입니다.&lt;br /&gt;
+오랜만에 포스팅을 하네요. ^^&lt;br /&gt;
+&lt;br /&gt;얼마 전 기획자와 디자이너가 볼만한 책을 한 권 번역해서 홍보차 포스팅 합니다.&lt;br /&gt;
+이예나님과 함께 삼개월정도 주말을 불태우며 번역한 세번째 책입니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile3.uf.tistory.com/original/13718E4C4F519A6613D1D5&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/13718E4C4F519A6613D1D5&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;L.jpg&quot; height=&quot;400&quot; width=&quot;309&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/P&gt;&lt;br /&gt;
+다수의 성공과 실패 경험을 쌓은 디자이너/기획자는 의사결정에 있어서 '촉'이 있습니다. 정확한 근거나 수치는 없지만 왠지 '이렇게 해야 한다.'라는 의사결정을 내리고는 하죠. 사실은 여러 경험치로 알고는 있지만, 다른 사람을 설득할 때에는 명확한 근거를 대기가 어렵기도 합니다. 이 책은 그런 근거를 보강할 수 있는 내용으로, 심리학 실험을 통해 인간의 본능에 대한 기록을 전달합니다.&lt;br /&gt;
+&lt;br /&gt;목차는 &lt;A title=&quot;[http://www.yes24.com/24/goods/6328402?scode=032&amp;amp;OzSrank=1#contentsConstitution]로 이동합니다.&quot; href=&quot;http://www.yes24.com/24/goods/6328402?scode=032&amp;amp;OzSrank=1#contentsConstitution&quot; target=_blank&gt;이곳&lt;/A&gt;에서.. 보실 수 있구요.. 요즈음 UX를 이어 많이 화자되는 서비스 디자인과도 직접적으로 관련이&amp;nbsp;되는 내용입니다. 많은 사례들을 통해 사람이 어떻게 행동할지에 대한 근거도 보여줍니다.&lt;br /&gt;
+&lt;br /&gt;연세대학교 HCI랩의 김진우 교수님과 uxfactory에서 함께 활동하는 고태호님께서 추천의 글을 주셨습니다.&amp;nbsp;위키북스의 김윤래 팀장님과 박찬규 대표님께도 이 자리를 빌어 감사하다는 말을 널리 알리고 싶네요.&lt;br /&gt;
+고맙습니다!&lt;br /&gt;
+&lt;br /&gt;마지막으로 저희가 하고 싶었던 말을 다 적어주신 고태호님의 추천사로 홍보를 마칠까 합니다. 즐거운 기획과 디자인 되시길-&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+
+&lt;BLOCKQUOTE&gt;&lt;SPAN class=more_contents&gt;요즘 들어, 사용자 중심의 디자인에 대한 관심이 높아지면서 학계와 산업계 모두에서 사용자로서의 사람에 대한 본질적인 이해가 중요해졌습니다. 사용자 경험 디자인과 더불어 최근 서비스 디자인이라는 개념이 사회 안팎에서 집중적으로 조명되면서 관련 직종에 진출하려는 사람들도 점차 많아지고 있습니다. 또한 이미 관련 분야에 몸담고 있는 전문가들의 경우에는 더 많이 연구하고, 더 근본적인 원인을 찾아 고심하는 분들이 속속 생겨나고 있습니다. 많은 사람들의 관심과 열정 속에서 사용자 중심, 인간 중심의 디자인 방법론에 대한 다양한 접근과 시도가 이뤄지고 있는 것은 분명 기뻐할 만한 일이며, 매우 흥미로운 일이 아닐 수 없습니다. &lt;br /&gt;
+&lt;br /&gt;표면적으로 사용자 중심 디자인 방법론, 사용자 경험 방법론에 대해 이야기하는 사람들은 많지만 제품이나 서비스를 사용하면서 '왜 사람들은 이런 행태를 보일까?'에 대한 해답을 학문적 근거를 들어 주는 책은 많지 않습니다. 두꺼운 심리학 개론 책 속 어딘가에 분명히 관련 단서가 있을 테고 이러한 내용은 최신 학술 논문에 수록된 내용일 테지만 실무자나 학생들이 전문 연구 자료를 직접 찾아보기는 사실상 어렵습니다. 이런 측면에서 생각해 보면 연구 결과와 지식을 공유하는 경험 디자인은 아직도 갈 길이 멉니다. 이 책의 필자는 아마도 사람들이 전문 연구에 접근하는 데 걸림돌이 되는 장애물을 치워버리고 싶었던 것 같습니다. 그리고 실제로, 아주 멋지게, 쉽고 재미있는 책을 펴냈습니다. &lt;br /&gt;
+&lt;br /&gt;이 책에서는 심리학과 뇌 과학을 중심으로 '왜 사용자들은 특정 행동을 할 수밖에 없는지' 그리고 그런 사용자를 위해 '디자이너와 기획자는 어떤 고민을 해야 하는지'를 제시합니다. 어려운 학계 용어를 최대한 알기 쉽게 풀어 썼고, 과학적인 연구 결과를 근거로 들어 그 내용에 신빙성을 더하고 있습니다. 읽다가 이해가 되지 않는 부분이 있다면 언제라도 관련 내용을 스스로 찾을 수 있게 배려하고 있습니다. &lt;br /&gt;
+&lt;br /&gt;이 책을 통해 우리는 좋은 기획자와 디자이너가 실무 경험을 통해 무의식적으로 넘겨짚고 있던 통념들, 인류에 대한 보편타당한 진실들, 그리고 '사용자들은 아마 이렇게 생각할 거야'라고 넘겨짚었던 사항에 대해 명쾌하고 근본적인 해답을 얻을 수 있으리라 생각합니다. &lt;br /&gt;
+&lt;br /&gt;이 책이 많은 디자이너와 기획자에게 사용자를 이해하는 사고와 사용자를 중심에 두는 접근 방식을 확립하는 데 과학적인 근거를 제공함으로써 더 나은, 더 사용자 친화적인 디자인이 탄생하는 초석이 되리라 기대해 봅니다. ---추천의 글 중에서&lt;br /&gt;
+&lt;br /&gt;&quot;이 기능은 이렇게 디자인하기로 합시다. 사용자가 무척 좋아하니까요.&quot; &quot;사용자는 이런 정보는 확인하지 않아요. 이 콘텐츠는 이렇게 디자인해야 합니다.&quot; 이런 이야기를 UX 디자인 회의에서 쉽게 들을 수 있다.&lt;br /&gt;
+&lt;br /&gt;UX 회의에서는 누구나 사용자 전문가다. 저마다 본인이 사용자에 대해 더 잘 안다고 주장한다. 하지만 과연 그럴까? 사용자가 특정 기능을 선호한다고 주장하는 이의 말을 들어보자. 대부분 본인이 해당 기능을 원하는 경우가 다반사다. 정확한 근거 자료 없이 사용자가 무엇을 좋아하거나 싫어한다고 모두 소리 높여 주장한다. 10명의 기획자, 디자이너, 개발자가 모이면 10명의 서로 다른 사용자를 고려해야 하는 셈이다. &lt;br /&gt;
+&lt;br /&gt;기존의 연구 자료를 UX 회의에 활용하는 것도 좋은 방법이다. &quot;어느 대학원의 조사 결과에 의하면……&quot; 혹은 &quot;어느 조사 기관의 설문조사 자료에 따르면……&quot; 등 전문 자료를 바탕으로 특정 디자인의 정당성을 주장할 수 있다. 하지만 전문 연구는 한정된 주제에 초점을 맞추는 경우가 많다. 해당 이슈에 대한 더욱 정확한 비교 분석이 중요하기 때문이다. 실무 UX 디자인에 바로 적용하기에는 까다로운 경우가 많다. &lt;br /&gt;
+&lt;br /&gt;이재명, 이예나 씨가 공역한 『모든 기획자와 디자이너가 알아야 할 사람에 대한 100가지 사실』은 실무자의 입장에서 일반적인 사용자를 좀 더 깊이 이해할 수 있게 해 준다. 대목마다 사용자의 입장에서 제품과 서비스를 다시 한 번 생각해보게 한다. 진정한 사용자 경험을 디자인하는 데 기본이 되는 가이드라인을 제공하는 셈이다. 사용자가 어떻게 생각하고, 결정하고, 인지하는지 차근차근 상세하게 설명해 준다. 사용자 행동 패턴마다 곁들어진 예시와 그림 자료를 살펴보면 쉽게 고개가 끄덕여진다. 사용자에 대해 잘못 알려진 일반적인 편견도 일깨워준다. &lt;br /&gt;
+&lt;br /&gt;UX에 대한 열기가 어느 때보다 뜨겁다. 아이폰 혹은 안드로이드 UX 디자인, 웹 2.0 사용자 조사 방법론 등 최근의 이슈에 초점을 맞춘 다양한 책이 서점 진열대를 가득 메우고 있다. 하지만 진정한 UX 전문가라면 기초부터 확실히 다져야 하지 않을까? 심리학 강의 등으로 사용자 행동 패턴에 익숙한 UX 전공자라면 다시 한 번 핵심 내용을 되새길 수 있는 좋은 기회가 될 것이다. 유사 분야에서 UX 실무에 직접 뛰어든 기획자와 디자이너에게는 인터랙션 디자인의 기본을 다질 수 있는 좋은 출발점이 될 것이다. &lt;br /&gt;
+&lt;br /&gt;UX는 상식에만 의존하면 된다고 주장하는 이들도 많다. 아주 틀린 말도 아니다. 하지만 UX 전문가의 상식과 노하우가 많은 연구와 경험을 바탕으로 나온다는 사실을 무시해서는 안 된다. 『모든 기획자와 디자이너가 알아야 할 사람에 대한 100가지 사실』로 UX 디자인에 필수적인 전문지식으로 재무장해보는 건 어떨까? 이 책의 마지막 장을 덮는 순간 사용자에게 한 걸음 더 가까워진 자신을 발견할 수 있을 것이다&lt;/SPAN&gt;&lt;br /&gt;
+&lt;/BLOCKQUOTE&gt;&lt;br /&gt;</description>
+			<category>7nd</category>
+			<author>Ol재명</author>
+			<guid>http://uxfactory.tistory.com/913</guid>
+			<comments>http://uxfactory.tistory.com/913#entry913comment</comments>
+			<pubDate>Sat, 03 Mar 2012 13:25:37 +0900</pubDate>
+		</item>
+		<item>
+			<title>게임 프로듀서와 디렉터 역할</title>
+			<link>http://uxfactory.tistory.com/911</link>
+			<description>&lt;P&gt;&lt;A href=&quot;http://uxfactory.com/641&quot;&gt;경험 산업&lt;/A&gt;에서&amp;nbsp;마주하는 문제, 이슈, 해결 방법은 분야를 막론하고&amp;nbsp;비슷한 것 같아요. 변하지 않는 건 인간에 대한 것이라고들 얘기하지만, 변하지 않는 것이 또 있는 거죠. &lt;br /&gt;&lt;br /&gt;다른 경험 산업 분야에서 어떻게 하고 있는지 관심을 가져보면 어떨까요? 영화, 음악, 뮤지컬, 연극, 게임, 공연, 제품이나 서비스&amp;nbsp;등등 많지만 그 중에서도 제가 가장 관심이 많은 건 게임 분야에요.&amp;nbsp;가장 인터랙션이 많은 것이&amp;nbsp;게임이기도 하고요. 이번엔 개인적인 호기심으로 게임 프로듀서, 디렉터가 어떤 일을 하는지&amp;nbsp;알아보면서 UX 측면에서 참고할 것이 있을지&amp;nbsp;생각해 봤어요.&lt;br /&gt;&amp;nbsp;&lt;br /&gt;아마 게임을 별로 안 좋아하거나 관심이 없는 분들도 있을 거에요. 그래서, 결론부터 얘기하자면 경험을 다루는 분야에서는 프로듀서와 디렉터 역할이&amp;nbsp;꼭 필요하다는 걸 얘기하고 싶어요. &lt;/P&gt;
+&lt;UL style=&quot;LIST-STYLE-TYPE: disc&quot;&gt;
+&lt;LI&gt;프로듀서는 스탭을 총괄하고, 리소스, 마케팅, 아웃 소싱 등 하이 레벨 커뮤니케이션 담당. &lt;/LI&gt;
+&lt;LI&gt;점점 더 프로젝트에 관계된 일이 회사 밖에서 제작되면서, 누군가 제작 스케줄 등 회사 밖에서 벌어지는 일을 코디네이트하고 관리할 필요성이 커짐. &lt;/LI&gt;
+&lt;LI&gt;전문성을 살리기 위해 철저한 분업화된 환경에서, 많은 인력을 감독하여 조직적으로 움직이고 전체적인 기획과 통제 및 실행을 전문적으로 추진해야 할 필요성이 있음.&lt;/LI&gt;
+&lt;LI&gt;리소스를 관리하는 프로듀서와 방향을 제시하는 디렉터는 한 사람이 맡을 수도 있겠지만, 조직이나 프로젝트의 규모가 커지면&amp;nbsp;이를 분리해서 전문화할 필요성 대두.&lt;/LI&gt;&lt;/UL&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;
+&lt;P style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:450px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile4.uf.tistory.com/original/15026E334EAF74A405C193&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/15026E334EAF74A405C193&quot; filemime=&quot;image/jpeg&quot; filename=&quot;93098_1276023698.jpg&quot; height=&quot;300&quot; width=&quot;450&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;P style=&quot;MARGIN: 0px&quot;&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center&quot;&gt;게임 프로듀서 &lt;STRONG&gt;&lt;A title=&quot;[http://www.stylecaster.com/lifestyle/8523/top-10-hottest-women-in-tech-now]로 이동합니다.&quot; href=&quot;http://www.stylecaster.com/lifestyle/8523/top-10-hottest-women-in-tech-now&quot; target=_blank&gt;Jade Raymond&lt;/A&gt;&lt;/STRONG&gt;&lt;/P&gt;
+&lt;p id=&quot;more911_0&quot; class=&quot;moreless_fold&quot;&gt;&lt;span style=&quot;cursor: pointer;&quot; onclick=&quot;toggleMoreLess(this, '911_0','더보기','접기'); return false;&quot;&gt;더보기&lt;/span&gt;&lt;/p&gt;&lt;div id=&quot;content911_0&quot; class=&quot;moreless_content&quot; style=&quot;display: none;&quot;&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;STRONG&gt;게임 프로듀서가 하는 일&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;보통은 &lt;A href=&quot;http://kangallen.egloos.com/1637774&quot;&gt;게임 프로듀서&lt;/A&gt;가 프로젝트 매니징에서부터 전반적인 프로젝트를 관리 감독하는 일을 한다고 합니다. &lt;/P&gt;
+&lt;UL style=&quot;TEXT-ALIGN: left&quot;&gt;
+&lt;LI&gt;따로 프로젝트 매니저가 있는 경우도 있고, 
+&lt;LI&gt;프로듀싱도 프로듀서, 어시스턴트, 어소시에이트로 나누어 지기도 한다. 
+&lt;LI&gt;&lt;U&gt;중요한 것은 자신이 가진 리소스를 어떻게 활용할지에 대한 것.&lt;/U&gt; 
+&lt;LI&gt;세계 최대의 게임사 중 하나인 EA의 경우는, 어시스턴트는 프로듀서를 돕고, 어소시에이트는 게임 디자이너(설계)들이 맡는다. 
+&lt;LI&gt;어소시에이트는 리드 게임 디자이너의 역할 
+&lt;LI&gt;&lt;U&gt;프로듀서는 이들을 총괄하고, 리소스, 마케팅, 아웃 소싱 등 하이 레벨 커뮤니케이션 담당.&lt;/U&gt; 
+&lt;LI&gt;개발은 별도 조직의 개발 디렉터가 맡음. 
+&lt;LI&gt;프로젝트 매니저가 따로 있어서 하루 단위로 팀의 개발 상황 업데이트. 
+&lt;LI&gt;늘 프로듀서와 개발 디렉터 간의 충돌이 있다. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;한편, 게임 프로듀서의 &lt;A href=&quot;http://www.g-matrix.pe.kr/feature/design/facesofcreation3.htm&quot;&gt;궁극적인 목적&lt;/A&gt;은 반드시 인기있는 게임을 만들어 내야 한다는 것이라는 군요.&lt;/P&gt;
+&lt;UL style=&quot;TEXT-ALIGN: left&quot;&gt;
+&lt;LI&gt;&lt;U&gt;점점 더 게임에 관계된 일이 회사 밖에서 제작되면서, 누군가 제작 스케줄 등 회사 밖에서 벌어지는 일을 코디네이트하고 관리할 필요성이 커짐.&lt;/U&gt; 
+&lt;LI&gt;게임을 즐겨야 한다. 배울 수 없음. 
+&lt;LI&gt;책임감이 있어야 한다. 
+&lt;LI&gt;사업에 대해 이해하고 있어야 한다. 본능적으로. 
+&lt;LI&gt;조직을 구성하고 운영할 줄 알아야 한다. 
+&lt;LI&gt;사람을 다룰 수 있어야 한다. 
+&lt;LI&gt;&lt;U&gt;게임 디자이너의 가장 중요한 역할은 게임 아이디어가 실현 가능한지 어떤지 결정하는 것.&lt;/U&gt; 
+&lt;LI&gt;비즈니스 센스 뿐만 아니라, 시장과 게이머들이 어떤 게임을 원하는가에 대한 지식을 요구 
+&lt;LI&gt;또한, 예상 판매량에 따라 가능한 예산을 숙고할 필요.&lt;/LI&gt;&lt;/UL&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A href=&quot;http://betterways.tistory.com/8&quot;&gt;프로듀서의 고충&lt;/A&gt;에 대한 글도 있네요. 프로듀서가 부딪힐 수 있는 현실적인 문제들도 엿보입니다. 제가 아는 김기웅님 작품이네요.&lt;/P&gt;
+&lt;UL style=&quot;TEXT-ALIGN: left&quot;&gt;
+&lt;LI&gt;리소스 
+&lt;LI&gt;개발자와 게이머와의 관계 
+&lt;LI&gt;버그와 해킹 리스크 
+&lt;LI&gt;고용안정성&lt;/LI&gt;&lt;/UL&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;게임 프로듀서에 대한 &lt;A href=&quot;http://www.guidance.co.kr/case_db/job/jp003.htm&quot;&gt;개념&lt;/A&gt;을 정리한 글도 있어요. &lt;/P&gt;
+&lt;UL style=&quot;TEXT-ALIGN: left&quot;&gt;
+&lt;LI&gt;&lt;U&gt;전문성을 살리기 위해 철저한 분업화된 환경에서, 많은 인력을 감독하여 조직적으로 움직이고 전체적인 기획과 통제 및 실행을 전문적으로 추진해야 할 필요성이 있음.&lt;/U&gt; 
+&lt;LI&gt;활동적이고 순발력있고 기동력 있는 스타일이어야 한다. 
+&lt;LI&gt;전문적인 수준까지는 아니더라도 지시를 내릴 수 있을 정도의 프로그램 제작기법은 알고 있어야 한다. 프로그래머에게 정확한 지시를 내리고 어디까지 한계인지를 알 수 있다.&lt;/LI&gt;&lt;/UL&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;게임 프로듀서가 필요한 이유에 대한 것을 살펴보면, 이러한 요구가 비단 게임 뿐 아니라 창조적인 비즈니스 영역에서 공통적으로 요구되는 것들이라는 생각이 들어요. 특히 경험 산업의 경우에는 기존의 기업 비즈니스와 달리 다양한 영역의 전문성과 협업이 요구되기 때문에 더욱 이와 비슷한 상황이 아닌가 싶네요. 위 내용 중에 어떤 영역이든 해당하는 내용을 보면,&lt;/P&gt;
+&lt;UL style=&quot;TEXT-ALIGN: left&quot;&gt;
+&lt;LI&gt;프로듀서는 이들을 총괄하고, 리소스, 마케팅, 아웃 소싱 등 하이 레벨 커뮤니케이션 담당. 
+&lt;LI&gt;점점 더 게임에 관계된 일이 회사 밖에서 제작되면서, 누군가 제작 스케줄 등 회사 밖에서 벌어지는 일을 코디네이트하고 관리할 필요성이 커짐. 
+&lt;LI&gt;전문성을 살리기 위해 철저한 분업화된 환경에서, 많은 인력을 감독하여 조직적으로 움직이고 전체적인 기획과 통제 및 실행을 전문적으로 추진해야 할 필요성이 있음.&lt;/LI&gt;&lt;/UL&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;STRONG&gt;게임 디렉터가 하는 일&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;게임 프로듀서외에도 &lt;A href=&quot;http://devcatpublications.wordpress.com/2010/05/31/%EA%B9%80%EB%8F%99%EA%B1%B4-%E2%80%9C%EA%B2%8C%EC%9E%84-%EB%94%94%EB%A0%89%ED%84%B0%EA%B0%80-%EB%90%98%EB%A0%A4%EB%A9%B4%E2%80%9D-%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4-%EB%82%B4%EB%B6%80-%EB%B0%9C/&quot;&gt;게임 디렉터&lt;/A&gt;라는 전문 영역이 있어요. 게임 디렉터가 &lt;A href=&quot;http://game.segye.com/Articles/Issue/Issues/Article.asp?aid=20070322001254&amp;amp;subctg1=&amp;amp;subctg2=&amp;amp;DataID=200703221223000054&quot;&gt;게임 프로듀서와 비슷한 일&lt;/A&gt;을 하거나 구분하지 않는 경우도 있지만, 제 생각에는 디렉터가 프로듀서와 함께 방향을 설정하고 의사결정에 도움을 주는 역할이라는 생각이 드네요. 디렉팅이라는 것은 전문성을 필요로 하는 영역이지만, 게임 자체에 집중할 수 있도록 어느 정도 예산이나 외부 커뮤니케이션 등에는 조금 자유로울 수 있어야 한다는 생각이 들어요. UX의 경우도 마찬가지인데 리소스를 관리하는 프로듀서와 방향을 제시하는 디렉터는 한 사람이 맡을 수도 있겠지만, 조직이나 프로젝트의 규모가 커지만 이를 분리하는 것도 좋지 않을까 생각되요.&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;STRONG&gt;게임 프로듀서 인터뷰&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;게임 관련한 기사를 보다 보면 프로듀서 또는 PD 인터뷰를 많이 볼 수가 있어요. 게임 자체에 대한 이야기도 있지만, 게임을 어떻게 기획하게 되었는지, 어떤 전략을 갖고 있는지, 포지셔닝을 어떻게 구상하는지 등 프로듀서의 업무에 대해서 엿볼 수가 있어요.&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://blog.naver.com/PostView.nhn?blogId=gbajjang&amp;amp;logNo=110119152697 href=&quot;http://blog.naver.com/PostView.nhn?blogId=gbajjang&amp;amp;logNo=110119152697&quot;&gt;http://blog.naver.com/PostView.nhn?blogId=gbajjang&amp;amp;logNo=110119152697&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;인터뷰 기사를 통해 게이머들과 소통하고 게임에 대한 정보를 제공. 사운드, 캐릭터, 조작방식, 스토리, 스탭 기용 등 제작 전반에 책임&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://www.psblog.co.kr/271 href=&quot;http://www.psblog.co.kr/271&quot;&gt;http://www.psblog.co.kr/271&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;게임에 대한 PR 책임, 게임의 재미있는 포인트, 게임 시스템, 기술에 대한 의사결정, 책임.&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://chauchau0.tistory.com/11467188 href=&quot;http://chauchau0.tistory.com/11467188&quot;&gt;http://chauchau0.tistory.com/11467188&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://www.playforum.net/www/newsDirectory/-/id/1046161 href=&quot;http://www.playforum.net/www/newsDirectory/-/id/1046161&quot;&gt;http://www.playforum.net/www/newsDirectory/-/id/1046161&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;게임에 대한 컨셉 정의 또는 결정. 게임의 원칙 제시. 프로모션 플랜, 장르와 포지셔닝, 차별화 포인트 제시. 게임에 대한 완전한 이해. 앞으로의 개발 일정과 방향 제시. &lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://blog.rhkorea.com/Demigod/118 href=&quot;http://blog.rhkorea.com/Demigod/118&quot;&gt;http://blog.rhkorea.com/Demigod/118&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;게이머의 반응을 조사하고 문제점을 인식하여 게임 운영/차기작에 반영하는데 책임.&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://shiraz.egloos.com/54473 href=&quot;http://shiraz.egloos.com/54473&quot;&gt;http://shiraz.egloos.com/54473&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;서비스 대상 국가, 게임 플랫폼 관련한 의사 결정&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://www.inven.co.kr/webzine/news/?news=26148 href=&quot;http://www.inven.co.kr/webzine/news/?news=26148&quot;&gt;http://www.inven.co.kr/webzine/news/?news=26148&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;수익성, 투자비용, 스탭 구성에 대한 책임. 제한된 리소스에서 효과적인 개발 프로세스 결정. 게임 스튜디오 내 문화. 조직 구성에 대한 가이드. 게임 판매.&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://ffxizone.net/ffxiv_update_info/20504 href=&quot;http://ffxizone.net/ffxiv_update_info/20504&quot;&gt;http://ffxizone.net/ffxiv_update_info/20504&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;베타테스트 등 게임 운영에 대한 의사결정&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://www.it.co.kr/news/mediaitNewsView.php?nBoardSeq=60&amp;amp;nSeq=1793466&amp;amp;nModeC=6 href=&quot;http://www.it.co.kr/news/mediaitNewsView.php?nBoardSeq=60&amp;amp;nSeq=1793466&amp;amp;nModeC=6&quot;&gt;http://www.it.co.kr/news/mediaitNewsView.php?nBoardSeq=60&amp;amp;nSeq=1793466&amp;amp;nModeC=6&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;게임 컨셉과 개념에 대한 정의&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://www.inven.co.kr/webzine/news/index.php?news=34463 href=&quot;http://www.inven.co.kr/webzine/news/index.php?news=34463&quot;&gt;http://www.inven.co.kr/webzine/news/index.php?news=34463&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;개발 스케줄, 유료화, 새로운 장르에 대한 컨셉 개발&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://sanwang78.egloos.com/3461034 href=&quot;http://sanwang78.egloos.com/3461034&quot;&gt;http://sanwang78.egloos.com/3461034&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;이슈 해결의 우선순위 결정&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://kr.blog.yahoo.com/game.angel/13173 href=&quot;http://kr.blog.yahoo.com/game.angel/13173&quot;&gt;http://kr.blog.yahoo.com/game.angel/13173&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;이전 버전과 비교해서 변화되는 부분, 새로운 기능 등에 대한 철학&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://m.gameabout.com/news/view.ga?news_id=24729&amp;amp;site=www&amp;amp;cate=11&amp;amp;listpage=1 href=&quot;http://m.gameabout.com/news/view.ga?news_id=24729&amp;amp;site=www&amp;amp;cate=11&amp;amp;listpage=1&quot;&gt;http://m.gameabout.com/news/view.ga?news_id=24729&amp;amp;site=www&amp;amp;cate=11&amp;amp;listpage=1&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;게임 포지셔닝 전략, 라이센싱, 프로모션 및 마케팅 전략 등&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://bbs2.ruliweb.daum.net/gaia/do/ruliweb/default/27/read?bbsId=G003&amp;amp;itemId=7&amp;amp;articleId=561858 href=&quot;http://bbs2.ruliweb.daum.net/gaia/do/ruliweb/default/27/read?bbsId=G003&amp;amp;itemId=7&amp;amp;articleId=561858&quot;&gt;http://bbs2.ruliweb.daum.net/gaia/do/ruliweb/default/27/read?bbsId=G003&amp;amp;itemId=7&amp;amp;articleId=561858&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;STRONG&gt;디렉터 인터뷰&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;디렉터의 경우 인터뷰가 많지 않았어요. 프로듀서에 비해 훨씬 적은 인터뷰만 찾을 수 있더라고요. 기자나 이벤트에서 모습을 드러내고 게임과 관련한 전반적인 정보(출시일정, 게임 컨셉 등)를 다루는 것은 프로듀서 고유의 역할이라는 것을 알 수 있어요. 디렉터 인터뷰의 경우 게임 디자인(기획)에 대한 이야기가 많았습니다. 말하자면 게임 자체에 대해서 왜 그렇게 설계했는지에 대한 이야기에 초점이 맞춰져 있다는 것이지요. &lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://bbs2.ruliweb.daum.net/gaia/do/ruliweb/default/27/read?bbsId=G003&amp;amp;itemId=7&amp;amp;articleId=561858 href=&quot;http://bbs2.ruliweb.daum.net/gaia/do/ruliweb/default/27/read?bbsId=G003&amp;amp;itemId=7&amp;amp;articleId=561858&quot;&gt;http://bbs2.ruliweb.daum.net/gaia/do/ruliweb/default/27/read?bbsId=G003&amp;amp;itemId=7&amp;amp;articleId=561858&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://www.inven.co.kr/webzine/news/?news=36054 href=&quot;http://www.inven.co.kr/webzine/news/?news=36054&quot;&gt;http://www.inven.co.kr/webzine/news/?news=36054&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://www.playxp.com/dia3/news/view.php?article_id=3247695&amp;amp;page=7 href=&quot;http://www.playxp.com/dia3/news/view.php?article_id=3247695&amp;amp;page=7&quot;&gt;http://www.playxp.com/dia3/news/view.php?article_id=3247695&amp;amp;page=7&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;블리자드의 경우는 디렉터와 프로듀서의 역할이 구분되어 있는 것으로 보이네요. 디렉터 인터뷰에서는 게임 난이도, 레벨 디자인, 게임 플레이 방식, 게임성, 게임 시스템 디자인, 플레이 시간 등 게임 디자인 전략에 대한 부분만 집중적으로 다뤄지고요.&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://blog.naver.com/PostView.nhn?blogId=mecon_presto&amp;amp;logNo=130112715778&amp;amp;categoryNo=9&amp;amp;viewDate=&amp;amp;currentPage=1&amp;amp;listtype=0 href=&quot;http://blog.naver.com/PostView.nhn?blogId=mecon_presto&amp;amp;logNo=130112715778&amp;amp;categoryNo=9&amp;amp;viewDate=&amp;amp;currentPage=1&amp;amp;listtype=0&quot;&gt;http://blog.naver.com/PostView.nhn?blogId=mecon_presto&amp;amp;logNo=130112715778&amp;amp;categoryNo=9&amp;amp;viewDate=&amp;amp;currentPage=1&amp;amp;listtype=0&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;게임 프로듀서와 비슷한 내용의 인터뷰&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://naridy.egloos.com/4534887 href=&quot;http://naridy.egloos.com/4534887&quot;&gt;http://naridy.egloos.com/4534887&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;게임 프로듀서를 겸임. 일본의 경우 프로듀서와 디렉터의 역할 구분이 비교적 명확한가 보네요. 인터뷰 내용은 게임 자체에 집중되어 있어요.&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://blog.designplay.kr/2010/10/%EB%A0%88%EB%93%9C-%EB%8D%B0%EB%93%9C-%EB%A6%AC%EB%8E%80%EC%85%98-%EC%98%A4%EB%94%94%EC%98%A4-%EB%94%94%EB%A0%89%ED%84%B0-%EC%A0%9C%ED%94%84%EB%A6%AC-%ED%9C%98%EC%B3%90-%EC%9D%B8%ED%84%B0%EB%B7%B0.html href=&quot;http://blog.designplay.kr/2010/10/%EB%A0%88%EB%93%9C-%EB%8D%B0%EB%93%9C-%EB%A6%AC%EB%8E%80%EC%85%98-%EC%98%A4%EB%94%94%EC%98%A4-%EB%94%94%EB%A0%89%ED%84%B0-%EC%A0%9C%ED%94%84%EB%A6%AC-%ED%9C%98%EC%B3%90-%EC%9D%B8%ED%84%B0%EB%B7%B0.html&quot;&gt;http://blog.designplay.kr/2010/10/%EB%A0%88%EB%93%9C-%EB%8D%B0%EB%93%9C-%EB%A6%AC%EB%8E%80%EC%85%98-%EC%98%A4%EB%94%94%EC%98%A4-%EB%94%94%EB%A0%89%ED%84%B0-%EC%A0%9C%ED%94%84%EB%A6%AC-%ED%9C%98%EC%B3%90-%EC%9D%B8%ED%84%B0%EB%B7%B0.html&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;오디오 디렉터, 크리에이티브 디렉터, 아트 디렉터 등 게임 디렉터의 경우 특정 분야의 전문가 또는 팀 리드이기도 하네요.&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;&lt;A title=http://bbs2.ruliweb.daum.net/gaia/do/ruliweb/default/93/read?bbsId=G003&amp;amp;itemId=1&amp;amp;articleId=569092 href=&quot;http://bbs2.ruliweb.daum.net/gaia/do/ruliweb/default/93/read?bbsId=G003&amp;amp;itemId=1&amp;amp;articleId=569092&quot;&gt;http://bbs2.ruliweb.daum.net/gaia/do/ruliweb/default/93/read?bbsId=G003&amp;amp;itemId=1&amp;amp;articleId=569092&lt;/A&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left&quot;&gt;게임 디렉터의 경우 게임 디자인 디렉터라고 할 수 있을 만큼 주요 관심사가 게임 디자인(기획)에 관련한 것으로 보이네요. 각 분야의 디렉터들과 같이 게임 디자인에 대한 디렉터라도 이해할 수 있지 않을까 싶어요.&lt;/P&gt;
+&lt;P&gt;게임 프로듀서와 디렉터 대해서 살펴봤지만, 제가 직접 경험한 것이 아니기 때문에 아마 놓치는 부분도 있고, 깊이가 부족한 부분도 있을 거에요. 하지만, 영화, 연극, 뮤지컬, 게임, 음악, 서커스, 소프트웨어, 서비스 그리고 스티브잡스의 프리젠테이션에 이르기까지. 우리가 열광하고 놀라워하는 경험산업의 결과물들(작품이라고 하고 싶네요)은 직업을 부르는 이름은 조금씩 다르지만 모두 위에서 살펴본 프로듀서와 디렉터의 역할이 꼭 필요하다고 생각해요.&lt;br /&gt;&lt;br /&gt;제가 요새 윈도우8 쪽&amp;nbsp;일을&amp;nbsp;하고 있는데,&amp;nbsp;&lt;A title=&quot;[http://channel9.msdn.com/events/BUILD/BUILD2011/APP-395T]로 이동합니다.&quot; href=&quot;http://channel9.msdn.com/events/BUILD/BUILD2011/APP-395T&quot; target=_blank&gt;Samuel&lt;/A&gt;이 UX&amp;nbsp;디렉터&amp;nbsp;역할을 맡고 있어요.&amp;nbsp;사실 저는 이 세션에 들어갔다가 Samuel&amp;nbsp;팬이 됐어요.&amp;nbsp;어쩌면 별로 중요하지 않다고 지나쳤을 두 역할의 차이에 대해서 진지하게 생각해보게 된 계기이기도 합니다. &lt;A title=&quot;[http://uxfactory.com/765]로 이동합니다.&quot; href=&quot;http://uxfactory.com/765&quot; target=_blank&gt;윈도우7의 UX 디렉팅&lt;/A&gt;도 이 사람이 했었죠.&lt;br /&gt;&lt;/P&gt;&lt;br /&gt;&lt;/div&gt;</description>
+			<category>HRG</category>
+			<author>황리건</author>
+			<guid>http://uxfactory.tistory.com/911</guid>
+			<comments>http://uxfactory.tistory.com/911#entry911comment</comments>
+			<pubDate>Thu, 27 Oct 2011 01:43:21 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

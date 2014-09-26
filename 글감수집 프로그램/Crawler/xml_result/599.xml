@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[형기의 자료공간 시즌2]]></title>
+			<link>http://blog.naver.com/hypermin</link>
+			
+				<image>
+					<url><![CDATA[http://blogpfthumb.phinf.naver.net/data18/2006/12/18/65/3-8171-hypermin.jpg?type=m2]]></url>
+					<title><![CDATA[형기의 자료공간 시즌2]]></title>
+					<link>http://blog.naver.com/hypermin</link>
+				</image>
+			
+			<description><![CDATA[매순간 최선을 다하면 결과는 따라오는 것이라 믿습니다.]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:43:01 +0900</pubDate>
+
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[프로그래밍-C/C++]]></category>
+					<title><![CDATA[WTL vs MFC, Win32]]></title>
+					<link>http://blog.naver.com/hypermin/70101593313</link>
+					<guid>http://blog.naver.com/hypermin/70101593313</guid>
+					<description><![CDATA[WTL vs MFC, Win32출처:http://codian.net/wp/archives/275WTL과 MFC, Win32를 비교하는 문서를 찾아보려고 인터넷을 검색했지만 한방에 정리해 놓고 있는 문서를 찾지 못했습니다. 해서 검색을 통해 찾아낸 몇가지 문서에 나와 있는 내용을 발췌/정리해 봤습니다.* WTL로 작성된 어플리케이션의 실행 이미지의 크기는 MFC로 작성된 어플리케이션 보다 4배 정도 작다. (A Quick MFC and WTL Comparison)* WTL, MFC, Win32로 작성된 파일의 크기는 각각 40KB, 100KB, 36KB 이다. (Using the Windows Template Library Part 1: Getting Started)위의 실행파일 크기 비교는 어떤 코드로 실험했느냐에 따라 구체적인 측정 수치는 매우 달라질 것이지.......]]></description>
+					<pubDate>Mon, 24 Jan 2011 14:17:10 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[프로그래밍-자바/PHP]]></category>
+					<title><![CDATA[Configuring and Using Scribe for Hadoop Log Collection]]></title>
+					<link>http://blog.naver.com/hypermin/70101154497</link>
+					<guid>http://blog.naver.com/hypermin/70101154497</guid>
+					<description><![CDATA[Configuring and Using Scribe for Hadoop Log Collection출처:http://www.cloudera.com/blog/2008/11/configuring-and-using-scribe-for-hadoop-log-collection/As promised in my post aboutinstalling Scribe for log collection, I’m going to cover how to configure and use Scribe for the purpose of collecting Hadoop logs. In this post I’ll describe how to create the Scribe Thrift client for use in Java, add a new log4j Appender to Hadoop, configure Scribe, and collect logs from each node in a Hadoop cluster. At the end of the post, I will link to all source and configuration files mentioned in this guide.......]]></description>
+					<pubDate>Tue, 18 Jan 2011 02:29:26 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,Log4j,Scribe,Hadoop]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[프로그래밍-자바/PHP]]></category>
+					<title><![CDATA[JPA implementations comparison: Hibernate, Toplink Essentials, Openjpa, Eclipselink]]></title>
+					<link>http://blog.naver.com/hypermin/70101144443</link>
+					<guid>http://blog.naver.com/hypermin/70101144443</guid>
+					<description><![CDATA[JPA implementations comparison: Hibernate, Toplink Essentials, Openjpa, Eclipselink출처:http://terrazadearavaca.blogspot.com/2008/12/jpa-implementations-comparison.htmlSummaryThis article is a response to the lack of information on the net about theperformance differencesamong the 4 most well known Java Persistence API (JPA) implementations:Toplink Essentials,EclipseLink,HibernateandOpenJPA.Besides results and conclusions,the full test codeis also available in case you want to repeat the test yourself.I wrote a relatively simple program which executes some queries and inserts in aMySQLdatabase.......]]></description>
+					<pubDate>Mon, 17 Jan 2011 22:54:56 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,JPA]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[프로그래밍-설계]]></category>
+					<title><![CDATA[OAuth란?]]></title>
+					<link>http://blog.naver.com/hypermin/70100279022</link>
+					<guid>http://blog.naver.com/hypermin/70100279022</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />OAuth란?출처:http://blueb.net/blog/1445Open API를 사용하기 위해선 인증이 필요합니다.인증방식의 표준이 없기 때문에 제 각각의 방법으로 개발되고 있는 실정인데요구글의 AuthSub, AOL의 OpenAuth, 야후의 BBAuthOAuth는 제각각의 인증방식을 표준화하고 가장 좋은 방법만 가져다 만들었습니다.즉 매쉬업 서비스로 만들어진 어플리케이션이 다른 어플리케이션의 사용자 정보를 접근할 수 있는표준화된 방법을 제공하는 스펙입니다.OAuth 인증방식을 이해하기 위해선용어를 미리 숙지하.......]]></description>
+					<pubDate>Wed, 05 Jan 2011 00:14:50 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,OAuth]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[프로그래밍-DB]]></category>
+					<title><![CDATA[Cassandra vs MongoDB vs CouchDB vs Redis vs Riak vs HBase comparison]]></title>
+					<link>http://blog.naver.com/hypermin/70100163277</link>
+					<guid>http://blog.naver.com/hypermin/70100163277</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />Cassandra vs MongoDB vs CouchDB vs Redis vs Riak vs HBase comparison출처:http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redisWhile SQL databases are insanely useful tools, their tyranny of ~15 years is coming to an end. And it was just time: I can't even count the things that were forced into relational databases, but never really fitted them.But the differences between "NoSQL" databases are much bigger than it ever was between one SQL database and another. This means that it is a bigger responsibility onsoftware arc.......]]></description>
+					<pubDate>Mon, 03 Jan 2011 13:38:40 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,NoSQL,MongoDB,Cassandra,HBase]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[프로그래밍-DB]]></category>
+					<title><![CDATA[NOSQL]]></title>
+					<link>http://blog.naver.com/hypermin/70099865663</link>
+					<guid>http://blog.naver.com/hypermin/70099865663</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />NOSQL출처:http://nosql-database.org/NoSQL DEFINITION:Next Generation Databases mostly addressing some of the points: beingnon-relational, distributed,open-sourceandhorizontal scalable. The original intention has beenmodern web-scale databases. The movement began early 2009 and is growing rapidly.Often more characteristics apply as:schema-free, easy replication support, simple API, eventually consistent/BASE(not ACID), ahuge data amount, and more. So th.......]]></description>
+					<pubDate>Wed, 29 Dec 2010 16:17:13 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[Considering Data Stores]]></title>
+					<link>http://blog.naver.com/hypermin/70099766956</link>
+					<guid>http://blog.naver.com/hypermin/70099766956</guid>
+					<description><![CDATA[Considering Data Stores출처:http://www.enigmastation.com/?page_id=425IntroductionComputing, as an industry, is all about data. Our programs take in data from somewhere, do something to it, and then send the data somewhere else: a file system, a user, a database, perhaps as an email or some other message.Because of the industry’s data-centric nature, our choice of data storage is critical, yet most architects see every problem as hammer-and-nail, applying the same data storage solution over and over again, regardless of whether it’s the best approach, simply because it’s the familiar approac.......]]></description>
+					<pubDate>Tue, 28 Dec 2010 03:59:21 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[RTS (Request to Send)와 CTS (Clear to Send)]]></title>
+					<link>http://blog.naver.com/hypermin/70099302347</link>
+					<guid>http://blog.naver.com/hypermin/70099302347</guid>
+					<description><![CDATA[출처:http://lonnie.blogi.kr/blog/25RTS (Request to Send)와 CTS (Clear to Send)- 충돌을 막기 위해 802.11은 영역내의 상태를 보기위해 이 두가지를 사용한다.RTS와 CTS는 BSS(Base Station System)내의 모든 스테이션을 조용하게 만든다.- 이것이 완료되면 스테이션은 충돌에 대한 위험부담없이 데이터를 전송할 수 있다.그러나 이것은 상당 부분의 데이터 전송 용량을 소비한다.- 고수용 용량 환경과 전송에 현저한 충돌이 존재하는 환경에서 사용- 저수용 용량 환경에서는 거의 사용 안한다.RTS / CTS 교환이 이루어지게 할것인지 말것이지는 관리자가 설정이 가능하다.- 장치 드라이버에서 조정되는 것이 허용된다면 RTS threshold를 조.......]]></description>
+					<pubDate>Mon, 20 Dec 2010 15:09:15 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[프로그래밍-설계]]></category>
+					<title><![CDATA[Scalable System Design]]></title>
+					<link>http://blog.naver.com/hypermin/70098281847</link>
+					<guid>http://blog.naver.com/hypermin/70098281847</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />Scalable System Design출처:http://horicky.blogspot.com/2008/02/scalable-system-design.htmlBuilding scalable system is becoming a hotter and hotter topic. Mainly because more and more people are using computer these days, both the transaction volume and their performance expectation has grown tremendously.This one covers general considerations. I have another blogs with more specific coverage onDB scalabilityas well asWeb site scalability.General Principles"Scalability" is not equivalent to "Raw Performance"Scalability is a.......]]></description>
+					<pubDate>Thu, 02 Dec 2010 11:45:20 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[프로그래밍-C/C++]]></category>
+					<title><![CDATA[Google C++ Testing Framework에 대한 간단한 소개]]></title>
+					<link>http://blog.naver.com/hypermin/70097896072</link>
+					<guid>http://blog.naver.com/hypermin/70097896072</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />Google C++ Testing Framework에 대한 간단한 소개출처:http://www.dbguide.net/knowledge.db?cmd=view&amp;boardUid=148407&amp;boardConfigUid=20&amp;boardStep=&amp;categoryUid=196사용하기 쉬운 프로덕션 레벨 전개를 위한 주요 기능Google에서는 C/C++ 기반 소프트웨어를 유효성 검증하는 유닛 테스트를 개발할 수 있는 흥미롭고 사용하기 쉬운 오픈 소스 기술을 제공합니다. 이 기사에서는 Google C++ Testing Framework의 유용한 기능 중 일부를 소개하며 릴리스 버전 1.4를 기반으로 합니다.Google C++ Testing Framework를 사용해야 하는 이유이 프레임워크.......]]></description>
+					<pubDate>Thu, 25 Nov 2010 10:07:16 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,Google,Testing]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[RAID-Z Storage Pool Configuration]]></title>
+					<link>http://blog.naver.com/hypermin/70097821970</link>
+					<guid>http://blog.naver.com/hypermin/70097821970</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />RAID-Z Storage Pool Configuration출처:http://docs.sun.com/app/docs/doc/819-5461/gamtu?l=en&amp;a=viewIn addition to a mirrored storage pool configuration, ZFS provides a RAID-Z configuration with either single-, double-, or triple-parity fault tolerance. Single-parity RAID-Z (raidzorraidz1) is similar to RAID-5. Double-parity RAID-Z (raidz2) is similar to RAID-6.For more information about RAIDZ-3 (raidz3), see the following blog:http://blogs.sun.com/ahl/entry/triple_parity_raid_zAll traditional RAID-5-like algorithms (RAID.......]]></description>
+					<pubDate>Tue, 23 Nov 2010 22:30:41 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,RAID-Z,RAID5]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[ZFS Source Tour]]></title>
+					<link>http://blog.naver.com/hypermin/70097594163</link>
+					<guid>http://blog.naver.com/hypermin/70097594163</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />ZFS Source Tour출처:http://hub.opensolaris.org/bin/view/Community+Group+zfs/sourceIu￥I¶N[ odg ]This page is designed to take users through a brief overview of the source code associated with the ZFS filesystem. It is not intended as an introduction to ZFS &#8211; it is assumed that you already have some familiarity with common terms and definitions, as well as a general sense of filesystem architecture.Traditionally, we describe ZFS as being made of up of three components: ZPL (ZFS POSIX Layer), DMU (Data Management Unit).......]]></description>
+					<pubDate>Fri, 19 Nov 2010 17:32:13 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,ZFS]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[ZFS Features in Oracle Solaris 11 Express]]></title>
+					<link>http://blog.naver.com/hypermin/70097594118</link>
+					<guid>http://blog.naver.com/hypermin/70097594118</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />unday nov 14, 2010ZFS Features in Oracle Solaris 11 Express출처:http://blogs.sun.com/video/tags/zfsCindy Swearingen presents at the Solaris Summit at LISA10.downloadslides,videofilmed &amp; edited by Deirdre StraughanPosted on: Nov 14, 2010Posted by: Deirdre' StraughanCategory: videoPermanent link to this entry|Comments [0]wednesday sep 08, 2010Oracle Solaris ZFS Triple Parity RAID-ZGeorge Wilson describes a new feature of ZFS inOracle Solaris 10 9/10.Posted on: Sep 08, 2010Posted by: Deirdre' StraughanCategory: videoPerma.......]]></description>
+					<pubDate>Fri, 19 Nov 2010 17:31:11 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,ZFS]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[RAID-Z]]></title>
+					<link>http://blog.naver.com/hypermin/70097593679</link>
+					<guid>http://blog.naver.com/hypermin/70097593679</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />RAID-Z출처:http://blogs.sun.com/bonwick/entry/raid_zThe original promise of RAID (Redundant Arrays of Inexpensive Disks) was that it would provide fast, reliable storage using cheap disks. The key point wascheap;yet somehow we ended uphere. Why?RAID-5 (and other data/parity schemes such as RAID-4, RAID-6, even-odd, and Row Diagonal Parity) never quite delivered on the RAID promise -- and can't -- due to a fatal flaw known as the RAID-5 write hole. Whenever you update the data in a RAID stripe you must also update the parit.......]]></description>
+					<pubDate>Fri, 19 Nov 2010 17:22:24 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,RAID-Z,ZFS]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[RAID 5 Write Hole]]></title>
+					<link>http://blog.naver.com/hypermin/70097589935</link>
+					<guid>http://blog.naver.com/hypermin/70097589935</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />RAID 5 Write Hole출처:http://davidfrancis.blogspot.com/2008/07/raid-5-write-hole.htmlI've been spending a fair bit of time reading up on ZFS and came across a term called the "RAID 5 Write Hole" and this is what it means , explained from the father of ZFS Jeff Bonwick.“RAID-5 (and other data/parity schemes such asRAID-4,RAID-6, even-odd, and Row Diagonal Parity) never quite delivered on theRAIDpromise &#8211; and can’t &#8211; due to a fatal flaw known as theRAID-5 write hole. Whenever you update the data in aRAIDstripe .......]]></description>
+					<pubDate>Fri, 19 Nov 2010 16:21:37 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,RAID,RAID5,ZFS]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[LVS]]></title>
+					<link>http://blog.naver.com/hypermin/70097562809</link>
+					<guid>http://blog.naver.com/hypermin/70097562809</guid>
+					<description><![CDATA[LVS출처:http://www.linuxvirtualserver.org/whatis.htmlWhat is virtual server?Virtual server is a highly scalable and highly available server built on a cluster of real servers. The architecture of server cluster is fully transparent to end users, and the users interact with the cluster system as if it were only a single high-performance virtual server. Please consider the following figure.The real servers and the load balancers may be interconnected by either high-speed LAN or by geographically dispersed WAN. The load balancers can dispatch requests to the different servers and make parallel se.......]]></description>
+					<pubDate>Fri, 19 Nov 2010 00:26:44 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,LVS]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[DRBD]]></title>
+					<link>http://blog.naver.com/hypermin/70097562767</link>
+					<guid>http://blog.naver.com/hypermin/70097562767</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />출처:http://www.drbd.org/DRBD®refers to block devicesdesigned asa building block toform high availability (HA) clusters. This is done by mirroring a whole block device via an assigned network.DRBD can be understood as network based raid-1.In the illustration above, the two orange boxes represent two servers that form an HA cluster.The boxescontain the usual components of a Linux™ kernel: file system, buffer cache, disk scheduler, disk drivers, TCP/IP stack and network interface card (NIC) driver. The black arrows illustra.......]]></description>
+					<pubDate>Fri, 19 Nov 2010 00:25:46 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,DRBD]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[IT 소식  ]]></category>
+					<title><![CDATA[xAL]]></title>
+					<link>http://blog.naver.com/hypermin/70097340858</link>
+					<guid>http://blog.naver.com/hypermin/70097340858</guid>
+					<description><![CDATA[     
+     
+     OASIS:Organization for the Advancement of Structured Information Standards여기에서 Android의 Geolocation API에서 사용하는 Address체계의 표준으로 xAL(eXtensible Address Language)을 사용하고 있습니다.OASIS CIQ V2.0 COMMITTEE SPECIFICATIONS / STANDARDS PAGE출처:http://www.oasis-open.org/committees/ciq/ciq.html,http://developer.android.com/reference/android/location/Address.htmlOASIS CIQ TC Main PageIntroductionOASIS Customer Information Quality CommitteeObjectives of the CIQ TCextensible Name and Address Language (xNAL)extensible Name Language (xNL)extensible Address Language (.......]]></description>
+					<pubDate>Mon, 15 Nov 2010 11:33:54 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,OASIS,XAL,Geolocation]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[MongoDB is Fantastic for Logging]]></title>
+					<link>http://blog.naver.com/hypermin/70096989361</link>
+					<guid>http://blog.naver.com/hypermin/70096989361</guid>
+					<description><![CDATA[MongoDB is Fantastic for Logging출처:http://blog.mongodb.org/post/172254834/mongodb-is-fantastic-for-loggingWe’re all quite used to having log files on lots of servers, in disparate places. Wouldn’t it be nice to have centralized logs for a production system? Logs that can be queried?I would encourage everyone to consider using MongoDB for log centralization. It’s a very good fit for this problem for several reasons:MongoDB inserts can be done asynchronously. One wouldn’t want a user’s experience to grind to a halt if logging were slow, stalled or down. MongoDB provides the ability to fir.......]]></description>
+					<pubDate>Mon, 08 Nov 2010 22:26:19 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,MongoDB,NoSQL,Logging]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[MySQL Storage Engine Architecture]]></title>
+					<link>http://blog.naver.com/hypermin/70096983869</link>
+					<guid>http://blog.naver.com/hypermin/70096983869</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />MySQL Storage Engine Architecture, Part 1: An OverviewBy Arjen Lentz, MySQL AB2 April 2004출처:http://dev.mysql.com/tech-resources/articles/storage-engine/part_1.htmlhttp://dev.mysql.com/tech-resources/articles/storage-engine/part_2.htmlMySQL Server features a concept called storage engines, or table types. The server, and in fact the developer, can choose how and where a database table is to be stored based on which storage engine is best suited for a particular situation.Programmatically this is nothing special, it is no.......]]></description>
+					<pubDate>Mon, 08 Nov 2010 21:03:44 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,MySQL,InnoDB,NDB,MySQLCluster]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[Percona XtraBackup]]></title>
+					<link>http://blog.naver.com/hypermin/70096982741</link>
+					<guid>http://blog.naver.com/hypermin/70096982741</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />Percona XtraBackup출처:http://www.percona.com/docs/wiki/percona-xtrabackup:startPercona XtraBackup is an open-source hot backup utility for MySQL that doesn't lock your database during the backup. It can back up data from InnoDB, XtraDB, and MyISAM tables on MySQL 5.0 and 5.1 servers, and it has many advanced features.Percona XtraBackup is a combination of thextrabackupC program, and theinnobackupexPerlscript. The xtrabackup program copies and manipulates InnoDB and XtraDB data files, and thePerlscript enables enhanced fun.......]]></description>
+					<pubDate>Mon, 08 Nov 2010 20:46:20 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,MySQL,XtraBackup]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[Facebook At 13 Million Queries Per Second Recommends: Minimize Request Variance]]></title>
+					<link>http://blog.naver.com/hypermin/70096981843</link>
+					<guid>http://blog.naver.com/hypermin/70096981843</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />Facebook At 13 Million Queries Per Second Recommends: Minimize RequestVarianceTHURSDAY, NOVEMBER 4, 2010 AT 8:48AM출처:http://highscalability.com/blog/2010/11/4/facebook-at-13-million-queries-per-second-recommends-minimiz.htmlFacebook gave aMySQL Tech Talkwhere they talked about many things MySQL, but one of the more subtle and interesting points was their focus on controlling the variance of request response times and not just worrying about maximizing queries per second.But first the scalability porn.Facebook's OLTP perf.......]]></description>
+					<pubDate>Mon, 08 Nov 2010 20:33:17 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,Facebook,OLTP]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[Needle in a haystack: efficient storage of billions of photos]]></title>
+					<link>http://blog.naver.com/hypermin/70096956139</link>
+					<guid>http://blog.naver.com/hypermin/70096956139</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />The Photos application is one of Facebook’s most popular features. Up to date, users have uploaded over 15 billion photos which makes Facebook the biggest photo sharing website. For each uploaded photo, Facebook generates and stores four images of different sizes, which translates to a total of 60 billion images and 1.5PB of storage. The current growth rate is 220 million new photos per week, which translates to 25TB of additional storage consumed weekly. At the peak there are 550,000 images served per second. These numbe.......]]></description>
+					<pubDate>Mon, 08 Nov 2010 13:09:52 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[용어]]></category>
+					<title><![CDATA[CAPEX vs. OPEX]]></title>
+					<link>http://blog.naver.com/hypermin/70096947136</link>
+					<guid>http://blog.naver.com/hypermin/70096947136</guid>
+					<description><![CDATA[출처:http://www.diffen.com/difference/Capex_vs_OpexCapexOpexHide AllDefinition:Capital expenditures are expenditures creating future benefits. A capital expenditure is incurred when abusinessspends money either to buy fixed assets or to add to the value of an existing asset with a useful life that extends beyond the tax year.OpEx refers to expenses incurred in the course of ordinarybusiness, such as sales,generaland administrative expenses (and excluding cost of goods sold - or COGS, taxes, depreciation and interest).hideAlso known as:Capital Expenditure, Capital ExpenseOperating Expense, Oper.......]]></description>
+					<pubDate>Mon, 08 Nov 2010 10:07:03 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,CAPEX,OPEX]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[Beyond Hadoop: Next-Generation Big Data Architectures]]></title>
+					<link>http://blog.naver.com/hypermin/70096905815</link>
+					<guid>http://blog.naver.com/hypermin/70096905815</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />Beyond Hadoop: Next-Generation Big Data ArchitecturesBy BILL MCCOLL ofGIGAOMPublished: October 23, 2010출처:http://www.nytimes.com/external/gigaom/2010/10/23/23gigaom-beyond-hadoop-next-generation-big-data-architectu-81730.htmlMore News From GigaOmAfter 25 years of dominance, relational databases and SQL have in recent years come under fire from the growing “NoSQL movement.” A key element ofthis movement is Hadoop, the open-source clone of Google’s internal MapReduce system. Whether it’s interpreted as “No SQL” or “.......]]></description>
+					<pubDate>Sun, 07 Nov 2010 15:34:14 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[개인-낙서장]]></category>
+					<title><![CDATA[[구인] 엠넷미디어(주)에서 우수한 개발자/DBA/시스템엔지니어를 모십니다.]]></title>
+					<link>http://blog.naver.com/hypermin/70096759375</link>
+					<guid>http://blog.naver.com/hypermin/70096759375</guid>
+					<description><![CDATA[     
+     
+     출처:http://kldp.org/node/119107엠넷미디어(주) 에서 우수한 개발자 여러분을 모십니다.엠넷미디어주식회사는 방송/음악/온라인/컨텐츠/공연 등 총 5개 음악관련 사업 영역의 수직계열화를 통해One Source Multi-Use의 다양한 시너지를 창조하는 토탈 뮤직 엔터테인먼트 기업입니다.금번 당사에서는 우수한 웹/어플리케이션/모바일/시스템/DBA 등 전분야에 걸쳐 역량있는 인재를 모십니다.모집분야는 다음과 같습니다.1. [Fornt End Software Engineer] - 웹개발자2. [Application Software Engineer] - 어플리케이션 개발자3. [Mobile Application Software Engineer] - 모바일 개발자4. [System Software Engineer] - 시.......]]></description>
+					<pubDate>Thu, 04 Nov 2010 18:58:19 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[DNS Tools]]></title>
+					<link>http://blog.naver.com/hypermin/70096730655</link>
+					<guid>http://blog.naver.com/hypermin/70096730655</guid>
+					<description><![CDATA[DNS Tools출처:http://www.slackbook.org/html/basic-network-commands-dns.htmlDomain Name Service (DNS for short) is that magical protocol that allows your computer to turn meaningless domain names like www.slackware.com into meaningful IP address like64.57.102.34. Computers can't route packets to www.slackware.com, but they can route packets to that domain name's IP address. This gives us a convenient way to remember machines. Without DNS we'd have to keep a mental database of just what IP address belongs to what computer, and that's assuming the IP address doesn't change. Clearly using names fo.......]]></description>
+					<pubDate>Thu, 04 Nov 2010 09:08:31 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,DNS]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[[네트워크 서비스경쟁]②KT, 특명 "클라우드시장을 잡아라"]]></title>
+					<link>http://blog.naver.com/hypermin/70096540465</link>
+					<guid>http://blog.naver.com/hypermin/70096540465</guid>
+					<description><![CDATA[[네트워크 서비스경쟁]②KT, 특명 "클라우드시장을 잡아라"|기사입력2010-10-28 13:16- 이석채 회장, 데이터 폭증시대 `클라우드컴퓨팅` 화두던져- 내달 초 목천 클라우드서비스센터 오픈..영업 본격화출처:http://news.naver.com/main/read.nhn?mode=LSD&amp;mid=sec&amp;sid1=105&amp;oid=018&amp;aid=0002330985[이데일리 양효석 기자] "해외에 나가보면 여러기업들이 `어떻게 KT가 이 정도로 변하고 앞서갈 수 있느냐`고 놀랍니다. 최근에는 클라우드컴퓨팅 서비스를 실시한다는데 관심을 많이 갖고 있지요"이달 초 미국출장을 다녀온 이석채 KT 회장이 기자와 만나 전한 얘기다. 최근 이 회장이 내부에 던진 화두는 `클라우드컴퓨팅`이다. 통.......]]></description>
+					<pubDate>Sun, 31 Oct 2010 22:28:22 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[자료-소프트웨어 ]]></category>
+					<title><![CDATA[Welcome to OpenEars!]]></title>
+					<link>http://blog.naver.com/hypermin/70096311298</link>
+					<guid>http://blog.naver.com/hypermin/70096311298</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />Welcome to OpenEars!출처:http://www.politepix.com/openears/OpenEars is an open-source iOS library for implementing round-trip English language speech recognition and text-to-speech on the iPhone and iPad, which uses theCMU PocketsphinxandCMU Flitelibraries.The current version of OpenEars is0.9.01.OpenEars can:Listen continuously for speech on a background thread, while suspending or resuming speech processing on demand, all while using less than 10% CPU on average on an iPhone 3G (decoding speech and speaking uses more CPU.......]]></description>
+					<pubDate>Wed, 27 Oct 2010 22:46:57 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[자료-Multimedia]]></category>
+					<title><![CDATA[H.264 encoding guide]]></title>
+					<link>http://blog.naver.com/hypermin/70096309250</link>
+					<guid>http://blog.naver.com/hypermin/70096309250</guid>
+					<description><![CDATA[H.264 encoding guide출처:http://www.avidemux.org/admWiki/doku.php?id=tutorial:h.264This article describes briefly what H.264 is and how to get H.264 encoding support for Avidemux. It also summarizes and explains the x264 options available in Avidemux. This can be considered a (simple) guide to the encoder.OverviewH.264, which is also known as “MPEG-4 Part 10” or “MPEG-4 Advanced Video Coding” (AVC), is a digital video compression standard, which is noted for achieving very high data compression. While H.264 generally requires more CPU power for playback than video encoded with the olderMPE.......]]></description>
+					<pubDate>Wed, 27 Oct 2010 22:19:18 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[IT-트랜드,이슈]]></category>
+					<title><![CDATA[SKT "플랫폼 사업자로 무한 변신"]]></title>
+					<link>http://blog.naver.com/hypermin/70096177706</link>
+					<guid>http://blog.naver.com/hypermin/70096177706</guid>
+					<description><![CDATA[SKT "플랫폼 사업자로 무한 변신"|기사입력2010-10-25 11:06|최종수정2010-10-25 15:03출처:http://news.naver.com/main/read.nhn?mode=LSD&amp;mid=sec&amp;sid1=105&amp;oid=031&amp;aid=0000207671&lt;아이뉴스24&gt;SK텔레콤(대표 정만원)이 1조원을 투입, LBS등 7대 플랫폼 육성에 나서, 플랫폼 사업자를 향한 무한변신 승부수를 던졌다.SK텔레콤은 이를위해 T맵·T스토어·SMS의 기반기술(API)을 공개해 협력사와 함께 세계적인 플랫폼으로 육성하기로 했다.SK텔레콤이 네트워크 보다 플랫폼에 집중키로 한 것은 앞으로의 정보통신기술(ICT) 시장이 플랫폼 중심으로 재편될 것이기 때문이다.특히 독자적인 운영체제(OS)가 없는 통신회사로서.......]]></description>
+					<pubDate>Mon, 25 Oct 2010 18:51:23 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[IT-트랜드,이슈]]></category>
+					<title><![CDATA[SKT, 연내 핵심서비스 API 공개..."글로벌 플랫폼으로 육성"]]></title>
+					<link>http://blog.naver.com/hypermin/70096170416</link>
+					<guid>http://blog.naver.com/hypermin/70096170416</guid>
+					<description><![CDATA[SKT, 연내 핵심서비스 API 공개..."글로벌 플랫폼으로 육성"|기사입력2010-10-25 16:18출처:http://news.naver.com/main/read.nhn?mode=LSD&amp;mid=sec&amp;sid1=105&amp;oid=293&amp;aid=0000005443SK텔레콤(이하 SKT)이 T맵, SMS 등 핵심 서비스를 오픈 API(Application Programming Interface)로 공개하고, 서비스 플랫폼으로 육성하겠다고 발표했다. 이들 서비스를 글로벌 플랫폼으로 육성해 미래 성장동력으로 삼겠다는 전략이다.정만원 SKT 사장(사진)은 25일 열린 기자간담회에서 "플랫폼이 네트워크의 부가서비스를 뜻하던 시절을 넘어, 정보통신산업의 전 영역으로 가치 사슬이 확대되고 있다"고 진단했다. 그는 "미래 스마트폰 시장은.......]]></description>
+					<pubDate>Mon, 25 Oct 2010 16:56:54 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[IT-트랜드,이슈]]></category>
+					<title><![CDATA[실리콘밸리 투자의 90%가 몰린다는 사업은?]]></title>
+					<link>http://blog.naver.com/hypermin/70095991081</link>
+					<guid>http://blog.naver.com/hypermin/70095991081</guid>
+					<description><![CDATA[실리콘밸리 투자의 90%가 몰린다는 사업은?출처:http://news.naver.com/main/read.nhn?mode=LSD&amp;mid=sec&amp;sid1=105&amp;oid=008&amp;aid=0002410914[머니투데이 이학렬 기자]['빌려쓰는 IT자원' IT비용 최대 10배까지 절감...KT "중소기업과 클라우드로 동반성장"]#뉴욕타임즈는 1851년 9월부터 1980년 2월까지 1500만건에 달하는 신문지를 이미지로 저장하는 작업을 진행했다. 뉴욕타임즈는 자체 서버로 이 작업을 마치려면 14년이 걸린다는 분석결과가 나왔다. 그러나 뉴욕타임즈는 단 하루만에 이 많은 분량의 작업을 깔끔하게 마쳤다. 바로 '아마존'의 클라우드 서비스를 이용했기 때문이다. 아마존 클라우드 서비스는 시간만 단축시.......]]></description>
+					<pubDate>Fri, 22 Oct 2010 17:13:06 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[Netflix on AWS]]></title>
+					<link>http://blog.naver.com/hypermin/70095959495</link>
+					<guid>http://blog.naver.com/hypermin/70095959495</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />Netflix on AWS출처:http://perspectives.mvdirona.com/2010/05/31/NetflixOnAWS.aspxI did a talk at theUsenix Tech conferencelast year,Where does the Power Go in High Scale Data Centers. After the talk I got into a more detailed discussion with many folks fromNetflixand Canada’sResearch in Motion, the maker of theBlackberry. The discussion ended up in a long lunch over a big table with folks from both teams. The common theme of the discussion was predictably, given the companies and folks involved, innovation in high scale se.......]]></description>
+					<pubDate>Fri, 22 Oct 2010 01:26:28 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,Netflix,AWS]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[VMware, Cisco, EMC 의 합작 얼라이언스 프로그램 발표]]></title>
+					<link>http://blog.naver.com/hypermin/70095956914</link>
+					<guid>http://blog.naver.com/hypermin/70095956914</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />VMware, Cisco, EMC 의 합작 얼라이언스 프로그램 발표출처:http://cafe.naver.com/vmwareesx.cafe?iframe_url=/ArticleRead.nhn%3Farticleid=1573VMware 와 Cisco 그리고 EMC 가 함께 손을 잡고 VCE 라 불리우는 얼라이언스 프로그램을 발표하였습니다.가장 눈에 띄는 프로그램은 vBlock 이라 불리우는 기업내 Private Cloud 를 지향하는 데이터센터용 제품 판매입니다.크게 3가지 모델로 나뉩니다.vBlock 0엔트리 모델이며 약 300 ~ 800 개의 가상 머신 지원시스코 UCS 서버와 Nexus 1000V, EMC 의 Unified Storage와 VMware vSphere 패키지 형태로 구성vBlock 1중간.......]]></description>
+					<pubDate>Fri, 22 Oct 2010 00:25:44 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,VMWare,EMC,Cisco,VCE,vBlock]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[VCE 동맹은 Vblock 참조 아키텍처와 적용 가이드를 출판 했습니다]]></title>
+					<link>http://blog.naver.com/hypermin/70095956723</link>
+					<guid>http://blog.naver.com/hypermin/70095956723</guid>
+					<description><![CDATA[     
+     
+     &lt;meta http-equiv="content-type" content="text/html; charset=utf-8" /&gt;VCE 동맹은 Vblock 참조 아키텍처와 적용 가이드를 출판 했습니다출처:http://www.virtualization.co.kr/bbs/board.php?bo_table=02_b&amp;wr_id=59VMware | Cisco | EMC 동맹은 그들의 새로운 datacenters-in-a-box의 적용, 관리 그리고 제공과 새로운 비지니스를 시작하기 위한아카디아를 기다리고 있습니다.그러는 동안에, 이 3회사는 어떻게 VBlock 컴퓨팅 스택이 설계되고, 어떻게 사용 될 수 있는가를 이해 할 수 있는 핵심 다큐먼트를준비해서 출판 했습니다.특별히, 이 다큐먼트는 온라인으로 출시 되었으며 내용은 다음과 같습니다:적.......]]></description>
+					<pubDate>Fri, 22 Oct 2010 00:21:11 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,VCE,vBlock,Cisco,VMware,EMC]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[IT 소식  ]]></category>
+					<title><![CDATA[NoCAP]]></title>
+					<link>http://blog.naver.com/hypermin/70095950894</link>
+					<guid>http://blog.naver.com/hypermin/70095950894</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />출처:http://natishalom.typepad.com/nati_shaloms_blog/2010/10/nocap.htmlIn the past few months i was involved in many of the NoSQL discussions. I must admit that i really enjoyed those discussions as it felt that we finally started to break away from the “one size fit it all” dogma and look at the data management solutions in a more pragmatic manner. That in itself sparks lots of interesting and innovative ideas that can revolutionize the entire database market such as the introduction of document model, map-reduce and ne.......]]></description>
+					<pubDate>Thu, 21 Oct 2010 22:45:36 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,NoCAP]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[Using MySQL as a NoSQL - A story for exceeding 750,000 qps on a commodity server  ]]></title>
+					<link>http://blog.naver.com/hypermin/70095917372</link>
+					<guid>http://blog.naver.com/hypermin/70095917372</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />Using MySQL as a NoSQL - A story for exceeding 750,000 qps on a commodity server출처:http://yoshinorimatsunobu.blogspot.com/2010/10/using-mysql-as-nosql-story-for.htmlMost of high scale web applications use MySQL + memcached. Many of them use also NoSQL like TokyoCabinet/Tyrant. In some cases people have dropped MySQL and have shifted to NoSQL. One of the biggest reasons for such a movement is that it is said that NoSQL performs better than MySQL for simple access patterns such as primary key lookups. Most of queries from .......]]></description>
+					<pubDate>Thu, 21 Oct 2010 13:18:17 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,MySQL,NoSQL]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[자료-Multimedia]]></category>
+					<title><![CDATA[29.97fps vs. 30fps]]></title>
+					<link>http://blog.naver.com/hypermin/70095913965</link>
+					<guid>http://blog.naver.com/hypermin/70095913965</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />NTSC의 경우만 놓고 보면 29.97 하고30프레임 두개 가 존재 하는데 29.97을 드롭프레임 30프레임을 논드롭 프레임이라고 합니다. 이러한 차이가 생기는 이유는아래를 참고하세요.타임코드(Time Code)는 영상 한 컷트마다 각각의 번호를 부여하는 것으로 고유번호를 가지고 있음으로 그 번호와 영상이 짝이 되어 같이 움직이게 된다. 장면 하나하나에 일련번호를 가지고 있기 때문에 그 일련번호만 찾으면 그 영상을 항상 찾을 수 있는 장점이 있어 편집시에 편리하며 포맷이 다른 장비와도 타임코드만으로 동기를 시켜줄 수 있는 대단히 큰 장점이 있다.타임코드는 어.......]]></description>
+					<pubDate>Thu, 21 Oct 2010 11:54:16 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[프로그래밍-모바일]]></category>
+					<title><![CDATA[UI Guidelines for mobile and tablet web app design]]></title>
+					<link>http://blog.naver.com/hypermin/70095883021</link>
+					<guid>http://blog.naver.com/hypermin/70095883021</guid>
+					<description><![CDATA[UI Guidelines for mobile and tablet web app design출처:http://www.mobilexweb.com/blog/ui-guidelines-mobile-tablet-designOfficial user interface (UI) and user experience (UX) guidelines from the manufacturers, links to which you can find below, are a source of inspiration for mobile web and app design. Here, you will find guidelines, samples, tips, and descriptions of common mistakes. Many of the guidelines focus on native application development, but we can apply most parts of them to mobile web design too.Remember to provide the best possible experience on each platform. Do not deliver an iPh.......]]></description>
+					<pubDate>Wed, 20 Oct 2010 20:34:23 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[ZFS를 이용한 Open Storage]]></title>
+					<link>http://blog.naver.com/hypermin/70095866693</link>
+					<guid>http://blog.naver.com/hypermin/70095866693</guid>
+					<description><![CDATA[ZFS를 이용한 Open Storage출처:http://blog.sdnkorea.com/sls/136Solaris10 이 시장에 처음 나오고 ZFS 라는 기술이 소개가 되었을 때 사람들은 ZFS가 가지고 무한한 잠재력에 대해 잘 알지 못했다."그런 기술은 시장에서 잘 사용하지 않을 거예요..""ZFS가 그렇게 대단한데 왜 공짜인가요? 공짜는 다 이유가 있어요..""좀 불안하지 않은가요? "ZFS는 이런 많은 편견들을 가지고 있었지만 시간이 지나 면서 요즘은 ZFS가 도대체 어디까지 진화 할 것인가 라는 질문들을 하게 됩니다.1. zfs는 도대체 무엇일까요?1.1) 대용량의 Data를 관리 하는 기술이다.128bit 의 대용량 파일 시스템을 지원합니다. 이는 3의 1026승 TByte까지 구성할 수 있는.......]]></description>
+					<pubDate>Wed, 20 Oct 2010 15:59:59 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,ZFS,OpenStorage]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[Which RAID Level is Right for Me?]]></title>
+					<link>http://blog.naver.com/hypermin/70095866340</link>
+					<guid>http://blog.naver.com/hypermin/70095866340</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />Which RAID Level is Right for Me?출처:http://www.adaptec.com/en-US/_common/compatibility/_education/RAID_level_compar_wp.htmIntroductionRAID Level DescriptionsRAID 0 (Striping)RAID 1 (Mirroring)RAID 1E (Striped Mirror)RAID 5 (Striping with parity)RAID 5EE (Hot Space)RAID 6 (Striping with dual parity)RAID 10 (Striped RAID 1 sets)RAID 50 (Striped RAID 5 sets)RAID 60 (Striped RAID 6 sets)RAID Level ComparisonAbout Adaptec RAIDIntroductiontop of pageData is the most valuable asset of any business today. Lost data means lost bu.......]]></description>
+					<pubDate>Wed, 20 Oct 2010 15:54:18 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,RAID]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[Open Storage]]></title>
+					<link>http://blog.naver.com/hypermin/70095865912</link>
+					<guid>http://blog.naver.com/hypermin/70095865912</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />What Is Open Storage Anyway?출처:http://blogs.sun.com/openstorage/entry/fishworks_virtualbox_tutorialOver the past few months I have been talking to a lot of people about Open Storage. So far I haven't talked to anyone outside of Sun who doesn't first ask the question "What is Open Storage anyway?" or "When you say Open Storage what does that mean exactly?". But defining a concept like Open Storage can be difficult. Here is one definition ...Open Storage:As a general term, open storage refers to storage systems built with .......]]></description>
+					<pubDate>Wed, 20 Oct 2010 15:46:50 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[NexentaStor]]></title>
+					<link>http://blog.naver.com/hypermin/70095854178</link>
+					<guid>http://blog.naver.com/hypermin/70095854178</guid>
+					<description><![CDATA[NexentaStor출처:http://www.vmware.com/appliances/directory/115183DescriptionNexentaStor is the leading OpenStorage software solution providing network attached storage (NAS) and iSCSI/FC capabilities that overcome the limitations of leading legacy NAS and iSCSI hardware solutions, including unlimited snapshots, synchronous and asynchronous replication, NFS v3 and v4, high performance CIFS, and easy management of almost infinitely large storage pools.NexentaStor delivers enterprise class storage capabilities in the form of a software appliance that is trivial to install and manage when used as .......]]></description>
+					<pubDate>Wed, 20 Oct 2010 11:56:02 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,NexentaStor,iSCSI,NFS,FC]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[델, 서버 가상화 업체 '스캘런트' 인수]]></title>
+					<link>http://blog.naver.com/hypermin/70095804856</link>
+					<guid>http://blog.naver.com/hypermin/70095804856</guid>
+					<description><![CDATA[델, 서버 가상화 업체 '스캘런트' 인수|기사입력2010-07-02 11:06&lt;아이뉴스24&gt;델이 서버 관리 소프트웨어 업체인 스캘런트(Scalent)를 인수하기로 했다고 블룸버그통신이 1일(현지시간) 전했다.델은 이번 인수로 데이터센터용 제품 판매량을 더욱 늘릴 수 있을 것으로 기대하고 있다.델은 최근 수익성이 낮은 PC 사업에서 벗어나 고부가가치 산업인 고성능 컴퓨터 시스템과 기술 서비스 분야로 회사 역량을 집중하고 있다. 그러나 이들 시장은 경쟁사인 IBM과 HP가 선점하고 있다.델은 이들 업체와 경쟁하기 위해 관련 기술과 제품 확보에 노력 중이다. 마이클 델 최고경영자(CEO)는 최근 시장분석가들과 가진 간담회에서 지난 해 160억 달.......]]></description>
+					<pubDate>Tue, 19 Oct 2010 15:33:55 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,델,인수,스캘런트,서버,서버가상화]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[델, 데이터 중복제거 업체 인수]]></title>
+					<link>http://blog.naver.com/hypermin/70095804814</link>
+					<guid>http://blog.naver.com/hypermin/70095804814</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />델, 데이터 중복제거 업체 인수|기사입력2010-07-21 08:30스토리지 효율성 강화 차원… 업계, 솔루션 확보 경쟁올해 상반기 서버 부문에서 높은 성장세를 보인 하드웨어(HW) 기업 델이 데이터 중복제거 업체 인수하며 스토리지 부문 사업 강화에 나섰다.19일(현지시간) 미국 PC월드 등 외신들은 델이 데이터 압축 및 중복제거 업체 오카리나 네트워크를 인수하기로 했다고 보도했다.외신들에 따르면 지난 2007년 설립된 오카리나 네트워크는 이미지와 이메일 등 비정형 데이터에 대한 압축, 중복 제거 기술 및 솔루션을 보유한 기업이다. 오카리나는 자사 솔루션을 스.......]]></description>
+					<pubDate>Tue, 19 Oct 2010 15:33:01 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,델,인수,오카리나,중복제거,소토리지]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[OS/시스템]]></category>
+					<title><![CDATA[Scalable System Design Patterns]]></title>
+					<link>http://blog.naver.com/hypermin/70095768943</link>
+					<guid>http://blog.naver.com/hypermin/70095768943</guid>
+					<description><![CDATA[Scalable System Design Patterns출처: http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.htmlLooking back after 2.5 years sincemy previous post on scalable system design techniques, I've observed an emergence of a set of commonly used design patterns. Here is my attempt to capture and share them.Load BalancerIn this model, there is a dispatcher that determines which worker instance will handle the request based on different policies. The application should best be "stateless" so any worker instance can handle the request.This pattern is deployed in almost every medium to large .......]]></description>
+					<pubDate>Mon, 18 Oct 2010 22:17:07 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,ScalableSystemDesignPatterns,패턴]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[소프트웨어공학]]></category>
+					<title><![CDATA[Operating Systems and System Programming / Berkeley]]></title>
+					<link>http://blog.naver.com/hypermin/70095497351</link>
+					<guid>http://blog.naver.com/hypermin/70095497351</guid>
+					<description><![CDATA[Operating Systems and System ProgrammingJohn KubiatowiczBerkeley출처:http://academicearth.org/courses/operating-systems-and-system-programmingCOURSE DESCRIPTIONBasic concepts of operating systems and system programming. Utility programs, subsystems, multiple-program systems. Processes, interprocess communication, and synchronization. Memory allocation, segmentation, paging. Loading and linking, libraries. Resource allocation, scheduling, performance evaluation. File systems, storage devices, I/O systems. Protection, security, and privacy.LECTURESfavoritesLecture 1 - Introduction, What is an Op.......]]></description>
+					<pubDate>Thu, 14 Oct 2010 02:03:14 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,강의,운영체제,시스템프로그래밍]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[자료-소프트웨어 ]]></category>
+					<title><![CDATA[Introduction to Algorithms / MIT]]></title>
+					<link>http://blog.naver.com/hypermin/70095497323</link>
+					<guid>http://blog.naver.com/hypermin/70095497323</guid>
+					<description><![CDATA[&lt;meta http-equiv="content-type" content="text/html; charset=utf-8" />Introduction to AlgorithmsCharles E. LeisersonMIT출처:http://academicearth.org/courses/introduction-to-algorithmsCOURSE DESCRIPTIONThis course teaches techniques for the design and analysis of efficient algorithms, emphasizing methods useful in practice. Topics covered include: sorting; search trees, heaps, and hashing; divide-and-conquer; dynamic programming; amortized analysis; graph algorithms; shortest paths; network flow; computational geometry; number-theoretic algorithms; polynomial and matrix calculations; caching;.......]]></description>
+					<pubDate>Thu, 14 Oct 2010 02:01:54 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,MIT,Algorithms,알고리즘,강의]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hypermin</author>
+					<category><![CDATA[자료-소프트웨어 ]]></category>
+					<title><![CDATA[Machine Learning Course / Stanford]]></title>
+					<link>http://blog.naver.com/hypermin/70095497284</link>
+					<guid>http://blog.naver.com/hypermin/70095497284</guid>
+					<description><![CDATA[Machine LearningAndrew NgStanford출처:http://academicearth.org/courses/machine-learningCOURSE DESCRIPTIONNote: This course is offered by Stanford as anonline course for credit. It can be taken individually, or as part of amaster’s degreeorgraduate certificateearned online through theStanford Center for Professional Development.This course provides a broad introduction to machine learning and statistical pattern recognition.Topics include: supervised learning (generative/discriminative learning, parametric/non-parametric learning, neural networks, support vector machines); unsupervised learnin.......]]></description>
+					<pubDate>Thu, 14 Oct 2010 02:00:24 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,머신러닝,기계학습,강의,Stanford,스텐포트]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

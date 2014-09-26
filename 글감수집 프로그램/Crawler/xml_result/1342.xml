@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:series="http://organizeseries.com/"
+	>
+
+<channel>
+	<title>Taggon in Happy Life</title>
+	<atom:link href="http://mygony.com/feed" rel="self" type="application/rss+xml" />
+	<link>http://mygony.com</link>
+	<description>JavaScript, PHP, jQuery, Mobile and Talk</description>
+	<lastBuildDate>Sat, 30 Aug 2014 02:27:03 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.0</generator>
+	<item>
+		<title>[번역] 프론트엔드 개발자는 왜 구하기 어렵나요?</title>
+		<link>http://mygony.com/archives/4810</link>
+		<comments>http://mygony.com/archives/4810#comments</comments>
+		<pubDate>Thu, 10 Jul 2014 02:36:32 +0000</pubDate>
+		<dc:creator><![CDATA[taggon]]></dc:creator>
+				<category><![CDATA[Translation]]></category>
+		<category><![CDATA[Quora]]></category>
+		<category><![CDATA[번역]]></category>
+		<category><![CDATA[프론트엔드 엔지니어]]></category>
+
+		<guid isPermaLink="false">http://mygony.com/?p=4810</guid>
+		<description><![CDATA[<a href="http://mygony.com/archives/4810"><img align="left" hspace="5" width="100" height="100" src="http://mygony.com/wp-content/uploads/2014/07/google-trends-front-end-engineer-228x155.png" class="alignleft wp-post-image tfe" alt="구글 트렌드를 통해 살펴본 지난 몇 년간의 프론트엔드 엔지니어 트렌드의 시각화" title="" /></a>Why can&#8217;t we find Front End developers?를 번역한 글입니다. 저 스스로가 프론트엔드 개발자이기도 해서 재밌는 주제라 옮겨봤습니다. ^^ 어느날 우연히 Quora에서 프론트엔드 엔지니어링과 스타트업에 관련된 “Why is it that startups have trouble finding front end developers? (왜 스타트업에서 프론트엔드 개발자를 구하기가 어려운가?)”라는 글을 보게 되었다. 발제자는 다음과 같은 내용도 덧붙였다. (…) 엔지니어링 분야에서 프론트엔드 개발이 [&#8230;]]]></description>
+		<wfw:commentRss>http://mygony.com/archives/4810/feed</wfw:commentRss>
+		<slash:comments>38</slash:comments>
+		</item>
+		<item>
+		<title>[PHP] 한국어 조사 처리 함수</title>
+		<link>http://mygony.com/archives/4776</link>
+		<comments>http://mygony.com/archives/4776#comments</comments>
+		<pubDate>Thu, 19 Jun 2014 06:32:54 +0000</pubDate>
+		<dc:creator><![CDATA[taggon]]></dc:creator>
+				<category><![CDATA[Tip&Tech]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[유니코드]]></category>
+		<category><![CDATA[조사]]></category>
+		<category><![CDATA[한국어처리]]></category>
+
+		<guid isPermaLink="false">http://mygony.com/?p=4776</guid>
+		<description><![CDATA[트위터에서 녹풍님이 올린 [PHP] 명사 뒤에 나오는 ‘은는이가을를’ 판단할 수 있게 해 주는 함수를 봤는데, 조사가 없는 글자를 판단하기 위해 죄다 문자열에 넣어두는 식으로 구현했더군요. 그런데 유니코드는 완성형과 달리 규칙적인 문자 체계라서 코드만으로도 조사의 여부를 판단할 수 있기 때문에 굳이 이런 식으로 번거롭게 작성하지 않아도 됩니다. 그래서 대략 10년 전쯤에 작성했던  한국어 조사를 판단해주는 함수의 자바스크립트로 코드를 가져와서 [&#8230;]]]></description>
+		<wfw:commentRss>http://mygony.com/archives/4776/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Swift 빠르게 훑어보기</title>
+		<link>http://mygony.com/archives/4695</link>
+		<comments>http://mygony.com/archives/4695#comments</comments>
+		<pubDate>Sun, 15 Jun 2014 05:46:03 +0000</pubDate>
+		<dc:creator><![CDATA[taggon]]></dc:creator>
+				<category><![CDATA[Tip&Tech]]></category>
+		<category><![CDATA[Swift]]></category>
+
+		<guid isPermaLink="false">http://mygony.com/?p=4695</guid>
+		<description><![CDATA[Apple에서 차세대 언어로 Swift를 발표했습니다. 개인적으로는 Obj-C에 비해 꽤 정감이 가는 문법이라 요즘 한창 Swift로 외도 중입니다. 그래서 공부도 할겸 간단히 정리해보았습니다. 주요 기능을 정리하긴 했지만 전부를 정리한 것은 아니니 이 점에 주의해주세요. 기본 스트롱 타입(Strong type) 언어입니다. 변수를 선언하거나 사용할 때, 또는 함수의 인수를 선언하거나 반환값을 선언할 때 자료형을 꼭 정해줘야 한다는 뜻입니다. 원칙적으로는 [&#8230;]]]></description>
+		<wfw:commentRss>http://mygony.com/archives/4695/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>WordPress Error: Could not create directory.</title>
+		<link>http://mygony.com/archives/4669</link>
+		<comments>http://mygony.com/archives/4669#comments</comments>
+		<pubDate>Wed, 11 Jun 2014 04:27:10 +0000</pubDate>
+		<dc:creator><![CDATA[taggon]]></dc:creator>
+				<category><![CDATA[Tip&Tech]]></category>
+		<category><![CDATA[FTP]]></category>
+		<category><![CDATA[wordpress]]></category>
+
+		<guid isPermaLink="false">http://mygony.com/?p=4669</guid>
+		<description><![CDATA[While you upgrade a plugin in WordPress, this message may bother you. It comes up when the $wp_filesystem, which is an instance of WP_Filesystem_XXX, can&#8217;t create a temporary directory. There are four WP_Filesystem classes: Direct, SSH2, FTPext, ftpsockets. And I think many of you are using WP_Filesystem_FTPext to take advantage of FTP. In my case, [&#8230;]]]></description>
+		<wfw:commentRss>http://mygony.com/archives/4669/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>CSS에 대해 잘 알려져있지 않은 12가지 사실</title>
+		<link>http://mygony.com/archives/4619</link>
+		<comments>http://mygony.com/archives/4619#comments</comments>
+		<pubDate>Wed, 30 Apr 2014 23:20:17 +0000</pubDate>
+		<dc:creator><![CDATA[taggon]]></dc:creator>
+				<category><![CDATA[Tip&Tech]]></category>
+		<category><![CDATA[CSS]]></category>
+
+		<guid isPermaLink="false">http://mygony.com/?p=4619</guid>
+		<description><![CDATA[sitepoint.com에 올라온 12 Little-Known CSS Facts라는 글을 간단히 요약한 내용입니다. 원본 글에 들어가면 적용된 화면을 실시간으로 볼 수도 있으므로 원본 글을 읽어볼 것을 추천합니다. 여기서는 간단하게 요약만 해보겠습니다. 1. color는 글자에만 적용되는 게 아니다. &#8211; 이미지가 없을 때의 대체 텍스트 색상 &#8211; 기본 보더 색상 &#8211; 목록 엘리먼트의 불릿 기호 또는 숫자 마커의 색상 &#8211; [&#8230;]]]></description>
+		<wfw:commentRss>http://mygony.com/archives/4619/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

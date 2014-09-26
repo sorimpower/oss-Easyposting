@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Needlworks/TNF 블로그</title>
+		<link>http://blog.needlworks.org/ko/</link>
+		<description>Needlworks/TNF의 이야기들입니다.</description>
+		<language>ko</language>
+		<pubDate>Wed, 12 Feb 2014 17:58:05 +0900</pubDate>
+		<generator>Textcube 1.9.0 : Release Candidate 2</generator>
+		<item>
+			<title>텍스트큐브 공지사항 블로그 속도 업그레이드(?)</title>
+			<link>http://blog.needlworks.org/ko/entry/%ED%85%8D%EC%8A%A4%ED%8A%B8%ED%81%90%EB%B8%8C-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%86%8D%EB%8F%84-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C</link>
+			<description>&lt;div style=&quot;padding-bottom: 0px; font-family: Dotum, Verdana, AppleGothic, sans-serif; font-size: 12px; line-height: 1.4em; background-color: rgb(255, 255, 255); &quot;&gt;현재 텍스트큐브의 공지사항은 http://notice.textcube.org/ko/ 이곳을 통해 서비스되고 있습니다. 그런데 아마 아시는 분들은 아시겠지만 여기 접속 속도가 무지 느렸습니다. 페이지 하나 불러오는 데에만 5~15초 넘게 걸렸죠.;; 게다가 공지 블로그는 여러분들이 설치하신 텍스트큐브에서 관리자모드 로그인할 때 보여지도록 12시간마다 동기화되고 있기 때문에 다수의 텍스트큐브 사용자들이 이러한 속도 저하의 영향을 받을 수밖에 없었습니다.&lt;br&gt;&lt;br&gt;엊그제 정말 딱 한 줄만 고쳐서 평균 접속 속도를 5~8초 가량 걸리던 것을 0.2~0.3초 정도 걸리도록 개선했습니다. 과연 무엇이 문제였을까요?&lt;br&gt;&lt;br&gt;&lt;strong&gt;1. 텍스트큐브 자체의 속도가 느리지 않을까?&lt;br&gt;&lt;/strong&gt;가장 먼저 해본 일이 세션 테이블을 비우는 것이었습니다. 서버 쪽에서 수십~수백 군데의 PC로부터 동시에 들어오는 HTTP 요청을 가지고 각자의 PC별로 현재 접속한 사용자를 잘 구분하여 처리하기 위해 세션이라는 것을 사용합니다. 사용자를 구분하는 것 말고도 현재 사용자의 상태에 관한 데이터를 가지고 있기도 하죠. 로그인 상태는 이 세션이 유효한 상태에서만 지속됩니다.&lt;br&gt;&lt;br&gt;보통 이러한 정보를 파일 또는 데이터베이스 상의 특정 테이블에 저장하게 되는데, HTTP 특성 상 새로운 요청이 들어오지 않는다고 사용자가 웹페이지를 닫은 것인지 아니면 밥 먹으러 간 것인지 알 방법이 없습니다. (그래서 일정 시간이 지나면 개인정보 유출을 방지하기 위해 서버 쪽에서 세션을 만료시켜 자동 로그아웃되도록 해놓는 경우가 많죠) 이 만료 시간을 길게 설정할수록, 사이트의 동시접속자 수가 많을수록 서버가 동시에 유지하고 있어야 하는 세션 개수가 엄청나게 늘어나게 됩니다.&lt;br&gt;&lt;br&gt;당연히 텍스트큐브 공지사항 블로그는 설치형 텍스트큐브를 설치한 온갖 곳의 서버로부터 공지사항 업데이트를 받고 있으므로 이러한 세션 수가 상당히 높게 유지됩니다. 그래서 혹시 DB가 느려져서 그런 것은 아닐까 했던 것이죠. 주절주절 썼는데 결론은 효과 없었다, 즉 이것이 원인이 아니었다는 겁니다. orz&lt;br&gt;&lt;br&gt;그래서 텍스트큐브의 PHP 코드 자체가 느린 부분이 있나도 생각해봤습니다만, 같은 서버에서 동작하는 다른 텍스트큐브 및 PHP 기반 웹사이트들은 멀쩡했습니다. 그렇다면 PHP 자체의 속도가 느린 것은 아니었죠.&lt;br&gt;&lt;br&gt;&lt;strong&gt;2. Apache 웹 서버의 속도가 느리지 않을까?&lt;br&gt;&lt;/strong&gt;다음으로 살펴본 것은 Apache 웹 서버였습니다. 우선 시간 지연이 어떤 패턴으로 나타나는지 정확히 알아야 했기 때문에 wget, ab, Firebug 등등 온갖 벤치마킹 프로그램을 동원해서 어떤 경우에 그러한 심각한 시간 지연이 나타나는지 조사했습니다.&lt;br&gt;&lt;br&gt;그 결과, 텍스트큐브가 HTML을 뿌려줄 때, 그리고 몇몇 리소스 파일(자바스크립트와 CSS)을 로딩할 때만 그런 현상이 발생하고, 서버 내에서 서버 자신으로 접속할 때는 그런 지연이 전혀 나타나지 않고 외부에서 접속할 때만 그렇다는 사실을 알아냈습니다. 또한 시간 지연은 매우 일정하게 5초 정도 발생하며, 실제 컨텐츠 전송은 시간 지연이 없으나 전송이 시작되기 전까지 기다리는 시간이 길다는 것을 알 수 있었습니다.&lt;br&gt;&lt;br&gt;이러한 사실로부터, 이것이 네임서버(DNS)와 관련된 문제라는 것을 직감할 수 있었습니다. 우리가 홈페이지 주소를 입력하면 웹사이트가 뜨는 그 과정에는 홈페이지 주소를 실제 서버의 IP 주소(4자리 숫자로 된 그것)로 변환해야 하는데, 그런 변환 또는 역변환을 하는 서버가 네임서버입니다. 대부분의 웹서버들은 어떤 곳으로부터 접속이 들어왔는지 로그를 남기는데요, 이때 클라이언트의 IP 주소는 바로 알 수 있지만 그 클라이언트가 가진 도메인은 네임서버를 통해 조회해봐야만 알 수 있습니다.&lt;br&gt;&lt;br&gt;그런데 이 역변환의 경우 네임서버에서 지원하지 않거나 네임서버에서 찾을 수 없는 경우 응답이 아예 돌아오지 않는 경우가 생깁니다. 그러면 웹서버는 일정 시간이 지나 timeout될 때까지 기다리고(그래야 로그를 남긴 후 웹페이지 내용을 전송할 수 있으므로), 클라이언트 PC를 사용하는 사용자 입장에서는 &quot;응답을 기다리는 중&quot; 상태로 그 시간만큼 똑같이 기다리게 됩니다.&lt;br&gt;&lt;br&gt;그래서 첫번째로 한 것은 Apache 설정에서 네임서버를 이용하지 않도록 하는 것이었습니다. 하나의 IP 주소에서 여러 웹사이트를 서비스하기 위해 virtual host라는 것을 이용하는데 이것을 설정하는 방법에 따라 네임서버 접근이 발생할 수 있었기 때문에 이것도 모두 손보고, 텍스트큐브의 PHP 코드 내에서 자체적으로 네임서버 접근하는 부분이 있는지 검사하고, HostnameLookups 설정변수 및 로그 포맷에서 호스트 이름(도메인)이 들어가는지 모두 확인해서 제거하였습니다.&lt;br&gt;&lt;br&gt;문제는 그래도 나아지지 않았다는 것이지요. T_T&lt;br&gt;&lt;br&gt;최후의 수단으로 사용한 것은 strace라는 것입니다. Linux에서 시스템콜을 추적하여 로그로 남겨주는 프로그램인데, 이것을 이용하면 파일 입출력, 소켓 접근 등 운영체제의 도움을 받는 모든 부분을 다 들여다볼 수 있습니다. 네임서버에 접근하기 위해선 소켓을 이용해 인터넷에 접속해야 하므로, 웹서버가 네임서버와 어떻게 상호작용하는지 알 수 있는 것이죠. (아니면 특정 파일을 읽어야 하는데 하드디스크나 운영체제 내부적인 문제로 비정상적으로 오래 걸린다든지 하는 경우, 권한 문제인지 등도 상세히 알 수 있습니다.)&lt;br&gt;&lt;br&gt;처음 시도했을 땐 웹서버의 구조 상 각각의 동시 요청을 처리하기 위해 여러 개의 프로세스를 &amp;nbsp;만들도록 되어 있었기 때문에 로그가 너무 많이 나와서(간단한 텍스트 파일 하나 보여주기 위해서만도 수백개 이상의 시스템콜이 발생합니다) 분석이 불가능했습니다.&lt;br&gt;&lt;br&gt;방법을 고민하던 중 니들웍스의 쿨엔지니어님이 프로세스를 한 개만 띄우도록 설정해보라고 조언해주셔서, 다른 웹사이트를 이 서버에서 모두 내리고(...) 딱 1개의 프로세스만 띄워서 얘가 notice.textcube.org에 대한 요청을 처리하도록 설정을 분리한 다음에서야 다음과 같은 데이터를 확인할 수 있었습니다.&lt;br&gt;&lt;br&gt;&lt;blockquote&gt;&lt;div style=&quot;padding-bottom: 0px; background-color: rgb(255, 255, 255); &quot;&gt;&lt;font face=&quot;&#039;Courier New&#039;, courier, monospace&quot;&gt;socket(PF_FILE, SOCK_STREAM, 0) &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = 16 &amp;lt;0.000101&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;padding-bottom: 0px; background-color: rgb(255, 255, 255); &quot;&gt;&lt;font face=&quot;&#039;Courier New&#039;, courier, monospace&quot;&gt;fcntl(16, F_GETFD) &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 0 &amp;lt;0.000089&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;padding-bottom: 0px; background-color: rgb(255, 255, 255); &quot;&gt;&lt;font face=&quot;&#039;Courier New&#039;, courier, monospace&quot;&gt;fcntl(16, F_SETFD, FD_CLOEXEC) &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 0 &amp;lt;0.000090&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;padding-bottom: 0px; background-color: rgb(255, 255, 255); &quot;&gt;&lt;font face=&quot;&#039;Courier New&#039;, courier, monospace&quot;&gt;connect(16, {sa_family=AF_FILE, path=&quot;/var/run/avahi-daemon/socket&quot;}, 110) = 0 &amp;lt;0.000094&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;padding-bottom: 0px; background-color: rgb(255, 255, 255); &quot;&gt;&lt;font face=&quot;&#039;Courier New&#039;, courier, monospace&quot;&gt;fcntl(16, F_GETFL) &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 0x2 (flags O_RDWR) &amp;lt;0.000060&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;padding-bottom: 0px; background-color: rgb(255, 255, 255); &quot;&gt;&lt;font face=&quot;&#039;Courier New&#039;, courier, monospace&quot;&gt;fstat(16, {st_mode=S_IFSOCK|0777, st_size=0, ...}) = 0 &amp;lt;0.000091&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;padding-bottom: 0px; background-color: rgb(255, 255, 255); &quot;&gt;&lt;font face=&quot;&#039;Courier New&#039;, courier, monospace&quot;&gt;mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5429003000 &amp;lt;0.000092&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;padding-bottom: 0px; background-color: rgb(255, 255, 255); &quot;&gt;&lt;font face=&quot;&#039;Courier New&#039;, courier, monospace&quot;&gt;lseek(16, 0, SEEK_CUR) &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= -1 ESPIPE (Illegal seek) &amp;lt;0.000099&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;padding-bottom: 0px; background-color: rgb(255, 255, 255); &quot;&gt;&lt;font face=&quot;&#039;Courier New&#039;, courier, monospace&quot;&gt;write(16, &quot;RESOLVE-ADDRESS ###.###.###.###\n&quot;, 31) = 31 &amp;lt;0.000075&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;padding-bottom: 0px; background-color: rgb(255, 255, 255); &quot;&gt;&lt;font face=&quot;&#039;Courier New&#039;, courier, monospace&quot;&gt;read(16, &quot;-15 Timeout reached\n&quot;, 4096) = 20 &lt;font color=&quot;#FF0000&quot;&gt;&amp;lt;5.002403&amp;gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;padding-bottom: 0px; background-color: rgb(255, 255, 255); &quot;&gt;&lt;font face=&quot;&#039;Courier New&#039;, courier, monospace&quot;&gt;close(16) &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; = 0 &amp;lt;0.000068&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;padding-bottom: 0px; background-color: rgb(255, 255, 255); &quot;&gt;&lt;font face=&quot;&#039;Courier New&#039;, courier, monospace&quot;&gt;munmap(0x7f5429003000, 4096) &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;= 0 &amp;lt;0.000090&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;padding-bottom: 0px; background-color: rgb(255, 255, 255); &quot;&gt;&lt;font face=&quot;&#039;Courier New&#039;, courier, monospace&quot;&gt;stat(&quot;/var/www/needlworks/notice.textcube.org/root/ko&quot;, 0x7fffead9e930) = -1 ENOENT (No such file or directory) &amp;lt;0.000065&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;padding-bottom: 0px; background-color: rgb(255, 255, 255); &quot;&gt;&lt;font face=&quot;&#039;Courier New&#039;, courier, monospace&quot;&gt;stat(&quot;/var/www/needlworks/notice.textcube.org/root/rewrite.php&quot;, {st_mode=S_IFREG|0644, st_size=535, ...}) = 0 &amp;lt;0.000058&amp;gt;&lt;/font&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;br&gt;시스템콜 함수의 이름과 거기에 전달된 인자값들이 무엇인지, 그리고 그 반환값과 수행 시간이 초 단위로 찍혀 있습니다.&lt;br&gt;&lt;br&gt;맨 윗줄은 TCP 소켓을 만들었다는 뜻이고, 그 다음 connect 함수 부분은 Linux 계열 시스템에서 제공되는 avahi라는 네임서버 접근용 데몬 프로그램이 만들어놓은 파일형태의 소켓과 만든 소켓을 연결하겠다는 뜻입니다. (조금 복잡한데, Linux 계열에서는 모든 시스템 자원을 파일이라는 형태로 접근할 수 있도록 되어 있어서, 다른 프로그램과 상호작용하기 위해 위와 같은 방법을 자주 사용합니다.) 이런저런 설정과 확인을 거친 후, write 함수를 보면 어떤 IP 주소(실제로는 제가 집에서 접속할 때 사용한 유동IP입니다)에 대한 도메인을 가져오라는 내용을 쓰고 있고, 그 결과로 받은 것이 timeout, 그리고 그 결과를 받기까지 정확히 5초가 걸렸음을 보여줍니다.&lt;br&gt;&lt;br&gt;네... 범인은 이거였습니다. (....)&lt;br&gt;&lt;br&gt;그렇다면 웹서버가 제 의지와 상관 없이(...) 마음대로 네임서버에 접근하려다 실패하는 걸 계속 반복하고 있다는 뜻인데 왜 그런지 알아야겠지요.&lt;br&gt;&lt;br&gt;약간의 구글링 끝에 알아낸 단서는, 보안을 위한 것이라지만 실제론 약간 습관적으로 사용하는 Allow from all과 관련이 있었습니다. Allow from all 자체가 이미 모든 곳으로부터의 접속을 받겠다는 뜻인데, Deny from none이라는 설정이 더 있었습니다. 그것도 텍스트큐브 관련 virtual host 설정에만요. 얼핏 보면 같은 뜻이니까 문제 없겠지 싶지만, 알고보니 &lt;a href=&quot;http://httpd.apache.org/docs/2.0/mod/mod_access.html#Deny&quot;  target=&quot;_blank&quot;&gt;none이라는 건 존재하지 않는 특수 이름&lt;/a&gt;이었습니다.&lt;br&gt;&lt;br&gt;...그래서 &quot;none&quot;이라는 주소로부터 온 것인지 아닌지 검사하기 위해 모든 접속마다 IP 주소를 도메인으로 변환하려고 시도했던 것입니다. 랄랄랄라라라랄라라라... (참고로 이 일을 하는 mod_access 모듈은 다른 곳의 설정을 몽땅 무시하고 무조건 DNS 확인 절차를 수행한다고 합니다. -_-)&lt;br&gt;설정에서 Deny from none 한줄 지워주니 모든 문제가 해결되었습니다. 이 서버에서의 텍스트큐브 정상 속도대로 서비스되기 시작한 것이죠.&lt;br&gt;&lt;br&gt;이상 삽질기 끝이었습니다.&lt;br&gt;&lt;br&gt;아 허무해 ...ㅠㅠ&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://blog.needlworks.org/ko/entry/%ED%85%8D%EC%8A%A4%ED%8A%B8%ED%81%90%EB%B8%8C-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%86%8D%EB%8F%84-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C?commentInput=true#entry2460862WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>머리아픈 이야기</category>
+			<category>공지사항 블로그</category>
+			<category>삽질</category>
+			<category>속도</category>
+			<category>아파치</category>
+			<category>업그레이드</category>
+			<category>웹서버</category>
+			<author>daybreaker12@gmail.com (daybreaker)</author>
+			<guid>http://blog.needlworks.org/ko/2460862</guid>
+			<comments>http://blog.needlworks.org/ko/entry/%ED%85%8D%EC%8A%A4%ED%8A%B8%ED%81%90%EB%B8%8C-%EA%B3%B5%EC%A7%80%EC%82%AC%ED%95%AD-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%86%8D%EB%8F%84-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C#entry2460862comment</comments>
+			<pubDate>Sat, 28 Aug 2010 03:00:32 +0900</pubDate>
+		</item>
+		<item>
+			<title>AVATAR</title>
+			<link>http://blog.needlworks.org/ko/entry/AVATAR</link>
+			<description>&lt;p&gt;거의 9개월 만의 글이군요.&lt;br /&gt;
+다들 아시겠지만, 영화 아바타(AVATAR)가 요즘 화제입니다. 저만 해도 가족과 함께 디지털3D로, 또 따로 용산CGV에서 IMAX로 두 차례 관람했을 정도죠. 이 영화, 사람에 따라 영상미를 중점으로 보는 사람도 있겠고 &#039;나는 트랜스포머가 더 좋아&#039; 이런 사람도 있겠지만 할 얘기 참 많은 영화입니다.&lt;/p&gt;
+
+&lt;p&gt;이하 &lt;span style=&quot;color:red; font-weight:bold; font-size:1.5em&quot;&gt;스포일러가 포함&lt;/span&gt;되어 있으니 아직 안 보신 분은 안 읽으시는 걸 권해드립니다. 아래는 영화의 내용을 제 나름대로 해석해본 것입니다.&lt;/p&gt;
+
+&lt;h3&gt;1. 영화의 배경 해석&lt;/h3&gt;
+
+&lt;p&gt;인류는 우리가 현재의 과학기술로 생각할 수 있는 가장 타당한 방법으로 우주여행을 하는 수준에 도달해 있습니다. 빛의 속도를 뛰어넘지 못했고, 오랜 기간 동면하는 사람들을 싣고 가는데 이런저런 장비들까지 함께 그럭저럭 안정적으로 가져갈 수 있는 모양입니다. 그리고 아마도 지구 태양계에서 수 광년 이내에 있을 것으로 생각되는 단일 항성계의 큰 가스형 행성을 공전하는 지구형 위성 중 하나가 바로 판도라입니다.&lt;/p&gt;
+
+&lt;p&gt;영화에 등장하는 지구인들은 구체적으로 나오지는 않지만 아마도 상온초전도체일 것으로 생각되는 언악티늄(?)이라는 광물을 채취하여 막대한 돈을 벌어들이는 거대한 회사에 고용된 직원, 용병, 과학자들입니다. 아마도 인간이 우주여행을 할 수 있는 시대가 되면서 막대한 양의 에너지를 사용하게 되었을 것이고, 현재 알려진 범위 내에서 전기에너지를 손실 없이 영구적으로 저장할 수 있는 유일한 방법은 초전도체를 이용하는 것인데 상온초전도체는 아직도 먼 꿈이죠. 아마 아바타의 지구인들도 상온초전도체를 손쉽게 합성할 수 있는 방법을 알아내지 못했고 외계 행성인 판도라에서 그러한 능력을 가진 광물을 채굴하여 사용하고자 하는 것 같습니다. 그러면 그렇게 광물이 비싼 이유와 둥둥 떠있는 특징이 설명됩니다.&lt;/p&gt;
+
+&lt;p&gt;판도라 행성은 거대 가스형 행성 주위를 공전하는 위성입니다. 구체적인 공전 궤도 따위에 대해선 나오지 않았지만 영화에서 묘사된 장면으로 봤을 땐 독립적인 궤도를 가진 (과학적 의미의) 행성은 아니라고 생각됩니다. 지구 태양계에서도 목성 주변을 가깝게 공전하는 이오와 같은 위성의 경우 목성의 강력한 중력으로 인한 조석력으로 화산활동이 매우 활발하고 목성 자기장의 영향을 많이 받는 것으로 알려져 있습니다. 판도라 행성 또한 보텍스 지역 등 강한 전자기장을 가진 지역이 있고, 중력이 약하다고 묘사되는 것을 보면 아마 이러한 영향을 크게 받는 위성 중 하나일 것입니다. 거기에 운좋게도 상온초전도체 역할을 하는 광물이 형성되었고 이로 인해 판도라 행성은 전자기장이 아주 풍부한 곳이 되었습니다. (그 결과로 할렐루야 산이나 영혼의 나무 지역 같이 돌덩어리들이 공중에 둥둥 떠있는 장소가 존재할 수 있는 것이죠. 물론 그러한 장소가 오랫동안 안정적으로 유지될 수 있는가 하는 건 또 다른 문제긴 합니다. 영혼의 나무 지역은 태양 플레어에서 따온 자력선 모양으로 돌이 배열된 것을 볼 수 있는데 이 경우는 좀더 가능성이 높지 싶습니다.)&lt;/p&gt;
+
+&lt;p&gt;여기서 천문학적 궁금증이 한 가지 생기는데, 거대 행성 주변을 공전하는 것이라면, 공전 주기에 따라 차이는 있을 수 있겠지만 중심별과 판도라 행성 사이에 거대 행성이 끼어있을 경우 오랜 시간 밤이 지속될 수 있다는 점입니다. 그에 따라 계절 변화가 나타날 수도 있구요. 약 3개월 간의 이야기를 그린 이 영화에서는 이런 부분이 전혀 묘사되고 있지 않습니다. 천왕성처럼 행성 자전축과 위성들의 공전궤도면이 누워있으면서 판도라 행성의 자전축만 서 있다든지 하는 기막힌 우연의 일치가 아니라면...-_- 실제 의도한 바는 뭐였을까요?;&lt;/p&gt;
+
+&lt;p&gt;인간이 발명한 컴퓨터와 전자회로에는 아주 치명적인 전자기장이지만, 판도라 행성에서 진화한 생명체들은 이를 아주 효과적으로 활용하고 있습니다. 밤의 풍경을 보면 주변의 식물과 각종 벌레, 동물, 심지어 나비 족의 얼굴까지도 빛을 발산하는 걸 볼 수 있죠. 그리고 그레이스 박사가 밝혀냈듯 식물들의 뿌리는 상당히 빠른 속도로 전기화학적인 신호를 주고받고 있습니다. 이것은 이 행성에 아주 풍부한 전자기장을 생명체가 직접 에너지원으로 활용할 수 있다는 암시입니다. 그런 환경에서 고등 동물이 진화하면서 머리카락이나 머리에 달린 꼬리(?) 끝에 촉수 같은 것이 달려서 서로 직접 교감을 주고받을 수 있는(샤헤일루) 방향으로 나아갔다는 설정인 것 같습니다.&lt;/p&gt;
+
+&lt;p&gt;영화 중반쯤 가서 그레이스 박사가 항변합니다. 판도라 행성의 진정한 가치는 그 광물이 아니라 생명체들이 이루고 있는 거대한 네트워크 그 자체라고 말입니다. 그리고 영혼의 나무라는 건 나비 족이 자신들의 기억과 생각을 그 네트워크에 업로드·다운로드할 수 있는 일종의 단말기라고 주장합니다. (그렇지만 그녀조차도 죽기 직전까지 나비족이 믿는 여신인 에이와가 그 네트워크 자체를 말하는 것임을 깨닫지는 못하죠.) 이것은 가이아 이론의 재현임과 동시에 아직 미지의 영역으로 남아있는 뇌의 신경 네트워크를 패러디한 구조입니다. 마지막에 제이크의 영혼(?)이 인간의 신체에서 나비 족의 신체로 옮겨가는 것으로 영화가 끝나는데, 이것은 말하자면 판도라의 생명 네트워크에 제이크의 뇌로부터 정신 데이터를 업로드한 다음 아바타로 다운로드하는 것이라고 볼 수 있습니다. 그레이스 박사의 경우는 안타깝게도 인간 신체가 부상을 입은 상태라 실패하지만 말입니다. 나비 족은 이러한 광대한 생명 네트워크에 경외심을 표하고 거기에 흐르는 에너지를 느끼며 그 네트워크 자체 또는 개별 개체와 교감할 수 있는 것이지요.&lt;/p&gt;
+
+&lt;p&gt;이 영화는 인간의 신체와 영혼은 독립되어 있으며, 영혼이라는 것은 소멸불가능한 어떤 개인 고유의 무엇이라기보다는 기억과 개인적 특성의 종합체로서 뇌의 복잡한 신경네트워크에 담겨질 수 있는 일종의 데이터로 취급합니다. 그레이스 박사의 말대로라면 판도라의 생명 네트워크는 한 고등 영장류의 뇌보다 훨씬, 아주 훨씬 더 거대해서, 영혼의 나무를 통해 조상들의 목소리를 듣는 장명으로 미루어볼 때 그동안 판도라 행성에서 태어나고 죽은 생명체들의 &#039;영혼&#039;을 모두(?) 간직할 수 있을 만큼 큽니다. 나비 족은 이것을 알기에 사냥감을 죽일 때도 그 영혼이 네트워크로 되돌아갈 수 있도록 기도해주는 것이고, 영혼의 나무 씨앗들은 그러한 영혼들의 초기 상태를 간직하고 뿌려지는 데이터  패킷에 비유할 만하므로 보호되는 것입니다. (아주 순수한 영혼들이라고 말하는 걸 볼 때 아마도 전생의 기억들은 지워지고 그 고유성만 간직하고 있지 않을까요? 말하자면 해시값-_-같은 것일지도...)&lt;/p&gt;
+
+&lt;p&gt;이제 여기서 우리는 마음 속에 품고 있던 질문들에 사로잡히게 됩니다. 우리의 영혼을 구성하는 것은 과연 무엇일까요? 이 영화는 제법 그럴 듯한 답을 제안한 것이라 할 수 있습니다. 영혼은 우리의 기억의 총화와 고유의 특질을 설명하는 어떤 데이터에 불과한 것일까요? 제이크가 강한 영혼을 지녔다고 했는데 이것은 그가 해병이라서일까요 아니면 정말 고유의 특질인 걸까요? 아바타와 처음 링크될 때 제이크의 뇌 활동성이 좋다고 나오는데 그렇다면 그 특질은 유전적인 요인이 많이 작용하는 뇌신경망으로부터 유래되는 것일까요? 과연 뇌신경망은 선천적인 것일까요 후천적인 것일까요?&lt;/p&gt;
+
+&lt;h3&gt;2. 역사와 사회 비판&lt;/h3&gt;
+
+&lt;p&gt;&quot;결국 이런 방식이었군. 그들은 자기가 원하는 것을 가진 자를 적으로 규정하고 빼앗아 버리지.&quot; - 제이크 설리, 그레이스 박사의 나비 언어책을 집어던지며.&lt;/p&gt;
+
+&lt;p&gt;비단 미국뿐만 아니라 과거 식민지 개척에 힘썼던 열강들의 자세도 이와 크게 다르지 않습니다. 많은 후기와 감상평들이 이야기하듯 미국의 서부개척을 배경으로 했던 영화들이 전통적으로 이야기해왔던 주제를 단지 배경만 판도라 행성으로 옮긴 것이므로 따로 부연하지 않아도 될 것입니다.&lt;/p&gt;
+
+&lt;p&gt;&quot;지금까지 만나본 &#039;하늘의 사람들&#039;은 가득 차 있는 잔과 같아서 가르쳐도 소용 없어.&quot; - 모앗, 네이티리가 데려온 낙동강 오리알 신세가 된 제이크를 보며. (이 말에 제이크는 자기 머리 비었으니 믿어달라고 자랑(?)한다. ㅋㅋㅋ)&lt;/p&gt;
+
+&lt;p&gt;이 말은 아마도 제임스 카메론이 중국 고전 같은 걸 읽고 쓴 게 아닌가 싶습니다. 과학자들은 아바타를 통해 이들에게 친숙하게 다가가려고 의도했지만, 나비 족의 문화를 받아들이고 그들의 일원이 될 수 없었습니다. 그들은 이미 인간 문화를 버릴 수 없을 정도로 사회화되어 있었고, 과학기술이 발달한 인류가 이들에게 부족한 것을 줘야겠다는 생각만 했지 이들로부터 우리가 동등하게 배운다는 생각은 별로 하지 않은 듯합니다. 그레이스 박사조차도 식물 샘플을 채집해서 관찰·분석할 뿐 나비족으로부터 생명 네트워크에 대해 진지하게 배우려고 하지는 않은 듯 보입니다.&lt;/p&gt;
+
+&lt;p&gt;제이크가 나비족, 그 중에서도 오마티카야의 일원으로 인정받을 수 있었던 것은 그가 판도라 행성에서 새 삶을 시작하고자 결심했던 것과 더불어 해병 출신으로 폭력적이었지만 단순한 일에 오랜 기간 종사했기 때문이 아닐까 합니다. 가끔은 스마트폰을 비롯한 온라인에서 해방되어 자신만의 시간을 가지는 것이 필요하고, 책을 읽었으면 곱씹는 시간이 필요하듯, 사유 자체를 중단하고 새로운 것을 받아들일 수 있도록 유연한 상태를 유지하는 노력도 필요할지도 모릅니다.&lt;/p&gt;
+
+&lt;p&gt;어쨌든 위 두 문장을 통해 이 영화는 인간이 가진 한계, 그렇지만 더 높이 나아가기 위해서는 언젠가 극복해야 할지도 모르는 한계를 분명히 보여주고 또한 경고하고 있습니다. 그래도 한 가지 희망이라면, 원주민 학살에 대한 지구인들의 비난 여론을 인식하고 있음을 보여준 건, 경제논리에 진다는 점에서 아직은 미흡하지만 인간이 언젠가는 스스로 더 잘 해나가리라는 걸 암시 혹은 희망하는 것이라고도 할 수 있겠습니다.&lt;/p&gt;
+
+&lt;h3&gt;3. 영화에서 해결하지 않은 부분&lt;/h3&gt;
+
+&lt;p&gt;위에서 얘기한 판도라 행성의 계절 변화에 대한 부분 말고도 거꾸로 짚어나가자면 이게 가정을 깔고 들어간 것인지 빼먹은 것인지 궁금한 것들이 몇 가지 더 있습니다. 물론 영화가 너무 복잡해지면 안 되겠지만 말이죠.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;판도라 생태계도 산소호흡에 기반하고 있는 듯합니다. 사람들이 마스크를 착용하고 공기를 분리하는 건 산소가 없어서가 아니라 무언가 인체에 해로운 성분이 존재하기 때문으로 보입니다. (산소가 없는 것이면 커다란 산소통을 매고 다녀야겠지만 그렇지 않죠.) 그 유해한 성분은 무엇일까요?
+
+&lt;ul&gt;
+&lt;li&gt;한 가지 가능성은 생물학적 장벽을 들 수 있습니다. 스티븐 스필버그의 우주 전쟁(War of the Worlds)에서도 묘사되었지만 외계 생태계와 접촉하게 되면 우리가 생명 활동을 아주 속속들이 알고 제어할 수 있는 정도로 발전하지 않은 이상 우리 생태계를 교란시킬 수도 있는 외계 물질이나 세균·바이러스와의 접촉을 차단해야 합니다. 판도라 생태계의 경우 좋은 백신이나 예방법이 개발된 상태거나 다행히 생명체나 공기의 피부 접촉이 인체에 그다지 유해하지 않았지만 공기 중의 특정 성분이나 균이 인간의 호흡기와 맞지 않았다고 할 수 있겠죠. (예를 들면 지구에 외계인이 왔는데 피톤치드가 그 외계인에게 치명적이라 하면 그 외계인은 지구의 숲에 그냥 들어갈 수 없겠죠. 설령 지구인과 비슷한 대기 조건에서 산다고 해도 말입니다.)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;사람들이 보기엔 판도라의 생태계가 아주 새로운, 상상력이 가득찬 것으로 느껴지겠지만, 우주에서 나타날 수 있는 분자 조합과 진화의 무궁무진한 가능성을 생각했을 때 지구와 너무(?) 유사합니다. 지구의 생명 형태가 과연 우주에서 가장 최적에 가까운 것일까요? (어렸을 때 본 어떤 과학책에 따르면 일부 과학자들은 탄소 기반이 아닌 규소 기반 생명체의 존재를 주장하기도 했는데 지금은 어떤가 모르겠습니다)
+
+&lt;ul&gt;
+&lt;li&gt;판도라의 생명체들이 서로 강력한 네트워크를 이루는 방식으로 진화하였다면, 나비 족이나 큰 동물들처럼 개별 개체가 스스로 복잡한 뇌 구조를 가진 생명체가 굳이 진화할 이유가 없을지도 모릅니다.&lt;/li&gt;
+&lt;li&gt;영화에서는 나비 족이 날아다니는 익룡인 이크란과 말, 영혼의 나무와 촉수를 연결하여 교감(샤헤일루)을 이루는데, 나비 족과 나비 족이 같은 방식으로 직접 교감한다면 어땠을까요? 텔레파시가 직접 링크를 통해 구현된다면, 나비 족은 영화에 묘사된 것 같이 우리가 아는 원시 부족 사회를 닮지 않았을지도 모릅니다.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;사실 영화의 가장 중요한 핵심이라고도 할 수 있지만 가장 의문점이 많은 부분이 바로 아바타와의 링크입니다. 신경계를 직접 접속한다는 개념인 것 같은데, 그것이 전자 장비에 의해 이루어지는 것이라면 그 엄청난 데이터 전송 대역폭과 레이턴시는 어떻게 설명할 것이며 보텍스 지역에서의 작동이 어떻게 보장되는지, 통신 거리의 한계는 없는 것인지 의문투성이입니다. 그렇다고 판도라 행성의 생명 네트워크를 이용한다고 보기엔 그레이스 박사의 이해도가 아직 미흡합니다. 게다가 어찌되었든 인간의 뇌를 그렇게까지 활용할 수 있을 정도의 과학기술이면 판도라 행성의 생명 네트워크가 얼마나 가치있는지 다른 사람들에게 충분히 설득할 수 있어야 했습니다.&lt;/li&gt;
+&lt;li&gt;과학자들이 나비 족들에게 영어와 지식을 가르치려고 했지만 실패했다고 나옵니다. 물론 몇몇 나비 인들은 영어를 제법 잘 구사하게 되었지만요. 진정한 과학자들이었다면 가르치려고 하기 전에 먼저 배우는 자세를 보여주었어야 합니다. 아니, 적어도 자기들이 잘못된 방향으로 갔다는 사실은 인지하고 대책을 세우려고 했어야 하죠. 뭐... 영화가 딱 그 중간 타이밍을 잡은 거라면 모르겠습니다. -_-
+
+&lt;ul&gt;
+&lt;li&gt;한 가지, 나비 언어는 목적어가 동사보다 앞에 오는 듯합니다. 나중에 따로 사전이 나온다거나 할지는 모르겠습니다만;;; 그리고 영혼의 나무에서 단체로 기도할 때 부르는 노래는 그레고리안 성가와 닮았습니다.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;제임스 카메론이 이어지는 이야기로 후편을 제작할 거라는 이야기가 있습니다. 아직 시나리오도 쓰지 않은 듯하지만 벌써부터 사람들은 기대 만땅입니다. 영화 내내 궁금했던 것 중 하나는, 이미 지구인들은 판도라 행성에 인공위성도 띄워놨고 충분히 발전한 우주 과학기술을 가지고 있는데 당연히 나중에 다시 찾아오지 않겠느냐 하는 점이었습니다. 과연 제이크가, 나비 족이, 에이와가 그에 대한 대비를 할 수 있을까요?&lt;/p&gt;
+
+&lt;h3&gt;4. 마지막 생각&lt;/h3&gt;
+
+&lt;p&gt;얼핏 보기엔 이 영화가 우리 지구인들 대다수를 마치 악당처럼 묘사했다고 생각할 수 있습니다. 당장의 자본주의에 눈이 멀어 더 큰 가능성을 놓치려고 하는 것을 보면 말이죠. 하지만 결국 아바타를 만들고 판도라 행성을 어찌됐건 보호해낸 것도 인간입니다. 인간은 이렇게 분열되어 있지만 결국 더 큰 가치를 보호하는 해피엔딩으로 영화가 끝나죠.&lt;/p&gt;
+
+&lt;p&gt;그래서 큰 틀에서 다시 생각해보면 아바타는 결국 인간 정신의 위대함을, 인간이 가진 사랑과 생명 존중의 가치관이 중요하다는 점을 반 바퀴 빙 돌려서 설명한 셈이 됩니다. 그렇기에 이 영화는 인간의 관점이 가지는 한계를 탈피하지 못했습니다. 물론 그것을 탈피해야 한다고 억지를 부릴 수도 없을 뿐더러, 탈피한 것이 관객들에게 편안하게 다가오지 않을 수도 있습니다.&lt;/p&gt;
+
+&lt;p&gt;판도라 행성은 그 자체의 생명 네트워크가 아무리 발전하더라도 궁극적으로 우주여행을 할 수 있는 인간이나 다른 외계종족에 비해 우주적 관점에서의 진화적 생존 가능성은 더 낮습니다. 공학도로서 과학기술의 진보와 자연의 조화에 대해 고민해보게 하는 대목입니다. 어쨌든 인류가 판도라로부터 네트워크와 그 가치에 대한 이해를 새롭게 할 수 있다면 그것은 인간에게 도움이 되는 일일 것입니다. (어쩌면 제임스 카메론 스스로 영화를 통해 그런 메시지를 전파하고 싶었을지도 모르겠습니다.)&lt;/p&gt;
+
+&lt;p&gt;왜 판도라 행성이라고 이름지었을까요? 영화 아바타는 지금 현재 우리가 가진 과학기술과, 조만간 우리에게 새로운 지평을 열어줄 것이라 기대되고 있는 최신 이슈들(복잡계라든지 네트워크라든지)과 IT와 철학에서 유래한 다양한 메타포를 총체적으로 담고 있고 이것을 환상적인 3D 영상으로 표현하고 있습니다. (단언컨대, 정말 IMAX로 봐야 한다고 말하는 이유를 알겠습니다. 왜 매진되고 암표상이 뜨는지도 알 만합니다.) 우리 인류의 미래를 이 영화 안에서 감성적으로, 사상적으로, 과학적으로 제임스 카메론은 나름대로 제시하고 있고 그 미래를 판도라의 상자에서 꺼낸다는 의미를 담은 게 아닐까 싶습니다.&lt;/p&gt;
+
+&lt;p&gt;새로운 가상의 세계를 창조해내고 3D 비전 기술의 새 지평을 연 것처럼, 제임스 카메론의 다음 영화(혹은 아바타의 속편)는 무언가 인간의 관점을 벗어나는 새로운 시도를 대중들에게 자연스럽게 보이도록 녹여내는 그 무엇이 있었으면 좋겠다고 기대해봅니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://blog.needlworks.org/ko/entry/AVATAR?commentInput=true#entry2460860WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>즐거운 이야기</category>
+			<category>AVATAR</category>
+			<category>감상평</category>
+			<category>아바타</category>
+			<category>영화</category>
+			<category>후기</category>
+			<author>daybreaker12@gmail.com (daybreaker)</author>
+			<guid>http://blog.needlworks.org/ko/2460860</guid>
+			<comments>http://blog.needlworks.org/ko/entry/AVATAR#entry2460860comment</comments>
+			<pubDate>Wed, 13 Jan 2010 11:31:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>도움닫기</title>
+			<link>http://blog.needlworks.org/ko/entry/ingredients-for-leaping-forward</link>
+			<description>&lt;p&gt;놀고 있는 블로그마냥 요새 저희가 좀 뜸합니다. 텍스트큐브 1.8도, 2.0도 로드맵 안에서만 돌고 있고, 1.7.7도 한참 늦게 등장했습니다. IIS 지원이니 구글맵 지원이니 등등 뭔가 하기는 하는데, 티가 좀 안 납니다. 뜸한 이유가 여러가지 있겠지만 주된 이유는 사람입니다. 니들웍스가 살짝 뜸하게 움직이는 중입니다.&lt;/p&gt;
+
+&lt;p&gt;저를 예로 들면, 포럼 죽돌이였던 예전과 다르게 요새는 포럼에서는 드문드문 보일 정도로 뜸합니다. 결혼을 했기 때문이라고 생각하시는 분들도 계시겠지만 주말부부이기 때문에 결혼해서 바쁘다는 그런 이유는 아닙니다. 물론 신혼여행 다녀와서 3주동안의 코드 변화를 따라잡느라 고생은 좀 했습니다. (제가 없어야 전체 커밋 수가 늘어난다는 놀라운 사실을 배웠습니다...) 각설하고, 요새 제가 뜸한 이유는 박사과정 대학원생이라, &lt;span style=&quot;color: #C1C1C1&quot;&gt;저 노는 사이에 컴퓨터 시뮬레이션이&lt;/span&gt; 지금까지 했던 연구들 중에서 결론이 난 것들이 있어 정리를 하는 중이기 때문입니다. 사실 이건 핑계고, 항상 때가 되면 하는 일이라 주된 이유는 아닙니다.&lt;/p&gt;
+
+&lt;p&gt;요새 잡다한 공부를 하고 있습니다. 원래 관심사나 공부하는 내용들은 주로 물리학이나 사회학같은 이론적인 주제들 이었습니다만,  요새 하는 공부는 컴퓨터 프로그래밍입니다. 원래 코딩을 잘 하는 편이 아니라 그냥 필요할 때 필요한 것만 겨우 만들어 쓰는 수준입니다. 그게 한계가 온거죠. 올해부터 해 보려고 하는 연구들이 굉장히 큰 계산들을 필요로 하기 때문에 오래간만에 좀 고생을 해 가면서 컴퓨터 프로그래밍 공부를 하고 있습니다. 약간 만질 줄 아는게 C++ 정도라 자바 언어등의 요새 언어들도 한 번 공부해 보고, 멀티 쓰레드 프로그래밍이나 CUDA 를 사용한 GPU 연산을 공부하고 있습니다. 직렬식 프로그래밍만 하다 보니 가끔은 병렬적으로 사고하기가 어렵습니다. 머리가 복잡해질 때면 그저  ㅁㄴㅇㄹ!@#&lt;/p&gt;
+
+&lt;p&gt;한 달 남짓 공부를 하고 나니, 그 전에 비하여 조금은 나아지지 않았나 싶습니다. 불명확하게 알고 있던 점들을 조금 더 명확하게 알게 된 것들도 있고, &#039;요새 경향이 이렇구나&#039; 하는 점들도 새로이 배우게 되었습니다. 그렇다고 코드를 조금 더 잘짜게 된 것은 아닌것 같지만, &#039;요새 컴퓨터&#039;를 어떻게 보아야 하는지를 익힌 듯 합니다. 예전이나 지금이나 프로그램이 CPU와 RAM이라는 한정된 생태계 안에서 사용자라는 신의 선택을 받기 위하여 고군분투해야 하는 것은 같습니다만 (8년전에는 &lt;a href=&quot;http://forest.nubimaru.com/entry/%EC%83%9D%EB%AA%85&quot;&gt;이러한 생각&lt;/a&gt; 을 했었습니다.), 지금의 프로그램과 컴퓨터는 훨씬 복잡한 구조를 바탕으로 예전과는 비교할 수 없는 복잡함 속에 모든 것이 돌아가고 있는 듯 합니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;*&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;어떤 발전이든 외부에서 보면 어느 순간 임계점을 넘는 식으로 보입니다. 하지만 그렇게 임계점을 넘기 위해서는 굉장히 느리지만 지속적인 변화가 쌓여야 합니다. 니들웍스나 TNF도 그런 단계를 밟고 있는 것이 아닌가 싶습니다. 3년 전의 생각대로 도구가 일상화되고, 변화가 받아 들여지는 세상이 왔습니다. 그 너머 해야 할 일은 무엇일까? 같은 질문에 대한 답은 질문을 들고 고민을 해서 나오는 답이 아닌 것 같습니다. 그래서 여러가지를 공부하고 있습니다. 피라미드도 밑둥부터 쌓아야 꼭대기를 올릴테니까요. 무엇을 하고 싶은지와 크게 상관 없어 보이는 것들도 꾸준히 배우는 중입니다.&lt;/p&gt;
+
+&lt;p&gt;삶 자체는 공부 거리로 가득 차 있습니다. 전혀 연관없을 것 같은 배움과 깨달음들이 다시 텍스트큐브에 집중되는 시간이 곧 오리라 생각합니다. 요리는 어느정도 됐다 싶어서 슬슬 PHP에 다시 눈을 돌리고 있는 inureyes였습니다. 곧 니들웍스와 TNF의 모든 공헌자 분들과 함께 이 다음에 할 일에 대해서 이야기 해 볼 시간을 가져보기를 고대하고 있습니다.&lt;/p&gt;
+
+&lt;p&gt;덧) 진짜 텍스트큐브 1.8이 늦어지는 이유는 개발하던 텍스트큐브의 새 프레임웍이, 이론상으로 논의되던 것과는 다르게 구현을 해 본 결과 성능 문제가 너무 커서 제주도에서 한 번 뒤집은 후 좌절의 텀이 길어지고 있어서라는 농담같은 이야기가 있긴 합니다. ㅎㅎ&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://blog.needlworks.org/ko/entry/ingredients-for-leaping-forward?commentInput=true#entry2460859WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>따뜻한 이야기</category>
+			<category>미래</category>
+			<category>삶</category>
+			<category>생각</category>
+			<category>코딩</category>
+			<category>텍스트큐브</category>
+			<author>inureyes@gmail.com (inureyes)</author>
+			<guid>http://blog.needlworks.org/ko/2460859</guid>
+			<comments>http://blog.needlworks.org/ko/entry/ingredients-for-leaping-forward#entry2460859comment</comments>
+			<pubDate>Sat, 04 Apr 2009 01:35:49 +0900</pubDate>
+		</item>
+		<item>
+			<title>컴퓨터 길들이기</title>
+			<link>http://blog.needlworks.org/ko/entry/%EC%BB%B4%ED%93%A8%ED%84%B0</link>
+			<description>&lt;p&gt;텍스트큐브 개발을 해오면서 수많은 사용자들의 건의와 질문을 받습니다. 설치 과정에서 DB 정보를 입력해야 하는데 그게 뭔말인지 몰라서 질문하는 경우부터, 스킨을 수정하는데 특정 브라우저에서 깨지니까 소스 주면서 어떻게 고쳐야 되냐고 물어본다거나, 굉장히 세세한 동작에 대한 옵션을 추가해달라는 경우까지 정말 다양하지요.&lt;/p&gt;
+
+&lt;p&gt;문제는 오픈소스 커뮤니티의 특성상, 사용자들의 모든 요구에 일일이 응대해주기도 어려울 뿐더러--사실 전문대응팀을 가진 큰 기업도 쉽지 않은 일입니다만--각 요구를 우리가 추구하는 목표에 맞게 자를 건 자르고 받아들인 건 받아들인다면 그 기준을 어떻게 세울 것인가도 큰 문제입니다. 100% 사용자의 요구에 맞출 수도 없는 일이고(사공이 많으면 배가 산으로 간다고 했습니다), 우리의 목표에 맞추자니 당장의 버전 로드맵부터 개발자의 취향(!)에 이르기까지 다양한 변수의 영향을 받습니다.&lt;/p&gt;
+
+&lt;p&gt;개발 프로세스를 좀더 세분화해서 알파 단계까지 새 버전에서 지원할 기능 목록을 확정하고 베타에서 테스트하고 발표후보 단계에서 다국어 번역 및 최종 디버깅하는 식으로 가면 가장 이상적이겠습니다만, 그럼 그 지원할 기능 목록을 정하기까지 어떤 기준으로 잘라내야 하는지는 사실 정답이 없는 문제라는 겁니다. 기술적으로 봤을 때 구현난이도를 포함, 현재 프로그램의 구조에 잘 끼워맞출 수 있는 것인지 볼 수도 있고, 무조건 이건 사용자가 원하는대로 가야 한다는 식이 있을 수도 있고 그 둘의 절충안이 있을 수도 있겠죠.&lt;/p&gt;
+
+&lt;p&gt;어떤 분들은 자신이 처한 상황을 매우 잘 분석해서 정말 도움을 드리고싶게끔 하시는 경우도 있지만, 어떤 분들은 무조건 자기가 필요로 하는 것을 해결해달라고 하는 경우도 많습니다. 물론 저 또한 제가 사용하는 다른 제품이나 소프트웨어에 대해서 그런 태도를 보일 때도 있을 것입니다. 어쨌든, 이런 사용자 지원 요청들을 중간에서 적절하게 잘라서 영양가 있는 것만 골라내야 하는데 그게 참 어렵습니다. 누가 그 일을 할 것인가도 문제고, 누가 그 기준을 세울 것인가도 문제고...&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;* * *&lt;/p&gt;
+
+&lt;p&gt;한편 얼마 전 &lt;a href=&quot;http://blog.dahlia.pe.kr/articles/2009/01/09/%EC%B4%88%EC%A4%91%EA%B3%A0-%EC%BB%B4%ED%93%A8%ED%84%B0-%EA%B5%90%EC%9C%A1&quot;&gt;이런 글을 읽었습니다.&lt;/a&gt; 컴퓨터가 일상에서 너무나 자주 사용되는 물건이 되었기 때문에, 이제는 마치 펜과 종이를 다루듯 컴퓨터 교육도 변해야 한다는 내용이었습니다.&lt;/p&gt;
+
+&lt;p&gt;예를 들면, 국어 시간에 글쓰기 방법을 가르치면서 문단 개념과 함께 HTML의 p 태그와 br 태그의 차이점을 알려준다든지, 수학 시간에 함수를 배우면 이 개념을 그대로 구현한 함수형 프로그래밍 언어 실습을 한다든지, 가사에 관해 다루는 가정 시간에는 컴퓨터 운영체제 설치하는 방법을 가르친다든지 말이죠.; 미술 시간엔 문서 디자인 정의하는 방법을 실습해보고, 음악 시간엔 MIDI 소프트웨어로 써보며, 도덕 시간에는 네티켓에 대해 배우는 겁니다.&lt;/p&gt;
+
+&lt;p&gt;컴퓨터는 현대의 학생들에겐 마치 연필과 같은 존재입니다. 더이상 &#039;컴퓨터&#039;라는 별도의 과목에 가두어두기보단 생활과 모든 분야에 자연스럽게 녹아들어갈 수 있도록 해야 한다는 것이 그 주장의 요지입니다.&lt;/p&gt;
+
+&lt;p&gt;한 가지 질문을 해보겠습니다. 이 글을 보시는 여러분들 중 워드프로세서의 구조적 서식 기능을 얼마나 사용하시나요? 구조적 서식이란 미리 제목, 부제목, 문단, 캡션 등의 속성을 글에 적용해놓고 각각에 대한 서식을 정의함으로써 문서 전체에 일관성있는 디자인을 적용하는 걸 말합니다. 웹에 비유하자면 h1, h2, h3, p 태그 등으로 잘 작성해놓은 문서에 CSS로 서식을 입히는 것과 같죠.&lt;/p&gt;
+
+&lt;p&gt;이런 기능이 있다는 것을 모르거나, 있는 걸 알고 있어도 그냥 당장 눈에 잘 보이면 되니까-하고 안 쓰는 경우도 있을 것입니다. 혹은, 어딜가나(다른 프로그램으로 옮겨서 보거나 다른 문서에 붙여넣었을 때) 내가 편집한 건 무조건 똑같이 보여야 한다는 생각 때문일 수도 있겠죠. 가끔은 그런 구조화 기능이 실제 사용자가 필요로 하는 구조화를 미처 다 지원하지 못하여 어쩔 수 없는 경우도 있습니다.&lt;/p&gt;
+
+&lt;p&gt;특히 마지막과 같은 경우로 얼마 전 아버지가 쓰실 파워포인트 슬라이드 정리를 했었는데, 파워포인트가 제공하는 &#039;제목 - 항목 나열&#039;의 구조로는 &#039;제목 - 현재 섹션 - 1개 이상의 페이지 부제목 - 부제목 별 항목 나열&#039;이라는 구조를 도저히 흡수시킬 수 없었기 때문에 결국 일일이 서식 노가다를 해야 했었습니다.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;* * *&lt;/p&gt;
+
+&lt;p&gt;사람들이 컴퓨터를 컴퓨터로 보지 않고 일상에서의 도구로 보게 되는 날이 오면, 아마도 지금은 기술자들이나 다루는 추상화라고 생각하는 것들이 자연스런 상식으로 받아들여지거나 아니면 애초에 기술이 존재하는지 모를만큼 자연스러워지거나 하게 될 것입니다.&lt;/p&gt;
+
+&lt;p&gt;그렇지만 언제나 그렇듯 추상화의 구멍이 생기는 순간 어쩔 수 없는 부분들이 생깁니다. 바로 위의 파워포인트 서식 사례가 바로 그렇습니다. 그러면 여기서 제가 마이크로소프트에 저런 서식 구조도 지원해달라고 건의해야 할까요? 만약 건의를 해서 받아들여진다면, 결과가 사용자가 직접 파워포인트의 템플릿을 정의하고 각각에 대한 디자인 요소 이름을 정의할 수 있게 만든다면 디자인 서식들이 이를 &#039;일반적으로 잘&#039; 지원할 수 있게 하기 위한 오버엔지니어링이 엄청날 겁니다. 그리고 그게 저한테는 편하다손 치더라도 다른 사람들한테도 편할 것인지는 절대 장담할 수 없습니다.&lt;/p&gt;
+
+&lt;p&gt;제가 보기엔 텍스트큐브 포럼에 올라오는 많은 건의와 질문들 중 이런 경우도 종종 있는 것 같습니다. 물론 그렇다고 사용자분들께 건의하지 말라는 건 아닙니다. 언제나 그렇듯(^^) 모든 분들의 의견은 어떤 식으로든 소중하니까요. 다만 그러한 건의들의 우선순위를 결정하고 그 기준을 세우고 거기에 적절한 인력을 할당하는 일은 정말 어렵다는 이야기를 하고 싶은 것입니다. 기준이 구체화될수록 결정은 쉬워지겠지만 그만큼 놓치는 것도 많을 겁니다.&lt;/p&gt;
+
+&lt;p style=&quot;text-align:center&quot;&gt;* * *&lt;/p&gt;
+
+&lt;p&gt;위지윅 에디터는 무조건 사용자가 눈에 보이는 문서를 편집하기 쉽게 만들어져야 할까요 아니면 문서의 구조화를 통해 서식 기능을 활용하도록 만들어져야 할까요?&lt;/p&gt;
+
+&lt;p&gt;개발자가 아닌 분들은 이런 문제에 대해 어떻게 생각하시나요? 정말 궁금합니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://blog.needlworks.org/ko/entry/%EC%BB%B4%ED%93%A8%ED%84%B0?commentInput=true#entry2460858WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>머리아픈 이야기</category>
+			<category>건의</category>
+			<category>구조화</category>
+			<category>사용자</category>
+			<category>서식</category>
+			<category>질문</category>
+			<category>추상화</category>
+			<category>컴퓨터</category>
+			<category>포럼</category>
+			<author>daybreaker12@gmail.com (daybreaker)</author>
+			<guid>http://blog.needlworks.org/ko/2460858</guid>
+			<comments>http://blog.needlworks.org/ko/entry/%EC%BB%B4%ED%93%A8%ED%84%B0#entry2460858comment</comments>
+			<pubDate>Sat, 24 Jan 2009 03:18:31 +0900</pubDate>
+		</item>
+		<item>
+			<title>새해인사 올려요</title>
+			<link>http://blog.needlworks.org/ko/entry/%EC%83%88%ED%95%B4%EC%9D%B8%EC%82%AC-%EC%98%AC%EB%A0%A4%EC%9A%94</link>
+			<description>&lt;div style=&quot;border: 5px solid rgb(221, 221, 221); padding: 7px; text-align: center; font-weight: bold;&quot;&gt;&#039;텍스트큐브&#039; &lt;span style=&quot;font-weight: normal;&quot;&gt;니들과 웍스들&lt;/span&gt;?&lt;/div&gt;&lt;br&gt;안녕하세요. LonnieNa(윤식) 입니다.&lt;br&gt;&lt;br&gt;&lt;div style=&quot;float: left; font-family: &#039;Trebuchet MS&#039;,&#039;geneva&#039;; font-style: italic;&quot;&gt;&lt;font size=&quot;5&quot;&gt;1&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 20px;&quot;&gt;2008년은 벌써 저 뒤에 있네요.&lt;br&gt;아직 3일 밖에 안지났는데 말이죠.&lt;br&gt;벌써! 작심삼일에 넘어가신 분은 계시련지요? 헤헤&lt;br&gt;&lt;span style=&quot;background-color: rgb(201, 237, 255);&quot;&gt;Needlworks(니들웍스)&lt;/span&gt;에서도 신년인사를 올려야 하는데 맴버들이 다들 바쁘신지라,&lt;br&gt;(내부적으로 오는 10일 이제 유부남의 세계로 가시는 &lt;a style=&quot;background-color: rgb(250, 255, 169);&quot; href=&quot;http://coupled.nubimaru.com&quot; target=&quot;_blank&quot;&gt;inureyes(신정규)&lt;/a&gt;&lt;span style=&quot;background-color: rgb(250, 255, 169);&quot;&gt;님&lt;/span&gt; 많이 축하해주세요~)&lt;br&gt;매번 놀고 있는 제가 ㅠ.~ 먼저 인사올립니다.&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;float: left; font-family: &#039;Trebuchet MS&#039;,&#039;geneva&#039;; font-style: italic;&quot;&gt;&lt;font size=&quot;5&quot;&gt;2&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 20px;&quot;&gt;길면 길고 짧으면 짧다던 1년동안 2008에 익숙해져버렸는지 2009라는 숫자가 너무나도 어색하기만 합니다.&lt;br&gt;벌써부터 신년계획 주루룩 세워놓고 스케쥴 빡빡히 채워두신 분도 계실테구요.&lt;br&gt;아직 미처 망설이고 계신분들도 계실거구..&lt;br&gt;저처럼 응, 아직 2008년에 미련을 못버려 애태우고 있는 분은 안계시겠지요?&lt;br&gt;지나간건 이제 다 잊어버리고 그 중 좋았던 기억들만 가지고 가자구요.&lt;br&gt;봄날의 싱그러운 아침 햇살, 여름날의 시원한 바다소리, 가을날의 여유로운 바람의 느낌, 그리고 겨울날 즐겁기만 했던 눈오던 그 날..&lt;br&gt;&lt;span style=&quot;background-color: rgb(255, 218, 237);&quot;&gt;앤&lt;/span&gt;하고 영화보며 웃었던 기억 들.. 뭐 그런것들이요.&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;float: left; font-family: &#039;Trebuchet MS&#039;,&#039;geneva&#039;; font-style: italic;&quot;&gt;&lt;font size=&quot;5&quot;&gt;3&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 20px;&quot;&gt;지난 2008년 니들웍스에서는 무슨 즐겁고 재미난 일들이 있었을까요?&lt;br&gt;P2, S2, TNC, DAUM, Tistory, Google.. 아는 사람만 아는 그런 이야기들..&lt;br&gt;사실 저도 이런 어려운말 잘 모르거든요;;&lt;br&gt;이런 것들보다 더 중요한건 앞으로의 2009년 이랍니다아.&lt;br&gt;&lt;br&gt;&#039;니들웍스는 모두가 서로 아끼고 아껴서, 그래서 그 맘가득 담아 한해동안 더욱더 한발짝 나아가는 우리가 될거에요오~&#039;&lt;br&gt;&lt;br&gt;2009년엔 더욱 더 많이 지켜봐 주시구요, 응원해 주세요. &lt;br&gt;2008년의 그 커다란 사랑이 있어 오늘의 2009년을 더 힘차게 내 딛을 수 있었습니다.&lt;br&gt;수많은 덕담, 바라는 말, 그 무엇을 다 이루면 그 끝엔 &lt;span style=&quot;background-color: rgb(228, 228, 228);&quot;&gt;행복&lt;/span&gt;이 있답니다.&lt;br&gt;마지막으로..&lt;br&gt;더도 덜도 말고 여러분들에게 행복만, 사랑만 가득하길 빌겠습니다.&lt;/div&gt;&lt;br&gt;&lt;hr&gt;&lt;br&gt;&#039;여러분들이 있어 오늘도 저희는 삽질을 합니다.&#039;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://blog.needlworks.org/ko/entry/%EC%83%88%ED%95%B4%EC%9D%B8%EC%82%AC-%EC%98%AC%EB%A0%A4%EC%9A%94?commentInput=true#entry2460857WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>따뜻한 이야기</category>
+			<category>2009년</category>
+			<category>눈떠보니</category>
+			<category>벌써</category>
+			<author>love@ruru.info (LonnieNa)</author>
+			<guid>http://blog.needlworks.org/ko/2460857</guid>
+			<comments>http://blog.needlworks.org/ko/entry/%EC%83%88%ED%95%B4%EC%9D%B8%EC%82%AC-%EC%98%AC%EB%A0%A4%EC%9A%94#entry2460857comment</comments>
+			<pubDate>Sat, 03 Jan 2009 23:34:49 +0900</pubDate>
+		</item>
+		<item>
+			<title>오랜만에 광고글 하나</title>
+			<link>http://blog.needlworks.org/ko/entry/savethedeveloper</link>
+			<description>&lt;p&gt;아아, 눈물이 앞을 가리는군요.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://resistan.com/savethedeveloper/&quot;&gt;Save The Developer! - IE6는 제발 더이상 쓰지 말아 주세요.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;온갖 웹서버와 웹브라우저에 대응해야 하는 텍스트큐브 개발진으로서 매우매우 공감가네요. 제발, 제 머리털 좀 덜 빠지고 제가 제 명에 죽을 수 있도록 IE6 쓰시는 분들은 업그레이드해주세요. ㅠ_ㅠ&lt;/p&gt;
+
+&lt;p&gt;이제 국내의 어지간한 사이트들도 IE7에서 문제 없이 돌아갑니다. 인터넷 뱅킹, 쇼핑, 결제 등등 문제 생기는 곳은 더이상 안 보이는 것 같습니다. 그러니 제발 개발자들이 더 나은 인터넷·웹 서비스를 제공할 수 있도록 다같이 도와줍시다~&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://blog.needlworks.org/ko/entry/savethedeveloper?commentInput=true#entry2460856WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>즐거운 이야기</category>
+			<category>IE6</category>
+			<category>IE7</category>
+			<category>Svae The Developer</category>
+			<category>업그레이드</category>
+			<category>웹브라우저</category>
+			<author>daybreaker12@gmail.com (daybreaker)</author>
+			<guid>http://blog.needlworks.org/ko/2460856</guid>
+			<comments>http://blog.needlworks.org/ko/entry/savethedeveloper#entry2460856comment</comments>
+			<pubDate>Wed, 03 Dec 2008 23:52:36 +0900</pubDate>
+		</item>
+		<item>
+			<title>시간의 흐름, 그리고 오픈소스</title>
+			<link>http://blog.needlworks.org/ko/entry/%EC%8B%9C%EA%B0%84%EC%9D%98-%ED%9D%90%EB%A6%84-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4</link>
+			<description>최근 모종의 일(?) 때문에 우분투를 본격적으로 써야 할 일이 생겼습니다. 뭐, 그동안 데비안이나 우분투를 서버용으로 오랫동안 사용해왔기 때문에 새삼스런 일은 아니지만, 이번에는 데스크탑 운영체제로 사용해야 했기 때문에 실제 작업 환경을 구축하는 일이라 좀더 다른 의미가 있지요.&lt;br&gt;&lt;br&gt;제가 데스크탑 버전을 마지막으로 써본 것이 우분투 6.x 시절입니다. 노트북에 멀티부팅으로 깔아서 잠깐 써봤던 정도이고, 아직 본격적으로 이용해야겠다는 생각은 들지 않았었습니다. 절전 모드 동작이 불안하다든지, 당시만 해도 소리가 나오게 하기 위해 설치 후 잡다한 삽질을 해야 했다든지, 특히 설치 직후 한글 입력과 미려한 한글 글꼴 사용을 위해 이것저것 해야 할 일이 너무나 많았습니다. 관련 지식이 있는 사람이라면 그래도 한두 시간의 삽질로 해결할 수 있겠지만 전혀 경험이 없는 사람들이나 일반 사용자들의 경우엔 접근하기 어려웠고, 우분투를 주 운영체제로 사용한다는 건 일종의 모험 같은 것이었습니다.&lt;br&gt;&lt;br&gt;시간이 흘러흘러 2년여가 지났습니다. 약 2년 전부터 듀얼코어급 데스크탑을 사용하기 시작했고, 학교에서 라이센스를 나눠준 Windows Vista를 써오고 있었습니다. 그러다가 얼마 전 새 하드디스크를 구입하게 되었고, 그동안 가상머신에서 깨작깨작(...) 가지고 놀던 우분투를 멀티부팅으로 제대로 깔아볼 수 있었습니다.&lt;br&gt;&lt;br&gt;우선 놀라운 것은 별다른 설정 없이, 설치 과정에서 한글 키보드 레이아웃을 선택한 것만으로 한영 전환이 기본으로 동작했다는 점입니다. 한글 윈도우를 쓴다면 지극히 당연한 일이지만, 리눅스에서는 아직까지 당연한 게 아니었습니다. 제가 할 일은 두벌식 대신 세벌식을 쓰도록 바꾸는 정도 뿐이었습니다. 글꼴 또한, 최근 배포되기 시작한 NHN의 나눔 시리즈나 아리따체 등 기본 은글꼴 시리즈 외에도 선택의 폭이 커져 보다 미려한 화면을 볼 수 있게 되었지요. (특히 나눔고딕의 경우 우분투에서 웹페이지 기본 글꼴로 아주 잘 어울립니다.)&lt;br&gt;&lt;br&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;&lt;a href=&quot;http://www.flickr.com/photos/daybreaker12/2935219824/&quot;  title=&quot;Flickr에서 아침놀님의 ubuntu-screenshot&quot;&gt;&lt;img src=&quot;http://farm4.static.flickr.com/3219/2935219824_3b3202abb3.jpg&quot; alt=&quot;ubuntu-screenshot&quot; height=&quot;188&quot; width=&quot;500&quot;&gt;&lt;/a&gt;
+&lt;p class=&quot;cap1&quot;&gt;우분투 듀얼모니터 적용 스크린샷&lt;/p&gt;&lt;/div&gt;
+게다가, Windows Vista도 한 번에 잡지 못했던 8800GTS 그래픽카드 드라이버도 독점드라이버 사용 클릭 한 번으로 해결했고, 고급 사용자들만이 성공할 수 있었던 무한한 삽질(-_-)의 듀얼모니터 설정 또한 nvidia-settings라는 프로그램을 이용해 아주 간단하게 끝마칠 수 있었습니다. 거기에 절전·최대절전모드까지 완벽하게 동작하고 있습니다. ㅠ_ㅠ&lt;br&gt;&lt;br&gt;이제 윈도보다 설치가 간단해진 것 같습니다. 웹브라우저, 오피스, 통합 메신저 등이 기본으로 깔려 있기 때문에 개발자처럼 특별한 소프트웨어를 필요로 하는 경우가 아니라면 설치 후 기본 UI 글꼴, 바탕화면 그림 등 몇 가지 손보는 것 외에는 별로 할 일이 없습니다. 다만, 오픈소스 운영체제의 특성상 처음부터 독점 소프트웨어를 설치할 수 없기 때문에 mp3를 처음 재생할 때 코덱 설치 안내가 뜬다든지 그래픽카드 드라이버도 한 번 더 클릭해서 활성화해줘야 하는 단점은 있지만 어차피 윈도우 깔고 나서도 칩셋 드라이버며 온갖 드라이버를 깔아야 하는 수고스러움을 생각한다면 오히려 더 간단합니다. 그래픽 드라이버 쪽에서 아직 독점소프트웨어에 의존해야 하는 부분은 있지만, ATI도 오픈소스 드라이버 발표를 확정했고(아직까지 ATI보다는 nVidia 쪽이 리눅스에서 쓰기 편합니다), nVidia의 리눅스 드라이버 지원도 잘 이루어지고 있어 사용자 입장에서는 전혀 문제될 것이 없습니다.&lt;br&gt;사실 아주 초창기 때는 리눅스의 그래픽 환경을 사용하기 위해 자기가 가진 모니터와 그래픽카드가 지원하는 수직·수평 주파수 값을 알고 있어야 했을 정도니 사용자들이 쓰기엔 요원해보이는 적도 있었습니다.&lt;br&gt;&lt;br&gt;저는 놀랐습니다. 하나의 철학으로 시작한 오픈소스 운동이 수많은 사람들의 손을 거치며 리눅스를 탄생시키고 그것이 점점 발전하여 이제는 정말로 사용자 입장에서 쓸 만한 그 무엇이 되었다는 것에 말이죠. 물론 우분투 뒤에는 엄청난 재력가인 마크 셔틀워스의 든든한 후원이 있었기는 합니다만 기본적으로 오픈소스 철학 하에 만들어지고 있고 그의 지원이 없었어서 시간이 더 걸렸더라도 결국엔 이렇게 발전했으리라 생각합니다. 아무튼, 이제 슈프림 커맨더와 같은 윈도우 전용 게임을 하거나 비주얼 스튜디오 개발을 하지 않는 이상 우분투를 메인으로 써도 되겠다는 생각이 들었습니다.&lt;br&gt;&lt;br&gt;인터넷 뱅킹과 전자상거래를 이미 모든 웹브라우저에서 이용할 수 있는 유럽에서는 실제로 우분투를 메인 운영체제로도 많이 사용하고 있습니다. 스웨덴 교환학생할 때 기숙사 같은 층 친구도 우분투를 데스크탑 운영체제로 사용하고 있었지요. (아, 한국의 IT 현실이 이럴 때 특히 안타깝습니다.) 자신의 용도에 맞추어, 굳이 상용 제품 없이도 컴퓨터 생활을 할 수 있는 세상을 리눅스와 우분투가 열어주었습니다.&lt;br&gt;&lt;br&gt;상용 소프트웨어들도 그 나름대로의 장점이 있습니다. 문제가 발생했을 때 따질 수 있는 창구가 존재한다는 점이 대표적이겠죠. 하지만 이제 오픈소스 소프트웨어들도 상용 소프트웨어만큼의 기능·성능을 가지기 시작했고 그로 인해 기업들이 독과점할 수 있는 여지를 줄여버렸습니다. 따라서 오픈소스의 존재로 인해 상용 제품을 파는 기업들은 계속해서 부단히 노력해야 할 수밖에 없고, 이는 소비자 입장에서 보다 다양한 선택권을 주는 효과를 가져옵니다.&lt;br&gt;&lt;br&gt;니들웍스의 모토 또한 그러한 웹의 다양성 유지·확보가 중요한 부분을 차지하고 있죠. 텍스트큐브 또한 마찬가지입니다. 누구나 생소한 개념이었던 블로그를 비교적 손쉽게 설치하고 사용해볼 수 있는 토양을 마련하였고, 이는 우분투와 같이 독점 서비스들에 대한 훌륭안 대안재가 되었습니다. 한편으로는 그만큼 더 분발해야겠다는 책임감도 생깁니다.&lt;br&gt;&lt;br&gt;저는 가끔 생각합니다. 단순히 지식정보화시대라는 낱말로 표현되지 않는 오픈소스가 세상을 어떻게 변화시켰는지, 어떻게 변화시키게 될지에 대해 후대의 역사학자들이 어떻게 평가할지 말이죠. 인류가 수백, 수천년 후에도 계속 번영한다면 아마도 굉장히 특이한, 굉장히 중요한 사건으로 기록되지 않을까 싶습니다.&lt;br&gt;&lt;br&gt;이상 갑자기 쓸데없는 감상(...)에 젖어본 우분투 사용자(...)였습니다;;;&lt;br&gt;&lt;br&gt;ps. 여기서 &#039;독점&#039;이란 단어는 단순히 시장을 장악한다는 의미뿐만 아니라, 폐쇄적인 라이선스·약관을 가진 경우도 포함합니다.&lt;br&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://blog.needlworks.org/ko/entry/%EC%8B%9C%EA%B0%84%EC%9D%98-%ED%9D%90%EB%A6%84-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4?commentInput=true#entry2460855WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>따뜻한 이야기</category>
+			<category>리눅스</category>
+			<category>역사</category>
+			<category>오픈소스</category>
+			<category>우분투</category>
+			<category>전환점</category>
+			<category>철학</category>
+			<author>daybreaker12@gmail.com (daybreaker)</author>
+			<guid>http://blog.needlworks.org/ko/2460855</guid>
+			<comments>http://blog.needlworks.org/ko/entry/%EC%8B%9C%EA%B0%84%EC%9D%98-%ED%9D%90%EB%A6%84-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%98%A4%ED%94%88%EC%86%8C%EC%8A%A4#entry2460855comment</comments>
+			<pubDate>Mon, 13 Oct 2008 01:55:11 +0900</pubDate>
+		</item>
+		<item>
+			<title>실종아동찾기 캠페인 (findingNemo 프로젝트) 관련 서버 장애 및 오류 복구 안내</title>
+			<link>http://blog.needlworks.org/ko/entry/notice-about-problem-with-findingNemo-server</link>
+			<description>실종아동 찾기 캠페인 프로젝트 및 플러그인 동작 오류에 대한 안내를 드립니다.&lt;br&gt;&lt;br&gt;10월 1일부터 TNF/Needlworks 의 메인 서버인 TNF1에 오류가 생겨 이후 서버 이전 및 복구 작업을 진행하였습니다. 그 과정에서 실종 아동 찾기 플러그인 파일의 마지막 백업일이 2008년 2월이라 당시의 파일을 복원하며 임시파일인 RSS 캐시 데이터가 10월 8일 새벽 4시경부터 오전 10시 30분까지 노출되었습니다. 이로 인하여 과거의 정보가 출력되는 문제와 함께, 해당 데이터를 12시간 단위로 캐싱해서 사용하는 티스토리의 플러그인도 과거 정보를 보여주는 문제가 있었습니다.&lt;br&gt;&lt;br&gt;현재는 서버 복구 작업및 과거 캐시 파일들에 대한 삭제 작업이 이루어진 상태입니다.&lt;br&gt;&lt;br&gt;이번 데이터 장애는 서버 복구 과정에서 과거 파일을 사용하면서 해당 서비스와 같이 백업 되었던 임시파일이 출력된 경우이므로, 실종 아동의 데이터 보관과는 아무런 연관이 없음을 알려 드립니다. 또한 TNF/니들웍스의 서버 복구 과정에서 일어난 사고이므로, 캠페인에 관련해서 도움을 주시는 어린이 재단과는 관련이 없음도 함께 알려 드립니다.&lt;br&gt;&lt;br&gt;예상치 않은 긴급 복구 작업으로 인하여 과거의 임시 저장 데이터가 출력된 부분에 대하여 관계자 분들께 죄송하다는 말씀을 드립니다. 또한 관련하여 문제를 해결하기 위해 도움을 주신 어린이 재단 및 다음 커뮤니케이션 측에 감사의 말씀을 드립니다.&lt;br&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://blog.needlworks.org/ko/entry/notice-about-problem-with-findingNemo-server?commentInput=true#entry2460854WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>머리아픈 이야기</category>
+			<category>공지</category>
+			<category>오류</category>
+			<category>장애</category>
+			<author>inureyes@gmail.com (inureyes)</author>
+			<guid>http://blog.needlworks.org/ko/2460854</guid>
+			<comments>http://blog.needlworks.org/ko/entry/notice-about-problem-with-findingNemo-server#entry2460854comment</comments>
+			<pubDate>Wed, 08 Oct 2008 17:37:57 +0900</pubDate>
+		</item>
+		<item>
+			<title>PHP5와 텍스트큐브</title>
+			<link>http://blog.needlworks.org/ko/entry/PHP5-and-textcube</link>
+			<description>오랜만에 글을 적습니다. 핑계라면 핑계이겠습니다만, 살아가면서 가끔 여러 일들을 겪으며 정리가 필요한 시기가 니옵다. 비단 한 사람만이 아니라 사람들의 모임에도 그런 시가기 오지요. 그 시기를 어떻게 지나가는지가 참 중요하다는 생각이 듭니다.&lt;br&gt;&lt;br&gt;간만의 글 치고는 고른 내용이 좀 딱딱하겠습니다. 텍스트큐브 1.8 이후부터 실행을 위해 PHP5.2 와 MySQL 4.1 이상을 기본 사양으로 요구하는데, 오늘은 그에 대한 설명이나 변화점을 이야기 하려고 합니다.&lt;br&gt;&lt;br&gt;국내의 대부분의 PHP 어플리케이션들은 PHP4를 기준으로 제작되고 있습니다. 여러 이유가 있지만, 가장 큰 이유는 프로그램을 설치할 수 있는 환경을 주로 제공하는 호스팅 업체들이 PHP5 를 지원하는 경우가 적기 때문입니다. PHP4 와 PHP5 는 숫자 하나 차이가 나지만, 굉장히 다른 특성을 보이는 언어입니다. 그래서 PHP4를 기준으로 만들어진 응용 프로그램들은 PHP5에서 동작하지 않는 경우들이 간혹 있습니다.&lt;br&gt;&lt;br&gt;그렇다고 PHP5 가 굉장히 새로운 언어는 아닙니다. 물론 PHP4 보다는 최근에 나왔지만, 어디까지나 상대적으로 보았을 때 입니다. 올해는 PHP5가 나온지 5년이 된 해입니다. PHP 5.3과 PHP6 이 개발 중에 있으며, 멀지 않아 사용할 수 있게 될 것입니다.&lt;br&gt;&lt;br&gt;지금까지 PHP 4.3을 기준으로 제작되던 텍스트큐브가 PHP 5.2를 기본 환경으로 선택하게 된 근본적인 이유는, 더이상 PHP 4 가 개발되지 않는다는 점 때문입니다. PHP 4의 공식적인 지원은 얼마전 종료 되었습니다. PHP.net에서는 보안을 포함한 여러 문제로 사용자들이 PHP 5.2 이상으로 이주할 것을 권고하고 있습니다. 웹을 둘러싼 환경은 빠른 속도로 변하게 될 것입니다. 이러한 과정에서 니들웍스와 텍스트큐브 개발 그룹도 결정을 해야 했습니다.&lt;br&gt;&lt;br&gt;텍스트큐브 1.7의 과거 환경 지원은 굉장히 폭넓습니다. PHP 4.3 과 MySQL 3.23 이상의 환경을 지원합니다. 이러한 지원은 사용자에게는 환경에 대한 고민을 하지 않아도 되는 이점이 있지만, 코드의 효율성 입장에서는 문제가 있습니다. 더 상위의 환경에서 텍스트큐브를 돌려도 속도의 이점을 볼 수 없기 떄문입니다. 예를 들면, 윈도우 비스타가 지원되는 환경에서도 도스 시절의 프로그램을 돌릴 수는 있지만 그 프로그램이 윈도우 비스타의 성능을 모두 끌어낼 수는 없는 것과 마찬가지입니다. 텍스트큐브가 하위 호환 모드로 동작할 때, 유니코드 환경 지원과 MySQL 3 데이터 베이스 지원을 위해 들어가는 서버 리소스는 텍스트큐브 전체 동작시 사용하는 리소스의 1/3 이상입니다. &lt;br&gt;&lt;br&gt;개발 패러다임의 변화도 PHP 5.2를 택한 이유입니다. 텍스트큐브의 일부 컴포넌트는 객체 지향 패러다임을 기반으로 작성 되었지만, PHP 4 의 객체 지원은 굉장히 부족합니다. 또한 속도 부분에서 큰 손해가 있기 때문에 텍스트큐브 1.7까지는 일부의 객체 기반 코드 일부의 순차 처리 코드로 이루어져 있습니다. 그러나 텍스트큐브 2.0에서 사용될 TCF (텍스트큐브 코어 프레임웍 – 가칭입니다.)를 개발하는 과정에서 개발에 참여하는 분들은 현재 코드의 혼란을 최소화 하기 위해서 코드의 패러다임을 변경하기를 원했습니다.&lt;br&gt;&lt;br&gt;위에서 설명 드린 것과 같이 PHP.net 에서의 PHP 4의 지원 중단, 과거 환경 지원으로 인하여 발생하는 성능 감소, 새 프레임웍을 둘러싼 개발 패러다임의 변화를 이유로 텍스트큐브 1.8 이후부터는 PHP 5.2와 MySQL 4.1 이상을 요구합니다. 새로운 프레임웍은 텍스트큐브 2.0부터 본격적으로 도입될 예정이며, 텍스트큐브 1.8은 텍스트큐브 1.x 코드를 새로운 환경의 특징을 살려 최적화하는, 다리 역할을 하는 주춧돌이 될 예정입니다. 텍스트큐브 1.8은 그 전까지 막혀 있던 병목들을 제거하여, 단위 시간당 더 많은 트래픽을 더 적은 CPU와 서버 로드를 사용해서 처리할 수 있는 가능성을 시험하게 됩니다.&lt;br&gt;&lt;br&gt;간단하게 결졍된 내용은 아니었습니다. 기본 요구 환경의 변화와 관련하여 내부적으로 많은 토론이 있었습니다. 한국 호스팅 업체의 환경이 과련 이러한 요구 사항을 받아 줄 것인지부터, 새로운 환경의 어떤 특징을 살려서 코드를 써 나갈 것인지에 대한 이야기도 있었습니다.&lt;br&gt;&lt;br&gt;그 논의에 참여하며 한가지 확신한 것이 있습니다. 정체는 무기력을 낳습니다. 텍스트큐브를 현재 한국 웹 호스팅의 현실에 맞게 개발하는 것도 중요합니다. 그렇지만 조금 눈을 밖으로 돌리고 조금 앞을 내다보려고 합니다. 지금이 현실에 대한 안주가 아닌 변화를 위한 적기입니다. 언젠가는 시작해야 하는 일입니다. 그래서 시작하려고 합니다.&lt;br&gt;&lt;br&gt;덧) PHP 4.3 사용자 분들이 많고, 당장 쉽게 새로운 환경으로 이전하기 힘든 부분을 어떻게 지원할 것인지에 대한 논의도 있었습니다. 텍스트큐브 1.8을 개발하는 중, 성능 향상이나 기존 버전에서 구현이 불가능한 부분들을 제외한 기능이나 인터페이스 추가와 같은 부분들은 기존의 텍스트큐브 1.7 에도 계속 반영하고 발표할 예정입니다.&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://blog.needlworks.org/ko/entry/PHP5-and-textcube?commentInput=true#entry2460852WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>머리아픈 이야기</category>
+			<category>MySQL</category>
+			<category>PHP4</category>
+			<category>PHP5</category>
+			<category>텍스트큐브</category>
+			<category>호스팅</category>
+			<author>inureyes@gmail.com (inureyes)</author>
+			<guid>http://blog.needlworks.org/ko/2460852</guid>
+			<comments>http://blog.needlworks.org/ko/entry/PHP5-and-textcube#entry2460852comment</comments>
+			<pubDate>Fri, 29 Aug 2008 01:14:12 +0900</pubDate>
+		</item>
+		<item>
+			<title>Needlworks.org i18n 적용!</title>
+			<link>http://blog.needlworks.org/ko/entry/Needlworksorg-i18n-%EC%A0%81%EC%9A%A9</link>
+			<description>&lt;p&gt;안녕하세요. 오랜만입니다.&lt;br /&gt;
+이번 토요일에 스웨덴을 떠나 일요일이면 드디어 기나긴(그러나 한편으론 짧디 짧은) 반년 동안의 교환학생 생활을 마치고 한국에 돌아가는 daybreaker입니다. (어디서 &#039;날뷁~~&#039;하고 부르는 소리가 들리지만 무시하시고-_-)&lt;/p&gt;
+
+&lt;p&gt;이번에 알려드릴 소식은 &lt;a href=&quot;http://needlworks.org&quot;&gt;needlworks.org&lt;/a&gt; 업데이트 내용입니다. 겉보기에는 전혀(...) 별 차이가 없겠지만 내부적으로는 약간의 변화가 있었습니다. 우선 기반 프레임웍으로 사용되는 Django의 버전업에 맞추어 새로 업데이트한 후 호환성 문제들을 수정하였고, 특히 중요한 것은 이제 외국에서 needlworks.org에 접속할 경우 영문으로 소개 내용이 표시되도록 했다는 것입니다. (사실 뜬금없이 i18n 지원을 넣게 된 건 제가 그동안 외국 친구들에게 needlworks 명함을 나눠주면서 홈페이지에 들어왔을 때 영문 지원이 없으면 좀 황당해하겠다 싶어서 그랬다고 말 못합니다..-_-..) 한편 Mac 환경에서 글꼴이 좀더 예쁘게 보이도록 CSS를 일부 변경하였습니다.&lt;/p&gt;
+
+&lt;p&gt;이것은 &lt;a href=&quot;http://www.djangoproject.com/documentation/i18n/&quot;&gt;Django의 i18n 프레임웍&lt;/a&gt;을 이용한 것으로, 제가 추가로 코드를 짠 것은 전혀 없고 단지 설정 파일과 템플릿 파일 및 python 코드 파일에 번역할 문자열을 표시해주고 번역한 데이터를 넣어준 것 뿐입니다. 역시 python을 사랑할수밖에 없군요..=3=3==3&lt;/p&gt;
+
+&lt;div style=&quot;text-align:center&quot;&gt;
+&lt;a href=&quot;http://www.flickr.com/photos/daybreaker12/2593288179/&quot;  title=&quot;Flickr에서 아침놀님의 Needlworks.org i18n&quot;&gt;&lt;img src=&quot;http://farm4.static.flickr.com/3144/2593288179_c1b58f9613.jpg&quot; width=&quot;500&quot; height=&quot;352&quot; alt=&quot;Needlworks.org i18n&quot; /&gt;&lt;/a&gt;
+&lt;p class=&quot;cap1&quot;&gt;웹브라우저 언어 설정을 영어 우선으로 놓고 들어가본 모습.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;물론 번역을 급조했기 때문에 번역의 질은 장담 못합니다만 그래도 없는 것보다는 낫겠지요.;; 번역 내용은 앞으로 차차 개선할 생각이며, (이렇게 쉽게 가능할지는 모르겠지만) &lt;a href=&quot;http://textcube.org&quot;&gt;textcube.org&lt;/a&gt;도 i18n을 할 예정입니다. :D&lt;/p&gt;
+
+&lt;p&gt;혹시, 일본어·중국어 등 다른 언어로 needlworks.org 번역을 도와주실 분은 이곳에 비밀댓글로 메일 주소를 달아주시면 번역 분량 파일을 보내드리도록 하겠습니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;http://blog.needlworks.org/ko/entry/Needlworksorg-i18n-%EC%A0%81%EC%9A%A9?commentInput=true#entry2460850WriteComment&quot;&gt;댓글 쓰기&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description>
+			<category>머리아픈 이야기</category>
+			<category>i18n</category>
+			<category>needlworks</category>
+			<category>needlworks.org</category>
+			<category>국제화</category>
+			<category>번역</category>
+			<category>홈페이지</category>
+			<author>daybreaker12@gmail.com (daybreaker)</author>
+			<guid>http://blog.needlworks.org/ko/2460850</guid>
+			<comments>http://blog.needlworks.org/ko/entry/Needlworksorg-i18n-%EC%A0%81%EC%9A%A9#entry2460850comment</comments>
+			<pubDate>Fri, 20 Jun 2008 08:25:33 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,539 @@
+﻿@{
+    Layout = null;
+}
+@Styles.Render("~/Content/fonts")
+@Styles.Render("~/Content/imgcss")
+@Styles.Render("~/Content/img_wysiwygcss")
+
+<div id="rpbody" style="width:960px;">
+    <h5 style="position:absolute; margin-left:10px; margin-top: 25px;">
+        <strong>
+            이미지 목록
+        </strong>
+    </h5>
+
+    <div id="img_list" style="text-align:center; position:absolute; width:200px; margin-top: 50px; background-color:#fff;">
+    </div>
+    <div style="position:absolute; width:800px; height:30px; margin-left:220px; margin-top: 50px; background-color:#fff;">
+        <div id="tool_bar"></div>
+    </div>
+    <div id="text-area1" style="position:absolute; width:700px; margin-left:250px; margin-top: 180px; z-index: 500;">
+    </div>
+    <div id="text-area2" style="position:absolute; width:700px; margin-left:250px; margin-top: 350px; z-index: 500;">
+    </div>
+    <canvas id="rp_canvas" style="position:absolute; width:800px; height:350px; margin-left:220px; margin-top: 110px;"></canvas>
+</div>
+<canvas id="temp-canvas"></canvas>
+<div id="font-testing">
+    <font color="#ffffff" face="Arial" size="7">
+    </font>
+</div>
+@Scripts.Render("~/bundles/modernizr")
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/jqueryform")
+@Scripts.Render("~/bundles/jqueryui")
+@Scripts.Render("~/bundles/bootstrap")
+@Scripts.Render("~/bundles/img_wysiwyg")
+<script>
+
+
+    // 실행
+    $('#widget-AddWidget-media_Rep', parent.document).click(function () {
+        init();
+        insert_image();
+        set_event();
+        firstImage();
+    });
+
+    // 브라우저 설정
+    var agent = {
+        isMac: navigator.appVersion.indexOf('Mac') > -1,
+        isMSIE: navigator.userAgent.indexOf('MSIE') > -1 || navigator.userAgent.indexOf('Trident') > -1,
+        isFF: navigator.userAgent.indexOf('Firefox') > -1
+    };
+
+    var canvasWidth = parseInt($('#rp_canvas').css('width'));
+    var canvasHeight = parseInt($('#rp_canvas').css('height'));;
+    var img_src, img_arr, rpCanvas, context;
+    var fontSizeArr = ["8", "8", "10", "12", "14", "18", "24", "36"];
+
+    // deletekey 이벤트
+    $(document).keydown(function (e) {
+        if (!agent.isMSIE) initfont();
+    });
+
+    // 크롬 폰트 초기화
+    function initfont() {
+        if ($('#text-area1').text() == '') {
+            document.execCommand('justifycenter', false, null);
+            document.execCommand('justifyleft', false, null);
+            document.execCommand("FontSize", false, "7");
+            document.execCommand("FontName", false, "굴림체");
+            document.execCommand("forecolor", false, "#304173");
+        }
+        else if ($('#text-area2').text() == '') {
+            document.execCommand('justifycenter', false, null);
+            document.execCommand('justifyleft', false, null);
+            document.execCommand("FontSize", false, "4");
+            document.execCommand("FontName", false, "굴림체");
+            document.execCommand("forecolor", false, "#2E3440");
+        }
+    }
+
+    // 초기화
+    function init() {
+        // 바탕 배경
+        $('body').css('background-color', '#eee');
+        // 크기 설정
+        var imgListHeight = parseInt($('#RepEmbed', parent.document).css('height')) - 20;
+        $('#rpbody').css('height', imgListHeight);
+        $('#img_list').css('height', imgListHeight - 50);
+        $('#img_list').css("overflow-y", "auto");
+        // 이미지 값 저장
+        img_src = $('#media_data_image_src', parent.document).val();
+        img_arr = img_src.split('\n');
+        // 캔버스 설정
+        rpCanvas = document.getElementById("rp_canvas");
+        context = rpCanvas.getContext("2d");
+        $('#font-testing').hide();
+        $('#temp-canvas').hide();
+
+        // 툴바 설정
+        if ($('#tool_bar').html() == "") {
+            $('#text-area1').wysiwyg({ toolbar_selector: "#tool_bar" });
+            $('#text-area1').wysiwyg("edit", true);
+            $('#text-area2').wysiwyg("edit", true);
+        }
+        $('#text-area1').mousedown(function () {
+            $(document).unbind("mousemove");
+        });
+        $('#text-area2').mousedown(function () {
+            $(document).unbind("mousemove");
+        });
+
+        // 초기 값
+        var contents;
+        if (img_arr[0] == "") {
+            if (agent.isMSIE) contents = '<p align="left"><font color="#304173" face="굴림체" size="7"><strong>제목을 입력하세요</strong></font></p>';
+            else contents = '<div style="text-align: left;"><font color="#304173" face="굴림체" size="7"><b>제목을 입력하세요</b></font></div>';
+        }
+        else {
+            if (agent.isMSIE) contents = '<p align="left"><font color="#304173" face="굴림체" size="7"><strong>' + img_arr[0] + '</strong></font></p>';
+            else contents = '<div style="text-align: left;"><font color="#304173" face="굴림체" size="7"><b>' + img_arr[0] + '</b></font></div>';
+        }
+        $('#text-area1').html(contents);
+        var contents;
+        if (agent.isMSIE) contents = '<p align="left"><font color="#2E3440" face="굴림체" size="4">내용을 입력하세요</font></p>';
+        else contents = '<div style="text-align: left;"><font color="#2E3440" face="굴림체" size="4">내용을 입력하세요</font></div>';
+        $('#text-area2').html(contents);
+    }
+
+    // 이미지 목록
+    function insert_image() {
+        if (img_arr.length <= 2) return;
+        var temp = "";
+        temp += "<div class='panel-group'><br/>";
+        for (var i = 1; i < img_arr.length - 1; i++) {
+            temp += '<div id="R' + i + '" type="button" class="btn btn-default imgbtnEffect" style="margin-top:5px;">';
+            temp += '<img id="RI' + i + '" src="' + img_arr[i] + '" style="width:150px; height:100px;">';
+            temp += '</div>';
+        }
+        temp += "</div>";
+        $('#img_list').html(temp);
+    }
+
+
+    // 이벤트 설정
+    function set_event() {
+        // 이미지 포커스 이벤트
+        $(".imgbtnEffect").mouseenter(function () {
+            $(this).toggleClass("btn-info btn-default");
+        });
+        $(".imgbtnEffect").mouseleave(function () {
+            $(this).toggleClass("btn-info btn-default");
+        });
+
+        // 이미지 버튼 클릭 이벤트
+        for (var i = 1; i < img_arr.length - 1; i++) {
+            $("#RI" + i).click(function () {
+                setImage(this.id);
+            });
+        }
+    }
+
+    // 이미지 그리기
+    function setImage(id) {
+        rpCanvas.width = canvasWidth;
+        rpCanvas.height = canvasHeight;
+
+        var img = document.getElementById(id);
+        context.drawImage(img, 0, 0, canvasWidth, canvasHeight);
+
+        var gradient = context.createLinearGradient(0, canvasHeight / 2, canvasWidth, canvasHeight / 2);
+        gradient.addColorStop(0, 'rgba(255,255,255,1)');
+        gradient.addColorStop(1, 'rgba(255,255,255,0)');
+        context.fillStyle = gradient;
+        context.fillRect(0, 0, canvasWidth, canvasHeight);
+
+        context.fillStyle = "#03588C";
+        context.fillRect(0, 0, canvasWidth, 15);
+
+    }
+
+    // 초기 이미지
+    function firstImage() {
+        rpCanvas.width = canvasWidth;
+        rpCanvas.height = canvasHeight;
+
+        var img = new Image();
+        img.src = img_arr[1];
+        context.drawImage(img, 0, 0, canvasWidth, canvasHeight);
+
+        var gradient = context.createLinearGradient(0, canvasHeight / 2, canvasWidth, canvasHeight / 2);
+        gradient.addColorStop(0, 'rgba(255,255,255,1)');
+        gradient.addColorStop(1, 'rgba(255,255,255,0)');
+        context.fillStyle = gradient;
+        context.fillRect(0, 0, canvasWidth, canvasHeight);
+
+        context.fillStyle = "#03588C";
+        context.fillRect(0, 0, canvasWidth, 15);
+    }
+
+    // 완료 버튼
+    $('#insertRpImage', parent.document).click(function () {
+        var canvasOffset = $('#rp_canvas').offset();
+        var tempcanvas = document.getElementById('temp-canvas');
+        var ctx = tempcanvas.getContext('2d');
+
+        $('#font-testing').show();     // 폰트 테스트 테그 활성화
+        $('#temp-canvas').show();       // 폰트 캔버스 활성화
+        for (var i = 1; i <= 2; i++) {
+            var offset = $('#text-area' + i).offset();
+            tempcanvas.width = $('#text-area' + i).width();
+            tempcanvas.height = $('#text-area' + i).height();
+            printTextBox(ctx, i);
+            var img = new Image();
+            var imgUrl = tempcanvas.toDataURL("image/png");
+            img.src = imgUrl;
+            context.drawImage(img, offset.left - canvasOffset.left, offset.top - canvasOffset.top, tempcanvas.width, tempcanvas.height);
+        }
+
+        $('#font-testing').hide();     // 폰트 테스트 테그 숨기기
+        $('#temp-canvas').hide();      // 폰트 캔버스 숨기기
+
+        // ajax를 통해 저장
+        var imgUrl = rpCanvas.toDataURL("image/png");
+        imgUrl = imgUrl.replace('data:image/png;base64,', '');
+        $.ajax({
+            type: "POST",
+            url: "/Image/SaveByteArrayAsImage",
+            traditional: true,
+            data: {
+                filename: "test",
+                base64String: imgUrl
+            }
+        }).done(function (data) {
+            if (data.success === true) {
+                //alert(data.avatarFileLocation);
+                var url = document.location.origin;                
+                parent.$('#media_data_Rep').val(url + data.avatarFileLocation);
+                parent.$('#widgetMedia_Rep').modal('hide');
+            }
+        }).fail(function (e) {
+        });
+    });
+
+    // 현재 폰트 태그 정보
+    function fontInfoCur(color, face, size, style) {
+        this.text = "";
+        this.color = color;
+        this.face = face;
+        this.size = size;
+        this.style = style;
+        this.strong = 0;
+        this.em = 0;
+        this.u = 0;
+        this.strike = 0;
+    }
+
+    // 폰트 정보 배열
+    function fontInfoArr() {
+        this.colorArr = new Array();
+        this.colorIdx = 0;
+        this.faceArr = new Array();
+        this.faceIdx = 0;
+        this.sizeArr = new Array();
+        this.sizeIdx = 0;
+        this.styleArr = new Array();
+        this.styleArr = 0;
+        this.caseArr = new Array();
+        this.caseIdx = 0;
+    }
+
+    // 텍스트 박스 프린트
+    function printTextBox(ctx, id) {
+        var align, tempData, tagName;
+        var ix, bw, bh, fontWidth, penalWidth, penalTop = 0;
+        if (agent.isMSIE) tagName = "p";
+        else tagName = "div";
+        penalWidth = $('#text-area' + id + ' ' + tagName + ':nth-child(1)').width();
+        penalTop = parseInt($('#text-area' + id + ' ' + tagName + ':nth-child(1)').css('height'));
+        penalTop -= parseInt($('#text-area' + id + ' ' + tagName + ':nth-child(1) font').css('height'));
+        penalTop /= 2;
+        for (var i = 1; i <= $('#text-area' + id + ' ' + tagName).length; i++) {
+            if ($('#text-area' + id + ' ' + tagName + ':nth-child(' + i + ')').html()) {
+                if (agent.isMSIE) align = $('#text-area' + id + ' ' + tagName + ':nth-child(' + i + ')').attr('align');
+                else align = $('#text-area' + id + ' ' + tagName + ':nth-child(' + i + ')').css('text-align');
+                fontWidth = $('#text-area' + id + ' ' + tagName + ':nth-child(' + i + ') font').width();
+                tempData = searchPanel(i, id, tagName);
+                ix = 0;
+
+                if (align == 'center' && fontWidth < penalWidth) ix = parseInt((penalWidth - fontWidth) / 2);
+                if (align == 'right' && fontWidth < penalWidth) ix = parseInt(penalWidth - fontWidth);
+
+                bh = parseInt($('#text-area' + id + ' ' + tagName + ':nth-child(' + i + ') font').css('height'));
+                penalTop += parseInt($('#text-area' + id + ' ' + tagName + ':nth-child(' + i + ') font').css('height'));
+
+                for (j = 0; j < tempData.length; j++) {
+                    if (tempData[j].style) {
+                        bw = getFontSizeWidth(tempData[j]);
+                        //bh = getFontSizeHeight(tempData[j]);  //텍스트 크기별 색 채우기
+                        if (agent.isMSIE) drawBackground(ix, penalTop - bh, bw, bh, tempData[j].style, ctx);
+                        else drawBackground(ix, penalTop - bh, bw, bh, tempData[j].style, ctx);
+                    }
+                    drawText(ix, penalTop, tempData[j], ctx);
+                    ix += getFontSizeWidth(tempData[j]);
+                }
+
+                penalTop -= parseInt($('#text-area' + id + ' ' + tagName + ':nth-child(' + i + ') font').css('height'));
+                penalTop += parseInt($('#text-area' + id + ' ' + tagName + ':nth-child(' + i + ')').css('height'));
+                penalTop += parseInt($('#text-area' + id + ' ' + tagName + ':nth-child(' + i + ')').css('margin-bottom'));
+            }
+        }
+    }
+
+    // 텍스트 패널 탐색 (n번째, top 여백)
+    function searchPanel(n, id, tag) {
+        var parent = $('#text-area' + id + ' ' + tag + ':nth-child(' + n + ')');
+        var panelValue = parent.html();
+        var panelAlign = parent.attr('align');
+        var panelWidth = parseInt(parent.css('width'));
+        var panelHeight = parseInt(parent.css('height'));
+        var textArr = new Array();
+        var textNum = 0;
+        var infoCur = new fontInfoCur("#ffffff", "돋움", "7", "");
+        var infoArr = new fontInfoArr();
+        var tagName = "", closeTag = 0;
+
+        // 패널 전체 탐색
+        for (var i = 0; i < panelValue.length; i++) {
+            //태그 탐색
+            if (panelValue[i] == '<') {
+                i++;
+                if (panelValue[i] == '/') {
+                    closeTag = 1;
+                    i++;
+                }
+                tagName = "";
+                while (panelValue[i] != '>' && panelValue[i] != ' ' && i < panelValue.length) {
+                    tagName += panelValue[i];
+                    i++;
+                }
+            }
+            // 폰트 태그 탐색
+            if (tagName == "font" || tagName == "span") {
+                if (closeTag) {
+                    if (infoArr.caseArr[infoArr.caseIdx] % 2 == 0) {
+                        infoArr.colorIdx--;
+                        infoCur.color = infoArr.colorArr[infoArr.colorIdx];
+                    }
+                    if (infoArr.caseArr[infoArr.caseIdx] % 3 == 0) {
+                        infoArr.faceIdx--;
+                        infoCur.face = infoArr.faceArr[infoArr.faceIdx];
+                    }
+                    if (infoArr.caseArr[infoArr.caseIdx] % 5 == 0) {
+                        infoArr.sizeIdx--;
+                        infoCur.size = infoArr.sizeArr[infoArr.sizeIdx];
+                    }
+                    if (infoArr.caseArr[infoArr.caseIdx] % 7 == 0) {
+                        infoArr.styleIdx--;
+                        infoCur.style = infoArr.styleArr[infoArr.styleIdx];
+                    }
+                    infoArr.caseIdx--;
+                    closeTag = 0;
+                }
+                else {
+                    infoArr.caseIdx++;
+                    infoArr.caseArr[infoArr.caseIdx] = 1;
+                    if (panelValue[i] == ' ') i++;
+                    while (panelValue[i] != '>' && i < panelValue.length) {
+                        var tempInfo = "";
+                        while (panelValue[i] != '=' && i < panelValue.length) {
+                            tempInfo += panelValue[i];
+                            i++;
+                        }
+                        i += 2;
+                        var tempData = "";
+                        while (panelValue[i] != '"' && i < panelValue.length) {
+                            tempData += panelValue[i];
+                            i++;
+                        }
+                        i++;
+                        if (tempInfo == "color") {
+                            infoArr.caseArr[infoArr.caseIdx] *= 2;
+                            infoArr.colorIdx++;
+                            infoCur.color = infoArr.colorArr[infoArr.colorIdx] = tempData;
+                        }
+                        else if (tempInfo == "face") {
+                            infoArr.caseArr[infoArr.caseIdx] *= 3;
+                            infoArr.faceIdx++;
+                            infoCur.face = infoArr.faceArr[infoArr.faceIdx] = tempData;
+                        }
+                        else if (tempInfo == "size") {
+                            infoArr.caseArr[infoArr.caseIdx] *= 5;
+                            infoArr.sizeIdx++;
+                            if (tempData.length > 4) tempData = 7;
+                            infoCur.size = infoArr.sizeArr[infoArr.sizeIdx] = tempData;
+                        }
+                        else if (tempInfo == "style") {
+                            infoArr.caseArr[infoArr.caseIdx] *= 7;
+                            infoArr.styleIdx++;
+                            infoCur.style = infoArr.styleArr[infoArr.styleIdx] = tempData;
+                        }
+                        if (panelValue[i] == ' ') i++;
+                    }
+                }
+                tagName = "";
+            }
+            else if (tagName == "strong" || tagName == "b") {
+                if (closeTag) {
+                    infoCur.strong = 0;
+                    closeTag = 0;
+                }
+                else {
+                    infoCur.strong = 1;
+                }
+                tagName = "";
+            }
+            else if (tagName == "em" || tagName == "i") {
+                if (closeTag) {
+                    infoCur.em = 0;
+                    closeTag = 0;
+                }
+                else {
+                    infoCur.em = 1;
+                }
+                tagName = "";
+            }
+            else if (tagName == "u") {
+                if (closeTag) {
+                    infoCur.u = 0;
+                    closeTag = 0;
+                }
+                else {
+                    infoCur.u = 1;
+                }
+                tagName = "";
+            }
+            else if (tagName == "strike") {
+                if (closeTag) {
+                    infoCur.strike = 0;
+                    closeTag = 0;
+                }
+                else {
+                    infoCur.strike = 1;
+                }
+                tagName = "";
+            }
+            else if (tagName == "br") {
+                if (closeTag) closeTag = 0;
+                textArr[textNum] = new fontInfoCur("#ffffff", "돋움", "7", "");
+                textArr[textNum].color = infoCur.color;
+                textArr[textNum].face = infoCur.face;
+                textArr[textNum].size = infoCur.size;
+                textNum++;
+                tagName = "";
+            }
+            else {
+                var tempText = "";
+                if (panelValue[i] == '>') i++;
+                if (panelValue[i] != '<') tempText = panelValue[i];
+                while (panelValue[i + 1] != '<' && i < panelValue.length) {
+                    i++;
+                    tempText += panelValue[i];
+                }
+                if (tempText.length) {
+                    textArr[textNum] = new fontInfoCur("#ffffff", "돋움", "7", "");
+                    textArr[textNum].text = tempText;
+                    textArr[textNum].color = infoCur.color;
+                    textArr[textNum].face = infoCur.face;
+                    textArr[textNum].size = infoCur.size;
+                    textArr[textNum].style = infoCur.style;
+                    textArr[textNum].strong = infoCur.strong;
+                    textArr[textNum].em = infoCur.em;
+                    textArr[textNum].u = infoCur.u;
+                    textArr[textNum].strike = infoCur.strike;
+                    textNum++;
+                }
+            }
+        }
+        /*
+        for (var i = 0; i < textArr.length; i++) {
+            alert(textArr[i].text + '\n' + textArr[i].color + '\n' + textArr[i].face + '\n' + textArr[i].size + '\n' + textArr[i].style + '\n' + textArr[i].strong + '\n' + textArr[i].em + '\n' + textArr[i].u + '\n' + textArr[i].strike);
+        }*/
+
+        return textArr;
+    }
+
+    // 폰트 size
+    function getFontSizeWidth(data) {
+        var temp = data.text.replace(' ', '&nbsp;');
+        if (data.strong) temp = '<strong>' + temp + '</strong>';
+        if (data.em) temp = '<em>' + temp + '</em>';
+        if (data.u) temp = '<u>' + temp + '</u>';
+        if (data.strike) temp = '<strike>' + temp + '</strike>';
+        $('#font-testing').find('font').html(temp);
+        $('#font-testing').find('font').attr('face', data.face);
+        $('#font-testing').find('font').attr('size', data.size);
+        return $('#font-testing').find('font').width();
+    }
+    function getFontSizeHeight(data) {
+        var temp = data.text.replace(' ', '&nbsp;');
+        if (data.strong) temp = '<strong>' + temp + '</strong>';
+        if (data.em) temp = '<em>' + temp + '</em>';
+        if (data.u) temp = '<u>' + temp + '</u>';
+        if (data.strike) temp = '<strike>' + temp + '</strike>';
+        $('#font-testing').find('font').html(temp);
+        $('#font-testing').find('font').attr('face', data.face);
+        $('#font-testing').find('font').attr('size', data.size);
+        return $('#font-testing').find('font').height();
+    }
+
+    // 배경 그리기
+    function drawBackground(x, y, w, h, style, ctx) {
+        var idx = style.indexOf('background-color: ');
+        var color = "";
+        if (idx >= 0) {
+            idx += 18;
+            while (style[idx] != ';') {
+                color += style[idx];
+                idx++;
+            }
+            ctx.fillStyle = color;
+            ctx.fillRect(x, y, w, h);
+        }
+    }
+
+    // 글자 그리기
+    function drawText(x, y, info, ctx) {
+        if (info.face) {
+            var tempText = info.text.replace(/&nbsp;/g, ' ');
+            ctx.fillStyle = info.color;
+            ctx.font = fontSizeArr[info.size] + 'pt ' + info.face;
+            ctx.textBaseline = 'bottom';
+            if (info.strong) ctx.font = 'bold ' + ctx.font;
+            if (info.em) ctx.font = 'italic ' + ctx.font;
+            ctx.fillText(tempText, x, y);
+        }
+    }
+</script>

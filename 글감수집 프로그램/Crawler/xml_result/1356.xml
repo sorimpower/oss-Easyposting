@@ -1,0 +1,1987 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+			xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+		xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+	>
+
+<channel>
+	<title>Gigaom</title>
+	<atom:link href="https://gigaom.com/feed/" rel="self" type="application/rss+xml" />
+	<link>https://gigaom.com</link>
+	<description></description>
+	<lastBuildDate>Fri, 26 Sep 2014 08:25:12 +0000</lastBuildDate>
+	<language>en</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.com/</generator>
+<cloud domain='gigaom.com' port='80' path='/?rsscloud=notify' registerProcedure='' protocol='http-post' />
+<image>
+		<url>https://secure.gravatar.com/blavatar/0db8f6557d022075dbbf010c54d46d93?s=96&#038;d=https%3A%2F%2Fs2.wp.com%2Fi%2Fbuttonw-com.png</url>
+		<title>Gigaom</title>
+		<link>https://gigaom.com</link>
+	</image>
+	<atom:link rel="search" type="application/opensearchdescription+xml" href="https://gigaom.com/osd.xml" title="Gigaom" />
+	<atom:link rel='hub' href='https://gigaom.com/?pushpress=hub'/>
+	<item>
+		<title>Russia orders Google, Facebook and Twitter to comply with local storage and censorship laws</title>
+		<link>https://gigaom.com/2014/09/26/russia-orders-google-facebook-and-twitter-to-comply-with-local-storage-and-censorship-laws/</link>
+		<comments>https://gigaom.com/2014/09/26/russia-orders-google-facebook-and-twitter-to-comply-with-local-storage-and-censorship-laws/#comments</comments>
+		<pubDate>Fri, 26 Sep 2014 07:55:00 +0000</pubDate>
+		<dc:creator><![CDATA[David Meyer]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[censorship]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Cloud]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Data Centers]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Facebook]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Freedom]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Google]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Local storage]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Mail.ru]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Russia]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Twitter]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Vkontakte]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Vladimir Putin]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Yandex]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=876192</guid>
+		<description><![CDATA[The U.S. firms have reportedly been told they must store Russians' local data and metadata on Russian soil, and abide by the same restrictions on free speech to which traditional Russian media must adhere. If they don't play ball, they may be blocked in the country.<p>
+	<a href="https://gigaom.com/2014/09/26/russia-orders-google-facebook-and-twitter-to-comply-with-local-storage-and-censorship-laws/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Russia orders Google, Facebook and Twitter to comply with local storage and censorship laws</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/26/russia-orders-google-facebook-and-twitter-to-comply-with-local-storage-and-censorship-laws/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=876192&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/26/russia-orders-google-facebook-and-twitter-to-comply-with-local-storage-and-censorship-laws/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/07/putin.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/07/putin.jpg?w=150" medium="image">
+			<media:title type="html">Putin</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/6599daccfd7e897e68744fe0065e5a2e?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">superglaze</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Ello investor, co-founder: Funding or not, we hate ads and we want to “shift values”</title>
+		<link>https://gigaom.com/2014/09/25/ello-investor-co-founder-funding-or-not-we-hate-ads-and-we-want-to-shift-values/</link>
+		<comments>https://gigaom.com/2014/09/25/ello-investor-co-founder-funding-or-not-we-hate-ads-and-we-want-to-shift-values/#comments</comments>
+		<pubDate>Fri, 26 Sep 2014 00:52:31 +0000</pubDate>
+		<dc:creator><![CDATA[Carmel DeAmicis]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[$435 k]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[000]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[435]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[ads]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[advertising]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Andy Baio]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[beta site]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Cairn Cross]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Data]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[ello]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Facebook]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[FreshTracks Capital]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[funding]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Google]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Paul Budnitz]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[revenue]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[seed round]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[social networks]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Todd Berger]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[venture capital]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=876145</guid>
+		<description><![CDATA[How will the popular new social network maintain its ad-free philosophy if it’s pressured to bring in venture level returns?
+<p>
+	<a href="https://gigaom.com/2014/09/25/ello-investor-co-founder-funding-or-not-we-hate-ads-and-we-want-to-shift-values/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Ello investor, co-founder: Funding or not, we hate ads and we want to “shift values”</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/ello-investor-co-founder-funding-or-not-we-hate-ads-and-we-want-to-shift-values/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=876145&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/ello-investor-co-founder-funding-or-not-we-hate-ads-and-we-want-to-shift-values/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/ello-logo_512.png?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/ello-logo_512.png?w=150" medium="image">
+			<media:title type="html">Ello.Logo_512</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/f46020404f6d3a532acc096e063c4976?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">carmeldee88</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Apple quickly releases iOS 8.0.2 to fix iPhone issues caused by the prior update</title>
+		<link>https://gigaom.com/2014/09/25/ios-8-0-2-software-update-release-iphone-6-and-6-plus/</link>
+		<comments>https://gigaom.com/2014/09/25/ios-8-0-2-software-update-release-iphone-6-and-6-plus/#comments</comments>
+		<pubDate>Fri, 26 Sep 2014 00:47:21 +0000</pubDate>
+		<dc:creator><![CDATA[Kevin C. Tofel]]></dc:creator>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Apple]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[HealthKit]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[iOS 8]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[iOS software update]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[iPhone]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[iphone 6]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[iPhone 6 Plus]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Software Update]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Touch ID]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=876157</guid>
+		<description><![CDATA[It took just over a day for Apple to fix the iOS software update that disabled both cellular service and the Touch ID on iPhones. The software works as advertised but Apple will have to battle the fact that it let users down.<p>
+	<a href="https://gigaom.com/2014/09/25/ios-8-0-2-software-update-release-iphone-6-and-6-plus/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Apple quickly releases iOS 8.0.2 to fix iPhone issues caused by the prior update</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/ios-8-0-2-software-update-release-iphone-6-and-6-plus/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=876157&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/ios-8-0-2-software-update-release-iphone-6-and-6-plus/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/455053466_10.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/455053466_10.jpg?w=150" medium="image">
+			<media:title type="html">Apple Unveils iPhone 6</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/6cbb45abac59965c2626e40155358d1b?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">Kevin C. Tofel</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/img_0125.jpg?w=575" medium="image">
+			<media:title type="html">iOS 8.0.2</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Mobile ISP Karma plans a move into home broadband</title>
+		<link>https://gigaom.com/2014/09/25/mobile-isp-karma-plans-a-move-into-home-broadband/</link>
+		<comments>https://gigaom.com/2014/09/25/mobile-isp-karma-plans-a-move-into-home-broadband/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 21:39:37 +0000</pubDate>
+		<dc:creator><![CDATA[Kevin Fitchard]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[4G]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[broadband commons]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[FreedomPop]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[home router]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[isp]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Karma]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[LTE]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[mobile broadband]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[mobile hotspot]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[MVNO]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[open Wi-Fi]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[personal Wi-Fi]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[shared bandwidth]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Sprint]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[wi-fi]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Wireless ISP]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[WISP]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=876099</guid>
+		<description><![CDATA[Karma's pocketable mobile hotspot is already used by 100,000 people looking for connectivity on the go. But Karma wants its mobile broadband service to become its customer's primary source of internet access.<p>
+	<a href="https://gigaom.com/2014/09/25/mobile-isp-karma-plans-a-move-into-home-broadband/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Mobile ISP Karma plans a move into home broadband</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/mobile-isp-karma-plans-a-move-into-home-broadband/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=876099&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/mobile-isp-karma-plans-a-move-into-home-broadband/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/aoyfllfz-e1411677360880.jpeg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/aoyfllfz-e1411677360880.jpeg?w=150" medium="image">
+			<media:title type="html">Steven van Wel Karma</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/0544c4b228f8fa80e31bb952501cd7a4?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">kfitchard</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/karma_device_2_small.jpg?w=708" medium="image">
+			<media:title type="html">Karma&#039;s LTE hotspot is pocket-sized and easily portable, but Karma may well have a more powerful router planned for your home (source: Karma)</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2013/10/1z5o6380.jpg" medium="image">
+			<media:title type="html">Micha Benoliel Open Garden Sascha Meinrath New America Foundation&#039;s Open Technology Institute Steven van Wel Karma Mobilize 2013</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>A startup wants to reinvent big data, by ditching binary and putting computers in space</title>
+		<link>https://gigaom.com/2014/09/25/a-startup-plans-to-reinvent-big-data-by-ditching-binary-and-putting-computers-in-space/</link>
+		<comments>https://gigaom.com/2014/09/25/a-startup-plans-to-reinvent-big-data-by-ditching-binary-and-putting-computers-in-space/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 21:13:23 +0000</pubDate>
+		<dc:creator><![CDATA[Derrick Harris]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[big data]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Cloud Computing]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[ConnectX]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[ConnectX]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Lance Parker]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[satellites]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=876055</guid>
+		<description><![CDATA[A new startup wants to speed up the process of analyzing data, and the costs of storing it, by housing it in satellites. The idea is out there, but its founder says some of the big pieces to pull it off are already coming into place.<p>
+	<a href="https://gigaom.com/2014/09/25/a-startup-plans-to-reinvent-big-data-by-ditching-binary-and-putting-computers-in-space/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">A startup wants to reinvent big data, by ditching binary and putting computers in space</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/a-startup-plans-to-reinvent-big-data-by-ditching-binary-and-putting-computers-in-space/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=876055&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/a-startup-plans-to-reinvent-big-data-by-ditching-binary-and-putting-computers-in-space/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2013/11/outer-space-nasa.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2013/11/outer-space-nasa.jpg?w=150" medium="image">
+			<media:title type="html">outer space nasa</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/9e48ffa0913f65c577727457dd63023f?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">dharrisstructure</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/connectx.jpg?w=708" medium="image">
+			<media:title type="html">The ConnectX mission statement.</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/lance-parker-2.jpg?w=256" medium="image">
+			<media:title type="html">Lance Parker 2</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Sponsored post: A view on the future of medicine in 2064</title>
+		<link>https://gigaom.com/2014/09/25/a-view-on-the-future-of-medicine-in-2064/</link>
+		<comments>https://gigaom.com/2014/09/25/a-view-on-the-future-of-medicine-in-2064/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 20:55:34 +0000</pubDate>
+		<dc:creator><![CDATA[Gigaom]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://gigaom.com/?p=875685</guid>
+		<description><![CDATA[Health care over the next 50 years will leverage the Internet to focus on wellness and prevention. Technology will move our society away from a model of “sick care” to one where individuals can constantly monitor their condition in order to stay healthy.<p>
+	<a href="https://gigaom.com/2014/09/25/a-view-on-the-future-of-medicine-in-2064/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed"><span class="sponsor-title">Sponsored post:</span> A view on the future of medicine in 2064</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/a-view-on-the-future-of-medicine-in-2064/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875685&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/a-view-on-the-future-of-medicine-in-2064/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/image-1.png?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/image-1.png?w=150" medium="image">
+			<media:title type="html">image-1</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/4286d92b867f9a8085800edd1d9c9b7f?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">kathyosweiler</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>A flipless Flipboard finally arrives on Windows Phones (as a placeholder)</title>
+		<link>https://gigaom.com/2014/09/25/a-flipless-flipboard-finally-arrives-on-windows-phones/</link>
+		<comments>https://gigaom.com/2014/09/25/a-flipless-flipboard-finally-arrives-on-windows-phones/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 20:53:07 +0000</pubDate>
+		<dc:creator><![CDATA[Kevin C. Tofel]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Flipboard]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Lumia]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Microsoft]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Nokia]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Windows Phone]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=876105</guid>
+		<description><![CDATA[Has it really been more than a year since Microsoft and Nokia said Flipboard would arrive on Windows Phone? Yes, it has: During the July 2013 Lumia 1020 launch event, it was said the Flipboard will &#8220;soon be available.&#8221; I guess &#8220;soon&#8221; is now because Flipboard is out [&#8230;]<p>
+	<a href="https://gigaom.com/2014/09/25/a-flipless-flipboard-finally-arrives-on-windows-phones/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">A flipless Flipboard finally arrives on Windows Phones (as a placeholder)</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/a-flipless-flipboard-finally-arrives-on-windows-phones/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=876105&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/a-flipless-flipboard-finally-arrives-on-windows-phones/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/flipboard-windows-phone-e1411678200201.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/flipboard-windows-phone-e1411678200201.jpg?w=150" medium="image">
+			<media:title type="html">flipboard windows phone</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/6cbb45abac59965c2626e40155358d1b?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">Kevin C. Tofel</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Samsung&#8217;s unusual Galaxy Note Edge may not be widely available</title>
+		<link>https://gigaom.com/2014/09/25/samsungs-unusual-galaxy-note-edge-may-not-be-widely-available/</link>
+		<comments>https://gigaom.com/2014/09/25/samsungs-unusual-galaxy-note-edge-may-not-be-widely-available/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 20:11:48 +0000</pubDate>
+		<dc:creator><![CDATA[Kif Leswing]]></dc:creator>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[AT&amp;T]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[availability]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Galaxy Note]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[galaxy note edge]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[phablets]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Samsung]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Samsung]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Samsung Electronics]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[smartphones]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Sprint]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[T-Mobile]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=876030</guid>
+		<description><![CDATA[According to comments made by the Samsung Electronics president, the company sees the Galaxy Note Edge as a limited-edition device. This means a United States launch could be months away, if it ever happens. <p>
+	<a href="https://gigaom.com/2014/09/25/samsungs-unusual-galaxy-note-edge-may-not-be-widely-available/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Samsung&#8217;s unusual Galaxy Note Edge may not be widely available</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/samsungs-unusual-galaxy-note-edge-may-not-be-widely-available/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=876030&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/samsungs-unusual-galaxy-note-edge-may-not-be-widely-available/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/2014-09-03-08-54-26.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/2014-09-03-08-54-26.jpg?w=150" medium="image">
+			<media:title type="html">Samsung Galaxy Note Edge</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/ebf3d9d4f25955f9e123247b1e05685c?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">kifleswing</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/2014-09-03-08-55-09.jpg?w=708" medium="image">
+			<media:title type="html">Photo by Kif Leswing/Gigaom</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Amazon confirms that EC2 reboots are due to Xen issues</title>
+		<link>https://gigaom.com/2014/09/25/amazon-confirms-that-ec2-reboots-are-due-to-xen-issues/</link>
+		<comments>https://gigaom.com/2014/09/25/amazon-confirms-that-ec2-reboots-are-due-to-xen-issues/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 20:05:12 +0000</pubDate>
+		<dc:creator><![CDATA[Barb Darrow]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Amazon]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Amazon]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Amazon Web Services]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Amazon Web Services]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[public cloud]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Rackspace]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Rackspace]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Xen]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Xen]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=876077</guid>
+		<description><![CDATA[About 10 percent of Amazon's EC2 instances will need to be rebooted starting Friday, according to an AWS update. <p>
+	<a href="https://gigaom.com/2014/09/25/amazon-confirms-that-ec2-reboots-are-due-to-xen-issues/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Amazon confirms that EC2 reboots are due to Xen issues</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/amazon-confirms-that-ec2-reboots-are-due-to-xen-issues/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=876077&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/amazon-confirms-that-ec2-reboots-are-due-to-xen-issues/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/03/img_0404.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/03/img_0404.jpg?w=150" medium="image">
+			<media:title type="html">AWS Summit</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/4af03439988d64f816da72496325cb73?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">gigabarb</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>So that Surface Mini was real after all; maybe it&#8217;s not quite dead yet</title>
+		<link>https://gigaom.com/2014/09/25/so-that-surface-mini-was-real-after-all-maybe-its-not-quite-dead-yet/</link>
+		<comments>https://gigaom.com/2014/09/25/so-that-surface-mini-was-real-after-all-maybe-its-not-quite-dead-yet/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 19:45:36 +0000</pubDate>
+		<dc:creator><![CDATA[Kevin C. Tofel]]></dc:creator>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Intel]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Microsoft]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[microsoft-windows]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Qualcomm]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Surface Mini]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Windows Phone]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Windows RT]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=876051</guid>
+		<description><![CDATA[The Surface Mini is alive according to Brad Sams who says he used one. Thanks to the digital pen and OneNote, Sams thinks Surface Mini was a viable product. Perhaps recent changes to Windows Phone will give the device another lease on life.<p>
+	<a href="https://gigaom.com/2014/09/25/so-that-surface-mini-was-real-after-all-maybe-its-not-quite-dead-yet/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">So that Surface Mini was real after all; maybe it&#8217;s not quite dead yet</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/so-that-surface-mini-was-real-after-all-maybe-its-not-quite-dead-yet/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=876051&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/so-that-surface-mini-was-real-after-all-maybe-its-not-quite-dead-yet/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/encore-mini-angle-e1409748313143.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/encore-mini-angle-e1409748313143.jpg?w=150" medium="image">
+			<media:title type="html">Toshiba Encore Mini angle</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/6cbb45abac59965c2626e40155358d1b?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">Kevin C. Tofel</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/04/surface-mini-case.jpg?w=708" medium="image">
+			<media:title type="html">surface mini case</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/04/dell-venue-8-pro2.jpg" medium="image">
+			<media:title type="html">dell venue 8 pro</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Apple: Only nine people have reported a bent iPhone 6 Plus</title>
+		<link>https://gigaom.com/2014/09/25/apple-only-nine-people-have-reported-a-bent-iphone-6-plus/</link>
+		<comments>https://gigaom.com/2014/09/25/apple-only-nine-people-have-reported-a-bent-iphone-6-plus/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 18:39:48 +0000</pubDate>
+		<dc:creator><![CDATA[Kif Leswing]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Apple]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Apple]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[bendgate]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[bendghazi]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[bent iphone]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[iOS]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[iPhone]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=876044</guid>
+		<description><![CDATA[According to Apple, the warped or bent iPhones that some users have reported is "extremely rare" and it doesn't usually happen during everyday use.  <p>
+	<a href="https://gigaom.com/2014/09/25/apple-only-nine-people-have-reported-a-bent-iphone-6-plus/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Apple: Only nine people have reported a bent iPhone 6 Plus</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/apple-only-nine-people-have-reported-a-bent-iphone-6-plus/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=876044&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/apple-only-nine-people-have-reported-a-bent-iphone-6-plus/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/screenshot-2014-09-25-15-21-16.png?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/screenshot-2014-09-25-15-21-16.png?w=150" medium="image">
+			<media:title type="html">Screenshot 2014-09-25 15.21.16</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/ebf3d9d4f25955f9e123247b1e05685c?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">kifleswing</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Twitter CEO Dick Costolo calls out the President of Iran; on Twitter, of course</title>
+		<link>https://gigaom.com/2014/09/25/twitter-ceo-dick-costolo-calls-out-the-president-of-iran-on-twitter-of-course/</link>
+		<comments>https://gigaom.com/2014/09/25/twitter-ceo-dick-costolo-calls-out-the-president-of-iran-on-twitter-of-course/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 18:23:06 +0000</pubDate>
+		<dc:creator><![CDATA[Carmel DeAmicis]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[censorship]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Dick Costolo]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Hassan Rouhani]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Hassan Rouhani]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Iran]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Jack Dorsey]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Obama]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Politics]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[tweet]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Twitter]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=876037</guid>
+		<description><![CDATA[Twitter CEO Dick Costolo took Iranian President Hassan Rouhani to task today for blocking Twitter in his country.<p>
+	<a href="https://gigaom.com/2014/09/25/twitter-ceo-dick-costolo-calls-out-the-president-of-iran-on-twitter-of-course/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Twitter CEO Dick Costolo calls out the President of Iran; on Twitter, of course</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/twitter-ceo-dick-costolo-calls-out-the-president-of-iran-on-twitter-of-course/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=876037&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/twitter-ceo-dick-costolo-calls-out-the-president-of-iran-on-twitter-of-course/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2013/05/dickc-d11.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2013/05/dickc-d11.jpg?w=150" medium="image">
+			<media:title type="html">Twitter CEO Dick Costolo D11</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/f46020404f6d3a532acc096e063c4976?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">carmeldee88</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Selfie time-lapse videos are now a &#8220;thing&#8221; thanks to Instagram</title>
+		<link>https://gigaom.com/2014/09/25/selfie-time-lapse-videos-are-now-a-thing-thanks-to-instagram/</link>
+		<comments>https://gigaom.com/2014/09/25/selfie-time-lapse-videos-are-now-a-thing-thanks-to-instagram/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 17:46:17 +0000</pubDate>
+		<dc:creator><![CDATA[Carmel DeAmicis]]></dc:creator>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[hyperlapse]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Instagram]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[selfie]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[selfielapse]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[timelapse]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=876025</guid>
+		<description><![CDATA[Citizens prepare: The selfielapse has arrived.<p>
+	<a href="https://gigaom.com/2014/09/25/selfie-time-lapse-videos-are-now-a-thing-thanks-to-instagram/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Selfie time-lapse videos are now a &#8220;thing&#8221; thanks to Instagram</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/selfie-time-lapse-videos-are-now-a-thing-thanks-to-instagram/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=876025&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/selfie-time-lapse-videos-are-now-a-thing-thanks-to-instagram/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/07/491521831.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/07/491521831.jpg?w=150" medium="image">
+			<media:title type="html">Selfie</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/f46020404f6d3a532acc096e063c4976?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">carmeldee88</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/hyperlapse-chart.png" medium="image">
+			<media:title type="html">Hyperlapse&#039;s popularity ranking since it launched, as measured via downloads by App Annie</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Binge alert: Subscribers now watch more than 90 minutes of Netflix every single day</title>
+		<link>https://gigaom.com/2014/09/25/binge-alert-subscribers-now-watch-more-than-90-minutes-of-netflix-every-single-day/</link>
+		<comments>https://gigaom.com/2014/09/25/binge-alert-subscribers-now-watch-more-than-90-minutes-of-netflix-every-single-day/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 17:24:27 +0000</pubDate>
+		<dc:creator><![CDATA[Janko Roettgers]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[binge-viewing]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[data-consumption]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Netflix]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Netflix]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[stats]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[streaming]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[The Diffusion Group]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875997</guid>
+		<description><![CDATA[Just one more episode: All of your binge watching is adding up, to an average of 93 minutes of Netflix viewing per day, and around 45 GB of data every month.<p>
+	<a href="https://gigaom.com/2014/09/25/binge-alert-subscribers-now-watch-more-than-90-minutes-of-netflix-every-single-day/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Binge alert: Subscribers now watch more than 90 minutes of Netflix every single day</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/binge-alert-subscribers-now-watch-more-than-90-minutes-of-netflix-every-single-day/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875997&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/binge-alert-subscribers-now-watch-more-than-90-minutes-of-netflix-every-single-day/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/05/shutterstock_174394976.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/05/shutterstock_174394976.jpg?w=150" medium="image">
+			<media:title type="html">netflix generic</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/08bc62ecf138202f06b74dfa01376e74?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">jroettgers</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/tdg-netflix-report.jpg?w=708" medium="image">
+			<media:title type="html">tdg netflix report</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>The new Moto X will go on sale for Verizon subscribers tomorrow</title>
+		<link>https://gigaom.com/2014/09/25/the-new-moto-x-will-go-on-sale-for-verizon-subscribers-tomorrow/</link>
+		<comments>https://gigaom.com/2014/09/25/the-new-moto-x-will-go-on-sale-for-verizon-subscribers-tomorrow/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 16:57:38 +0000</pubDate>
+		<dc:creator><![CDATA[Kif Leswing]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Moto Maker]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Moto X]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Motorola]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Verizon]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=876012</guid>
+		<description><![CDATA[Motorola&#8217;s newest high-end phone will be available on Verizon, not that it was ever in doubt. The carrier announced Thursday that the new Moto X will cost $99 for the 16GB model on a two-year contract, or either $499 or $549 at full price, starting September 26. Your [&#8230;]<p>
+	<a href="https://gigaom.com/2014/09/25/the-new-moto-x-will-go-on-sale-for-verizon-subscribers-tomorrow/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">The new Moto X will go on sale for Verizon subscribers tomorrow</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/the-new-moto-x-will-go-on-sale-for-verizon-subscribers-tomorrow/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=876012&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/the-new-moto-x-will-go-on-sale-for-verizon-subscribers-tomorrow/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:content url="https://2.gravatar.com/avatar/ebf3d9d4f25955f9e123247b1e05685c?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">kifleswing</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>AlchemyAPI now recognizes famous faces (and can learn yours, too)</title>
+		<link>https://gigaom.com/2014/09/25/alchemyapi-now-recognizes-famous-faces-and-can-learn-yours-too/</link>
+		<comments>https://gigaom.com/2014/09/25/alchemyapi-now-recognizes-famous-faces-and-can-learn-yours-too/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 16:43:21 +0000</pubDate>
+		<dc:creator><![CDATA[Derrick Harris]]></dc:creator>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[AlchemyAPI]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[APIs]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Cloud Computing]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Computer vision]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[deep learning]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Elliot Turner]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875950</guid>
+		<description><![CDATA[AlchemyAPI's deep-learning-based system can now be used to tag famous people in photos, or to recognize non-celebrities via labeled images in corporate or social networks. It's the latest -- but not the last -- service the company has released since getting started analyzing text in 2012.<p>
+	<a href="https://gigaom.com/2014/09/25/alchemyapi-now-recognizes-famous-faces-and-can-learn-yours-too/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">AlchemyAPI now recognizes famous faces (and can learn yours, too)</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/alchemyapi-now-recognizes-famous-faces-and-can-learn-yours-too/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875950&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/alchemyapi-now-recognizes-famous-faces-and-can-learn-yours-too/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/celebrity_chadsmith_willferrell_cropped1-e1411662415426.png?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/celebrity_chadsmith_willferrell_cropped1-e1411662415426.png?w=150" medium="image">
+			<media:title type="html">Celebrity_ChadSmith_WillFerrell_cropped</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/9e48ffa0913f65c577727457dd63023f?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">dharrisstructure</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/celebrity_chadsmith_willferrell_cropped.png" medium="image">
+			<media:title type="html">Celebrity_ChadSmith_WillFerrell_cropped</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/alchemydemo1.jpg" medium="image">
+			<media:title type="html">alchemydemo1</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/danzigalchemy.jpg" medium="image">
+			<media:title type="html">Credit: VICE / Jeaneen Lund</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/mustainealchemy.jpg" medium="image">
+			<media:title type="html">mustainealchemy</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>One secret to the success of Quartz, BuzzFeed and Gawker: They look at news as a service</title>
+		<link>https://gigaom.com/2014/09/25/one-secret-to-the-success-of-quartz-buzzfeed-and-gawker-they-look-at-news-as-a-service/</link>
+		<comments>https://gigaom.com/2014/09/25/one-secret-to-the-success-of-quartz-buzzfeed-and-gawker-they-look-at-news-as-a-service/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 16:41:27 +0000</pubDate>
+		<dc:creator><![CDATA[Mathew Ingram]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[BuzzFeed]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[gawker]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[journalism]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Kinja]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Media]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[news]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[quartz]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Social &amp; Web]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Tumblr]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875986</guid>
+		<description><![CDATA[Most traditional media outlets are used to thinking of journalism or news as something they create and then distribute to a waiting audience -- but seeing it as a product or service instead can change the way you think about your job in some fundamental ways<p>
+	<a href="https://gigaom.com/2014/09/25/one-secret-to-the-success-of-quartz-buzzfeed-and-gawker-they-look-at-news-as-a-service/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">One secret to the success of Quartz, BuzzFeed and Gawker: They look at news as a service</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/one-secret-to-the-success-of-quartz-buzzfeed-and-gawker-they-look-at-news-as-a-service/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875986&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/one-secret-to-the-success-of-quartz-buzzfeed-and-gawker-they-look-at-news-as-a-service/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/178473781.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/178473781.jpg?w=150" medium="image">
+			<media:title type="html">Service</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/0bdf7ab171ade0708a11fa3378e6d8cb?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">Mathew</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/06/new-york-times-innovation-report.png?w=708" medium="image">
+			<media:title type="html">New York Times innovation report</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2013/05/snowfall-cover-image.png?w=708" medium="image">
+			<media:title type="html">Snowfall cover image</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Acquia names software vet Chris Stone to lead its product business</title>
+		<link>https://gigaom.com/2014/09/25/acquia-names-software-vet-chris-stone-to-lead-its-product-business/</link>
+		<comments>https://gigaom.com/2014/09/25/acquia-names-software-vet-chris-stone-to-lead-its-product-business/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 16:37:37 +0000</pubDate>
+		<dc:creator><![CDATA[Barb Darrow]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Acquia]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Acquia]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Adobe systems]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[attachmate]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Chris Stone]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Chris Stone]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[content management]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[content-management system]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[CORBA]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Drupal]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Drupal]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Linux]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Novell]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Object Management Group]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[omniture]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Open Source Software]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Red Hat]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[SUSE]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[SUSE]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875980</guid>
+		<description><![CDATA[Chris Stone, formerly of Novell and the Object Management Group, is back in the software game, to help drive commercial Drupal products into the enterprise.<p>
+	<a href="https://gigaom.com/2014/09/25/acquia-names-software-vet-chris-stone-to-lead-its-product-business/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Acquia names software vet Chris Stone to lead its product business</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/acquia-names-software-vet-chris-stone-to-lead-its-product-business/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875980&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/acquia-names-software-vet-chris-stone-to-lead-its-product-business/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/chris-stone-landscape.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/chris-stone-landscape.jpg?w=150" medium="image">
+			<media:title type="html">Chris Stone</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/4af03439988d64f816da72496325cb73?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">gigabarb</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Sponsored post: Announcing AppDynamics AppSphere 2014 Conference in Las Vegas</title>
+		<link>https://gigaom.com/2014/09/25/announcing-appdynamics-appsphere-2014-conference-in-las-vegas-2/</link>
+		<comments>https://gigaom.com/2014/09/25/announcing-appdynamics-appsphere-2014-conference-in-las-vegas-2/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 15:55:54 +0000</pubDate>
+		<dc:creator><![CDATA[Gigaom]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://gigaom.com/?p=874427</guid>
+		<description><![CDATA[AppSphere 2014 is AppDynamics' technology and business conference. Come to explore forth-coming industry trends that effect Developers, Ops, and Executives. Gain insights from thought-leaders from companies like Amazon, IBM, Google, Citrix, and Microsoft as they discuss best practices for application management and business performance optimization.<p>
+	<a href="https://gigaom.com/2014/09/25/announcing-appdynamics-appsphere-2014-conference-in-las-vegas-2/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed"><span class="sponsor-title">Sponsored post:</span> Announcing AppDynamics AppSphere 2014 Conference in Las Vegas</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/announcing-appdynamics-appsphere-2014-conference-in-las-vegas-2/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=874427&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/announcing-appdynamics-appsphere-2014-conference-in-las-vegas-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/210x140.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/210x140.jpg?w=150" medium="image">
+			<media:title type="html">210x140</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/4286d92b867f9a8085800edd1d9c9b7f?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">kathyosweiler</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/appsphere.png?w=708" medium="image">
+			<media:title type="html">Appsphere</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>This Android app converts other Android apps to run on Chrome</title>
+		<link>https://gigaom.com/2014/09/25/how-to-convert-android-apps-to-chrome/</link>
+		<comments>https://gigaom.com/2014/09/25/how-to-convert-android-apps-to-chrome/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 15:52:42 +0000</pubDate>
+		<dc:creator><![CDATA[Kevin C. Tofel]]></dc:creator>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Android]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Chrome]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Chrome OS]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Google]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875966</guid>
+		<description><![CDATA[Converting Android apps to run on Chrome isn't difficult but it can be cumbersome and does require a computer. Now, a new Android app takes care of the process for you so you can run other Android apps on Chromebooks or computers with Chrome.<p>
+	<a href="https://gigaom.com/2014/09/25/how-to-convert-android-apps-to-chrome/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">This Android app converts <em>other</em> Android apps to run on Chrome</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/how-to-convert-android-apps-to-chrome/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875966&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/how-to-convert-android-apps-to-chrome/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/android-flipboard-on-chromebook.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/android-flipboard-on-chromebook.jpg?w=150" medium="image">
+			<media:title type="html">android flipboard on chromebook</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/6cbb45abac59965c2626e40155358d1b?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">Kevin C. Tofel</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/chrome-apk-generator.jpg" medium="image">
+			<media:title type="html">chrome apk generator</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/screenshot-2014-09-22-at-4-54-50-pm.jpg?w=708" medium="image">
+			<media:title type="html">Skype for Android on Chrome</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>IBM SoftLayer woos startups running Amazon Web Services, Rackspace</title>
+		<link>https://gigaom.com/2014/09/25/ibm-softlayer-woos-startups-running-amazon-web-services-rackspace/</link>
+		<comments>https://gigaom.com/2014/09/25/ibm-softlayer-woos-startups-running-amazon-web-services-rackspace/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 15:17:30 +0000</pubDate>
+		<dc:creator><![CDATA[Barb Darrow]]></dc:creator>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Amazon]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Amazon Web Services]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Amazon Web Services]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Babar Bhatti]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[bare metal servers]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[BlueMix]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Bluemix]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Cloud Computing]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[David Mytton]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Federico Pinna]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Google]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[IBM]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[IBM]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Lance Crosby]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Microsoft]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Microsoft]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[microsoft-azure]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[microsoft-azure]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[MutualMind]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Rackspace]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Rackspace]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Server Density]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[SoftLayer]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[SoftLayer]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Structure 2014]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Vivocha]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875916</guid>
+		<description><![CDATA[IBM SoftLayer's hybrid bare-metal/cloud infrastructure and free internal networking wins some converts, but it still has a long way to go in the AWS-obsessed world of startups.<p>
+	<a href="https://gigaom.com/2014/09/25/ibm-softlayer-woos-startups-running-amazon-web-services-rackspace/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">IBM SoftLayer woos startups running Amazon Web Services, Rackspace</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/ibm-softlayer-woos-startups-running-amazon-web-services-rackspace/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875916&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/ibm-softlayer-woos-startups-running-amazon-web-services-rackspace/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2010/11/ibm_cloudcomputing-e1289241417115.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2010/11/ibm_cloudcomputing-e1289241417115.jpg?w=150" medium="image">
+			<media:title type="html">IBM_CloudComputing</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/4af03439988d64f816da72496325cb73?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">gigabarb</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Big data startup Continuuity becomes Cask and is now completely open source</title>
+		<link>https://gigaom.com/2014/09/25/big-data-startup-continuuity-becomes-cask-and-is-now-completely-open-source/</link>
+		<comments>https://gigaom.com/2014/09/25/big-data-startup-continuuity-becomes-cask-and-is-now-completely-open-source/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 15:00:59 +0000</pubDate>
+		<dc:creator><![CDATA[Jonathan Vanian]]></dc:creator>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[AT&amp;T Labs]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[big data]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[big data applications]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Cask]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Cloud Computing]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Continuuity]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Hadoop]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Hortonworks]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Jonathan Gray]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Platform as a Service]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[stream-processing technology]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875889</guid>
+		<description><![CDATA[Users of Cask's open-source big data PaaS will have three options: CDAP Free, CDAP Standard and CDAP Enterprise. <p>
+	<a href="https://gigaom.com/2014/09/25/big-data-startup-continuuity-becomes-cask-and-is-now-completely-open-source/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Big data startup Continuuity becomes Cask and is now completely open source</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/big-data-startup-continuuity-becomes-cask-and-is-now-completely-open-source/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875889&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/big-data-startup-continuuity-becomes-cask-and-is-now-completely-open-source/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2013/04/gigaom_structure_data_2207.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2013/04/gigaom_structure_data_2207.jpg?w=150" medium="image">
+			<media:title type="html">Jonathan Gray Continuuity Derrick Harris Structure Data 2013</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/b36be2d5adab11bf46c8d1d7e6c34342?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">jonathanvanian</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/cdap_-architecture.jpg" medium="image">
+			<media:title type="html">CDAP Architecture</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>How we built it: Listen to your customers, especially when they stop talking</title>
+		<link>https://gigaom.com/2014/09/25/how-we-built-it-listen-to-your-customers-especially-when-they-stop-talking/</link>
+		<comments>https://gigaom.com/2014/09/25/how-we-built-it-listen-to-your-customers-especially-when-they-stop-talking/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 15:00:41 +0000</pubDate>
+		<dc:creator><![CDATA[Peter Hoddie, Marvell]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[How We Built It]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Kinoma]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Kinoma Create]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Marvell]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Marvell]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Marvell Semiconductor]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Marvell Semiconductors]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Peter Hoddie]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Structure Connect]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875726</guid>
+		<description><![CDATA[This is the second post in our How We Built it package featuring lessons from hardware entrepreneurs on getting from an idea to a product. Marvell offers a lesson in listening to your customer.<p>
+	<a href="https://gigaom.com/2014/09/25/how-we-built-it-listen-to-your-customers-especially-when-they-stop-talking/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">How we built it: Listen to your customers, especially when they stop talking</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/how-we-built-it-listen-to-your-customers-especially-when-they-stop-talking/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875726&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/how-we-built-it-listen-to-your-customers-especially-when-they-stop-talking/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/marvell.png?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/marvell.png?w=150" medium="image">
+			<media:title type="html">Marvell</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/4411542bbd7a2a9a2fc2a1b38809e45c?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">gigaguest</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/peter_hoddie.jpg?w=300" medium="image">
+			<media:title type="html">peter_hoddie</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/2-early-kinoma-creates.jpeg?w=708" medium="image">
+			<media:title type="html">An early Kinoma Create without a touch screen.</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/4-kinoma-create-w-launcher.jpg?w=708" medium="image">
+			<media:title type="html">The current Create with launch software.</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/how-we-built-it-ticker1.png" medium="image">
+			<media:title type="html">How-We-Built-It-ticker</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Insteon integrates with Microsoft Cortana for voice control in the home</title>
+		<link>https://gigaom.com/2014/09/25/insteon-integrates-with-microsoft-cortana-for-voice-control-in-the-home/</link>
+		<comments>https://gigaom.com/2014/09/25/insteon-integrates-with-microsoft-cortana-for-voice-control-in-the-home/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 14:35:17 +0000</pubDate>
+		<dc:creator><![CDATA[Stacey Higginbotham]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Cortana]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[home automation]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[insteon]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[internet of things]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Microsoft]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[natural language processing]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[smart home]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Windows Phone]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875936</guid>
+		<description><![CDATA["Insteon, I'm home!" With those words, an Insteon home automation system and a Microsoft Windows Phone 8.1 handset, you could unlock your doors and turn on your lights. <p>
+	<a href="https://gigaom.com/2014/09/25/insteon-integrates-with-microsoft-cortana-for-voice-control-in-the-home/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Insteon integrates with Microsoft Cortana for voice control in the home</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/insteon-integrates-with-microsoft-cortana-for-voice-control-in-the-home/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875936&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/insteon-integrates-with-microsoft-cortana-for-voice-control-in-the-home/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/04/windows-phone-cortana-2.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/04/windows-phone-cortana-2.jpg?w=150" medium="image">
+			<media:title type="html">windows phone cortana 2</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/aee37121e18bf76bb9fee4494bab237a?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">shigginbotham</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Studios can now film with drones after reported FAA approval</title>
+		<link>https://gigaom.com/2014/09/25/studios-can-now-film-with-drones-after-reported-faa-approval/</link>
+		<comments>https://gigaom.com/2014/09/25/studios-can-now-film-with-drones-after-reported-faa-approval/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 14:20:38 +0000</pubDate>
+		<dc:creator><![CDATA[Jeff John Roberts]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[drones]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[FAA]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[FAA]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Federal Aviation Administration]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[movie studios]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[unmanned aircraft]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875929</guid>
+		<description><![CDATA[The movie and TV industry will finally be able to fly drones on set, but the FAA has imposed conditions that may make doing so more trouble than it's worth.<p>
+	<a href="https://gigaom.com/2014/09/25/studios-can-now-film-with-drones-after-reported-faa-approval/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Studios can now film with drones after reported FAA approval</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/studios-can-now-film-with-drones-after-reported-faa-approval/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875929&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/studios-can-now-film-with-drones-after-reported-faa-approval/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/05/shutterstock_161402264.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/05/shutterstock_161402264.jpg?w=150" medium="image">
+			<media:title type="html">Drone generic</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/05dfcf765f1554b08954bb9e1ee63363?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">jeffjohnroberts</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Motorola Shamu sighting: Nexus 6 tipped with 5.92-inch screen</title>
+		<link>https://gigaom.com/2014/09/25/motorola-shamu-sighting-nexus-6-tipped-with-5-92-inch-screen/</link>
+		<comments>https://gigaom.com/2014/09/25/motorola-shamu-sighting-nexus-6-tipped-with-5-92-inch-screen/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 14:17:31 +0000</pubDate>
+		<dc:creator><![CDATA[Kevin C. Tofel]]></dc:creator>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Android]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[android l]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Google]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Moto X]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Motorola]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Motorola Shamu]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Nexus 6]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Nexus X]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Qualcomm]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Snapdragon]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875930</guid>
+		<description><![CDATA[We're getting closer to what should be a new Nexus phone launch to coincide with the debut of Android L software. Will the next Nexus really have a screen nearing 6-inches in size? <p>
+	<a href="https://gigaom.com/2014/09/25/motorola-shamu-sighting-nexus-6-tipped-with-5-92-inch-screen/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Motorola Shamu sighting: Nexus 6 tipped with 5.92-inch screen</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/motorola-shamu-sighting-nexus-6-tipped-with-5-92-inch-screen/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875930&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/motorola-shamu-sighting-nexus-6-tipped-with-5-92-inch-screen/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/google-android.png?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/google-android.png?w=150" medium="image">
+			<media:title type="html">Google Android</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/6cbb45abac59965c2626e40155358d1b?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">Kevin C. Tofel</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/shamufinal22.jpg" medium="image">
+			<media:title type="html">Nexus 6 Shamu</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>iPhone 6, 6 Plus pre-orders: AT&amp;T ruled, while T-Mobile accounted for 5x more than Sprint</title>
+		<link>https://gigaom.com/2014/09/25/iphone-6-6-plus-pre-orders-att-ruled-while-t-mobile-accounted-for-5x-more-than-sprint/</link>
+		<comments>https://gigaom.com/2014/09/25/iphone-6-6-plus-pre-orders-att-ruled-while-t-mobile-accounted-for-5x-more-than-sprint/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 13:23:56 +0000</pubDate>
+		<dc:creator><![CDATA[Kevin C. Tofel]]></dc:creator>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Apple]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[AT&amp;T]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[iPhone]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[iphone 6]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[iPhone 6 Plus]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Marcelo Claure]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Spark]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Sprint]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[T-Mobile]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Verizon]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875912</guid>
+		<description><![CDATA[Based on data from tracking iPhone 6 and 6 Plus pre-order shipments, Slice says AT&#38;T accounted for nearly half of the pre-orders for Apple's new phones. One in five paid full price for a T-Mobile edition as Sprint-compatible iPhones lagged behind.<p>
+	<a href="https://gigaom.com/2014/09/25/iphone-6-6-plus-pre-orders-att-ruled-while-t-mobile-accounted-for-5x-more-than-sprint/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">iPhone 6, 6 Plus pre-orders: AT&amp;T ruled, while T-Mobile accounted for 5x more than Sprint</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/iphone-6-6-plus-pre-orders-att-ruled-while-t-mobile-accounted-for-5x-more-than-sprint/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875912&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/iphone-6-6-plus-pre-orders-att-ruled-while-t-mobile-accounted-for-5x-more-than-sprint/feed/</wfw:commentRss>
+		<slash:comments>7</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/iphone-6-and-iphone-6-plus.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/iphone-6-and-iphone-6-plus.jpg?w=150" medium="image">
+			<media:title type="html">iPhone 6 and iPhone 6 Plus</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/6cbb45abac59965c2626e40155358d1b?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">Kevin C. Tofel</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/iphone-6.jpg?w=708" medium="image">
+			<media:title type="html">Apple&#039;s iPhone 6. Photo by Tom Krazit/Gigaom</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Sponsored post: 3 questions raised by the Internet of Things</title>
+		<link>https://gigaom.com/2014/09/25/3-questions-raised-by-the-internet-of-things/</link>
+		<comments>https://gigaom.com/2014/09/25/3-questions-raised-by-the-internet-of-things/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 12:55:14 +0000</pubDate>
+		<dc:creator><![CDATA[Gigaom]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://gigaom.com/?p=873642</guid>
+		<description><![CDATA[For several years now, a connectivity revolution has been slowly brewing all around us; everyday objects like recycling bins, dishwashers, and smoke alarms are going online one by one, adding to the fabric of the Internet that connects us all.<p>
+	<a href="https://gigaom.com/2014/09/25/3-questions-raised-by-the-internet-of-things/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed"><span class="sponsor-title">Sponsored post:</span> 3 questions raised by the Internet of Things</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/3-questions-raised-by-the-internet-of-things/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=873642&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/3-questions-raised-by-the-internet-of-things/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:content url="https://1.gravatar.com/avatar/4286d92b867f9a8085800edd1d9c9b7f?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">kathyosweiler</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>As Oracle’s OpenWorld approaches and deck chairs shuffle, has Oracle finally figured out the cloud?</title>
+		<link>https://gigaom.com/2014/09/25/as-oracles-openworld-approaches-and-deck-chairs-shuffle-has-oracle-finally-figured-out-the-cloud/</link>
+		<comments>https://gigaom.com/2014/09/25/as-oracles-openworld-approaches-and-deck-chairs-shuffle-has-oracle-finally-figured-out-the-cloud/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 12:00:32 +0000</pubDate>
+		<dc:creator><![CDATA[Jonathan Vanian]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Cloud Computing]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[cloud storage wars]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[database]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[database]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[in-memory]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[in-memory database]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[java]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Larry Ellison]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Mark Hurd]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[OpenWorld 2014]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Oracle]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[PaaS]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Safra Catz]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[salesforce]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875834</guid>
+		<description><![CDATA[Oracle's annual conference will be the first without Larry Ellison as CEO; it's going to be fascinating to watch whether or not Oracle's cloud announcements will make an impact in an already crowded cloud world.<p>
+	<a href="https://gigaom.com/2014/09/25/as-oracles-openworld-approaches-and-deck-chairs-shuffle-has-oracle-finally-figured-out-the-cloud/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">As Oracle’s OpenWorld approaches and deck chairs shuffle, has Oracle finally figured out the cloud?</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/as-oracles-openworld-approaches-and-deck-chairs-shuffle-has-oracle-finally-figured-out-the-cloud/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875834&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/as-oracles-openworld-approaches-and-deck-chairs-shuffle-has-oracle-finally-figured-out-the-cloud/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2012/11/6532521_f7091b7fae_z.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2012/11/6532521_f7091b7fae_z.jpg?w=150" medium="image">
+			<media:title type="html">Oracle HQ</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/b36be2d5adab11bf46c8d1d7e6c34342?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">jonathanvanian</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/153125352.jpg?w=708" medium="image">
+			<media:title type="html">Oracle CEO Larry Ellison delivers a keynote address during the 2012 Oracle Open World conference on September 30, 2012 in San Francisco, California. (Photo by Justin Sullivan/Getty Images)</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/104280405.jpg?w=708" medium="image">
+			<media:title type="html">Oracle co-presidents Safra Catz (L) and Mark Hurd talk as Oracle CEO Larry Ellison delivers a keynote address during the 2010 Oracle Open World conference. It was announced today that the pair have been promoted to CEO. (Photo by Justin Sullivan/Getty Images)</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/screen-shot-2014-09-24-at-6-20-06-pm.png" medium="image">
+			<media:title type="html">Oracle software revenue - chart by RedMonk</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>FiveStars raises $26M to build up its digital loyalty program</title>
+		<link>https://gigaom.com/2014/09/25/fivestars-raises-26m-to-build-up-its-digital-loyalty-program/</link>
+		<comments>https://gigaom.com/2014/09/25/fivestars-raises-26m-to-build-up-its-digital-loyalty-program/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 12:00:10 +0000</pubDate>
+		<dc:creator><![CDATA[Kevin Fitchard]]></dc:creator>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Belly]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[DCM]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[FiveStars]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Lightspeed Venture Partners]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Loyalty program]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Menlo Ventures]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[rewards program]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Rogers Communications]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[small businesses]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875840</guid>
+		<description><![CDATA[FiveStars has attracted the interest (and funding) of Menlo Ventures as it tries to sell its bare-bones loyalty program into small businesses across the U.S. and Canada.<p>
+	<a href="https://gigaom.com/2014/09/25/fivestars-raises-26m-to-build-up-its-digital-loyalty-program/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">FiveStars raises $26M to build up its digital loyalty program</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/fivestars-raises-26m-to-build-up-its-digital-loyalty-program/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875840&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/fivestars-raises-26m-to-build-up-its-digital-loyalty-program/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/screen-shot-2014-09-24-at-7-14-43-pm.png?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/screen-shot-2014-09-24-at-7-14-43-pm.png?w=150" medium="image">
+			<media:title type="html">FiveStars iPhone App</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/0544c4b228f8fa80e31bb952501cd7a4?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">kfitchard</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>The critical Shellshock flaw affects many Linux and Apple systems &#8212; here&#8217;s what you need to know</title>
+		<link>https://gigaom.com/2014/09/25/the-critical-shellshock-flaw-affects-many-linux-and-apple-systems-heres-what-you-need-to-know/</link>
+		<comments>https://gigaom.com/2014/09/25/the-critical-shellshock-flaw-affects-many-linux-and-apple-systems-heres-what-you-need-to-know/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 11:56:54 +0000</pubDate>
+		<dc:creator><![CDATA[David Meyer]]></dc:creator>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Apple]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Bash]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Red Hat]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[security]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Shellshock]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[vulnerability]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875904</guid>
+		<description><![CDATA[Experts are saying the flaw, which affects the bash shell used across many Unix-based systems including Mac OS X and variants of Linux, is more serious than the Heartbleed flaw earlier this year.<p>
+	<a href="https://gigaom.com/2014/09/25/the-critical-shellshock-flaw-affects-many-linux-and-apple-systems-heres-what-you-need-to-know/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">The critical Shellshock flaw affects many Linux and Apple systems &#8212; here&#8217;s what you need to know</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/the-critical-shellshock-flaw-affects-many-linux-and-apple-systems-heres-what-you-need-to-know/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875904&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/the-critical-shellshock-flaw-affects-many-linux-and-apple-systems-heres-what-you-need-to-know/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2012/05/7a-alertscreen_normal1-e1335998430499.png?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2012/05/7a-alertscreen_normal1-e1335998430499.png?w=150" medium="image">
+			<media:title type="html">Avanquest panic button feature</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/6599daccfd7e897e68744fe0065e5a2e?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">superglaze</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Ericsson mind melds with Apcera, Talko takes on communications,  and what&#8217;s up with Watson?</title>
+		<link>https://gigaom.com/2014/09/25/ericsson-mind-melds-with-apcera-talko-takes-on-communications-and-whats-up-with-watson/</link>
+		<comments>https://gigaom.com/2014/09/25/ericsson-mind-melds-with-apcera-talko-takes-on-communications-and-whats-up-with-watson/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 07:01:06 +0000</pubDate>
+		<dc:creator><![CDATA[Barb Darrow]]></dc:creator>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Amazon Web Services]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Apcera]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Apcera]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Derek Collison]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Derek Collison]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Ericsson]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Ericsson]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[IBM]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[IBM]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Jason Hoffman]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Jason Hoffman]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Larry Ellison]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Larry Ellison]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Microsoft]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[microsoft-azure]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Mike Rhodin]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Oracle]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Oracle]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Platform as a Service]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Ray Ozzie]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Ray Ozzie]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Structure Show]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Talko]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Talko]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[The Structure Show]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[up- and down-side of the [company]IBM]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[up- and down-sides of the [company]IBM]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Watson]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Watson]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875647</guid>
+		<description><![CDATA[Jason Hoffman, the former Joyent CTO who's now spearheading Ericsson's cloud computing show talks about what he and Apcera are up to. In addition, the Oracle succession saga, Talko talks, and what's up with Watson. <p>
+	<a href="https://gigaom.com/2014/09/25/ericsson-mind-melds-with-apcera-talko-takes-on-communications-and-whats-up-with-watson/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Ericsson mind melds with Apcera, Talko takes on communications,  and what&#8217;s up with Watson?</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/25/ericsson-mind-melds-with-apcera-talko-takes-on-communications-and-whats-up-with-watson/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875647&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/25/ericsson-mind-melds-with-apcera-talko-takes-on-communications-and-whats-up-with-watson/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+<enclosure url="http://traffic.libsyn.com/gigaom/092514_02-AudioMp3.mp3" length="53210864" type="audio/mpeg" />
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/03/structureshow-final_wide.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/03/structureshow-final_wide.jpg?w=150" medium="image">
+			<media:title type="html">The Structure Show 2014</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/4af03439988d64f816da72496325cb73?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">gigabarb</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/image1.jpg?w=708" medium="image">
+			<media:title type="html">Apcera Founder Derek Collison (left) and Ericsson cloud chief Jason Hoffman.</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Yikes: Big Amazon Web Services reboot on the way Friday</title>
+		<link>https://gigaom.com/2014/09/24/yikes-big-amazon-web-services-reboot-on-the-way/</link>
+		<comments>https://gigaom.com/2014/09/24/yikes-big-amazon-web-services-reboot-on-the-way/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 02:24:17 +0000</pubDate>
+		<dc:creator><![CDATA[Barb Darrow]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Amazon]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Amazon]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Amazon Web Services]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Amazon Web Services]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[public cloud]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[reboot]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[RightScale]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[RightScale]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Thorsten von Eicken]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875864</guid>
+		<description><![CDATA[Many Amazon Web Services customers will soon be subjected to a reboot of their EC2 instances -- but no one outside of AWS knows why. <p>
+	<a href="https://gigaom.com/2014/09/24/yikes-big-amazon-web-services-reboot-on-the-way/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Yikes: Big Amazon Web Services reboot on the way Friday</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/yikes-big-amazon-web-services-reboot-on-the-way/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875864&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/yikes-big-amazon-web-services-reboot-on-the-way/feed/</wfw:commentRss>
+		<slash:comments>4</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2012/12/shutterstock_121868920-e1356998977901.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2012/12/shutterstock_121868920-e1356998977901.jpg?w=150" medium="image">
+			<media:title type="html">dark clouds</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/4af03439988d64f816da72496325cb73?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">gigabarb</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Why is “anti-Facebook” network Ello popping up on your social feeds now?</title>
+		<link>https://gigaom.com/2014/09/24/why-is-anti-facebook-network-ello-popping-up-on-your-social-feeds-now/</link>
+		<comments>https://gigaom.com/2014/09/24/why-is-anti-facebook-network-ello-popping-up-on-your-social-feeds-now/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 00:07:41 +0000</pubDate>
+		<dc:creator><![CDATA[Carmel DeAmicis]]></dc:creator>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[ello]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Facebook]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[LGBTQ]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Quinn Norton]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[social networking]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Twitter]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875809</guid>
+		<description><![CDATA[Ello is getting its moment in the spotlight after Facebook alienated a large swath of its LGBTQ user base.<p>
+	<a href="https://gigaom.com/2014/09/24/why-is-anti-facebook-network-ello-popping-up-on-your-social-feeds-now/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Why is “anti-Facebook” network Ello popping up on your social feeds now?</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/why-is-anti-facebook-network-ello-popping-up-on-your-social-feeds-now/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875809&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/why-is-anti-facebook-network-ello-popping-up-on-your-social-feeds-now/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/screen-shot-2014-09-24-at-4-56-37-pm.png?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/screen-shot-2014-09-24-at-4-56-37-pm.png?w=150" medium="image">
+			<media:title type="html">Ello feed</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/f46020404f6d3a532acc096e063c4976?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">carmeldee88</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Gigaom Research webinar: Agility and programmability of SDN-powered distributed networking</title>
+		<link>https://gigaom.com/2014/09/24/gigaom-research-webinar-agility-and-programmability-of-sdn-powered-distributed-networking/</link>
+		<comments>https://gigaom.com/2014/09/24/gigaom-research-webinar-agility-and-programmability-of-sdn-powered-distributed-networking/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 20:55:18 +0000</pubDate>
+		<dc:creator><![CDATA[Gigaom]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://gigaom.com/?p=874418</guid>
+		<description><![CDATA[In this webinar, our panel will discuss the real-world benefits and business value of SDN-powered converged distributed infrastructure for the enterprise. Join Gigaom Research and our sponsor Pluribus Networks on September 25.<p>
+	<a href="https://gigaom.com/2014/09/24/gigaom-research-webinar-agility-and-programmability-of-sdn-powered-distributed-networking/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Gigaom Research webinar: Agility and programmability of SDN-powered distributed networking</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/gigaom-research-webinar-agility-and-programmability-of-sdn-powered-distributed-networking/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=874418&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/gigaom-research-webinar-agility-and-programmability-of-sdn-powered-distributed-networking/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/sdns.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/sdns.jpg?w=150" medium="image">
+			<media:title type="html">SDNs</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/4286d92b867f9a8085800edd1d9c9b7f?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">kathyosweiler</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Amazon is reportedly expanding its hardware division to work on smart home devices</title>
+		<link>https://gigaom.com/2014/09/24/amazon-is-reportedly-expanding-its-hardware-division-to-work-on-smart-home-devices/</link>
+		<comments>https://gigaom.com/2014/09/24/amazon-is-reportedly-expanding-its-hardware-division-to-work-on-smart-home-devices/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 20:45:44 +0000</pubDate>
+		<dc:creator><![CDATA[Kif Leswing]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Amazon]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[amazon dash]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[fire]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[fire phone]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Kindle]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[lab216]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Structure Connect]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[tablets]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875748</guid>
+		<description><![CDATA[Amazon's California-based hardware division is staffing up and working on connected devices for the home as well as a piece of wearable technology.<p>
+	<a href="https://gigaom.com/2014/09/24/amazon-is-reportedly-expanding-its-hardware-division-to-work-on-smart-home-devices/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Amazon is reportedly expanding its hardware division to work on smart home devices</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/amazon-is-reportedly-expanding-its-hardware-division-to-work-on-smart-home-devices/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875748&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/amazon-is-reportedly-expanding-its-hardware-division-to-work-on-smart-home-devices/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/07/shutterstock_173873357.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/07/shutterstock_173873357.jpg?w=150" medium="image">
+			<media:title type="html">Amazon Box - generic</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/ebf3d9d4f25955f9e123247b1e05685c?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">kifleswing</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Twitter&#8217;s proposed polling feature isn&#8217;t much help for brands</title>
+		<link>https://gigaom.com/2014/09/24/twitters-proposed-polling-feature-isnt-much-help-for-brands/</link>
+		<comments>https://gigaom.com/2014/09/24/twitters-proposed-polling-feature-isnt-much-help-for-brands/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 20:44:49 +0000</pubDate>
+		<dc:creator><![CDATA[Carmel DeAmicis]]></dc:creator>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[hyperactivate]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[marc fischman]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[polling]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[polls]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[secret]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Twitter]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Whisper]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875772</guid>
+		<description><![CDATA[Brands might not like Twitter's new embedded polling feature if it rolls out to the public.<p>
+	<a href="https://gigaom.com/2014/09/24/twitters-proposed-polling-feature-isnt-much-help-for-brands/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Twitter&#8217;s proposed polling feature isn&#8217;t much help for brands</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/twitters-proposed-polling-feature-isnt-much-help-for-brands/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875772&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/twitters-proposed-polling-feature-isnt-much-help-for-brands/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/06/twitter-money.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/06/twitter-money.jpg?w=150" medium="image">
+			<media:title type="html">twitter-money generic illustration</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/f46020404f6d3a532acc096e063c4976?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">carmeldee88</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Comcast comes out swinging in defense of merger, blasts Netflix and Discovery</title>
+		<link>https://gigaom.com/2014/09/24/comcast-comes-out-swinging-in-defense-of-merger-blasts-netflix-and-discovery/</link>
+		<comments>https://gigaom.com/2014/09/24/comcast-comes-out-swinging-in-defense-of-merger-blasts-netflix-and-discovery/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 20:18:52 +0000</pubDate>
+		<dc:creator><![CDATA[Jeff John Roberts]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[antitrust]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Comcast]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Comcast Corporation]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[David Cohen]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Discovery]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[FCC]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[federal-communications-commission]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[merger]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Netflix]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Netflix]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Time Warner Cable]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875744</guid>
+		<description><![CDATA[Comcast's top lawyer is taking a more aggressive tone at a time when attention is shifting to the internet implications of its proposed merger with Time Warner Cable.<p>
+	<a href="https://gigaom.com/2014/09/24/comcast-comes-out-swinging-in-defense-of-merger-blasts-netflix-and-discovery/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Comcast comes out swinging in defense of merger, blasts Netflix and Discovery</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/comcast-comes-out-swinging-in-defense-of-merger-blasts-netflix-and-discovery/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875744&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/comcast-comes-out-swinging-in-defense-of-merger-blasts-netflix-and-discovery/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/06/024654524-cat-fight.jpeg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/06/024654524-cat-fight.jpeg?w=150" medium="image">
+			<media:title type="html">cat fight generic</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/05dfcf765f1554b08954bb9e1ee63363?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">jeffjohnroberts</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Need a better flash for your iPhone camera? iBlazr will brighten your day (and night)</title>
+		<link>https://gigaom.com/2014/09/24/iblazr-external-led-flash-for-iphone/</link>
+		<comments>https://gigaom.com/2014/09/24/iblazr-external-led-flash-for-iphone/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 20:08:41 +0000</pubDate>
+		<dc:creator><![CDATA[Kevin C. Tofel]]></dc:creator>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Apple]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Google]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[iBlazr]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[iOS]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[iPad]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[iPhone]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[iPod Touch]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[led flash]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Microsoft]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875761</guid>
+		<description><![CDATA[Is the puny iPhone flash not quite enough for your stills or video capture? Check out iBlazr, a $50 attachment that plugs into your phone's headphone jack and adds 4 bright LEDs for your photos; it can even sync with the iPhone's native flash.<p>
+	<a href="https://gigaom.com/2014/09/24/iblazr-external-led-flash-for-iphone/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Need a better flash for your iPhone camera? iBlazr will brighten your day (and night)</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/iblazr-external-led-flash-for-iphone/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875761&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/iblazr-external-led-flash-for-iphone/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/iblazr-back-e1411588432963.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/iblazr-back-e1411588432963.jpg?w=150" medium="image">
+			<media:title type="html">iblazr back</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/6cbb45abac59965c2626e40155358d1b?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">Kevin C. Tofel</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/iblazr-angle.jpg?w=708" medium="image">
+			<media:title type="html">iblazr angle</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Twitter open sourced a recommendation algorithm for massive datasets</title>
+		<link>https://gigaom.com/2014/09/24/twitter-open-sourced-a-recommendation-algorithm-for-massive-datasets/</link>
+		<comments>https://gigaom.com/2014/09/24/twitter-open-sourced-a-recommendation-algorithm-for-massive-datasets/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 19:52:37 +0000</pubDate>
+		<dc:creator><![CDATA[Derrick Harris]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[big data]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[open source]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[recommendation engines]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[recommendation systems]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Twitter]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Twitter]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875725</guid>
+		<description><![CDATA[Twitter recently open sourced an algorithm designed to ease the process of running recommendation engines at large scale. Called DIMSUM, the algorithm pre-processes pairs of possible matches so the other algorithms in the process don't waste resources on poor choices.<p>
+	<a href="https://gigaom.com/2014/09/24/twitter-open-sourced-a-recommendation-algorithm-for-massive-datasets/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Twitter open sourced a recommendation algorithm for massive datasets</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/twitter-open-sourced-a-recommendation-algorithm-for-massive-datasets/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875725&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/twitter-open-sourced-a-recommendation-algorithm-for-massive-datasets/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/04/shutterstock_82648615.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/04/shutterstock_82648615.jpg?w=150" medium="image">
+			<media:title type="html">Twitter generic</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/9e48ffa0913f65c577727457dd63023f?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">dharrisstructure</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/graph_dimsum.png" medium="image">
+			<media:title type="html">A graph showing performance improvements for ad-matching since switching to DIMSUM. Source: Twitter</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Skyhook plays the beacon game, building context into its Wi-Fi geo-location platform</title>
+		<link>https://gigaom.com/2014/09/24/skyhook-plays-the-beacon-game-building-context-into-its-wi-fi-geo-location-platform/</link>
+		<comments>https://gigaom.com/2014/09/24/skyhook-plays-the-beacon-game-building-context-into-its-wi-fi-geo-location-platform/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 19:17:55 +0000</pubDate>
+		<dc:creator><![CDATA[Kevin Fitchard]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[advertising]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Beacons]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Bluetooth]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[bluetooth-low-energy]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Geo Location]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[geofencing]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Google]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[interactive-advertising-bureau]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[liberty-media]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[location-based services]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[mobile marketing]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Skyhook Wireless]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Starbucks]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[wi-fi]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Wi-Fi location]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875730</guid>
+		<description><![CDATA[There's a lot Skyhook can tell about you based on the Wi-Fi networks you cross everyday. It's putting that info to work with a more refined set of geofencing and profiling tools for advertisers and developers.<p>
+	<a href="https://gigaom.com/2014/09/24/skyhook-plays-the-beacon-game-building-context-into-its-wi-fi-geo-location-platform/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Skyhook plays the beacon game, building context into its Wi-Fi geo-location platform</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/skyhook-plays-the-beacon-game-building-context-into-its-wi-fi-geo-location-platform/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875730&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/skyhook-plays-the-beacon-game-building-context-into-its-wi-fi-geo-location-platform/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2013/08/shutterstock_135632645-e1377901881963.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2013/08/shutterstock_135632645-e1377901881963.jpg?w=150" medium="image">
+			<media:title type="html">wifi router</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/0544c4b228f8fa80e31bb952501cd7a4?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">kfitchard</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2011/04/skyhook-demo_1-e1303941301820.png" medium="image">
+			<media:title type="html">Skyhook demo</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>The latest anonymous chatting app is both harrowing and intriguing</title>
+		<link>https://gigaom.com/2014/09/24/the-latest-anonymous-chatting-app-is-both-harrowing-and-intriguing/</link>
+		<comments>https://gigaom.com/2014/09/24/the-latest-anonymous-chatting-app-is-both-harrowing-and-intriguing/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 19:01:48 +0000</pubDate>
+		<dc:creator><![CDATA[Carmel DeAmicis]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[anonymity]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[ChatRoulette]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[ChatRoulette]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[chatting]]></category>
+		<category domain="http://search.gigaom.com/person/"><![CDATA[Jordan Walker]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Kindly]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[secret]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[social media application]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Whisper]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875547</guid>
+		<description><![CDATA[Should strangers really be providing emotional support to those in need?<p>
+	<a href="https://gigaom.com/2014/09/24/the-latest-anonymous-chatting-app-is-both-harrowing-and-intriguing/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">The latest anonymous chatting app is both harrowing and intriguing</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/the-latest-anonymous-chatting-app-is-both-harrowing-and-intriguing/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875547&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/the-latest-anonymous-chatting-app-is-both-harrowing-and-intriguing/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/sb10069044k-001.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/sb10069044k-001.jpg?w=150" medium="image">
+			<media:title type="html">Emotional support</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/f46020404f6d3a532acc096e063c4976?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">carmeldee88</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Apple releases, then pulls, an iOS update that accidentally cut off cell service</title>
+		<link>https://gigaom.com/2014/09/24/the-ios-8-0-1-update-fixes-a-lot-of-bugs-but-it-might-also-cut-off-your-cell-phone-service/</link>
+		<comments>https://gigaom.com/2014/09/24/the-ios-8-0-1-update-fixes-a-lot-of-bugs-but-it-might-also-cut-off-your-cell-phone-service/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 18:02:35 +0000</pubDate>
+		<dc:creator><![CDATA[Kif Leswing]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Apple]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Apple]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[iOS]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[ios 8 update]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[ios 8.0.1]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[iPad]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[iPhone]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875699</guid>
+		<description><![CDATA[Apple has pushed an iOS 8 update to iPhones, and it appears to introduce several major bugs.  Cellular service is knocked out for some, and others are reporting issues with Touch ID. <p>
+	<a href="https://gigaom.com/2014/09/24/the-ios-8-0-1-update-fixes-a-lot-of-bugs-but-it-might-also-cut-off-your-cell-phone-service/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Apple releases, then pulls, an iOS update that accidentally cut off cell service</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/the-ios-8-0-1-update-fixes-a-lot-of-bugs-but-it-might-also-cut-off-your-cell-phone-service/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875699&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/the-ios-8-0-1-update-fixes-a-lot-of-bugs-but-it-might-also-cut-off-your-cell-phone-service/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/ios-8-0-01-update.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/ios-8-0-01-update.jpg?w=150" medium="image">
+			<media:title type="html">ios-8.0.01-update</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/ebf3d9d4f25955f9e123247b1e05685c?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">kifleswing</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/2014-09-24-13-25-14.png?w=576" medium="image">
+			<media:title type="html">2014-09-24 13.25.14</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>India&#8217;s orbiter reaches Mars, making it the 4th nation to visit the planet</title>
+		<link>https://gigaom.com/2014/09/24/indias-orbiter-reaches-mars-making-it-the-4th-nation-to-visit-the-planet/</link>
+		<comments>https://gigaom.com/2014/09/24/indias-orbiter-reaches-mars-making-it-the-4th-nation-to-visit-the-planet/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 17:57:21 +0000</pubDate>
+		<dc:creator><![CDATA[Signe Brewster]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Mars]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[space]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Space exploration]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875693</guid>
+		<description><![CDATA[The spacecraft will study the planet's atmosphere and surface. It cost only about a tenth of the NASA orbiter that recently reached Mars.<p>
+	<a href="https://gigaom.com/2014/09/24/indias-orbiter-reaches-mars-making-it-the-4th-nation-to-visit-the-planet/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">India&#8217;s orbiter reaches Mars, making it the 4th nation to visit the planet</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/indias-orbiter-reaches-mars-making-it-the-4th-nation-to-visit-the-planet/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875693&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/indias-orbiter-reaches-mars-making-it-the-4th-nation-to-visit-the-planet/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/mars.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/mars.jpg?w=150" medium="image">
+			<media:title type="html">India Mars Orbiter Mission</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/5a66d8eda897aab3ae47a6780970e93b?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">signejb</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>SolarCity breaks ground on huge solar factory in New York, strikes deal with state</title>
+		<link>https://gigaom.com/2014/09/24/solarcity-breaks-ground-on-huge-solar-factory-in-new-york-strikes-deal-with-state/</link>
+		<comments>https://gigaom.com/2014/09/24/solarcity-breaks-ground-on-huge-solar-factory-in-new-york-strikes-deal-with-state/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 17:34:50 +0000</pubDate>
+		<dc:creator><![CDATA[Katie Fehrenbacher]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Silevo]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[SolarCity]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875676</guid>
+		<description><![CDATA[SolarCity has struck a deal with the state of New York to build Elon Musk's "other" massive factory.<p>
+	<a href="https://gigaom.com/2014/09/24/solarcity-breaks-ground-on-huge-solar-factory-in-new-york-strikes-deal-with-state/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">SolarCity breaks ground on huge solar factory in New York, strikes deal with state</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/solarcity-breaks-ground-on-huge-solar-factory-in-new-york-strikes-deal-with-state/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875676&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/solarcity-breaks-ground-on-huge-solar-factory-in-new-york-strikes-deal-with-state/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/02/solarcity_copper_ridge_school.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/02/solarcity_copper_ridge_school.jpg?w=150" medium="image">
+			<media:title type="html">SolarCity</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/0c61eb5d3c638c5b371fc84afd2831b4?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">katiefehren</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2011/10/silevo-single-buss-bar-cell.jpg?w=708" medium="image">
+			<media:title type="html">A Silevo cell, image courtesy of Silevo.</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2012/12/screen-shot-2012-12-13-at-10-26-19-am.png?w=708" medium="image">
+			<media:title type="html">SolarCity NASDAQ</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>France&#8217;s Free may use Android TV for its next set-top box</title>
+		<link>https://gigaom.com/2014/09/24/frances-free-may-use-android-tv-for-its-next-set-top-box/</link>
+		<comments>https://gigaom.com/2014/09/24/frances-free-may-use-android-tv-for-its-next-set-top-box/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 17:11:21 +0000</pubDate>
+		<dc:creator><![CDATA[Janko Roettgers]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Android TV]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Europe]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[France]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[free]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[free]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Google]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Razer]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[sharp]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Sony]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875673</guid>
+		<description><![CDATA[Android TV devices will be available for sale in the U.S. in the next few months, but in France, they may also come in the form of pay TV set-top boxes.<p>
+	<a href="https://gigaom.com/2014/09/24/frances-free-may-use-android-tv-for-its-next-set-top-box/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">France&#8217;s Free may use Android TV for its next set-top box</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/frances-free-may-use-android-tv-for-its-next-set-top-box/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875673&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/frances-free-may-use-android-tv-for-its-next-set-top-box/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/06/google-io-2014-6521.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/06/google-io-2014-6521.jpg?w=150" medium="image">
+			<media:title type="html">Android TV</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/08bc62ecf138202f06b74dfa01376e74?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">jroettgers</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>MemSQL distributes its database across data centers, takes In-Q-Tel investment</title>
+		<link>https://gigaom.com/2014/09/24/memsql-distributes-its-database-across-data-centers-takes-in-q-tel-investment/</link>
+		<comments>https://gigaom.com/2014/09/24/memsql-distributes-its-database-across-data-centers-takes-in-q-tel-investment/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 16:36:07 +0000</pubDate>
+		<dc:creator><![CDATA[Derrick Harris]]></dc:creator>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[analytic databases]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[big data]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[columnar database]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[database]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[MemSQL]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[NewSQL]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[relational-databases]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875656</guid>
+		<description><![CDATA[MemSQL has secured an investment from intelligence-focused venture capital fund In-Q-Tel, and has released a new version of its database software that includes automatic replication of data across data centers.<p>
+	<a href="https://gigaom.com/2014/09/24/memsql-distributes-its-database-across-data-centers-takes-in-q-tel-investment/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">MemSQL distributes its database across data centers, takes In-Q-Tel investment</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/memsql-distributes-its-database-across-data-centers-takes-in-q-tel-investment/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875656&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/memsql-distributes-its-database-across-data-centers-takes-in-q-tel-investment/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/02/database21.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/02/database21.jpg?w=150" medium="image">
+			<media:title type="html">database2</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/9e48ffa0913f65c577727457dd63023f?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">dharrisstructure</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/memsql-achitecture-new.png" medium="image">
+			<media:title type="html">The MemSQL marketecture. Source: MemSQL</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Wither Tizen phones? Samsung scales back software engineers in its mobile division</title>
+		<link>https://gigaom.com/2014/09/24/wither-tizen-phones-samsung-scales-back-software-engineers-in-its-mobile-division/</link>
+		<comments>https://gigaom.com/2014/09/24/wither-tizen-phones-samsung-scales-back-software-engineers-in-its-mobile-division/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 16:22:08 +0000</pubDate>
+		<dc:creator><![CDATA[Kevin C. Tofel]]></dc:creator>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Android]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[Galaxy Gear]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Google]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[internet of things]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Samsung]]></category>
+		<category domain="http://search.gigaom.com/technology/"><![CDATA[tizen]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875653</guid>
+		<description><![CDATA[Having worked with Tizen since 2011, Samsung has yet to launch a Tizen-powered phone. Now, the company is moving 500 software engineers away from its mobile division, which suggests a revised Tizen strategy for the Internet of Things and connected consumer electronics.<p>
+	<a href="https://gigaom.com/2014/09/24/wither-tizen-phones-samsung-scales-back-software-engineers-in-its-mobile-division/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Wither Tizen phones? Samsung scales back software engineers in its mobile division</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/wither-tizen-phones-samsung-scales-back-software-engineers-in-its-mobile-division/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875653&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/wither-tizen-phones-samsung-scales-back-software-engineers-in-its-mobile-division/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2013/09/img_2414.jpg?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2013/09/img_2414.jpg?w=150" medium="image">
+			<media:title type="html">Autodesk Pier 9</media:title>
+		</media:content>
+
+		<media:content url="https://0.gravatar.com/avatar/6cbb45abac59965c2626e40155358d1b?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">Kevin C. Tofel</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/02/tizen-os.jpg?w=708" medium="image">
+			<media:title type="html">tizen</media:title>
+		</media:content>
+
+		<media:content url="https://gigaom2.files.wordpress.com/2014/04/galaxy-s5-copper.jpg?w=708" medium="image">
+			<media:title type="html">Galaxy S5 copper</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Apple acquires Prss, a company that builds tools for iPad magazine creation</title>
+		<link>https://gigaom.com/2014/09/24/apple-acquires-prss-a-company-that-builds-tools-for-ipad-magazine-creation/</link>
+		<comments>https://gigaom.com/2014/09/24/apple-acquires-prss-a-company-that-builds-tools-for-ipad-magazine-creation/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 15:57:32 +0000</pubDate>
+		<dc:creator><![CDATA[Kif Leswing]]></dc:creator>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Adobe]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[Apple]]></category>
+		<category domain="http://search.gigaom.com/company/"><![CDATA[Apple]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[desktop publishing]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[iBooks]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[iBooks Author]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[iPad]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[PRSS]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[smartphones]]></category>
+		<category domain="http://search.gigaom.com/tag/"><![CDATA[tablets]]></category>
+		
+		<guid isPermaLink="false">http://gigaom.com/?p=875608</guid>
+		<description><![CDATA[Apple has purchased Prss, a Dutch company that produced browser-based tools for making iPad magazines. It looks as if the Prss service will be shut down. <p>
+	<a href="https://gigaom.com/2014/09/24/apple-acquires-prss-a-company-that-builds-tools-for-ipad-magazine-creation/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Apple acquires Prss, a company that builds tools for iPad magazine creation</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/apple-acquires-prss-a-company-that-builds-tools-for-ipad-magazine-creation/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=875608&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/apple-acquires-prss-a-company-that-builds-tools-for-ipad-magazine-creation/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+	
+		<media:thumbnail url="https://gigaompaidcontent.files.wordpress.com/2012/11/screen-shot-2012-11-02-at-17-41-07.png?w=150" />
+		<media:content url="https://gigaompaidcontent.files.wordpress.com/2012/11/screen-shot-2012-11-02-at-17-41-07.png?w=150" medium="image">
+			<media:title type="html">PRSS</media:title>
+		</media:content>
+
+		<media:content url="https://2.gravatar.com/avatar/ebf3d9d4f25955f9e123247b1e05685c?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">kifleswing</media:title>
+		</media:content>
+	</item>
+		<item>
+		<title>Upcoming Gigaom event: Emerging trends in IoT standards and the quantified self at Structure Connect</title>
+		<link>https://gigaom.com/2014/09/24/upcoming-gigaom-event-emerging-trends-in-iot-standards-and-the-quantified-self-at-structure-connect/</link>
+		<comments>https://gigaom.com/2014/09/24/upcoming-gigaom-event-emerging-trends-in-iot-standards-and-the-quantified-self-at-structure-connect/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 15:55:24 +0000</pubDate>
+		<dc:creator><![CDATA[Gigaom]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://gigaom.com/?p=873689</guid>
+		<description><![CDATA[Find out more about securing standards in IoT and the growing tracker device movement at Structure Connect’s Mapping Sessions this October in San Francisco.<p>
+	<a href="https://gigaom.com/2014/09/24/upcoming-gigaom-event-emerging-trends-in-iot-standards-and-the-quantified-self-at-structure-connect/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Upcoming Gigaom event: Emerging trends in IoT standards and the quantified self at Structure Connect</a> originally published by <a href="https://gigaom.com/">Gigaom</a>, &copy; copyright 2014.
+</p>
+<p>
+	<a href="https://gigaom.com/2014/09/24/upcoming-gigaom-event-emerging-trends-in-iot-standards-and-the-quantified-self-at-structure-connect/?utm_source=feed&#038;utm_medium=feed&#038;utm_campaign=feed">Continue reading&hellip;</a>
+</p>
+<img alt="" border="0" src="https://pixel.wp.com/b.gif?host=gigaom.com&#038;blog=14960843&#038;post=873689&#038;subd=gigaom2&#038;ref=&#038;feed=1" width="1" height="1" />]]></description>
+		<wfw:commentRss>https://gigaom.com/2014/09/24/upcoming-gigaom-event-emerging-trends-in-iot-standards-and-the-quantified-self-at-structure-connect/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+	
+		<media:thumbnail url="https://gigaom2.files.wordpress.com/2014/09/structureconnect2014_201x140_post091614.gif?w=150" />
+		<media:content url="https://gigaom2.files.wordpress.com/2014/09/structureconnect2014_201x140_post091614.gif?w=150" medium="image">
+			<media:title type="html">StructureConnect2014_201x140_post091614</media:title>
+		</media:content>
+
+		<media:content url="https://1.gravatar.com/avatar/4286d92b867f9a8085800edd1d9c9b7f?s=96&#38;d=retro&#38;r=PG" medium="image">
+			<media:title type="html">kathyosweiler</media:title>
+		</media:content>
+	</item>
+	</channel>
+</rss>

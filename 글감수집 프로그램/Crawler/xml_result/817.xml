@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>사각프레임</title>
+		<link>http://karam0328.tistory.com/</link>
+		<description></description>
+		<language>ko</language>
+		<pubDate>Wed, 25 Jun 2014 22:53:44 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>언감생심™</managingEditor>
+		<item>
+			<title>아이폰 4.3.1 완탈 가이드</title>
+			<link>http://karam0328.tistory.com/entry/%EC%95%84%EC%9D%B4%ED%8F%B0-431-%EC%99%84%ED%83%88-%EA%B0%80%EC%9D%B4%EB%93%9C</link>
+			<description>&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;
+4.2.1 버전이 나온지 얼마 되지도 않은것 같은데..&lt;br /&gt;
+&lt;br /&gt;4.3.1 버전 완탈이 나왔습니다 ^^&lt;br /&gt;
+&lt;br /&gt;os 업데이트가 빠른만큼 탈옥툴도 빨리 나오는 것 같습니다 ^^&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+그럼 가이드 들어가 볼까요?&lt;br /&gt;
+&lt;br /&gt;이번 탈옥은 4.3.1 버전입니다 &lt;br /&gt;
+&lt;br /&gt;본인 아이폰이 4.3.1 버전인지 확인하신 후 진행을 하셔야 합니다 &lt;br /&gt;
+&lt;br /&gt;4.3.1 버전이 아닌 하위 버전일 경우에 무한 벽돌 모드가 되는 경우가 있으니 반드시 확인 해주시기 바랍니다 ^^&lt;br /&gt;
+&lt;br /&gt;&lt;/DIV&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile9.uf.tistory.com/original/195AF2444D9AB3E32C03B1&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/195AF2444D9AB3E32C03B1&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0196.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;붉은 동그라미 쳐놓으신 부분처럼 본인의 아이폰 버전을 먼저 확인 해주시기 바랍니다 &lt;br /&gt;
+&lt;br /&gt;확인하는 방법은 다들 알고 계시죠??&lt;br /&gt;
+&lt;br /&gt;설정 -&amp;gt; 일반 -&amp;gt;정보 이렇게 이동하셔서 확인을 하시면 됩니다 &lt;br /&gt;
+&lt;br /&gt;4.3.1 버전의 아이폰이 준비가 되었다면 &lt;br /&gt;
+&lt;br /&gt;다음은 펌웨어가 있어야 한답니다 ^^&lt;br /&gt;
+&lt;br /&gt;이번 4.3.1 완탈은 준비물이 조금 필요한;;;;&lt;br /&gt;
+&lt;br /&gt;펌웨어 사이트를 링크를 시키도록 하겠습니다 &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+iphone 3gs -&amp;gt;&amp;nbsp;&amp;nbsp; &lt;A href=&quot;http://appldnld.apple.com/iphone4/041-0549.20110325.ZxP8u/iphone2,1_4.3.1_8G4_Restore.ipsw&quot;&gt;http://appldnld.apple.com/iphone4/041-0549.20110325.ZxP8u/iphone2,1_4.3.1_8G4_Restore.ipsw&lt;/A&gt;&lt;br /&gt;
+&lt;br /&gt;iphone 4 -&amp;gt;&amp;nbsp; &lt;A href=&quot;http://appldnld.apple.com/iphone4/041-0551.20110325.Aw2Dr/iphone3,1_4.3.1_8G4_Restore.ipsw&quot;&gt;http://appldnld.apple.com/iphone4/041-0551.20110325.Aw2Dr/iphone3,1_4.3.1_8G4_Restore.ipsw&lt;/A&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+출처: 네이버 닉네임 번쩍번쩍 님 블로그&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+인에게 필요한 펌웨어를 다운 받으신후 &lt;br /&gt;
+&lt;br /&gt;zip으로 되어있는 확장자를 ipsw로 변경 시켜주면 &lt;br /&gt;
+&lt;br /&gt;두번재 준비물까지 끝난답니다 ^^&lt;br /&gt;
+&lt;br /&gt;이제 3번째 준비물인 탈옥툴이 필요하겠지요?&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;/DIV&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://karam0328.tistory.com/attachment/cfile23.uf@111B693D4D9AB689134FCF.egg&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; redsn0w_win_0.9.6rc9.vol1.egg&lt;/a&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://karam0328.tistory.com/attachment/cfile3.uf@187A04444D9AB6AE018D36.egg&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; redsn0w_win_0.9.6rc9.vol2.egg&lt;/a&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+자 두가지의 첨부파일을 다운 받으신후 &lt;br /&gt;
+&lt;br /&gt;압축을 해제하시면 4.3.1 탈옥툴까지 준비물이 다 완성이 되었습니다 &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;다시 한번 정리 하자면 &lt;br /&gt;
+&lt;br /&gt;이번 4.3.1 탈옥을 진행하기 위해서는 &lt;br /&gt;
+&lt;br /&gt;기본적으로 세가지의 준비물이 필요합니다 &lt;br /&gt;
+&lt;br /&gt;1.&amp;nbsp; 4.3.1 버전으로 업데이트가 완료되어있는 아이폰&lt;br /&gt;
+&lt;br /&gt;2.&amp;nbsp; 4.3.1 버전의 펌웨어&lt;br /&gt;
+&lt;br /&gt;3.&amp;nbsp;&amp;nbsp;4.3.1 버전의 탈옥툴(레드스노우)&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;다들 확인 하셨죠????&lt;br /&gt;
+&lt;br /&gt;자 그럼 이제 본격적으로 탈옥을 진행 해보도록 하겠습니다 &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+먼저 아이폰과 컴퓨터를 케이블을 이용하여 연결 시켜줍니다 &lt;br /&gt;
+&lt;br /&gt;연결후에 아이튠즈는 잠시 꺼두시구요~~&lt;br /&gt;
+&lt;br /&gt;위에서 다운받으신 후 압축해제 하신 폴더의&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;&amp;nbsp;redsn0w.exe&amp;nbsp; 파일을 클릭을 해줍니다 &lt;br /&gt;
+&lt;br /&gt;그럼 아래와 같은 창이 뜹니다 &lt;br /&gt;
+&lt;br /&gt;&lt;/DIV&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile24.uf.tistory.com/original/1703803E4D9AB84B140AFB&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/1703803E4D9AB84B140AFB&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;1.jpg&quot; height=&quot;548&quot; width=&quot;431&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;이 상태에서 아래쪽의 브라우저를 클릭 준비해놓은 펌웨어를 선택을 해줍니다 &lt;br /&gt;
+&lt;br /&gt;&lt;/DIV&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile1.uf.tistory.com/original/190E0E3D4D9AB8BA315BBB&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/190E0E3D4D9AB8BA315BBB&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;2.jpg&quot; height=&quot;476&quot; width=&quot;720&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;저 같은 경우에는 아이폰 3gs이기때문에 &lt;br /&gt;
+&lt;br /&gt;3gs용의 펌웨어를 선택을 했습니다&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+그 다음은 '예'를 선택&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;/DIV&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile24.uf.tistory.com/original/2024E23D4D9AB9300CCA93&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/2024E23D4D9AB9300CCA93&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;3.jpg&quot; height=&quot;550&quot; width=&quot;477&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;예를 선택하시고 넥스트 버튼을 클릭을 하시면 &lt;br /&gt;
+&lt;br /&gt;옵션을 고르는 창이 나옵니다 &lt;br /&gt;
+&lt;br /&gt;일단 기본적으로 인스톨 시디아에 체크가 되어있습니다 &lt;br /&gt;
+&lt;br /&gt;넥스트 버튼을 눌러서 &lt;br /&gt;
+&lt;br /&gt;다음 단계로 이동합니다 &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;/DIV&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile23.uf.tistory.com/original/1327D3454D9AB9ED1444BE&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/1327D3454D9AB9ED1444BE&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;4.jpg&quot; height=&quot;544&quot; width=&quot;426&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;이 단계까지 오셨으면 &lt;br /&gt;
+&lt;br /&gt;이제 슬립버튼을 이용해서 아이폰읜 전원을 꺼주시구요&lt;br /&gt;
+&lt;br /&gt;본격적으로 DFU 모드로 들어갑니다 &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/DIV&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile29.uf.tistory.com/original/147BDA444D9ABB0B100142&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/147BDA444D9ABB0B100142&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;5.jpg&quot; height=&quot;550&quot; width=&quot;432&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;3초 정도 슬립버튼을 눌러주신후 &lt;br /&gt;
+&lt;br /&gt;슬립버튼과 홈버튼을 동시에 10초 동안 눌러주신후 &lt;br /&gt;
+&lt;br /&gt;홈버튼만 15초 동안 눌러주시면 &lt;br /&gt;
+&lt;br /&gt;아이폰은 DFU 모드로 진입이&amp;nbsp;됩니다 &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;요렇게 버튼 누르고 있는 시간은 &lt;br /&gt;
+&lt;br /&gt;4.2.1 버전때와 마찬가지로 &lt;br /&gt;
+&lt;br /&gt;창에서 카운터가 이루어지니 너무 걱정안하셔도 됩니다 &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;이때 아이폰 화면에는 디스크 모양이 뜬후 &lt;br /&gt;
+&lt;br /&gt;도스창이 뜨게 됩니다 &lt;br /&gt;
+&lt;br /&gt;그리곤 귀여운 파인애플 아이콘이 생깁니다 &lt;br /&gt;
+&lt;br /&gt;요 상태에서 컴퓨터에서 실행 시킨 탈옥 툴은 &lt;br /&gt;
+&lt;br /&gt;DONE 이라는 메세지가&amp;nbsp;뜹니다 &lt;br /&gt;
+&lt;br /&gt;아이폰 화면은 &amp;nbsp;잠시후에 사과 모양으로 변하면서 &lt;br /&gt;
+&lt;br /&gt;재부팅이 됩니다 (요기서 시간이 잠시 걸리니 여유를 가지시길 ^^)&lt;br /&gt;
+&lt;br /&gt;이제 제대로 탈옥이 이루어졌는지 확인 하기 위해서 &lt;br /&gt;
+&lt;br /&gt;아이폰의 제일 마지막 페이지에 가보면 &lt;br /&gt;
+&lt;br /&gt;시디아 아이콘이 생성이 되어있을겁니다 &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/DIV&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile22.uf.tistory.com/original/162562454D9ABCAC2BA58C&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/162562454D9ABCAC2BA58C&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0197.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;시디아 아이콘을 클릭하시고 &lt;br /&gt;
+&lt;br /&gt;시디아를 다운 로드 받으신후 &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;/DIV&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile23.uf.tistory.com/original/181C89404D9ABCFA029619&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/181C89404D9ABCFA029619&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0195.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;
+누구냐는 물음이 나오면&lt;br /&gt;
+&lt;br /&gt;유저를 선택해주시면 됩니다 &lt;br /&gt;
+&lt;br /&gt;그러면 다음과 같이 시디아 사이트가 떡! 하니 나타납니다 ~&lt;br /&gt;
+&lt;br /&gt;&lt;/DIV&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; MARGIN: 0px&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile6.uf.tistory.com/original/1213793F4D9ABD4C0AA0AC&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/1213793F4D9ABD4C0AA0AC&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_0198.PNG&quot; height=&quot;480&quot; width=&quot;320&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/P&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;자~~~~ 이제 4.3.1 버전 완탈이 끝났습니다 &lt;br /&gt;
+&lt;br /&gt;탈옥이 끝난후에 해줘야 할일들은 &lt;br /&gt;
+&lt;br /&gt;다들 알고 계시리라 생각이 됩니다 &lt;br /&gt;
+&lt;br /&gt;매번 정리해야지 하면서도 정리를 못하고 있네요 ㅠㅠ&lt;br /&gt;
+&lt;br /&gt;다음에 기회가 된다면 &lt;br /&gt;
+&lt;br /&gt;시디아 소스들과 안정화 작업에 대하여 글을 올리도록 하겠습니다 &lt;br /&gt;
+&lt;br /&gt;그럼 즐거운 탈옥 하시길~~~~~~&lt;br /&gt;
+&lt;br /&gt;참!!!!! 탈옥에 대한 책음은 본인에게 있다는 사실!!!&lt;br /&gt;
+&lt;br /&gt;명심 하시고 진행하시길 바랍니다~~~~&lt;br /&gt;
+&lt;br /&gt;&lt;/DIV&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=15462023&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=karam0328.tistory.com&amp;media_type=10&amp;guid=karam0328.tistory.com%2F138&amp;regts=1301987130&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>IphoNe</category>
+			<category>3GS</category>
+			<category>4.3.1버전</category>
+			<category>레드스노우</category>
+			<category>사각프레임</category>
+			<category>아이폰</category>
+			<category>언감생심</category>
+			<category>완탈</category>
+			<category>윈도우버전</category>
+			<category>탈옥</category>
+			<author>언감생심™</author>
+			<guid>http://karam0328.tistory.com/138</guid>
+			<comments>http://karam0328.tistory.com/entry/%EC%95%84%EC%9D%B4%ED%8F%B0-431-%EC%99%84%ED%83%88-%EA%B0%80%EC%9D%B4%EB%93%9C#entry138comment</comments>
+			<pubDate>Tue, 05 Apr 2011 16:05:30 +0900</pubDate>
+		</item>
+		<item>
+			<title>아이폰 4.2.1 윈도우용 완탈 강좌</title>
+			<link>http://karam0328.tistory.com/entry/%EC%95%84%EC%9D%B4%ED%8F%B0-421-%EC%9C%88%EB%8F%84%EC%9A%B0%EC%9A%A9-%EC%99%84%ED%83%88-%EA%B0%95%EC%A2%8C</link>
+			<description>&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;
+음...&lt;br /&gt;
+&lt;br /&gt;매번 포스팅을 해야지 하면서도 귀차니즘의 발동으로 인하여 &lt;br /&gt;
+&lt;br /&gt;이제서야 포스팅을 하게 되네요 &lt;br /&gt;
+&lt;br /&gt;이번 포스팅에서 다룰 내용은 제목에도 나와 있듯이 &lt;br /&gt;
+&lt;br /&gt;아이폰 4.2.1 윈도우용 완탈 강좌입니다&lt;br /&gt;
+&lt;br /&gt;생각보다 그리 어렵지 않으니 &lt;br /&gt;
+&lt;br /&gt;탈옥 초보이신분들도 잘 보고 따라하시면 충분히 탈옥을 하실수 있을거라 &lt;br /&gt;
+&lt;br /&gt;믿어 의심치 않습니다 ^^&lt;br /&gt;
+&lt;br /&gt;그럼 시작 해보도록 할까요&amp;nbsp; ㅎㅎ&lt;br /&gt;
+&lt;br /&gt;*탈옥으로 인해 생기는 문제는 전적으로 본인의 책임이라는거 ^^&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+먼저 첨부파일을 다운로드를 합니다.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://karam0328.tistory.com/attachment/cfile10.uf@1622AD594D6694041BCB09.zip&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/zip.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; gp_win_rc6.1.zip&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;첨부파일을 다운 받으신 후 압축을 풀어줍니다 &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile9.uf.tistory.com/original/1864B2574D6694CA0214FB&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/1864B2574D6694CA0214FB&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;1.jpg&quot; height=&quot;447&quot; width=&quot;720&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;압축을 푸시면 폴더안에 그림처럼 두가지의 파일이 보이실겁니다 &lt;br /&gt;
+&lt;br /&gt;주의사항은 압축을 푸실때 알약이나,V3등 백신 프로그램이 실행되고 있으면 &lt;br /&gt;
+&lt;br /&gt;바이러스로 확인이 되니 압축을 푸시기 전에 미리 백신 프로그램은 꺼두시는게 좋습니다 ^^&lt;br /&gt;
+&lt;br /&gt;이제 탈옥툴도 다운을 받았고 &lt;br /&gt;
+&lt;br /&gt;압축도 푸셨으니 본격적으로 탈옥을 실행 해보도독 하겠습니다 &lt;br /&gt;
+&lt;br /&gt;먼저 컴퓨터에 아이폰을 연결해줍니다 &lt;br /&gt;
+&lt;br /&gt;물론 아이튠즈도 깔려 있어야 겠지요 ^^&lt;br /&gt;
+&lt;br /&gt;아이튠즈가 최신버전이 아니시라면 먼저 아이튠즈 업데이트부터 해주세요 &lt;br /&gt;
+&lt;br /&gt;구버전에서는 에러가 자주 생긴다고 합니다 &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile7.uf.tistory.com/original/17608F554D66970F179D1E&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/17608F554D66970F179D1E&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;2.jpg&quot; height=&quot;119&quot; width=&quot;108&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;폴더 안에 있는 녹색 해골 모양의 사과를 클릭하여 &lt;br /&gt;
+&lt;br /&gt;탈옥 툴을 샐행을 시킵니다 ~&lt;br /&gt;
+&lt;br /&gt;탈옥툴을 실행을 시키면 다음과 같은 팝업창이 하나 뜨게 됩니다 &lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile2.uf.tistory.com/original/1244453A4D669B6809099A&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/1244453A4D669B6809099A&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;9.jpg&quot; height=&quot;303&quot; width=&quot;538&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+그린포이즌에서 파이널 버전이 나오면서 이런 팝업이 뜨게 되는데 &lt;br /&gt;
+&lt;br /&gt;애플&amp;nbsp;TV도 탈옥이 되기때문에 &lt;br /&gt;
+&lt;br /&gt;애플TV인지 아닌지를 묻는 팝업창입니다 &lt;br /&gt;
+&lt;br /&gt;가뿐하게 아니요 를 눌러서 넘어가줍니다 ^^&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile28.uf.tistory.com/original/114A6B514D66978902E73E&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/114A6B514D66978902E73E&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;3.jpg&quot; height=&quot;295&quot; width=&quot;531&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;그럼 다음과 같은 창이 뜨게 됩니다 &lt;br /&gt;
+&lt;br /&gt;창 중간에 나와있는 &quot;Prepare to Jailbreak(DFU)&quot; 네모박스를 클릭을 하면 탈옥이 진행이 되게 됩니다 &lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile1.uf.tistory.com/original/15651D574D6698A5075BC0&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/15651D574D6698A5075BC0&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;4.jpg&quot; height=&quot;293&quot; width=&quot;528&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;그림에서 보시듯이 4가지의 항목이 나오고 &lt;br /&gt;
+&lt;br /&gt;그 옆에 시간이 적혀져 있습니다 &lt;br /&gt;
+&lt;br /&gt;설명을 해드리자면 &lt;br /&gt;
+&lt;br /&gt;첫번째는 탈옥이 시작되니 준비를 해라&lt;br /&gt;
+&lt;br /&gt;두번째는 슬립버튼을 2초간 눌러줘라&lt;br /&gt;
+&lt;br /&gt;세번째는 슬립버튼을 누른상태에서 홈버튼을 10초간 눌러라 &lt;br /&gt;
+&lt;br /&gt;네번째는 홈버튼을 누른상태에서 슬립버튼을 띠고 15초가 홈버튼만 눌러라 &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;이런식으로 행동을 하라는 얘기입니다 &lt;br /&gt;
+&lt;br /&gt;진행이 되면서 각단계마다 굵은 글씨로 표기가 되니 그대로 따라하시면 됩니다 &lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile5.uf.tistory.com/original/13518F524D6699950326B3&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/13518F524D6699950326B3&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;4.jpg&quot; height=&quot;293&quot; width=&quot;528&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+1. 3초후에 시작이 되니 준비를 해라&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile6.uf.tistory.com/original/1627925A4D6699BC2F9A74&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/1627925A4D6699BC2F9A74&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;5.jpg&quot; height=&quot;294&quot; width=&quot;528&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/DIV&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center; MARGIN-LEFT: 4em&quot;&gt;2. 슬립버튼을 2초간 누르고 있어라&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile8.uf.tistory.com/original/165118524D6699E604229B&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/165118524D6699E604229B&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;6.jpg&quot; height=&quot;297&quot; width=&quot;528&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/DIV&gt;
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;
+&lt;br /&gt;3. 슬립버튼과 홈버튼을 같이 10초간 누르고 있어라&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile29.uf.tistory.com/original/1663CC574D669A0C0A9A0F&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/1663CC574D669A0C0A9A0F&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;7.jpg&quot; height=&quot;295&quot; width=&quot;528&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+4. 슬립버튼에서 손을띠고 홈버튼을 계속 누른 상태로 15초간 있어라&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+요렇게 설명이 될것 같습니다 &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile3.uf.tistory.com/original/191597384D669C5A100E50&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/191597384D669C5A100E50&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;10.jpg&quot; height=&quot;260&quot; width=&quot;515&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;이 과정들이 무사히 이루어지게 되면&lt;br /&gt;
+&lt;br /&gt;다음과 같이 왼쪽 하단 부분의 Waiting for DFU 부분이&amp;nbsp; Jailbreak! 로 그림과 같이 변하게 됩니다 &lt;br /&gt;
+&lt;br /&gt;그러면 Jailbreak! 를 클릭하셔서 계속 진행을 하시면 하단의 상태바가 녹색으로 점점 채워지면서 탈옥이 진행이 됩니다 &lt;br /&gt;
+&lt;br /&gt;아이폰에서는 도스 창이 뜨면서 진행이 되구요 &lt;br /&gt;
+&lt;br /&gt;해골모양의 사과가 나오고 난뒤 애플 로고가 뜨면서 &lt;br /&gt;
+&lt;br /&gt;재부팅이 진행이됩니다 &lt;br /&gt;
+&lt;br /&gt;재부팅후에 아이폰 바탕화면에 &lt;br /&gt;
+&lt;br /&gt;다음과 같이 바탕화면에 로더 아이콘이 생성이 되면&lt;br /&gt;
+&lt;br /&gt;탈옥은 완료가 된것입니다 &lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile1.uf.tistory.com/original/132198394D669F1211BFA1&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/132198394D669F1211BFA1&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;12.jpg&quot; height=&quot;338&quot; width=&quot;310&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+그리고 난뒤 컴퓨터를 보시면 아까 실행했던 탈옥툴이&lt;br /&gt;
+&lt;br /&gt;요렇게 변해 있을겁니다 &lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile25.uf.tistory.com/original/12442F3A4D669F400D78C5&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/12442F3A4D669F400D78C5&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;11.jpg&quot; height=&quot;258&quot; width=&quot;515&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;그럼 Quit를 클릭하시고 빠져나오시면 &lt;br /&gt;
+&lt;br /&gt;탈옥은 성공하신거랍니다 ^^&lt;br /&gt;
+&lt;br /&gt;점점 내용이 길어지는것 같아서 &lt;br /&gt;
+&lt;br /&gt;탈옥툴에 관해서는 여기서 &lt;br /&gt;
+&lt;br /&gt;포스팅을 마감하도록 하겠습니다 &lt;br /&gt;
+&lt;br /&gt;다음 포스팅에서는 시디아 설치와 더불어 &lt;br /&gt;
+&lt;br /&gt;각종 소스들에 대하여 알아보도록 하겠습니다 ~~&lt;br /&gt;
+&lt;br /&gt;&lt;/DIV&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=14252140&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=karam0328.tistory.com&amp;media_type=10&amp;guid=karam0328.tistory.com%2F137&amp;regts=1298571242&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>IphoNe</category>
+			<category>3GS</category>
+			<category>4.2.1</category>
+			<category>그린포이즌</category>
+			<category>사각프레임</category>
+			<category>아이폰</category>
+			<category>완탈</category>
+			<category>탈옥법</category>
+			<category>탈옥툴</category>
+			<category>파이널버전</category>
+			<author>언감생심™</author>
+			<guid>http://karam0328.tistory.com/137</guid>
+			<comments>http://karam0328.tistory.com/entry/%EC%95%84%EC%9D%B4%ED%8F%B0-421-%EC%9C%88%EB%8F%84%EC%9A%B0%EC%9A%A9-%EC%99%84%ED%83%88-%EA%B0%95%EC%A2%8C#entry137comment</comments>
+			<pubDate>Fri, 25 Feb 2011 03:14:02 +0900</pubDate>
+		</item>
+		<item>
+			<title>즐 거 움..</title>
+			<link>http://karam0328.tistory.com/entry/%EC%A6%90-%EA%B1%B0-%EC%9B%80</link>
+			<description>&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile28.uf.tistory.com/original/170A70474D4FB2BC055CF9&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/original/170A70474D4FB2BC055CF9&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_1935.jpg&quot; height=&quot;1280&quot; width=&quot;851&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;항상 생각을 어떻게 하느냐에 따라 그날의 기분이 좌우 될수도...&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;20090129 &lt;br /&gt;
+&lt;br /&gt;선유도공원&lt;br /&gt;
+&lt;br /&gt;B.H.R&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+:: D300 + 85.4 ::&lt;/DIV&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=13719260&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=karam0328.tistory.com&amp;media_type=10&amp;guid=karam0328.tistory.com%2F136&amp;regts=1297070423&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>MoDeL</category>
+			<category>1월</category>
+			<category>85.4</category>
+			<category>BHR.D300</category>
+			<category>모델포토</category>
+			<category>사각프레임</category>
+			<category>선유도공원</category>
+			<category>언감생심</category>
+			<category>타운포토</category>
+			<category>포토메타</category>
+			<author>언감생심™</author>
+			<guid>http://karam0328.tistory.com/136</guid>
+			<comments>http://karam0328.tistory.com/entry/%EC%A6%90-%EA%B1%B0-%EC%9B%80#entry136comment</comments>
+			<pubDate>Mon, 07 Feb 2011 18:20:23 +0900</pubDate>
+		</item>
+		<item>
+			<title>무제....</title>
+			<link>http://karam0328.tistory.com/entry/%EB%AC%B4%EC%A0%9C-1</link>
+			<description>&lt;br /&gt;
+
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile22.uf.tistory.com/original/1616724E4D44CF92306982&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/original/1616724E4D44CF92306982&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_1876.jpg&quot; height=&quot;1280&quot; width=&quot;851&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;그렇게 떠나가기 위해...&lt;br /&gt;
+&lt;br /&gt;날 무참하게 버린거였니.....&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+20110129&lt;br /&gt;
+&lt;br /&gt;선유도공원&lt;br /&gt;
+&lt;br /&gt;S.Y&lt;br /&gt;
+&lt;br /&gt;:: D300 + 85.4 ::&lt;/DIV&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=13544904&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=karam0328.tistory.com&amp;media_type=10&amp;guid=karam0328.tistory.com%2F135&amp;regts=1297070440&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>MoDeL</category>
+			<category>1월</category>
+			<category>85.4</category>
+			<category>d300</category>
+			<category>Nikon</category>
+			<category>SY</category>
+			<category>모델포토</category>
+			<category>사각프레임</category>
+			<category>선유도</category>
+			<category>언감생심</category>
+			<category>타운포토</category>
+			<category>포토메타</category>
+			<author>언감생심™</author>
+			<guid>http://karam0328.tistory.com/135</guid>
+			<comments>http://karam0328.tistory.com/entry/%EB%AC%B4%EC%A0%9C-1#entry135comment</comments>
+			<pubDate>Sun, 30 Jan 2011 11:42:08 +0900</pubDate>
+		</item>
+		<item>
+			<title>자연...바람...휴식...</title>
+			<link>http://karam0328.tistory.com/entry/%EC%9E%90%EC%97%B0%EB%B0%94%EB%9E%8C%ED%9C%B4%EC%8B%9D</link>
+			<description>&lt;br /&gt;
+
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;음...&lt;br /&gt;
+&lt;br /&gt;오늘도 역시 창고 사진 방출입니다...&lt;br /&gt;
+&lt;br /&gt;도대체 언제쩍 사진인지 ;;;&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile6.uf.tistory.com/original/164AC43B4D3D47410956A5&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/original/164AC43B4D3D47410956A5&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_4931 copy.jpg&quot; height=&quot;1024&quot; width=&quot;900&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;메타 정보를 슬며시 들추어 보니 &lt;br /&gt;
+&lt;br /&gt;2006년도에 찍은 사진입니다...&lt;br /&gt;
+&lt;br /&gt;즉...&lt;br /&gt;
+&lt;br /&gt;처음&amp;nbsp; DSLR을 접하고 찍은 사진이라고 할까나...&lt;br /&gt;
+&lt;br /&gt;여러가지 실험도 많이 하고 구도도 많이 바꾸어보고 했던것 같습니다..&lt;br /&gt;
+&lt;br /&gt;비록 결과물은 형편(?) 없지만...&lt;br /&gt;
+&lt;br /&gt;이웃블로거 분들은 눈 딱감으시고 이런 시절도 있었구나 하고 봐주시면 대단히 감사하겠습니다&amp;nbsp; ^_^;;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+20060624&lt;br /&gt;
+&lt;br /&gt;올림픽공원&lt;br /&gt;
+&lt;br /&gt;Model @ K.M.L&lt;br /&gt;
+&lt;br /&gt;:: CANON350D + 85.8 ::&lt;/DIV&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=13368268&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=karam0328.tistory.com&amp;media_type=10&amp;guid=karam0328.tistory.com%2F134&amp;regts=1295861776&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>MoDeL</category>
+			<category>350D</category>
+			<category>85.8</category>
+			<category>Canon</category>
+			<category>K.M.L</category>
+			<category>사각프레임</category>
+			<category>애기만두</category>
+			<category>언감생심</category>
+			<category>올림픽공원</category>
+			<category>타운포토</category>
+			<category>포토메타</category>
+			<author>언감생심™</author>
+			<guid>http://karam0328.tistory.com/134</guid>
+			<comments>http://karam0328.tistory.com/entry/%EC%9E%90%EC%97%B0%EB%B0%94%EB%9E%8C%ED%9C%B4%EC%8B%9D#entry134comment</comments>
+			<pubDate>Mon, 24 Jan 2011 18:36:16 +0900</pubDate>
+		</item>
+		<item>
+			<title>빛을 느끼다....</title>
+			<link>http://karam0328.tistory.com/entry/%EB%B9%9B%EC%9D%84-%EB%8A%90%EB%81%BC%EB%8B%A4</link>
+			<description>&lt;br /&gt;
+
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;음...&lt;br /&gt;
+&lt;br /&gt;계속해서 창고 방출 시리즈 이어갑니다 ^^&lt;br /&gt;
+&lt;br /&gt;이건 코스프레 사진이네요~~~&lt;br /&gt;
+&lt;br /&gt;한창때는 참 많이 찍으러 다닌것 같은데...&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile22.uf.tistory.com/original/1814D2444D32DCB42F7ACB&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/1814D2444D32DCB42F7ACB&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_3915 copy.jpg&quot; height=&quot;816&quot; width=&quot;549&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;조금은 생소하게 느끼시는 분들이 계실지 모르지만...&lt;br /&gt;
+&lt;br /&gt;코스프레도 사진 못지 않은 동호회 활동이 이루어지고 있답니다..&lt;br /&gt;
+&lt;br /&gt;매달 한번씩은 코스프레 모임이 있으니..&lt;br /&gt;
+&lt;br /&gt;관심이 있으신 이웃분들은 다녀 오시는것도 좋을듯 싶습니다 ^^&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+20060514&lt;br /&gt;
+&lt;br /&gt;양재 시민의 숲&lt;br /&gt;
+&lt;br /&gt;코스어 : 보니 님..&lt;br /&gt;
+&lt;br /&gt;란마 1/2&lt;br /&gt;
+&lt;br /&gt;CANON 350D + 85.8 + 540EX&lt;/DIV&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=13111352&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=karam0328.tistory.com&amp;media_type=10&amp;guid=karam0328.tistory.com%2F133&amp;regts=1295179156&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>MoDeL</category>
+			<category>350D</category>
+			<category>540EX</category>
+			<category>Canon</category>
+			<category>란마1/2</category>
+			<category>보니</category>
+			<category>사각프레임</category>
+			<category>언감생심</category>
+			<category>코스프레</category>
+			<category>타운포토</category>
+			<category>포토메타</category>
+			<author>언감생심™</author>
+			<guid>http://karam0328.tistory.com/133</guid>
+			<comments>http://karam0328.tistory.com/entry/%EB%B9%9B%EC%9D%84-%EB%8A%90%EB%81%BC%EB%8B%A4#entry133comment</comments>
+			<pubDate>Sun, 16 Jan 2011 20:59:16 +0900</pubDate>
+		</item>
+		<item>
+			<title>FREE</title>
+			<link>http://karam0328.tistory.com/entry/FREE</link>
+			<description>&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;
+아주 오래전 사진입니다...&lt;br /&gt;
+&lt;br /&gt;2006년도 사진이니.....&lt;br /&gt;
+&lt;br /&gt;아마도 이때가&amp;nbsp;DSLR이란것을 처음 접하고 &lt;br /&gt;
+&lt;br /&gt;진짜 아무것도 모르면서 &lt;br /&gt;
+&lt;br /&gt;멋모르고 쫒아다니면서 사진만 찍었던 기억이;;;&lt;br /&gt;
+&lt;br /&gt;본래 왕초보 시절의 사진들은 안올리는게 이웃분들에게도 &lt;br /&gt;
+&lt;br /&gt;폐를 안끼치는것일텐데...&lt;br /&gt;
+&lt;br /&gt;요즘 너무나 포스팅이 뜸하고 사진도 많이 찍지 못하고 ㅠㅠ&lt;br /&gt;
+&lt;br /&gt;아무래도 창고 신공으로 나가 봐야 겠습니다..&lt;br /&gt;
+&lt;br /&gt;철모르던 시절에 발톱만큼한 내공도 없이 찍은 사진이니 &lt;br /&gt;
+&lt;br /&gt;눈 버렸다고 나무라지 마시고 이뿌게 봐주세요 ^^&lt;br /&gt;
+&lt;br /&gt;지금 보니 참 민망한 사진이라는 생각이...&lt;br /&gt;
+&lt;br /&gt;이때는 왜이리 진득한 색감을 좋아했던건지 ㅡㅡ;;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile7.uf.tistory.com/original/133A193E4D2323032E6B43&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/original/133A193E4D2323032E6B43&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_4912 copy.jpg&quot; height=&quot;900&quot; width=&quot;1024&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;/DIV&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=12766673&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=karam0328.tistory.com&amp;media_type=10&amp;guid=karam0328.tistory.com%2F132&amp;regts=1294148528&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>MoDeL</category>
+			<category>2006년</category>
+			<category>2011</category>
+			<category>350D</category>
+			<category>50.8</category>
+			<category>Canon</category>
+			<category>JS</category>
+			<category>사각프레임</category>
+			<category>언감생심</category>
+			<category>오래전사진</category>
+			<category>첫포스팅</category>
+			<category>타운포토</category>
+			<category>포토메타</category>
+			<author>언감생심™</author>
+			<guid>http://karam0328.tistory.com/132</guid>
+			<comments>http://karam0328.tistory.com/entry/FREE#entry132comment</comments>
+			<pubDate>Tue, 04 Jan 2011 22:42:08 +0900</pubDate>
+		</item>
+		<item>
+			<title>이번 여름 휴가때..</title>
+			<link>http://karam0328.tistory.com/entry/%EC%9D%B4%EB%B2%88-%EC%97%AC%EB%A6%84-%ED%9C%B4%EA%B0%80%EB%95%8C</link>
+			<description>&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;br /&gt;
+올 여름 휴가때 찍은 사진을 이제서야;;;&lt;br /&gt;
+&lt;br /&gt;흠냥...&lt;br /&gt;
+&lt;br /&gt;요때만 해도 말도 잘듣고 했는데...&lt;br /&gt;
+&lt;br /&gt;요즘엔 아주 그냥 한고집하시느라 정신이 한개도 없다는;;;&lt;br /&gt;
+&lt;br /&gt;그래도 제눈엔 무쟈게 귀엽게만 보인다는 ㅎㅎ&lt;br /&gt;
+&lt;br /&gt;어때요 썬구리가 제법 어울리지 않나요 ㅡㅡㅋ&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile2.uf.tistory.com/original/160437444D072F140514CB&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/160437444D072F140514CB&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;DSC_1739.jpg&quot; height=&quot;1084&quot; width=&quot;720&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+20100708&lt;br /&gt;
+&lt;br /&gt;트릭아트 뮤지엄&lt;br /&gt;
+&lt;br /&gt;:: D300 + 35.8 ::&lt;/DIV&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-131-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-131-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-131-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=12151434&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=karam0328.tistory.com&amp;media_type=10&amp;guid=karam0328.tistory.com%2F131&amp;regts=1292316585&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>FaMiLy</category>
+			<category>35.8</category>
+			<category>d300</category>
+			<category>가람쟁이</category>
+			<category>니콘</category>
+			<category>사각프레임</category>
+			<category>언감생심</category>
+			<category>여름휴가</category>
+			<category>타운포토</category>
+			<category>트릭아트뮤지엄</category>
+			<category>포토메타</category>
+			<author>언감생심™</author>
+			<guid>http://karam0328.tistory.com/131</guid>
+			<comments>http://karam0328.tistory.com/entry/%EC%9D%B4%EB%B2%88-%EC%97%AC%EB%A6%84-%ED%9C%B4%EA%B0%80%EB%95%8C#entry131comment</comments>
+			<pubDate>Tue, 14 Dec 2010 17:49:45 +0900</pubDate>
+		</item>
+		<item>
+			<title>얼마만에 글을 올리는건지;;;;;</title>
+			<link>http://karam0328.tistory.com/entry/%EC%96%BC%EB%A7%88%EB%A7%8C%EC%97%90-%EA%B8%80%EC%9D%84-%EC%98%AC%EB%A6%AC%EB%8A%94%EA%B1%B4%EC%A7%80</link>
+			<description>&lt;br /&gt;
+
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;너무 오랜만에 글을 올리는거라...&lt;br /&gt;
+&lt;br /&gt;이미 이웃블로거분들에게는 잊혀진 사람이 되었을지도 ㅜㅜ&lt;br /&gt;
+&lt;br /&gt;흔히 얘기하듯이 바쁘게 사는게 좋은거라고는 하지만...&lt;br /&gt;
+&lt;br /&gt;조금은 정신없는 삶을 살아가는 와중이라서 ㅎㅎ&lt;br /&gt;
+&lt;br /&gt;(옛말에 목구멍이 포도청이라는 ㅡㅡ;;)&lt;br /&gt;
+&lt;br /&gt;덕분에 취미생활로 즐기는 사진생활도 거의 못하고 있는 실정이라...&lt;br /&gt;
+&lt;br /&gt;떱;;;&lt;br /&gt;
+&lt;br /&gt;각설하고 &lt;br /&gt;
+&lt;br /&gt;얼마전에 찍은 딸랑구 가람쟁이 사진 한장 올려봅니다 ㅎㅎ&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile25.uf.tistory.com/original/207AB8184D0364DD418E05&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/207AB8184D0364DD418E05&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;130.jpg&quot; height=&quot;960&quot; width=&quot;720&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;화질도 별로고 흔들렸다고 구박은 말아주세요 ㅠㅠ&lt;br /&gt;
+&lt;br /&gt;긴급히 아이퐁으로 찍은 사진이랍니다 ^^&lt;br /&gt;
+&lt;br /&gt;간단한 생존 신고로 &lt;br /&gt;
+&lt;br /&gt;이웃블로거 여러분들에게 인사를 대신합니다 ^^&lt;br /&gt;
+&lt;br /&gt;2010년 남은 기간 마무리 잘하시고 &lt;br /&gt;
+&lt;br /&gt;다가오는 2011년에도 더욱 풍성하고 행복한 날들만 계속 되시길 ^^&lt;/DIV&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-130-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-130-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-130-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=12066958&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=karam0328.tistory.com&amp;media_type=10&amp;guid=karam0328.tistory.com%2F130&amp;regts=1292068267&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>FaMiLy</category>
+			<category>가람쟁이</category>
+			<category>반디앤루니스</category>
+			<category>사각프레임</category>
+			<category>생존신고</category>
+			<category>아이폰3GS</category>
+			<category>언감생심</category>
+			<category>종로</category>
+			<category>타운포토</category>
+			<category>포토메타</category>
+			<author>언감생심™</author>
+			<guid>http://karam0328.tistory.com/130</guid>
+			<comments>http://karam0328.tistory.com/entry/%EC%96%BC%EB%A7%88%EB%A7%8C%EC%97%90-%EA%B8%80%EC%9D%84-%EC%98%AC%EB%A6%AC%EB%8A%94%EA%B1%B4%EC%A7%80#entry130comment</comments>
+			<pubDate>Sat, 11 Dec 2010 20:51:07 +0900</pubDate>
+		</item>
+		<item>
+			<title>감..옥..</title>
+			<link>http://karam0328.tistory.com/entry/%EA%B0%90%EC%98%A5</link>
+			<description>&lt;br /&gt;
+
+&lt;DIV style=&quot;TEXT-ALIGN: center&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;span dir=&quot;http://cfile22.uf.tistory.com/original/1229FA174C14CBFC1BFC4C&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/1229FA174C14CBFC1BFC4C&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile22.uf@1229FA174C14CBFC1BFC4C.jpg&quot; height=&quot;600&quot; width=&quot;900&quot;/&gt;&lt;/span&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;/DIV&gt;
+&lt;P style=&quot;TEXT-ALIGN: center&quot;&gt;감옥이라는게....&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center&quot;&gt;나의 마음속에만 있는것은 아니야...&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center&quot;&gt;당신을 볼수 없다는 것...&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center&quot;&gt;그 자체가 바로 감옥이야...&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;20070908&lt;br /&gt;
+&lt;br /&gt;서울숲&lt;br /&gt;
+&lt;br /&gt;K.H.R&lt;br /&gt;
+&lt;br /&gt;:: CANON5D + 24-70L ::&lt;br /&gt;
+&lt;/P&gt;
+&lt;P align=center&gt;&lt;br /&gt;
+&lt;/P&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-129-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-129-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-129-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=7521729&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=karam0328.tistory.com&amp;media_type=10&amp;guid=karam0328.tistory.com%2F129&amp;regts=1276608008&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>MoDeL</category>
+			<category>24-70L</category>
+			<category>5D</category>
+			<category>Canon</category>
+			<category>KHR</category>
+			<category>감옥</category>
+			<category>사각프레임</category>
+			<category>서울숲</category>
+			<category>언감생심</category>
+			<category>타운포토</category>
+			<category>포토메타</category>
+			<author>언감생심™</author>
+			<guid>http://karam0328.tistory.com/129</guid>
+			<comments>http://karam0328.tistory.com/entry/%EA%B0%90%EC%98%A5#entry129comment</comments>
+			<pubDate>Sun, 13 Jun 2010 21:18:03 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

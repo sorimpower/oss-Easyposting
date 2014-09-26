@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ars Technica</title>
+	<atom:link href="http://arstechnica.com/feed/" rel="self" type="application/rss+xml" />
+	<link>http://arstechnica.com</link>
+	<description>The Art of Technology</description>
+	<lastBuildDate>Fri, 26 Sep 2014 04:05:44 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.0</generator>
+	<item>
+		<title>iOS 8.0.2 released to fix TouchID, cell network woes on newest iPhones</title>
+		<link>http://arstechnica.com/apple/2014/09/ios-8-0-2-released-to-fix-touchid-cell-network-woes-on-newest-iphones/</link>
+		<comments>http://arstechnica.com/apple/2014/09/ios-8-0-2-released-to-fix-touchid-cell-network-woes-on-newest-iphones/#comments</comments>
+		<pubDate>Fri, 26 Sep 2014 00:52:51 +0000</pubDate>
+		<dc:creator><![CDATA[Sam Machkovech]]></dc:creator>
+				<category><![CDATA[Infinite Loop]]></category>
+		<category><![CDATA[healthkit]]></category>
+		<category><![CDATA[iOS 8]]></category>
+		<category><![CDATA[ios 8.0.1]]></category>
+		<category><![CDATA[ios 8.0.2]]></category>
+		<category><![CDATA[third-party keyboards]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543973</guid>
+		<description><![CDATA[Patch notes otherwise resemble those from yesterday's yanked 8.0.1 update.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/802asdfodiu-640x5951.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">Patch notes! We considered rewriting them in Comic Sans for funsies, but cooler heads prevailed.</div>
+	
+	  </div>
+  </div>
+ <p>On Thursday evening, Apple gave its first major iOS 8 update another shot—only this time without <a href="http://arstechnica.com/apple/2014/09/apple-releases-ios-8-0-1-with-healthkit-keyboard-iphone-6-fixes/">the major bugs in yesterday's attempt</a>. Upon installation, iOS 8.0.1 left many iPhone 6 and iPhone 6 Plus users with non-functioning cellular service and TouchID buttons. Apple <a href="https://twitter.com/CNBCtech/status/515296615893327872">told CNBC</a> that 40,000 people were affected by the problems, and the update was quickly pulled.</p>
+<p>iOS 8.0.2 is now available for all compatible iDevices, and its patch notes look remarkably like those from 8.0.1, with one major update: "Fixes an issue in iOS 8.0.1 that impacted cellular network connectivity and Touch ID on iPhone 6 and iPhone 6 Plus." Otherwise, the good stuff we'd hoped for yesterday, including <a href="http://arstechnica.com/apple/2014/06/apple-announces-ios-8-at-wwdc/">HealthKit fixes</a>, a <a href="http://arstechnica.com/apple/2014/09/a-look-at-third-party-keyboards-on-ios-8-type-any-way-you-want/">third-party keyboard</a> update, and photo-library access for third-party apps, is now ready to rock on your favorite, <a href="http://arstechnica.com/apple/2014/06/psa-the-idevices-and-macs-that-will-support-ios-8-and-os-x-10-10/">compatible</a> iDevice.</p>
+<p>Our own Andrew Cunningham reported a smooth update on his latest iPhones; that, plus positive chatter on Twitter feeds, has us convinced that this should be a safer update to accept.</p>
+</div><p><a href="http://arstechnica.com/apple/2014/09/ios-8-0-2-released-to-fix-touchid-cell-network-woes-on-newest-iphones/">Read on Ars Technica</a> | <a href="http://arstechnica.com/apple/2014/09/ios-8-0-2-released-to-fix-touchid-cell-network-woes-on-newest-iphones/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/apple/2014/09/ios-8-0-2-released-to-fix-touchid-cell-network-woes-on-newest-iphones/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Apple, Google default cell-phone encryption “concerns” FBI director</title>
+		<link>http://arstechnica.com/tech-policy/2014/09/apple-google-default-cell-phone-encryption-concerns-fbi-director/</link>
+		<comments>http://arstechnica.com/tech-policy/2014/09/apple-google-default-cell-phone-encryption-concerns-fbi-director/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 23:00:34 +0000</pubDate>
+		<dc:creator><![CDATA[David Kravets]]></dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[apple]]></category>
+		<category><![CDATA[comey]]></category>
+		<category><![CDATA[Edward Snowden]]></category>
+		<category><![CDATA[encryption]]></category>
+		<category><![CDATA[fbi]]></category>
+		<category><![CDATA[google]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543923</guid>
+		<description><![CDATA[Bureau chief says encryption allows "people to place themselves beyond the law."]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p></p>
+<div class="image right full">
+<img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/comey.jpg"><div class="caption" style="font-size:0.8em"> <div class="caption-credit"><a rel="nofollow" class="caption-link" href="https://secure.flickr.com/photos/interior_gob_es/12927059915/in/photolist-mJ2Cpz-mJ2LYX-mJ2Kix-mJ2JSK-mJ2Lsi-kGjyxn-kGjyA8-ex51p6-kGkanF-kGmGZN-kGkaZx-kGmGiC">Ministerio del Interior 2014</a></div>
+</div>
+</div>James Comey, the Federal Bureau of Investigation director, said Thursday he was "concerned" over Apple and Google marketing smart phones that can't be searched by law enforcement.
+<p>"What concerns me about this is companies marketing something expressly to allow people to place themselves beyond the law," Comey <a href="http://online.wsj.com/articles/fbi-director-raises-concerns-about-smartphone-security-plans-1411671434?mod=WSJ_TechWSJD_NeedToKnow">told</a> reporters. He said the bureau has reached out to Apple and Google "to understand what they're thinking and why they think it makes sense."</p>
+<p>The move to encryption is among the latest aftershocks in the wake of NSA leaker Edward Snowden's revelations about massive US government surveillance.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2014/09/apple-google-default-cell-phone-encryption-concerns-fbi-director/#p3">Read 4 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2014/09/apple-google-default-cell-phone-encryption-concerns-fbi-director/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2014/09/apple-google-default-cell-phone-encryption-concerns-fbi-director/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>FAA grants drone exemptions to six Hollywood companies</title>
+		<link>http://arstechnica.com/tech-policy/2014/09/faa-grants-drone-exemptions-to-six-hollywood-companies/</link>
+		<comments>http://arstechnica.com/tech-policy/2014/09/faa-grants-drone-exemptions-to-six-hollywood-companies/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 21:45:00 +0000</pubDate>
+		<dc:creator><![CDATA[Megan Geuss]]></dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[commercial drone]]></category>
+		<category><![CDATA[commercial drones]]></category>
+		<category><![CDATA[drones]]></category>
+		<category><![CDATA[FAA]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543885</guid>
+		<description><![CDATA[Certificate of airworthiness will not be needed for these commercial drones.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/04/DSC_1703-640x425.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">Yuneec Technology had this sleek-looking drone, called Flying Eyes, at the National Broadcasters Association conference in Spring 2014. It comes fully assembled for those who just need aerial images, not a weekend project.</div>
+	
+			<div class="caption-credit">
+							Megan Geuss				</div>
+	  </div>
+  </div>
+ <p>On Thursday, the Federal Aviation Administration granted six aerial photo and video companies exemptions from rules that make it difficult to use drones for commercial purposes in the United States. US Transportation Secretary Anthony Foxx determined that drones used by these companies would not threaten other aircraft or pose a national security threat.</p>
+<p><a href="http://arstechnica.com/tech-policy/2014/08/san-jose-police-say-faa-cant-regulate-its-drone-use-faa-disagrees/">Law enforcement agencies</a>, fire departments, and <a href="http://arstechnica.com/tech-policy/2014/09/giant-mq-4c-triton-surveillance-drone-flies-across-the-united-states/">the military</a> have thus far been the <a href="http://arstechnica.com/information-technology/2014/09/air-force-funds-pocket-sized-drone-for-surveilling-tight-spaces/">primary drone operators</a> in the US. Commercial drones, especially those that are intended to make deliveries like the one <a href="http://arstechnica.com/tech-policy/2014/09/german-company-to-use-parcelcopter-drone-to-bring-medicine-to-remote-island/">that will be launched by DHL in Germany</a> this week or the ones <a href="http://arstechnica.com/tech-policy/2014/06/faa-grounds-amazons-drone-delivery-plans/">proposed by Amazon</a> and <a href="http://arstechnica.com/gadgets/2014/08/report-google-developing-product-delivery-service-via-drones/">others</a>, have generally not been allowed since 2007. (Of course, people can use non-commercial drones, and <a href="http://arstechnica.com/gadgets/2014/06/flying-and-crashing-a-1300-quadcopter-drone/">potentially crash them</a>, with <a href="http://arstechnica.com/tech-policy/2014/09/german-man-banned-from-yellowstone-for-one-year-after-drone-crash/">certain caveats</a>.)</p>
+<p>The six firms, which include Astraeus Aerial, Aerial MOB, HeliVideo Productions, Pictorvision Inc., RC Pro Productions Consulting, and Snaproll Media, will certainly <a href="http://www.latimes.com/entertainment/envelope/cotown/la-et-ct-hollywood-dones-20140602-story.html">pave the way</a> for other commercial drone companies seeking to deploy their own drones in agriculture, oil and gas, logistics, and other sectors as well.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2014/09/faa-grants-drone-exemptions-to-six-hollywood-companies/#p3">Read 4 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2014/09/faa-grants-drone-exemptions-to-six-hollywood-companies/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2014/09/faa-grants-drone-exemptions-to-six-hollywood-companies/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Apple: “Only nine customers” have complained about bent iPhones</title>
+		<link>http://arstechnica.com/apple/2014/09/apple-only-nine-customers-have-complained-about-bent-iphone-6s/</link>
+		<comments>http://arstechnica.com/apple/2014/09/apple-only-nine-customers-have-complained-about-bent-iphone-6s/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 21:20:23 +0000</pubDate>
+		<dc:creator><![CDATA[Sam Machkovech]]></dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[Infinite Loop]]></category>
+		<category><![CDATA[bending iphones]]></category>
+		<category><![CDATA[bent]]></category>
+		<category><![CDATA[iPhone 6]]></category>
+		<category><![CDATA[iphone 6 plus]]></category>
+		<category><![CDATA[Tim Cook]]></category>
+		<category><![CDATA[Wall Street Journal]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543815</guid>
+		<description><![CDATA[Company doesn't admit design fault, describes five-step testing process.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/Screen-Shot-2014-09-25-at-1.48.13-PM-640x300.png"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-credit">
+							BoingBoing				</div>
+	  </div>
+  </div>
+ <p>As reports and videos about <a href="http://arstechnica.com/apple/2014/09/reports-suggest-the-iphone-6-and-6-plus-may-bend-under-pressure/">the bendability of the iPhone 6 and iPhone 6 Plus</a> continue to accumulate, Apple issued a response on Thursday that detailed the stress-test rigors its phones endure before shipping to market. Additionally, the company announced that in the new iPhones' first six days on the market, "<a href="https://mobile.twitter.com/jonfortt/status/515211766226100224?p=p">only nine customers</a>" had reported bent phone issues directly to Apple.</p>
+<p>According to <em><a href="http://online.wsj.com/articles/apple-defends-against-complaints-of-bending-iphones-1411668618?mod=WSJ_LatestHeadlines">The Wall Street Journal</a></em>, Apple called the bending cases "extremely rare," then described the five-step testing process that its newest models, made of "a custom grade of anodized aluminum" along with "stainless steel and titanium inserts," had to endure. The <em>WSJ</em> described two of those tests in detail: the "pressure point cycling test," which applies force all over an iPhone's screen and body, and the "sit test," which simulates a situation in which someone sits on a hard surface while wearing tight pants. (We'd love to see a crash-test dummy mock-up of the latter.)</p>
+<p>Apple's response didn't include any concession of design fault, and its specific count of nine complaining customers certainly didn't include videos and other social-media complaints that have gone live since last weekend—particularly this hard-to-watch <a href="http://boingboing.net/2014/09/24/its-pretty-easy-to-bend-an-i.html">bending of an iPhone 6 Plus posted by BoingBoing</a> (posted next to a video of other smartphones bending back into place for comparison's sake, which their iPhone 6 Plus was unable to do).</p>
+</div><p><a href="http://arstechnica.com/apple/2014/09/apple-only-nine-customers-have-complained-about-bent-iphone-6s/">Read on Ars Technica</a> | <a href="http://arstechnica.com/apple/2014/09/apple-only-nine-customers-have-complained-about-bent-iphone-6s/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/apple/2014/09/apple-only-nine-customers-have-complained-about-bent-iphone-6s/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Samsung has more employees than Google, Apple, and Microsoft combined</title>
+		<link>http://arstechnica.com/gadgets/2014/09/samsung-has-more-employees-than-google-apple-and-microsoft-combined/</link>
+		<comments>http://arstechnica.com/gadgets/2014/09/samsung-has-more-employees-than-google-apple-and-microsoft-combined/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 21:00:59 +0000</pubDate>
+		<dc:creator><![CDATA[Ron Amadeo]]></dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[headcount]]></category>
+		<category><![CDATA[ron explains stuff]]></category>
+		<category><![CDATA[Samsung]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543089</guid>
+		<description><![CDATA[And other fun facts about Samsung Electronics' massive headcount.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>Samsung loves "big." Its phones are big, its advertising budget is big, and as you'll see below, its employee headcount is really big, too. Samsung has more employees than Apple, Google, and Microsoft combined<em>. </em>We dug through everyone's 10-K (or equivalent) SEC filings and came up with this:</p>
+<div class="image right large">
+<a href="http://cdn.arstechnica.net/wp-content/uploads/2014/09/Samsung-headcount2.jpg"><img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/Samsung-headcount2-640x480.jpg" srcset="http://cdn.arstechnica.net/wp-content/uploads/2014/09/Samsung-headcount2.jpg 2x"></a><div class="caption" style="font-size:0.8em">
+<div class="caption-text"><a href="http://cdn.arstechnica.net/wp-content/uploads/2014/09/Samsung-headcount2.jpg" class="caption-link" rel="nofollow">Samsung Electronics vs the headcounts of other companies.</a></div> <div class="caption-credit">Ron Amadeo</div>
+</div>
+</div>
+<p>At 275,000 employees, Samsung (<em>just</em> Samsung Electronics) is the size of five Googles! This explains Samsung's machine-gun-style device output; the company has released <a href="http://www.gsmarena.com/results.php3?nYearMin=2014&amp;nYearMax=2014&amp;sMakers=9">around 46 smartphones</a> and <a href="http://www.gsmarena.com/results.php3?mode=tablet&amp;nYearMin=2014&amp;nYearMax=2014&amp;sMakers=9">27 tablets</a> just in 2014.</p>
+<p>If we wanted to, we could cut these numbers down some more. Google is going to shed 3,894 employees once it finally gets rid of Motorola. Over half of Apple's headcount—42,800 employees—is from the retail division, putting the non-retail part of the company at only 37,500 employees. The "Sony" on this chart only means "Sony Electronics," the part of the company that is most comparable to Samsung Electronics. Sony Group has a massive media arm consisting of Sony Pictures Entertainment, Sony Music Entertainment, and Sony Financial Services.</p>
+</div><p><a href="http://arstechnica.com/gadgets/2014/09/samsung-has-more-employees-than-google-apple-and-microsoft-combined/#p3">Read 9 remaining paragraphs</a> | <a href="http://arstechnica.com/gadgets/2014/09/samsung-has-more-employees-than-google-apple-and-microsoft-combined/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gadgets/2014/09/samsung-has-more-employees-than-google-apple-and-microsoft-combined/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Amazon to perform a massive reboot of EC2 to fix Xen flaw</title>
+		<link>http://arstechnica.com/technopaedia/2014/09/amazon-to-perform-a-massive-reboot-of-ec2-to-fix-xen-flaw/</link>
+		<comments>http://arstechnica.com/technopaedia/2014/09/amazon-to-perform-a-massive-reboot-of-ec2-to-fix-xen-flaw/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 20:40:22 +0000</pubDate>
+		<dc:creator><![CDATA[Peter Bright]]></dc:creator>
+				<category><![CDATA[Technopaedia]]></category>
+		<category><![CDATA[Amazon]]></category>
+		<category><![CDATA[cloud]]></category>
+		<category><![CDATA[EC2]]></category>
+		<category><![CDATA[security]]></category>
+		<category><![CDATA[xen]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543777</guid>
+		<description><![CDATA[Cloud machines will be restarted over the next 4 days to fix a hypervisor bug.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>Amazon has started warning customers of its EC2 cloud computing platform that it's going to start rebooting their instances <em>en masse</em> over the next few days.</p>
+<p>Not all EC2 instance types will need rebooting; the fast storage (HS1) and large memory (R3) virtual machines are unaffected. But the reboots will nonetheless be widespread, with all regions and all availability zones affected. Rebooting is due to start this evening and finish next Tuesday.</p>
+<p>Amazon hasn't explained why the bulk reboot is needed, but a source speaking to <a href="http://www.itnews.com.au/News/396180,amazon-forced-to-reboot-ec2-to-patch-xen-bug.aspx">ITNews</a> has said that it's due to an embargoed flaw in the Xen hypervisor. That bug, <a href="http://xenbits.xen.org/xsa/">XSA-108</a>, is due to be publicly disclosed on October 1, by which time Amazon's reboot should be complete.</p>
+</div><p><a href="http://arstechnica.com/technopaedia/2014/09/amazon-to-perform-a-massive-reboot-of-ec2-to-fix-xen-flaw/">Read on Ars Technica</a> | <a href="http://arstechnica.com/technopaedia/2014/09/amazon-to-perform-a-massive-reboot-of-ec2-to-fix-xen-flaw/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/technopaedia/2014/09/amazon-to-perform-a-massive-reboot-of-ec2-to-fix-xen-flaw/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Hands-on: Gear VR is better than smartphone VR has a right to be</title>
+		<link>http://arstechnica.com/gaming/2014/09/hands-on-gear-vr-is-better-than-smartphone-vr-has-a-right-to-be/</link>
+		<comments>http://arstechnica.com/gaming/2014/09/hands-on-gear-vr-is-better-than-smartphone-vr-has-a-right-to-be/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 20:30:39 +0000</pubDate>
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[Opposable Thumbs]]></category>
+		<category><![CDATA[galaxy note 4]]></category>
+		<category><![CDATA[gear vr]]></category>
+		<category><![CDATA[oculus]]></category>
+		<category><![CDATA[oculus connect]]></category>
+		<category><![CDATA[Samsung]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543733</guid>
+		<description><![CDATA[Or: Why the Galaxy Note 4 is the first phone I want to strap to my face.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/Gear-VR_2-640x426.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-credit">
+							Oculus				</div>
+	  </div>
+  </div>
+ <p>Over the last few years, I've tried a number of virtual reality "solutions" that involve popping a smartphone into some sort of mask that straps to your face. On the surface, it seems like a natural fit to use a phone as a combination virtual reality display, head-tilt sensor, and processor that avoids the need to tether to a bulky PC tower.</p>
+<p>Unfortunately, every one of the prototype phone-based VR devices I'd tried delivered an on-the-cheap virtual reality experience that ranged from awful to mediocre. Issues with optics, frame rate, and accurate head tracking have plagued all of these efforts to the extent that I began to think modern cell phones just weren't up to the task of driving convincing virtual reality.</p>
+<p>Thus, I was a bit skeptical of Gear VR, Samsung's <a href="http://arstechnica.com/gadgets/2014/09/samsung-reveals-vr-headset-powered-by-a-smartphone/">recently announced hardware effort</a> that turns the upcoming Galaxy Note 4 smartphone into a VR headset using a holster powered by Rift maker Oculus. The <a href="http://arstechnica.com/gadgets/2014/09/hands-on-with-the-galaxy-note-4-note-edge-gear-s-and-gear-vr/">middling hands-on experience with Gear VR</a> reported by our own Ron Amadeo earlier this month didn't really change my impressions, either.</p>
+</div><p><a href="http://arstechnica.com/gaming/2014/09/hands-on-gear-vr-is-better-than-smartphone-vr-has-a-right-to-be/#p3">Read 13 remaining paragraphs</a> | <a href="http://arstechnica.com/gaming/2014/09/hands-on-gear-vr-is-better-than-smartphone-vr-has-a-right-to-be/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gaming/2014/09/hands-on-gear-vr-is-better-than-smartphone-vr-has-a-right-to-be/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>In 2014, who decides to ban a gay website from in-flight Wi-Fi?</title>
+		<link>http://arstechnica.com/business/2014/09/in-2014-who-decides-to-ban-a-gay-website-from-in-flight-wi-fi/</link>
+		<comments>http://arstechnica.com/business/2014/09/in-2014-who-decides-to-ban-a-gay-website-from-in-flight-wi-fi/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 19:15:01 +0000</pubDate>
+		<dc:creator><![CDATA[Casey Johnston]]></dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[Ministry of Innovation]]></category>
+		<category><![CDATA[.gay]]></category>
+		<category><![CDATA[airbnb]]></category>
+		<category><![CDATA[American Airlines]]></category>
+		<category><![CDATA[au bon pain]]></category>
+		<category><![CDATA[lesbian]]></category>
+		<category><![CDATA[LGBT]]></category>
+		<category><![CDATA[mcdonalds]]></category>
+		<category><![CDATA[misterbnb]]></category>
+		<category><![CDATA[tim horton's]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543637</guid>
+		<description><![CDATA[Even the Wi-Fi providers aren't sure why, but it's not to be "family-friendly."]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/Screen-Shot-2014-09-25-at-1.11.48-PM-640x314.png"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-credit">
+							<a rel="nofollow" href="http://www.misterbnb.com/en/index.html">Misterbnb</a>
+				</div>
+	  </div>
+  </div>
+ <p>If you were gay and a recent passenger on American Airlines, you might have used in-flight Wi-Fi provided by Gogo just like any other customer. In the course of finding somewhere to stay before you land, you might have navigated to <a href="http://www.misterbnb.com/en/index.html">misterbnb.com</a>, a version of Airbnb where customers looking for a place to stay can be guaranteed the hosts are gay-friendly. Rather than getting the site's homepage, however, your browser would have kicked you to an interstitial page telling you the site had been censored by Gogo. The given reason would have been the site had been categorized as "adult-and-pornography."</p>
+<p>Looking at Misterbnb, there is nothing to trigger a pornography-centric filter on the homepage. The word "gay" appears a handful of times, but there is no salacious language, no risque photos, no video, not even any wild-card advertising space that could turn up a rogue Flash ad, photo, or video that runs counter to the tone of the site. "Travel gay friendly," "build the gay travel community," or "attend the next gay events" is about as hot as the site's narrative gets. In total, the word "gay" appears 11 times in text on the site's homepage.</p>
+<div class="image right medium">
+<a href="http://cdn.arstechnica.net/wp-content/uploads/2014/09/misterbnb-blocked.jpg"><img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/misterbnb-blocked-300x375.jpg" srcset="http://cdn.arstechnica.net/wp-content/uploads/2014/09/misterbnb-blocked.jpg 2x"></a><div class="caption" style="font-size:0.8em">
+<div class="caption-text"><a href="http://cdn.arstechnica.net/wp-content/uploads/2014/09/misterbnb-blocked.jpg" class="caption-link" rel="nofollow"></a></div> </div>
+</div>
+<p>Gogo and American Airlines are not the first Wi-Fi providers to be touchy about LGBT content; over the last year, a handful of businesses, including <a href="http://nymag.com/daily/intelligencer/2014/01/au-bon-pains-wifi-blocking-gay-rights-sites.html">Au Bon Pain</a>, <a href="http://www.theglobeandmail.com/report-on-business/tim-hortons-faces-backlash-for-blocking-gay-and-lesbian-news-website-on-wifi/article13320893/">Tim Horton's</a>, and <a href="http://www.pinknews.co.uk/2011/01/10/mcdonalds-blocks-access-to-gay-support-websites-in-new-zealand/">McDonald's</a>, made minor news for not allowing their customers to view innocuous LGBT-centric websites, like GLAAD's homepage.</p>
+</div><p><a href="http://arstechnica.com/business/2014/09/in-2014-who-decides-to-ban-a-gay-website-from-in-flight-wi-fi/#p3">Read 11 remaining paragraphs</a> | <a href="http://arstechnica.com/business/2014/09/in-2014-who-decides-to-ban-a-gay-website-from-in-flight-wi-fi/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/business/2014/09/in-2014-who-decides-to-ban-a-gay-website-from-in-flight-wi-fi/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>German company to use “parcelcopter” drone to bring medicine to remote island</title>
+		<link>http://arstechnica.com/tech-policy/2014/09/german-company-to-use-parcelcopter-drone-to-bring-medicine-to-remote-island/</link>
+		<comments>http://arstechnica.com/tech-policy/2014/09/german-company-to-use-parcelcopter-drone-to-bring-medicine-to-remote-island/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 18:35:42 +0000</pubDate>
+		<dc:creator><![CDATA[Megan Geuss]]></dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[Ministry of Innovation]]></category>
+		<category><![CDATA[commercial drone]]></category>
+		<category><![CDATA[DHL]]></category>
+		<category><![CDATA[drone]]></category>
+		<category><![CDATA[parcelcopter]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543677</guid>
+		<description><![CDATA[Logistics company DHL will regularly fly drone without the use of a land-based pilot.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/dhl-paketkopter-juist-strand-640x426.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-credit">
+							DHL				</div>
+	  </div>
+  </div>
+ <p>Tomorrow, German logistics company DHL is expected to launch a small drone which will fly approximately 12 kilometers (7.5 miles) from Norddeich, a village in northern Germany, to the island of Juist, a small island community off the north coast of Germany. DHL has dubbed the drone the “parcelcopter,” and it will be used to regularly deliver medications and other necessities, marking a noted advancement in the commercial use of drones worldwide.</p>
+<p><a href="http://www.dpdhl.com/en/media_relations/press_releases/2014/dhl_parcelcopter_launches_initial_operations_research_purposes.html">DHL says</a> that its parcelcopter is the first drone to fly in Europe outside of the field of vision of the pilot in a real-life mission. The company and two of its research partners worked with the German Ministry of Transport and Digital Infrastructure to establish “a restricted flight area exclusively for this research project,” thus bypassing the kinds of regulations that have made it difficult for commercial drone use to take off elsewhere in the world (pardon the pun).</p>
+<p>The parcelcopter's flight will also be fully automated. “This means that a pilot does not have to take any action at all during any phase of the flight,” a DHL press release explains. However, for safety reasons, and in order to comply with government requirements, “the DHL parcelcopter will be constantly monitored during the flight by a mobile ground station in Norddeich so that manual action can be immediately taken in real time if a malfunction or emergency occurs. The ground station will also maintain constant contact with air traffic controllers,” the press release says.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2014/09/german-company-to-use-parcelcopter-drone-to-bring-medicine-to-remote-island/#p3">Read 4 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2014/09/german-company-to-use-parcelcopter-drone-to-bring-medicine-to-remote-island/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2014/09/german-company-to-use-parcelcopter-drone-to-bring-medicine-to-remote-island/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Cops in hot water after videos catch them shooting, beating people</title>
+		<link>http://arstechnica.com/tech-policy/2014/09/cops-in-hot-water-after-videos-catch-them-shooting-beating-people/</link>
+		<comments>http://arstechnica.com/tech-policy/2014/09/cops-in-hot-water-after-videos-catch-them-shooting-beating-people/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 17:12:22 +0000</pubDate>
+		<dc:creator><![CDATA[David Kravets]]></dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[body cams]]></category>
+		<category><![CDATA[dash cams]]></category>
+		<category><![CDATA[surveillance cam]]></category>
+		<category><![CDATA[taped beating]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543577</guid>
+		<description><![CDATA[One officer shot an innocent motorist during traffic stop; another beat a homeless woman.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p><figure class="video" style="width:640px"><iframe style="display:block" type="text/html" width="640" height="480" src="http://www.youtube-nocookie.com/embed/RBUUO_VFYMs?start=0&amp;wmode=transparent" frameborder="0"></iframe><div class="caption" style="font-size:0.8em">
+<div class="caption-text">The South Carolina incident.</div> </div></figure><br>
+A South Carolina highway trooper was charged Wednesday over accusations of assault and battery in connection to the unprovoked shooting of a motorist pulled over for a seatbelt violation—an incident that was videotaped by the officer's dashcam.</p>
+<p>And on the same day South Carolina patrolman Sean Groubert, 31, was <a href="http://www.thestate.com/2014/09/24/3702695_sc-trooper-charged-with-felony.html?sp=/99/205/&amp;rh=1">charged</a> with wrongful shooting, California officials agreed to pay a woman $1.5 million after a motorist captured video with a mobile phone of a California highway patrolman repeatedly punching a woman on the side of a Los Angeles freeway.</p>
+<p>That officer, Daniel Andrew, agreed to resign and could still be charged in connection to the July pummeling of a homeless woman. The video of Andrew repeatedly punching Marlene Pinnock in the face <a href="http://arstechnica.com/tech-policy/2014/07/police-beating-of-woman-goes-viral-rekindles-images-of-rodney-king/">invoked images of the Rodney King beating</a> while garnering millions of hits on YouTube and elsewhere. An off-duty policeman helped subdue the officer.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2014/09/cops-in-hot-water-after-videos-catch-them-shooting-beating-people/#p3">Read 12 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2014/09/cops-in-hot-water-after-videos-catch-them-shooting-beating-people/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2014/09/cops-in-hot-water-after-videos-catch-them-shooting-beating-people/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Apple knew of iCloud API weakness months before celeb photo leak broke</title>
+		<link>http://arstechnica.com/security/2014/09/apple-knew-of-icloud-api-weakness-months-before-celeb-photo-leak-broke/</link>
+		<comments>http://arstechnica.com/security/2014/09/apple-knew-of-icloud-api-weakness-months-before-celeb-photo-leak-broke/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 15:55:52 +0000</pubDate>
+		<dc:creator><![CDATA[Sean Gallagher]]></dc:creator>
+				<category><![CDATA[Infinite Loop]]></category>
+		<category><![CDATA[Risk Assessment]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543495</guid>
+		<description><![CDATA[Security researcher reported brute force attacks were possible in March.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>A London-based security researcher made multiple reports to Apple that the company's iCloud service was vulnerable to brute-force password attacks months before the revelations that celebrities' iCloud backups were mined for intimate photos and videos. <a href="http://www.dailydot.com/technology/apple-icloud-brute-force-attack-march/">The Daily Dot reports</a> that Ibrahim Balic sent descriptions of the vulnerability to Apple in March in addition to filing a report that the system leaked user data that could be used to mount such attacks. Balic attempted to reach out both via e-mail and through the company's Web-based bug reporting system.</p>
+<p>In an e-mail dated March 26, Balic told an Apple employee:</p>
+<blockquote><p>I found a new issue regarding on Apple accounts (sic)...By the brute force attack method I can try over 20,000 + times passwords on any accounts. I think account lockout should probably be applied. I'm attaching a screen shot for you. I found the same issue with Google and I have got my response from them.</p></blockquote>
+<p>The Apple employee responded, "It's good to hear from you. Thank you for the information."</p>
+</div><p><a href="http://arstechnica.com/security/2014/09/apple-knew-of-icloud-api-weakness-months-before-celeb-photo-leak-broke/#p3">Read 3 remaining paragraphs</a> | <a href="http://arstechnica.com/security/2014/09/apple-knew-of-icloud-api-weakness-months-before-celeb-photo-leak-broke/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/security/2014/09/apple-knew-of-icloud-api-weakness-months-before-celeb-photo-leak-broke/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>FCC Democrats want to ban fast lanes and impose stricter rules on wireless</title>
+		<link>http://arstechnica.com/tech-policy/2014/09/fcc-democrats-want-to-ban-fast-lanes-and-impose-stricter-rules-on-wireless/</link>
+		<comments>http://arstechnica.com/tech-policy/2014/09/fcc-democrats-want-to-ban-fast-lanes-and-impose-stricter-rules-on-wireless/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 15:21:29 +0000</pubDate>
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[Ministry of Innovation]]></category>
+		<category><![CDATA[fast lanes]]></category>
+		<category><![CDATA[FCC]]></category>
+		<category><![CDATA[Net Neutrality]]></category>
+		<category><![CDATA[wireless]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543465</guid>
+		<description><![CDATA[But the chairman, also a Democrat, may stand in the way.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/clyburn-and-powell-640x426.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">Former FCC Chairman Michael Powell with FCC Commissioner Mignon Clyburn.</div>
+	
+			<div class="caption-credit">
+							<a rel="nofollow" href="http://www.flickr.com/photos/cableshow/9023598999/in/photolist-7JC1fm-7JC1gQ-eKoiB6-eKoizz-9TT41W-pftTYZ-8Eo43b-eKoivp-e2Y9LJ-e6znVL-e6zgXo-e6znKW-g2qN3d-9TWTp4-f1V3Hz-f2oeXB-dg83Yh-dg85iw-dg82jX-dg84hd-dg84ts-dg84VW-aAz3sd-7LaAA6">NCTA</a>
+				</div>
+	  </div>
+  </div>
+ <p>FCC commissioners Jessica Rosenworcel and Mignon Clyburn yesterday called for stronger network neutrality rules than the ones fellow Democrat and Federal Communications Commission Chairman Tom Wheeler has thus far supported.</p>
+<p>In a <a href="http://transition.fcc.gov/Daily_Releases/Daily_Business/2014/db0924/DOC-329575A1.pdf">speech</a> yesterday at a congressional forum on net neutrality, Rosenworcel said, "we cannot have a two-tiered Internet with fast lanes that speed the traffic of the privileged and leave the rest of us lagging behind."</p>
+<p>The FCC's tentative proposal <a href="http://arstechnica.com/tech-policy/2014/05/fcc-votes-for-internet-fast-lanes-but-could-change-its-mind-later/">approved in May</a> would not prevent Internet service providers from charging Web services for priority access to consumers over the network's last mile, but it asked the public for comments on whether the commission should impose stricter or weaker rules. A total of 3.7 million comments poured in, mostly in favor of stronger restrictions on how ISPs treat Internet traffic.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2014/09/fcc-democrats-want-to-ban-fast-lanes-and-impose-stricter-rules-on-wireless/#p3">Read 9 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2014/09/fcc-democrats-want-to-ban-fast-lanes-and-impose-stricter-rules-on-wireless/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2014/09/fcc-democrats-want-to-ban-fast-lanes-and-impose-stricter-rules-on-wireless/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Concern over Bash vulnerability grows as exploit reported “in the wild” [Updated]</title>
+		<link>http://arstechnica.com/security/2014/09/concern-over-bash-vulnerability-grows-as-exploit-reported-in-the-wild/</link>
+		<comments>http://arstechnica.com/security/2014/09/concern-over-bash-vulnerability-grows-as-exploit-reported-in-the-wild/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 15:11:12 +0000</pubDate>
+		<dc:creator><![CDATA[Sean Gallagher]]></dc:creator>
+				<category><![CDATA[Risk Assessment]]></category>
+		<category><![CDATA[Technology Lab]]></category>
+		<category><![CDATA[bash]]></category>
+		<category><![CDATA[GNU]]></category>
+		<category><![CDATA[Shellshock]]></category>
+		<category><![CDATA[worm]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543473</guid>
+		<description><![CDATA["Shellshock" bug in common GNU shell could be "worm-able," used to launch kernel exploits.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/Shellshock2.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">Dubbed "Shellshock," the vulnerability is already being exploited by what looks to be a web server botnet.</div>
+	
+	  </div>
+  </div>
+ <p class="p1">The <a href="http://arstechnica.com/security/2014/09/bug-in-bash-shell-creates-big-security-hole-on-anything-with-nix-in-it/">vulnerability reported in the GNU Bourne Again Shell (Bash) yesterday</a>, dubbed "Shellshock," may already have been exploited in the wild to take over Web servers as part of a botnet. More security experts are now weighing in on the severity of the bug, expressing fears that it could be used for an Internet "worm" to exploit large numbers of public Web servers. And the initial fix for the issue still left Bash vulnerable to attack, according to a <a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-7169">new US CERT National Vulnerability Database entry</a>. A second vulnerability in Bash allows for an attacker to overwrite files on the targeted system.</p>
+<p class="p1"><strong>Update:</strong> The vulnerability was addressed by the maintainer of Bash, <a href="http://tiswww.case.edu/php/chet/">Chet Ramey</a>,  <a href="http://seclists.org/oss-sec/2014/q3/690">in an email</a> to the Open Source Software Security (oss-sec) mailing list. An unofficial patch that fixes the problem has  been developed, but there is as of yet no official patch that completely addresses both vulnerabilities.</p>
+<p class="p3">In a blog post yesterday, Robert Graham of Errata Security noted that someone is already using a massive Internet scan to locate vulnerable servers for attack. In a brief scan, he found over 3,000 servers that were vulnerable "just on port 80"—the Internet Protocol port used for normal Web Hypertext Transfer Protocol (HTTP) requests. And his scan broke after a short period, meaning that there could be vast numbers of other servers vulnerable. A Google search by Ars using advanced search parameters yielded over two billion webpages that at least partially fit the profile for the Shellshock exploit.</p>
+</div><p><a href="http://arstechnica.com/security/2014/09/concern-over-bash-vulnerability-grows-as-exploit-reported-in-the-wild/#p3">Read 7 remaining paragraphs</a> | <a href="http://arstechnica.com/security/2014/09/concern-over-bash-vulnerability-grows-as-exploit-reported-in-the-wild/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/security/2014/09/concern-over-bash-vulnerability-grows-as-exploit-reported-in-the-wild/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Global carbon dioxide emissions in one convenient map</title>
+		<link>http://arstechnica.com/science/2014/09/global-carbon-dioxide-emissions-in-a-map/</link>
+		<comments>http://arstechnica.com/science/2014/09/global-carbon-dioxide-emissions-in-a-map/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 15:05:22 +0000</pubDate>
+		<dc:creator><![CDATA[Scott K. Johnson]]></dc:creator>
+				<category><![CDATA[Scientific Method]]></category>
+		<category><![CDATA[climate change]]></category>
+		<category><![CDATA[greenhouse gas emissions]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543165</guid>
+		<description><![CDATA[Detailed map clearly shows where it’s coming from.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>When we talk about greenhouse gas emissions, it’s usually in the form of one big number (bigger every year) representing the global total. There’s also the concentration of CO­<sub>2</sub> in the atmosphere, which knows no borders. When it comes time to talk policy (during UN climate negotiations, for example), national totals for the top emitters will enter the conversation—too often to aid an argument that some other country should be the one to start doing all the work.</p>
+<p>Many researchers need to zoom in much further, though, to really understand what’s going on. It’s a problem you can attack from the top—starting with national totals and spreading them across the country in some detail—or from the bottom, utilizing local measurements and emissions records.</p>
+<p>A group of researchers led by Arizona State’s Salvi Asefi-Najafabady has produced the highest-resolution map of emissions yet, making the reality of our greenhouse footprint a little more real. It shows exactly where the most work remains to be done as we seek to unshackle ourselves from the fossil fuels that have brought great benefits, for which the bill is finally coming due.</p>
+</div><p><a href="http://arstechnica.com/science/2014/09/global-carbon-dioxide-emissions-in-a-map/#p3">Read 6 remaining paragraphs</a> | <a href="http://arstechnica.com/science/2014/09/global-carbon-dioxide-emissions-in-a-map/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/science/2014/09/global-carbon-dioxide-emissions-in-a-map/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Xbox One’s Japanese sales go from bad to worse</title>
+		<link>http://arstechnica.com/gaming/2014/09/xbox-ones-japanese-sales-go-from-bad-to-worse/</link>
+		<comments>http://arstechnica.com/gaming/2014/09/xbox-ones-japanese-sales-go-from-bad-to-worse/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 14:40:36 +0000</pubDate>
+		<dc:creator><![CDATA[Kyle Orland]]></dc:creator>
+				<category><![CDATA[Opposable Thumbs]]></category>
+		<category><![CDATA[Japan]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[sales]]></category>
+		<category><![CDATA[Xbox One]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543469</guid>
+		<description><![CDATA[Newly launched system is selling just over 1,000 consoles a week.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>Earlier this month, we reported on <a href="http://arstechnica.com/gaming/2014/09/japan-still-doesnt-care-about-xbox/">the Xbox One's historically weak Japanese launch</a>, which saw under 24,000 units sold in its first four days on the market. Things have gone from bad to worse in the intervening weeks, with the system selling just under 1,500 units in the week ending September 21, according to tracking firm Media Create (as <a href="http://www.4gamer.net/games/117/G011794/20140924088/">reported by 4Gamer</a>).</p>
+<p>Only 1,314 people bought a new Xbox One in Japan in the last week of reporting, a performance that follows just over 3,000 sales the week before. That puts the newly launched system well behind the Wii U and PS4, which continue to sell at least 7,000 systems a week in the country. Even the aging PS3 is outselling the Xbox One, with over 6,000 sales per week in the same time period.</p>
+<p>Microsoft has traditionally struggled for a foothold in the Japanese console market, and there's no reason to think Xbox One sales would pick up after launch without any new exclusive software. Still, even the Xbox 360 managed to sell over 12,000 units in Japan a month after its launch, and it managed to average roughly 4,000 Japanese sales per week through 2010. For the Xbox One to drop this close to triple-digit weekly sales so soon after its Japanese launch isn't just a slow start, it's an anemic one.</p>
+</div><p><a href="http://arstechnica.com/gaming/2014/09/xbox-ones-japanese-sales-go-from-bad-to-worse/#p3">Read 2 remaining paragraphs</a> | <a href="http://arstechnica.com/gaming/2014/09/xbox-ones-japanese-sales-go-from-bad-to-worse/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gaming/2014/09/xbox-ones-japanese-sales-go-from-bad-to-worse/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Fake fingerprint fools iPhone 6 Touch ID</title>
+		<link>http://arstechnica.com/security/2014/09/fake-fingerprint-fools-iphone-6-touch-id-why-its-not-so-serious/</link>
+		<comments>http://arstechnica.com/security/2014/09/fake-fingerprint-fools-iphone-6-touch-id-why-its-not-so-serious/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 13:00:06 +0000</pubDate>
+		<dc:creator><![CDATA[Robert Lemos]]></dc:creator>
+				<category><![CDATA[Risk Assessment]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543251</guid>
+		<description><![CDATA[Because attackers only get five tries, TouchID is strong enough... for now.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>Apple's latest iPhones are vulnerable to the same fingerprint forging attack as the older iPhone 5S, allowing access to the phone via a fingerprint fabricated with some specialized knowledge and materials costing less than a thousand dollars, according to a researcher who reproduced the attack against the latest iPhones.</p>
+<p>Mark Rogers, principal security researcher for mobile security firm Lookout, used techniques common to law enforcement investigators and prototypers to first lift latent prints from the device and then create a mold from a custom circuit-board kit. Then, using glue, he made a thin rubber print that he placed over his thumb, fooling the Touch ID sensor on the latest iPhones.</p>
+<p>While his experiments suggested that Apple improved the sensor on the latest iPhones—it rejected slightly fewer legitimate prints and slightly more fake prints—Rogers found that the technique still works on the iPhone 6 and 6 Plus.</p>
+</div><p><a href="http://arstechnica.com/security/2014/09/fake-fingerprint-fools-iphone-6-touch-id-why-its-not-so-serious/#p3">Read 10 remaining paragraphs</a> | <a href="http://arstechnica.com/security/2014/09/fake-fingerprint-fools-iphone-6-touch-id-why-its-not-so-serious/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/security/2014/09/fake-fingerprint-fools-iphone-6-touch-id-why-its-not-so-serious/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Forza Horizon 2: massive multiplayer online, massive fun</title>
+		<link>http://arstechnica.com/gaming/2014/09/forza-horizon-2-massive-multiplayer-online-massive-fun/</link>
+		<comments>http://arstechnica.com/gaming/2014/09/forza-horizon-2-massive-multiplayer-online-massive-fun/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 07:01:12 +0000</pubDate>
+		<dc:creator><![CDATA[Jonathan M. Gitlin]]></dc:creator>
+				<category><![CDATA[Cars Technica]]></category>
+		<category><![CDATA[Opposable Thumbs]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542869</guid>
+		<description><![CDATA[Cars Technica reviews the hoons and tunes in Southern France and Northern Italy.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/Previews_03_WM_ForzaHorizon2-640x360.jpg">
+</div>
+ <p><em>Forza Horizon 2</em> is the latest installment of Microsoft’s console racing franchise, and it brings the driving-meets-MMO concept to the Xbox One. As with its <a href="http://arstechnica.com/gaming/2012/10/review-expanding-horizons-with-forza-horizon/">predecessor</a>, <em>Forza Horizon 2</em> is built from <em><a href="http://arstechnica.com/search/?ie=UTF-8&amp;q=forza+motorsport+5">Forza Motorsport</a></em> DNA, which UK-based Playground Games have combined with experience gleaned from titles like <em><a href="http://arstechnica.com/gaming/2007/10/back-behind-the-wheel-a-review-of-project-gotham-racing-4/">Project Gotham Racing</a></em>, <em><a href="http://arstechnica.com/gaming/2005/08/raceoff/4/">TOCA</a></em>, and <em><a href="http://arstechnica.com/gaming/2009/09/you-get-dirty-and-the-pigs-are-happy-ars-reviews-dirt-2/">DiRT</a></em>. Once again, the result is a driving game with that familiar <em>Forza</em> look and feel, but it's tuned to appeal to a slightly different audience.</p>
+<p><em>Forza Horizon 2</em> swaps its predecessor's open roads of Colorado for digital versions of Southern France and Northern Italy. The <em>Horizon</em> music festival has crossed the Atlantic, and, as the game begins, you’re given the job of ferrying the new Lamborghini Huracan to the opening event. From here, you begin the career mode, which has you driving between France and Italy along the coast and through the mountains. You’re guided from event to event by Ben, the festival organizer, imbued by British actor Sean Maguire with just enough charisma to keep him the right side of being horribly annoying.</p>
+<h2>Sights and Sounds</h2>
+<p>A real high point of the first <em>Forza Horizon</em> game was its soundtrack, carefully curated by British DJ Rob Da Bank. He’s back with <em>Forza Horizon 2</em> and a much larger soundtrack, now with <a href="http://www.forzamotorsport.net/en-us/news/fh2_music_announce">seven different radio stations</a> (although some of these have to be unlocked as you progress through the game). Da Bank is particularly good at curating a good driving soundtrack. These are the kinds of songs you might expect to hear in commercials for the next few years after being first exposed to them here.</p>
+</div><p><a href="http://arstechnica.com/gaming/2014/09/forza-horizon-2-massive-multiplayer-online-massive-fun/#p3">Read 15 remaining paragraphs</a> | <a href="http://arstechnica.com/gaming/2014/09/forza-horizon-2-massive-multiplayer-online-massive-fun/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gaming/2014/09/forza-horizon-2-massive-multiplayer-online-massive-fun/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>A properly licensed gallery of Alex Wild’s amazing insect photography</title>
+		<link>http://arstechnica.com/science/2014/09/a-properly-licensed-gallery-of-alex-wilds-intriguing-insect-photography/</link>
+		<comments>http://arstechnica.com/science/2014/09/a-properly-licensed-gallery-of-alex-wilds-intriguing-insect-photography/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 01:00:47 +0000</pubDate>
+		<dc:creator><![CDATA[John Timmer]]></dc:creator>
+				<category><![CDATA[Scientific Method]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[entomology]]></category>
+		<category><![CDATA[gallery]]></category>
+		<category><![CDATA[insects]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=431175</guid>
+		<description><![CDATA[Look out! A spider!]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p><aside class="manual-ad right"><div id="xrailTop300x250_frame"></div></aside><script type="text/javascript">CN.dart.call("xrailTop", {sz:"300x250", kws:["top"], collapse: true});</script><a href="http://www.alexanderwild.com/">Photographer Alex Wild</a> really knows his bugs. That's because his love of the craft grew out of an appreciation for the insects, "an aesthetic complement to scientific work," as he notes in his bio. Wild is a biologist with a Ph.D. in Entomology from the University of California-Davis, where he focused on ant evolution; he got serious about photography in 2002. Nowadays he's taught both science (entomology and beekeeping at the University of Illinois at Urbana-Champaign) and skill (his <a href="http://bugshot.net/">BugShot</a> insect photography workshops).</p>
+<p>Wild was kind enough to share with Ars <a href="http://arstechnica.com/tech-policy/2014/09/one-mans-endless-hopeless-struggle-to-protect-his-copyrighted-images/">his personal experiences</a> of being a copyright-reliant photographer in the Internet age. His imagery has recently appeared on billboards, YouTube commercials, pesticide spray labels, website banners, exterminator trucks, T-shirts, iPhone cases, stickers, company logos, e-book covers, trading cards, board games, video game graphics, children’s books, novel covers, app graphics, alt-med dietary supplement labels, press releases, pest control advertisements, crowdfunding promo videos, coupons, fliers, newspaper articles, postage stamps, advertisements for pet ants (yes, that’s a thing), canned food packaging, ant bait product labels, stock photography libraries, and greeting cards.</p>
+<p>And that list includes only the outlets that displayed his work <em>without</em> permission.</p>
+</div><p><a href="http://arstechnica.com/science/2014/09/a-properly-licensed-gallery-of-alex-wilds-intriguing-insect-photography/#p3">Read 1 remaining paragraphs</a> | <a href="http://arstechnica.com/science/2014/09/a-properly-licensed-gallery-of-alex-wilds-intriguing-insect-photography/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/science/2014/09/a-properly-licensed-gallery-of-alex-wilds-intriguing-insect-photography/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Bugging out: How rampant online piracy squashed one insect photographer</title>
+		<link>http://arstechnica.com/tech-policy/2014/09/one-mans-endless-hopeless-struggle-to-protect-his-copyrighted-images/</link>
+		<comments>http://arstechnica.com/tech-policy/2014/09/one-mans-endless-hopeless-struggle-to-protect-his-copyrighted-images/#comments</comments>
+		<pubDate>Thu, 25 Sep 2014 01:00:24 +0000</pubDate>
+		<dc:creator><![CDATA[Ars Staff]]></dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[copyright]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=534167</guid>
+		<description><![CDATA[Most copyright holders are individuals; most infringers are businesses. Things are broken.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/03/Apis78-640x438.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">A worker honey bee covered in pollen. Honey bees add about 20 billion dollars a year to the US economy, mostly through their pollination services. Urbana, Illinois, USA.</div>
+	
+			<div class="caption-credit">
+							Alex Wild				</div>
+	  </div>
+  </div>
+ <p>Here is a true story about how copyright infringement costs my small photography business thousands of dollars every year.</p>
+<p>Or, maybe it isn’t. It could also be a true story of how copyright infringement <em>earns</em> me thousands of dollars every year. I can’t be sure. Either way, this is definitely the story of how copyright infringement takes up more of my time than I wish to devote to it. Copyright infringement drains my productivity to the point where I create hundreds fewer images each year. And it's why, in part, I am leaving professional photography for an academic position less prone to the frustrations of a floundering copyright system.</p>
+<p>I have an unusual, and an unusually fun, job: I photograph insects for a living. I love what I do in no small part because the difference between my profession and getting paid to be an overgrown kid, is… not that much, really. I collect ants and beetles, I play with camera gadgets, I run around in the woods. Meanwhile, publishers, museums, and the pest control industry send me enough in licensing fees that I haven’t starved to death. By nature photographer standards, business is booming. I cover a modest mortgage in a working class neighborhood. I even afford a new lens or two every year.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2014/09/one-mans-endless-hopeless-struggle-to-protect-his-copyrighted-images/#p3">Read 41 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2014/09/one-mans-endless-hopeless-struggle-to-protect-his-copyrighted-images/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2014/09/one-mans-endless-hopeless-struggle-to-protect-his-copyrighted-images/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Microsoft mistakenly affirms that Windows 9 will be revealed next week</title>
+		<link>http://arstechnica.com/information-technology/2014/09/microsoft-mistakenly-affirms-that-windows-9-will-be-revealed-next-week/</link>
+		<comments>http://arstechnica.com/information-technology/2014/09/microsoft-mistakenly-affirms-that-windows-9-will-be-revealed-next-week/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 22:10:31 +0000</pubDate>
+		<dc:creator><![CDATA[Peter Bright]]></dc:creator>
+				<category><![CDATA[Technology Lab]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[Windows 9]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543291</guid>
+		<description><![CDATA[It may not be called Windows 9, but it's basically Windows 9.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>Disagreements between company executives and the army of PR people who serve them always raise a smile. Public relations teams work so hard to control corporate messaging, and then execs who should know better ignore it.</p>
+<p>Next week, Microsoft is having an event in San Francisco. The official purpose of this event is to show off "what's next for Windows and the enterprise." That's a little vague; it could mean a new version of Windows, or a new update, or anything in between. But Alain Crozier, president of Microsoft France, told employees earlier this week that Windows 9 was going to be shown off at the event, as spotted by <a href="http://www.zdnet.fr/actualites/la-presentation-de-windows-9-confirmee-par-microsoft-france-39806745.htm">ZDNet France</a>.</p>
+<p>But it turns out that wasn't suitably <em>on-message</em>. Microsoft PR got in touch with ZDNet to <a href="http://www.zdnet.fr/actualites/la-presentation-de-windows-9-confirmee-par-microsoft-france-39806745.htm">tell them</a> that the next version of Windows doesn't actually have a name. So it's not Windows 9 at all.</p>
+</div><p><a href="http://arstechnica.com/information-technology/2014/09/microsoft-mistakenly-affirms-that-windows-9-will-be-revealed-next-week/#p3">Read 2 remaining paragraphs</a> | <a href="http://arstechnica.com/information-technology/2014/09/microsoft-mistakenly-affirms-that-windows-9-will-be-revealed-next-week/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/information-technology/2014/09/microsoft-mistakenly-affirms-that-windows-9-will-be-revealed-next-week/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Bug in Bash shell creates big security hole on anything with *nix in it [Updated]</title>
+		<link>http://arstechnica.com/security/2014/09/bug-in-bash-shell-creates-big-security-hole-on-anything-with-nix-in-it/</link>
+		<comments>http://arstechnica.com/security/2014/09/bug-in-bash-shell-creates-big-security-hole-on-anything-with-nix-in-it/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 20:45:36 +0000</pubDate>
+		<dc:creator><![CDATA[Sean Gallagher]]></dc:creator>
+				<category><![CDATA[Risk Assessment]]></category>
+		<category><![CDATA[Technology Lab]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543199</guid>
+		<description><![CDATA[Could allow attackers to execute code on Linux, Unix, and Mac OS X.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/bash-bug-640x558.png"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">Mac OS X Mavericks  is also a *nix, and also vulnerable to the Bash bug.</div>
+	
+			<div class="caption-credit">
+							Sean Gallagher				</div>
+	  </div>
+  </div>
+ <p><strong>UPDATE, 9/25: </strong>The Bash vulnerability, now dubbed by some as "Shellshock," has been reportedly found in use by an active exploit against Web servers. Additionally, the initial patch for the vulnerability was incomplete and still allows for attacks to succeed, <a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-7169">according to a new CERT alert</a>. See<a href="http://arstechnica.com/security/2014/09/concern-over-bash-vulnerability-grows-as-exploit-reported-in-the-wild/"> Ars' latest report</a> for further details, our initial report is below.</p>
+<p>A security vulnerability in the GNU Bourne Again Shell (Bash), the command-line shell used in many Linux and Unix operating systems, could leave systems running those operating systems open to exploitation by specially crafted attacks. “This issue is especially dangerous as there are many possible ways Bash can be called by an application,” a Red Hat security advisory warned.</p>
+<p><a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6271">The bug</a>, discovered by <a href="http://stephane.chazelas.free.fr/">Stephane Schazelas</a>, is related to how Bash processes environmental variables passed by the operating system or by a program calling a Bash-based script. If Bash has been configured as the default system shell, it can be used by network–based attackers against servers and other Unix and Linux devices via Web requests, secure shell, telnet sessions, or other programs that use Bash to execute scripts.</p>
+</div><p><a href="http://arstechnica.com/security/2014/09/bug-in-bash-shell-creates-big-security-hole-on-anything-with-nix-in-it/#p3">Read 8 remaining paragraphs</a> | <a href="http://arstechnica.com/security/2014/09/bug-in-bash-shell-creates-big-security-hole-on-anything-with-nix-in-it/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/security/2014/09/bug-in-bash-shell-creates-big-security-hole-on-anything-with-nix-in-it/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>German man banned from Yellowstone for one year after drone crash</title>
+		<link>http://arstechnica.com/tech-policy/2014/09/german-man-banned-from-yellowstone-for-one-year-after-drone-crash/</link>
+		<comments>http://arstechnica.com/tech-policy/2014/09/german-man-banned-from-yellowstone-for-one-year-after-drone-crash/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 19:22:13 +0000</pubDate>
+		<dc:creator><![CDATA[Cyrus Farivar]]></dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[andreas meissner]]></category>
+		<category><![CDATA[drone]]></category>
+		<category><![CDATA[GPS]]></category>
+		<category><![CDATA[phantom 2]]></category>
+		<category><![CDATA[wyoming]]></category>
+		<category><![CDATA[yellowstone national park]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543109</guid>
+		<description><![CDATA[First drone-related prosecution since national park ban ends with $1,600 fine.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/01/DJI-Dronefly-Phantom-2-640x359.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">The DJI Phantom 2 on display at CES.</div>
+	
+			<div class="caption-credit">
+							Sean Gallagher				</div>
+	  </div>
+  </div>
+ <p>A German man has been sentenced to a year of probation in his home country, a one-year ban from Yellowstone National Park in Wyoming, and a $1,600 fine after pleading guilty to illegally flying a drone (and crashing it into a lake) in the park in July 2014.</p>
+<p>On Wednesday, <a href="http://www.9news.com/story/news/investigations/2014/09/22/drone-crash-yellowstone/16066805/">local media reported</a> that Andreas Meißner of Königswinter, Germany <a href="https://www.documentcloud.org/documents/1304875-gov-uscourts-wyd-29196-5-0.html">pleaded guilty to violating the ban on drones</a>, filming without a permit, and leaving property unattended. Federal prosecutors dropped one charge—making a false report to a government employee—in exchange for the plea deal.</p>
+<p>For months now, <a href="http://arstechnica.com/tech-policy/2014/08/reckless-drone-operators-annoy-animals-people-across-us-national-parks/">drone use in national parks has been something of a menace</a> according to NPS authorities. In June 2014, the NPS banned drones in all parks following an initial ban in California’s Yosemite National Park. Other incidents going back to September 2013 have involved buzzing wild sheep in Utah, flying over nesting gulls in Alaska, and flying over visitors at Mount Rushmore in South Dakota.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2014/09/german-man-banned-from-yellowstone-for-one-year-after-drone-crash/#p3">Read 25 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2014/09/german-man-banned-from-yellowstone-for-one-year-after-drone-crash/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2014/09/german-man-banned-from-yellowstone-for-one-year-after-drone-crash/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Comcast says it’s too expensive to compete against other cable companies</title>
+		<link>http://arstechnica.com/business/2014/09/comcast-says-its-too-expensive-to-compete-against-other-cable-companies/</link>
+		<comments>http://arstechnica.com/business/2014/09/comcast-says-its-too-expensive-to-compete-against-other-cable-companies/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 18:50:04 +0000</pubDate>
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[Ministry of Innovation]]></category>
+		<category><![CDATA[Comcast]]></category>
+		<category><![CDATA[FCC]]></category>
+		<category><![CDATA[time warner cable]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543101</guid>
+		<description><![CDATA[Even if Time Warner deal is blocked, Comcast won’t invade TWC territory.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/04/comcast-duel-640x480.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">This here is Comcast territory—you best be on your way.</div>
+	
+			<div class="caption-credit">
+							<a rel="nofollow" href="https://www.flickr.com/photos/cityyear/5506427081/in/photolist-9ozSVX-8F7QfP-4eVChQ-9ozTnv-4eRDgZ-9EmmCA-9Eiagp-5cEhfQ-4scgyU-CVKFQ-86pebk-iwqAF3-97pDc-2q4MKu-97zC1W-467YV4-4RYUr7-5nv3sk-rGNFQ-b517wM-b517w2-b517wn-jnhmuD-PBBt-avvaMa-avxPG1-7pYLfJ-5ihS8r-97wvs4-4qmKgj-DiST1-DiSTQ-DiSSm-DiSTb-DiSSU-7AFWMK-4Uon1V-6a3UXs-efJWNk-4dY5J6-a63Fx1-6tSVGw-9ci7Qs-9cf2XV-9ci6zL-9cf1g2-9ceZ6v-6j2pri-Rcdyq-RdkW2">City Year</a>
+				</div>
+	  </div>
+  </div>
+ <p>Comcast has made many arguments in support of its proposed acquisition of Time Warner Cable (TWC), but it keeps circling back to one: since the two cable companies don’t compete head-to-head in any city or town, there would be no harm in approving the deal.</p>
+<p>But why don’t Comcast and TWC, the two largest cable companies in the US, compete against each other? And if the merger was denied, would they invade each other’s territory? Ars asked Comcast Executive VP David Cohen those questions today on a press call held to discuss Comcast’s <a href="http://arstechnica.com/business/2014/09/comcast-everyone-secretly-knows-our-time-warner-merger-is-good-for-customers/">latest filing with the FCC</a>.</p>
+<p>In short, Cohen said it’s too expensive to compete against other cable companies—even though Comcast is spending $45.2 billion to purchase Time Warner Cable. Comcast and TWC aren’t likely to start competing against each other even if they remain separate, Cohen explained:</p>
+</div><p><a href="http://arstechnica.com/business/2014/09/comcast-says-its-too-expensive-to-compete-against-other-cable-companies/#p3">Read 19 remaining paragraphs</a> | <a href="http://arstechnica.com/business/2014/09/comcast-says-its-too-expensive-to-compete-against-other-cable-companies/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/business/2014/09/comcast-says-its-too-expensive-to-compete-against-other-cable-companies/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>iOS 8.0.1 disabling cellular and TouchID on some phones [Updated]</title>
+		<link>http://arstechnica.com/apple/2014/09/apple-releases-ios-8-0-1-with-healthkit-keyboard-iphone-6-fixes/</link>
+		<comments>http://arstechnica.com/apple/2014/09/apple-releases-ios-8-0-1-with-healthkit-keyboard-iphone-6-fixes/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 17:16:29 +0000</pubDate>
+		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[Infinite Loop]]></category>
+		<category><![CDATA[iOS 8]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=543049</guid>
+		<description><![CDATA[Apple has pulled the update, recommends iTunes restores for affected phones.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/IMG_2983-640x491.png"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">iOS 8.0.1 fixes a handful of bugs with the new update.</div>
+	
+			<div class="caption-credit">
+							Andrew Cunningham				</div>
+	  </div>
+  </div>
+ <p><strong>Update</strong>: Some <a href="http://www.macrumors.com/2014/09/24/apple-releases-ios-8-0-1/">users</a> are <a href="http://9to5mac.com/2014/09/24/apple-releases-ios-8-0-1-with-various-improvements-and-bug-fixes/">reporting</a> that the update is disabling cell service and TouchID buttons on some phones. I can confirm that this happened on my AT&amp;T iPhone 6, though a Verizon iPhone 5 still seems to be getting service just fine. For now we recommend holding off—<strong>do not download and install this update yet</strong>.</p>
+<p><strong>Update 2: </strong>Apple has pulled the 8.0.1 update. Affected iPhone 6 users are <a href="http://www.macrumors.com/2014/09/24/ios-8-0-1-issues-possible-fix/">allegedly being told by Apple support</a> to try restoring their phones with iTunes.</p>
+<p><strong>Update 3: </strong>On our iPhone 6, restoring through iTunes has re-installed iOS 8.0 and it appears to be working normally. This process erases your data from the phone, but it appears to be the best way to get back up and running as of this writing.</p>
+</div><p><a href="http://arstechnica.com/apple/2014/09/apple-releases-ios-8-0-1-with-healthkit-keyboard-iphone-6-fixes/#p3">Read 4 remaining paragraphs</a> | <a href="http://arstechnica.com/apple/2014/09/apple-releases-ios-8-0-1-with-healthkit-keyboard-iphone-6-fixes/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/apple/2014/09/apple-releases-ios-8-0-1-with-healthkit-keyboard-iphone-6-fixes/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Water found in a Neptune-sized exoplanet’s atmosphere</title>
+		<link>http://arstechnica.com/science/2014/09/water-found-in-a-neptune-sized-exoplanets-atmosphere/</link>
+		<comments>http://arstechnica.com/science/2014/09/water-found-in-a-neptune-sized-exoplanets-atmosphere/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 17:00:50 +0000</pubDate>
+		<dc:creator><![CDATA[Xaq Rzetelny]]></dc:creator>
+				<category><![CDATA[Scientific Method]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542861</guid>
+		<description><![CDATA[It's the smallest exoplanet yet to have water vapor discovered in its atmosphere. ]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/hires-640x485.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">HAT-P-11b is 4.7 times the size of Earth and has 25 Earth masses.</div>
+	
+			<div class="caption-credit">
+							<a rel="nofollow" href="http://www.cfa.harvard.edu/news/2009-05">Harvard Center for Astrophysics</a>
+				</div>
+	  </div>
+  </div>
+ <p>After a difficult search, scientists have found definitive traces of water on a relatively small exoplanet for the first time. The exoplanet in question, HAT-P-11b, is the size of Neptune and has copious amounts of both water vapor and hydrogen in its atmosphere.</p>
+<p>Using the Hubble Space Telescope, the Spitzer Space Telescope, and the Kepler spacecraft, a team of scientists obtained spectrographic data as HAT-P-11b passed in front of its host star, allowing them to determine the planet’s atmospheric composition.</p>
+<p>While other exoplanets with water have been discovered, these have mostly been gas giants larger than Jupiter. HAT-P-11b is the first significantly smaller planet with water to be discovered. The discovery paves the way for searches for water, perhaps even on smaller, more Earth-like planets.</p>
+</div><p><a href="http://arstechnica.com/science/2014/09/water-found-in-a-neptune-sized-exoplanets-atmosphere/#p3">Read 10 remaining paragraphs</a> | <a href="http://arstechnica.com/science/2014/09/water-found-in-a-neptune-sized-exoplanets-atmosphere/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/science/2014/09/water-found-in-a-neptune-sized-exoplanets-atmosphere/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Preference for masculine or feminine faces linked to urban living</title>
+		<link>http://arstechnica.com/science/2014/09/preference-for-strongly-masculinefeminine-faces-linked-to-urban-living/</link>
+		<comments>http://arstechnica.com/science/2014/09/preference-for-strongly-masculinefeminine-faces-linked-to-urban-living/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 16:20:55 +0000</pubDate>
+		<dc:creator><![CDATA[John Timmer]]></dc:creator>
+				<category><![CDATA[Scientific Method]]></category>
+		<category><![CDATA[Behavioral science]]></category>
+		<category><![CDATA[Biology]]></category>
+		<category><![CDATA[gender]]></category>
+		<category><![CDATA[sex]]></category>
+		<category><![CDATA[Social science]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542811</guid>
+		<description><![CDATA[We can't blame this one on our evolutionary past.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>Lots of animals choose their mates based on exaggerated features—think of the enormous antlers of moose or the elaborate plumage of many bird species. The explanation for this is what's sometimes termed "honest signaling"—if an animal has the health and metabolic resources to devote to growing these sorts of sex-specific features, then they've probably got the genetic wherewithal to produce healthy offspring. As long as nobody cheats—makes something that just <em>looks</em> like it took a lot of effort—the system works well from an evolutionary perspective.</p>
+<p>Do humans engage in honest signaling? Clearly, there are features we associate with one or the other sex, and researchers have looked in to whether they might act as signals, feeding in to evolutionary selection. For example, some research has suggested that feminine faces on females act as a signal for fertility, as they're associated with estrogen levels. A masculine appearance, which is linked to testosterone levels, has been suggested to reflect health and disease resistance. And various studies have shown that the opposite sex appreciates faces that are strongly masculine or feminine.</p>
+
+<p>So, in a neat and tidy package, we have an evolutionary explanation for both our appearances and our preferences for them. Or so a lot of people have argued. But a new study in <em>PNAS</em> argues that this is all an artifact of who we're asking. Do some studies in pre-industrial societies, and you get a very different answer.</p>
+</div><p><a href="http://arstechnica.com/science/2014/09/preference-for-strongly-masculinefeminine-faces-linked-to-urban-living/#p3">Read 10 remaining paragraphs</a> | <a href="http://arstechnica.com/science/2014/09/preference-for-strongly-masculinefeminine-faces-linked-to-urban-living/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/science/2014/09/preference-for-strongly-masculinefeminine-faces-linked-to-urban-living/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>High-tech GPS upgrade arrives for Yosemite black bears</title>
+		<link>http://arstechnica.com/science/2014/09/high-tech-upgrade-arrives-for-yosemite-black-bears/</link>
+		<comments>http://arstechnica.com/science/2014/09/high-tech-upgrade-arrives-for-yosemite-black-bears/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 16:00:27 +0000</pubDate>
+		<dc:creator><![CDATA[David Kravets]]></dc:creator>
+				<category><![CDATA[Scientific Method]]></category>
+		<category><![CDATA[black bears]]></category>
+		<category><![CDATA[GPS]]></category>
+		<category><![CDATA[Nature]]></category>
+		<category><![CDATA[yosemite]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542961</guid>
+		<description><![CDATA[Tracking may keep bears safe after two cubs were killed by a vehicle this month.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/blackbear.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-credit">
+							<a rel="nofollow" href="https://secure.flickr.com/photos/davetoussaint/5670549759/in/photolist-9D63Ti-9LE1CS-2brqyo-6KyPRR-8T2Ck6-8T5Ju9-8T2Cbt-86czzn-86czuR-86czEM-9qszac-gbuPE-6NdBuh-3bfAMF-7hMpav-2Hddj-axD4NH-dG9jgi-dG9gWB-dG9fJT-9JSxHb-dGeKzA-dG9esZ-6MwQWS-eNFQP-34PejT-8eBLJh-6U3uL9-8nLigt-kAHKS-fQYuRL-8LiWwf-6DhRc6-575mNt-95g4AT-6pk7mF-axFM1C-4SdRe2-4Si4j1-5cZrPt-9JPGdT-5k53Y3-8yZ5Lp-PPqAp-5jZMo4-3xJEC-3A6uq-9J6aoW-3wqvK-6pp6Yo">Dave Toussaint</a>
+				</div>
+	  </div>
+  </div>
+ <p>For the first time, black bears at Yosemite National Park are being outfitted with GPS devices that will provide rangers with the ability to track their movements in real time.</p>
+<p>The National Park Service said Tuesday that the trackers will help protect bears and the public from encroaching danger. And during park programs, rangers will now discuss the bears' movements with visitors. Previously, bears at the California-based national park were being tracked via radio telemetry, but that technology only provided readings in what the park service called the "developed" areas of the 1,190-square-mile park.</p>
+<p>"This project will expand the park's understanding of Yosemite's black bear population and help to keep bears wild and visitors safe," Yosemite superintendent Don Neubacher <a href="http://www.nps.gov/yose/parknews/new-program-tracks-yosemites-bears-in-real-time.htm">said</a> in a statement.</p>
+</div><p><a href="http://arstechnica.com/science/2014/09/high-tech-upgrade-arrives-for-yosemite-black-bears/#p3">Read 5 remaining paragraphs</a> | <a href="http://arstechnica.com/science/2014/09/high-tech-upgrade-arrives-for-yosemite-black-bears/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/science/2014/09/high-tech-upgrade-arrives-for-yosemite-black-bears/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>BlackBerry’s square-screened Passport launches today for $599</title>
+		<link>http://arstechnica.com/gadgets/2014/09/blackberrys-square-screened-passport-launches-today-for-599/</link>
+		<comments>http://arstechnica.com/gadgets/2014/09/blackberrys-square-screened-passport-launches-today-for-599/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 15:21:48 +0000</pubDate>
+		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[blackberry]]></category>
+		<category><![CDATA[Passport]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542921</guid>
+		<description><![CDATA[Phone aims at productivity users, but early reviews say it's still a BlackBerry.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/passport_angle3_black_frontlean-640x448.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-credit">
+							BlackBerry				</div>
+	  </div>
+  </div>
+ <p>BlackBerry's Passport phone <a href="http://si.wsj.net/public/resources/images/BN-ER441_STERN0_M_20140923181621.jpg">caught our eye when it was announced this summer</a>, mostly because of its odd screen and marketing pitch. It has some vague similarities to last year's BlackBerry Q10, but with a larger 4.5-inch square screen that's meant to show you more horizontal content at once. The self-described "IMAX of productivity" is being released today at a price of $599 unlocked ($249 on-contract).</p>
+<p>The Passport is named for the thing it is shaped like—it's roughly the same size as a US or Canadian passport. The keyboard underneath its square screen isn't quite a full traditional BlackBerry keyboard. It has all the letters, the spacebar, and a couple of other keys, but for numbers or Shift or any others, you'll need to switch between physical and onscreen buttons. We enjoyed BlackBerry 10's software keyboard quite a bit <a href="http://arstechnica.com/gadgets/2013/02/an-imperfect-ten-the-blackberry-z10-smartphone-review/">when we reviewed the Z10</a> last year, but this hybrid seems potentially awkward.</p>
+<p>Early reviews for the device have been mixed but generally negative. Most praise the phone's solid construction and the quality of the 1400×1400 display. The <em>Wall Street Journal</em> <a href="http://online.wsj.com/articles/blackberry-passport-review-a-smartphone-aimed-squarely-at-professionals-1411567271">criticized</a> its 13MP camera and its lack of apps (despite the addition of Amazon's app store to BlackBerry's own), saying that the position of the physical keyboard made the phone feel top-heavy and lopsided to type on. Engadget likewise <a href="http://www.engadget.com/2014/09/24/blackberry-passport-preview/">complained</a> about the lack of apps, while complimenting the keyboard's ability to act as a trackpad in landscape mode.</p>
+</div><p><a href="http://arstechnica.com/gadgets/2014/09/blackberrys-square-screened-passport-launches-today-for-599/#p3">Read 2 remaining paragraphs</a> | <a href="http://arstechnica.com/gadgets/2014/09/blackberrys-square-screened-passport-launches-today-for-599/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gadgets/2014/09/blackberrys-square-screened-passport-launches-today-for-599/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Comcast: Everyone secretly knows our Time Warner merger is good for customers</title>
+		<link>http://arstechnica.com/business/2014/09/comcast-everyone-secretly-knows-our-time-warner-merger-is-good-for-customers/</link>
+		<comments>http://arstechnica.com/business/2014/09/comcast-everyone-secretly-knows-our-time-warner-merger-is-good-for-customers/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 14:33:16 +0000</pubDate>
+		<dc:creator><![CDATA[Jon Brodkin]]></dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[Ministry of Innovation]]></category>
+		<category><![CDATA[Comcast]]></category>
+		<category><![CDATA[FCC]]></category>
+		<category><![CDATA[merger]]></category>
+		<category><![CDATA[time warner cable]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542895</guid>
+		<description><![CDATA[Merger opponents have no facts or credible evidence, Comcast says.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/02/2-2_David-cohen_LR1-640x372.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">Comcast Executive VP David Cohen.</div>
+	
+			<div class="caption-credit">
+							Comcast				</div>
+	  </div>
+  </div>
+ <p>Comcast today submitted a 324-page response to critics of its purchase of Time Warner Cable, telling the Federal Communications Commission that there is no reason for people to be concerned about the merger.</p>
+<p>In an <a href="http://corporate.comcast.com/comcast-voices/comcast-files-opposition-and-response-comments-on-time-warner-cable-transaction">accompanying blog post</a>, Comcast Executive VP David Cohen claimed that “virtually all” people who submitted comments to the FCC support the merger whether they know it or not.</p>
+<p>“Virtually all commenters recognize and concede—either explicitly or through their silence—that the transaction will deliver substantial consumer welfare and public interest benefits to residential and business customers and in the advertising marketplace,” Cohen wrote.</p>
+</div><p><a href="http://arstechnica.com/business/2014/09/comcast-everyone-secretly-knows-our-time-warner-merger-is-good-for-customers/#p3">Read 4 remaining paragraphs</a> | <a href="http://arstechnica.com/business/2014/09/comcast-everyone-secretly-knows-our-time-warner-merger-is-good-for-customers/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/business/2014/09/comcast-everyone-secretly-knows-our-time-warner-merger-is-good-for-customers/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>India becomes the first Asian country to reach Mars</title>
+		<link>http://arstechnica.com/science/2014/09/india-becomes-the-first-asian-country-to-reach-mars/</link>
+		<comments>http://arstechnica.com/science/2014/09/india-becomes-the-first-asian-country-to-reach-mars/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 14:30:36 +0000</pubDate>
+		<dc:creator><![CDATA[The Conversation]]></dc:creator>
+				<category><![CDATA[Scientific Method]]></category>
+		<category><![CDATA[india]]></category>
+		<category><![CDATA[Mars]]></category>
+		<category><![CDATA[planetary science]]></category>
+		<category><![CDATA[Space exploration]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542913</guid>
+		<description><![CDATA[The Mars Orbiter Mission, called Mangalyaan, entered orbit last night.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/mars14.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-credit">
+							<a rel="nofollow" href="http://www.isro.org/pslv-c25/Imagegallery/satellite.aspx">ISRO</a>
+				</div>
+	  </div>
+  </div>
+ <p>Mars has become the destination of choice for ambitious space agencies and nations, and now India is among that group. After a successful maneuver, the Mars Orbiter Mission (MOM) has entered an orbit about 420 km above the surface of Mars (MOM is informally called Mangalyaan, which is Hindi for Mars vehicle). It will soon begin to photograph the planet’s surface and analyze the atmospheric composition.</p>
+<p>(<em>Disclosure: </em>As a member of two previous missions to Mars, I understand the excitement and challenges of landing, or in the case of Mangalyaan, orbital insertion. Waiting for a signal telling the ground staff about the mission’s fate must have been a nerve-wracking time for staff of the Indian Space Research Organization [ISRO].)</p>
+<h2>Attraction of the red planet</h2>
+<p>Ever since the earliest telescopic observations in the 17th and 18th centuries, Mars has shown tantalizing hints of seasons, water, and active geological processes. Over the centuries, our understanding about Mars has changed as the resolution of telescopes and spacecraft cameras and spectrometers has greatly improved.</p>
+</div><p><a href="http://arstechnica.com/science/2014/09/india-becomes-the-first-asian-country-to-reach-mars/#p3">Read 7 remaining paragraphs</a> | <a href="http://arstechnica.com/science/2014/09/india-becomes-the-first-asian-country-to-reach-mars/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/science/2014/09/india-becomes-the-first-asian-country-to-reach-mars/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Angry customers tell feds about unresponsive Bitcoin miner makers</title>
+		<link>http://arstechnica.com/tech-policy/2014/09/angry-customers-tell-feds-about-unresponsive-bitcoin-miner-makers/</link>
+		<comments>http://arstechnica.com/tech-policy/2014/09/angry-customers-tell-feds-about-unresponsive-bitcoin-miner-makers/#comments</comments>
+		<pubDate>Wed, 24 Sep 2014 13:15:54 +0000</pubDate>
+		<dc:creator><![CDATA[Cyrus Farivar]]></dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[bitcoin]]></category>
+		<category><![CDATA[butterfly labs]]></category>
+		<category><![CDATA[cointerra]]></category>
+		<category><![CDATA[hashfast]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542193</guid>
+		<description><![CDATA[$1.2M in orders account for 80 complaints to FTC about CoinTerra, HashFast.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/06/9714198380_cdfeff38d6_b-640x479.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-credit">
+							<a rel="nofollow" href="https://secure.flickr.com/photos/100239928@N08/9714198380#">BTC Keychain</a>
+				</div>
+	  </div>
+  </div>
+ <p>Since the beginning of last year, angry customers have filed dozens of formal complaints with the Federal Trade Commission (FTC) against two embattled Bitcoin miner manufacturers.</p>
+<p>According to data Ars recently obtained via the Freedom of Information Act, 80 people complained about orders made at <a href="https://docs.google.com/spreadsheets/d/1wtjD1nk4NlIQo0JbATVeqcIeWicNUiTSeFcLVhmXFjg/edit#gid=2124831958">CoinTerra</a> and <a href="https://docs.google.com/spreadsheets/d/1odMn3zWtZ6VXhctFVqeQQ5s4RiiQ5yKEhiypr8jWEQg/edit#gid=1450438904">HashFast</a> between January 2013 and July 2014. These orders are collectively worth over $1.2 million spread between the two companies.</p>
+<p>The complaints come from all over the globe, including Italy, Australia, India, Taiwan, Belgium, and mostly, the United States. The complaints are all very similar: they detail orders that were never fulfilled, refunds that were never issued, and/or e-mails that went unanswered.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2014/09/angry-customers-tell-feds-about-unresponsive-bitcoin-miner-makers/#p3">Read 12 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2014/09/angry-customers-tell-feds-about-unresponsive-bitcoin-miner-makers/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2014/09/angry-customers-tell-feds-about-unresponsive-bitcoin-miner-makers/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Blizzard cancels its long-delayed “Project Titan” MMO</title>
+		<link>http://arstechnica.com/gaming/2014/09/blizzard-cancels-its-long-delayed-project-titan-mmo/</link>
+		<comments>http://arstechnica.com/gaming/2014/09/blizzard-cancels-its-long-delayed-project-titan-mmo/#comments</comments>
+		<pubDate>Tue, 23 Sep 2014 23:20:30 +0000</pubDate>
+		<dc:creator><![CDATA[Peter Bright]]></dc:creator>
+				<category><![CDATA[Opposable Thumbs]]></category>
+		<category><![CDATA[Blizzard]]></category>
+		<category><![CDATA[MMO]]></category>
+		<category><![CDATA[MMORPG]]></category>
+		<category><![CDATA[PC gaming]]></category>
+		<category><![CDATA[Project Titan]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542835</guid>
+		<description><![CDATA[After seven years, the company couldn't make the game fun.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>Never officially announced, Blizzard has been talking about an MMO project, codenamed "Project Titan," for the last seven years. The project has had problems, and the company said in 2013 that it was <a href="http://arstechnica.com/gaming/2013/05/report-blizzard-to-overhaul-project-titan-launch-it-in-2016-at-the-earliest/">delayed until 2016</a> at the earliest.</p>
+<p>Those problems appear to have proven fatal. The company told <a href="http://www.polygon.com/2014/9/23/6833953/blizzard-cancels-titan-next-gen-mmo-pc">Polygon</a> that it has been cancelled entirely. The problem? Even with as much MMO experience as Blizzard had, it struggled to make the game fun.</p>
+<p>In the interview, Blizzard senior vice president of story and franchise development Chris Metzen also suggests that the company has changed the way it views itself. Smaller games such as <em>Hearthstone</em> and <em>Heroes of the Storm</em> have enabled the company to step back from "colossal, summer blockbuster-type products."</p>
+</div><p><a href="http://arstechnica.com/gaming/2014/09/blizzard-cancels-its-long-delayed-project-titan-mmo/">Read on Ars Technica</a> | <a href="http://arstechnica.com/gaming/2014/09/blizzard-cancels-its-long-delayed-project-titan-mmo/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gaming/2014/09/blizzard-cancels-its-long-delayed-project-titan-mmo/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Chelsea Manning sues federal government for gender dysphoria treatment</title>
+		<link>http://arstechnica.com/tech-policy/2014/09/chelsea-manning-sues-federal-government-for-gender-dysphoria-treatment/</link>
+		<comments>http://arstechnica.com/tech-policy/2014/09/chelsea-manning-sues-federal-government-for-gender-dysphoria-treatment/#comments</comments>
+		<pubDate>Tue, 23 Sep 2014 22:30:20 +0000</pubDate>
+		<dc:creator><![CDATA[Megan Geuss]]></dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[chelsea manning]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542795</guid>
+		<description><![CDATA[US Army Private who gave classified documents to Wikileaks was diagnosed 4 years ago.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap"> <p>On Tuesday, the American Civil Liberties Union <a href="http://documents.latimes.com/chelsea-manning-sues-federal-government-medical-treatment/">filed a lawsuit</a> against the federal government on behalf of US Army Private Chelsea Manning. The lawsuit asks for treatment for Manning's gender dysphoria, which she was diagnosed with in 2010 while she was stationed in Iraq.</p>
+<p>Gender dysphoria <a href="http://www.latimes.com/nation/nationnow/la-na-nn-chelsea-manning-lawsuit-20140923-story.html">refers to a condition</a> in which a person's gender identity is different from that which they were assigned at birth. The condition is recognized by the American Psychiatric Association, as well as the American Medical Association and the American Psychological Association.</p>
+<p>Manning was <a href="http://arstechnica.com/tech-policy/2013/12/army-releases-2010-chat-log-between-manning-and-assange/">court-martialed last year</a> for handing a cache of classified documents over to Wikileaks, which most famously resulted in the notorious “Collateral Murder” video. She was <a href="http://arstechnica.com/tech-policy/2013/07/bradley-manning-not-guilty-of-aiding-the-enemy-convicted-on-19-other-counts/">convicted in July 2013</a> of espionage, theft, and computer fraud, but she was acquitted of “aiding the enemy,” which was one of the most serious charges. Manning is currently serving 35 years in prison and resides at the United States Disciplinary Barracks at Fort Leavenworth in Kansas.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2014/09/chelsea-manning-sues-federal-government-for-gender-dysphoria-treatment/#p3">Read 2 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2014/09/chelsea-manning-sues-federal-government-for-gender-dysphoria-treatment/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2014/09/chelsea-manning-sues-federal-government-for-gender-dysphoria-treatment/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Is a Microsoft TV dongle going to make Miracast mainstream?</title>
+		<link>http://arstechnica.com/gadgets/2014/09/is-a-microsoft-tv-dongle-going-to-make-miracast-mainstream/</link>
+		<comments>http://arstechnica.com/gadgets/2014/09/is-a-microsoft-tv-dongle-going-to-make-miracast-mainstream/#comments</comments>
+		<pubDate>Tue, 23 Sep 2014 22:05:56 +0000</pubDate>
+		<dc:creator><![CDATA[Peter Bright]]></dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[microsoft]]></category>
+		<category><![CDATA[miracast]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542757</guid>
+		<description><![CDATA[Turn any HDMI TV set into a Miracast receiver with a $59.95 gizmo.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/Wireless_Display_Adapter_3-4-640x360.png"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-credit">
+							<a rel="nofollow" href="http://www.microsoft.com/hardware/en-us/p/wireless-display-adapter#support">Microsoft</a>
+				</div>
+	  </div>
+  </div>
+ <p>Microsoft today announced the Wireless Display Adaptor, which will enable Windows and Android systems to wirelessly send their screens to any display with an HDMI input.</p>
+<p>One of the new features that Windows 8.1 added, and that most people overlooked, was built-in Miracast support. With the right combination of wireless drivers and video drivers, Windows 8.1 machines can beam their screen over Wi-Fi to Miracast receivers, enabling wire-free, configuration-free connections between PCs and Miracast-enabled TVs and projectors. Windows Phone 8.1 also includes Miracast support; Android has supported the technology since version 4.2.</p>
+<p>What has consistently been rare is Miracast hardware on the receiver end. Most TVs and projectors don't support it, so while hardware that supports Miracast broadcasting is becoming quite common (all Microsoft's Surface-branded tablets, except the first generation ARM Surface RT, Samsung smartphones with AllShare Cast or Samsung Link software, new Windows Phones), that hardware has had nowhere to broadcast to.</p>
+</div><p><a href="http://arstechnica.com/gadgets/2014/09/is-a-microsoft-tv-dongle-going-to-make-miracast-mainstream/#p3">Read 6 remaining paragraphs</a> | <a href="http://arstechnica.com/gadgets/2014/09/is-a-microsoft-tv-dongle-going-to-make-miracast-mainstream/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gadgets/2014/09/is-a-microsoft-tv-dongle-going-to-make-miracast-mainstream/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Reports suggest the iPhone 6 and 6 Plus may bend in your pocket</title>
+		<link>http://arstechnica.com/apple/2014/09/reports-suggest-the-iphone-6-and-6-plus-may-bend-under-pressure/</link>
+		<comments>http://arstechnica.com/apple/2014/09/reports-suggest-the-iphone-6-and-6-plus-may-bend-under-pressure/#comments</comments>
+		<pubDate>Tue, 23 Sep 2014 21:20:29 +0000</pubDate>
+		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[Infinite Loop]]></category>
+		<category><![CDATA[iPhone 6]]></category>
+		<category><![CDATA[iphone 6 plus]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542703</guid>
+		<description><![CDATA[The new phones are thin but might be more flexible than intended.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/bent_iphone-640x122.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">An iPhone 6 Plus displaying a subtle bend after a weekend of use.</div>
+	
+			<div class="caption-credit">
+							<a rel="nofollow" href="http://forums.macrumors.com/showpost.php?p=19825874&amp;postcount=1">MacRumors forum poster Hanzoh</a>
+				</div>
+	  </div>
+  </div>
+ <p>Early buyers have now had a few days with <a href="http://arstechnica.com/apple/2014/09/iphone-6-and-6-plus-in-deep-with-apples-thinnest-phones/">their new iPhones</a>, but some of them are running into a problem: in some cases the thin, flat phones are bending or warping slightly in users' pockets.</p>
+<p>The earliest reports came from <a href="http://www.macrumors.com/2014/09/23/iphone-6-plus-bending-pockets/">MacRumors</a>, where forum posters reported bending in the iPhone 6 Plus after a weekend of use. Later, Geek.com writer Russell Holly <a href="http://www.geek.com/apple/iphone-6s-are-being-bent-in-peoples-pockets-including-mine-1605177/">posted photos of the smaller iPhone 6 exhibiting some of the same behavior</a>. When placed on its (normally flat) front face, Holly's iPhone 6 rocks back and forth slightly on its face, a behavior we haven't noticed in any of our iPhone 6es or iPhone 6 Pluses. Based on the reports that we've read so far, it appears that some combination of body heat and pressure from the carrier's pocket is responsible for the warping.</p>
+<p>We've reached out to Apple for a comment on the situation and will update this article if the company responds. It's worth noting that many phones, including the older iPhone 5 and 5S, have been known to bend occasionally—Cult of Mac has <a href="http://www.cultofmac.com/297404/get-bent-shocking-history-bent-smartphones/">a nice roundup</a> with plenty of examples. The question at this point is whether these reports of bending and warping iPhone 6 and iPhone 6 Plus units are isolated incidents or if, <a href="http://arstechnica.com/apple/2010/06/jobs-on-iphone-4-antenna-avoid-holding-it-in-this-way/">like the iPhone 4's antenna problems</a>, the issue is endemic to the new design. We'll keep an eye on this one as more people begin receiving the phones and as we spend more time with them ourselves.</p>
+</div><p><a href="http://arstechnica.com/apple/2014/09/reports-suggest-the-iphone-6-and-6-plus-may-bend-under-pressure/">Read on Ars Technica</a> | <a href="http://arstechnica.com/apple/2014/09/reports-suggest-the-iphone-6-and-6-plus-may-bend-under-pressure/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/apple/2014/09/reports-suggest-the-iphone-6-and-6-plus-may-bend-under-pressure/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Steam tells you what games to play via “discovery” update</title>
+		<link>http://arstechnica.com/gaming/2014/09/steam-tells-you-what-games-to-play-via-discovery-update/</link>
+		<comments>http://arstechnica.com/gaming/2014/09/steam-tells-you-what-games-to-play-via-discovery-update/#comments</comments>
+		<pubDate>Tue, 23 Sep 2014 20:50:39 +0000</pubDate>
+		<dc:creator><![CDATA[Sam Machkovech]]></dc:creator>
+				<category><![CDATA[Opposable Thumbs]]></category>
+		<category><![CDATA[early access]]></category>
+		<category><![CDATA[Greenlight]]></category>
+		<category><![CDATA[Steam]]></category>
+		<category><![CDATA[Valve]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542409</guid>
+		<description><![CDATA[But do "curator" pages, tags, and recommendation queues really help?]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/Screen-Shot-2014-09-23-at-12.49.29-PM-980x594.png"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">The curators have spoken, but do they really help Steam shoppers sort intelligently through thousands of games?</div>
+	
+	  </div>
+  </div>
+ <p><aside class="manual-ad right"><div id="xrailTop300x250_frame"></div></aside><script type="text/javascript">CN.dart.call("xrailTop", {sz:"300x250", kws:["top"], collapse: true});</script>Valve's online video game shop, Steam, once took flak for being too difficult to penetrate as a game creator. Unless you were a big-time publisher or were invited to sell games on Steam because of particular critical buzz, you weren't likely to snag a sales spot alongside the <em>Fallout</em>s and <em>Civilization</em>s of the PC gaming world.</p>
+<p>These days, it's customers who've struggled to penetrate a rapidly expanding, indie-friendly Steam, as initiatives like <a href="http://arstechnica.com/gaming/2012/07/valve-to-crowdsource-distribution-choices-with-steam-greenlight/">Greenlight</a> and <a href="http://arstechnica.com/gaming/2013/03/valve-lets-you-pay-for-the-beta-with-steam-early-access-program/">Early Access</a> have helped the storefront explode with content—including a staggering 1,300 new games in the past 9 months. To deal with this problem, rather than introduce a slow drip of search and filtering tools, Valve unveiled <a href="http://store.steampowered.com/about/newstore">a massive "discovery" update to Steam</a> on Tuesday. It's possibly the service's biggest visual update in years, and it combines ideas like third-party curation and more intense filters to push new content onto gamers.</p>
+<p>The overhaul, by default, is an improvement, but we took the features for a spin with a bigger question: has Steam positioned itself as an all-in-one walled garden of computer game discovery?</p>
+</div><p><a href="http://arstechnica.com/gaming/2014/09/steam-tells-you-what-games-to-play-via-discovery-update/#p3">Read 15 remaining paragraphs</a> | <a href="http://arstechnica.com/gaming/2014/09/steam-tells-you-what-games-to-play-via-discovery-update/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/gaming/2014/09/steam-tells-you-what-games-to-play-via-discovery-update/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Chipworks digs up more information on Apple’s new A8 chip</title>
+		<link>http://arstechnica.com/apple/2014/09/chipworks-digs-up-more-information-on-apples-new-a8-chip/</link>
+		<comments>http://arstechnica.com/apple/2014/09/chipworks-digs-up-more-information-on-apples-new-a8-chip/#comments</comments>
+		<pubDate>Tue, 23 Sep 2014 20:25:44 +0000</pubDate>
+		<dc:creator><![CDATA[Andrew Cunningham]]></dc:creator>
+				<category><![CDATA[Gear & Gadgets]]></category>
+		<category><![CDATA[Infinite Loop]]></category>
+		<category><![CDATA[Apple A8]]></category>
+		<category><![CDATA[iPhone 6]]></category>
+		<category><![CDATA[iphone 6 plus]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542603</guid>
+		<description><![CDATA[Apple moves to TSMC, adds an improved quad-core GPU and shrinks the chip.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/Apple-A8-chipworks.png"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">The Apple A8 die shot as mapped out by Chipworks.</div>
+	
+			<div class="caption-credit">
+							<a rel="nofollow" href="http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/inside-the-iphone-6-and-iphone-6-plus/">Chipworks</a>
+				</div>
+	  </div>
+  </div>
+ <p>Now that the iPhone 6 and iPhone 6 Plus have been released, the usual suspects have started to take them apart to get more information about the things Apple doesn't talk about. Last week, iFixit took the phones apart and identified many of the internal components and the battery capacities. Today, <a href="http://www.chipworks.com/en/technical-competitive-analysis/resources/blog/inside-the-iphone-6-and-iphone-6-plus/">Chipworks picked up where it left off on Friday</a>, taking up-close photos of the Apple A8 chip and trying to deduce what exactly is going on in there.</p>
+<p>As was previously rumored, Chipworks has confirmed that the A8 is built on Taiwan Semiconductor's (TSMC) 20nm process rather than the 28nm Samsung process used for the A7. This is the first time one of Apple's chips has been produced by anyone other than Samsung—<a href="http://online.wsj.com/articles/tsmc-starts-shipping-microprocessors-to-apple-1404991514">many of the previous reports</a> also suggest that Apple has been looking for ways to reduce its reliance on <a href="http://arstechnica.com/gadgets/2014/04/samsungs-galaxy-s5-has-plenty-of-upgrades-so-why-does-it-feel-so-meh/">one of its chief competitors</a>, though <a href="http://recode.net/2014/09/23/teardown-shows-apples-iphone-6-cost-at-least-200-to-build/">a report from Re/code</a> indicates that Apple may still be using Samsung to produce around 40 percent of the chips. Moving to a 20nm process has allowed Apple to cram roughly two billion transistors into a chip that is 13 percent smaller than the A7.</p>
+<p>Chipworks confirms that Apple is still using a dual-core CPU, <a href="http://arstechnica.com/apple/2014/09/iphone-6-and-6-plus-in-deep-with-apples-thinnest-phones/3/">as we reported in our review yesterday</a>. While Qualcomm, Samsung, and Nvidia have all built four, six, and even eight-core chips in an effort to boost performance, Apple has chosen to stick with fewer, more powerful cores instead. Chipworks (together with AnandTech) has also surmised that Apple is using a quad-core Imagination Technologies GX6450 to boost the A8's graphics scores by 50 percent relative to the A7. Previously, it was thought that Apple had moved to a six-core GX6550, but it looks like the quad-core version's GPU cores are bigger (and thus, more powerful) than expected.</p>
+</div><p><a href="http://arstechnica.com/apple/2014/09/chipworks-digs-up-more-information-on-apples-new-a8-chip/#p3">Read 1 remaining paragraphs</a> | <a href="http://arstechnica.com/apple/2014/09/chipworks-digs-up-more-information-on-apples-new-a8-chip/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/apple/2014/09/chipworks-digs-up-more-information-on-apples-new-a8-chip/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Martha Stewart owns 3 drones, uses them to spy on party guests</title>
+		<link>http://arstechnica.com/security/2014/09/martha-stewart-owns-3-drones-uses-them-to-spy-on-party-guests/</link>
+		<comments>http://arstechnica.com/security/2014/09/martha-stewart-owns-3-drones-uses-them-to-spy-on-party-guests/#comments</comments>
+		<pubDate>Tue, 23 Sep 2014 20:10:25 +0000</pubDate>
+		<dc:creator><![CDATA[Cyrus Farivar]]></dc:creator>
+				<category><![CDATA[Risk Assessment]]></category>
+		<category><![CDATA[drones]]></category>
+		<category><![CDATA[martha stewart]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542635</guid>
+		<description><![CDATA[<em>Martha Stewart Living</em>, now with more drones!]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/martha.drones-640x359.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-credit">
+							<a rel="nofollow" href="http://www.nbc.com/late-night-with-seth-meyers/video/martha-stewart-drone-master/2813970">NBC</a>
+				</div>
+	  </div>
+  </div>
+ <p>Martha Stewart, America’s home design and craft queen, <a href="http://curbed.com/archives/2014/09/23/martha-stewart-uses-drones-spy-on-party-guests-at-her-house.php">took to late night television</a> on Monday to <a href="http://www.nbc.com/late-night-with-seth-meyers/video/martha-stewart-drone-master/2813970">gush about her latest obsession</a>: drones.</p>
+<p>On <em>Late Night with Seth Meyers</em>, Stewart proudly talked about how she now owns "three drones."</p>
+<p>"These are not army drones! They're not dangerous!" she reassured Meyers.</p>
+</div><p><a href="http://arstechnica.com/security/2014/09/martha-stewart-owns-3-drones-uses-them-to-spy-on-party-guests/#p3">Read 4 remaining paragraphs</a> | <a href="http://arstechnica.com/security/2014/09/martha-stewart-owns-3-drones-uses-them-to-spy-on-party-guests/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/security/2014/09/martha-stewart-owns-3-drones-uses-them-to-spy-on-party-guests/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>After small victory in stingray case, Chicago man seeks more records</title>
+		<link>http://arstechnica.com/tech-policy/2014/09/after-small-victory-in-stingray-case-chicago-man-seeks-more-records/</link>
+		<comments>http://arstechnica.com/tech-policy/2014/09/after-small-victory-in-stingray-case-chicago-man-seeks-more-records/#comments</comments>
+		<pubDate>Tue, 23 Sep 2014 19:00:00 +0000</pubDate>
+		<dc:creator><![CDATA[Cyrus Farivar]]></dc:creator>
+				<category><![CDATA[Law & Disorder]]></category>
+		<category><![CDATA[Uncategorized]]></category>
+		<category><![CDATA[Chicago]]></category>
+		<category><![CDATA[FOIA]]></category>
+		<category><![CDATA[freddy martinez]]></category>
+		<category><![CDATA[police]]></category>
+		<category><![CDATA[stingray]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542585</guid>
+		<description><![CDATA[New suit demands "all court orders for any instances" when CPD used stingrays.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/7594961482_6853eb9c53_k-640x429.jpg"><div class="caption" style="font-size:0.8em">
+	
+			<div class="caption-credit">
+							<a rel="nofollow" href="https://www.flickr.com/photos/afagen/7594961482/in/photolist-cz9arL-8vvNWS-dNThth-8pGpo6-fo8pSS-fnT9Pn-8x8jov-hnMBD-fo8oRJ-fCPkc-eibjAq-bpQhKK-afddTS-7EQwSw-6fqWYh-dPwQEW-cLtd1Q-bD9BzC-zXcp6-9mjHn6-ei5C4p-fo8qfC-7Cv4XX-9AThAr-cK1EWE-6YPXUt-fnU4ye-fo9jYQ-4mQKhN-e3e2tr-aaki3V-c2bRjw-fnU3un-fo9kum-c2gTjY-fo9iTy-6DSeDy-dWZ5W6-fdqH5V-9QWjEs-7UrSUa-aeXsnM-7UreDm-cVHudA-bnQFaw-bpdodK-o3znGq-8mvfLa-d4CCaw-cYyNGj">Adam Fagen</a>
+				</div>
+	  </div>
+  </div>
+ <p>After successfully getting the Chicago Police Department to hand over records showing that it purchased cell site simulator devices, also known as IMSI catchers or stingrays, one local activist has now filed a second lawsuit in an attempt to better understand precisely how the stingrays are actually used.</p>
+<p>The <a href="https://www.documentcloud.org/documents/1304546-martinez-v-cpd-ii-complaint.html">new lawsuit</a> was filed on Tuesday by Freddy Martinez, a 27-year-old Chicagoan who works in the software industry.</p>
+<p>Martinez’ <a href="http://arstechnica.com/tech-policy/2014/06/is-chicago-using-cell-tracking-devices-one-man-tries-to-find-out/">earlier lawsuit</a> resulted in three pages of invoices, dated 2009, showing that the department purchased an AmberJack upgrade (a model of stingray) and a StingRay II upgrade. While "StingRay" is a trademarked name and particular product of the Harris Corporation, it has entered the technical lexicon as a generic term, like Kleenex or Xerox.</p>
+</div><p><a href="http://arstechnica.com/tech-policy/2014/09/after-small-victory-in-stingray-case-chicago-man-seeks-more-records/#p3">Read 7 remaining paragraphs</a> | <a href="http://arstechnica.com/tech-policy/2014/09/after-small-victory-in-stingray-case-chicago-man-seeks-more-records/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/tech-policy/2014/09/after-small-victory-in-stingray-case-chicago-man-seeks-more-records/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Small object, supermassive black hole</title>
+		<link>http://arstechnica.com/science/2014/09/small-object-supermassive-black-hole/</link>
+		<comments>http://arstechnica.com/science/2014/09/small-object-supermassive-black-hole/#comments</comments>
+		<pubDate>Tue, 23 Sep 2014 18:45:22 +0000</pubDate>
+		<dc:creator><![CDATA[Xaq Rzetelny]]></dc:creator>
+				<category><![CDATA[Scientific Method]]></category>
+		<category><![CDATA[astronomy]]></category>
+		<category><![CDATA[astrophysics]]></category>
+		<category><![CDATA[dwarf galaxies]]></category>
+		<category><![CDATA[supermassive black hole]]></category>
+
+		<guid isPermaLink="false">http://arstechnica.com/?p=542367</guid>
+		<description><![CDATA[Even the ultra-compact galaxies can have supermassive black holes.]]></description>
+				<content:encoded><![CDATA[<div id="rss-wrap">
+<div>
+      <img src="http://cdn.arstechnica.net/wp-content/uploads/2014/09/M60-UCD1_NoLabels300dpi-640x479.jpg"><div class="caption" style="font-size:0.8em">
+			<div class="caption-text">The enormous bright spot in the middle is the M60 galaxy; inset shows an expanded view of UCD1. The gorgeous spiral galaxy in the upper right? It's irrelevant to the story, but sure looks good.</div>
+	
+			<div class="caption-credit">
+							NASA/Space Telescope Science Institute/European Space Agency				</div>
+	  </div>
+  </div>
+ <p>The densest galaxy yet observed, as of its discovery last year, is a tiny object known as M60-UCD1. UCD1 is an extraordinary example of an ultra-compact dwarf (UCD), a class of galaxies that were only discovered recently. UCDs are tiny, dense, and somewhat difficult to define—are they really galaxies, or just large star clusters?</p>
+<p>The distinction is not semantic but physical. If the UCDs are galaxies, it tells us a lot about their evolution and how they play into the wider evolution of the Universe. To answer this question, a team of scientists focused on UCD1, the brightest UCD. Like its fellow UCDs, UCD1 is more massive than predicted by its stars alone. But the source of this additional mass was not known.</p>
+<h2>Theoretical possibilities</h2>
+<p>One possibility was that UCDs form out of unusual distributions of material, one that could ultimately lead to its stars having slightly higher than average mass, thus explaining the excess. Another possibility was that the extra mass comes from supermassive black holes in the cores of these tightly packed dwarfs.</p>
+</div><p><a href="http://arstechnica.com/science/2014/09/small-object-supermassive-black-hole/#p3">Read 24 remaining paragraphs</a> | <a href="http://arstechnica.com/science/2014/09/small-object-supermassive-black-hole/?comments=1">Comments</a></p>]]></content:encoded>
+			<wfw:commentRss>http://arstechnica.com/science/2014/09/small-object-supermassive-black-hole/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

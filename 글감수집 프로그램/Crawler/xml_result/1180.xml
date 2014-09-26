@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>::NPTEAM:: Network Programer Team</title>
+		<link>http://npteam.net/</link>
+		<description></description>
+		<language>ko</language>
+		<pubDate>Fri, 26 Sep 2014 17:47:54 +0900</pubDate>
+		<generator>Textcube 1.7.8 : Con moto</generator>
+		<item>
+			<title>[Git] git 저장소 크기 줄이기</title>
+			<link>http://npteam.net/954</link>
+			<description>출처 : &lt;a href=&quot;http://stevelorek.com/how-to-shrink-a-git-repository.html&quot; target=&quot;_blank&quot;&gt;http://stevelorek.com/how-to-shrink-a-git-repository.html&lt;/a&gt;&lt;br&gt;&lt;br&gt;.git 저장소 크기를 줄이려면 다음과 같이 명령을 입력합니다.&lt;br&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git reflog expire --expire&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;now --all&lt;br&gt;$ git gc --prune=now&lt;br&gt;$ git gc --aggressive --prune=now&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이센스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이센스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>프로그래밍</category>
+			<author>(TTF)</author>
+			<guid>http://npteam.net/954</guid>
+			<comments>http://npteam.net/954#entry954comment</comments>
+			<pubDate>Sat, 13 Sep 2014 17:14:36 +0900</pubDate>
+		</item>
+		<item>
+			<title>[C++11] 스레드를 생성하여 비동기 작업 처리하기</title>
+			<link>http://npteam.net/952</link>
+			<description>C++11 표준 라이브러리를 이용하여 비동기 작업을 처리하는데 몇 가지 문제가 있다.&lt;br&gt;&lt;ul&gt;&lt;li&gt;VS2012에서 std::async는 프로그램 종료시까지 thread 자원을 release하지 못한다.(&lt;a href=&quot;https://connect.microsoft.com/VisualStudio/feedback/details/761209/boost-thread-specific-ptr-leaks-on-vs2012-when-using-std-async&quot; target=&quot;_blank&quot;&gt;LINK&lt;/a&gt;) &lt;br&gt;VS2013에서 해결됨&lt;/li&gt;&lt;li&gt;std::async는 기본적으로 다른 스레드에서 실행되는 것을 보장하지 않는다.(std::launch::async 필요)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;다음과 같은 조건일 때 std::async는 좋지 않은 선택이다.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;스레드에서 실행하는 것이 보장되어야 할 때&lt;/li&gt;&lt;li&gt;나중에 결과를 얻어야 할 때&lt;/li&gt;&lt;li&gt;결과값을 얻을 때 스레드가 완전히 소멸 되어야 할 때&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;이러한 경우에 std::package_task와 std::thread를 std::future와 조합하여 해결할 수 있다.&lt;/p&gt;&lt;p&gt;이 방법은 std::async를 사용해야 할 경우에 대부분 적용 가능하다.&lt;/p&gt;
+출처 : &lt;a href=&quot;http://stackoverflow.com/questions/12320003/get-return-code-from-stdthread&quot; target=&quot;_blank&quot;&gt;http://stackoverflow.com/questions/12320003/get-return-code-from-stdthread &lt;/a&gt;&lt;br&gt;
+
+&lt;pre class=&quot;brush: cpp&quot;&gt;#include &amp;lt; packaged_task &amp;gt;
+#include &amp;lt; thread &amp;gt;
+
+int myfun(double, char, bool);
+
+std::packaged_task&amp;lt; int(double, char, bool) &amp;gt; task(myfun, arg1, arg2, arg3);
+auto f = task.get_future();
+std::thread thread(std::move(task));
+thread.detach();
+int result = f.get();
+&lt;/pre&gt;
+&lt;br&gt;&lt;ul&gt;&lt;li&gt;
+f는 std::future&amp;lt; int &amp;gt;와 같다.&lt;/li&gt;&lt;li&gt;task는 non copyable이므로 명시적으로 move를 사용해야 한다.&lt;/li&gt;&lt;li&gt;future로 동기화된 결과를 받기 때문에 detach를 사용한다.&lt;/li&gt;&lt;li&gt;f.get()에서 결과를 기다린다.&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;
+&lt;br&gt;
+위와 같이 처리할 경우 C++11 표준 라이브러리를 이용하여 비동기 작업을 새로운 스레드에 바로 할당하는 것이 가능하다.&lt;br&gt;&lt;br&gt;위 내용은 다음 블로그에서 참조하였습니다.&lt;br&gt;(&lt;a href=&quot;http://wsstudio.tistory.com/entry/c-대기하는-비동기-스레드-작업-구현&quot; target=&quot;_blank&quot;&gt;http://wsstudio.tistory.com/entry/c-대기하는-비동기-스레드-작업-구현&lt;/a&gt;)&lt;br&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이센스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이센스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>프로그래밍</category>
+			<author>(TTF)</author>
+			<guid>http://npteam.net/952</guid>
+			<comments>http://npteam.net/952#entry952comment</comments>
+			<pubDate>Wed, 03 Sep 2014 19:41:27 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Linux] Subversion service 등록하기</title>
+			<link>http://npteam.net/948</link>
+			<description>Subversion을 서비스에 등록하는 방법&lt;br&gt;&lt;br&gt;/etc/sysconfig/subversion&lt;br&gt;
+&lt;pre class=&quot;brush: shell&quot;&gt;# Configuration file for the Subversion service 
+# 
+# To pass additional options (for instace, -r root of directory to # server) to the svnserve binary at startup, set OPTIONS here. 
+# 
+#OPTIONS= 
+OPTIONS=&quot;--threads --root /svn/path/to --cache-revprops yes --client-speed 1000 --compression 2 --memory-cache-size 4096 --log-file /svn/repository.log
+&lt;/pre&gt;
+이 파일의 경로를 다음 파일의 13번째 줄에 기입해야 한다.&lt;br&gt;
+&lt;br&gt;/etc/init.d/subversion&lt;br&gt;
+&lt;pre class=&quot;brush: shell&quot;&gt;#!/bin/bash 
+# 
+#   /etc/rc.d/init.d/subversion 
+# 
+# Starts the Subversion Daemon 
+# 
+# chkconfig: 2345 90 10 
+# description: Subversion Daemon 
+# processname: svnserve 
+source /etc/rc.d/init.d/functions 
+[ -x /usr/bin/svnserve ] || exit 1 
+### Default variables 
+SYSCONFIG=&quot;/etc/sysconfig/subversion&quot; 
+### Read configuration 
+[ -r &quot;$SYSCONFIG&quot; ] &amp;amp;&amp;amp; source &quot;$SYSCONFIG&quot; 
+RETVAL=0 
+prog=&quot;svnserve&quot; 
+desc=&quot;Subversion Daemon&quot; 
+start() { 
+        echo -n $&quot;Starting $desc ($prog): &quot; 
+   daemon $prog -d $OPTIONS 
+   RETVAL=$? 
+   [ $RETVAL -eq 0 ] &amp;amp;&amp;amp; touch /var/lock/subsys/$prog 
+   echo 
+} 
+stop() { 
+   echo -n $&quot;Shutting down $desc ($prog): &quot; 
+   killproc $prog 
+   RETVAL=$? 
+   [ $RETVAL -eq 0 ] &amp;amp;&amp;amp; success || failure 
+   echo 
+   [ $RETVAL -eq 0 ] &amp;amp;&amp;amp; rm -f /var/lock/subsys/$prog 
+   return $RETVAL 
+} 
+case &quot;$1&quot; in 
+  start) 
+   start 
+   ;; 
+  stop) 
+   stop 
+   ;; 
+  restart) 
+   stop 
+   start 
+   RETVAL=$? 
+   ;; 
+  condrestart) 
+        [ -e /var/lock/subsys/$prog ] &amp;amp;&amp;amp; restart 
+   RETVAL=$? 
+   ;; 
+  *) 
+   echo $&quot;Usage: $0 {start|stop|restart|condrestart}&quot; 
+   RETVAL=1 
+esac
+exit $RETVAL
+&lt;/pre&gt;
+
+&lt;br&gt;서비스 등록 방법&lt;br&gt;
+&lt;pre class=&quot;brush: shell&quot;&gt;chmod +x etc/init.d/subversion
+cd /etc/init.d/
+chkconfig --add subversion &amp;amp;&amp;amp; chkconfig subversion on
+&lt;/pre&gt;
+
+&lt;br&gt;서비스 시작 방법&lt;br&gt;
+&lt;pre class=&quot;brush: shell&quot;&gt;service subversion start
+&lt;/pre&gt;
+
+&lt;br&gt;서비스 자동 재시작에 등록되어 있는지 확인하는 방법&lt;br&gt;&lt;ul&gt;&lt;li&gt;
+/etc/inittab에서 id:3:initdefault; 5로 되어 있는지 확인하고 3으로 변경한다.&lt;/li&gt;&lt;/ul&gt;
+다음 명령어로 3레벨에 등록되어 있는지 확인한다.&lt;br&gt;
+&lt;pre class=&quot;brush: shell&quot;&gt;chkconfig | grep subversion
+&lt;/pre&gt;&lt;br&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이센스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이센스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Linux</category>
+			<author>(TTF)</author>
+			<guid>http://npteam.net/948</guid>
+			<comments>http://npteam.net/948#entry948comment</comments>
+			<pubDate>Thu, 14 Aug 2014 17:53:25 +0900</pubDate>
+		</item>
+		<item>
+			<title>Beyond compare 3 Pro 설정</title>
+			<link>http://npteam.net/945</link>
+			<description>Beyond compare 3 Pro 설정 방법&lt;br&gt;&lt;br&gt;&lt;b&gt;TortoiseSVN&lt;/b&gt;&lt;br&gt;&amp;nbsp; - Diff Viewer&lt;br&gt;&lt;div style=&quot;padding:10px; background-color:#D0FF9D&quot;&gt;&quot;C:\Program Files (x86)\Beyond Compare 3\BComp.exe&quot; %base %mine /lefttitle=%bname /righttitle=%yname /leftreadonly&lt;/div&gt;&lt;br&gt;&amp;nbsp;- Merge Tool&lt;br&gt;&lt;div style=&quot;padding:10px; background-color:#D0FF9D&quot;&gt;&quot;C:\Program Files (x86)\Beyond Compare 3\BComp.exe&quot; %mine %theirs %base %merged /lefttitle=%yname /righttitle=%tname /centertitle=%bname /outputtitle=%mname&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Git&lt;/b&gt;&lt;br&gt;&amp;nbsp; - Diff Tool&lt;br&gt;&lt;div style=&quot;padding:10px; background-color:#C9EDFF&quot;&gt;git config --global diff.tool bc3&lt;br&gt;git config --global difftool.bc3.path &quot;c:/program files (x86)/beyond compare 3/bcomp.exe&quot; &quot;$LOCAL&quot; &quot;$REMOTE&quot; -lefttitle=&quot;$LOCAL&quot; -righttitle=&quot;WorkingCopy&quot; -leftreadonly&lt;/div&gt;&lt;br&gt;&amp;nbsp; - Merge Tool&lt;br&gt;&lt;div style=&quot;padding:10px; background-color:#C9EDFF&quot;&gt;git config --global merge.tool bc3&lt;br&gt;git config --global mergetool.bc.path &quot;c:/program files (x86)/beyond compare 3/bcomp.exe&quot; &quot;$REMOTE&quot; &quot;$LOCAL&quot; &quot;$BASE&quot; &quot;$MERGED&quot; -lefttitle=&quot;WorkingCopy&quot; -righttitle=&quot;$LOCAL&quot; -centertitle=&quot;$BASE&quot; -outputtitle=&quot;$MERGED&quot;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Git Extensions&lt;/b&gt;&lt;br&gt;&amp;nbsp; - Diff Tool&lt;br&gt;&lt;div style=&quot;padding:10px; background-color:#FFDAED&quot;&gt;git config --global difftool.BeyondCompare3.path &quot;c:/program files (x86)/beyond compare 3/bcomp.exe&quot;&lt;br&gt;git config --global difftool.BeyondCompare3.cmd &quot;c:/program files (x86)/beyond compare 3/bcomp.exe&quot; &quot;$LOCAL&quot; &quot;$REMOTE&quot; -lefttitle=&quot;$LOCAL&quot; -righttitle=&quot;WorkingCopy&quot; -leftreadonly&lt;/div&gt;&lt;br&gt;&amp;nbsp; - Merge Tool&lt;br&gt;&lt;div style=&quot;padding:10px; background-color:#FFDAED&quot;&gt;git config --global mergetool.BeyondCompare3.path &quot;c:/program files (x86)/beyond compare 3/bcomp.exe&quot;&lt;br&gt;git config --global mergetool.BeyondCompare3.cmd &quot;c:/program files (x86)/beyond compare 3/bcomp.exe&quot; &quot;$REMOTE&quot; &quot;$LOCAL&quot; &quot;$BASE&quot; &quot;$MERGED&quot; -lefttitle=&quot;WorkingCopy&quot; -righttitle=&quot;$LOCAL&quot; -centertitle=&quot;$BASE&quot; -outputtitle=&quot;$MERGED&quot;&lt;/div&gt;&lt;br&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이센스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이센스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>프로그래밍</category>
+			<author>(TTF)</author>
+			<guid>http://npteam.net/945</guid>
+			<comments>http://npteam.net/945#entry945comment</comments>
+			<pubDate>Thu, 10 Jul 2014 14:53:49 +0900</pubDate>
+		</item>
+		<item>
+			<title>[log4cplus] property file</title>
+			<link>http://npteam.net/939</link>
+			<description>Log4cplus property 예제
+
+&lt;pre class=&quot;brush: text&quot;&gt;log4cplus.rootLogger=DEBUG, STDOUT, R
+log4cplus.logger.testLogger=DEBUG, STDOUT, R
+
+log4cplus.appender.STDOUT=log4cplus::ConsoleAppender
+log4cplus.appender.STDOUT.layout=log4cplus::PatternLayout
+log4cplus.appender.STDOUT.layout.ConversionPattern=%d{%Y-%m-%d %H:%M:%S} [%-5p/%c{2}] %m%n
+
+log4cplus.appender.R=log4cplus::RollingFileAppender
+log4cplus.appender.R.File=logs/XAuthServer.log
+log4cplus.appender.R.MaxFileSize=500KB
+log4cplus.appender.R.MaxBackupIndex=5
+log4cplus.appender.R.layout=log4cplus::PatternLayout
+log4cplus.appender.R.layout.ConversionPattern=%d{%Y-%m-%d %H:%M:%S,%q} [%-5p/%-5t/%c{2}] [%M] %m%n
+&lt;/pre&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이센스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이센스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>프로그래밍</category>
+			<author>(TTF)</author>
+			<guid>http://npteam.net/939</guid>
+			<comments>http://npteam.net/939#entry939comment</comments>
+			<pubDate>Sat, 19 Apr 2014 17:49:35 +0900</pubDate>
+		</item>
+		<item>
+			<title>Windows에서 Pylint 설치하기</title>
+			<link>http://npteam.net/938</link>
+			<description>Python 정적 코드 분석기 Pylint 설치 방법은 다음과 같습니다.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;다음 3가지 Package를 설치합니다.&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Pylint&lt;/li&gt;&lt;li&gt;astroid&lt;/li&gt;&lt;li&gt;logilab-common&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Pylint는 다음과 같이 설치합니다.&lt;/div&gt;&lt;div&gt;&amp;nbsp; - http://download.logilab.org/pub/pylint/ 에서 최신 버전을 다운로드 받습니다.&lt;/div&gt;&lt;div&gt;&amp;nbsp; - pylint-1.1.0.tar.gz (2014-04-10 기준 최신 버전)&lt;/div&gt;&lt;div&gt;&amp;nbsp; - 7zip으로 압축 해제 합니다.&lt;/div&gt;&lt;div&gt;&amp;nbsp; - 압축 해제한 폴더에서 다음과 같이 command를 입력합니다.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - python setup.py install&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - 설치가 완료되면 다음 파일이 생성 됩니다.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; -&lt;span style=&quot;line-height: 1.8;&quot;&gt;&amp;nbsp;c:\python27\scripts\pylint.bat&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; - 제어판 -&amp;gt; 시스템 -&amp;gt; 고급 시스템 설정 -&amp;gt; 환경 변수 -&amp;gt; 시스템 변수 -&amp;gt; Path에 다음 경로를 추가 합니다.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - c:\python27\scripts;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;astroid는 다음과 같이 설치합니다.&lt;/div&gt;&lt;div&gt;&amp;nbsp; - https://bitbucket.org/logilab/astroid 에서 오른쪽 download 링크를 눌러 다운로드 받습니다.&lt;/div&gt;&lt;div&gt;&amp;nbsp; - logilab-astroid-d59e69f94ba4.zip (2014-04-10 기준 최신 버전)&lt;/div&gt;&lt;div&gt;&amp;nbsp; - 7zip으로 압축 해제 합니다.&lt;/div&gt;&lt;div&gt;&amp;nbsp; - 압축 해제한 폴더에서 다음과 같이 command를 입력 합니다.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - python setup.py install&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;logilab-common은 다음과 같이 설치합니다.&lt;/div&gt;&lt;div&gt;&amp;nbsp; - http://www.logilab.org/project/logilab-common 에서 오른쪽 download 링크를 눌러 다운로드 받습니다.&lt;/div&gt;&lt;div&gt;&amp;nbsp; - logilab-common-0.61.0.tar.gz (2014-04-10 기준 최신 버전)&lt;/div&gt;&lt;div&gt;&amp;nbsp; - 7zip으로 압축 해제 합니다.&lt;/div&gt;&lt;div&gt;&amp;nbsp; - 압축 해제한 폴더에서 다음과 같이 command를 입력 합니다.&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - python setup.py install&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;이제 Pylint를 사용할 준비가 끝났습니다.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;참고사항&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; - Pylint visual studio에서 사용하기(&lt;span style=&quot;line-height: 1.8;&quot;&gt;&lt;a href=&quot;http://www.npteam.net/937&quot; target=&quot;_blank&quot;&gt;http://www.npteam.net/937&lt;/a&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이센스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이센스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Python</category>
+			<author>(TTF)</author>
+			<guid>http://npteam.net/938</guid>
+			<comments>http://npteam.net/938#entry938comment</comments>
+			<pubDate>Thu, 10 Apr 2014 01:23:09 +0900</pubDate>
+		</item>
+		<item>
+			<title>Pylint visual studio에서 사용하기</title>
+			<link>http://npteam.net/937</link>
+			<description>&lt;div&gt;&lt;span style=&quot;line-height: 1.8;&quot;&gt;Tools -&amp;gt; External Tools에 항목 추가&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;Title : Pylint&lt;br&gt;Command : C:\Python27\Scripts\pylint.bat&lt;br&gt;Arguments : --msg-template=&quot;{path}({line}): {category} [{msg_id}({symbol}){obj}] {msg}&quot; --disable C0103,C0111,C0325 --max-line-length 90 $(ItemPath)&lt;br&gt;Initial directory : $(ItemDir)&lt;br&gt;&lt;br&gt;Use Output window에 체크&lt;br&gt;&lt;br&gt;&lt;div&gt;참고사항&lt;/div&gt;&lt;div&gt;&amp;nbsp; - Windows에서 Pylint 설치하기(&lt;a href=&quot;http://www.npteam.net/938&quot; target=&quot;_blank&quot;&gt;http://www.npteam.net/938&lt;/a&gt;)&lt;/div&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이센스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이센스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>Python</category>
+			<author>(TTF)</author>
+			<guid>http://npteam.net/937</guid>
+			<comments>http://npteam.net/937#entry937comment</comments>
+			<pubDate>Wed, 09 Apr 2014 20:45:40 +0900</pubDate>
+		</item>
+		<item>
+			<title>[MS-SQL] 각 Table size 보기</title>
+			<link>http://npteam.net/936</link>
+			<description>&lt;div align=&quot;left&quot;&gt;출처 : &lt;a href=&quot;http://therightstuff.de/2007/11/19/How-To-Obtain-The-Size-Of-All-Tables-In-A-SQL-Server-Database.aspx&quot; target=&quot;_blank&quot;&gt;http://therightstuff.de/2007/11/19/How-To-Obtain-The-Size-Of-All-Tables-In-A-SQL-Server-Database.aspx&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;MS-SQL에서 각 Table의 실제 사용중인 크기는 다음과 같이 알 수 있다.&lt;/div&gt;
+
+&lt;pre class=&quot;brush: sql&quot;&gt;SET NOCOUNT ON 
+
+DBCC UPDATEUSAGE(0) 
+
+-- DB size.
+EXEC sp_spaceused
+
+-- Table row counts and sizes.
+CREATE TABLE #t 
+( 
+    [name] NVARCHAR(128),
+    [rows] CHAR(11),
+    reserved VARCHAR(18), 
+    data VARCHAR(18), 
+    index_size VARCHAR(18),
+    unused VARCHAR(18)
+) 
+
+INSERT #t EXEC sp_msForEachTable &#039;EXEC sp_spaceused &#039;&#039;?&#039;&#039;&#039; 
+
+SELECT *
+FROM #t
+
+-- # of rows.
+SELECT SUM(CAST([rows] AS int)) AS [rows]
+FROM #t
+ 
+DROP TABLE #t
+&lt;/pre&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이센스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이센스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>MS-SQL</category>
+			<author>(TTF)</author>
+			<guid>http://npteam.net/936</guid>
+			<comments>http://npteam.net/936#entry936comment</comments>
+			<pubDate>Fri, 21 Mar 2014 16:02:27 +0900</pubDate>
+		</item>
+		<item>
+			<title>[VIM] Evernote에서 편집한 문서 Redmine wiki 포멧으로 변경하기</title>
+			<link>http://npteam.net/935</link>
+			<description>Evernote에서 편집한 글을 Redmine wiki 포멧으로 변경하기&lt;br&gt;&lt;br&gt;&lt;div style=&quot;padding:10px; background-color:#D0FF9D&quot;&gt;:g/^\s*\*\s*$/d&lt;br&gt;:g/^$/d&lt;br&gt;:%s/\t/*/g&lt;/div&gt;&lt;br&gt;&lt;br&gt;한 행 제거&lt;br&gt;&lt;div style=&quot;padding:10px; background-color:#D0FF9D&quot;&gt;ggv^QGd&lt;/div&gt;&lt;br&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이센스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이센스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>VIM</category>
+			<author>(TTF)</author>
+			<guid>http://npteam.net/935</guid>
+			<comments>http://npteam.net/935#entry935comment</comments>
+			<pubDate>Mon, 17 Mar 2014 19:53:12 +0900</pubDate>
+		</item>
+		<item>
+			<title>[VIM] CamelCase 와 _(언더바) 문자열 상호 변환하기</title>
+			<link>http://npteam.net/934</link>
+			<description>출처 : http://vim.wikia.com/wiki/Converting_variables_to_or_from_camel_case&lt;br&gt;&lt;br&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;Underbar to camelcase&lt;/b&gt;&lt;/font&gt;&lt;br&gt;예) is_online -&amp;gt; isOnline&lt;br&gt;&lt;pre&gt;&lt;div style=&quot;padding:10px; background-color:#D0FF9D&quot;&gt;:s#_\(\l\)#\u\1#g&lt;/div&gt;&lt;/pre&gt;&lt;br&gt;예) is_online -&amp;gt; IsOnline&lt;br&gt;&lt;pre&gt;&lt;div style=&quot;padding:10px; background-color:#D0FF9D&quot;&gt;:s#\(\%(\&amp;lt;\l\+\)\%(_\)\@=\)\|_\(\l\)#\u\1\2#g&lt;/div&gt;&lt;/pre&gt;&lt;br&gt;&lt;font size=&quot;3&quot;&gt;&lt;b&gt;Camelcase to underbar&lt;/b&gt;&lt;/font&gt;&lt;br&gt;예) IsOnline -&amp;gt; is_online&lt;br&gt;&lt;pre&gt;&lt;div style=&quot;padding:10px; background-color:#D0FF9D&quot;&gt;:s#\(\&amp;lt;\u\l\+\|\l\+\)\(\u\)#\l\1_\l\2#g&lt;/div&gt;&lt;/pre&gt;&lt;br&gt;&lt;br&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이센스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=_blank&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이센스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>VIM</category>
+			<author>(TTF)</author>
+			<guid>http://npteam.net/934</guid>
+			<comments>http://npteam.net/934#entry934comment</comments>
+			<pubDate>Fri, 07 Feb 2014 13:30:51 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

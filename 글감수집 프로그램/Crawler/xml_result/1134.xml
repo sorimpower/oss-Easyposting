@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>오픈미디어랩  [ Do Blog ]</title>
+		<link>http://openlab.tistory.com/</link>
+		<description>vers[김태한기자]의 열린미디어 실험실입니다.</description>
+		<language>ko</language>
+		<pubDate>Wed, 17 Aug 2011 10:50:11 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>베르스</managingEditor>
+		<image>
+		<title>오픈미디어랩  [ Do Blog ]</title>
+		<url><![CDATA[http://cfs13.tistory.com/upload_control/download.blog?fhandle=YmxvZzMxNzMyQGZzMTMudGlzdG9yeS5jb206L2F0dGFjaC8wLzAuZ2lm]]></url>
+		<link>http://openlab.tistory.com/</link>
+		<description>vers[김태한기자]의 열린미디어 실험실입니다.</description>
+		</image>
+		<item>
+			<title>뉴스 사용자경험(UX)도 바꿔보자</title>
+			<link>http://openlab.tistory.com/585</link>
+			<description>&lt;br /&gt;
+한 달여 작업끝에 미디어랩 섹션이 오픈됐습니다. &lt;br /&gt;
+그동안 작업한 결과를&amp;nbsp;모아 1차적으로 선보인 것으로 이를 토대로 콘텐츠 추가 및 후속개발 작업을 진행할 계획입니다.&amp;nbsp;&lt;br /&gt;
+미디어랩 프로젝트는 디지털 기술과 실시간 뉴스를 융합시켜서 뉴스에 대한&amp;nbsp;사용자경험(UX)을 혁신해 보자는 게&amp;nbsp;지향점입니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;현재는 디자인 중심의 단순한 콘텐츠 재구성보다는 새로운 뉴스UX를 가능하게 하는 제작엔진 설계와 범용 탬플릿 개발에 타기팅하고 있습니다. 그래선지 결과물이 좀 난해해 보이기도 합니다.&lt;br /&gt;
+&lt;br /&gt;지난 6월 월드컵 인터랙티브 뉴스를 선보인 다음 인터랙티브 뉴스라는 말이 갑자기 흔해져서&amp;nbsp;&#039;디지털융합 멀티미디어뉴스&#039;로 정의해봤는데 뭔가 좀 밋밋하네요.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+둘러 보시고 두루두루 아이디어 주시면 후사합니다.&amp;nbsp;^^&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&amp;lt;멀티미디어뉴스 섹션&amp;gt;&lt;br /&gt;
+&lt;A title=&quot;[http://www.yna.co.kr/medialabs]로 이동합니다.&quot; href=&quot;http://www.yna.co.kr/medialabs&quot; target=_blank&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/151491364C7E51EA342A36&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;medialabs.jpg&quot; height=&quot;462&quot; width=&quot;683&quot;/&gt;&lt;/div&gt;&lt;/A&gt;&lt;br /&gt;
+&amp;lt;뉴스트리맵&amp;gt;&lt;br /&gt;
+실시간 뉴스 흐름을 보여주는 현황판입니다.&amp;nbsp;&lt;br /&gt;
+사각형 크기는 인기도, 색상은 기사분류, 채도는 기사가 나온 시간 등을 나타냅니다.&amp;nbsp;&lt;br /&gt;
+&lt;A title=&quot;[http://www.yonhapnews.co.kr/medialabs/tm/tm_0818_test.html]로 이동합니다.&quot; href=&quot;http://www.yonhapnews.co.kr/medialabs/tm/tm_0818_test.html&quot; target=_blank&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/150F83364C7E529E4F0307&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;treemap.jpg&quot; height=&quot;352&quot; width=&quot;683&quot;/&gt;&lt;/div&gt;&lt;/A&gt;&lt;br /&gt;
+&amp;lt;타임라인-맵 연동형 이슈뉴스&amp;gt;&lt;br /&gt;
+주요 이슈별로 타임라인과 인터넷지도 상에서 관련 뉴스를 보여줍니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;&lt;A title=&quot;[http://www.yonhapnews.co.kr/medialabs/timeline_issue_test/issue_timeline_sub_mapUse_WM.html?location=null&amp;amp;text=%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0+%EC%8B%A0%EB%93%9C%EB%A1%AC&amp;amp;link=null&amp;amp;image=null&amp;amp;id=IC20100177&amp;amp;date=2010-01-01&amp;amp;mapUse=N&amp;amp;mapSelectDisplay=N]로 이동합니다.&quot; href=&quot;http://www.yonhapnews.co.kr/medialabs/timeline_issue_test/issue_timeline_sub_mapUse_WM.html?location=null&amp;amp;text=%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0+%EC%8B%A0%EB%93%9C%EB%A1%AC&amp;amp;link=null&amp;amp;image=null&amp;amp;id=IC20100177&amp;amp;date=2010-01-01&amp;amp;mapUse=N&amp;amp;mapSelectDisplay=N&quot; target=_blank&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/1670B9354C7E52FFE25FC5&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;타임라인.jpg&quot; height=&quot;427&quot; width=&quot;600&quot;/&gt;&lt;/div&gt;&lt;/A&gt;&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;</description>
+			<category>UX</category>
+			<category>뉴스UX</category>
+			<category>디지털융합</category>
+			<category>멀티미디어뉴스</category>
+			<category>연합뉴스</category>
+			<author>베르스</author>
+			<guid>http://openlab.tistory.com/585</guid>
+			<comments>http://openlab.tistory.com/585#entry585comment</comments>
+			<pubDate>Wed, 01 Sep 2010 22:23:25 +0900</pubDate>
+		</item>
+		<item>
+			<title>월드컵 타임라인-구글맵 속보 서비스</title>
+			<link>http://openlab.tistory.com/584</link>
+			<description>&lt;br /&gt;
+
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 180%&quot;&gt;&lt;FONT color=#000000 size=3&gt;월드컵 속보를&amp;nbsp;타임라인과 구글맵을 통해 볼 수 있는&amp;nbsp;디지털 융합형 뉴스 서비스가 나왔습니다. &lt;br /&gt;
+연합뉴스가 11일 오픈한 디지털융합형&lt;SPAN lang=EN-US&gt;&amp;nbsp;&amp;nbsp;&lt;A title=&quot;[http://www.yonhapnews.co.kr/medialabs/timeline_kr/worldcup_timeline_hour.html]로 이동합니다.&quot; href=&quot;http://www.yonhapnews.co.kr/medialabs/timeline_kr/worldcup_timeline_hour.html&quot; target=_blank&gt;&#039;&lt;/A&gt;&lt;/SPAN&gt;&lt;A title=&quot;[http://www.yonhapnews.co.kr/medialabs/timeline_kr/worldcup_timeline_hour.html]로 이동합니다.&quot; href=&quot;http://www.yonhapnews.co.kr/medialabs/timeline_kr/worldcup_timeline_hour.html&quot; target=_blank&gt;인터랙티브 뉴스&lt;/A&gt;&lt;SPAN lang=EN-US&gt;&lt;A title=&quot;[http://www.yonhapnews.co.kr/medialabs/timeline_kr/worldcup_timeline_hour.html]로 이동합니다.&quot; href=&quot;http://www.yonhapnews.co.kr/medialabs/timeline_kr/worldcup_timeline_hour.html&quot; target=_blank&gt;&#039;입니다&lt;/A&gt;.&amp;nbsp;&lt;br /&gt;
+&lt;/SPAN&gt;&lt;SPAN lang=EN-US&gt;제가 근무하고 있는&amp;nbsp;미디어랩 작품인데 애용해주시면 감사하겠습니다.&amp;nbsp;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;FONT size=3&gt;&lt;FONT color=#000000&gt;&lt;SPAN lang=EN-US&gt; &lt;br /&gt;
+&lt;br /&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;FONT color=#000000 size=3&gt;인터랙티브 뉴스는 인터넷 뉴스맵&lt;SPAN lang=EN-US&gt;, &lt;/SPAN&gt;타임라인 등 최신 디지털 기술과 실시간 뉴스를 결합한 차세대 멀티미디어 융합뉴스 &lt;SPAN lang=EN-US&gt;&amp;nbsp;&lt;/SPAN&gt;모델입니다&lt;/FONT&gt;&lt;FONT size=3&gt;&lt;FONT color=#000000&gt;&lt;SPAN lang=EN-US&gt;.&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&lt;/SPAN&gt;뉴욕타임스 월스트리트저널&lt;SPAN lang=EN-US&gt; AP &lt;/SPAN&gt;등에서 실험적인 수준에서 진행되고 있는 멀티미디어 융합형 서비스를 국내에서는 연합뉴스가 처음으로 개발해&amp;nbsp;봤습니다&lt;/FONT&gt;&lt;/FONT&gt;&lt;FONT size=3&gt;&lt;FONT color=#000000&gt;&lt;SPAN lang=EN-US&gt;. &lt;br /&gt;
+&lt;br /&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;FONT size=3&gt;&lt;FONT color=#000000&gt;인터랙티브 뉴스는 크게 타임라인과 뉴스맵으로 구성됩니다&lt;/FONT&gt;&lt;/FONT&gt;&lt;FONT size=3&gt;&lt;FONT color=#000000&gt;&lt;SPAN lang=EN-US&gt;.&amp;nbsp;&lt;br /&gt;
+&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;FONT size=3&gt;&lt;FONT color=#000000&gt;직관적이어서 특별한 이용법은 없습니다만 아래 설명을 참고하시기 바랍니다&lt;/FONT&gt;&lt;/FONT&gt;&lt;FONT size=3&gt;&lt;FONT color=#000000&gt;&lt;SPAN lang=EN-US&gt;.&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&amp;nbsp;&lt;br /&gt;
+&lt;/SPAN&gt;Timeline &lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 180%&quot;&gt;&lt;FONT color=#000000 size=3&gt;타임라인 서비스는 시간대를 넘나들며 월드컵 관련 뉴스를 볼 수 있도록 한 것입니다&lt;/FONT&gt;&lt;FONT size=3&gt;&lt;FONT color=#000000&gt;&lt;SPAN lang=EN-US&gt;. &lt;br /&gt;
+&lt;/SPAN&gt;시각적 즐거움 속에 시시각각 변하는 뉴스의 흐름을 한눈에 파악토록 하자는 의도입니다&lt;SPAN lang=EN-US&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 180%&quot;&gt;&lt;FONT color=#000000 size=3&gt;타임라인에는 주요 뉴스 목록이 발생한 순서대로 나타나며 각각의 뉴스 목록은 텍스트 뉴스나 사진&lt;SPAN lang=EN-US&gt;, &lt;/SPAN&gt;영상 등과 원본 기사와 연결됩니다&lt;/FONT&gt;&lt;FONT size=3&gt;&lt;FONT color=#000000&gt;&lt;SPAN lang=EN-US&gt;.&amp;nbsp;&lt;br /&gt;
+&lt;/SPAN&gt;하단의 시간대를&amp;nbsp;마우스로 움직이면 원하는 시간대의 과거 뉴스를 검색하고&lt;SPAN lang=EN-US&gt;, &lt;/SPAN&gt;앞으로 있을 경기 정보 등을 확인할 수 있습니다&lt;/FONT&gt;&lt;/FONT&gt;&lt;FONT size=3&gt;&lt;FONT color=#000000&gt;&lt;SPAN lang=EN-US&gt;.&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&lt;/SPAN&gt;참고로 하단 시간대를 넘길 때 시간 라인 대신 날짜 라인을 마우스로 선택해 넘기면 시간대 이동이 빨라집니다&lt;/FONT&gt;&lt;/FONT&gt;&lt;SPAN lang=EN-US&gt;&lt;FONT color=#000000 size=3&gt;.&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/1365051C4C1397BA82CA65&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;타임라인.png&quot; height=&quot;510&quot; width=&quot;683&quot;/&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/1565051C4C1397BB83F0C6&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;뉴스맵.png&quot; height=&quot;511&quot; width=&quot;683&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;SPAN style=&quot;mso-no-proof: yes&quot;&gt;&lt;?xml:namespace prefix = v ns = &quot;urn:schemas-microsoft-com:vml&quot; /&gt;&lt;v:shapetype id=_x0000_t75 stroked=&quot;f&quot; filled=&quot;f&quot; path=&quot;m@4@5l@4@11@9@11@9@5xe&quot; o:preferrelative=&quot;t&quot; o:spt=&quot;75&quot; coordsize=&quot;21600,21600&quot;&gt;&lt;v:stroke joinstyle=&quot;miter&quot;&gt;&lt;/v:stroke&gt;&lt;v:formulas&gt;&lt;v:f eqn=&quot;if lineDrawn pixelLineWidth 0&quot;&gt;&lt;/v:f&gt;&lt;v:f eqn=&quot;sum @0 1 0&quot;&gt;&lt;/v:f&gt;&lt;v:f eqn=&quot;sum 0 0 @1&quot;&gt;&lt;/v:f&gt;&lt;v:f eqn=&quot;prod @2 1 2&quot;&gt;&lt;/v:f&gt;&lt;v:f eqn=&quot;prod @3 21600 pixelWidth&quot;&gt;&lt;/v:f&gt;&lt;v:f eqn=&quot;prod @3 21600 pixelHeight&quot;&gt;&lt;/v:f&gt;&lt;v:f eqn=&quot;sum @0 0 1&quot;&gt;&lt;/v:f&gt;&lt;v:f eqn=&quot;prod @6 1 2&quot;&gt;&lt;/v:f&gt;&lt;v:f eqn=&quot;prod @7 21600 pixelWidth&quot;&gt;&lt;/v:f&gt;&lt;v:f eqn=&quot;sum @8 21600 0&quot;&gt;&lt;/v:f&gt;&lt;v:f eqn=&quot;prod @7 21600 pixelHeight&quot;&gt;&lt;/v:f&gt;&lt;v:f eqn=&quot;sum @10 21600 0&quot;&gt;&lt;/v:f&gt;&lt;/v:formulas&gt;&lt;v:path o:connecttype=&quot;rect&quot; gradientshapeok=&quot;t&quot; o:extrusionok=&quot;f&quot;&gt;&lt;/v:path&gt;&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /&gt;&lt;o:lock aspectratio=&quot;t&quot; v:ext=&quot;edit&quot;&gt;&lt;/o:lock&gt;&lt;/v:shapetype&gt;&lt;v:shape id=그림_x0020_1 style=&quot;VISIBILITY: visible; WIDTH: 420pt; HEIGHT: 314.25pt; mso-wrap-style: square&quot; alt=&quot;img1.gif&quot; type=&quot;#_x0000_t75&quot; o:spid=&quot;_x0000_i1026&quot;&gt;&lt;v:imagedata o:title=&quot;img1&quot; src=&quot;file:///C:\DOCUME~1\yna\LOCALS~1\Temp\msohtmlclip1\01\clip_image001.gif&quot;&gt;&lt;/v:imagedata&gt;&lt;/v:shape&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 180%&quot;&gt;&lt;SPAN lang=EN-US&gt;&lt;br /&gt;
+&lt;FONT color=#000000 size=3&gt;News Map&lt;br /&gt;
+&lt;/FONT&gt;&lt;/SPAN&gt;&lt;FONT size=3&gt;&lt;FONT color=#000000&gt;뉴스맵 서비스는 월드컵 주요 뉴스의 지역 정보를 활용해 구글맵 위에서 뉴스의 발생 위치를 확인하고 해당 지역 정보를 확인할 수 있습니다&lt;SPAN lang=EN-US&gt;. &lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 180%&quot;&gt;&lt;FONT size=3&gt;&lt;FONT color=#000000&gt;각각의 월드컵 뉴스와 연관된 위치를 지도 상에서 확인할 수 있습니다&lt;SPAN lang=EN-US&gt;. &lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 180%&quot;&gt;&lt;FONT size=3&gt;&lt;FONT color=#000000&gt;뉴스맵 기사 창에서 한국과 아르헨티나 관련 기사를 선택하면 지도 창에 한국팀의 예선&lt;SPAN lang=EN-US&gt; 2&lt;/SPAN&gt;차전이 열리는 요하네스버그 사커시티가 표시됩니다&lt;SPAN lang=EN-US&gt;. &lt;/SPAN&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 180%&quot;&gt;&lt;FONT color=#000000 size=3&gt;월드컵 경기장의 위성사진과 정보도 지도 상에서 볼 수 있습니다&lt;/FONT&gt;&lt;SPAN lang=EN-US&gt;&lt;FONT color=#000000 size=3&gt;. &lt;br /&gt;
+&lt;br /&gt;&lt;SPAN style=&quot;mso-no-proof: yes&quot;&gt;&lt;v:shape id=그림_x0020_2 style=&quot;VISIBILITY: visible; WIDTH: 432.75pt; HEIGHT: 322.5pt; mso-wrap-style: square&quot; alt=&quot;img2.gif&quot; type=&quot;#_x0000_t75&quot; o:spid=&quot;_x0000_i1025&quot;&gt;&lt;v:imagedata o:title=&quot;img2&quot; src=&quot;file:///C:\DOCUME~1\yna\LOCALS~1\Temp\msohtmlclip1\01\clip_image003.gif&quot;&gt;&lt;/v:imagedata&gt;&lt;/v:shape&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 180%&quot;&gt;&lt;SPAN lang=EN-US&gt;&lt;FONT color=#000000 size=3&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;br /&gt;</description>
+			<category>구글맵</category>
+			<category>뉴스맵</category>
+			<category>멀티미디어 저널리즘</category>
+			<category>연합뉴스</category>
+			<category>월드컵</category>
+			<category>월드컵 속보</category>
+			<category>타임라인</category>
+			<author>베르스</author>
+			<guid>http://openlab.tistory.com/584</guid>
+			<comments>http://openlab.tistory.com/584#entry584comment</comments>
+			<pubDate>Sat, 12 Jun 2010 23:23:45 +0900</pubDate>
+		</item>
+		<item>
+			<title>아이폰은 좋지만 독점은 곤란</title>
+			<link>http://openlab.tistory.com/582</link>
+			<description>&lt;P&gt;&lt;br /&gt;
+&lt;FONT color=#000000&gt;벅스·소리바다·엠넷 등 국내 음악 서비스 앱이 애플 앱스토어에서 퇴출됐습니다. &lt;br /&gt;
+이 앱들이 쓰고 있는 이동통신 소액결제 방식이 애플의 정책과 맞지 않다는 게 이유라는 분석입니다.&amp;nbsp; 애플이 벅스와 유사한 라라닷컴을 인수해&amp;nbsp; 아이튠즈를 통한 스트리밍 서비스를 강화하려는 것 때문이 아니냐는 분석도 있습니다. &lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/1636C4114BECA4B58CB863&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ynaapp.jpg&quot; height=&quot;319&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P&gt;&lt;FONT color=#000000&gt;앱스토어 등록을 승인해 놓고 몇개월 만에 돌변한 애플의 태도가 석연찮아 보입니다. &lt;br /&gt;
+앱 운영업체로서는 울며 겨자 먹기로 프로그램을 수정할 수밖에 없는 상황입니다. 당장 예스24, 메가박스, G마켓 등 이동통신 소액결제 방식을 쓰고 있는 업체들로서는&amp;nbsp; 좌불안석일 수밖에 없습니다.&amp;nbsp; &lt;/FONT&gt;&lt;/P&gt;
+&lt;P&gt;&lt;FONT color=#000000&gt;이런 점에서 한 편으로는 개방적이면서도 경쟁자에 대해서는 폐쇄적인 애플의 앱스토어 정책을 되짚어 볼 필요가 있습니다. 아이폰이 이동통신사의 무선인터넷 독점 체제를 허물었지만 강력한 비즈니스 플랫폼을 활용해 또 다른 독점의 벽을 쌓고 있는 것은 아닌가 생각해 봅니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;&amp;nbsp;- &lt;/FONT&gt;&lt;A title=&quot;[ http://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=sec&amp;amp;sid1=105&amp;amp;oid=112&amp;amp;aid=0002083460]로 이동합니다.&quot; href=&quot;http://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=sec&amp;amp;sid1=105&amp;amp;oid=112&amp;amp;aid=0002083460&quot; target=_blank&gt;&lt;FONT color=#000000&gt;아이폰에 네이버도(검색) 넣어달라&lt;/FONT&gt;&lt;/A&gt;&lt;br /&gt;
+&lt;FONT color=#000000&gt;&amp;nbsp;: 아이폰에 구글 검색이 기본으로 제공되는 것에 대해 네이버가&amp;nbsp;불공정성을 주장한 사례.&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+- &lt;/FONT&gt;&lt;A title=&quot;[http://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=sec&amp;amp;sid1=101&amp;amp;oid=015&amp;amp;aid=0002237162]로 이동합니다.&quot; href=&quot;http://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=sec&amp;amp;sid1=101&amp;amp;oid=015&amp;amp;aid=0002237162&quot; target=_blank&gt;&lt;FONT color=#000000&gt;안철수 &quot;애플 원투펀치에 한국 IT 그로기 상태&quot;&amp;nbsp;&lt;/FONT&gt;&lt;/A&gt;&lt;br /&gt;
+&lt;FONT color=#000000&gt;&amp;nbsp;: 애플의 초강력 스마트 비즈니스모델 앞에 독점 시장에 안주했던 국내 업체들이 넉아웃됐다는 쓴 소리.&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+- &lt;/FONT&gt;&lt;A title=&quot;[http://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=sec&amp;amp;sid1=103&amp;amp;oid=353&amp;amp;aid=0000000589]로 이동합니다.&quot; href=&quot;http://news.naver.com/main/read.nhn?mode=LSD&amp;amp;mid=sec&amp;amp;sid1=103&amp;amp;oid=353&amp;amp;aid=0000000589&quot; target=_blank&gt;&lt;FONT color=#000000&gt;애플式 강요하는 애플, 스마트폰 주도권 유지할까&lt;/FONT&gt;&lt;/A&gt;&lt;br /&gt;
+&lt;FONT color=#000000&gt;&amp;nbsp;: 애플의 앱스토어 정책에 대한 업계의 볼멘 목소리. &lt;br /&gt;
+- &lt;/FONT&gt;&lt;A title=&quot;[http://article.joins.com/article/article.asp?Total_ID=4153348]로 이동합니다.&quot; href=&quot;http://article.joins.com/article/article.asp?Total_ID=4153348&quot; target=_blank&gt;&lt;FONT color=#000000&gt;애플 폐쇄주의 정책 반독점 위반 여부 미 정부서 조사 검토 &lt;/FONT&gt;&lt;/A&gt;&lt;br /&gt;
+&lt;FONT color=#000000&gt;&amp;nbsp;: 애플이 자사 앱 개발킷을 통해 플래시와&amp;nbsp;경쟁사 개발환경을&amp;nbsp;배제함으로써 반독점&amp;nbsp;의혹을 받고 있다는 내용.&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;애플은 좋지만 독점으로 치닫는 것은 곤란합니다.&amp;nbsp;&lt;br /&gt;
+&lt;/FONT&gt;&lt;/P&gt;</description>
+			<category>검색</category>
+			<category>구글</category>
+			<category>네이버</category>
+			<category>반독점</category>
+			<category>스마트폰</category>
+			<category>아이폰</category>
+			<category>애플</category>
+			<category>플래시</category>
+			<author>베르스</author>
+			<guid>http://openlab.tistory.com/582</guid>
+			<comments>http://openlab.tistory.com/582#entry582comment</comments>
+			<pubDate>Fri, 14 May 2010 10:30:38 +0900</pubDate>
+		</item>
+		<item>
+			<title>인터넷 뉴스의 흐름을 한 눈에 보여주는 뉴스맵</title>
+			<link>http://openlab.tistory.com/581</link>
+			<description>&lt;FONT color=#000000&gt;&lt;br /&gt;
+현재 인터넷에서 어떤 뉴스가 유통되고 있는지 시각적으로 단순화해 보여 주는 &lt;/FONT&gt;&lt;A title=&quot;[http://newsmap.jp/#]로 이동합니다.&quot; href=&quot;http://newsmap.jp/#&quot; target=_blank&gt;&lt;FONT color=#000000&gt;뉴스맵&lt;/FONT&gt;&lt;/A&gt;&lt;FONT color=#000000&gt;입니다. &lt;br /&gt;
+기존의 뉴스 전달방식과는 다른 창의적인 비주얼화 사례로 볼 수 있습니다. &lt;br /&gt;
+구글 뉴스수집기가 모은 기사를 자동으로 분석해 실시간 그래픽으로 처리하는 방식인데 사각형이 클수록 관련 기사가 많다는 것, 즉 관심을 끄는 기사라는 점을 의미합니다. 사용자는 지역, 주제, 시간별로 뉴스의 동향을 파악할 수 있습니다. &lt;br /&gt;
+&lt;br /&gt;이 서비스를 개발해 운영하고 있는 디자인엔지니어 Marcos Weskamp는&amp;nbsp;&quot;인터넷에 유통되는 정보가 워낙&amp;nbsp;방대하기 때문에&amp;nbsp;이를&amp;nbsp;분석하고 조직화하며 단순화할 비주얼 패러다임이 필요하고, 그 것이 바로 새로운 유저인터페이스이다&quot;라고 설명하고 있습니다.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/153AB21A4BDE50BB77185D&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;newsmap_100503.jpg&quot; height=&quot;391&quot; width=&quot;683&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+*사각형 크기는 해당뉴스의 유통량을 보여줍니다.&amp;nbsp;사각형 색깔은 주제, 동일색의 채도는 뉴스의 발생시간을 나타냅니다. 사용자들은 자기가 원하는 지역과 분야를 지정해 자신만의 비주얼 뉴스맵을 만들 수 있습니다. &lt;br /&gt;
+&lt;br /&gt;&lt;/FONT&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/163AB21A4BDE50BB78BF06&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;newsmap.jpg&quot; height=&quot;437&quot; width=&quot;683&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+
+&lt;DIV class=ExtendedEntry&gt;&amp;nbsp;&lt;/DIV&gt;</description>
+			<category>구글</category>
+			<category>구글뉴스</category>
+			<category>뉴스맵</category>
+			<category>비주얼라이제이션</category>
+			<category>실시간 뉴스</category>
+			<author>베르스</author>
+			<guid>http://openlab.tistory.com/581</guid>
+			<comments>http://openlab.tistory.com/581#entry581comment</comments>
+			<pubDate>Mon, 03 May 2010 13:30:25 +0900</pubDate>
+		</item>
+		<item>
+			<title>프리미어리그 첼시- 스토크시티 경기 분석</title>
+			<link>http://openlab.tistory.com/580</link>
+			<description>&lt;P&gt;&lt;br /&gt;
+&lt;FONT color=#000000&gt;영국 &lt;/FONT&gt;&lt;A title=&quot;[http://www.guardian.co.uk/]로 이동합니다.&quot; href=&quot;http://www.guardian.co.uk/&quot; target=_blank&gt;&lt;FONT color=#000000&gt;가디언&lt;/FONT&gt;&lt;/A&gt;&lt;FONT color=#000000&gt;은 인터넷에서&amp;nbsp;프리미어리그 팬들이 직접 제작하는&amp;nbsp;인포메이션 그래픽 서비스를 제공하고 있습니다.&amp;nbsp;&lt;br /&gt;
+사용자들이 경기 데이터를 직접 입력하고 이를 그래픽을 통해 분석하고 공유하는 &lt;/FONT&gt;&lt;A title=&quot;[http://www.guardian.co.uk/football/chalkboards]로 이동합니다.&quot; href=&quot;http://www.guardian.co.uk/football/chalkboards&quot; target=_blank&gt;&lt;FONT color=#000000&gt;초크보드&lt;/FONT&gt;&lt;/A&gt;&lt;FONT color=#000000&gt; 서비스입니다.&amp;nbsp;사용자참여(UCC)와 인터랙티브 그래픽을&amp;nbsp;결합해&amp;nbsp;창의적이며 경쟁력 있는 콘텐츠를 만들어낸 사례로 주목됩니다. &amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;첼시와&amp;nbsp;스토크시티의 경기 그래픽을 보면 첼시가 어떻게 경기를 지배했는지 한 눈에 알 수가 있습니다. 우승권에 한 발 다가선 첼시는 500여회의 패스로 경기를 이끌었으며&amp;nbsp;32개의 슈팅을&amp;nbsp;상대팀 골을 향해 날렸습니다.&amp;nbsp;반면 스토크시티의 패스는 184회, 슈팅은 3회에 그쳤습니다. &lt;br /&gt;
+&lt;/FONT&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;object classid=&quot;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&quot; codebase=&quot;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0&quot; name=&quot;chalkboard&quot; width=&quot;460&quot; height=&quot;620&quot; align=&quot;middle&quot; id=&quot;chalkboard&quot;&gt;    &lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot; /&gt;    &lt;param name=&quot;allowNetworking&quot; value=&quot;all&quot; /&gt;    &lt;param name=&quot;allowFullScreen&quot; value=&quot;false&quot; /&gt;    &lt;param name=&quot;movie&quot; value=&quot;http://www.guardianchalkboards.com/guardianchalkboards_embed.swf?chalkBoardID=r41b1Ny0lL0q083GG9L9&quot;/&gt;    &lt;param name=&quot;movie&quot; value=&quot;http://www.guardianchalkboards.com/guardianchalkboards_embed.swf?chalkBoardID=r41b1Ny0lL0q083GG9L9&quot;/&gt;    &lt;param name=&quot;bgcolor&quot; value=&quot;#FFFFFF&quot; /&gt;    &lt;embed src=&quot;http://www.guardianchalkboards.com/guardianchalkboards_embed.swf?chalkBoardID=r41b1Ny0lL0q083GG9L9&quot; swLiveConnect=&quot;true&quot; allowNetworking=&quot;all&quot; quality=&quot;high&quot; bgcolor=&quot;#FFFFFF&quot; width=&quot;460&quot; height=&quot;620&quot; name=&quot;chalkboard&quot; align=&quot;middle&quot; allowScriptAccess=&quot;always&quot; allowFullScreen=&quot;false&quot; type=&quot;application/x-shockwave-flash&quot; pluginspage=&quot;http://www.macromedia.com/go/getflashplayer&quot; /&gt;&lt;/object&gt;&lt;FONT size=1&gt;&amp;nbsp;by&amp;nbsp;&lt;A href=&quot;http://www.guardian.co.uk/football/chalkboards&quot;&gt;Guardian Chalkboards&lt;/A&gt;&lt;/FONT&gt;&lt;br /&gt;
+&lt;/P&gt;</description>
+			<category>ucc</category>
+			<category>가디언</category>
+			<category>경기분석</category>
+			<category>인터랙티브 그래픽</category>
+			<category>첼시 스토크시티</category>
+			<category>프리미어리그</category>
+			<author>베르스</author>
+			<guid>http://openlab.tistory.com/580</guid>
+			<comments>http://openlab.tistory.com/580#entry580comment</comments>
+			<pubDate>Mon, 26 Apr 2010 09:51:48 +0900</pubDate>
+		</item>
+		<item>
+			<title>구글 국가별 검열요구 통계 서비스</title>
+			<link>http://openlab.tistory.com/579</link>
+			<description>&lt;br /&gt;
+&lt;FONT color=#000000&gt;&lt;SPAN style=&quot;FONT-FAMILY: Dotum&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 9pt&quot;&gt;구글이&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 9pt&quot;&gt;지난해 7월부터 12월까지 6개월 동안 구글에 검열을 요구한 횟수를 국가별로 집계해 공개했습니다&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 9pt&quot;&gt;. 구글은 관련 정보를&amp;nbsp;자사 &lt;A title=&quot;[http://www.google.com/governmentrequests/]로 이동합니다.&quot; href=&quot;http://www.google.com/governmentrequests/&quot; target=_blank&gt;사이트(google government request)&lt;/A&gt;를 통해 제공하고 있습니다.&amp;nbsp;구글스러운 데이터맵 형식으로&amp;nbsp;서비스되고 있습니다. &lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/20324A254BCFA2FD7AC9CC&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;googlegovreq.jpg&quot; height=&quot;413&quot; width=&quot;683&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;br /&gt;
+&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 9pt&quot;&gt;한국은&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;SPAN style=&quot;FONT-FAMILY: Dotum&quot;&gt;&lt;FONT color=#000000&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 9pt&quot;&gt;모두 64건의 자료 삭제를 요구해 브라질&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Dotum&quot;&gt;&lt;FONT color=#000000&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 9pt&quot;&gt;(291건)· 독일(&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Dotum&quot;&gt;&lt;FONT color=#000000&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 9pt&quot;&gt;188건)·인도&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Dotum&quot;&gt;&lt;FONT color=#000000&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 9pt&quot;&gt;(142건)·미국&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;FONT color=#000000&gt;&lt;SPAN style=&quot;FONT-FAMILY: Dotum&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 9pt&quot;&gt;(123건)에 이어 &#039;검열 국가&#039; 순위 5위를 차지했습니다&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 9pt&quot;&gt;. 한국 정부가 구글에 삭제를 요구한 64건은 대부분 웹광고(38건)와 웹검색 결과(18건)였다고 합니다&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 9pt&quot;&gt;. 이&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 9pt&quot;&gt;밖에 구글 지도 관련 4건, 뉴스 1건, 블로그 1건 등이 있었습니다&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 9pt&quot;&gt;. &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 9pt&quot;&gt;중국은 검열 요구 사실 자체가 국가 기밀이어서 통계에서 제외됐습니다. &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;br /&gt;
+&lt;/FONT&gt;&lt;FONT color=#000000&gt;&lt;SPAN style=&quot;FONT-FAMILY: Dotum&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 9pt&quot;&gt;&lt;br /&gt;
+구글은 그러나 이러한 통계가 각 국가의 검열 요구를 정확히 반영하지는 못한다는 설명을 덧붙였습니다. 예를 들어 한 번의 요청을 통해 여러&amp;nbsp;URL의 삭제를 요구하거나 복수 사용자의 신상정보 차단을 요구할 경우에도&amp;nbsp;통계에는 한 번의 요청으로 반영된다는&amp;nbsp;것입니다. &amp;nbsp;&amp;nbsp;&lt;br /&gt;
+구글의 데이비드 드루먼드 법무담당 최고 책임자는 &quot;2002년 구글을 검열한 국가는 4개국뿐이었는데 지금은 40여개국으로 늘었다&quot;고 밝혔습니다.&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;br /&gt;
+&lt;/FONT&gt;</description>
+			<category>government request</category>
+			<category>검열</category>
+			<category>구글</category>
+			<category>구글맵</category>
+			<category>데이터 그래픽</category>
+			<author>베르스</author>
+			<guid>http://openlab.tistory.com/579</guid>
+			<comments>http://openlab.tistory.com/579#entry579comment</comments>
+			<pubDate>Thu, 22 Apr 2010 10:20:04 +0900</pubDate>
+		</item>
+		<item>
+			<title>인터넷은 우주다!</title>
+			<link>http://openlab.tistory.com/578</link>
+			<description>&lt;br /&gt;
+&lt;FONT color=#000000&gt;옵트 프로젝트(&lt;/FONT&gt;&lt;A href=&quot;http://www.opte.org/&quot;&gt;&lt;FONT color=#000000&gt;www.opte.org&lt;/FONT&gt;&lt;/A&gt;&lt;FONT color=#000000&gt;)의 인터넷지도입니다.&amp;nbsp;&lt;br /&gt;
+우주의 별처럼 수많은 인터넷 호스트 컴퓨터들이 빚어낸 장관입니다. &lt;br /&gt;
+인터넷도 영락없는 하나의&amp;nbsp;우주라는 생각이&amp;nbsp;듭니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;붉은 색은 아시아태평양 지역, 유럽 중동 중앙아시아 아프리카는 녹색, 남미는 노랑, 북미는 파랑으로 표현됩니다. 사설ip는 청록(cyan), 미확인 지역은 흰색으로 표시되고 있습니다. &lt;br /&gt;
+자신의 ip가 어디쯤 있는지 찾아보시죠!&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/1250B80C4BCD0E7527B1AB&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;INTERNETMAP.jpg&quot; height=&quot;400&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/FONT&gt;</description>
+			<category>맵</category>
+			<category>비주얼</category>
+			<category>옵트프로젝트</category>
+			<category>우주</category>
+			<category>인터넷</category>
+			<category>인터넷지도</category>
+			<author>베르스</author>
+			<guid>http://openlab.tistory.com/578</guid>
+			<comments>http://openlab.tistory.com/578#entry578comment</comments>
+			<pubDate>Tue, 20 Apr 2010 11:19:22 +0900</pubDate>
+		</item>
+		<item>
+			<title>2009년 전국일간지 매출 전부 줄었다</title>
+			<link>http://openlab.tistory.com/577</link>
+			<description>&lt;br /&gt;
+미디어오늘이 집계한 전국단위 종합일간지 매출자료에 따르면 9개 종합지와 4개 경제지 등 17개 일간지의 매출이 전년에 비해 모두 감소한 것으로 나타났습니다. &lt;br /&gt;
+&lt;br /&gt;9개 종합일간지 전체 매출액은 지난해 1조2천758억원으로 전년보다 852억원 줄었습니다. &lt;br /&gt;
+조선 문화 한겨레 매경 한 경 등 당기순이익을 낸 곳도 있지만&amp;nbsp;매출 하락세는 뚜렷한 추세를 보이고 있습니다. &lt;br /&gt;
+무료신문인 포커스와 메트로의 매출액이 세계일보, 서울경제 등 압도적으로 많은 기자수를 보유한 마이너 전국일간지의 그것과 비교해 웃돌거나&amp;nbsp; 근소한 차이를 보이는 점 또한 주목됩니다.&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+
+&lt;SCRIPT src=&quot;http://manyeyes.alphaworks.ibm.com/manyeyes/visualizations/60120c224b5b11dfa165000255111976/comments/6086fc944b5b11dfa165000255111976.js&quot; type=text/javascript&gt;&lt;/SCRIPT&gt;
+&lt;br /&gt;</description>
+			<category>무료신문</category>
+			<category>신문</category>
+			<category>조선</category>
+			<category>종합일간지</category>
+			<category>중앙</category>
+			<author>베르스</author>
+			<guid>http://openlab.tistory.com/577</guid>
+			<comments>http://openlab.tistory.com/577#entry577comment</comments>
+			<pubDate>Mon, 19 Apr 2010 11:41:11 +0900</pubDate>
+		</item>
+		<item>
+			<title>국회의원 재산증감 현황 비주얼작업 2탄</title>
+			<link>http://openlab.tistory.com/576</link>
+			<description>&lt;br /&gt;
+&lt;FONT color=#000000&gt;지난 번 &lt;/FONT&gt;&lt;A title=&quot;[http://openlab.tistory.com/574]로 이동합니다.&quot; href=&quot;http://openlab.tistory.com/574&quot; target=_blank&gt;&lt;FONT color=#000000&gt;2010년 국회의원 재산증감 현황 비주얼 작업&lt;/FONT&gt;&lt;/A&gt;&lt;FONT color=#000000&gt;에 이은 두번째 시도입니다.&amp;nbsp;&lt;br /&gt;
+달라진 점은&amp;nbsp;재산&amp;nbsp;총액과 전년비 증감 외에 토지, 건물, 유가증권 총액과 증감 항목을 볼 수 있도록&amp;nbsp;하고&amp;nbsp;의원별 이름 외에 소속정당별로도&amp;nbsp;각 내역을 파악할 수 있도록 했습니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;IBM &lt;/FONT&gt;&lt;A title=&quot;[http://manyeyes.alphaworks.ibm.com/manyeyes/]로 이동합니다.&quot; href=&quot;http://manyeyes.alphaworks.ibm.com/manyeyes/&quot; target=_blank&gt;&lt;FONT color=#000000&gt;manyeyes&lt;/FONT&gt;&lt;/A&gt;&lt;FONT color=#000000&gt; 사이트에서는 버블형 말고도 다양한 비주얼 그래픽을 지원합니다. 이런 류를 비롯한&amp;nbsp;여러 데이터 모형에 어떤 비주얼이 적합한지&amp;nbsp;여부를 계속 실험해볼 생각입니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;조만간 언론사마다&amp;nbsp;이런 인터랙티브 그래픽 솔루션을&amp;nbsp;보유하게 되지 않을까&amp;nbsp;생각해 봅니다. IBM의 의도도&amp;nbsp;아마 그런 것이겠죠.&lt;br /&gt;
+&lt;/FONT&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+&lt;SCRIPT src=&quot;http://manyeyes.alphaworks.ibm.com/manyeyes/visualizations/80fef86a492011dfb751000255111976/comments/81019aca492011dfb751000255111976.js&quot; type=text/javascript&gt;&lt;/SCRIPT&gt;
+&lt;br /&gt;</description>
+			<category>manyeyes</category>
+			<category>디지털뉴스</category>
+			<category>비주얼라이제이션</category>
+			<category>인터랙티브 그래픽</category>
+			<category>인포그래픽</category>
+			<author>베르스</author>
+			<guid>http://openlab.tistory.com/576</guid>
+			<comments>http://openlab.tistory.com/576#entry576comment</comments>
+			<pubDate>Fri, 16 Apr 2010 19:52:29 +0900</pubDate>
+		</item>
+		<item>
+			<title>그래픽보도로 본 아이슬란드 화산폭발</title>
+			<link>http://openlab.tistory.com/575</link>
+			<description>&lt;P&gt;&lt;br /&gt;
+&lt;FONT color=#000000&gt;14일 아이슬란드 남쪽 에이야프얄라요쿨 화산이 폭발해 유럽 전역에 파장이 확산되고 있습니다.&amp;nbsp;&lt;br /&gt;
+거대한 화산재 구름이 북대서양 상공을 뒤덮으면서 유럽&amp;nbsp;일대의 항공편이 발이 묶였습니다.&lt;br /&gt;
+&lt;br /&gt;이러한 자연재해 보도에서는&amp;nbsp;단연 사진과 그래픽 등 비주얼 뉴스가&amp;nbsp;전달력이 높을 수밖에 없는데요. 유럽 언론의 관련 보도는 좋은&amp;nbsp;참고가 됩니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;* &lt;/FONT&gt;&lt;A title=&quot;[http://www.time.com/time/photogallery/0,29307,1982157_2125157,00.html]로 이동합니다.&quot; href=&quot;http://www.time.com/time/photogallery/0,29307,1982157_2125157,00.html&quot; target=_blank&gt;&lt;FONT color=#000000&gt;타임 매거진&lt;/FONT&gt;&lt;/A&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;FONT color=#000000&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/153100224BC7F599055549&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;TIME.jpg&quot; height=&quot;842&quot; width=&quot;616&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;* BBC의&amp;nbsp;그래픽&lt;br /&gt;
+&lt;div class=&quot;imageblock&quot; style=&quot;display:inline;&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/1658CA224BC7CF040E56F2&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ashes1_BBCAshes1.jpg&quot; height=&quot;330&quot; width=&quot;288&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;* AFP의 그래픽뉴스&lt;br /&gt;
+&lt;div class=&quot;imageblock&quot; style=&quot;display:inline;&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/1758CA224BC7CF040F9C56&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ashes_afp_photo_1271327006430-7-0_6.jpg&quot; height=&quot;360&quot; width=&quot;290&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+*스페인 마드리드 El Pais의 위성사진. 고동색 부분이 화산재로 보입니다.&lt;br /&gt;
+&lt;div class=&quot;imageblock&quot; style=&quot;display:inline;&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/1758CA224BC7CF0510639E&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ashes_elpais5.png&quot; height=&quot;343&quot; width=&quot;568&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+* 더타임스의 그래픽&lt;br /&gt;
+&lt;div class=&quot;imageblock&quot; style=&quot;display:inline;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/1958CA224BC7CF06116DCD&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ashes_weather3_708031a2.jpg&quot; height=&quot;220&quot; width=&quot;546&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+* &lt;/FONT&gt;&lt;A href=&quot;http://noticias.lainformacion.com/mundo/los-aeropuertos-del-reino-unido-bloqueados-por-la-ceniza-de-un-volcan-islandes_ijup5mhpPCwHgoCYIqBT57/&quot;&gt;&lt;FONT color=#000000&gt;Lainformacion.com&lt;/FONT&gt;&lt;/A&gt;&lt;FONT color=#000000&gt;의 항공기 운항지역 그래픽과&amp;nbsp;화산재 확산도 &lt;br /&gt;
+&lt;div class=&quot;imageblock&quot; style=&quot;display:inline;&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/2058CA224BC7CF0612B966&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ashes_lainformationcom3.png&quot; height=&quot;463&quot; width=&quot;519&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock&quot; style=&quot;display:inline;&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/1258CA224BC7CF071322AB&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ashes_lainformationcom4.png&quot; height=&quot;227&quot; width=&quot;526&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+*트위터 사진&amp;nbsp;&lt;/FONT&gt;&lt;A href=&quot;http://twitter.com/#search?q=ashes&quot;&gt;&lt;FONT color=#000000&gt;ashes&lt;/FONT&gt;&lt;/A&gt;&lt;FONT color=#000000&gt; &lt;div class=&quot;imageblock&quot; style=&quot;display:inline;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/1458CA224BC7CF08141722&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ahses_bbc_7.jpg&quot; height=&quot;455&quot; width=&quot;683&quot;/&gt;&lt;/div&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&amp;nbsp;&lt;/P&gt;</description>
+			<category>그래픽뉴스</category>
+			<category>비주얼뉴스</category>
+			<category>아이슬란드</category>
+			<category>에이야프얄라요쿨 화산</category>
+			<category>화산</category>
+			<author>베르스</author>
+			<guid>http://openlab.tistory.com/575</guid>
+			<comments>http://openlab.tistory.com/575#entry575comment</comments>
+			<pubDate>Fri, 16 Apr 2010 13:47:10 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[티오피 sns school]]></title>
+			<link>http://blog.naver.com/ktj6822</link>
+			
+				<image>
+					<url><![CDATA[http://blogpfthumb.phinf.naver.net/20130102_134/ktj6822_1357119086825mkibh_PNG/%C1%A6%B8%F1+%BE%F8%C0%BD.png?type=m2]]></url>
+					<title><![CDATA[티오피 sns school]]></title>
+					<link>http://blog.naver.com/ktj6822</link>
+				</image>
+			
+			<description><![CDATA[소셜네트워크서비스 관련정보 블로그입니다.
+이웃, 서로이웃 신청 환영합니다~ ^ ^]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:42:22 +0900</pubDate>
+
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[홈페이지만들기]]></category>
+					<title><![CDATA[카페24에서 웹호스팅 서비스 신청하기]]></title>
+					<link>http://blog.naver.com/ktj6822/40188168439</link>
+					<guid>http://blog.naver.com/ktj6822/40188168439</guid>
+					<description><![CDATA[카페24에서 웹호스팅서비스 신청하기웹호스팅이란? 개인이 웹서버를 구축하기엔힘이들기 때문에 전문회사에서 웹서버를 임대하는 서비스를 말합니다.대부분의 개인, 사업 홈페이지의 90%가량은 웹호스팅 서비스를 이용하고 있습니다.도메인도 카페24에서 등록하였으므로, 웹호스팅도 카페24에서 이용하면 도메인과 웹호스팅이 자동으로 연결되기때문에 카페24에서 웹호스팅 서비스를 이용해보겠습니다.카페24 웹호스팅 서비스홈페이지 개설직후 적은 트래픽이 예상되므로, 용량이 적은 서비스를 이용해보겠습니다.63bit광호스팅 FullSSD 클릭!서비스 목록마찬가지로 가장 저렴한 절약형을 이용하겠습니다.신청하기 클릭!웹호스팅 신청 - 01관리자.......]]></description>
+					<pubDate>Thu, 02 May 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[카페24웹호스팅,웹호스팅신청,웹호스팅서비스]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[홈페이지만들기]]></category>
+					<title><![CDATA[카페24에서 도메인 등록하기]]></title>
+					<link>http://blog.naver.com/ktj6822/40188128639</link>
+					<guid>http://blog.naver.com/ktj6822/40188128639</guid>
+					<description><![CDATA[카페24에서 도메인 등록하기홈페이지로 접속하기 위한 도메인 주소가 필요하기때문에, 워드프레스로 홈페이지를 만들때 가장먼저 할일이 되겠습니다.어떤 사이트든 블로그든 도메인 주소를 가지고 있으며, 홈페이지의 도메인주소는상대방에게 알려줬을때,기억하기 쉽도록 간단하고 개성있는 단어로 만드는것이 좋습니다.카페24 - http://www.cafe24.com카페24 사이트에접속합니다.도메인등록을 클릭합니다.도메인 검색①원하는 도메인을 입력합니다.②도메인 검색 클릭!③원하는 도메인을 체크합니다.요즘은 닷컴이 대세! (핸드폰 자판에도 '.com'이 있는 경우도있죠)④도메인 신청하기 클릭!도메인 신청기간을 확인합니다. 아직 자리잡은 홈페이.......]]></description>
+					<pubDate>Wed, 01 May 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[카페24도메인,도메인등록,도메인신청]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[워드프레스란]]></category>
+					<title><![CDATA[워드프레스 간단 설명]]></title>
+					<link>http://blog.naver.com/ktj6822/40188084466</link>
+					<guid>http://blog.naver.com/ktj6822/40188084466</guid>
+					<description><![CDATA[워드프레스 간단 설명워드프레스란? PHP언어로 개발된 오픈소스 플랫폼으로 전문적인 지식이 없어도 누구나 블로그나 홈페이지를 구축할 수 있는 플랫폼입니다.&#65279;&#65279;직접 워드프레스로 홈페이지를 구축할 수 있기 때문에, 개발자가 필요없고 유지보수 비용 또한 발생하지 않습니다.물론 기존 홈페이지 제작에 비해 상대적으로 쉽다는 것이며, 테마나 플러그인을 자유롭게 사용하기위해서는 학습이 필요합니다.&#65279;&#65279;&#65279;워드프레스 장단점일반 홈페이지 제작시 들어가는 비용을 생각한다면 워드프레스로 직접 홈페이지를 구축할 시, 일반적인 의미의 제작비용이 거의 들어가지 않으며 호환성이나 모바일에도 최적화 되.......]]></description>
+					<pubDate>Tue, 30 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[워드프레스란,워드프레스,워드프레스장단점,워드프레스설명]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그 팁]]></category>
+					<title><![CDATA[블로그 방문자수 확인하는 가장 쉬운방법 (스마트폰)]]></title>
+					<link>http://blog.naver.com/ktj6822/40188005462</link>
+					<guid>http://blog.naver.com/ktj6822/40188005462</guid>
+					<description><![CDATA[블로그 방문자수 확인하는 가장 쉬운방법 (스마트폰)스마트폰을 이용해서 네이버 블로그 방문자수를 가장 편리하게 확인할 수 있는 방법은 어플리케이션을 설치하여 바탕화면에 위젯을 설치하면,블로그 방문자수가 실시간으로 스마트폰 배경화면에 나타나게 됩니다.&#65279;네이버 블로그 앱그림과 같이 스마트폰에네이버 블로그 어플리케이션을 다운 받습니다.네이버 블로그 위젯핸드폰 기종에 따라 바탕화면에 위젯을 설치하는 방법은 다를 테니 생략하겠습니다.보통 바탕화면에서 설정버튼을 누르거나 바탕화면을 길게 터치하여 위젯을 설정하는 방식이 많은듯 합니다.해당 위젯을 바탕화면에 설치합니다.블로그 방문자수 확인화면과 같이 블.......]]></description>
+					<pubDate>Mon, 29 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[블로그방문자수,방문자수확인,블로그방문자수확인,블로그투데이]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[페이스북사용법]]></category>
+					<title><![CDATA[[페이스북사용법] 페이스북 상단바 사용법]]></title>
+					<link>http://blog.naver.com/ktj6822/40187890310</link>
+					<guid>http://blog.naver.com/ktj6822/40187890310</guid>
+					<description><![CDATA[[페이스북사용법] 페이스북 상단바 사용법페이스북 사용법은 손에 익히면 의외로 매우 간단합니다.오늘은 상단바에 대해서 알아보겠습니다.&#65279;홈버튼페이스북 메인화면으로 이동합니다.친구 요청친구 요청한 사람들의 목록을 알 수 있습니다.친구 찾기를 클릭하면 각종 이메일 서비스나, 학교 동창, 동료 등 의 방법으로 친구를 찾을 수 있습니다.설정을 클릭하면 나에게 친구요청을 할 수 있는 사람의 범위를 설정할 수 있습니다.받은 메시지함나에게 온 메시지를 알수 있습니다.새 메시지 보내기를 클릭하면 친구에게 메시지를 보낼 수 있으며, 메시지 내용은 주고 받은 사람끼리만 공개됩니다.알림내 담벼락에 새롭게 등록된 게시물이나.......]]></description>
+					<pubDate>Sat, 27 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[페이스북사용법,페이스북상단바,페이스북상단]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[페이스북사용법]]></category>
+					<title><![CDATA[[페이스북사용법] 페이스북 메인화면 파악하기]]></title>
+					<link>http://blog.naver.com/ktj6822/40187834311</link>
+					<guid>http://blog.naver.com/ktj6822/40187834311</guid>
+					<description><![CDATA[[페이스북사용법] 페이스북 메인화면 파악하기페이스북은 회원가입시 입력한 정보와 여러가지 기초자료를 분석하여 친구를 찾아주고, 관계를 맺게 해주며 쌍방향적으로 근황이나 소식등을 실시간으로 알려줍니다.또한 '좋아요'와 '공유하기' 기능을 통해서 콘텐츠의 공유가 활발히 이루어지고 있습니다.처음엔 우리나라 사람들이 메인화면을 보면, 익숙하지 않을 수 있지만, 잠시동안 페이스북 사용법을 익히면 무료 회원가입으로 모든 기본기능을 사용할 수 있으며, 사용자의 접속률과 사용시간은 매우 높습니다.페이스북 메인화면을 간단하게 파악해보겠습니다.&#65279;&#65279;페이스북 메인화면페이스북의 메인화면은 크게 상단 메뉴바와 3단.......]]></description>
+					<pubDate>Fri, 26 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[페이스북사용법,페이스북메인화면]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그만드는방법]]></category>
+					<title><![CDATA[네이버 블로그 공지 설정하는 방법과 효과]]></title>
+					<link>http://blog.naver.com/ktj6822/40187768018</link>
+					<guid>http://blog.naver.com/ktj6822/40187768018</guid>
+					<description><![CDATA[네이버 블로그 공지설정하는 방법과 효과블로그 공지 효과블로그 공지는 내가 작성한 포스트를 포스트영역 상단에 공지로 표시 되는 것입니다.이렇게 블로그 공지로 표시된 포스트는 주로 중요한 포스트나 공지사항을 올리는 곳인데,나의 블로그 방문자들에게 해당 포스트를 더욱 많이 눈에 띌 수 있게하는 역할을 합니다.&#65279;그러므로 노출시키고자하는 포스트를 블로그 공지로 올리는 것이 좋으며, 이벤트나 마케팅의 용도로도 많이 사용됩니다.&#65279;내 블로그의 어느 포스트를 보더라도 포스트 상단에 블로그 공지는 항상 노출됩니다.제목만이 노출되므로 방문자의 클릭을 유도하기 위해서는 호기심을 자극할만한 제목 작성이 필요합니.......]]></description>
+					<pubDate>Thu, 25 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[블로그공지,블로그공지설정,네이버블로그공지]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[유명한 무료이미지 사이트 - 픽사베이]]></title>
+					<link>http://blog.naver.com/ktj6822/40187681840</link>
+					<guid>http://blog.naver.com/ktj6822/40187681840</guid>
+					<description><![CDATA[유명한 무료이미지 사이트- 픽사베이&#65279;&#65279;&#65279;&#65279;&#65279;요즘 너무 정신이 없네요. ㅠㅠ오늘은 유명한 무료이미지사이트를 소개해드리겠습니다.저도 가장 자주사용하기도하고 이미 많은분들이 이용하고 계실거라 생각이됩니다.무료이미지를 픽사베이에서 구해보세요.픽사베이 메인화면픽사베이 - http://pixabay.com/ &#65279;원하는 검색어를 입력합니다.무료이미지 검색검색된 이미지중 원하는 이미지를 클릭합니다.이미지 라이센스우측하단의 라이센스를 확인해봅니다.저작권확인네 저작권이 없다는 것을 알수있습니다.무료이미지 다운로드다운로드를 클릭하여 원하는 무료이미지를 크기에맞게 다운받으실 수 있습니다.픽.......]]></description>
+					<pubDate>Wed, 24 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[무료이미지사이트,무료이미지,픽사베이]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그 팁]]></category>
+					<title><![CDATA[검색로직이 변해도 중요한 3가지 - 상위노출원리]]></title>
+					<link>http://blog.naver.com/ktj6822/40187635775</link>
+					<guid>http://blog.naver.com/ktj6822/40187635775</guid>
+					<description><![CDATA[검색로직이 변해도 중요한 3가지- 상위노출원리전에말씀드렸듯이 부정한 방법으로 상위노출을 노리는 블로거들의 부정행위를 막기위해 검색로봇의 검색로직은 업그레이드 되어갑니다.인터넷에 흔히 떠도는 검색엔진최적화 방법으로 포스트를 최적화하여 작성하였다고 하더라도 로직변화로 인해 다시 포스트가 하위로 떨어지고 좌절하는 경우가 많습니다.검색로직이 변해도 중요한 3가지가 있습니다.정확도, 인기도, 등록일 입니다.정확도란콘텐츠 제목과 본문에서의 검색어의 반복 횟수와 배열,키워드의 크기와 색상, 진하기, 밑줄 등과 콘텐츠의 이미지와 동영상 첨부여부 등으로 정해집니다.인기도는흔히 블로그지수라고도 불리며 방문자수, 댓.......]]></description>
+					<pubDate>Tue, 23 Apr 2013 06:00:00 +0900</pubDate>
+					<tag><![CDATA[검색로직,상위노출원리]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[저작권 무료이미지 구하기 - 구글 이미지]]></title>
+					<link>http://blog.naver.com/ktj6822/40187506003</link>
+					<guid>http://blog.naver.com/ktj6822/40187506003</guid>
+					<description><![CDATA[저작권 무료이미지 구하기 - 구글 이미지포스팅을할때 글만있는 포스트는 잘 읽어지지가 않습니다.사람들은 글과 이미지가 함께 있는 글을 더 편하게 읽을 수 있고기억하기도 쉽습니다.그러므로 포스팅을 할때에는 이미지가 꼭 필요합니다.이미지는내가 직접 찍거나 만든이미지를 사용하면 좋겠지만, 항상 포스트에 맞는 이미지를 만들기는 힘이들므로 저작권 무료이미지를 구할수 있는곳이 필요합니다.무료이미지를 구할 수 있는 곳은 여러군데가 있지만 오늘은 구글에서 무료이미지를 구해보겠습니다.구글 검색엔진검색란에 원하는 이미지의 검색어를 입력합니다.구글 검색결과이미지 클릭!구글 이미지 검색결과검색화면 우측상단의 설정모양의.......]]></description>
+					<pubDate>Sun, 21 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[구글이미지저작권,구글무료이미지,무료이미지,구글이미지검색,저작권무료이미지]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그만드는방법]]></category>
+					<title><![CDATA[네이버 블로그 포스트 설정정보 이것만은 꼭!]]></title>
+					<link>http://blog.naver.com/ktj6822/40187439018</link>
+					<guid>http://blog.naver.com/ktj6822/40187439018</guid>
+					<description><![CDATA[네이버 블로그 포스트설정정보 이것만은 꼭!&#65279;&#65279;블로그 포스트 작성시 꼭 설정해주세요.블로그 품질을 높이는데 도움이 됩니다.&#65279;주제분류주제를 선택해주세요.주제를 선택하면, 블로그 홈에서 좀더 세부적으로 블로그 카테고리로 나누어지기 때문에 , 관심사가 비슷한 방문객이 유입될 확률이 높아집니다.카테고리의 주제가 항상 같다면 아래의 '이 카테고리의 글은 항상 이주제로 분류'에 체크하면 편리합니다.&#65279;&#65279;블로그 홈은 네이버 블로그의 포스트만 모아지는 공간이기 때문에 상위노출이 검색포털사이트나 다음뷰에비해 쉬우며,오늘의 탑에 선정될 시 많은 트래픽을 가져올 수 있습니다.태그달기태그를 꼭.......]]></description>
+					<pubDate>Sat, 20 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[블로그포스트설정정보,포스트설정정보,블로그설정정보,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그 팁]]></category>
+					<title><![CDATA[블로거라면 무조건 알아야할 저작권법 핵심]]></title>
+					<link>http://blog.naver.com/ktj6822/40187352195</link>
+					<guid>http://blog.naver.com/ktj6822/40187352195</guid>
+					<description><![CDATA[블로거라면 무조건 알아야할 저작권법 핵심저작권법이란저작자의 권리를 지켜주는 최소한의 장치입니다.다시말해서 콘텐츠의 생산자가 자신의 의지와 상관없이 자신이 생산한 콘텐츠가 타인에 의해 도용되는 것을 방지하기 위한 법입니다.이렇게보니 블로거로써도 참 좋을만한 법인거 같습니다.하지만 이 저작권법을 위반한 경우 민사상 손해배상청구가 가능하다는점이 악용되어 예상치못한 결과물을 만들어내는 경우도 있습니다.저작권법은 일부 사람들에 의해돈벌이로 악용되기도 한다고 합니다.블로거들은 콘텐츠를 항상 소비하고 생산하는 입장에서 이런 사람들의 표적이되지안도록 저작권법에 유의하고 잘이해하고 있어야합니다.저작권법..........]]></description>
+					<pubDate>Fri, 19 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[저작권법]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그 팁]]></category>
+					<title><![CDATA[비겁하지만 달콤한 유혹 - 어뷰징 상위노출]]></title>
+					<link>http://blog.naver.com/ktj6822/40187313474</link>
+					<guid>http://blog.naver.com/ktj6822/40187313474</guid>
+					<description><![CDATA[비겁하지만 달콤한 유혹 - 어뷰징 상위노출어뷰징기법은 상위노출을 목적으로 검색엔진에 정확도에 유리하게 적용시키기위해서 콘텐츠의 특정 키워드를 의도적으로 과도하게 배치하는등 부정적인 방법으로 각각의 포털사이트의 검색로봇에게 혼란을 주는 것입니다.검색엔진은 검색시항상 검색자가 원하는 콘텐츠를 노출하기 위해서 검색키워드에 맞추어 콘텐츠의 방문수, 글의품질, 인기도, 체류시간등을 고려하여 정확도와 최신성등 을측정하여 상위노출을 결정하지만 하루에도 어마어마한 내용의 콘텐츠가 쏟아져 올라오기 때문에 사람이 일일이 계산할순 없고자동화된 검색로봇으로 자료를 검색 및 수집을 하여 정확도를 계산합니다.(이에대한.......]]></description>
+					<pubDate>Thu, 18 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[어뷰징]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그 팁]]></category>
+					<title><![CDATA[블로그에서 댓글이란 - 댓글 사용법]]></title>
+					<link>http://blog.naver.com/ktj6822/40187177324</link>
+					<guid>http://blog.naver.com/ktj6822/40187177324</guid>
+					<description><![CDATA[블로그에서 댓글이란 - 댓글 사용법우리는 블로그에서 소통이 중요하다는 점은너무나도 많이 들었습니다.그 이유는 블로그가본질적으로 쌍방향 매체이기 때문에 정보를 수집하는 네이버검색로봇도 소통이 많은 블로그를 블로그지수가 높다고평가하는 한가지 기준이 됩니다.블로그지수는 블로그의 품질을 뜻하고 검색노출에 영향을 주기때문에 이런얘기가 많은것 같습니다.&#65279;사실상 블로그에선 소통은 댓글을 뜻합니다.소통의 시작제가 처음 블로그를 할때 글을 아무리 열심히써도 댓글이 잘달리지 안았습니다.매일 두세개씩 열심히 포스팅을 해봤지만 댓글은 달리지 않습니다.이상하게 생각되서 다른 블로그들을 살펴보니 서로 댓글로 소통.......]]></description>
+					<pubDate>Tue, 16 Apr 2013 11:30:00 +0900</pubDate>
+					<tag><![CDATA[블로그댓글,댓글사용법]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[오픈캐스트를 홍보하는 방법 - 스티커 만들어서 부착하기]]></title>
+					<link>http://blog.naver.com/ktj6822/40187059891</link>
+					<guid>http://blog.naver.com/ktj6822/40187059891</guid>
+					<description><![CDATA[오픈캐스트를 홍보하는 방법 - 스티커 만들어서 부착하기오픈캐스트를 개설하고운영중이라면?이제 나의 오픈캐스트를 홍보하여 구독자를 모아야 합니다.포스트나 콘텐츠를 제작할때 포스트 내부에 자신이 운영중인 오픈캐스트의 스티커를 만들어서 부착하면 구독자를 늘리는데 도움이 됩니다.스티커 만들어서 부착하기오픈캐스트 스티커 만들기 - http://campaign.naver.com/opencast/sticker원하는 타입의 스티커를 선택합니다.다음단계 클릭!오픈캐스트 웹스티커 만들기 - 01채널입력 : 오픈캐스트를 개설할때 고유 주소 뒷자리의알파벳두자리와 숫자세자리의 채널(http://opencast.naver.com/채널)오픈캐스트 대표이미지, 캐스트제목, 캐스트.......]]></description>
+					<pubDate>Sun, 14 Apr 2013 11:27:48 +0900</pubDate>
+					<tag><![CDATA[오픈캐스트스티커,오픈캐스트웹스티커,오픈캐스트홍보]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[네이버 오픈캐스트 발행방법과 두어야할 초점]]></title>
+					<link>http://blog.naver.com/ktj6822/40187017314</link>
+					<guid>http://blog.naver.com/ktj6822/40187017314</guid>
+					<description><![CDATA[네이버 오픈캐스트 발행방법과 두어야할 초점이 글을 보고있는 분들은 오픈캐스트 개설이 완료되었을 것입니다.&#65279;관련포스트&#65279;네이버 오픈캐스트 개설하는 방법네이버 오픈캐스트 정보설정하는 방법&#65279;이제 오픈캐스트를 발행해야하는데 발행방법은 간단합니다.오픈캐스트도 구독자를 늘리는것에 초점을 두는것이 좋습니다.구독자가 늘어난다는 것은 내 캐스트의 내용이 알차고, 다른사람이 봤을때 보기편한 방식으로 발행하고 있다는 눈에 보이는 증거이기 때문입니다.항상 구독자 입장에서 생각하고 주기적으로 꾸준히 발행을 하여 신뢰감을 높이는 것이 좋습니다.보통캐스터들의 발행할때 콘텐츠의 개수는 8개정도씩 발행하.......]]></description>
+					<pubDate>Sat, 13 Apr 2013 15:17:26 +0900</pubDate>
+					<tag><![CDATA[네이버오픈캐스트,오픈캐스트발행,오픈캐스트발행방법]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[오픈캐스트 개설후 정보 설정하기]]></title>
+					<link>http://blog.naver.com/ktj6822/40186915001</link>
+					<guid>http://blog.naver.com/ktj6822/40186915001</guid>
+					<description><![CDATA[오픈캐스트 개설후 정보 설정하기오픈캐스트를 개설한 후에는 가장 먼저 정보 설정을 하는 것이 좋습니다.캐스트에 처음 방문한 방문자에게 운영자가 누구인지와 운영계획등을 알려 신뢰도를 높일수 있습니다.정보 설정까지 완료하는것이 개설의 완료라고 할 수 있으며, 한번 정보 설정을 해놓으면 앞으로는 캐스트를 발행만하시면 됩니다.&#65279;관련포스트네이버 오픈캐스트 개설하는 방법과 장점&#65279;오픈캐스트 메인화면&#65279;&#65279;오픈캐스트 - http://opencast.naver.com/ &#65279;&#65279;내 캐스트 관리 클릭!&#65279;&#65279;&#65279;&#65279;&#65279;오픈캐스트 기본관리운영중인 캐스트 클릭!캐스트 관리정보수정 클릭오픈캐.......]]></description>
+					<pubDate>Fri, 12 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[오픈캐스트정보설정,오픈캐스트설정]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[네이버 오픈캐스트 개설하는 방법과 장점]]></title>
+					<link>http://blog.naver.com/ktj6822/40186859149</link>
+					<guid>http://blog.naver.com/ktj6822/40186859149</guid>
+					<description><![CDATA[네이버 오픈캐스트 개설하는 방법과 장점네이버 오픈캐스트의 장점네이버에서 메인 중앙부분에 오픈캐스트 영역이 있습니다.이 부분은 네이버 측에서 사용자들의 편의성을 위해 개방한 영역입니다.비로그인시에는 네이버의 노출 기준에 따라 캐스트가 나타나며, 로그인한경우원하는 캐스트를 구독신청한다면 메인화면에서 정보를 손쉽게 구독할 수 있습니다.&#65279;&#65279;오픈캐스트 개설시에는 네이버 메인의 디스플레이 광고비용을 시간당 수백만원에서 많게는 수천만원까지,24시간 광고했을경우 최고 3억이상의 광고비용을 생각한다면 이것만으로도 이용가치가 있습니다.캐스트의콘텐츠 주제의 종류나 제목에따라 트래픽이 다르겠지만 잘만.......]]></description>
+					<pubDate>Thu, 11 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[네이버오픈캐스트,오픈캐스트개설,오픈캐스트장점]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그 팁]]></category>
+					<title><![CDATA[블로그 검색누락 확인법 및 해결방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40186682458</link>
+					<guid>http://blog.naver.com/ktj6822/40186682458</guid>
+					<description><![CDATA[블로그 검색누락확인법 및 해결방법오늘도 역시 마찬가지로 열심히 공들여 포스팅을 하고 있습니다.어제도 좋은정보를 공유하기위해 포스팅을 하였습니다.이렇게 꾸준히 포스팅을하고 있는데, 검색엔진에 노출이되지 않고 검색누락된다면이웃이 아닌 다른검색자를 포함한 많은 사람들에게 나의 글을 노출시킬수가 없게되어포스트를 보지못할 가능성이 더욱 커집니다.&#65279;괜히 썼나 싶구 허탈한 기분이듭니다.더군다나 블로그지수를 위해 꾸준히 쓰고있는데도 검색누락이 되어버리면, 블로그 자체에도 안좋은 영향을 끼친다고하니 억울함은 두배가됩니다.불법적, 음란성 게시물 혹은 어뷰징행위를 사용한 게시글이 검색결과에 노출제한당하는.......]]></description>
+					<pubDate>Tue, 09 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[검색누락,블로그검색누락,네이버블로그검색누락]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그 팁]]></category>
+					<title><![CDATA[네이버 키워드 광고와 키워드 공략법]]></title>
+					<link>http://blog.naver.com/ktj6822/40186628473</link>
+					<guid>http://blog.naver.com/ktj6822/40186628473</guid>
+					<description><![CDATA[네이버 키워드 광고와 키워드 공략법키워드 공략법&#65279;우리는 필요한 정보를 찾기위해서 기억하고 있던 사이트나 홈페이지같은 도메인을 찾아가는것 보다 네이버 검색포탈에서 키워드를 검색해서 찾고 있습니다.예를들어 시드니에 대해 알아보기 위해서는 네이버 검색포털사이트에 먼저 '시드니'라는 키워드를 입력해서 원하는 정보를 찾으려고 합니다.&#65279;&#65279;&#65279;마찬가지로누군가가 정보를 얻기위해 키워드를 검색하였을때 내 블로그의 포스트가 검색상단에 노출되어야 유입률이 높아지며 2페이지 이하로 떨어지면 유입률이 낮아지게됩니다.이렇게 검색시 상위에 노출되기 위해서는 노출에 최적화하여 포스팅을 하는 것이 필.......]]></description>
+					<pubDate>Mon, 08 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[네이버키워드광고,키워드공략법,블로그팁]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그 팁]]></category>
+					<title><![CDATA[초보블로거가 처음해야할 일 - 벤치마킹]]></title>
+					<link>http://blog.naver.com/ktj6822/40186473460</link>
+					<guid>http://blog.naver.com/ktj6822/40186473460</guid>
+					<description><![CDATA[초보블로거가 처음해야할 일 - 벤치마킹블로그를 정보공유를 위해 시작하셨나요? 혹은 제품홍보? 그냥 용돈벌이?요즘은 취업시 자기소개서에도 자신의 블로그주소를 쓰는일이 빈번하다고 하니블로그를 시작해야하는 이유는 살펴보면 참 많은거 같습니다.&#65279;그렇다고 무작정 시작하고 꾸며놓으면 이제 어떡해야할지 정말막막합니다.어떤 포스트를 써야할지, 어떤방식으로 포지셔닝해야할지 어려운 부분 또한 이만저만이 아닙니다.그래서 맨처음 필요한 것은 벤치마킹입니다.벤치마킹은 분명 블로그를 가장 빨리 발전시킬 수 있고, 블로그 세상의 망망대해를 헤쳐나갈 지표가 되어줄 것입니다.&#65279;어느 특정 분야에서 우수한 상대를 표적.......]]></description>
+					<pubDate>Sat, 06 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[초보블로거,초보블로그,블로그벤치마킹,블로그팁]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[페이스북사용법]]></category>
+					<title><![CDATA[페이스북 가입방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40186363724</link>
+					<guid>http://blog.naver.com/ktj6822/40186363724</guid>
+					<description><![CDATA[페이스북 가입방법페이스북은 이미가장 대표적이고 대중적인소셜네트워크 서비스입니다.사실 이글을 보고 있는 이웃분들은 대부분 페이스북 가입방법을 아시고 가입을 하셨을거라 생각됩니다.페이스북에 대한 다른부분의 얘기는 하나씩 자세히 포스팅하도록 하고 오늘은 페이스북 첫 포스팅이니 모르시는 분들을 위해 페이스북 가입방법부터 설명하겠습니다. ^^&#65279;페이스북 가입 시작!페이스북 가입을 위해 페이스북 접속!페이스북 - https://www.facebook.com/페이스북 가입하기성과 이름 (실명)이메일주소를 두번입력하네요.비밀번호생년월일성별가입하기 클릭!페이스북 가입방법 1단계가입하면 뜨는 첫페이지 입니다.메일을 통해 친구를.......]]></description>
+					<pubDate>Fri, 05 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[페이스북가입방법,페이스북가입]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[블로그를 네이트에 사이트등록하는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40186244338</link>
+					<guid>http://blog.naver.com/ktj6822/40186244338</guid>
+					<description><![CDATA[블로그를 네이트에 사이트등록하는 방법2009년도에 엠파스 검색엔진과 네이트가 통합된것이 생각나네요.네이트도 사이트등록을 해놓으면 물론 블로그에 긍정적 효과가 있지안을까요?네이트 사이트등록은 간단하게 설명드릴게요 ^^관련자료네이버에 사이트등록하는 방법다음에 사이트등록하는 방법네이트 홈페이지 등록에 먼저 접속합니다.네이트 홈페이지 등록 - http://add.nate.com/&#65279;네이트 홈페이지 등록홈①일반 등록심사 클릭!②일반등록 신청하기 클릭!약관 확인 및 동의일반등록심사를 신청합니다. 클릭!사이트 및 신청자 정보입력등록할 홈페이지(블로그)정보를 입력합니다.다 입력한 후에입력정보를 확인합니다. 클릭!입력 정보.......]]></description>
+					<pubDate>Thu, 04 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[네이트사이트등록,네이트홈페이지등록]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[네이버 블로그를 구글검색등록하는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40186135834</link>
+					<guid>http://blog.naver.com/ktj6822/40186135834</guid>
+					<description><![CDATA[네이버블로그를 구글검색등록하는 방법전시간에 네이버 사이트등록, 다음 사이트등록을 설명드렸지만,현재 국내 검색포털사이트 3위인 구글 웹마스터에서는 안타깝게도 구글이 원하는 방식으로 네이버 블로그는 사이트등록이되지 않습니다.네이버 블로그는 구글에 URL 등록을 합니다.관련자료네이버 사이트등록하는 방법다음 사이트등록하는 방법 구글 블로그검색등록하는 방법 구글검색등록을 위해서 구글 URL등록 페이지로 이동합니다.구글 URL 등록 - http://www.google.co.kr/intl/ko/add_url.html&#65279;&#65279;&#65279;구글검색등록 화면URL과 내용설명을 입력후URL등록 클릭!구글 로그인 화면로그인을 안했더니 로그인 페이지가 뜨네요.......]]></description>
+					<pubDate>Wed, 03 Apr 2013 05:49:11 +0900</pubDate>
+					<tag><![CDATA[구글검색등록,사이트등록]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[구글 검색엔진에 블로그검색등록하는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40186010427</link>
+					<guid>http://blog.naver.com/ktj6822/40186010427</guid>
+					<description><![CDATA[구글 검색엔진에 블로그검색등록하는 방법3월도 정말 정신없이 지나가고 새로운 4월이 왔네요.앞으로 더욱 알찬블로그를 포함한 sns 관련정보를 공유하기 위해서 노력하겠습니다. ^^오늘 말씀드릴 구글 검색엔진에 블로그검색등록하는 방법은 저번주에 말씀드렸던 네이버와 다음 블로그검색등록하는 것보다 훨씬 쉽고 아마 30초도 채 안걸릴것같습니다.구글 검색엔진에서의 확실한 색인을 위해서 등록을 해주세요.관련포스트네이버 검색엔진에 블로그검색등록하는 방법다음 검색엔진에 블로그검색등록하는 방법 블로그검색등록 시작구글 검색엔진에 내 블로그를 등록하기 위해서는 http://blogsearch.google.com/ping접속!구글 블로그 검색에 블.......]]></description>
+					<pubDate>Tue, 02 Apr 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[블로그검색등록,구글검색엔진등록,구글블로그검색등록]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[다음 검색엔진에 블로그검색등록하는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40185688350</link>
+					<guid>http://blog.naver.com/ktj6822/40185688350</guid>
+					<description><![CDATA[다음 검색엔진에 블로그검색등록하는 방법사실상 블로그는 검색에 이미 최적화되어 있지만, 검색엔진에 블로그검색등록을 하지안을 경우 반영되지안는 경우도 있습니다.다음 검색엔진에는 티스토리 블로그는 블로그검색등록을 하지안아도 가장 빠르게 반영이되지만 네이버 블로그나 다른 외부블로그들은 등록을 하지안을 경우 검색에 반영되지 안는 경우가 있으므로 블로그검색등록을 꼭합니다.다음 메인화면다음 메인화면입니다.하단에 있는 고객센터 클릭!다음 고객센터문의하기 클릭!문의하기&#65279;&#65279;블로그검색등록을 위해서검색 클릭!다음 검색엔진 블로그검색등록 요청블로그등록 요청을 제목과 내용을 양식에 맞게 작성 후등록 클.......]]></description>
+					<pubDate>Sun, 31 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[블로그검색등록,다음검색엔진,검색엔진등록,블로그등록]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[네이버 검색엔진에 블로그검색등록하는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40185685231</link>
+					<guid>http://blog.naver.com/ktj6822/40185685231</guid>
+					<description><![CDATA[네이버 검색엔진에 블로그검색등록하는 방법다들 알고 계시겠지만 네이버 검색엔진의 점유율은 현재70%이상이며, 계속해서 상승하고 있습니다.국내 블로거라면 네이버 검색엔진에 블로그검색등록을 하는 것은 필수입니다.잠깐 귀찮더라도 블로그검색등록은 한번 해 놓으면 계속해서 완벽하게 검색이 되기때문에 한번만 참고 해주도록 합니다.&#65279;네이버 블로그를 운영하고 있는경우 굳이 블로그검색등록을 할 필요가 없습니다.설정정보에전체공개와 네이버검색허용에 체크한다면 가장먼저 네이버 검색엔진에 반영되므로 포스팅시 항상 전체공개와 네이버검색허용에 체크를 합니다.&#65279;&#65279;글쓰기모드 하단 설정정보전체공개와 네이버.......]]></description>
+					<pubDate>Sat, 30 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[네이버블로그등록,블로그등록,검색엔진등록,블로그검색등록,네이버블로그검색등록]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그 팁]]></category>
+					<title><![CDATA[1일 1포스팅의 중요성 (4가지 이유)]]></title>
+					<link>http://blog.naver.com/ktj6822/40185438601</link>
+					<guid>http://blog.naver.com/ktj6822/40185438601</guid>
+					<description><![CDATA[1일 1포스팅의 중요성 (4가지 이유)매일 꾸준한 포스팅을 한다는 의미가 있습니다.나중에포스팅하는것이 몸에 익숙해져서 습관이될 수 있습니다.&#65279;다소 격한 표현으로블로그는 초기에는 밑빠진 독에 물붓기 일 수 있습니다.&#65279;&#65279;블로그는 콘텐츠가 어느정도 착실히 쌓여야 효과를 발휘하는데초기에는 생각대로 블로그가 운영되지 않기 때문입니다.사실 하루아침에 자리잡은 브랜드는 하나도 없습니다.꾸준한 정보제공은 블로그 브랜딩의 필수 요소입니다.들쑥날쑥한 포스팅은 고정구독자에게 실망감을 줄 수있습니다.누구든 매일 좋은정보를 전달하는 신문을 구독하지 언제올지 모르는 들쑥날쑥한 신문을 구독하지는 않을것입니.......]]></description>
+					<pubDate>Thu, 28 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[1일1포스팅]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[다음뷰 인기글, 최신글 위젯의 효과와 설치 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40185341982</link>
+					<guid>http://blog.naver.com/ktj6822/40185341982</guid>
+					<description><![CDATA[다음뷰 인기글, 최신글 위젯의 효과와설치 방법다음뷰에서는인기글, 최신글, 추천글세가지 기능으로 나누어 위젯을 만들어 제공하고 있습니다.다음뷰 인기글은 자신의 포스트를 추천수에 따라 나누어 보여주는 위젯이고, 다음뷰 최신글은 자신의 글을 최신순, 추천글은 자신이 추천한글을 나열해서 보여줍니다.다음뷰 인기글과 최신글을 사이드바에 위젯으로 설정해놓는다면 사이드바는 고정영역이므로, 방문자가 나의 어떤글을 보더라도 다음뷰인기글 위젯으로 시선이 갈것입니다.다음뷰 인기글이나 최신글 위젯을 설치하여 방문자의 호기심을 자극할만한 제목과 양질의 포스팅을 한다면 해당방문자의인기글이나 최신글 위젯을 통한 포스트 클릭.......]]></description>
+					<pubDate>Wed, 27 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[다음뷰인기글,다음뷰최신글,다음뷰위젯]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[다음 검색엔진에 사이트 검색등록하는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40185209584</link>
+					<guid>http://blog.naver.com/ktj6822/40185209584</guid>
+					<description><![CDATA[다음 검색엔진에 사이트 검색등록하는 방법전 시간에 네이버 검색엔진에 블로그를 사이트로 등록하는 방법에 대해 설명하였습니다.&#65279;오늘 설명드릴 다음 검색엔진에 사이트로 등록하는 방법도 어제 설명한 네이버에 등록하는 것과 비슷합니다.네이버 검색엔진에 블로그를 사이트로 등록하는 방법- http://blog.naver.com/ktj6822/40185090178국내 검색엔진은 네이버가 점유율이 압도적으로 높지만다음은 국내 검색포털사이트 점유율이 2위이므로등록을 하는것이 좋습니다.다음 검색엔진에 사이트 등록 시작!다음검색등록 메인화면다음검색등록에 접속합니다.신규등록하기 클릭!다음검색등록 - https://register.search.daum.net/다음검색등.......]]></description>
+					<pubDate>Tue, 26 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[다음검색등록,검색등록,사이트등록,싸이트등록,다음사이트등록]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[네이버 검색엔진에 블로그를 사이트로 등록하는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40185090178</link>
+					<guid>http://blog.naver.com/ktj6822/40185090178</guid>
+					<description><![CDATA[네이버 검색엔진에블로그를 사이트로 등록하는 방법네이버 검색엔진에 블로그를 사이트로 등록할 수 있습니다.꾸준한 블로깅으로 인해 나의 브랜드가 어느정도 형성되면 방문자들이 네이버 포털사이트에서 나의 브랜드명을 검색하여내 블로그로 접속할 수 있습니다.&#65279;저는 '티오피 sns school'로 등록하였기때문에 사이트명이 '티오피 sns school'이며네이버에서 티오피를 검색했을때 아래 그림과 같이 사이트에 티오피 sns school이라는 이름으로 노출되며, 사이트 소개부분도 키워드로 검색됩니다.&#65279;키워드가 겹치면 처음에는 상위에 노출되지안지만 블로그가 활성화 될수록 검색결과 앞쪽으로 배치됩니다.무료 홍보치고 이만큼 좋.......]]></description>
+					<pubDate>Mon, 25 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[네이버사이트,네이버사이트등록,네이버검색엔진등록,네이버등록,네이버검색등록,검색엔진등록]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[[rss 사용법] ④ 한rss 테마에 블로그 등록하는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40184972652</link>
+					<guid>http://blog.naver.com/ktj6822/40184972652</guid>
+					<description><![CDATA[[rss 사용법]④ 한rss 테마에 블로그 등록하는 방법한rss에는 이용자가 디렉토리를 직접만드는 테마라는 공간이 있습니다.테마에서 관심분야의 블로그를 구독할 수도 있고 자신의 블로그를 테마에 등록할 수도 있습니다.자신의 블로그와 주제에 맞는 테마가 없는경우 자신이 직접 테마를 만들어서 등록할 수도 있습니다.한rss 테마에 블로그 등록하는 방법한rss 메인화면한rss 메인화면에서 위그림에 있는 테마의 전체보기를 클릭합니다.전체보기 클릭!한rss - http://www.hanrss.com/테마 전체보기자신의 관련 주제를 검색합니다.관련테마가 없는경우 옆쪽의 테마등록을 클릭하면 바로 등록이 됩니다.테마검색 클릭!테마 검색주제에 맞는 테마가.......]]></description>
+					<pubDate>Sun, 24 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[rss사용법,한rss테마,한rss사용법,한rss등록]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[[rss 사용법] ③ 한rss 디렉토리에 블로그 등록하는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40184873914</link>
+					<guid>http://blog.naver.com/ktj6822/40184873914</guid>
+					<description><![CDATA[[rss 사용법] ③ 한rss 디렉토리에 블로그등록하는 방법&#65279;이미 많은 사람들이 다양한 리더기나 북마크 기능 등으로 자신에 스타일에 맞게 효율적으로 정보를 관리하고 있습니다.그 중에 한rss를 사용하여 정보를 관리하는 사람은 매우많고 오는 7월1일 부로 구글리더의 서비스가 종료됨에 따라 한rss 사용자가 아마 조금이라도 더 늘지않을까 싶습니다.따라서 한rss의 디렉토리와 테마에 자신의 블로그를 등록해 둔다면 좀더 많은사람들에게 자신의 블로그를알리는 기회가 될수 있습니다.한rss 디렉토리에 블로그 등록하는 방법한rss 메인화면디렉토리 전체보기 클릭!한rss 디렉토리 등록 - 01디렉토리 등록하기 클릭!한rss 디렉토리 등록.......]]></description>
+					<pubDate>Sat, 23 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[rss사용법,한rss,한rss디렉토리,한rss등록]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[[rss 사용법] ② 한rss 사용법 - 기초]]></title>
+					<link>http://blog.naver.com/ktj6822/40184556316</link>
+					<guid>http://blog.naver.com/ktj6822/40184556316</guid>
+					<description><![CDATA[[rss 사용법] ② 한rss 사용법 - 기초rss에 대해서는 지난 시간에 간단히 설명하였습니다.rss리더기 중에 하나인 한rss의 간단한 사용법에 대해 알아보겠습니다.① 한rss 가입하는 방법(rss란?) - http://blog.naver.com/ktj6822/40184439352일단 추가하고자하는 rss주소(피드주소)를 알아내야합니다.rss 아이콘은 이러한 모양을 하고 있습니다. 대부분 사이드바나 하단 부분에 이런 아이콘이나 rss글자로 표기되어 있습니다.&#65279;네이버 블로그다음뷰sbs 뉴스한rss 주소확인이러한 링크를 클릭하면 대부분 주소창에 rss주소가 표시됩니다.rss주소를 복사합니다.(ctrl + c)&#65279;rss메인 화면&#65279;&#65279;한rss에 접속합니다.한rss - ht.......]]></description>
+					<pubDate>Thu, 21 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[rss사용법,한rss사용법]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[[rss 사용법] ① 한rss 가입하는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40184439352</link>
+					<guid>http://blog.naver.com/ktj6822/40184439352</guid>
+					<description><![CDATA[[rss 사용법] ① 한rss 가입하는 방법rss란?rss를 간략하게 설명한다면내가 원하는 사이트나 블로그를 일일이 찾아갈 필요없이 rss 구독을함으로써 해당사이트의 콘텐츠들이 나에게 오게하는 서비스를 말합니다.그러므로 엄청난 시간절약을 할수 있고 더욱 편리하게 원하는 정보를 받아볼 수 있습니다.자신이 직접 구독함을 편집할 수 있으므로 원하는 사이트나 블로그를 구독기에 등록하면 해당 사이트들의 콘텐츠를 자신의 구독함에서 편리하게 구독할 수 있습니다.사용법이 매우 간단하여몇분의 적응시간만 가지고 손에 익힌다면,그 이후로는엄청난 시간을 절약할 수 있습니다.&#65279;티오피의 sns school을 구독해보세요. ^^*&#65279;&#6527.......]]></description>
+					<pubDate>Wed, 20 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[rss사용법,한rss,rss란,한rss가입,한rss사용법,rss리더,rss]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[메타블로그 리스트 모음]]></title>
+					<link>http://blog.naver.com/ktj6822/40184336149</link>
+					<guid>http://blog.naver.com/ktj6822/40184336149</guid>
+					<description><![CDATA[메타블로그 리스트 모음&#65279;메타블로그사이트는 여러 블로그의 포스트를 모아서 보여주는 사이트입니다.메타블로그사이트에 가입하고 블로그를 등록하면 나의 콘텐츠를 해당사이트에 발행할수 있고 대부분 등록만하면 포스팅할시 자동으로 발행됩니다.&#65279;&#65279;좀더 많은 사람들이 나의 포스트를 보고 공유하도록하는 서비스이기 때문에 최대한 많은 사이트에 가입할수록 많은 사람에게 나의 콘텐츠를 알릴 수 있습니다.이러한 메타사이트는 매우 많습니다.다 가입하지못하더라도 다음뷰와 믹시 정도는 방문자가 많으므로 꼭 가입을 하는것이 좋습니다.&#65279;다음뷰 가입하는 방법 - http://blog.naver.com/ktj6822/40183830852&#65.......]]></description>
+					<pubDate>Tue, 19 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[메타블로그,메타블로그모음,메타블로그리스트,메타블로그사이트,메타사이트]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[믹시 메타블로그 가입하고 인기글 추적버튼달기]]></title>
+					<link>http://blog.naver.com/ktj6822/40184205491</link>
+					<guid>http://blog.naver.com/ktj6822/40184205491</guid>
+					<description><![CDATA[믹시 메타블로그 가입하고 인기글 추적버튼 달기최근 메타블로그활용도가 예전보다는 많이 누그러졌습니다.하지만 메타블로그로인한 트래픽을 아직 무시할수준은 아니니 그래도 메타블로그에 많이 가입해두는것이 방문자 및 구독자 유치에 도움이 됩니다.믹시 메타블로그는 메타블로그 서비스에서 상위권에 속하는 서비스업체이므로 가입을 꼭해줍니다.믹시 메타블로그 - http://mixsh.com/회원가입은 너무나 간단하기때문에 생략하겠습니다.진짜로 중요한 블로그 등록부터 시작합니다.&#65279;믹시 메인화면&#65279;&#65279;믹시 메타블로그에 로그인 후상단에 있는 마이믹시를 클릭합니다.마이믹시좌측에 있는 블로그/위젯등록 클릭!믹시 블로.......]]></description>
+					<pubDate>Mon, 18 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[믹시,메타블로그,믹시메타블로그,메타블로그등록,믹시등록,메타블로그믹시]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[다음뷰에 글 발행하고 다음뷰 손가락다는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40183962941</link>
+					<guid>http://blog.naver.com/ktj6822/40183962941</guid>
+					<description><![CDATA[다음뷰에 글 발행하고 다음뷰 손가락다는 방법다음뷰에 가입한 후네이버블로그를 포함한 외부블로그는 다음뷰에 접속해서직접 매번 발행을 해줘야합니다.발행 후 손가락버튼을 달면 추천율이 높아질 가능성이 높으므로, 다음뷰에 노출될 확률도 높아집니다.&#65279;다음뷰 가입하는 방법- http://blog.naver.com/ktj6822/40183830852다음뷰 메인 페이지로 접속합니다.다음뷰 메인페이지 - http://v.daum.net/다음뷰 메인화면MY view 클릭!마이뷰 화면새 글 보내기 클릭!마이뷰 화면 - 02①등록한 블로그의 rss주소입니다.②발행할 글제목입니다. 발행할 글을 체크합니다.(이미 발행한 글은 체크박스가 비활성화상태로 되어있습니다.)③포스트 주.......]]></description>
+					<pubDate>Sat, 16 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[다음뷰손가락,다음뷰손가락다는법,다음뷰손가락다는방법,다음뷰손가락만들기]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[조금 더 알기]]></category>
+					<title><![CDATA[다음뷰 메타블로그 가입하는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40183830852</link>
+					<guid>http://blog.naver.com/ktj6822/40183830852</guid>
+					<description><![CDATA[다음뷰 메타블로그 가입하는방법메타블로그는 블로그의 모임입니다.&#65279;블로그에 포스팅을하면 블로그를 등록한 메타블로그에콘텐츠가 발송되고메타블로그 업체에서는 발송되어 온콘텐츠를 더욱 많은사람들에게 보여주기위해 사이트에 콘텐츠를 주제별로 분류하여 보여줍니다.&#65279;다음뷰, 믹시 등등 메타블로그 사이트는 매우 많으며 대부분 등록만하면 포스팅시 자동으로 발송되므로 등록해두면 블로그 유입량을 늘리는대 도움이 됩니다.다음 뷰에 가입하려면 검색포털사이트 다음 아이디가 있어야합니다.다음 가입은 생략하고 다음뷰로 이동해보겠습니다.다음 뷰 - http://v.daum.net/다음뷰 메인화면①다음아이디로 로그인합니다.②다.......]]></description>
+					<pubDate>Fri, 15 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[다음뷰,다음뷰가입,다음뷰가입방법]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그만드는방법]]></category>
+					<title><![CDATA[네이버 블로그 이미지 위젯 만들기]]></title>
+					<link>http://blog.naver.com/ktj6822/40183678285</link>
+					<guid>http://blog.naver.com/ktj6822/40183678285</guid>
+					<description><![CDATA[네이버 블로그 이미지 위젯 만들기블로그 위젯은 블로그 내에서 어떤 포스트를 보든 사이드바에 무조건 노출됩니다.이러한블로그위젯의 성격을이용하여외부 방문자에게 블로그의 성격이나 주제등을 강하게 어필할 수 있으며, 클릭시 원하는 사이트로 이동하도록 링크를 걸수도 있습니다.매우 간단한 방법으로 블로그위젯을 만들어 보겠습니다.포스트쓰기 클릭! 글쓰기 모드로 이동합니다.글쓰기 모드 - 01①[사진 - 사진추가 - 올리기] 이미지를 추가합니다.이미지크기는 가로 170픽셀, 세로 최대 600픽셀 까지 지원합니다.&#65279;&#65279;②올라온 이미지를 한번 클릭합니다.&#65279;③URL을 클릭합니다.&#65279;④링크를 걸을 사이트 주소를 입.......]]></description>
+					<pubDate>Thu, 14 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[블로그만드는방법,네이버블로그위젯만들기,블로그위젯,위젯만들기,블로그위젯만들기]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[트위터사용법]]></category>
+					<title><![CDATA[[트위터사용법] 트위터 핵심 용어]]></title>
+					<link>http://blog.naver.com/ktj6822/40183561595</link>
+					<guid>http://blog.naver.com/ktj6822/40183561595</guid>
+					<description><![CDATA[[트위터사용법] - 트위터 핵심 용어트위터를 사용하기에 앞서 반드시 알아야할 용어들이 있습니다.트위터는 정말 단순하고 간단하기 때문에 조금만 공부하면누구나 쉽고 간편하게 이용하실 수 있지만,트위터를 통한 입소문 파급력은아무도 무시못할 것입니다.자 이제 트위터 핵심용어에 대해서 알아보겠습니다.트위터러, 트위터리안, 트위플, 트워슨모두 비슷한 의미로 트위터 사용자를 뜻합니다.팔로우구독신청을 하는 것네이버 블로그로 예를 들면 이웃신청하는 것과 비슷합니다.팔로잉구독신청을 하는것상대방을 이웃추가를하는 것팔로어누군가 나를 구독신청하는 것상대방이 나에게 이웃추가를 하는것을 말합니다.맞팔서로 팔로잉, 팔로어 관.......]]></description>
+					<pubDate>Wed, 13 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[트위터사용법,트위터용어]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그 팁]]></category>
+					<title><![CDATA[블로그 주제가 필요한 이유와 정하는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40183408668</link>
+					<guid>http://blog.naver.com/ktj6822/40183408668</guid>
+					<description><![CDATA[블로그 주제가 필요한 이유와 정하는 방법&#65279;포스팅한 글을여러 사람에게 노출하지 않고, 자신만의 일기장이나자료정리 등의 목적으로 블로그를 운영하는 사람들도 있습니다.하지만 나의 생각이나 정보 등을 여러 사람에게 노출하고 싶어서 블로그를 하는 운영 하는 사람들이 대부분일 것입니다.전자의 경우에는 블로그의 주제를 굳이 정할 필요는 없습니다.&#65279;하지만 후자의 경우에는 블로그의 주제를 정하는 것이 꼭 필요합니다.&#65279;&#65279;&#65279;블로그 주제가 필요한이유&#65279;&#65279;잡다한 주제는 블로그의 정체성을 잃게합니다.&#65279;파워블로그나 인기블로그등도 한가지 주제를 가지고 전문성있게 포스팅하여 신뢰.......]]></description>
+					<pubDate>Tue, 12 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[블로그만드는방법,블로그주제,블로그주제정하기,블로그주제정하는방법]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[트위터사용법]]></category>
+					<title><![CDATA[트위터 가입하는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40183226197</link>
+					<guid>http://blog.naver.com/ktj6822/40183226197</guid>
+					<description><![CDATA[트위터 가입하는 방법트위터 가입은 매우간단합니다.일단 트위터 홈페이지에 접속합니다.트위터 - www.twitter.com트위터 접속 화면①이름 : 트위터에서 사용될 이름을 설정합니다.②이메일 주소 : 본인의 이메일 주소를 입력합니다.③비밀번호 : 사용할 비밀번호를 입력합니다.④트위터에 가입하세요! 클릭!트위터 가입 화면 - 01①녹색 이렇게 녹색글씨가 나타나도록 이름 이메일주소, 비밀번호, 아이디를 설정해줍니다.②트윗을 할때 나타나는 아이디입니다. 트윗을 할때 글자수는 140자로 한정되어 있는데, 이 140자 안에는 아이디가 포함되므로 아이디는 짧을수록 글을 길게 쓸수 있습니다.아이디는 수시로 변경할 수 있습니다.③가입하기 클.......]]></description>
+					<pubDate>Sun, 10 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[트위터가입,트위터가입방법]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그만드는방법]]></category>
+					<title><![CDATA[[블로그만드는방법] 네이버 리모콘으로 블로그 꾸미는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40183112475</link>
+					<guid>http://blog.naver.com/ktj6822/40183112475</guid>
+					<description><![CDATA[[블로그만드는방법] 네이버 리모콘으로 블로그 꾸미는 방법네이버 블로그의 장점중 하나는 초보 블로거도 어렵지않게 디자인을 리모콘을 이용하여 꾸밀 수 있습니다. 네이버 리모콘은 매우 직관적으로 구성되어있어서 초보자도 전혀 무리없이 다루 실수 있습니다.블로그 화면 우측 상단에 내 메뉴 - 리모콘으로 접속합니다.리모콘 접속화면접속하면 우측에 리모콘이라는 디자인 편집기능이 나타납니다.리모콘초보자도 쉽게 사용할 수 있는 부분이지만, 만일 헷갈리는 부분이 있다면 리모콘의 우측상단에 있는 HELP 버튼을 클릭하면 자세한 설명이 나옵니다.스킨배경디자인, 색상을 고를 수 있고 직접등록 할 수 도 있습니다.배경화면이 너무 화려.......]]></description>
+					<pubDate>Sat, 09 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[블로그만드는방법,네이버리모콘,블로그리모콘,네이버블로그리모콘]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그만드는방법]]></category>
+					<title><![CDATA[[블로그만드는방법] 네이버 블로그 스팸차단설정하는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40182968309</link>
+					<guid>http://blog.naver.com/ktj6822/40182968309</guid>
+					<description><![CDATA[[블로그만드는방법] 네이버 블로그 스팸차단설정하는 방법블로그의 방문자수가 늘어나다보면 불법프로그램을 사용한 도박광고글이나 음란성덧글도 늘어날 수 있습니다.그외에도 불법프로그램 사용자들의블로그 트래픽을 높히는 목적으로자동 덧글로 인사를돌리기도 합니다.불법프로그램은 그렇다 치더라도 블로그 이미지를 위해 불건전한 글은 일일이 지우기보다 미리미리 스팸차단설정을해 주는것이 좋습니다.&#65279;&#65279;관리모드에서 스팸차단설정을 클릭합니다.스팸 차단 설정①자동차단설정을 사용으로 설정합니다.②수동 차단 설정으로 자주 등장하는 ID, IP, 블로그명을 추가합니다.③추가한 것에 대해 차단되는 항목이 설명되어 있습.......]]></description>
+					<pubDate>Fri, 08 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[블로그스팸,블로그스팸차단,블로그스팸차단설정,네이버블로그스팸,네이버블로그스팸차단,네이버블로그스팸차단설정,스팸차단설정]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그만드는방법]]></category>
+					<title><![CDATA[[블로그만드는방법] 네이버 블로그씨 설정하는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40182832966</link>
+					<guid>http://blog.naver.com/ktj6822/40182832966</guid>
+					<description><![CDATA[[블로그만드는방법] 네이버 블로그씨 설정하는 방법블로그씨 질문은 네이버에서 블로거들에게 추억이나 경험등을 서로 공유할 수 있도록 블로거들에게 포스팅 소재를 가이드해줍니다.블로그씨 질문의 키워드를 이용하여 해당주제와 관련이 깊고 주목도가 높은 포스팅을 한다면 블로그 홈의 핫토픽에도 노출될 수 있어 방문자를 확보할수 있습니다.블로그씨 화면블로그씨 질문은 처음에 배달로 설정되 있으며 위그림과 같이 포스트 영역 위쪽에 매일 올라옵니다.저의 경우에는 블로그의 주제가 블로그씨 질문과 대부분 거리가 있기때문에,블로그씨 질문 배달을 중지시켜보겠습니다.블로그씨 질문을 클릭합니다.블로그씨 질문블로그씨 질문을 배달.......]]></description>
+					<pubDate>Thu, 07 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[블로그만드는방법,블로그씨설정,블로그씨질문설정]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[블로그만드는방법]]></category>
+					<title><![CDATA[[블로그만드는방법] 가독성좋은 나눔고딕 글꼴 설치하는 방법]]></title>
+					<link>http://blog.naver.com/ktj6822/40182732426</link>
+					<guid>http://blog.naver.com/ktj6822/40182732426</guid>
+					<description><![CDATA[[블로그만드는방법] 가독성좋은 나눔고딕 글꼴 설치하는 방법포스팅시 가독성이 좋은 글꼴은 블로그 방문자의 체류시간을 늘릴 수 있고,가독성이 좋지 않은 글꼴은 방문자의 이탈율을 높입니다.현재글씨체는 나눔고딕이며 가독성이 좋기 때문에 이미 많은 블로거들이 사용하고 있습니다.&#65279;나눔글꼴에는 글꼴의 가장자리를 부드럽게 표현하여 가독성을 높이는 '클리어타입 메뉴얼힌팅'이라는 기술이 적용되어 있습니다.이를 통해 모니터와 모바일 화면에서 문장의 가독성을 높여 한글을 더욱 선명하게 나타낼 수 있게 되었습니다.  -네이버 한글한글 아름답게-네이버 한글한글 아름답게 캠페인에 접속합니다.네이버 한글한글 아름답게 캠페.......]]></description>
+					<pubDate>Wed, 06 Mar 2013 07:00:00 +0900</pubDate>
+					<tag><![CDATA[한글한글아름답게캠페인,나눔고딕설치,나눔글꼴설치,나눔고딕,나눔글꼴]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[게시판]]></category>
+					<title><![CDATA[B1A38DC707797CA1D2287AF2003E34A3]]></title>
+					<link>http://blog.naver.com/ktj6822/40182706106</link>
+					<guid>http://blog.naver.com/ktj6822/40182706106</guid>
+					<description><![CDATA[B1A38DC707797CA1D2287AF2003E34A3]]></description>
+					<pubDate>Tue, 05 Mar 2013 18:12:54 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[게시판]]></category>
+					<title><![CDATA[ymq2y2]]></title>
+					<link>http://blog.naver.com/ktj6822/40182704292</link>
+					<guid>http://blog.naver.com/ktj6822/40182704292</guid>
+					<description><![CDATA[ymq2y2]]></description>
+					<pubDate>Tue, 05 Mar 2013 17:58:15 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>ktj6822</author>
+					<category><![CDATA[게시판]]></category>
+					<title><![CDATA[v295c28dd]]></title>
+					<link>http://blog.naver.com/ktj6822/40182703300</link>
+					<guid>http://blog.naver.com/ktj6822/40182703300</guid>
+					<description><![CDATA[v295c28dd ]]></description>
+					<pubDate>Tue, 05 Mar 2013 17:49:52 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

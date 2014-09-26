@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="http://rss.egloos.com/style/blog.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>미노의 블로그</title>
+	<link>http://minho.egloos.com</link>
+	<description>Think small</description>
+	<language>ko</language>
+	<pubDate>Fri, 12 Sep 2014 07:06:31 GMT</pubDate>
+	<generator>Egloos</generator>
+	<image>
+		<title>미노의 블로그</title>
+		<url>http://pds5.egloos.com/logo/200703/03/42/c0007442.jpg</url>
+		<link>http://minho.egloos.com</link>
+		<width>80</width>
+		<height>97</height>
+		<description>Think small</description>
+	</image>
+  	<item>
+		<title><![CDATA[ 블로그를 이전합니다. ]]> </title>
+		<link>http://minho.egloos.com/5844909</link>
+		<guid>http://minho.egloos.com/5844909</guid>
+		<description>
+			<![CDATA[ 
+  새로운 시작을 새로운 블로그에 하려고 합니다.<div><br />
+</div><div><a href="http://mino43.tistory.com/">http://mino43.tistory.com/</a></div>			 ]]> 
+		</description>
+		<category>그냥...</category>
+
+		<comments>http://minho.egloos.com/5844909#comments</comments>
+		<pubDate>Fri, 12 Sep 2014 07:06:01 GMT</pubDate>
+		<dc:creator>미노</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ SAP와는 인연인가보다 ]]> </title>
+		<link>http://minho.egloos.com/5843772</link>
+		<guid>http://minho.egloos.com/5843772</guid>
+		<description>
+			<![CDATA[ 
+  블로그를 다시 살립니다.<div>포스팅이 없는 블로그에 인공호흡을 다시 시작하는거죠 ㅋ</div><div><br />
+</div><div>개인적인 근황을 말씀드리면,</div><div>태어나 처음 해본 취직이었는데, 7년을 버티진 못했습니다.</div><div>나름 해보고 싶은거 다 해 보며 즐겁게 다녔다고 생각합니다.</div><div>다만, 이젠 더 즐기기 힘들것 같아 다시 강호(?)의 세계로 나왔습니다.</div><div><br />
+</div><div>유럽 여행(체코-오스트리아-독일-스위스)도 다녀오고</div><div>4개월정도 푹~~~~~~ 쉬었습니다.</div><div>역시 쉼이란 일과 일사이의 짧은 시간이어야 합니다.</div><div>그렇지 않으면 쉼이 곧 일이 되니깐요. 아니 일보다 더 큰 스트레스지요 ㅋ</div><div><br />
+</div><div>각설하고,</div><div><br />
+</div><div>다시 SAP와 인터페이스로 인연을 맺었습니다.</div><div>어줍짢은 실력에 그나마 할줄 아는 일을 하게 되서 다행....은 개뿔</div><div>마냥 새롭습니다. ㅋ</div><div><br />
+</div><div>SAP측(컨설턴트든 개발자든...)과의 협의는 언제나 쉽지 않습니다.</div><div>뭔가 만국공통어인듯한 영어를 하는데서 나혼자 한국어 하는 기분이랄까요?</div><div>왜 다들 하는 영어를 안하고 한국어를 나불대냐는 듯한 분위기가 되곤 합니다.</div><div><br />
+</div><div>그분들이 잘못되었다고 생각하지 않습니다. 저도 어느정도는 당연하다 생각합니다. ㅋ</div><div><br />
+</div><div>하루동안 해야할 일(WBS 작성)은 제쳐두고 SAP GUI를 깔고, SAP JCO를 다운받고 셋팅하고.. 그랬었습니다.</div><div><br />
+</div><div><i>&nbsp; SAP JCO는 jar하나와 native library 두가지가 필요합니다.</i></div><div><i>&nbsp; Java - sapjco - jco library - SAP 뭐 이런식이 됩니다.</i></div><div><i>&nbsp; 설치시 주의할점은 jco 관련파일등은 압축을 풀고 다른 곳으로 옮기지 말고 한디렉토리에서 관리하는게 좋습니다.</i></div><div><i>&nbsp; (왜 그런지는 고민해 보시길..)</i></div><div><i>&nbsp; 그리고 PATH와 CLASSPATH등으로 설정합니다.&nbsp;</i></div><div><i>&nbsp; (system32등에 옮기거나 하지 않습니다.- 이것도 왜그런지 고민해 보시길..)</i></div><div><br />
+</div><div>연결하기 위해선 SAP GUI에 RFC Destination을 만들어야 합니다. SAP측의 도움을 받으면 됩니다만..&nbsp;</div><div>쉽지 않습니다.&nbsp;</div><div><br />
+</div><div>JCO 3.0이 낯설어서 찾아봤더니 2.0과 다른 점들에 다음과 같은 문구가 있습니다.</div><div><ul style="margin: 0px; padding: 3px 0px 3px 15px; border: 0px; font-family: Arial, Helvetica, 'Microsoft YaHei', Meiryo, 'Malgun Gothic', sans-serif; font-size: 13px; line-height: 19.5px; vertical-align: baseline; list-style-position: outside; list-style-image: initial; color: rgb(51, 51, 51); orphans: 2; widows: 2; background-color: rgb(255, 255, 255);"><li class="SAPXDPListItem " style="margin: 0px 0px 0px 20px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;"><p class="SAPXDPParagraph " style="border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">Previously, each implementation represented an enhancement of the&nbsp;<tt class="SAPXDPTechnicalName monospace" title="Object name" style="margin: 0px; padding: 0px; border: 0px; font-family: 'Courier New', Courier, monospace; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">JCO.Server</tt>&nbsp;class. As of release 3.0 different interfaces (classes previously) will be implemented independently.</p></li><li class="SAPXDPListItem " style="margin: 0px 0px 0px 20px; padding: 0px; border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;"><p class="SAPXDPParagraph " style="border: 0px; font-family: inherit; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">As a result, a constructor that transfers the necessary parameters (such as&nbsp;<span class="SAPXDPScreenElement " title="Object name" style="margin: 0px; padding: 0px 4px; border: 0px; font-family: inherit; font-size: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; background-color: rgb(229, 229, 229);">Gateway Host, Gateway Service, Program ID</span>&nbsp;and&nbsp;<span class="SAPXDPScreenElement " title="Object name" style="margin: 0px; padding: 0px 4px; border: 0px; font-family: inherit; font-size: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline; background-color: rgb(229, 229, 229);">Repository)</span>&nbsp;to the&nbsp;<tt class="SAPXDPTechnicalName monospace" title="Object name" style="margin: 0px; padding: 0px; border: 0px; font-family: 'Courier New', Courier, monospace; font-size: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; line-height: inherit; vertical-align: baseline;">JCO.Server</tt>&nbsp;super class must also not be used.</p></li></ul></div><div><br />
+</div><div>또한&nbsp;</div><div>SAP Gateway 관련 Help :&nbsp;http://help.sap.com/saphelp_snc_uiaddon_10/helpdata/en/48/ace69b3b1e35bae10000000a42189d/content.htm?frameset=/en/48/aee67b83e535b6e10000000a42189d/frameset.htm&amp;current_toc=/en/31/42f34a7cab4cb586177f85a0cf6780/plain.htm&amp;node_id=3&amp;show_children=false</div><div><br />
+</div><div>다음과 같은 문구가 있죠.</div><div><br />
+</div><div><span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, 'Microsoft YaHei', Meiryo, 'Malgun Gothic', sans-serif; font-size: 13px; line-height: 19.5px; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);">Each instance of an SAP System has a gateway. The gateway enables communication between work processes and external programs, as well as communication between work processes from different instances or SAP Systems.</span></div><div><span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, 'Microsoft YaHei', Meiryo, 'Malgun Gothic', sans-serif; font-size: 13px; line-height: 19.5px; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);"><br />
+</span></div><div><span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, 'Microsoft YaHei', Meiryo, 'Malgun Gothic', sans-serif; font-size: 13px; line-height: 19.5px; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);">때문에 구조 특성상, Load balancing등의 설정등은 SAP Gateway에서 할 수 있습니다.</span></div><div><span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, 'Microsoft YaHei', Meiryo, 'Malgun Gothic', sans-serif; font-size: 13px; line-height: 19.5px; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);"><br />
+</span></div><div><span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, 'Microsoft YaHei', Meiryo, 'Malgun Gothic', sans-serif; font-size: 13px; line-height: 19.5px; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);">그리고 이건 추측입니다만,</span></div><div><span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, 'Microsoft YaHei', Meiryo, 'Malgun Gothic', sans-serif; font-size: 13px; line-height: 19.5px; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);">아마도 SAP Instance는 하나 이상의 SAP Gateway를 가질 수 있는 것 같습니다.</span></div><div><span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, 'Microsoft YaHei', Meiryo, 'Malgun Gothic', sans-serif; font-size: 13px; line-height: 19.5px; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);">RFC Destination(sm59)을 등록할때 Option으로 Gateway정보를 넣을 수 있고, 넣지 않을경우</span></div><div style="orphans: 2; widows: 2;"><font color="#333333" face="Arial, Helvetica, Microsoft YaHei, Meiryo, Malgun Gothic, sans-serif" size="2"><span style="line-height: 19.5px;">Default</span></font><span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, 'Microsoft YaHei', Meiryo, 'Malgun Gothic', sans-serif; font-size: 13px; line-height: 19.5px; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);">&nbsp;Gateway 가 할당되는 것인듯... (어디까지나 예상 ㅋ)</span></div><div style="orphans: 2; widows: 2;"><span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, 'Microsoft YaHei', Meiryo, 'Malgun Gothic', sans-serif; font-size: 13px; line-height: 19.5px; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);"><br />
+</span></div><div style="orphans: 2; widows: 2;"><span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, 'Microsoft YaHei', Meiryo, 'Malgun Gothic', sans-serif; font-size: 13px; line-height: 19.5px; orphans: 2; widows: 2; background-color: rgb(255, 255, 255);">P.S 10년 정도 된것 같습니다. 코딩을 안한지 ㅠㅠ</span><span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, 'Microsoft YaHei', Meiryo, 'Malgun Gothic', sans-serif; font-size: 13px; line-height: 19.5px; background-color: rgb(255, 255, 255);">&nbsp; 무엇보다 개발툴(eclipse)이 서투네요.&nbsp;</span></div><div style="orphans: 2; widows: 2;"><span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, 'Microsoft YaHei', Meiryo, 'Malgun Gothic', sans-serif; font-size: 13px; line-height: 19.5px; background-color: rgb(255, 255, 255);">&nbsp; &nbsp; &nbsp; 솔직히 말하자면 익숙해 진적이 없었습니다. 메모장 꺼내놓고 코딩하는게 편했던 기억이 날 정도로...</span></div><div style="orphans: 2; widows: 2;"><span style="color: rgb(51, 51, 51); font-family: Arial, Helvetica, 'Microsoft YaHei', Meiryo, 'Malgun Gothic', sans-serif; font-size: 13px; line-height: 19.5px; background-color: rgb(255, 255, 255);">&nbsp; &nbsp; &nbsp; 참 무식한 코딩을 했었는데.. 적응하려니 좀 어렵네요. ㅋ</span></div><br/><br/>tag : <a href="/tag/sapjco" rel="tag">sapjco</a>,&nbsp;<a href="/tag/SAP" rel="tag">SAP</a>,&nbsp;<a href="/tag/EAI" rel="tag">EAI</a>			 ]]> 
+		</description>
+		<category>프로젝트 관련</category>
+		<category>sapjco</category>
+		<category>SAP</category>
+		<category>EAI</category>
+
+		<comments>http://minho.egloos.com/5843772#comments</comments>
+		<pubDate>Thu, 04 Sep 2014 13:50:20 GMT</pubDate>
+		<dc:creator>미노</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 아이패드 구하기 ]]> </title>
+		<link>http://minho.egloos.com/5270416</link>
+		<guid>http://minho.egloos.com/5270416</guid>
+		<description>
+			<![CDATA[ 
+  운이 좋다고 해야 하나?<div><br />
+</div><div>와이프 미국 출장에..</div><div>내 생일에..</div><div>통관까지 별 문제 없는것 같아서..</div><div><br />
+</div><div>겸사겸사 와이프가 출장 가는길에 사서 들고 오기로 했는데..</div><div>2주정도의 짧지 않은 출장 기간이고, 그근처에 친구도 있어서.</div><div>별문제 없이 구해 올것 같았는데...</div><div><br />
+</div><div>어제 저녁까지는 그곳(샌프란시스코)에 물건이 아예 없단다.</div><div>그래서 ebay까지 알아보고 있는데.. 구할 수 있을지 모르겠다고..</div><div>음.. 참 네.. 돈 준대도 물건 구하기가 힘들다니.. 세상에 어찌 이런일이..</div><div><br />
+</div><div>그동안 이래저래 앱 다운받아놓고, 동영상/만화 인코딩 해놓은 수고가</div><div>물거품이 되나 했더니..</div><div><br />
+</div><div>아침에 전화와서 ebay에서 물건 구했다고 사겠다고 하긴 하는데..</div><div>뭐.. 아직 정확히 샀는지는 알 수 없지만..</div><div><br />
+</div><div>참 네...</div>			 ]]> 
+		</description>
+		<category>갖고 싶은 것들..</category>
+
+		<comments>http://minho.egloos.com/5270416#comments</comments>
+		<pubDate>Mon, 17 May 2010 00:41:01 GMT</pubDate>
+		<dc:creator>미노</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 오랜만에.. ]]> </title>
+		<link>http://minho.egloos.com/5242723</link>
+		<guid>http://minho.egloos.com/5242723</guid>
+		<description>
+			<![CDATA[ 
+  참 오랜만에 이시간에 깨어있는것 같다.<div><br />
+</div><div>몇개의 프로젝트가 동시에 오픈되는 관계로</div><div>새벽같이 출근해서 상황실 근무를 하고 있다.</div><div><br />
+</div><div>뭐.. 상황실이라고 해봐야.</div><div>전체적인 프로젝트 오픈에 대한 각 테스크를 확인하고,&nbsp;</div><div>이슈가 있을때마다 파악하여 조치하며,</div><div>중요 테스크에는 SMS를 높으신 분들께 보내는 정도의</div><div>일만 하고 있다.</div><div><br />
+</div><div>신시스템 오픈때는 프로젝트를 진행중이었고,</div><div>그 이후, 센터 이전, 재해센터 이전, 본사 이전,</div><div>그리고 몇몇 중요 프로젝트 오픈 등으로,</div><div>참.. 짧은 시간에 상황실 운영도 많이 해본것 같다.</div><div><br />
+</div><div>올만에 이시간에 깨어 있으니,</div><div>뭐랄까..좀 센치해진다고나 할까?</div><div><br />
+</div><div>그리고 확실히 나이가 좀 들긴 들었나보다.</div><div>그래도 30대 초반까지는 밤도 좀 샐만하고 그랬는데..</div><div>이제는 밤만 새면 도통 정신을 못차리겠다.</div><div><br />
+</div><div>에고.. 운동 좀 해야지..</div>			 ]]> 
+		</description>
+		<category>그냥...</category>
+
+		<comments>http://minho.egloos.com/5242723#comments</comments>
+		<pubDate>Sat, 10 Apr 2010 20:27:13 GMT</pubDate>
+		<dc:creator>미노</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 황금색 삼성 로고 ]]> </title>
+		<link>http://minho.egloos.com/5183130</link>
+		<guid>http://minho.egloos.com/5183130</guid>
+		<description>
+			<![CDATA[ 
+  <div>올해부터 삼성그룹의 금융계열사들은 황금색 계열의 로고 색으로 바뀌었다.</div><div><br />
+</div><div>나름 신선한 맛도 있고, 뭔가 있어보이는것도 있는데...</div><div><br />
+</div><div>실제로 보면.. 뭔가 좀 허전하다는 느낌과,</div><div>명함인식기(스마트폰의 스마트리더로 명함 인식을 하는것과 같은것들..)에서</div><div>인색이 잘 안된다는 단점도 있다.</div><div><br />
+</div><div><a href="http://news.chosun.com/site/data/html_dir/2010/01/24/2010012400690.html" target="_blank">[뉴스 블로그] 삼성 '금융사 명함 로고' 황금색으로 바꾼 까닭은</a></div>			 ]]> 
+		</description>
+		<category>그냥...</category>
+
+		<comments>http://minho.egloos.com/5183130#comments</comments>
+		<pubDate>Mon, 25 Jan 2010 05:28:39 GMT</pubDate>
+		<dc:creator>미노</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 앞으로 뭘 해야 할지... ]]> </title>
+		<link>http://minho.egloos.com/5168903</link>
+		<guid>http://minho.egloos.com/5168903</guid>
+		<description>
+			<![CDATA[ 
+  천상 엔지니어라고 생각했다.<div>프로그램을 개발하는게 좋았고,</div><div>개발이 아니더라도 개발과 밀접한 일을 하는게 좋았다.</div><div><br />
+</div><div>근데.. 요 근래 가만히 생각하니,</div><div>취직을 하고 나서, 하는일이 개발과는 많이 떨어져 버렸다.</div><div>내 역활은 분명 Technical Architect 이지만,</div><div>주로 구매 관련된 부분과 신기술 관련된 일이 내 일이 되어버렸다.</div><div><br />
+</div><div>물론 기술적인 지식기반이라고도 할 수 있으나,</div><div>개발을 한다기 보다는 좀 더 기획적이고, 관리적인 역활로 바뀌고 있는 것 같다.</div><div><br />
+</div><div>더군다나, 요즘 다른 팀에서 오라고 유혹한다.</div><div><br />
+</div><div>가만히 생각해 보면,</div><div>차라리 회사내에서 성공하려면 그 팀으로 옮기는게 맞을 지도 모르나,</div><div>한번 빠지면 좀 처럼 나오기 힘든일이기도 하다.</div><div><br />
+</div><div>그렇다고 이대로 남아 있는다고, 기술적인 일만할 수 있는것도 아니고,</div><div>기술적인일로 성공하기도 쉽지 않은것 같은데...</div><div><br />
+</div><div>슬슬 변화를 주기는 해야할듯 한데.</div><div>이번 변화는 왠만해서는 돌이킬 수 없을것 같아, 고민이 많이 된다.</div><div>뭘하든 하긴 할 수 있을것 같은데..</div><div><br />
+</div><div>요즘 가장 많이 헷갈리는건..</div><div>내가 정말 하고 싶은 일이 뭔질 모르겠다는거다..</div><div>그게 정말 고민이다...</div><div>내가 진정 원하는게 뭔지를 알면... 그 어떤일이든 한번 도전이라도</div><div>하고 싶은데..&nbsp;</div><div><br />
+</div><div>... 이런게 권태기라는걸까? ....</div>			 ]]> 
+		</description>
+		<category>그냥...</category>
+
+		<comments>http://minho.egloos.com/5168903#comments</comments>
+		<pubDate>Fri, 08 Jan 2010 01:59:20 GMT</pubDate>
+		<dc:creator>미노</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 스마트폰.. 그리고 낚시질.. ]]> </title>
+		<link>http://minho.egloos.com/5155101</link>
+		<guid>http://minho.egloos.com/5155101</guid>
+		<description>
+			<![CDATA[ 
+  어쩌다 보니,<br>본의아니게, 요즘 스마트폰 관련된 테스트를 하고 있다.<br>정확히 말하면 FMC관련된 부분이긴 하지만,<br>워낙 사용자 입장에서 밀접하고 말들이 많다 보니,<br>그냥 FMC만 테스트하는게 아니라, 스마트폰에 대한 여러가지 방면에서 확인하고,<br>테스트를 하고 있는것인데..<br><br>그러다 보니, <br>왠만하면 만날리 없는, SKT나 KT와도 자주 만나고<br>여러가지 협의도 하게 된다.<br><br>그런데.. 가끔 자료를 만드느라, 웹을 뒤지다 보면,<br>별 근거없는 소문들이 상당히 많다.<br>곧 모바일 6.5로 바꿔준다는둥, 이런저런 얘기들...<br><br>어짜피 각통신회사들에 직접 연락을 해보면, 바로 알 수 있는 사실이기에..<br>거의 대부분 카더라 통신이나 낚시질 정도..<br><br>회사에 입사하고 나서 가끔 메스컴들을 보면..<br>아... 이런거였구나.. 가끔 느꼈지만..<br>그래도 좀 그렇다.. 그냥 흥미를 끌만한 글 말고.. 정말 영양가 있는 글들을<br>보는게.. 이리 힘든건가?<br><br>이제 왠만하면 소문은 잘 안믿게된다... 계속 속다 보면.. 말이지..<br><br>글구.. 스마트폰 테스트는.. 열라 짱나는일이다.. 하면 할 수록..			 ]]> 
+		</description>
+		<category>그냥...</category>
+
+		<comments>http://minho.egloos.com/5155101#comments</comments>
+		<pubDate>Wed, 23 Dec 2009 05:27:34 GMT</pubDate>
+		<dc:creator>미노</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 세미나 발표 ]]> </title>
+		<link>http://minho.egloos.com/5133279</link>
+		<guid>http://minho.egloos.com/5133279</guid>
+		<description>
+			<![CDATA[ 
+  <div>오랜만에 세미나 발표를 했다.</div><div><br />
+</div><div>몸이 별로 안좋아서 그리 많은 시간 설명하진 못했지만,</div><div>다는 아니래도 어느정도 하고 싶은 말은 한것 같다.</div><div><br />
+</div><div>근데.. 제목이 별로 마음에 안든다..</div><div>해답이라.. 난 그런 의미는 아니었는데.. 어쨋든..</div><div><font class="Apple-style-span" size="5"><span class="Apple-style-span" style="font-size: 18px;"><font class="Apple-style-span" size="3"><span class="Apple-style-span" style="font-size: 12px;"><br />
+</span></font></span></font></div><div><table class="MsoNormalTable" style="WIDTH: 450pt" cellspacing="0" cellpadding="0" width="600" border="0"><tbody><tr><td style="PADDING-RIGHT: 0cm; PADDING-LEFT: 0cm; PADDING-BOTTOM: 12pt; PADDING-TOP: 0cm"><table class="MsoNormalTable" style="MARGIN-BOTTOM: 5.25pt; WIDTH: 60pt; MARGIN-RIGHT: 7.5pt" cellspacing="0" cellpadding="0" width="80" align="left" border="0"><tbody><tr><td style="PADDING-RIGHT: 0cm; PADDING-LEFT: 0cm; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm"><p class="MsoNormal" style="TEXT-ALIGN: center" align="center"><font face="굴림" size="3"><span lang="EN-US" style="FONT-SIZE: 12pt"><a href="http://www.google.com/url?sa=X&amp;q=http://www.ddaily.co.kr/news/news_view.php%3Fuid%3D56787&amp;ct=ga&amp;cd=t4L6pc0lIbc&amp;usg=AFQjCNGDWsbY4UMdWu1trTm3gjqHwS1KWA"><span style="TEXT-DECORATION: none"><img id="_x0000_i1025" height="80" src="http://nt1.ggpht.com/news/tbn/9T20JHjmbmwJ" width="60" border="0"></span></a><o:p></o:p></span></font></p></td></tr><tr><td style="PADDING-RIGHT: 0cm; PADDING-LEFT: 0cm; PADDING-BOTTOM: 0cm; PADDING-TOP: 0cm"><p class="MsoNormal" style="TEXT-ALIGN: center" align="center"><font face="굴림" size="1"><span lang="EN-US" style="FONT-SIZE: 7.5pt"><a href="http://www.google.com/url?sa=X&amp;q=http://www.ddaily.co.kr/news/news_view.php%3Fuid%3D56787&amp;ct=ga&amp;cd=t4L6pc0lIbc&amp;usg=AFQjCNGDWsbY4UMdWu1trTm3gjqHwS1KWA"><span lang="EN-US"><span lang="EN-US">디지털데일리</span></span></a></span></font><span lang="EN-US"><o:p></o:p></span></p></td></tr></tbody></table><p class="MsoNormal"><font face="굴림" size="3"><span lang="EN-US" style="FONT-SIZE: 12pt"><a href="http://www.google.com/url?sa=X&amp;q=http://www.ddaily.co.kr/news/news_view.php%3Fuid%3D56787&amp;ct=ga&amp;cd=t4L6pc0lIbc&amp;usg=AFQjCNGDWsbY4UMdWu1trTm3gjqHwS1KWA">[BW 2009]<span lang="EN-US"><span lang="EN-US">“금융</span></span><span lang="EN-US"><span lang="EN-US"> </span></span><span lang="EN-US"><span lang="EN-US">경쟁환경</span></span><span lang="EN-US"><span lang="EN-US"> </span></span><span lang="EN-US"><span lang="EN-US">변화에</span></span><span lang="EN-US"><span lang="EN-US"> </span></span><span lang="EN-US"><span lang="EN-US">대한</span></span><span lang="EN-US"><span lang="EN-US"> </span></span><span lang="EN-US"><span lang="EN-US">대처</span></span><span lang="EN-US"><span lang="EN-US"> </span></span><span lang="EN-US"><span lang="EN-US">방법, </span></span><span lang="EN-US"><span lang="EN-US">해답은</span></span><span lang="EN-US"><span lang="EN-US"> <b><span style="FONT-WEIGHT: bold">FMC</span></b></span></span><span lang="EN-US"><span lang="EN-US">”</span></span></a><br />
+</span></font><font color="#666666" size="2"><span style="FONT-SIZE: 10pt; COLOR: #666666">디지털데일리</span></font><font size="2"><span lang="EN-US" style="FONT-SIZE: 10pt"><br />
+[</span></font><font size="2"><span style="FONT-SIZE: 10pt">디지털데일리 이상일기자<span lang="EN-US">] </span>최근 기업들이 <b><span lang="EN-US" style="FONT-WEIGHT: bold">FMC</span></b><span lang="EN-US"> </span>도입을 적극 고민하고 있지만 성공적 구축을 위해선 명확한 구축목적과 경영진의 절대적인 지원이 필요하다는 주장이 <b><span lang="EN-US" style="FONT-WEIGHT: bold">...</span></b><span lang="EN-US"><br />
+<font class="Apple-style-span" color="#008000"><br />
+</font></span></span></font></p></td></tr></tbody></table></div>			 ]]> 
+		</description>
+		<category>그냥...</category>
+
+		<comments>http://minho.egloos.com/5133279#comments</comments>
+		<pubDate>Fri, 27 Nov 2009 03:45:41 GMT</pubDate>
+		<dc:creator>미노</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 아키텍트 이야기... 1 ]]> </title>
+		<link>http://minho.egloos.com/5119812</link>
+		<guid>http://minho.egloos.com/5119812</guid>
+		<description>
+			<![CDATA[ 
+  아키텍트를 한지 2년이 지나간다.<div><br />
+</div><div>처음 아키텍트가 되면서 생각했던 것을 돌이켜서</div><div>지금 생각과 비교해 보면, 상당히 현실적이 되어 가는 느낌이다.</div><div><br />
+</div><div>난 금융권의 기업에서 TA의 업무를 하고 있고,</div><div>보통 생각하는&nbsp;SI나 컨설팅 또는 벤더에서 활동하는 아키텍트들과는</div><div>분명 다른 방향으로 아키텍트 업무를 수행하고 있는 듯 하다.</div><div><br />
+</div><div>아키텍트가 전체 시스템에 대한 이해를 바탕으로</div><div>표준을 만들고, 검증을 하며, 프로젝트마다 검토하는 등의 업무를 수행하는데,</div><div>(그밖에도 많은 일들이 있고...)</div><div><br />
+</div><div>물론 가장 필요한 지식은 폭넓은 IT적인 지식이겠지만.</div><div>실제로 아키텍트로써 전체 시스템의 윤곽을 잡는 것은</div><div><br />
+</div><div>IT적인 기술보다는 우리 회사의 중장기적인 비지니스 방향성이 가장 중요한 부분이 되고,</div><div>현재 시스템에 대한 이해 그리고 IT조직 구성과 특성의 파악이 밑바탕이 되어야 한다.</div><div><br />
+</div><div>요즘 들어 느끼는것인데 아키텍트가 IT적인 지식을 가장 많이 필요로 하는때는</div><div>의외인지 당연한 것인지 모르겠지만, 견적을 받을때다...</div><div><br />
+</div><div>나름 좋은 말들만 뽑아서 적은감이 없지 않은데..</div><div>좀 더 현실적으로 들어 가면,</div><div>상당히 정치적인 부분도 있고, 조직에 순응해야 하는 부분...</div><div>특정인의 관심사나 생각들에 결정되어지는 부분도 의외로 많다.</div><div><br />
+</div><div>나도 참 많은 영업들을 만나고, 컨설턴트, 엔지니어, 개발자들을 만나지만.</div><div>내가 예전에 프리렌서를 하면서 소위 말하는 갑들을 바라보는 눈빛을</div><div>가끔 그들에게서 보고 있다.</div><div><br />
+</div><div>많은 현업들이 모르는게 많고, 답답한 부분이 많은것도 사실이지만..</div><div>막상 그런일을 하다 보면 그렇게 밖에 할 수 없는 속터짐도 조금은 있음을...</div><div>이제는 나도 어느정도는 알 수 있을것 같다.</div><div>(물론 다는 아닐것이다. 정말 답답한 인간들도 분명 있다...)</div>			 ]]> 
+		</description>
+		<category>그냥...</category>
+
+		<comments>http://minho.egloos.com/5119812#comments</comments>
+		<pubDate>Wed, 11 Nov 2009 04:57:59 GMT</pubDate>
+		<dc:creator>미노</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 아키텍쳐의 영속성에 대해서. ]]> </title>
+		<link>http://minho.egloos.com/5118669</link>
+		<guid>http://minho.egloos.com/5118669</guid>
+		<description>
+			<![CDATA[ 
+  조대협님의 글을 읽고,&nbsp;<div>항상 나도 생각했던 문제이고 보면.. 예전같으면 너무나 당연한 얘기겠지만..</div><div><br />
+</div><div>사실 지금은 조금은 다른 의견이다.</div><div><br />
+</div><div>회사에 입사해서 아키텍트 업무를 수행한지 이제 2년이 지나가는데,</div><div>보통 SI 나 컨설팅 업체 또는 벤더에 있는 아키텍트들과&nbsp;</div><div>실제 자사내에서의 아키텍트는 업무의 범위와 역활히 확연히 다를 수 있다.</div><div><br />
+</div><div>이것이 사실 전문성을 갖고, 전체 시스템을 이해하기 쉽지 않은 이유다.</div><div>하지만 뭐.. IT적인 전문성이 전체 시스템을 이해하는 절대적인 지식근거가 되지 않는것을</div><div>보면, 핑계일수도 있으나,</div><div>어느정도 규모 이상의 회사들은 그 시스템의 종류나 수준들이 참으로 다양하다.</div><div><br />
+</div><div>나같은 경우도 대외적인 업무역활은 TA (Technical&nbsp;Architect)이나,&nbsp;</div><div>시스템 (Unix , Window ...) , &nbsp;네트웍 , EAI 등의 특정 업무 및 신기술 도입과</div><div>하다못해 PC나 주변기기까지, 회사에 관련된 IT가 들어갈만한 모든것이</div><div>업무범위가 되어 버렸다. (요즘은 스마트폰같은것도 하는구나.. 참)</div><div><br />
+</div><div>아직까지는 내 역활을 제대로 수행하지 못하다보니, 핑계만을 대고 있는것 같은</div><div>느낌이 스스로 드는데,</div><div><br />
+</div><div>좀 더 생각해 볼 문제지만,&nbsp;</div><div>업무의 범위를 어느정도 확정짓고, 전체 그림을 바라보면 여러가지 일들을 할 수 있도록.</div><div>나 나름대로 부단한 노력을 해야 겠다.</div><div><br />
+</div><div>대부분의 회사에서 전체 시스템을 보면 이해할 수 있는 사람이 없는건 사실이지만.</div><div>왜 그런 사람들이 없는건인지 요즘은 조금씩 이해가 되는건...</div><div>나 스스로 너무나 우울할 일이다.</div><div><br />
+</div><div>그렇게 전체 시스템을 이해할지라도,</div><div>바람직한 방향으로 무언가를 진행하는 것이 회사내에서 얼마나 힘든지 알게 되는건</div><div>더 우울한 일이다.</div>			 ]]> 
+		</description>
+		<category>그냥...</category>
+
+		<comments>http://minho.egloos.com/5118669#comments</comments>
+		<pubDate>Tue, 10 Nov 2009 01:13:19 GMT</pubDate>
+		<dc:creator>미노</dc:creator>
+	</item>
+</channel>
+</rss>

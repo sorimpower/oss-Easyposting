@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>소인배(小人輩).com</title>
+		<link>http://theuranus.tistory.com/</link>
+		<description>인문학과 공학의 집합체 소인배닷컴입니다. 컴퓨터공학과 영문학을 전공했지만, 어느 한쪽도 뛰어나지 않은 애매한 인물입니다. 평범한 일상 속에서 특별함을 찾으려고 노력하는 블로거라고 할까요?
+
+궁금한 점이 있으면, 방명록을 이용하시거나, 아래의 연락처로 연락주세요.
+e-mail : theuranus@tistory.com</description>
+		<language>ko</language>
+		<pubDate>Fri, 26 Sep 2014 07:59:34 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>마속</managingEditor>
+		<image>
+			<title>소인배(小人輩).com</title>
+			<url>http://cfile23.uf.tistory.com/image/241BDD4F52CE6BF709A73E</url>
+			<link>http://theuranus.tistory.com</link>
+			<description>인문학과 공학의 집합체 소인배닷컴입니다. 컴퓨터공학과 영문학을 전공했지만, 어느 한쪽도 뛰어나지 않은 애매한 인물입니다. 평범한 일상 속에서 특별함을 찾으려고 노력하는 블로거라고 할까요?
+
+궁금한 점이 있으면, 방명록을 이용하시거나, 아래의 연락처로 연락주세요.
+e-mail : theuranus@tistory.com</description>
+		</image>
+		<item>
+			<title>[Mac] 맥에서 CD/DVD를 굽기 프로그램 '토스트(TOAST)'</title>
+			<link>http://theuranus.tistory.com/1939</link>
+			<description>&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;[Mac] 맥에서 CD/DVD를 굽기&amp;nbsp;프로그램 '토스트(TOAST)'&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;요즘에는 CD나 DVD를 거의 구울 일이 없는 상황이긴 하지만, 예전에는 이러한 프로그램이 거의 필수였던 시기가 있었다. 아무래도 요즘처럼 대용량의 하드디스크를 손쉽게 구할 수 있는 시기가 아니었기에 대용량의 자료를 CD나 DVD를 이용해서 저장을 해두어야 하는 상황이 잦았으니 말이다. 그리고 USB 역시도 그다지 많이 보급이 되지 않았던 상황이었기에 거의 대부분의 자료 공유를 CD나 DVD로 했으니, 이런 프로그램은 필수 중의 필수였다고 할 수 있을 것이다. 하지만, 이제는 USB도 상당히 많이 보급이 되었고, 하드디스크 역시도 저렴한 가격에 엄청나게 큰 HDD를 구매할 수 있는 상황이니 이러한 프로그램이 상대적으로 중요하지 않게 되었지만, 그래도 누군가는 혹시나 찾지 않을까 싶어 이렇게 소개를 한번 해보도록 한다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:200px;width: 200px; height: 199px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/241FC8395386CD531D5EA6&quot; filemime=&quot;image/jpeg&quot; filename=&quot;nero_7.0.8.2_0.jpg&quot; height=&quot;199&quot; style=&quot;width: 200px; height: 199px;&quot; width=&quot;200&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;txc-textbox&quot; style=&quot;border: 1px solid rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;윈도우에서는 '네로'가 있었지만...&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;소인배닷컴이 윈도우를 한창 사용하던 시기에는 &quot;네로&quot;라는 프로그램을 이용해서 시디를 열심히 구웠던 것으로 기억한다. 그 프로그램을 알고 난 이후로 거의 신세계를 접한 듯한 그런 기분이 들었던 기억이 나기도 하는데, 이제는 한동안 사용하지 않고 있다보니, 그 프로그램의 존재 조차도 한동안 잊고 있었던 모습이다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:200px;width: 200px; height: 200px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/25742A395386CD5325704C&quot; filemime=&quot;image/jpeg&quot; filename=&quot;toasttitanium.jpg&quot; height=&quot;200&quot; style=&quot;width: 200px; height: 200px;&quot; width=&quot;200&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;txc-textbox&quot; style=&quot;border: 1px solid rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;맥에서는 유사한 프로그램으로 &lt;/span&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;'토스트'가 있다.&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;윈도우에 네로라는 프로그램이 있다면, 매킨토시에는 &quot;토스트&quot;라는 이름을 가진 프로그램이 있다. 시디를 굽는 프로그램 이름이 토스트인 것은 상당히 재미있는 듯 하다. 시디를 굽는다는 표현 역시도 상당히 재미있는데, 시디를 굽는 과정을 마치 토스트에 식빵을 굽는 것처럼, &quot;토스트&quot;라는 프로그램으로 시디를 구워버리는 모습이라니... 아이디어가 상당히 좋은 듯 하기도 하면서 역시 사람은 상상의 동물이 아닐까 하는 그런 생각을 해보기도 한다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:751px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/277C5C375386CD8813EC26&quot; filemime=&quot;image/jpeg&quot; filename=&quot;toast 01.png&quot; height=&quot;599&quot; width=&quot;751&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;▲ 토스트9 버전을 실행 중인 화면, 최신 버전은 11이다.&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;txc-textbox&quot; style=&quot;border: 1px solid rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;파일 CD로 구울 것인가, 오디오 시디로 구울 것인가, ISO로 구울 것인가! 다양한 선택을 할 수 있다.&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;프로그램을 다운받고 실행시키면, 이미 우리가 기존에 &quot;네로&quot;와 같은 프로그램에서 자주 보아오던 화면과 유사한 화면이 등장한다. 시디나 디비디로 구울 파일을 집어넣고, 옵션을 설정해주고 시디 굽기를 눌러주면 시디 또는 디비디가 구워지는 것을 확인할 수 있다!&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;txc-textbox&quot; style=&quot;border: 1px solid rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;유료 프로그램, 가격은 $79.99&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;프로그램을 실행하면 간단하게 시디 또는 디비디를 구울 수 있는 환경을 제공하지만, 이 프로그램은 유료 프로그램이다. 가격은 무려 79.99달러에 육박하는 엄청난 가격을 보유하고 있는 모습이기도 하다. 하지만 누군가는 필요한 사람들이 있을 것이니, 이 프로그램으로 시디나 디비디를 마치 &quot;토스트&quot; 굽듯이 열심히 구워먹어보도록 하자.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;txc-textbox&quot; style=&quot;border: 1px solid rgb(254, 254, 184); background-color: rgb(254, 254, 184); padding: 10px;&quot;&gt;&lt;p&gt;OS: Macintosh&lt;/p&gt;&lt;p&gt;Price : Free&lt;/p&gt;&lt;p&gt;Homepage : &lt;a href=&quot;http://www.roxio.com/enu/products/toast/titanium/overview.html&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;http://www.roxio.com/enu/products/toast/titanium/overview.html&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-1939-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1939-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1939-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://theuranus.tistory.com/1939&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>PC &quot;Macintosh &amp; Windows&quot;</category>
+			<category>CD</category>
+			<category>DVD</category>
+			<category>MAC</category>
+			<category>nero</category>
+			<category>toast</category>
+			<category>굽기</category>
+			<category>네로</category>
+			<category>맥</category>
+			<category>토스트</category>
+			<category>프로그램</category>
+			<author>마속</author>
+			<guid>http://theuranus.tistory.com/1939</guid>
+			<comments>http://theuranus.tistory.com/1939#entry1939comment</comments>
+			<pubDate>Fri, 26 Sep 2014 07:57:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[정보] 신종 스미싱 &quot;고객님 배송 [부재중]으로 반송되었습니다.&quot;</title>
+			<link>http://theuranus.tistory.com/2286</link>
+			<description>&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;[정보] 신종 스미싱 &quot;고객님 배송 [부재중]으로 반송되었습니다.&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;아무것도 인터넷으로 주문을 한 것이 없는데 갑작스럽게 이러한 내용의 문자를 받았다. &quot;고객님 배송 [부재중]으로 반송되었습니다. 상세주소 확인해주세요. me2.do/FqmdR1Gp&quot;라는 내용의 문자였는데, 상세주소를 한번 살펴보니 왠지 미심쩍었다고 할까? 그래서 혹시나 해서 인터넷에서 검색을 해보니, 아니나 다를까 이 문자는 &quot;신종 스미싱&quot; 문자라고 한다. 혹시나 이러한 문자를 받았다면, 아무래도 &quot;주소 링크&quot;를 클릭하지 않는 것이 좋을 것이다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;고객님 배송 [부재중]으로 반송되었습니다.&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;문자의 내용은 다음과 같은데, 최근들어서 활개치고 있는 변종 스미싱 문자라고 하니, 이러한 문자를 받았다고, 당황해하거나, 곧이 곧대로 주소를 클릭해보지 않도록 하자. 주소를 클릭하면, &quot;ntoe.apk&quot; 파일을 다운로드 한다고 하며, &quot;113.10.136.154&quot;(홍콩) 주소로 감염된 휴대폰 번호와 통신사 등등을 등록한다고 하니, 이러한 문자를 받았다면, 링크를 클릭하지 않도록 하는 것이 좋을 것이다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:400px;width: 400px; height: 334px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/2205554254237F400C7B44&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_4628.png&quot; height=&quot;334&quot; style=&quot;width: 400px; height: 334px;&quot; width=&quot;400&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;기술이 발전하면서 세상이 점점 더 편해지는 반면에 이렇게 난감한 사기꾼들이 속속들이 등장하고 있으니, 아이러니한 상황이라고 할 수 있겠다. 아무튼 이러한 문자를 받았다면 괜히 호기심에 눌러보지 말고, 그냥 무시하길 바란다. 아마도 정말 택배가 배송이 되지 않았다면, 아마 집앞에 무언가 딱지가 붙어있거나 전화가 오지 않을까?&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2286-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2286-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2286-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://theuranus.tistory.com/2286&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>NEWS &amp; INFORMATION</category>
+			<category>고객님</category>
+			<category>반송</category>
+			<category>배송</category>
+			<category>부재중</category>
+			<category>스미싱</category>
+			<category>정보</category>
+			<category>택배</category>
+			<author>마속</author>
+			<guid>http://theuranus.tistory.com/2286</guid>
+			<comments>http://theuranus.tistory.com/2286#entry2286comment</comments>
+			<pubDate>Thu, 25 Sep 2014 12:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[음식] 제주말린 꽃감귤 &quot;제주도에서 볼 수 있는 간식?&quot;</title>
+			<link>http://theuranus.tistory.com/2285</link>
+			<description>&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;[음식] 제주말린 꽃감귤 &quot;제주도에서 볼 수 있는 간식?&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;저번 제주도 여행에서 돌아오면서 나름의 제주도 여행 기념품을 구입하기 위해서 들렀던 기념품 가게, 그 곳에서 다양한 제주도의 특산품으로 만들어진 간식들을 구매할 수 있었다. 이번에는 그 중의 하나로 &quot;제주말린 꽃감귤&quot;이라는 이름으로 판매가 되고 있는 간식거리를 한번 포스팅을 해보게 된다. 이번에도 역시 &quot;음식 도감&quot; 프로젝트의 일환이라고 해야할까? 평소에는 잘 볼 수 없는 독특한 음식들이나 평소에 잘 볼수 있지만, 아무도 신경을 쓰지 않는 그러한 음식까지 모조리 다루는 그러한 프로젝트라고 할 수 있을 듯 하다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:751px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/2144953C54237BFF35C675&quot; filemime=&quot;image/jpeg&quot; filename=&quot;R0026458.jpg&quot; height=&quot;497&quot; style=&quot;&quot; width=&quot;751&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:751px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/2643963C54237C0536DF8B&quot; filemime=&quot;image/jpeg&quot; filename=&quot;R0026459.jpg&quot; height=&quot;497&quot; style=&quot;&quot; width=&quot;751&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:751px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/2153913C54237C0929A55B&quot; filemime=&quot;image/jpeg&quot; filename=&quot;R0026462.jpg&quot; height=&quot;507&quot; style=&quot;&quot; width=&quot;751&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;제주도에서 볼 수 있는 제주말린 꽃감귤&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;제주도에는 제주도의 특산품으로 만들어진 독특한 간식거리들을 많이 볼 수 있는 그러한 모습이다. 제주도는 이제 관광에 특화가 된 것인지, 제주도에서 먹게 되는 음식들 마다 모조리 맛집이라고 할 수 있을 정도로 상당히 맛있는 음식들을 많이 접해볼 수 있는 그러한 장소가 된 것이 아닐까 싶다. 이번에는 그 중에서도 제주도의 특산품 중의 하나인 &quot;감귤&quot;을 이용해서 만든 그러한 간식거리를 한번 구매를 해보게 되었다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:751px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/25406E3C54237C0D391BF5&quot; filemime=&quot;image/jpeg&quot; filename=&quot;R0026460.jpg&quot; height=&quot;497&quot; style=&quot;&quot; width=&quot;751&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:751px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/2309743C54237C1203B8CF&quot; filemime=&quot;image/jpeg&quot; filename=&quot;R0026461.jpg&quot; height=&quot;497&quot; style=&quot;&quot; width=&quot;751&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;이름하여, 제주말린 꽃감귤&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;제주도에서 이렇게 감귤을 말려서 간식거리로 만들어서 판매하고 있는 그러한 모습이었는데, 그 모습이 평소에 잘 볼 수 없는 그러한 것이었기에 왠지 신기해하면서 간식거리를 먹어보았던 그러한 경험이 있다. 감귤을 그대로 말린 듯한 모습인지라, 생김새는 그다지 먹음직스럽지 않아 보이지만, 한번 먹어보면 은근히 맛이 있다. 조금 시큼하기도 한 그러한 맛이 나기도 하는데, 이 맛이 나름 중독성이 있다고 해야할까?&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;한 박스를 구매하니, 3봉지가 들어있는 그러한 모습이었는데, 한봉지는 일부러 남겨두었다가 이렇게 포스팅을 위해서 사용하고 있는 그러한 모습이다. 그리고 나머지 2봉지는 이미 사람들과 나누어 먹었고... 아무튼 앞으로도 계속되는 소인배닷컴의 &quot;음식 도감&quot; 프로젝트, 얼마나 다양한 음식을 접해볼 수 있을지 기대를 해보면서... 이번 제주도에서 볼 수 있는 제주말린 꽃감귤에 관한 소개를 마쳐본다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2285-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2285-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2285-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://theuranus.tistory.com/2285&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>COOKING &amp; FOOD</category>
+			<category>간식</category>
+			<category>꽃감귤</category>
+			<category>음식</category>
+			<category>음식 도감</category>
+			<category>제주도</category>
+			<category>제주말린</category>
+			<category>주전부리</category>
+			<category>한라봉</category>
+			<author>마속</author>
+			<guid>http://theuranus.tistory.com/2285</guid>
+			<comments>http://theuranus.tistory.com/2285#entry2285comment</comments>
+			<pubDate>Thu, 25 Sep 2014 11:30:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[음식] 러시아 초콜렛 &quot;러시아 선생님에게 받은 초콜릿&quot;</title>
+			<link>http://theuranus.tistory.com/2284</link>
+			<description>&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;[음식] 러시아 초콜렛 &quot;러시아 선생님에게 받은 초콜릿&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;최근들어서 새롭게 시작한 소인배닷컴의 음식도감 시리즈, 이번에는 독특한 음식을 한번 준비를 해보았다. 아니, 사실 일부러 준비한 것은 아니고 운이 좋게도 러시아 사람으로부터 하나 받아들게 된 &quot;간식거리&quot;인데, 평소에 우리가 잘 볼 수 없는 것이라서 그런 것인지 왠지 더 새로운 듯한 느낌이다. 앞뒤로 알 수 없는 언어들로 가득차 있으니 왠지 이국적인 느낌이 들기도 하고 말이다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:751px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/243D2450542375DA24FB75&quot; filemime=&quot;image/jpeg&quot; filename=&quot;R0023746.jpg&quot; height=&quot;497&quot; style=&quot;&quot; width=&quot;751&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;영어마을에서 머물다 간 러시아 학생들...&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;영어마을에 머물다 가는 외국인들이 의외로 많은 편이다. 우리나라와 가까운 일본이나 러시아에서도 우리나라로 영어를 배우기 위해서 오는 그러한 모습인데, 이 친구들의 경우에는 한번 왔다하면 4주 이상 머무는 것이 기본이다보니, 왠지 모르게 정이 더 많이 쌓이게 되는 듯 하다. 소인배닷컴도 가끔씩 그들과 수업을 하기도 했는데, 수업을 하고 있던 어느 날, 러시아 학생들을 인솔하고 온 선생으로부터 &quot;러시아 초콜릿&quot;을 받아을게 되었다. 생소한 글자들로 가득한 그러한 모습이었던지라 왠지 들뜬 마음으로 받아든 초콜릿이라고 할 수 있을 듯 하다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:751px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/2642FC50542375E41F0EB9&quot; filemime=&quot;image/jpeg&quot; filename=&quot;R0023747.jpg&quot; height=&quot;497&quot; style=&quot;&quot; width=&quot;751&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;이름도 모르고... 아무것도 모르지만 그냥 초콜릿이라는 것만 알겠다.&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;소인배닷컴은 아직 러시아 말을 배워둔 적이 없기에, 포장지에 무엇이라고 쓰여있는지 알 수가 없다. 다만, 그냥 그것이 글자라는 것만 어느 정도 예측할 뿐이다. 그래서 사실 이 제품의 정확한 이름도 모르고 어느 회사에서 만든 것인지도 알 수 없다. 그저 소인배닷컴이 할 수 있는 일은 &quot;러시아 초콜렛&quot;이라고 이름을 부르는 것밖에는...&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:751px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/21542650542375EF09661E&quot; filemime=&quot;image/jpeg&quot; filename=&quot;R0023748.jpg&quot; height=&quot;497&quot; style=&quot;&quot; width=&quot;751&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;맛은 조금 짠 듯 하고... 약간 독특하다.&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;포장지를 벗겨서 맛을 한번 보니, 우리나라 초콜릿과는 약간 다른 듯한 그러한 느낌이다. 우리나라 초콜릿은 달기만한 그러한 맛이라고 할 수 있을 듯 한데, 이 초콜릿은 왠지 모르게 소금이 들어가있는 듯한 그러한 맛으로, 약간 짠맛이 나는 것이 특징이라고 할 수 있을 듯 하다. 러시아 사람들의 입맛에 맞춘 초콜릿이라서 그런 것일지도 모르겠다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;아무튼, 러시아는 커녕 외국에 한번도 나가보지 않았지만, 이렇게 음식을 통해서 이국적인 분위기를 먼저 느껴보게 되는 듯 하다. 이렇게 음식을 먹어보고 그에 관한 글을 작성해보는 것도 은근히 재미있는 듯 하기도 하고... 이러한 것들도 하나하나 쌓아가다보면, 은근한 기록이 될 것이다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2284-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2284-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2284-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://theuranus.tistory.com/2284&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>COOKING &amp; FOOD</category>
+			<category>러시아</category>
+			<category>음식</category>
+			<category>초콜렛</category>
+			<category>초콜릿</category>
+			<author>마속</author>
+			<guid>http://theuranus.tistory.com/2284</guid>
+			<comments>http://theuranus.tistory.com/2284#entry2284comment</comments>
+			<pubDate>Thu, 25 Sep 2014 11:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Mac/Win] 가벼운 동영상 재생기 'VLC 플레이어'</title>
+			<link>http://theuranus.tistory.com/1940</link>
+			<description>&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;[Mac/Win] 가벼운 동영상 재생기 'VLC 플레이어'&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;맥에서는 기본적으로 퀵타임 플레이어라는 훌륭한 동영상 재생기를 보유하고 있긴 하지만, 가끔씩은 동영상을 열지 못하는 경우가 있어서 난감할 때가 있다. 물론, 이런 경우에 대비해서 이미 소개한 바 있는 Flip4Mac과 Perian이라는 코덱을 설치해주면 어느 정도는 이러한 내용을 해결할 수 있긴 하지만! 가끔씩 용량이 큰 무거운 동영상을 돌리게 되면, 프로그램 자체가 버벅거리는 경우가 있으니 가벼운 동영상 재생기가 필요한 경우가 있다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:150px;width: 150px; height: 150px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/27181D465386D3B9107D27&quot; filemime=&quot;image/jpeg&quot; filename=&quot;largeVLC.png&quot; height=&quot;150&quot; style=&quot;width: 150px; height: 150px;&quot; width=&quot;150&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;txc-textbox&quot; style=&quot;border: 1px solid rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;가벼운 동영상 재생기 VLC 플레이어&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;이번에 소개할 프로그램이 바로 그러한 가벼운 동영상 재생기, VLC 플레이어다. 동영상이 조금 무겁다 싶으면 VLC 플레이어를 이용해서 재생을 하게되면 버벅거림이 없이 가볍게 동영상을 재생할 수 있는 듯한 모습이다. 그리고, 맥용 동영상 재생기에서 잘 지원하지 않는 동영상 속도 조절도 상당히 자유자재로 할 수 있는 듯한 모습이라고 할 수 있다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:624px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/2678FC4F5386D93B0EB323&quot; filemime=&quot;image/jpeg&quot; filename=&quot;VLC.png&quot; height=&quot;348&quot; width=&quot;624&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;txc-textbox&quot; style=&quot;border: 1px solid rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;맥 전용 프로그램이 아니라, 다양한 OS에서도 실행이 가능한 플레이어&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;주로 맥 전용 프로그램만을 소개하는 소인배닷컴이지만, 이번에는 맥 전용 프로그램만은 아닌 듯한 모습이다. 맥 뿐만 아니라 윈도우 등의 다양한 OS에서도 이 프로그램을 실행할 수 있다. 다만, 소인배닷컴은 아무래도 맥 전용 유저이다보니, 모든 것을 맥 중심으로 소개를 하는 편이라 모든 스크린샷은 맥에서 찍은 것을 올리긴 하지만 말이다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;혹시나 가벼운 동영상 재생프로그램을 찾고 있다면 추천하고 싶은 그러한 프로그램이다. 사실, 우리나라에서 만든 &quot;무비스트&quot; 역시도 상당히 좋은 프로그램이긴 하지만, 언제부턴가 유료로 전환된 모습이라 프로그램을 다운받기가 은근히 부담스러운 상황이라고 할 수 있는데, 이 프로그램은 여전히 무료로 풀리고 있는 그런 프로그램이니 말이다. 물론, 프로그램별로 장단점은 있을 것이니, 어떤 프로그램을 설치할지 말지는 사용자들의 자유가 아닐까.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;txc-textbox&quot; style=&quot;border: 1px solid rgb(254, 254, 184); background-color: rgb(254, 254, 184); padding: 10px;&quot;&gt;&lt;p&gt;OS : Macintosh, Windows&lt;/p&gt;&lt;p&gt;Price : Free&lt;/p&gt;&lt;p&gt;Homepage : &lt;a href=&quot;http://www.videolan.org&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;http://www.videolan.org&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-1940-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1940-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1940-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://theuranus.tistory.com/1940&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>PC &quot;Macintosh &amp; Windows&quot;</category>
+			<category>MAC</category>
+			<category>VLC</category>
+			<category>win</category>
+			<category>동영상</category>
+			<category>맥</category>
+			<category>윈도우</category>
+			<category>재생</category>
+			<category>프로그램</category>
+			<category>플레이어</category>
+			<author>마속</author>
+			<guid>http://theuranus.tistory.com/1940</guid>
+			<comments>http://theuranus.tistory.com/1940#entry1940comment</comments>
+			<pubDate>Thu, 25 Sep 2014 07:57:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[경영] 유리천장/유리벽/유리절벽/유리 엘리베이터 &quot;직장에서 여성의 차별을 의미하는 말&quot;</title>
+			<link>http://theuranus.tistory.com/2283</link>
+			<description>&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;[경영] 유리천장/유리벽/유리절벽/유리 엘리베이터 &quot;직장에서 여성의 차별을 의미하는 말&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;요즘에는 예전에 비해서 비교적 여성의 사회 진출이 활발하다고는 하지만 여성들이 올라갈 수 있는 사회적 위치는 어느 정도 제한적인 듯 하다. 지금 우리나라만 둘러보아도 아직까지 높은 자리를 여성이 차지하고 있는 경우를 거의 볼 수가 없으니 말이다. 그래도 최근의 신입사원 유치 수준이나 고시 합격자의 비율을 살펴보면 여성이 강세를 보이고 있는 그러한 모습이니, 이러한 풍속은 점차 바뀔 수도 있을 것이라는 생각이 든다. 하지만, 그럼에도 불구하고 아직까지는 직장에서의 여성에 대한 차별은 존재하지 않을까 싶다. 물론 한편으로 생각해야할 부분이 그렇게 차별이 생기게 된 원인이 어디에 있을까 하는 것도 생각을 해보야 할 부분이 아닐까 싶다. 그것이 외부적인 문제에만 의한 것은 아닐 것이고, 분명히 여성 내부의 문제도 한몫을 하고 있는 그러한 상황이 아닐까?&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:680px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/22504D4F5422DA2B2286B7&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Glass-Ceiling.jpg&quot; height=&quot;478&quot; style=&quot;&quot; width=&quot;680&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;▲ 유리천장 (이미지 출처 : 구글 검색)&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;유리천장/유리벽&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;/유리절벽/유리 엘리베이터...&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;아무튼 이번에는 특별히 직장 내에서 여성의 차별을 의미하는 그러한 단어들을 준비를 해보았다. 모두 &quot;유리&quot;가 들어가는 그러한 모습인데, 여기에서의 유리는 아마도 &quot;보이지 않는&quot;의 의미로 사용이 된 듯한 그러한 모습이다. 유리 천장이라는 의미는 천장이 있긴 하지만, 유리로 되어 있어서 있는지 없는지 잘 알 수 없는 그러한 상황을 묘사하고 있는 것이라고 할 수 있을 것이고, 유리벽 역시도 보이지 않는 벽이라는 의미로 쓰였다고 볼 수 있을 것이다. 유리 절벽과 엘리베이터 역시도 동일한 의미로 사용이 된 그러한 모습인데, 각각의 표현이 어떠한 상황을 의미하는지 한번 정리를 해보도록 하자.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(254, 254, 184); background-color: rgb(254, 254, 184); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&quot;유리천장(GLASS CEILING)&quot;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;여성과 소수자의 승진을 제한하는 보이지 않는 장벽을 뜻한다. 암묵적이고 비공식적인 차별을 의미하는 단어다. 1986년 월스트리트 저널에서 처음 쓰였고, 성차별이 직장 고위층에 팽배해있음을 폭로하는 단어로 쓰인다.&lt;br /&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(254, 254, 184); background-color: rgb(254, 254, 184); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&quot;유리벽(GLASS WALL)&quot;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;직장 내에서 여성을 전통적인 여성적 기술이 요구되는 직종에만 배치하는 성 분리 현상의 은유다. &quot;보조 및 지원업무, 사무직, 상담, 인간관계 관련 업무&quot;와 같은 직종에 여성을 주로 배치하는 것을 의미한다. 이러한 여성집중직은 승진 사다리가 없는 주변적 업무이기에 여성에 대한 차별이라고도 볼 수 있다.&lt;br /&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(254, 254, 184); background-color: rgb(254, 254, 184); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&quot;유리절벽(GLASS CLIFF)&quot;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;실패가능성이 높은 프로젝트의 책임자로 여성이 승진한 경우에, 프로젝트가 실패한 후 여성이 승진과 더불어 해고되는 현상을 가리킨다. 마치 일부러 함정카드를 발동하는 것과 같은 상황으로 여성에 대한 차별을 의미한다.&lt;br /&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(254, 254, 184); background-color: rgb(254, 254, 184); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&quot;유리엘리베이터(GLASS ELEVATOR)&quot;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;여성이 많은 직업군에서 &quot;청일점&quot;으로 존재하는 소수의 남성이 여성보다 경영진으로 빠르게 승진하는 경우를 일컫는다. 일종의 남성우대로 여성애 대한 차별이라고도 할 수 있을 것이다.&lt;br /&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;여기까지, 직장 내에서 여성의 차별에 관한 내용을 다루고 있는 용어애 대해서 한번 살펴보았다. 아직까지도 직장 내에서는 나름의 여성에 대한 차별이 존재하는 듯한 그러한 모습이다. 하지만, 그러한 차별이 왜 생겼는지에 대해서 먼저 한번 생각을 해보고, 그 이후에 해결책을 마련해야하지 않나 하는 생각을 하게 된다. 정확한 원인을 알아야 올바른 해결방안을 만들어 낼 수 있을 것이니 말이다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2283-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2283-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2283-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://theuranus.tistory.com/2283&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>General Knowledge</category>
+			<category>경영</category>
+			<category>여성</category>
+			<category>유리</category>
+			<category>유리벽</category>
+			<category>유리엘리베이터</category>
+			<category>유리절벽</category>
+			<category>유리천장</category>
+			<category>직장</category>
+			<category>차별</category>
+			<author>마속</author>
+			<guid>http://theuranus.tistory.com/2283</guid>
+			<comments>http://theuranus.tistory.com/2283#entry2283comment</comments>
+			<pubDate>Wed, 24 Sep 2014 23:51:08 +0900</pubDate>
+		</item>
+		<item>
+			<title>[영어 표현] DEVIL'S ADVOCATE &quot;악마의 변호인?&quot;</title>
+			<link>http://theuranus.tistory.com/2282</link>
+			<description>&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;[영어 표현] DEVIL'S ADVOCATE &quot;악마의 변호인?&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;영어에는 간혹 우리나라에는 개념조차 없는 그러한 표현들이 존재하는 모습이다. 특정한 안건을 두고 여럿이서 회의를 하는 상황에서 외국 친구들의 경우에는 간혹 누가 &quot;악마의 변호인&quot;을 맡을지 정해두고 회의를 하는 경우가 있다고 한다. 악마의 변호인이라, 이야기를 듣기만 해도 왠지 섬뜩한 그러한 느낌인데, 악마의 변호인이라는 &quot;DEVIL'S ADVOATE&quot;은 무엇을 의미하고, 그 역할을 하기로 담당한 사람은 무엇을 하는 것일까? 이번 포스팅에서 한번 영어권의 문화와 더불어 그 단어 표현도 함께 알아보도록 한다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:300px;width: 300px; height: 317px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/2343D3335422CF461F5C69&quot; filemime=&quot;image/jpeg&quot; filename=&quot;devil.png&quot; height=&quot;317&quot; style=&quot;width: 300px; height: 317px;&quot; width=&quot;300&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;▲ DEVIL (이미지 출처 : 구글 검색)&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;우선 DEVIL'S ADVOCATE에 대해서 먼저 알아보도록 한다.&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;일반적으로 DEVIL'S ADVOCATE, 즉 악마의 변호인이라는 단어는 특정한 논쟁을 이끌어가는 사람을 의미한다. 특별히 누군가를 &quot;승진&quot;시키려고 하거나, 누군가에게 중책을 맡기려고 하는 그러한 회의가 진행이 되고 있을 때, 그 의견에 반대하는 역할을 담당하는 사람을 의미한다고 할 수 있다. 일반적으로 대다수가 동의하는 내용에 대해서 상반대는 주장을 펼치면서, 다른 사람들의 의사에 동의를 하지 않는 역할을 일부러 맡은 사람을 의미한다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;회의를 할 때, 특별히 누군가 이 역할을 하도록 지목을 하고 진행하는 경우가 있다.&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;아무래도 모두가 너무 싱겁게 특정한 주장에 동의를 해버리게 되면, 그 주장의 단점이 되는 부분들을 잘 살펴볼 수가 없을 수가 있다. 그래서 이렇게 일부러 &quot;딴지&quot;를 거는 사람을 두어서 원래의 주장이 정당한지, 그렇지 않은지에 관해서 고찰해보는 시간을 가져보는 것이다. 이러한 과정을 통해서 원래의 주장이나 상반되는 주장을 강화하거나 약화하는 그러한 역할을 하게 된다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;DEVIL'S ADVOCATE의 기원은?&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;그렇다면, 이 악마의 변호인이라는 말은 어디에서 나온 것일까? 바로 로마 카톨릭 교회의 시성식 과정에서 &quot;악마의 변호인&quot;이라는 단어가 널리 알려지게 되었다고 한다. 악마의 변호인은 가톨릭에서 법률을 담당하는 변호사로서&amp;nbsp; 교회의 권한에 의해서 임명이 되며, 시성식의 후보자에 반대가 되는 권한을 위임받는 것으로 알려져있다. 특정한 후보에 대해서 일부러 &quot;회의적인 시각&quot;을 가지고 후보를 검증하는 역할을 하는 사람에서 그것이 시작이 되었다고 한다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:751px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/244EDB335422CF47136099&quot; filemime=&quot;image/jpeg&quot; filename=&quot;jesus-and-the-devil.jpg&quot; height=&quot;469&quot; style=&quot;&quot; width=&quot;751&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;▲ 이미지 출처 : 구글 검색&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;악마의 변호인의 반대, GOD'S ADVOCATE도 있다.&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;이렇게, 특정한 주장에 대해서 반대를 하는 &quot;악마의 변호인&quot;과는 달리, 악마의 변호인의 주장과 반대의 주장을 취하는 &quot;하나님의 변호인&quot;, GOD'S ADVOCATE이라는 단어도 있다. 이 하나님의 변호인의 경우에는 시성식 후보에 찬성을 하는 입장을 취한다고 한다. DEVIL'S ADVOCATE와 정반대의 입장을 취하게 되면서 서로 후보를 검증하는 그러한 과정을 거쳤던 것이다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;이 &quot;DEVIL'S ADVOCATE&quot;의 역할을 두고, 만들어진 영화도 있는 그러한 모습이다. 소인배닷컴은 아직 영화를 보지 못했지만, 나중에 기회가 되면 한번 보는 것도 이 역할을 이해하는데 도움이 될 수 있을 것 같다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2282-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2282-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2282-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://theuranus.tistory.com/2282&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>English Expressions</category>
+			<category>ADVOCATE</category>
+			<category>Devil</category>
+			<category>GOD</category>
+			<category>악마의 변호인</category>
+			<category>영어</category>
+			<category>표현</category>
+			<category>하느님의 변호인</category>
+			<author>마속</author>
+			<guid>http://theuranus.tistory.com/2282</guid>
+			<comments>http://theuranus.tistory.com/2282#entry2282comment</comments>
+			<pubDate>Wed, 24 Sep 2014 23:04:57 +0900</pubDate>
+		</item>
+		<item>
+			<title>[심리] 후광효과/연쇄효과(HALO EFFECT)</title>
+			<link>http://theuranus.tistory.com/2281</link>
+			<description>&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;[심리] 후광효과/연쇄효과(HALO EFFECT)&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;심리학은 어찌보면 일상생활과는 동떨어져있는 것처럼 보이지만 실제로는 그렇지 않다. 우리가 살아가는 일상 속에서도 심리학에서 볼 수 있는 다양한 법칙들을 살펴볼 수가 있다. 특히, 어떤 사람의 어떠한 면만을 보고, 다른 면까지 미리 지레짐작하는 것은 무언가를 판단할 떄 우리가 흔히 하게되는 논리적인 오류 중의 하나라고 할 수 있을 것이다. 우리는 흔히 예를 들어서, &quot;김씨는 서울대를 나왔으니, 다른 모든 것을 다 잘할 것이야.&quot;라고 판단을 내리거나 생각을 하거나, &quot;그 친구는 공부를 잘하니, 참 성실하고 인간관계도 좋겠구만...&quot;이라고 판단하거나 생각을 하게 된다. 하지만, 이러한 부분은 논리적인 오류 중의 하나라고 할 수 있을 것이다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;후광효과 또는 연쇄효과, 주변의 평가 항목과는 상관이 없음에도 불구하고 그 평가항목에 영향을 주게 되는 판단의 오류&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;이렇게 주변의 평가 항목과는 상관이 없는 어떠한 것들이 주된 평가항목에 영향을 주게 된느 오류를 두고 우리는 &quot;후광효과&quot; 또는 &quot;연쇄효과&quot;라고 부른다. 특히 인사관리에 있어서 누군가의 인사고과를 평가하거나 할 때, 이러한 부분은 상당히 중요하게 생각이 되어야 하고, 그것에 신경을 씀에도 불구하고 우리는 이러한 오류를 흔히 만들어 내는 그러한 모습이다. 아무튼 이러한 오류를 심리학과 행정학에서는 어떻게 정리를 하고 있는지 알아보도록 하자.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(254, 254, 184); background-color: rgb(254, 254, 184); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&quot;후광효과/연쇄효과 (HALO EFFECT)&quot;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 평정자가 가지고 있는 인상 등에 의해서 평정요소 간에 나타나는 오류&lt;/p&gt;&lt;p&gt;- 하나의 평정요소가 후한 점수를 받게 되면 나머지 평정요소도 후한 점수를 받는 것&lt;/p&gt;&lt;p&gt;- 도표식 평정척도법에서 발생한다.&lt;/p&gt;&lt;p&gt;- 논리적 오류와 구분이 된다. (논리적 오류의 예 : 가방이 크니까 공부를 잘할 것이다라는 착각)&lt;br /&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;오랜만에 이렇게 예전에 공부를 했던 행정학 노트를 살펴보니, 행정학에서는 관련 내용을 이렇게 정리를 해두고 있는 그러한 모습이다. 위에서 마지막 부분을 살펴보면, 논리적 오류와 구분이 된다고 이야기를 하고 있는 그러한 모습인데, 사실 논리적인 오류도 &quot;후광효과&quot; 또는 &quot;연쇄효과&quot;와 비슷한 내용을 담고 있는 오류이기에 상당히 헷갈리는 그러한 상황이 된다. 그래서 논리적 오류에 대해서도 한번 간략하게 살펴보도록 한다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:751px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/2571604B5422CA3225D389&quot; filemime=&quot;image/jpeg&quot; filename=&quot;QyeIqpf.jpg&quot; height=&quot;563&quot; style=&quot;&quot; width=&quot;751&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;▲ 또다른 의미의 HALO EFFECT?&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(254, 254, 184); background-color: rgb(254, 254, 184); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&quot;논리적 오류&quot;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;- 평정과정에서 논리적 상관관계가 있는 양 요소 중의 하나가 특별히 좋거나 혹은 아주 낮은 점수를 받았을 때, 상관관계에 있는 다른 요소도 높게 혹은 낮게 평정하는 경향&lt;/p&gt;&lt;p&gt;- 예 : 작업량이 높으면 숙련도도 높다고 생각하는 것, 가방이 크니까 공부를 잘할 것이라고 생각하는 것&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;논리적인 오류 역시 후광효과 또는 연쇄효과와 비슷하기에 그 둘을 구분하려고 하면 상당히 헷갈리게 되는 듯 하다. 하지만, 우리가 일상생활에서 이러한 내용을 가지고 시험을 치르려고 하는 것은 아니니 적당히 알고 넘어가면 괜찮을 것이다. 후광효과와 논리적 오류의 차이점 중의 하나라고 한다면, 논리적 오류의 경우에는 항상 1:1 매칭이 된다고 한다. 한가지 요소가 한가지에 영향을 주게 되면 논리적 오류라고 할 수 있을 듯 하기도 하다. 반면, 후광효과 또는 연쇄효과의 경우에는 한가지 요소가 여러가지에 영향을 줄 수 있는 그러한 상황이라고 할 수 있을 것이다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;아무튼 여기까지 오랜만에 심리학이나 경영학, 행정학에서 볼 수 있는 후광효과 또는 연쇄효과에 대해서 간략하게 알아보았다. 가끔씩 심리학 관련 용어나 사례를 살펴보는 일이 있는데, 이러한 것들을 살펴보는 것도 은근히 재미있는 듯 하다. 실생활에서 적용할 수 있는 사례들도 은근히 많으니 말이다. 아무튼 이 글이 많은 사람들에게 도움이 되길 바라면서 짤막한 글을 마친다!&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2281-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2281-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2281-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://theuranus.tistory.com/2281&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>General Knowledge</category>
+			<category>halo effect</category>
+			<category>경영학</category>
+			<category>논리</category>
+			<category>심리</category>
+			<category>심리학</category>
+			<category>연쇄효과</category>
+			<category>오류</category>
+			<category>판단</category>
+			<category>행정학</category>
+			<category>후광효과</category>
+			<author>마속</author>
+			<guid>http://theuranus.tistory.com/2281</guid>
+			<comments>http://theuranus.tistory.com/2281#entry2281comment</comments>
+			<pubDate>Wed, 24 Sep 2014 22:43:11 +0900</pubDate>
+		</item>
+		<item>
+			<title>[상식] 9월 28일 '공부자강일' &quot;공자님의 생신에 쉬는 학교는?&quot;</title>
+			<link>http://theuranus.tistory.com/2280</link>
+			<description>&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;[상식] 9월 28일 '공부자강일' &quot;공자님의 생신에 쉬는 학교는?&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;성균관대학교로 이적을 하고 난 후, 좋았던 점 중의 하나가 바로 이것의 존재때문이 아닐까 싶다. 성균관대에는 다른 곳에서는 볼 수 없는 특별한 휴일이 하루 더 있다. 바로 학생들에게는 공부자탄강일이라고 알려져있는 아주 특별한 날이 그것이다. 성균관대학교가 &quot;유교&quot;에 근간을 두고 있는 학교이다보니, 이렇게 유교를 창시한 &quot;공자&quot;님의 생신을 기리는 특별한 행사를 가지고 있는 것이다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;성균관대에서는 특별한 공부자탄강일&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;아마도 성균관대학교를 다니지 않았다면, 평생 모르고 지냈을 특별한 그 날이 바로 &quot;공부자탄강일&quot;이라는 휴일이 아닐까 싶다. 다른 곳에서는 평소에 볼 수도 들어볼 수도 없었던 그러한 특별한 날이기에, 오로지 성균관대에서만 특별하게 모시고 있는 그러한 날이기에 이 곳의 일원이 되지 않으면 모르는 그러한 신비스러운 날이라고 할 수 있을 듯 하기도 하다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:751px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/216BCB3E5422C40E167961&quot; filemime=&quot;image/jpeg&quot; filename=&quot;SUNGKYUNKWAN_041.jpg&quot; height=&quot;497&quot; style=&quot;&quot; width=&quot;751&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;▲ 성균관 대성전&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;석젠대제가 열리기도 한다.&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;이러한 공부자탄강일에는 옛 성균관이 있던 자리에서 특별한 행사가 열리는 그러한 모습이다. 바로 &quot;석전대제&quot;라는 이름으로 행사가 열리는 것인데, 매년 제법 행사가 크게 열리는 듯한 그러한 모습이다. 은근히 유명한 분들이 이 곳의 행사에 참여하기 위해서 방문하는 그러한 모습이기도 하고... 소인배닷컴도 이 행사를 보기 위해서 한번 학교를 방문해보고 싶은 그러한 마음이 있었는데, 항상 체력의 문제로 행사에 방문을 하지 못해서 안타깝기 그지 없다. 결국 학교에 몸을 담았던 기간동안 한번도 그 행사를 보지 못했으니 말이다. 처음에는 무지해서 보지 못했고, 나중에는 &quot;체력적인 문제&quot;로 인해서 보지 못했으니...&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;대성전에서 행사가 진행이 된다.&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;이 특별한 행사는 성균관대학교 안의 옛 성균관의 건물 중 &quot;대성전&quot;이라는 건물에서 행사가 진행이 된다. 성균관은 크게 대성전과 명륜당으로 나뉘어져 있는 그러한 모습인데, 명륜당이 과거 교육을 담당하는 건물이었다고 한다면, 대성전은 의례를 담당하는 곳이었다고 할 수 있으니, 그 때의 전통이 나름 지금까지 이어져오고 있다고 할 수도 있겠다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:751px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/256BC63E5422C411168143&quot; filemime=&quot;image/jpeg&quot; filename=&quot;SUNGKYUNKWAN_037.jpg&quot; height=&quot;497&quot; style=&quot;&quot; width=&quot;751&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;성균관대 건학기념일은 9월 25일, 공부자탄강일은 9월 28일&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;여기에 한가지 더 재미있는 사실은 성균관대의 건학기념일은 9월 25일, 그리고 공부자탄강일은 9월 28일이다. 그래서 운이 좋으면, 한주에 연달아서 이틀을 쉬게 되는 경우가 있다. 그리고 시간표를 잘 짜는 경우에는 중간에 하루쯤 공강이 있으면 거의 연휴를 즐기는 것 같은 그러한 한주가 되는 경우도 있는데, 새로운 학기의 시작과 함께 쌓인 피로를 해소하거나 밀린 학업진도를 따라가는데 도움이 되는 그러한 날이다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;아무튼, 이제는 학교에서 벗어나 있기에 더 이상 즐길 수 없는 9월 28일의 공부자탄강일이지만, 조만간 공부자탄강일이 다가오니, 괜히 한번 이렇게 글을 작성해본다. 올해 9월 28일에도 옛 성균관은 붐비겠지...&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div style=&quot;border-style: solid; border-width: 1px; border-color: rgb(254, 254, 184); background-color: rgb(254, 254, 184); padding: 10px;&quot; class=&quot;txc-textbox&quot;&gt;&lt;p&gt;&lt;b&gt;&quot;함께 보면 좋은 글&quot;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://theuranus.tistory.com/1529&quot; target=&quot;_blank&quot;&gt;2013/11/07 - 성균관의 가을 풍경, &quot;단풍이 든 2013년 11월 7일의 풍경&quot;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://theuranus.tistory.com/1705&quot; target=&quot;_blank&quot;&gt;2014/02/17 - [서울 여행지] 서울 문묘, '성균관' &quot;성균관스캔들? 커밍아웃을 한 은행나무?&quot;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://theuranus.tistory.com/1757&quot; target=&quot;_blank&quot;&gt;2014/02/25 - 성균관대학교 졸업식 풍경 '2014년 2월 25일'&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-2280-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2280-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-2280-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://theuranus.tistory.com/2280&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>General Knowledge</category>
+			<category>9월 28일</category>
+			<category>건학기념일</category>
+			<category>공부자탄강일</category>
+			<category>공자</category>
+			<category>상식</category>
+			<category>생신</category>
+			<category>성균관대학교</category>
+			<category>휴일</category>
+			<author>마속</author>
+			<guid>http://theuranus.tistory.com/2280</guid>
+			<comments>http://theuranus.tistory.com/2280#entry2280comment</comments>
+			<pubDate>Wed, 24 Sep 2014 22:17:40 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Mac] 맥용 블루레이 재생기, 블루레이 플레이어 'MACGO BLU-RAY PLAYER'</title>
+			<link>http://theuranus.tistory.com/1941</link>
+			<description>&lt;p&gt;&lt;b&gt;&lt;font color=&quot;#003399&quot;&gt;[Mac] 맥용 블루레이&amp;nbsp;재생기, 블루레이 플레이어&amp;nbsp;'MACGO&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;BLU-RAY PLAYER'&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;맥에서 블루레이급의 동영상을 재생하려고 하거나, 진짜 &quot;블루레이&quot;로 제작된 동영상을 재생하려면 상당히 난감할 수도 있을 것이다. 아무래도 윈도우의 경우에는 블루레이 동영상 재생기를 손쉽게 찾을 수 있는 모습이지만, 맥의 경우에는 우리나라에서 맥을 사용하는 사람들의 숫자가 그리 많지 않은 편인지라 상대적으로 관련 프로그램을 찾기도 쉽지 않은 모습이니 말이다. 그래서, 이번에 소개할 프로그램은 바로 이러한 &quot;거대한 동영상&quot; 을 재생할 수 있는 맥용 블루레이 재생기에 관한 프로그램이다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:188px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/232E573C5386DC9F2EB1CA&quot; filemime=&quot;image/jpeg&quot; filename=&quot;page1_img1.png&quot; height=&quot;160&quot; width=&quot;188&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;txc-textbox&quot; style=&quot;border: 1px solid rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;맥용 블루레이 플레이어 BLU-RAY PLAYER&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;이번 프로그램은 이름부터 블루레이 플레이어다. 정말 이름만 들으면 그 용도를 손쉽게 알아차릴 수 있을 것만 같은 그런 프로그램이라고 할 수 있다. 블루레이 플레이어답게 프로그램이 정말 가벼운 듯한 느낌을 많이 받는다. 정말 불필요한 기능을 완전히 제거한 군더더기 없는 듯한 그런 모습을 가지고 있는 프로그램이라고 할 수 있으니 말이다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;txc-textbox&quot; style=&quot;border: 1px solid rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;720P, 1080i 등의 동영상을 재생해도 전혀 끄떡없는 모습&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;역시 블루레이 플레이어라서 그런 것일까? 블루레이급의 화질로 만들어진 동영상을 이 프로그램으로 재생할 때도 전혀 무리없이 재생할 수 있는 듯한 모습이다. 실제로 이 프로그램을 가지고 2008년에 구입한 맥북을 가지고 720P 화질의 동영상을 재생했는데도! 끊김이 하나도 없이 재생이 되는 모습이었으니 말이다. 그렇게 오래된 컴퓨터에서도 아무 무리 없이 영상을 재생할 수 있는 모습이니, 최근 나온 컴퓨터에서 이 프로그램까지 사용한다면 정말 가볍게 동영상을 재생할 수 있지 않을까 하는 그런 생각이 든다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:751px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/213BEC435386DCBD030CE1&quot; filemime=&quot;image/jpeg&quot; filename=&quot;Caprica1.png&quot; height=&quot;469&quot; width=&quot;751&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;▲ BLU-RAY PLAYER로 CAPRICA 영상을 재생 중인 화면&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;txc-textbox&quot; style=&quot;border: 1px solid rgb(219, 232, 251); background-color: rgb(219, 232, 251); padding: 10px;&quot;&gt;&lt;p&gt;&lt;b&gt;&lt;span style=&quot;color: rgb(0, 51, 153);&quot;&gt;&quot;하지만 아쉽게도 유료! 원래 가격은 $59.95, 지금 할인하니 $39.95!&quot;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;단 한가지 아쉬운 점이 있다면, 이 프로그램은 무료 프로그램이 아닌 유료 프로그램이라는 것이다. 기능도 좋고 성능도 좋은 만큼 돈을 지불해야만 프로그램을 사용할 수 있는 모습이라고 할 수 있을까? 하지만 그나마 한편으로 다행인 소식은 지금 할인을 하고 있다는 것! 원래는 59.95달러에 구매해야 하는 프로그램을 39.95달러에 구매할 수 있는 모습이다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;조금 비싸긴 하지만, 블루레이 동영상 재생을 위해서 받아두면 그런 프로그램이라고 할 수 있을 듯 하다. 유료 프로그램인 만큼 성능은 확실한 듯 하긴 하지만, 가격이 조금 부담되는 것이 사실이긴 하다. 다른 무료 프로그램으로 영상을 한번 재생시켜보고 그래도 안되겠다 싶으면 한번 프로그램을 받아보는 것을 추천한다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;txc-textbox&quot; style=&quot;border: 1px solid rgb(254, 254, 184); background-color: rgb(254, 254, 184); padding: 10px;&quot;&gt;&lt;p&gt;OS : Macintosh&lt;/p&gt;&lt;p&gt;Price : $59.95 (33% discount now $39.95)&lt;/p&gt;&lt;p&gt;Homepage : &lt;a href=&quot;http://www.macblurayplayer.com&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;http://www.macblurayplayer.com&lt;/a&gt;&lt;br /&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-1941-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1941-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-1941-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;div style=&quot;text-align:left; padding-top:10px;clear:both&quot;&gt;
+&lt;iframe src=&quot;http://www.facebook.com/plugins/like.php?href=http://theuranus.tistory.com/1941&amp;amp;layout=standard&amp;amp;show_faces=true&amp;amp;width=310&amp;amp;action=like&amp;amp;font=tahoma&amp;amp;colorscheme=light&amp;amp;height=65&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;border:none; overflow:hidden; width:310px; height:35px;&quot; allowTransparency=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+			<category>PC &quot;Macintosh &amp; Windows&quot;</category>
+			<category>Blu-ray</category>
+			<category>MAC</category>
+			<category>MACGO</category>
+			<category>player</category>
+			<category>동영상</category>
+			<category>맥</category>
+			<category>블루레이</category>
+			<category>재생기</category>
+			<category>플레이어</category>
+			<author>마속</author>
+			<guid>http://theuranus.tistory.com/1941</guid>
+			<comments>http://theuranus.tistory.com/1941#entry1941comment</comments>
+			<pubDate>Wed, 24 Sep 2014 07:57:00 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

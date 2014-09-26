@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+
+<channel>
+	<title>괴짜 프로그래머의 일상사~</title>
+	
+	<link>http://www.jiniya.net/wp</link>
+	<description>컴퓨터의 깊이를 재기 위해, 컴퓨터 속으로 들어간 개발자 이야기...</description>
+	<lastBuildDate>Wed, 17 Sep 2014 02:57:57 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.0</generator>
+<image><title>괴짜 프로그래머의 일상사~</title><url>http://www.jiniya.net/img/wplogo.jpg</url><link>http://www.jiniya.net/wp</link></image>	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/codewiz" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="codewiz" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:emailServiceId xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">codewiz</feedburner:emailServiceId><feedburner:feedburnerHostname xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">https://feedburner.google.com</feedburner:feedburnerHostname><item>
+		<title>예제의 중요성, 복붙 프로그래밍의 위험성</title>
+		<link>http://www.jiniya.net/wp/archives/14297</link>
+		<comments>http://www.jiniya.net/wp/archives/14297#comments</comments>
+		<pubDate>Mon, 15 Sep 2014 06:48:04 +0000</pubDate>
+		<dc:creator><![CDATA[codewiz]]></dc:creator>
+				<category><![CDATA[코드]]></category>
+		<category><![CDATA[프로그래밍]]></category>
+
+		<guid isPermaLink="false">http://www.jiniya.net/wp/?p=14297</guid>
+		<description><![CDATA[ExampleSlot의 핸들릭을 가진 해킹툴 프로그램 간만에 해킹툴을 하나 살펴보고 있었습니다. 특징적인 게 메일슬롯을 사용하는데 ExampleSlot이란 이벤트 핸들릭이 있었습니다. ExampleSlot이라고 네임드 이벤트 이름을 지은 것도 웃긴데, 핸들릭도 어처구니 없는 그런 해킹툴이었죠. 메일슬롯으로 아주 중요한 데이터가 오가는 것 같아서 관련 함수를 살펴보고 있었습니다. 그러다 이 모든 시츄에이션을 설명해주는 MSDN 예제를 만나게 되었습니다. 그제서야 해커가 왜 그런 ㅂㅅ같은 [&#8230;]]]></description>
+		<wfw:commentRss>http://www.jiniya.net/wp/archives/14297/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>MmIsAddressValid와 PTE</title>
+		<link>http://www.jiniya.net/wp/archives/14290</link>
+		<comments>http://www.jiniya.net/wp/archives/14290#comments</comments>
+		<pubDate>Mon, 15 Sep 2014 02:31:46 +0000</pubDate>
+		<dc:creator><![CDATA[codewiz]]></dc:creator>
+				<category><![CDATA[코드]]></category>
+		<category><![CDATA[프로그래밍]]></category>
+
+		<guid isPermaLink="false">http://www.jiniya.net/wp/?p=14290</guid>
+		<description><![CDATA[다른 메모리에 접근할 일이 많은 보안 드라이버에서 자주 사용되는 함수 중에 하나가 MmIsAddressValid 함수다. MmIsAddressValid 함수는 접근하려는 메모리가 제대로 된 메모리인지 검사하는 코드다. 그런데 이 함수에서 말하는 valid의 의미는 생각보다 많이 좁다. 단순히 할당되서 접근할 수 있는 메모리를 의미하는 것이 아닌 실제로 물리 메모리에 존재하는 것들에 대해서만 valid 하다고 판단하기 때문이다. 즉, 페이지 아웃된 메모리는 [&#8230;]]]></description>
+		<wfw:commentRss>http://www.jiniya.net/wp/archives/14290/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>가상 함수 테이블 보호하기</title>
+		<link>http://www.jiniya.net/wp/archives/14277</link>
+		<comments>http://www.jiniya.net/wp/archives/14277#comments</comments>
+		<pubDate>Fri, 05 Sep 2014 08:05:49 +0000</pubDate>
+		<dc:creator><![CDATA[codewiz]]></dc:creator>
+				<category><![CDATA[코드]]></category>
+		<category><![CDATA[케이쉴드]]></category>
+		<category><![CDATA[프로그래밍]]></category>
+
+		<guid isPermaLink="false">http://www.jiniya.net/wp/?p=14277</guid>
+		<description><![CDATA[클라이언트 코드 보안은 여러모로 복마전 같은 느낌이 강하다. CPU가 최종적으로 코드를 실행 시키기 때문에 사실상 해커가 코드를 분석하는 것을 완전하게 막는 방법은 없다. 게다가 현대적인 프로그램들은 이미 그 규모가 어마어마하게 크기 때문에 어떤 지점에서 어떤 공격이 벌어질지 사실상 예측하는 것이 불가능하다고 할 수 있다. 이런 이유로 클라이언트 코드 보안 영역에서는 줄기차게 해커와 경쟁을 벌일 수 [&#8230;]]]></description>
+		<wfw:commentRss>http://www.jiniya.net/wp/archives/14277/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>윈도우 2k: kernel32, ntdll 함수 덤프</title>
+		<link>http://www.jiniya.net/wp/archives/14265</link>
+		<comments>http://www.jiniya.net/wp/archives/14265#comments</comments>
+		<pubDate>Thu, 04 Sep 2014 03:27:27 +0000</pubDate>
+		<dc:creator><![CDATA[codewiz]]></dc:creator>
+				<category><![CDATA[코드]]></category>
+		<category><![CDATA[프로그래밍]]></category>
+
+		<guid isPermaLink="false">http://www.jiniya.net/wp/?p=14265</guid>
+		<description><![CDATA[MSDN 도움말에서 윈도우 2000이 사라진지 참 오래됐지요. 그럼에도 불구하고 여전히 윈도우 2000에서 돌아가는 프로그램을 만들어야 하는 개발자라면 과연 이 API가 윈도우 2000에 있는건지 없는건지 참 헷갈리는 경우가 많습니다. 그래서 써야 할까 말아야 할까? 동적 바인딩을 해야할까? 그냥 써도 될까? 궁금한거죠. 그러다 까딱 잘못하면 뭐 함수를 찾을 수 없다는 엄청난 오류에 봉착하곤 합니다. 그래서 매번 테스트 [&#8230;]]]></description>
+		<wfw:commentRss>http://www.jiniya.net/wp/archives/14265/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>MFC 위성 DLL 취약점</title>
+		<link>http://www.jiniya.net/wp/archives/14240</link>
+		<comments>http://www.jiniya.net/wp/archives/14240#comments</comments>
+		<pubDate>Wed, 03 Sep 2014 06:23:56 +0000</pubDate>
+		<dc:creator><![CDATA[codewiz]]></dc:creator>
+				<category><![CDATA[코드]]></category>
+		<category><![CDATA[프로그래밍]]></category>
+
+		<guid isPermaLink="false">http://www.jiniya.net/wp/?p=14240</guid>
+		<description><![CDATA[MFC 7.0부터 위성 DLL이란게 추가된 것 같습니다. 이게 머 위성 DLL하니 말이 거창한데 리소스 DLL을 분리시켜 놓고 시스템 언어에 맞게 리소스 DLL을 로드하는 것을 의미하나 봅니다. 상세 기능은 여기 링크를 참고하시면 됩니다. 근데 안타깝게도 MFC 개발팀에서 이 기능을 만들면서 초기에 소소한 실수(?!)를 하는 바람에 취약점이 생겼나 보네요. 머 대단한 취약점은 아니고 LPK.DLL이나 USP10.DLL 같이 임의의 [&#8230;]]]></description>
+		<wfw:commentRss>http://www.jiniya.net/wp/archives/14240/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>뉴스타파 전국 유해 물질 데이터 지도</title>
+		<link>http://www.jiniya.net/wp/archives/14215</link>
+		<comments>http://www.jiniya.net/wp/archives/14215#comments</comments>
+		<pubDate>Wed, 27 Aug 2014 16:58:35 +0000</pubDate>
+		<dc:creator><![CDATA[codewiz]]></dc:creator>
+				<category><![CDATA[양피지]]></category>
+		<category><![CDATA[일상스케치]]></category>
+
+		<guid isPermaLink="false">http://www.jiniya.net/wp/?p=14215</guid>
+		<description><![CDATA[주거지에 유해물질 유출… 세월호 이후도 안전대책은 제자리 내 집 주변에 위험물질이? 전국 유해물질 데이터 지도 공개 뉴스타파에서 전국 유해물질 데이터 지도를 공개했습니다. 참, 잘했어요. 짝짝짝. 심심해서 좀 살펴봤는데요. 씁쓸한 뒷맛만 남는군요. 지도가 궁금하신 분은 여기서 살펴보시면 됩니다. 집 주변 한 번 확인해 보세요. 하나라도 유해물질 보관하는 곳이 있다면 포풍민원질로 공무원들을 쪼으도록 합시다. 그래야 그나마 조금이라도 [&#8230;]]]></description>
+		<wfw:commentRss>http://www.jiniya.net/wp/archives/14215/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>RPC를 APC로 구현하면 망하는 이유</title>
+		<link>http://www.jiniya.net/wp/archives/14201</link>
+		<comments>http://www.jiniya.net/wp/archives/14201#comments</comments>
+		<pubDate>Tue, 26 Aug 2014 12:29:50 +0000</pubDate>
+		<dc:creator><![CDATA[codewiz]]></dc:creator>
+				<category><![CDATA[코드]]></category>
+		<category><![CDATA[프로그래밍]]></category>
+
+		<guid isPermaLink="false">http://www.jiniya.net/wp/?p=14201</guid>
+		<description><![CDATA[어제 새 기능 버그를 잡고 있었는데 생각보다 일이 커졌다. 결국 RPC가 필요하다는 결론에 도달했다. RPC를 뭐로 만들지 고민을 한참했다. 어떤게 제일 손 안데고 코풀 수 있는 방법일까(?!) 고민한 끝에 APC를 사용한 꼼수로 구현하기로 했다. 메커니즘은 완벽했다. 마치 APC는 나에게 RPC 구현을 위해서 만들어 둔 통로처럼 느껴졌다. 둘다 procedure call이니 뭐 도찐개찐이기도 하고. 여튼 그렇게 지루한 [&#8230;]]]></description>
+		<wfw:commentRss>http://www.jiniya.net/wp/archives/14201/feed</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>윈도우 스토어 앱 개발하긔~</title>
+		<link>http://www.jiniya.net/wp/archives/14118</link>
+		<comments>http://www.jiniya.net/wp/archives/14118#comments</comments>
+		<pubDate>Thu, 31 Jul 2014 05:40:23 +0000</pubDate>
+		<dc:creator><![CDATA[codewiz]]></dc:creator>
+				<category><![CDATA[코드]]></category>
+		<category><![CDATA[프로그래밍]]></category>
+
+		<guid isPermaLink="false">http://www.jiniya.net/wp/?p=14118</guid>
+		<description><![CDATA[iOS가 판도라의 상자를 연 이후로 요즘만큼 개발자들이 피곤한 시대가 또 있었을까 싶다. 초창기 윈도우 프로그래머로 일하던 시절에는 윈도우 9x만 없다면 뭐든지 다할수 있을 것 같다는 말들이 유행했었다. 그렇게 영원이 악몽같이 존재할 것 같던 윈도우 9x도 윈도우 비스타와 윈도우 7의 출현으로 역사의 뒤안길로 사라졌다. 그렇게 잠시나마 태평성대가 오나 싶더니만 iOS와 함께 온갖 종류의 플랫폼이 우후죽순 등장해 [&#8230;]]]></description>
+		<wfw:commentRss>http://www.jiniya.net/wp/archives/14118/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>BSOD: 신호와 소음</title>
+		<link>http://www.jiniya.net/wp/archives/14056</link>
+		<comments>http://www.jiniya.net/wp/archives/14056#comments</comments>
+		<pubDate>Tue, 22 Jul 2014 02:28:10 +0000</pubDate>
+		<dc:creator><![CDATA[codewiz]]></dc:creator>
+				<category><![CDATA[코드]]></category>
+		<category><![CDATA[프로그래밍]]></category>
+
+		<guid isPermaLink="false">http://www.jiniya.net/wp/?p=14056</guid>
+		<description><![CDATA[#0 2008 베이징 올림픽 개막식을 장식한 화려한 블루스크린 드라이버 개발자 10명을 불러다 놓고 어떤 말을 제일 싫어하십니까, 라고 물어보면 10명 모두 BSOD를 제일 싫어한다고 대답할 것이다. 그만큼 BSOD는 드라이버 개발자에게는 제일 듣기 싫은 말이다. 자다가도 경기를 일으키고, 소리만 나와도 소스라치게 놀라며, 화면에 파란 도트만 보여도 커널 개발자를 겁에 질리게 만들어 버리는 녀석이 바로 BSOD다. BSOD는 [&#8230;]]]></description>
+		<wfw:commentRss>http://www.jiniya.net/wp/archives/14056/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>드라이버 개발 환경 설정</title>
+		<link>http://www.jiniya.net/wp/archives/14027</link>
+		<comments>http://www.jiniya.net/wp/archives/14027#comments</comments>
+		<pubDate>Wed, 16 Jul 2014 07:31:26 +0000</pubDate>
+		<dc:creator><![CDATA[codewiz]]></dc:creator>
+				<category><![CDATA[코드]]></category>
+
+		<guid isPermaLink="false">http://www.jiniya.net/wp/?p=14027</guid>
+		<description><![CDATA[시스템 설치할 때마다 여기 저기 검색해서 찾기 귀찮아서 정리한 페이지!!! windbg 심벌 경로 srv*C:\WebSymbols*http://msdl.microsoft.com/download/symbols 윈도 XP 커널 디버그 설정 boot.ini 편집 multi(0)disk(0)rdisk(0)partition(1)\WINDOWS=&#8221;Debugging with Cable&#8221; /fastdetect /debug /debugport=COM1 /baudrate=115200 윈도 Vista+ 커널 디버그 설정 msconfig 들어가서 Advanced에서 디버그 옵션을 켜면됨 virtualbox 이미지 미리 구워논 이미지가 없으면 아래 사이트에서 다운로드 받아서 사용하면 편리함 https://www.modern.ie/en-us/virtualization-tools WDk 7.1.0 http://www.microsoft.com/en-us/download/details.aspx?id=11800 [&#8230;]]]></description>
+		<wfw:commentRss>http://www.jiniya.net/wp/archives/14027/feed</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+	</channel>
+</rss>

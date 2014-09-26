@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[갱주니 블로그(AiWisdom)]]></title>
+			<link>http://process3.blog.me</link>
+			
+				<image>
+					<url><![CDATA[http://blogpfthumb.phinf.naver.net/20110305_74/process3_1299303594931_pp6k7Q_jpg/ilomilo.jpg?type=m2]]></url>
+					<title><![CDATA[갱주니 블로그(AiWisdom)]]></title>
+					<link>http://process3.blog.me</link>
+				</image>
+			
+			<description><![CDATA[나이를 한살 한살 먹는것이 왜 이렇게 무거운 것인지 왜 몰랐지?]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:47:53 +0900</pubDate>
+
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임이야기...]]></category>
+					<title><![CDATA[글 잘쓰는 법]]></title>
+					<link>http://process3.blog.me/20204147984</link>
+					<guid>http://process3.blog.me/20204147984</guid>
+					<description><![CDATA[글 잘쓰는 법1) 주어와 술어를 맞춘다.2)단문을 쓴다.3)복문은 주어 술어 맞추기가 어렵다.4) 'A가 뭐뭐 했다'로 가야 하는데 복문이 되면 읽는 사람이 혼동된다.5) 수동 표현을 쓰면 안된다. 우리나라는 수동형 없다.뭐뭐 하지 않을수 없다. CAN NOT HELP ~ING영어랑 한국어는 다르다.6) 퇴고를 꼭 해야 한다.]]></description>
+					<pubDate>Wed, 29 Jan 2014 20:59:23 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,게임]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[Query Study Second day]]></title>
+					<link>http://process3.blog.me/20204103329</link>
+					<guid>http://process3.blog.me/20204103329</guid>
+					<description><![CDATA[select concat(ename, job), length(concat(ename, job))from emp;select ename||jobfrom emp;select PLAYER_NAME, TEAM_IDfrom player_t--where length(PLAYER_NAME) != 1 and--length(PLAYER_NAME) != 3;where length(PLAYER_NAME) not in (1,3);select player_name, E_PLAYER_NAMEfrom player_twhere upper(E_PLAYER_NAME) like '%E%E%E%' andupper(E_PLAYER_NAME) not like '%E%E%E%E%';select *from PLAYER_T;select PLAYER_NAME,E_PLAYER_NAME,--SUBSTRB(e_PLAYER_NAME, 1, INSTR(E_PLAYER_NAME, ' ', 1, 1)),SUBSTRB(e_PLAYER_NAME, INSTR(E_PLAYER_NAME, ' ', 1, 1)-1,LENGTH(INSTR(E_PLAYER_NAME, ' ', 1, 1)) )from player_twhere leng.......]]></description>
+					<pubDate>Wed, 29 Jan 2014 06:43:29 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[Query study First Day]]></title>
+					<link>http://process3.blog.me/20204032424</link>
+					<guid>http://process3.blog.me/20204032424</guid>
+					<description><![CDATA[select *from 고객;--3.INSERT INTO 고객 VALUES (1, '김길동', '111', '남자', '서울');--4.Insert same phone numberINSERT INTO 고객 VALUES (2, '홍길동', '211', '남자', '서울');--5. check 고객 데이타SELECT * FROM 고객;--6. check constraintINSERT INTO 고객 VALUES (3,'tom', '333', '여자', '인천');commit;desc 고객;select e.ename, e.sal, '[', e.sal*10 calc급여, ']'from emp e;select e.ename, e.sal, '['||e.sal*10||']' calc급여from emp e;SELECT ename ,'('||empno||')'FROM emp;select distinct deptno, jobfrom emp;commit;select *from player_twhere PLAYER_NAME like '_규_';select *from player_twhere PLAYER_NAME.......]]></description>
+					<pubDate>Tue, 28 Jan 2014 06:26:02 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[easily mistake query]]></title>
+					<link>http://process3.blog.me/20203960725</link>
+					<guid>http://process3.blog.me/20203960725</guid>
+					<description><![CDATA[- wrong queryselect e.ename, e.sal, '['||e.sal*10calc급여||']'from emp e;- correct queryselect e.ename, e.sal, '['||e.sal*10||']' calc급여from emp e;
+ ]]></description>
+					<pubDate>Mon, 27 Jan 2014 06:25:27 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[Useful query]]></title>
+					<link>http://process3.blog.me/20203852148</link>
+					<guid>http://process3.blog.me/20203852148</guid>
+					<description><![CDATA[Get create table list in databaseselect *from tab;-----------------------------------------------------------------------------------------create table 고객 (고객번호 number(5) PRIMARY key,이름   varchar(10) not null,전화번호 varchar(13) unique,성별   char(4) check(성별 in ('남자', '여자')),주소   varchar(10));alter table 고객 MODIFY (이름 varchar2(10) );alter table 고객 MODIFY (전화번호 varchar2(13) );alter table 고객 MODIFY (주소 varchar2(20) );alter table 고객 MODIFY (성별 char(6) );insert into 고객 values (1, '김길동', '111', '남자', '송파위례');insert into 고객 values (2, '김길동', '112',.......]]></description>
+					<pubDate>Sat, 25 Jan 2014 06:44:46 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[join and group by January 17, 2014]]></title>
+					<link>http://process3.blog.me/20203301601</link>
+					<guid>http://process3.blog.me/20203301601</guid>
+					<description><![CDATA[select t.team_id --*fromplayer_t p, team_t twhere p.team_id = t.team_idgroup by t.team_idhavingt.team_id like ('K%');select column have to declare join table column.]]></description>
+					<pubDate>Fri, 17 Jan 2014 06:32:29 +0900</pubDate>
+					<tag><![CDATA[게임,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[iNDEX 검색은 A%만 된다]]></title>
+					<link>http://process3.blog.me/20203231341</link>
+					<guid>http://process3.blog.me/20203231341</guid>
+					<description><![CDATA[제목그대로INDEX 검색은 A%만 된다 O즉, INDEX에서 %A%는 안된다 X]]></description>
+					<pubDate>Thu, 16 Jan 2014 06:50:01 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[쿼리 튜닝, 쿼리 최적화, Query Optimization(Performance Increase)]]></title>
+					<link>http://process3.blog.me/20202978384</link>
+					<guid>http://process3.blog.me/20202978384</guid>
+					<description><![CDATA[지난주 1월 6일 ~ 10일까지 5일동안 sql 쿼리에 배웠다. 그중 쿼리 성능 향상에 대해서 설명한 내용을 내 나름대로 정리했다.1) Index 검색을 최대한 이용해야 한다.대량의 row 쿼리에서 검색을 할때 가능한 인덱스로 검색을 해야 한다.만약 빈번하게 검색하는 column인데 인덱스가 안되어 있다면 Index 생성을 고려해야 한다.단, 인덱스 생성에 따른 비용 (관리 비용, 디스크 저장 공간 등에 대해서는 고려해야 한다.즉, 검색 빠르게 하겠다고 테이블에 있는 모든 컬럼에 Index생성하면 안된다.(ex)select ename, empnofromempwhere empno = 11 &lt;-- primary key and unique (이미 인덱스 컬럼이다)and ename = 'steve'&lt;-- 인덱스 없는 컬.......]]></description>
+					<pubDate>Sun, 12 Jan 2014 15:38:23 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[oracle my computer config]]></title>
+					<link>http://process3.blog.me/20202938379</link>
+					<guid>http://process3.blog.me/20202938379</guid>
+					<description><![CDATA[see attach image file]]></description>
+					<pubDate>Sat, 11 Jan 2014 19:47:21 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[ORACLE create SYNONYM ]]></title>
+					<link>http://process3.blog.me/20202873890</link>
+					<guid>http://process3.blog.me/20202873890</guid>
+					<description><![CDATA[/*synonym*/--1)select * FROM PLAYER_T;--2)CREATE SYNONYM p1 FOR player_t;SELECT * FROM p1;]]></description>
+					<pubDate>Fri, 10 Jan 2014 16:53:51 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[ORACLE view check Query]]></title>
+					<link>http://process3.blog.me/20202872230</link>
+					<guid>http://process3.blog.me/20202872230</guid>
+					<description><![CDATA[SELECT view_name, text FROM user_views;]]></description>
+					<pubDate>Fri, 10 Jan 2014 16:33:10 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[ORACLE table size Query]]></title>
+					<link>http://process3.blog.me/20202868296</link>
+					<guid>http://process3.blog.me/20202868296</guid>
+					<description><![CDATA[SELECT bytes/1024 KBFROM user_segmentsWHERE segment_name = 'EMP';]]></description>
+					<pubDate>Fri, 10 Jan 2014 15:43:30 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[ORACLE create new user]]></title>
+					<link>http://process3.blog.me/20202866198</link>
+					<guid>http://process3.blog.me/20202866198</guid>
+					<description><![CDATA[create user steve IDENTIFIED by password;grant dba to steve;주의 MSSQL 과 데이타 베이스 생성 개념이 다르다.즉, 새로운 사용자 기준으로 데이타베이스를 관리한다.
+ ]]></description>
+					<pubDate>Fri, 10 Jan 2014 15:15:28 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[INSERT summary]]></title>
+					<link>http://process3.blog.me/20202854611</link>
+					<guid>http://process3.blog.me/20202854611</guid>
+					<description><![CDATA[-- table 따로 저장--1.CREATE TABLE t1 asSELECT empno, enameFROM empWHERE deptno = 10;--2.CREATE TABLE t2 ASSELECT empno 번호, ename 이름, 770 급여FROM empWHERE deptno = 20;--3.SELECT * FROM t2;--4. 같은 구조 테이블 생성하는 방법CREATE TABLE t3 ASSELECT *FROM empWHERE 1=2;--5.SELECT * FROM t3;DESC t2;DESC t3;--6.CREATE TABLE t7 ASSELECT empno NO, ename NAME, 3300 salFROM empWHERE deptno = 10;--7SELECT * FROM t7;--8. t7, 사번 100, 이름 김길동 급여 1500INSERT INTO t7 VALUES (100, '김길동', 1500);--9.SELECT * FROM t7;--10INSERT INTO t7 (NAME, no) VALUES ('김구', 200);--11SELECT * FROM t7;--12INSER.......]]></description>
+					<pubDate>Fri, 10 Jan 2014 12:21:33 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[ANSI JOIN]]></title>
+					<link>http://process3.blog.me/20202852252</link>
+					<guid>http://process3.blog.me/20202852252</guid>
+					<description><![CDATA[--ANSI JOIN--1) just join--orcleSELECT ename, dnameFROM emp, dept;--ansiSELECT ename, dname FROM emp cross JOIN dept;--2) two table join equijoin(=) 단서 두컬럼 이름이 동일하다-- Natural Join, specefic join USING--oracleSELECT e.ename, d.dname FROM emp e, dept d WHERE e.deptno = d.DEPTNO;--ansi 1)SELECT e.eNAME, d.dname FROM emp e NATURAL JOIN dept d;SELECT e.eNAME, d.dname, deptno FROM emp e NATURAL JOIN dept d;--ansi 2)SELECT e.ename, d.dname FROM emp e JOIN dept d USING(deptno);--3) join on ******SELECT e.ename, d.dname FROM emp e JOIN dept d ON (e.deptno=d.deptno);--Practice Problem--1) em.......]]></description>
+					<pubDate>Fri, 10 Jan 2014 11:42:31 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[DB study summary]]></title>
+					<link>http://process3.blog.me/20202852160</link>
+					<guid>http://process3.blog.me/20202852160</guid>
+					<description><![CDATA[/*1.player_t테이블 선수중  1985년 이후에 태어난 선수의 이름, 생일조회*/SELECT birthFROM player_t;SELECT player_name, birth, TO_DATE('19850101', 'yymmdd')FROM player_t--goodWHERE birth &gt;= TO_DATE('19850101', 'yymmdd');--bad--WHERE '1985' &lt;= TO_CHAR(birth, 'yyyyy');GOOD 방법으로 쿼리 작성해야 한다. Index를 사용해야 빠르다!!!/*2.player_t 테이블 선수중 이름에 '수'글자가 들어 있는 선수들만 이름, 키, 소속팀명(team_name), 연고지(region_name)조회*/SELECT p.player_name, p.height, t.TEAM_NAME, t.REGION_NAMEFROM player_t p, team_t tWHEREp.TEAM_ID = t.TEAM_IDANDp.player_name LIKE ('%수%');/* 3.부산.......]]></description>
+					<pubDate>Fri, 10 Jan 2014 11:41:18 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[쿼리 튜닝 (Join vs subQuery)]]></title>
+					<link>http://process3.blog.me/20202803187</link>
+					<guid>http://process3.blog.me/20202803187</guid>
+					<description><![CDATA[[쿼리 튜닝 (Join vs subQuery)]Join으로 되어있는 쿼리가 느리면 subQuery로 바꾸어 본다.반대로 subQuery가 느리면 join으로 바꾼다.위에 처럼 바꿀때 가능한 Where를 이용해서 선택된 row를 줄이고where에서는 Index 검색이 가능하도록 해야 한다.]]></description>
+					<pubDate>Thu, 09 Jan 2014 16:34:49 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[분석함수]]></title>
+					<link>http://process3.blog.me/20202802711</link>
+					<guid>http://process3.blog.me/20202802711</guid>
+					<description><![CDATA[/*분석함수*/SELECT ename, sal, deptno,(SELECT AVG(sal) FROM emp WHERE deptno=e.deptno) avgdeptFROM emp eORDER BY avgdept desc;SELECT ename, sal, (SELECT COUNT(*)+1 FROM emp WHERE sal&gt; e.sal) 등수FROM emp eORDER BY 등수;-- ANALYTIC FUNCTIONSELECT ename, deptno, sal, RANK() OVER(ORDER BY sal desc) 등수,RANK() OVER(PARTITION BY deptno ORDER BY sal desc) 부서안에서별등수FROM emp e;/*1. 등수 부여시 rank, dense_rank 함수 차이*/SELECT ename, sal,RANK() OVER (ORDER BY sal desc),DENSE_RANK() OVER (ORDER BY sal desc)FROM emp;/*2 rownum은 데이터 access 한 순서대로 부여한다.*/--2-1)select rownum, ename.......]]></description>
+					<pubDate>Thu, 09 Jan 2014 16:28:38 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[where 조건에서 함수등을 사용하면 쿼리 속도가 떨어진다.]]></title>
+					<link>http://process3.blog.me/20202797622</link>
+					<guid>http://process3.blog.me/20202797622</guid>
+					<description><![CDATA[아래 쿼리처럼 where column에 함수를 사용하면 Index 검색을 하지 못해서 속도가저하 된다. 가능한 사용하면 안된다.select deptnofrom empwhere deptno||'11' = '1011'; &lt;- where에서 검색을 원하는 컬럼에 함수를 사용하면 안된다.]]></description>
+					<pubDate>Thu, 09 Jan 2014 15:22:19 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[쿼리 튜닝]]></title>
+					<link>http://process3.blog.me/20202797432</link>
+					<guid>http://process3.blog.me/20202797432</guid>
+					<description><![CDATA[/*1 본인 관리자 보다 급여 더 많이 받는 emp 이름 급여*/--1-1) joinSELECT e.ename, e.sal, e.mgr, m.ename, m.salFROM emp e, emp mWHEREe.mgr = m.EMPNOANDe.sal &gt; m.sal;--1-2) subquerySELECT ename, sal, mgr, (SELECT m.ename FROM emp m WHERE e.mgr = m.empno)FROM emp eWHEREsal &gt; (SELECT sal FROM emp m WHERE e.mgr = m.empno);SELECT *FROM empWHERE empno = 7566;/*2. dept 중 소속사원 있는 부서의 부서 번호, 부서명 조회*/--2-1)JoinSELECT distinct e.deptno, d.dnameFROM emp e, dept dWHERE e.DEPTNO = d.DEPTNOORDER BY deptno;--2-2) subquerySELECT deptno, dnameFROM deptWHERE deptno IN (SELECT deptno FROM e.......]]></description>
+					<pubDate>Thu, 09 Jan 2014 15:19:50 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[쿼리 튜닝]]></title>
+					<link>http://process3.blog.me/20202791987</link>
+					<guid>http://process3.blog.me/20202791987</guid>
+					<description><![CDATA[/*문1) emp, dept이용해서사원이름, 급여, 부서번호, 각사원의 소속부서명(dname) 조회단, 이름이 작은 사원으로 order*/-- 1-1) using joinSELECT e.ENAME, e.SAL, e.DEPTNO, d.DNAMEFROM emp e, dept dWHERE e.DEPTNO = d.DEPTNOORDER BY e.ename;-- 1-2)using mutual sub query-- it is good way because deptno table just has small amount number ROW!!!SELECT e.ENAME, e.sal, e.DEPTNO, (SELECT dname FROM dept WHERE deptno = e.DEPTNO) DNameFROM emp eORDER BY e.ename;--1-1), 1-2)가 테이블 row 갯수 값 종류에 영향을 많이 받는다. 그래서 각 경우에--맞추어서 1-1) 또는 1-2)로 사용해야 한다.]]></description>
+					<pubDate>Thu, 09 Jan 2014 14:12:14 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[Sub Query]]></title>
+					<link>http://process3.blog.me/20202789071</link>
+					<guid>http://process3.blog.me/20202789071</guid>
+					<description><![CDATA[/*2) emp 사원중 본인 소속 부서 평균 급여보다 많이 받는 사람이름, 급여 조회*/--2-1) make table for each deparment sal averageSELECT deptno, AVG(sal)FROM empGROUP BY deptno;--2-2) join emp on salAvg tableSELECT e.ename, e.sal, a.deptno, a.salAvgFROM emp e,(SELECT deptno, AVG(sal) AS salAvgFROM empGROUP BY deptno) aWHERE e.deptno = a.deptnoAND e.sal &gt; a.salAvgORDER BY e.sal;--2-3)SELECT ename, salFROM emp tWHEREsal &gt;( SELECT AVG(sal) FROM emp WHERE deptno = t.deptno)ORDER BY sal;결과는 동일하다 하지만, 2-2) vs 2-3) 속도를 비교하면당연히 2-2)가 빠르다. 2-3)에서는 main 쿼리 검색 조건에서 row .......]]></description>
+					<pubDate>Thu, 09 Jan 2014 13:30:45 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[SubQuery summary]]></title>
+					<link>http://process3.blog.me/20202781025</link>
+					<guid>http://process3.blog.me/20202781025</guid>
+					<description><![CDATA[/*1. playaer_t 선수중에서 이운재 선수와  포지션이 같은선수들의 이름, 포지션, 팀id조회하기.*/SELECT player_name, position, team_idFROM PLAYER_TWHEREposition = (  SELECT position  FROM player_t  WHERE player_name = '이운재' ); /*2. 키가 DF 포지션선수들의 평균키보다  큰 선수들의 이름, 키 조회하기.*/  SELECT AVG(height)  FROM PLAYER_T  WHERE position = 'DF'; SELECT player_name, height, positionFROM player_tWHEREheight&gt; (  SELECT AVG(height)  FROM PLAYER_T  WHERE position = 'DF' ); SELECT player_name, height, positionFROM player_tWHEREheight&gt; (  SELECT AVG(height)  FROM PLAYER_T  WHERE positi.......]]></description>
+					<pubDate>Thu, 09 Jan 2014 11:28:43 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[특정 사람 명수만 결과 리턴하기 쿼리]]></title>
+					<link>http://process3.blog.me/20202780858</link>
+					<guid>http://process3.blog.me/20202780858</guid>
+					<description><![CDATA[-- emp사원중에 급여 많이 받는 사람 5명 조회--wrong answerSELECT ename, sal, rownumFROM empWHERE ROWNUM &lt;= 5ORDER BY sal DESC;--correct answerSELECT ename, sal, rownumFROM (SELECT ename, sal FROM emp ORDER BY sal desc) tWHERE ROWNUM &lt;= 5;subquery 는 inline view이다 여기서 다시 테이블을 정렬한 후에이테이블로 상위 5명을 ROWNUM 컬럼으로 검색해야 한다.]]></description>
+					<pubDate>Thu, 09 Jan 2014 11:26:27 +0900</pubDate>
+					<tag><![CDATA[게임,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[where condition ]]></title>
+					<link>http://process3.blog.me/20202780693</link>
+					<guid>http://process3.blog.me/20202780693</guid>
+					<description><![CDATA[--1) correct answerSELECT ename, sal, jobFROM empWHERE(deptno = 10 AND job = 'CLERK')OR(deptno = 20 AND job = 'MANAGER')OR(deptno = 30 AND job = 'DEV');--2)--wrong answer. wrong resultSELECT ename, sal, job, deptnoFROM empWHEREdeptno IN (10,20,30) ANDjob IN ('CLERK', 'MANAGER', 'DEV');--3)--wrong answer--|| 이것을 사용하면 인덱스를 사용하지 못해서 속도가 많이 느려진다.SELECT ename, sal, job, deptnoFROM empWHERE deptno||job IN ('10CLERK', '20MANAGER', '30DEV') ;--4) correct answer PAIRWISESELECT ename, sal, job, deptnoFROM empWHERE(deptno, job) IN ( (10, 'CLERK'), (20, 'MANAGER'), (30, 'DEV') ).......]]></description>
+					<pubDate>Thu, 09 Jan 2014 11:23:56 +0900</pubDate>
+					<tag><![CDATA[게임,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[where 에서 함수를 이용할 경우 발생하는 문제.]]></title>
+					<link>http://process3.blog.me/20202707719</link>
+					<guid>http://process3.blog.me/20202707719</guid>
+					<description><![CDATA[아래 쿼리 동작은 정상적으로 잘한다. 그러나 문제가 있다무엇일까요???SELECT height -- &gt; number typeFROM PLAYER_TWHERE TO_CHAR(height) = '177' ;where 조건에서 height를 TO_CHAR로 변환한 후에 검색을 했다.즉, 타입을 변환해서 검색을 해서 Index 검색을 할수 가 없어진다.이로 인해서 차후 검색할때 데이타 ROW가 많으면 속도 저하가발생한다.SELECT height -- &gt; number typeFROM PLAYER_TWHERE height = 177 ;Data Type 그대로 검색 조건을 설정해야 Index를 사용해서 속도를 빠르게 할 수 있다.]]></description>
+					<pubDate>Wed, 08 Jan 2014 09:20:48 +0900</pubDate>
+					<tag><![CDATA[게임,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[db case vs when]]></title>
+					<link>http://process3.blog.me/20202665581</link>
+					<guid>http://process3.blog.me/20202665581</guid>
+					<description><![CDATA[If I manager, i will nagging programmer who use decode function.SELECT ename, deptno,CASE WHEN deptno=20 THEN 'A team' WHEN deptno=30 THEN 'B 팀' WHEN deptno=40 THEN 'c team' ELSE 'd Team'END AS TeamInfoFROM emp;--decode(비교대상, 값1, 처리1, 값2, 처리2, ... 값n,처리n, 기타처리)SELECT ename, deptno,DECODE(deptno, 20, 'A팀', 30, 'b team', 40, 'c team', 'd 팀')FROM emp;/*1. emp 사원이름, 팀 구분해서 조회팀 구분 -&gt; 이름A, a팀, A 없는 사람 b팀,*/SELECT ename,CASE WHEN UPPER(ename) LIKE '%A%' THEN 'A Team' WHEN UPPER(ename) NOT LIKE '%A%' THEN 'B Team' ELSE 'donot take this value'ENDFROM emp;-- .......]]></description>
+					<pubDate>Tue, 07 Jan 2014 16:26:09 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[db&#160;이야기]]></category>
+					<title><![CDATA[db에서 날짜 조회 관련 쿼리 정리]]></title>
+					<link>http://process3.blog.me/20202661077</link>
+					<guid>http://process3.blog.me/20202661077</guid>
+					<description><![CDATA[SELECT TO_CHAR(TO_DATE(20121125, 'YYYYMMDD'), 'YYYYMMDD')FROM dual;SELECT TO_DATE('33', 'yy') 결과1,    TO_DATE('77', 'yy') 결과2FROM dual;   --&gt;yy옵션은 년도만들때 앞자리를 올해년도앞자리 이용SELECT TO_DATE('33', 'rr') 결과1,TO_DATE('77', 'rr') 결과2FROM dual;  --&gt; rr옵션은 년도만들때   -- 00-49까지는 20,   -- 50-99까지는 19로 사용함./*Question 1player_t FW 포지션, 이름, 생일, 태어난 요일 조회*/SELECT player_name, position, TO_CHAR(birth, 'mm-dd'), TO_CHAR(birth, 'day')FROM PLAYER_TWHERE position = 'FW';/*Question 2일요일에 태어난 선수이름*/-- 2-1)SELECT player_name, TO_CHAR(birth, 'mm-.......]]></description>
+					<pubDate>Tue, 07 Jan 2014 15:26:42 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[Hide Export Function]]></title>
+					<link>http://process3.blog.me/20155072128</link>
+					<guid>http://process3.blog.me/20155072128</guid>
+					<description><![CDATA[If you make a dll module, you should concern about hacking or disassembly. Under method is one of easy way.I hope you should look into under code.Tocreate an exported function which will return an array of addresses of the functions which you would like to hide - once you have these addresses, you can call them directlystatic void** Funcs = {&amp;foo, &amp;foo1, &amp;foo2, 0};__declspec (dllexport) void* GetFuncs (void){ return &amp;Funcs;}in your executable you can do the followingvoid** Funcs = GetFuncs();(*Funcs[0]) (1, 2, 3);]]></description>
+					<pubDate>Fri, 06 Apr 2012 15:54:57 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[wow64 dump file debugging by windbg]]></title>
+					<link>http://process3.blog.me/20154988523</link>
+					<guid>http://process3.blog.me/20154988523</guid>
+					<description><![CDATA[If you will analyze dump which is made by wow process. You should use under windbg extension.Debugging WOW640 out of 2 rated this helpfulRate this topicApplications running under WOW64 can be debugged two ways:Use an x86-hosted debugger such as NTSD, WinDbg, or Visual Studio. The 32-bit NTSD is installed to %systemroot%\syswow64 on retail installations. Note that x86 debuggers can be used to debug x86 code, but cannot be used to disassemble or set breakpoints within the WOW64 thunk layer because it is 64-bit native code.Use a native debugger such as CDB, NTSD, or WinDbg and the WOW64 debugger .......]]></description>
+					<pubDate>Thu, 05 Apr 2012 13:41:50 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[how to find SSDT hooking using WinDBG?]]></title>
+					<link>http://process3.blog.me/20128301340</link>
+					<guid>http://process3.blog.me/20128301340</guid>
+					<description><![CDATA[Today I was cleaning my desk. Honestly, I am lazy, not diligent guy. When I clean my desk, I found some note that paper explained how to find SSDT Hooking. This note give me the reason why you write blog article.-&gt; Hey! you are getting old you have to write some place, if you don't want to forget about good information.1) Find SSDT function namelkd&gt; x nt!KeService*80554fe0 nt!KeServiceDescriptorTableShadow = &lt;no type information&gt;80555020 nt!KeServiceDescriptorTable = &lt;no type information&gt;2) Look intoKeServiceDescriptorTablelkd&gt; dds nt!KeServiceDescriptorTable80555020 80503.......]]></description>
+					<pubDate>Fri, 13 May 2011 17:44:47 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[Do you know? What is the difference between call by reference and call by pointer?]]></title>
+					<link>http://process3.blog.me/20128295831</link>
+					<guid>http://process3.blog.me/20128295831</guid>
+					<description><![CDATA[     
+     
+     Recently, I was suddenly curious about what'sdifference between call by reference and call by pointer.So, I look into it using Visual Studio 2010.First) Call by pointer.void swapbypoi(int *x, int *y){001323C0 push    ebp 001323C1 mov     ebp,esp 001323C3 sub     esp,0CCh 001323C9 push    ebx 001323CA push    esi 001323CB push    edi 001323CC lea     edi,[ebp-0CCh] 001323D2 mov     ecx,33h 001323D7 mov     eax,0CCCCCCCCh 001323DC rep stos  dword ptr es:[edi]  int z = 0;001323DE mov     dword ptr [z],0  z = *x;001323E5 mov     eax,dword ptr [x] 001323E8 mov     ecx,dword ptr [.......]]></description>
+					<pubDate>Fri, 13 May 2011 16:39:30 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[Use RunDll32.exe it give us many good comfortable function.]]></title>
+					<link>http://process3.blog.me/20125121019</link>
+					<guid>http://process3.blog.me/20125121019</guid>
+					<description><![CDATA[     
+     
+          
+     
+     I found this information : http://www.rgagnon.com/pbdetails/pb-0204.htmlOf course it is searched from Google. (Google knows everything).Use RunDll32 utility
+RunDll32 executable can be used to start various Windows utilities like the Control Panel. Note that
+they are not guaranteed to work across all Windows versions. Here a list of what is available
+rundll32 shell32,Control_RunDLL                     Run The Control Panelrundll32 shell32,Control_RunDLL X                   Start applet X of Control Panel                                                .......]]></description>
+					<pubDate>Fri, 25 Mar 2011 17:55:34 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[One CRT function has big different between VC++ 6.0 and VC++9.0]]></title>
+					<link>http://process3.blog.me/20124901470</link>
+					<guid>http://process3.blog.me/20124901470</guid>
+					<description><![CDATA[     
+     
+          
+     
+          
+     
+     One of my coworker find this problem recently. If our product use this function some core module, it make us big disaster problem. Anyway we look into this problem.UINT nRet = 0;nRet = _ttol(TEXT("4777777777_1_001"));we see above simple code, yeah very short and simple, however there are big secret difference. It is_ttoi CRT function. That code just convert string(character) toInteger value. I have a question. Do you guess a nRet value result?I think that nRet is0x7fffffff, But VC++ 6.0 Result is0xf000942b. There is bug.You can see above.......]]></description>
+					<pubDate>Tue, 22 Mar 2011 11:21:43 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[Recovery MBR  using OS CD(MBR 복구하기)]]></title>
+					<link>http://process3.blog.me/20123994173</link>
+					<guid>http://process3.blog.me/20123994173</guid>
+					<description><![CDATA[     
+     
+          
+     
+     I can not guarantee under method recovering your HDD. However, it will works well.Anyway, I hope this step help you and recover your data and experienced.l Windows
+XP에서 복구
+방법 1.
+Windows XP CD의 복구 모드로 부팅한 후, 도스창에서
+다음 명령을 실행 한다. 2.
+fixboot 3.
+fixmbr l Windows
+Vista 이상에서
+복구 방법 1.
+Windows Vista CD의 복구 모드로 부팅한 후, 도스창에서 다음 명령을 실행 한다. 2.
+bootrec /fixboot 3.
+bootrec /fixmbr   Have a nice day.
+ 
+ ]]></description>
+					<pubDate>Mon, 07 Mar 2011 10:52:28 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터MBR복구MBRrecovery,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[게임이야기...]]></category>
+					<title><![CDATA[I realized that Game make me and my wife happy. (thank you ilomilo)]]></title>
+					<link>http://process3.blog.me/20123889729</link>
+					<guid>http://process3.blog.me/20123889729</guid>
+					<description><![CDATA[     
+     
+          
+     
+     Recently I had bought game which is "ilomilo". Actually this game is that my wife like more than me.Anyway you see under in game Image. It is so lovely and sweet.Sound is also comfort and easy. Honestly, I don't know that the game came out recently, because these days I have focused on playing Call of duty modern war fare2. When I came home from my work place, I turned on my xbox and play COD. However my wife never play FPS game that she told me FPS is not my type and I don't want to kill or destroy someone or something in game world. I also don't understa.......]]></description>
+					<pubDate>Sat, 05 Mar 2011 14:57:38 +0900</pubDate>
+					<tag><![CDATA[게임]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[VS Ultimate 맴버십 효과적인 소프트웨어 품질 관리의 중요성]]></title>
+					<link>http://process3.blog.me/20121412047</link>
+					<guid>http://process3.blog.me/20121412047</guid>
+					<description><![CDATA[VS Ultimate 맴버십 효과적인 소프트웨어 품질 관리의 중요성Dear All Audience.I really appreciate to attend my seminar. It is really great time.I hope that my lecture give you some good information and motivation.Thank you so much.Seminar Document. If someone want to see this presentation file, just download it and freely enjoy.Do not hesitate, freely ask me. leave a message or send mail (aiwisdom@gmail.com)Best RegardsSteve Shin]]></description>
+					<pubDate>Thu, 27 Jan 2011 11:26:40 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[VS 2010 Command line arguments Error]]></title>
+					<link>http://process3.blog.me/20121215941</link>
+					<guid>http://process3.blog.me/20121215941</guid>
+					<description><![CDATA[ 
+These days, I made certain program by c#. Whenever I make a program using c#, it really give me fun and comfort.
+There are so many C# class in .net framework. I think this framework give a great performance like a get decreasing making time. I made a program and publish it.when I debug it, Isuddenlysaw under picture.  If I Yes button click and then I could not debug about command line arguments.
+I confused, I just want to debug command line arguments. I have to solve this problme, so I googled it. (google knows everything.)
+The reason is Enable ClickOnce security settings.
+.......]]></description>
+					<pubDate>Mon, 24 Jan 2011 17:40:03 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[Compile Error When convert VC2008 to VC2010]]></title>
+					<link>http://process3.blog.me/20120260876</link>
+					<guid>http://process3.blog.me/20120260876</guid>
+					<description><![CDATA[ 
+Last Friday, I installed visual studio 2010 professional version.
+And Today when I come to work I test to covert one dll module project.
+I think this convert very simple and easy. There is no problem in first step. Looking good. First of all, I try to compile new visual studio 2010 to make win32 module(binary) is ok.
+However, I also try to make(compile) x64 module(binary) is occurred compile error.  visual studio 2010 output display show that "fatal error C1083: Cannot open include file: 'PRE64PRA.H': No such file or directory"
+I look into vs2010 sdk directory. There are rea.......]]></description>
+					<pubDate>Mon, 10 Jan 2011 17:02:28 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[WinDbg Command-Line Options]]></title>
+					<link>http://process3.blog.me/20120065814</link>
+					<guid>http://process3.blog.me/20120065814</guid>
+					<description><![CDATA[WinDbg 
+Command-Line Options 
+First-time users of WinDbg should begin with the Debugger 
+Operation section.
+The WinDbg command line uses the following syntax: windbg[-serverServerTransport|-remoteClientTransport][-lsrcpath][-premoteSmartClientTransport][-?][-ee{masm|c++}][-clineslines][-b][-d][-aExtension][-eEvent][-failinc][-g][-G][-hd][-j][-n][-noshell][-o][-Q|-QY][-QS|-QSY][-robp][-secure][-ses][-sdce][-sicv][-sins][-snc][-snul][-sup][-sflags0xNumber][-TTitle][-v][-log{o|a}LogFile][-noinh][-iImagePath][-ySymbolPath][-srcpathSourcePath][-k[ConnectType]|-kl|-kxExdiOptions][-c"comman.......]]></description>
+					<pubDate>Fri, 07 Jan 2011 14:57:11 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[[IPv6]Client Socket에서 특정 Local Port로 Bind 할때에는 꼭 AI_PASSIVE 설정을 해주어야 한다.]]></title>
+					<link>http://process3.blog.me/20120009056</link>
+					<guid>http://process3.blog.me/20120009056</guid>
+					<description><![CDATA[     
+     
+          
+     
+          
+     
+     addrinfo의 ai_flags에 사용하는 값 AI_PASSIVE에 대하여 알아보자. IPv4에서는 bind호출시 INADDR_ANY(0.0.0.0)를 사용하는 경우가 있었다.같은 기능으로 IPv6에서는 IN6ADDR_ANY(::)를 사용한다. getaddrinfo 이용시 AI_PASSIVE를 사용하면 bind에 입력될 주소를 얻어올 수 있다.바인드하기 위한 주소를 얻어오는 방법은, nodename은 NULL로 입력하고 servname은 바인드할 포트번호(혹은 “0”)을 입력한다.만일 hints에 AF_UNSPEC를 입력했다면 2개의 addrinfo가 리턴될 것이다. 하나는 IPv4주소로 바인드하기 위한 용도이고,하나는 IPv6 주소로 바인드하기 위한 용도이다.AI_PASSI.......]]></description>
+					<pubDate>Thu, 06 Jan 2011 18:04:27 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[[Side by side] Private Assembly 사용하기]]></title>
+					<link>http://process3.blog.me/20119485115</link>
+					<guid>http://process3.blog.me/20119485115</guid>
+					<description><![CDATA[     
+     
+     최근에 기존 VC++ 6.0으로 개발된 제품을 VC++ 2008로 업그레이드 하는 프로젝트를 진행했습니다.기존VC++ 6.0로 개발된 프로그램을VC++ 2008로 업그레이드 하면서 가장 큰 이슈는 코드 컨버팅도 있지만 DLL Share 이슈입니다.즉,VC++ 6.0 에서는 존재하지 않는 새로운 개념인 Side by side에 따라서 개발을 해야 합니다.자세한 내용은http://msdn.microsoft.com/en-us/library/ms246609.aspx이것을 참조 하면 됩니다.처음에 우리는 VC++ redistributable Package를 사용했습니다.그런데 what the hell 상황이 발생했습니다. MS에서 만든VC++ redistributable Package Install이 설치오류가 예상외로 빈번했습니다.처음에는 매.......]]></description>
+					<pubDate>Wed, 29 Dec 2010 16:39:25 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[[윈도우 7 퍼스널 클라우드] 웹 오피스를 이용해서 언제 어디서나 편하게 문서 작업 하기]]></title>
+					<link>http://process3.blog.me/20118821224</link>
+					<guid>http://process3.blog.me/20118821224</guid>
+					<description><![CDATA[     
+     
+          
+     
+      
+오늘은 제블로그에 MS에서 최근에 나온[윈도우 7 퍼스널 클라우드] SkyDrive의 Office Web Apps 에 대해서 설명할려고 합니다. 저는 개인적으로 1년에 3~4번 외부 강연을 합니다. 자료는 노트북을 들고 다니면서 점심, 또는 저녁 먹는 시간에 틈틈이 PPT 작업을 합니다. 그런데, 불행하게도 저렴한 노트북을 사서제 노트북 정말 무겁습니다. 뭐라 설명하기도 그렇고 정말 무겁습니다. 노트북 가방을 등에 메고 집에 회사를 다녀오면 피곤하죠. 그런데 앞으로는 그럴일이없을 것 같습니다. 왜냐하면 [윈도우 7 퍼스널 클라우드] SkyDrive의 Office Web Apps를 사용할 것이기 때문입니다. 혹시라도.......]]></description>
+					<pubDate>Sat, 18 Dec 2010 11:39:06 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터[윈도우7퍼스널클라우드],IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[ WritePrivateProfileString 주의 사항]]></title>
+					<link>http://process3.blog.me/20118763128</link>
+					<guid>http://process3.blog.me/20118763128</guid>
+					<description><![CDATA[     
+     
+     원래 출처는 동료이신 전연구원님 메일입니다. 전연구원님 감사합니다.::WritePrivateProfileString(...,
+"전강모",
+"a.ini"); ::GetPrivateProfileString(...,
+szBuf, ..., "a.ini"); 하면 szBuf에 "전강모"가 들어갈거 같지만, 일본어 OS에서는 ???가
+리턴이 됩니다.  특별 처리가 없는한
+::WritePrivate~는 파일을 ANSI로 쓰기 때문이고, 기본
+WCHAR-&gt;ANSI 인코딩 변환에 좀 문제가 있어 보입니다.  일단, ???로
+저장된 ini를 어떤 수로든 "전강모"로 복원시키기는 기술적으로 좀 힘들어 보입니다. 그래서,   만약, 앞으로
+내부적으로 ini를 쓰는데, 경로 같이
+Unicode가 저.......]]></description>
+					<pubDate>Fri, 17 Dec 2010 10:42:46 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[PE 파일 분석-헤더분석]]></title>
+					<link>http://process3.blog.me/20118656905</link>
+					<guid>http://process3.blog.me/20118656905</guid>
+					<description><![CDATA[     
+     
+     original article :http://kkamagui.springnote.com/pages/40126201PE 파일 분석-헤더분석원문 :http://kkamagui.springnote.com/pages/401262들어가기 전에...이 글은kkamagui에 의해 작성된 글입니다.마음껏 인용하시거나 사용하셔도 됩니다. 단 출처(http://kkamagui.tistory.com,http://kkamagui.springnote.com)는 밝혀 주십시오.기타 사항은kkakkunghehe at daum.net 이나http://kkamagui.tistory.com으로 보내주시면 반영하겠습니다.개요윈도우 시스템 프로그래밍한다는 사람치고 PE 파일에 대해서 모르는 사람은 아마 거의 없을 것이다. 윈도우 실행 파일 및 DLL, 그리고 드라이버 파일까지도 PE 파일 형태를 따르고.......]]></description>
+					<pubDate>Wed, 15 Dec 2010 14:47:48 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[윈도우 XP에서 IPv6 주소값 수동으로 설정하는 방법(How to set ipv6 address in windows xp)]]></title>
+					<link>http://process3.blog.me/20118329788</link>
+					<guid>http://process3.blog.me/20118329788</guid>
+					<description><![CDATA[XP의 경우는 아래 상자내용과 같이 수동 설정하여야합니다.참... 요즈음 IPv6 삽질 참 많이 합니다.ㅠㅠ[XP에서 수동설정방식]CMD창에서 다음과 같이 입력&gt;netshnetsh&gt;interface ipv6netsh interface ipv6&gt;add addr 5 1001:2b8:2:100::x (&lt;-- x는 신청후 부여받은 숫자입력)확인됨netsh interface ipv6&gt;add route 1001:2b8:2:100::/64 5 (&lt;-- 5는 인터페이스의 로컬영역, sh int으로 확인)확인됨netsh interface ipv6&gt;add route ::/0 5 1001:2b8:2:100::254확인됨netsh interface ipv6&gt; add dns 5 1001:2b8:1::2 (&lt;---KISA dns server)]]></description>
+					<pubDate>Thu, 09 Dec 2010 17:07:38 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[프로그래밍(삽질)]]></category>
+					<title><![CDATA[윈도우 XP에서 IPv6 설치하는 방법]]></title>
+					<link>http://process3.blog.me/20117771809</link>
+					<guid>http://process3.blog.me/20117771809</guid>
+					<description><![CDATA[ 
+윈도우XP에서는Default 로IPv6 드라이버가 설치 되지 않습니다. 비스타 이상부터는Default로 설치 되기 때문에 따로 해줄 필요 없습니다.
+내년부터는 기존IPv4가 고갈되어서 더이상 발급 되즌 않는다는데... 여하튼XP 사용자들께서는 참고하세요. 가. 명령 프롬프트 실행
+아래 그림처럼[시작&gt;&gt; 실행&gt;&gt; cmd]를 실행하면 명령어 프롬프트가 나타납니다. [그림3]
+나. IPv6 스택 활성화
+위 명령어 프롬프트에서netsh interface ipv6 install을 입력합니다.[그림4]
+[그림4]
+약10여초 후에"Succeeded"또는"확인됨"메시지가 나타나며IPv6 스택 설치가 완료 됩니다.[그림5]
+[그림5] 
+두 가지 방법을 이용하여 시스템에IP.......]]></description>
+					<pubDate>Mon, 29 Nov 2010 15:37:53 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

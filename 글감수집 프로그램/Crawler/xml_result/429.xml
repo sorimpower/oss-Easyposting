@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="http://rss.egloos.com/style/blog.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>Life is wonder-ful</title>
+	<link>http://colus.egloos.com</link>
+	<description>&quot;그대의 생각에 약간의 광기를 섞으라. 알맞게 헛소리를 함은 즐겁도다.&quot; -호라티우스</description>
+	<language>ko</language>
+	<pubDate>Mon, 09 Jul 2012 15:13:26 GMT</pubDate>
+	<generator>Egloos</generator>
+	<image>
+		<title>Life is wonder-ful</title>
+		<url>http://pds13.egloos.com/logo/200812/27/49/c0018549.png</url>
+		<link>http://colus.egloos.com</link>
+		<width>80</width>
+		<height>80</height>
+		<description>&quot;그대의 생각에 약간의 광기를 섞으라. 알맞게 헛소리를 함은 즐겁도다.&quot; -호라티우스</description>
+	</image>
+  	<item>
+		<title><![CDATA[ 뷰와 로직의 분리? ]]> </title>
+		<link>http://colus.egloos.com/5310862</link>
+		<guid>http://colus.egloos.com/5310862</guid>
+		<description>
+			<![CDATA[ 
+  언제쯤이면 "UI(뷰)와 비지니스(로직)를 분리해라"는 "거시기"와 동급의 의미 없는 말을 안들을 수 있을까?<div><br />
+</div><div>뭐가 UI고 뭐가 비지니스인지 정의할 수 있나? 둘을 가르는 명확한 기준은 무엇인가? UI, 비지니스 다 추상적인 단어들이며 질문도 추상적이다. 아마 답도 추상적이겠지. 옆의 동료들에게 물어보라 UI는 뭐고 비지니스는 뭐고 이 둘을 어떤 기준으로 나눠야 되냐고.&nbsp;대분분의 사람이 말하는 뷰와 로직의 정의는 동어반복을 벗어나지 못한다. 모호한 정의는 무딘 칼이다. 무딘 칼로는 깔끔하게 자를 수 없다.</div><div><br />
+</div><div>UI와 비지니스를 나누면 뭐가 좋아서 나누라고 하는 걸까? 뭐가 좋을까? 뷰와 로직을 나누는 이유는 그것이 뷰와 로직이기 때문이 아니라 각기 다른 이유로 변하기 때문이다. 변하는 시점이 다르고 속도가 다르기 때문이다. 다른 이유로 변하기 때문에 서로 영향을 덜 받도록 나누는 것이다.</div><div><br />
+</div><div>UI와 비지니스가 뭔지는 모르겠지만 무엇이건 간에 같이 변한다면 한 곳에서 고칠 수 있도록 같이 두는 것이 더 이득이다. UI라도 UI를 구성하는 각 부분이 다른 이유로 변한다면 서로 간섭을 덜 받도록 분리하는 것이 이득이다.</div><div><br />
+</div><div>"뷰와 로직을 분리해라" 이런 의미 없는 말은 이제 그만하자.</div><div><br />
+</div>			 ]]> 
+		</description>
+
+		<comments>http://colus.egloos.com/5310862#comments</comments>
+		<pubDate>Fri, 09 Jul 2010 14:59:26 GMT</pubDate>
+		<dc:creator>이피</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ iBatis, DBCP 그리고 MySQL JDBC Driver ]]> </title>
+		<link>http://colus.egloos.com/5309562</link>
+		<guid>http://colus.egloos.com/5309562</guid>
+		<description>
+			<![CDATA[ 
+  <div>iBatis로 쿼리를 실행하면 쿼리를 직접 실행할 때보다 4배나 느렸다. 출시가 며칠 안 남았는데... 프로파일링을 해보니 의도한 쿼리를 실행하는 것보다 커넥션 풀에서 커넥션을 꺼내거나 트랜잭션을 시작하고 종료할 때 setAutoCommit이 여러 번 실행되고 여기서 시간을 많이 쓰고 있었다.</div><div><br />
+</div><div>하루 종일 설정을 이리 저리 바꾸며 삽질하다 iBatis, DBCP, MySQL JDBC 드라이버의 소스를 뒤져서 원인을 알아냈다. 각각이 요구하는 autoCommit 설정과 기본 설정이 다르기 때문이었다. iBatis JDBC TransactionManager는 autoCommit=false이어야 한다. 커넥션 풀에서 꺼낸 커넥션이 autoCommit=false가 아니면 setAutoCommit(false)를 실행해서 autoCommit을 끈다. setAutoCommit(false)이 실행되지 않도록 DBCP의 defaultAutoCommit을 false로 설정하면 JDBC TransactionManager는 setAutoCommit을 더 이상 실행하지 않는다.</div><div><br />
+</div><div>여기서 끝이었으면 좋겠지만... DBCP defaultAutoCommit을 false로 설정해도 setAutoCommit은 계속 실행된다. 이유는 DBCP가 setAutoCommit(false)를 실행하기 때문이다. DBCP도 JDBC TransactionManager와 마찬가지로 생성한 커넥션이 defaultAutoCommit으로 설정한 값과 다르면 setAutoCommit을 실행한다. MySQL JDBC Driver는 autoCommit=false가 기본 값이다. 그러므로 DBCP의 defaultAutoCommit을 false로 설정하면 DBCP가 setAutoCommit을 실행한다.</div><div><br />
+</div><div>DBCP의 defaultAutoCommit을 true로 두면 iBatis가 setAutoCommit을 실행하고, false로 설정하면 DBCP가 setAutoCommit을 실행한다. 그럼 어떻게 하나? JDBC Driver에서 기본 autoCommit 값을 바꿀 수 있다면 문제가 없지만 MySQL JDBC Driver는 기본 autoCommit 값을 설정할 수 없는 것 같다. 그럼 어쩌나? iBatis에서 JDBC 대신 EXTERNAL TransactionManager를 쓰고 DefaultAutoCommit 프로퍼티를 true로 설정하고 DBCP의 defaultAutoCommit도 true로 설정하면 된다.&nbsp;EXTERNAL TransactionManager를 쓰면 iBatis가 트랜잭션을 관리하지 않는다. 즉 commit, rollback을 실행하지 않는다. commit이 실행되지 않으면 쿼리의 효과가 없기 때문에 DefaultAutoCommit을 true로 지정하여 commit이 실행되지 않아도 쿼리가 효과를 낼 수 있도록 한다.</div><div><br />
+</div><div>결론은 iBatis TransactionManager, DBCP, JDBC Driver의 autoCommit 설정이 다르면 setAutoCommit이 많이 실행되니까 맞춰야 한다.</div><div><br />
+</div>			 ]]> 
+		</description>
+
+		<comments>http://colus.egloos.com/5309562#comments</comments>
+		<pubDate>Wed, 07 Jul 2010 15:16:58 GMT</pubDate>
+		<dc:creator>이피</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ "프랜드피드는 어떻게 MySQL을 사용해서 스키마 없는 데이터를 저장하나" 요약 ]]> </title>
+		<link>http://colus.egloos.com/5104902</link>
+		<guid>http://colus.egloos.com/5104902</guid>
+		<description>
+			<![CDATA[ 
+  <div style="text-align: left;">  <h1>    <a href="http://bret.appspot.com/entry/how-friendfeed-uses-mysql" id="n5jr" title="&quot;프랜드피드는 어떻게 MySQL을 사용해서 스키마 없는 자료를 저장하나&quot;">"프랜드피드는 어떻게 MySQL을 사용해서 스키마 없는 데이터를 저장하나"</a> 요약  </h1></div><br />
+<h2>  상황</h2>프랜드피드는 약 2억 5천만 개의 피드 항목을 저장하고 있으며 다른 데이터도 많다. 서비스가 성장하면서 스케일링 문제 겪었고 복제, 캐시, 분할 등을 도입하여 해결했다. 하지만 성장을 거듭할수록 기존 기능을 더 많은 트래픽에서 사용할 수 있게 하는 것보다 새 기능을 추가하기가 더 어려워졌다.<br />
+<br />
+<h2>  문제</h2>특히 스키마 변경과 인덱스 추가 시에는 몇 시간씩 데이터베이스를 멈춰야 했다. 쓰지 않는 인덱스를 제거하는 것도 시간이 걸렸고 제거하지 않으면 INSERT 마다 사용하지도 않는 인덱스 블럭을 읽고 써야 해서 중요한 데이터가 캐시에서 밀려나 성능 저하를 가져왔다. 슬레이브에서 새 인덱스를 만들어서 슬레이브와 마스터를 교체하는 등의 방법도 써보았지만 복잡한 작업이라 실수하기 쉽다. 그래서 스키마나 인덱스 변경이 필요한 새로운 기능은 암묵적으로 제제되었다.<br />
+<br />
+<h2>  해결책</h2>데이터베이스는 상당히 분할되어 있어서 RDBMS의 JOIN 등은 전혀 쓸모가 없었다.  CouchDB 등 유연한 스키마와 온라인 인덱스 변경이 가능한 비관계형 데이터베이스를 살펴봤으나 아직 대규모 사이트에서 널리 사용되지도 않고, 충분히 안정적이지도 않았다. MySQL은 안정적이고, 이미 장단점을 잘 알고 있어서 MySQL을 저장소로 쓰는데 아무 불만이 없다. MySQL 위에 스키마가 없는 데이터베이스를 구현하기로 했다.<br />
+<br />
+새 데이터베이스 API는 다음과 같이 동작한다.<br />
+<br />
+<ul>  <li>    객체를 담을 테이블을 만들고 PK로 UUID를 쓴다. 객체는 테이블에 인코딩하여 저장한다.<br />
+  </li>  <li>    검색를 위한 인덱스가 필요하면 인덱스 테이블을 만들고 검색에 필요한 필드만 컬럼으로 추가한다.  </li>  <li>    객체가 추가, 변경, 삭제 되면 데이터 테이블과 인덱스 테이블들에 객체와 인덱스들을 추가, 변경, 삭제한다.  </li>  <li>    오류로 인해 인덱스 테이블이 데이터 테이블과 일치하지 않을 수 있다. 이는 별도의 인덱스 동기화 프로세스를 돌려서 즉시 복구될 수 있도록 한다.<br />
+  </li></ul><br />
+기존 구성과의 차이점을 그림으로 나타내면 다음과 같다.<br />
+<div id="hheo" style="text-align: center;">  <a href="http://docs.google.com/File?id=dg2qtj47_7cvcvx6hn_b" target="_blank"><img src="http://docs.google.com/File?id=dg2qtj47_7cvcvx6hn_b" width="506" height="297"></a></div><br />
+<h2>  결과</h2>안정적이고 편리한 관계형 데이터베이스를 쓰면서도 데이터베이스를 멈추지 않고 스키마 변경이나 인덱스 추가, 삭제를 할 수 있게 되었다. 객체를 JSON 등으로 인코딩하여 한 컬럼에 저장하기 때문에 스키마 변경은 전적으로 어플리케이션에서 다룰 수 있다. 인덱스도 별도의 인덱스 테이블로 관리되기 때문에 가동 중에 추가하고 삭제할 수 있다.<br />
+<br />
+추가로 다음과 같은 장점도 얻을 수 있다.<br />
+<ul>  <li>    성능 향상. 평균 대기 시간이 짧아졌으며 대기 시간의 편차도 줄었다.<br />
+  </li>  <li>    객체 단위의 캐시 적용이 아주 쉽다.<br />
+  </li>  <li>    인덱스마다 다른 컬럼을 기준으로 분할 할 수 있다.<br />
+  </li></ul><br />
+			 ]]> 
+		</description>
+
+		<comments>http://colus.egloos.com/5104902#comments</comments>
+		<pubDate>Sun, 25 Oct 2009 02:32:54 GMT</pubDate>
+		<dc:creator>이피</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Undercover 0.8을 출시했습니다. ]]> </title>
+		<link>http://colus.egloos.com/5067607</link>
+		<guid>http://colus.egloos.com/5067607</guid>
+		<description>
+			<![CDATA[ 
+  <a href="http://code.google.com/p/undercover/">Undercover 0.8</a>을 출시했습니다. IE8에서 그래프가 안나오는 문제를 고쳤습니다. 고쳤다고 해봐야 <a href="http://code.google.com/p/flot/">Flot</a> 최신 버전을 적용한 것 뿐이지만 ㅎㅎ.<br />
+  		   							 ]]> 
+		</description>
+		<category>Java</category>
+
+		<comments>http://colus.egloos.com/5067607#comments</comments>
+		<pubDate>Fri, 11 Sep 2009 11:02:42 GMT</pubDate>
+		<dc:creator>이피</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Undercover 0.7을 출시했습니다. ]]> </title>
+		<link>http://colus.egloos.com/5035651</link>
+		<guid>http://colus.egloos.com/5035651</guid>
+		<description>
+			<![CDATA[ 
+  0.6과 0.7 버전에서는 <a href="http://code.google.com/p/undercover/">Undercover</a>가 더 널리 쓰일 수 있게 만드는데 중점을 두었습니다. 아직 Undercover를 직접 지원하는 도구들이 없기 때문에 Continuous Integration 등의 기존 도구와 연동할 수 있도록 Cobertura, Emma 호환 XML 레포트를 만들 수 있습니다. Ant 사용자가 조금 더 쉽게 사용할 수 있도록 의존성을 줄였습니다. 이제는 Undercover와 함께 ASM과 commons-lang만 있으면 동작합니다.<br />
+<br />
+설명서를 보강하고 코드를 정리한 후에 1.0을 출시할 예정입니다. 1.x 에서는 멀티 모듈 프로젝트를 위한 데이터 병합과 Scala 지원,  그리고 온라인 커버리지 수집 기능을 구현할 예정입니다.<br />
+			 ]]> 
+		</description>
+		<category>Java</category>
+
+		<comments>http://colus.egloos.com/5035651#comments</comments>
+		<pubDate>Sun, 09 Aug 2009 06:03:28 GMT</pubDate>
+		<dc:creator>이피</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Undercover 0.5 출시 ]]> </title>
+		<link>http://colus.egloos.com/4996337</link>
+		<guid>http://colus.egloos.com/4996337</guid>
+		<description>
+			<![CDATA[ 
+  지정한 클래스를 커버리지 측정에서 제외할 수 있도록 필터를 추가했습니다. <a href="http://code.google.com/p/undercover/wiki/AntTasks">앤트</a>와 <a href="http://code.google.com/p/undercover/wiki/MavenPlugin">메이븐</a> 모두에서 쓸 수 있습니다.<br />
+<br />
+제가 필요한 필수 기능은 모두 구현했습니다. 어떤 기능이 필요하신가요?<br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds13.egloos.com/pds/200906/29/49/c0018549_4a48ccb7e5961.jpg" width="500" height="335.344827586" onclick="Control.Modal.openDialog(this, event, 'http://pds13.egloos.com/pds/200906/29/49/c0018549_4a48ccb7e5961.jpg');" /></div>			 ]]> 
+		</description>
+		<category>Java</category>
+
+		<comments>http://colus.egloos.com/4996337#comments</comments>
+		<pubDate>Mon, 29 Jun 2009 11:16:38 GMT</pubDate>
+		<dc:creator>이피</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Undercover 0.4 출시 ]]> </title>
+		<link>http://colus.egloos.com/4993064</link>
+		<guid>http://colus.egloos.com/4993064</guid>
+		<description>
+			<![CDATA[ 
+  Apache Ant 에서도 <a href="http://code.google.com/p/undercover/wiki/AntTasks">사용할 수 있습니다</a>.<br />
+<br />
+다음 버전에는 지정한 클래스 무리를 제외 기능을 추가할 예정입니다. 제외까지 되면 필수 기능은 모두 구현이 되네요. 자 이제 돈을 벌어 볼까요 ㅋ 한 달에 3 천원, 일 년에 3 만원 정도면 괜잖나요? 너무 싼가.			 ]]> 
+		</description>
+		<category>Java</category>
+
+		<comments>http://colus.egloos.com/4993064#comments</comments>
+		<pubDate>Fri, 26 Jun 2009 04:03:50 GMT</pubDate>
+		<dc:creator>이피</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Undercover 0.3 출시 ]]> </title>
+		<link>http://colus.egloos.com/4983739</link>
+		<guid>http://colus.egloos.com/4983739</guid>
+		<description>
+			<![CDATA[ 
+  <a href="http://www.flickr.com/photos/me2flickr/3627352552/sizes/o/"><img src="http://farm4.static.flickr.com/3315/3627352552_09cc949761.jpg"></a><br />
+<br />
+저번 버전에 비해서 리포트가 많이 보강되었습니다. 특히 이름 없는 클래스를 분리된 클래스로 취급하지 않고 그 클래스가 속한 메소드나 클래스에 포함하여 각종 지표를 계산합니다. GUI나 이벤트 기반 모델을 사용할 경우에 유용합니다.<br />
+<br />
+다음 버전에는 앤트 빌드에서도 쓸 수 있도록 앤트 태스크를 추가하고 그 다음 버전에서는 측정 제외 기능을 추가할 예정입니다.<br />
+			 ]]> 
+		</description>
+		<category>Java</category>
+
+		<comments>http://colus.egloos.com/4983739#comments</comments>
+		<pubDate>Wed, 17 Jun 2009 11:26:53 GMT</pubDate>
+		<dc:creator>이피</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 살이 차오른다, 뛰자 ]]> </title>
+		<link>http://colus.egloos.com/4980665</link>
+		<guid>http://colus.egloos.com/4980665</guid>
+		<description>
+			<![CDATA[ 
+  <font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살이 차오른다, 뛰자</span><br />
+</font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 차오른다, 뛰자</span><br />
+</font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 차오른다, 뛰자</span><br />
+</font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 차오른다, 뛰자</span><br />
+<br />
+<span style="font-family: Batang;"></span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 맨 처음 찌기 시작할 때부터</span><br />
+<span style="font-family: Batang;">준비했던 뜀박질을</span><br />
+<span style="font-family: Batang;">매번 </span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 차오를 때마다</span><br />
+<span style="font-family: Batang;">포기했던 그 다짐을 </span><br />
+<br />
+</font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 차오른다, 뛰자</span><br />
+</font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 차오른다, 뛰자</span><br />
+</font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 차오른다, 뛰자</span><br />
+</font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 차오른다, 뛰자</span><br />
+<br />
+<span style="font-family: Batang;">말을 하면 아무도 못 알아들을 지 몰라</span><br />
+<span style="font-family: Batang;">지레 겁 먹고 벙어리가 된 소년은</span><br />
+<span style="font-family: Batang;">모두 잠든 새벽 네시 반 홀로 일어나</span><br />
+</font><span style="font-family: Batang;"><font color="#993366">허리에</font><font color="#993366"> 쪄 있는 </font></span></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><span style="font-family: Batang;"><font color="#993366">을 보았네</font></span><br />
+<br />
+<font color="#993366"><span style="font-family: Batang;">하루밖에 남질 않았어</span><br />
+<span style="font-family: Batang;">살은 내일이면 다 차올라</span><br />
+<span style="font-family: Batang;">이번이 마지막 기회야</span><br />
+<span style="font-family: Batang;">그걸 놓치면 영영 못 빼</span><br />
+<br />
+</font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 차오른다, 뛰자</span><br />
+</font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 차오른다, 뛰자</span><br />
+</font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 차오른다, 뛰자</span><br />
+</font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 차오른다, 뛰자</span><br />
+<br />
+<span style="font-family: Batang;">뛰자</span><br />
+<br />
+<span style="font-family: Batang;">오늘도 여태것처럼 그냥 잠 들어 버려서</span><br />
+<span style="font-family: Batang;">못 뺄지도 몰라</span><br />
+<br />
+<span style="font-family: Batang;">하지만 그러기엔 소년의 눈에는</span><br />
+<span style="font-family: Batang;">저기 찐 살이 너무나 떨리더라</span><br />
+<br />
+<span style="font-family: Batang;">아 아 아</span><br />
+<span style="font-family: Batang;"></span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">은 내일이면 다 차올라</span><br />
+</font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">아 아 아</span><br />
+<span style="font-family: Batang;">그걸 놓치면 절대로 못 빼</span><br />
+<br />
+</font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 차오른다, 뛰자</span><br />
+</font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 차오른다, 뛰자</span><br />
+</font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 차오른다, 뛰자</span><br />
+</font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">살</span></font></font></font></font></font><font size="+0"><font size="+0"><font style="font-size: 9pt; font-family: 돋움;"><font style="font-size: 9pt; font-family: 돋움;"><font color="#993366"><span style="font-family: Batang;">이 차오른다, 뛰자</span><br />
+<br />
+</font><span style="font-family: Batang;"><font color="#993366">뛰자</font></span></font></font></font></font>			 ]]> 
+		</description>
+
+		<comments>http://colus.egloos.com/4980665#comments</comments>
+		<pubDate>Sun, 14 Jun 2009 15:28:52 GMT</pubDate>
+		<dc:creator>이피</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Undercover 커버리지 분석기 0.2 출시했습니다 ]]> </title>
+		<link>http://colus.egloos.com/4971460</link>
+		<guid>http://colus.egloos.com/4971460</guid>
+		<description>
+			<![CDATA[ 
+  프로젝트 상태를 한 눈에 볼 수 있도록 대시보드를 추가했습니다. 클로버에 있는 커버리지 분포와 커버리지-복잡도를 보여줍니다. 커버리지-복잡도를 보면 어떤 클래스가 위험한지 한 눈에 알 수 있습니다. 커버리지가 낮으면서 복잡도가 높은 클래스는 위험한 클래스이니 리팩토링하여 복잡도를 낮추던지 테스트를 하여 커버리지를 높이던지 조치를 취해야 하는 클래스입니다.<br />
+<br />
+다음 버전에서는 익명 클래스는 독립적인 클래스로 인정하지 않고, 익명 클래스를 만든 메소드나 클래스에 포함 시킬 예정입니다.<br />
+<br />
+자세한 사항은 <a href="http://code.google.com/p/undercover/">프로젝트 홈페이지</a>에서 보세요.<br />
+<br />
+<img src="http://farm4.static.flickr.com/3620/3598293470_148720b272_o.jpg" width="600"><br />
+			 ]]> 
+		</description>
+		<category>Java</category>
+
+		<comments>http://colus.egloos.com/4971460#comments</comments>
+		<pubDate>Sat, 06 Jun 2009 08:44:14 GMT</pubDate>
+		<dc:creator>이피</dc:creator>
+	</item>
+</channel>
+</rss>

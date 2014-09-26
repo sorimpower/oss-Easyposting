@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="http://rss.egloos.com/style/blog.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>Coderant의 ExploitWarelabs</title>
+	<link>http://coderant.egloos.com</link>
+	<description>Coderant's ExploitWarelabs</description>
+	<language>ko</language>
+	<pubDate>Tue, 15 Feb 2011 15:04:56 GMT</pubDate>
+	<generator>Egloos</generator>
+	<image>
+		<title>Coderant의 ExploitWarelabs</title>
+		<url>http://pds23.egloos.com/logo/201207/06/66/c0047066.jpg</url>
+		<link>http://coderant.egloos.com</link>
+		<width>80</width>
+		<height>60</height>
+		<description>Coderant's ExploitWarelabs</description>
+	</image>
+  	<item>
+		<title><![CDATA[ FreeBSD <=6.1 kqueue() NULL pointer Dereference Local Root Exploit ]]> </title>
+		<link>http://coderant.egloos.com/5440589</link>
+		<guid>http://coderant.egloos.com/5440589</guid>
+		<description>
+			<![CDATA[ 
+  테스트 버전 : FreeBSD 6.1 취약점 : FreeBSD 6.1 이하 버전에 kqueue() 함수의 Null Pointer 핸들링 취약점을 이용한 공격			 ]]> 
+		</description>
+		<category>Security 일반</category>
+
+		<comments>http://coderant.egloos.com/5440589#comments</comments>
+		<pubDate>Tue, 15 Feb 2011 15:04:56 GMT</pubDate>
+		<dc:creator>coderant</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Linux Kernel 2.4/2.6 sock_sendpage() Local Root Exploit ]]> </title>
+		<link>http://coderant.egloos.com/5440586</link>
+		<guid>http://coderant.egloos.com/5440586</guid>
+		<description>
+			<![CDATA[ 
+  리눅스 커널 2.4/2.6 버전의 sock_sendpage()함수의 버그를 이용한 root 권한 상승 취약점&nbsp;출처는 이름 없는 여기저기 중국 보안블로그 사이트에서 찾다보니 있네요Tested RedHat Linux 9.0, Fedora core 4~11, .... <a href="http://coderant.egloos.com/5440586"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>Security 일반</category>
+
+		<comments>http://coderant.egloos.com/5440586#comments</comments>
+		<pubDate>Tue, 15 Feb 2011 15:02:00 GMT</pubDate>
+		<dc:creator>coderant</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Malvertising or drive-by web malware attack ]]> </title>
+		<link>http://coderant.egloos.com/5428969</link>
+		<guid>http://coderant.egloos.com/5428969</guid>
+		<description>
+			<![CDATA[ 
+  이 글의 원 출처는 http://blog.armorize.com에 수록된 내용입니다.Recently we've been thinking about how to generate some statistics for malvertising.Sometimes it's t.... <a href="http://coderant.egloos.com/5428969"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>해외해킹동향</category>
+
+		<comments>http://coderant.egloos.com/5428969#comments</comments>
+		<pubDate>Tue, 25 Jan 2011 01:34:56 GMT</pubDate>
+		<dc:creator>coderant</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ [CrimeWare] Exploit Pack  ]]> </title>
+		<link>http://coderant.egloos.com/5428735</link>
+		<guid>http://coderant.egloos.com/5428735</guid>
+		<description>
+			<![CDATA[ 
+  범죄에 이용할 목적으로 만들어 지는 이른바 criemware들은 최근 '익스프로잇 팩(Exploit Pack)'이라는 이름으로 블랙 마켓에서 거래가 되고 있다. Exploit Pack은&nbsp;사용자&nbsp;PC의 다양한&nbsp;취약점을 이용하여&nbsp;좀.... <a href="http://coderant.egloos.com/5428735"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>해외해킹동향</category>
+
+		<comments>http://coderant.egloos.com/5428735#comments</comments>
+		<pubDate>Mon, 24 Jan 2011 14:25:22 GMT</pubDate>
+		<dc:creator>coderant</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ [Tool 소개] Router-Defence.py ]]> </title>
+		<link>http://coderant.egloos.com/5427088</link>
+		<guid>http://coderant.egloos.com/5427088</guid>
+		<description>
+			<![CDATA[ 
+  Router Defense는 오픈소스 프로젝트 파이션으로 작성된&nbsp;Cisco IOS 라우터, 스위치 보안 취약성&nbsp;진단&nbsp;평가 툴입니다.간단하게 시스코 라우터, 스위치 Audit 하고&nbsp;레포팅까지 출력해 줍니다.Python으로 다양한 .... <a href="http://coderant.egloos.com/5427088"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>Security 일반</category>
+
+		<comments>http://coderant.egloos.com/5427088#comments</comments>
+		<pubDate>Fri, 21 Jan 2011 12:57:23 GMT</pubDate>
+		<dc:creator>coderant</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ iPhone 헤드폰잭으로 주변기기로 전력공급해주는 dock 소개 동영상 ]]> </title>
+		<link>http://coderant.egloos.com/5426137</link>
+		<guid>http://coderant.egloos.com/5426137</guid>
+		<description>
+			<![CDATA[ 
+  애플의 아이폰 독 연결장치와 관련해 주변기기를 제작할 수 있는 다른 방법이 소개되었습니다. 혹시 스퀘어(Square) 신용 카드 인식기를 아이폰의 3.5mm 헤드폰잭에 꼽으면 전원이 켜지고 데이터가 전송되는 걸 보신 분 있을지도 모르겠지만, 요즘 미시간 대학의 가.... <a href="http://coderant.egloos.com/5426137"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>Security 일반</category>
+
+		<comments>http://coderant.egloos.com/5426137#comments</comments>
+		<pubDate>Wed, 19 Jan 2011 15:14:41 GMT</pubDate>
+		<dc:creator>coderant</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Cisco Router 자동 Telnet Auto-command with Python ]]> </title>
+		<link>http://coderant.egloos.com/5426116</link>
+		<guid>http://coderant.egloos.com/5426116</guid>
+		<description>
+			<![CDATA[ 
+  Python으로&nbsp; 구현된&nbsp;Cisco 라우터 자동&nbsp;접속 Auto-Command 소스입니다. 원 저자 소스코드를 Cisco Router Telnet 접속에 맞게끔 소스코드를 손을 좀 봤습니다.사용법&nbsp;&nbsp;&nbsp;&nbsp;.... <a href="http://coderant.egloos.com/5426116"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>Security 일반</category>
+
+		<comments>http://coderant.egloos.com/5426116#comments</comments>
+		<pubDate>Wed, 19 Jan 2011 14:44:39 GMT</pubDate>
+		<dc:creator>coderant</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ [Inguma] Penetration Testing & Vulnerability Research Toolkit ]]> </title>
+		<link>http://coderant.egloos.com/5426110</link>
+		<guid>http://coderant.egloos.com/5426110</guid>
+		<description>
+			<![CDATA[ 
+  Inguma는 오픈소스로 개발되던&nbsp;자동 모의침투 툴로서 2008년도를 끝으로 프로젝트가&nbsp;중단되었다가 최근에 다시 개발이 진행중인 오픈소스 프로젝트입니다.&nbsp;새 버전이 거의 3년 만에 발표되었으며&nbsp;몇가지 중요한 변화로 GUI 환경으.... <a href="http://coderant.egloos.com/5426110"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>Security 일반</category>
+
+		<comments>http://coderant.egloos.com/5426110#comments</comments>
+		<pubDate>Wed, 19 Jan 2011 14:34:55 GMT</pubDate>
+		<dc:creator>coderant</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ [Lynis] 서버 시스템 보안감사 툴  ]]> </title>
+		<link>http://coderant.egloos.com/5426100</link>
+		<guid>http://coderant.egloos.com/5426100</guid>
+		<description>
+			<![CDATA[ 
+  프로그램 기능(Description)서버시스템 보안 감사 및 포렌직 툴프로젝트 정보(Project information)Lynis 는 오픈소스 유닉스 감사 툴입니다.&nbsp;리눅스 계열 및 솔라리스 10까지 지원합니다.&nbsp;기본적인 시스템 정보 스캐닝과 설.... <a href="http://coderant.egloos.com/5426100"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>Security 일반</category>
+
+		<comments>http://coderant.egloos.com/5426100#comments</comments>
+		<pubDate>Wed, 19 Jan 2011 14:21:03 GMT</pubDate>
+		<dc:creator>coderant</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Geneious - DNA 분석 소프트웨어 ]]> </title>
+		<link>http://coderant.egloos.com/5424642</link>
+		<guid>http://coderant.egloos.com/5424642</guid>
+		<description>
+			<![CDATA[ 
+  2011년 새해들어 처음으로 블로깅 해봅니다.소개해 드리는 프로그램은 Genious라고 하는 소프트웨어 입니다. Geneious는&nbsp;혁신적인 소프트웨어 솔루션으로 모든 주요 DNA와 단백질 서열 분석&nbsp;툴입니다.&nbsp;&nbsp;최근 삼성이 향후.... <a href="http://coderant.egloos.com/5424642"><font style="font-size:11px;">글 전체보기</font></a>			 ]]> 
+		</description>
+		<category>Security 일반</category>
+
+		<comments>http://coderant.egloos.com/5424642#comments</comments>
+		<pubDate>Mon, 17 Jan 2011 00:55:59 GMT</pubDate>
+		<dc:creator>coderant</dc:creator>
+	</item>
+</channel>
+</rss>

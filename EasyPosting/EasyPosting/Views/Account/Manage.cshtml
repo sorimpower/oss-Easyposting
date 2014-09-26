@@ -1,0 +1,40 @@
+﻿@using EasyPosting.Models;
+@using Microsoft.AspNet.Identity;
+@*model IEnumerable<EasyPosting.Models.EP_METAS>*@
+
+@{
+    ViewBag.Title = "계정 관리";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div class="row">
+    <div class="col-md-12">
+        @if (ViewBag.HasLocalPassword)
+        {
+            @Html.Partial("_ChangePasswordPartial")
+        }
+        else
+        {
+            @Html.Partial("_SetPasswordPartial")
+        }
+        @*@if (!User.IsInRole("Administrator"))
+        {*@
+            <section id="externalLogins">
+                @Html.Action("RemoveAccountList")
+                @*@Html.Partial("_ExternalLoginsListPartial", new { Action = "LinkLogin", ReturnUrl = ViewBag.ReturnUrl })*@
+            </section>
+    <h4> BlogAPI 설정</h4>
+        <section id="blogAPILogins">
+            @Html.Action("List", "BlogAPI")
+
+        </section>
+        @*}*@
+    </div>
+</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+

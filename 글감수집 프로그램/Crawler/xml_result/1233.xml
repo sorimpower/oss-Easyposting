@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>개발로그 - DevLog</title>
+		<link>http://devlog.experlab.com/</link>
+		<description>프레임워크(framework), 웹2.0 등 개발기술과 서비스</description>
+		<language>ko</language>
+		<pubDate>Thu, 05 Jul 2012 13:12:06 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>태미(taemy)</managingEditor>
+		<image>
+			<title>개발로그 - DevLog</title>
+			<url>http://cfile27.uf.tistory.com/image/136CD60B4B0D53DE861FDD</url>
+			<link>http://devlog.experlab.com</link>
+			<description>프레임워크(framework), 웹2.0 등 개발기술과 서비스</description>
+		</image>
+		<item>
+			<title>해상도의 역습? (넷북의 전성시대)</title>
+			<link>http://devlog.experlab.com/455</link>
+			<description>넷북이 인기를 끌면서, 해상도에 대한 재고가 필요하다.&lt;br&gt;&lt;br&gt;웹디자인을 할때 해상도를 고려하게 된다.&lt;br&gt;초창기 800x600 사이즈를 기준으로 작업하다가, 1024x768 을 기준으로 작업하고 있다.&lt;br&gt;아직은 1024 를 넘는 디자인은 드물다.(포털은 더 작은 해상도로 작업한다)&lt;br&gt;계속 해상도가 커져서 1024를 넘는 시대가 곧 오리라 생각했었다.&lt;br&gt;&lt;br&gt;그런데, 넷북이 나오고 인기를 끌면서, 그 생각은 접어야 했다.&lt;br&gt;넷북의 해상도가 1024x600 정도가 기본인 듯 하다.&lt;br&gt;앞으로 1024 를 넘기는 힘들듯 하다.&lt;br&gt;게다가 스마트폰도 조금씩 사용되기 시작하면서, 전용 페이지도 필요하게 된다.&lt;br&gt;아마도 스마트폰 버전, 넷북버전, 데스크탑 버전이 따로 나올지도 모르겠다.&lt;br&gt;&lt;br&gt;데스크탑을 쓸때도(1920, 1400&amp;nbsp; 등의 와이드 화면) 웹브라우저를 풀화면으로 사용하지는 않는다.&lt;br&gt;넷북(노트북) 버전이 기준이 될지도 모르겠다.&lt;br&gt;&lt;br&gt;해상도의 고민이 조금 복잡해졌다.&lt;br&gt;예전 어떤 사이트처럼 이 사이트는 OOOxOOO 에 최적화 되었습니다. 라는 말이 참 어색해졌다.&lt;br&gt;또한 브라우저마다 '크게보기' 기능이 있어서 이미지의 경우 '글자의 흐려짐' 현상이 나타난다.(텍스트가 짱!)&lt;br&gt;&lt;br&gt;웹디자인하면서 해상도의 고민, 브라우저호환성의 고민등 고민할 거리가 많아진 것 같다.&lt;br&gt;&lt;br&gt;난! 웹디자인은 안하지. =3=3=3&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>잡담</category>
+			<category>넷북</category>
+			<category>웹디자인</category>
+			<category>해상도</category>
+			<author>태미(taemy)</author>
+			<guid>http://devlog.experlab.com/455</guid>
+			<comments>http://devlog.experlab.com/455#entry455comment</comments>
+			<pubDate>Fri, 17 Apr 2009 12:26:22 +0900</pubDate>
+		</item>
+		<item>
+			<title>블로그를 이전하였습니다.(서버이전)</title>
+			<link>http://devlog.experlab.com/454</link>
+			<description>블로그를 이전하였습니다.&lt;br&gt;기존 서버를 제공하셨던 분이 사정이 있으셔서 5월이후로는 사용이 어렵게 되었죠.&lt;br&gt;그래서 임시거처로 이동하게 되었습니다. 이번에는 오래있어야 될 텐데... ^^&lt;br&gt;아! 메뚜기 생활 ^^;;&lt;br&gt;&lt;br&gt;옮기는 차에 텍스트큐브를 1.7.2 에서 1.7.8 RC1 으로 업데이트 했습니다.&lt;br&gt;위키도 별도로 도메인 따고, 새버전으로 업그레이드 할 예정입니다.&lt;br&gt;위키주소가 바뀌니 rewrite 설정으로 바뀌게 해놔야 겠네요.&lt;br&gt;&lt;br&gt;한동안 블로그, 위키등 업데이트가 없었습니다.(거의 방치죠)&lt;br&gt;앞으로 어떻게 될지 모르겠지만, 좀 신경을 쓰긴해야 겠네요.&lt;br&gt;서버이전하는데, 한참 헤맸음(암호가 생각이...)&lt;br&gt;&lt;br&gt;새롭게 불태울 주제(이슈)를 생각해 봐야 겠습니다.&lt;br&gt;&lt;br&gt;ps. 블로그 이전후(업그레이드후) 몇몇 플러그인이 작동하지 않고 있음.&lt;br&gt;&amp;nbsp;코드를 손봐야 할 듯.&lt;br&gt;&lt;br&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>잡담</category>
+			<category>블로그</category>
+			<category>서버이전</category>
+			<author>태미(taemy)</author>
+			<guid>http://devlog.experlab.com/454</guid>
+			<comments>http://devlog.experlab.com/454#entry454comment</comments>
+			<pubDate>Fri, 17 Apr 2009 01:56:38 +0900</pubDate>
+		</item>
+		<item>
+			<title>구글 크롬에서 그리스몽키(greasemonkey) 사용하기(예, phpschool 글쓰기)</title>
+			<link>http://devlog.experlab.com/453</link>
+			<description>&lt;br&gt;구글 크롬에서 그리스몽키를 사용할 수 있게 되었다. 아직은 개발버전에서만 사용가능하다.&lt;br&gt;다음 정식버전(2.0.x)에서 사용할 수 있을 듯 싶다.&lt;br&gt;&lt;br&gt;그리스몽키를 사용하기 위한 절차는 다음과 같다.&lt;br&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;br&gt;1. 구글 크롬 개발 버전을 다운 받는다.&lt;/span&gt;&lt;br&gt;&lt;a href=&quot;http://chromium.googlecode.com/files/chromechannel-2.0.exe&quot; target=&quot;_blank&quot;&gt;http://chromium.googlecode.com/files/chromechannel-2.0.exe&lt;/a&gt;&lt;br&gt;를 다운 받아 실행시키면&lt;br&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile30.uf.tistory.com/original/1459AF0D4B0D54451E406F&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/1459AF0D4B0D54451E406F&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;189&quot; width=&quot;450&quot;/&gt;&lt;/a&gt;&lt;/div&gt;처럼 나온다.&amp;nbsp; Dev 개발버전을 선택한다. 구글크롬을 실행시키면 업데이트하라고 나올 것이다.&lt;br&gt;아래처럼 Google 크롬 정보 를 클릭하면, 업데이트 여부를 확인한다.&lt;br&gt;&lt;div class=&quot;imageblock dual&quot; style=&quot;text-align: center;&quot;&gt;&lt;table cellspacing=&quot;5&quot; cellpadding=&quot;0&quot; border=&quot;0&quot; style=&quot;margin: 0 auto;&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;a href=&quot;http://cfile22.uf.tistory.com/original/12351A0E4B0D544461344B&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/12351A0E4B0D544461344B&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;344&quot; width=&quot;300&quot;/&gt;&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a href=&quot;http://cfile25.uf.tistory.com/original/2025EC0D4B0D544676BBC6&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/2025EC0D4B0D544676BBC6&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;179&quot; width=&quot;300&quot;/&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;업데이트 여부를 확인하고, 개발버전으로 업그레이드 하면 된다.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;2. 구글 크롬 실행시 그리스몽키 활성화 옵션 추가&lt;/span&gt;&lt;br&gt;&lt;br&gt;구글 실행 아이콘의 속성을 보면 다음과 같다. --enable-user-scripts 를 끝부분에 추가해준다.&lt;br&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile27.uf.tistory.com/original/185BC40C4B0D54465B619D&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/185BC40C4B0D54465B619D&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;478&quot; width=&quot;435&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;3. 그리스몽키 스크립트를 지정위치에 넣는다.&lt;/span&gt;&lt;br&gt;&amp;nbsp;구글크롬의 그리스몽키 스크립트는 지정된 위치에 넣어야 한다.(추후 정식버전에서는 조정할 수 있게 할 듯)&lt;br&gt;&amp;nbsp;지정된 위치는&amp;nbsp; C:\scripts&amp;nbsp; 폴더이다.&amp;nbsp; 이곳에&amp;nbsp; xxx.user.js&amp;nbsp; 의 스크립트 파일을 넣으면 된다.&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;br&gt;4. 예제 테스트 해보기.&lt;/span&gt;&lt;br&gt;내가 자주 가는 phpschool 의 톡박 에서는 구글크롬으로 글을 쓸 수가 없었다.&lt;br&gt;아래 처럼 내용 입력하는 부분이 안보인다.&lt;br&gt;내용입력창을 위지위그(WysWyg)기능을 넣었는데, 그것이 구글크롬에서는 작동하지 않는다.&lt;br&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile29.uf.tistory.com/original/11587D0C4B0D54465717EA&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/11587D0C4B0D54465717EA&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;184&quot; width=&quot;500&quot;/&gt;&lt;/a&gt;&lt;/div&gt;그래서 다음 스크립트를 다운받아 C:\scripts 폴더에 넣고, 구글크롬으로 다시 보면&lt;br&gt;&lt;br&gt;# 그리스몽키 스크립트(phpschool 구글 크롬에서 글쓰기)&lt;br&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://devlog.tistory.com/attachment/cfile3.uf@197D07104B0D5446225628.js&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; phpschool.user.js&lt;/a&gt;&lt;/div&gt;&lt;br&gt;아래처럼 글 내용입력창이 나타나고, '크롬에서 글쓰기' 라는 버튼을 나온다.(글 입력시 줄바꿈을 위해)&lt;br&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile25.uf.tistory.com/original/161B84114B0D5446675E56&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/161B84114B0D5446675E56&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;430&quot; width=&quot;500&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;br&gt;이런식으로 구글크롬에서 작동하지 않는 사이트를 조정해서 사용할 수도 있다.&lt;br&gt;물론 사이트의 디자인 요소도 바꿀 수 있다.&lt;br&gt;&lt;br&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>참고,팁</category>
+			<category>구글크롬</category>
+			<category>그리스몽키</category>
+			<author>태미(taemy)</author>
+			<guid>http://devlog.experlab.com/453</guid>
+			<comments>http://devlog.experlab.com/453#entry453comment</comments>
+			<pubDate>Sat, 10 Jan 2009 22:34:58 +0900</pubDate>
+		</item>
+		<item>
+			<title>요즘 1280x1024 쓰는 사람이 어딨어? 1280 이하는 꺼져주삼.</title>
+			<link>http://devlog.experlab.com/452</link>
+			<description>음. 모르겠다. 누구를 향한 딴지는 아니다.&lt;br&gt;다만, 좀 심하다 싶어서 그냥 끄적거린다.&lt;br&gt;&lt;br&gt;컨텐츠와 너무 먼 당신을 외치고 싶다.&lt;br&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile9.uf.tistory.com/original/131037124B0D54440E6891&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/131037124B0D54440E6891&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;362&quot; width=&quot;500&quot;/&gt;&lt;/a&gt;&lt;/div&gt;나의 17인치 모니터의 해상도 1280x1024 에서는 참 보기가 힘들다.&lt;br&gt;19인치 이상의 모니터를 장만해야 할 듯 싶다. 한 1920x1600(1920x1280) 정도는 되어야 겠어.&lt;br&gt;&lt;br&gt;그래 요즘세상에 17인치 모니터 누가 쓰나. 나같은 놈이나 쓰지.&lt;br&gt;얼른 모니터 바꿔야지.&lt;br&gt;&lt;br&gt;&lt;br&gt;ps. 11월 첫글을 까칠한 글로 시작해서 좀 그렇군. 이해하삼. ^^&lt;br&gt;&lt;br&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>생각들</category>
+			<category>광고</category>
+			<category>블로그</category>
+			<category>컨텐츠</category>
+			<category>해상도</category>
+			<author>태미(taemy)</author>
+			<guid>http://devlog.experlab.com/452</guid>
+			<comments>http://devlog.experlab.com/452#entry452comment</comments>
+			<pubDate>Fri, 07 Nov 2008 17:02:47 +0900</pubDate>
+		</item>
+		<item>
+			<title>펌질. 포털이 사람들을 버려 놓았나?</title>
+			<link>http://devlog.experlab.com/451</link>
+			<description>&lt;a href=&quot;http://weblognara.com/535&quot; target=&quot;_blank&quot;&gt;http://weblognara.com/535&lt;/a&gt;&lt;br&gt;위 글을 읽고 할말을 잃었다.&lt;br&gt;&lt;br&gt;펌질을 하는 사람들의 생각이 저랬단 말인가?&lt;br&gt;&lt;br&gt;포털에서 스크랩,펌질 기능이 버젓이 있으니, 사용하는 사람들이 아무 거리낌이 없는 것이다.&lt;br&gt;&lt;br&gt;간혹 필요한 자료가 있어 검색하다보면, 어느 카페(커뮤니티)의 한 구석에 '어디서 본 듯한' 글이 눈에 띈다.&lt;br&gt;그렇다 내가 써놓았던 글이었다. 물론 출처는 없다.&lt;br&gt;흠. 뭐 별 내용아니니 그냥 넘어가기는 하지만, 기분이 좋지는 않다.(상습적인 것 같지는 않으니, 그냥 무시한다)&lt;br&gt;&lt;br&gt;&lt;br&gt;그러나, 펌질하는 사람들의 생각이 저런것이라면, 좀 까칠해져야 할 듯 하다.&lt;br&gt;1차 책임은 포털의 문제라고 본다.(단순한 도구 차원의 문제는 아니다)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>생각들</category>
+			<category>스크랩</category>
+			<category>펌질</category>
+			<category>포털</category>
+			<author>태미(taemy)</author>
+			<guid>http://devlog.experlab.com/451</guid>
+			<comments>http://devlog.experlab.com/451#entry451comment</comments>
+			<pubDate>Fri, 17 Oct 2008 16:59:52 +0900</pubDate>
+		</item>
+		<item>
+			<title>proftpd + mysql 사용자 인증 (ubuntu)</title>
+			<link>http://devlog.experlab.com/450</link>
+			<description>&lt;a href=&quot;http://devlog.experlab.com/449&quot; target=&quot;_blank&quot;&gt;지난번 자료를 보고 설정해 봤다.&lt;/a&gt;&lt;br&gt;&lt;br&gt;ubuntu 에서 설정한 것을 정리한다(특별히 다른 부분은 없다)&lt;br&gt;ubuntu 버전은 8.04 LTS ( hardy ) 버전이다.&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;1) 일단 관련 패키지를 설치한다.&lt;/span&gt;&lt;br&gt;&lt;blockquote&gt;apt-get install proftpd-mysql&lt;/blockquote&gt;&amp;nbsp; &amp;nbsp; 만 해주면 관련 패키지 같이 설치된다(proftpd 포함)&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;2) 관련설정은 /etc/proftpd 에 저장된다.&lt;/span&gt;&lt;br&gt;&amp;nbsp;proftpd.conf&amp;nbsp; 이외에 sql.conf&amp;nbsp; 라고 sql 인증관련 설정이 따로 있다.&lt;br&gt;&amp;nbsp;주석(#) 만 해제해 주면 된다.&lt;br&gt;&amp;nbsp;proftpd.conf 에서는 &lt;br&gt;&lt;blockquote&gt;Include /etc/proftpd/sql.conf&lt;/blockquote&gt;&amp;nbsp;부분을 주석해제해 준다.&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;3) sql.conf 설정.&lt;/span&gt;&lt;br&gt;&lt;blockquote&gt;SQLBackend &amp;nbsp; &amp;nbsp;&amp;nbsp; mysql&lt;br&gt;SQLAuthenticate users* groups*&lt;br&gt;SQLAuthTypes Crypt Plaintext&lt;br&gt;SQLConnectInfo ftpuser_db@localhost ftpuserid ftppasswd&lt;br&gt;SQLUserInfo ftpusers userid passwd uid gid homedir shell&lt;br&gt;SQLGroupInfo ftpgroups groupname gid members&lt;/blockquote&gt;위와 같은 옵션만 맞춰주면 된다.&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;4) FTP 접속용 로컬계정 생성.&lt;/span&gt;&lt;br&gt;&lt;blockquote&gt;groupadd -g 2001 ftpgroup&lt;br&gt;useradd -u 2001 -s /bin/false -d /bin/null -c &quot;proftpd user&quot; -g ftpgroup ftpuser&lt;/blockquote&gt;2001 같은 숫자는 본인의 서버에 맞게 절적하게 설정하면 된다.&lt;br&gt;-s /bin/false&amp;nbsp; 처럼 계정에 shell 을 사용하지 않기 때문에&lt;br&gt;proftpd.conf 에서 &lt;br&gt;&lt;blockquote&gt;&amp;nbsp;RequireValidShell &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp; off&lt;/blockquote&gt;처럼 옵션값을 넣어준다.&lt;br&gt;&lt;br&gt;&lt;br style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;5) mysql 유저정보 테이블 생성.&lt;/span&gt;&lt;br&gt;&lt;blockquote&gt;CREATE TABLE ftpgroups (&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; groupname varchar(16) NOT NULL default '',&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gid smallint(6) NOT NULL default '2001',&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; members varchar(16) NOT NULL default '',&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; KEY groupname (groupname)&lt;br&gt;) TYPE=MyISAM COMMENT='ProFTP group table';&lt;br&gt;&lt;br&gt;CREATE TABLE ftpusers (&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; id int(10) unsigned NOT NULL auto_increment,&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; userid varchar(32) NOT NULL default '',&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; passwd varchar(32) NOT NULL default '',&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; uid smallint(6) NOT NULL default '2001',&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; gid smallint(6) NOT NULL default '2001',&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; homedir varchar(255) NOT NULL default '',&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; shell varchar(16) NOT NULL default '/sbin/nologin',&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; count int(11) NOT NULL default '0',&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; accessed datetime NOT NULL default '0000-00-00 00:00:00',&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; modified datetime NOT NULL default '0000-00-00 00:00:00',&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; PRIMARY KEY (id),&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; UNIQUE KEY userid (userid)&lt;br&gt;) TYPE=MyISAM COMMENT='ProFTP user table';&lt;/blockquote&gt;다음과 같다. (Quota 설정을 사용하지 않았다)&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;6) 테스트용 계정 입력.&lt;/span&gt;&lt;br&gt;위 생성한 테이블에 알맞는 계정 정보를 입력하면 끝이다.&lt;br&gt;&lt;blockquote&gt;INSERT INTO `ftpgroups` (`groupname`, `gid`, `members`) VALUES ('ftpgroup', 2001, 'ftpuser');&lt;br&gt;&lt;br&gt;INSERT INTO `ftpusers` (`id`, `userid`, `passwd`, `uid`, `gid`, `homedir`, `shell`, `count`, `accessed`, `modified`) VALUES (1, 'test', 'passwd', 2001, 2001, '/var/proftpd/test2', '/sbin/nologin', 0, '', '');&lt;br&gt;&lt;/blockquote&gt;homedir 만 주의해서 입력해주면 된다.(나머지는 알맞는 값 입력, userid,passwd 는 달라야 겠죠.)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;7) 퍼미션을 꼭 맞춰줘야 하는가?&lt;/span&gt;&lt;br&gt;&amp;nbsp;위 예제에서는 uid, gid 를&amp;nbsp; 2001 로 퍼미션을 맞춰줬는데, 다른 값(2005) 으로 넣어줘도 이상은 없다.&lt;br&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile10.uf.tistory.com/original/200A7C104B0D54441AED71&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/200A7C104B0D54441AED71&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;72&quot; width=&quot;518&quot;/&gt;&lt;/a&gt;&lt;/div&gt;다만 위처럼 계정정보에 없어서 uid, gid 가 그대로 나온다.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>참고,팁</category>
+			<category>mysql 인증</category>
+			<category>ProFTPD</category>
+			<author>태미(taemy)</author>
+			<guid>http://devlog.experlab.com/450</guid>
+			<comments>http://devlog.experlab.com/450#entry450comment</comments>
+			<pubDate>Thu, 16 Oct 2008 16:55:29 +0900</pubDate>
+		</item>
+		<item>
+			<title>proftpd + mysql  가상계정 ftp 운영 관련 문서</title>
+			<link>http://devlog.experlab.com/449</link>
+			<description># 기본 개념은&lt;br&gt;&amp;nbsp;1. FTP 의 계정을 실계정이 아닌 mysql 의 데이터 형태의 가상계정으로 처리한다.&lt;br&gt;&amp;nbsp;2. proftpd.conf 에 mysql 관련 설정한다.(mysql connection 정보, 계정테이블 정보)&lt;br&gt;&amp;nbsp;3. 계정별 Quote 도 설정 가능하다.&lt;br&gt;&lt;br&gt;# 대략적인 과정을 보면&lt;br&gt;&amp;nbsp;1. mysql 컨넥션(DB)을 FTP 용으로 만든다.&lt;br&gt;&amp;nbsp;2. FTP 용 DB 에 계정정보 테이블을 만들고, 사용자 정보를 입력한다.&lt;br&gt;&amp;nbsp;3. proftpd 의 mysql 설정을 추가한다.&lt;br&gt;&amp;nbsp;4. 입력한 사용자 정보로 FTP 에 접속한다.&lt;br&gt;&lt;br&gt;# proftpd 만 되는가?&lt;br&gt;&amp;nbsp;pure-ftpd 라는 FTP 서버도 지원하는 듯 싶다.(확인필요)&lt;br&gt;&lt;br&gt;# mysql 만 되는가?&lt;br&gt;&amp;nbsp;비슷하게 ldap , pgsql(postgresql) 도 지원하는 듯 하다.(확인필요)&lt;br&gt;&lt;br&gt;# 관련문서 : proftpd + mysql 설정&lt;br&gt;&amp;nbsp;* http://jeonbuk.lug.or.kr/bbs/view.php?&amp;amp;bbs_id=doc&amp;amp;page=&amp;amp;doc_num=21&lt;br&gt;&amp;nbsp;* http://jinsnet.com/12&lt;br&gt;&amp;nbsp;* http://www.howtoforge.com/proftpd_mysql_virtual_hosting&lt;br&gt;&amp;nbsp; * http://www.debuntu.org/how-to-ftp-virtual-host-with-proftpd-mysql&lt;br&gt;&amp;nbsp;* http://www.khoosys.net/single.htm?ipg=848&lt;br&gt;&lt;br&gt;# 따로 정리할 필요까지는 없을 듯(특이사항에 대한 포스팅을 할지도...)&lt;br&gt;&lt;br&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>참고,팁</category>
+			<category>MySQL</category>
+			<category>ProFTPD</category>
+			<category>가상계정</category>
+			<author>태미(taemy)</author>
+			<guid>http://devlog.experlab.com/449</guid>
+			<comments>http://devlog.experlab.com/449#entry449comment</comments>
+			<pubDate>Fri, 10 Oct 2008 20:45:52 +0900</pubDate>
+		</item>
+		<item>
+			<title>라이브닷컴(live.com) 너냐? 리퍼러를 이용한 스팸이냐?</title>
+			<link>http://devlog.experlab.com/448</link>
+			<description>음. 8월 한달을 그냥 건너띄었군. 7월의 아픔으로 인해 힘들었다.&lt;br&gt;아무튼 다시 글을 쓰도록 해봐야지.&lt;br&gt;&lt;br&gt;그동안 방치하던 블로그를 살펴보다 보니, 리퍼러가 참 이상하다.&lt;br&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile9.uf.tistory.com/original/126BE5024B0D54438531E7&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/126BE5024B0D54438531E7&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;673&quot; width=&quot;453&quot;/&gt;&lt;/a&gt;&lt;/div&gt;바로 눈에 띄는 search.live.com 네놈은 뭐냐.&lt;br&gt;저 리퍼러 링크로 가봐도 내 블로그가 노출되어 있지 않다.&lt;br&gt;&lt;br&gt;뭐냐. 리퍼러를 가장한 스팸인가?&lt;br&gt;&lt;br&gt;저것때문에 방문자수 체크도 엉망이 되어 있었다.&lt;br&gt;저거 어떻게 차단할 방법이 없을라나?&lt;br&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>잡담</category>
+			<category>리퍼러로그</category>
+			<category>스팸</category>
+			<author>태미(taemy)</author>
+			<guid>http://devlog.experlab.com/448</guid>
+			<comments>http://devlog.experlab.com/448#entry448comment</comments>
+			<pubDate>Sun, 14 Sep 2008 21:07:32 +0900</pubDate>
+		</item>
+		<item>
+			<title>proftpd 에서 업로드시 파일생성 시간이 틀릴때.</title>
+			<link>http://devlog.experlab.com/447</link>
+			<description>&lt;a href=&quot;http://devlog.experlab.com/435&quot; target=&quot;_blank&quot;&gt;저번 문제때문에 UTF-8 로 바꾸려다가&lt;/a&gt; 왠지 일을 만드는 듯 하여, 그냥 proftpd 로 바꾸었다.&lt;br&gt;&lt;br&gt;업로드시에 파일생성 시간이 로컬과 틀릴때 옵션에 해주어야 할 것.&lt;br&gt;&lt;blockquote&gt;&lt;code&gt;TimesGMT off&lt;br&gt;
+SetEnv TZ :/etc/localtime&lt;/code&gt;&lt;/blockquote&gt;이렇게 해주면 로컬시간과 같아진다.&lt;br&gt;&lt;br&gt;UTF-8 로 바꾸는 것은 서버를 갈아엎을때 해야 겠다. ^^;;;&lt;br&gt;&lt;br&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>개발</category>
+			<category>localtime</category>
+			<category>ProFTPD</category>
+			<category>TimesGMT</category>
+			<category>UTF-8</category>
+			<author>태미(taemy)</author>
+			<guid>http://devlog.experlab.com/447</guid>
+			<comments>http://devlog.experlab.com/447#entry447comment</comments>
+			<pubDate>Tue, 05 Aug 2008 18:20:13 +0900</pubDate>
+		</item>
+		<item>
+			<title>역시나 svn 이 있어야 해.</title>
+			<link>http://devlog.experlab.com/446</link>
+			<description>&lt;a href=&quot;http://devlog.experlab.com/445&quot; target=&quot;_blank&quot;&gt;지난번, 아쉽게나마 sftp 로 설정을 해놓았는데&lt;/a&gt;, 사용하기가 그리 편하지 않다.&lt;br&gt;&lt;br&gt;1. 기존에 서비스 되고 있는 곳의 서버에 sftp 로 접속해서 파일(프로그램)을 수정하기는 좋다.&lt;br&gt;2. 그런데, 기존 프로젝트를 올리거나, 파일을 이동하거나 하는 등의 관리가 너무 불편하다.&lt;br&gt;&amp;nbsp;&amp;nbsp; (파일관리는 전용프로그램을 따로 써야 할 정도로 불편하다)&lt;br&gt;3. 그냥 직접 수정하기위해 쓰는 용도로 사용해야 겠다.&lt;br&gt;&lt;br&gt;역시나 svn 이 필요하겠어.&lt;br&gt;&lt;br&gt;비교적 설정이 쉬운 svn+ssh 방법을 쓸 예정.&lt;br&gt;aptana 에서 바로 subclipse 를 지원하는구나!(짱! aptana)&lt;br&gt;&lt;br&gt;따로 정리는 하겠지만, subclipse 의 svn 설정방식은 다음과 같다.&lt;br&gt;&lt;blockquote&gt;svn+ssh://{UserID}@{svn repository Server IP or Domain}:{ssh port}/{Repository Full Path}&lt;br&gt;&lt;/blockquote&gt;이런형태로 하면 된다.&lt;br&gt;&lt;blockquote&gt;svn+ssh://taemy@svn.taemy.com/home/taemy/svn/sample&lt;/blockquote&gt;이런식 &lt;br&gt;&lt;br&gt;ssh 포트를 기본포트인 22 번 이외의 포트를 쓴다면&lt;br&gt;&lt;blockquote&gt;svn+ssh://taemy@svn.taemy.com&lt;span style=&quot;font-weight: bold;&quot;&gt;:5522&lt;/span&gt;/home/taemy/svn/sample&lt;/blockquote&gt;이상. &lt;br&gt;&lt;br&gt;따로 eclipse(aptana) + svn(subclipse) 에 대한 설정을 할지는 모르겠다.&lt;br&gt;너무 간단해서 ^^&lt;br&gt;&lt;br&gt;&lt;br&gt;# 추가 &lt;br&gt;음. svn+ssh 가 서버측에 ssh 만 되면 될 줄 알았는데, svnserve 도 실행가능해야 하나보다.&lt;br&gt;서버담당자에게 깔아달라고 하기는 무리가 있을 듯 싶다.&lt;br&gt;저거 이외에도 더 필요할 수도 있으니... 흠.&lt;br&gt;여의치 않으면 로컬에 설정해서 사용해야 겠다.&lt;br&gt;&lt;br&gt;근데, 이거 괜찮아 보인다.(&lt;a href=&quot;http://kldp.org/node/95403&quot; target=&quot;_blank&quot;&gt;http://kldp.org/node/95403&lt;/a&gt;)&lt;br&gt;윈도우용은 거의 &lt;a href=&quot;http://tortoisesvn.tigris.org/&quot; target=&quot;_blank&quot;&gt;TortoiseSVN&lt;/a&gt; (다른 놈은 있는지도 모르겠군)&lt;br&gt;&lt;br&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>개발</category>
+			<category>aptana</category>
+			<category>Eclipse</category>
+			<category>sftp</category>
+			<category>svn</category>
+			<category>svn+ssh</category>
+			<author>태미(taemy)</author>
+			<guid>http://devlog.experlab.com/446</guid>
+			<comments>http://devlog.experlab.com/446#entry446comment</comments>
+			<pubDate>Wed, 30 Jul 2008 21:22:48 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

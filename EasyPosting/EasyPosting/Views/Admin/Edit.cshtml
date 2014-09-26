@@ -1,0 +1,37 @@
+﻿@model EasyPosting.Models.ApplicationUser
+@{
+    ViewBag.Title = "역할 부여";
+}
+
+<hgroup class="title">
+    <h1>@ViewBag.Title</h1>
+</hgroup>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+    @Html.HiddenFor(model => model.Id)
+
+
+    <fieldset class="form-horizontal">
+       <div class="control-group">
+            <h4>@Html.LabelFor(m => m.Email, new { @class = "control-label" })</h4>
+            <div class="controls">
+                @Html.DisplayFor(model => model.UserName)
+            </div>
+        </div>
+        <h4>사용자 역할</h4>
+        @Html.DropDownList("RoleId", "일반 사용자")
+        <div class="form-actions no-color">
+            <input type="submit" value="수정" class="btn" />
+        </div>
+        <p>
+            @Html.ActionLink("돌아가기", "Index")
+        </p>
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

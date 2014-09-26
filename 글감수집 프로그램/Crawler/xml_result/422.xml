@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="http://rss.egloos.com/style/blog.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>김명신의 즐거운 하루</title>
+	<link>http://himskim.egloos.com</link>
+	<description>김명신의 블로그입니다.
+email은 himskim@msn점com, facebook, twitter는 himskim입니다. 저에게 전해주실 말씀이 있으신 분은 SNS나 email을 이용해 주시면 감사하겠습니다.</description>
+	<language>ko</language>
+	<pubDate>Tue, 25 Feb 2014 16:14:41 GMT</pubDate>
+	<generator>Egloos</generator>
+	<image>
+		<title>김명신의 즐거운 하루</title>
+		<url>http://pds.egloos.com/logo/1/200308/22/23/a0001923.jpg</url>
+		<link>http://himskim.egloos.com</link>
+		<width>80</width>
+		<height>60</height>
+		<description>김명신의 블로그입니다.
+email은 himskim@msn점com, facebook, twitter는 himskim입니다. 저에게 전해주실 말씀이 있으신 분은 SNS나 email을 이용해 주시면 감사하겠습니다.</description>
+	</image>
+  	<item>
+		<title><![CDATA[ 이전, 홈, 검색 ]]> </title>
+		<link>http://himskim.egloos.com/4009285</link>
+		<guid>http://himskim.egloos.com/4009285</guid>
+		<description>
+			<![CDATA[ 
+  <p>기기의 사용성은 인간의 실수를 넓게 포용할 수 커진다.<br /><br />실수를 용납하지 않거나 되돌릴 수 없는 상황에서의 선택은 많은 에너지를 소모할 수 밖에 없는 작업이기 때문이다.<br />컴퓨터용 사인펜으로 답을 기록할 때는 겨우 4~5개 중에 하나를 선택하는 것임에도 항상 신경이 쓰인다.<br />컴퓨터 자판에는 Backspace 키가 널찍하게 자리잡고 있고,&nbsp;컴퓨터에도 휴지통이 있는 것도 실수를 만회할 수 있는 기회를 주기 위함일 것이다.<br />무엇인가 그 이전 상태로 돌이킬 수 있다는 것은 그래서 마음의 위안이 된다.<br /><br />상태를 이전으로 돌이키는 것보다 더 강력한 방식은 '처음부터 다시' 이다. 뭔가 꼬이고 꼬여서 더 이상 해법이 없을 때, 처음부터 다시할 수 있다면 이 또한 상당히 위안이 된다. 컴퓨터도 뭔가 잘 안된다 싶을 때는 껏다 켜거나, 혹은 format이라는 극약 처방이 있기 때문에 마음의 위안이 된다. 최악의 상황에서 한번에 상황을 역전시킬 수 있는 탈출구이기 때문이다. 사람에게는 최소한의 탈출구가 있어야 한다.<br /><br />선택의 기로에서 하나를 선택하거나 혹은 잘 알지 못하는 상황에 접했을 때 가장 좋은 방법은 누군가에게 물어보는 것이리라. 검색이라는 것은 사람들이 가장 쉽게 문제를 해결하는 해법 중에 하나이다. 내가 아닌 다른 사람의 방법 혹은 내가 원하는 무엇인가를 빠르게 찾아내는 방법이 검색이 주는 이득이다.<br /><br />이전, 홈, 검색<br />그렇기에 이 3가지는 기능성에 더하여 실수를 허용하는 인간에 대한 배려이다.<br /></p>			 ]]> 
+		</description>
+
+		<comments>http://himskim.egloos.com/4009285#comments</comments>
+		<pubDate>Tue, 25 Feb 2014 16:11:16 GMT</pubDate>
+		<dc:creator>김명신</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Windows Store App의 WebView에서 alert 가로채기 ]]> </title>
+		<link>http://himskim.egloos.com/4006158</link>
+		<guid>http://himskim.egloos.com/4006158</guid>
+		<description>
+			<![CDATA[ 
+  <p>이미 Server Side에 구축되어 있는 Web Page를 Store App에서 재활용 하기 위해서 가장 손쉽게 사용할 수 있는 방법은 아마도&nbsp;WebView를 활용하는 것이 아닐까 한다.&nbsp;</p><p>물론 WebView control이 Internet Explorer와 많은 부분을 공유하긴 하지만 HTML5에 대한 처리 매커니즘이나 일부 script 기능이 원할히 동작하지 않기 때문에(혹은 의도적으로 제약하였기 때문에) Web Page를 WebView control에 맞추어 수정할 수 없는 상황에서는 어려움에 봉착하게 된다.</p><p>가장 흔히 접하는 문제는 web page 내에서 alert와 같은 함수를 사용하는 경우인데, WebView Contol의 경우 의도적으로 alert를 사용하지 못하도록&nbsp;제한하고 있다.&nbsp;</p><p>Web Page를 수정할 수 있는 경우라면 Store App 전용의 Web Page를 구성하거나, 혹은 Web Page에 접속하는 클라이언트의 정보를 근간으로 Store App에 적합하게 수정된 페이지를 내려 줄 수 있겠으나, Web Page를 수정할 수 없는 경우라면 다음과 같이&nbsp;alert &nbsp;함수를 재정의하는 방법도 괜찮아 보인다.</p><p><br /></p><p>구현 방식은 매우 간단하다.</p><p><br /></p><p>1. WebView의 NavigationCompleted Event Handler를 다음과 같이 구성한다.</p><p><br /></p><p>private async void webView_NavigationCompleted(WebView sender, WebViewNavigationCompletedEventArgs args)<br />{<br />&nbsp;&nbsp;&nbsp; string result = await webView.InvokeScriptAsync("eval", new string[] { "window.alert = function (alertMessage) { window.external.notify(alertMessage) };" });<br />}</p><p><br /></p><p>2. WebView의 ScriptNotify Event Handler를 다음과 같이 구성한다.</p><p><br /></p><p>private async void webView_ScriptNotify(object sender, NotifyEventArgs e)<br />{<br />&nbsp;&nbsp;&nbsp; Windows.UI.Popups.MessageDialog msgDialog = new Windows.UI.Popups.MessageDialog(e.Value);<br />&nbsp;&nbsp;&nbsp; await msgDialog.ShowAsync();<br />}</p><p><br /></p><p>간단히 설명을 더하면&nbsp;Page Load가 완료되면, &nbsp;eval function을 이용하여 window.alert를 window.external.notify() 함수를 호출하도록 재정의한다. 이 함수가 호출되면, WebView의 ScriptNotify event가 raise 되므로, 이 때 e.Value를 통해 전달된 메시지를 Windows.UI.Popup.MessageDialog를 이용하여&nbsp;화면에 출력하는 것이다.</p><p><br /></p><p>이러한 기법을 Script Injection이라고 하는데, 원칙적인 해결책은 아니지만, 다른 방법이 없을 경우 대안으로 고려해봄직 한것으로 생각된다.</p><p><br /></p><p>(위 코드에서 async/await의 사용방법에는 논란이&nbsp;있을 수 있다.&nbsp;비동기 함수로 부터 반환값을 받을 필요가 없거나, 작업의 완료를 대기할 필요가 없는 경우라면 이 처럼 async/await를 이용하여 state machine을 내부적으로 구현하도록 허용하는 것은 그리 좋은 방법이 아니다. 하지만 설명의 초점을 흐리지 않기 위해서 이에 대한 대응 코드는 의도적으로 제외 하였다.)<br /></p>			 ]]> 
+		</description>
+
+		<comments>http://himskim.egloos.com/4006158#comments</comments>
+		<pubDate>Tue, 04 Feb 2014 03:09:14 GMT</pubDate>
+		<dc:creator>김명신</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Wintellect의 Package Explorer ]]> </title>
+		<link>http://himskim.egloos.com/3996496</link>
+		<guid>http://himskim.egloos.com/3996496</guid>
+		<description>
+			<![CDATA[ 
+  <p>Wintellect의 Jeffery Richter가 Store App 개발시에 사용할 수 있는 유용한 Tool을 공개하였습니다.</p><p>저도 한번 써보니 이것저것 재미나고 유용한 기능이 많이 있습니다.</p><p>Tool에 대한 자세한 내용은 다음 URL을 확인하시면 됩니다.</p><p><a href="http://channel9.msdn.com/Shows/Defrag-Tools/Defrag-Tools-66-Windows-81-Jeffrey-Richter-Wintellect-Package-Explorer">http://channel9.msdn.com/Shows/Defrag-Tools/Defrag-Tools-66-Windows-81-Jeffrey-Richter-Wintellect-Package-Explorer</a></p><p>
+</p><p>파일을 Download 하려면 <a href="http://www.wintellect.com/Resource-WinRT-Via-CSharp">http://www.wintellect.com/Resource-WinRT-Via-CSharp</a>&nbsp;링크에서 Source Code 링크를 클릭하셔서 다른 Sample들과 같이 Download 하셔야 하는데요, 귀찮기도 하거니와 다른 Sample들은 필요하지 않으실 수도 있을 것 같아서 실행 파일만 따서 첨부합니다.</p><p>
+</p><p>혹시 문제가 되면 바로 내릴 것이기 때문에, 미리 받아 두셔도 나쁘지 않을 듯 합니다.</p><p>
+</p>			 ]]> 
+		</description>
+		<category>복잡한컴퓨터이야기</category>
+
+		<comments>http://himskim.egloos.com/3996496#comments</comments>
+		<pubDate>Mon, 09 Dec 2013 03:43:24 GMT</pubDate>
+		<dc:creator>김명신</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ (종료) Jeffery Richter의 CLR via C# 4판 번역서 베타 리더를 모집합니다 ]]> </title>
+		<link>http://himskim.egloos.com/3993925</link>
+		<guid>http://himskim.egloos.com/3993925</guid>
+		<description>
+			<![CDATA[ 
+  <p></p><p><a href="http://www.egloos.com/egloo_logo.php?slt=1&amp;imgsrc=http://pds26.egloos.com/pds/201311/26/23/a0001923_5293dd34c706c.jpg#"><img name="photoview" width="324" height="399" title="" style="width: 191px; height: 244px;" src="http://pds26.egloos.com/pds/201311/26/23/a0001923_5293dd34c706c.jpg" border="0" /></a></p><p></p><p></p><p>최근에 마이크로소프트 MVP이신 남정현님과 함께 Jeffery Richter의 "CLR via C#" 4판 번역을 완료하였습니다.</p><p>이번 "CLR via C#" 4판은 2006년 2판, 2010년 3판 이후에 2012년에 개정 출간된 책입니다.</p><p>앞서 2006년에 출간되었던 2판은 송기수님께서 번역/출간하신 바가 있습니다만 그간 꽤나 많은 부분들이 추가/수정되었기에 번역서를 다시 출간하게 되었습니다.(4판에는 Windows8의 WinRT와의 상호운용에 대한 부분까지도 포함되어 있습니다.)</p><p></p><p></p><p>개인적으로는 Jeffery Richter의 "Windows via C/C++" 의 번역서 출간이 native code 개발&nbsp;전문가들을 위한 책이었다면, 이번 "CLR via C#" managed code 개발 전문가를 위한 책이기에 더욱 감회가 깊습니다. (물론 이미 잊혀진 effective C#도 있지만...)</p><p></p><p>게다가 이번에는 마이크로소프트 MVP이신 남정현님과 공동 번역을 진행할 수 있어서 영광이었습니다.</p><p></p><p>출간에 앞서 역자들의 미진한 능력을 보완하고자 10~15분정도의 베타리더를 모집하여 책의 완성도를 높이는 작업을 하고자 합니다.</p><p></p><p>참여해주신 베타리더분들께는 완성본이 나오면 한부씩 보내드릴 수 있도록 하겠습니다.</p><p></p><p></p><p>베터리더분들이 검토해주실 것은 책의 약 3~4장 정도의 분량을 살펴보시고 내용을 수정하시고 의견을 주시는 작업이 될 것입니다.</p><p></p><p>참석을 희망하시는 분은 <a href="mailto:himskim@msn.com">himskim@msn.com</a> 으로 "베타리더 참석"이라는 제목으로 메일을 보내주시거나 이 블로그에 댓글과 함께 email을 달아 주시거나 혹은&nbsp;facebook/twitter를 통해서 댓글 혹은 Re를 달아 주셔도 되겠습니다.</p><p></p><p></p><p>많은 분들의 참석을&nbsp;희망합니다.</p><p></p><p>감사합니다.</p><p>
+</p><p><strong>Jeffery Richter의 CLR via C# 4판 번역서 베타 리더를 모집을 종료합니다. 폭풍 신청에 감사 드립니다. 신청하신 모든 분께 기회를 드리기가 조금 어려울 것 같습니다. 몇몇분께서는 안타깝게 참석하시지 못할 수도 있는데, 가능한 관련 기술에 전문성을 가지고 계신분들에게 우선권을 드리고 싶었고, 빨리 신청하신 분에게도 기회를 드리고자 하였습니다. 혹시 신청하였음에도 베타리더가 되시지 못하더라도 너무 노여워 마시기 바랍니다. 그분들께는 송구하다는 말씀 전합니다. 
+다시한번 진심으로 감사드립니다.</strong></p><p><strong>&nbsp;</strong></p>			 ]]> 
+		</description>
+		<category>복잡한컴퓨터이야기</category>
+
+		<comments>http://himskim.egloos.com/3993925#comments</comments>
+		<pubDate>Mon, 25 Nov 2013 23:32:10 GMT</pubDate>
+		<dc:creator>김명신</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 글쓰는 법을 잊어버렸나? ]]> </title>
+		<link>http://himskim.egloos.com/3932165</link>
+		<guid>http://himskim.egloos.com/3932165</guid>
+		<description>
+			<![CDATA[ 
+  제 블로근데 글이 잘 써지는지 확인차 써봅니다.<br>거참~ 너무 오래 방치했더니 쉰네 작렬입니다.<br>다음 글을 올릴때 까지만 이 글을 대문에 걸어둘랍니다.			 ]]> 
+		</description>
+		<category>살다보면</category>
+
+		<comments>http://himskim.egloos.com/3932165#comments</comments>
+		<pubDate>Wed, 20 Feb 2013 14:01:36 GMT</pubDate>
+		<dc:creator>김명신</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 습관의 힘 ]]> </title>
+		<link>http://himskim.egloos.com/3914540</link>
+		<guid>http://himskim.egloos.com/3914540</guid>
+		<description>
+			<![CDATA[ 
+  <p>"습관의 힘"<br>2012년이 시작되고는 책 읽기가 후순위로 밀려 많은 책을 읽지 못하였다. 아이들 책을 사줄 요량으로 서점에 들렀다가 빈손으로 나오기가 머쩍어서 베스트셀러 전시 코너에서 별 생각도 기대도 없이 사온 책.<br><img style="CURSOR: pointer" src="http://image.yes24.com/goods/7950702/L"><br><br>이 책이 전하고자 하는 개인적인 습관의 문제들. 그리고 습관의 과학적인 분석. 그리고 그것을 어떻게 하면 바꿀 수 있다는 등의 내용을 몇 개 되지 않은 사회적 현상과 예를 이리저리 오려 붙이고, 보는 관점을 달리하여 기술한 책. 그렇게 하지 않으면 이 분량의 책이 나오지 않기 때문.<br>책 분량의 1/5 정도가 reference이다.(뭐하러 이렇게 장황하게 reference를 넣었는지 이해할 수 없을 정도다.)<br><br>책의 거의 마지막 문장이 이 책 전체를 대변할 수 있는 글이다.<br><br>p377, "웰리엄 제임스는 습관에 대해서, 또 습관이 행복과 성공에 미치는 역할에 대해서 많은 글을 남겼다. 그는 그의 대표작 '심리학의 원리'에서 한장을 통째로 습관에 할애하기도 했다. 그는 습관이 작동하는 원리를 가장 적절하게 비유할 수 있는 것은 물이라고 했다. <br>'물은 자신의 힘으로 길을 만든다. 한번 만들어진 물길은 점점 넓어지고 깊어진다. 흐름을 멈춘 물이 다시 흐를 때에는 과거에 자신의 힘으로 만든 그 길을 따라 흐른다.'"<br><br>이 책에서 특이한 점은 습관을 개인의 습관을 넘어서서 사회적 공통체의 습관에 대해서도 이야기 하고자 함에 있다.<br><br>p302, "사회적 습관이 그처럼 막강한 영향력을 갖는 데는 대규모 혁명이든 교회 혁신 운동이든 대다수 운동의 근저에 항상 세 단계 과정이 있기 때문이다. <br>첫 단계에서 사회 운동은 가까운 지인들 간의 우애와 강력한 연대감으로 시작된다.<br>다음 단계에서 사회 운동은 이웃과 집단을 하나로 묶는 약한 연대감과 공동체의 습관 덕분에 커져 간다.<br>마지막 단계에서는 사회 운동의 지도자들이 참여자들에게 새로운 습관을 심어 준다. 변화된 정체성과 주인 의식을 잉태하는 새로운 습관의 영향으로 사회 운동은 지속된다."<br><br>이러한 분석은 개인적 본업(에반젤리즘)에 대하여 시사하는 바가 일부 있어서, 머리속에 담아 두려고 생각한다.<br><br>이 책을 통해서 자신이 가지고 있는 나쁜 습관을 바꾸려는 방법을 얻고자 한다면 p377 부터 시작하는 부록부분의 14페이지 정도의 내용만을 읽어보는 것으로 족하다.<br><br>그저 그런 책.<br></p>			 ]]> 
+		</description>
+		<category>책이야기</category>
+
+		<comments>http://himskim.egloos.com/3914540#comments</comments>
+		<pubDate>Mon, 24 Dec 2012 02:08:12 GMT</pubDate>
+		<dc:creator>김명신</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ [C++11] nullptr에 대해서 ]]> </title>
+		<link>http://himskim.egloos.com/3895648</link>
+		<guid>http://himskim.egloos.com/3895648</guid>
+		<description>
+			<![CDATA[ 
+  <p>시간이 되면 C++에 대해서 틈틈이 글을 써보려도 합니다.<br><br>오늘은 무지하게 간단한 nullptr의 이야기를 해볼까 합니다.<br><br>nullptr은 C++11에 추가된 새로운 <strong>keyword </strong>이며, null pointer를 의미합니다. 이것이 중요한 이유는 기존에 써오시던 NULL이라는 것의 정의가 0L 이기 때문에 태생적으로 혼돈스러울 수 밖에 없었던 몇가지 issue를 해결할 수 있기 때문입니다.<br>사용 법이야 간단합니다.<br><br>const char *p = nullptr;&nbsp;// p 는 null pointer가 되는 것이지요.<br>if (p)&nbsp;...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// expression 평가는 fail 이겠지요<br>int i = nullptr;&nbsp;&nbsp;&nbsp;// 이 구문은 이제 안됩니다. nullptr은 더 이상 int로 변환되지 않습니다<br><br>기존에 0과 NULL에 대해서는 정상적으로 동작합니다.<br><br>int *p1 = nullptr;<br>int *p2 = 0;<br>int *p3 = NULL;</p><p>if (p1 == p2 &amp;&amp; p1 == p3) {...}<br><br>NULL은 실제로&nbsp;어떻게 정의되어 있을지&nbsp;조금 궁금하시죠?&nbsp;stdio.h 에는 NULL을 아래와 같이 정의하고 있습니다.(VS2012에서 살펴보았습니다.)<br><br>/- Define NULL pointer value *-<br>#ifndef NULL<br>#ifdef __cplusplus<br>#define NULL&nbsp;&nbsp;&nbsp; 0<br>#else<br>#define NULL&nbsp;&nbsp;&nbsp; ((void *)0)<br>#endif<br>#endif<br><br>즉&nbsp;C++에서&nbsp;NULL은 정확히 0과 동일합니다.<br>여기서 한가지 말씀드리자면 nullptr은 std::nullptr_t 타입입니다. 다른 널 포인터 타입 들은 static_cast를 사용하면 casting이 가능합니다.<br><br>int *p4 = static_cast&lt;std::nullptr_t&gt;(NULL);&nbsp;&nbsp;&nbsp;&nbsp;// 기존에 사용하던 널 포인터 타입인 NULL은&nbsp;이렇게 casting하실 수 있습니다.<br>int *p5 = static_cast&lt;std::nullptr_t&gt;(0);&nbsp;&nbsp;&nbsp;&nbsp;// 기존에 사용하던 0 는 이렇게 casting 하실 수 있습니다.<br><br>0 이나 NULL이나 모두 int type 이니까 아래와 같이 하면 어떨까&nbsp;궁금하실 수도 있을 것 같습니다.<br><br>int *p6 = static_cast&lt;std::nullptr_t&gt;(1);&nbsp;&nbsp;&nbsp;&nbsp;// 하지만 이렇게는 안됩니다.<br><br>std::nulptr_t는 nullptr을 위해서만 존재하는 type이라고 볼 수 있겠지요.<br><br>약간 더 실질적인 예제를 한번 살펴보겠습니다.<br><br>void f(int *ptr);<br>void f(int val);<br><br>f(nullptr);&nbsp;&nbsp;&nbsp;&nbsp;// f(int *ptr)이 호출됩니다.<br>f(0);&nbsp;&nbsp;&nbsp;&nbsp;// f(int val)이 호출됩니다.<br>f(NULL);&nbsp;&nbsp;&nbsp;&nbsp;// f(int val)이 호출됩니다.<br><br>f()&nbsp;함수가 위의 예와 같이 overloading 되어 있을때, 0이나 NULL을 썼을 경우 포인터로 평가되지 못하는 문제를 해결하였지요.<br><br>아래와 같은 template 작성에도 좋은 예가 있을 수 있습니다.<br><br>template&lt;typename F, typename P&gt;<br>void logAndCall(F func, P param)<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;func(param);<br>}<br><br>void f(int *p);<br><br>f(0);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// 괜찮아 보입니다. void f(int p)가 정의되어 있지 않으므로 f(int *p)가 정상 호출 되지요<br>f(nullptr); // 당연히 됩니다.<br><br>logAndCall(f, 0); // 이것도 에러가 됩니다. P의 type이 int로 평가되기 때문에 func(int)를 찾게되겠지요<br>logAndCall(f, NULL); // 이것도 에러입니다. 위와 같은 이유입니다.<br>logAndCall(f, nullptr); // 오호라~ 이건 정상적으로 P가 std::nullptr_t로 추론됩니다. f(std::nullptr_t)를 찾지요. 이건 기존 포인터와 호환되므로 정상적으로 func(int *p)를 호출합니다.<br><br>nullptr과 nullptr_t 을 추가함으로서 제대로 널 포인터의 의미를 부여할 수 있게 된것 같아요.<br>이제는 NULL이나 0 보다는 nullptr을 꼭! 쓰시는 것이 좋을 것 같습니다.<br></p>			 ]]> 
+		</description>
+		<category>복잡한컴퓨터이야기</category>
+
+		<comments>http://himskim.egloos.com/3895648#comments</comments>
+		<pubDate>Tue, 23 Oct 2012 07:49:29 GMT</pubDate>
+		<dc:creator>김명신</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ windows 8 app 개발하려면 어떤 언어와 Library를 사용해야 하나? ]]> </title>
+		<link>http://himskim.egloos.com/3870673</link>
+		<guid>http://himskim.egloos.com/3870673</guid>
+		<description>
+			<![CDATA[ 
+  <p>왠만히 개발에 관심있는 분이라면 windows 8의 metro style app 이야기를 한번 정도는 들어 보셨을 것 같습니다.<br>C/C++ 를 사용하거나 C#이나 VB와 같은 .NET Language 혹은 Javascript로 app을 개발할 수도 있습니다.<br><br>다양한 App을 개발하려면 기본적으로 Platform이 다양한 기능을 제공해 주어야 함은 물론이고, 그에 맞는 다양한 API를 사용할 수 있어야 할 겁니다. 게다가 각각의 언어들이 windows 8 app을 개발하기 위해서 새로 만들어진 언어나 library가 아니기 때문에 기존에 익숙한 library를 얼마나 많이 활용할 수 있는가는 개발자들의 학습 시간에 큰 영향을 주기 마련이지요.<br><br>windows&nbsp;8 app을 개발하기 위해서 어떤 library를 사용할 수 있는지에 대해서 구체적으로 살펴보고자 합니다.<br><br>어떤 언어를 사용하던지간에 windows 8의 metro platform이&nbsp;가지는 특성을 사용해야 하기 때문에 전용의 API가 제공되어야 합니다. 보통의 경우 개발 언어별로 API를 제공하는 것이 일반적이고, 그러지&nbsp;않기 위해서 COM과 같은&nbsp;Binary 규격으로 API를 제공하기도 합니다만 windows 8 metro&nbsp;platform용&nbsp;API는&nbsp;단일의&nbsp;binary로 C/C++, C#/VB,&nbsp;Javas-ript 모두에서 사용할 수 있는 방식으로 만들어졌습니다.&nbsp;정말 이정도면 삽질도 보통 삽질이 아니었을겁니다.&nbsp;<br>이런 이질적인 3개의&nbsp;언어군(native/managed/script)에서 사용할 수 있는 공통의 binary라니요??? 하지만 마이크로소프트는 Modem COM 이라는 새로운 규격 하에 3개의 언어에서 쓸 수 있도록 단일의 binary를 진짜로 만들었습니다. 그리고 각 언어의 특성과 binary 사이의 간극을 메우기 위해서 language 별 projection layer를 간단히 걸쳐 놓았습니다. <br>만들다 보니 아무래도 script language와 library 사이에 간극이 가장 컷던 모양입니다. 여러가지 이유로 그럴 수 밖에 없었는데 가장 큰 이유는 아무래도 공통의 binary(library)가 C/C++로 작성되었기 때문이라고 강하게 추측 해봅니다.<br><br>이 binary의 이름이 바로 "Windows Runtime" 입니다. 그래서 어떤 언어를 사용하던 Windows Runtime을 사용하여야만 windows 8 app을 개발할 수가 있습니다.<br><br>이게 언어별로 구분해서 살펴보겠습니다.<br><br><strong>1. C/C++</strong><br>먼저 C/C++입니다. C/C++은 visual c runtime을 포함하여 win32와 모든 com api가 사용가능&nbsp;library군에 포함됩니다.&nbsp;그런데 windows 8 app은 새로운 platform이기도 하거니와 상당히 제약이 많은 platform이기 때문에 모든 api를 다 사용할 수는 없습니다. 그래서 windows 8 app을 개발할 때 사용할 수 있는 api와 사용할 수 없는 app을 구분짓고 header 파일&nbsp;내를 2개의 영역으로 구분지어 두었습니다.<br><br>#pragma region Application Family<br>이 영역에 선언되어 있는 API들은 windows 8 app과 dekstop app 모두에서 사용할 수 있습니다.<br>#pragma region Desktop Family<br>이 영역에 선언되어 있는 API들은 desktop app에서만 사용할 수 있습니다.<br><br>Visual Studio를 사용하면 Windows 8 app을 개발할 때에는 #pragma region Application Family 이하에 정의된 API 들만 사용가능하도록 해주고, desktop app을 개발할 때에는 둘 다를 보여주는 식으로 개발자를 도와줍니다.<br><br>C/C++에서만 사용할 수 있는 또 하나의 library가 있는데요, Platform이라는 namespace 안에 모조리 구현되어 있고, exception이나 type과 관련되어 있는 내용이 많이 포함되어 있습니다. <br>Platform namespace에 대해 궁금하신 분이라면 아래 링크를 살펴보시면 되겠습니다.<br><br>정리하면 사용할 수 있는 API 군은 크게 3가지로 요약될 수 있겠습니다.<br>Windows API: Windows Runtime<br><a href="http://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx">http://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx</a><br>Win32 and COM API 중 사용할 수 있도록 허용된 API들<br><a href="http://msdn.microsoft.com/en-us/library/windows/apps/br205757.aspx">http://msdn.microsoft.com/en-us/library/windows/apps/br205757.aspx</a><br>Platform namespace 내에 정의된 class와 method 들<br><a href="http://msdn.microsoft.com/en-us/library/windows/apps/hh710417.aspx">http://msdn.microsoft.com/en-us/library/windows/apps/hh710417.aspx</a><br><br>그리고 약간 불편한 사실 두 가지<br>단일의 runtime을 구성하기 위해서는 언어별로 약간의 고통들을 감수 해야 했습니다. C/C++도 상당한 고통을 치러야 했는데요, 첫번째로 API 사용의 복잡성에 직면하게 되었습니다. 마이크로소프트는 이러한 복잡성을 해결하기 위한 방책으로 CX(Component Extension)이라는 확장 규격을 언어에 추가하였습니다. 따라서 windows 8 app을 C/C++로 개발하려면 가능한 CX 확장 규격을 사용하는 것이 정신 건강에 좋습니다. 이를 기존의 C++과 구분하기 위해서 C++/CX라고 합니다.<br><br>나머지 하나는 일반적인 C/C++ 개발 idiom이나 style이 아닌 windows runtime을 사용하기 위한 개발 style을 사용해야 한다는 것입니다. 이는 마치 C/C++을 사용하지만 표현의 방식이 다른 언어인냥 느껴지기도 합니다. <br>아주 간단한 예를 들어보면 Windows::ApplicationModel::Resources::Management&nbsp; 식의 namespace를 사용하는 등이죠.<br>이는 C/C++의 언어규격에는 정확히 맞을지 모르나 기존의 C/C++ 개발자들이 즐겨쓰던 방식은 아님에 분명합니다.<br><br><strong>2. C#/VB</strong><br>사실 C#/VB 언어를 사용하던 개발자라면 windows 8 app 개발시에 가장 빠르게 app을 개발할 수 있습니다. Windows Runtime를 사용해야 하는 것은 당연합니다. 여기에 더하여 .NET의 BCL(Base Class Library)중 windows 8 app 개발에 사용할 수 있는 Type들만을 모아서 ".NET for Metro style apps" 라는 library를 만들었습니다. 이름이 이렇다 보니 영문을 읽다 보면 이것이 Library의 이름인지 아니면 매트로 스타일 앱을 위한 .NET이라고 해석되어야 하는 것인지 혼돈 될 수 있는데, 절대로 혼돈하면 안됩니다. BCL 중 windows 8 apps을 개발할 때 사용할 수 있는 subset 만을 모아둔 API군의 이름이 ".NET APIs&nbsp;for Metro style apps"입니다. <br><br>Windows API: Windows Runtime<br><a href="http://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx">http://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx</a><br>.NET APIs for Metro style apps<br><a href="http://msdn.microsoft.com/en-us/library/windows/apps/br230232.aspx">http://msdn.microsoft.com/en-us/library/windows/apps/br230232.aspx</a><br><br><strong>3. Javascript<br></strong>Javascript는 앞서 2개의 언어와는 상당히 간극이 큰 언어임에 분명합니다. 그래서 Javascript를 이용해서 Windows Runtime을 완전히 사용하기에는 쉽지 않았습니다. 그래서 Windows Runtime과 더불어 "Windows Library for JavaScript"라는 녀석을 같이 써야 제대로 app을 개발할 수가 있습니다.<br>이런 이유로 C/C++이나 C#/VB로 개발하는 코드에 비해서 Javascript code가 상당히 이질적이거나 구조적으로 달라보이게 됩니다.<br>또한&nbsp;많은 문서에서 API의 사용 예제를 3가지로 제공하는 경우 C/C++과 C#/VB 그리고 Javascript로 나누어 제공하고, 2가지로 예제를 제공하는 경우 C/C++/C#/VB 그리고 Javascript로 나누어 제공합니다.<br>대부분의 문서에서 "Windows Runtime and Windows Library for JavaScript" 하나로 묶어 설명하는데 이는 Javascript만으로 Windows Runtime을 사용하기에는 불가능하지는 않으나 너무나 복잡하기 때문입니다.<br>그외 HTML5와 CSS를 사용할 수 있겠습니다. 이또한 혼돈하지 말아야할 것은 HTML5와 CSS를 사용하고 있지만 정확히는 HTML5와 CSS 규격의 일부를 확장하여 사용하고 있다고 보는 편이 적절해 보입니다. 또한 광의의 의미에서 HTML5는 엄청나게 다양한 API 군을 포함하게 되는데, 아직 recommended가 확정되지 않은 내용이 많고 그 전체를 다 지원하지도 않습니다 지원되는 API 군과 확장 feature를 살펴보시려면 아래의 "HTML/CSS for Metro style apps" 링크를 살펴보시기 바랍니다.<br><br>Windows API: Windows Runtime<br><a href="http://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx">http://msdn.microsoft.com/en-us/library/windows/apps/br211377.aspx</a><br>HTML/CSS for Metro style apps<br><a href="http://msdn.microsoft.com/en-us/library/windows/apps/br229576.aspx">http://msdn.microsoft.com/en-us/library/windows/apps/br229576.aspx</a><br><br><strong>이정도 알려줬으면 이제 앱들 팍!팍! 만드십시오.<br></strong>불친절한 명신</p>			 ]]> 
+		</description>
+		<category>복잡한컴퓨터이야기</category>
+
+		<comments>http://himskim.egloos.com/3870673#comments</comments>
+		<pubDate>Fri, 10 Aug 2012 15:02:50 GMT</pubDate>
+		<dc:creator>김명신</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Windows Phone 8 업그레이드... ]]> </title>
+		<link>http://himskim.egloos.com/3853396</link>
+		<guid>http://himskim.egloos.com/3853396</guid>
+		<description>
+			<![CDATA[ 
+  <p>한국에서 Windows Phone 7.5 가 몇대나 팔렸는지 저는 알지 못합니다. 하지만 눈을 씻고 찾아봐도 쓰는 사람이 없을 만큼 거의 저변이 없는 상태이지요. <br>옴니아를 통해서 망가진 마이크로소프트의 휴대폰에 대한 인지도도 문제였고, Windows Phone보다 훨씬 더 좋은 아이폰과 안드로이드 등이 경쟁적으로 국내에 출시된 영향이 더 켰죠. 게다가 출시 시기도 늦었고요. 이것 말고도 삼천구백팔십팔만가지 이유들이 있지만 각설하고요.<br>이번에 Windows Phone 8의 발표 내용을 살펴보면, Windows Phone 7.5를 Windows Phone 8으로 소프트웨어 업그레이드 해줄 것 같지는 않습니다.&nbsp;이것이 국내 소비자들의 최대 불만이지요. <br><br>저는 Windows Phone 7.5가 국내에 몇대나 팔렸는지 알지 못합니다.<br>만일 다른 방식으로 Windows Phone 8을 사용할 수 있게만 해준다면 이 보다 더 좋은 마케팅이 어디 있을라구요. 우리나라에는 기변이라는 좋은 제도가 있잖아요. ^^;<br>몇안되는 사용자 기분좋게 해 주고, 과거로부터 완전한 단절로 개발자들 부담 줄여주고 여러모로 좋지 않을까요?<br><br>그냥 심심해서 기분좋은 상상을 하고 싶었습니다.<br><br><br><br><br></p>			 ]]> 
+		</description>
+		<category>복잡한컴퓨터이야기</category>
+
+		<comments>http://himskim.egloos.com/3853396#comments</comments>
+		<pubDate>Thu, 21 Jun 2012 05:36:07 GMT</pubDate>
+		<dc:creator>김명신</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 설치된 Metro style app의 코드 뒤져 보기 ]]> </title>
+		<link>http://himskim.egloos.com/3831620</link>
+		<guid>http://himskim.egloos.com/3831620</guid>
+		<description>
+			<![CDATA[ 
+  <p>Windows 8의 Metro style app은 설치 과정과 실행 과정이 기존의 전통적인 desktop application과 사뭇 다릅니다. 하지만 Disk 어딘가에 저장되어 있는 것은 분명할 것이고, 이미 설치된 Metro style App들을 참고할 수 있다면 개발과정에 많은 도움이 될 것 같아서 조금 살펴보았습니다. </p><p>Metro Style App은 어떤 언어를 사용하여 개발되었는지에 따라 수행 모델이 조금 상이한데, 개발 언어에 따라 다음과 같이 분류해 볼 수 있겠습니다.</p><p>1. C++, XAML : native binary 생성</p><p>2. C#, XAML : managed binary 생성</p><p>3. Javascript, HTML : 추가로 코드를 생성하지 않고 javascript와 HTML을 그대로 packaging</p><p>1과 2의 경우는 실행파일(executable)이 생성되기 때문에, 이를 수행하면 상관이 없지만, 3번의 경우 적절한 surrogate process가 반드시 필요하겠지요. 이 경우 WWAHost.exe 가 그 역할을 담당하게 됩니다. </p><p>다음과 같이 한번 확인해 보시죠.</p><p>1. 기본으로 설치된 Metro style app 중 Finance를 수행합니다.</p><p>2. Desktop 으로 돌아와서 작업관리자(Task Manager)를 띄웁니다.</p><p>3. 오른쪽 마우스 버튼을 클릭하여 Go to Details를 누릅니다.</p><p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds23.egloos.com/pds/201204/20/23/a0001923_4f90fca0701fd.png" width="500" height="297.134238311" onclick="Control.Modal.openDialog(this, event, 'http://pds23.egloos.com/pds/201204/20/23/a0001923_4f90fca0701fd.png');" /></div></p><p>4. Details 탭으로 이동하게 되는데 다음과 같이 WWAHost.exe 가 선택됨을 알 수 있습니다.</p><p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds23.egloos.com/pds/201204/20/23/a0001923_4f90fca0d25e2.png" width="500" height="116.892911011" onclick="Control.Modal.openDialog(this, event, 'http://pds23.egloos.com/pds/201204/20/23/a0001923_4f90fca0d25e2.png');" /></div></p><p>5. WWAHost.exe 프로세스 내부를 살펴보기 위해서는 여러가지 도구를 활용할 수 있지만, 그 중 가장 간편한 Process Explorer(<a href="http://technet.microsoft.com/en-us/sysinternals/bb896653">http://technet.microsoft.com/en-us/sysinternals/bb896653</a> ) 와 같은 도구를 이용해서 WWAHost(8140) Process를 살펴보면 다음과 같습니다.</p><p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds23.egloos.com/pds/201204/20/23/a0001923_4f90fca1608d2.png" width="500" height="292.609351433" onclick="Control.Modal.openDialog(this, event, 'http://pds23.egloos.com/pds/201204/20/23/a0001923_4f90fca1608d2.png');" /></div></p><p>예상하실 수 있는 바와 같이 jscript9.dll 파일이 load되어 있고, mshtml 등도 로드되어 있음을 알 수 있습니다.</p><p>사실 오늘 말씀드리고 싶었던 내용은 이미 설치된 파일의 내용을 한번 들여다 보고자 하는 것이기에 이 정도에서 Process Model은 각설하고, 좀더 아랫쪽으로 내려가 보도록 하죠.</p><p>Process Monitor(<a href="http://technet.microsoft.com/en-us/sysinternals/bb896645">http://technet.microsoft.com/en-us/sysinternals/bb896645</a> )와 같은 도구를 이용하면 특정 프로세스가 접근하는 레지스트리나 파일 등등에 대해서 조목조목 그 내용을 살펴볼 수 있는데요, 이 도구를 이용하여 Metro style app들의 구동시에 동작 메커니즘을 쭉 따라가다 보면 Startup시에는 Registry에 집중적인 접근이 나타나고, 이후에 Program Files\WindowsApps 라는 폴더로 부터 Binary들에 접근함을 알 수 있습니다.</p><p>따라서 Metro App의 설치 과정이 이 폴더와 연관성이 있음을 단번에 알 수 있습니다. 이 폴더에 접근하기 위해서는 조금 까다로운 절차를 거쳐야 합니다. (권한설정 등의 정보를 변경하면 조금 쉽게 접근할 수 있지만 다시 rollback을 하는 것이 귀찮으므로 다른 방법으로 접근해 보죠.)</p><p>1. 명령창을 관리자 권한으로 엽니다.</p><p>2. Explorer.exe를 수행합니다.</p><p>3. 탐색기 탭의 View 에서 Hidden items를 check 하여 숨겨진 폴더를 살펴봅니다.</p><p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds23.egloos.com/pds/201204/20/23/a0001923_4f90fca1e90e6.png" width="500" height="182.503770739" onclick="Control.Modal.openDialog(this, event, 'http://pds23.egloos.com/pds/201204/20/23/a0001923_4f90fca1e90e6.png');" /></div></p><p>오호라, 일단 숨겨진 “WindowsApps” 폴더가 있음을 발견하셨지요?</p><p>4. 더블클릭 해도 폴더 내용이 보이지 않고 약간의 경고 창이 뜨면서 security tab을 이용해서 access 권한을 설정하라는 내용이 나타날 겁니다. 이 폴더의 소유권은 TruestedInstaller가 가지고 있는데, 소유권을 뺏어와서 내 맘대로 그 내용을 살펴 볼 수도 있겠지만 추후 작업이 귀찮아지므로 참기로 하고 대신 관리자 권한으로 띄웠던 명령창을 이용해 봅시다.</p><p>5. C:\Program Files\WindowsApps 폴더로 이동하여, dir을 해보면 여러 폴더가 보일텐데요, 이 중 Finance라는 Keyword를 가진 folder를 찾아보면 다음과 같은 결과가 나옵니다.</p><p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds24.egloos.com/pds/201204/20/23/a0001923_4f90fca23daf0.png" width="500" height="174.208144796" onclick="Control.Modal.openDialog(this, event, 'http://pds24.egloos.com/pds/201204/20/23/a0001923_4f90fca23daf0.png');" /></div></p><p>6. 이 중 version 정보가 1.0.1030.0 인 폴더로 이동한 다음 dir을 해보면</p><p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds24.egloos.com/pds/201204/20/23/a0001923_4f90fca2a150b.png" width="500" height="284.31372549" onclick="Control.Modal.openDialog(this, event, 'http://pds24.egloos.com/pds/201204/20/23/a0001923_4f90fca2a150b.png');" /></div></p><p>7. Finance App이 구성하고 있는 모든 파일들의 List를 살펴볼 수 있습니다. </p><p>8. 폴더 각각을 드려다 보면 html 파일과 javascript 들이 어떻게 작성되어 있는지 source level로 그대로 확인해 보실 수 있습니다.</p><p>Javascript/HTML은 source 자체가 packaging 되므로 위와 같이 쉽게 내용을 살펴보실 수 있지만, C#/XAML은 조금 다를 수 있습니다. 이번에는 C#/XAML 형태로 작성된 녀석들을 살펴보겠습니다.</p><p>Solitaire 같은 App이 대표적으로 C#을 이용하여 작성된 코드인데요(참고적으로 C#으로 DX를 사용하는 방법도 아시게 될겁니다.)</p><p>1. 절차는 위의 예와 거의 같습니다.</p><p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds24.egloos.com/pds/201204/20/23/a0001923_4f90fca3458cd.png" width="500" height="323.529411765" onclick="Control.Modal.openDialog(this, event, 'http://pds24.egloos.com/pds/201204/20/23/a0001923_4f90fca3458cd.png');" /></div></p><p>2. XAML 파일과 DLL 파일이 List에 보이는데 XAML 파일은 txt 파일이므로 그대로 내용을 살펴보실 수 있습니다.</p><p>3. dll 파일의 경우 managed dll 이므로 reflector(<a href="http://www.reflector.net/">http://www.reflector.net/</a> )와 같은 도구를 이용해서 그 내용을 살펴보실 수 있습니다. </p><p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds23.egloos.com/pds/201204/20/23/a0001923_4f90fca3969f0.jpg" width="500" height="272.292993631" onclick="Control.Modal.openDialog(this, event, 'http://pds23.egloos.com/pds/201204/20/23/a0001923_4f90fca3969f0.jpg');" /></div></p><p>살펴보신 내용은 제발~~~~ 지구의 평화를 위해서 사용하여 주세요!!! </p><p>감사합니다.<br><br>몇몇분이 고맙게도 제 글을 읽어주시고 feedback을 보내주셨습니다. 대부분 소스코드의 공개에 대한 불안함을 피력해 주신 부분이었는데요.. 다음과 같이 정리하면 될 것 같습니다.<br><br>1. html/js는 소스코드를 볼 수 없었던 적이 단 한번도 없습니다.<br>&nbsp;&nbsp;&nbsp;브라우져에서 오른쪽 마우스를 막는 등의 유치한 방법 정도가 있었지만 마음먹으면 몇초 이내로 내용을 다 볼 수 있습니다.<br>2. Managed Code(C#/VB) 등의 reflection 기술은 이미 오래되고 성숙된 기술입니다.<br>&nbsp;&nbsp; 기존에 Managed Code로 개발된 모든 binary는 소개해 드린 것과 같은 reflection tool을 이용해서 얼마 던지 볼 수 있었습니다.<br>3. C/C++ native : 이쪽은 그나마 내용을 쉽게 확인 할 수 없지만, 머리속에서 assembly--&gt;C++로의 reversing을 하는 사람들이 얼마던지 있습니다.<br><br>상기 1,2번의 문제점을 보완하기 위해서 스크램블링(난독처리)하는 도구들이 일부 나와 있고, 이 경우 코드를 상당히 어렵게 변경하기 때문에 코드를 읽기가 매우 매우 어려워집니다.<br><br><strong>결과적으로, Metro Style App이라고 해서 이전보다 보안이 더욱 취약해서져서 내용이 모두 공개되는 것은 아니며, 기존과 동일 수준이 그대로 유지되고 있다고 보시는 편이 적절합니다. 제 글이 약간 충격적이셨다면 그것은 기존에 이러한 방법을 몰랐기 때문이지 더 나빠진 것은 절대로! 아닙니다.<br></strong><br>감사합니다.<br><br></p>			 ]]> 
+		</description>
+
+		<comments>http://himskim.egloos.com/3831620#comments</comments>
+		<pubDate>Fri, 20 Apr 2012 06:03:57 GMT</pubDate>
+		<dc:creator>김명신</dc:creator>
+	</item>
+</channel>
+</rss>

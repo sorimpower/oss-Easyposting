@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>from __future__ import dream</title>
+	
+	<link>http://freesearch.pe.kr</link>
+	<description>당신의 나의 뜨거운 감자!</description>
+	<lastBuildDate>Tue, 09 Sep 2014 05:32:32 +0000</lastBuildDate>
+	<language>ko-KR</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.0</generator>
+	<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/kr/</creativeCommons:license>
+	<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/gogamza" /><feedburner:info uri="gogamza" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+		<title>카카오톡 보이스톡 데이터 시각화</title>
+		<link>http://feedproxy.google.com/~r/gogamza/~3/lheoNKNpUAE/4177</link>
+		<comments>http://freesearch.pe.kr/archives/4177#comments</comments>
+		<pubDate>Mon, 08 Sep 2014 02:30:09 +0000</pubDate>
+		<dc:creator><![CDATA[고감자]]></dc:creator>
+				<category><![CDATA[데이터분석]]></category>
+
+		<guid isPermaLink="false">http://freesearch.pe.kr/?p=4177</guid>
+		<description><![CDATA[R에는 다양한 웹의 데이터를 끌어와 분석을 할 수 있는 장점이 있다. 흥미롭게도 카카오톡의 홈페이지는 군더더기 없이 깔끔하게 웹 테이블을 구성해 놓고 있어 생각보다 빨리 시각화를 할 수 있었다. 군산에서 서울로 가는 무궁화호 기차 안에서 카카오톡 보이스톡 품질 관련 글을 읽고 생각이 나서 시각화 및 관련 글을 써봤다(애들이 좀 크니 예전처럼 기차에서 글을 보거나 블로깅을 하는것도 &#8230;<br/><a class="more-link" href="http://freesearch.pe.kr/archives/4177">Read more <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://freesearch.pe.kr/archives/4177/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/kr/</creativeCommons:license>
+	<feedburner:origLink>http://freesearch.pe.kr/archives/4177</feedburner:origLink></item>
+		<item>
+		<title>Google Analytics 데이터로 블로그 방문자 분석하기</title>
+		<link>http://feedproxy.google.com/~r/gogamza/~3/xOOH8tI78hQ/4157</link>
+		<comments>http://freesearch.pe.kr/archives/4157#comments</comments>
+		<pubDate>Fri, 05 Sep 2014 05:15:40 +0000</pubDate>
+		<dc:creator><![CDATA[고감자]]></dc:creator>
+				<category><![CDATA[데이터분석]]></category>
+
+		<guid isPermaLink="false">http://freesearch.pe.kr/?p=4157</guid>
+		<description><![CDATA[블로그 방문자 추이데이터를 2011년 가량부터 수집해오고 있어 이를 rga패키지를 이용해서 분석해 보았다. 자세한 사용법은 R에서 Google Analytics 데이터 사용하기와 Analysing your e-commerce funnel with R을 참고하길 바란다. suppressPackageStartupMessages({ library(rga) library(lubridate) library(xts) library(magrittr) library(dplyr) library(ggplot2) library(forecast) }) rga.open(instance=&#34;ga&#34;, where=&#34;ga.rga&#34;) daily_visits_src &#60;- ga$getData( key, start.date = &#34;2011-01-01&#34;, end.date = &#34;2014-08-27&#34;, metrics = &#34;ga:users&#34;, dimensions = &#34;ga:date&#34;, sort &#8230;<br/><a class="more-link" href="http://freesearch.pe.kr/archives/4157">Read more <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://freesearch.pe.kr/archives/4157/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/kr/</creativeCommons:license>
+	<feedburner:origLink>http://freesearch.pe.kr/archives/4157</feedburner:origLink></item>
+		<item>
+		<title>R에서 Pipe 연산으로 분석하기</title>
+		<link>http://feedproxy.google.com/~r/gogamza/~3/cvqsBQD-ggg/4145</link>
+		<comments>http://freesearch.pe.kr/archives/4145#comments</comments>
+		<pubDate>Sat, 09 Aug 2014 14:58:47 +0000</pubDate>
+		<dc:creator><![CDATA[고감자]]></dc:creator>
+				<category><![CDATA[데이터분석]]></category>
+
+		<guid isPermaLink="false">http://freesearch.pe.kr/?p=4145</guid>
+		<description><![CDATA[magrittr 패키지가 최근에 많은 화제를 불러 일으키고 있다. 사실 이 패키지는 패키지 자체로 유명세를 탔다고 하기 보다는 다른 유명 패키지가 이 패키지를 사용하게 됨으로써 유명세를 탓고 필자도 현재 이 패키지 때문에 dplyr과 같은 패키지를 자연스럽게 사용하게 되었다. 이 패키지는 유닉스에 있는 파이프(&#124;, &#62;) 연산자와 같은 기능을 아래와 같이 R에서 쓸 수 있게 해주는 연산자이다. library(magrittr) &#8230;<br/><a class="more-link" href="http://freesearch.pe.kr/archives/4145">Read more <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://freesearch.pe.kr/archives/4145/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/kr/</creativeCommons:license>
+	<feedburner:origLink>http://freesearch.pe.kr/archives/4145</feedburner:origLink></item>
+		<item>
+		<title>내가 쓰는 맥용 .Rprofile</title>
+		<link>http://feedproxy.google.com/~r/gogamza/~3/LXK1wGqfafY/4137</link>
+		<comments>http://freesearch.pe.kr/archives/4137#comments</comments>
+		<pubDate>Fri, 18 Jul 2014 11:35:44 +0000</pubDate>
+		<dc:creator><![CDATA[고감자]]></dc:creator>
+				<category><![CDATA[데이터분석]]></category>
+
+		<guid isPermaLink="false">http://freesearch.pe.kr/?p=4137</guid>
+		<description><![CDATA[금일 서울대학교 강좌를 진행하면서 필자 맥북의 .Rprofile공유를 요청하셔서 이렇게 올려본다. 아래 스크립트의 앞부분은 링크에서 설명을 하지만 맥에서 기본 그래픽 디바이스인 quartz디바이스의 한글 설정을 해주는 스크립트 이다. 그리고 마지막 라인은 자바 설정으로 KoNLP를 맥에서 사용할때 권장하는 설정 내용이다. 물론 다른 OS에서도 설정해주면 좋다. -Xmx8g부분은 본인의 시스템 메모리를 고려해서 적당하게 설정하면 된다. stringsAsFactors 부분은 데이터를 읽어들일때 R이 &#8230;<br/><a class="more-link" href="http://freesearch.pe.kr/archives/4137">Read more <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://freesearch.pe.kr/archives/4137/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/kr/</creativeCommons:license>
+	<feedburner:origLink>http://freesearch.pe.kr/archives/4137</feedburner:origLink></item>
+		<item>
+		<title>Resampling으로 회귀계수 검정</title>
+		<link>http://feedproxy.google.com/~r/gogamza/~3/EwImIUm1HNA/4133</link>
+		<comments>http://freesearch.pe.kr/archives/4133#comments</comments>
+		<pubDate>Wed, 16 Jul 2014 23:39:02 +0000</pubDate>
+		<dc:creator><![CDATA[고감자]]></dc:creator>
+				<category><![CDATA[데이터분석]]></category>
+
+		<guid isPermaLink="false">http://freesearch.pe.kr/?p=4133</guid>
+		<description><![CDATA[re-sampling 방법으로 회귀모형 파라메터를 검정해보기로 한다. 개인적으로는 리샘플링 방법이 직관적이고 설명이 편한 장점이 있어서 자주 쓰고자 하는 소망을 가지고 있고 금번 포스팅도 그 일환이다. 무엇보다 우리 주변의 컴퓨팅 파워는 놀고 있으니 요즘들어 안쓸 이유가 없는 방법이라 생각한다. … suppressPackageStartupMessages(library(UsingR)) suppressPackageStartupMessages(library(data.table)) suppressPackageStartupMessages(library(extrafont)) data(father.son) coeffs &#60;- data.table() #2만번 re-sampling for(i in 1:20000){ rfheigh &#60;- sample(father.son$fheight) rsheigh &#60;- &#8230;<br/><a class="more-link" href="http://freesearch.pe.kr/archives/4133">Read more <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://freesearch.pe.kr/archives/4133/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/kr/</creativeCommons:license>
+	<feedburner:origLink>http://freesearch.pe.kr/archives/4133</feedburner:origLink></item>
+		<item>
+		<title>베이지언 책에 대한 이야기</title>
+		<link>http://feedproxy.google.com/~r/gogamza/~3/62Rer7PMdXc/4107</link>
+		<comments>http://freesearch.pe.kr/archives/4107#comments</comments>
+		<pubDate>Tue, 01 Jul 2014 14:32:59 +0000</pubDate>
+		<dc:creator><![CDATA[고감자]]></dc:creator>
+				<category><![CDATA[데이터분석]]></category>
+		<category><![CDATA[일상]]></category>
+
+		<guid isPermaLink="false">http://freesearch.pe.kr/?p=4107</guid>
+		<description><![CDATA[뭔가 새로운걸 배울땐 여러 책을 구입해 겹쳐읽기를 하는 패턴으로 학습을 하곤한다. 이 방법의 장점은 같은 주제의 설명을 다른 저자로부터 들을 수 있다는 것이고 이 덕분에 빨리 제대로된 이해를 할 수 있게 된다.  이번 전반기에 구입한 베이지언 책들은 크게 국내서와 해외서로 나눌 수 있는데 개인적으로 가장 만족감을 느꼈던 국내서 한권과 해외서 한권을 소개한다. 물론 개인의 여건에 &#8230;<br/><a class="more-link" href="http://freesearch.pe.kr/archives/4107">Read more <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://freesearch.pe.kr/archives/4107/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/kr/</creativeCommons:license>
+	<feedburner:origLink>http://freesearch.pe.kr/archives/4107</feedburner:origLink></item>
+		<item>
+		<title>몇가지 베이지언 계산 방법 정리</title>
+		<link>http://feedproxy.google.com/~r/gogamza/~3/-6E_k2T0DLU/4103</link>
+		<comments>http://freesearch.pe.kr/archives/4103#comments</comments>
+		<pubDate>Thu, 26 Jun 2014 13:07:09 +0000</pubDate>
+		<dc:creator><![CDATA[고감자]]></dc:creator>
+				<category><![CDATA[데이터분석]]></category>
+
+		<guid isPermaLink="false">http://freesearch.pe.kr/?p=4103</guid>
+		<description><![CDATA[지금까지 알고 있는 몇가지 방식의 베이지언 계산법 정리를 해볼 필요가 있어서 같은 문제를 여러 방법으로 살펴봤다. 상세한 모델 설계를 할 수 있는 jags 또는 좀더 빠르다고 하는 stan을 좀더 익숙하게 쓸 수 있도록 좀 살펴볼 필요가 있을거 같다. 그리고 여러 실 활용 예들을 찾아서 책을 좀 뒤적이도록 하자! Grid Approximation library(rjags) library(MCMCpack) library(extrafont) library(ggthemes) library(ggmcmc) &#8230;<br/><a class="more-link" href="http://freesearch.pe.kr/archives/4103">Read more <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://freesearch.pe.kr/archives/4103/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/kr/</creativeCommons:license>
+	<feedburner:origLink>http://freesearch.pe.kr/archives/4103</feedburner:origLink></item>
+		<item>
+		<title>베이지언과 여론조사 데이터를 이용한 선거 결과 예측 – 6.4 서울 시장 선거 -</title>
+		<link>http://feedproxy.google.com/~r/gogamza/~3/vUKNDRGGtgA/4086</link>
+		<comments>http://freesearch.pe.kr/archives/4086#comments</comments>
+		<pubDate>Wed, 25 Jun 2014 14:17:47 +0000</pubDate>
+		<dc:creator><![CDATA[고감자]]></dc:creator>
+				<category><![CDATA[일상]]></category>
+
+		<guid isPermaLink="false">http://freesearch.pe.kr/?p=4086</guid>
+		<description><![CDATA[Background 대학원 수업으로 베이즈 통계학 과목을 수강하면서 개인적으로 관심을 가지고 있었던 선거 예측을 해보기로 했다. 물론 여론조사 자료는 선거 관리 위원회 사이트에서 직접 수집했다(손으로). 결과적으로 이야기 하자면 예측치와 6.4 선거의 실제 지지율 차이가 불과 0.6%로 계산되었다. 이 수치는 엉망인 여론조사 결과까지 알면서 포함시킨 결과이고 아래 이야기 하겠지만 잘못된 여론조사를 제외했을 경우 실제 지지율 격차 13%를 &#8230;<br/><a class="more-link" href="http://freesearch.pe.kr/archives/4086">Read more <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://freesearch.pe.kr/archives/4086/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/kr/</creativeCommons:license>
+	<feedburner:origLink>http://freesearch.pe.kr/archives/4086</feedburner:origLink></item>
+		<item>
+		<title>RStudio New Version 리뷰 (V. 0.98.932)</title>
+		<link>http://feedproxy.google.com/~r/gogamza/~3/uYWtligo94c/4082</link>
+		<comments>http://freesearch.pe.kr/archives/4082#comments</comments>
+		<pubDate>Wed, 18 Jun 2014 06:54:22 +0000</pubDate>
+		<dc:creator><![CDATA[고감자]]></dc:creator>
+				<category><![CDATA[데이터분석]]></category>
+		<category><![CDATA[일상]]></category>
+
+		<guid isPermaLink="false">http://freesearch.pe.kr/?p=4082</guid>
+		<description><![CDATA[RStudio는 R을 사용하는데 필수 불가결한 에디터 중에 하나이다. 특히나 뛰어난 분석 통합 환경과 더불어 RR(Reproducible Research)관련 기능은 정말 타의 추종을 불허한다. 필자가 이렇게 RStudio 새로운 버전을 리뷰하는 이유는 금번 버전업에 RR관련 많은 내용들이 추가되었기 때문이다.   관련 업데이트 내용은 아래와 같으며 Markdown v2에 대한 설명은 이 링크에서 볼 수 있다.    R Markdown Next generation of &#8230;<br/><a class="more-link" href="http://freesearch.pe.kr/archives/4082">Read more <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://freesearch.pe.kr/archives/4082/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/kr/</creativeCommons:license>
+	<feedburner:origLink>http://freesearch.pe.kr/archives/4082</feedburner:origLink></item>
+		<item>
+		<title>진정한 R 사용자의 축제…</title>
+		<link>http://feedproxy.google.com/~r/gogamza/~3/T0r1C8iqWKM/4070</link>
+		<comments>http://freesearch.pe.kr/archives/4070#comments</comments>
+		<pubDate>Sun, 01 Jun 2014 07:04:06 +0000</pubDate>
+		<dc:creator><![CDATA[고감자]]></dc:creator>
+				<category><![CDATA[일상]]></category>
+
+		<guid isPermaLink="false">http://freesearch.pe.kr/?p=4070</guid>
+		<description><![CDATA[10년 넘게 이런저런 커뮤니티를 활동하면서 느낀 부분은 10년 전 만큼의 커뮤니티의 순수성이 많이 없어지고 있다는 것이었다. 이런 문제에 많은 실망을 하는 바람에 오래 알던 지인들과 다투기도 하는 상황이 벌어지기도 일쑤여서 제작년 이후로는 커뮤니티 활동을 하지 않고 있었다. 특히 R커뮤니티의 경우 다양한 분야와 엮일 수 있는 아주 큰 접점이 되는 기술이여서 그 혼탁함은 이루 말할 수 &#8230;<br/><a class="more-link" href="http://freesearch.pe.kr/archives/4070">Read more <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://freesearch.pe.kr/archives/4070/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<creativeCommons:license>http://creativecommons.org/licenses/by-nc-sa/2.0/kr/</creativeCommons:license>
+	<feedburner:origLink>http://freesearch.pe.kr/archives/4070</feedburner:origLink></item>
+	</channel>
+</rss>

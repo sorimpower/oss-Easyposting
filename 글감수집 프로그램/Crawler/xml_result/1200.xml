@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LukeW | Digital Product Design + Strategy</title>
+    <description>Expert articles about user experience, mobile, Web applications, usability, interaction design and visual design.</description>
+    <link>http://www.lukew.com</link>
+    <language>en</language>
+    <copyright>LukeW Ideation + Design</copyright>
+    <pubDate>Thu, 25 Sep 2014 00:00:00 -0700</pubDate>
+    <lastBuildDate>Thu, 25 Sep 2014 00:00:00 -0700</lastBuildDate>
+<!--    <atom:link href="http://www.yourdomain.com/yourfeed.xml" rel="self" type="application/rss+xml" /> -->
+    <image>
+      <title>LukeW | Digital Product Design + Strategy</title>
+      <url>http://www.rssFeedFolder.com/images/rssFeedFolderLogo.gif</url>
+      <link>http://www.lukew.com</link>
+    </image>
+
+    <item>
+      <title><![CDATA[Video: How to Use Location to Enhance UX]]></title>
+      <description><![CDATA[<p class="feature">Location detection gives us an opportunity to create interfaces that take advantage of where people are in the World. In this short 3 minute video, I look at few ways we can use location to rethink the design of our applications.</p>
+
+<div style="padding-top: 56.25%;" class="videobox"><iframe class="videoplayer" src="http://www.youtube.com/embed/06kRr1S3D4Q?rel=0" frameborder="0" allowfullscreen></iframe></div>
+
+<p>This video is part of my <a href="https://www.youtube.com/playlist?list=PLg-UKERBljNy2Yem3RJkYL1V70dpzkysC">User Experience How-To</a> series sponsored by the Intel Developer Zone.</p>]]></description>
+      <link>http://www.lukew.com/ff/entry.asp?1926</link>
+      <pubDate>Thu, 25 Sep 2014 00:00:00 -0700</pubDate>
+      <author>info@lukew.com</author>
+    </item>
+    <item>
+      <title><![CDATA[Video: How to Decide on Mobile Navigation]]></title>
+      <description><![CDATA[<p class="feature">While every application and Web site has at least some form of navigation, everyone's is a bit different. So when all these services make their way to mobile, they need a way to determine if their navigation systems are working well. In this short 5 minute video, I look at few ways we can evaluate mobile navigation solutions.</p>
+
+<div style="padding-top: 56.25%;" class="videobox"><iframe class="videoplayer" src="http://www.youtube.com/embed/qlEJV_xUu6k?rel=0" frameborder="0" allowfullscreen></iframe></div>
+
+<p>This video is part of my <a href="https://www.youtube.com/playlist?list=PLg-UKERBljNy2Yem3RJkYL1V70dpzkysC">User Experience How-To</a> series sponsored by the Intel Developer Zone.</p>]]></description>
+      <link>http://www.lukew.com/ff/entry.asp?1925</link>
+      <pubDate>Wed, 24 Sep 2014 00:00:00 -0700</pubDate>
+      <author>info@lukew.com</author>
+    </item>
+    <item>
+      <title><![CDATA[An Event Apart: SVG is for Everybody]]></title>
+      <description><![CDATA[<p class="feature">In his <a href="http://aneventapart.com/event/austin-2014">SVG is for Everybody</a> talk at An Event Apart in Austin TX 2014, Chris Coyier walked through the current state of SVG and how Web designers and developers can use it on their sites today. Here are my notes from his talk:</p>
+
+<ul>
+<li>No matter where you display an SVG file, it will render with the right size & resolution: flexible & sharp at any size.</li>
+<li>SVG is small in file size, accessible, and can be styled, scripted, animated, interactive.</li>
+<li>SVG is not new -its been around since 1999. It was designed for the Web but coverage was not great.</li>
+<li>SVG can made from essentially anything "vector". You can learn the syntax but you don't need to. If you can open it in Illustrator, you can save it as SVG.</li>
+<li>SVG will never replace raster graphics (sets of pixels), it is good for icons, illustrations, diagrams, charts, logos, etc.</li>
+<li>Generally, the simpler the art the more likely SVG will be a good fit. If there are too many vector points, PNG may use less bandwidth. </li>
+<li>To create SVG, you can hand-craft code or use a vector editing tool. SVG syntax can actually be learned. In the new version of Illustrator, you can copy and paste inline SVG.</li>
+<li>When making SCG in Illustrator, combine shapes to simplify your image and export with Illustrator editing features to reduce file size.</li>
+<li>You can display SVG as a SRC in an IMG tag or as a background image in CSS.</li>
+<li>Because SVG can be resized worry-free, you will probably resize them most of the time. Images set to max-width 100% will fill the size of their container and not more. With vector images, you can instead set width to 100%.</li>
+<li>Inline SVG is just SVG code right inside HTML. You can set styles on each element in the markup.</li>
+<li>Three big advantages to inline SVG. 1) all the elements are in the DOM so they can be styled and scripted. 2) No additional http requests are needed to load the image 3) You can define it once and reuse it again.</li>
+<li>SVG templating system: sites need a system for icons. Use inline SVG and wrap elements with DEF tags, which makes sure it does not render. Then display: none on the whole SVG element.</li>
+<li>From that point on, you can reference the DEFs in your SVG throughout the site (can even link to it in your templates). Define an object once and reuse it in many places. This allows you to reuse the same objects across the page.</li>
+<li>Interent Explorer won't allow you to link to external files, you need a Javascript solution to load it in.</li>
+<li>You can set a folder of SVGs and use Grunt to create the inline code and DEFs you need for it. This is the idea of sprites for SVG</li>
+<li>Unlike image sprites, SVG sprites are vector based, don't require background positioning code, can be restyled with colors, strokes, etc. (including SVG CSS controls).</li>
+<li>You can control individual parts of SVG using CSS. You get some of these advantages with SVG images but not all of them.</li>
+</ul>
+
+<h2>Icon Fonts vs. SVG</h2>
+<ul>
+<li>Both are vectors but icon fonts use anti-aliasing rules.</li>
+<li>Both have CSS control but SVG has lots more: class names, target parts, SVG specific 
+<li>Positioning of icon fonts is subject to line-heights and letter spacing. SVG is a lot easier to position.</li>
+<li>Icon fonts have weird failures like CDNs/headers, IE6 supports font-face but other versions of Windows phone do not.</li>
+<li>SVG has better semantics as it is just images instead of images in text/fonts.</li>
+<li>Accessibility with icon fonts requires a lot of care. SVG is better as it is just an image tag.</li>
+<li>Icon fonts win at support (IE6+) vs. SVG (IE9). This is a bigger win for icon fonts.</li>
+</ul>
+
+<h2>SVG Sizing</h2>
+<ul>
+<li>In raster images, you have a set of pixels in height and width.</li>
+<li>Vector drawings are unit-less. They have an intrinsic width and height based on the form of a ViewBox.</li>
+<li>SVG has a viewport and a ViewBox. If these are the same, things work well.If the viewport is bigger, the ViewBox will center itself.</li>
+</ul>
+
+<h2>Dealing with Fallbacks</h2>
+<ul>
+<li>SVG needs fallback for IE 6-8 and Android 2.</li>
+<li>One fallback is to show nothing. If you are using SVG for icon enhancements, you may not need them on lower end browsers.</li>
+<li>Multiple background support is basically as good as SVG support so you can use them as fallbacks in background-images.</li>
+<li>CSS is decorative and non-vital to content, so no fallback might be needed.</li>
+<li>If you need to support fallbacks for inline SVG, you can use Modernizer, hiding/showing image and SVG elements, and other Javascript solutions like SVG for Everybody".</li>
+<li>You should also optimize your SVG files like you optimize other Web graphics. SVG-O is a tool that can do that for you.</li>
+<li>There's a number of build tools you can use to help with the creation & authoring of SVG images.</li>
+</ul>
+
+<p>SVG also supports animations (with SMIL), filters (including CSS filters), and more. It's a massive world of potential.</p>]]></description>
+      <link>http://www.lukew.com/ff/entry.asp?1921</link>
+      <pubDate>Tue, 23 Sep 2014 00:00:00 -0700</pubDate>
+      <author>info@lukew.com</author>
+    </item>
+    <item>
+      <title><![CDATA[An Event Apart: The Future of Responsive Images]]></title>
+      <description><![CDATA[<p class="feature">In his presentation at <a href="http://aneventapart.com/event/austin-2014">An Event Apart in Austin TX 2014</a>, Mat Marquis walked through the history of developing a responsive images solution for the Web and the solution coming to browsers soon. Here's my notes from his talk: The Future of Responsive Images.</p>
+
+<ul>
+<li>Responsive Web design is made up of three things: a flexible grid, media queries, and flexible images & media. But as developers we've also made responsive design synonymous with large web sites.</li>
+<li>One of the most common critiques against responsive Web design is that it creates large (file size) Web sites, thereby slowing Web pages down.</li>
+<li>The average Web page sizes are 1.8MB. Images are responsible for most of these large sizes.</li>
+<li>The Web is all about universal access. We are responsible for making sure people can get to content and not block them based on their device.</li>
+<li>When Youtube redesigned their player page to be 98KB vs. 1MB, they found the average load time went up. They had accessed markets they couldn’t reach before due to their high load times.</li>
+<li>We are surrounded by high resolution displays. Larger images can be even 4x higher than a standard resolution image.</li>
+<li>The complete works of William Shakespeare can be downloaded 3 times before reaching the files sizes of some Web sites.</li>
+<li>72% of responsive sites send the same assets to mobile sites as they do to desktop sites. Only 6% optimize things for specific devices.</li>
+<li>Measure twice, cut once. Web browsers should take the burden of images on.</li>
+</ul>
+
+<h2>Working Through Options</h2>
+<ul>
+<li>Images and media can be made fluid by setting max-width to 100%. This requires us to send images at the largest size they can be shown.</li>
+<li>In the video element, you can use the media attribute to send different sources to different sized screens.</li>
+<li>The image element, however, only fetches a single element and brings it down to the screen.</li>
+<li>To avoid downloading big images on mobile, developers loaded small images first, then replaced them using Javascript if the screen was large.</li>
+<li>Due to more aggressive browser pre-fetching behavior, this solution stopped working. Many new solutions were tried until ultimately, a Javascript solution was ruled out.</li>
+<li>Two competing proposals for a browser-standard to support responsive images emerged the picture element and srcset. srcset was efficient at dealing with resolutions and worked outside of media queries. These ideas were adopted into the new picture element.</li>
+<li>srcset is specced as a suggestion. People can set up preferences like: always give me high res image, never do, or give them when bandwidth permits.</li>
+<li>The picture element was submitted as a proposal but browser manufacturers were not providing feedback.</li>
+<li>A proposal from Google for srcN gained a lot of traction in a short amount of time. The basic structure was the same as picture but with a few challenges. But the syntax had issues with numbered attributes.</li>
+<li>Most people liked the srcN proposal except for the issue of numbered attributes -which went against the way most Web standards worked.</li>
+<li>Webkit killed srcN and srcset was removed by Mozilla. This officially took these two options off the table.</li>
+</ul>
+
+<h2>A Final Solution</h2>
+<ul>
+<li>After three years of work, browsers have finally agreed to support the picture element.</li>
+<li>Members of the Responsive Images group put in hundreds of hours to help make this happen. This was a community effort to help the Web.</li>
+<li>Through Kickstarter, the picture element was implemented in Blink and now is being ported over to Webkit.</li>
+<li>The picture element is shipping in upcoming Firefox, Webkit, and Chrome browsers.</li>
+<li>You can use the picturefill Javascript polyfill to start writing images in the picture element format. It has been updated to reflect the final specification.</li>
+<li>Responsive images breakdown to a few use cases: art direction, device pixel ratio, sizes, 
+<li>Art direction: when you need full control of images. The first source in a matching media query gets loaded.</li>
+<li>Device pixel ratio: determine which images get used on high resolution screens. This is implemented as a suggestion and can be over-ridden by users.</li>
+<li>With picture, you can serve image types that are only supported in specific browsers and not in others without incurring double downloads.</li>
+<li>Sizes: use this in situations where you don't need art direction, just provide a few sources and let the browser do the rest. It factors in screen size, bandwidth, etc. and it can make educated decisions about what to download.</li> 
+<li>The picture element can be used in lots of different ways, you don't need them all. Don't get intimidated by all the possible use cases.</li>
+<li>Ultimately, users don't and shouldn't care about your technical solutions. They should just get a faster experience.</li>
+</ul>]]></description>
+      <link>http://www.lukew.com/ff/entry.asp?1922</link>
+      <pubDate>Tue, 23 Sep 2014 00:00:00 -0700</pubDate>
+      <author>info@lukew.com</author>
+    </item>
+    <item>
+      <title><![CDATA[An Event Apart: Mobile First Responsive Design]]></title>
+      <description><![CDATA[<p class="feature">At <a href="http://aneventapart.com/event/austin-2014">An Event Apart in Austin TX 2014</a> Jason Grigsby walked through the importance of performance in multi-device designs and techniques for helping you achieve it . Here's my notes from his talk on Mobile First Responsive Design:</p>
+
+<ul>
+<li>The Web has always been a balancing act of competing priorities: SEO, marketing, performance, and now device diversity. To manage diversity, many people are jumping into responsive web design solutions.</li>
+<li>But can a one size fit all solution (like responsive web design) compete with a tailored solution (like separate mobile sites)? Do we need unique solutions for search engine optimization, context, advertising, and performance?</li>
+<li>Studies show that people expect pages to load in two seconds or less. Slow Websites are the main reason people abandon e-commerce Websites. People expect things to load faster on mobile not longer.</li>
+<li>If given the choice between optimizing for performance or optimizing for mobile design, performance should win out.</li>
+<li>When early responsive designs came out, they were overly focused on layout design and not performance. Just looking at images, popular RWD implementations could save 80% of their file size on mobile.</li>
+<li>An important part of the solution to RWD performance is mobile first responsive Web design. Yet looking at over a hundred responsive Web design, the majority were the same size on mobile as on the desktop. So most responsive sites are not being built mobile first. Instead a lot of responsive designs take desktop desktop sites and simply hide things using techniques like display: none. </li>
+</ul>
+
+<h2>Responsible Responsive Design</h2>
+<ul>
+<li>We've got a desktop design and we can't start over to make something responsive -it's a common refrain from companies. Starting with a mobile design process, though can reveal how the desktop experience can be improved. This is why mobile-first thinking is so powerful -even on existing desktop projects.</li>
+<li>Amount of times adapting to desktop after the mobile experience has been done right? Zero.</li>
+<li>Responsive design for applications in inevitable.</li>
+<li>1: Build mobile first responsive designs.</li>
+<li>Mobile first responsive designs is a technical approach to responsive designs. Start with a baseline mobile experience and enhance with a media query cascade that starts from small screens and adapts design as screens get bigger. </li>
+<li>With this approach, older versions of IE will be served the simple mobile layout. To manage Internet Explorer, you can use IE conditional comments or include a polyfill  that adds media query support to older versions of IE. Usually this is not needed as older machines running IE8 are likely to not be great at complex rendering that requires CPU power.</li>
+<li>Mobile first design doesn’t mean starting from scratch. Its a useful process even if you have an existing desktop site. Start by asking what would the mobile version of this site or app look like? You’ll determine what priorities matter on key screens and flows. By the time you’re done, you’ll be likely to able to make the desktop version better based on what you learned designing for mobile.</li>
+<li>2: Keep CSS images in their place.</li>
+<li>Images that are hidden using display:none are still downloaded by Web browsers.</li>
+<li>To ensure images don’t get downloaded, scope them inside media queries. Set up media queries to isolate different images.</li>
+<li>Setting display:none on a parent element does not download images. This doesn't get used that often because if there is part of the DOM you want to hide on different devices, you should ask if you need that part of the DOM at all.</li>
+<li>Image overrides (baseline image gets replaced) in CSS media queries works most of the time. But not on Android 2 devices.</li>
+<li>3: Conditionally load Javascript based on capabilities</li>
+<li>The Ajax Include pattern allows you to serve simple default elements to small screens and then enhance as screen size increases.</li>
+<li>Hiding content with display:none does not prevent it from downloading.</li>
+<li>Matchmedia() allows you to use Javascript to test whether a media query applies. Use this test to load the appropriate Javascript needed for a device.</li>
+<li>Behavioral breakpoints: check to see if an element is present or not to apply Javascript. This allows your CSS to manage all your breakpoints & not duplicate breakpoints in Javascript and CSS. Check out the script from the Cloud Four team.</li>
+<li>4: Deliver different sized images to different screen sizes. </li>
+<li>This sounds easy but is really hard.</li>
+<li>Our image tags only include one source attribute but there are two reasons we want to serve different sources: resolution switching and art direction.</li>
+<li>Resolution switching: it doesn’t make sense to send the same resolution image to all screen sizes. We want different versions and sources so each device can load the most appropriate assets.</li>
+<li>Art direction: resizing images only goes so far. We often want to crop images differently, adjust the placement of images and type, or display images at varying levels of detail.</li>
+<li>Things are moving forward with a standards process for solving these responsive image use cases. The <picture> specification is the winner right now. Blink & Webkit are implementing it through a community effort. Mozilla has said they'll add and Microsoft has hinted they will as well. In the meantime, you can use the picturefill Javascript library to simulate the picture element or the hack of your choice.</li>
+<li>The picture standard does not require you to use the picture element. Instead, most of the time, you'll want the img tag with SRCset and sizes.</li>
+<li>5: Handle high resolution images carefully. The difference between a Blackberry Curve image and a MacBook Pro Retina display is 1,433% percent bigger in file size. In memory that is 3,222% bigger. We need to be really careful with high resolution images.</li>
+<li>If you use Javascript to swap out high resolution images, browsers are likely to download both the high resolution and standard resolution image.</li>
+<li>Many e-commerce sites opt for performance and only serve up high resolution images on demand. This allows users to decide what images they want.</li>
+<li>Compressive images is a technique that allows you to deliver high resolution photos without additional bandwidth but tread carefully as browser memory may be impacted negatively.</li>
+<li>The image-set proposed spec allows the browser to make decisions about which image to serve based on screen capabilities and (hopefully soon) bandwidth considerations.</li>
+</ul>
+
+<h2>Image Solutions for the Web</h2>
+<ul>
+<li>What would an ideal image solution look like? Images are 60% of file size on Web pages so if we could solve them, we’d be doing good.</li>
+<li>Use vector-based images or icon fonts wherever you can. The Filament group has a great resource on learning icon fonts. Only use the characters you need in an icon font.</li>
+<li>SVG may provide more bang for your buck over icon fonts.</li>
+<li>Media queries can be used within SVG images. These media queries are dependent on the size of the image window not the screen. So an SVG image can be modified at several different sizes. This is very exciting.</li>
+<li>Encourage people to upload the highest quality image possible. </li>
+<li>Provide an automatic image resizing and compression service. Allow images to be resized to any size using URL parameters. </li>
+<li>“Save for the Web” should be a thing of the past. Instead centralize the process in a service.</li>
+<li>Provide a way to override resized images for art direction needs</li>
+<li>Integrate image compression best practices </li>
+<li>Bonus: detect support for WebP image format and use it. WebP files are 25%-34% smaller compared to JPEG file size.</li>
+<li>Plan for the fact that whatever you implement will be depreciated. Make it easy to change as new solutions emerge for images on the Web.</li>
+<li>Its unlikely a responsive design will ever be as fast as something specifically tailored for one device. Responsive design is about adapting to the unknown. If we do the extra work to make mobile first responsive designs fast, we can get the benefit of reaching many different devices with a performant solution.</li>
+</ul>]]></description>
+      <link>http://www.lukew.com/ff/entry.asp?1923</link>
+      <pubDate>Tue, 23 Sep 2014 00:00:00 -0700</pubDate>
+      <author>info@lukew.com</author>
+    </item>
+    <item>
+      <title><![CDATA[An Event Apart: The Art of Anticipation]]></title>
+      <description><![CDATA[<p class="feature">At <a href="http://aneventapart.com/event/austin-2014">An Event Apart in Austin TX 2014</a>, Derek Featherstone walked through ways to extend responsive design to make more accessible, context-aware experiences. Here are my notes from his talk: The Art of Anticipation</p>
+<ul>
+<li>Anticipation is part of creating great experiences.</li>
+<li>We get sucked in by devices. Context is seen as a device thing. But context includes time, proximity, device, state of mind, capabilities, interests, activity, and more.</li>
+<li>When we create responsive designs, we traditionally think about the resolutions we need to design for. Instead we should think about ranges of devices. This is more future friendly.</li>
+<li>Our content also needs to be more device neutral. Don't reference physical locations on pages (left, right, top). Instead link directly to content.</li>
+<li>Simple example of context: if current date is date of a conference, show schedule on home page. Otherwise, show home page.</li>
+<li>A context map can plot content priority over time. For example, pre, during, and after an event. From this you can increase or decrease the emphasis on specific content on sites.</li>
+<li>Can you apply a time context to your content and change what you emphasize over time?</li>
+<li>Can you apply a location content to your content and change what you emphasize based on a user's location? Example: prioritize walking directions when close and airport directions when far away.</li>
+<li>Don't change the content but change the way content is displayed based on things like time & location. Example: airline app welcomes you to a city with directions to customer service when you land.</li>
+<li>All saved context needs to be resettable -people need a way out for when you're wrong or they change your mind.</li>
+<li>Adjust UI elements based on capabilities. When zoomed in (accessibility mode), shift menus from moving in from side to the bottom.</li>
+<li>In Google Maps, the scale of the map changes based on how fast you are driving. Faster equals more zoomed out. Slower equals more zoomed in.</li>
+<li>Figure out what the most important information is and bring it to people, instead of making them go look for it. Sometimes people will give this information to you. Example: sort search results by a particular variable. If they do, make that data bigger.</li>
+<li>All the things that define context can be used to reorganize and prioritize content.</li>
+<li>Content in context is king.</li>
+</ul>]]></description>
+      <link>http://www.lukew.com/ff/entry.asp?1924</link>
+      <pubDate>Tue, 23 Sep 2014 00:00:00 -0700</pubDate>
+      <author>info@lukew.com</author>
+    </item>
+    <item>
+      <title><![CDATA[An Event Apart: Guerrilla Design Tactics]]></title>
+      <description><![CDATA[<p class="feature">At <a href="http://aneventapart.com/event/austin-2014">An Event Apart in Austin TX</a> Samantha Warren talked over ways to get design ideas through organizations. Here's my notes from her talk on Guerrilla Design Tactics:</p>
+
+<ul>
+<li>Guerrilla design techniques can start conversations. You don't have to wait for permission to get people talking.</li>
+<li>Change is hard. Creating design change from the bottom up can feel like being at war or up against giant odds.</li>
+<li>It's about more than pushing pixels it's about winning hearts and minds. Despite setbacks, bad meetings, etc. we need to keep pushing forward.</li>
+<li>We have to grow as designers. Things are always changing around us -we have to stay on of technology so we can make great experiences.</li>
+<li>You are in a position of influence. We can push our teams, clients, and industry forward. It just takes time and patience.</li>
+</ul>
+
+<h2>Guerrilla Techniques</h2>
+<ul>
+<li>Guerrilla: actions or activities performed in an impromptu way, often without authorization.</li>
+<li>Make people think, challenge them to think.</li>
+<li>By being unexpected, you can draw attention to things people take for granted.</li>
+<li>Stay focused: guerrilla art can become the heartbeat of an organization.</li>
+<li>Look at everything with a beginner's mind. Be open to possibilities others may not see.</li>
+<li>Acknowledge the existence of rules and then break them. This helps you gain advantages in the marketplace.</li>
+<li>Design artifacts like prototypes, story maps, style tiles, and mood boards can help start conversations and change the way groups work together.</li>
+<li>Tools: frameworks can help you quickly share how products should work. One prototype can save you a thousand meetings.</li>
+<li>Training: stay up to date on current methods and training.</li>
+<li>Understand money: find efficiencies in your process to help companies save costs. Dig into scoping, estimating, and more. Spreadsheets and time sheets can help you keep track of where your time is going. Make notes on different projects.</li>
+<li>Lean in: level the playing field and don't be intimated by people's roles and titles. Understand their challenges and align your work to help them.</li>
+<li>Do good work, build an excellent reputation based on your work, get people excited about your ideas, be a champion of more than just what you propose.</li>
+<li>The ability to change minds and lead is directly proportional to how good the people around you perceive you to be at your job.</li>
+<li>Execute: guerrillas are doers not talkers. You have to do things to create change. If you can't do it internally, start on a personal project yourself.</li>
+<li>Share what you learn, especially your results. It is up to you to let people know what you learned.</li>
+<li>Authentically sharing your passion with coworkers is not the same as playing politics. Wars can be won via clear and concise wiki documentation.</li>
+<li>Rinse & repeat: the more you do this, the more you learn and the more trusted you become.</li>
+<li>Make your job the place where you can create what you think should exist.</li>
+</ul>
+
+
+
+]]></description>
+      <link>http://www.lukew.com/ff/entry.asp?1920</link>
+      <pubDate>Mon, 22 Sep 2014 00:00:00 -0700</pubDate>
+      <author>info@lukew.com</author>
+    </item>
+    <item>
+      <title><![CDATA[Mobile & Multi-Device Design: Lessons Learned]]></title>
+      <description><![CDATA[<p class="feature">My new book compiles the articles I published over the past two years about <a href="http://www.polarb.com">Polar’s</a> mobile and multi-device design decisions. It's filled with nuanced user interface design details and big-picture thinking on software design for PCs, tablets, TVs, and beyond. And it's free.</p>
+
+<p>Over the past two years, I served as co-founder and CEO of Polar. During that time, we built mobile apps, responsive Web apps, second screen experiences, and... we learned a lot. When <a href="http://www.lukew.com/ff/entry.asp?1918">Polar joined Google</a> last week, we took some time to package up the articles I wrote over the past two years about our thinking, our failures, and our successes. We’re making this compilation freely available:</p>
+
+<p><a href="https://itunes.apple.com/us/book/mobile-multi-device-design/id916423134?ls=1&mt=11"><img src="http://static.lukew.com/multidevice_book2.png" alt="Free Mobile & Multi-Device Design Book by Luke Wroblewski"></a></p>
+
+<p>
+<oli>
+<li><a href="https://itunes.apple.com/us/book/mobile-multi-device-design/id916423134?ls=1&mt=11">A beautiful iBook</a> complete with hidden treats and awesome videos.</li>
+<li><a href="http://static.lukew.com/MobileMultiDevice_LukeWsm.pdf">A PDF</a> of the same content and layout but without the slick UI and videos.</li>
+<li><a href="http://www.lukew.com/ff?tag=polar">The original Web pages</a> published on this blog from 2012-2014.</li>
+</ol>
+</p>
+
+<p>I hope that some of our experiences, insights, and missteps will ultimately help others as they wrestle with similar issues and ideas in their products. It’s a small way for us to formally say thanks and give back to everyone that helped us do the same. Thanks.</p>]]></description>
+      <link>http://www.lukew.com/ff/entry.asp?1919</link>
+      <pubDate>Mon, 15 Sep 2014 00:00:00 -0700</pubDate>
+      <author>info@lukew.com</author>
+    </item>
+    <item>
+      <title><![CDATA[On to The Next Journey…]]></title>
+      <description><![CDATA[<p class="feature">Creating products is a journey. And like any journey, it’s filled with new experiences, missteps, and perhaps most importantly, lots of opportunities to learn. My most recent journey started nearly two years ago when we began working on <a href="http://www.polarb.com/features/about">Polar</a>.</p>
+
+<p>Today I’m delighted to announce <a href="http://www.polarb.com">we’re joining Google</a>. But before embarking on this new journey, I wanted to thank everyone that was part of Polar.</p>
+
+<p><img src="http://static.lukew.com/polar_google2.png" alt="Polar is Joining Google"></p>
+
+<p>We started with the simple idea that everyone has an opinion worth hearing. But the tools that existed online to meet this need weren’t up to the task: think Web forms, radio buttons, and worse. Ugh. We felt we could do much better by making opinions <a href="http://www.polarb.com/features/about">easy and fun</a> for everyone. </p>
+
+<p>Since then one in every 449 Internet users told us their opinion by voting on a Polar poll. We served more than <a href="http://www.polarb.com/votes">half a billion polls</a> in the past eight months and had 1.1 million active voters in September. To everyone that made this possible, our heartfelt thanks.</p>
+
+<p>If you voted on a Polar poll, downloaded our app, our embedded us in your site, we learned from you. Personally, I learned more than I could imagine from the Polar team, our <a href="http://www.polarb.com/features/categories">partners</a>, and <a href="http://techcrunch.com/2013/02/25/mobile-social-voting-app-polar-raises-1-2m-from-jerry-yang-john-lilly-maynard-webb-and-others/">investors</a>. I can’t imagine a better gift than knowledge, so I’m grateful to all of you.</p>
+
+<h2>Sharing What We Learned</h2>
+<p>In an effort to return the favor, we took some time to package up the articles I wrote over the past two years about Polar’s mobile and multi-device designs. We’re making this compilation freely available in:</p>
+
+<p>
+<oli>
+<li><a href="https://itunes.apple.com/us/book/mobile-multi-device-design/id916423134?ls=1&mt=11">A beautiful iBook</a> complete with hidden treats and awesome videos.</li>
+<li><a href="http://static.lukew.com/MobileMultiDevice_LukeWsm.pdf">A PDF</a> of the same content and layout but without the slick UI and videos.</li>
+<li><a href="http://www.lukew.com/ff?tag=polar">The original Web pages</a> published on this blog from 2012-2014.</li>
+</ol>
+</p>
+
+<p><img src="http://static.lukew.com/multidevice_book2.png" alt="Free Mobile & Multi-Device Design Book by Luke Wroblewski"></p>
+
+<p>Each version is filled with nuanced user interface design details and big-picture thinking on mobile and multi-device design for PCs, tablets, TVs, and beyond. It’s our hope that some of our experiences, insights, and missteps, will ultimately help you with the product journey you’re on now or will be in the future.</p>
+
+<p>If you used Polar, we’ve made it super-easy for you to <a href="http://www.polarb.com">download an archive</a> of the polls and data you created –they’re yours after all. We’ll also be keeping the site running for a while to help with this transition.</p>
+
+<p>Big bear hugs & thanks,<br />
+<strong>Luke Wroblewski & Team Polar</strong>
+</p>]]></description>
+      <link>http://www.lukew.com/ff/entry.asp?1918</link>
+      <pubDate>Thu, 11 Sep 2014 00:00:00 -0700</pubDate>
+      <author>info@lukew.com</author>
+    </item>
+    <item>
+      <title><![CDATA[Video: How to Design Components for Mobile First]]></title>
+      <description><![CDATA[<p class="feature">As more online time shifts to mobile devices and networks. Designing experiences for large screen monitors and high-speed networks limits the amount of people your service can reach. Designing mobile first lets you reach that audience without compromising your product. In this short 4 minute video, I look at how by focusing in on a few common components.</p>
+
+<div style="padding-top: 56.25%;" class="videobox"><iframe class="videoplayer" src="http://www.youtube.com/embed/xWInGelLGN8?rel=0" frameborder="0" allowfullscreen></iframe></div>
+
+<p>This video is part of my <a href="https://www.youtube.com/playlist?list=PLg-UKERBljNy2Yem3RJkYL1V70dpzkysC">User Experience How-To</a> series sponsored by the Intel Developer Zone.</p>]]></description>
+      <link>http://www.lukew.com/ff/entry.asp?1912</link>
+      <pubDate>Tue, 02 Sep 2014 00:00:00 -0700</pubDate>
+      <author>info@lukew.com</author>
+    </item>
+    <item>
+      <title><![CDATA[Video: How to Design for Cross Device Use]]></title>
+      <description><![CDATA[<p class="feature">Today, people's online lives aren't limited to one device with one screen. Instead they use multiple devices both in sequence and at the same time. To account for this new reality, we need to think about cross device interactions and how our products work in a multi-device world. In this quick 4 minute video, I discuss how.</p>
+
+<div style="padding-top: 56.25%;" class="videobox"><iframe class="videoplayer" src="http://www.youtube.com/embed/Q75qRDA3dcU?rel=0" frameborder="0" allowfullscreen></iframe></div>
+
+<p>This video is part of my <a href="https://www.youtube.com/playlist?list=PLg-UKERBljNy2Yem3RJkYL1V70dpzkysC">User Experience How-To</a> series sponsored by the Intel Developer Zone.</p>]]></description>
+      <link>http://www.lukew.com/ff/entry.asp?1911</link>
+      <pubDate>Thu, 28 Aug 2014 00:00:00 -0700</pubDate>
+      <author>info@lukew.com</author>
+    </item>
+    <item>
+      <title><![CDATA[Video: How to Jump Right Into Input]]></title>
+      <description><![CDATA[<p class="feature">Mobile devices give people the opportunity to create, collaborate, and contribute content just about anywhere and everywhere. That's a tremendous opportunity for input and we should design accordingly. In this short 3 minute video, I outline a few ways how.</p>
+
+<div style="padding-top: 56.25%;" class="videobox"><iframe class="videoplayer" src="http://www.youtube.com/embed/dNdAvY8f_VE?rel=0" frameborder="0" allowfullscreen></iframe></div>
+
+<p>This video is part of my <a href="https://www.youtube.com/playlist?list=PLg-UKERBljNy2Yem3RJkYL1V70dpzkysC">User Experience How-To</a> series sponsored by the Intel Developer Zone.</p>]]></description>
+      <link>http://www.lukew.com/ff/entry.asp?1909</link>
+      <pubDate>Wed, 27 Aug 2014 00:00:00 -0700</pubDate>
+      <author>info@lukew.com</author>
+    </item>
+    <item>
+      <title><![CDATA[An Event Apart: The Role of Visual Design]]></title>
+      <description><![CDATA[<p class="feature">At An Event Apart in Chicago IL 2014, Jenny Lam talked about the value of visual design in digital products and shared some tips for evaluating aesthetics. Here's my notes from her talk <a href="http://aneventapart.com/event/chicago-2014">Hit it With a Pretty Stick</a>:</p>
+<ul>
+<li>User experience designers need to understand a lot of things in addition to visual design. But as the discipline has matured, our understanding and evaluation of aesthetics has not. How do we champion aesthetics in our work and in our organizations?</li>
+<li>Most of us believe in the value of visual design but in the real world we often have to convince others as well.</li>
+<li>Visual design's impact on the bottom line is real. For example, Mint licensed a technology from someone else and added a user experience on top. That created $170 million dollars in value. Every dollar spent on aesthetics yielded Gillete $415+ dollars vs. only a $7 return from advertising. Design-driven companies outperform the S&P by 228%.</li>
+<li>Companies that invest in design have better customer satisfaction, increased loyalty, employee retention, and more.</li>
+<li>Aesthetics also communicate credibility and trust. In Stanford research, look & feel is primary driver of credibility.</li>
+</ul>
+<h2>Visual Design & Teams</h2>
+<ul>
+<li>For creative projects, we need creative leaders. If there's a leader at the top with a creative vision, great. If not, the creative leadership can come from the hands-on design team.</li>
+<li>Interaction designers and visual designers have different skills. ￼Interaction: HCI trained, Product Definition, User Flows. Visual: Graphic Design, Sensory-minded, Brand-centric. Together they're a powerful combination.</li>
+<li>Give your visual designers accountability. Empower them. Carry through on aesthetics internally to create a design culture.</li>
+<li>Dotted line relationships to the marketing team can help design teams get the resources they need to create great experiences. Marketing tends to have big budgets and cares about the visual aspect of products.</li>
+<li>Visual designers can take ownership of in-house creative. Shirts, posters, etc are very visible and can show off visual design quality.</li>
+</ul>
+
+<h2>Aesthetic Principles</h2>
+<ul>
+<li>Aesthetics are about three components: integrity (how true & cohesive is the design), harmony (how the parts relate to the whole), and radiance (how we feel when we experience a product).</li>
+<li>Integrity puts us out there, allows our brand to be memorable. The visual interface has become as important as a brand logo.</li>
+<li>We remember only really good experiences and really bad ones. Not  average experiences.</li>
+<li>Harmony: all our elements need to support the central story. Use patterns, textures, and color sets to unify designs into a cohesive whole.</li>
+<li>Look to nature for ideas of color harmony.</li>
+<li>Radiance: light, shadow, and material allows you to create a sense of environment.</li>
+<li>Make sure you tweak/edit default settings in your drawing apps. Don't use standard drop shadows, design them. Keep dimensions "human relatable": how would things look in real life?</li>
+<li>Details matter. When we're delighted, the interface feels like fun and easier to use. Look for opportunities to delight.</li>
+</ul>
+<h2>Tools & Techniques</h2>
+<ul>
+<li>Methods to create a design language: futurecasting, moodboards, positioning matrices.</li>
+<li>Futurecasting: imagine the end state & how people will feel. What will the press release be, how can the visual design support that?</li>
+<li>Start with words: talk to stakeholders to figure out the visual direction that's right for a project. Ask people why they chose specific adjectives.</li>
+<li>Positioning matrices (where a brand fits on a spectrum), moodboards, and more can help set the right visual direction.</li>
+<li>Everyone can have an opinion but critique is not art direction.</li>
+<li>Rules of critique: visual designer is the owner & gets a veto, write down agreed upon goals, focus on feedback not on solutions, don't come up with solutions as a group.</li>
+<li>Say: “I don’t know what to focus on first.” Not: “It’s too cluttered.”</li>
+<li>Say: “I’m having a hard time reading the text." Not: “Make the font bigger!”</li>
+<li>Remind people you are a professional.</li>
+</ul>]]></description>
+      <link>http://www.lukew.com/ff/entry.asp?1915</link>
+      <pubDate>Tue, 26 Aug 2014 00:00:00 -0700</pubDate>
+      <author>info@lukew.com</author>
+    </item>
+    <item>
+      <title><![CDATA[An Event Apart: Icon Design Process]]></title>
+      <description><![CDATA[<p class="feature">At An Event Apart in Chicago IL 2014, Jon Hicks discussed the modern icon design process and shared useful design and development tips for icons. Here's my notes from his talk <a href="http://aneventapart.com/event/chicago-2014">Icon Design Process</a>:</p>
+<ul>
+<li>Icons can be used to support navigation, action, and messaging in Web sites and applications. They can also reinforce status by providing more information than just color.</li>
+<li>We had a visual language before we had written language: symbols, hieroglyphics, etc. So symbols were around for a long time before they made their way to computers in 1974.</li>
+<li>Today there's lots of royalty free icon sets available for use in sites and apps -so why make your own? Icons sets might not be the right size or style for your usage. You may need more or less icons than exist in a ready-made set. In these cases and more, you may need custom icons.</li>
+<li>The icon design process: research, drawing, and deployment (which changes frequently).</li>
+<li>Research: a client brief and icon audit can reveal areas of inconsistency, gaps, or duplicates in the icon design of a site. Compile a list of the icons you'll need and what they represent.</li>
+<li>How do you go from a word to a finished icon? You have two options: iconic (literal) or symbolic (needs to be learned).</li>
+<li>When possible, follow conventions for your icon designs. The Noun Project is a great resource for common visual symbols. But be aware of local considerations. Symbols like piggy banks, owls, and thumbs up may have inappropriate meanings in other cultures.</li>
+<li>Truly symbolic icons are more easily understood. The difference between outlined and solid icons is not the determining factor for comprehension.</li>
+<li>Don't get too fancy with your icons just to make them different. Make your icon as simple as possible but no simpler.</li>
+<li>Drawing: use whatever tools you are comfortable with. Start with a pixel grid to align gaps and weights within an icon. Your gird does not need to be even.</li>
+<li>Automatic resizing of icons to create larger images might not provide the right ratio/balance between elements. You may need to tweak line weights or sizes to make things look right at different sizes.</li>
+<li>With an icon set, you may need to adjust sizing and alignment to make things appear optically the same. Different shapes will appear bigger/smaller when displayed as part of a set.</li>
+<li>Think about where shadows will fall within an icon to create the right balance of space.</li>
+<li>Just when people started embracing SVG, Adobe started to remove SVG features from their apps since no one was using them before.</li>
+<li>Sketch is starting to mature enough to be a viable alternative to Illustrator for drawing icons.</li>
+<li>Svgo-gui is a simple drag and drop tool for optimizing SVG images. You can further compress SVG by GZIP-ing them on your server.</li>
+<li>Deployment: Icon fonts or SVG -which one to use? Both can be right for your project.</li>
+<li>Why use Icon fonts? One small file, accessible & scalable, easily styled with CSS, no sprites needed, supported in IE4+</li>
+<li>Why use SVG? less hassle, support (3 versions back), avoids sprites, can use multiple colours, are still style-able with CSS animations</li>
+<li>Grumpicon is a tool that can help you create SVG art for your sites.</li>
+</ul>]]></description>
+      <link>http://www.lukew.com/ff/entry.asp?1916</link>
+      <pubDate>Tue, 26 Aug 2014 00:00:00 -0700</pubDate>
+      <author>info@lukew.com</author>
+    </item>
+    <item>
+      <title><![CDATA[An Event Apart: How To Champion Ideas Back At Work]]></title>
+      <description><![CDATA[<p class="feature">At An Event Apart in Chicago IL 2014, Scott Berkun discussed the modern icon design process and shared useful design and development tips for icons. Here's my notes from his talk <a href="http://aneventapart.com/event/chicago-2014">How To Champion Ideas Back At Work</a>:</p>
+
+<ul>
+<li>The real designer is the person with the power to make decisions. It doesn't matter what title they have or their background.</li>
+<li>In most situations, the final decision maker is not trained in creative disciplines.</li>
+<li>If you really want to make an impact, you may need to remove the word design or engineering from your title.</li>
+<li>Today designers can be founders and bring their ideas to life.</li>
+</ul>
+
+<h2>Meeting Others</h2>
+<ul>
+<li>You take in information at an event, internalize it, then make use of that information afterward.</li>
+<li>This requires you to pay attention to the information you're hearing. At first you can take in lots of info but over time, you can retain less information.</li>
+<li>Staying connected helps you champion ideas. Design requires working with other people.</li>
+<li>Networking: ask everyone for a business card, saying thank you starts a conversation, post your notes during an event people will find you, if you use LinkedIn, write a personal message.</li>
+<li>Start introductions with a simple authentic point: I met you at ___."</li>
+<li>Casual professional events allow you to re-connect. Find your local UX happy hour and invite others.</li>
+</ul>
+
+<h2>What to Champion</h2>
+<ul>
+<li>Events are abstractions -they need to apply to a variety of people and their needs.</li>
+<li>Our lives are specific -we need to deal with specific contexts on a regular basis.</li>
+<li>To remember what you've learned, try min/max note taking. Take 5 bullets per talk, note some links & reflections, post a summary on your blog and tweet it out, post it at work, share it with your boss.</li>
+<li>Make a chart of lessons learned and map them to a specific problem at work where you'd like to apply the ideas you heard. Include the people that need to be involved.</li>
+<li>We like to imagine successes were perfect. We romanticize the role of the creator. But in reality there's always lots of frustration, dead ends, and adjustments.</li>
+<li>When you start working on a project, you don't know what the outcome will be. That's the role of the creator.</li>
+</ul>
+
+<h2>How to Champion</h2>
+<ul>
+<li>The real process is not get idea, build, and ship. Instead there's a lot of convincing in between.</li>
+<li>Being outspoken makes you a target.</li>
+<li>Language is manipulation. Every bit of writing, design, or code has intent.</li>
+<li>Charm and persuasion is emotional. It's not logical, it's designed. There is no abstraction, being charming depends on who you are trying to charm.</li>
+<li>Instead of "here's what you should be doing", focus on "here's what will solve your problem".</li>
+<li>The people with power are often the ones most resistant to change. They benefit from the status quo.</li>
+<li>How to convince your boss: be awesome at your job. The best people on the team are more likely to get heard.</li>
+<li>Get support from an influential coworker. Plan a trial, including how to evaluate it.</li>
+<li>Pitch, repeat, your reputation will grow over time.</li>
+</ul>
+]]></description>
+      <link>http://www.lukew.com/ff/entry.asp?1917</link>
+      <pubDate>Tue, 26 Aug 2014 00:00:00 -0700</pubDate>
+      <author>info@lukew.com</author>
+    </item>
+
+  </channel>
+</rss>

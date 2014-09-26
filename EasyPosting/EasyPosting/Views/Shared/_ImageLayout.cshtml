@@ -1,0 +1,61 @@
+﻿@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Easy Posting</title>
+    @Styles.Render("~/Content/fonts")
+    @Styles.Render("~/Content/imgcss")
+    @Styles.Render("~/Content/jcropcss")
+    @Styles.Render("~/Content/img_wysiwygcss")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/assets/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar-brand"><a href="@Url.RouteUrl(new { controller = "Home", action = "Index" })"><img src="/Content/logo.svg" width="210" height="27" /></a></div>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    @if (User.IsInRole("Administrator"))
+                    {
+                        <li>@Html.ActionLink("사용자 관리", "Index", "Admin")</li>
+                    }
+                    else
+                    {
+                        <li>@Html.ActionLink("작성하기", "Create", "Editor", null, new { @style = "color:gray;" })</li>
+                        <li>@Html.ActionLink("스토리지", "Index", "Storage", null, new { @style = "color:gray;" })</li>
+                        <li>@Html.ActionLink("이미지", "Index", "Image", null, new { @style = "color:gray;" })</li>
+                    }
+                </ul>
+
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="body-content" style="background-color:#333;">
+        @RenderBody()
+
+        <footer></footer>
+    </div>
+    @Scripts.Render("~/bundles/img_editor")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryform")
+    @Scripts.Render("~/bundles/jcrop")
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/img_wysiwyg")
+    <script src="~/assets/plugins/gritter/js/jquery.gritter.js"></script>
+    <script src="~/assets/js/apps.min.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

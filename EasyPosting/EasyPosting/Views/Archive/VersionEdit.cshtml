@@ -1,0 +1,287 @@
+﻿@model EasyPosting.Models.EP_POSTS
+
+@{
+    ViewBag.Title = " 편집하기";
+    Layout = "~/Views/Shared/_VersionEditLayout.cshtml";
+}
+<div id="all-panel" style="width:1000px;">
+    <div class="panel panel-inverse">
+        <div class="panel-heading" style="cursor:default!important;">
+            <div class="panel-heading-btn"></div>
+            <div class="panel-title">Dynamic Editor</div>
+        </div>
+        <div class="panel-toolbar">
+            <input id="currentSelectedLI" type="hidden" value="" />
+            @using (Html.BeginForm("VersionEdit", "Archive", FormMethod.Post, new { @class = "form-inline" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.TextBoxFor(model => model.Title, new { @class = "form-control", @placeholder = "제목" })
+                @Html.ValidationMessageFor(model => model.Title)
+                @Html.TextBoxFor(model => model.Slug, new { @class = "form-control", @placeholder = "태그" })
+                @Html.ValidationMessageFor(model => model.Slug)
+                @Html.TextAreaFor(model => model.Body, new { @class = "output", @style = "display:none;" })
+                @Html.TextAreaFor(model => model.Body2, new { @class = "output2", @style = "display:none;" })
+                @Html.ValidationMessageFor(model => model.Body)
+                @Html.ValidationMessageFor(model => model.Body2)
+                <textarea name="return_id" class="get_return_id" style="display:none;"></textarea>
+                <input type="submit" value="작성 완료" class="btn btn-danger btn-sm" id="widget-submit" />
+            }
+            <div class="text-left">
+                <button type="button" class="btn btn-white btn-sm" id="widget-AddWidget-text">텍스트</button>
+                <button type="button" class="btn btn-white btn-sm" id="widget-AddWidget-media_File" data-toggle="modal" data-target="#widgetMedia_File">파일 첨부</button>
+                <button type="button" class="btn btn-white btn-sm" id="widget-AddWidget-media_Image" data-toggle="modal" data-target="#widgetMedia_Image">이미지</button>
+                <button type="button" class="btn btn-white btn-sm" id="widget-AddWidget-media_Video" data-toggle="modal" data-target="#widgetMedia_Video">동영상</button>
+                <button type="button" class="btn btn-white btn-sm" id="widget-AddWidget-media_Map" data-toggle="modal" data-target="#widgetMedia_Map">지도</button>
+                <button type="button" class="btn btn-white btn-sm" id="widget-AddWidget-media_Code" data-toggle="modal" data-target="#widgetMedia_Code">코드 하이라이트</button>
+                <button type="button" class="btn btn-white btn-sm" id="widget-AddWidget-media_Rep">대표 이미지</button>
+                <button type="button" class="btn btn-white btn-sm" id="Recommend">글감 추천</button>
+            </div>
+            <div id="toolbar"></div>
+        </div>
+
+        <div id="dy">
+            <div id="mycanvas" class="dynamic-editor inline-menu" style="margin-left:80px;"></div>
+        </div>
+    </div>
+
+    <!-- 파일 첨부 모달 시작-->
+    <div class="modal fade in" id="widgetMedia_File" tabindex="-1" role="dialog" aria-labelledby="widgetMedia_File" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    @*<h4 class="modal-title" id="widgetConfigurationLabel">나의 스토리지</h4>
+                        <hr />*@
+                    <a class="btn btn-primary" data-toggle="modal" onclick='AttachmentEmbed.location.href="@Url.RouteUrl(new { controller = "Storage", action = "Embed" })"'><i class=" fa fa-plus"></i></a>
+                    <a class="btn btn-primary" data-toggle="modal" onclick='AttachmentEmbed.location.href="@Url.RouteUrl(new { controller = "Storage", action = "AttachmentEmbed" })"'>첨부파일</a>
+                    @*<a class="btn btn-primary" data-toggle="modal" href="@Url.RouteUrl(new { controller = "Storage", action = "ImageEmbed" })" target="Embed"><i class=" fa fa-plus"></i> 이미지</a>
+                        <a class="btn btn-primary" data-toggle="modal" href="@Url.RouteUrl(new { controller = "Storage", action = "VideoEmbed" })" target="Embed"><i class=" fa fa-plus"></i> 동영상</a>
+                        <a class="btn btn-primary" data-toggle="modal" href="@Url.RouteUrl(new { controller = "Storage", action = "MapEmbed" })" target="Embed"><i class=" fa fa-plus"></i> 지도</a>*@
+                </div>
+                <div class="modal-body">
+                    <input id="media_data_File" type="hidden" />
+                    <iframe id="AttachmentEmbed" name="AttachmentEmbed" src="/Storage/AttachmentEmbed" frameborder="0" width="100%" height="490" marginwidth="0" marginheight="0" scrolling="yes"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button @*id ="closebutton"*@ type="button" class="btn btn-primary" data-dismiss="modal" id="mediaWidgetInsert">닫기</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <!-- 이미지 객체 모달 시작-->
+    <div class="modal fade in" id="widgetMedia_Image" tabindex="-1" role="dialog" aria-labelledby="widgetMedia_Image" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    @*<h4 class="modal-title" id="widgetConfigurationLabel">나의 스토리지</h4>
+                        <hr />*@
+                    <a class="btn btn-primary" data-toggle="modal" onclick='ImageEmbed.location.href="@Url.RouteUrl(new { controller = "Storage", action = "Embed" })"'><i class=" fa fa-plus"></i></a>
+                    <a class="btn btn-primary" data-toggle="modal" onclick='ImageEmbed.location.href="@Url.RouteUrl(new { controller = "Storage", action = "BingImageEmbed" })"'><i class="fa fa-windows"></i> Bing</a>
+                    <a class="btn btn-primary" data-toggle="modal" onclick='ImageEmbed.location.href="@Url.RouteUrl(new { controller = "Storage", action = "ImageEmbed" })"'> 스토리지</a>
+                    @*<a class="btn btn-primary" data-toggle="modal" href="@Url.RouteUrl(new { controller = "Storage", action = "Embed" })" target="Embed"><i class=" fa fa-plus"></i> 새로 추가</a>*@
+                    @*<a class="btn btn-primary" data-toggle="modal" href="@Url.RouteUrl(new { controller = "Storage", action = "AttachmentEmbed" })" target="Embed"><i class=" fa fa-plus"></i> 첨부파일</a>*@
+                    @*<a class="btn btn-primary" data-toggle="modal" href="@Url.RouteUrl(new { controller = "Storage", action = "ImageEmbed" })" target="Embed"><i class=" fa fa-plus"></i> 이미지</a>*@
+                    @*<a class="btn btn-primary" data-toggle="modal" href="@Url.RouteUrl(new { controller = "Storage", action = "VideoEmbed" })" target="Embed"><i class=" fa fa-plus"></i> 동영상</a>
+                        <a class="btn btn-primary" data-toggle="modal" href="@Url.RouteUrl(new { controller = "Storage", action = "MapEmbed" })" target="Embed"><i class=" fa fa-plus"></i> 지도</a>*@
+                </div>
+                <div class="modal-body">
+                    <input id="media_data_Image" type="hidden" />
+                    <iframe id="ImageEmbed" name="ImageEmbed" src="~/Storage/ImageEmbed" frameborder="0" width="100%" height="490" marginwidth="0" marginheight="0" scrolling="yes"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button @*id ="closebutton"*@ type="button" class="btn btn-primary" data-dismiss="modal" id="mediaWidgetInsert">닫기</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <!-- 동영상 객체 모달 시작-->
+    <div class="modal fade in" id="widgetMedia_Video" tabindex="-1" role="dialog" aria-labelledby="widgetMedia_Video" aria-hidden="true">
+        <div class="modal-dialog" style="width:800px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    @*<h4 class="modal-title" id="widgetConfigurationLabel">나의 스토리지</h4>
+                    <hr />*@
+                    <a class="btn btn-primary" data-toggle="modal" onclick='VideoEmbed.location.href="@Url.RouteUrl(new { controller = "Storage", action = "YoutubeVideoEmbed" })"'><i class="fa fa-youtube-play"></i> Youtube</a>
+                    @*<a class="btn btn-primary" data-toggle="modal" href="@Url.RouteUrl(new { controller = "Storage", action = "AttachmentEmbed" })" target="Embed"><i class=" fa fa-plus"></i> 첨부파일</a>
+                    <a class="btn btn-primary" data-toggle="modal" href="@Url.RouteUrl(new { controller = "Storage", action = "ImageEmbed" })" target="Embed"><i class=" fa fa-plus"></i> 이미지</a>*@
+                    <a class="btn btn-primary" data-toggle="modal" onclick='VideoEmbed.location.href="@Url.RouteUrl(new { controller = "Storage", action = "VideoEmbed" })"'>동영상</a>
+                    @*<a class="btn btn-primary" data-toggle="modal" href="@Url.RouteUrl(new { controller = "Storage", action = "MapEmbed" })" target="Embed"><i class=" fa fa-plus"></i> 지도</a>*@
+                </div>
+                <div class="modal-body">
+                    <input id="media_data_Video" type="hidden" />
+                    <iframe id="VideoEmbed" name="VideoEmbed" src="~/Storage/VideoEmbed" frameborder="0" width="100%" height="490" marginwidth="0" marginheight="0" scrolling="yes"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button id="insertyoutube" type="button" class="btn btn-primary">확인</button>
+                    <button @*id ="closebutton"*@ type="button" class="btn btn-primary" data-dismiss="modal" id="mediaWidgetInsert">닫기</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <!-- 지도 모달 시작-->
+    <div class="modal fade in" id="widgetMedia_Map" tabindex="-1" role="dialog" aria-labelledby="widgetMedia_Map" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    @*<h4 class="modal-title" id="widgetConfigurationLabel">나의 스토리지</h4>
+                        <hr />*@
+                    @*<a class="btn btn-primary" data-toggle="modal" href="@Url.RouteUrl(new { controller = "Storage", action = "Embed" })" target="Embed"><i class=" fa fa-plus"></i> 새로 추가</a>*@
+                    @*<a class="btn btn-primary" data-toggle="modal" href="@Url.RouteUrl(new { controller = "Storage", action = "AttachmentEmbed" })" target="Embed"><i class=" fa fa-plus"></i> 첨부파일</a>
+                        <a class="btn btn-primary" data-toggle="modal" href="@Url.RouteUrl(new { controller = "Storage", action = "ImageEmbed" })" target="Embed"><i class=" fa fa-plus"></i> 이미지</a>
+                        <a class="btn btn-primary" data-toggle="modal" href="@Url.RouteUrl(new { controller = "Storage", action = "VideoEmbed" })" target="Embed"><i class=" fa fa-plus"></i> 동영상</a>*@
+                    @*<a class="btn btn-primary" data-toggle="modal" href="@Url.RouteUrl(new { controller = "Storage", action = "MapEmbed" })" target="Embed"><i class=" fa fa-plus"></i> 지도</a>*@
+                </div>
+                <div class="modal-body">
+                    <input id="media_data_Map" type="hidden" />
+                    <iframe id="MapEmb" name="MapEmbed" src="~/Storage/MapEmbed" frameborder="0" width="100%" height="490" marginwidth="0" marginheight="0" scrolling="yes"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button @*id ="closebutton"*@ type="button" class="btn btn-primary" data-dismiss="modal" id="mediaWidgetInsert">닫기</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    
+    <!-- 대표이미지 모달 시작-->
+    <div class="modal fade in" id="widgetMedia_Rep" tabindex="-1" role="dialog" aria-labelledby="widgetMedia_Rep" aria-hidden="true">
+        <div class="modal-dialog" style="width:1060px;">
+            <div class="modal-content">
+                <div class="modal-header" style="height:55px!important;">
+                    <h4 style="margin-left:10px; margin-bottom:10px;">
+                        <strong>
+                            대표이미지 생성
+                        </strong>
+                    </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body" style="height:530px; background-color:#eee;">
+                    <input id="media_data_Rep" type="hidden" />
+                    <input id="media_data_image_src" type="hidden" />
+                    <iframe id="RepEmbed" name="RepEmbed" src="/Image/Represent" frameborder="0" width="100%" height="480" marginwidth="0" marginheight="0" scrolling="yes"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" id="insertRpImage">완료</button>
+                    <button type="button" class="btn btn-info" data-dismiss="modal" id="mediaWidgetInsert">닫기</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <!-- 코드 하이라이트 모달 시작-->
+    <div class="modal fade in" id="widgetMedia_Code" tabindex="-1" role="dialog" aria-labelledby="widgetMedia_Code" aria-hidden="true">
+        <div class="modal-dialog" style="width:1000px;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form class="form-inline" role="form">
+                        <div id="options">
+                            <p>
+                                언어 :
+                                <select id="lexer">
+                                    <option value="c">C</option>
+                                    <option value="csharp">C#</option>
+                                    <option selected="selected" value="cpp">C++</option>
+                                    <option value="css">CSS</option>
+                                    <option value="cuda">CUDA</option>
+                                    <option value="html">HTML</option>
+                                    <option value="java">Java</option>
+                                    <option value="jsp">Java Server Page</option>
+                                    <option value="js">JavaScript</option>
+                                    <option value="json">JSON</option>
+                                    <option value="matlab">Matlab</option>
+                                    <option value="mysql">MySQL</option>
+                                    <option value="objective-c">Objective-C</option>
+                                    <option value="objective-c++">Objective-C++</option>
+                                    <option value="objective-j">Objective-J</option>
+                                    <option value="python">Python</option>
+                                    <option value="rb">Ruby</option>
+                                    <option value="sql">SQL</option>
+                                    <option value="verilog">verilog</option>
+                                    <option value="xml">XML</option>
+                                </select>
+                                Highlite Style :
+                                <select id="style">
+                                    <option value="autumn">autumn</option>
+                                    <option value="borland">borland</option>
+                                    <option value="bw">bw</option>
+                                    <option selected="selected" value="colorful">colorful</option>
+                                    <option value="default">default</option>
+                                    <option value="emacs">emacs</option>
+                                    <option value="friendly">friendly</option>
+                                    <option value="fruity">fruity</option>
+                                    <option value="manni">manni</option>
+                                    <option value="monokai">monokai</option>
+                                    <option value="murphy">murphy</option>
+                                    <option value="native">native</option>
+                                    <option value="pastie">pastie</option>
+                                    <option value="perldoc">perldoc</option>
+                                    <option value="rrt">rrt</option>
+                                    <option value="tango">tango</option>
+                                    <option value="trac">trac</option>
+                                    <option value="vim">vim</option>
+                                    <option value="vs">vs</option>
+                                </select>
+                                <button type="button" class="btn btn-primary btn-sm" id="widget-AddWidget-media_Code_result">하이라이트 결과 보기</button>
+
+                            </p>
+                        </div>
+                    </form>
+                    <textarea name="code_area" id="code" rows="30" cols="80" style="float:left; width:50%;"></textarea>
+                    <div id="preview" style="float:right; width:50%; height:516px; overflow:auto;">
+                    </div>
+                    <div class="text-right">
+                        <button @*id ="closebutton"*@ type="button" class="btn btn-primary" data-dismiss="modal" id="mediaWidgetInsert_Code">삽입</button>
+                        <button @*id ="closebutton"*@ type="button" class="btn btn-primary" data-dismiss="modal" id="mediaWidgetInsert_Cancel">닫기</button>
+                    </div>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+    <!-- Widget Remove Confirmation Modal Window-->
+    <div class="modal fade" id="widgetRemove" tabindex="-1" role="dialog" aria-labelledby="widgetRemove" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="widgetRemoveLabel">객체 삭제</h4>
+                </div>
+                <div class="modal-body">객체를 삭제 하시겠습니까?</div>
+                <div class="modal-footer">
+                    <button id="widgetRemoveYes" type="button" class="btn btn-primary" data-dismiss="modal">확인</button>
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">취소</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+</div>
+
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

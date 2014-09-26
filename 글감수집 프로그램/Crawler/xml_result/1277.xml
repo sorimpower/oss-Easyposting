@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Emily Chang - eHub</title>
+	<atom:link href="http://emilychang.com/ehub/feed/" rel="self" type="application/rss+xml" />
+	<link>http://emilychang.com/ehub</link>
+	<description>A daily resource for new web/mobile services and applications</description>
+	<lastBuildDate>Tue, 26 Feb 2013 15:38:32 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Artsy Editor</title>
+		<link>http://emilychang.com/ehub/app/artsy-editor/</link>
+		<comments>http://emilychang.com/ehub/app/artsy-editor/#comments</comments>
+		<pubDate>Fri, 05 Aug 2011 04:41:26 +0000</pubDate>
+		<dc:creator><![CDATA[Emily Chang]]></dc:creator>
+				<category><![CDATA[Blogging]]></category>
+		<category><![CDATA[Writing]]></category>
+
+		<guid isPermaLink="false">http://emilychang.com/ehub/?p=5878</guid>
+		<description><![CDATA[Artsy Editor is an advanced full-screen WordPress WYSIWYG editor. It provides faster, less-hassle ways to format, add links, upload media and scale images, so you can focus on writing the best content. Fits perfectly with bloggers and WordPress developers. URL: Artsy Editor]]></description>
+				<content:encoded><![CDATA[<p>Artsy Editor is an advanced full-screen WordPress WYSIWYG editor. It provides faster, less-hassle ways to format, add links, upload media and scale images, so you can focus on writing the best content. Fits perfectly with bloggers and WordPress developers. URL: <a target="_blank" href="http://artsyeditor.com " >Artsy Editor</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://emilychang.com/ehub/app/artsy-editor/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WikiCards</title>
+		<link>http://emilychang.com/ehub/app/wikicards/</link>
+		<comments>http://emilychang.com/ehub/app/wikicards/#comments</comments>
+		<pubDate>Tue, 12 Apr 2011 07:01:31 +0000</pubDate>
+		<dc:creator><![CDATA[Cesar H Castro Jr]]></dc:creator>
+				<category><![CDATA[Hyperdocument]]></category>
+
+		<guid isPermaLink="false">http://emilychang.com/ehub/?p=5862</guid>
+		<description><![CDATA[A free tool that helps users organize any kind of collections. A collection can be a set of contacts, documents, tasks, hour records, software bugs, todos, photos, recipes and many others. URL: WikiCards]]></description>
+				<content:encoded><![CDATA[<div style="float: left;clear: both;margin-bottom: 10px">
+<p><a target="_blank" href="http://info.wikicards.net/" ><img src="http://emilychang.com/ehub/wp-content/uploads/2011/04/wikicards-255x313.png" alt="WikiCards" width="255" height="313" class="alignleft size-medium wp-image-5863" /></a>A free tool that helps users organize any kind of collections. A collection can be a set of contacts, documents, tasks, hour records, software bugs, todos, photos, recipes and many others. URL: <a target="_blank" href="http://info.wikicards.net/" >WikiCards</a></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://emilychang.com/ehub/app/wikicards/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Frank</title>
+		<link>http://emilychang.com/ehub/app/frank/</link>
+		<comments>http://emilychang.com/ehub/app/frank/#comments</comments>
+		<pubDate>Mon, 11 Apr 2011 07:01:54 +0000</pubDate>
+		<dc:creator><![CDATA[Cesar H Castro Jr]]></dc:creator>
+				<category><![CDATA[Business]]></category>
+		<category><![CDATA[Directories]]></category>
+		<category><![CDATA[Social networking]]></category>
+
+		<guid isPermaLink="false">http://emilychang.com/ehub/?p=5858</guid>
+		<description><![CDATA[A freelancers management service, that helps both employers and freelancers. Employers can sort freelancers by skills, see who&#8217;s available and book in seconds with just a few clicks. Freelancers can broadcast availability and skill sets. URL: Frank]]></description>
+				<content:encoded><![CDATA[<div style="float: left;clear: both;margin-bottom: 10px">
+<p><a target="_blank" href="http://www.frankwork.com/" ><img src="http://emilychang.com/ehub/wp-content/uploads/2011/04/Frank-255x248.png" alt="Frank" width="255" height="248" class="alignleft size-medium wp-image-5859" /></a> A freelancers management service, that helps both employers  and freelancers. Employers can sort freelancers by skills, see who&#8217;s available and book in seconds with just a few clicks. Freelancers can broadcast availability and skill sets. URL: <a target="_blank" href="http://www.frankwork.com/" >Frank</a></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://emilychang.com/ehub/app/frank/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>My Code Stock</title>
+		<link>http://emilychang.com/ehub/app/my-code-stock/</link>
+		<comments>http://emilychang.com/ehub/app/my-code-stock/#comments</comments>
+		<pubDate>Sat, 09 Apr 2011 07:01:14 +0000</pubDate>
+		<dc:creator><![CDATA[Cesar H Castro Jr]]></dc:creator>
+				<category><![CDATA[Documents]]></category>
+		<category><![CDATA[Organizing]]></category>
+
+		<guid isPermaLink="false">http://emilychang.com/ehub/?p=5853</guid>
+		<description><![CDATA[A free online service for storing and managing code snippets and complete Scripts in any Coding Language (e.g. PHP, JavaScript, SQL, BASIC). URL: My Code Stock]]></description>
+				<content:encoded><![CDATA[<div style="float: left;clear: both;margin-bottom: 10px">
+<p><a target="_blank" href="https://mycodestock.com/" ><img src="http://emilychang.com/ehub/wp-content/uploads/2011/04/mycodestock-255x194.png" alt="My Code Stock" width="255" height="194" class="alignleft size-medium wp-image-5854" /></a> A free online service for storing and managing code snippets and complete Scripts in any Coding Language (e.g. PHP, JavaScript, SQL, BASIC). URL: <a target="_blank" href="https://mycodestock.com/" >My Code Stock</a></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://emilychang.com/ehub/app/my-code-stock/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Student Coupons</title>
+		<link>http://emilychang.com/ehub/app/student-coupons/</link>
+		<comments>http://emilychang.com/ehub/app/student-coupons/#comments</comments>
+		<pubDate>Thu, 07 Apr 2011 16:00:30 +0000</pubDate>
+		<dc:creator><![CDATA[Cesar H Castro Jr]]></dc:creator>
+				<category><![CDATA[Classifieds]]></category>
+		<category><![CDATA[eCommerce and Shopping]]></category>
+		<category><![CDATA[Education]]></category>
+
+		<guid isPermaLink="false">http://emilychang.com/ehub/?p=5843</guid>
+		<description><![CDATA[Whether it’s buying take-out, booze, groceries, clothing or a frozen yogurt, the Student Coupons pledge to users is to offer exclusive deals that don’t suck. In return for these super-duper deals, businesses expect Student Coupons to get the word out and make the connection between the students and retailers. URL: Student Coupons]]></description>
+				<content:encoded><![CDATA[<div style="float: left;clear: both;margin-bottom: 10px">
+<p><a target="_blank" href="http://www.studentcoupons.com/" ><img src="http://emilychang.com/ehub/wp-content/uploads/2011/04/tumblr_lj8nyp2M501qa86obo1_5001-255x195.jpg" alt="studentcoupons.com" width="255" height="195" class="alignleft size-medium wp-image-5845" /></a> Whether it’s buying take-out, booze, groceries, clothing or a frozen yogurt, the Student Coupons pledge to users is to offer exclusive deals that don’t suck. In return for these super-duper deals, businesses expect Student Coupons to get the word out and make the connection between the students and retailers. URL: <a target="_blank" href="http://www.studentcoupons.com/" >Student Coupons</a></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://emilychang.com/ehub/app/student-coupons/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Pzyche</title>
+		<link>http://emilychang.com/ehub/app/pzyche/</link>
+		<comments>http://emilychang.com/ehub/app/pzyche/#comments</comments>
+		<pubDate>Wed, 06 Apr 2011 18:38:08 +0000</pubDate>
+		<dc:creator><![CDATA[Cesar H Castro Jr]]></dc:creator>
+				<category><![CDATA[Advertising]]></category>
+		<category><![CDATA[Marketing]]></category>
+		<category><![CDATA[Statistics, tracking, testing]]></category>
+
+		<guid isPermaLink="false">http://emilychang.com/ehub/?p=5839</guid>
+		<description><![CDATA[A conversion optimization engine that understands who your visitors are and what products they are looking for. Allowing websites to greet visitors with real-time content and promotions that are relevant to them. URL: Pzyche]]></description>
+				<content:encoded><![CDATA[<div style="float: left;clear: both;margin-bottom: 10px">
+<p><a target="_blank" href="http://pzyche.com/" ><img src="http://emilychang.com/ehub/wp-content/uploads/2011/04/Pzyche-255x298.png" alt="Pzyche" width="255" height="298" class="alignleft size-medium wp-image-5840" /></a> A conversion optimization engine that understands who your visitors are and what products they are looking for. Allowing websites to greet visitors with real-time content and promotions that are relevant to them. URL: <a target="_blank" href="http://pzyche.com/" >Pzyche</a></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://emilychang.com/ehub/app/pzyche/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Shall I Buy</title>
+		<link>http://emilychang.com/ehub/app/shall-i-buy/</link>
+		<comments>http://emilychang.com/ehub/app/shall-i-buy/#comments</comments>
+		<pubDate>Tue, 05 Apr 2011 16:36:09 +0000</pubDate>
+		<dc:creator><![CDATA[Cesar H Castro Jr]]></dc:creator>
+				<category><![CDATA[eCommerce and Shopping]]></category>
+		<category><![CDATA[Mobile]]></category>
+
+		<guid isPermaLink="false">http://emilychang.com/ehub/?p=5836</guid>
+		<description><![CDATA[Get instant shopping advice with this mobile application which allows users to share their purchase intentions and get instant feedback from friends.. URL: Shall I Buy]]></description>
+				<content:encoded><![CDATA[<div style="float: left;clear: both;margin-bottom: 10px">
+<p><a target="_blank" href="http://shallibuy.it/" ><img src="http://emilychang.com/ehub/wp-content/uploads/2011/04/tumblr_lj6pggXfF91qeevnyo1_5001-255x116.png" alt="Shall I Buy" width="255" height="116" class="alignleft size-medium wp-image-5837" /></a> Get instant shopping advice with this mobile application which allows users to share their purchase intentions and get instant feedback from friends.. URL: <a target="_blank" href="http://shallibuy.it/" >Shall I Buy</a></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://emilychang.com/ehub/app/shall-i-buy/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>iTrulyCare</title>
+		<link>http://emilychang.com/ehub/app/itrulycare/</link>
+		<comments>http://emilychang.com/ehub/app/itrulycare/#comments</comments>
+		<pubDate>Mon, 04 Apr 2011 19:01:26 +0000</pubDate>
+		<dc:creator><![CDATA[Cesar H Castro Jr]]></dc:creator>
+				<category><![CDATA[Events and calendering]]></category>
+
+		<guid isPermaLink="false">http://emilychang.com/ehub/?p=5830</guid>
+		<description><![CDATA[It’s the easiest way to promote events like running a marathon, volunteering, hosting a pottery class, a cause or passion and then connect with like minded people. URL: iTrulyCare]]></description>
+				<content:encoded><![CDATA[<div style="float: left;clear: both;margin-bottom: 10px">
+<p><a target="_blank" href="http://itrulycare.com/" ><img src="http://emilychang.com/ehub/wp-content/uploads/2011/04/itrulycare1-255x143.jpg" alt="iTrulyCare" width="255" height="143" class="alignleft size-medium wp-image-5832" /></a>It’s the easiest way to promote events like running a marathon, volunteering, hosting a pottery class, a cause or passion and then connect with like minded people. URL: <a target="_blank" href="http://itrulycare.com" >iTrulyCare</a></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://emilychang.com/ehub/app/itrulycare/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Webplanner</title>
+		<link>http://emilychang.com/ehub/app/webplanner/</link>
+		<comments>http://emilychang.com/ehub/app/webplanner/#comments</comments>
+		<pubDate>Fri, 01 Apr 2011 19:01:23 +0000</pubDate>
+		<dc:creator><![CDATA[Cesar H Castro Jr]]></dc:creator>
+				<category><![CDATA[Collaborating]]></category>
+
+		<guid isPermaLink="false">http://emilychang.com/ehub/?p=5812</guid>
+		<description><![CDATA[An online collaborative project management tool that uses the power of the cloud to brainstorm project goals, phases, tasks, and multiple levels of subtasks within teams. URL: Webplanner]]></description>
+				<content:encoded><![CDATA[<div style="float: left;clear: both;margin-bottom: 10px">
+<p><a target="_blank" href="http://webplanner.com" ><img src="http://emilychang.com/ehub/wp-content/uploads/2011/03/webplanner1-e1301610659919.jpg" alt="webplanner" width="255" height="142" class="alignleft size-medium wp-image-5813" /></a>An online collaborative project management tool that uses the power of the cloud to brainstorm project goals, phases, tasks, and multiple levels of subtasks within teams. URL: <a target="_blank" href="http://webplanner.com" >Webplanner</a></p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://emilychang.com/ehub/app/webplanner/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>LiquidSpace</title>
+		<link>http://emilychang.com/ehub/app/liquidspace/</link>
+		<comments>http://emilychang.com/ehub/app/liquidspace/#comments</comments>
+		<pubDate>Fri, 11 Mar 2011 05:43:39 +0000</pubDate>
+		<dc:creator><![CDATA[Emily Chang]]></dc:creator>
+				<category><![CDATA[Collaborating]]></category>
+		<category><![CDATA[iPhone]]></category>
+
+		<guid isPermaLink="false">http://emilychang.com/ehub/?p=5808</guid>
+		<description><![CDATA[Find a great space to work now. Use the LiquidSpace iPhone app to find the space you need, when you need it, wherever you are. You can book space in high-end business centers, hip startup co-working spaces, or hotel conference rooms. You can even unlock private spaces for meetings at offices that have space to [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Find a great space to work now. Use the LiquidSpace iPhone app to find the space you need, when you need it, wherever you are. You can book space in high-end business centers, hip startup co-working spaces, or hotel conference rooms. You can even unlock private spaces for meetings at offices that have space to share. URL: <a target="_blank" href="http://liquidspace.com/" >LiquidSpace</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://emilychang.com/ehub/app/liquidspace/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

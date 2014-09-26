@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>아이군의 블로그</title>
+	<atom:link href="http://theeye.pe.kr/feed" rel="self" type="application/rss+xml" />
+	<link>http://theeye.pe.kr</link>
+	<description>배움에 망설이는 그순간 당신은 2류</description>
+	<lastBuildDate>Mon, 15 Sep 2014 13:29:52 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.0</generator>
+	<item>
+		<title>Spring Boot에서 UTF-8기반 한글 설정하기</title>
+		<link>http://theeye.pe.kr/archives/2206</link>
+		<comments>http://theeye.pe.kr/archives/2206#comments</comments>
+		<pubDate>Fri, 01 Aug 2014 06:33:57 +0000</pubDate>
+		<dc:creator><![CDATA[아이]]></dc:creator>
+				<category><![CDATA[JAVA]]></category>
+		<category><![CDATA[Boot]]></category>
+		<category><![CDATA[spring]]></category>
+		<category><![CDATA[UTF-8]]></category>
+		<category><![CDATA[한글]]></category>
+
+		<guid isPermaLink="false">http://theeye.pe.kr/?p=2206</guid>
+		<description><![CDATA[기본적으로 스프링 부프 프로젝트를 시작해 보면 한글이 제대로 입/출력 되지 않는 문제에 봉착하게 됩니다. 단순하게 RestController만 사용하거나 HTML의 컨텐츠 헤더를 잘 조합하여 사용하면 한글을 문제 없이 사용할 수 있게 되지만 다음의 방법을 사용하여 프로젝트가 전체적으로 한글이 정상적으로 동작하도록 할 수 있습니다. 기존의 프로젝트에 responseBodyConverter와 characterEncodingFilter를 Bean으로 등록해 주시면 작업은 끝납니다. [crayon-542528dc7b7f4772835009/] responseBodyConverter는 결과를 출력시에 강제로 UTF-8로 설정하는 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/02/spring_logo.png"><img class="alignnone size-full wp-image-2115" src="http://theeye.pe.kr/wp-content/uploads/2014/02/spring_logo.png" alt="spring_logo" width="392" height="126" /></a></p>
+<p>기본적으로 스프링 부프 프로젝트를 시작해 보면 한글이 제대로 입/출력 되지 않는 문제에 봉착하게 됩니다. 단순하게 RestController만 사용하거나 HTML의 컨텐츠 헤더를 잘 조합하여 사용하면 한글을 문제 없이 사용할 수 있게 되지만 다음의 방법을 사용하여 프로젝트가 전체적으로 한글이 정상적으로 동작하도록 할 수 있습니다.</p>
+<p>기존의 프로젝트에 responseBodyConverter와 characterEncodingFilter를 Bean으로 등록해 주시면 작업은 끝납니다.</p><pre class="crayon-plain-tag">package utf8;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.http.converter.HttpMessageConverter;
+import org.springframework.http.converter.StringHttpMessageConverter;
+import org.springframework.web.filter.CharacterEncodingFilter;
+
+import javax.servlet.Filter;
+import java.nio.charset.Charset;
+
+@Configuration
+@EnableAutoConfiguration
+@ComponentScan
+public class Application {
+    public static void main(String[] args) {
+        SpringApplication.run(Application.class, args);
+    }
+
+    @Bean
+    public HttpMessageConverter&lt;String&gt; responseBodyConverter() {
+        return new StringHttpMessageConverter(Charset.forName("UTF-8"));
+    }
+
+    @Bean
+    public Filter characterEncodingFilter() {
+        CharacterEncodingFilter characterEncodingFilter = new CharacterEncodingFilter();
+        characterEncodingFilter.setEncoding("UTF-8");
+        characterEncodingFilter.setForceEncoding(true);
+        return characterEncodingFilter;
+    }
+}</pre><p>responseBodyConverter는 결과를 출력시에 강제로 UTF-8로 설정하는 역할을 하며 characterEncodingFilter는 POST 요청시에 한글이 깨지는 문제를 보완해줍니다.</p>
+<p>참고 :</p>
+<ul>
+<li><a href="http://stackoverflow.com/questions/20935969/make-responsebody-annotated-spring-boot-mvc-controller-methods-return-utf-8" target="_blank">http://stackoverflow.com/questions/20935969/make-responsebody-annotated-spring-boot-mvc-controller-methods-return-utf-8</a></li>
+<li><a href="http://stackoverflow.com/questions/20926329/non-ascii-symbols-in-path-variable-of-spring-mvc-application-on-embedded-tomcat" target="_blank">http://stackoverflow.com/questions/20926329/non-ascii-symbols-in-path-variable-of-spring-mvc-application-on-embedded-tomcat</a></li>
+<li><a href="https://github.com/spring-projects/spring-boot/issues/540" target="_blank">https://github.com/spring-projects/spring-boot/issues/540</a></li>
+<li><a href="http://novafactory.net/archives/3126" target="_blank">http://novafactory.net/archives/3126</a></li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://theeye.pe.kr/archives/2206/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Xcode 6 Playground 사용하기</title>
+		<link>http://theeye.pe.kr/archives/2186</link>
+		<comments>http://theeye.pe.kr/archives/2186#comments</comments>
+		<pubDate>Thu, 10 Jul 2014 09:50:18 +0000</pubDate>
+		<dc:creator><![CDATA[아이]]></dc:creator>
+				<category><![CDATA[Swift]]></category>
+		<category><![CDATA[iOS]]></category>
+		<category><![CDATA[Objective C]]></category>
+		<category><![CDATA[Playground]]></category>
+
+		<guid isPermaLink="false">http://theeye.pe.kr/?p=2186</guid>
+		<description><![CDATA[Xcode 6에서 새로 생긴 기능으로 Playground 라는것이 있습니다. Playground 에서 Swift 코드를 인터렉티브한 환경에서 테스트할 수 있습니다.  코드들을 컴파일 하거나 컴파일이 완료된 프로젝트를 실행하지 않고 Playground에서 당신의 실험적인 코드들의 결과를 빠르게 확인할 수 있습니다. Playground 둘러보기 Xcode를 실행했을 때 &#8220;Get started with a playground&#8221;를 선택하여 곧바로 Playground 프로젝트를 실행할 수 있습니다. 또는 File &#62; New [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/07/swift-screenshot.jpg"><img class="alignnone size-medium wp-image-2187" src="http://theeye.pe.kr/wp-content/uploads/2014/07/swift-screenshot-600x340.jpg" alt="swift-screenshot" width="600" height="340" /></a></p>
+<p>Xcode 6에서 새로 생긴 기능으로 Playground 라는것이 있습니다. Playground 에서 Swift 코드를 인터렉티브한 환경에서 테스트할 수 있습니다.  코드들을 컴파일 하거나 컴파일이 완료된 프로젝트를 실행하지 않고 Playground에서 당신의 실험적인 코드들의 결과를 빠르게 확인할 수 있습니다.</p>
+<h2>Playground 둘러보기</h2>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_01.png"><img class="alignnone size-medium wp-image-2188" src="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_01-600x352.png" alt="xcode_playground_01" width="600" height="352" /></a></p>
+<p>Xcode를 실행했을 때 &#8220;Get started with a playground&#8221;를 선택하여 곧바로 Playground 프로젝트를 실행할 수 있습니다. 또는 File &gt; New &gt; Playground 를 선택하여 시작할 수 있습니다.</p>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_03.png"><img class="alignnone size-medium wp-image-2190" src="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_03-600x294.png" alt="xcode_playground_03" width="600" height="294" /></a></p>
+<p>.playground라는 확장자를 가진 파일이 생성되며 위와 같이 결과가 바로 출력되는 사이드바를 가진 창을 확인할 수 있습니다. Playground에서의 Xcode는 당신이 코드의 한 문장이 끝나거나 타이핑을 잠시 멈췄을 때 코드의 결과를 소스 에디터 오른편에 위치한 사이드바에 출력합니다.</p>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_04.png"><img class="alignnone size-medium wp-image-2191" src="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_04-600x391.png" alt="xcode_playground_04" width="600" height="391" /></a></p>
+<p>이제 몇가지 테스트용 코드를 작성하여 보았습니다. 오른쪽 사이드바를 보면 작성한 함수가 호출될때 내부적으로 어떻게 값이 변하는지 함수의 결과값이 무엇인지 변수의 값이 무엇인지 순환문이 몇번 반복되는지 여부를 확인할 수 있습니다.</p>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_05.png"><img class="alignnone size-medium wp-image-2192" src="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_05-600x79.png" alt="xcode_playground_05" width="600" height="79" /></a></p>
+<p>의도적이지만 잘못된 코드를 한번 작성해보았습니다. 이미 정의된 j를 재정의 해보려고 하였더니 곧바로 에러가 출력되는것을 확인할 수 있습니다. Xcode는 친절하게도 당신이 작성중인 코드의 잘못된 부분을 빨간색 느낌표 심볼을 사용하여 즉시 알려줍니다. 저 심볼을 클릭하게 되면 무엇을 실수하였는지 상세한 설명을 볼 수 있습니다. 실수한 부분을 알맞게 수정하거나 삭제하면 Xcode는 코드의 정상적인 실행 결과를 오른쪽 사이드바에 다시 표시해 줍니다.</p>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_06.png"><img class="alignnone size-medium wp-image-2193" src="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_06-600x118.png" alt="xcode_playground_06" width="600" height="118" /></a></p>
+<p>코드의 중간에 변수의 값을 확인하고 싶다면 별도의 라인에 변수명을 적기만 하면 됩니다. 위의 예시를 보면 width와 height 변수를 각각 별도의 라인에 적어줌으로써 사이드바에 결과값을 확인할 수 있습니다.</p>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_07.png"><img class="alignnone size-medium wp-image-2194" src="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_07-600x159.png" alt="xcode_playground_07" width="600" height="159" /></a></p>
+<p>사이드바의 순환문의 결과부분에 마우스 커서를 올려보면 위와 같은 동그라미 아이콘이 보여집니다. Value History Button이라고 하는데요, 이것을 눌러 오른쪽과 같은 값의 변화를 그래프로 확인할 수 있습니다. 심지어 소요된 시간을 확인할 수 있어 시간이 많이 소요되는 순환문의 경우 이 그래프를 확인하며 최적화 작업을 할 수 있습니다.</p>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_08.png"><img class="alignnone size-medium wp-image-2195" src="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_08-600x160.png" alt="xcode_playground_08" width="600" height="160" /></a></p>
+<p>이 그래프의 X축은 시간의 변화를 보여주며 Y축은 값의 변화를 보여줍니다. 위의 스크린샷과 같이 특정 지점을 마우스로 클릭하면 그 지점의 값을 확인할 수 있습니다.</p>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_09.png"><img class="alignnone size-medium wp-image-2196" src="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_09-600x170.png" alt="xcode_playground_09" width="600" height="170" /></a></p>
+<p>오른쪽 하단에 보면 Timeline 이라고 불리는 막대바가 있습니다. 이 바를 움직여보시면 하나의 순환문이 아닌 전체 코드들의 실행 순서를 차례대로 돌려볼 수 있습니다. 실제로 오래걸리는 순환문을 만들어 보면 그것이 실행되면서 그래프를 그리는 모습을 눈으로 관찰하실 수 있습니다.</p>
+<p>Timeline의 막대바 옆에는 얼마나 오래동안 이 그래프가 만들어지는 과정을 보여줄것인가 제한을 설정할 수 있습니다. 레퍼런스를 읽어봤을때는 동작이 제한 시간에 걸리면 멈추는것으로 나와있는데요 테스트해본 결과 멈추지 않고 모두 실행되어 버리는것을 확인하였습니다. 좀더 확인을 해봐야 할것 같네요.</p>
+<h2>UIKit을 활용한 테스트 코드 작성하기</h2>
+<p>기본 환경에서 Playground를 사용중이라면 UILabel이라던가 UIView와 같은 UIKit에 포함된 컨트롤러를 이용한 테스트 코드를 사용할 수 없는것을 확인할 수 있었습니다. UIKit을 Import하면 당연히 될것이라 생각했는데 안되더군요. 다음과 같은 설정을 해주시면 간단히 가능하게 됩니다.</p>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_10.png"><img class="alignnone size-medium wp-image-2197" src="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_10-600x222.png" alt="xcode_playground_10" width="600" height="222" /></a></p>
+<p>View &gt; Utilities &gt; Show File Inspector 에 진입해 보면 Playground Settings가 있습니다. 여기에 Platform 설정을 iOS로 바꿔주시면 됩니다. 이제부턴 UIKit을 사용할 수 있게 되었습니다.</p>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_11.png"><img class="alignnone size-medium wp-image-2198" src="http://theeye.pe.kr/wp-content/uploads/2014/07/xcode_playground_11-600x177.png" alt="xcode_playground_11" width="600" height="177" /></a></p>
+<p>이거 정말 멋지다고 생각하는데요. 현재 만들어지는 있는 각각의 컨트롤러에 대해 사이드뷰에서 눈 모양의 아이콘을 클릭하면 현재 모습을 확인할 수 있습니다. 특정 UI를 만들겠다면 정말 손쉽게 구현해보고 테스트 해볼 수 있을것 같습니다.</p>
+<p>참고자료 : <a href="https://developer.apple.com/library/prerelease/ios/recipes/xcode_help-source_editor/ExploringandEvaluatingSwiftCodeinaPlayground/ExploringandEvaluatingSwiftCodeinaPlayground.html" target="_blank">Exploring and Evaluating Swift Code in a Playground</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://theeye.pe.kr/archives/2186/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Android In-App Billing 보안 완벽 정리</title>
+		<link>http://theeye.pe.kr/archives/2130</link>
+		<comments>http://theeye.pe.kr/archives/2130#comments</comments>
+		<pubDate>Mon, 24 Feb 2014 14:09:36 +0000</pubDate>
+		<dc:creator><![CDATA[아이]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Billing]]></category>
+		<category><![CDATA[IAB]]></category>
+		<category><![CDATA[In-App]]></category>
+		<category><![CDATA[Security]]></category>
+		<category><![CDATA[보안]]></category>
+		<category><![CDATA[안드로이드]]></category>
+
+		<guid isPermaLink="false">http://theeye.pe.kr/?p=2130</guid>
+		<description><![CDATA[현재 출시되고 있는 수많은 Android 어플리케이션이 앱내 구매(In-App Billing) 기능을 제공하고 있습니다. 이러한 구매 기능을 쉽게 접할 수 있는 어플리케이션중에 게임이 있는데요. 많은 게임들이 해킹의 피해를 입고 있고 특히 프리덤(Freedom)과 같은 결제 해킹 앱들에 의해 피해를 보는 경우가 제 생각보다 많다는것을 알았습니다. 이러한 결제 해킹 앱들의 경우 폰의 루팅이 필요한데요. 루팅폰을 사용중인 유저의 비중이 생각보다 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>현재 출시되고 있는 수많은 Android 어플리케이션이 앱내 구매(In-App Billing) 기능을 제공하고 있습니다. 이러한 구매 기능을 쉽게 접할 수 있는 어플리케이션중에 게임이 있는데요. 많은 게임들이 해킹의 피해를 입고 있고 특히 프리덤(<a href="http://system.in-appstore.com/freedom/" target="_blank">Freedom</a>)과 같은 결제 해킹 앱들에 의해 피해를 보는 경우가 제 생각보다 많다는것을 알았습니다. 이러한 결제 해킹 앱들의 경우 폰의 루팅이 필요한데요. 루팅폰을 사용중인 유저의 비중이 생각보다 많은것 같습니다. 이 문서는 이러한 해킹으로 부터 나의 수익을 지키는 방법에 대해 정리해 보았습니다. 먼저 Android에 대해 기술하고 다음은 iOS에 대해 또 글을 올리겠습니다. Google Play가 제공하는 In-App Billing 버전3를 기준으로 정리하였으며 사전 지식이 부족하실 경우 이전에 작성한 [<a href="http://theeye.pe.kr/archives/2118" target="_blank">Android In-App Billing 구현하기 (IAB Version 3)</a>]를 먼저 읽어보시길 권장합니다.</p>
+<h1>In-App Billing 상품의 타입에 대해 알아보기</h1>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/02/android_iab3_01.png"><img class="alignnone size-full wp-image-2131" alt="android_iab3_01" src="http://theeye.pe.kr/wp-content/uploads/2014/02/android_iab3_01.png" width="557" height="314" /></a></p>
+<p>Android Developer Console에서 &#8220;인앱 상품&#8221; 메뉴에 들어가서 상품을 추가하게 되면 볼 수 있는 화면입니다. 여기서 3가지 타입을 제공하는것을 볼 수 있습니다. 하지만 IAB 버전3 API의 경우 관리되는 제품/구독 2가지의 타입을 제공한다고 생각하시면 됩니다. 관리되지 않는 제품을 선택할 때 다음과 같은 화면을 볼 수 있습니다.</p>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/02/android_iab3_02.png"><img class="alignnone size-full wp-image-2132" alt="android_iab3_02" src="http://theeye.pe.kr/wp-content/uploads/2014/02/android_iab3_02.png" width="549" height="319" /></a></p>
+<p>뒤에서 좀 더 자세하게 설명을 드리겠지만 관리되는 제품과 관리되지 않는 제품은 IAB v3에서는 동일하게 관리되는 제품으로 취급됩니다. 하지만 관리되는 제품은 소진이 불가능한(Non-Consumable) 영원히 사용자에게 귀속되는 상품이며 관리되지 않는 제품은 소진이 가능한(Consumable) 상품으로 의미가 갈립니다. <strong>소진이 불가능한 상품</strong>이라는 의미는 <span style="color: #ff0000;">똑같은 상품을 두번 이상 구매할 수 없는것</span>을 의미합니다. <strong>소진이 가능한 상품</strong>의 경우 <span style="color: #008000;">똑같은 상품을 계속해서 반복 구매하는 것이 가능</span>합니다. 게임의 중간화폐(Currency)가 이경우에 해당될것 같습니다. 구독의 경우에는 다음과 같이 한달 또는 일년 단위로 자동 연장되는 결제 방식을 의미합니다. 음원 서비스들에서 주로 볼 수 있는 상품의 모습이라고 생각됩니다. 구독의 취소는 [<a href="Google 월렛의 내 구독정보 페이지" target="_blank">Google 월렛의 내 구독 정보</a>]에서 취소할 수 있습니다.</p>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/02/android_iab3_03.png"><img class="alignnone size-medium wp-image-2133" alt="android_iab3_03" src="http://theeye.pe.kr/wp-content/uploads/2014/02/android_iab3_03-600x146.png" width="600" height="146" /></a></p>
+<p>상품을 추가하실때 위와 같은 화면을 볼 수 있습니다. 정리해 보자면 Android 에서 제공하는 상품의 종류는 크게 &#8220;관리되는 제품&#8221;과 &#8220;구독&#8221; 2가지를 제공하며 &#8220;관리되는 제품&#8221;에는 반복 구매할 수 없는 귀속되는 소진 불가 상품과 반복구매가 가능한 소진 가능 상품이 존재합니다.</p>
+<p>여기서 굉장히 중요한것 한가지는 &#8220;관리되는 제품 &#8211; 소진불가&#8221; 상품은 구글측에서 구매 내역을 신뢰할 수 있는 수준에서 관리해 준다는것입니다. &#8220;구독&#8221;역시 마찬가지입니다. 하지만 &#8220;관리되는 제품 &#8211; 소진 가능&#8221;한 상품은 개발사에서 구매 내역을 직접 관리해야 합니다.</p>
+<p>유저로부터 발생하는 CS중 &#8220;결제를 분명히 했는데 아이템이 들어오지 않았다&#8221;는 대부분 이 &#8220;관리되는 제품 &#8211; 소진가능&#8221;한 상품들의 구매 과정에서 발생합니다.</p>
+<h1>In-App Billing 버전3 결제 과정</h1>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/02/iab_v3_purchase_flow.png"><img class="alignnone size-full wp-image-2135" alt="iab_v3_purchase_flow" src="http://theeye.pe.kr/wp-content/uploads/2014/02/iab_v3_purchase_flow.png" width="563" height="560" /></a></p>
+<p>먼저 중요하게 봐야 하는 Google In-App Billing 플로우입니다. <strong>isBillingSupported()</strong> 메소드 호출을 통해 앱내 결제가 가능한지 확인합니다. 디바이스와 OS버전의 상황을 체크하게 되는데 한국의 경우 여기서 실패하는 경우는 없다고 보시면 될것 같습니다.</p>
+<p>다음은 <strong>getPurchases()</strong> 메소드입니다. 이 메소드는 현재 유저가 (이미 구매하여) 소유하고 있는 상품들의 정보를 반환합니다. 결제 플로우인데 왜 갑자기 쌩뚱맞게 이것을 호출하는가 의구심이 들 수 있습니다. 여기서 이 메소드를 호출함으로써 다음과 같은 정보를 얻을 수 있습니다.</p>
+<ul>
+<li>유저가 기존에 구매한 &#8220;관리되는 상품 &#8211; 소진 불가&#8221; 상품의 리스트</li>
+<li>유저가 기존에 구매한 &#8220;관리되는 상품 &#8211; 소진 가능&#8221; 상품중 <span style="color: #ff0000;">아직 소진되지 않은 상품</span>의 리스트</li>
+<li>유저의 구독 상품의 리스트</li>
+</ul>
+<p>결론부터 말씀드리자면 이 메소드는 앱의 구동시점에 호출해줄 필요가 있습니다. 앱의 구동 시점 또는 로그인 기반의 경우 로그인이 성공하는 시점(카카오 로그인 성공 등)에 이 메소드를 호출함으로써 유저가 기존에 구매한 상품들의 정보를 불러와 앱에 세팅할 수 있습니다.</p>
+<p>그렇다면 &#8220;우리 회사는 유저가 구매한 아이템의 모든 정보를 우리 서버에 직접 저장하고 관리하고 있다. 그럼 이것을 호출할 필요가 없는가?&#8221; 라고 반문하실 수 있습니다. 제가 알기로는 대부분의 한국의 게임사들은 직접 서버를 보유하고 있고 구매한 상품의 정보를 서버에 직접 보관하시는것으로 알고 있습니다. 그렇다면 이 호출을 건너뛰셔도 상관없습니다. 하지만 그럼에도 불구하고 호출하셔야 하는 이유는 뒤에 좀 더 자세히 설명하겠지만 &#8220;관리되는 상품 &#8211; 소진 가능&#8221;한 상품의 경우 구매 직후 바로 소진을 하게 되는데요(게임내에 통용되는 화폐로 교환), 구매는 성공했는데 유저에게 상품을 지급하기 전에 오류로 인해 앱이 죽는다거나 하는 문제로 소진을 못하는 경우가 발생할 수 있습니다.</p>
+<p>이러한 상품들의 경우에도 <strong>getPurchases()</strong>를 통해 정보를 받아오실 수 있습니다. 결제는 성공했지만 지급에는 실패한 상품의 경우 바로 지급을 처리해주시면 됩니다. 가령 상품 구매가 성공할 때 &#8220;500골드의 구매가 정상적으로 처리되었습니다&#8221; 라는 팝업을 띄우게 되어있다고 가정해 봅시다. 유저가 결제를 정상적으로 성공한 시점에 앱이 어떤 문제로 죽었습니다. 유저는 깜짝 놀라 앱을 다시 구동할 것입니다. 그리고 앱이 켜지자 마자 진행중이던 결제처리를 마저 진행하고 해당 팝업을 띄우시면 됩니다.</p>
+<p>기존의 IAB v2의 결제직후 아이템 지급까지 안정성이 보장되지 않는 상황을 대처하기 위해 v3에서는 결제후 아이템의 지급시점까지 결제 내역을 관리해주도록 변경되었습니다. (심지어 &#8220;관리되지 않는 상품&#8221;조차도 소진시점까지 관리되는 상품으로써 관리를 해줍니다. 이말은 소진하기 전까지는 관리되는 상품과 동일하게 중복 구매가 불가능하다는것을 의미합니다.)</p>
+<p>즉, &#8220;관리되는 상품 &#8211; 소진 불가&#8221;과 &#8220;구독&#8221;의 경우 결제가 성공한 시점부터 언제든지 getPurchases()를 호출하여 구매내역을 꺼내볼 수 있습니다. 하지만 &#8220;관리되는 상품 &#8211; 소진가능&#8221; 상품의 경우 결제 → 소진(지급)을 거쳐서 처리하도록 되어있습니다. 이 소진을 하기 전까지는 &#8220;관리되는 상품 &#8211; 소진가능&#8221;(관리되지 않는 제품)일지라도 Google이 관리해줍니다. 소진에 대해서는 뒤에서 또 이야기 하기로 하고 계속해서 플로우를 설명해 보겠습니다.</p>
+<p><strong>getSkuDetails()</strong>는 판매 가능한 상품들의 상세 정보를 리스트로 반환합니다. 여기서 중요한점은 기존에 Google Play에 정의해둔 상품의 ID들을 모두 알고 있어야 하며 이 ID들을 이용하여 메소드를 호출하게 됩니다. 이 메소드를 호출하여 얻을 수 있는 정보는 상품의 가격, 이름, 설명, 구매 타입이 있습니다.</p>
+<p>유저가 보유하고 있는 상품의 경우 <strong>getBuyIntent()</strong>를 사용하여 구매를 진행할 수 있습니다. 이 메소드를 호출하기 위해서는 기존에 Google Developer Console에 정의해두었던 상품의 ID와 다른 추가적인 파라미터가 사용됩니다. 이후의 결제 진행은 다음과 같은 순서로 이루어집니다.</p>
+<ol>
+<li>getBuyIntent()를 호출하면 Google Play는 구글 체크아웃 결제창을 시작할 수 있는 PendingIntent를 포함한 Bundle을 반환합니다.</li>
+<li>당신의 어플리케이션에서 startIntentSenderForResult를 이용하여 위의 PendingIntent를 실행합니다.</li>
+<li>체크아웃 결제가 종료된다면 (성공적으로 결제가 되었던지 유저가 결제를 중도에 취소하였던지) Google Play는 결과를 담은 Intent를 onActivityResult 메소드로 보내줍니다. 결과 코드를 통해 구매가 성공적으로 진행되었는지 취소되었는지 여부를 확인할 수 있습니다. 응답 Intent에는 구매 트랜젝션을 식별하는데 사용가능한 유니크한 purchaseToken을 포함한 구매한 상품의 정보를 담고 있습니다.</li>
+</ol>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/02/iab_v3_consumption_flow.png"><img class="alignnone size-full wp-image-2134" alt="iab_v3_consumption_flow" src="http://theeye.pe.kr/wp-content/uploads/2014/02/iab_v3_consumption_flow.png" width="562" height="314" /></a></p>
+<p>이번에는 소진에 대해 알아보겠습니다. Google Play를 통해 판매할 수 있는 앱내 상품중에 유일하게 &#8220;관리되는 상품 &#8211; 소진가능 (관리되지 않는 상품)&#8221;만이 이 소진 메소드인 <strong>consumePurchase()</strong>를 사용합니다.</p>
+<p>좀 더 정리하여 보면 IAB v3에서는 모든 앱내 상품이 관리됩니다. Google Developer Console에는 &#8220;관리되지 않는 상품&#8221;이라고 표시되지만 실제로는 관리됩니다. 다만 이 &#8220;관리되지 않는 상품&#8221;은 소진을 하기 전까지만 관리됩니다. 즉, 상품을 구매하여 소진하기 전까지 Google은 이 상품을 유저가 소유하였다고 직접 관리하게 됩니다. 이미 소유한 상품은 두번 구매할 수 없습니다. 그리고 명시적으로 소진을 하게 되면 이후에 다시 이 상품은 소유하지 않은 상태가 되고 재구매가 가능하게 됩니다.</p>
+<p>여기서 말하는 소진은 게임에서는 게임내 화폐로의 교환을 의미합니다. 좀 더 쉽게 설명해 보자면 게임내에서 500골드를 1,000원에 판매하고 있었다면 결제를 통해서는 500골드 교환권을 구매한것이 됩니다. 이 500골드 교환권은 실제 500골드로 교환할때까지 Google이 관리해줍니다. 그리고 모든 상품들에 대해 똑같은 교환권을 2개 이상 가지는것은 불가능합니다. 500골드 교환권을 500골드로 교환해야 다시 500골드 교환권을 구매할 수 있습니다.</p>
+<h3>정리</h3>
+<p>너무 길게 설명한것 같은데 정리해 보면 각각의 상품들은 다음과 같은 과정을 거처 구매가 진행됩니다.</p>
+<table>
+<thead>
+<tr>
+<th>상품 타입</th>
+<th>v3에서의 의미</th>
+<th>결제 플로우</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> 관리되는 제품</td>
+<td> 관리되는 제품 &#8211; 소진 불가 (Non-Consumable)</td>
+<td> getSkuDetails() → getBuyIntent() → startIntentSenderForResult() → 상품 지급</td>
+</tr>
+<tr>
+<td> 관리되지 않는 제품</td>
+<td> 관리되는 제품  &#8211; 소진 가능 (Consumable)</td>
+<td> getSkuDetails() → getBuyIntent() → startIntentSenderForResult() → consumePurchase() → 상품 지급</td>
+</tr>
+<tr>
+<td> 구독</td>
+<td> 관리되는 제품 &#8211; 특정 기간동안 보유 (자동 결제)</td>
+<td> getSkuDetails() → getBuyIntent() → startIntentSenderForResult() → 구독 시작</td>
+</tr>
+</tbody>
+</table>
+<p>국내의 대부분의 게임이 결제를 통해 게임내에서 사용가능한 중간 화폐를 구매하는 모습을 차용하고 있다는것을 볼때 위의 3가지중에서 가장 중요한부분은 &#8220;관리되지 않는 제품&#8221;입니다. 소진을 하는 시점부터 Google이 관리를 해주지 않기 때문에 보안에 가장 취약한 상품 타입이기도 합니다.</p>
+<h1>결제 보안 시작하기</h1>
+<p>안드로이드 결제 보안을 설명하는데에는 구글이 IAB v3 예제로 제공하는 TriviaDrive 프로젝트를 이용하는것이 가장 좋다고 생각합니다. 해당 샘플 프로젝트를 Gradle 프로젝트로 컨버팅 하여 [<a href="https://github.com/iies/TriviaDriveForGradle" target="_blank">이곳</a>]에 올려두었으니 참고하시기 바랍니다. <span style="color: #ff0000;">프로젝트의 설명은 <strong><a href="https://github.com/iies/TriviaDriveForGradle/blob/master/app/src/main/java/com/example/android/trivialdrivesample/MainActivity.java" target="_blank"><span style="color: #ff0000;">MainActivity</span></a></strong>의 코드를 가지고 해보겠습니다.</span></p>
+<p>지금부터는 상품의 타입을 Google Developer Console에서 볼 수 있는 &#8220;관리되는 제품&#8221;, &#8220;관리되지 않는 제품&#8221;, &#8220;구독&#8221; 3가지로 명명하도록 하겠습니다. &#8220;관리되지 않는 제품&#8221;일지라도 소진 전까지는 관리가 된다는것을 유념해 주시기 바랍니다.</p>
+<p>IAB v3를 이용하도록 만들어진 TriviaDrive 샘플 프로젝트는 3가지 타입의 상품을 구매하는 모든 로직이 포함되어있는 프로젝트입니다. 부가적인 기능들이 모두 잘 구현되어있는 예제이므로 개발중인 프로젝트에서 결제를 구현하실때는 이 프로젝트의 <a href="https://github.com/iies/TriviaDriveForGradle/tree/master/app/src/main/aidl/com/android/vending/billing" target="_blank"><strong>aidl</strong></a> 파일뿐만 아니라 <a href="https://github.com/iies/TriviaDriveForGradle/tree/master/app/src/main/java/com/example/android/trivialdrivesample/util" target="_blank"><strong>util</strong></a> 디렉토리 이하의 모든 Java소스도 복사해서 사용하시기 바랍니다.</p>
+<p>이 프로젝트는 단순한 운전 게임을 모티브로 만들어진 예제이며 자동차는 가스로 움직이며 가스를 저장하는 저장 탱크가 있습니다. 플레이어가 가스를 구매할때마다 탱크의 가스가 1/4씩 충전이 됩니다. 플레이어가 운전을 시작하면 이 가스가 점차 감소됩니다. (물론 이건 게임이니깐 한번에 1/4씩 감소됩니다)</p>
+<p>플레이어는 &#8220;프리미엄 업그레이드&#8221;를 할 수 있습니다. 이 업그레이드를 하게 되면 유저는 기본적으로 부여되는 파란차가 아닌 빨간 차를 부여받게 됩니다.</p>
+<p>마지막으로 플레이어는 &#8220;무한 가스&#8221; 상품을 구독할 수 있습니다. 이 상품을 구독하게 되면 구독하는 동안은 가스를 사용하지 않고 달릴 수 있게 됩니다.</p>
+<p>각 상품의 소진 메커니즘에 대해 정리해보자면 다음과 같습니다.</p>
+<p><strong>프리미엄 업그레이드 :</strong> 이 상품은 소진을 하지 않습니다. 구매를 하는 시점부터 유저에게 귀속되며 이후 유저는 영원히 파란차 대신에 빨간차를 소유할 수 있게 됩니다.</p>
+<p><strong>무한 가스 :</strong> 이 상품은 &#8220;구독&#8221; 상품입니다. 마찬가지로 &#8220;구독&#8221; 상품은 소진되지 않습니다.</p>
+<p><strong>가스 :</strong> 가스를 구매하는 순간 상품은 유저에게 귀속됩니다. 그리고 이것을 소진함으로써 당신의 어플리케이션에 적용할 수 있습니다. 이 예제에서는 가스 탱크를 1/4 채우는 것을 의미합니다. 실제로는 구매 직후에 바로 가스탱크가 채워질것입니다. 이 시점에서 가스 상품은 소진되고 그로인한 영향이 당신의 게임에 영향을 끼치게 됩니다. 예를 들면 다음과 같은 시나리오로 동작합니다.</p>
+<table>
+<thead>
+<tr>
+<th>상태</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> 구매 전</td>
+<td> 가스 탱크에 가스가 1/2 차 있음</td>
+</tr>
+<tr>
+<td> 구매 진행중</td>
+<td> 가스 탱크에 가스가 1/2 차 있고 &#8220;가스&#8221; 상품을 보유함</td>
+</tr>
+<tr>
+<td> 구매 직후</td>
+<td> &#8220;가스&#8221; 상품을 소진함, 가스 탱크에 가스가 3/4가 됨</td>
+</tr>
+<tr>
+<td> 구매 완료 후</td>
+<td> 가스 탱크에 가스가 3/4 차 있고 &#8220;가스&#8221; 상품을 더이상 보유하고 있지 않음</td>
+</tr>
+</tbody>
+</table>
+<p>여기서 알아두어야 하는 다른 중요한 점은 유저가 &#8220;가스&#8221;상품을 구매하였지만 그것을 소진하기 전에 어플리케이션이 크래시 나거나 또는 다른 어떤 일이 발생할 경우입니다. 그래서 우리는 게임이 시작될 때 유저가 &#8220;가스&#8221;아이템을 보유하고 있는지를 확인할 것입니다. 만약 보유중이라면 그것을 바로 소진하고 게임상의 가스 탱크를 채울것입니다. 이것은 매우 중요한 부분입니다.</p>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/02/android_iab3_04.png"><img class="alignnone size-medium wp-image-2137" alt="android_iab3_04" src="http://theeye.pe.kr/wp-content/uploads/2014/02/android_iab3_04-600x200.png" width="600" height="200" /></a></p>
+<p>테스트를 위해 위와 같이 상품을 등록하였습니다. 실제로 소스상에서는 다음과 같이 상품의 ID를 미리 정의해 두었습니다.</p><pre class="crayon-plain-tag">// 판매되는 상품 : premium (Non-Consumable), gas (Consumable)
+static final String SKU_PREMIUM = "premium";
+static final String SKU_GAS = "gas";
+
+// 구독 상품 : infinite_gas
+static final String SKU_INFINITE_GAS = "infinite_gas";</pre><p>이번에는 상품의 구매 처리를 담당하는 IabHelper를 초기화 하는 부분을 보겠습니다.</p><pre class="crayon-plain-tag">String base64EncodedPublicKey = "MIIBIjANBg...IDAQAB";
+mHelper = new IabHelper(this, base64EncodedPublicKey);</pre><p>여기서 유심히 봐야 하는 부분은 base64EncodedPublicKey라는 변수입니다. 이 값은 앱마다 다른 공개키 이며 Google Developer Console에서 확인이 가능합니다.</p>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/02/android_iab3_05.png"><img class="alignnone size-medium wp-image-2138" alt="android_iab3_05" src="http://theeye.pe.kr/wp-content/uploads/2014/02/android_iab3_05-600x395.png" width="600" height="395" /></a></p>
+<p>위의 값을 넣어주시면 됩니다. 이 값을 이용하여 구매가 성공하였을 때 Google Play로 부터 넘겨받은 데이터가 변조되었는지 여부를 검증할 수 있습니다.</p>
+<p><span style="color: #ff0000;"><strong>보안팁 :</strong></span> 이 키는 공개키로써 이 키 자체가 어떤 비밀 정보를 담고 있지는 않습니다. 하지만 공격자가 이 키값을 손쉽게 위변조 하는것을 원치 않으므로 약간의 불폄함을 제공하는것도 방법입니다. 위의 코드를 게임내의 코드상에 직접 포함하는것보다는 조금 꼬아놓은 데이터를 포함시킨 뒤에 게임이 구동하는 시점에 조작을 통해 풀어서 사용하는것을 권장합니다. (가령 XOR 연산) 자체 서버가 있다면 XOR 연산에 사용할 키를 서버로부터 전송받는것도 방법일 것입니다. 어떤 방법을 사용해서 이부분은 완벽한 보안을 이루긴 어렵겠지만 공격자를 귀찮게 한다는 것에 의의가 있습니다.</p><pre class="crayon-plain-tag">mHelper.startSetup(new IabHelper.OnIabSetupFinishedListener() {
+    public void onIabSetupFinished(IabResult result) {
+        Log.d(TAG, "셋업 완료");
+
+        if (!result.isSuccess()) {
+            // 문제 발생
+            complain("Problem setting up in-app billing: " + result);
+            return;
+        }
+
+        // 이 시점에 mHelper가 소거되었다면 (엑티비티 종료등) 바로 종료합니다.
+        if (mHelper == null) return;
+
+        // IAB 셋업이 완료되었습니다.
+        Log.d(TAG, "Setup successful. Querying inventory.");
+        mHelper.queryInventoryAsync(mGotInventoryListener);
+    }
+});</pre><p>이제 mHelper를 초기화합니다. 이 메소드를 통해 IAB 서비스 커넥션을 생성하고 IAB 구현이 가능한지 여부를 확인합니다. 여기서 중요한 부분은 queryInventoryAsync() 메소드를 호출한다는 것입니다.</p><pre class="crayon-plain-tag">IabHelper.QueryInventoryFinishedListener mGotInventoryListener = new IabHelper.QueryInventoryFinishedListener() {
+    public void onQueryInventoryFinished(IabResult result, Inventory inventory) {
+        Log.d(TAG, "Query inventory finished.");
+
+        // mHelper가 소거되었다면 종료
+        if (mHelper == null) return;
+
+        // getPurchases()가 실패하였다면 종료
+        if (result.isFailure()) {
+            complain("Failed to query inventory: " + result);
+            return;
+        }
+
+        Log.d(TAG, "Query inventory was successful.");
+
+        /*
+         * 유저가 보유중인 각각의 아이템을 체크합니다. 여기서 developerPayload가 정상인지 여부를 확인합니다.
+         * 자세한 사항은 verifyDeveloperPayload()를 참고하세요.
+         */
+
+        // 프리미엄 업그레이드를 가지고 있는가?
+        Purchase premiumPurchase = inventory.getPurchase(SKU_PREMIUM);
+        mIsPremium = (premiumPurchase != null &amp;&amp; verifyDeveloperPayload(premiumPurchase));
+        Log.d(TAG, "User is " + (mIsPremium ? "PREMIUM" : "NOT PREMIUM"));
+
+        // 무한 가스를 구독중인가?
+        Purchase infiniteGasPurchase = inventory.getPurchase(SKU_INFINITE_GAS);
+        mSubscribedToInfiniteGas = (infiniteGasPurchase != null &amp;&amp;
+                verifyDeveloperPayload(infiniteGasPurchase));
+        Log.d(TAG, "User " + (mSubscribedToInfiniteGas ? "HAS" : "DOES NOT HAVE")
+                    + " infinite gas subscription.");
+        if (mSubscribedToInfiniteGas) mTank = TANK_MAX;
+
+        // 가스를 가지고 있는가? 만약 가스를 가지고 있다면 바로 가스 탱크를 채워줍니다.
+        Purchase gasPurchase = inventory.getPurchase(SKU_GAS);
+        if (gasPurchase != null &amp;&amp; verifyDeveloperPayload(gasPurchase)) {
+            Log.d(TAG, "We have gas. Consuming it.");
+            mHelper.consumeAsync(inventory.getPurchase(SKU_GAS), mConsumeFinishedListener);
+            return;
+        }
+
+        updateUi();
+        setWaitScreen(false);
+        Log.d(TAG, "Initial inventory query finished; enabling main UI.");
+    }
+};</pre><p>앱이 구동되지마자 IabHelper를 초기화 하고 가장먼저 호출한 코드입니다. 구매 내역을 가져와서 &#8220;프리미엄 업그레이드&#8221; 여부를 세팅하고 &#8220;무한 가스&#8221; 플랜을 구독중인지 여부를 게임내에 세팅하였습니다. 마지막으로 아직 소진되지 않은 &#8220;가스&#8221;가 존재하는지를 확인하여 소진시켜주는 과정입니다.</p>
+<p>제작중인 게임 역시 유저의 결제는 정상적으로 이루어졌지만 어떤 오류로 인해 실제 지급까지 이루어지지 않은 경우에 위와 같은 과정을 통해 앱이 재실행되는 시점에 즉시 지급할 수 있습니다. 여기서 verifyDeveloperPayload 메소드가 매우 중요한데 뒤에서 다시 설명해보겠습니다.</p><pre class="crayon-plain-tag">// 가스 구매
+String payload = "";
+mHelper.launchPurchaseFlow(this, SKU_GAS, RC_REQUEST,
+        mPurchaseFinishedListener, payload);
+
+// 프리미엄 업그레이드 구매
+String payload = "";
+mHelper.launchPurchaseFlow(this, SKU_PREMIUM, RC_REQUEST,
+        mPurchaseFinishedListener, payload);
+
+// 무한 가스 구독
+String payload = "";
+mHelper.launchPurchaseFlow(this,
+        SKU_INFINITE_GAS, IabHelper.ITEM_TYPE_SUBS,
+        RC_REQUEST, mPurchaseFinishedListener, payload);</pre><p>각 상품들의 구매 호출시에 실행되는 코드입니다. 각 호출마다 마지막에 payload를 붙이는것을 확인 하실 수 있습니다.</p>
+<p><span style="color: #ff0000;"><strong>보안팁 :</strong></span> 구매시에 사용되는 이 payload라는 값은 개발자가 지정해주는 임의의 문자열입니다. 여기에 넘겨주는 값이 결제 결과에 다시 그대로 담겨오게 됩니다. 즉 이 값이 구매 직전과 직후에 변동이 있다면 구매 요청에 변조가 있었다고 판단하시면 됩니다. &#8220;관리되지 않는 제품&#8221;의 경우에도 소진을 하기전까지는 관리가 되므로 소진을 하기전에 변조가 되었는지 여부를 확인하시는 로직을 추가하는것이 중요합니다. 이 예제에서는 verifyDeveloperPayload() 메소드가 그 역할을 하고 있습니다. 소진을 하기전에 게임이 크래시가 날수 있으므로 SharedPreferences등을 활용하여 Persistent하게 저장해두고 진행하는것을 추천합니다. 또는 서버에 developerPayload값을 전달하여 저장하게 하거나 혹은 아예 developerPayload값을 서버로부터 발급받는것도 방법입니다. 이후에 소진하는 시점에 SharedPreferences를 통해 저장한 값을 꺼내쓰거나 서버에 다시 질의하여 사용자가 최종 구매하였던 구매가 완료되지 못한 상품의 developerPayload를 받아오는 식으로 구현하면 될것입니다.</p>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/02/android_iab3_06.jpg"><img class="alignnone size-full wp-image-2141" alt="android_iab3_06" src="http://theeye.pe.kr/wp-content/uploads/2014/02/android_iab3_06.jpg" width="581" height="391" /></a></p>
+<p>즉 위와같은 플로우가 될것입니다. 상품의 지급과 소진은 동시에 한시점에 이루어져야 하겠지만 굳이 순서를 정하자면 상품의 소진 이후에 상품을 지급하시기 바랍니다. 만약에 최악의 경우 소진이 이루어지는 직후에 게임이 크래시 난다면 이 부분은 CS에서 처리를 해야 할것입니다.</p>
+<p>하지만 수많은 게임이 상품의 지급 정보를 서버에서 수행하므로 (보유 화폐의 증가 등) 원격 서버에서 developerPayload값을 검증을 위해 꺼내간 뒤에 지급이 이루어지지 않은 상태(로그 확인등)에서 유저의 CS가 들어온다면 해당분만큼을 추가 지급처리(보상) 해주면 될것입니다.</p><pre class="crayon-plain-tag">boolean verifyDeveloperPayload(Purchase p) {
+    String payload = p.getDeveloperPayload();
+
+     /*
+      * TODO: 위의 그림에서 설명하였듯이 로컬 저장소 또는 원격지로부터 미리 저장해둔 developerPayload값을 꺼내 변조되지 않았는지 여부를 확인합니다.
+      *
+      * 이 payload의 값은 구매가 시작될 때 랜덤한 문자열을 생성하는것은 충분히 좋은 접근입니다.
+      * 하지만 두개의 디바이스를 가진 유저가 하나의 디바이스에서 결제를 하고 다른 디바이스에서 검증을 하는 경우가 발생할 수 있습니다.
+      * 이 경우 검증을 실패하게 될것입니다. 그러므로 개발시에 다음의 상황을 고려하여야 합니다.
+      *
+      * 1. 두명의 유저가 같은 아이템을 구매할 때, payload는 같은 아이템일지라도 달라야 합니다.
+      *    두명의 유저간 구매가 이어져서는 안됩니다.
+      *
+      * 2. payload는 앱을 두대를 사용하는 유저의 경우에도 정상적으로 동작할 수 있어야 합니다.
+      *    이 payload값을 저장하고 검증할 수 있는 자체적인 서버를 구축하는것을 권장합니다.
+      */
+
+    return true;
+}</pre><p>이 이야기를 결론을 내보자면 궁극적으로 developerPayload의 발급과 검증을 모두 개발사가 보유한 서버에서 진행하는것을 추천합니다. 계속해서 코드 설명을 진행하겠습니다.</p><pre class="crayon-plain-tag">@Override
+protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    Log.d(TAG, "onActivityResult(" + requestCode + "," + resultCode + "," + data);
+    if (mHelper == null) return;
+
+    // 결과를 mHelper를 통해 처리합니다.
+    if (!mHelper.handleActivityResult(requestCode, resultCode, data)) {
+        // 처리할 결과물이 아닐경우 이곳으로 빠져 기본처리를 하도록 합니다.
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+    else {
+        Log.d(TAG, "onActivityResult handled by IABUtil.");
+    }
+}</pre><p>구글 체크아웃을 통해 결제가 성공하면 바로 onActivityResult로 진입하게 됩니다. 헬퍼의 handleActivityResult를 수행하여 구매 요청시에 파라미터로 사용했었던 구매 완료 콜백이 호출됩니다.</p><pre class="crayon-plain-tag">IabHelper.OnIabPurchaseFinishedListener mPurchaseFinishedListener = new IabHelper.OnIabPurchaseFinishedListener() {
+    public void onIabPurchaseFinished(IabResult result, Purchase purchase) {
+        Log.d(TAG, "Purchase finished: " + result + ", purchase: " + purchase);
+
+        // mHelper 객체가 소거되었다면 종료
+        if (mHelper == null) return;
+
+        if (result.isFailure()) {
+            complain("Error purchasing: " + result);
+            setWaitScreen(false);
+            return;
+        }
+
+        // 구매 요청이 변조되었는지 여부를 확인
+        if (!verifyDeveloperPayload(purchase)) {
+            complain("Error purchasing. Authenticity verification failed.");
+            setWaitScreen(false);
+            return;
+        }
+
+        Log.d(TAG, "Purchase successful.");
+
+        if (purchase.getSku().equals(SKU_GAS)) {
+            // 가스탱크의 1/4을 채워주는 "가스" 상품을 구매하였다면 소진 진행
+            Log.d(TAG, "Purchase is gas. Starting gas consumption.");
+            mHelper.consumeAsync(purchase, mConsumeFinishedListener);
+        }
+        else if (purchase.getSku().equals(SKU_PREMIUM)) {
+            // "프리미엄 업그레이드"를 구매하였다면 바로 적용
+            Log.d(TAG, "Purchase is premium upgrade. Congratulating user.");
+            alert("Thank you for upgrading to premium!");
+            mIsPremium = true;
+            updateUi();
+            setWaitScreen(false);
+        }
+        else if (purchase.getSku().equals(SKU_INFINITE_GAS)) {
+            // "무한 가스"를 구독하였다면 바로 적용
+            Log.d(TAG, "Infinite gas subscription purchased.");
+            alert("Thank you for subscribing to infinite gas!");
+            mSubscribedToInfiniteGas = true;
+            mTank = TANK_MAX;
+            updateUi();
+            setWaitScreen(false);
+        }
+    }
+};</pre><p>구매가 성공한 직후의 콜백의 처리입니다. developerPayload 검증을 진행한 후 &#8220;관리되지 않는 제품&#8221;을 제외한 나머지는 곧바로 적용을 합니다. 하지만 &#8220;관리되지 않는 제품&#8221;의 경우 consumeAsync()를 호출하여 소진을 진행합니다.</p><pre class="crayon-plain-tag">IabHelper.OnConsumeFinishedListener mConsumeFinishedListener = new IabHelper.OnConsumeFinishedListener() {
+    public void onConsumeFinished(Purchase purchase, IabResult result) {
+        Log.d(TAG, "Consumption finished. Purchase: " + purchase + ", result: " + result);
+
+        // mHelper가 소거되었다면 종료
+        if (mHelper == null) return;
+
+        // 이 샘플에서는 "관리되지 않는 제품"은 "가스" 한가지뿐이므로 상품에 대한 체크를 하지 않습니다.
+        // 하지만 다수의 제품이 있을 경우 상품 아이디를 비교하여 처리할 필요가 있습니다.
+        if (result.isSuccess()) {
+            // 성공적으로 소진되었다면 상품의 효과를 게임상에 적용합니다. 여기서는 가스를 충전합니다.
+            Log.d(TAG, "Consumption successful. Provisioning.");
+            mTank = mTank == TANK_MAX ? TANK_MAX : mTank + 1;
+            saveData();
+            alert("You filled 1/4 tank. Your tank is now " + String.valueOf(mTank) + "/4 full!");
+        }
+        else {
+            complain("Error while consuming: " + result);
+        }
+        updateUi();
+        setWaitScreen(false);
+        Log.d(TAG, "End consumption flow.");
+    }
+};</pre><p>이 코드는 게임이 최초 실행될 때 실행되었던 queryInventoryAsync() 내에서도 소진할 상품이 있다면 호출되는 코드입니다. 결과를 확인하여 정상적으로 소진이 되었다면 해당 상품의 결과를 적용하면 됩니다.</p>
+<p><span style="color: #ff0000;"><strong>보안팁 :</strong></span> 이 예제는 게임 클라이언트상에서 상품의 효과를 곧바로 적용하는것을 볼 수 있습니다. 하지만 이러한 상품의 지급은 서버에서 처리하는 것을 권장합니다. developerPayload를 검증하는 시점에 구매한 상품의 정보를 서버에 저장한 뒤에 소진이 성공하면 그 저장된 상품의 정보에 따라 해당 유저의 데이터베이스에 지급을 합니다. 지급이 성공적으로 이루어지면 클라이언트는 다시 서버로부터 최신 데이터를 가져와 화면의 정보를 갱신하도록 구현하면 됩니다.</p>
+<p><strong><span style="color: #ff0000;">중요 보안팁 :</span></strong> Google 에서는 상품의 구매 내역을 조회할 수 있는 <strong><a href="https://developers.google.com/android-publisher/v1_1/" target="_blank">서버에서 호출 가능한 API</a></strong>를 제공합니다. 패키지명, 상품 아이디, 구매시에 결과로 받았던 구매 토큰을 이용하여 유효한 구매인지를 Google측 서버에 직접 검증할 수 있습니다. 이 API를 사용하여 아이템 지급 전에 실제 유효한 구매였는지를 확인하는것만으로도 해킹의 대부분을 차단할 수 있습니다.</p>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/02/android_iab3_07.png"><img class="alignnone size-medium wp-image-2142" alt="android_iab3_07" src="http://theeye.pe.kr/wp-content/uploads/2014/02/android_iab3_07-600x564.png" width="600" height="564" /></a></p>
+<p>결과적으로 위와 같은 플로우가 됩니다. 여기서 중요한 핵심은 Google이 제공하는 앱내결제 체크 API를 사용하라는것과 아이템의 실제 지급을 서버에서 처리하라는것입니다. developerPayload의 경우 서버에서 3단계로 확인하는데요, 최초에는 발급하여 서버에 저장만을 하고 두번째에는 정상적으로 검증되었는지 여부를 저장합니다. 마지막 상품 지급 요청에 대하여 developerPayload가 존재하고 검증까지 마친상태인지를 확인하여 맞을 경우 다음 플로우로의 진행을 하게 됩니다. 만약에 developerPayload가 발급된적이 없거나 검증결과가 기록되지 않았다면 불법적인 지급 요청이겠죠.</p>
+<p>또한 이러한 과정을 일일이 기록해 두면 유저 CS가 발생시에 보상을 해야 하는지 여부에 대해 판단하는데에 도움이 됩니다. 위의 방법을 기초로 하여 회사의 상황에 맞는 좀 더 복잡한 보안 요소나 대응 방법, 정책등을 결정하여 개발하시면 될것 같습니다.</p>
+<p>참고 :</p>
+<ul>
+<li><a href="http://developer.android.com/google/play/billing/api.html" target="_blank">http://developer.android.com/google/play/billing/api.html</a></li>
+<li><a href="http://developer.android.com/google/play/billing/billing_integrate.html" target="_blank">http://developer.android.com/google/play/billing/billing_integrate.html</a></li>
+<li><a href="http://developer.android.com/google/play/billing/gp-purchase-status-api.html" target="_blank">http://developer.android.com/google/play/billing/gp-purchase-status-api.html</a></li>
+<li><a href="https://developers.google.com/android-publisher/v1_1/" target="_blank">https://developers.google.com/android-publisher/v1_1/</a></li>
+<li><a href="https://support.google.com/googleplay/answer/2476088?hl=ko" target="_blank">https://support.google.com/googleplay/answer/2476088?hl=ko</a></li>
+<li><a href="https://support.google.com/googleplay/answer/113515?hl=ko&amp;ref_topic=3365269" target="_blank">https://support.google.com/googleplay/answer/113515?hl=ko&amp;ref_topic=3365269</a> (구매취소)</li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://theeye.pe.kr/archives/2130/feed</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+		</item>
+		<item>
+		<title>Android In-App Billing 구현하기 (IAB Version 3)</title>
+		<link>http://theeye.pe.kr/archives/2118</link>
+		<comments>http://theeye.pe.kr/archives/2118#comments</comments>
+		<pubDate>Sun, 23 Feb 2014 12:19:01 +0000</pubDate>
+		<dc:creator><![CDATA[아이]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Billing]]></category>
+		<category><![CDATA[IAB]]></category>
+		<category><![CDATA[In-App]]></category>
+		<category><![CDATA[java]]></category>
+
+		<guid isPermaLink="false">http://theeye.pe.kr/?p=2118</guid>
+		<description><![CDATA[Google Play의 In-App Billing(IAB)은 앱내구매 요청을 하거나 관리하는데에 직관적이고 간단한 인터페이스를 제공합니다. 이번 글에서는 당신의 어플리케이션에서 In-App Billing 버전 3를 이용하여 어떻게 요청을 만드는지 기초적인 내용을 정리합니다. 이 내용은 기본적으로 In-App Billing의 프로세스에 대해 어느정도 이해하고 있는 상태라고 가정하고 작성되었습니다. 어플리케이션에서 IAB를 구현하기 위해서는 다음과 같은 구현 작업이 필요합니다. In-App Billing 라이브러리를 당신의 프로젝트에 추가합니다. [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p style="text-align: center;"><a href="http://theeye.pe.kr/wp-content/uploads/2014/02/android_logo.jpg"><img class="wp-image-2119 aligncenter" alt="android_logo" src="http://theeye.pe.kr/wp-content/uploads/2014/02/android_logo-600x450.jpg" width="288" height="216" /></a></p>
+<p style="text-align: left;">Google Play의 In-App Billing(IAB)은 앱내구매 요청을 하거나 관리하는데에 직관적이고 간단한 인터페이스를 제공합니다. 이번 글에서는 당신의 어플리케이션에서 In-App Billing 버전 3를 이용하여 어떻게 요청을 만드는지 기초적인 내용을 정리합니다. 이 내용은 기본적으로 In-App Billing의 프로세스에 대해 어느정도 이해하고 있는 상태라고 가정하고 작성되었습니다.</p>
+<p style="text-align: left;">어플리케이션에서 IAB를 구현하기 위해서는 다음과 같은 구현 작업이 필요합니다.</p>
+<ol>
+<li>In-App Billing 라이브러리를 당신의 프로젝트에 추가합니다.</li>
+<li><strong>AndroidManifest.xml</strong> 파일을 업데이트합니다.</li>
+<li><strong>ServiceConnection</strong>을 생성하고 <strong>IInAppBillingService</strong>에 바인딩합니다.</li>
+<li>당신의 어플리케이션에서 <strong>IInAppBillingService</strong>로 In-App Billing 요청을 날립니다.</li>
+<li>Google Play로부터 도작한 In-App Billing 응답을 처리합니다.</li>
+</ol>
+<h1>AIDL 파일을 프로젝트에 추가하기</h1>
+<p><a title="다운로드" href="http://theeye.pe.kr/wp-content/uploads/2014/02/IInAppBillingService.aidl_.zip">IInAppBillingService.aidl</a> 파일은 In-App Billing 버전 3 서비스로의 요청이 정의되어있는 Android Interface Definition Language(AIDL)입니다. 당신은 이 인터페이스를 사용하여 IPC(Inter-Process Communication) 메소드 호출을 함으로써 구매 요청을 할 수 있습니다. 프로젝트에 이 AIDL파일을 추가하기 위해서는 다음을 수행해 주시면 됩니다.</p>
+<ol>
+<li><a title="다운로드" href="http://theeye.pe.kr/wp-content/uploads/2014/02/IInAppBillingService.aidl_.zip">IInAppBillingService.aidl</a> 파일을 당신의 안드로이드 프로젝트로 복사합니다.
+<ul>
+<li>프로젝트의 src/com/android/vending/billing 위치안에 복사합니다.</li>
+</ul>
+</li>
+<li><span style="line-height: 1.714285714; font-size: 1rem;">정상적으로 프로젝트에 추가되었다면 빌드 시(Ant, Gradle) /gen 디렉토리 안에 <strong>IInAppBillingService.java</strong> 파일이 생성됩니다.</span></li>
+</ol>
+<h1>AndroidManifest 파일을 수정하기</h1>
+<p>In-App Billing 요청은 당신의 어플리케이션과 Google Play 서버간의 모든 통신을 처리하는 Google Play 어플리케이션을 필요로합니다. 이 Google Play 어플리케이션을 이용하기 위해서는 당신의 어플리케이션에 적절한 퍼미션이 추가되어있어야 합니다. com.android.vending.BILLING 퍼미션을 AndroidManifest.xml에 추가함으로써 구매 요청이 가능하게 됩니다. 당신의 어플리케이션이 이 퍼미션을 설정하지 않았다면 모든 구매 요청은 Google Play로부터 거부될것이며 에러를 발생하게 됩니다. In-App Billing 요청을 위한 AndroidManifest.xml에 추가해야 하는 설정은 다음과 같습니다.</p><pre class="crayon-plain-tag">&lt;uses-permission android:name="com.android.vending.BILLING" /&gt;</pre><p></p>
+<h1>ServiceConnection 생성하기</h1>
+<p>Google Play와의 통신을 위해 당신의 어플리케이션은 반드시 ServiceConnection을 가지고 있어야 합니다. 최소한의 구현을 위해 다음과 같은 구현을 추가할 필요가 있습니다.</p>
+<ul>
+<li>IInAppBillingService에 바인딩하기</li>
+<li>Google Play 어플리케이션으로의 IPC 메소드 호출을 통한 구매 요청을 날리기</li>
+<li>각각의 구매 요청에 대한 동기(Synchronous) 응답 메시지를 처리하기</li>
+</ul>
+<h3>IInAppBillingService에 바인딩하기</h3>
+<p>Google Play의 In-App Billing 서비스와의 커넥션을 맺기 위해 ServiceConnection을 구현하여 당신의 Activity를 IInAppBillingService에 바인딩 해주어야 합니다. onServiceDisconnected와 onServiceConnected 메소드를 오버라이딩 하여 커넥션이 연결된 후 IInAppBillingService 인스턴스를 가져올 수 있습니다.</p><pre class="crayon-plain-tag">IInAppBillingService mService;
+
+ServiceConnection mServiceConn = new ServiceConnection() {
+   @Override
+   public void onServiceDisconnected(ComponentName name) {
+       mService = null;
+   }
+
+   @Override
+   public void onServiceConnected(ComponentName name, 
+      IBinder service) {
+       mService = IInAppBillingService.Stub.asInterface(service);
+   }
+};</pre><p>당신의 Activity의 onCreate 메소드안에서 위에서 구현한 ServiceConnection 인스턴스를 가진 Intent를 파라미터로 하여 bindService 메소드를 호출합니다.</p><pre class="crayon-plain-tag">@Override
+public void onCreate(Bundle savedInstanceState) {    
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);        
+    bindService(new 
+        Intent("com.android.vending.billing.InAppBillingService.BIND"),
+                mServiceConn, Context.BIND_AUTO_CREATE);</pre><p>정상적으로 Google Play 서비스와 연결이 이루어졌다면 mService를 통해 통신할 수있게 됩니다.</p>
+<p>구매를 진행하는 Activity가 종료된다면 In-App Billing 서비스를 종료(Unbind)해주어야 합니다. 만약 바인딩을 종료해 주지 않을 경우 서비스 커넥션은 계속해서 유지되고 디바이스의 퍼포먼스에 영향을 끼칠 수 있습니다. 다음의 예시는 onDestroy 메소드를 오버라이딩하여 mServiceConn을 명시적으로 Unbind 해주는것을 보여주고 있습니다.</p><pre class="crayon-plain-tag">@Override
+public void onDestroy() {
+    super.onDestroy();
+    if (mService != null) {
+        unbindService(mServiceConn);
+    }   
+}</pre><p></p>
+<h1>In-App Billing 요청 생성하기</h1>
+<p>어플리케이션이 Google Play와 한번 연결되면 당신은 앱내 판매되는 상품의 구매 요청을 할 수 있게 됩니다. Google Play는 체크아웃 인터페이스를 유저에게 제공하여 적절한 구매 방법을 제공하게 됩니다. 그러므로 당신의 어플리케이션에서 직접적으로 구매를 처리할 필요는 없습니다. 아이템이 정상적으로 구매가 되면 Goole Play는 아이템에 대한 소유권을 획득했는지 확인하며 그 아이템이 소진(Consume)되기전까지 같은 아이템이 중복 구매되는것을 방지해줍니다. 당신은 당신의 어플리케이션에서 구매한 상품의 소진을 어떻게 할것인지를 컨트롤할 수 있습니다. 또한 Google Play에 요청하여 유저에 의해 생성된 구매 리스트를 빠르게 받아올 수 있습니다. 이것은 매우 유용한데 예를 들어 당신의 어플리케이션이 실행되는 시점에 유저의 이전에 실패한 구매 요청을 복원하여 처리할 수 있습니다.</p>
+<h3>구매 가능한 아이템 목록 가져오기</h3>
+<p>In-App Billing 버전 3 API를 사용하여 Google Play로 부터 상품의 상세 정보를 가져올 수 있습니다. In-App Billing 서비스에 요청을 하기 위해서는 우선 상품의 아이디 목록을 가지고 있는 Bundle을 생성하여야 합니다.</p><pre class="crayon-plain-tag">ArrayList&lt;String&gt; skuList = new ArrayList&lt;String&gt; ();
+skuList.add("premiumUpgrade");
+skuList.add("gas");
+Bundle querySkus = new Bundle();
+querySkus.putStringArrayList(“ITEM_ID_LIST”, skuList);</pre><p>Google Play로 부터 정보를 받아오기 위해서는 getSkuDetails 메소드를 호출하면 됩니다. 여기에 사용되는 파라미터는 IAB API 버전을 의미하는 3과 당신의 어플리케이션의 패키지명, 그리고 위에서 생성한 Bundle을 사용합니다. getSkuDetails 메소드를 호출할 때에는 메인 쓰레드에서 실행하면 안된다는것을 유의해주시기 바랍니다.</p><pre class="crayon-plain-tag">Bundle skuDetails = mService.getSkuDetails(3, 
+   getPackageName(), "inapp", querySkus);</pre><p>요청이 성공한다면 BILLING_RESPONSE_RESULT_OK (0) 응답 코드를 가지고 있는 Bundle이 반환됩니다. 모든 응답 코드를 확인하시려면 이 [<a href="http://developer.android.com/intl/ko/google/play/billing/billing_reference.html#billing-codes" target="_blank">링크</a>]를 참조하시기 바랍니다.</p>
+<p>요청의 결과는 String ArrayList가 DETAILS_LIST라는 키로 담겨져 오게 됩니다. 각각의 정보는 JSON 포맷으로 이루어져 입니다. 상품 상세정보의 각각의 타입에 대한 정의를 보실려면 [<a href="http://developer.android.com/intl/ko/google/play/billing/billing_reference.html#getSkuDetails" target="_blank">이곳</a>]을 참고하시기 바랍니다. 다음의 예제는 위의 코드를 통해 받은 응답 Bundle로부터 가격을 꺼내보는 예시입니다.</p><pre class="crayon-plain-tag">int response = skuDetails.getInt("RESPONSE_CODE");
+if (response == 0) {
+   ArrayList&lt;String&gt; responseList
+      = skuDetails.getStringArrayList("DETAILS_LIST");
+
+   for (String thisResponse : responseList) {
+      JSONObject object = new JSONObject(thisResponse);
+      String sku = object.getString("productId");
+      String price = object.getString("price");
+      if (sku.equals("premiumUpgrade")) mPremiumUpgradePrice = price;
+      else if (sku.equals("gas")) mGasPrice = price;
+   }
+}</pre><p></p>
+<h3>구매 요청하기</h3>
+<p>당신의 어플리케이션에서 구매를 시작하기 위해서는 In-App Billing 서비스의 getBuyIntent 메소드를 호출해주면 됩니다. In-App Billing API 버전을 의미하는 3과 패키지명이 마찬가지로 사용되며 구매하려는 상품의 아이디와 구매의 타입(inapp 또는 subs)과 마지막으로 developerPayload 문자열이 포함됩니다. 이 추가적인 developerPayload 파라미터는 Google Play가 구매 정보에 함께 포함하여 그대로 되돌려주게 됩니다.</p><pre class="crayon-plain-tag">Bundle buyIntentBundle = mService.getBuyIntent(3, getPackageName(),
+   sku, "inapp", "bGoa+V7g/yqDXvKRqq+JTFn4uQZbPiQJo4pf9RzJ");</pre><p>요청이 성공한다면 BILLING_RESPONSE_RESULT_OK (0) 응답 코드를 가지고 있는 Bundle이 반환됩니다. 이 Bundle에는 BUY_INTENT라는 이름으로 구매 플로우를 시작하는데 사용되는 PendingIntent가 들어있습니다.</p><pre class="crayon-plain-tag">PendingIntent pendingIntent = buyIntentBundle.getParcelable("BUY_INTENT");</pre><p>이 구매 트랜젝션을 완료하기 위해서는 위에서 얻은 PendingIntent를 이용하여  startIntentSenderForResult 메소드를 호출하여야 합니다. 다음의 예제에서 Request Code로 1001을 사용하였습니다.</p><pre class="crayon-plain-tag">startIntentSenderForResult(pendingIntent.getIntentSender(),
+   1001, new Intent(), Integer.valueOf(0), Integer.valueOf(0),
+   Integer.valueOf(0));</pre><p>Google Play는 당신의 어플리케이션의 onActivityResult 메소드로 PendingIntent 형태의 응답을 보내주게 됩니다. onActivityResult 메소드는 Activity.RESULT_OK (1) 또는 Activity.RESULT_CANCELED (0) 를 Result Code로 받게 됩니다. 여기서 Intent 형태의 응답을 받게 됩니다. 여기에 담겨있는 정보들의 타입을 확인하려면 [<a href="http://developer.android.com/intl/ko/google/play/billing/billing_reference.html#getBuyIntent" target="_blank">이곳</a>]을 참고하시기 바랍니다.</p>
+<p>구매 데이터는 응답 Intent안에 INAPP_PURCHASE_DATA라는 이름의 키로 JSON 포맷 형태의 문자열로 저장되어있습니다.</p><pre class="crayon-plain-tag">'{ 
+   "orderId":"12999763169054705758.1371079406387615", 
+   "packageName":"com.example.app",
+   "productId":"exampleSku",
+   "purchaseTime":1345678900000,
+   "purchaseState":0,
+   "developerPayload":"bGoa+V7g/yqDXvKRqq+JTFn4uQZbPiQJo4pf9RzJ",
+   "purchaseToken":"rojeslcdyyiapnqcynkjyyjh"
+ }'</pre><p>위의 내용을 종합하여 보면 다음과 같은 코드가 됩니다. RESPONSE_CODE, INAPP_PURCHASE_DATA, INAPP_DATA_SIGNATURE값을 받아오는것을 확인할 수 있습니다.</p><pre class="crayon-plain-tag">@Override
+protected void onActivityResult(int requestCode, int resultCode, Intent data) { 
+   if (requestCode == 1001) {           
+      int responseCode = data.getIntExtra("RESPONSE_CODE", 0);
+      String purchaseData = data.getStringExtra("INAPP_PURCHASE_DATA");
+      String dataSignature = data.getStringExtra("INAPP_DATA_SIGNATURE");
+
+      if (resultCode == RESULT_OK) {
+         try {
+            JSONObject jo = new JSONObject(purchaseData);
+            String sku = jo.getString("productId");
+            alert("You have bought the " + sku + ". Excellent choice, 
+               adventurer!");
+          }
+          catch (JSONException e) {
+             alert("Failed to parse purchase data.");
+             e.printStackTrace();
+          }
+      }
+   }
+}</pre><p><span style="color: #ff0000;"><strong>보안을 위한 조언 : </strong></span>구매 요청을 보낼 때 구매 요청을 식별할 수 있는 유니크한 문자열 토큰을 생성하여 developerPayload에 담아 보내시기 바랍니다. 랜덤하게 생성된 토큰 형태의 이 문자열을 사용하면 Google Play로부터의 응답을 받을 때 orderId와 developerPayload문자열 값을 통해 응답 데이터가 진짜인지 확인할 수 있습니다. 추가적인 보안을 위해 구매 확인을 위한 자체적인 보안 서버를 구축하기를 권장합니다. 이 서버를 통해 유니크한 값인 orderId가 이전에 이미 처리된적이 없는지 확인할 수 있고 developerPayload 문자열은 이전에 요청에 내가 담아 보낸 값과 동일한지를 확인할 수 있습니다.</p>
+<h3>구매한 아이템 정보를 가져오기</h3>
+<p>IAB 버전 3 서비스의 getPurchases 메소드를 호출함으로써 어플리케이션으로부터 사용자가 생성한 구매 정보를 가져올 수 있습니다. IAB 버전을 의미하는 3과 패키지명과 구매타입(inapp 또는 subs)을 파라미터로 사용합니다.</p><pre class="crayon-plain-tag">Bundle ownedItems = mService.getPurchases(3, getPackageName(), "inapp", null);</pre><p>Google Play 서비스는 현재의 디바이스에 로그인되어있는 유저의 어카운트가 생성한 구매의 정보만을 반환합니다. 요청이 성공한다면 응답 코드가 0인 Bundle을 반환합니다. 이 Bundle은 상품의 아이디들과 각각의 구매에 대한 상세 정보를 담은 리스트를 가지고 있습니다.</p>
+<p>퍼포먼스 향상을 위해 In-App Billding 서비스는 getPurchases가 처음 호출될 때 유저가 보유하고 있는 상품의 정보를 최대 700개 까지만 반환합니다. 만약 유저가 굉장히 많은 수의 상품을 구매하였다면 Google Play는 아직 더 많은 구매한 상품이 남아있다는 의미를 가진 INAPP_CONTINUATION_TOKEN 키를 함께 보내주게 됩니다. 이 값이 존재할 경우 이 값을 포함하여 getPurchases를 한번 더 요청하여 남은 구매 상품의 정보를 가져오면 됩니다. getPurchases 메소드의 4번째 인자에 INAPP_CONTINUATION_TOKEN 값을 담아서 요청하면 됩니다.</p><pre class="crayon-plain-tag">int response = ownedItems.getInt("RESPONSE_CODE");
+if (response == 0) {
+   ArrayList&lt;String&gt; ownedSkus =
+      ownedItems.getStringArrayList("INAPP_PURCHASE_ITEM_LIST");
+   ArrayList&lt;String&gt;  purchaseDataList =
+      ownedItems.getStringArrayList("INAPP_PURCHASE_DATA_LIST");
+   ArrayList&lt;String&gt;  signatureList =
+      ownedItems.getStringArrayList("INAPP_DATA_SIGNATURE");
+   String continuationToken = 
+      ownedItems.getString("INAPP_CONTINUATION_TOKEN");
+
+   for (int i = 0; i &lt; purchaseDataList.size(); ++i) {
+      String purchaseData = purchaseDataList.get(i);
+      String signature = signatureList.get(i);
+      String sku = ownedSkus.get(i);
+
+      // 구매한 상품의 정보를 이용하여 무언가를 처리하면 됩니다.
+      // e.g. 유저가 보유한 상품의 리스트를 업데이트
+   } 
+
+   // 만약 continuationToken != null 이라면 getPurchases를 한번더 호출합니다.
+   // INAPP_CONTINUATION_TOKEN 토큰값을 사용하여 이후의 데이터를 받아올 수 있습니다.
+}</pre><p></p>
+<h3>구매를 소진 (Consuming)</h3>
+<p>당신은 In-App Billing 버전 3 API를 사용하여 Google Play의 구매한 앱내 상품에 대해 소유권을 가지고 있는지를 추적할 수 있습니다. 한번 앱내 상품이 구매되면 그것이 소유되었다(owned)고 간주되며 똑같은 상품을 또 구매할 수 없게 됩니다. 반드시 앱내 구매한 상품에 대해 소진 요청을 Google Play에 보내야 하며 Google Play는 해당 상품을 다시 구매 가능한 상태로 전환합니다.</p>
+<p><span style="color: #ff0000;"><strong>중요 :</strong></span> 관리되는 제품은 소진이 가능하며 구독 상품은 불가능합니다.</p>
+<p>상품의 소진을 기록하기 위해 In-App Billing 서비스에 purchaseToken 문자열을 담아 consumePurchase 메소드를  호출해야 합니다. 이 purchaseToken은 구매 요청이 성공했을 때 받았던 응답의 INAPP_PURCHASE_DATA 안에 담겨있습니다. 예를 들어 소진할 상품의 식별자로 pruchaseToken값을 token이라는 변수에 담아 호출해 보았습니다.</p><pre class="crayon-plain-tag">int response = mService.consumePurchase(3, getPackageName(), token);</pre><p><span style="color: #ff0000;"><strong>주의 :</strong></span> consumePurchase 메소드를 메인 쓰레드에서 호출하지 않도록 주의해 주시기 바랍니다.</p>
+<p>응답인 response가 0일 경우 정상적으로 소진 처리가 되었다고 판단하시면 됩니다. 이제 구매한 상품에 대해 유저에게 무엇을 제공할 것인지에 대한 처리는 당신의 몫입니다. 예를 들어 유저가 게임 화폐를 구매하였다면 유저의 인벤토리안의 보유 금액을 업데이트 하여야 할것입니다.</p>
+<p><span style="color: #ff0000;"><strong>보안을 위한 조언 :</strong></span> 유저에 구매한 상품의 정보를 업데이트 하기 이전에 반드시 소진 요청을 먼저 하시기 바랍니다. 즉, 소진 요청이 정상적으로 성공한 뒤에 유저에게 상품 지급 처리를 하시는것을 권장합니다.</p>
+<h3>구독 상품의 구현</h3>
+<p>구독의 구현은 상품의 타입을 subs로 해야한다는것을 제외하면 상품의 구매 플로우와 매우 비슷합니다. 구매 결과는 마찬가지로 Activity의 onActivityResult 메소드에서 받으며 앱내 상품 구매의 경우와 동일하게 처리됩니다.</p><pre class="crayon-plain-tag">Bundle bundle = mService.getBuyIntent(3, "com.example.myapp",
+   MY_SKU, "subs", developerPayload);
+
+PendingIntent pendingIntent = bundle.getParcelable(RESPONSE_BUY_INTENT);
+if (bundle.getInt(RESPONSE_CODE) == BILLING_RESPONSE_RESULT_OK) {
+   // Google Play UI를 띄워 구매 플로우를 시작합니다.
+   // 결과는 onActivityResult() 를 통해 반환됩니다.
+   startIntentSenderForResult(pendingIntent, RC_BUY, new Intent(),
+       Integer.valueOf(0), Integer.valueOf(0), Integer.valueOf(0));
+}</pre><p>구매된 구독을 활성화(Active)하기 위해서는 subs 파라미터를 포함한 getPurchases 메소드를 이용하면 됩니다.</p><pre class="crayon-plain-tag">Bundle activeSubs = mService.getPurchases(3, "com.example.myapp",
+                   "subs", continueToken);</pre><p>이 요청은 유저가 소유한 모든 활성화된 구독 상품의 정보를 Bundle에 담아 반환합니다. 한번 만료(expire)된, 리뉴얼되지 않은 구독 상품의 경우 더이상 Bundle을 통해 반한되지 않습니다.</p>
+<p><strong>참고</strong></p>
+<ul>
+<li><a href="http://developer.android.com/intl/ko/google/play/billing/billing_integrate.html" target="_blank">http://developer.android.com/intl/ko/google/play/billing/billing_integrate.html</a></li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://theeye.pe.kr/archives/2118/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Spring Boot 페이지 오류 발생시키기</title>
+		<link>http://theeye.pe.kr/archives/2110</link>
+		<comments>http://theeye.pe.kr/archives/2110#comments</comments>
+		<pubDate>Sun, 23 Feb 2014 05:08:59 +0000</pubDate>
+		<dc:creator><![CDATA[아이]]></dc:creator>
+				<category><![CDATA[JAVA]]></category>
+		<category><![CDATA[Boot]]></category>
+		<category><![CDATA[HttpStatus]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[spring]]></category>
+		<category><![CDATA[자바]]></category>
+
+		<guid isPermaLink="false">http://theeye.pe.kr/?p=2110</guid>
+		<description><![CDATA[Spring Boot에서 오류를 임의로 발생시키기 위해서는 어떻게 할 수 있을까요. 단지 미리 정의해둔 예외를 발생시키기만 하면 됩니다. 말로 설명하는것보다는 코드를 보시는편이 나을것 같습니다. [crayon-542528dc801ce908441662/] 위의 예제를 보시면 아시겠지만 미리 정의해둔 Exception이 존재하고 거기에 @ResponseStatus 어노테이션을 지정해 두었습니다. 원하는 응답 HttpStatus 코드를 정의할 수 있습니다. 저의 경우에는 404 Not Found를 지정해 보았습니다. reason설정을 통해 오류 발생시에 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/02/spring_logo.png"><img class="alignnone  wp-image-2115 aligncenter" alt="spring_logo" src="http://theeye.pe.kr/wp-content/uploads/2014/02/spring_logo.png" width="274" height="88" /></a></p>
+<p>Spring Boot에서 오류를 임의로 발생시키기 위해서는 어떻게 할 수 있을까요. 단지 미리 정의해둔 예외를 발생시키기만 하면 됩니다. 말로 설명하는것보다는 코드를 보시는편이 나을것 같습니다.</p><pre class="crayon-plain-tag">@Controller
+public class MyController {
+
+　　　@ResponseStatus(value=HttpStatus.NOT_FOUND, reason="잘못된 접근입니다.")
+    public class UrlNotFoundException extends RuntimeException { }
+
+    @RequestMapping("/admin")
+    public String index(Model model) {
+    	...
+    	throw new UrlNotFoundException();
+
+    	return "index";
+    }
+}</pre><p>위의 예제를 보시면 아시겠지만 미리 정의해둔 Exception이 존재하고 거기에 @ResponseStatus 어노테이션을 지정해 두었습니다. 원하는 응답 HttpStatus 코드를 정의할 수 있습니다. 저의 경우에는 404 Not Found를 지정해 보았습니다. reason설정을 통해 오류 발생시에 유저에게 같이 보여줄 메시지 또한 정의할 수 있습니다.</p>
+<p>잘못된 유저의 접근등에서 404 Not Found오류를 띄워 페이지가 존재하지 않는것 처럼 보여줄 수 있습니다. 물론 Spring Security를 사용하면 이런 문제는 더욱 쉽게 해결할 수 있겠지만요. Spring Boot에 Spring Security를 적용하는 방법역시 매우 간단합니다. 다음에는 관련된 글을 정리해 보겠습니다.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://theeye.pe.kr/archives/2110/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Ubuntu 서버에 JDK 7 설치하기</title>
+		<link>http://theeye.pe.kr/archives/2105</link>
+		<comments>http://theeye.pe.kr/archives/2105#comments</comments>
+		<pubDate>Thu, 20 Feb 2014 05:51:24 +0000</pubDate>
+		<dc:creator><![CDATA[아이]]></dc:creator>
+				<category><![CDATA[리눅스서버관리]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[JDK]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[Ubuntu]]></category>
+		<category><![CDATA[WebUpd8]]></category>
+		<category><![CDATA[우분투]]></category>
+
+		<guid isPermaLink="false">http://theeye.pe.kr/?p=2105</guid>
+		<description><![CDATA[저는 원래 레드햇빠(?)지만 요즘은 정말 다양한 좋은 배포본이 존재하는것 같습니다. 이번에 개인적으로 우분투 서버를 사용할 기회가 있었는데요. Oracle(ㅠㅠ) JDK를 설치하는 방법을 기록차 정리합니다. 우분투 기본 배포본은 다른 배포본들과 마찬가지로 Oracle JDK를 패키지 매니저를 통해 제공하지 않고 있습니다. 하지만 WebUpd8이라는 어떤 팀에서 지원하는 저장소를 제공하고 있습니다. 다음과 같은 명령을 통해 Java 7을 서버에 설치할 수 있습니다. [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>저는 원래 레드햇빠(?)지만 요즘은 정말 다양한 좋은 배포본이 존재하는것 같습니다. 이번에 개인적으로 우분투 서버를 사용할 기회가 있었는데요. Oracle(ㅠㅠ) JDK를 설치하는 방법을 기록차 정리합니다.</p>
+<p>우분투 기본 배포본은 다른 배포본들과 마찬가지로 Oracle JDK를 패키지 매니저를 통해 제공하지 않고 있습니다. 하지만 <a href="http://www.webupd8.org/" target="_blank">WebUpd8</a>이라는 어떤 팀에서 지원하는 저장소를 제공하고 있습니다. 다음과 같은 명령을 통해 Java 7을 서버에 설치할 수 있습니다.</p><pre class="crayon-plain-tag">$ sudo apt-get install software-properties-common
+$ sudo add-apt-repository ppa:webupd8team/java
+$ sudo apt-get update
+$ sudo apt-get install oracle-java7-installer</pre><p>위의 과정을 거치면 설치가 완료됩니다. 설치된 배포본에 대해 JAVA_HOME, PATH등을 등록하기 위해 수작업으로 하실 필요 없이 다음의 명령으로 자동 설정할 수 있습니다.</p><pre class="crayon-plain-tag">$ sudo apt-get install oracle-java7-set-default</pre><p></p><pre class="crayon-plain-tag">$ java -version
+java version "1.7.0_51"
+Java(TM) SE Runtime Environment (build 1.7.0_51-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 24.51-b03, mixed mode)</pre><p>잘 되는것을 확인하였습니다. 추후 설치된 JDK를 삭제해야한다면 다음의 명령으로 삭제를 하시면 됩니다.</p><pre class="crayon-plain-tag">$ sudo apt-get remove oracle-java7-installer</pre><p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://theeye.pe.kr/archives/2105/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Spring Boot에서 손쉽게 MySQL 사용하기</title>
+		<link>http://theeye.pe.kr/archives/2095</link>
+		<comments>http://theeye.pe.kr/archives/2095#comments</comments>
+		<pubDate>Wed, 19 Feb 2014 05:01:57 +0000</pubDate>
+		<dc:creator><![CDATA[아이]]></dc:creator>
+				<category><![CDATA[JAVA]]></category>
+		<category><![CDATA[Boot]]></category>
+		<category><![CDATA[Connection]]></category>
+		<category><![CDATA[Connector]]></category>
+		<category><![CDATA[Datasource]]></category>
+		<category><![CDATA[dbcp]]></category>
+		<category><![CDATA[JdbcTemplate]]></category>
+		<category><![CDATA[MariaDB]]></category>
+		<category><![CDATA[mysql]]></category>
+		<category><![CDATA[Pool]]></category>
+		<category><![CDATA[spring]]></category>
+
+		<guid isPermaLink="false">http://theeye.pe.kr/?p=2095</guid>
+		<description><![CDATA[프로젝트를 시작하기에 앞서 어떤 언어를 사용할지 어떤 프레임웍, 라이브러리를 사용할지 고민하게 됩니다. 저도 지금까지 이런 고민을 할때마다 큰 규모의 프로젝트는 Spring Framework를 사용하고 빠른 속도의 개발이 필요할때는 PHP를 선택했었습니다. 하지만 Spring Boot를 접하면서 많은 생각이 변하게 되었습니다. 이제는 빠른 개발이 필요할때는 Spring Boot를 사용하면 되겠다는 생각이 듭니다. Rails와 비교할때 아직 많은 부분 부족하다고 생각되지만 Spring의 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/02/spring_title.png"><img class="alignnone size-medium wp-image-2096" alt="spring_title" src="http://theeye.pe.kr/wp-content/uploads/2014/02/spring_title-600x201.png" width="600" height="201" /></a></p>
+<p>프로젝트를 시작하기에 앞서 어떤 언어를 사용할지 어떤 프레임웍, 라이브러리를 사용할지 고민하게 됩니다. 저도 지금까지 이런 고민을 할때마다 큰 규모의 프로젝트는 Spring Framework를 사용하고 빠른 속도의 개발이 필요할때는 PHP를 선택했었습니다. 하지만 Spring Boot를 접하면서 많은 생각이 변하게 되었습니다. 이제는 빠른 개발이 필요할때는 Spring Boot를 사용하면 되겠다는 생각이 듭니다. Rails와 비교할때 아직 많은 부분 부족하다고 생각되지만 Spring의 그 무게감을 잘 유지하고 있으면서도 말도안되게 개발이 편해진것 같습니다. Play의 도입도 고민을 많이 해봤었지만 기존의 Spring에 익숙하시다면 해방된 느낌으로 편하게 사용하실 수 있다고 생각합니다.</p>
+<p>이번에는 MySQL(MariaDB) 데이터베이스를 활용하는 프로젝트를 얼마나 손쉽게 구현할 수 있는지 알아보겠습니다. 이 프로젝트는 기존에 작성했던 [<a href="http://theeye.pe.kr/archives/2014" target="_blank"><strong>Gradle 기반 Spring Boot 프로젝트 구축하기]</strong></a>의 소스코드를 개선해 나가는 방향으로 진행하겠습니다. 우선 링크의 글을 먼저 읽어보시길 권장합니다.</p>
+<p>먼저 build.gradle의 내용을 다음과 같이 수정합니다. 하는김에 커넥션풀도 구성해 보겠습니다.</p><pre class="crayon-plain-tag">dependencies {
+  ...
+  compile("org.springframework:spring-jdbc:+")
+  compile("commons-dbcp:commons-dbcp:1.4")
+  compile("mysql:mysql-connector-java:5.0.8")
+}</pre><p>프로젝트의 진행에 앞서 DB를 사용하는 프로젝트이므로 테스트용 DB와 테이블을 생성해 보겠습니다.</p><pre class="crayon-plain-tag">CREATE TABLE `blogs` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `content` text,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;</pre><p>이번엔 데이터베이스 설정파일을 만들어야 합니다. <strong>application.properties</strong>라는 파일을 프로젝트의 루트 또는 <strong>src/main/resources</strong> 디렉토리안에 넣어주시면 Spring Boot 구동시에 자동으로 읽어들여 프로젝트에 적용하게 됩니다.</p><pre class="crayon-plain-tag">spring.application.name=HelloSpringBoot
+spring.datasource.driverClassName=com.mysql.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost/theeye?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf8
+spring.datasource.username=root
+spring.datasource.password=
+spring.datasource.maxIdle=20
+spring.datasource.maxActive=400
+spring.datasource.maxWait=10000
+spring.datasource.validationQuery=SELECT 1</pre><p>위의 내용은 Java 개발자분들께 익숙한 내용일테니 설명은 생략하도록 하겠습니다. 다음은 DAO(모델) 클래스를 만들어 보겠습니다.</p><pre class="crayon-plain-tag">@Repository
+public class BlogDao {
+
+    @Autowired
+    private JdbcTemplate template;
+
+    public void insertNewContent(String content) {
+        template.update("INSERT INTO blogs(content) VALUES(?)", content);
+    }
+}</pre><p>이제 컨트롤러에서 이 DAO를 호출해 보겠습니다.</p><pre class="crayon-plain-tag">@RestController
+public class HelloController {
+
+    @Autowired
+    private BlogDao blogDao;
+
+    @RequestMapping("/")
+    public String index() {
+        blogDao.insertNewContent("Hello Spring?");
+        return "Greetings from Spring Boot!";
+    }
+
+}</pre><p>여기까지가 끝입니다&#8230; 서버를 구동하고 페이지를 열어보시면 정상적으로 DB에 &#8220;Hello Spring?&#8221;이 저장된것을 확인할 수 있습니다. 느끼셨겠지만 DataSource를 생성하고 Connection Pool을 구축하는 과정이 생략되었습니다. build.gradle 설정에서 <strong>spring-jdbc</strong>를 추가해주기만 했는데 application.properties의 내용을 토대로 이러한 작업들을 자동화 해줍니다. 그래서 단지 JdbcTemplate을 @Autowired로 엮어줌으로써 DB를 사용할 수 있게 됩니다.</p>
+<h3>실제 서비스 환경에서 오류가 날경우</h3>
+<p>개발 환경에서는 위의 과정을 통해 사용이 정상적으로 되었습니다만 이상하게 실제 환경(java -jar로 실행)에서는 MySQL Connector를 로드하지 못하는 에러를 보였습니다. 다음과 같은 에러입니다.</p><pre class="crayon-plain-tag">org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+        at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+        at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:628)
+        at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:693)
+        at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:725)
+        at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:735)
+        at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:803)
+        at net.loungechat.server.database.UserDao.findUserByAccessToken(UserDao.java:25)
+        at net.loungechat.server.processor.ChatServiceProcessor.authorize(ChatServiceProcessor.java:67)
+        at net.loungechat.thrift.ChatService$Processor$authorize.getResult(ChatService.java:964)
+        at net.loungechat.thrift.ChatService$Processor$authorize.getResult(ChatService.java:948)
+        at org.apache.thrift.ProcessFunction.process(ProcessFunction.java:39)
+        at org.apache.thrift.TBaseProcessor.process(TBaseProcessor.java:39)
+        at org.apache.thrift.server.TThreadPoolServer$WorkerProcess.run(TThreadPoolServer.java:225)
+        at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+        at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+        at java.lang.Thread.run(Thread.java:744)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Cannot load JDBC driver class 'com.mysql.jdbc.Driver'
+        at org.apache.commons.dbcp.BasicDataSource.createConnectionFactory(BasicDataSource.java:1429)
+        at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1371)
+        at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:1044)
+        at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+        at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+        ... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.mysql.jdbc.Driver
+        at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+        at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+        at org.springframework.boot.loader.LaunchedURLClassLoader.doLoadClass(LaunchedURLClassLoader.java:133)
+        at org.springframework.boot.loader.LaunchedURLClassLoader.loadClass(LaunchedURLClassLoader.java:103)
+        at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+        at org.apache.commons.dbcp.BasicDataSource.createConnectionFactory(BasicDataSource.java:1420)
+        ... 19 common frames omitted</pre><p>이 문제를 해결하기 위해 다양한 시도를 해보았지만 Gradle을 이용한 MySQL 원격 저장소 의존성 등록을 하지 않고 직접 라이브러리 파일을 다운받아 등록하는 방법으로 문제를 해결할 수 있었습니다.</p>
+<p>[<a href="http://dev.mysql.com/downloads/connector/j/" target="_blank"><strong>Download Connector/J</strong></a>]에서 적당한 라이브러리를 다운로드합니다. 신기하게도 저의 경우 최신버전을 다운받아 사용하면 오류가 발생했습니다. 그래서 5.0.8 버전을 사용하였습니다.</p>
+<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/02/mysql_libs_dir.png"><img class="alignnone size-full wp-image-2098" alt="mysql_libs_dir" src="http://theeye.pe.kr/wp-content/uploads/2014/02/mysql_libs_dir.png" width="447" height="244" /></a></p>
+<p>프로젝트의 루트에 libs 디렉토리를 생성하고 그안에 다운로드 받은 jar 파일을 넣어두었습니다. 이번엔 build.gradle의 설정을 변경하겠습니다.</p><pre class="crayon-plain-tag">dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web:1.0.0.RC1")
+    compile("org.springframework:spring-jdbc:+")
+    compile("commons-dbcp:commons-dbcp:1.4")
+    //compile("mysql:mysql-connector-java:5.0.8")
+    compile name: 'mysql-connector-java-5.0.8-bin'
+    compile fileTree(dir: 'libs', includes: ['*.jar'])
+}</pre><p>우선 시도한 부분은 fileTree설정을 이용하여 libs 디렉토리안의 *.jar를 모두 읽어들이게 한것인데 신기하게 이것도 정상적으로 되지 않는 경우가 발생하였습니다. 그래서 compile name: 설정을 이용하여 정확한 파일명(.jar 확장자 제외)을 적어주면 됩니다.</p>
+<p>이렇게 하므로써 환경을 타지 않고 DB를 활용할 수 있는 프로젝트의 구성이 완료되었습니다. 아마 이부분은 버그이지 않을까 생각되네요. 제작한 소스를 첨부하겠습니다. [<a href="http://theeye.pe.kr/wp-content/uploads/2014/02/HelloSpringBootWithMySQL.zip">HelloSpringBootWithMySQL</a>]</p>
+]]></content:encoded>
+			<wfw:commentRss>http://theeye.pe.kr/archives/2095/feed</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>.gitignore 설정후에 정상적으로 적용되지 않는 문제 해결하기</title>
+		<link>http://theeye.pe.kr/archives/2091</link>
+		<comments>http://theeye.pe.kr/archives/2091#comments</comments>
+		<pubDate>Wed, 19 Feb 2014 03:52:11 +0000</pubDate>
+		<dc:creator><![CDATA[아이]]></dc:creator>
+				<category><![CDATA[개발참고자료]]></category>
+		<category><![CDATA[Git]]></category>
+		<category><![CDATA[gitignore]]></category>
+		<category><![CDATA[기트]]></category>
+
+		<guid isPermaLink="false">http://theeye.pe.kr/?p=2091</guid>
+		<description><![CDATA[Git를 사용하는 프로젝트에서 진행해 감에 따라 Ignore에 등록해야 할 디렉토리 또는 파일도 점점 늘어나더군요. 간단하게 생각하고 .gitignore 파일에 내용을 등록하였습니다. 하지만 이미 저장소에 푸시된 내용이 삭제되지는 않는 문제를 겪었습니다. 이외에도 검색을 해보면 .gitignore 에 적용한 설정이 정상적으로 동작하지 않는다는 내용이 많더군요. 어쨌든 다음의 명령을 사용하시면 곧바로 설정이 적용됩니다. 저장소에 이미 올라가있는 파일들도 삭제됩니다. (물론 푸시했을때) [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/02/git_logo.png"><img class="alignnone  wp-image-2092 aligncenter" alt="git_logo" src="http://theeye.pe.kr/wp-content/uploads/2014/02/git_logo-600x250.png" width="360" height="150" /></a></p>
+<p>Git를 사용하는 프로젝트에서 진행해 감에 따라 Ignore에 등록해야 할 디렉토리 또는 파일도 점점 늘어나더군요. 간단하게 생각하고 .gitignore 파일에 내용을 등록하였습니다. 하지만 이미 저장소에 푸시된 내용이 삭제되지는 않는 문제를 겪었습니다.</p>
+<p>이외에도 검색을 해보면 .gitignore 에 적용한 설정이 정상적으로 동작하지 않는다는 내용이 많더군요. 어쨌든 다음의 명령을 사용하시면 곧바로 설정이 적용됩니다. 저장소에 이미 올라가있는 파일들도 삭제됩니다. (물론 푸시했을때)</p><pre class="crayon-plain-tag">$ git rm -r --cached .
+$ git add .
+$ git commit -m "fixed untracked files”</pre><p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://theeye.pe.kr/archives/2091/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>자주 사용하는 SSH 호스트 Alias 설정하기</title>
+		<link>http://theeye.pe.kr/archives/2088</link>
+		<comments>http://theeye.pe.kr/archives/2088#comments</comments>
+		<pubDate>Wed, 19 Feb 2014 03:30:54 +0000</pubDate>
+		<dc:creator><![CDATA[아이]]></dc:creator>
+				<category><![CDATA[리눅스서버관리]]></category>
+		<category><![CDATA[config]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[ssh]]></category>
+		<category><![CDATA[리눅스]]></category>
+
+		<guid isPermaLink="false">http://theeye.pe.kr/?p=2088</guid>
+		<description><![CDATA[자주 사용하는 호스트의 경우 매번 주소를 정확히 입력하기도 번거롭고 불편한면이 없잖아 있습니다. 그래서 따로 쉘스크립트를 만들어서 사용하기도 했었는데요. SSH Config 파일을 만들어서 손쉽게 이 문제를 해결할 수 있습니다. 다음과 같은 명령어를 사용하여 Config 파일을 생성합니다. [crayon-542528dc8189b694726803/] 만약에 자신의 홈디렉토리에 .ssh 디렉토리가 존재하지 않는다면 다음과 같이 생성해 주시면 됩니다. [crayon-542528dc818a9549328734/] 이제 설정파일을 생성했으니 내용을 추가해 보겠습니다. [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>자주 사용하는 호스트의 경우 매번 주소를 정확히 입력하기도 번거롭고 불편한면이 없잖아 있습니다. 그래서 따로 쉘스크립트를 만들어서 사용하기도 했었는데요. SSH Config 파일을 만들어서 손쉽게 이 문제를 해결할 수 있습니다.</p>
+<p>다음과 같은 명령어를 사용하여 Config 파일을 생성합니다.</p><pre class="crayon-plain-tag">$ touch ~/.ssh/config
+$ chmod 600 ~/.ssh/config</pre><p>만약에 자신의 홈디렉토리에 .ssh 디렉토리가 존재하지 않는다면 다음과 같이 생성해 주시면 됩니다.</p><pre class="crayon-plain-tag">$ mkdir ~/.ssh/
+$ chmod 700 ~/.ssh/</pre><p>이제 설정파일을 생성했으니 내용을 추가해 보겠습니다.</p><pre class="crayon-plain-tag">Host theeye
+  HostName theeye.pe.kr
+  User eye
+
+Host cacti manage
+  HostName manage.mysomesite.theeye.pe.kr
+
+Host *
+  User eye</pre><p>첫번째 단락의 설정은 theeye라는 호스트를 설정한 예시입니다. 접속에 사용할 사용자의 아이디는 eye를 사용합니다. 두번째 단락의 경우 하나의 호스트네임에 두개의 별칭을 사용하였습니다. cacti 또는 manage를 사용하여 접속하면 같은 호스트에 접속을 하게 됩니다. 마지막으로 다른 모든 호스트에 특정 유저로 로그인하게 하는 옵션입니다. 가령 하나의 회사에서 보유하고 있는 모든 서버들의 계정이 admin이라면 여기에 admin을 등록해 두면 편리할 것입니다.</p><pre class="crayon-plain-tag">$ ssh eye@theeye.pe.kr</pre><p>이제 위와 같은 명령어 대신에 다음과 같은 명령어를 사용하여 접속하실 수 있습니다.</p><pre class="crayon-plain-tag">$ ssh theeye</pre><p>매우 간단해졌습니다.  비밀번호를 물어보는것조차 자동으로 처리했으면 하신다면 [<a href="http://theeye.pe.kr/archives/1500" target="_blank"><strong>scp, ssh, rsync등을 사용할때에 SSH 비밀번호 묻는것 피하기</strong></a>]을 참고하시기 바랍니다.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://theeye.pe.kr/archives/2088/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Apache Thrift를 Android 통신에 활용하기</title>
+		<link>http://theeye.pe.kr/archives/2081</link>
+		<comments>http://theeye.pe.kr/archives/2081#comments</comments>
+		<pubDate>Fri, 14 Feb 2014 12:32:23 +0000</pubDate>
+		<dc:creator><![CDATA[아이]]></dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[apache]]></category>
+		<category><![CDATA[java]]></category>
+		<category><![CDATA[Server]]></category>
+		<category><![CDATA[ThreadPool]]></category>
+		<category><![CDATA[Thrift]]></category>
+
+		<guid isPermaLink="false">http://theeye.pe.kr/?p=2081</guid>
+		<description><![CDATA[Apache Thrift는 다양한 플랫폼간에 매우 편리하게 사용할 수 있는 통합 RPC 환경을 제공합니다. 제가 실무에서 겪을 수 있는 대부분의 Thrift활용 예는 서버들간의 통신들에 국한되어 있었는데요. 검색을 해봐도 Thrift는 서버에만 사용해야 한다는 말은 없더군요. 단지 이것도 하나의 프로토콜에 불과한것이 아닐까 생각됩니다. 그래서 Thrift로 Server ⟷ Android간 통신에 적용해 보기로 하였습니다. 지금까지는 이러한 통신에 HTTP 통신을 이용한 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><a href="http://theeye.pe.kr/wp-content/uploads/2014/02/thrift_logo.png"><img class="alignnone size-full wp-image-2064 aligncenter" alt="thrift_logo" src="http://theeye.pe.kr/wp-content/uploads/2014/02/thrift_logo.png" width="180" height="130" /></a></p>
+<p>Apache Thrift는 다양한 플랫폼간에 매우 편리하게 사용할 수 있는 통합 RPC 환경을 제공합니다. 제가 실무에서 겪을 수 있는 대부분의 Thrift활용 예는 서버들간의 통신들에 국한되어 있었는데요. 검색을 해봐도 Thrift는 서버에만 사용해야 한다는 말은 없더군요. 단지 이것도 하나의 프로토콜에 불과한것이 아닐까 생각됩니다.</p>
+<p>그래서 Thrift로 Server ⟷ Android간 통신에 적용해 보기로 하였습니다. 지금까지는 이러한 통신에 HTTP 통신을 이용한 Json을 주고받는 형태로 많이 구현해 봤었는데요, 통신을 위해 서로 프로토콜을 맞추고 인코딩에 신경쓰고 오류메시지에 신경쓰고 하는 부분이 싹 사라졌습니다.</p><pre class="crayon-plain-tag">namespace java kr.pe.theeye.thrift.android
+
+service ArithmeticService {
+    i32 add(1:i32 num1, 2:i32 num2),
+    i32 multiply(1:i32 num1, 2:i32 num2)
+}</pre><p>위와 같은 thrift 파일을 생성하였습니다. 그리고 다음과 같이 Java 코드를 생성할 수 있습니다.</p><pre class="crayon-plain-tag">$ thrift --gen java example.thrift</pre><p>gen-java 디렉토리 밑에 ArithmeticService.java 파일이 생성되었을 것입니다. 이것을 서버와 클라이언트 프로젝트에 동시에 사용하겠습니다. 먼저 서버 프로젝트부터 만들어 보겠습니다. Gradle 프로젝트를 생성합니다.</p><pre class="crayon-plain-tag">apply plugin: 'java'
+
+sourceCompatibility = 1.7
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.apache.thrift:libthrift:+'
+    compile 'org.slf4j:slf4j-api:+'
+    compile 'org.slf4j:slf4j-jdk14:+'
+}</pre><p>생성된 ArithmeticService 클래스를 사용하여 적절한 핸들러 클래스를 만들어 보겠습니다.</p><pre class="crayon-plain-tag">public class ArithmeticServiceImpl implements ArithmeticService.Iface {
+
+    @Override
+    public int add(int num1, int num2) throws TException {
+        return num1 + num2;
+    }
+
+    @Override
+    public int multiply(int num1, int num2) throws TException {
+        return num1 * num2;
+    }
+}</pre><p>이번에는 서버 클래스를 작성하여 보겠습니다.</p><pre class="crayon-plain-tag">public class ThriftThreadPoolServer {
+
+    private void start() {
+        try {
+            ArithmeticService.Processor processor = new ArithmeticService.Processor(new ArithmeticServiceImpl());
+
+            TThreadPoolServer.Args serverArgs = new TThreadPoolServer.Args(new TServerSocket(7911));
+            serverArgs.protocolFactory(new TCompactProtocol.Factory());
+            serverArgs.transportFactory(new TFastFramedTransport.Factory());
+            serverArgs.minWorkerThreads(20);
+            serverArgs.maxWorkerThreads(1500);
+            serverArgs.processorFactory(new TProcessorFactory(processor));
+
+            TServer server = new TThreadPoolServer(serverArgs);
+            System.out.println("Starting server on port 7911 ...");
+            server.serve();
+        } catch (TTransportException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args) {
+        ThriftThreadPoolServer srv = new ThriftThreadPoolServer();
+        srv.start();
+    }
+}</pre><p>ThreadPool 서버로 세팅을 하였습니다. 프로토콜은 좀 더 압축률이 높은 CompactProtocol을 사용하였고 FastFramedTransport를 활용하여 통신하려고 합니다. 쓰레드는 최소 20개에서 최대 1500개를 생성하도록 하였습니다. 간단하게 생각해서 동접 1500개 제한이라고 생각하시면 될듯 합니다. 마지막으로 먼저 만들어 두었던 ArithmeticServiceImpl을 RPC 콜이 왔을때 대응할 프로세서(핸들러)로 설정하였습니다.</p>
+<p>이번엔 안드로이드 클라이언트를 만들어 보겠습니다. 기본적으로 Fragment를 사용하지 않은 단일 Activity구조로 프로젝트를 만들었습니다. 먼저 Gradle 설정부터 하겠습니다.</p><pre class="crayon-plain-tag">apply plugin: 'android'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.1"
+
+    defaultConfig {
+        minSdkVersion 7
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:+'
+    compile 'org.apache.thrift:libthrift:+'
+    compile 'org.slf4j:slf4j-api:+'
+    compile 'org.slf4j:slf4j-jdk14:+'
+    compile fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+}</pre><p>통신에는 다양한 방법을 사용할 수 있지만 모바일 환경이기에 커넥션을 맺고 끊는것에 신경을 쓰기 어려우므로 비동기 방식으로 구현을 해보겠습니다. 미리 만들어둔 ArithmeticService 클래스가 프로젝트에 포함되어있다고 가정하고 진행하겠습니다.</p>
+<p>구현해둔 RPC 메소드는 덧셈, 곱셈 총 두가지 입니다. 이 두가지에 대한 콜백 클래스를 제작합니다.</p><pre class="crayon-plain-tag">class AddMethodCallBack implements AsyncMethodCallback&lt;ArithmeticService.AsyncClient.add_call&gt; {
+
+    @Override
+    public void onComplete(ArithmeticService.AsyncClient.add_call add_call) {
+        try {
+            int result = add_call.getResult();
+            Log.e(TAG, "AddMethodCallBack onComplete: " + result);
+        } catch (TException e) {
+            Log.e(TAG, "AddMethodCallBack TException: " + e.getLocalizedMessage());
+        }
+    }
+
+    @Override
+    public void onError(Exception e) {
+        Log.e(TAG, "AddMethodCallBack onError: " + e.getLocalizedMessage());
+    }
+}
+
+class MultiplyMethodCallBack implements AsyncMethodCallback&lt;ArithmeticService.AsyncClient.multiply_call&gt; {
+
+    @Override
+    public void onComplete(ArithmeticService.AsyncClient.multiply_call multiply_call) {
+        try {
+            int result = multiply_call.getResult();
+            Log.e(TAG, "MultiplyMethodCallBack onComplete: " + result);
+        } catch (TException e) {
+            Log.e(TAG, "MultiplyMethodCallBack TException: " + e.getLocalizedMessage());
+        }
+    }
+
+    @Override
+    public void onError(Exception e) {
+        Log.e(TAG, "MultiplyMethodCallBack onError: " + e.getLocalizedMessage());
+    }
+}</pre><p>이제 비동기 통신을 담당하는 통신 클라이언트 객체를 생성하는 코드를 만들어 보겠습니다.</p><pre class="crayon-plain-tag">public class MainActivity extends ActionBarActivity {
+
+    private static final String TAG = "MainActivity";
+
+    private static final String SERVER_HOST_NAME = "192.168.0.10";
+    private static final int SERVER_HOST_PORT = 7911;
+
+    private TCompactProtocol.Factory mProtocolFactory;
+    private TAsyncClientManager mAsyncClientManager;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        try {
+            mProtocolFactory = new TCompactProtocol.Factory();
+            mAsyncClientManager = new TAsyncClientManager();
+        } catch (IOException e) {
+            Log.e(TAG, "Thrift Client Initialization Failed.");
+            Log.e(TAG, e.getLocalizedMessage());
+        }
+    }
+
+    private ArithmeticService.AsyncClient getAsyncClient() throws IOException {
+        return new ArithmeticService.AsyncClient(
+                mProtocolFactory,
+                mAsyncClientManager,
+                new TNonblockingSocket(SERVER_HOST_NAME, SERVER_HOST_PORT));
+    }
+}</pre><p>클라이언트가 비동기로 통신하기 위해서는 반드시 NonBlockingSocket을 사용해야만 합니다. 그런데 한가지 문제가 이 NonBlockingSocket은 실제로 동시에 두개의 처리를 할수가 없습니다. 자동으로 채널 셀렉팅을 해주지 않을까 생각했는데 실제로 그렇게 동작하지 않더군요. 그래서 매 요청시마다 커넥션은 새로 만들어 주어야 합니다. 이러한 과정을 getAsyncClient() 메소드에서 처리하도록 하였습니다.</p>
+<p>이제 서버와 통신을 해보겠습니다. RPC의 특성상 클라이언트의 메소드를 호출하면 서버의 그것이 실행되어 결과값이 콜백으로 반환됩니다.</p><pre class="crayon-plain-tag">try {
+    getAsyncClient().add(200, 400, new AddMethodCallBack());
+    getAsyncClient().multiply(20, 50, new MultiplyMethodCallBack());
+} catch (Exception e) {
+    Log.e(TAG, e.getLocalizedMessage());
+}</pre><p>제작한 샘플 코드를 첨부하였습니다.</p>
+<ul>
+<li>서버 코드 : <a href="http://theeye.pe.kr/wp-content/uploads/2014/02/ThriftServer.zip">ThriftServer</a></li>
+<li>클라이언트 코드 : <a href="http://theeye.pe.kr/wp-content/uploads/2014/02/ThriftAndroid.zip">ThriftAndroid</a></li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://theeye.pe.kr/archives/2081/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

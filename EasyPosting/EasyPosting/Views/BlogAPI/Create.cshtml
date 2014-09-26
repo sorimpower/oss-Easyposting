@@ -1,0 +1,104 @@
+﻿@model EasyPosting.Models.EP_METAS
+
+@{
+    ViewBag.Title = "BlogAPI 계정 연동";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+}
+
+<h2>BlogAPI 계정 연동</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>@ViewBag.BlogService 계정을 연동합니다</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        @*<div class="form-group">
+            
+            @Html.LabelFor(model => model.publish, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.publish, new { @class = "form-control" })               
+                
+                @Html.ValidationMessageFor(model => model.publish)
+            </div>
+        </div>*@
+@if (ViewBag.BlogService == "Tistory")
+{ 
+        <div class="form-group">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LsOw3bgpcDU" frameborder="0" allowfullscreen></iframe>
+        </div>
+}
+@if (ViewBag.BlogService == "Naver")
+{
+    <div class="form-group">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9VjDEs5r6Fo" frameborder="0" allowfullscreen></iframe>
+    </div>
+}
+@if (ViewBag.BlogService == "WordPress")
+{
+    <div class="form-group">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mKJnw-48z8I" frameborder="0" allowfullscreen></iframe>
+    </div>
+}
+        <div class="form-group">
+            @Html.LabelFor(model => model.publish_SITE, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.publish_SITE, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.publish_SITE)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Publish_ID, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Publish_ID, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Publish_ID)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Publish_PW, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Publish_PW, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Publish_PW)
+            </div>
+        </div>
+        @if (ViewBag.BlogService != "WordPress")
+        {             
+            <div class="form-group">
+                @Html.LabelFor(model => model.Publish_BLOGID, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Publish_BLOGID, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Publish_BLOGID)
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Publish_BLOGKEY, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Publish_BLOGKEY, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.Publish_BLOGKEY)
+                </div>
+            </div>
+        }
+        else
+        {
+            @Html.HiddenFor(model => model.Publish_BLOGID, new { @value = "NONE" })
+            @Html.HiddenFor(model => model.Publish_BLOGKEY, new { @value = "NONE" })
+        }
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="추가" class="btn btn-default" />
+            </div>
+        </div>
+  
+    </div>
+}
+
+<div>
+    @Html.ActionLink("돌아가기", "Manage", "Account") 
+</div>

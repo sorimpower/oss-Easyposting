@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[Beyond Tomorrow]]></title>
+			<link>http://blog.naver.com/jinoxst</link>
+			
+				<image>
+					<url><![CDATA[http://blogpfthumb.phinf.naver.net/data13/2006/2/11/183/passwd-jinoxst.jpg?type=m2]]></url>
+					<title><![CDATA[Beyond Tomorrow]]></title>
+					<link>http://blog.naver.com/jinoxst</link>
+				</image>
+			
+			<description><![CDATA[HUMAN KNOWLEDGE BELONGS TO THE WORLD]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:43:01 +0900</pubDate>
+
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[javascript]]></category>
+					<title><![CDATA[테이블 로우 드랍 앤 드로깅관련]]></title>
+					<link>http://blog.naver.com/jinoxst/140064347033</link>
+					<guid>http://blog.naver.com/jinoxst/140064347033</guid>
+					<description><![CDATA[http://www.isocra.com/2007/07/dragging-and-dropping-table-rows-in-javascript/  위 싸이트의 내용을 토대로 샘플 코드를 만들어 봤다.]]></description>
+					<pubDate>Fri, 06 Mar 2009 23:59:24 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오픈소스]]></category>
+					<title><![CDATA[JMeter 관련]]></title>
+					<link>http://blog.naver.com/jinoxst/140054563822</link>
+					<guid>http://blog.naver.com/jinoxst/140054563822</guid>
+					<description><![CDATA[http://mckdh.net/278 http://network.hanb.co.kr/view.php?bi_id=1520 http://network.hanb.co.kr/view.php?bi_id=1521 http://network.hanb.co.kr/view.php?bi_id=1522 http://jakarta.apache-korea.org/jmeter/index.html http://blog.naver.com/estern?Redirect=Log&amp;logNo=110008724303]]></description>
+					<pubDate>Tue, 12 Aug 2008 20:45:41 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[기타]]></category>
+					<title><![CDATA[MS Access 관련]]></title>
+					<link>http://blog.naver.com/jinoxst/140053995716</link>
+					<guid>http://blog.naver.com/jinoxst/140053995716</guid>
+					<description><![CDATA[http://www.accessclub.jp/]]></description>
+					<pubDate>Fri, 25 Jul 2008 17:10:01 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오라클]]></category>
+					<title><![CDATA[PL/SQL link]]></title>
+					<link>http://blog.naver.com/jinoxst/140053342933</link>
+					<guid>http://blog.naver.com/jinoxst/140053342933</guid>
+					<description><![CDATA[http://oracle.se-free.com/plsql/plsql.html http://oracle.se-free.com/]]></description>
+					<pubDate>Fri, 04 Jul 2008 16:58:31 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[javascript]]></category>
+					<title><![CDATA[JScript의 재발견]]></title>
+					<link>http://blog.naver.com/jinoxst/140053227220</link>
+					<guid>http://blog.naver.com/jinoxst/140053227220</guid>
+					<description><![CDATA[http://www.happy2-island.com/vbs/cafe02/capter00000.shtml
+JScript의파워풀한 모습...재발견
+파일 및 DB처리도 자바와 비슷하면서도 간결함.  http://www.atmarkit.co.jp/fwin2k/operation/wsh01/wsh01_01.html
+http://www.atmarkit.co.jp/fwin2k/tutor/cformwsh01/cformwsh01_02.html
+http://msdn.microsoft.com/ja-jp/library/cc364407.aspx
+WSH의 개념도 익혀보자 
+http://www.doblog.com/weblog/myblog/4444?TYPE=1&amp;genreid=6526
+메일 보내기...]]></description>
+					<pubDate>Mon, 30 Jun 2008 19:48:17 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[잡생각]]></category>
+					<title><![CDATA[포기란 유혹에서 벗어나기]]></title>
+					<link>http://blog.naver.com/jinoxst/140050422243</link>
+					<guid>http://blog.naver.com/jinoxst/140050422243</guid>
+					<description><![CDATA[프로그램을 개발하다 보면 누구나난관에 봉착하게 된다. 그 중 한가지가 새로운 기술에 대한 힘겨움이라 하겠다.  당시에는 시간도 없고 원인규명도 힘들어 난관을빗겨가는 방향으로 해결했지만 그 원인을 밝혀내지 않는 한언젠가는 그 상황에 다시 직면하게 된다. 뭔가 냄새가 나는 부분이 있다면 포기, 혹은 다음 이라는 유혹에 넘어가지 말고 끈질기게 정보를 찾고 분석하며 물고 늘어져 보자. 처음에는 막막하기만 하던 것이 하나, 둘 관련 정보들이 확보되면서 자신감이 생기고 결국 그 정체가 탄로 났을때의 기쁨이란 캬~아. 사실기본에 충실하지 않았고, 기본적인 학습이 되어 있지 않은 상태에서의  출발은 늘.......]]></description>
+					<pubDate>Fri, 11 Apr 2008 16:31:54 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오라클]]></category>
+					<title><![CDATA[인덱스 생성 정보를 알아보려면]]></title>
+					<link>http://blog.naver.com/jinoxst/140047906226</link>
+					<guid>http://blog.naver.com/jinoxst/140047906226</guid>
+					<description><![CDATA[user_ind_columns 또는 user_indexes테이블의 정보를 확인해 본다.  - 끝 -]]></description>
+					<pubDate>Thu, 07 Feb 2008 11:21:50 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[기타]]></category>
+					<title><![CDATA[엑셀의 한 셀이 표시할 수 있는 최대 문자의 수]]></title>
+					<link>http://blog.naver.com/jinoxst/140046842386</link>
+					<guid>http://blog.naver.com/jinoxst/140046842386</guid>
+					<description><![CDATA[
+CSV파일의 만들어 데이터를 저장하고 엑셀로 열었을 경우 엑셀의 한 셀에서 표시가능한 문자의 수는 255자 까지이다.(숫자,영문,한자 등 상관없다.) 255자 이후의 문자들은 표시되지 않는다. CSV파일은 일반적으로 ="",="",=""....형식이다. 그런데, 한 셀의 데이터의 총길이가 255자 까지이면 [="총 255자의 데이터"] 의 형식이 보장되나 255자를 초과할 경우는 총 길이에서 253자 까지만 취득한 후 [="253자까지의 데이터]의 형태로 뒤쪽의  "(쌍따옴표)도빠뜨리는 형식으로 표시된다. 물론 CSV파일에는 데이터가정상대로 들어가 있으니  걱정할 일은 없겠다. 
+- 이상 -]]></description>
+					<pubDate>Fri, 11 Jan 2008 10:56:08 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오라클]]></category>
+					<title><![CDATA[SQL PLUS에서 trace 확인]]></title>
+					<link>http://blog.naver.com/jinoxst/140044766953</link>
+					<guid>http://blog.naver.com/jinoxst/140044766953</guid>
+					<description><![CDATA[
+SQL&gt;set autotrace on;
+SQL&gt;해당 쿼리 실행
+쿼리 결과 및 실행계획 결과 확인 쿼리 결과가 많아서 보기 귀찮다면 아래와 같이 trace결과만 확인해 볼 수도 있다.
+SQL&gt;set autotrace trace;
+SQL&gt;해당 쿼리 실행
+쿼리 결과 생략및 실행계획 결과 확인 trace를 끝마치려면
+SQL&gt;set autotrace off;
+- 끝 -]]></description>
+					<pubDate>Fri, 16 Nov 2007 14:10:59 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오픈소스]]></category>
+					<title><![CDATA[텍스트 파일 비교 프로그램 DF]]></title>
+					<link>http://blog.naver.com/jinoxst/140044413291</link>
+					<guid>http://blog.naver.com/jinoxst/140044413291</guid>
+					<description><![CDATA[http://www.vector.co.jp/soft/win95/util/se113286.html
+설치가 필요없는 심플한 프로그램.http://winmerge.org/위 툴보다 훨씬 진화한 툴. 그동안 무척이나 필요했던 툴.]]></description>
+					<pubDate>Wed, 07 Nov 2007 10:56:07 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오라클]]></category>
+					<title><![CDATA[오라클 인덱스 모니터링]]></title>
+					<link>http://blog.naver.com/jinoxst/140044285453</link>
+					<guid>http://blog.naver.com/jinoxst/140044285453</guid>
+					<description><![CDATA[
+SQL&gt;alter index 인덱스 monitoring usage;
+인덱스를 모니터링 하겠다는 명령어. SQL&gt; select index_name,monitoring,used,start_monitoring,end_monitoring from v$object_usage;
+SQL을 실행하고 위 명령어를 통해서 인덱스의 모니터링 결과 확인 INDEX_NAME MON USE START_MONITORING END_MONITORING------------------------------ --- --- ------------------- -------------------IDX_EXAM1  YES NO 11/03/2007 19:33:13IDX_EXAM2 YES YES 11/03/2007 19:30:02IDX_EXAM3 YES YES 11/03/2007 17:06:20
+인덱스의 모니터링 결과이다. USE 부분을 보면YES가 현재 사용되고 있는 인덱스라는 의미이며, NO는 사용되고 있지 않다.......]]></description>
+					<pubDate>Sat, 03 Nov 2007 20:50:18 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[기타]]></category>
+					<title><![CDATA[MicroSoft Virtual PC 사용시 밖으로 나오는 방법]]></title>
+					<link>http://blog.naver.com/jinoxst/140043507435</link>
+					<guid>http://blog.naver.com/jinoxst/140043507435</guid>
+					<description><![CDATA[
+ctrl + alt또는 alt + alt 키를 동시에 눌러준다. 물론 ctrl + alt + del 키를 동시에 눌러도 되지만 그러면 매니저가 실행되니 귀찮잖아. - 끝 -]]></description>
+					<pubDate>Sat, 13 Oct 2007 23:26:03 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[javascript]]></category>
+					<title><![CDATA[오늘은 기념일로부터 몇번째 날일까?]]></title>
+					<link>http://blog.naver.com/jinoxst/140042881923</link>
+					<guid>http://blog.naver.com/jinoxst/140042881923</guid>
+					<description><![CDATA[
+&lt;SCRIPT&gt; &lt;!--today = new Date();sday = new Date("June 04 2007");//standard datedaysAfter = (today.getTime() - sday.getTime()) / (1000*60*60*24);
+document.write("&lt;center&gt;standard date : "+sday.getYear()+"."+(sday.getMonth()+1)+"."+sday.getDate()+" &lt;BR&gt;today : " + today.getYear() + "." + (today.getMonth()+1) + "." + today.getDate() + "&lt;BR&gt;&lt;BR&gt;");
+document.write("today is &lt;font color=red&gt;&lt;b&gt; "+Math.ceil(daysAfter)+"&lt;/b&gt;&lt;/font&gt;'s day since then "+sday.getYear()+"."+(sday.getMonth()+1)+"."+sday.getDate()+"&lt;/center&gt;"); //--&gt;&lt;/S.......]]></description>
+					<pubDate>Wed, 26 Sep 2007 17:21:06 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[javascript]]></category>
+					<title><![CDATA[기준일로부터 N일(100일, 1000일)째 날짜 구하기]]></title>
+					<link>http://blog.naver.com/jinoxst/140042881162</link>
+					<guid>http://blog.naver.com/jinoxst/140042881162</guid>
+					<description><![CDATA[
+&lt;SCRIPT&gt; &lt;!--var fday = 100;sday = new Date("June 04 2007");tday = sday.getTime() + (fday - 1) * 1000 * 60 * 60 * 24;var xxx = new Date(tday);document.write("day : "+xxx.getYear()+"."+(xxx.getMonth()+1)+"."+xxx.getDate());//--&gt;&lt;/SCRIPT&gt; fday의 값을 원하는 값으로 수정하면 됨.  참고로 오늘이 기준일이라면 오늘은 1일째이고 내일은 2일째가 된다. 맞나? - 끝 -]]></description>
+					<pubDate>Wed, 26 Sep 2007 16:57:30 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오라클]]></category>
+					<title><![CDATA[exists 키워드를 사용한 오라클 쿼리 튜닝]]></title>
+					<link>http://blog.naver.com/jinoxst/140042727817</link>
+					<guid>http://blog.naver.com/jinoxst/140042727817</guid>
+					<description><![CDATA[조건에 만족하는 테이터가 테이블 내에 존재하는지 유무 체크하는 로직으로 테이블A의 PK는 아래와 같다.
+PK1
+PK2
+PK3 쿼리에서 exists 가 사용된 곳만 잘 보면 되겠다. ---------------- 샘플 예제 1 -------------------
+select case when MCNT=1 then '有' else '無' end MSTfrom( select case when length(trim(a.PK2)) is null then 1 when length(trim(a.PK2))&gt;0 and exists ( select rowid from 테이블A c where a.PK1=c.PK1 and c.PK2=' ' and a.PK3=c.PK3 ) then 1 else 0 end MCNT from 테이블Aa where a.PK1=:PK1 and a.PK2=:PK2 and a.PK3=:PK3) ---------------- 샘플 예제2 -------------------
+SELECT count(*)F.......]]></description>
+					<pubDate>Fri, 21 Sep 2007 17:17:45 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오라클]]></category>
+					<title><![CDATA[알아두면 편리한 WITH 키워드 및 rank() 메소드]]></title>
+					<link>http://blog.naver.com/jinoxst/140042725095</link>
+					<guid>http://blog.naver.com/jinoxst/140042725095</guid>
+					<description><![CDATA[
+뷰를 따로 만들어서 참조하는 형식보다는 하나의 뷰에서 모든 처리를 하는 것이 속도면에서 엄청난 차이를 보이더라. 이때 하나의 뷰에 WITH키워드를 사용하면 두개의 뷰를 하나의 뷰로 만들수 있다.  또한 그룹별로 랭킹을 만드려할 때 사용하기 까다로운 rownum대신에 rank()메소드를 사용하면 상당히 쉽게 쿼리를 작성할 수 있다. 아래는 WITH 및 rank() 메소드가 적용된 샘플코드다. create or replace view 뷰이름asWITH WARI as( select seq, wname, qno
+ from ( select  rank() over (partition by t.qno order by s.wseq) seq, s.wname, t.qno, s.wseq from테이블A t,테이블B s  where t.qno=s.qno and s.wflag='1' and leng.......]]></description>
+					<pubDate>Fri, 21 Sep 2007 16:00:27 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오라클]]></category>
+					<title><![CDATA[자신이 작성한 오라클 뷰의 스크립트 확인하기]]></title>
+					<link>http://blog.naver.com/jinoxst/140042724958</link>
+					<guid>http://blog.naver.com/jinoxst/140042724958</guid>
+					<description><![CDATA[간단하네. SELECT TEXT FROM USER_VIEWS WHERE VIEW_NAME='뷰이름' 
+- 끝 -]]></description>
+					<pubDate>Fri, 21 Sep 2007 15:56:04 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오라클]]></category>
+					<title><![CDATA[데이터 안의 개행문자를 치환하는 쿼리]]></title>
+					<link>http://blog.naver.com/jinoxst/140042717716</link>
+					<guid>http://blog.naver.com/jinoxst/140042717716</guid>
+					<description><![CDATA[
+select REPLACE((REPLACE(컬럼명, CHR(13), '')), CHR(10), ' ') from 테이블명
+단, 위 쿼리는 윈도우에 설치된 오라클의 경우에만사용할 것. 아래는 참고 자료임.
+改行コ&#12540;ド 多くの開&#30330;言語では改行をあらわす記&#21495; '\r' や '\n' などがある。しかし、SQL や PL/SQL にはない。代わりに CHR &#38306;&#25968;を使用する。CHR(13) ... キャリッジリタ&#12540;ン( CR )
+CHR(10) ... ラインフィ&#12540;ド( LF )
+改行が CR+LF か LF のみかは OS によって異なるので注意が必要。Windows 系 : CR + LF
+UNIX 系    : LF のみ]]></description>
+					<pubDate>Fri, 21 Sep 2007 11:09:56 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오라클]]></category>
+					<title><![CDATA[오라클 spool명령어를 사용하여 작업결과 csv파일로 만들기]]></title>
+					<link>http://blog.naver.com/jinoxst/140042157219</link>
+					<guid>http://blog.naver.com/jinoxst/140042157219</guid>
+					<description><![CDATA[
+set echo offset null @set pages 0set colsep ','set trimspool onset lines 30000set termout off spool ./00091_수정전_1.csvselect * from테이블1wherePk1 = '00091' andPk2 in ('00091','00061')spool off spool ./00091_수정후_2.csvselect * from테이블2wherePk1='00091' andPK2 in ('00091','00061')spool off spool ./00091_건.csvselect count(*) from 테이블1where Pk1='00091' and PK2='00091';select count(*) from테이블2 where Pk1='00091' and PK2='00091'; prompt 수정;update 테이블1setPK2 = '00061' where PK1='00091' and PK2='00091';update테이블2 setPK2 = '00061' where PK1='00091' and PK2='00091';spo.......]]></description>
+					<pubDate>Wed, 05 Sep 2007 14:23:03 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[멋진글 모음]]></category>
+					<title><![CDATA[부시의 외교정책이 실패한 9가지 이유]]></title>
+					<link>http://blog.naver.com/jinoxst/140032798742</link>
+					<guid>http://blog.naver.com/jinoxst/140032798742</guid>
+					<description><![CDATA[워싱턴 리포트-3  부시의 외교정책이 실패한 9가지 이유   존 아이켄베리 프린스턴대학 교수의 심층 진단 
+압도적인 군사력에 입각한 선제공격론과 단독행동주의(unilateralism)를 핵심으로 하는 부시 미국 대통령의 외교정책은 실패했습니다. 국제사회의 거센 반대 속에 강행했던 이라크 침공과 점령은 미국에 대재앙을 가져왔습니다. 미국에 대한 국제사회의 신뢰와 권위는 땅에 떨어졌습니다. 미국이 2차세계대전 이후 반세기에 걸쳐 쌓아왔던 국제적 위신과 리더쉽을 회복하기까지는 그 이상의 오랜 시간이 소요될지도 모릅니다.  부시 외교정책의 이론을 제공했던 네오콘의 시대는 사실상 막을 내렸습니다. 물론 네오.......]]></description>
+					<pubDate>Fri, 29 Dec 2006 11:46:49 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[멋진글 모음]]></category>
+					<title><![CDATA[장군 출신 할아버지들과 `썩으러 가는 길' ]]></title>
+					<link>http://blog.naver.com/jinoxst/140032752052</link>
+					<guid>http://blog.naver.com/jinoxst/140032752052</guid>
+					<description><![CDATA[육군병장으로 제대하지는 않았지만 정말 씨니컬한 글의 최고봉이라 할 수 있을 것 같다. 노무현 대통령의 민주평통 연설을 두고 말이 많다. 확실히 대통령 품격에 어울리지 않는 거칠고 다듬어지지 않는 언어가 많았다.
+`군대에 썩으러 간다'는 발언 역시 한 나라의 대통령이 공개 석상에서 말하기는 적절치 않은 표현이다. 대통령의 이른바 군대 발언을 두고장군 출신 할아버지들이모여서 대책을 논의하고 성명을 내며 반발했다. "국민의 신성한 병역 의무를 모독하지 말고 정치적 목적으로 이용하지 말라. "젊은이들 군대에 가서 몇 년씩 썩히지 말고…"라는 발언은 70만 국군 장병에 대한 심각한 모독인 동시에 신성한 국토 방위 의무.......]]></description>
+					<pubDate>Thu, 28 Dec 2006 01:11:24 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[기타]]></category>
+					<title><![CDATA[엑셀이 너무 느릴때]]></title>
+					<link>http://blog.naver.com/jinoxst/140031978407</link>
+					<guid>http://blog.naver.com/jinoxst/140031978407</guid>
+					<description><![CDATA[상황 1. 바이러스에 감염된 것도 아니다. 2. 같은 엑셀파일이지만 로컬에서는 속도가 빠르다. 3. 네트워크로 연결된 파일서버에서 엑셀파일을 열때만 너무 느리다. 4. 엑셀만 그렇다. 5. PC 사양이 절대 나쁘지 않다. 6. 다른 사람은 안 그런데 내 PC 에서만 느리다. 결론 바이러스 체킹 프로그램을 확인해 본다. 노턴 안티 바이러스 프로그램의 경우 auto protect 기능이 있는데 네트웍에서 문서를 오픈할 경우, 특히 엑셀을 오픈할 경우 CPU 를 엄청 잡아먹는다. 더욱이 엑셀을 열고 문서 편집을 하는 순간 프로세스 및 CPU, 메모리 상황을 관찰해보면 마치 엑셀 프로그램 자체가 CPU 를 많이 잡아먹는 걸.......]]></description>
+					<pubDate>Fri, 08 Dec 2006 09:04:44 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[기타]]></category>
+					<title><![CDATA[기본브라우저 파이어폭스에서 IE로 설정변경]]></title>
+					<link>http://blog.naver.com/jinoxst/140031967936</link>
+					<guid>http://blog.naver.com/jinoxst/140031967936</guid>
+					<description><![CDATA[IE 의 도구 &gt; 인터넷 옵션 &gt; 프로그램 &gt; 웹설정 원래대로... 정말 많이 헤멨다. - 끝 -]]></description>
+					<pubDate>Thu, 07 Dec 2006 22:42:40 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[세미나 소식]]></category>
+					<title><![CDATA[리차드 스톨만 초청 강연회]]></title>
+					<link>http://blog.naver.com/jinoxst/140030460908</link>
+					<guid>http://blog.naver.com/jinoxst/140030460908</guid>
+					<description><![CDATA[http://kldp.org/node/74749 지난주 토요일 스톨만의 강연회에 다녀왔다. 스톨만의 강연회에 참석한 이유는 딱 두가지였다.첫째,오래전 GNU 선언문을 감동적으로 읽으며 직접 글을 쓴 사람을 만나보고 싶었다. 둘째, 요즘 너무 무기력해졌다. 어떤 돌파구를 마련하기 위한 기운을 누군가에게서 받고 싶었다. 다시 정신을 차리기 위한 자극제가 절실했다. 사람이 많이 올것에 대비해 강연시작 시간보다 1시간 일찍 가기로 했는데, 연대에서 좀 헤메다가 45분전에 강연장에 도착할 수 있었다. 아직은 사람이 별로 없어서 다행이었다. 시간도 여유있고 해서 가방에서 책을 집어 들었다. 요즘은 컨디션이 별로 좋지 않아서 책을 많이 읽지는.......]]></description>
+					<pubDate>Tue, 31 Oct 2006 16:51:33 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[세미나 소식]]></category>
+					<title><![CDATA[Firefox 2 Seoul Party]]></title>
+					<link>http://blog.naver.com/jinoxst/140030460847</link>
+					<guid>http://blog.naver.com/jinoxst/140030460847</guid>
+					<description><![CDATA[http://www.firefoxparty.com/parties/view/3]]></description>
+					<pubDate>Tue, 31 Oct 2006 16:50:24 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[멋진글 모음]]></category>
+					<title><![CDATA[멋진글 url]]></title>
+					<link>http://blog.naver.com/jinoxst/140030416646</link>
+					<guid>http://blog.naver.com/jinoxst/140030416646</guid>
+					<description><![CDATA[http://www.zmag.org/CHOMSKY/
+=&gt;MIT 의 언어 및 철학자 촘스키 교수의 글을 볼 수 있다.]]></description>
+					<pubDate>Mon, 30 Oct 2006 14:16:34 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오픈소스]]></category>
+					<title><![CDATA[리눅스 관련 url]]></title>
+					<link>http://blog.naver.com/jinoxst/140030287168</link>
+					<guid>http://blog.naver.com/jinoxst/140030287168</guid>
+					<description><![CDATA[http://kldp.org/KoreanDoc/html/PoweredByDNS-KLDP/PoweredByDNS.html
+=&gt; DNS 서버에 관련된 글]]></description>
+					<pubDate>Fri, 27 Oct 2006 14:21:01 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[web 2.0]]></category>
+					<title><![CDATA[포털은 저물고 웹 2.0이 떴다(신문기사)]]></title>
+					<link>http://blog.naver.com/jinoxst/140030046030</link>
+					<guid>http://blog.naver.com/jinoxst/140030046030</guid>
+					<description><![CDATA[“누구나 콘텐츠 만들고 함께 나누며 즐긴다” 
+참여·공유·개방 사이트 웹 2.0 폭발적 성장세 인터넷뱅킹·영화 예매 기업들도 잇따라 도입 
+미국 닐슨 넷레이팅즈사(社). 인터넷 시장 조사 분야에서 가장 권위 있는 이 회사는 지난 8월 깜짝 놀랄만한 자료를 발표했다. ‘급성장하고 있는 웹 사이트 브랜드.’닐슨 넷레이팅즈사는 이 보고서를 통해 “지난 1년 동안 가장 성장 속도가 빠른 미국 내 10개 사이트 중에서 절반이 UCC(User created contents·소비자 직접 생산 콘텐츠) 기반의 웹 서비스였다”고 공개했다.  구체적으로는 ‘미국판 싸이월드’로 불리는 마이스페이스(My Space)의 고객이 지난 1년 동안에 3배 가까이 늘어난 것을.......]]></description>
+					<pubDate>Sat, 21 Oct 2006 09:32:26 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[수학]]></category>
+					<title><![CDATA[수학 관련 url]]></title>
+					<link>http://blog.naver.com/jinoxst/140029614214</link>
+					<guid>http://blog.naver.com/jinoxst/140029614214</guid>
+					<description><![CDATA[http://r27.jp/quiz/across-or-die/ www.msquare.or.kr]]></description>
+					<pubDate>Mon, 09 Oct 2006 17:25:28 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오픈소스]]></category>
+					<title><![CDATA[암호화 관련]]></title>
+					<link>http://blog.naver.com/jinoxst/140029286803</link>
+					<guid>http://blog.naver.com/jinoxst/140029286803</guid>
+					<description><![CDATA[http://csrc.nist.gov/cryptval/ http://www.kisa.or.kr/kisa/kcac/jsp/kcac_3010_02.jsp http://java.sun.com/j2se/1.4.2/docs/guide/security/jce/JCERefGuide.html http://www.securingjava.com/]]></description>
+					<pubDate>Fri, 29 Sep 2006 14:47:48 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[c 언어]]></category>
+					<title><![CDATA[유클리드 호제법을 이용한 두 수의 최대공약수 구하기]]></title>
+					<link>http://blog.naver.com/jinoxst/140029284756</link>
+					<guid>http://blog.naver.com/jinoxst/140029284756</guid>
+					<description><![CDATA[/*** 유클리드 호제법을 이용한 최대 공약수를 구하는 c 소스*/#include &lt;stdio.h&gt;
+int a, b;//a 와 b 의 최대 공약수를 구한다.int q;//몫int r;//나머지int tmp;//임시 변수
+int cal(int, int);
+int main(void){
+printf("두 수를 입력하시오\n");scanf("%d %d", &amp;a, &amp;b);printf("최대공약수 : %d\n", cal(a, b));
+return 0;}
+/*** 유클리드 호제법에 의한 두 수 a, b 의 초대 공약수를 구하는 메소드*/int cal(int a, int b){if(a &lt; b){tmp = a;a = b;b = tmp;}
+r = a % b;while(r!=0){q = b / r;r = b % r;b = (b - r) / q;}return b;}]]></description>
+					<pubDate>Fri, 29 Sep 2006 13:57:24 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[Music]]></category>
+					<title><![CDATA[Links]]></title>
+					<link>http://blog.naver.com/jinoxst/140028342938</link>
+					<guid>http://blog.naver.com/jinoxst/140028342938</guid>
+					<description><![CDATA[http://www.koreus.com/files/200408/radiohead_creep.html http://www.myspace.com/koreanfuntwo http://blog.naver.com/candlep64?Redirect=Log&amp;logNo=60026406505]]></description>
+					<pubDate>Sun, 03 Sep 2006 20:46:32 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[일어공부]]></category>
+					<title><![CDATA[일본어 공부 관련 url]]></title>
+					<link>http://blog.naver.com/jinoxst/140027385006</link>
+					<guid>http://blog.naver.com/jinoxst/140027385006</guid>
+					<description><![CDATA[
+http://www.peercast.org/
+=&gt; 일본어 라디오를 들을수 있는 싸이트 http://shirayuki.saiin.net/~sourenki/ao/isshu/100_08.htm http://hukumusume.com/douwa/pc/jap/index.html
+=&gt; 일본의 옛날 이야기 모음 http://www.asagaku.com/shougaku/index.html
+=&gt;아사히초등학생신문 http://www.yomiuri.co.jp/
+=&gt;요미우리 온라인]]></description>
+					<pubDate>Fri, 11 Aug 2006 14:26:03 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오픈소스]]></category>
+					<title><![CDATA[톰캣 4.1.x 버젼에서 servlet 호출시 404 Not Found 에러]]></title>
+					<link>http://blog.naver.com/jinoxst/140025954612</link>
+					<guid>http://blog.naver.com/jinoxst/140025954612</guid>
+					<description><![CDATA[요즘은 웹 싸이트 구축시 대부분 프레임웍을 사용하고 /WEB-INF/web.xml 에 서브릿 매핑을 사용한다. 따라서 요즘은 잘 사용하지 않는 교과서에나 등장할 법한 아래와 같은 서브릿호출방법이 있다고 하자.  그리고 대부분 jsp 입문 공부할 때 한번쯤 이런식으로 작성해 봤을 것이다. "/컨텍스트/servlet/com.google.HelloServlet" 를 호출한다면 HTTP Status 404 - /컨텍스트/servlet/com.google.HelloServlet 
+... 이런 쉣 같은 시추에이션에 빠질 수 있다. 이땐, /톰켓홈/conf/web.xml 을 열자... 그리고 주석으로 처리되어 있는 &lt;servlet-mapping&gt; &lt;servlet-name&gt;invoker&lt;/servlet-name&gt; &l.......]]></description>
+					<pubDate>Tue, 04 Jul 2006 17:02:25 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[자바 노하우]]></category>
+					<title><![CDATA[톰캣 start 할때 클래스 기동하기]]></title>
+					<link>http://blog.naver.com/jinoxst/140025041203</link>
+					<guid>http://blog.naver.com/jinoxst/140025041203</guid>
+					<description><![CDATA[톰캣이 기동할때 설정파일이나 로그 관련 클래스혹은기타 네트웍 관련 소켓서버의 구동, 각종 xml데이터를 메모리에 올리는 작업등등 시스템 운영에 필요한 기능들이 미리 쫙 준비가 되면 매우 편리할 것이다. 여러 가지 방법이 있지만 여기서는 서브렛을 이용하는 간단한 방법을 소개한다.
+아주 간단하니 일단 코드부터 살펴보자. public class BootServlet extends HttpServlet{public void init(ServletConfig config) {systemSet();}private void systemSet(){/** 각종 시스템 초기화 작업은 여기에...*/}} 위 BootServlet 클래스는 HttpServlet 클래스를 상속받고 있으며 init 을 overriding 해 주면 된다. 톰켓 서버가 구동될때.......]]></description>
+					<pubDate>Thu, 08 Jun 2006 15:55:58 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오픈소스]]></category>
+					<title><![CDATA[스트럿츠와 log4j]]></title>
+					<link>http://blog.naver.com/jinoxst/140025040686</link>
+					<guid>http://blog.naver.com/jinoxst/140025040686</guid>
+					<description><![CDATA[스트럿츠는 내부적으로 log4j 를 사용한다.
+로그 레벨을 debug 로 설정하고 웹 서버(톰캣)을 구동하면 스트럿츠 내부적으로 무한로직이 돌면서 debug 로그를 하염없이 계속 쌓는 경우가 발생한다. 편법이지만 이럴때는 로그 레벨을 info 로 설정하고 다음과 같이 사용하면 된다. &lt;?xml version="1.0" encoding="euc-kr" ?&gt;&lt;!DOCTYPE log4j:configuration SYSTEM "log4j.dtd"&gt;&lt;log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/"&gt;
+&lt;appender name="DailyFile" class="org.apache.log4j.DailyRollingFileAppender"&gt;&lt;param name="File" value="로그파일경로/info.log"/&gt;&lt;param name="Da.......]]></description>
+					<pubDate>Thu, 08 Jun 2006 15:37:07 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[자바 노하우]]></category>
+					<title><![CDATA[톰캣 4.1.31 버젼에서 한글 이미지 문제 해결]]></title>
+					<link>http://blog.naver.com/jinoxst/140025039856</link>
+					<guid>http://blog.naver.com/jinoxst/140025039856</guid>
+					<description><![CDATA[jsp 안에서 다음과 같이 코딩하면  &lt;img src="/test/image/pic/홍길동.jpg"&gt; 이미지 파일이 존재해도 화면에 나타나지 않는다. 결국 한글문제인데...톰캣 버젼별로이런 증상이 다르다고는 하나 다음과 같이 해보자. 1. 톰켓 server.xml 의 Connetor 부분에 URIEncoding="euc-kr" 을 추가한다. 2. java.net.RLEncoder.encode(이미지파일, 인코딩타입); 을 사용한다. 단, 주의할 것은 위 인코딩 메소드를 사용할때 한글로 된 이미지파일만 인코딩해야 한다는 점과한글 사이에 띄어쓰기 공백이 있어서는 안된다. 예를 들어 아래와 같이 사용하면 된다.
+&lt;img src="/test/image/pic/&lt;%=URLEncoder.encode("홍길.......]]></description>
+					<pubDate>Thu, 08 Jun 2006 14:56:51 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[자바 노하우]]></category>
+					<title><![CDATA[정적과 동적인 jsp include 지시문]]></title>
+					<link>http://blog.naver.com/jinoxst/140024938477</link>
+					<guid>http://blog.naver.com/jinoxst/140024938477</guid>
+					<description><![CDATA[1. 정적인 include 지시문의 예 : &lt;%@include file="/jsp/common/session.jsp"%&gt;
+정적이란 단어에 이미 모든 의미가 함축되어 있다. jsp 파일이 java 파일로 수정되기 전에 session.jsp 파일의 모든 내용이 부모의 jsp 로 include 된다. 그 후에 부모의 jsp 는 java -&gt; class 파일-&gt; html문서 -&gt;웹브라우저로 랜더링된다. 따라서 session.jsp 파일 안에서 전역변수로 String greeting = "Hello World"; 라고 정의했다면 session.jsp 를 사용하는 부모 jsp 에서는 서브릿 태그(&lt;%%&gt;) 에서 컴파일 에러 없이 바로 greeting 변수를 사용할 수 있다. 2. 동적인 include 지시문의 예 : 
+&lt;jsp:include page="/jsp/common/.......]]></description>
+					<pubDate>Mon, 05 Jun 2006 10:37:07 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[mobile]]></category>
+					<title><![CDATA[mobile 게임 관련 url]]></title>
+					<link>http://blog.naver.com/jinoxst/140024747145</link>
+					<guid>http://blog.naver.com/jinoxst/140024747145</guid>
+					<description><![CDATA[http://developer.xce.co.kr/korean/ http://cass.magicn.com/cass/login_go.do http://java.ez-i.co.kr/wire/index.asp http://61.78.62.162/~gavaplus/ http://wipi.or.kr/ http://www.mobilejava.co.kr/ http://developer.wipi.or.kr/]]></description>
+					<pubDate>Mon, 29 May 2006 23:39:54 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[멋진글 모음]]></category>
+					<title><![CDATA[대한민국 10대들에게 단체리플함 / 김어준]]></title>
+					<link>http://blog.naver.com/jinoxst/140024662373</link>
+					<guid>http://blog.naver.com/jinoxst/140024662373</guid>
+					<description><![CDATA[1. 
+지난 번 ‘10대들에게 고백함’ 글에 메일 쇄도했다. 웬일이니. 10대도 한겨레 보는구나. 장하다. 그 대부분은 엉아 어떻게 살아야 하나요, 인생 상담 리퀘스트. 두발 자유화란 고리쩍 이슈가 여적이니 기막혀 글쓰긴 했다만 이실직고 하건대 본인 평소 10대 문제에 극히 무관심한, 내 한 몸 건사하기도 부산한 작자다. 10대 문제에 관한한, 뭐 좀 삐거덕대는 구석 있는 거야 그 나이에 당연한 거고 다소간 좌충우돌 후 대충 알아서 균형들 잡아갈 텐데 청소년 이야기만 나왔다 하면 어른들 뭔 각을 그리 잡고 심각하게 호들갑 떨어대는지 나 원 참, 주의자다. 이따위 사고방식이니 상담엔 한참 자격미달 되겠으나 어쨌든 뱉어 놓은 말들이.......]]></description>
+					<pubDate>Sat, 27 May 2006 10:10:33 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[일어공부]]></category>
+					<title><![CDATA[일본어 숫자 세기]]></title>
+					<link>http://blog.naver.com/jinoxst/140024453976</link>
+					<guid>http://blog.naver.com/jinoxst/140024453976</guid>
+					<description><![CDATA[출처 : ouji21 님 일본어 기본 숫자 익히기   
+일본어 숫자 일본어 숫자 일본어 숫자 
+れい/ゼロ 0 いち 1 に 2 
+さん 3 よん/し 4 ご 5 
+ろく 6 なな/しち 7 はち 8 
+きゅう/く 9 じゅう 10 じゅういち 11 
+じゅうに 12 じゅうさん 13 じゅうよん/じゅうし 14 
+じゅうご 15 じゅうろく 16 じゅうしち/じゅうなな 17 
+じゅうはち 18 じゅうきゅう/じゅうく 19 にじゅう 20 
+さんじゅう 30 よんじゅう 40 ごじゅう 50 
+ろくじゅう 60 ななじゅう.......]]></description>
+					<pubDate>Sat, 20 May 2006 12:05:01 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[javascript]]></category>
+					<title><![CDATA[000 싸이트 자바스크립트 유틸 메소드 모음]]></title>
+					<link>http://blog.naver.com/jinoxst/140023563407</link>
+					<guid>http://blog.naver.com/jinoxst/140023563407</guid>
+					<description><![CDATA[/*************************************************************최종수정일:
+일반함수
+btMov_AddListcheckNumber
+일반함수
+BT_getComboData 셀렉트 생성BT_CheckLastAcctno 계좌번호 끝에 3자리 000 제거BT_makeAcntnoDash 계좌번호에 하이픈을 넣음BT_MakeAcntList 계좌번호를 리스트로 만듬BT_MakePayAcntList 계좌번호를 리스트로 만듬BT_ReduceDash 하이픈을 삭제BT_makeCardnoDash 카드번호 하이픈 넣기BT_getToday 오늘 날짜열을 YYYYMMDD의 형식으로 만듬BT_make2Length 월일을 두자리로 만듬
+BT_makeCardnoDash 카드번호 하이픈 넣음BT_makeMembernoDash 회원번호(16자리) 하이픈 넣기
+BT_TrimSpace 공백없애기
+BT_calc 금액 더.......]]></description>
+					<pubDate>Tue, 18 Apr 2006 09:45:31 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[javascript]]></category>
+					<title><![CDATA[10진수를 2/8/16진수 변환 및 역변환 소스]]></title>
+					<link>http://blog.naver.com/jinoxst/140023522421</link>
+					<guid>http://blog.naver.com/jinoxst/140023522421</guid>
+					<description><![CDATA[&lt;html&gt;&lt;head&gt;&lt;title&gt;진수 변환&lt;/title&gt;&lt;script language="javascript"&gt;
+function transall(){document.all.value2.value = Number(document.all.input.value).toString(2);document.all.value8.value = Number(document.all.input.value).toString(8);document.all.value16.value = "0x" + Number(document.all.input.value).toString(16);}
+function trans2(){document.all.value2_.value = parseInt(document.all.value2.value, 2).toString(10);}
+function trans8(){document.all.value8_.value = parseInt(document.all.value8.value,8).toString(10);}
+function trans16(){document.all.value16_.value =.......]]></description>
+					<pubDate>Mon, 17 Apr 2006 17:18:43 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[web 2.0]]></category>
+					<title><![CDATA[web 2.0 관련 url]]></title>
+					<link>http://blog.naver.com/jinoxst/140023509533</link>
+					<guid>http://blog.naver.com/jinoxst/140023509533</guid>
+					<description><![CDATA[http://web2.wsj2.com/]]></description>
+					<pubDate>Mon, 17 Apr 2006 09:27:05 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[기타]]></category>
+					<title><![CDATA[기본 브라우저 설정 변경]]></title>
+					<link>http://blog.naver.com/jinoxst/140023402915</link>
+					<guid>http://blog.naver.com/jinoxst/140023402915</guid>
+					<description><![CDATA[익스플로어 및 파이어폭스 두개의 브라우저를 사용할때 기본 브라우저 설정을 바꾸는 방법이다. 
+1. 윈도우 시작 버튼 클릭  2. 기본 프로그램 설정 메뉴 선택  
+3. 프로그램 추가/제거 에서 사용자 지정 클릭  
+4. 원하는 브라우저 선택 후 확인 - 끝 - ]]></description>
+					<pubDate>Fri, 14 Apr 2006 16:12:27 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오픈소스]]></category>
+					<title><![CDATA[Lomboz J2EE 에디터 설치]]></title>
+					<link>http://blog.naver.com/jinoxst/140023157716</link>
+					<guid>http://blog.naver.com/jinoxst/140023157716</guid>
+					<description><![CDATA[예전부터 Lomboz에 매력을 느껴왔던 이유는 단 한가지였다.이클립스가 제공해주는 기본 자바 에디터 기능처럼jsp 서브렛을 코딩할 때에도자동완성및 컴파일 기능을 제공해 주었기 때문이다. 이 기능이 지원되지 않는다면 어쩔 수 없이 텍스트 에디터로 jsp 를 코딩 한 후해당 jsp를 실행시켜야만컴파일 에러를감지할 수 있었다. 롬보즈를 몰랐을때는 사실 불편한지 조차 몰랐지만 롬보즈를 한번 써본 후에는안 쓰면 뭔가 허전하고 손해보고 있다는 느낌을 지울 수가 없었다. 롬보즈를 설치 하려면 http://www.objectlearn.com/index.jsp에서 해당 zip 파일을 다운받은 후 압축을 풀면 된다. 오브젝트 웹에서는 롬보즈 설치 파일을 아래와 같.......]]></description>
+					<pubDate>Thu, 06 Apr 2006 10:59:09 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[오픈소스]]></category>
+					<title><![CDATA[이클립스 단축키 모음]]></title>
+					<link>http://blog.naver.com/jinoxst/140023100884</link>
+					<guid>http://blog.naver.com/jinoxst/140023100884</guid>
+					<description><![CDATA[사실 뭐 아래 이클립스 단축키 모음은 이제필요없을 듯 싶다.
+아래 그림과 같이 이클립스 환경설정&gt;일반&gt;키 메뉴를 누르면
+이클립스 단축키 및 편집 가능하도록 구성되어 있기 때문이다.  *************************************************** 이클립스 사용팁 및 단축키 모음 ****************************************************
+===== 실행 =====1. Ctrl + F11 : 바로 전에 실행했던 클래스 실행 ===== 소스 네비게이션 =====1. Ctrl + 마우스커서(혹은 F3) : 클래스나 메소드 혹은 멤버를 상세하게 검색하고자 할때2. Alt + -&gt;, Alt + &lt;- : 이후, 이전3. Ctrl + o : 해당 소스의 메소드 리스트를 확인하려 할때4........]]></description>
+					<pubDate>Tue, 04 Apr 2006 09:55:54 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[프로그래밍 서평]]></category>
+					<title><![CDATA[소프트웨어 산책]]></title>
+					<link>http://blog.naver.com/jinoxst/140023073053</link>
+					<guid>http://blog.naver.com/jinoxst/140023073053</guid>
+					<description><![CDATA[  임백준의 소프트웨어 산책 / 임백준 저 프로그래머가 패턴을 공부하고 그 안에 담긴 객체지향의 철학을 익혀야 하는 이유가 바로 여기에 있다. 관찰자 패턴이니, 공장 패턴이니, 장식자(decorator) 패턴이니, 싱글턴 패턴이니 하는 패턴의 이름을 외우는 것이 아니라 그들을 포착해서 해결하고자 하는 문제의 본질을 이해하는 것이 중요하다. 패턴의 결을 따라서 설계된 객체는 "Open to extension, close to modification" 의 원칙을 지킬 확률이 높다. 패턴에 녹아 있는 원리를 익힌 프로그래머는 이미 존재하는 코드에 손을 대는 것을 본능적으로 의심한다. if-else 구문보다 폴리모피즘을 먼저 생각하고, 수정보다 확장을 먼저 고.......]]></description>
+					<pubDate>Mon, 03 Apr 2006 09:42:21 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[ajax]]></category>
+					<title><![CDATA[AJAX 강의 7-4장 - 디버깅툴/Venkman(계속)]]></title>
+					<link>http://blog.naver.com/jinoxst/140022519551</link>
+					<guid>http://blog.naver.com/jinoxst/140022519551</guid>
+					<description><![CDATA[3. Break points 창
+for 문 안을 디버깅할때데이터가 많을 경우 일일히 Step Over 버튼을 눌러가며 확인하기는 정말 귀찮을 것이다. 만일 에러가일정한 지점 혹은 값에서 발생한다면 for 문의 모든 데이터를 확인할 필요없이 그 값이 나오는n 번째실행에서 제어를 멈추고 변수의 값을 확인하며 디버깅을 할 수 있으면 무척 편리할 것이다. 예를 들면서 설명하겠다. Source Code 창에 break point 를 걸면Breakpoints 창에도표시된다. 아래 그림은 AJAX 강의 4-9장 - 자동완성 기능 구현하기의 autoComplete.html 의setNames 메소드의 for 문안에서 nextNode 값을 얻어오는 부분에hard break point를 설정한 것으로해당 브레이크 포인트에 마.......]]></description>
+					<pubDate>Mon, 13 Mar 2006 23:39:52 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jinoxst</author>
+					<category><![CDATA[ajax]]></category>
+					<title><![CDATA[AJAX 강의 7-4장 - 디버깅툴/Venkman]]></title>
+					<link>http://blog.naver.com/jinoxst/140022355822</link>
+					<guid>http://blog.naver.com/jinoxst/140022355822</guid>
+					<description><![CDATA[이번 7-4장에서는 Venkman모질라 자바스크립트 디버거에 대해서 알아보자.  현재 Venkman 설치를 위한 Firefox Add-ons Venkman웹 싸이트는 파이어폭스 1.0까지만 지원하는 Venkman 이 올라와 있는 등 업데이트가 상당히 늦어지고 있다. 따라서 가장 최신 버젼의 Venkman 을 가장 최신버젼의 파이어폭스에 설치하기 위해서는 getahead venkman웹싸이트에 접속해서 설치를 하자. venkman development라는 Venkman 개발 싸이트도 있으나 getahead 싸이트에서 가장 최신버젼의Venkman 을 설치할 수 있다.  &lt;Venkman v0.9.86 이 설치가 된 그림&gt; Venkman 이 설치되었다면 파이어폭스 메인 메뉴의 도구 -&gt; JavaScript Debugger 를.......]]></description>
+					<pubDate>Tue, 07 Mar 2006 14:00:34 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

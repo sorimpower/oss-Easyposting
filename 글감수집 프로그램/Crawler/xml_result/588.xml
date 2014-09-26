@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[촌철살인(寸鐵殺人)]]></title>
+			<link>http://blog.naver.com/hahaj1</link>
+			
+				<image>
+					<url><![CDATA[http://blogpfthumb.phinf.naver.net/20130527_94/hahaj1_1369660743369w886j_PNG/Title.png?type=m2]]></url>
+					<title><![CDATA[촌철살인(寸鐵殺人)]]></title>
+					<link>http://blog.naver.com/hahaj1</link>
+				</image>
+			
+			<description><![CDATA[易地思之]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:42:56 +0900</pubDate>
+
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[TrueCrypt]]></category>
+					<title><![CDATA[TrueCrypt 무료 암호화 프로그램 개발 중단 소식]]></title>
+					<link>http://blog.naver.com/hahaj1/220044343405</link>
+					<guid>http://blog.naver.com/hahaj1/220044343405</guid>
+					<description><![CDATA[필자의 블로그에서 소개했던 무료 암호화 프로그램 “TrueCrypt(트루크립트)”가 개발 중단되었다는 소식이다. 공식 도메인(trueCrypt.org)은 더이상 제공되지 않고 소스포지(truecrypt.sourceforge.net) 사이트로 리다이렉트(재연결)되고 있으며, 기존 버전도 더이상 제공되지 않고 신규 7.2 버전은 MS의 비트로커(BitLocker)로 전환하는 방법을 안내하고 있을 따름이다. MS의 Windows XP 지원 종료 이후 TrueCrypt 프로그램의 개발도 중단되고, 제한이 많은 비트로커(BitLocker)로의 전환을 안내하는 것은 납득하기 어렵다. 필자가 구구절절 언급하기보다는 다른 링크 글을 확인하기 바란다. 필자는 대체 프로그램을 물색할 예정이며, TrueCryp.......]]></description>
+					<pubDate>Sat, 28 Jun 2014 23:43:16 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,TrueCrypt,트루크립트,암호화]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[HDD]]></category>
+					<title><![CDATA[Transcend StoreJet 25H3P 2TB 외장 하드 분해기]]></title>
+					<link>http://blog.naver.com/hahaj1/20209238514</link>
+					<guid>http://blog.naver.com/hahaj1/20209238514</guid>
+					<description><![CDATA[필자의 블로그에서 앞서 살펴본 트랜센드(Transcend)의 외장 하드 “스토어젯(StoreJet 25H3)” 2TB 제품에 대해 분해를 해 보았다. 물론 필자의 제품은 세부적으로는 “Transcend StoreJet 25H3P”이며, 여기서의 P는 Purple 색상을 말한다(다른 색상인 25H3B의 B는 Blue 색상을 의미). 일반적으로 완제품 외장 하드의 경우 분해를 고려하지 않은 것이 대부분인데, StoreJet 25H3 제품은 나사로 고정된 부분이 노출되어 있어서 시도를 해보게 되었다. 물론 일반적인 사용자분들의 경우 분해 시도는 비권장하는 바이다. 만약 분해를 하게 된다면 봉인(Seal) 스티커가 손상되기 때문에 A/S를 받을 수 없게 된다. 필자는 A/S를 포기하고 분해를 시.......]]></description>
+					<pubDate>Mon, 21 Apr 2014 21:55:08 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,트랜센드,Disassembly,Transcend,스토어젯,StoreJet,외장하드,외장스토리지,휴대용하드드라이브,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[HDD]]></category>
+					<title><![CDATA[Transcend 외장 하드 포맷 관련 도구 사용 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20209237585</link>
+					<guid>http://blog.naver.com/hahaj1/20209237585</guid>
+					<description><![CDATA[트랜센드(Transcend)의 외장 하드 제품에 지원되는 포맷(Format) 관련 도구의 사용 방법에 대해 살펴보고자 한다. 필자의 경우에는 “Transcend StoreJet 25H3P” 2TB 용량을 구입하였는데, 대부분의 외장 하드가 기본적으로 NTFS 파일 시스템으로 포맷되어 판매되는 것과 달리 트랜센드의 제품은 FAT32 파일 시스템으로 포맷되어 판매되고 있었다. 이는 크기가 4GB 이상인 파일을 다루는 데에는 제한이 따르므로 NTFS 파일 시스템으로 변환 또는 포맷이 필요할 수 있다. 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20209237585≫ Transcend StoreJet 25H3P 2TB 외장 하드 사용기 : http://blog.n.......]]></description>
+					<pubDate>Mon, 21 Apr 2014 21:38:44 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,트랜센드,Transcend,스토어젯,StoreJet,외장하드,외장스토리지,휴대용하드드라이브,Format,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[HDD]]></category>
+					<title><![CDATA[Transcend Elite 프로그램 사용 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20209237059</link>
+					<guid>http://blog.naver.com/hahaj1/20209237059</guid>
+					<description><![CDATA[트랜센드(Transcend)의 경우 자사의 제품과 관련하여 여러가지 소프트웨어를 제공하고 있는데, 필자가 구입한 “Transcend StoreJet 25H3P” 2TB 용량의 외장 하드를 기준으로 “Transcend Elite” 프로그램의 사용 방법에 대해 살펴보고자 한다. 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20209237059≫ Transcend StoreJet 25H3P 2TB 외장 하드 사용기 : http://blog.naver.com/hahaj1/20209129436▣ Transcend Elite(트랜센드 엘리트) 프로그램 사용 방법1. 들어가기에 앞서1-1. 트랜센드 외장 하드 내부에 기본 제공되는 파일과 폴더 구조는 아래와 같다. 먼저 “Activate Warranty.html, Ac.......]]></description>
+					<pubDate>Mon, 21 Apr 2014 21:29:21 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,트랜센드,Transcend,스토어젯,StoreJet,외장하드,외장스토리지,휴대용하드드라이브,Elite,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[HDD]]></category>
+					<title><![CDATA[Transcend StoreJet 25H3P 2TB 외장 하드 사용기]]></title>
+					<link>http://blog.naver.com/hahaj1/20209129436</link>
+					<guid>http://blog.naver.com/hahaj1/20209129436</guid>
+					<description><![CDATA[트랜센드(Transcend)의 외장 하드 “스토어젯(StoreJet) 25H3” 모델의 2TB 용량에 대한 사용기를 살펴보고자 한다. 본 제품은 2.5인치 크기이며, 필자가 구입한 모델은 세부적으로 “StoreJet 25H3P”이다(P는 Purple(자주색) 색상을 의미한다). 외부 충격에 특화된 특징과 저렴한 가격 때문에 구입을 하게 되었다. 특히 외부 충격에 대한 기준은 미 국방성 충격 시험 규격(ML-STD-810F)인데, 이러한 규격을 지원하는 다른 제품으로는 버팔로(Buffalo)의 일부 제품군과 WD(웨스턴 디지털)의 “My Passport” 제품군 전용인 “WD Nomad Case(케이스)” 등이 있다(후자는 방진과 방습 효과도 있음). 외장 하드의 경우 이동이 가능하다는 장점이 있.......]]></description>
+					<pubDate>Sat, 19 Apr 2014 22:05:27 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,트랜센드,Transcend,스토어젯,StoreJet,외장하드,외장스토리지,휴대용하드드라이브,HDD,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Hardware]]></category>
+					<title><![CDATA[버바팀(Verbatim) USB 메모리 OTG USB 3.0 간략 사용기]]></title>
+					<link>http://blog.naver.com/hahaj1/20209128628</link>
+					<guid>http://blog.naver.com/hahaj1/20209128628</guid>
+					<description><![CDATA[버바팀(Verbatim)의 USB 메모리 중 USB 3.0 규격을 지원하고 OTG 기능이 결합된 32GB 용량의 제품에 대해 간략하게 살펴보고자 한다. USB OTG(Universal Serial Bus On-The-Go) 기능은 컴퓨터의 개입없이 스마트폰 등의 장비에 USB 규격을 지원하는 저장 장치를 바로 연결하여 사용할 수 있는 것을 말한다. 물론 OTG 기능을 사용하기 위해서는 스마트폰과 같은 장비에서 이를 우선적으로 지원해야 하며, USB 저장 장치는 OTG 케이블 등을 통해 연결할 수 있으나 USB 메모리와 통합된 것은 간편하게 연결할 수 있는 장점이 있다. 제품의 가격은 필자의 구매 시점 기준으로 32,000원(배송비는 별도)이었으며, 본 게시물 작성 시점 기준으로는 다나.......]]></description>
+					<pubDate>Sat, 19 Apr 2014 21:49:03 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,USB,USB메모리,OTG,버바팀,Verbatim,ATTO,CrystalDiskMark,HDTune,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Hardware]]></category>
+					<title><![CDATA[마하 익스트림 MX-ES USB 3.0 SLC 32GB 간략 사용기]]></title>
+					<link>http://blog.naver.com/hahaj1/20209128098</link>
+					<guid>http://blog.naver.com/hahaj1/20209128098</guid>
+					<description><![CDATA[마하 익스트림(Mach Xtreme)의 USB 메모리 중 USB 3.0 규격을 지원하는 MX-ES 모델의 32GB 용량에 대해 간략 살펴보고자 한다. 메모리 타입은 SLC 타입으로 읽기(Read) 속도와 쓰기(Write) 속도가 모두 빠른 제품이다. 필자의 테스트 환경은 USB 3.0 인터페이스가 네이티브로 지원되지 않는 구형 메인보드(Gigabyte EP45-DS3R)에 USB 3.0 확장카드(Skydigital EZ-CTRL T2R2)를 설치한 상태로 MX-ES 제품의 적절한 테스트 환경이 아니다. 다만 필자가 추후 참고하기 위하여 간략하게 작성해 두고자 한다. 제품의 가격은 필자의 구매 시점 기준으로 66,560원(배송비는 별도)이었으며, 본 게시물 작성 시점 기준으로는 다나와 최저가 62,000원 정도.......]]></description>
+					<pubDate>Sat, 19 Apr 2014 21:38:42 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,USB,USB메모리,마하익스트림,MX-ES,MXUB3SES,ATTO,CrystalDiskMark,HDTune,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Security]]></category>
+					<title><![CDATA[Windows XP 계속 사용하면 무슨 일이 벌어질까?]]></title>
+					<link>http://blog.naver.com/hahaj1/20208477471</link>
+					<guid>http://blog.naver.com/hahaj1/20208477471</guid>
+					<description><![CDATA[Windows XP 운영체제가 2014년 4월 8일 기준으로 연장 지원이 중단된다. 즉 MS(마이크로소프트)에서는 더이상 보안 취약점 등에 대해 수정이나 보완을 하지 않게 된다. 이에 따라 신규 보안 취약점이 발생한다면 치명적인 위험에 노출될 수도 있을 것이다. 따라서 Windows XP 운영체제는 이제 더이상 사용하지 않아야 할 때인 것 같다. 물론 Windows XP 운영체제는 일반적인 사용시에도 그동안 별로 권장되지는 않았다. 예를들면 대용량 저장 장치 사용이 제대로 지원되지 않았고, 최신의 SSD 사용시에도 미흡한 부분이 존재하며, 특히 최신 메인보드에서는 Windows XP 운영체제를 아예 지원하지도 않았다. 그렇다면, Windows XP 운영체제를 계속.......]]></description>
+					<pubDate>Tue, 08 Apr 2014 23:15:14 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,MS,마이크로소프트,보호나라,KISA,한국인터넷진흥원,바이러스,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Security]]></category>
+					<title><![CDATA[토렌트 배포 파일 악용한 바이러스 간단 예방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20208292790</link>
+					<guid>http://blog.naver.com/hahaj1/20208292790</guid>
+					<description><![CDATA[토렌트 배포 파일을 악용한 바이러스 감염을 예방할 수 있는 방법에 대해 간단하게 살펴보고자 한다. 필자의 블로그에서는 이미 상세한 글을 작성한 바 있으므로, 추가적인 내용은 링크 글을 살펴보기 바란다. 이하 필자의 Windows 7 64비트 운영체제 환경 기준이다. (※ 최종 수정 : 2014.04.07.)http://blog.naver.com/hahaj1/20208292790≫ 토렌트(Torrent) 파일로 유포되는 바이러스 예방법 :http://blog.naver.com/hahaj1/20137844231≫ 토렌트 프로그램(μtorrent ; uTorrent, 유토렌트, 뮤토렌트) 무설치 사용법과 다운로드 방법 :http://blog.naver.com/hahaj1/201760822941. 바이러스 백신을 사용하도록 한다. 대부분의 바이러스는 백신.......]]></description>
+					<pubDate>Sat, 05 Apr 2014 23:56:12 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,토렌트,토런트,Torrent,바이러스,바이러스백신,안티바이러스,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Security]]></category>
+					<title><![CDATA[개인정보유출, 신용정보업체는 과연 믿을수 있을까?]]></title>
+					<link>http://blog.naver.com/hahaj1/20203834901</link>
+					<guid>http://blog.naver.com/hahaj1/20203834901</guid>
+					<description><![CDATA[KCB(코리아크레딧뷰로) 신용정보업체 직원에 의한 KB국민카드, 롯데카드, NH카드 등의 금융기관의 회원 개인 정보가 모조리 털린 역대 최대의 정보 유출 사태가 발생했다. 과도한 개인 정보를 수집하고 보유하는 업체들의 보안 체계에 문제가 있다는 그리 놀라운 일도 아니다. 필자는 개인적으로는 보안에 많은 관심을 기울이고 사용하는 컴퓨터도 안전하게 관리하지만, 이처럼 업체 자체에 문제가 있으면 그동안의 노력도 상당수 허사일 수 밖에 없다. 그리고 이번 사건에서 주목할 점은 신용정보업체는 과연 괜찮을까 하는 것이다. 한국인터넷진흥원 주민등록번호 클린센터를 통해 주민등록번호 이용내역을 확인할 경우 “SCI 서울신용평가정보.......]]></description>
+					<pubDate>Fri, 24 Jan 2014 21:57:26 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,주민번호,주민등록번호,클린센터,개인정보,개인정보유출,신용정보업체,신용평가업체]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Security]]></category>
+					<title><![CDATA[랜섬웨어 또는 스케어웨어 등의 사기(가짜) 프로그램 제거 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20203139824</link>
+					<guid>http://blog.naver.com/hahaj1/20203139824</guid>
+					<description><![CDATA[필자의 블로그에서는 외국의 사기(가짜) 보안(백신) 프로그램(Fake AV, Fake Antivirus)의 제거 방법과 관련하여 오래 전부터 글을 작성한 바 있다. 최근 유행하는 부류의 경우에도 기존의 연장 선상에 있기 때문에 별도의 글을 더 작성하지는 않았었다. 그런데 “Smart Guard Protection(스마트 가드 프로텍션)”이라는 일종의 랜섬웨어(Ransomware) 내지는 스케어웨어(Scareware) 제거와 관련하여, 필자의 블로그에서는 특별히 글을 다루지 않았으나 검색을 통해 유입되는 결과, 해당 특정 개체의 제거 방법만을 염두에 두지 않고 포괄적으로 활용할 수 있는 방법의 작성을 의도하게 되었다. http://blog.naver.com/hahaj1/20203139824▣ 랜섬.......]]></description>
+					<pubDate>Tue, 14 Jan 2014 21:22:53 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,Malwarebytes,MBAM,Chameleon,HitmanPro,Kickstart,RescueDisk,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[HDD]]></category>
+					<title><![CDATA[WD My Passport Slim 2TB 외장 하드 사용기]]></title>
+					<link>http://blog.naver.com/hahaj1/20202621934</link>
+					<guid>http://blog.naver.com/hahaj1/20202621934</guid>
+					<description><![CDATA[필자가 최근 구입한 WD(Western Digital, 웨스턴 디지털)의 외장 하드(휴대용 하드 드라이브) 2.5인치 크기의 “WD My Passport Slim 2TB” 제품에 대해 살펴보고자 한다. 크기가 2.5인치인 2TB 용량의 제품은 3.5인치 크기에 비해 상대적으로 비싸지만 휴대가 간편하다는 장점이 있다(3.5인치는 크고 무거우며 별도의 전원 어댑터도 필요). 필자의 경우에는 “WD Nomad Case”에 장착하기 위해서 두께가 얇은 제품을 찾다보니 최종적으로 이 제품을 선택하게 되었다. “WD Nomad Case”의 경우 기본적으로 공식 지원하는 제품은 “WD My Passport” 제품 중 500GB~1TB 용량이며 2TB 제품은 두께가 두꺼워서 공식 지원하지는 않고 있다. “WD My .......]]></description>
+					<pubDate>Mon, 06 Jan 2014 23:08:54 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,WD,WesternDigital,웨스턴디지털,MyPassport,Portable,외장하드,외장스토리지,휴대용하드드라이브,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Avira]]></category>
+					<title><![CDATA[Avira Free Antivirus 2014 보안 제품 간략 살펴보기]]></title>
+					<link>http://blog.naver.com/hahaj1/20201942509</link>
+					<guid>http://blog.naver.com/hahaj1/20201942509</guid>
+					<description><![CDATA[무료 백신 “Avira Free Antivirus 2014” 버전에 대해 간략 살펴보고자 한다. 필자가 살펴볼 당시 기준으로는 내부적인 제품 버전은 최초 설치시 “14.0.1.759” 버전이었으며 계속 살펴보던 중 “14.0.2.286” 버전으로 업데이트된 것을 확인할 수 있었다. 필자는 무료 제품에 웹 보호(Web Protection, WebGuard) 기능이 추가된 이후부터는 잘 살펴보지 않았는데, 그 이유는 툴바 사용을 전제로 한 구현 방식 때문이었다. 아무튼 2014 버전의 영문판은 지난 10월에 이미 공개된 바 있으며, 한글판은 12월이 되어서야 제공되기 시작했다. 그리고 무료 버전의 경우 팝업 광고(Notifier Ads) 방식도 완전히 폐지되었다(제작사의 블로그에는 2013.0.......]]></description>
+					<pubDate>Thu, 26 Dec 2013 21:25:24 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,Avira,아비라,AntiVir,바이러스백신,안티바이러스,Antivirus,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Avira]]></category>
+					<title><![CDATA[Avira Free Antivirus 2014 환경설정 살펴보기]]></title>
+					<link>http://blog.naver.com/hahaj1/20201764813</link>
+					<guid>http://blog.naver.com/hahaj1/20201764813</guid>
+					<description><![CDATA[무료 백신 “Avira Free Antivirus 2014” 버전(내부적으로는 14.0.1.759 버전)의 “환경설정(구성)”에 대해 살펴보고자 한다(한국어 버전 기준). 기본적인 설정 그대로 사용해도 무방하지만 설정 강도를 조정하거나 오진(False Positive) 등의 경우 예외 설정을 위해서는 미리 살펴보는 것이 좋을 것이다. 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20201764813▣ 무료 백신 “Avira Free Antivirus 2014” 환경설정 살펴보기1. 들어가기에 앞서1-1. Avira 보안 제품의 환경설정(Configuration, 구성) 진입 방법은 시스템 트레이의 아이콘에서 마우스 오른쪽 버튼 클릭하거나, 메인 화면의 “.......]]></description>
+					<pubDate>Mon, 23 Dec 2013 21:28:57 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,Avira,아비라,AntiVir,바이러스백신,안티바이러스,Antivirus,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Avira]]></category>
+					<title><![CDATA[Avira Free Antivirus 2014 제품의 EICAR 다운로드 테스트]]></title>
+					<link>http://blog.naver.com/hahaj1/20201654804</link>
+					<guid>http://blog.naver.com/hahaj1/20201654804</guid>
+					<description><![CDATA[무료 백신 “Avira Free Antivirus 2014” 버전에 대해 EICAR 다운로드 테스트를 진행해 보았다. 과거에는 Avira의 무료 버전과 유료 버전의 EICAR 다운로드 테스트에 차이가 있었으나, 2011년 중반부터 무료 버전(제품 버전 10.2 기준)에서도 웹 보호(Web Protection, WebGuard) 기능을 제공하면서부터 EICAR 다운로트 테스트 결과는 동일해졌다. 물론 무료 버전의 경우 툴바(Avira SearchFree Toolbar)를 사용하는 조건이 전제되어 있으므로 번거로운 측면이 있다. 이번의 2014 버전(제품 버전 14.0 기준)에서는 기존과 특별한 차이점은 없지만 참고 차원에서 작성해 두고자 한다. 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.......]]></description>
+					<pubDate>Sat, 21 Dec 2013 22:53:23 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,Avira,아비라,AntiVir,바이러스백신,안티바이러스,EICAR,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Avira]]></category>
+					<title><![CDATA[Avira Free Antivirus 2014 설치 방법 및 제거 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20201535440</link>
+					<guid>http://blog.naver.com/hahaj1/20201535440</guid>
+					<description><![CDATA[무료 백신 “Avira Free Antivirus 2014” 버전(내부적으로는 14.0.1.759 버전)의 설치 방법과 제거 방법에 대해 살펴보고자 한다. 기본적은 방법은 기존 버전과 큰 차이는 없으나 처음 접하는 분들을 위하여 작성하게 되었다. 이하 가상 머신에 설치한 Windows 8.1 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20201535440▣ Avira Free Antivirus 2014 설치 방법 및 제거 방법1. Avira Free Antivirus 2014 설치 방법1-1. 프로그램 설치를 위해서는 먼저 제작사 사이트에서 다운을 받도록 해야 한다. 제작사는 독일 업체이지만 한국어 페이지를 제공하고 있다. 다운로드 경로는 변동될 수 있는데, 아무튼 파일 이름이 “avira_.......]]></description>
+					<pubDate>Thu, 19 Dec 2013 21:05:37 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,Avira,아비라,AntiVir,바이러스백신,안티바이러스,Antivirus,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[IObit]]></category>
+					<title><![CDATA[Advanced SystemCare Ultimate 7 간략 살펴보기]]></title>
+					<link>http://blog.naver.com/hahaj1/20201471130</link>
+					<guid>http://blog.naver.com/hahaj1/20201471130</guid>
+					<description><![CDATA[IObit의 “Advanced SystemCare Ultimate” 제품이 최신 버전을 출시하였기에 간략 살펴보고자 한다. 최신 7 버전은 지난 12월 4일 무렵에 공개되었으며, 필자가 살펴볼 당시에는 “v7.0.1.589” 버전이었다. 이번 최신 버전에서는 인터페이스에 변화가 생겼고 홈페이지 보호 등 일부 기능이 추가되었으나, 안티바이러스 부문과 관련하여서는 기존과 거의 동일하다. 프로그램 명칭에서 알 수 있듯이 “Advanced SystemCare(ASC)”라는 기존의 시스템 유틸리티에 Antivirus(안티바이러스) 기능을 추가한 것으로 BitDefender(비트디펜더) 엔진을 주력으로 사용하고 있다. 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.http://blog.n.......]]></description>
+					<pubDate>Wed, 18 Dec 2013 20:59:01 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,ASC,AdvancedSystemCare,IObit,바이러스백신,안티바이러스,Antivirus,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Hardware]]></category>
+					<title><![CDATA[ChipGenius 사용 방법 : USB 장치 정보 확인 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20201412033</link>
+					<guid>http://blog.naver.com/hahaj1/20201412033</guid>
+					<description><![CDATA[USB 메모리 등의 USB 장치(Device) 정보를 확인할 수 있는 “ChipGenius” 프로그램의 사용 방법에 대해 살펴보고자 한다. 본 프로그램은 예를들어 USB 메모리(Flash Memory)의 컨트롤러 정보, 제조사, 장치의 ID(VID / PID) 등의 정보를 확인할 수 있는 유틸리티이다. 일반적인 사용의 경우 굳이 USB 장치의 정보를 확인할 필요는 없을 수도 있으나, 특정한 목적으로 사용하고자 하는 경우에는 정보 확인이 필요할 수 있고, 또한 제품이 제조사에서 안내하는 사양(스펙)과 동일한지 파악하는 데에도 필요할 수 있다(최근 저가형 TLC 타입의 제품을 판매하는 업체나 유통사 중에서 정보에 오류가 있거나 또는 상세 정보를 밝히지 않는 경우가 있.......]]></description>
+					<pubDate>Tue, 17 Dec 2013 22:44:02 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,ChipGenius,칩지니어스,USB,USB메모리,플래시메모리,컨트롤러,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Sophos]]></category>
+					<title><![CDATA[Sophos Virus Removal Tool 사용 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20200811063</link>
+					<guid>http://blog.naver.com/hahaj1/20200811063</guid>
+					<description><![CDATA[보안 업체 소포스(Sophos)에서 제공하는 바이러스 수동 검사 도구인 “Sophos Virus Removal Tool” 프로그램의 사용 방법에 대해 살펴보고자 한다. 바이러스 수동 검사 도구는 실시간 감시가 지원되지 않는 반면, 다른 바이러스 백신을 사용중일 경우에도 보조로 사용할 수 있다. 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20200811063▣ Sophos Virus Removal Tool : 바이러스 수동 검사 도구 사용 방법1. 프로그램 소개 및 설치 방법1-1. 영국의 보안 업체인 소포스(Sophos)는 다양한 유료 보안 제품을 제공하고 있으며, 일부 무료 도구도 제공하고 있다. 무료로 제공되는 도구로는 대표적으.......]]></description>
+					<pubDate>Sun, 08 Dec 2013 13:10:03 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,Sophos,소포스,바이러스백신,안티바이러스,Antivirus,Anti-Virus,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Hardware]]></category>
+					<title><![CDATA[LG전자 USB 메모리 MU1(USB OTG 지원) 32GB 간략 사용기]]></title>
+					<link>http://blog.naver.com/hahaj1/20200611284</link>
+					<guid>http://blog.naver.com/hahaj1/20200611284</guid>
+					<description><![CDATA[LG전자의 USB 메모리 중 USB OTG 기능을 지원하는 “MU1” 모델의 간략한 사용기를 작성하고자 한다. USB OTG(Universal Serial Bus On-The-Go) 기능은 일반적인 컴퓨터의 개입없이 스마트폰 등의 장비에 USB 규격을 지원하는 저장 장치를 바로 연결하여 사용할 수 있는 것을 말한다. 물론 OTG 기능을 사용하기 위해서는 스마트폰과 같은 장비에서 이를 우선적으로 지원해야 하며, USB 저장 장치는 OTG 케이블 등을 통해 연결할 수 있으나 USB 메모리와 통합된 것은 간편하게 연결할 수 있는 장점이 있다. 필자는 이 제품이 성능이 우수해서라기보다는 급하게 구입을 하게 되었다. 이하 필자의 Windows 7 64비트 운영체제 환경 기준이다.http://b.......]]></description>
+					<pubDate>Wed, 04 Dec 2013 22:33:13 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,USB,USB메모리,OTG,LG전자,ATTO,CrystalDiskMark,HDTune,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Trend&#160;Micro]]></category>
+					<title><![CDATA[Trend Micro Rescue Disk(응급 복구 디스크) 사용 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20200364735</link>
+					<guid>http://blog.naver.com/hahaj1/20200364735</guid>
+					<description><![CDATA[
+    Trend Micro(트렌드 마이크로) 보안 업체에서 제공하는 “응급 복구 디스크(Trend Micro Rescue Disk)”의 제작 및 사용 방법에 대해 살펴보고자 한다. 응급 복구 디스크는 바이러스 등으로 인해 부팅 불가 또는 표준 모드에서 자체적인 해결 불가능시 바이러스 제거를 할 수 있는 것을 말한다. Trend Micro 제품은 유료이지만 응급 복구 디스크는 무료로 제공된다. 이하 Windows 7 64비트, Windows 8.1 64비트 운영체제 환경을 기준으로 살펴보았다. 
+     
+     
+    
+        
+            
+                http://blog.naver.com/hahaj1/2020036473
+            
+        
+     
+          ≫ 보안 업체.......]]></description>
+					<pubDate>Sat, 30 Nov 2013 23:47:19 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,응급복구디스크,RescueDisk,트렌드마이크로,TrendMicro,바이러스백신,Antivirus,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Apple]]></category>
+					<title><![CDATA[아이팟 터치 4세대 iOS 6.1.5 업데이트 안내]]></title>
+					<link>http://blog.naver.com/hahaj1/20200361970</link>
+					<guid>http://blog.naver.com/hahaj1/20200361970</guid>
+					<description><![CDATA[
+    애플(Apple)의 모바일 운영체제인 iOS는 현재 7 버전이 제공되고 있다. 필자의 아이패드 미니(iPad mini) 기준으로 최신 버전은 “7.0.4” 버전이다. 구형인 아이팟 터치(iPod Touch) 4세대의 경우에는 7 버전이 제공되지 않는데, 최근 6.1.4 버전에서 6.1.5 버전으로 업데이트되었다. 이는 FaceTime 전화를 걸 수 없던 문제를 수정했다고 한다. 본 게시물은 특별한 내용은 없지만 참고 차원에서 작성해 두고자 한다.
+    
+    
+    
+        
+     
+    
+        
+            
+                http://blog.naver.com/hahaj1/20200361970
+            
+        
+     
+     
+     
+     
+    ※ 안내 : 아이.......]]></description>
+					<pubDate>Sat, 30 Nov 2013 23:00:53 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,Apple,애플,iOS,iTunes,아이튠즈,iPod,아이팟,업데이트,FaceTime]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[avast!]]></category>
+					<title><![CDATA[avast! Free Antivirus 2014 간략 살펴보기]]></title>
+					<link>http://blog.naver.com/hahaj1/20200116630</link>
+					<guid>http://blog.naver.com/hahaj1/20200116630</guid>
+					<description><![CDATA[무료 백신 “avast! Free Antivirus (어베스트 프리 안티바이러스)” 2014 버전에 대해 간략 살펴보고자 한다. 물론 일부에 대해서는 앞의 글에서 살펴본 바 있다. 프로그램 버전 표기의 경우 외부적으로는 2014 연도 표기를 사용하고 있으나 내부적인 버전은 지난 8.0 버전 후속인 9.0 버전이다. 기존 8.0 버전과 달리 외부 인터페이스는 다시 변화되었는데, 이는 기존 7.0 버전처럼 메뉴가 다시 왼쪽에 배치되었다. 7.0 버전 당시의 경우 각종 기능으로 인해 메뉴가 펼쳐질수록 길어지는 단점이 있었는데, 최신 2014 버전에서는 이를 개선하였다. 이러한 외부적인 모습 외에도 기존 기능을 개선하고 새로운 기능도 추가하였다. 이하 필자의 Win.......]]></description>
+					<pubDate>Tue, 26 Nov 2013 22:57:25 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,어베스트,avast!,무료백신,Antivirus,안티바이러스,바이러스백신,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[avast!]]></category>
+					<title><![CDATA[avast! Free Antivirus 2014 환경 설정]]></title>
+					<link>http://blog.naver.com/hahaj1/20200115124</link>
+					<guid>http://blog.naver.com/hahaj1/20200115124</guid>
+					<description><![CDATA[무료 백신 “avast! Free Antivirus (어베스트 프리 안티바이러스)” 2014 버전(내부적으로는 9.0 버전)의 전체에 적용되는 “환경 설정(Settings)”에 대해 살펴보고자 한다. 물론 수동 검사 관련 설정은 별도이므로 다른 글을 살펴보기 바란다(단, Windows 탐색기 검사의 설정은 전체 환경 설정에 포함되어 있다). 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20200115124▣ avast! Free Antivirus 2014 “환경 설정(Settings)” 살펴보기1. 들어가기에 앞서1-1. avast! Free Antivirus 2014 버전의 환경 설정은 “일반, 보호 활성, 안티바이러스, 외관, 업데이트, 등록, 도구, 문제 해결” 등으.......]]></description>
+					<pubDate>Tue, 26 Nov 2013 22:36:51 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,어베스트,avast!,무료백신,Antivirus,안티바이러스,바이러스백신,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[avast!]]></category>
+					<title><![CDATA[avast! Free Antivirus 2014 바이러스 수동 검사 설정]]></title>
+					<link>http://blog.naver.com/hahaj1/20200045475</link>
+					<guid>http://blog.naver.com/hahaj1/20200045475</guid>
+					<description><![CDATA[무료 백신 “avast! Free Antivirus (어베스트 프리 안티바이러스)” 2014 버전의 수동 검사(Sacn) 설정에 대해 살펴보고자 한다. 바이러스 수동 검사의 경우 “빠른 검사, 전체 시스템 검사, 외장 장치 검사, 검사할 폴더 선택(사용자 정의 검사), 부팅 검사” 등을 지원하는데, 각 검사의 설정에 조금씩 차이가 있다. 그리고 어베스트 제품의 전체 설정에서 전역 예외 설정을 한 경우 각 수동 검사에도 기본 적용된다. 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20200045475▣ avast! Free Antivirus 2014 바이러스 수동 검사 설정1. 들어가기에 앞서1-1. 어베스트 보안 제품의 경우 전체에 적.......]]></description>
+					<pubDate>Mon, 25 Nov 2013 21:47:46 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,어베스트,avast!,무료백신,Antivirus,안티바이러스,바이러스백신,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[avast!]]></category>
+					<title><![CDATA[avast! Rescue Disk(응급 복구 디스크) 사용 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20199933393</link>
+					<guid>http://blog.naver.com/hahaj1/20199933393</guid>
+					<description><![CDATA[무료 백신 “avast! Free Antivirus (어베스트 프리 안티바이러스)” 2014 버전에서 제공하는 “응급 복구 디스크(avast! Rescue Disk, avast! Rescue Disc, 어베스트 응급 복구 디스크)”의 제작 및 사용 방법에 대해 살펴보고자 한다. 본 기능은 바이러스 등으로 인해 부팅 불가 또는 표준 모드에서 자체적인 해결 불가능시 바이러스 제거를 할 수 있는 것을 말한다. 이전 버전에서는 유료로 별도 판매하였으나, 2014 버전(내부적인 버전은 9.0)부터는 무료로 제공하고 있다. 아래에서는 “avast! Free Antivirus” 제품을 기준으로 살펴보았으나 상위의 유료 제품도 별반 차이는 없을 것이다. 이하 필자의 Windows 7 64비트 운영체제 환경에서.......]]></description>
+					<pubDate>Sat, 23 Nov 2013 23:53:49 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,응급복구디스크,RescueDisk,어베스트,avast!,무료백신,Antivirus,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[avast!]]></category>
+					<title><![CDATA[avast! 2014 버전의 수동 업데이트 파일 적용 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20199932515</link>
+					<guid>http://blog.naver.com/hahaj1/20199932515</guid>
+					<description><![CDATA[무료 백신을 제공하는 어베스트(avast!) 보안 제품의 경우 인터넷이 연결되지 않은 사용 환경에서 수동 업데이트를 할 수 있도록 업데이트 파일을 제공하고 있다. 대부분의 컴퓨터 사용자들은 인터넷이 연결된 환경에서 상시적으로 어베스트 백신의 바이러스 데이터베이스를 자동으로 업데이트 받을 수 있지만, 인터넷 연결이 불가능한 특수한 환경인 경우 자동 업데이트를 할 수 없기 때문에 수동 업데이트 파일 제공이 유용할 수 있을 것이다. 아래에는 무료 백신 “avast! Free Antivirus (어베스트 프리 안티바이러스)” 2014 버전(내부적으로는 9.0 버전)을 기준으로 살펴보았으나 상위의 유료 제품에서도 비슷할 것이다. 이하 필자의 Windo.......]]></description>
+					<pubDate>Sat, 23 Nov 2013 23:35:37 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,어베스트,avast!,무료백신,Antivirus,안티바이러스,바이러스백신,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[avast!]]></category>
+					<title><![CDATA[avast! Free Antivirus 2014 버전의 통계 살펴보기]]></title>
+					<link>http://blog.naver.com/hahaj1/20199932067</link>
+					<guid>http://blog.naver.com/hahaj1/20199932067</guid>
+					<description><![CDATA[무료 백신 “avast! Free Antivirus (어베스트 프리 안티바이러스)” 2014 버전의 “통계” 기능에 대해 간략히 살펴보고자 한다. 특별한 내용은 없으며 추후 참고 자료롤 활용하기 위한 목적에서 작성하였다. 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20199932067▣ avast! Free Antivirus 2014 버전의 통계 살펴보기1. 들어가기에 앞서1-1. 어베스트(avast!) 보안 제품의 “통계”는 별도의 창으로 팝업되어 제공되며, “사용자의 통계”와 “글로벌 통계”로 나뉜다.2. avast! Free Antivirus 2014 버전의 통계 살펴보기2-1. 사용자의 통계 : 실시간 데이터, 기록된 데이타, 구성요소 상태 등.......]]></description>
+					<pubDate>Sat, 23 Nov 2013 23:27:50 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,어베스트,avast!,무료백신,Antivirus,안티바이러스,바이러스백신,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[avast!]]></category>
+					<title><![CDATA[avast! Free Antivirus 2014 소프트웨어 업데이터 활용 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20199812444</link>
+					<guid>http://blog.naver.com/hahaj1/20199812444</guid>
+					<description><![CDATA[무료 백신 “avast! Free Antivirus (어베스트 프리 안티바이러스)” 2014 버전에서 제공하는 “소트프웨어 업데이터(Software Updater)” 기능에 대해 살펴보고자 한다. 이하 필자의 Windows 7 64비트 운영체제 기준이다.http://blog.naver.com/hahaj1/20199812444▣ avast! Free Antivirus 2014 무료 백신의 “소프트웨어 업데이터(Software Updater)” 기능 활용 방법1. 들어가기에 앞서1-1. 컴퓨터에 보안 위협을 야기하는 요소는 다양하다. 기본적으로 운영체제(OS)의 보안 취약점이 없어야 할 것이며, 신뢰할 만한 보안 제품를 사용하는 것도 중요하다. 특히 간과하지 말아야 할 것은 각종 응용 프로그램의 보안 취약점을 방치해서는 안된.......]]></description>
+					<pubDate>Thu, 21 Nov 2013 21:09:37 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,어베스트,avast!,무료백신,Antivirus,안티바이러스,바이러스백신,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[avast!]]></category>
+					<title><![CDATA[avast! Online Security(웹브라우저 플러그인) 활용 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20199753849</link>
+					<guid>http://blog.naver.com/hahaj1/20199753849</guid>
+					<description><![CDATA[무료 백신을 제공하는 어베스트(avast!) 보안 제품에서는 버전 6.0 이후부터 웹평판(WebRep, Web Reputation) 기능을 제공하고 있다. 당시에는 효용성이 큰 편은 아니었으나, 최신 2014 버전(내부적인 버전은 9.0)에서는 이를 개선하여 웹브라우저 보안과 평판 기능을 “avast! Online Security(어베스트 온라인 시큐리티)”라는 이름으로 제공하면서 알려진 피싱 사이트나 악성코드 유포 사이트로부터 사용자를 보호하고 웹 평판을 통해 전반적인 인터넷 서핑에 도움이 되도록 지원한다. 이 기능은 웹브라우저에 플러그인(Plugin ; 부가 기능, 확장 프로그램, 추가 기능) 형태로 제공된다. 이하 Windows 7 64비트, Windows 8.1 64비트 운영체제.......]]></description>
+					<pubDate>Wed, 20 Nov 2013 22:05:24 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,어베스트,avast!,무료백신,Antivirus,안티바이러스,바이러스백신,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[avast!]]></category>
+					<title><![CDATA[avast! Free Antivirus 2014 예외(제외) 설정 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20199502785</link>
+					<guid>http://blog.naver.com/hahaj1/20199502785</guid>
+					<description><![CDATA[무료 백신 “avast! Free Antivirus (어베스트 프리 안티바이러스)” 2014 버전(내부적으로는 버전 9.0)의 예외(제외) 설정 방법에 대해 살펴보고자 한다. 예외(Exclusions) 설정은 오진(False Positive)이나 불필요한 검사로 인한 시간 낭비 절약 등을 위해서 필요할 수 있다. 아래는 무료인 “avast! Free Antivirus” 제품을 기준으로 살펴보았으나, 상위의 유료 제품에서도 공통적인 부분은 동일하게 적용 가능할 것이다. 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20199502785▣ avast! Free Antivirus 2014 예외(제외) 설정 방법1. 들어가기에 앞서1-1. 본 제품의 예외(제외) 설정은 전체.......]]></description>
+					<pubDate>Sat, 16 Nov 2013 21:38:35 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,어베스트,avast!,무료백신,Antivirus,안티바이러스,바이러스백신,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[avast!]]></category>
+					<title><![CDATA[avast! Free Antivirus 2014 무료 등록 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20199391373</link>
+					<guid>http://blog.naver.com/hahaj1/20199391373</guid>
+					<description><![CDATA[무료 백신 “avast! Free Antivirus (어베스트 프리 안티바이러스)” 제품의 경우 무료로 사용 가능하다고 해도 30일 기간 제한이 있고 등록을 해야 1년 동안 무료 사용 가능한 특징이 있다(1년이 만료되면 다시 반복하면 된다). 필자의 블로그에서는 무료 등록 방법을 살펴본 바 있으나, 2014 버전에 맞게 다시 작성해 두고자 한다. 이하 Windows 7 64비트, Windows 8.1 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20199391373▣ avast! Free Antivirus 2014 무료 등록 방법1. 온라인에서 바로 무료 등록하는 방법
+※ 주의 : 어베스트 제작사에서는 유료 제품의 홍보를 위해 노골적이므로 다운로드나 설치 등에 있어서.......]]></description>
+					<pubDate>Thu, 14 Nov 2013 21:50:09 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,어베스트,avast!,무료백신,Antivirus,안티바이러스,바이러스백신,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[avast!]]></category>
+					<title><![CDATA[avast! Free Antivirus 2014 설치 방법과 제거 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20199330677</link>
+					<guid>http://blog.naver.com/hahaj1/20199330677</guid>
+					<description><![CDATA[무료 백신 “avast! Free Antivirus (어베스트 프리 안티바이러스)” 2014 버전의 설치 방법과 제거 방법에 대해 살펴보고자 한다. 공식적으로 한국어를 지원하고 기존과 큰 차이는 없기 때문에 별로 어렵지는 않다. 이하 가상 머신에 설치한 Windows 8.1 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20199330677▣ avast! Free Antivirus 2014 설치 방법과 제거 방법1. avast! Free Antivirus 2014 설치 방법1-1. 프로그램 설치를 위해서는 우선 다운로드를 해야 한다. 프로그램 다운로드는 영문 사이트를 기준으로 살펴보도록 하겠다.≫ 제작사 사이트 : http://www.avast.com (영문), http://www.avast.co.kr (한글)⒜.......]]></description>
+					<pubDate>Wed, 13 Nov 2013 22:20:58 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,어베스트,avast!,무료백신,Antivirus,안티바이러스,바이러스백신,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Windows 7]]></category>
+					<title><![CDATA[Windows 7 : Internet Explorer 11 업데이트 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20199329863</link>
+					<guid>http://blog.naver.com/hahaj1/20199329863</guid>
+					<description><![CDATA[마이크로소프트(MS)에서 제공중인 “Internet Explorer” 11 버전은 Windows 8.1 등의 최신 버전에서는 기본적으로 제공하고 있다. 하위의 운영체제인 Windows 7 운영체제에서는 “Internet Explorer” 10 버전까지만 지원되었으나 지난 2013년 11월 11일부터 Windows Update 등을 통해 “Internet Explorer” 11 버전도 Windows 7 사용자를 위해 제공하고 있다(물론 그 이전부터는 직접 다운로드를 통해 설치하는 것도 가능했다). 아래에서는 업데이트 방법에 대해 간략하게 살펴보고자 한다. 이하 필자의 Windows 7 64비트 운영체제 환경 기준이다.http://blog.naver.com/hahaj1/20199329863Windows Update(윈도우 업데이트) 기능을 정상적으로.......]]></description>
+					<pubDate>Wed, 13 Nov 2013 22:07:02 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,InternetExplorer,인터넷익스플로러,IE,웹브라우저,브라우저,MS,Microsoft,마이크로소프트,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Kaspersky]]></category>
+					<title><![CDATA[Kaspersky 보안 제품의 Safe Money(안전 금융) 활용 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20199265501</link>
+					<guid>http://blog.naver.com/hahaj1/20199265501</guid>
+					<description><![CDATA[Kaspersky Internet Security(카스퍼스키 인터넷 시큐리티) 보안 제품에서 제공하는 “Safe Money(안전 금융)” 기능의 활용 방법에 대해서 살펴보고자 한다. 본 기능은 온라인 뱅킹(인터넷 뱅킹)이나 쇼핑을 할 때 특별히 보호된 모드를 통해 사용자의 금전 또는 개인 정보를 보호해 준다. 필자는 Kaspersky Internet Security 2014 버전의 영문판에서 이 기능을 살펴보게 되었는데, 이전 버전부터 이미 제공된 기능이며 2014 버전에서는 일부 개선 사항이 있다. 그리고 Kaspersky Internet Security 2014 버전은 아직 한글판이 출시되지 않은 상태이므로 다른 기능 등에 대해서는 추후 살펴볼 예정이다. 이하 필자의 Windows 7 64비트 운영체제.......]]></description>
+					<pubDate>Tue, 12 Nov 2013 22:07:08 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,Kaspersky,카스퍼스키,Anti-Virus,Antivirus,안티바이러스,바이러스백신,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Security]]></category>
+					<title><![CDATA[올레(olleh) 악성코드 감염단말 공지차단시스템?]]></title>
+					<link>http://blog.naver.com/hahaj1/20199198356</link>
+					<guid>http://blog.naver.com/hahaj1/20199198356</guid>
+					<description><![CDATA[국내의 인터넷 서비스 제공자인 올레(olleh)의 “악성코드 감염단말 공지차단시스템”에 대해 간략 살펴보고자 한다. 필자의 경우 웹브라우저 실행시 어느 순간 갑자기 팝업된 내용을 접하게 되었는데, 필자의 컴퓨터가 악성코드에 감염되어 사이버 공격(디도스)에 이용된 것으로 의심이 된다는 것이었다. 주지하다시피 필자는 보안 관련 글을 블로그에 작성하고 다양한 보안 제품을 사용하면서 늘 필자의 PC를 점검하고 있다. 따라서 해당 공지는 정확하지 않은 것으로 판단이 되었다. 물론 필자가 알 수 없는 악성코드에 감염된 것인지도 확인이 필요한 바, 다양한 점검을 했으나 이상을 발견하지는 못했다. 필자가 관리하는 공유기에 연결된 다.......]]></description>
+					<pubDate>Mon, 11 Nov 2013 21:39:56 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,바이러스백신,백신,안티바이러스,Antivirus,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Miscellaneous]]></category>
+					<title><![CDATA[한컴오피스 2014 할인 연장 소식]]></title>
+					<link>http://blog.naver.com/hahaj1/20198968639</link>
+					<guid>http://blog.naver.com/hahaj1/20198968639</guid>
+					<description><![CDATA[필자의 블로그에서 얼마 전 “한컴오피스 2014” 할인 소식을 전한 바 있다. 당시 기준으로는 11월 6일까지 “한컴 서포터즈” 등록을 하고 11월 7일까지 구매를 완료해야 한다고 안내한 바 있다. 그러나 11월 6일 공지에 따르면, 11월 30일까지 연장한다고 공지에서 안내하고 있다. 물론 한컴 서포터즈 가입은 11월 22일까지 해야하며, 구입은 11월 30일까지 하면 된다. 다만 현재 다수의 가입자에 따른 쿠폰 메일 전송 지연과 제품 배송 지연 문제가 있으므로 여유있게 기다려야 할 것이다. 기타 제품 관련 상세 사항은 앞서 필자가 작성한 글이나 한컴오피스 사이트의 공지사항을 확인하기 바란다.http://blog.naver.com/hahaj1/20198968639≫.......]]></description>
+					<pubDate>Thu, 07 Nov 2013 22:55:19 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,한글과컴퓨터,한컴오피스,오피스,아래아한글,한글,한셀,한쇼,이지포토,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Trend&#160;Micro]]></category>
+					<title><![CDATA[Trend Micro Titanium Maximum Security 2014 간략 살펴보기]]></title>
+					<link>http://blog.naver.com/hahaj1/20198968070</link>
+					<guid>http://blog.naver.com/hahaj1/20198968070</guid>
+					<description><![CDATA[Trend Micro(트렌드 마이크로)의 최신 보안 제품인 2014 버전(내부적으로는 7.0) 중 가장 상위에 해당되는 “Trend Micro Titanium Maximum Security 2014” 버전에 대해 간략 살펴보고자 한다.  프로그램 설치시 인터페이스가 일부 변화되었으나 대부분은 기존의 2013 버전(내부적으로는 6.0)과 거의 동일하다. 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20198968070▣ Trend Micro Titanium Maximum Security 2014 간략 살펴보기1. 제품 정보 및 다운로드 방법1-1. Trend Micro(트렌드 마이크로)는 글로벌 보안 업체이며, 한국어 사이트 운영과 제품에서도 한국어를 지원한다. 프로그램은 제작.......]]></description>
+					<pubDate>Thu, 07 Nov 2013 22:46:49 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,트렌드마이크로,TrendMicro,Titanium,바이러스백신,안티바이러스,Antivirus,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Trend&#160;Micro]]></category>
+					<title><![CDATA[Trend Micro Titanium Maximum Security 2014 주요 설정]]></title>
+					<link>http://blog.naver.com/hahaj1/20198889813</link>
+					<guid>http://blog.naver.com/hahaj1/20198889813</guid>
+					<description><![CDATA[Trend Micro Titanium Maximum Security 2014 보안 제품의 설정(환경설정)에 대해 살펴보고자 한다. 개인용 제품 중 가장 상위에 해당되지만 설정은 비교적 간소한 편이다. 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20198889813▣ Trend Micro Titanium Maximum Security 2014 주요 설정1. 들어가기에 앞서1-1. Trend Micro Titanium Maximum Security 2014 보안 제품의 설정(Settings)으로 진입하는 방법은 메인 화면에서 톱니바퀴 버튼을 클릭하면 된다.2. Trend Micro Titanium Maximum Security 2014 주요 설정2-1. 바이러스 및 스파이웨어 제어 : 검색 기본 설정과 예약 검색으로 구성되어.......]]></description>
+					<pubDate>Wed, 06 Nov 2013 21:23:42 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,트렌드마이크로,TrendMicro,Titanium,바이러스백신,안티바이러스,Antivirus,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Trend&#160;Micro]]></category>
+					<title><![CDATA[Trend Micro Titanium Maximum Security 2014 예외 설정 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20198888909</link>
+					<guid>http://blog.naver.com/hahaj1/20198888909</guid>
+					<description><![CDATA[Trend Micro Titanium Maximum Security 2014 보안 제품의 예외(제외) 설정에 대해 살펴보고자 한다. 이는 오진(False Positive) 또는 불필요한 검사로 시간 낭비를 줄이고자 할 경우 유용할 수 있다. 주의할 점은, 예외 설정된 대상의 경우 수동 검사에도 적용되므로 폴더 단위나 드라이브 단위로 예외에 추가할 경우에는 신중을 기해야 한다. 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20198888909▣ Trend Micro Titanium Maximum Security 2014 예외 설정 방법1. 들어가기에 앞서1-1. Trend Micro Titanium Maximum Security 2014 보안 제품의 설정(Settings)으로 진입하는 방법은 메인 화면.......]]></description>
+					<pubDate>Wed, 06 Nov 2013 21:13:00 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,트렌드마이크로,TrendMicro,Titanium,바이러스백신,안티바이러스,Antivirus,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Trend&#160;Micro]]></category>
+					<title><![CDATA[Trend Micro Titanium Maximum Security 2014 설치 및 제거 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20198825314</link>
+					<guid>http://blog.naver.com/hahaj1/20198825314</guid>
+					<description><![CDATA[Trend Micro(트렌드 마이크로)의 최신 보안 제품인 2014 버전(내부적으로는 7.0) 중 가장 상위에 해당되는 “Trend Micro Titanium Maximum Security 2014” 버전의 설치 및 제거 방법에 대해 살펴보고자 한다. 본 제품의 전반적인 내용에 대해서는 다른 글에서 살펴볼 예정이며, 본 게시물에서는 우선 설치 방법과 제거 방법에 대해서만 살펴보도록 하겠다. 이하 필자의 Windows 7 64비트 운영체제 환경 기준이다.http://blog.naver.com/hahaj1/20198825314▣ Trend Micro Titanium Maximum Security 2014 설치 및 제거 방법1. Trend Micro Titanium Maximum Security 2014 설치 방법1-1. Trend Micro(트렌드 마이크로)는 글로벌 업체이며, 한국.......]]></description>
+					<pubDate>Tue, 05 Nov 2013 23:10:17 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,트렌드마이크로,TrendMicro,Titanium,바이러스백신,안티바이러스,Antivirus,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Miscellaneous]]></category>
+					<title><![CDATA[한컴오피스 2014 MLP 도착과 제품 등록 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20198824555</link>
+					<guid>http://blog.naver.com/hahaj1/20198824555</guid>
+					<description><![CDATA[필자의 블로그에서 며칠전 “한컴오피스 2014 할인” 소식을 전한 바 있고, 필자도 구매한 바 있다. 그런데 당시 구매한 “한컴오피스 2014” MLP(3PC용) 제품이 금일 도착했다. MLP는 “MediaLess Package”의 줄임말로 패키지 박스 안에 DVD-ROM를 포함하지 않고 제품 번호만 포함하고 있는 것인데, 프로그램 설치 파일은 제품 등록 후 다운받아야 한다. 따라서 제품 도착 소식과 제품 등록 방법을 살펴보고자 한다. 이하 Windows 운영체제 기준이다.http://blog.naver.com/hahaj1/20198824555제품 발송은 늦어질 줄 알았는데 예상외로 빨리(?) 도착했다. 그러나 한컴샵을 확인해 보니 (이벤트로 인해) 주문이 폭주하여 현재 출고가 늦어지고 있.......]]></description>
+					<pubDate>Tue, 05 Nov 2013 23:00:56 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,한글과컴퓨터,한컴오피스,오피스,아래아한글,한글,한셀,한쇼,Office,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Miscellaneous]]></category>
+					<title><![CDATA[한컴오피스 2014 할인 소식(11월 6일까지 신청 필요)]]></title>
+					<link>http://blog.naver.com/hahaj1/20198661031</link>
+					<guid>http://blog.naver.com/hahaj1/20198661031</guid>
+					<description><![CDATA[한글과컴퓨터의 “한컴오피스” 2014 버전(이하 가정용 기준)이 “한컴 서포터즈” 5만 돌파 기념으로 구매시 할인을 해주고 있다. 다만 구매 가능 기간은 11월 7일까지이며, 한컴 서포터즈 등록은 11월 6일까지 해야 한다. 즉 할인된 가격으로 구매하고자 한다면 한컴 서포터즈에 11월 6일 자정까지 가입하고, 제품 구매는 11월 7일까지 하면 된다(※ 내용 추가 : 2013년 11월 6일 공지에 의하면, 11월 22일까지 가입하고, 구입은 11월 30일까지로 연장한다고 안내하고 있다). “한컴오피스 2014”에는 “한글 2014”를 비롯하여 “한셀 2014”, “한쇼 2014” 등이 포함되어 있다. 이하 Windows 운영체제 기준이다.http://blog.naver.com/hahaj.......]]></description>
+					<pubDate>Sun, 03 Nov 2013 12:50:13 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,한글과컴퓨터,한컴오피스,오피스,아래아한글,한글,한셀,한쇼,이지포토,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Emsisoft]]></category>
+					<title><![CDATA[Emsisoft Anti-Malware 8.1 업그레이드 안내]]></title>
+					<link>http://blog.naver.com/hahaj1/20198616088</link>
+					<guid>http://blog.naver.com/hahaj1/20198616088</guid>
+					<description><![CDATA[Emsisoft Anti-Malware 제품이 8.1 버전으로 업그레이드되었기에 간략하게 살펴보고자 한다. 기본적인 모습은 기존의 8.0 버전과 차이는 없으며 내부적인 성능 개선 등이 이뤄졌다. 특히 이번 8.1 버전에서는 확장된 “Potentially Unwanted Programs(PUPs)” 지원이 특징이다. PUP 혹은 PUA는 사용자가 잠재적으로 원치 않는 프로그램(애플리케이션)을 말하며, 반드시 악성이라고 할 수는 없으나 컴퓨터의 성능을 저해하거나 안정성을 해칠 수 있는 동작을 하는 프로그램을 말한다. 이하 가상 머신에 설치한 Windows 8.1 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20198616088▣ Emsisoft Anti-Malware 8.1 업그레이드.......]]></description>
+					<pubDate>Sat, 02 Nov 2013 15:28:58 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,Emsisoft,Anti-Malware,바이러스백신,안티바이러스,Antivirus,BitDefender,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[Download Tip]]></category>
+					<title><![CDATA[Youtube(유튜브) 4K 또는 원본 동영상 다운 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20198513150</link>
+					<guid>http://blog.naver.com/hahaj1/20198513150</guid>
+					<description><![CDATA[Youtube(유튜브)에서는 4K 동영상 또는 원본 동영상의 재생을 지원하고 있다. 해당 동영상을 소장 목적으로 다운받고자 하는 경우 다양한 방법을 활용할 수 있겠으나 본 게시물에서는 “4K Video Downloader (4K 비디오 다운로더)” 프로그램의 사용 방법에 대해 살펴보고자 한다. 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20198513150▣ Youtube(유튜브) 4K 또는 원본 동영상 다운 방법 : 4K Video Downloader 사용 방법1. 들어가기에 앞서1-1. 4K 해상도 내지 4K 동영상은 가로 화소가 4,000 전후인 고화질 해상도 또는 동영상를 말한다. 촬영 장비나 디스플레이가 4K를 지원해야 제대로 활용.......]]></description>
+					<pubDate>Thu, 31 Oct 2013 21:27:38 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,유튜브,Youtube,다운로드,Download,Downloader,동영상,고화질,MP4,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[ESET]]></category>
+					<title><![CDATA[ESET Uninstaller 사용 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20198511863</link>
+					<guid>http://blog.naver.com/hahaj1/20198511863</guid>
+					<description><![CDATA[ESET 보안 제품을 수동으로 제거할 수 있는 “ESET Uninstaller” 프로그램의 사용 방법에 대해 살펴보고자 한다. ESET 보안 제품은 대부분 정상 제거 가능하지만 간혹 업그레이드나 기타 이유로 정상 제거가 불가능한 경우 전용 제거 프로그램(Uninstaller)을 사용하면 된다.http://blog.naver.com/hahaj1/20198511863 ▣ ESET Uninstaller 사용 방법 : ESET 보안 제품을 수동으로 제거하는 방법1. 들어가기에 앞서1-1. ESET 보안 제품은 Windows 운영체제를 비롯하여 Mac(맥) 운영체제 등도 지원하고 있으며, 본 게시물은 Windows 운영체제 기준이므로 착오없기 바란다(Mac 사용자는 아래의 링크 중 관련 링크 참조). 그리고 Windows 운영체제.......]]></description>
+					<pubDate>Thu, 31 Oct 2013 21:06:47 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,ESET,안티바이러스,Antivirus,NOD32,바이러스백신,Uninstaller,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[ESET]]></category>
+					<title><![CDATA[ESET Smart Security 7 버전 간략 살펴보기]]></title>
+					<link>http://blog.naver.com/hahaj1/20198446033</link>
+					<guid>http://blog.naver.com/hahaj1/20198446033</guid>
+					<description><![CDATA[ESET Smart Security 7 버전에 대해 간략 살펴보고자 한다. 앞서 “ESET NOD32 Antivirus 7” 제품에 대해 이미 살펴본 바 있으므로, 본 게시물의 일부 내용은 중복적일 수 있고, 또한 이미 언급한 내용들 중 일부는 누락하였다. 따라서 본 게시물을 살펴보기에 앞서, 먼저 작성한 “ESET NOD32 Antivirus 7” 글도 살펴보기 바란다. 이하 가상 머신에 설치한 Windows 8.1 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20198446033≫ ESET NOD32 Antivirus 7 간략 살펴보기 : http://blog.naver.com/hahaj1/20198018509≫ ESET NOD32 Antivirus 7 최적 설정 방법: http://blog.naver.com/hahaj1/20198194281 ▣ ESET Smart.......]]></description>
+					<pubDate>Wed, 30 Oct 2013 21:30:09 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,ESET,안티바이러스,Antivirus,NOD32,백신,바이러스백신,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[ESET]]></category>
+					<title><![CDATA[ESET NOD32 Antivirus 7 최적 설정 방법]]></title>
+					<link>http://blog.naver.com/hahaj1/20198194281</link>
+					<guid>http://blog.naver.com/hahaj1/20198194281</guid>
+					<description><![CDATA[ESET NOD32 Antivirus 7 제품 사용시 최적 설정 방법에 대해 살펴보고자 한다. 물론 기본 설정 그대로 사용해도 무방하지만 약간의 편의를 위해서는 몇 가지 설정을 변경하는 것이 나을 수도 있다. 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20198194281▣ ESET NOD32 Antivirus 7 보안 제품의 최적 설정 방법1. 첫 번째 자동 검사 해제 방법1-1. ESET NOD32 Antivirus 7 버전의 경우 설치 후 20분이 지나면 자동으로 첫 번째 자동 검사를 하도록 스케줄러에 등록되어 있다. 보안을 위해서라면 필요하다고 볼 수 있지만, 사용자가 미리 컴퓨터 전체를 검사할 수도 있고, 이미 안전한 상태에서는.......]]></description>
+					<pubDate>Sat, 26 Oct 2013 21:35:09 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,ESET,안티바이러스,Antivirus,NOD32,백신,바이러스백신,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[ESET]]></category>
+					<title><![CDATA[ESET NOD32 Antivirus 7 버전 간략 살펴보기]]></title>
+					<link>http://blog.naver.com/hahaj1/20198018509</link>
+					<guid>http://blog.naver.com/hahaj1/20198018509</guid>
+					<description><![CDATA[ESET의 보안 제품 최신 7 버전이 공식 출시되었기에 간략 살펴보고자 한다. ESET은 현재 Windows 운영체제 뿐만 아니라 Mac(맥), Linux(리눅스) 등의 운영체제를 지원하는 다양한 제품을 제공하고 있으며, Windows 운영체제용은 가정용(개인용) 기준으로 “ESET NOD32 Antivirus, ESET Smart Security” 제품 등이 있다. 아래에서는 “ESET NOD32 Antivirus 7” 버전(7.0.302.15)을 기준으로 살펴보고자 한다. 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20198018509▣ ESET NOD32 Antivirus 7 버전 간략 살펴보기1. 프로그램 정보 및 다운로드 방법1-1. ESET의 보안 제품은 “NOD32” 2.7 버전 이.......]]></description>
+					<pubDate>Wed, 23 Oct 2013 22:20:34 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,ESET,안티바이러스,Antivirus,NOD32,백신,바이러스백신,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>hahaj1</author>
+					<category><![CDATA[TrustPort]]></category>
+					<title><![CDATA[TrustPort Antivirus 2014 보안 제품 간략 살펴보기]]></title>
+					<link>http://blog.naver.com/hahaj1/20197880036</link>
+					<guid>http://blog.naver.com/hahaj1/20197880036</guid>
+					<description><![CDATA[다중 엔진을 사용하는 TrustPort 제품이 지난 10월 17일에 2014 버전을 출시했다. 외부적으로는 인터페이스가 일부 변경되었고 내부적으로는 기능 개선 등이 이뤄졌다. 이번 글에서 살펴볼 “TrustPort Antivirus 2014” 제품의 경우 외부적인 모습 변화 외에 내부적인 것은 2013 버전과 큰 차이는 없다. 이하 필자의 Windows 7 64비트 운영체제 환경에서 살펴보았다.http://blog.naver.com/hahaj1/20197880036▣ TrustPort Antivirus 2014 보안 제품 간략 살펴보기1. 제작사 소개 및 프로그램 다운로드 방법1-1. 제작사인 TrustPort(트러스트포트 ; AEC)는 체코(Czech)에 기반을 둔 보안 업체이다. 다중 엔진(AVG Technologies CZ s.r.o., BitDe.......]]></description>
+					<pubDate>Mon, 21 Oct 2013 21:30:16 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,보안,Security,TrustPort,트러스트포트,AEC,바이러스백신,안티바이러스,Antivirus,Windows]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

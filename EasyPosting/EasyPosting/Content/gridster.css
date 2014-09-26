@@ -1,0 +1,47 @@
+.gridster .tile .content {
+	height: 100%;
+	overflow: hidden;
+}
+
+.gridster .tile .data {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 150px;
+	float: left;
+}
+
+.gridster .data span {
+	display: block;
+	text-align: center;
+	height: 20%;
+}
+
+.gridster .data strong {
+	display: block;
+	font-size: 4em;
+	text-align: center;
+	height: 80%;
+}
+
+.gridster .data strong.small {
+	font-size: 2.3em;
+}
+
+.gridster .data.vertical {
+	top: 25%;
+	margin-top: 15px;
+}
+
+.gridster .data.wide {
+	width: 95%;
+}
+
+.gridster .data.chart {
+	width: 95%;
+	height: 100%;
+}

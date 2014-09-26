@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="http://rss.egloos.com/style/blog.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>까나리의 심술보</title>
+	<link>http://kkanari.egloos.com</link>
+	<description>헛둘 헛둘 ㄴ(ㅡ.ㅡㆀ)ㄱ</description>
+	<language>ko</language>
+	<pubDate>Sat, 02 Aug 2014 04:03:52 GMT</pubDate>
+	<generator>Egloos</generator>
+	<image>
+		<title>까나리의 심술보</title>
+		<url>http://pds2.egloos.com/logo/1/200609/20/90/b0004190.png</url>
+		<link>http://kkanari.egloos.com</link>
+		<width>80</width>
+		<height>95</height>
+		<description>헛둘 헛둘 ㄴ(ㅡ.ㅡㆀ)ㄱ</description>
+	</image>
+  	<item>
+		<title><![CDATA[ 엔진오일 교환주기 (일반, 가혹) - 로체 2.0 가솔린 매뉴얼 ]]> </title>
+		<link>http://kkanari.egloos.com/4775379</link>
+		<guid>http://kkanari.egloos.com/4775379</guid>
+		<description>
+			<![CDATA[ 
+  <div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://thumbnail.egloos.net/500x0/http://pds26.egloos.com/pds/201301/31/90/b0004190_5109c6d518514.png" width="500" height="306.831566549" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201301/31/90/b0004190_5109c6d518514.png', 849, 521);" /></div><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://thumbnail.egloos.net/500x0/http://pds27.egloos.com/pds/201301/31/90/b0004190_5109c6d9e9348.png" width="500" height="306.831566549" onclick="Control.Modal.openDialog(this, event, 'http://pds27.egloos.com/pds/201301/31/90/b0004190_5109c6d9e9348.png', 849, 521);" /></div><div id="__KO_DIC_LAYER__" style="padding: 0px; position: fixed; z-index: 999999999; overflow: hidden; border: 2px solid rgb(51, 51, 119); display: none;"><iframe frameborder="0" scrolling="yes" style="width: 100%; height: 100%; background-color: rgb(255, 255, 255);"></iframe></div><div><br />
+</div><div>요약하면 평상시에 15000Km 또는 12개월, 가혹시에 7500Km 또는 6개월.</div><div><br />
+</div><div><br />
+</div><br/><br/>tag : <a href="/tag/로체" rel="tag">로체</a>,&nbsp;<a href="/tag/엔진오일" rel="tag">엔진오일</a>			 ]]> 
+		</description>
+		<category>지껄이기</category>
+		<category>로체</category>
+		<category>엔진오일</category>
+
+		<comments>http://kkanari.egloos.com/4775379#comments</comments>
+		<pubDate>Thu, 31 Jan 2013 01:21:13 GMT</pubDate>
+		<dc:creator>까나리</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Raspbmc XBMC 설정 수정 ]]> </title>
+		<link>http://kkanari.egloos.com/4766621</link>
+		<guid>http://kkanari.egloos.com/4766621</guid>
+		<description>
+			<![CDATA[ 
+  <advancedsettings><div>1. IP 변경하기</div><div>PROGRAM 또는 프로그램 메뉴 누르면 아래에 R 아이콘 나오면서 네트워크 설정등 시스템 설정 변경 가능</div><div><br />
+</div><div><br />
+</div><div>2. 한글로 변경하기</div><div>System &gt; Settings &gt; Apparence 이동</div><div>Skin &gt; Font &gt; Arial based 설정</div><div>International &gt; Language &gt; Korean 설정</div><div>Time &gt; Korean (South) 설정</div><div><br />
+</div><div>Korean(24h) 나 Timezone 도 Seoul 로 맞춰주면 좋다.</div><div><br />
+</div><div>2.5 GUI setting 백업</div><div>/home/pi/.xbmc/userdata 에&nbsp;guisettings.xml 를 백업해둠</div><div><br />
+</div><div><a href="http://kkanari.org/tmp/xbmc/guisettings.xml" target="_blank">http://kkanari.org/tmp/xbmc/guisettings.xml</a></div><div><br />
+</div><div><br />
+</div><div>3. 탐색시간조정</div><div>30초, 10분 -&gt; 10초, 1분</div><div>/opt/xbmc-bcm/xbmc-bin/share/xbmc/userdata 에 advancedsettings.xml 생성</div><div><br />
+</div><div>&lt;advancedsettings&gt;</div><div><span class="Apple-tab-span" style="white-space:pre">	</span>&lt;video&gt;</div><div><span class="Apple-tab-span" style="white-space:pre">		</span>&lt;timeseekforward&gt;10&lt;/timeseekforward&gt;.</div><div><span class="Apple-tab-span" style="white-space:pre">		</span>&lt;timeseekbackward&gt;-10&lt;/timeseekbackward&gt;</div><div><span class="Apple-tab-span" style="white-space:pre">		</span>&lt;timeseekforwardbig&gt;60&lt;/timeseekforwardbig&gt;.</div><div><span class="Apple-tab-span" style="white-space:pre">		</span>&lt;timeseekbackwardbig&gt;-60&lt;/timeseekbackwardbig&gt;</div><div><span class="Apple-tab-span" style="white-space:pre">	</span>&lt;/video&gt;</div><div>&lt;/advancedsettings&gt;<br />
+<br />
+</div><div>또는 아래파일 다운로드해서 넣어주기</div><div><br />
+</div><div><a href="http://kkanari.org/tmp/xbmc/advancedsettings.xml" target="_blank">http://kkanari.org/tmp/xbmc/advancedsettings.xml</a></div><div><br />
+</div><div><br />
+</div><div>4. 자막폰트변경</div><div>/opt/xbmc-bcm/xbmc-bin/share/xbmc/media/Fonts/ 에 ttf 넣기</div><div><br />
+</div><div><a href="http://kkanari.org/tmp/xbmc/xbmc_fg.ttf" target="_blank">http://kkanari.org/tmp/xbmc/xbmc_fg.ttf</a></div><div><a href="http://kkanari.org/tmp/xbmc/aCinemaL.ttf" target="_blank">http://kkanari.org/tmp/xbmc/aCinemaL.ttf</a></div><div><br />
+</div><div><br />
+</div><div>5.&nbsp;UTF-8 에서 디렉토리 변경 안될때</div><div><div>/opt/xbmc-bcm/xbmc-bin/share/xbmc/language/Korean 에서 langinfo.xml 파일 수정</div><div>&lt;gui unicodefont="true"&gt;CP949&lt;/gui&gt; -&gt;</div><div>&lt;gui unicodefont="true"&gt;UTF-8&lt;/gui&gt;</div></div><div><br />
+</div><div><br />
+</div><div>6. XBMC 시작, 종료</div><div><div>$ sudo initctl start xbmc</div><div>$ sudo initctl stop xbmc</div></div><div><br />
+</div><div><div><a href="http://kkanari.org/tmp/xbmc/stop.sh" target="_blank">http://kkanari.org/tmp/xbmc/stop.sh</a></div><div><a href="http://kkanari.org/tmp/xbmc/start.sh" target="_blank">http://kkanari.org/tmp/xbmc/start.sh</a></div><div><a href="http://kkanari.org/tmp/xbmc/restart.sh" target="_blank">http://kkanari.org/tmp/xbmc/restart.sh</a></div></div><div><br />
+<br />
+</div><div>7. Locale 변경하기</div><div>$ sudo locale-gen ko_KR.UTF-8</div><div>또는 .profile 에 아래와 같이 기입</div><div>export LANG=ko_KR.UTF-8</div><div><br />
+</div><div><br />
+</div><div>8. NAS2 마운트하기</div><div><div>$ sudo mount -t cifs -o username=tongseob //192.168.0.100/Media /mnt/Media</div><div>$ sudo mount -t cifs -o username=tongseob //192.168.0.100/HDD2-Archive /mnt/HDD2-Archive</div></div><div><br />
+</div><div><a href="http://kkanari.org/tmp/xbmc/mount.sh" target="_blank">http://kkanari.org/tmp/xbmc/mount.sh</a></div><div><br />
+</div></advancedsettings><div><iframe frameborder="0" scrolling="yes" style="width: 100%; height: 100%; background-color: rgb(255, 255, 255);"></iframe></div><div><iframe frameborder="0" scrolling="yes" style="width: 100%; height: 100%; background-color: rgb(255, 255, 255);"></iframe></div><div><iframe frameborder="0" scrolling="yes" style="width: 100%; height: 100%; background-color: rgb(255, 255, 255);"></iframe></div><br/><br/>tag : <a href="/tag/라즈베리파이" rel="tag">라즈베리파이</a>,&nbsp;<a href="/tag/XBMC" rel="tag">XBMC</a>,&nbsp;<a href="/tag/한글" rel="tag">한글</a>			 ]]> 
+		</description>
+		<category>시스템</category>
+		<category>라즈베리파이</category>
+		<category>XBMC</category>
+		<category>한글</category>
+
+		<comments>http://kkanari.egloos.com/4766621#comments</comments>
+		<pubDate>Sat, 29 Dec 2012 22:31:05 GMT</pubDate>
+		<dc:creator>까나리</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Monaco font 2.0 download & Gulim font match ]]> </title>
+		<link>http://kkanari.egloos.com/4742242</link>
+		<guid>http://kkanari.egloos.com/4742242</guid>
+		<description>
+			<![CDATA[ 
+  <div><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds22.egloos.com/pds/201210/09/90/b0004190_507374317311a.png" width="500" height="210.296684119" onclick="Control.Modal.openDialog(this, event, 'http://pds22.egloos.com/pds/201210/09/90/b0004190_507374317311a.png', 573, 241);" /></div></div><font face="Verdana" size="2"><div><font face="Verdana" size="2"><br />
+</font></div>1. PuTTY 용 시스템 폰트</font><div><a href="http://pds22.egloos.com/pds/201209/25/90/monaco.ttf" player="0" style="background: url(http://md.egloos.com/img/eg/icon_file.gif) no-repeat left;list-style: none; padding: 0 0 0 15px;"><font face="Verdana" size="2">monaco.ttf</font></a></div><div><font face="Verdana" size="2"><br />
+</font></div><div><font face="Verdana" size="2">2. Monaco Font 2.0 + Gulim 레지스트리 (리부팅 필요)</font></div><div><a href="http://pds22.egloos.com/pds/201209/25/90/Monaco_Gulim.reg" player="0" style="background: url(http://md.egloos.com/img/eg/icon_file.gif) no-repeat left;list-style: none; padding: 0 0 0 15px;"><font face="Verdana" size="2">Monaco_Gulim.reg</font></a></div><div><br />
+</div><div><font face="Verdana" size="2"><br />
+</font></div><div><font face="Verdana" size="2">굴림체 폰트가 이쁘게 나오지 않지만 그래도 좀 낫네~</font></div><div><font face="Verdana" size="2"><br />
+</font></div><div><font face="Verdana" size="2"><a href="http://blog.naver.com/aceofall/110117841043" target="_blank">출처 :&nbsp;[펌]VIM에서 영문글꼴 한글 글꼴 잘쓰기</a></font></div><div id="__KO_DIC_LAYER__" style="padding: 0px; position: fixed; z-index: 999999999; overflow: hidden; border: 2px solid rgb(51, 51, 119); display: none; "><iframe frameborder="0" scrolling="yes" style="width: 100%; height: 100%; background-color: rgb(255, 255, 255); "></iframe></div><br/><br/>tag : <a href="/tag/모나코" rel="tag">모나코</a>,&nbsp;<a href="/tag/굴림" rel="tag">굴림</a>,&nbsp;<a href="/tag/폰트" rel="tag">폰트</a>,&nbsp;<a href="/tag/PuTTY" rel="tag">PuTTY</a>			 ]]> 
+		</description>
+		<category>시스템</category>
+		<category>모나코</category>
+		<category>굴림</category>
+		<category>폰트</category>
+		<category>PuTTY</category>
+
+		<comments>http://kkanari.egloos.com/4742242#comments</comments>
+		<pubDate>Tue, 25 Sep 2012 08:13:33 GMT</pubDate>
+		<dc:creator>까나리</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 이글루스 스킨을 2.0 으로 변경했습니다. ]]> </title>
+		<link>http://kkanari.egloos.com/4734242</link>
+		<guid>http://kkanari.egloos.com/4734242</guid>
+		<description>
+			<![CDATA[ 
+  너무나도 오랬동안 스킨 1.0 수정한 스킨을 사용했는데, 별로 특이하지 않은 블로그라 스킨 2.0 으로 간단히 변경 완료했습니다.<div id="__KO_DIC_LAYER__" style="padding: 0px; position: fixed; z-index: 999999999; overflow: hidden; border: 2px solid rgb(51, 51, 119); display: none; "><iframe frameborder="0" scrolling="yes" style="width: 100%; height: 100%; background-color: rgb(255, 255, 255); "></iframe></div><div><br />
+</div><div>그나저나 글을 써야 하는데 트위터만 끄적이네요 -ㅇ-</div>			 ]]> 
+		</description>
+		<category>지껄이기</category>
+
+		<comments>http://kkanari.egloos.com/4734242#comments</comments>
+		<pubDate>Mon, 27 Aug 2012 11:14:44 GMT</pubDate>
+		<dc:creator>까나리</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 2012년 제 19대 국회의원 선거에 대한 인천에 대한 평가 ]]> </title>
+		<link>http://kkanari.egloos.com/4693937</link>
+		<guid>http://kkanari.egloos.com/4693937</guid>
+		<description>
+			<![CDATA[ 
+  <font size="2"><span style="font-family: Verdana;">결론부터 말씀드리면 인천은 여당과 야당이 6:6으로 결과가 나왔습니다.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">도덕적으로 완벽하신 가카의 반띵정신을 몸소 실천한 결과가 아닐까 생각이 듭니다.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><br style="font-family: Verdana;"><a style="font-family: Verdana;" target="_blank" href="http://img.khan.co.kr/news/2012/04/12/2012041301001639400122642.jpg">제 19대 국회의원 선거 결과 (큰 이미지)</a><br style="font-family: Verdana;"><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">큰 이미지에서 인천만 떼서 봅시다.</span><br style="font-family: Verdana;"><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds22.egloos.com/pds/201204/12/90/b0004190_4f8618114a012.png" width="288" height="479" onclick="Control.Modal.openDialog(this, event, 'http://pds22.egloos.com/pds/201204/12/90/b0004190_4f8618114a012.png', 288, 479);" /></div></font><font size="2"><span style="font-family: Verdana;">인천을 좌, 우로 나눠서 바닷가쪽은 여당이, 내륙쪽은 야당이 승리하였습니다.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">제 지역구는 아니지만 저와 술집에서 악수를 두번씩이나 나눈 윤관석 당선자도 보이네요, 축하드립니다.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">아쉽게도 인천은 이번 제 19대 총선에서 투표율이 최저였습니다.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">투표소 3곳을 돌아다니면서 찍은 제 </span><a style="font-family: Verdana;" target="_blank" href="http://hi-roo.com/bbs/data/freeboard/2012/04/11/10330254734f851de67d0d9.jpg">인증샷</a><span style="font-family: Verdana;">도 다 무용지물이 되었네요.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">왜 이런 결과가 나왔을까요? 몇가지 짚어봅시다.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">1. 투표율이 낮아서</span><br style="font-family: Verdana;"><span style="font-family: Verdana;">2. 영세 자영업자와 비정규직이 많아서</span><br style="font-family: Verdana;"><span style="font-family: Verdana;">3. 먹고살기 힘들어서<br />
+4. 야당의 공천실패 (인물, 공약)<br style="font-family: Verdana;"></span><br style="font-family: Verdana;"><span style="font-family: Verdana;">전 위 네가지라고 생각을 합니다. 투표율이 낮다고 너무 인천을 까지만 않으셨음 좋겠습니다.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">그래도 좀 다행인건 여당이 승리한 지역구는 연수구(송도포함)을 제외하곤 그다지 생활환경이 좋지 못합니다.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">집값으로 보나 교통으로 보나</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">이 말은, 인천은 서울의 강남지역처럼 잘 사는 사람들이 무조건 새누리당을 지지하는것과 다르다는 이야기 입니다.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">연수구를 제외한 부평, 계양, 남동쪽이 평균적으로 인천에서는 잘 사는데 이 사람들이 야당을 선택했다는 얘기지요.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">2009년 지방선거때도 안상수를 밀어내고 야당인 송영길씨가 시장이 된것도 있구요.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">그럼 왜? 강화, 서구, 남구, 동구, 중구, 연수구에서는 여당이 뽑혔냐?</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">이 부분은 위에 열거한 1-4번도 해당이 되지만 20-30대의 투표율도 낮을꺼라고 생각이 듭니다.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">뭐 결론은 투표율이 낮아서 여당이 더 많이 뽑혔겠죠. 아무래도 바닷가쪽 지방에 나이드신 분들이 더 많을꺼 같긴 합니다. (추측)<br />
+<br />
+연수구(송도)는 한나라당 원내대표 출신인 황우여라는 인물 때문에 밀렸겠죠.<br />
+<br />
+대한민국이 정당정치를 한다지만 인물에 밀리면 어쩔 수 없습니다.<br />
+<br />
+문재인이 부산에서 승리를 하긴 했지만 큰 표 차로 따돌리지는 못했습니다. 10% 차이도 안나지 않았나요?<br />
+<br />
+그 만큼 인물도 한 몫을 한다는 얘기지요.<br style="font-family: Verdana;"></span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">그럼 올해 대선을 어떻게 바라봐야 하냐로 결론을 내자면</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">서울지역에서 승리한 야당의 역할이 클꺼라고 봅니다.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">과반수 이상을 새누리당에게 내줬다는 긴장감이 10월 보궐선거, 12월 대선까지 이어질꺼라고 보고</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">10월 보궐선거는 당연히 야당이 승리하겠죠. 그 이후 대선은 두달도 남지 않습니다. 분위기가 넘어올 수 있다는 얘기지요.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">박근혜는 과반수 넘겼다고 절대 안심할 사람이 아닙니다. 이번 선거는 이겼지만 자기는 대선주자거든요.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">오히려 더 긴장하고 고삐를 당길겁니다. 아무래도 안철수-문재인이 연대를 하게 되면 어떻게 될지 모르니까요.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">자 희망을 가져봅시다.</span><br style="font-family: Verdana;"><br style="font-family: Verdana;"><span style="font-family: Verdana;">우리에겐 10월, 12월이 남았습니다.</span><br style="font-family: Verdana;"></font><br/><br/>tag : <a href="/tag/총선" rel="tag">총선</a>,&nbsp;<a href="/tag/국회의원" rel="tag">국회의원</a>,&nbsp;<a href="/tag/총선결과" rel="tag">총선결과</a>,&nbsp;<a href="/tag/인천" rel="tag">인천</a>			 ]]> 
+		</description>
+		<category>지껄이기</category>
+		<category>총선</category>
+		<category>국회의원</category>
+		<category>총선결과</category>
+		<category>인천</category>
+
+		<comments>http://kkanari.egloos.com/4693937#comments</comments>
+		<pubDate>Thu, 12 Apr 2012 00:01:02 GMT</pubDate>
+		<dc:creator>까나리</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 윈도우에서 빈용량 파일 만들기 ]]> </title>
+		<link>http://kkanari.egloos.com/4673500</link>
+		<guid>http://kkanari.egloos.com/4673500</guid>
+		<description>
+			<![CDATA[ 
+  <font face="Verdana" size="2">리눅스에서는 아래와 같이 명령어를 내리면 1GB 짜리 /tmp/test.avi 라는 파일이 생성된다.<div id="__KO_DIC_LAYER__" style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: fixed; z-index: 999999999; overflow-x: hidden; overflow-y: hidden; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(51, 51, 119); border-right-color: rgb(51, 51, 119); border-bottom-color: rgb(51, 51, 119); border-left-color: rgb(51, 51, 119); border-image: initial; display: none; "></div></font><div><font face="Verdana" size="2"><br />
+</font></div><div><blockquote><font face="Verdana" size="2">dd if=/dev/zero of=/tmp/test.avi BS=1024M</font></blockquote></div><div><font face="Verdana" size="2"><br />
+</font></div><div><font face="Verdana" size="2">윈도우에서도 아래와 같이 하면 파일을 만들 수 있다.</font></div><div><font face="Verdana" size="2">물론 cmd 는 관리자권한으로 실행해야 한다.</font></div><div><font face="Verdana" size="2"><br />
+</font><blockquote><font face="Verdana" size="2">G:\DCIM&gt;fsutil file createnew G:\DCIM\test.avi 4000000000<br />
+G:\DCIM\test.avi 파일 작성</font></blockquote><font face="Verdana" size="2"><br />
+</font></div><div><font face="Verdana" size="2">4GB 가량의 test.avi 파일을 작성중이다.</font></div><br/><br/>tag : <a href="/tag/fsutil" rel="tag">fsutil</a>,&nbsp;<a href="/tag/dd" rel="tag">dd</a>			 ]]> 
+		</description>
+		<category>시스템</category>
+		<category>fsutil</category>
+		<category>dd</category>
+
+		<comments>http://kkanari.egloos.com/4673500#comments</comments>
+		<pubDate>Wed, 08 Feb 2012 00:34:58 GMT</pubDate>
+		<dc:creator>까나리</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ LVM volume group create example ]]> </title>
+		<link>http://kkanari.egloos.com/4665415</link>
+		<guid>http://kkanari.egloos.com/4665415</guid>
+		<description>
+			<![CDATA[ 
+  <div>자주하는 작업이 아니여서 교육받은거 되짚어보면서 만드는데, 작업했던 내용 정리용으로 한번 만들어둠</div><br />
+<blockquote>1. LVM tab 확인<br />
+hostname:/dev] strings /etc/lvmtab<br />
+/dev/vg00<br />
+/dev/dsk/c7t0d0s2<br />
+/dev/dsk/c6t1d0s2<br />
+/dev/dsk/c6t0d0s2<br />
+/dev/dsk/c7t1d0s2<br />
+/dev/vglock<br />
+/dev/dsk/c0t0d1<br />
+/dev/dsk/c3t0d1<br />
+/dev/vg01<br />
+/dev/dsk/c0t0d2<br />
+/dev/dsk/c3t0d2<br />
+/dev/dsk/c3t0d3<br />
+/dev/dsk/c0t0d3<br />
+/dev/dsk/c0t0d4<br />
+/dev/dsk/c3t0d4<br />
+/dev/dsk/c3t0d5<br />
+/dev/dsk/c0t0d5<br />
+/dev/dsk/c0t0d6<br />
+/dev/dsk/c3t0d6<br />
+/dev/dsk/c3t0d7<br />
+/dev/dsk/c0t0d7<br />
+/dev/dsk/c0t1d0<br />
+/dev/dsk/c3t1d0<br />
+/dev/dsk/c3t1d1<br />
+/dev/dsk/c0t1d1<br />
+/dev/dsk/c0t1d2<br />
+/dev/dsk/c3t1d2<br />
+/dev/dsk/c3t1d3<br />
+/dev/dsk/c0t1d3<br />
+/dev/dsk/c0t1d4<br />
+/dev/dsk/c3t1d4<br />
+/dev/dsk/c3t1d5<br />
+/dev/dsk/c0t1d5<br />
+/dev/dsk/c0t1d6<br />
+/dev/dsk/c3t1d6<br />
+/dev/dsk/c3t1d7<br />
+/dev/dsk/c0t1d7<br />
+/dev/dsk/c0t2d0<br />
+/dev/dsk/c3t2d0<br />
+/dev/dsk/c3t2d1<br />
+/dev/dsk/c0t2d1<br />
+/dev/dsk/c0t2d2<br />
+/dev/dsk/c3t2d2<br />
+/dev/dsk/c3t2d3<br />
+/dev/dsk/c0t2d3<br />
+/dev/dsk/c0t2d4<br />
+/dev/dsk/c3t2d4<br />
+/dev/dsk/c3t2d5<br />
+/dev/dsk/c0t2d5<br />
+/dev/dsk/c0t2d6<br />
+/dev/dsk/c3t2d6<br />
+/dev/dsk/c3t2d7<br />
+/dev/dsk/c0t2d7<br />
+/dev/dsk/c0t3d0<br />
+/dev/dsk/c3t3d0<br />
+/dev/dsk/c3t3d1<br />
+/dev/dsk/c0t3d1<br />
+/dev/dsk/c0t3d2<br />
+/dev/dsk/c3t3d2<br />
+/dev/dsk/c3t3d3<br />
+/dev/dsk/c0t3d3<br />
+/dev/dsk/c0t3d4<br />
+/dev/dsk/c3t3d4<br />
+/dev/dsk/c3t3d5<br />
+/dev/dsk/c0t3d5<br />
+/dev/dsk/c0t3d6<br />
+/dev/dsk/c3t3d6<br />
+/dev/dsk/c3t3d7<br />
+/dev/dsk/c0t3d7<br />
+/dev/dsk/c0t4d0<br />
+/dev/dsk/c3t4d0<br />
+/dev/dsk/c3t4d1<br />
+/dev/dsk/c0t4d1<br />
+/dev/dsk/c0t4d2<br />
+/dev/dsk/c3t4d2<br />
+/dev/dsk/c3t4d3<br />
+/dev/dsk/c0t4d3<br />
+/dev/dsk/c0t4d4<br />
+/dev/dsk/c3t4d4<br />
+/dev/dsk/c3t4d5<br />
+/dev/dsk/c0t4d5<br />
+/dev/dsk/c3t4d6<br />
+/dev/dsk/c0t4d6<br />
+/dev/dsk/c3t4d7<br />
+/dev/dsk/c0t4d7<br />
+/dev/dsk/c3t5d0<br />
+/dev/dsk/c0t5d0<br />
+/dev/dsk/c3t5d1<br />
+/dev/dsk/c0t5d1<br />
+/dev/dsk/c3t5d2<br />
+/dev/dsk/c0t5d2<br />
+/dev/dsk/c3t5d3<br />
+/dev/dsk/c0t5d3<br />
+/dev/dsk/c3t5d4<br />
+/dev/dsk/c0t5d4<br />
+/dev/dsk/c3t5d5<br />
+/dev/dsk/c0t5d5<br />
+/dev/dsk/c3t5d6<br />
+/dev/dsk/c0t5d6<br />
+/dev/dsk/c3t5d7<br />
+/dev/dsk/c0t5d7<br />
+/dev/dsk/c3t6d0<br />
+/dev/dsk/c0t6d0<br />
+/dev/dsk/c3t6d1<br />
+/dev/dsk/c0t6d1<br />
+/dev/dsk/c3t6d2<br />
+/dev/dsk/c0t6d2<br />
+/dev/dsk/c3t6d3<br />
+/dev/dsk/c0t6d3<br />
+/dev/dsk/c3t6d4<br />
+/dev/dsk/c0t6d4<br />
+/dev/dsk/c3t6d5<br />
+/dev/dsk/c0t6d5<br />
+/dev/dsk/c3t6d6<br />
+/dev/dsk/c0t6d6<br />
+/dev/dsk/c3t6d7<br />
+/dev/dsk/c0t6d7<br />
+/dev/dsk/c3t7d0<br />
+/dev/dsk/c0t7d0<br />
+/dev/dsk/c3t7d1<br />
+/dev/dsk/c0t7d1<br />
+/dev/dsk/c3t7d2<br />
+/dev/dsk/c0t7d2<br />
+/dev/dsk/c3t7d3<br />
+/dev/dsk/c0t7d3<br />
+/dev/dsk/c3t7d4<br />
+/dev/dsk/c0t7d4<br />
+/dev/dsk/c3t7d5<br />
+/dev/dsk/c0t7d5<br />
+/dev/dsk/c3t7d6<br />
+/dev/dsk/c0t7d6<br />
+/dev/dsk/c3t7d7<br />
+/dev/dsk/c0t7d7<br />
+/dev/dsk/c3t8d0<br />
+/dev/dsk/c0t8d0<br />
+/dev/dsk/c3t8d1<br />
+/dev/dsk/c0t8d1<br />
+/dev/dsk/c3t8d2<br />
+/dev/dsk/c0t8d2<br />
+/dev/dsk/c3t8d3<br />
+/dev/dsk/c0t8d3<br />
+/dev/dsk/c3t8d4<br />
+/dev/dsk/c0t8d4<br />
+/dev/dsk/c3t8d5<br />
+/dev/dsk/c0t8d5<br />
+/dev/dsk/c3t8d6<br />
+/dev/dsk/c0t8d6<br />
+/dev/dsk/c3t8d7<br />
+/dev/dsk/c0t8d7<br />
+/dev/dsk/c3t9d0<br />
+/dev/dsk/c0t9d0<br />
+/dev/dsk/c3t9d1<br />
+/dev/dsk/c0t9d1<br />
+/dev/dsk/c3t9d2<br />
+/dev/dsk/c0t9d2<br />
+/dev/dsk/c3t9d3<br />
+/dev/dsk/c0t9d3<br />
+/dev/dsk/c3t9d4<br />
+/dev/dsk/c0t9d4<br />
+/dev/dsk/c3t9d5<br />
+/dev/dsk/c0t9d5<br />
+/dev/dsk/c3t9d6<br />
+/dev/dsk/c0t9d6<br />
+/dev/dsk/c3t9d7<br />
+/dev/dsk/c0t9d7<br />
+/dev/dsk/c3t10d0<br />
+/dev/dsk/c0t10d0<br />
+/dev/dsk/c3t10d1<br />
+/dev/dsk/c0t10d1<br />
+/dev/dsk/c3t10d2<br />
+/dev/dsk/c0t10d2<br />
+/dev/dsk/c3t10d3<br />
+/dev/dsk/c0t10d3<br />
+/dev/dsk/c3t10d4<br />
+/dev/dsk/c0t10d4<br />
+/dev/dsk/c3t10d5<br />
+/dev/dsk/c0t10d5<br />
+/dev/dsk/c3t10d6<br />
+/dev/dsk/c0t10d6<br />
+/dev/dsk/c3t10d7<br />
+/dev/dsk/c0t10d7<br />
+/dev/dsk/c3t11d0<br />
+/dev/dsk/c0t11d0<br />
+/dev/dsk/c3t11d1<br />
+/dev/dsk/c0t11d1<br />
+/dev/dsk/c3t11d2<br />
+/dev/dsk/c0t11d2<br />
+/dev/dsk/c3t11d3<br />
+/dev/dsk/c0t11d3 <br />
+<br />
+<br />
+2. /dev/vgXX 디렉토리 존재하나 확인<br />
+hostname&nbsp;:/dev/vg02] ls -alt<br />
+total 16<br />
+dr-xr-xr-x  18 bin        bin           8192 Jan 10 10:04 ..<br />
+drwx------   2 root       sys             96 Dec 14  2007 .<br />
+crw-------   1 root       sys         64 0x020000 Dec 14  2007 group<br />
+안쓰는 VG02 로 VG 사용<br />
+<br />
+<br />
+3. 스크립트 생성<br />
+/tmp/lvm/pvcreate_vg02.sh 생성<br />
+pvcreate -f     /dev/rdsk/c0t11d4<br />
+pvcreate -f     /dev/rdsk/c3t11d4<br />
+pvcreate -f     /dev/rdsk/c0t11d5<br />
+pvcreate -f     /dev/rdsk/c3t11d5<br />
+pvcreate -f     /dev/rdsk/c0t11d6<br />
+pvcreate -f     /dev/rdsk/c3t11d6<br />
+pvcreate -f     /dev/rdsk/c0t11d7<br />
+pvcreate -f     /dev/rdsk/c3t11d7<br />
+pvcreate -f     /dev/rdsk/c0t12d0<br />
+pvcreate -f     /dev/rdsk/c3t12d0<br />
+pvcreate -f     /dev/rdsk/c0t12d1<br />
+pvcreate -f     /dev/rdsk/c3t12d1<br />
+pvcreate -f     /dev/rdsk/c0t12d2<br />
+pvcreate -f     /dev/rdsk/c3t12d2<br />
+pvcreate -f     /dev/rdsk/c0t12d3<br />
+pvcreate -f     /dev/rdsk/c3t12d3<br />
+pvcreate -f     /dev/rdsk/c0t12d4<br />
+pvcreate -f     /dev/rdsk/c3t12d4<br />
+pvcreate -f     /dev/rdsk/c0t12d5<br />
+pvcreate -f     /dev/rdsk/c3t12d5<br />
+pvcreate -f     /dev/rdsk/c0t12d6<br />
+pvcreate -f     /dev/rdsk/c3t12d6<br />
+pvcreate -f     /dev/rdsk/c0t12d7<br />
+pvcreate -f     /dev/rdsk/c3t12d7<br />
+pvcreate -f     /dev/rdsk/c0t13d0<br />
+pvcreate -f     /dev/rdsk/c3t13d0<br />
+pvcreate -f     /dev/rdsk/c0t13d1<br />
+pvcreate -f     /dev/rdsk/c3t13d1<br />
+pvcreate -f     /dev/rdsk/c0t13d2<br />
+pvcreate -f     /dev/rdsk/c3t13d2<br />
+pvcreate -f     /dev/rdsk/c0t13d3<br />
+pvcreate -f     /dev/rdsk/c3t13d3<br />
+pvcreate -f     /dev/rdsk/c0t13d4<br />
+pvcreate -f     /dev/rdsk/c3t13d4<br />
+pvcreate -f     /dev/rdsk/c0t13d5<br />
+pvcreate -f     /dev/rdsk/c3t13d5<br />
+pvcreate -f     /dev/rdsk/c0t13d6<br />
+pvcreate -f     /dev/rdsk/c3t13d6<br />
+<br />
+<br />
+4. VG 만들다 잘못됐을경우 <br />
+# vgchange -a n /dev/vg02<br />
+# vgexport vg02<br />
+로 하면 /dev/vg02 와 vg02 가 삭제됨<br />
+<br />
+# mkdir /dev/vg02<br />
+# mknod /dev/vg02/group c 64 0x020000<br />
+으로 만들어주면 됨 <br />
+<br />
+<br />
+5. vgcreate 스크립트 생성<br />
+-p 는 PV 갯수라서 255개로 넉넉히 줌 (기본값이 16)<br />
+-s 는 PE 사이즈라서 32MB 로 만듬 (기본값이 4)<br />
+<br />
+# vgcreate_vg02.sh 생성<br />
+hostname&nbsp;:/tmp/lvm] cat vgcreate_vg02.sh<br />
+vgcreate -p 255 -s 32 vg02 \<br />
+/dev/dsk/c0t11d4        \<br />
+/dev/dsk/c3t11d4        \<br />
+/dev/dsk/c0t11d5        \<br />
+/dev/dsk/c3t11d5        \<br />
+/dev/dsk/c0t11d6        \<br />
+/dev/dsk/c3t11d6        \<br />
+/dev/dsk/c0t11d7        \<br />
+/dev/dsk/c3t11d7        \<br />
+/dev/dsk/c0t12d0        \<br />
+/dev/dsk/c3t12d0        \<br />
+/dev/dsk/c0t12d1        \<br />
+/dev/dsk/c3t12d1        \<br />
+/dev/dsk/c0t12d2        \<br />
+/dev/dsk/c3t12d2        \<br />
+/dev/dsk/c0t12d3        \<br />
+/dev/dsk/c3t12d3        \<br />
+/dev/dsk/c0t12d4        \<br />
+/dev/dsk/c3t12d4        \<br />
+/dev/dsk/c0t12d5        \<br />
+/dev/dsk/c3t12d5        \<br />
+/dev/dsk/c0t12d6        \<br />
+/dev/dsk/c3t12d6        \<br />
+/dev/dsk/c0t12d7        \<br />
+/dev/dsk/c3t12d7        \<br />
+/dev/dsk/c0t13d0        \<br />
+/dev/dsk/c3t13d0        \<br />
+/dev/dsk/c0t13d1        \<br />
+/dev/dsk/c3t13d1        \<br />
+/dev/dsk/c0t13d2        \<br />
+/dev/dsk/c3t13d2        \<br />
+/dev/dsk/c0t13d3        \<br />
+/dev/dsk/c3t13d3        \<br />
+/dev/dsk/c0t13d4        \<br />
+/dev/dsk/c3t13d4        \<br />
+/dev/dsk/c0t13d5        \<br />
+/dev/dsk/c3t13d5        \<br />
+/dev/dsk/c0t13d6        \<br />
+/dev/dsk/c3t13d6<br />
+<br />
+Volume group "/dev/vg02" has been successfully created.<br />
+Volume Group configuration for /dev/vg02 has been saved in /etc/lvmconf/vg02.conf<br />
+위와 같이 뜨면 성공<br />
+<br />
+<br />
+6. LV 생성<br />
+PE Size * Total PE 를 곱하면 220096 사이즈가 나옴<br />
+<br />
+hostname&nbsp;:/tmp/lvm] lvcreate -L 220096 vg02<br />
+Logical volume "/dev/vg02/lvol1" has been successfully created with<br />
+character device "/dev/vg02/rlvol1".<br />
+Logical volume "/dev/vg02/lvol1" has been successfully extended.<br />
+Volume Group configuration for /dev/vg02 has been saved in /etc/lvmconf/vg02.conf<br />
+<br />
+<br />
+7. filesystem 생성<br />
+-F 는 vxfs 를 사용하고 -o largefiles 를 넣어줘야 대용량 파일을 핸들링할 수 있음<br />
+<br />
+hostname&nbsp;:/] newfs -F vxfs -o largefiles /dev/vg02/rlvol1<br />
+    version 5 layout<br />
+    225378304 sectors, 225378304 blocks of size 1024, log size 16384 blocks<br />
+    unlimited inodes, largefiles supported<br />
+    225378304 data blocks, 225305112 free data blocks<br />
+    6878 allocation units of 32768 blocks, 32768 data blocks<br />
+<br />
+<br />
+8. fstab 수저<br />
+/etc/fstab 에 추가<br />
+/dev/vg02/lvol1 /home2 vxfs delaylog 0 2<br />
+<br />
+<br />
+9. 부팅시 자동으로 마운트 되게 하기 (클러스터 볼륨일 경우 기본값이 0으로 Disable 임)<br />
+/etc/lvmrc 에<br />
+AUTO_VG_ACTIVATE=1<br />
+<br />
+<br />
+10. 확인<br />
+cmviewcl 확인<br />
+<br />
+ # cmhaltnode&nbsp;hostname<br />
+ 으로 node 를 죽인후 리부팅<br />
+ # reboot<br />
+ <br />
+ 마운트해서 제대로 올라오나 확인후<br />
+ <br />
+ # cmrunnode&nbsp;hostname&nbsp;<br />
+ 으로 클러스터에 다시 조인<br />
+<br />
+hostname&nbsp;:/] bdf<br />
+Filesystem          kbytes    used   avail %used Mounted on<br />
+/dev/vg00/lvol3    10485760 6526600 3928256   62% /<br />
+/dev/vg00/lvol1     512499  161500  299749   35% /stand<br />
+/dev/vg00/lvol7    10485760 4843480 5599464   46% /var<br />
+/dev/vg00/lvol10   16777216 2005008 13848951   13% /var/adm/crash<br />
+/dev/vg00/lvol6    6291456 2814960 3449400   45% /usr<br />
+/dev/vg00/lvol5    1048576  735352  310808   70% /tmp<br />
+/dev/vg00/lvol4    6291456 4079104 2195088   65% /opt<br />
+/dev/vg02/lvol1    225378304   71708 211224941    0% /home2<br />
+<br />
+정상으로 확인됨.<br />
+</blockquote><br />
+<div id="__KO_DIC_LAYER__" style="padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; position: fixed; z-index: 999999999; overflow-x: hidden; overflow-y: hidden; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(51, 51, 119); border-right-color: rgb(51, 51, 119); border-bottom-color: rgb(51, 51, 119); border-left-color: rgb(51, 51, 119); border-image: initial; display: none; "><iframe frameborder="0" scrolling="yes" style="width: 100%; height: 100%; background-color: rgb(255, 255, 255); "></iframe></div><br/><br/>tag : <a href="/tag/hpux" rel="tag">hpux</a>,&nbsp;<a href="/tag/lvm" rel="tag">lvm</a>,&nbsp;<a href="/tag/vgcreate" rel="tag">vgcreate</a>,&nbsp;<a href="/tag/pvcreate" rel="tag">pvcreate</a>,&nbsp;<a href="/tag/lvcreate" rel="tag">lvcreate</a>			 ]]> 
+		</description>
+		<category>시스템</category>
+		<category>hpux</category>
+		<category>lvm</category>
+		<category>vgcreate</category>
+		<category>pvcreate</category>
+		<category>lvcreate</category>
+
+		<comments>http://kkanari.egloos.com/4665415#comments</comments>
+		<pubDate>Thu, 12 Jan 2012 05:07:18 GMT</pubDate>
+		<dc:creator>까나리</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 휴대폰 번호 변경했습니다. ]]> </title>
+		<link>http://kkanari.egloos.com/4169335</link>
+		<guid>http://kkanari.egloos.com/4169335</guid>
+		<description>
+			<![CDATA[ 
+  017-xxx-xxxx -&gt; 010-7xxx-xxxx<br />
+1과 7사이에 0만 넣어주세요. 10년간 정든 017 이여 Bye Bye~<br />
+<br/><br/>tag : <a href="/tag/017" rel="tag">017</a>,&nbsp;<a href="/tag/010" rel="tag">010</a>,&nbsp;<a href="/tag/휴대폰" rel="tag">휴대폰</a>,&nbsp;<a href="/tag/번호변경" rel="tag">번호변경</a>			 ]]> 
+		</description>
+		<category>지껄이기</category>
+		<category>017</category>
+		<category>010</category>
+		<category>휴대폰</category>
+		<category>번호변경</category>
+
+		<comments>http://kkanari.egloos.com/4169335#comments</comments>
+		<pubDate>Sat, 31 Dec 2011 14:59:00 GMT</pubDate>
+		<dc:creator>까나리</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ HP Itanium 장비 CPU 갯수 및 Core 확인 ]]> </title>
+		<link>http://kkanari.egloos.com/4657071</link>
+		<guid>http://kkanari.egloos.com/4657071</guid>
+		<description>
+			<![CDATA[ 
+  1. machinfo 정보중<div>&nbsp; <b>&nbsp;Number of CPUs = 4</b></div><div>; Core 갯수</div><div>&nbsp;</div><div>&nbsp; &nbsp;<b>largest CPUID reg: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 4</b></div><div>; Max CPU 갯수</div><div><br />
+</div><div><br />
+</div><div>2. parstatus</div><div>[Cell]</div><div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CPU &nbsp; &nbsp; &nbsp;Memory &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Use</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; OK/ &nbsp; &nbsp; &nbsp; (GB) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Core &nbsp; &nbsp;On</div><div>Hardware &nbsp; Actual &nbsp; &nbsp; &nbsp; Deconf/ OK/ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Cell &nbsp; &nbsp;Next &nbsp; Par</div><div>Location &nbsp; Usage &nbsp; &nbsp; &nbsp; &nbsp;Max &nbsp; &nbsp; &nbsp;Deconf &nbsp; &nbsp;Connected To &nbsp; &nbsp; &nbsp; &nbsp;Capable Boot Num</div><div>========== ============ ======= ========= =================== ======= ==== ===</div></div><div>cab0,cell3 Active Core &nbsp;<b>4</b>/0/<b>8</b> &nbsp; 8.0/0.0 &nbsp; cab8,bay1,chassis1 &nbsp;yes &nbsp; &nbsp; yes &nbsp;5 &nbsp;&nbsp;</div><div><br />
+</div><div>Max 가 8 Core 이므로 Max CPU 갯수로 나누면 이 장비 CPU 는 Dual Core 임.</div><div><br />
+</div><div>현재 CPU Dual Core 2장으로 구성되어 있음.</div><br/><br/>tag : <a href="/tag/hpux" rel="tag">hpux</a>,&nbsp;<a href="/tag/cpu" rel="tag">cpu</a>,&nbsp;<a href="/tag/core" rel="tag">core</a>			 ]]> 
+		</description>
+		<category>시스템</category>
+		<category>hpux</category>
+		<category>cpu</category>
+		<category>core</category>
+
+		<comments>http://kkanari.egloos.com/4657071#comments</comments>
+		<pubDate>Tue, 20 Dec 2011 02:47:11 GMT</pubDate>
+		<dc:creator>까나리</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Mac bluetooth delay fix in Windows 7 ]]> </title>
+		<link>http://kkanari.egloos.com/4651585</link>
+		<guid>http://kkanari.egloos.com/4651585</guid>
+		<description>
+			<![CDATA[ 
+  <object width="640" height="480"><param name="movie" value="http://www.youtube.com/v/PRe1_GzjL8E?version=3&amp;hl=ko_KR&amp;hd=1"><embed src="http://www.youtube.com/v/PRe1_GzjL8E?version=3&amp;hl=ko_KR&amp;hd=1" type="application/x-shockwave-flash" width="640" height="480" allowscriptaccess="always" allowfullscreen="true"></object><br/><br/>tag : <a href="/tag/apple" rel="tag">apple</a>,&nbsp;<a href="/tag/windows7" rel="tag">windows7</a>,&nbsp;<a href="/tag/delay" rel="tag">delay</a>,&nbsp;<a href="/tag/Bluetooth" rel="tag">Bluetooth</a>			 ]]> 
+		</description>
+		<category>시스템</category>
+		<category>apple</category>
+		<category>windows7</category>
+		<category>delay</category>
+		<category>Bluetooth</category>
+
+		<comments>http://kkanari.egloos.com/4651585#comments</comments>
+		<pubDate>Sat, 03 Dec 2011 03:22:23 GMT</pubDate>
+		<dc:creator>까나리</dc:creator>
+	</item>
+</channel>
+</rss>

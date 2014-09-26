@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="0.92">
+<channel>
+	<title>YUI Blog</title>
+	<link>http://www.yuiblog.com/blog</link>
+	<description>The official blog of the YUI Project.</description>
+	<lastBuildDate>Mon, 25 Aug 2014 20:37:06 +0000</lastBuildDate>
+	<docs>http://backend.userland.com/rss092</docs>
+	<language>en-US</language>
+
+	<!-- generator="WordPress/4.0" -->
+
+	<item>
+		<title>We’ve Moved to Tumblr!</title>
+		<description><![CDATA[As of today, look for YUI-related announcements on the Yahoo Engineering Tumblr blog as well as YUI’s official Twitter page. The YUI Blog will continue to live in its present form for several more months, albeit in read-only mode. At some point in the near future, it will be archived so that all the great [&#8230;]]]></description>
+		<link>http://www.yuiblog.com/blog/2014/08/25/weve-moved-to-tumblr/</link>
+			</item>
+	<item>
+		<title>YUI Gallery Deprecation Announcement</title>
+		<description><![CDATA[Since it was first introduced in 2009, the YUI Gallery has been a great tool for web developers, allowing them to contribute to the YUI library in a more open way, make their YUI modules more discoverable, and deploy them at scale using Yahoo’s CDN. As a result, the YUI Gallery now contains over 600 [&#8230;]]]></description>
+		<link>http://www.yuiblog.com/blog/2014/06/16/yui-gallery-deprecation-announcement/</link>
+			</item>
+	<item>
+		<title>YUI 3.17.2 Released</title>
+		<description><![CDATA[We are pleased to announce the release of YUI 3.17.2. You can find this release on the Yahoo CDN, through npm, and via a downloadable .zip archive. We have also updated the YUI Library website to reflect the changes in this release. What&#8217;s New In This Release This point release fixes an issue with Loader [&#8230;]]]></description>
+		<link>http://www.yuiblog.com/blog/2014/06/03/yui-3-17-2-released/</link>
+			</item>
+	<item>
+		<title>YUI 3.17.2 Release Candidate 1</title>
+		<description><![CDATA[We are announcing a new release candidate for you to try out: 3.17.2-rc-1. You can find it on the Yahoo CDN, via npm, and download it via the .zip archive. We have also updated the staging website for this release candidate. This release candidate is targeted to fix Loader regression issues from 3.17.0. We found [&#8230;]]]></description>
+		<link>http://www.yuiblog.com/blog/2014/05/23/yui-3-17-2-release-candidate-1/</link>
+			</item>
+	<item>
+		<title>YUI 3.17.1 Released</title>
+		<description><![CDATA[We are happy to announce the release of YUI 3.17.1! This release can be found on the free Yahoo CDN, through npm, and through a downloadable .zip archive. We have also updated the YUI Library website to reflect the changes in this release. YUI 3.17.0 was found to have an issue with Loader right before [&#8230;]]]></description>
+		<link>http://www.yuiblog.com/blog/2014/05/21/yui-3-17-1-released/</link>
+			</item>
+	<item>
+		<title>YUI Weekly for May 16, 2014</title>
+		<description><![CDATA[Welcome to YUI Weekly, the weekly roundup of news and announcements from the YUI team and community. Release News YUI We&#8217;ll be shipping YUI 3.17.0 next week! Sprint 14 has ended and we&#8217;ll be doing a last round of checks on Monday before deploying the release branch. If all goes well, YUI 3.17.0 will be [&#8230;]]]></description>
+		<link>http://www.yuiblog.com/blog/2014/05/16/yui-weekly-for-may-16-2014/</link>
+			</item>
+	<item>
+		<title>YUI App Framework in Cordova</title>
+		<description><![CDATA[Apache Cordova is a framework for developing cross-platform smartphone apps using HTML, CSS, and JavaScript. I recently had the opportunity to create an app for Android and iOS devices, and it was great to be able to do this using familiar web technologies. One unfamiliar aspect, however, was building a single-page app. It is possible [&#8230;]]]></description>
+		<link>http://www.yuiblog.com/blog/2014/05/13/yui-app-framework-in-cordova/</link>
+			</item>
+	<item>
+		<title>YUI 3.17.0 Release Candidate 1</title>
+		<description><![CDATA[We are pleased to announce a new release candidate for you to try out: 3.17.0-rc-1. You can find it on CDN here, via npm, and download it via the .zip archive. We have also updated the staging website with the latest documentation. This release candidate is currently being tested across all of our target environments [&#8230;]]]></description>
+		<link>http://www.yuiblog.com/blog/2014/05/13/yui-3-17-0-release-candidate-1/</link>
+			</item>
+	<item>
+		<title>YUI Weekly for May 2nd, 2014</title>
+		<description><![CDATA[Welcome to YUI Weekly, the weekly roundup of news and announcements from the YUI team and community. Release News Work is ongoing on Sprint 14, which is slated to culminate in a YUI release on May 22nd. We have a lot of open pull requests from the community which we&#8217;ll be reviewing and merging in [&#8230;]]]></description>
+		<link>http://www.yuiblog.com/blog/2014/05/02/yui-weekly-for-may-2nd-2014/</link>
+			</item>
+	<item>
+		<title>YUI Weekly for April 11th, 2014</title>
+		<description><![CDATA[Welcome to YUI Weekly, the weekly roundup of news and announcements from the YUI team and community. Release News We released YUI 3.16.0 this week! Big props to everyone on the core team and the community! &#60;script src="http://yui.yahooapis.com/3.16.0/build/yui/yui-min.js"&#62;&#60;/script&#62; Find out more about what&#8217;s changed in this release by viewing the change history rollup. Andrew also [&#8230;]]]></description>
+		<link>http://www.yuiblog.com/blog/2014/04/11/yui-weekly-for-april-11th-2014/</link>
+			</item>
+</channel>
+</rss>

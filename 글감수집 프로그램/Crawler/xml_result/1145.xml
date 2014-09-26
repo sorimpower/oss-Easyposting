@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>초짜 플머 헬마</title>
+		<link>http://jgh0721.tistory.com/</link>
+		<description>초짜 플머 헬마의 이런저런 잡다한 글들..</description>
+		<language>ko</language>
+		<pubDate>Wed, 17 Aug 2011 09:05:29 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<image>
+		<title>초짜 플머 헬마</title>
+		<url><![CDATA[http://cfs1.tistory.com/upload_control/download.blog?fhandle=YmxvZzEwMjQ0QGZzMS50aXN0b3J5LmNvbTovYXR0YWNoLzAvMTcwMDAwMDAwMDAwLmpwZw%3D%3D]]></url>
+		<link>http://jgh0721.tistory.com/</link>
+		<description>초짜 플머 헬마의 이런저런 잡다한 글들..</description>
+		</image>
+		<item>
+			<title>다음 클라우드... 동기화..</title>
+			<link>http://jgh0721.tistory.com/entry/%EB%8B%A4%EC%9D%8C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EB%8F%99%EA%B8%B0%ED%99%94</link>
+			<description>헬마입니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;요즘 다음 클라우드가 공격적으로 세력 넓히기를 시도하더군요. &lt;br /&gt;
+&lt;br /&gt;&amp;nbsp;PC 용 다음 클라우드 버전업도 기차게 자주 하면서 뭔가 보완을 열심히 하네요. 사실 다음 클라우드에 관심을 갖게된 것은 이 프로그램이 Qt 로 제작된 것이었기 때문입니다. 이제는 전혀 신경쓰지 않고 잘 쓰고 있지만요.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;하지만, 여전히 동기화 자체가 불안정하더군요. &lt;br /&gt;
+&lt;br /&gt;최근에도 작성중이던 문서를 날렸습니다. ㅠㅠ &lt;br /&gt;
+&lt;br /&gt;특히나, 2대의 컴퓨터가 동시에 켜져 있고, 동기화 폴더에서 직접 문서 편집등을 하면 문서가 자주 망가지는 점이 있습니다. &lt;br /&gt;
+&lt;br /&gt;이점에 대해서 보완이된다면 네이버의 N드라이브보다는 훨씬 편하겠더군요. &lt;br /&gt;
+&lt;br /&gt;아, 또 하나 문제가 있습니다. 개발자다 보니 아무래도 개발관련 어플을 자주 쓰는데 이녀석이 하필이면 한글로된 폴더를 인식하지 못하더군요. &lt;br /&gt;
+&lt;br /&gt;그런데, 다음 클라우드는 꼭 어떤 폴더를 지정하던 그 안에 한글로 &quot;Daum 클라우드&quot; 라는 폴더를 만들고 여기에 동기화가 됩니다. 이점을 고쳐주었으면 하는 간절한 소망이 있네요. &lt;br /&gt;
+&lt;br /&gt;&amp;nbsp;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-299-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-299-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-299-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>잡담</category>
+			<category>@tistory.com</category>
+			<category>다음 클라우드</category>
+			<category>다음클라우드</category>
+			<author>헬마</author>
+			<guid>http://jgh0721.tistory.com/299</guid>
+			<comments>http://jgh0721.tistory.com/entry/%EB%8B%A4%EC%9D%8C-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EB%8F%99%EA%B8%B0%ED%99%94#entry299comment</comments>
+			<pubDate>Thu, 30 Jun 2011 22:34:35 +0900</pubDate>
+		</item>
+		<item>
+			<title>블로그 이전합니다.</title>
+			<link>http://jgh0721.tistory.com/entry/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EC%A0%84%ED%95%A9%EB%8B%88%EB%8B%A4</link>
+			<description>헬마입니다.&amp;nbsp;&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;구입한 마이크로 서버에 대강 웹서버등의 설정이 끝나서 어느정도 작동이 되기 시작하는것 같아 이제 블로그를 옮기려 합니다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+아무래도 집에 서버가 있다보니 간간히 서버가 꺼지는 일도 있어서 블로그 접속이 때대로 되지 않더라도 많은 이해를 구합니다. ^^&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+또한, 이번에 웹 서버를 직접 설치한 기념으로 문서 정리를 겸하여 위키도 시작했습니다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+새 블로그 주소 : http://jgh0721.homeip.net&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+새 위키 주소 : http://jgh0721.homeip.net/wiki&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<author>헬마</author>
+			<guid>http://jgh0721.tistory.com/298</guid>
+			<comments>http://jgh0721.tistory.com/entry/%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9D%B4%EC%A0%84%ED%95%A9%EB%8B%88%EB%8B%A4#entry298comment</comments>
+			<pubDate>Fri, 10 Dec 2010 11:16:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>hTC Sync 3.0.5481</title>
+			<link>http://jgh0721.tistory.com/entry/hTC-Sync-305481</link>
+			<description>헬마입니다.&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;hTC의 자체 동기화 프로그램인 hTC Sync 3.0 이 업데이트되었습니다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+2010/11/09 일로 한국 hTC에 등록된 hTC Sync 3.0 은 빌드가 5422 빌드네요.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+아래와 같은 사항이 좋아졌다고 하는군요.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-family: Tahoma, Verdana, Helvetica, sans-serif; line-height: 20px; font-size: 13px; &quot;&gt;&lt;p style=&quot;margin-top: 11px; margin-right: 0px; margin-bottom: 11px; margin-left: 0px; &quot;&gt;Note: This update is applicable for APAC &amp;amp; EU HTC Hero (Android 2.1) , HTC Desire HD, Desire Z, Legend, Desire, Wildfire &amp;amp; HTC Aria (APAC Only).&lt;/p&gt;
+&lt;p style=&quot;margin-top: 11px; margin-right: 0px; margin-bottom: 11px; margin-left: 0px; &quot;&gt;Version: 3.0.5481&lt;/p&gt;
+&lt;p style=&quot;margin-top: 11px; margin-right: 0px; margin-bottom: 11px; margin-left: 0px; &quot;&gt;Improved functions:&lt;/p&gt;
+&lt;p style=&quot;margin-top: 11px; margin-right: 0px; margin-bottom: 11px; margin-left: 0px; &quot;&gt;1. Support “Group” syncs in Contact&lt;/p&gt;
+&lt;p style=&quot;margin-top: 11px; margin-right: 0px; margin-bottom: 11px; margin-left: 0px; &quot;&gt;2. Extend Calendar Sync period to 1 year&lt;/p&gt;
+&lt;p style=&quot;margin-top: 11px; margin-right: 0px; margin-bottom: 11px; margin-left: 0px; &quot;&gt;3. Add “My favorite” item support for Contacts&lt;/p&gt;
+&lt;p style=&quot;margin-top: 11px; margin-right: 0px; margin-bottom: 11px; margin-left: 0px; &quot;&gt;&lt;br /&gt;
+&lt;/p&gt;&lt;p style=&quot;margin-top: 11px; margin-right: 0px; margin-bottom: 11px; margin-left: 0px; &quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile6.uf@116C970D4CD8D1FB0C26B5.exe&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; HTC Wildfire_setup_3.0.5481.sfx.part1.exe&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile10.uf@126FC00D4CD8D214081739.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; HTC Wildfire_setup_3.0.5481.sfx.part2.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile23.uf@1166690D4CD8D230276004.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; HTC Wildfire_setup_3.0.5481.sfx.part3.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile6.uf@186BE70D4CD8D24B0F0991.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; HTC Wildfire_setup_3.0.5481.sfx.part4.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile29.uf@2064E70D4CD8D275174045.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; HTC Wildfire_setup_3.0.5481.sfx.part5.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile2.uf@2060C60D4CD8D28D3656EF.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; HTC Wildfire_setup_3.0.5481.sfx.part6.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile5.uf@1170010D4CD8D29F1C25E1.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; HTC Wildfire_setup_3.0.5481.sfx.part7.rar&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-297-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-297-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-297-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>안드로이드</category>
+			<category>HTC</category>
+			<category>안드로이드</category>
+			<author>헬마</author>
+			<guid>http://jgh0721.tistory.com/297</guid>
+			<comments>http://jgh0721.tistory.com/entry/hTC-Sync-305481#entry297comment</comments>
+			<pubDate>Tue, 09 Nov 2010 13:49:52 +0900</pubDate>
+		</item>
+		<item>
+			<title>reStructuredText With Sphinx 간단한 소개</title>
+			<link>http://jgh0721.tistory.com/entry/reStructuredText-With-Sphinx-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%86%8C%EA%B0%9C</link>
+			<description>헬마입니다.&amp;nbsp;&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&amp;nbsp;&amp;nbsp;몇달전부터 파이썬을 접하면서 파이썬에 쓰인 문서화 도구인 reSturecturedText 를 매우 써보고싶었는데 사용방법이 뭔가 조금 난해하더군요. 계속 사용해보려고 시도했다가 실패하기를 반복하기를 몇번, 오늘 날 잡고 파이썬 홈페이지와 docutils, sphinx 등의 홈페이지를 꼼꼼히 하나씩 다 읽어보면서 드디어 간단한 사용방법을 터득했네요.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+첨부파일은 reST 와 Sphinx 를 사용해서 간단히 작성해본 reST 소개글입니다. 저도 이제서야 막 어떻게 쓰는 것인지 익힌터라 불안불안하네요.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+현재는 emEditor 로 작성하고 있는데 누군가 편히 작성할 수 있는 emEditor 용 플러그인이라도 작성해주면 매우 좋겠네요...&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile1.uf@171BE0114CC2F91505B388.chm&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; intro-reSTdoc.chm&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile23.uf@1405A6114CC2F9154D931D.zip&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/zip.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; QuickStart-reST.zip&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;아래 첨부파일은 현재 제가 문서화를 위해 구성한 파이썬 설치파일들입니다. 혹시나 있으면 편할듯 하여 올립니다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile1.uf@1907FD1F4CC2F982946A68.exe&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Python27.part1.exe&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile9.uf@150D4C1F4CC2F99060043C.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Python27.part2.rar&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-296-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-296-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-296-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>프로그래밍</category>
+			<category>REST</category>
+			<category>reStructuredText</category>
+			<category>Sphinx</category>
+			<author>헬마</author>
+			<guid>http://jgh0721.tistory.com/296</guid>
+			<comments>http://jgh0721.tistory.com/entry/reStructuredText-With-Sphinx-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%86%8C%EA%B0%9C#entry296comment</comments>
+			<pubDate>Sun, 24 Oct 2010 00:07:16 +0900</pubDate>
+		</item>
+		<item>
+			<title>Desire HD ROM for Original Desire</title>
+			<link>http://jgh0721.tistory.com/entry/Desire-HD-ROM-for-Original-Desire</link>
+			<description>&lt;font class=&quot;Apple-style-span&quot; size=&quot;3&quot; style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;헬마입니다.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 9pt; line-height: 1.5; color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;font-size: 9pt; line-height: 1.5; color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&amp;nbsp;&amp;nbsp;약 일주일전에 디자이어HD 의 제품발표회가 있었습니다. 향상된 성능의 제품도 관심거리였지만, 향상된 센스UI또한 매우 관심거리였다고 할 수 있습니다. 물론, 제품이 발료되고 얼마 안있어 코드명 hTC ACE 라는 이름으로 디자이어HD의 롬파일이 덤프되었고, 제일먼저 HD2 용으로 포팅이 성공적으로 되었습니다. 그후 며칠전에는 오리지날 디자이어용으로 구동가능한 파일들이 올라왔습니다. 아직은 직접 올릴수 있는 롬 파일의 형식은 아니고 ADB를 통해 올려야 하지만 향상된 센스UI가 궁금하신 분은 올려보셔도 괜찮을 것 같네요.&amp;nbsp;&lt;/div&gt;
+&lt;div style=&quot;font-size: 9pt; line-height: 1.5; color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;font-size: 9pt; line-height: 1.5; color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+본 글과 롬 파일은&amp;nbsp;&lt;a href=&quot;http://forum.xda-developers.com/showthread.php?t=788554&quot;&gt;http://forum.xda-developers.com/showthread.php?t=788554&lt;/a&gt;&amp;nbsp;의 링크를 기반으로 작성되었습니다.&amp;nbsp;&lt;/div&gt;
+&lt;div style=&quot;font-size: 9pt; line-height: 1.5; color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;font-size: 9pt; line-height: 1.5; color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+필요파일들 : 첨부파일, 안드로이드 SDK&lt;/div&gt;
+&lt;div style=&quot;font-size: 9pt; line-height: 1.5; color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;font-size: 9pt; line-height: 1.5; color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;b&gt;&lt;span style=&quot;font-size: 14pt; &quot;&gt;롬 파일 올리기&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div style=&quot;font-size: 9pt; line-height: 1.5; color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;b&gt;&lt;span style=&quot;font-size: 14pt; &quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;font class=&quot;Apple-style-span&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 9pt; line-height: 1.5;&quot;&gt;ㄱ). &lt;/span&gt;&lt;/font&gt;&lt;b style=&quot;font-size: 9pt; line-height: 1.5; &quot;&gt;﻿첨부한 파일의 압축을 푼다. ( default.xml, ownhere.desirehd.sd-ext.tgz ownhere.desirehd.system.tgz,&amp;nbsp;ownheredesire_v2.0_acekernel.zip 파일 4개가 나옵니다 ).&lt;/b&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;b&gt;ㄴ). 4개 파일을 sd카드의 루트 폴더에 넣습니다. ( adb push 를 통해 넣거나 , 디스크 드라이브 마운트를 통해 넣으시거나 편하신걸로 넣으시면 됩니다. )&lt;/b&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;b&gt;ㄷ). 폰을 재부팅하여 복구(Recovrey) 모드로 진입합니다.&amp;nbsp;&lt;/b&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;b&gt;ㄹ). 먼저 공장초기화를 수행합니다. ( cache, data, sd-ext 등을 초기화합니다. )&lt;/b&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;b&gt;ㅁ). adb shell 을 입력하여 복구모드 상태에서 adb 를 연결합니다.&amp;nbsp;&lt;/b&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;b&gt;ㅇ). 아래 명령을 하나씩 실행합니다.&amp;nbsp;&lt;/b&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;b&gt;mkdir sd-ext&lt;/b&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;b&gt;mount /system&lt;/b&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;b&gt;mount /sd-ext&lt;/b&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;b&gt;mount /sdcard&lt;/b&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;b&gt;ㅂ). 아래 명령을 하나씩 실행합니다.&amp;nbsp;&lt;/b&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;b&gt;cd /system&lt;/b&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;b&gt;rm -r *&amp;nbsp;&lt;/b&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;b&gt;tar zxvf /sdcard/&lt;/b&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;ownhere.desirehd.system.tgz&lt;/span&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;cd /sd-ext&lt;/span&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;rm -r *&lt;/span&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;tar zxvf /sdcard/&lt;/span&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;ownhere.desirehd.sd-ext.tgz&lt;/span&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;sync&lt;/span&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px; white-space: pre;&quot;&gt;※ system 폴더에서 파일을 지울 때 lost+found 폴더가 지워지지 않아 오류가 날 수 있는데 무시해도 상관없습니다. &lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px; white-space: pre;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px; white-space: pre;&quot;&gt;한글 언어 지원을 추가하기위해 아래명령을 수행합니다. &lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px; white-space: pre;&quot;&gt;cd /sd-ext/customize/CID&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px; white-space: pre;&quot;&gt;cp -i /sdcard/default.xml .    ( 파일을 덮어쓰겠냐고 물어보면 덮어씁니다 )&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px; white-space: pre;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px; white-space: pre;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;이제 ADB를 통한 작업은 끝났습니다. 이제 ADB를 끄고, 폰에서 sd 카드 루트 폴더에 넣어뒀던 ownheredesire_v2.0_acekernel.zip 파일을 설치합니다. (install zip from sdcard 메뉴를 이용합니다. )&lt;/span&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;모든 작업이 끝나면 재부팅하시면 됩니다. 첫 재부팅은 시간이 꽤나 오래걸립니다. &lt;/span&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px; white-space: pre;&quot;&gt;총평 : 부팅후에 기본으로 SKT APN 까지 자동으로 잡아줄만큼 이미 국제화도 어느정도 되어있는 모습을 볼 수 있었습니다. 하지만, 역시나 새 기기에 맞춘 센스UI라서 그런지, 아니면 이전 GPU 드라이버가 없는 것인지 화면전환등에 있어서 상당히 느립니다. &lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px; white-space: pre;&quot;&gt;하지만, 앱 실행등에 있어서는 속도가 거의 같기때문에 그냥 써도 크게 무리는 없어보이네요. &lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px; white-space: pre;&quot;&gt;드디어, Exchange ActiveSync 멀티계정이 됩니다. &lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px; white-space: pre;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile3.uf@167217174C994D5B1394F0.exe&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part01.exe&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile4.uf@19723C174C994D6A3022C5.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part02.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile10.uf@137236174C994D7628B367.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part03.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile10.uf@117245174C994D8E202D1D.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part04.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile10.uf@20724B174C994DA9102C91.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part05.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile10.uf@1170C0174C994DB230943A.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part06.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile10.uf@1370D5174C994DBC11AEC6.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part07.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile29.uf@1570CC174C994DC91C9F8D.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part08.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile29.uf@1970E4174C994DF92291A6.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part09.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile28.uf@197103174C994E08348320.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part10.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile4.uf@18708E174C994E21150668.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part11.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile7.uf@12710A174C994E501BC149.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part12.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile9.uf@197119174C994E604B7C55.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part13.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile29.uf@147111174C994E7220ACC5.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part14.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile6.uf@197129174C994E9D359FA5.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part15.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile2.uf@127122174C994EAB1E055F.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part16.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile24.uf@207131174C994EB81BE474.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part17.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile7.uf@18714C174C994EE32BBCF7.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part18.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile6.uf@117146174C994EFA290870.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part19.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile7.uf@137158174C994F0F249509.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part20.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile29.uf@17715E174C994F3A1B83A7.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part21.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile23.uf@15717C174C994F6524A937.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part22.rar&lt;/a&gt;&lt;/div&gt;&lt;button class=&quot;txc-file txc-file-c&quot;&gt;&lt;br /&gt;
+&lt;/button&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile22.uf@127171174C994F904926E9.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; ownhere.DesireHD.part23.rar&lt;/a&gt;&lt;/div&gt;&lt;button class=&quot;txc-file txc-file-c&quot;&gt;&lt;br /&gt;
+&lt;/button&gt;&lt;button class=&quot;txc-file txc-file-c&quot;&gt;&lt;br /&gt;
+&lt;/button&gt;아래는 유용하게 추가된 기능중 하나인 돋보기입니다.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;웹에서 클릭하거나 글자부분에서 위치등을 잡으려면 힘든데 간단하면서 꽤 유용한 돋보기 기능이 생겼습니다.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;white-space: pre; &quot;&gt;긴가민가한 부분을 길게 누르고 있으면 위와같이 살짝 확대된 돋보기 화면이 위에 나타나고 이때 손을 떼면 언제나 나타나던 입력기선택, 복사 등을&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;white-space: pre; &quot;&gt; 선택하는 화면이 나타나는데 이에 대해서도 개선이 있습니다.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;white-space: pre; &quot;&gt;&lt;button class=&quot;txc-file txc-file-c&quot;&gt;&lt;br /&gt;
+&lt;/button&gt;&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px;&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile29.uf.tistory.com/original/2035FE1C4C99570124E65F&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/2035FE1C4C99570124E65F&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;돋보기.png&quot; height=&quot;800&quot; width=&quot;480&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;white-space: pre; &quot;&gt;&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px;&quot;&gt;돋보기 상태에서 손을 떼면 아래와 같은 화면이 나타납니다. 여기서 모두 선택은 예전과 같으며 언제나 하던일이지요.&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;white-space: pre; &quot;&gt;&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px;&quot;&gt;여기서 텍스트 선택을 하면 이전과 다르게 조금 편하게 바뀌었습니다. &lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;white-space: pre; &quot;&gt;&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;white-space: pre; &quot;&gt;&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px;&quot;&gt;&lt;/span&gt;&lt;/font&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile1.uf.tistory.com/original/151015214C9957D3195756&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/151015214C9957D3195756&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;선택1.png&quot; height=&quot;800&quot; width=&quot;480&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;white-space: pre; &quot;&gt;바로 아래와 같이 선택을 쉽게 할 수 있는 막대가 나타나더군요. 막대를 잡고 이리저리 끌어주면 됩니다. ^^&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;white-space: pre; &quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;white-space: pre; &quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile1.uf.tistory.com/original/131015214C9957D31AEFA1&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/131015214C9957D31AEFA1&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;선택2.png&quot; height=&quot;800&quot; width=&quot;480&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;button class=&quot;txc-file txc-file-c&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: 14px; &quot;&gt;&lt;br /&gt;
+&lt;/button&gt;&lt;button class=&quot;txc-file txc-file-c&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; font-size: 13px; line-height: 14px; &quot;&gt;&lt;br /&gt;
+&lt;/button&gt;&lt;font class=&quot;Apple-style-span&quot; face=&quot;monospace&quot; size=&quot;3&quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;font-size: 13px; line-height: 14px;&quot;&gt;&lt;br /&gt;
+&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;간단한 스샷들 모음입니다. &lt;/span&gt;&lt;/div&gt;
+&lt;div style=&quot;color: rgb(51, 51, 51); font-family: 굴림; &quot;&gt;&lt;span class=&quot;Apple-style-span&quot; style=&quot;color: rgb(0, 0, 0); font-family: monospace; line-height: 14px; font-size: 13px; white-space: pre; &quot;&gt;&lt;p id=&quot;more295_0&quot; class=&quot;moreless_fold&quot;&gt;&lt;span style=&quot;cursor: pointer;&quot; onclick=&quot;toggleMoreLess(this, &#039;295_0&#039;,&#039;더보기&#039;,&#039;접기&#039;); return false;&quot;&gt;더보기&lt;/span&gt;&lt;/p&gt;&lt;div id=&quot;content295_0&quot; class=&quot;moreless_content&quot; style=&quot;display: none;&quot;&gt;기본 홈 화면입니다. 한글도 기본 지원하는 것으로 봐서는 정말 10월출시설을 믿고 싶어지네요...&lt;br /&gt;
+&lt;br /&gt; 시계 애니메이션에 드디어 플핍 애니메이션이 들어갔습니다. 보기 좋네요..&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile29.uf.tistory.com/original/146C6A034C9953B61D3449&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/146C6A034C9953B61D3449&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;홈.png&quot; height=&quot;800&quot; width=&quot;480&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;p id=&quot;more295_1&quot; class=&quot;moreless_fold&quot;&gt;&lt;span style=&quot;cursor: pointer;&quot; onclick=&quot;toggleMoreLess(this, &#039;295_1&#039;,&#039;더보기&#039;,&#039;접기&#039;); return false;&quot;&gt;더보기&lt;/span&gt;&lt;/p&gt;&lt;div id=&quot;content295_1&quot; class=&quot;moreless_content&quot; style=&quot;display: none;&quot;&gt;간단한 버전정보 입니다.&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile9.uf.tistory.com/original/186C6A034C9953B91EF9D6&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/186C6A034C9953B91EF9D6&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;info.png&quot; height=&quot;800&quot; width=&quot;480&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;p id=&quot;more295_2&quot; class=&quot;moreless_fold&quot;&gt;&lt;span style=&quot;cursor: pointer;&quot; onclick=&quot;toggleMoreLess(this, &#039;295_2&#039;,&#039;더보기&#039;,&#039;접기&#039;); return false;&quot;&gt;더보기&lt;/span&gt;&lt;/p&gt;&lt;div id=&quot;content295_2&quot; class=&quot;moreless_content&quot; style=&quot;display: none;&quot;&gt;설정 화면에 새로 생긴 메뉴 입니다. 전원 절약기 라는 이름으로 들어가있고, 선택하면 위와 같은 설정들을 할 수 있습니다. 스마트폰의 약점이 배터리인데 긴급할 때 어느정도의 유용함은 될 듯하네요.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile26.uf.tistory.com/original/196C6A034C9953B91FF208&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/196C6A034C9953B91FF208&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;전원절약기.png&quot; height=&quot;800&quot; width=&quot;480&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;p id=&quot;more295_3&quot; class=&quot;moreless_fold&quot;&gt;&lt;span style=&quot;cursor: pointer;&quot; onclick=&quot;toggleMoreLess(this, &#039;295_3&#039;,&#039;더보기&#039;,&#039;접기&#039;); return false;&quot;&gt;더보기&lt;/span&gt;&lt;/p&gt;&lt;div id=&quot;content295_3&quot; class=&quot;moreless_content&quot; style=&quot;display: none;&quot;&gt;휴대폰 파인더라는 것이 생겼습니다. 아마도 HTCSense 서비스와 연동되는 것 같네요.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile24.uf.tistory.com/original/166C6A034C9953BA200EB5&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/166C6A034C9953BA200EB5&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;휴대폰파인더.png&quot; height=&quot;800&quot; width=&quot;480&quot;/&gt;&lt;/a&gt;&lt;/div&gt; &lt;/div&gt;&lt;p id=&quot;more295_4&quot; class=&quot;moreless_fold&quot;&gt;&lt;span style=&quot;cursor: pointer;&quot; onclick=&quot;toggleMoreLess(this, &#039;295_4&#039;,&#039;더보기&#039;,&#039;접기&#039;); return false;&quot;&gt;더보기&lt;/span&gt;&lt;/p&gt;&lt;div id=&quot;content295_4&quot; class=&quot;moreless_content&quot; style=&quot;display: none;&quot;&gt;알림바에 변화가 생겼습니다. 맨 위의 저 모습은 홈키를 길게 누르면 나타나는 앱 목록이 그대로 나타납니다. 역시 각 아이콘을 클릭하면 전환이 가능합니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile23.uf.tistory.com/original/176C6A034C9953BA21D0C7&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/176C6A034C9953BA21D0C7&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;노티바.png&quot; height=&quot;800&quot; width=&quot;480&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;p id=&quot;more295_5&quot; class=&quot;moreless_fold&quot;&gt;&lt;span style=&quot;cursor: pointer;&quot; onclick=&quot;toggleMoreLess(this, &#039;295_5&#039;,&#039;더보기&#039;,&#039;접기&#039;); return false;&quot;&gt;더보기&lt;/span&gt;&lt;/p&gt;&lt;div id=&quot;content295_5&quot; class=&quot;moreless_content&quot; style=&quot;display: none;&quot;&gt;예전에는 홈 화면에서 오른쪽에 + 버튼이 있었지만 이제는 팔레트 아이콘으로 변경되고 누르면 위와같은 개인화 화면이 나타나네요.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile29.uf.tistory.com/original/196C6A034C9953BA23066F&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/196C6A034C9953BA23066F&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;개인설정.png&quot; height=&quot;800&quot; width=&quot;480&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;p id=&quot;more295_6&quot; class=&quot;moreless_fold&quot;&gt;&lt;span style=&quot;cursor: pointer;&quot; onclick=&quot;toggleMoreLess(this, &#039;295_6&#039;,&#039;더보기&#039;,&#039;접기&#039;); return false;&quot;&gt;더보기&lt;/span&gt;&lt;/p&gt;&lt;div id=&quot;content295_6&quot; class=&quot;moreless_content&quot; style=&quot;display: none;&quot;&gt;아래에 나오는 화면은 HTC Sense 등록하는 화면들입니다. 등록은 매끄럽게 되는데 등록후에 Activation 이 안되네요.. ㅠㅠ&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile5.uf.tistory.com/original/126C6A034C9953BB25E53D&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/126C6A034C9953BB25E53D&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HTCSeneseMake-1.png&quot; height=&quot;800&quot; width=&quot;480&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;p id=&quot;more295_7&quot; class=&quot;moreless_fold&quot;&gt;&lt;span style=&quot;cursor: pointer;&quot; onclick=&quot;toggleMoreLess(this, &#039;295_7&#039;,&#039;더보기&#039;,&#039;접기&#039;); return false;&quot;&gt;더보기&lt;/span&gt;&lt;/p&gt;&lt;div id=&quot;content295_7&quot; class=&quot;moreless_content&quot; style=&quot;display: none;&quot;&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile6.uf.tistory.com/original/146C6A034C9953BC263DCB&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/146C6A034C9953BC263DCB&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HTCSenseMake-2.png&quot; height=&quot;800&quot; width=&quot;480&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;p id=&quot;more295_8&quot; class=&quot;moreless_fold&quot;&gt;&lt;span style=&quot;cursor: pointer;&quot; onclick=&quot;toggleMoreLess(this, &#039;295_8&#039;,&#039;더보기&#039;,&#039;접기&#039;); return false;&quot;&gt;더보기&lt;/span&gt;&lt;/p&gt;&lt;div id=&quot;content295_8&quot; class=&quot;moreless_content&quot; style=&quot;display: none;&quot;&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile30.uf.tistory.com/original/156C6A034C9953BC271DF8&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/156C6A034C9953BC271DF8&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HTCSenseMake-3.png&quot; height=&quot;800&quot; width=&quot;480&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;p id=&quot;more295_9&quot; class=&quot;moreless_fold&quot;&gt;&lt;span style=&quot;cursor: pointer;&quot; onclick=&quot;toggleMoreLess(this, &#039;295_9&#039;,&#039;더보기&#039;,&#039;접기&#039;); return false;&quot;&gt;더보기&lt;/span&gt;&lt;/p&gt;&lt;div id=&quot;content295_9&quot; class=&quot;moreless_content&quot; style=&quot;display: none;&quot;&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile8.uf.tistory.com/original/166C6A034C9953BC2886D8&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/166C6A034C9953BC2886D8&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HTCSenseMake-4.png&quot; height=&quot;800&quot; width=&quot;480&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;p id=&quot;more295_10&quot; class=&quot;moreless_fold&quot;&gt;&lt;span style=&quot;cursor: pointer;&quot; onclick=&quot;toggleMoreLess(this, &#039;295_10&#039;,&#039;더보기&#039;,&#039;접기&#039;); return false;&quot;&gt;더보기&lt;/span&gt;&lt;/p&gt;&lt;div id=&quot;content295_10&quot; class=&quot;moreless_content&quot; style=&quot;display: none;&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://cfile27.uf.tistory.com/original/186D13014C99545B3275FA&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/186D13014C99545B3275FA&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;HTCSenseMake-5.png&quot; height=&quot;800&quot; width=&quot;480&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;p id=&quot;more295_11&quot; class=&quot;moreless_fold&quot;&gt;&lt;span style=&quot;cursor: pointer;&quot; onclick=&quot;toggleMoreLess(this, &#039;295_11&#039;,&#039;더보기&#039;,&#039;접기&#039;); return false;&quot;&gt;더보기&lt;/span&gt;&lt;/p&gt;&lt;div id=&quot;content295_11&quot; class=&quot;moreless_content&quot; style=&quot;display: none;&quot;&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-295-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-295-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-295-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>안드로이드</category>
+			<category>디자이어</category>
+			<category>안드로이드</category>
+			<author>헬마</author>
+			<guid>http://jgh0721.tistory.com/295</guid>
+			<comments>http://jgh0721.tistory.com/entry/Desire-HD-ROM-for-Original-Desire#entry295comment</comments>
+			<pubDate>Wed, 22 Sep 2010 10:13:27 +0900</pubDate>
+		</item>
+		<item>
+			<title>SKT TMAP for hTC Desire (2.2)</title>
+			<link>http://jgh0721.tistory.com/entry/SKT-TMAP-for-hTC-Desire-22</link>
+			<description>헬마입니다.&amp;nbsp;&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;얼마전에 공개된 디자이어 프로요 버전에 맞춘 TMAP 입니다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+사실 9일날 TMAP이 2번 공개되었습니다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+첫버전은 실행조차 되지 않는 어처구니 버전이 공개되었지요.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+그리고 2-3시간의 흐른뒤에 실행되는 버전이 공개되었는데 그게 지금 올리는 버전입니다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+단, 이버전은 몇 가지 버그들이 존재하는걸로 알고 있습니다. 대신 작동자체는 문제없이 되는군요.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+급한대로 쓰셔야하는 분들은 이 버전을 쓰시면 됩니다. 버그가 수정된 버전은 14일날 공개될 예정이라는군요.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile29.uf@12328C034C89C6EC30CB56.exe&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Tmap_Install_HTC_Desire_Froyo_1.16.part01.exe&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile9.uf@132D1D034C89C70F467BBE.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Tmap_Install_HTC_Desire_Froyo_1.16.part02.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile27.uf@1227E4034C89C73575A89B.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Tmap_Install_HTC_Desire_Froyo_1.16.part03.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile25.uf@152F90034C89C75C465D87.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Tmap_Install_HTC_Desire_Froyo_1.16.part04.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile21.uf@163242034C89C778204C6D.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Tmap_Install_HTC_Desire_Froyo_1.16.part05.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile29.uf@192E2E034C89C79A45B56F.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Tmap_Install_HTC_Desire_Froyo_1.16.part06.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile21.uf@202C97034C89C7CD516A14.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Tmap_Install_HTC_Desire_Froyo_1.16.part07.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile28.uf@193250034C89C7EC83C829.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Tmap_Install_HTC_Desire_Froyo_1.16.part08.rar&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-294-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-294-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-294-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>안드로이드</category>
+			<category>tmap</category>
+			<category>안드로이드</category>
+			<author>헬마</author>
+			<guid>http://jgh0721.tistory.com/294</guid>
+			<comments>http://jgh0721.tistory.com/entry/SKT-TMAP-for-hTC-Desire-22#entry294comment</comments>
+			<pubDate>Fri, 10 Sep 2010 14:54:20 +0900</pubDate>
+		</item>
+		<item>
+			<title>EmEditor Professional - H.M - Build No. 53</title>
+			<link>http://jgh0721.tistory.com/entry/EmEditor-Professional-HM-Build-No-53</link>
+			<description>헬마입니다.&amp;nbsp;&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;EmEditor 가 10.0.1 이 나온지도 이제 몇주가 지난 것 같네요.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+그동안 안드로이드와 씨름을 하면서 지내오느라 한동안 모든 것에 소홀했는데 이제 안드로이드도 슬슬 안정되어가고(응???) 다시 이제 하던것을 해볼까 합니다. ^^&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+제가 쓰던 환경설정이 제대로 적용이 되지 않는 문제로 인해 최대한 이른시간에 다시 빌드를 할 예정입니다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile28.uf@1879D2234C863C1B174EC9.EXE&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; EmEditor - H.M - Build No. 53 DateTime 2010-09-06.EXE&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-293-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-293-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-293-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>EmEditor</category>
+			<category>EmEditor</category>
+			<category>한글화</category>
+			<author>헬마</author>
+			<guid>http://jgh0721.tistory.com/293</guid>
+			<comments>http://jgh0721.tistory.com/entry/EmEditor-Professional-HM-Build-No-53#entry293comment</comments>
+			<pubDate>Tue, 07 Sep 2010 22:22:25 +0900</pubDate>
+		</item>
+		<item>
+			<title>Android Froyo(2.2) for HTC Desire - SKT KR -</title>
+			<link>http://jgh0721.tistory.com/entry/Android-Froyo22-for-HTC-Desire-SKT-KR</link>
+			<description>&lt;br /&gt;
+헬마입니다. &lt;br /&gt;
+&lt;br /&gt;드디어 SKT 버전의 공식 프로요 롬이 RUU파일로 공개되었습니다. &lt;br /&gt;
+&lt;br /&gt;이제나 저제나 정식 SKT 프로요롬을 기다리시던 많은 분들의 기다림이 드디어 끝나는군요. &lt;br /&gt;
+&lt;br /&gt;결국 8월내에 되긴 하는군요.. 8월 31일이지만... ㄷㄷ&lt;br /&gt;
+&lt;br /&gt;롬의 빌드 버전은 2.12.911 이며 라디오 이미지 버전은 &lt;SPAN style=&quot;WIDOWS: 2; TEXT-TRANSFORM: none; TEXT-INDENT: 0px; BORDER-COLLAPSE: separate; FONT: 16px Gulim; WHITE-SPACE: normal; ORPHANS: 2; LETTER-SPACING: normal; COLOR: rgb(0,0,0); WORD-SPACING: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px&quot; class=Apple-style-span&gt;&lt;SPAN style=&quot;FONT-FAMILY: verdana, geneva, lucida, &#039;lucida grande&#039;, arial, helvetica, sans-serif; COLOR: rgb(17,17,17); FONT-SIZE: 11px&quot; class=Apple-style-span&gt;&lt;STRONG style=&quot;PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: transparent; MARGIN: 0px; PADDING-LEFT: 0px; OUTLINE-WIDTH: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; FONT-SIZE: 11px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px; background-origin: initial; background-clip: initial&quot;&gt;32.46.00.3 2U_5.10.05.17_2 입니다.&lt;br /&gt;
+&lt;br /&gt;또한, 해당롬은 공식 롬이기 때문에 루팅되어있지 않습니다. &lt;br /&gt;
+&lt;br /&gt;저는 루팅때문에 해당 롬을 사용한 커스텀 롬을 기다려야겠습니다. ^^ &lt;br /&gt;
+&lt;br /&gt;2.09 버전이 나온뒤로 갑자기 센스 롬이 버전이 2.10 2.13 2.12 등으로 쉽게 올라가네요. 어떤 문제점이 있는걸까요... ㅠㅠ&lt;br /&gt;
+&lt;br /&gt;가장 먼저 풀린 언락폰 버전은 2.09인데 어떤 차이점이 있을까요? &lt;br /&gt;
+&lt;br /&gt;또한 RUU를 사용하면 롬의 데이터가 초기화 되는 것으로 알고있으니 문자 메시지등을 미리 백업받으시길 권장합니다. ( RUU를 써본적이 없어서 정확히는 어떻게 되는지 알 수 었습니다. ^^ )&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+라디오 이미지만 필요하신 분 : &lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile25.uf@1235BF044C7BF207020B44.exe&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Radio_32.46.00.3 2U_5.10.05.17_2.exe&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+전체 RUU 파일들 :&lt;br /&gt;
+&lt;br /&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile29.uf@145011304C7BF4EA032046.exe&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; RUU_SKT_KR_2.12.911.1_Radio_32.46.00.32U_.sfx.part01.exe&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile25.uf@11501A304C7BF4FA03163B.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; RUU_SKT_KR_2.12.911.1_Radio_32.46.00.32U_.sfx.part02.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile10.uf@12502C304C7BF515039AB7.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; RUU_SKT_KR_2.12.911.1_Radio_32.46.00.32U_.sfx.part03.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile9.uf@154FD3304C7BF52A0D7E1B.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; RUU_SKT_KR_2.12.911.1_Radio_32.46.00.32U_.sfx.part04.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile10.uf@11504B304C7BF54805A1C2.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; RUU_SKT_KR_2.12.911.1_Radio_32.46.00.32U_.sfx.part05.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile6.uf@205052304C7BF55105E5AE.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; RUU_SKT_KR_2.12.911.1_Radio_32.46.00.32U_.sfx.part06.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile24.uf@145068304C7BF5690310C9.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; RUU_SKT_KR_2.12.911.1_Radio_32.46.00.32U_.sfx.part07.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile1.uf@17506F304C7BF5750522E3.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; RUU_SKT_KR_2.12.911.1_Radio_32.46.00.32U_.sfx.part08.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile2.uf@195090304C7BF596032D2C.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; RUU_SKT_KR_2.12.911.1_Radio_32.46.00.32U_.sfx.part09.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile1.uf@1550B0304C7BF5C2048516.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; RUU_SKT_KR_2.12.911.1_Radio_32.46.00.32U_.sfx.part10.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile3.uf@1750C1304C7BF5EF0296B8.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; RUU_SKT_KR_2.12.911.1_Radio_32.46.00.32U_.sfx.part11.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile27.uf@1550C9304C7BF5FD0380CA.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; RUU_SKT_KR_2.12.911.1_Radio_32.46.00.32U_.sfx.part12.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile8.uf@1250D3304C7BF61D054909.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; RUU_SKT_KR_2.12.911.1_Radio_32.46.00.32U_.sfx.part13.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile30.uf@165107304C7BF64803DA37.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; RUU_SKT_KR_2.12.911.1_Radio_32.46.00.32U_.sfx.part14.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile25.uf@115110304C7BF64F0D3734.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; RUU_SKT_KR_2.12.911.1_Radio_32.46.00.32U_.sfx.part15.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile1.uf@19511A304C7BF65C038810.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; RUU_SKT_KR_2.12.911.1_Radio_32.46.00.32U_.sfx.part16.rar&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-292-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-292-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-292-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>안드로이드</category>
+			<category>안드로이드</category>
+			<category>프로요</category>
+			<author>헬마</author>
+			<guid>http://jgh0721.tistory.com/292</guid>
+			<comments>http://jgh0721.tistory.com/entry/Android-Froyo22-for-HTC-Desire-SKT-KR#entry292comment</comments>
+			<pubDate>Tue, 31 Aug 2010 03:21:23 +0900</pubDate>
+		</item>
+		<item>
+			<title>Android Froyo for hTC Desire - Modaco Custom Rom r8, 08/24 -</title>
+			<link>http://jgh0721.tistory.com/entry/Android-Froyo-for-hTC-Desire-Modaco-Custom-Rom-r8-0824</link>
+			<description>헬마입니다.&lt;div&gt;
+&lt;br /&gt;&lt;/div&gt;
+&lt;div&gt;예전에 r7 버전을 올렸던듯한데 그간 r8 rc1 을 거쳐서 정식 r8 버전으로 올라왔네요.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+선택된 옵션은 기존과 거의 같습니다.&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile25.uf@177F88184C7495F43AA864.exe&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Modaco-r8-froyo-for-desire.part01.exe&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile22.uf@116EE6184C74960C65C224.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Modaco-r8-froyo-for-desire.part02.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile2.uf@147419184C7496295D9115.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Modaco-r8-froyo-for-desire.part03.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile23.uf@15727D184C74964341EF72.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Modaco-r8-froyo-for-desire.part04.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile6.uf@2078A6184C74965A490703.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Modaco-r8-froyo-for-desire.part05.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile1.uf@1375B0184C74967234DB4C.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Modaco-r8-froyo-for-desire.part06.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile25.uf@126BB8184C7496B36B0EE3.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Modaco-r8-froyo-for-desire.part07.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile30.uf@200B66184C7496DC2FABD9.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Modaco-r8-froyo-for-desire.part08.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile1.uf@156B93184C749708498C6C.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Modaco-r8-froyo-for-desire.part09.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile29.uf@146B45184C749720564B3F.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Modaco-r8-froyo-for-desire.part10.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile7.uf@1872D5184C74973A51B18A.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Modaco-r8-froyo-for-desire.part11.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile7.uf@176F96184C74976352DF7C.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Modaco-r8-froyo-for-desire.part12.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile10.uf@1275B0184C74977C3514F7.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Modaco-r8-froyo-for-desire.part13.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile25.uf@146E92184C7497974B72F5.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Modaco-r8-froyo-for-desire.part14.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile4.uf@176B2B184C7497D76FE119.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Modaco-r8-froyo-for-desire.part15.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile23.uf@146EE1184C7497F2495EF6.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; Modaco-r8-froyo-for-desire.part16.rar&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-291-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-291-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-291-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>안드로이드</category>
+			<category>안드로이드</category>
+			<category>프로요</category>
+			<author>헬마</author>
+			<guid>http://jgh0721.tistory.com/291</guid>
+			<comments>http://jgh0721.tistory.com/entry/Android-Froyo-for-hTC-Desire-Modaco-Custom-Rom-r8-0824#entry291comment</comments>
+			<pubDate>Wed, 25 Aug 2010 13:12:18 +0900</pubDate>
+		</item>
+		<item>
+			<title>HTC Desire Radio Image - 32.44.00.32U_5.09.05.30_2 -</title>
+			<link>http://jgh0721.tistory.com/entry/HTC-Desire-Radio-Image-32440032U50905302</link>
+			<description>&lt;br /&gt;
+헬마입니다.&lt;br /&gt;
+&lt;br /&gt;월요일 날짜로 보다폰을 통해 프로요 2.2가 OTA 로 제공되었습니다. &lt;br /&gt;
+&lt;br /&gt;버전이 2.09 -&amp;gt; 2.10으로 라디오 이미지또한 버전업 하였습니다. &lt;br /&gt;
+&lt;br /&gt;라디오 이미지 변경에 따라 720p 재생/촬영에 미약한 개선이 있다고 하네요.&lt;br /&gt;
+&lt;br /&gt;며칠 안에 2.10 기반으로한 커스텀 롬이 나올 것 같네요. &lt;br /&gt;
+&lt;br /&gt;저는 현재 오픈디자이어 롬 3.5.1 에 해당 라디오 이미지를 엎었는데 별 문제 없네요. &lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile26.uf@18478A014C7310493F18D8.exe&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/blog/image/extension/exe.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; HTC Desire Radio Image - 5.09.05.30.part1.exe&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;a href=&quot;http://jgh0721.tistory.com/attachment/cfile23.uf@1847A9014C7310583E11F4.rar&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; HTC Desire Radio Image - 5.09.05.30.part2.rar&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-290-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-290-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-290-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+&lt;fieldset style=&quot;margin:20px 0px 20px 0px;padding:5px;&quot;&gt;&lt;legend&gt;&lt;span&gt;&lt;strong&gt;크리에이티브 커먼즈 라이선스&lt;/strong&gt;&lt;/span&gt;&lt;/legend&gt;&lt;!--Creative Commons License--&gt;&lt;div style=&quot;float: left; width: 88px; margin-top: 3px;&quot;&gt;&lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;&lt;img alt=&quot;Creative Commons License&quot; style=&quot;border-width: 0&quot; src=&quot;http://i.creativecommons.org/l/by-nc-nd/2.0/kr/88x31.png&quot;/&gt;&lt;/a&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 92px; margin-top: 3px; text-align: justify;&quot;&gt;이 저작물은 &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; target=&quot;_blank&quot;&gt;크리에이티브 커먼즈 코리아 저작자표시-비영리-변경금지 2.0 대한민국 라이선스&lt;/a&gt;에 따라 이용하실 수 있습니다.
+			&lt;!-- Creative Commons License--&gt;
+			&lt;!-- &lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+			&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+			&lt;/Work&gt;
+			&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;&lt;/License&gt;&lt;/rdf:RDF&gt; --&gt;&lt;/div&gt;&lt;/fieldset&gt;</description>
+			<category>안드로이드</category>
+			<category>안드로이드</category>
+			<author>헬마</author>
+			<guid>http://jgh0721.tistory.com/290</guid>
+			<comments>http://jgh0721.tistory.com/entry/HTC-Desire-Radio-Image-32440032U50905302#entry290comment</comments>
+			<pubDate>Tue, 24 Aug 2010 09:21:39 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

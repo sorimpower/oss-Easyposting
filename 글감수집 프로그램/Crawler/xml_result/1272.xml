@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>부사리 - 컴퓨터하는 황소 &#124; 부사리 - 컴퓨터하는 황소</title>
+	<atom:link href="http://www.busari.net/feed/" rel="self" type="application/rss+xml" />
+	<link>http://www.busari.net</link>
+	<description>(부사리 : 순수우리말로 &#34;머리로 잘 받는 버릇 이 있는 황소&#34;), 질문은 댓글 남겨주시면 실시간 답변해드립니다.</description>
+	<lastBuildDate>Wed, 24 Sep 2014 06:11:57 +0000</lastBuildDate>
+	<language>ko-KR</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.0</generator>
+	<item>
+		<title>[부사리]iptime공유기 plantynet : recvfrom timeout(check.iansim.net)  오류</title>
+		<link>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%aciptime%ea%b3%b5%ec%9c%a0%ea%b8%b0-plantynet-recvfrom-timeoutcheck-iansim-net-%ec%98%a4%eb%a5%98/</link>
+		<comments>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%aciptime%ea%b3%b5%ec%9c%a0%ea%b8%b0-plantynet-recvfrom-timeoutcheck-iansim-net-%ec%98%a4%eb%a5%98/#comments</comments>
+		<pubDate>Fri, 12 Sep 2014 02:03:11 +0000</pubDate>
+		<dc:creator><![CDATA[BUSARI]]></dc:creator>
+				<category><![CDATA[기술정보]]></category>
+		<category><![CDATA[check.iansim.net]]></category>
+		<category><![CDATA[iptime]]></category>
+		<category><![CDATA[plantynet]]></category>
+		<category><![CDATA[아이피타임]]></category>
+		<category><![CDATA[인터넷오류]]></category>
+
+		<guid isPermaLink="false">http://www.busari.net/?p=1958</guid>
+		<description><![CDATA[안녕하세요. 부사리 입니다. 연휴는 잘 보내셨는지요~~!어제 저희 집 인터넷 속도가 갑자기 늦어지는 현상이 발생했습니다.그런데 웹 로딩만 느리고 텔넷, ftp 등의 서비스는 정상 속도가 나옵니다. 이건 뭐지?ping도 정상, DNS 인식도 정상, 공유기에 연결된 NAS도 정상&#8230; 점점 미궁속으로&#8230;.. 컴퓨터 노트북 스마트폰 태블릿 모두 동일 현상이 발생하더군요. 그래서 바로 공유기에 연결되어 있는 인터넷 케이블을 노트북에 다이렉트로 연결했더니 이상무~~~! 헉&#8230; 그렀다면 공유기 문제인데&#8230; 무서웠습니다.아시는 분은 아시겠지만 오전에 맥세이프2가 퍽 소리나면서 운명하셨는데 공유기까지 구입해야한다면 이번 달 엄청난(?) 경제적인 &#8230; <a class="readmore" href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%aciptime%ea%b3%b5%ec%9c%a0%ea%b8%b0-plantynet-recvfrom-timeoutcheck-iansim-net-%ec%98%a4%eb%a5%98/">Read more &#187;</a><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%aciptime%ea%b3%b5%ec%9c%a0%ea%b8%b0-plantynet-recvfrom-timeoutcheck-iansim-net-%ec%98%a4%eb%a5%98/">[부사리]iptime공유기 plantynet : recvfrom timeout(check.iansim.net)  오류</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></description>
+				<content:encoded><![CDATA[
+<!-- Easy AdSense V7.42 -->
+<!-- [leadin: 2 urCount: 2 urMax: 0] -->
+<div class="ezAdsense adsense adsense-leadin" style="text-align:center;margin:12px;"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 반응형_위텍스트 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7837476223190307"
+     data-ad-slot="9788158141"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<p>
+</div>
+<!-- Easy AdSense V7.42 -->
+<p>안녕하세요. 부사리 입니다. 연휴는 잘 보내셨는지요~~!<br />어제 저희 집 인터넷 속도가 갑자기 늦어지는 현상이 발생했습니다.<br />그런데 웹 로딩만 느리고 텔넷, ftp 등의 서비스는 정상 속도가 나옵니다. 이건 뭐지?<br />ping도 정상, DNS 인식도 정상, 공유기에 연결된 NAS도 정상&#8230; 점점 미궁속으로&#8230;..</p>
+<p>컴퓨터 노트북 스마트폰 태블릿 모두 동일 현상이 발생하더군요. 그래서 바로 공유기에 연결되어 있는 인터넷 케이블을 노트북에 다이렉트로 연결했더니 이상무~~~!</p>
+<p>헉&#8230; 그렀다면 공유기 문제인데&#8230; 무서웠습니다.<br />아시는 분은 아시겠지만 오전에 맥세이프2가 퍽 소리나면서 운명하셨는데 공유기까지 구입해야한다면 이번 달 엄청난(?) 경제적인 충격이 오기 때문에 무서웠습니다. ^^;</p>
+<p>무조건 고쳐야 겠다는 필승의 각오로 공유기 관리자 페이지에 접속했습니다.<br />웹 서비스만 안되니 뭔가 설정이 변경되어 있을 거야&#8230;. 마음을 달래며&#8230;..<br />이곳 저곳 공유기 내부를 죽어라 휘졌고 다니다 드디어 발견했지요.</p>
+<p>공유기 Log에서&#8230;  저는 아직 멀었나 봅니다. 일하다 무슨 문제 있으면 바로 로그먼저 확인하면서 공유기 로그는 왜 확인할 생각을 하지 않았는지&#8230;</p>
+<p>공유기 로그를 보니 아래처럼 에러 로그가 남겨져 있습니다.<br /><strong><span style="color: #ff0000; font-size: 12pt;">plantynet : recvfrom timeout(check.iansim.net)</span></strong><a href="http://www.busari.net/wp-content/uploads/2014/09/K-9.jpg"><img class="aligncenter size-full wp-image-1959" src="http://www.busari.net/wp-content/uploads/2014/09/K-9.jpg" alt="K-9" width="640" height="145" /></a></p>
+<p>해당 에러에 대해 iptime 게시판 검색해보니 딱 한번 언급되어 있어군요. 별다른 해결내용은 없고&#8230; (<a href="http://iptime.co.kr/~iptime/bbs/view.php?id=qna&amp;no=438516" target="_blank">http://iptime.co.kr/~iptime/bbs/view.php?id=qna&amp;no=438516</a>)</p>
+<p>그래서 혹시나 해서 네이버에 plantynet 로 검색해봤더니 아래 처럼 나옵니다.</p>
+<table>
+<tbody>
+<tr>
+<td> <strong><span style="text-decoration: underline;"><span style="color: #0066cc;">플랜티넷</span></span>:유해사이트 차단서비스 제공업체</strong></td>
+</tr>
+</tbody>
+</table>
+<p>유해사이트 차단서비스 업체랍니다. 아하~~~! 이제 느낌옵니다.<br />몇 달전인가 아이피타임에서 자녀보호를 위한 무슨 서비스가 추가됐는데 그 기능 문제인듯 합니다. 다시 열심히 공유기 내부를 찾아다니다 보니 아래 그림처럼 아이안심ip 항목이 있군요. 이 설정을 실행에서 중단으로 변경했더니 인터넷 속도가 정상으로 돌아왔습니다. 야호~~~~~! 돈 벌었다~~~~~~! ㅎㅎㅎㅎㅎ</p>
+<p>이 기능은 유해사이트 차단서비스인데 유료상품입니다. 저는 필요없는 기능이니 중단으로 마무리 했습니다. 혹여 유료상품 상용 중인데 저와 같은 현상이 발생하시면 일단 중단으로 하시고 아이피타임에 문의 하셔야 할 듯 합니다.</p>
+<p><img class="aligncenter size-full wp-image-1960" src="http://www.busari.net/wp-content/uploads/2014/09/K-10.jpg" alt="K-10" width="640" height="308" /></p>
+<p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%aciptime%ea%b3%b5%ec%9c%a0%ea%b8%b0-plantynet-recvfrom-timeoutcheck-iansim-net-%ec%98%a4%eb%a5%98/">[부사리]iptime공유기 plantynet : recvfrom timeout(check.iansim.net)  오류</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%aciptime%ea%b3%b5%ec%9c%a0%ea%b8%b0-plantynet-recvfrom-timeoutcheck-iansim-net-%ec%98%a4%eb%a5%98/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[부사리]MS업데이트 후 블루스크린 오류</title>
+		<link>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acms%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ed%9b%84-%eb%b8%94%eb%a3%a8%ec%8a%a4%ed%81%ac%eb%a6%b0-%ec%98%a4%eb%a5%98/</link>
+		<comments>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acms%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ed%9b%84-%eb%b8%94%eb%a3%a8%ec%8a%a4%ed%81%ac%eb%a6%b0-%ec%98%a4%eb%a5%98/#comments</comments>
+		<pubDate>Sat, 23 Aug 2014 14:56:16 +0000</pubDate>
+		<dc:creator><![CDATA[BUSARI]]></dc:creator>
+				<category><![CDATA[기술정보]]></category>
+		<category><![CDATA[KB2970228]]></category>
+		<category><![CDATA[KB2975331]]></category>
+		<category><![CDATA[KB2975719]]></category>
+		<category><![CDATA[KB2982791]]></category>
+		<category><![CDATA[MS업데이트오류]]></category>
+		<category><![CDATA[부팅오류]]></category>
+		<category><![CDATA[블루스크린]]></category>
+
+		<guid isPermaLink="false">http://www.busari.net/?p=1949</guid>
+		<description><![CDATA[&#160; 글주소 : http://www.busari.net/부사리ms업데이트-후-블루스크린-오류 안녕하세요. 부사리입니다. 8월 MS 정기업데이트에 심각한 문제가 발생하고 있습니다. 윈도우 블루스크린이 나오면서 중단되거나 아예 윈도우 부팅을 할 수없는 현상이 발생하고 있는데요. 물론 부사리도 몇 일전 그 문제 때문에 윈도우(안전모드, 복구모드 등) 진입이 불가하여 윈도우 재설치를 했답니다. ㅠ.ㅠ 분명히 업데이트 문제인 듯 한데 MS에서는 문제가 없다고 무시하더니 결국은 업데이트 오류를 인정했군요. 주로 윈도우7 64bit에서 발생하고 있구요.(다른 윈도우 버전에서는 발생하지 않는다는 것은 아닙니다.) 부사리처럼 윈도우 진입이 안된다면 어쩔 수 &#8230; <a class="readmore" href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acms%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ed%9b%84-%eb%b8%94%eb%a3%a8%ec%8a%a4%ed%81%ac%eb%a6%b0-%ec%98%a4%eb%a5%98/">Read more &#187;</a><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acms%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ed%9b%84-%eb%b8%94%eb%a3%a8%ec%8a%a4%ed%81%ac%eb%a6%b0-%ec%98%a4%eb%a5%98/">[부사리]MS업데이트 후 블루스크린 오류</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></description>
+				<content:encoded><![CDATA[<p><a href="http://www.busari.net/wp-content/uploads/2014/08/24738_29148_3149.png"><img class="aligncenter size-full wp-image-1950" src="http://www.busari.net/wp-content/uploads/2014/08/24738_29148_3149.png" alt="24738_29148_3149" width="500" height="500" /></a></p>
+<p>&nbsp;</p>
+<p>글주소 : <a title="http://www.busari.net/부사리ms업데이트-후-블루스크린-오류" href="http://www.busari.net/부사리ms업데이트-후-블루스크린-오류" target="_blank">http://www.busari.net/부사리ms업데이트-후-블루스크린-오류</a></p>
+<p>안녕하세요. 부사리입니다.</p>
+<p>8월 MS 정기업데이트에 심각한 문제가 발생하고 있습니다. 윈도우 블루스크린이 나오면서 중단되거나 아예 윈도우 부팅을 할 수없는 현상이 발생하고 있는데요. 물론 부사리도 몇 일전 그 문제 때문에 윈도우(안전모드, 복구모드 등) 진입이 불가하여 윈도우 재설치를 했답니다. ㅠ.ㅠ</p>
+<p>분명히 업데이트 문제인 듯 한데 MS에서는 문제가 없다고 무시하더니 결국은 업데이트 오류를 인정했군요. 주로 윈도우7 64bit에서 발생하고 있구요.(다른 윈도우 버전에서는 발생하지 않는다는 것은 아닙니다.) 부사리처럼 윈도우 진입이 안된다면 어쩔 수 없지만 윈도우진입이 된다면 업데이트 된 항목 중에 <span style="color: #202020;">KB2982791, KB2970228, KB2975719, KB2975331 항목을 삭제 하시면 될 듯합니다.</span></p>
+<p>* 참고<br /><span style="color: #272829;"> &#8211;  KB2982791 (MS14-045, 커널 모드 드라이버용 보안 업데이트)<br /></span> &#8211;  KB2970228 (루블화 화폐 표시 새 기호)<br /> &#8211;  KB2975719 (윈도 RT 8.1, 윈도 8.1, 윈도 서버 2012 R2용 2014년 8월 롤업)<br /> &#8211;  KB2975331 (윈도 RT, 윈도 8, 윈도 서버 2012용 2014년 8월 롤업)</p>
+<p>&nbsp;</p>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] --><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acms%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ed%9b%84-%eb%b8%94%eb%a3%a8%ec%8a%a4%ed%81%ac%eb%a6%b0-%ec%98%a4%eb%a5%98/">[부사리]MS업데이트 후 블루스크린 오류</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acms%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ed%9b%84-%eb%b8%94%eb%a3%a8%ec%8a%a4%ed%81%ac%eb%a6%b0-%ec%98%a4%eb%a5%98/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[부사리]caps lock, num lock, scr lock led 프로그램</title>
+		<link>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%accaps-lock-num-lock-scr-lock-led-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8/</link>
+		<comments>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%accaps-lock-num-lock-scr-lock-led-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8/#comments</comments>
+		<pubDate>Fri, 18 Jul 2014 02:06:14 +0000</pubDate>
+		<dc:creator><![CDATA[BUSARI]]></dc:creator>
+				<category><![CDATA[자료실/컴퓨터]]></category>
+		<category><![CDATA[caps lock]]></category>
+		<category><![CDATA[led 프로그램]]></category>
+		<category><![CDATA[num lock]]></category>
+		<category><![CDATA[scr lock]]></category>
+
+		<guid isPermaLink="false">http://www.busari.net/?p=1929</guid>
+		<description><![CDATA[안녕하세요. 부사리입니다. 무선키보드의 경우 배터리 소모를 줄이려고 키보드에 있던 LED 표시등(caps lock, num lock, scr lock led)을 제거하는 경우가 있죠. 그래서 윈도우7부터 기본제공하는 대문자 알림을 이용했었는데 윈7업데이트 후 이 기능이 사라졌죠. MS 이놈들아 내가 쓰고 있는 키보드도 너희가 만든건데 대소문자 구분어떻게 할거야~! 그래서 구글신에게 갔더니 이 프로그램을 주더군요. 개발자는 윈2003까지 지원한다고 공지되어 있는데 윈7에서도 잘 작동합니다. 한글과 영문 지원도 하구요. 무설치 파일입니다. : www.docs.kr* 바이러스는 54개 백신 모두 검출되지 않았습니다.    &#8230; <a class="readmore" href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%accaps-lock-num-lock-scr-lock-led-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8/">Read more &#187;</a><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%accaps-lock-num-lock-scr-lock-led-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8/">[부사리]caps lock, num lock, scr lock led 프로그램</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></description>
+				<content:encoded><![CDATA[<p>안녕하세요. 부사리입니다.</p>
+<p>무선키보드의 경우 배터리 소모를 줄이려고 키보드에 있던 LED 표시등(caps lock, num lock, scr lock led)을 제거하는 경우가 있죠. 그래서 윈도우7부터 기본제공하는 대문자 알림을 이용했었는데 윈7업데이트 후 이 기능이 사라졌죠.</p>
+<p>MS 이놈들아 내가 쓰고 있는 키보드도 너희가 만든건데 대소문자 구분어떻게 할거야~!</p>
+<p>그래서 구글신에게 갔더니 이 프로그램을 주더군요. 개발자는 윈2003까지 지원한다고 공지되어 있는데 윈7에서도 잘 작동합니다. 한글과 영문 지원도 하구요.</p>
+<p><a href="http://www.busari.net/wp-content/uploads/2014/07/스크린샷-2014-07-18-오전-10.27.55.jpg"><img class="aligncenter size-full wp-image-1930" src="http://www.busari.net/wp-content/uploads/2014/07/스크린샷-2014-07-18-오전-10.27.55.jpg" alt="스크린샷 2014-07-18 오전 10.27.55" width="386" height="489" /></a></p>
+<p>무설치 파일입니다.</p>
+<p>: www.docs.kr<br />* 바이러스는 54개 백신 모두 검출되지 않았습니다.<br />   <a href="https://www.virustotal.com/ko/file/c8b83839e8e6ff258a6266dea2c9a6778334084668ef4d476521aae2b623b2ca/analysis/1405648777/" target="_blank"> (바이러스 검사결과를 보시려면 여기 클릭하세요.)</a></p>
+<p><a href="http://www.busari.net/wp-content/uploads/2014/07/down.gif"><img class="aligncenter size-full wp-image-1931" src="http://www.busari.net/wp-content/uploads/2014/07/down.gif" alt="down" width="125" height="70" /></a></p>
+<p style="text-align: center;">다운로드 : <a href="http://www.busari.net/wp-content/uploads/2014/07/ShockLed.zip">ShockLed</a></p>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] --><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%accaps-lock-num-lock-scr-lock-led-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8/">[부사리]caps lock, num lock, scr lock led 프로그램</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%accaps-lock-num-lock-scr-lock-led-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[부사리]프린터 글씨 겹침(이중인쇄) 또는 줄이 맞지 않는 경우</title>
+		<link>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac%ed%94%84%eb%a6%b0%ed%84%b0-%ea%b8%80%ec%94%a8-%ea%b2%b9%ec%b9%a8%ec%9d%b4%ec%a4%91%ec%9d%b8%ec%87%84-%eb%98%90%eb%8a%94-%ec%a4%84%ec%9d%b4-%eb%a7%9e%ec%9d%b4-%ec%95%8a/</link>
+		<comments>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac%ed%94%84%eb%a6%b0%ed%84%b0-%ea%b8%80%ec%94%a8-%ea%b2%b9%ec%b9%a8%ec%9d%b4%ec%a4%91%ec%9d%b8%ec%87%84-%eb%98%90%eb%8a%94-%ec%a4%84%ec%9d%b4-%eb%a7%9e%ec%9d%b4-%ec%95%8a/#comments</comments>
+		<pubDate>Thu, 17 Jul 2014 07:10:26 +0000</pubDate>
+		<dc:creator><![CDATA[BUSARI]]></dc:creator>
+				<category><![CDATA[기술정보]]></category>
+		<category><![CDATA[엔코더]]></category>
+		<category><![CDATA[엔코더스트립]]></category>
+		<category><![CDATA[엔코더필름]]></category>
+		<category><![CDATA[잉크프린터]]></category>
+		<category><![CDATA[카트리지]]></category>
+		<category><![CDATA[프린터]]></category>
+
+		<guid isPermaLink="false">http://www.busari.net/?p=1920</guid>
+		<description><![CDATA[안녕하세요. 부사리입니다. 오랫만에 포스팅 해보네요. 먹고 살기 힘들어서요. ㅎㅎㅎ 최근에 키보드 빠르게 치면 컴퓨터 박사로 생각하는 지인에게 프린터가 이상하다고 전화가 왔습니다. 업종은 같아도 종목은 정반대인 하드웨어불량을 왜 나한테 &#8230;. ^^; 아무튼 이야기 들어보니 증상은 줄이 들쑥날쑥 글씨가 겹치거나 글씨가 깨지거나&#8230;  만약 글씨가 흐리게 나오거나 출력물의 일부분이 안 나온다면 헤드쪽이나 노즐불량이라 생각하면 되지만 이 증상의 경우 출력은 전부되는데 글씨가 깨지거나 줄(특히 세로)이 반드시 출력이 안되는 증상이더군요. 이런 경우는 거의 90%이상 Encoder &#8230; <a class="readmore" href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac%ed%94%84%eb%a6%b0%ed%84%b0-%ea%b8%80%ec%94%a8-%ea%b2%b9%ec%b9%a8%ec%9d%b4%ec%a4%91%ec%9d%b8%ec%87%84-%eb%98%90%eb%8a%94-%ec%a4%84%ec%9d%b4-%eb%a7%9e%ec%9d%b4-%ec%95%8a/">Read more &#187;</a><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac%ed%94%84%eb%a6%b0%ed%84%b0-%ea%b8%80%ec%94%a8-%ea%b2%b9%ec%b9%a8%ec%9d%b4%ec%a4%91%ec%9d%b8%ec%87%84-%eb%98%90%eb%8a%94-%ec%a4%84%ec%9d%b4-%eb%a7%9e%ec%9d%b4-%ec%95%8a/">[부사리]프린터 글씨 겹침(이중인쇄) 또는 줄이 맞지 않는 경우</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></description>
+				<content:encoded><![CDATA[<p>안녕하세요. 부사리입니다.<br /> 오랫만에 포스팅 해보네요. 먹고 살기 힘들어서요. ㅎㅎㅎ</p>
+<p>최근에 키보드 빠르게 치면 컴퓨터 박사로 생각하는 지인에게 프린터가 이상하다고 전화가 왔습니다. 업종은 같아도 종목은 정반대인 하드웨어불량을 왜 나한테 &#8230;. ^^; 아무튼</p>
+<p>이야기 들어보니 증상은 줄이 들쑥날쑥 글씨가 겹치거나 글씨가 깨지거나&#8230;  만약 글씨가 흐리게 나오거나 출력물의 일부분이 안 나온다면 헤드쪽이나 노즐불량이라 생각하면 되지만 이 증상의 경우 출력은 전부되는데 글씨가 깨지거나 줄(특히 세로)이 반드시 출력이 안되는 증상이더군요.</p>
+<p>이런 경우는 거의 90%이상 Encoder Strip(엔코더스트립, 엔코더 필름 등으로 불리어짐)불량입니다. 역할은 잉크캐리지 뒤에 있으면서 센거 위치를 파악하기 위해&#8230; 어쩌고 저쩌고 그냥 역할은 무시하세요. ^^<br /> 프린터 회사가 달라도 기본 동작원리는 같기 때문에 엔코더 위치나 모양만 조금씩 다를 뿐 나머지는 모두 같다고 생각하시면 됩니다.</p>
+<p>말이 또 길어졌네요. 해결 방법은 간단합니다. 카트리지 장착하는 곳 뒷쪽에 보면 투명한(잉크 때문에 탁한 투명색?) 띠가 하나 있습니다. 이것을 아래 사진처럼 헝겊이나 물티션 이물질을 제거해 주시면 됩니다.(페이지 아래 수리방법 유튜브 동영상에서 캡쳐한 사진입니다. 제 손 아니예요. ㅋㅋ)</p>
+<p><strong><span style="color: #ff0000;">*** 주의 ***</span><br /> 닦을 때 너무 힘을 주면 엔코더가 빠지는 경우가 있습니다. 최대한 팽창 유지한 상태에서 쓱쓱 닦아주세요. 캐논 모델은 경우 왼쪽이 스프링으로 걸쳐있고 오른쪽은 홈에 걸쳐있어서 오른쪽으로 쓰~~윽 밀다보면 스피링이 늘어나거나 오른쪽이 쏘옥 빠지는 경우도 있습니다. 깨끗하게 닦는다고 팍팍하시면 안됩니다. 조심 조심 닦아주세요~~~!</strong></p>
+<p><a href="http://www.busari.net/wp-content/uploads/2014/07/스크린샷-2014-07-17-오후-3.36.17.jpg"><img class="aligncenter size-full wp-image-1921" src="http://www.busari.net/wp-content/uploads/2014/07/스크린샷-2014-07-17-오후-3.36.17.jpg" alt="스크린샷 2014-07-17 오후 3.36.17" width="581" height="515" /></a></p>
+<p>&nbsp;</p>
+<p>위 사진으로 이해가 잘 안가시면 아래 유튜브 동상으로 보세요~~~!</p>
+<p><iframe src="//www.youtube.com/embed/XGlpSz5sJ3U" width="565" height="362"></iframe></p>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] --><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac%ed%94%84%eb%a6%b0%ed%84%b0-%ea%b8%80%ec%94%a8-%ea%b2%b9%ec%b9%a8%ec%9d%b4%ec%a4%91%ec%9d%b8%ec%87%84-%eb%98%90%eb%8a%94-%ec%a4%84%ec%9d%b4-%eb%a7%9e%ec%9d%b4-%ec%95%8a/">[부사리]프린터 글씨 겹침(이중인쇄) 또는 줄이 맞지 않는 경우</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac%ed%94%84%eb%a6%b0%ed%84%b0-%ea%b8%80%ec%94%a8-%ea%b2%b9%ec%b9%a8%ec%9d%b4%ec%a4%91%ec%9d%b8%ec%87%84-%eb%98%90%eb%8a%94-%ec%a4%84%ec%9d%b4-%eb%a7%9e%ec%9d%b4-%ec%95%8a/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[부사리]2014년 7월 MS 정기 보안업데이트 권고</title>
+		<link>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-7%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/</link>
+		<comments>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-7%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/#comments</comments>
+		<pubDate>Thu, 10 Jul 2014 01:23:01 +0000</pubDate>
+		<dc:creator><![CDATA[BUSARI]]></dc:creator>
+				<category><![CDATA[기술정보]]></category>
+		<category><![CDATA[7월]]></category>
+		<category><![CDATA[MS업데이트]]></category>
+		<category><![CDATA[update]]></category>
+		<category><![CDATA[보안업데이트]]></category>
+		<category><![CDATA[업데이트]]></category>
+		<category><![CDATA[정기업데이트]]></category>
+
+		<guid isPermaLink="false">http://www.busari.net/?p=1909</guid>
+		<description><![CDATA[자료제공 : KISA [MS14-037] Internet Explorer 누적 보안 업데이트 &#160; 영향 공격자가 영향 받는 시스템에 원격코드 실행 설명 사용자는 Internet Explorer를 사용하여 특수하게 제작된 웹페이지를 열람할 경우, 원격코드가 실행될 수 있는 취약점이 존재 관련취약점 : Internet Explorer 메모리 손상 취약점 – (CVE-2014-1763, CVE-2014-1765, CVE-2014-2783, CVE-2014-2785, CVE-2014-2786, CVE-2014-2787, CVE-2014-2788, CVE-2014-2789, CVE-2014-2790, CVE-2014-2791, VE-2014-2792, CVE-2014-2794, CVE-2014-2795, CVE-2014-2797, CVE-2014-2798, CVE-2014-2800, CVE-2014-2801, CVE-2014-2802, CVE-2014-2803, CVE-2014-2804, CVE-2014-2806, CVE-2014-2807, CVE-2014-2809, CVE-2014-2813 EV(Extended Validation) 인증서 보안 기능 &#8230; <a class="readmore" href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-7%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/">Read more &#187;</a><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-7%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/">[부사리]2014년 7월 MS 정기 보안업데이트 권고</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></description>
+				<content:encoded><![CDATA[<p>자료제공 : KISA</p>
+<p><strong>[MS14-037] Internet Explorer 누적 보안 업데이트 </strong></p>
+<p>&nbsp;</p>
+<p><strong>영향</strong></p>
+<ul>
+<li>공격자가 영향 받는 시스템에 원격코드 실행</li>
+</ul>
+<p><strong>설명</strong></p>
+<ul>
+<li>사용자는 Internet Explorer를 사용하여 특수하게 제작된 웹페이지를 열람할 경우, 원격코드가 실행될 수 있는 취약점이 존재</li>
+<li>관련취약점 :
+<ul>
+<li>Internet Explorer 메모리 손상 취약점 – (CVE-2014-1763, CVE-2014-1765, CVE-2014-2783, CVE-2014-2785, CVE-2014-2786, CVE-2014-2787, CVE-2014-2788, CVE-2014-2789, CVE-2014-2790, CVE-2014-2791, VE-2014-2792, CVE-2014-2794, CVE-2014-2795, CVE-2014-2797, CVE-2014-2798, CVE-2014-2800, CVE-2014-2801, CVE-2014-2802, CVE-2014-2803, CVE-2014-2804, CVE-2014-2806, CVE-2014-2807, CVE-2014-2809, CVE-2014-2813</li>
+<li>EV(Extended Validation) 인증서 보안 기능 우회 취약점 – (CVE-2014-2783)</li>
+</ul>
+</li>
+<li>영향 : 원격코드 실행</li>
+<li>중요도 : 긴급</li>
+</ul>
+<p><strong>해당시스템</strong></p>
+<ul>
+<li>참조사이트 참고
+<ul>
+<li>한글 : <a href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-037"><span style="text-decoration: underline;"><span style="color: #0066cc;">http://technet.microsoft.com/ko-kr/security/bulletin/MS14-037</span></span></a></li>
+<li>영문 : <a href="http://technet.microsoft.com/en-us/security/bulletin/MS14-037"><span style="text-decoration: underline;"><span style="color: #0066cc;">http://technet.microsoft.com/en-us/security/bulletin/MS14-037</span></span></a></li>
+</ul>
+</li>
+</ul>
+<p><strong>해결책</strong></p>
+<ul>
+<li>해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</li>
+</ul>
+<p><strong>[MS14-038] Windows Journal의 취약점으로 인한 원격 코드 실행 문제</strong></p>
+<p>&nbsp;</p>
+<p><strong>영향</strong></p>
+<ul>
+<li>공격자가 영향 받는 시스템에 원격코드 실행</li>
+</ul>
+<p><strong>설명</strong></p>
+<ul>
+<li>사용자가 특수하게 조작된 Journal 파일을 열 경우 원격 코드 실행이 허용될 수 있는 취약점이 존재</li>
+<li>관련취약점 :
+<ul>
+<li>Windows Journal 원격코드 실행 취약점 – (CVE-2014-1824)</li>
+</ul>
+</li>
+<li>영향 : 원격코드 실행</li>
+<li>중요도 : 긴급</li>
+</ul>
+<p><strong>해당시스템</strong></p>
+<ul>
+<li>참조사이트 참고
+<ul>
+<li>한글 : <a href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-038"><span style="text-decoration: underline;"><span style="color: #0066cc;">http://technet.microsoft.com/ko-kr/security/bulletin/MS14-038</span></span></a></li>
+<li>영문 : <a href="http://technet.microsoft.com/en-us/security/bulletin/MS14-038"><span style="text-decoration: underline;"><span style="color: #0066cc;">http://technet.microsoft.com/en-us/security/bulletin/MS14-038</span></span></a></li>
+</ul>
+</li>
+</ul>
+<p><strong>해결책</strong></p>
+<ul>
+<li>해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</li>
+</ul>
+<p><strong>[MS14-039] 화상 키보드의 취약점으로 인한 권한 상승 문제</strong></p>
+<p>&nbsp;</p>
+<p><strong>영향</strong></p>
+<ul>
+<li>공격자가 영향 받는 시스템에 대한 권한을 상승</li>
+</ul>
+<p><strong>설명</strong></p>
+<ul>
+<li>공격자가 낮은 무결성 프로세스에서 취약점을 악용해 화상 키보드를 실행하고 대상 시스템에 특수하게 조작된 프로그램을 업로드할 경우 권한 상승이 허용될 수 있는 취약점이 존재</li>
+<li>관련취약점 :
+<ul>
+<li>화상 키보드 권한 상승 취약점 – (CVE-2014-2781)</li>
+</ul>
+</li>
+<li>영향 : 권한 상승</li>
+<li>중요도 : 중요</li>
+</ul>
+<p><strong>해당시스템</strong></p>
+<ul>
+<li>참조사이트 참고
+<ul>
+<li>한글 : <a href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-039"><span style="text-decoration: underline;"><span style="color: #0066cc;">http://technet.microsoft.com/ko-kr/security/bulletin/MS14-039</span></span></a></li>
+<li>영문 : <a href="http://technet.microsoft.com/en-us/security/bulletin/MS14-039"><span style="text-decoration: underline;"><span style="color: #0066cc;">http://technet.microsoft.com/en-us/security/bulletin/MS14-039</span></span></a></li>
+</ul>
+</li>
+</ul>
+<p><strong>해결책</strong></p>
+<ul>
+<li>해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</li>
+</ul>
+<p><strong>[MS14-040] AFD(Ancillary Function Driver)의 취약점으로 인한 권한 상승 문제</strong></p>
+<p>&nbsp;</p>
+<p><strong>영향</strong></p>
+<ul>
+<li>공격자가 영향 받는 시스템에 대한 권한을 상승</li>
+</ul>
+<p><strong>설명</strong></p>
+<ul>
+<li>공격자가 시스템에 로그온하고 특수하게 조작된 응용 프로그램을 실행할 경우 권한 상승이 허용될 수 있는 취약점이 존재</li>
+<li>관련취약점 :
+<ul>
+<li>Ancillary Function Driver 권한 상승 취약점 – (CVE-2014-1767)</li>
+</ul>
+</li>
+<li>영향 : 권한 상승</li>
+<li>중요도 : 중요</li>
+</ul>
+<p><strong>해당시스템</strong></p>
+<ul>
+<li>참조사이트 참고
+<ul>
+<li>한글 : <a href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-040"><span style="text-decoration: underline;"><span style="color: #0066cc;">http://technet.microsoft.com/ko-kr/security/bulletin/MS14-040</span></span></a></li>
+<li>영문 : <a href="http://technet.microsoft.com/en-us/security/bulletin/MS14-040"><span style="text-decoration: underline;"><span style="color: #0066cc;">http://technet.microsoft.com/en-us/security/bulletin/MS14-040</span></span></a></li>
+</ul>
+</li>
+</ul>
+<p><strong>해결책</strong></p>
+<ul>
+<li>해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</li>
+</ul>
+<p><strong>[MS14-041] DirectShow의 취약점으로 인한 권한 상승 문제</strong></p>
+<p>&nbsp;</p>
+<p><strong>영향</strong></p>
+<ul>
+<li>공격자가 영향 받는 시스템에 대한 권한을 상승</li>
+</ul>
+<p><strong>설명</strong></p>
+<ul>
+<li>공격자가 낮은 무결성 프로세스에서 다른 취약점을 악용하여 로그인한 사용자의 컨텍스트에서 특수하게 조작된 코드를 실행할 경우 권한 상승이 허용될 수 있는 취약점이 존재</li>
+<li>관련취약점 :
+<ul>
+<li>DirectShow 권한 상승 취약점 – (CVE-2014-2780)</li>
+</ul>
+</li>
+<li>영향 : 권한 상승</li>
+<li>중요도 : 중요</li>
+</ul>
+<p><strong>해당시스템</strong></p>
+<ul>
+<li>참조사이트 참고
+<ul>
+<li>한글 : <a href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-041"><span style="text-decoration: underline;"><span style="color: #0066cc;">http://technet.microsoft.com/ko-kr/security/bulletin/MS14-041</span></span></a></li>
+<li>영문 : <a href="http://technet.microsoft.com/en-us/security/bulletin/MS14-041"><span style="text-decoration: underline;"><span style="color: #0066cc;">http://technet.microsoft.com/en-us/security/bulletin/MS14-041</span></span></a></li>
+</ul>
+</li>
+</ul>
+<p><strong>해결책</strong></p>
+<ul>
+<li>해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</li>
+</ul>
+<p><strong>[MS14-042] Microsoft Service Bus의 취약점으로 인한 서비스 거부 문제</strong></p>
+<p>&nbsp;</p>
+<p><strong>영향</strong></p>
+<ul>
+<li>공격자가 영향 받는 시스템에 서비스 거부 유발</li>
+</ul>
+<p><strong>설명</strong></p>
+<ul>
+<li>원격 인증된 공격자가 대상 시스템에 특수하게 조작된 AMQP(Advanced Message Queuing Protocol) 메시지 시퀀스를 보내는 프로그램을 만들어 실행할 경우 서비스 거부가 발생할 수 있는 취약점이 존재</li>
+<li>관련취약점 :
+<ul>
+<li>Service Bus 서비스 거부 취약점 – (CVE-2014-2814)</li>
+</ul>
+</li>
+<li>영향 : 서비스 거부</li>
+<li>중요도 : 보통</li>
+</ul>
+<p><strong>해당시스템</strong></p>
+<ul>
+<li>참조사이트 참고
+<ul>
+<li>한글 : <a href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-042"><span style="text-decoration: underline;"><span style="color: #0066cc;">http://technet.microsoft.com/ko-kr/security/bulletin/MS14-042</span></span></a></li>
+<li>영문 : <a href="http://technet.microsoft.com/en-us/security/bulletin/MS14-042"><span style="text-decoration: underline;"><span style="color: #0066cc;">http://technet.microsoft.com/en-us/security/bulletin/MS14-042</span></span></a></li>
+</ul>
+</li>
+</ul>
+<p><strong>해결책</strong></p>
+<ul>
+<li>해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</li>
+</ul>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] --><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-7%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/">[부사리]2014년 7월 MS 정기 보안업데이트 권고</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-7%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[부사리]2014년 6월 MS 정기 보안업데이트 권고</title>
+		<link>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-6%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/</link>
+		<comments>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-6%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/#comments</comments>
+		<pubDate>Thu, 19 Jun 2014 00:17:29 +0000</pubDate>
+		<dc:creator><![CDATA[BUSARI]]></dc:creator>
+				<category><![CDATA[기술정보]]></category>
+		<category><![CDATA[6월 업데이트]]></category>
+		<category><![CDATA[MS업데이트]]></category>
+		<category><![CDATA[보안업데이트]]></category>
+		<category><![CDATA[업데이트]]></category>
+
+		<guid isPermaLink="false">http://www.busari.net/?p=1903</guid>
+		<description><![CDATA[[MS14-030] 원격 데스크톱의 취약점으로 인한 변조 문제 영향  공격자가 영향 받는 시스템의 데이터를 변조 설명 공격자가 대상 시스템과 동일한 네트워크에 액세스 권한을 얻은 상태에서 특수하게 조작된 RDP 패킷을 전송하여 활성 RDP 세션의 트래픽 내용을 수정할 수 있는 취약점이 존재 관련취약점 : RDP MAC 취약점 (CVE-2014-0296) 영향 : 원격 코드실행 중요도 : 중요 해당시스템 참조사이트 참고 한글 : http://technet.microsoft.com/ko-kr/security/bulletin/MS14-030 영문 : http://technet.microsoft.com/en-us/security/bulletin/MS14-030 해결책 해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용 [MS14-031] TCP 프로토콜의 취약점으로 &#8230; <a class="readmore" href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-6%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/">Read more &#187;</a><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-6%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/">[부사리]2014년 6월 MS 정기 보안업데이트 권고</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></description>
+				<content:encoded><![CDATA[<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">[MS14-030] 원격 데스크톱의 취약점으로 인한 변조 문제</span></strong></p>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">영향<br />
+</span></strong> 공격자가 영향 받는 시스템의 데이터를 변조</p>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">설명<br />
+</span></strong>공격자가 대상 시스템과 동일한 네트워크에 액세스 권한을 얻은 상태에서 특수하게 조작된 RDP 패킷을 전송하여 활성 RDP 세션의 트래픽 내용을 수정할 수 있는 취약점이 존재</p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">관련취약점 : RDP MAC 취약점 (CVE-2014-0296)</li>
+<li style="vertical-align: middle;">영향 : 원격 코드실행</li>
+<li style="vertical-align: middle;">중요도 : 중요</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">해당시스템</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">참조사이트 참고
+<ul style="vertical-align: middle;">
+<li style="vertical-align: middle;">한글 :<span class="Apple-converted-space"> </span><a style="color: #666666; text-decoration: none; margin-top: -3px; vertical-align: middle; display: inline-block; cursor: pointer;" href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-030">http://technet.microsoft.com/ko-kr/security/bulletin/MS14-030</a></li>
+<li style="vertical-align: middle;">영문 :<span class="Apple-converted-space"> </span><a style="color: #666666; text-decoration: none; margin-top: -3px; vertical-align: middle; display: inline-block; cursor: pointer;" href="http://technet.microsoft.com/en-us/security/bulletin/MS14-030">http://technet.microsoft.com/en-us/security/bulletin/MS14-030</a></li>
+</ul>
+</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">해결책</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">[MS14-031] TCP 프로토콜의 취약점으로 인한 서비스 거부 문제<br style="vertical-align: middle;" /></span></strong></p>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">영향</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">공격자가 영향 받는 시스템에 서비스거부 유발</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">설명</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">공격자가 특수하게 조작된 패킷 시퀀스를 대상 시스템에 전송할 경우 서비스 거부를 허용할 수 있는 취약점</li>
+<li style="vertical-align: middle;">관련취약점 : TCP 서비스 거부 취약점 (CVE-2014-1811)</li>
+<li style="vertical-align: middle;">영향 : 서비스 거부</li>
+<li style="vertical-align: middle;">중요도 : 중요</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">해당시스템</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">참조사이트 참고
+<ul style="vertical-align: middle;">
+<li style="vertical-align: middle;">한글 :<span class="Apple-converted-space"> </span><a style="color: #666666; text-decoration: none; margin-top: -3px; vertical-align: middle; display: inline-block; cursor: pointer;" href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-031">http://technet.microsoft.com/ko-kr/security/bulletin/MS14-031</a></li>
+<li style="vertical-align: middle;">영문 :<span class="Apple-converted-space"> </span><a style="color: #666666; text-decoration: none; margin-top: -3px; vertical-align: middle; display: inline-block; cursor: pointer;" href="http://technet.microsoft.com/en-us/security/bulletin/MS14-031">http://technet.microsoft.com/en-us/security/bulletin/MS14-031</a></li>
+</ul>
+</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">해결책</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">[MS14-032] Microsoft Lync Server의 취약점으로 인한 정보 유출 문제</span></strong></p>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">영향</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">공격자가 영향 받는 시스템의 정보를 유출</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">설명</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">사용자가 특수하게 조작된 모임 URL을 클릭하여 Lync 모임에 참여하려고 시도할 경우 정보 유출이 발생할 수 있는 취약점</li>
+<li style="vertical-align: middle;">관련취약점 :  Lync Server 콘텐츠 삭제 취약점 ? (CVE-2014-1823)</li>
+<li style="vertical-align: middle;">영향 : 정보유출</li>
+<li style="vertical-align: middle;">중요도 : 중요</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">해당시스템</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">참조사이트 참고
+<ul style="vertical-align: middle;">
+<li style="vertical-align: middle;">한글 :<span class="Apple-converted-space"> </span><a style="color: #666666; text-decoration: none; margin-top: -3px; vertical-align: middle; display: inline-block; cursor: pointer;" href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-032">http://technet.microsoft.com/ko-kr/security/bulletin/MS14-032</a></li>
+<li style="vertical-align: middle;">영문 :<span class="Apple-converted-space"> </span><a style="color: #666666; text-decoration: none; margin-top: -3px; vertical-align: middle; display: inline-block; cursor: pointer;" href="http://technet.microsoft.com/en-us/security/bulletin/MS14-032">http://technet.microsoft.com/en-us/security/bulletin/MS14-032</a></li>
+</ul>
+</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">해결책</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">[MS14-033] Microsoft XML Core Services의 취약점으로 인한 정보 유출 문제</span></strong></p>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">영향</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">공격자가 영향 받는 시스템의 정보를 유출</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">설명</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">사용자가 인터넷 익스플로러를 통해 MSXML(Microsoft XML Core Services)이 실행되도록 특수하게 조작된 웹 사이트를 방문하는 경우 정보가 유출될 수 있는 취약점이 존재</li>
+<li style="vertical-align: middle;">관련취약점 : MSXML 엔터티 URI 취약점 (CVE-2014-1816)</li>
+<li style="vertical-align: middle;">영향 : 정보유출</li>
+<li style="vertical-align: middle;">중요도 : 중요</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">해당시스템</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">참조사이트 참고
+<ul style="vertical-align: middle;">
+<li style="vertical-align: middle;">한글 :<span class="Apple-converted-space"> </span><a style="color: #666666; text-decoration: none; margin-top: -3px; vertical-align: middle; display: inline-block; cursor: pointer;" href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-033">http://technet.microsoft.com/ko-kr/security/bulletin/MS14-033</a></li>
+<li style="vertical-align: middle;">영문 :<span class="Apple-converted-space"> </span><a style="color: #666666; text-decoration: none; margin-top: -3px; vertical-align: middle; display: inline-block; cursor: pointer;" href="http://technet.microsoft.com/en-us/security/bulletin/MS14-033">http://technet.microsoft.com/en-us/security/bulletin/MS14-033</a></li>
+</ul>
+</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">해결책</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">[MS14-034] Microsoft Word의 취약점으로 인한 원격코드 실행 문제</span></strong></p>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">영향</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">공격자가 영향 받는 시스템에 원격코드 실행</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">설명</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">사용자가 특수하게 조작된 워드 파일을 열 경우 원격코드 실행이 허용될 수 있는 취약점이 존재</li>
+<li style="vertical-align: middle;">관련취약점 : 임베디드 글꼴 취약점 (CVE-2014-2778)</li>
+<li style="vertical-align: middle;">영향 : 원격코드 실행</li>
+<li style="vertical-align: middle;">중요도 : 중요</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">해당시스템</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">참조사이트 참고
+<ul style="vertical-align: middle;">
+<li style="vertical-align: middle;">한글 :<span class="Apple-converted-space"> </span><a style="color: #666666; text-decoration: none; margin-top: -3px; vertical-align: middle; display: inline-block; cursor: pointer;" href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-034">http://technet.microsoft.com/ko-kr/security/bulletin/MS14-034</a></li>
+<li style="vertical-align: middle;">영문 :<span class="Apple-converted-space"> </span><a style="color: #666666; text-decoration: none; margin-top: -3px; vertical-align: middle; display: inline-block; cursor: pointer;" href="http://technet.microsoft.com/en-us/security/bulletin/MS14-034">http://technet.microsoft.com/en-us/security/bulletin/MS14-034</a></li>
+</ul>
+</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">해결책</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">[MS14-035] Internet Explorer 누적 보안 업데이트</span></strong></p>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">영향</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">공격자가 영향 받는 시스템에 원격코드 실행</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">설명</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">사용자는 Internet Explorer를 사용하여 특수하게 제작된 웹페이지를 열람할 경우, 원격코드가 실행될 수 있는 취약점이 존재</li>
+<li style="vertical-align: middle;">관련취약점 :
+<ul style="vertical-align: middle;">
+<li style="vertical-align: middle;">Internet Exploer 메모리 손상 취약점 ? (CVE-2014-0282, CVE-2014-1762,CVE-2014-1764,CVE-2014-1766,CVE-2014-1769,CVE-2014-1770,CVE-2014-1771,CVE-2014-1772,CVE-2014-1773,CVE-2014-1774,CVE-2014-1775,CVE-2014-1777,CVE-2014-1778,CVE-2014-1779,CVE-2014-1780,CVE-2014-1781,CVE-2014-1782,CVE-2014-1783,CVE-2014-1784,CVE-2014-1785,CVE-2014-1786,CVE-2014-1788,CVE-2014-1789,CVE-2014-1790,CVE-2014-1791,CVE-2014-1792,CVE-2014-1794,CVE-2014-1795,CVE-2014-1796,CVE-2014-1797,CVE-2014-1799,CVE-2014-1800,CVE-2014-1082,CVE-2014-1803,CVE-2014-1084,CVE-2014-1805,CVE-2014-2753,CVE-2014-2754,CVE-2014-2755,CVE-2014-2756,CVE-2014-2757,CVE-2014-2758,CVE-2014-2759,CVE-2014-2760,CVE-2014-2761,CVE-2014-2763,CVE-2014-2764,CVE-2014-2765,CVE-2014-2766,CVE-2014-2767,CVE-2014-2768,CVE-2014-2769,CVE-2014-2770,CVE-2014-2771,CVE-2014-2772,CVE-2014-2773,CVE-2014-2775,CVE-2014-2776,CVE-2014-2777)</li>
+<li style="vertical-align: middle;">TLS 서버 인증서 재협상 취약점 (CVE-2014-1771)</li>
+</ul>
+</li>
+<li style="vertical-align: middle;">영향 : 원격코드 실행</li>
+<li style="vertical-align: middle;">중요도 : 긴급</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">해당시스템</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">참조사이트 참고
+<ul style="vertical-align: middle;">
+<li style="vertical-align: middle;">한글 :<span class="Apple-converted-space"> </span><a style="color: #666666; text-decoration: none; margin-top: -3px; vertical-align: middle; display: inline-block; cursor: pointer;" href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-035">http://technet.microsoft.com/ko-kr/security/bulletin/MS14-035</a></li>
+<li style="vertical-align: middle;">영문 :<span class="Apple-converted-space"> </span><a style="color: #666666; text-decoration: none; margin-top: -3px; vertical-align: middle; display: inline-block; cursor: pointer;" href="http://technet.microsoft.com/en-us/security/bulletin/MS14-035">http://technet.microsoft.com/en-us/security/bulletin/MS14-035</a></li>
+</ul>
+</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">해결책</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">[MS14-036] Microsoft Graphics Component의 취약점으로 인한 원격코드 실행 문제</span></strong></p>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">영향</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">공격자가 영향 받는 시스템에 원격코드 실행</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">설명</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">사용자가 특수하게 조작된 파일이나 웹페이지를 열면 취약점으로 인해 원격코드 실행이 허용될 수 있는 취약점이 존재</li>
+<li style="vertical-align: middle;">관련취약점 :
+<ul style="vertical-align: middle;">
+<li style="vertical-align: middle;">Unicode Scripts Processor 취약점 ? (CVE-2014-1817)</li>
+<li style="vertical-align: middle;">GDI+ Image 파싱 취약점 &#8211; (CVE-2014-1818)
+<ul style="vertical-align: middle;">
+<li style="vertical-align: middle;">영향 : 원격코드 실행</li>
+<li style="vertical-align: middle;">중요도 : 긴급</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">해당시스템</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">참조사이트 참고
+<ul style="vertical-align: middle;">
+<li style="vertical-align: middle;">한글 :<span class="Apple-converted-space"> </span><a style="color: #666666; text-decoration: none; margin-top: -3px; vertical-align: middle; display: inline-block; cursor: pointer;" href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-036">http://technet.microsoft.com/ko-kr/security/bulletin/MS14-036</a></li>
+<li style="vertical-align: middle;">영문 :<span class="Apple-converted-space"> </span><a style="color: #666666; text-decoration: none; margin-top: -3px; vertical-align: middle; display: inline-block; cursor: pointer;" href="http://technet.microsoft.com/en-us/security/bulletin/MS14-036">http://technet.microsoft.com/en-us/security/bulletin/MS14-036</a></li>
+</ul>
+</li>
+</ul>
+<p style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;"><br style="vertical-align: middle;" /><strong style="vertical-align: middle;"><span style="font-family: Dotum; font-size: small;">해결책</span></strong></p>
+<ul style="color: #6c6c6c; text-transform: none; line-height: 16.79px; text-indent: 0px; letter-spacing: normal; font-style: normal; font-variant: normal; font-weight: normal; word-spacing: 0px; vertical-align: middle; white-space: normal; -webkit-text-stroke-width: 0px;">
+<li style="vertical-align: middle;">해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</li>
+</ul>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] --><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-6%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/">[부사리]2014년 6월 MS 정기 보안업데이트 권고</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-6%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[부사리]MS윈도우 MAC주소 변경 프로그램-2번째</title>
+		<link>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acms%ec%9c%88%eb%8f%84%ec%9a%b0-mac%ec%a3%bc%ec%86%8c-%eb%b3%80%ea%b2%bd-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8-2%eb%b2%88%ec%a7%b8/</link>
+		<comments>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acms%ec%9c%88%eb%8f%84%ec%9a%b0-mac%ec%a3%bc%ec%86%8c-%eb%b3%80%ea%b2%bd-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8-2%eb%b2%88%ec%a7%b8/#comments</comments>
+		<pubDate>Thu, 24 Apr 2014 02:16:15 +0000</pubDate>
+		<dc:creator><![CDATA[BUSARI]]></dc:creator>
+				<category><![CDATA[자료실/컴퓨터]]></category>
+		<category><![CDATA[mac address]]></category>
+		<category><![CDATA[mac주소]]></category>
+		<category><![CDATA[맥주소변경]]></category>
+
+		<guid isPermaLink="false">http://www.busari.net/?p=1859</guid>
+		<description><![CDATA[USB무선랜카드 등 드라이버에서 맥어드레스 변경을 지원하지 않는 랜카드에도 적용가능합니다. 가끔씩 외부에서 노트북을 사용할 때 데터링은 속도가 너무 느려서 불편하실 때가 있었을 겁니다. (와이브로 사용하신다면 패쒸~~~!) 이런 경우 유용하게 사용하실 수 있는 프로그램입니다. 무슨 말인지 아시겠죠? 주의! 재부팅해도 변경된 MAC이 그대로 유지됩니다.(좋을 수도 있고 나쁠 수도 있고 ^^ ) MAC Address란? : 랜카드마다 고유의 주소를 가지고 있습니다. 이것을 맥주소라고 하는데 아주 간단히 비유하자면 집주소정도로 생각하면 되겠습니다. 이걸 어디다 써? : 예) 통신사 &#8230; <a class="readmore" href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acms%ec%9c%88%eb%8f%84%ec%9a%b0-mac%ec%a3%bc%ec%86%8c-%eb%b3%80%ea%b2%bd-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8-2%eb%b2%88%ec%a7%b8/">Read more &#187;</a><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acms%ec%9c%88%eb%8f%84%ec%9a%b0-mac%ec%a3%bc%ec%86%8c-%eb%b3%80%ea%b2%bd-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8-2%eb%b2%88%ec%a7%b8/">[부사리]MS윈도우 MAC주소 변경 프로그램-2번째</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></description>
+				<content:encoded><![CDATA[<p><strong>USB무선랜카드 등 드라이버에서 맥어드레스 변경을 지원하지 않는 랜카드에도 적용가능합니다.</strong></p>
+<p>가끔씩 외부에서 노트북을 사용할 때 데터링은 속도가 너무 느려서 불편하실 때가 있었을 겁니다.<br />
+(와이브로 사용하신다면 패쒸~~~!)<br />
+이런 경우 유용하게 사용하실 수 있는 프로그램입니다. 무슨 말인지 아시겠죠?</p>
+<p><strong><span style="color: #d41a01;">주의!</span></strong> 재부팅해도 변경된 MAC이 그대로 유지됩니다.(좋을 수도 있고 나쁠 수도 있고 ^^ )</p>
+<p>MAC Address란? : 랜카드마다 고유의 주소를 가지고 있습니다. 이것을 맥주소라고 하는데<br />
+아주 간단히 비유하자면 집주소정도로 생각하면 되겠습니다.<br />
+이걸 어디다 써? : 예) 통신사 와이파이에 접속하려고 할때 접속하려는 장치의 맥주소를 통신사 서버에서 확인하고<br />
+서버에 맥주소가 등록되어 있다면 자기회사 고객으로 인증되면서 무선을 사용할 수 있습니다.<br />
+이쯤되면 어디에 사용하면 편하겠다 알 수 있으시겠죠!</p>
+<p>**** 아래 그림에서 변경할 랜카드 선택 -&gt; Random MAC Address 클릭 -&gt; Change Now! 클릭 -&gt; 잠시 후 변경 성공 메세지 나오면 끝!</p>
+<p><img class="aligncenter wp-image-1861 size-full" src="http://www.busari.net/wp-content/uploads/2014/04/ScreenShot1.jpg" alt="" width="661" height="533" /></p>
+<p style="text-align: center;"><a href="http://www.busari.net/wp-content/uploads/2014/04/TMACv6.0.5.zip"><img class="aligncenter" src="http://www.busari.net/userdata/down.gif" alt="down" width="125" height="70" />첨부파일 : TMACv6.0.5</a></p>
+<p style="text-align: center;">제조사 직접다운로드 : <a href="http://www.technitium.com/tmac/index.html" target="_blank">http://www.technitium.com/tmac/index.html</a></p>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] --><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acms%ec%9c%88%eb%8f%84%ec%9a%b0-mac%ec%a3%bc%ec%86%8c-%eb%b3%80%ea%b2%bd-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8-2%eb%b2%88%ec%a7%b8/">[부사리]MS윈도우 MAC주소 변경 프로그램-2번째</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acms%ec%9c%88%eb%8f%84%ec%9a%b0-mac%ec%a3%bc%ec%86%8c-%eb%b3%80%ea%b2%bd-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8-2%eb%b2%88%ec%a7%b8/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[부사리]코타로오시오 황혼 뮤직비디오</title>
+		<link>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac%ec%bd%94%ed%83%80%eb%a1%9c%ec%98%a4%ec%8b%9c%ec%98%a4-%ed%99%a9%ed%98%bc-%eb%ae%a4%ec%a7%81%eb%b9%84%eb%94%94%ec%98%a4/</link>
+		<comments>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac%ec%bd%94%ed%83%80%eb%a1%9c%ec%98%a4%ec%8b%9c%ec%98%a4-%ed%99%a9%ed%98%bc-%eb%ae%a4%ec%a7%81%eb%b9%84%eb%94%94%ec%98%a4/#comments</comments>
+		<pubDate>Wed, 23 Apr 2014 02:19:33 +0000</pubDate>
+		<dc:creator><![CDATA[BUSARI]]></dc:creator>
+				<category><![CDATA[미디어존]]></category>
+		<category><![CDATA[기타]]></category>
+		<category><![CDATA[뮤직비디오]]></category>
+		<category><![CDATA[코타로오시오]]></category>
+		<category><![CDATA[황혼]]></category>
+
+		<guid isPermaLink="false">http://www.busari.net/?p=1856</guid>
+		<description><![CDATA[[부사리]코타로오시오 황혼 뮤직비디오 is a post from: 부사리 - 컴퓨터하는 황소<p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac%ec%bd%94%ed%83%80%eb%a1%9c%ec%98%a4%ec%8b%9c%ec%98%a4-%ed%99%a9%ed%98%bc-%eb%ae%a4%ec%a7%81%eb%b9%84%eb%94%94%ec%98%a4/">[부사리]코타로오시오 황혼 뮤직비디오</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></description>
+				<content:encoded><![CDATA[<p><object width="560" height="315"><param name="movie" value="//www.youtube.com/v/HKwVu7NF-Kw?version=3&amp;hl=ko_KR&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="//www.youtube.com/v/HKwVu7NF-Kw?version=3&amp;hl=ko_KR&amp;rel=0" type="application/x-shockwave-flash" width="560" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object></p>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] --><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac%ec%bd%94%ed%83%80%eb%a1%9c%ec%98%a4%ec%8b%9c%ec%98%a4-%ed%99%a9%ed%98%bc-%eb%ae%a4%ec%a7%81%eb%b9%84%eb%94%94%ec%98%a4/">[부사리]코타로오시오 황혼 뮤직비디오</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac%ec%bd%94%ed%83%80%eb%a1%9c%ec%98%a4%ec%8b%9c%ec%98%a4-%ed%99%a9%ed%98%bc-%eb%ae%a4%ec%a7%81%eb%b9%84%eb%94%94%ec%98%a4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[부사리]OS X(맥OS)- ROOT 계정활성 및 암호설정</title>
+		<link>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acos-x%eb%a7%a5os-root-%ea%b3%84%ec%a0%95%ed%99%9c%ec%84%b1-%eb%b0%8f-%ec%95%94%ed%98%b8%ec%84%a4%ec%a0%95/</link>
+		<comments>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acos-x%eb%a7%a5os-root-%ea%b3%84%ec%a0%95%ed%99%9c%ec%84%b1-%eb%b0%8f-%ec%95%94%ed%98%b8%ec%84%a4%ec%a0%95/#comments</comments>
+		<pubDate>Tue, 15 Apr 2014 04:18:31 +0000</pubDate>
+		<dc:creator><![CDATA[BUSARI]]></dc:creator>
+				<category><![CDATA[기술정보]]></category>
+		<category><![CDATA[root]]></category>
+		<category><![CDATA[su]]></category>
+		<category><![CDATA[암호]]></category>
+
+		<guid isPermaLink="false">http://www.busari.net/?p=1850</guid>
+		<description><![CDATA[안녕하세요. 부사리입니다. 아래 방법은 맥OS 설치 후 root 암호가 설정되지 않아 su 명령을 사용할 수 없을 때 설정하는 방법입니다.(root 암호설정이 안 되어 있으니 당연히 su 암호가 다르다고 나오겠죠 ^^) 콘솔실행 -&#62; sudo -s -&#62; 권한이 있는 계정의 암호입력 (맥OS설치 후 별다른 설정이 안되어 있다면 로그인 계정암호입니다.) -&#62; passwd root -&#62; root의 암호설정 -&#62; 끝! 이제  su 명령어 잘 실행될 겁니다. [부사리]OS X(맥OS)- ROOT 계정활성 및 암호설정 is a post from: 부사리 - 컴퓨터하는 &#8230; <a class="readmore" href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acos-x%eb%a7%a5os-root-%ea%b3%84%ec%a0%95%ed%99%9c%ec%84%b1-%eb%b0%8f-%ec%95%94%ed%98%b8%ec%84%a4%ec%a0%95/">Read more &#187;</a><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acos-x%eb%a7%a5os-root-%ea%b3%84%ec%a0%95%ed%99%9c%ec%84%b1-%eb%b0%8f-%ec%95%94%ed%98%b8%ec%84%a4%ec%a0%95/">[부사리]OS X(맥OS)- ROOT 계정활성 및 암호설정</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></description>
+				<content:encoded><![CDATA[<p>안녕하세요. 부사리입니다. 아래 방법은 맥OS 설치 후 root 암호가 설정되지 않아 su 명령을 사용할 수 없을 때 설정하는 방법입니다.(root 암호설정이 안 되어 있으니 당연히 su 암호가 다르다고 나오겠죠 ^^)</p>
+<p>콘솔실행 -&gt; sudo -s -&gt; 권한이 있는 계정의 암호입력<br />
+(맥OS설치 후 별다른 설정이 안되어 있다면 로그인 계정암호입니다.)<br />
+-&gt; passwd root -&gt; root의 암호설정 -&gt; 끝!</p>
+<p>이제  su 명령어 잘 실행될 겁니다.</p>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] --><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acos-x%eb%a7%a5os-root-%ea%b3%84%ec%a0%95%ed%99%9c%ec%84%b1-%eb%b0%8f-%ec%95%94%ed%98%b8%ec%84%a4%ec%a0%95/">[부사리]OS X(맥OS)- ROOT 계정활성 및 암호설정</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%acos-x%eb%a7%a5os-root-%ea%b3%84%ec%a0%95%ed%99%9c%ec%84%b1-%eb%b0%8f-%ec%95%94%ed%98%b8%ec%84%a4%ec%a0%95/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[부사리]2014년 4월 MS 정기 보안업데이트 권고</title>
+		<link>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-4%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/</link>
+		<comments>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-4%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/#comments</comments>
+		<pubDate>Mon, 14 Apr 2014 04:50:14 +0000</pubDate>
+		<dc:creator><![CDATA[BUSARI]]></dc:creator>
+				<category><![CDATA[기술정보]]></category>
+		<category><![CDATA[MS보안업데이트]]></category>
+		<category><![CDATA[보안업데이트]]></category>
+		<category><![CDATA[업데이트]]></category>
+
+		<guid isPermaLink="false">http://www.busari.net/?p=1847</guid>
+		<description><![CDATA[자료제공 : KISA [MS14-017] Microsoft Word 및 Office Web Apps의 취약점으로 인한 원격 코드 실행 문제 영향 공격자가 영향 받는 시스템에 원격코드 실행 설명 사용자가 Microsoft Office를 사용하여 특수하게 조작된 파일을 열람할 경우 원격 코드가 실행될 수 있는 취약점이 존재 관련취약점 : Microsoft Office 파일 포맷 변환 취약점 &#8211; (CVE-2014-1757) Microsoft Word 스택 오버플로우 취약점 &#8211; (CVE-2014-1758) Word RTF 메모리 손상 취약점 &#8211; (CVE-2014-1761) 영향 : 원격 코드 실행 중요도 &#8230; <a class="readmore" href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-4%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/">Read more &#187;</a><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-4%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/">[부사리]2014년 4월 MS 정기 보안업데이트 권고</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></description>
+				<content:encoded><![CDATA[<p>자료제공 : KISA</p>
+<p><strong><span style="font-family: arial;">[MS14-017] Microsoft Word 및 Office Web Apps의 취약점으로 인한 원격 코드 실행 문제</span></strong></p>
+<p><span style="font-family: arial;"><br />
+</span><strong><span style="font-family: arial;">영향</span></strong></p>
+<ul>
+<li>
+<div><span style="font-family: arial;">공격자가 영향 받는 시스템에 원격코드 실행</span></div>
+</li>
+</ul>
+<p><span style="font-family: arial;"><strong>설명</strong></span></p>
+<ul>
+<li>
+<div><span style="font-family: arial;">사용자가 Microsoft Office를 사용하여 특수하게 조작된 파일을 열람할 경우 원격 코드가 실행될 수 있는 취약점이 존재</span></div>
+</li>
+<li>
+<div><span style="font-family: arial;">관련취약점 :</span></div>
+<ul>
+<li>
+<div><span style="font-family: arial;">Microsoft Office 파일 포맷 변환 취약점 &#8211; (CVE-2014-1757)</span></div>
+</li>
+<li>
+<div><span style="font-family: arial;">Microsoft Word 스택 오버플로우 취약점 &#8211; (CVE-2014-1758)</span></div>
+</li>
+<li>
+<div><span style="font-family: arial;">Word RTF 메모리 손상 취약점 &#8211; (CVE-2014-1761)</span></div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>
+<div><span style="font-family: arial;">영향 : 원격 코드 실행</span></div>
+</li>
+</ul>
+<ul>
+<li>
+<div><span style="font-family: arial;">중요도 : 긴급</span></div>
+</li>
+</ul>
+<p><strong><span style="font-family: arial;">해당시스템</span></strong></p>
+<ul dir="ltr">
+<li>
+<div><span style="font-family: arial;">참조사이트 참고</span></div>
+<ul>
+<li>
+<div><span style="font-family: arial;"><span style="font-family: arial;">한글 :              </span></span><a href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-017"><span style="font-family: arial;">http://technet.microsoft.com/ko-kr/security/bulletin/MS14-017</span></a></div>
+</li>
+<li>
+<div><span style="font-family: arial;"><span style="font-family: arial;">영문 :              </span></span><a href="http://technet.microsoft.com/en-us/security/bulletin/MS14-017"><span style="font-family: arial;">http://technet.microsoft.com/en-us/security/bulletin/MS14-017</span></a></div>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong><span style="font-family: arial;">해결책</span></strong></p>
+<ul>
+<li>
+<div><span style="font-family: arial;">해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</span></div>
+</li>
+</ul>
+<p><span style="font-family: arial;"> </span></p>
+<p><strong><span style="font-family: arial;">[MS14-018] Internet Explorer 누적 보안 업데이트</span></strong></p>
+<p><span style="font-family: arial;"><br />
+</span><strong><span style="font-family: arial;">영향</span></strong></p>
+<ul>
+<li><span style="font-family: arial;">공격자가 영향 받는 시스템에 원격코드 실행</span></li>
+</ul>
+<p><strong><span style="font-family: arial;">설명</span></strong></p>
+<ul>
+<li>
+<div><span style="font-family: arial;">사용자가 Internet Explorer를 사용하여 특수하게 조작된 웹 페이지를 볼 경우 원격 코드가 실행될 수 있는 취약점이 존재</span></div>
+</li>
+<li>
+<div><span style="font-family: arial;">관련취약점 :</span></div>
+<ul>
+<li><span style="font-family: arial;">Internet Explorer 메모리 손상 취약점 – (CVE-2014-0235, CVE-2014-1751, CVE-2014-1752, CVE-2014-1753, CVE-2014-1755, CVE-2014-1760) </span></li>
+</ul>
+</li>
+<li>
+<div><span style="font-family: arial;">영향 : 원격 코드 실행</span></div>
+</li>
+<li>
+<div><span style="font-family: arial;">중요도 : 긴급</span></div>
+</li>
+</ul>
+<p><strong><span style="font-family: arial;">해당시스템</span></strong></p>
+<ul>
+<li>
+<div><span style="font-family: arial;">참조사이트 참고</span></div>
+<ul>
+<li>
+<div><span style="font-family: arial;">한글 : </span><a href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-018"><span style="font-family: arial;">http://technet.microsoft.com/ko-kr/security/bulletin/MS14-018</span></a></div>
+</li>
+<li>
+<div><span style="font-family: arial;">영문 : </span><a href="http://technet.microsoft.com/en-us/security/bulletin/MS14-018"><span style="font-family: arial;">http://technet.microsoft.com/en-us/security/bulletin/MS14-018</span></a></div>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong><span style="font-family: arial;">해결책</span></strong></p>
+<ul>
+<li>
+<div align="left"><span style="font-family: arial;">해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</span></div>
+</li>
+</ul>
+<div align="left"><span style="font-family: arial;"> </span></div>
+<p align="left"><strong><span style="font-family: arial;">[MS14-019] Microsoft Publisher의 취약점으로 인한 원격 코드 실행 문제</span></strong></p>
+<p align="left"><strong><span style="font-family: arial;"><br />
+영향</span></strong></p>
+<div align="left">
+<ul>
+<li>
+<div><span style="font-family: arial;">공격자가 영향 받는 시스템에 원격코드 실행</span></div>
+</li>
+</ul>
+</div>
+<p><strong><span style="font-family: arial;">설명</span></strong></p>
+<ul>
+<li>
+<div><span style="font-family: arial;">사용자가 네트워크 위치에서 특수하게 조작된 .bat 및 .cmd 파일을 실행하는 경우 원격 코드가실행될 수 있는 취약점이 존재</span></div>
+</li>
+<li>
+<div><span style="font-family: arial;">관련취약점 :</span></div>
+<ul>
+<li>
+<div><span style="font-family: arial;">Windows 파일 처리 취약점 – (CVE-2014-0315)</span></div>
+</li>
+</ul>
+</li>
+<li>
+<div><span style="font-family: arial;">영향 : 원격 코드 실행</span></div>
+</li>
+<li>
+<div><span style="font-family: arial;">중요도 : 중요</span></div>
+</li>
+</ul>
+<p><strong><span style="font-family: arial;">해당시스템</span></strong></p>
+<ul>
+<li>
+<div><span style="font-family: arial;">참조사이트 참고</span></div>
+<ul>
+<li>
+<div><span style="font-family: arial;">한글 : </span><a href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-019"><span style="font-family: arial;">http://technet.microsoft.com/ko-kr/security/bulletin/</span></a><a href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-019"><span style="font-family: arial;">MS14-019</span></a></div>
+</li>
+<li>
+<div><span style="font-family: arial;">영문 : </span><a href="http://technet.microsoft.com/en-us/security/bulletin/MS14-019"><span style="font-family: arial;">http://technet.microsoft.com/en-us/security/bulletin/</span></a><a href="http://technet.microsoft.com/en-us/security/bulletin/MS14-019"><span style="font-family: arial;">MS14-019</span></a></div>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong><span style="font-family: arial;">해결책</span></strong></p>
+<ul>
+<li>
+<div><span style="font-family: arial;">해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</span></div>
+</li>
+</ul>
+<p><span style="font-family: arial;"> </span></p>
+<p><span style="font-family: arial;"><strong>[MS14-020] Microsoft Publisher의 취약점으로 인한 원격 코드 실행 문제</strong></span></p>
+<p><span style="font-family: arial;"><br />
+</span><strong><span style="font-family: arial;">영향</span></strong></p>
+<ul>
+<li>
+<div><span style="font-family: arial;">공격자가 영향 받는 시스템에 원격코드 실행</span></div>
+</li>
+</ul>
+<p><strong><span style="font-family: arial;">설명</span></strong></p>
+<ul>
+<li>
+<div><span style="font-family: arial;">사용자가 Microsoft Publisher를 사용하여 특수하게 조작된 파일을 열람할 경우 원격 코드가 실행될 수 있는 취약점이 존재</span></div>
+</li>
+<li><span style="font-family: arial;">관련취약점 :</span>
+<ul>
+<li><span style="font-family: arial;">임의 포인터 역참조 취약점 – (CVE-2014-1759)</span></li>
+</ul>
+</li>
+<li><span style="font-family: arial;">영향 : 원격 코드 실행</span></li>
+<li><span style="font-family: arial;">중요도 : 중요</span></li>
+</ul>
+<p><strong><span style="font-family: arial;">해당시스템</span></strong></p>
+<ul>
+<li>
+<div><span style="font-family: arial;">  참조사이트 참고</span></div>
+<ul>
+<li>
+<div><span style="font-family: arial;">한글 : </span><a href="http://technet.microsoft.com/ko-kr/security/bulletin/MS14-020"><span style="font-family: arial;">http://technet.microsoft.com/ko-kr/security/bulletin/MS14-020</span></a></div>
+</li>
+<li><span style="font-family: arial;">영문 : </span><a href="http://technet.microsoft.com/en-us/security/bulletin/MS14-020"><span style="font-family: arial;">http://technet.microsoft.com/en-us/security/bulletin/MS14-020</span></a></li>
+</ul>
+</li>
+</ul>
+<p><strong><span style="font-family: arial;">해결책</span></strong></p>
+<ul>
+<li>
+<div><span style="font-family: arial;">해당 시스템에 대한 마이크로소프트사의 취약점 패치 적용</span></div>
+</li>
+</ul>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] --><p><a href="http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-4%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/">[부사리]2014년 4월 MS 정기 보안업데이트 권고</a> is a post from: <a href="http://www.busari.net">부사리 - 컴퓨터하는 황소</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://www.busari.net/%eb%b6%80%ec%82%ac%eb%a6%ac2014%eb%85%84-4%ec%9b%94-ms-%ec%a0%95%ea%b8%b0-%eb%b3%b4%ec%95%88%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ea%b6%8c%ea%b3%a0/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

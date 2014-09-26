@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[하양애벌래 영미... 블로그 연습 중^^]]></title>
+			<link>http://blog.naver.com/ymjudy</link>
+			
+			<description><![CDATA[저의 일상 이야기를 중심으로 연습하는 블로그 입니다.]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:42:54 +0900</pubDate>
+
+			
+				<item>
+					<author>ymjudy</author>
+					<category><![CDATA[아이들과 함께]]></category>
+					<title><![CDATA[ 한RSS 디렉토리 등록]]></title>
+					<link>http://blog.naver.com/ymjudy/194216128</link>
+					<guid>http://blog.naver.com/ymjudy/194216128</guid>
+					<description><![CDATA[&lt;a href="http://www.hanrss.com/directory"&gt;한RSS 디렉토리&lt;/a&gt;]]></description>
+					<pubDate>Fri, 30 Aug 2013 16:07:39 +0900</pubDate>
+					<tag><![CDATA[육아·결혼]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[슈마의 네트워크보안 이야기]]></title>
+			<link>http://blog.naver.com/airbag1</link>
+			
+				<image>
+					<url><![CDATA[http://blogpfthumb.phinf.naver.net/data18/2007/1/8/256/11p1010002-airbag1.jpg?type=m2]]></url>
+					<title><![CDATA[슈마의 네트워크보안 이야기]]></title>
+					<link>http://blog.naver.com/airbag1</link>
+				</image>
+			
+			<description><![CDATA[보안컨설팅]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:42:57 +0900</pubDate>
+
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[사용자가 고통 받는 망분리 의무화 개선사항은? ]]></title>
+					<link>http://blog.naver.com/airbag1/80197300703</link>
+					<guid>http://blog.naver.com/airbag1/80197300703</guid>
+					<description><![CDATA[ 
+“업종별 특수성 반영한 망분리 사업 필요...금융권 망분리 보완해야”  [보안뉴스=임보혁 보안컨설턴트] 2012년 8월 개정된 ‘정보통신망 이용촉진 및 정보보호 등에 관한 법률(정보통신망법)’은 100만명 이상의 개인정보를 보유하거나 연매출 100억 이상인 정보통신서비스 사업자의 경우 내부 내트워크망과 외부 네트워크망을 분리하여 외부로부터 침입을 막고 내부정보의 유출을 막는 망분리 조치를 의무화했다.  이로 인해 금융기관, 통신·유통·서비스 등의 기업에서는 망분리 조치의 붐이 일고 있다. 이와 같은 효율적인 망분리 구축을 위해 기존 공공에서 수행중인 망분리 이슈와 개선사항을 알아보자.  개선·보완 없이 진행.......]]></description>
+					<pubDate>Mon, 02 Sep 2013 16:14:07 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[‘정보보안기사 자격시험’ 정착 위해 필요한 것은? ]]></title>
+					<link>http://blog.naver.com/airbag1/80196436875</link>
+					<guid>http://blog.naver.com/airbag1/80196436875</guid>
+					<description><![CDATA[운영미숙이 드러났던‘제1회 정보보안기사 국가자격’ 시험...보완 필요오류정정 신청 및오답처리 문제,신속한 공지 통해 투명성 강화해야[보안뉴스=임보혁 보안컨설턴트]최근 국가공인으로출발한 정보보안기사 시험은 최근 3.20 사이버테러, 개인정보보호법과 부정경쟁방지법 개정 등 보안과 관련한 사고 및법률 개정이이슈화되면서 높은 관심이 일고 있다.지난 7월에 1회 시험에서 당초 예상보다 많은 1만 1,000명이 신청한 것으로 알려졌다. 그러나 한 시험응시자는 시험후기에 “허술한 시험장 관리와 초라한 시험지, 오류투성이 시험문제”라고 적었다. 이와 같은 정보보안 자격시험 제도, 무엇이 문제인지, 개선점이 무엇인지 짚어보았다. .......]]></description>
+					<pubDate>Mon, 19 Aug 2013 23:56:03 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[IT 분야의 블루칩 ‘정보보안 자격증’ ]]></title>
+					<link>http://blog.naver.com/airbag1/80196077098</link>
+					<guid>http://blog.naver.com/airbag1/80196077098</guid>
+					<description><![CDATA[ 
+“보안전문가에게 정보보안 국가공인자격증은 필수”  [보안뉴스=임보혁 보안컨설턴트] 한국인터넷진흥원(KISA)은 기존 민간 공인으로 운영되던 SIS시험이 ‘정보보안기사/산업기사’ 국가기술자격제도로 승격되어 시행된다고 밝혔다.  사이버 범죄 고도화 및 개인정보 유출 등이 증가하면서 정보보안 인력 수요도 급증함에 따라 보안전문가 양성을 위해 국가공인자격은 필요하다. 이러한 정보보안 자격증이 필요한 이유에 대해 알아보자.  정보화 수준과 해킹사고 한국이 1위 
+한국은 전 세계에서 손꼽히는 ‘IT 강국’이다. 출근하는 버스나 지하철에서 스마트폰으로 음악을 듣거나 영화를 보고 있고 친구를 만나는 장소를 위치 검.......]]></description>
+					<pubDate>Wed, 14 Aug 2013 10:32:35 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[[펌] 정보보안기사시험 가답안 및 답안]]></title>
+					<link>http://blog.naver.com/airbag1/80194354041</link>
+					<guid>http://blog.naver.com/airbag1/80194354041</guid>
+					<description><![CDATA[
+정보보안기사시험 가답안 및 답안 정보보안기사시험 가답안 및 답안 정보보안기사시험 가답안 및 답안 정보보안기사시험 가답안 및 답안그 동안 정리된 내용과 답안을 중심으로 최종답안을 만들었습니다. 모든시험은 만점을 바라지 않습니다. 정보보안기사를 취득하기 위해서는 60/100을 만족하시면 됩니다.
+문제에 오류도 있고, 명확치 않은 부분도 있지만 그런부분은 과감히 버리고 명확한 답만 맞출수 있도록 공부했으면 좋겠습니다.   
+모든 시험에는 오류도 존재하고 말도 많고 탈도 많은법 입니다. 그것에 너무 집착하지 말고 기본에 충실한 공부를 하도록 합시다 ! 일년에 3번 시험이 있죠.. 우리에겐 다음이 또 있으니까요 ~!!.......]]></description>
+					<pubDate>Sat, 20 Jul 2013 00:02:48 +0900</pubDate>
+					<tag><![CDATA[정보보안기사가답안]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보보안기사/산업기사 필기,실기 교재 공동구매 추천]]></title>
+					<link>http://blog.naver.com/airbag1/80194353815</link>
+					<guid>http://blog.naver.com/airbag1/80194353815</guid>
+					<description><![CDATA[정보보안기사/산업기사 필기,실기 교재 공동구매 추천합니다http://cafe.daum.net/kgnkisa 에가시면 실기책 공동구매합니다]]></description>
+					<pubDate>Fri, 19 Jul 2013 23:59:03 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보보안기사 도서 추천 (답이보이는 정보보안기사 도서 추천)]]></title>
+					<link>http://blog.naver.com/airbag1/80191540369</link>
+					<guid>http://blog.naver.com/airbag1/80191540369</guid>
+					<description><![CDATA[정보보안기사 도서를 추천합니다. 기술사와 보안전문가들이 집필을 하였으며, 요약정리도 잘되어 있어서1달만 꾸준히 정보보안기사 책을 공부하시면 합격하실수 있습니다...&#65279;&#65279;&#65279;보보안기사 도서 추천, 정보보안기사 도서 추천, 정보보안기사 도서 추천, 정보보안기사 도서 추천, 정보보안기사 도서 추천, 정보보안기사 도서 추천]]></description>
+					<pubDate>Fri, 07 Jun 2013 13:03:14 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,SHV-E250K]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[개인정보관리사(CPPG) 자격 시험일정 ]]></title>
+					<link>http://blog.naver.com/airbag1/80182929874</link>
+					<guid>http://blog.naver.com/airbag1/80182929874</guid>
+					<description><![CDATA[    ㆍ2013년도 제11회 개인정보관리사(CPPG) 자격 시험일정        온라인접수2013년 2월 6일(수)~ 2013년 4월 3일(수) 24:00시험일시2013년 4월 14일(일)시험장소서울, 대전, 부산(고사장 미정)합격자발표2013년 5월 3일(금)   ㆍ2013년도 개인정보관리사(CPPG) 시험일정           구분11회12회13회시험일2013.04.142013.08.182013.12.08원서접수2013.02.06 ~ 2013.04.032013.06.12 ~ 2013.08.072013.10.02 ~ 2013.11.27합격자 발표2013.05.032013.09.062013.12.27  - 접수기간은 고사장 수용인원에 따라 조기 마감될 수 있습니다.- 원활한 시험 진행을 위하.......]]></description>
+					<pubDate>Tue, 26 Feb 2013 13:59:32 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[2013년 정보통신기사, 무선설비기사 시험일정]]></title>
+					<link>http://blog.naver.com/airbag1/80181846496</link>
+					<guid>http://blog.naver.com/airbag1/80181846496</guid>
+					<description><![CDATA[ 
+2013년 정보통신기사, 무선설비기사 시험일정 2013년 
+]]></description>
+					<pubDate>Sat, 16 Feb 2013 17:17:40 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[2013년 정보통신기술사 필기 시험일정]]></title>
+					<link>http://blog.naver.com/airbag1/80181843610</link>
+					<guid>http://blog.naver.com/airbag1/80181843610</guid>
+					<description><![CDATA[  2013년정보통신기술사 필기 시험일정 ]]></description>
+					<pubDate>Sat, 16 Feb 2013 16:44:29 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[2012년 정보통신기술사 시험일정 입니다.. (2월12일과 8월12일)]]></title>
+					<link>http://blog.naver.com/airbag1/80149312489</link>
+					<guid>http://blog.naver.com/airbag1/80149312489</guid>
+					<description><![CDATA[ 
+2012년 정보통신기술사 시험일정 입니다.. (2월12일과 8월12일) ]]></description>
+					<pubDate>Fri, 30 Dec 2011 13:39:04 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[95회 정보통신기술사 기출문제]]></title>
+					<link>http://blog.naver.com/airbag1/80136681854</link>
+					<guid>http://blog.naver.com/airbag1/80136681854</guid>
+					<description><![CDATA[  95회 정보통신기술사 기출문제 전체적으로 한번씩 기출되었던문제들이 70%정도 되었으며, 여러 분야에서 분산해서 문제가 출제가 되었습니다
+1교시에 n스크린, DNP, CASTING MODE등이 새로운 문제가 나왔으며,
+2교시에 스마트그리드와KTX설계, 공사비 산출대가등 신기술과 감리/설계가 나왔고
+3교시에 기술적활용이 안되는 PLC가 서술로 나와서 당황했다는 분이 많았고
+4교시에 북한에서 전자파 장애를 일으켰던 EMP폭탄, 원격자동검침, WPAN설계등이 나왔습니다 [1교시]
+※ 다음 문제 중 10문제를 선택하여 설명하시오. (각 10점)1. Array 안테나2. 임피던스 정합3. IEEE 802.11n4. M2M(Machine to machine)5. N 스크린6. DNP(D.......]]></description>
+					<pubDate>Mon, 08 Aug 2011 13:41:03 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[기고] 소림사 권법보다 무서운 저작권법]]></title>
+					<link>http://blog.naver.com/airbag1/80133744468</link>
+					<guid>http://blog.naver.com/airbag1/80133744468</guid>
+					<description><![CDATA[[기고] 소림사 권법보다 무서운 저작권법 http://t.co/oeNu3Fr]]></description>
+					<pubDate>Sat, 02 Jul 2011 10:41:57 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[[보안칼럼] 스마트폰 보안 취약점과 기업 대처방안  ]]></title>
+					<link>http://blog.naver.com/airbag1/80133509375</link>
+					<guid>http://blog.naver.com/airbag1/80133509375</guid>
+					<description><![CDATA[[보안칼럼] 스마트폰 보안 취약점과 기업 대처방안 http://t.co/1Jnms02]]></description>
+					<pubDate>Wed, 29 Jun 2011 09:58:18 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[[기고] Wi-Fi 날개를 달고 비상하는 스마트폰]]></title>
+					<link>http://blog.naver.com/airbag1/80133438904</link>
+					<guid>http://blog.naver.com/airbag1/80133438904</guid>
+					<description><![CDATA[[기고] Wi-Fi 날개를 달고 비상하는 스마트폰 http://t.co/ecYv7Fe]]></description>
+					<pubDate>Tue, 28 Jun 2011 11:36:40 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[[보안칼럼] IT 강국으로 가기 위한 개인정보보호 구축의 허와 실 -보안뉴스 발췌]]></title>
+					<link>http://blog.naver.com/airbag1/80133023963</link>
+					<guid>http://blog.naver.com/airbag1/80133023963</guid>
+					<description><![CDATA[ 
+개인정보보호법이 입법 논의 7년 만에 시행된다. 9월 30일부터 적용되는 개인정보보호법은 주민등록번호와 같은 개인정보 유출 시에도 문제가 없도록 암호화와 같은 기술적 조건을 만족해야 한다. 적용대상도 일반기업, 공공기관 외에 헌법기관과 의료기관, 협회나 동창회 같은 비영리단체 등으로 확대되었다. 그럼 개인정보보호법 시행을 앞두고 문제점과 대책을 알아보도록 하자.  개인정보에 개방적인 한국 
+해외 여러 나라의 IT 경험이 있는 엔지니어, 해외 개인정보보호법에 대해 알아보니 이력서에 ‘가족직업’까지 쓰는 곳은 한국뿐이라고 한다. 북미와 영국 등은 이력서에 사진, 성별, 나이, 국적, 종교 정보가 빠져 있고 간단한.......]]></description>
+					<pubDate>Wed, 22 Jun 2011 17:03:20 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[93회 정보통신기술사 기출문제 해설자료 (김기남학원)]]></title>
+					<link>http://blog.naver.com/airbag1/80125717800</link>
+					<guid>http://blog.naver.com/airbag1/80125717800</guid>
+					<description><![CDATA[93회 정보통신기술사 기출문제 해설자료 (김기남학원)]]></description>
+					<pubDate>Fri, 04 Mar 2011 23:53:22 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[구인-무선랜 프로젝트관리자(기술팀장급)]]></title>
+					<link>http://blog.naver.com/airbag1/80125211374</link>
+					<guid>http://blog.naver.com/airbag1/80125211374</guid>
+					<description><![CDATA[ 
+무선랜 진단을 하고 있는데..업체에서 프로젝트총괄 관리자 (기술팀장급)을 찾고 있다고..소개 좀 해달라고 하네요..관심있으면 연락주세요...
+- 회사명: 이이다코리아(주) http://www.airdefense.co.kr/- 업무: 프로젝트 총괄 관리자 (무선네트워크 컨설팅 및 프로젝트 총괄관리)- 조건: 프로젝트 수행경험, 기본영어가능- 연봉: 외국계기업 팀장급이니 많이 줄것임]]></description>
+					<pubDate>Fri, 25 Feb 2011 13:45:49 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[93회 정보통신기술사 기출문제]]></title>
+					<link>http://blog.naver.com/airbag1/80124927711</link>
+					<guid>http://blog.naver.com/airbag1/80124927711</guid>
+					<description><![CDATA[ 
+93회 정보통신기술사 기출문제 통신이론, 무선통신, 네트워크, 방송, 이동통신등 각 분야별 출제가 되었으며, 통신이론/무선통신이 
+합격의 변수가 되고있습니다... [1교시] 
+1. 파라볼릭 안테나(Parabolic Antenna) -안테나공학
+2. 클라우드 컴퓨팅(Cloud Computing) - 신기술
+3. 허프만 코딩(Huffman Coding) - 통신이론
+4. NFC(Near Field Communication)
+5. 펨토셀(Femtocell) -이동통신
+6. TVWS(TV White Space) - 통신이론
+7. Aliasing 현상의 원인과 대책 - 통신이론
+8. 분포정수회로(Distributed Transmission Line)의 전송선로 방정식 -통신이론
+9. dB 전송량 단위(dB, dBm, dBW, dBmV, dBuV) - 통신이론
+10. 시간.......]]></description>
+					<pubDate>Mon, 21 Feb 2011 23:41:06 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[모바일RFID]]></title>
+					<link>http://blog.naver.com/airbag1/80124383658</link>
+					<guid>http://blog.naver.com/airbag1/80124383658</guid>
+					<description><![CDATA[ 
+모바일RFID 기술은 장거리 인식이 가능한 900㎒과 근거리무선통신(NFC)인 13.56㎒로 구분되며900㎒의 장점은 3m 장거리 인식, 적은 구축비용, 단점은 보안성이 약하여 금융서비스에 어려움이 있음
+구축사례로는 SK텔레콤에서 900㎒ RFID리더 기능을 USIM에 장착하여 인천국제공항공사의 항공화물관리서비스에 적용하고 있으며삼성전자·노키아 등 글로벌 휴대폰 업체들이 잇따라 NFC를 스마트폰에 채택중임 NFC(Near Field Communication)는 13.56㎒ 주파수 대역을 사용해 10cm 이내의 가까운 거리에서 단말기 간 데이터를 전송하는 기술로
+단점은 짧은 인식거리, 장점은 보안성이 높음. KT에서 티머니 교통카드, 도어락 제어에 사용진행.......]]></description>
+					<pubDate>Mon, 14 Feb 2011 18:19:57 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[2011년 인터넷 10대이슈]]></title>
+					<link>http://blog.naver.com/airbag1/80124309214</link>
+					<guid>http://blog.naver.com/airbag1/80124309214</guid>
+					<description><![CDATA[ 
+2011년 인터넷 10대이슈는 △스마트폰, 스마트패드 등 스마트기기 전성시대 개막, △클라우드 서비스 대중화의 원년, 
+△위치기반서비스(SNS), 차세대 인터넷 서비스 성장 동력으로 유망, △스마트워크 이용 활성화 및 다양한 역기능 발생, 
+△스마트TV 시장 경쟁 심화와 N-스크린으로 진화 준비, △소셜을 강화한 위치기반서비스 대두, 
+△사물지능통신(M2M) 시장의 성장 본격화, △ 불건전ㆍ부정확한 정보의 폐해로 사회ㆍ경제적 피해 급증,
+△모바일 기반 보안 위협 증가와 개인정보보호 정책 강화, △지속가능한 성장 동력으로의 ]]></description>
+					<pubDate>Sun, 13 Feb 2011 18:05:52 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[[슈마생각] 신용카드 소득공제 폐지로 직장인 40%가 추가 세금 부담]]></title>
+					<link>http://blog.naver.com/airbag1/80124037395</link>
+					<guid>http://blog.naver.com/airbag1/80124037395</guid>
+					<description><![CDATA[현재 신용카드 사용시 총급여액의 20%를 뺀 금액의 20%에 대해 소득에서 공제(한도 500만원)하고 있는데올 연말 신용카드 소득공제 폐지로 직장인 40% 정도가 세금을 더 내게 된다고 합니다2012년 전체 직장인들의 세부담액이 1조1천억이라고 하니, 직장인이 봉인가요 ?? 
+]]></description>
+					<pubDate>Wed, 09 Feb 2011 14:54:20 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[[슈마생각] 홈페이지해킹중 악성코드 삽입]]></title>
+					<link>http://blog.naver.com/airbag1/80124018370</link>
+					<guid>http://blog.naver.com/airbag1/80124018370</guid>
+					<description><![CDATA[ 
+홈페이지 해킹중 악성코드 삽입을 통한 주요정보, 개인정보 탈취가 일반적이며해킹수법의 50%가 OS및 SW 취약점을 악용이라고 한다. 
+웹방화벽 설치외에 프로그램 개발시 보안모듈 적용이 필수지만
+납기에 쫒기는 프로젝트에서 몇명이나 지킬지가 의문이다.]]></description>
+					<pubDate>Wed, 09 Feb 2011 08:20:50 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[[슈마생각] 위성휴대전화서비스 - GMPCS(Global Mobile Personal Communication by Satellite)]]></title>
+					<link>http://blog.naver.com/airbag1/80123974674</link>
+					<guid>http://blog.naver.com/airbag1/80123974674</guid>
+					<description><![CDATA[KT가 아시아에서 4번째로 7월부터 인말새트(Inmarsat) 위성으로 음성,SMS,데이타통신,GPS 서비스를 제공한다기본료 2만원에 통화료는 분당 960원~1140원으로 선박,건설,해외비지니스에 유용하다고 한다
+위성휴대 전화서비스는 세계 전기통신정책포럼에서 GMPCS(Global Mobile Personal Communication by Satellite)용어
+를 사용하면서 시작되었고, 모토롤라의 이리듐, 퀄컴의 글로벌스타등이 사업을 진행하다 모두 실패하였는데, 
+잘 될지 궁금하네요..
+]]></description>
+					<pubDate>Tue, 08 Feb 2011 16:02:34 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[‎[슈마생각] wi-fi 무선랜 보안 위험 예방 ]]></title>
+					<link>http://blog.naver.com/airbag1/80123950206</link>
+					<guid>http://blog.naver.com/airbag1/80123950206</guid>
+					<description><![CDATA[
+L사의인터넷전화 SSID 암호는 '123456789a' 로 전국 100만대 이상이 동일하여 누구나 접속이 가능하였고
+컴퓨터 해킹도 취약점에 놓여 있었다..예방을 알아보자 - 무선 AP에 접속할 때 제공되는 인증서나 암호 키를 확인한다. 
+- 무료로 인터넷 접속을 제공하는 무선 AP를 의심하자.
+- 핫스팟 보안 도구를 사용하여 수시로 체크한다.
+- 무선랜 보안 설정을 확인한다
+- 강화된 802.1x 기반의 인증 방식을 사용하자.
+- 접속 허용하는 장비 리스트를 작성한다
+- 무선으로 관리자권한 접속 기능을 해제한다.]]></description>
+					<pubDate>Tue, 08 Feb 2011 09:03:55 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[[슈마생각] IPv4 주소 고갈]]></title>
+					<link>http://blog.naver.com/airbag1/80123939536</link>
+					<guid>http://blog.naver.com/airbag1/80123939536</guid>
+					<description><![CDATA[국제인터넷주소기구, IANA는 4억개가 넘는 인터넷 주소가 3일 아침을 기점으로 완전히 고갈됐다고 
+밝히면서 5월부터는 IPv4 주소의 신규할당이 전면 중단된다고 한다. 방송통신위원회는 `IPv6 전환 실행단계' 
+에 돌입한다고 한다 국내에서는 10년전부터 시험망을 운영하고 있었지만, 더이상의 진행이 지지부진하다가지금에 와서 부랴부랴 
+`차세대 인터넷주소(IPv6) 실전 적용서'를 발간하는등 발등에 불이 떨어진 형상이다..  주식시장에서는 IPV6 수혜주들이 상한가가 되었다. ]]></description>
+					<pubDate>Mon, 07 Feb 2011 23:45:03 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[[슈마생각] 스마트폰 os 경쟁 (심비안, RIM, 안드로이드)]]></title>
+					<link>http://blog.naver.com/airbag1/80123936894</link>
+					<guid>http://blog.naver.com/airbag1/80123936894</guid>
+					<description><![CDATA[모바일은 일반 핸드폰과 달리 OS가 탑재되어 미니 컴퓨터와 전화기, WIFI 인터넷을 모은 제품이다  얼마전에는 스마트폰 OS 1위는 심비안, 2위 리서치인모션(RIM),3위 아이폰, 4위 안드로이드, 5위 윈도모바일 순이었고작년에는 안드로이드가 58%로 1위, 애플이 26.90%로 2위, WM(윈도우모바일) 10.80% 순으로 역전이 되고 있다 윈도우모바일은 윈도우OS와 호환성이 장점이며,안드로이드는 리눅스기반의 오픈소스로 무료이고구글과의 검색 및 온라인 서비스 호환이 장점입니다. 노키아의 심비안은 전세계 1위 판매로 반응속도가빠른 장점이 있습니다. RIM의 블랙베리OS는 문서탐색과 스케쥴관리등 비지니스에 강한 장점이 있습니다 2011.......]]></description>
+					<pubDate>Mon, 07 Feb 2011 23:04:18 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[2011년 정보통신기술사 일정입니다]]></title>
+					<link>http://blog.naver.com/airbag1/80119975279</link>
+					<guid>http://blog.naver.com/airbag1/80119975279</guid>
+					<description><![CDATA[     
+2011년 정보통신기술사 일정입니다                     회별
+필기시험 원서접수
+필 기
+시 험
+필기시험
+합격예정자발 표
+응시자격서류제출
+(필기시험합격자 결정)
+면접시험
+원서접수
+면 접
+시 험
+합격자
+발 표
+방문제출
+인터넷
+인 터 넷
+제93회
+1.14～1.20 
+2.20
+4.1
+4.4～4.7
+4.30～5.12
+5.20
+제94회
+4.22～4.28
+5.22
+7.1
+7.4～7.7
+8.13～8.25
+9.2
+제95회
+7.15～7.21
+8.7
+9.30
+10.4～10.7
+10.29～11.10
+11.18  ]]></description>
+					<pubDate>Mon, 06 Dec 2010 12:30:22 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[92회 정보통신기술사 기출문제]]></title>
+					<link>http://blog.naver.com/airbag1/80113654220</link>
+					<guid>http://blog.naver.com/airbag1/80113654220</guid>
+					<description><![CDATA[
+92회 정보통신기술사 기출문제
+92회 정보통신기술사 기출문제
+92회 정보통신기술사 기출문제
+92회 정보통신기술사 기출문제 ]]></description>
+					<pubDate>Tue, 17 Aug 2010 21:07:01 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[네트워크장비 아이콘모임]]></title>
+					<link>http://blog.naver.com/airbag1/80110447870</link>
+					<guid>http://blog.naver.com/airbag1/80110447870</guid>
+					<description><![CDATA[네트워크장비 아이콘모임]]></description>
+					<pubDate>Thu, 01 Jul 2010 13:06:34 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[90회 정보통신기술사 합격자]]></title>
+					<link>http://blog.naver.com/airbag1/80107401133</link>
+					<guid>http://blog.naver.com/airbag1/80107401133</guid>
+					<description><![CDATA[
+90회 정보통신기술사 합격자   
+정보통신기술사(0621)  수험번호
+성 명
+수험번호
+성 명
+수험번호
+성 명
+수험번호
+성 명
+수험번호
+성 명
+수험번호
+성 명 01200021
+김형태
+01200034
+이택수
+01200188
+공은권
+01200319
+서동철
+01200377
+이광현
+01200440
+김민성 01200461
+위명희
+01200476
+한선미
+01200575
+최원철
+01200638
+이재철
+06000379
+이주헌
+07001239
+이윤의 13003327
+장재웅  합격인원 : 13명
+위명희씨와 이택수씨, 장재웅씨 합격을 축하드립니다]]></description>
+					<pubDate>Fri, 14 May 2010 12:38:38 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[90회 정보통신기술사 기출문제풀이 (김기남학원)]]></title>
+					<link>http://blog.naver.com/airbag1/80102705392</link>
+					<guid>http://blog.naver.com/airbag1/80102705392</guid>
+					<description><![CDATA[90회 정보통신기술사 기출문제풀이 (김기남학원)
+모두 정보통신기술사 합격하세요... 90회 정보통신기술사 기출문제풀이 (김기남학원)
+90회 정보통신기술사 기출문제풀이 (김기남학원)
+90회 정보통신기술사 기출문제풀이 (김기남학원)
+90회 정보통신기술사 기출문제풀이 (김기남학원) ]]></description>
+					<pubDate>Thu, 25 Feb 2010 20:53:34 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보통신기술사  제90회 기출문제]]></title>
+					<link>http://blog.naver.com/airbag1/80102174541</link>
+					<guid>http://blog.naver.com/airbag1/80102174541</guid>
+					<description><![CDATA[정보통신기술사 제 90 회기출문제 ※ 다음 문제 중 10문제를 선택하여 설명하시오. (각10점) 1. 산란계수(s 파라메터) S21 2. 무선(전파) 통신시스템에서의 편파(Polarization) 3. P1dB 억압점 4. 레벨 20dBmm인 신호 3개를 전력결합기로 합한 경우 출력신호를 계산하시오 5. WBAN(Wireless Body Network) 6. 스파시티 압신(Sparsity Compression) 7. GMSK 8. 8비트 정확도로 PCM 채널을 통하여 음성신호를 전송하고자 한다. 음성신호가 4KHz로 기저대역이 제한되었다고 가정할 때 PCM 신호의 전송에 필요한 최소대역폭을 계산하시오. 9. 대역폭이 4KHz인 PSTN 통신망에 신호전압이 39.7uV, 잡음전압이 5uV인 경우, 이론적인 최대전송량을 계.......]]></description>
+					<pubDate>Thu, 18 Feb 2010 12:51:40 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[90회 정보통신기술사 시험일정]]></title>
+					<link>http://blog.naver.com/airbag1/80097189864</link>
+					<guid>http://blog.naver.com/airbag1/80097189864</guid>
+					<description><![CDATA[「국가기술자격법 시행령」제15조의 규정에 따라 2010년도 국가기술자격검정 시행계획을 다음과 같이 공고합니다. 
+2009년 12월 8일 
+한국산업인력공단 이사장   
+등급 회별 필기시험
+원서접수 필 기
+시 험 필기시험
+합격(예정)자 발 표 &#8228;응시자격 서류제출 및
+필기시험 합격자결정 실기(면접)
+시 험 합격자
+발 표 
+방문제출 
+&#8228;실기(면접)시험 원서접수 
+인 터 넷 
+인 터 넷 
+기술사 제90회 1.15～1.21  2.7 3.26 3.29～4.1 4.24～5.6 5.14 
+제91회 4.30～5.6 5.23 7.2 7.5～7.8 7.31～8.12 8.20 
+제92회 7.23.......]]></description>
+					<pubDate>Sun, 13 Dec 2009 21:07:33 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[89회 정보통신기술사 합격자 명단]]></title>
+					<link>http://blog.naver.com/airbag1/80092565207</link>
+					<guid>http://blog.naver.com/airbag1/80092565207</guid>
+					<description><![CDATA[
+89회 정보통신기술사 합격자 명단입니다...2월 시험과 비슷한 정보통신기술사 합격을 하였습니다...축하를 드립니다
+]]></description>
+					<pubDate>Fri, 09 Oct 2009 02:01:47 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보통신기술사 뉴스동향 - 사물통신, IP-USN]]></title>
+					<link>http://blog.naver.com/airbag1/80092253400</link>
+					<guid>http://blog.naver.com/airbag1/80092253400</guid>
+					<description><![CDATA[정보통신기술사 뉴스동향 - 사물통신, IP-USN
+]]></description>
+					<pubDate>Sun, 04 Oct 2009 19:22:42 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보통신기술사 합격수기 분석- 기술사 시험공부방법]]></title>
+					<link>http://blog.naver.com/airbag1/80091518046</link>
+					<guid>http://blog.naver.com/airbag1/80091518046</guid>
+					<description><![CDATA[정보통신기술사 합격수기 분석- 정보통신기술사 시험공부방법]]></description>
+					<pubDate>Fri, 25 Sep 2009 01:26:45 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보통신기술사 합격수기 분석- 마음가짐]]></title>
+					<link>http://blog.naver.com/airbag1/80091479890</link>
+					<guid>http://blog.naver.com/airbag1/80091479890</guid>
+					<description><![CDATA[정보통신기술사 합격수기 분석- 마음가짐
+]]></description>
+					<pubDate>Thu, 24 Sep 2009 12:40:24 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,기술사]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보통신기술사 합격수기 분석- 합격 지름길 ?]]></title>
+					<link>http://blog.naver.com/airbag1/80091410760</link>
+					<guid>http://blog.naver.com/airbag1/80091410760</guid>
+					<description><![CDATA[정보통신기술사 합격수기 분석- 합격 지름길 ?
+]]></description>
+					<pubDate>Wed, 23 Sep 2009 00:53:05 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보통신기술사 뉴스동향 - 광통신, WDM, ROADM]]></title>
+					<link>http://blog.naver.com/airbag1/80090724914</link>
+					<guid>http://blog.naver.com/airbag1/80090724914</guid>
+					<description><![CDATA[
+정보통신기술사 뉴스동향 - 광통신, WDM, ROADM
+]]></description>
+					<pubDate>Thu, 17 Sep 2009 00:56:12 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,기술사,정보통신]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보통신기술사 학원 선택 ]]></title>
+					<link>http://blog.naver.com/airbag1/80090596829</link>
+					<guid>http://blog.naver.com/airbag1/80090596829</guid>
+					<description><![CDATA[정보통신기술사 학원 선택 
+]]></description>
+					<pubDate>Mon, 14 Sep 2009 22:47:51 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보통신기술사 답안작성 3단 논법]]></title>
+					<link>http://blog.naver.com/airbag1/80090593189</link>
+					<guid>http://blog.naver.com/airbag1/80090593189</guid>
+					<description><![CDATA[정보통신기술사 답안작성 3단 논법
+]]></description>
+					<pubDate>Mon, 14 Sep 2009 21:47:55 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보통신기술사 뉴스동향 - 가상이동망사업자 (MVNO)]]></title>
+					<link>http://blog.naver.com/airbag1/80090185130</link>
+					<guid>http://blog.naver.com/airbag1/80090185130</guid>
+					<description><![CDATA[정보통신기술사 뉴스동향 - 가상이동망사업자 (MVNO)
+]]></description>
+					<pubDate>Wed, 09 Sep 2009 00:46:15 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,기술사,정보통신]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보통신기술사-기출문제 분석 ]]></title>
+					<link>http://blog.naver.com/airbag1/80090172639</link>
+					<guid>http://blog.naver.com/airbag1/80090172639</guid>
+					<description><![CDATA[정보통신기술사-기출문제 분석 
+]]></description>
+					<pubDate>Tue, 08 Sep 2009 20:59:15 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,정보통신,기술사]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보통신기술사 뉴스동향 - 주파수 경매제]]></title>
+					<link>http://blog.naver.com/airbag1/80090120452</link>
+					<guid>http://blog.naver.com/airbag1/80090120452</guid>
+					<description><![CDATA[
+주파수 경매제
+]]></description>
+					<pubDate>Mon, 07 Sep 2009 22:00:47 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보통신기술사 시험점수에 대한 응시자와 채점자의 생각차이 ]]></title>
+					<link>http://blog.naver.com/airbag1/80090120421</link>
+					<guid>http://blog.naver.com/airbag1/80090120421</guid>
+					<description><![CDATA[
+정보통신기술사 시험점수에 대한 응시자와 채점자의 생각차이 ]]></description>
+					<pubDate>Mon, 07 Sep 2009 21:59:58 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보통신기술사 답안작성 요령]]></title>
+					<link>http://blog.naver.com/airbag1/80089968870</link>
+					<guid>http://blog.naver.com/airbag1/80089968870</guid>
+					<description><![CDATA[정보통신기술사 답안작성 요령
+]]></description>
+					<pubDate>Mon, 07 Sep 2009 00:16:57 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,정보통신,기술사]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보통신기술사 뉴스동향 - IMS , 소프트스위치]]></title>
+					<link>http://blog.naver.com/airbag1/80089964926</link>
+					<guid>http://blog.naver.com/airbag1/80089964926</guid>
+					<description><![CDATA[
+뉴스동향 - IMS , 소프트스위치
+]]></description>
+					<pubDate>Sun, 06 Sep 2009 23:58:17 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,기술사,정보통신]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[기술사 시험공부방법 및 합격의 지름길]]></title>
+					<link>http://blog.naver.com/airbag1/80087799605</link>
+					<guid>http://blog.naver.com/airbag1/80087799605</guid>
+					<description><![CDATA[기술사 시험공부방법 및 합격의 지름길
+]]></description>
+					<pubDate>Fri, 04 Sep 2009 03:19:24 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,정보통신,기술사]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[정보통신기술사 준비- 마인드맵 (mindmap)]]></title>
+					<link>http://blog.naver.com/airbag1/80087306573</link>
+					<guid>http://blog.naver.com/airbag1/80087306573</guid>
+					<description><![CDATA[정보통신기술사 준비- 마인드맵 (mindmap)
+]]></description>
+					<pubDate>Mon, 31 Aug 2009 19:47:51 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터,정보통신,기술사]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>airbag1</author>
+					<category><![CDATA[슈마 네트워크,보안]]></category>
+					<title><![CDATA[슈마의 문제로 풀어보는 CISSP (네트워크타임즈 월간지 칼럼)]]></title>
+					<link>http://blog.naver.com/airbag1/80087273265</link>
+					<guid>http://blog.naver.com/airbag1/80087273265</guid>
+					<description><![CDATA[
+슈마의 문제로 풀어보는 CISSP (네트워크타임즈 월간지 칼럼)  ]]></description>
+					<pubDate>Mon, 31 Aug 2009 03:50:04 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

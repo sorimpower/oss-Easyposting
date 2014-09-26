@@ -1,0 +1,112 @@
+﻿@*@model IEnumerable<EasyPosting.Models.EP_POSTS>*@
+@model PagedList.IPagedList<EasyPosting.Models.EP_POSTS>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "스토리지";
+    Layout = "";
+}
+@Styles.Render("~/Content/fonts")
+@*@Styles.Render("~/Content/css")*@
+@Scripts.Render("~/bundles/modernizr")
+@Scripts.Render("~/bundles/jquery")
+@Styles.Render("~/Content/storage")
+@Scripts.Render("~/bundles/storage")
+<!-- ================== BEGIN BASE CSS STYLE ================== -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+<link href="~/assets/plugins/jquery-ui-1.10.4/themes/base/minified/jquery-ui.min.css" rel="stylesheet" />
+<link href="~/assets/plugins/bootstrap-3.2.0/css/bootstrap.min.css" rel="stylesheet" />
+@*<link href="~/assets/plugins/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" />*@
+@*<link href="~/assets/css/animate.min.css" rel="stylesheet" />
+    <link href="~/assets/css/style.min.css" rel="stylesheet" />*@
+<link href="~/assets/css/style-responsive.min.css" rel="stylesheet" />
+
+@*<link href="~/assets/plugins/jquery-file-upload/blueimp-gallery/blueimp-gallery.min.css" rel="stylesheet" />*@
+@*<link href="~/assets/css/theme/default.css" rel="stylesheet" id="theme" />*@
+<style>
+    ul {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+        ul li {
+            list-style: none;
+            margin-bottom: 5px;
+            margin-left: 0px;
+        }
+
+            ul li img {
+                cursor: pointer;
+            }
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="col">
+                @using (Ajax.BeginForm("VideoSearch", "Storage",
+                                 new AjaxOptions { HttpMethod = "GET", InsertionMode = InsertionMode.Replace, UpdateTargetId = "searchResults" }))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-group row">
+                        <div class="input-group col-xs-8">
+                            <div class="input-group-addon"><i class="fa fa-youtube-play"></i> Youtube</div>
+                            @Html.TextBox("searchText", null, new { @required = "yes", @class = "form-control", @placeholder = "검색어를 입력하세요" })
+                            <div class="input-group-btn">
+                                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div id="searchResults"></div>           
+        </div>
+    </div>
+</div>
+
+<script>
+    //$('.container').click(function () {
+        
+    //});
+    $('.img-thumbnail').click(function () {
+        //var src = $(this).attr('src');
+        var src = $(this).attr('data-name');
+        //console.log($(this).attr('data-name'));
+        //$('#media_data', parent.document).attr('value', src);
+        //$('#media_data', parent.document).val(src)
+        $('#media_data_Video', parent.document).val(src)
+        parent.$('#widgetMedia_Video').modal('hide');
+        //$('#media_data', parent.document).attr('value', src);
+        //$('#media_data', parent.document).val(src)
+    });
+</script>
+
+<!-- ================== BEGIN BASE JS ================== -->
+@*<script src="~/assets/plugins/jquery-1.8.2/jquery-1.8.2.min.js"></script>*@
+<script src="~/assets/plugins/jquery-ui-1.10.4/ui/minified/jquery-ui.min.js"></script>
+<script src="~/assets/plugins/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+    <script src="~/assets/crossbrowserjs/html5shiv.js"></script>
+    <script src="~/assets/crossbrowserjs/respond.min.js"></script>
+    <script src="~/assets/crossbrowserjs/excanvas.min.js"></script>
+<![endif]-->
+@*<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-di alog -->
+</div><!-- /.modal -->*@
+@*<script>
+    $(document).ready(function () {
+        $('li img').on('click', function () {
+            var src = $(this).attr('src');
+            var srcyoutube = src.substr(27, 38);
+            var youtube = '<iframe width="640" height="360" frameborder="0" allowfullscreen src="//www.youtube.com/embed/"' + srcyoutube + ' />';
+            $('#myModal').modal();
+            $('#myModal').on('shown.bs.modal', function () {
+                $('#myModal .modal-body').html(youtube);
+            });
+        });
+    })
+</script>*@

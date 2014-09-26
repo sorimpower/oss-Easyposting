@@ -1,0 +1,158 @@
+﻿@*@model IEnumerable<EasyPosting.Models.EP_POSTS>*@
+@model PagedList.IPagedList<EasyPosting.Models.EP_POSTS>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "스토리지";
+    Layout = "";
+}
+@Styles.Render("~/Content/fonts")
+@*@Styles.Render("~/Content/css")*@
+@Scripts.Render("~/bundles/modernizr")
+@Scripts.Render("~/bundles/jquery")
+@*@Styles.Render("~/Content/storage")*@
+@*@Scripts.Render("~/bundles/storage")*@
+<!-- ================== BEGIN BASE CSS STYLE ================== -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+<link href="~/assets/plugins/jquery-ui-1.10.4/themes/base/minified/jquery-ui.min.css" rel="stylesheet" />
+<link href="~/assets/plugins/bootstrap-3.2.0/css/bootstrap.min.css" rel="stylesheet" />
+@*<link href="~/assets/plugins/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" />*@
+@*<link href="~/assets/css/animate.min.css" rel="stylesheet" />
+    <link href="~/assets/css/style.min.css" rel="stylesheet" />*@
+<link href="~/assets/css/style-responsive.min.css" rel="stylesheet" />
+
+@*<link href="~/assets/plugins/jquery-file-upload/blueimp-gallery/blueimp-gallery.min.css" rel="stylesheet" />*@
+@*<link href="~/assets/css/theme/default.css" rel="stylesheet" id="theme" />*@
+<style>
+    ul {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+        ul li {
+            list-style: none;
+            margin-bottom: 5px;
+            margin-left: 0px;
+        }
+
+            ul li img {
+                cursor: pointer;
+            }
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="col">
+                @using (Html.BeginForm("VideoEmbed", "Storage", FormMethod.Get))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="form-group row">
+                        <div class="input-group col-xs-8">
+                            <div class="input-group-addon"><i class="fa fa-search"></i> 검색</div>
+                            @Html.TextBox("Search_Data", null, new { @required = "yes", @class = "form-control", @placeholder = "검색어를 입력하세요" })
+                            <div class="input-group-btn">
+                                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            @*<table class="table table-responsive table-hover">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Date)
+                        작성 일자
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Title)
+                        제목
+                    </th>
+                    <th>
+                        @html.DisplayNameFor(model => model.Body)
+                        내용
+                    </th>
+                </tr>*@
+            <ul class="row gallery">
+                @foreach (var item in Model)
+                {
+                    @Html.AntiForgeryToken()
+                    @*<tr>
+                        <td>*@
+                    @*@Html.DisplayFor(modelItem => item.Date)*@
+                    @*</td>
+                        <td>*@
+                    @*@Html.DisplayFor(modelItem => item.Title)*@
+                    @*</td>
+                        <td>*@
+                    @*@Html.ActionLink("보기", "DetailsEmbed", new { id = item.ID })*@
+                    //    </td>
+                    //</tr>
+                    <li class="over col-lg-2 col-md-2 col-sm-3 col-xs-4">    
+                        @*<a href="@Url.RouteUrl(new { controller = "Editor", action = "Create", id = item.ID })" target="_parent">*@
+                            @if (item.Thumbnail.IsEmpty())
+                            {
+                                <img class="img-responsive img-thumbnail" style="height:150px; width:240px;" src="@Url.Content("~/User/Posts/Image/"+ item.Body)" alt="@Html.DisplayFor(modelItem => item.Title)" />
+                            }
+                            else
+                            {
+                                <img class="img-responsive img-thumbnail" style="height:150px; width:240px;" src="@Html.DisplayFor(model => item.Thumbnail)" data-name="@Html.DisplayFor(model => item.Body)" alt="@Html.DisplayFor(modelItem => item.Title)" />
+                            }
+                        @*</a>*@                       
+                    </li>
+                }
+                @*</table>*@
+            </ul>
+            <center>
+                @Html.PagedListPager(Model, Page_No => Url.Action("VideoEmbed", new { Page_No }))
+            </center>
+        </div>
+    </div>
+</div>
+
+<script>
+    //$('.container').click(function () {
+        
+    //});
+    $('.img-thumbnail').click(function () {
+        //var src = $(this).attr('src');
+        var src = $(this).attr('src') + "|" + $(this).attr('data-name');
+        //console.log($(this).attr('data-name'));
+        //$('#media_data', parent.document).attr('value', src);
+        //$('#media_data', parent.document).val(src)
+        $('#media_data_Video', parent.document).val(src)
+        parent.$('#widgetMedia_Video').modal('hide');
+        parent.$('#Media_Video').modal('hide');
+        //$('#media_data', parent.document).attr('value', src);
+        //$('#media_data', parent.document).val(src)
+    });
+</script>
+
+<!-- ================== BEGIN BASE JS ================== -->
+@*<script src="~/assets/plugins/jquery-1.8.2/jquery-1.8.2.min.js"></script>*@
+<script src="~/assets/plugins/jquery-ui-1.10.4/ui/minified/jquery-ui.min.js"></script>
+<script src="~/assets/plugins/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+<!--[if lt IE 9]>
+    <script src="~/assets/crossbrowserjs/html5shiv.js"></script>
+    <script src="~/assets/crossbrowserjs/respond.min.js"></script>
+    <script src="~/assets/crossbrowserjs/excanvas.min.js"></script>
+<![endif]-->
+@*<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-di alog -->
+</div><!-- /.modal -->*@
+@*<script>
+    $(document).ready(function () {
+        $('li img').on('click', function () {
+            var src = $(this).attr('src');
+            var srcyoutube = src.substr(27, 38);
+            var youtube = '<iframe width="640" height="360" frameborder="0" allowfullscreen src="//www.youtube.com/embed/"' + srcyoutube + ' />';
+            $('#myModal').modal();
+            $('#myModal').on('shown.bs.modal', function () {
+                $('#myModal .modal-body').html(youtube);
+            });
+        });
+    })
+</script>*@

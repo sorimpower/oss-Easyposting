@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>C-Major의 유쾌한 World</title>
+		<link>http://blog.mgaver.co.kr/</link>
+		<description>C-Major의 블로그입니다.</description>
+		<language>ko</language>
+		<pubDate>Tue, 26 Aug 2014 17:30:38 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>C-Major</managingEditor>
+		<item>
+			<title>[프로그램]PC에서 안드로이드 어플을..?</title>
+			<link>http://blog.mgaver.co.kr/258</link>
+			<description>&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/145B7E424F71DD9302C25B&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile10.uf@145B7E424F71DD9302C25B.png&quot; height=&quot;348&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+PC에서 안드로이드 어플리케이션을 구동할 수 있는 앱플레이어, BlueStacks의 베타 1이 오늘 공개되었습니다.지금까지 PC에서 안드로이드 어플리케이션을 구동하려면 가상 머신에서 x86 버전의 안드로이드를 설치하는 방법 뿐이었는데.. 이 BlueStacks를 사용하면 속도도 더 빠르고 쉽게 안드로이드 어플리케이션을 돌릴 수 있다고 합니다.&amp;nbsp;&lt;div&gt;
+&lt;br /&gt;
+&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color: rgb(227, 22, 0); text-align: center;&quot;&gt;
+&lt;span style=&quot;font-size: 14pt; font-weight: bold; color: rgb(227, 22, 0);&quot;&gt;BlueStacks의 구동 원리&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/1968CC3C4F71E0A92310F0&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile9.uf@1968CC3C4F71E0A92310F0.png&quot; height=&quot;400&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+구동 원리는 안드로이드는 리눅스 커널에 Dalvik 가상 머신을 올린 형태인데.. 이 Dalvik 머신은 자바로 작성된 어플을 구동해주는 머신입니다.&lt;/div&gt;
+&lt;div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div&gt;
+안드로이드 어플리케이션 자바로 짜여져 있는데 이로 인해 스마트폰에 주로 사용되는 ARM 아키텍쳐 기반의 CPU뿐만 아니라 가상 머신만 있다면 PC의 x86 아키텍쳐에서도 구동이 가능하며..&amp;nbsp;커널이 리눅스 기반인데 이 리눅스는 C언어로 짜여져 있어서 역시 다른 아키텍쳐로 이식이 쉽습니다.&lt;/div&gt;
+&lt;div&gt;
+&lt;br /&gt;
+&lt;/div&gt;
+&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color: rgb(236, 156, 44); text-align: center;&quot;&gt;
+&lt;font color=&quot;#ec9c2c&quot;&gt;&lt;span style=&quot;font-size: 19px; line-height: 27px;&quot;&gt;&lt;b&gt;설치해서 구동해보기!&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;BlueStacks는 공식 홈페이지에서 받을 수 있으며 주소는 아래와 같습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;a href=&quot;http://bluestacks.com&quot;&gt;&lt;b&gt;&lt;font color=&quot;#193da9&quot;&gt;http://bluestacks.com&lt;/font&gt;&lt;/b&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;
+이 주소로 가서 최신 버전을 다운받으시고 설치를 하시면 됩니다.&lt;br /&gt;
+설치가 완료되었다면 실행을 해봅시다!&lt;br /&gt;
+&lt;br /&gt;&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/193002444F71E14106F5DD&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;1.png&quot; height=&quot;296&quot; width=&quot;490&quot;/&gt;&lt;/div&gt;일단 BlueStacks를 실행하면 언어를 선택하라고 합니다.&lt;br /&gt;
+친절하게 한국어로 설명도 되어있습니다 ^^&lt;br /&gt;
+Next 버튼을 누릅니다.&lt;br /&gt;
+&lt;br /&gt;&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/201DBC3D4F71E1671D5BA9&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;2.png&quot; height=&quot;296&quot; width=&quot;490&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+아래로 스크롤하여 한국어를 선택합니다.&lt;br /&gt;
+&amp;nbsp;&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/157F4B464F71E17E0E01BC&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;3.png&quot; height=&quot;296&quot; width=&quot;490&quot;/&gt;&lt;/div&gt;안드로이드 스마트폰을 사용하신다면 Yes, 아니라면 No를 선택합니다.&lt;br /&gt;
+만약 안드로이드 스마트폰이 있다면 폰에 있는 어플들을 BlueStacks로 동기화해서 사용할 수 있다고 합니다 ^^&lt;br /&gt;
+저는 안드로이드 폰을 사용하지 않아 실험해보지는 못하였지만.. 가지고 계신 분들은 한번 해보시는것도 나쁘지 않을 것 같습니다.&lt;br /&gt;
+&lt;br /&gt;&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/164FC2434F71E1CA2C6782&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;4.png&quot; height=&quot;296&quot; width=&quot;490&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+설정이 완료되고 앵그리버드를 실행해보았습니다.&lt;br /&gt;
+아주 깔끔하게 잘 실행됩니다.&lt;br /&gt;
+노트북에서는 성능상의 문제로 약간의 버벅거림이 있군요 ^^;&lt;br /&gt;
+&lt;br /&gt;&amp;nbsp;&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/1624313D4F71E22E137D51&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;5.png&quot; height=&quot;72&quot; width=&quot;361&quot;/&gt;&lt;/div&gt;BlueStacks를 설치하면 위쪽의 이런 위젯이 추가됩니다.&lt;br /&gt;
+어플을 다운받고 동기화등을 할 수 있습니다.&lt;br /&gt;
+어플 중에 카카오톡도 있는데.. 스마트폰을 사용하지 않으시는 분들은 이렇게 PC로 카카오톡을 사용할 수 있습니다~&lt;br /&gt;
+다만 한국어 키보드가 기본적으로 포함되어 있지 않으므로 따로 설치해주어야 합니다.&lt;br /&gt;
+키보드 설치법은 간단하므로 안드로이드 한글 키보드 설치하는 방법을 보시면 쉽게 하실 수 있을 듯 합니다. ㅎㅎ&lt;br /&gt;
+&lt;br /&gt;이상 BlueStacks 소개였습니다~&amp;nbsp;&lt;/p&gt;
+&lt;/p&gt;&lt;/p&gt;
+&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-258-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-258-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-258-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>스마트시대</category>
+			<category>bluestacks</category>
+			<category>PC</category>
+			<category>PC 앱</category>
+			<category>PC 카카오톡</category>
+			<category>안드로이드</category>
+			<category>안드로이드 PC</category>
+			<category>안드로이드 어플</category>
+			<category>안드로이드 에뮬</category>
+			<category>앱플레이어</category>
+			<category>앵그리버드</category>
+			<category>어플리케이션</category>
+			<category>윈도우 안드로이드</category>
+			<category>카카오톡</category>
+			<category>카카오톡 pc</category>
+			<author>C-Major</author>
+			<guid>http://blog.mgaver.co.kr/258</guid>
+			<comments>http://blog.mgaver.co.kr/258#entry258comment</comments>
+			<pubDate>Wed, 28 Mar 2012 00:55:23 +0900</pubDate>
+		</item>
+		<item>
+			<title>[일상 이야기]아이폰 3GS 화이트 하우징과 필름 부착기</title>
+			<link>http://blog.mgaver.co.kr/257</link>
+			<description>안녕하세요..&lt;br /&gt;
+&lt;br /&gt;그동안 컴퓨터 키면 뭐한다.. 뭐한다 이래저래 할게 많아서 제대로된 포스팅을 못하였습니다.. (사실 글을 쓸 수는 있지만 공들여서 쓰지 않으면 의미가 없을 것 같아서..)&lt;br /&gt;
+&lt;br /&gt;오늘도 아이폰 관련해서 일상 이야기를 해보려고 합니다.&lt;br /&gt;
+약 1년 전쯤에 아이폰 3GS를 물에 빠트려서 화이트로 하우징 한 적이 있습니다..&amp;nbsp;&lt;br /&gt;
+&lt;a href=&quot;http://blog.mgaver.co.kr/142&quot; target=&quot;_blank&quot;&gt;&lt;br /&gt;
+2011/04/22 - [일상 이야기] - 화이트 아이폰 3GS 사진!&lt;/a&gt;&lt;br /&gt;
+&lt;br /&gt;저때는 스킬도 많이 미숙하고.. 폰을 분해해서 직접 커버를 바꾸는것도 처음이라 유격이 생기기도 하고.. 보다시피 카메라가 작동되지 않기도 하였고.. 나중에 보드에 문제가 생겨버려서 3GS를 중고로 새로 구매해서 사용하고 있었는데..&lt;br /&gt;
+이번에 아이폰 4로 바꾼 기념으로 3GS를 새로 하우징하기로 하고 주말에 시간을 내서 작업을 하였습니다.&lt;br /&gt;
+&lt;br /&gt;쓰지도 않을 폰 돈들여서 하우징 하는건 돈 낭비이긴 하지만.. 3GS는 나름 정이 있던 폰이기도 하고 화이트 세트로 소장하고 싶어서 싼 가격에 부품을 구해 하우징을 하였습니다.&lt;br /&gt;
+&lt;br /&gt;&lt;p style=&quot;margin:0&quot;&gt;&lt;br /&gt;
+&lt;/p&gt;&lt;p style=&quot;margin:0&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/18099E474F709BC208F062&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile10.uf@18099E474F709BC208F062.JPG&quot; height=&quot;535&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;br /&gt;지난번 사진과 크게 다른 점은 없습니다..&lt;br /&gt;
+홈버튼 색상이 상판과 조금 비슷해지고(전의 하우징은 완전 다른 색이었습니다.)&amp;nbsp;필름을 좀더 고급형으로 붙여서 투명도가 좀더 높아진 것 같습니다.&lt;br /&gt;
+&lt;br /&gt;&amp;nbsp;&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/177F66474F709AC1165895&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile7.uf@177F66474F709AC1165895.JPG&quot; height=&quot;298&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+후면입니다.&lt;br /&gt;
+3GS의 경우 뒷면이 곡선이라 예전에는 필름도 깔끔하게 못붙였는데, 이것도 자주 하다보니 기포나 먼지하나 없이 잘 붙여진것 같습니다. 엠보싱 처리가 된 필름이라 반들반들하고 느낌도 좋군요 ^^&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/204824494F709BDE183F21&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile25.uf@204824494F709BDE183F21.JPG&quot; height=&quot;298&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;기존의 블랙 부품입니다.&lt;br /&gt;
+상판은 흠집하나 없이 상태가 좋아서 나중에 예비 부품으로도 사용이 가능할 것 같습니다. 하판은 분해하다가 본드때문에 부러진 부분도 있고.. 상태가 그닥 좋지 않네요..&lt;br /&gt;
+&lt;br /&gt;&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/201A8C484F709C28123E99&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile27.uf@201A8C484F709C28123E99.JPG&quot; height=&quot;535&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&amp;nbsp;&lt;br /&gt;
+제가 사용하고 있는 레볼루션 쉴드 필름입니다. 아이폰4에도 이걸 사용하는데 구성도 푸짐하고 제품 교환 서비스도 시행하고 있어서 추후 리퍼등을 받을때나 부착 실수를 해도 소정의 비용을 내고 교환이 가능합니다.&lt;br /&gt;
+또 필름 재질도 루마 원단을 사용하여 내구성도 좋은 것 같습니다.&lt;br /&gt;
+&lt;br /&gt;&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/112F493D4F709C712E4271&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile30.uf@112F493D4F709C712E4271.JPG&quot; height=&quot;535&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&amp;nbsp;&lt;br /&gt;
+제품 구성중에 코팅 솔루션이라는게 있는데 필름에 발라주면 지문 방지도 되고 황변현상도 막아준다고 합니다. 개인적으로 이게 정말 마음에 들더군요 ^^;&lt;br /&gt;
+&lt;br /&gt;&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/17109F464F709CFF1D63B0&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile29.uf@17109F464F709CFF1D63B0.JPG&quot; height=&quot;535&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;iOS 5부터 아이튠즈가 없이 설정이 가능해졌는데 심카드가 없으면 제품 자체를 사용할 수가 없더군요..&lt;br /&gt;
+&lt;br /&gt;복원해놓고선&amp;nbsp;제 심카드는 마이크로유심으로 잘라버려서 넣을 수도 없고.. 다른&amp;nbsp;심카드가 없어서 활성화도 못하고 있다가&amp;nbsp;아는 분 유심을 잠깐 빌려 활성화만 해두었습니다.&lt;br /&gt;
+&lt;br /&gt;물론 탈옥을 하면 심카드가 없어도 활성화가 되긴 하지만 iOS 5에 추가된 기능이 편해지니 탈옥의 필요성도 못느끼고 배터리 등의 문제로 더 불편하더군요..&lt;br /&gt;
+&lt;br /&gt;그래도 배터리만 뺴면 아직 3GS는 쌩쌩한 현역인것 같습니다 ^^&lt;br /&gt;
+&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-257-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-257-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-257-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>일상 이야기</category>
+			<category>3GS</category>
+			<category>3gs 하우징</category>
+			<category>3GS 화이트</category>
+			<category>Iphone 3GS</category>
+			<category>레볼루션 쉴드</category>
+			<category>루마</category>
+			<category>아이폰</category>
+			<category>아이폰 3GS</category>
+			<category>아이폰 화이트</category>
+			<category>아이폰3</category>
+			<category>애플</category>
+			<category>하우징</category>
+			<category>화이트 아이폰</category>
+			<author>C-Major</author>
+			<guid>http://blog.mgaver.co.kr/257</guid>
+			<comments>http://blog.mgaver.co.kr/257#entry257comment</comments>
+			<pubDate>Tue, 27 Mar 2012 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[iOS]홈화면에 원하는 아이콘으로 북마크 만들기!</title>
+			<link>http://blog.mgaver.co.kr/256</link>
+			<description>휴.. 안녕하세요~&lt;br /&gt;
+근 이틀간 블로그를 놓고 있었습니다..&lt;br /&gt;
+&lt;br /&gt;
+오늘 알려드릴 팁은 순정 아이폰 사용자들에게 유용한 팁인데..&lt;br /&gt;
+홈화면에 원하는 북마크를 만드는데 원하는 아이콘으로 만드는 법에 대해 알아보겠습니다.&lt;br /&gt;
+&lt;br /&gt;
+탈옥 아이폰이라면 쉽게 만들 수 있겠지만.. 순정에서는 약간의 편법을 사용하여야 합니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color: rgb(227, 22, 0); text-align: center;&quot;&gt;
+&lt;span style=&quot;font-size: 14pt; font-weight: bold; color: rgb(227, 22, 0);&quot;&gt;iOS 스타일의 아이콘 만들기&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+자.. 그럼 일단 아이콘을 만들어봅시다.&lt;br /&gt;
+&lt;br /&gt;
+아이콘은 [&lt;a href=&quot;http://www.iconj.com/iphone_style_icon_generator.php&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;&lt;font color=&quot;#3058d2&quot;&gt;아이폰 아이콘 생성기&lt;/font&gt;&lt;/b&gt;&lt;/a&gt;]&amp;nbsp;로 쉽게 만들 수 있는데 그림 파일을 올리고 스타일을 선택하기만 하면 자동으로 만들어줍니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/182612354F69EDFD246EF5&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;icon1.png&quot; height=&quot;251&quot; width=&quot;490&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+UPLOAD를 누르고 이미지를 선택합니다.&lt;br /&gt;
+사이즈는 제한 없으며 정사각형이 좋습니다.(256x256 등..)&lt;br /&gt;
+&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/14753E414F69EE8201C366&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;icon2.png&quot; height=&quot;251&quot; width=&quot;490&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+아이콘 스타일, 크기 등의 세부적인 설정을 하고 CONTINUE 버튼을 누릅니다.&lt;br /&gt;
+&lt;br /&gt;
+&amp;nbsp;&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/14487B494F69EECA2416CF&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;icon3.png&quot; height=&quot;396&quot; width=&quot;490&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+그 다음 Click here to download the icon 버튼을 눌러 생성된 아이콘을 다운로드 받습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/p&gt;
+&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color: rgb(236, 156, 44); text-align: center;&quot;&gt;
+&lt;span style=&quot;font-size: 14pt; font-weight: bold; color: rgb(236, 156, 44);&quot;&gt;스크립트 작성하기&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+이제 스크립트를 작성할 차례입니다.&lt;br /&gt;
+&lt;br /&gt;
+우선 방금 생성한 아이콘을 블로그 등의 웹페이지에 업로드합니다.&lt;br /&gt;
+그 다음 아래의 스크립트를 작성하면 되는데..&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px; line-height: normal; background-color: rgba(255, 255, 255, 0.917969); &quot;&gt;data:text/html;charset=US-&lt;/span&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px; line-height: normal; background-color: rgba(255, 255, 255, 0.917969); &quot;&gt;ASCI&lt;wbr&gt;I,&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;&lt;b&gt;북마크 이름&lt;/b&gt;&amp;lt;/title&amp;gt;&amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;/&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px; line-height: normal; background-color: rgba(255, 255, 255, 0.917969); &quot;&gt;&lt;wbr&gt;&amp;lt;link rel=&quot;apple-touch-icon&quot; href=&quot;&lt;b&gt;아이콘 경로&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px; line-height: normal; background-color: rgba(255, 255, 255, 0.917969); &quot;&gt;&quot;/&amp;gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px; line-height: normal; background-color: rgba(255, 255, 255, 0.917969); &quot;&gt;documen&lt;wbr&gt;t.location.replace(&quot;&lt;b&gt;페이지 경로&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px; line-height: normal; background-color: rgba(255, 255, 255, 0.917969); &quot;&gt;&quot;);&amp;lt;/&lt;/span&gt;&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.917969); &quot;&gt;&lt;font color=&quot;#222222&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px; line-height: normal;&quot;&gt;script&amp;gt;&amp;lt;&lt;/span&gt;&lt;/font&gt;&lt;wbr&gt;&lt;font color=&quot;#222222&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px; line-height: normal;&quot;&gt;/head&amp;gt;&amp;lt;body&amp;gt;&lt;b&gt;북마크 이름&lt;/b&gt;&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/font&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;/span&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; line-height: normal; &quot;&gt;북마크 이름 부분에는 사이트 제목을 넣어주시고&lt;/span&gt;&amp;nbsp;&lt;font color=&quot;#222222&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 9pt; line-height: normal;&quot;&gt;아이콘 경로 부분에는 업로드한 아이콘 이미지 파일의 경로를 넣어주시고 페이지 경로에는 추가하기 원하는 페이지의 경로를 입력합시다.&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-size: 9pt; line-height: normal;&quot;&gt;만약 아이콘 생성시에 이미 효과를 넣어줘서 기본 반사광 효과를 넣지 않으려면&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;line-height: normal;&quot;&gt;&lt;b&gt;apple-touch-icon&lt;/b&gt; 라고 되어 있는 부분을&amp;nbsp;&lt;b&gt;apple-touch-icon-precomposed&lt;/b&gt;로 해주시면 됩니다.&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-size: 9pt; line-height: normal;&quot;&gt;저는 예를 들어 이렇게 작성하였습니다.&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;/font&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px; line-height: normal; background-color: rgba(255, 255, 255, 0.917969); &quot;&gt;data:text/html;charset=US-&lt;/span&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px; line-height: normal; background-color: rgba(255, 255, 255, 0.917969); &quot;&gt;ASCI&lt;wbr&gt;I,&amp;lt;html&amp;gt;&amp;lt;head&amp;gt;&amp;lt;title&amp;gt;MG Note&amp;lt;/title&amp;gt;&amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;/&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px; line-height: normal; background-color: rgba(255, 255, 255, 0.917969); &quot;&gt;&lt;wbr&gt;&amp;lt;link rel=&quot;apple-touch-icon&quot; href=&quot;http://mgaver.co.kr/icon.png&lt;/span&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px; line-height: normal; background-color: rgba(255, 255, 255, 0.917969); &quot;&gt;&quot;/&amp;gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px; line-height: normal; background-color: rgba(255, 255, 255, 0.917969); &quot;&gt;documen&lt;wbr&gt;t.location.replace(&quot;http://blog.mgaver.co.kr&lt;/span&gt;&lt;span style=&quot;color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px; line-height: normal; background-color: rgba(255, 255, 255, 0.917969); &quot;&gt;&quot;);&amp;lt;/&lt;/span&gt;&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.917969); &quot;&gt;&lt;font color=&quot;#222222&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px; line-height: normal; &quot;&gt;script&amp;gt;&amp;lt;&lt;/span&gt;&lt;/font&gt;&lt;wbr&gt;&lt;font color=&quot;#222222&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px; line-height: normal; &quot;&gt;/head&amp;gt;&amp;lt;body&amp;gt;MG Note&amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&amp;nbsp;&lt;font color=&quot;#222222&quot; face=&quot;arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14px; line-height: normal;&quot;&gt;&lt;span style=&quot;font-size: 9pt; &quot;&gt;&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;
+작성이 완료 되었다면 아이폰에서 입력하기 위해 메일 등으로 위 스크립트를 보냅니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color: rgb(95, 182, 54); text-align: center;&quot;&gt;
+&lt;font color=&quot;#5fb636&quot;&gt;&lt;span style=&quot;font-size: 19px; line-height: 27px;&quot;&gt;&lt;b&gt;iOS 기기에 추가하기&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/1425F9394F69F11109E0DF&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile3.uf@1425F9394F69F11109E0DF.PNG&quot; height=&quot;600&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+이제 아이폰의 사파리를 통해 메일로 들어가서 위의 스크립트를 복사 해둡니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/155E2D4C4F69F1292B214E&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile26.uf@155E2D4C4F69F1292B214E.PNG&quot; height=&quot;600&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+다음 &amp;nbsp;아이폰에서 설정 -&amp;gt; Safari로 들어갑니다.&lt;br /&gt;
+그 다음 JavaScript라고 되어있는 부분을 OFF로 해줍니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/1516C44F4F69F20456BBFB&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile8.uf@1516C44F4F69F20456BBFB.PNG&quot; height=&quot;600&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+완료되었다면 이제 아까 복사한 스크립트를 사파리 주소창에 입력합니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/122DF9504F69F21B385715&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile26.uf@122DF9504F69F21B385715.PNG&quot; height=&quot;600&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+다음 홈 화면에 추가를 누릅니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/19659A4B4F69F22D04A0F5&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile10.uf@19659A4B4F69F22D04A0F5.PNG&quot; height=&quot;600&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+왼쪽에 아까 제작한 아이콘이 나타나는걸 확인하실 수 있습니다.&lt;br /&gt;
+추가를 누릅니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile8.uf.tistory.com/image/203199484F69F24E075AA0&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile8.uf@203199484F69F24E075AA0.PNG&quot; height=&quot;600&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+아이콘이 홈 화면에 추가되었습니다!&lt;br /&gt;
+이제 다시 설정에서 Safari로 들어가서 자바스크립트를 켜주시고 생성된 아이콘을 눌러보시면 원하는 페이지로 이동하는걸 확인하실 수 있습니다.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;
+&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-256-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-256-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-256-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>스마트시대</category>
+			<category>ios</category>
+			<category>IOS 아이콘</category>
+			<category>ipad</category>
+			<category>iPhone</category>
+			<category>ipod</category>
+			<category>북마크</category>
+			<category>아이콘</category>
+			<category>아이콘 만들기</category>
+			<category>아이팟</category>
+			<category>아이팟터치</category>
+			<category>아이패드</category>
+			<category>아이폰</category>
+			<category>아이폰 사이트 추가</category>
+			<category>아이폰 즐겨찾기</category>
+			<category>아이폰 추가</category>
+			<category>애플</category>
+			<category>홈</category>
+			<category>홈 화면</category>
+			<category>홈화면</category>
+			<author>C-Major</author>
+			<guid>http://blog.mgaver.co.kr/256</guid>
+			<comments>http://blog.mgaver.co.kr/256#entry256comment</comments>
+			<pubDate>Thu, 22 Mar 2012 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[유틸리티]PC에서 유선 네트워크로 핫스팟 만들기!</title>
+			<link>http://blog.mgaver.co.kr/255</link>
+			<description>&lt;p style=&quot;margin:0&quot;&gt;유선 네트워크는 있는데 무선이 없을때 또는&amp;nbsp;무선 공유기가 멀리 떨어져 있어서 신호가 약해서 인터넷이 느린 경우가 있습니다..&lt;br /&gt;
+&lt;br /&gt;
+이럴 때 PC에 &lt;b&gt;유선 랜 포트&lt;/b&gt;와 &lt;b&gt;무선 랜카드&lt;/b&gt;가 같이 장착되어 있다면 인터넷 공유를 할 수 있습니다.&lt;br /&gt;
+&lt;br /&gt;&lt;span style=&quot;font-size: 12pt; &quot;&gt;&lt;b&gt;무선 랜카드가 없는 PC에서는 이용 불가능한 기능입니다.&lt;/b&gt;&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;그럼 유선 인터넷을 무선으로 공유하는 방법을 알려드리겠습니다.&lt;/p&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color: rgb(227, 22, 0); text-align: center;&quot;&gt;
+&lt;span style=&quot;font-size: 14pt; font-weight: bold; color: rgb(227, 22, 0);&quot;&gt;윈도우 7의 ICS 기능 이용&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/140388424F65CBFA161F34&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile29.uf@140388424F65CBFA161F34.png&quot; height=&quot;146&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+윈도우 7에는 ICS 라는 기능이 탑재되어 있습니다.&lt;br /&gt;
+이 ICS는 안드로이드 아이스크림 샌드위치가 아니라.. Internet Connection Sharing 즉 인터넷 연결 공유의 약자인데.. 이 기능을 사용하면 무선 네트워크를 쉽게 공유할 수 있습니다.&lt;br /&gt;
+&lt;br /&gt;
+그럼 방법에 대해 알아보겠습니다.&lt;br /&gt;
+&lt;br /&gt;
+우선 시작에서 services.msc를 입력해서 서비스 창에 들어간 뒤 아래의 서비스들이 작동중인지 확인해야합니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/130D8A434F65CD392F7C7B&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;net1.png&quot; height=&quot;359&quot; width=&quot;490&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div&gt;
+Application Layer Gateway Service&lt;/div&gt;
+&lt;div&gt;
+Network Connections&lt;/div&gt;
+&lt;div&gt;
+Network Location Awareness (NLA)&lt;/div&gt;
+&lt;div&gt;
+Plug And Play&lt;/div&gt;
+&lt;div&gt;
+Remote Access Auto Connection Manager&lt;/div&gt;
+&lt;div&gt;
+Remote Access Connection Manager&lt;/div&gt;
+&lt;div&gt;
+Remote Procedure Call (RPC)&lt;/div&gt;
+Telephony&lt;br /&gt;
+Windows Firewall&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/120D8A434F65CD39304FDB&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;net2.png&quot; height=&quot;444&quot; width=&quot;486&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+이중에서 Plug And Play와 Remote Procedure Call은 절대 끌 수 없는 서비스이고..&lt;br /&gt;
+나머지 서비스들이 작동중인지 확인하시고 작동중이 아니라면 서비스를 시작하거나 시작 유형을 &lt;b&gt;자동&lt;/b&gt;으로 모두 바꾸고 재부팅합니다,&lt;br /&gt;
+만약 시작 유형을 자동으로 바꾸지 않으면 재부팅 한 뒤에는 다시 작동하지 않게 되므로 재부팅 후에도 계속 사용하실 분들은 꼭 자동으로 바꿔주세요..&lt;br /&gt;
+&lt;br /&gt;
+모두 변경 완료했다면 이제 제어판에서 네트워크 및 공유 센터로 들어갑니다.&lt;br /&gt;
+그 다음 왼쪽의 어댑터 설정 변경을 누르고 연결되어 있는 유선 인터넷에서 오른쪽 버튼을 눌러 속성을 눌러 창이 뜨면 공유탭으로 이동합니다.&lt;br /&gt;
+&lt;br /&gt;
+그 다음 &quot;다른 네트워크 사용자가 이 컴퓨터의 인터넷 연결을 통해 연결할 수 있도록 허용&quot; 에 체크를 하고 확인을 누릅니다.&lt;br /&gt;
+&lt;br /&gt;
+완료되었다면 이제 핫스팟을 만들 차례입니다.&lt;br /&gt;
+&lt;br /&gt;
+다시 네트워크 및 공유 센터로 들어가서 왼쪽의 무선 네트워크 관리를 누르고 추가 버튼을 누릅니다.&lt;br /&gt;
+&lt;br /&gt;
+두가지 메뉴 중에 애드혹 네트워크 만들기를 누르고 다음을 누른 뒤 네트워크 이름에는 원하는 이름을 넣고 보안 종류를 선택하고 보안 키를 입력합니다.&lt;br /&gt;
+보안 종류에는&amp;nbsp;WEP, WPA2-개인, 인증 안 함 이렇게 세가지가 있는데 WPA2-개인이 가장 강력한 암호화입니다.&lt;br /&gt;
+하지만 이 WPA2-개인을 선택할 경우 아이폰에서는 이 방식이 지원되지 않기 때문에 접속이 불가능합니다.&lt;br /&gt;
+WEP는 암호화를 하긴 하지만 해킹될 가능성이 있고 암호도 5자리 또는 13자리만 입력이 가능합니다.&amp;nbsp;인증 안함 모드는 암호를 입력하지 않고 접속하는 방법으로 다른 사용자가 사용할 가능성이 높습니다.&lt;br /&gt;
+&lt;br /&gt;
+만약 다른 옵션을 사용하고 싶으면 다른 프로그램을 사용해야 하는데 아래에서 소개하겠습니다.&lt;br /&gt;
+&lt;br /&gt;
+이 네트워크를 재부팅 한 뒤에도 활성화되게 하려면 네트워크 저장에 체크하고 다음을 누릅니다. 그럼 핫스팟이 생성되고 이제 기기에서 접속하시면 됩니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color: rgb(236, 156, 44); text-align: center;&quot;&gt;
+&lt;span style=&quot;font-size: 14pt; font-weight: bold; color: rgb(236, 156, 44);&quot;&gt;추가 프로그램 이용하기&amp;nbsp;&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+추가 프로그램을 이용하면 위처럼 하지 않고 쉽게 핫스팟을 만들 수 있는데 대표적인 프로그램으로 Connectify 라는 프로그램이 있습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/1844DC3E4F65D01D288A93&quot; alt=&quot;&quot; filemime=&quot;image/png&quot; filename=&quot;connectify_logo.png&quot; height=&quot;83&quot; width=&quot;389&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;br /&gt;
+이 Connectify 프로그램을 이용하면 쉽게 핫스팟을 만들 수 있을 뿐더러 WPA2 암호화를 이용해도 아이폰에서 접속이 가능하며 누가 접속했는지 목록을 얻어오거나 차단할 수 있습니다.&lt;br /&gt;
+&lt;br /&gt;
+Connectify는&amp;nbsp;&lt;a href=&quot;http://www.connectify.me/&quot;&gt;http://www.connectify.me/&lt;/a&gt;&amp;nbsp;에서 무료로 받으실 수 있으며 Pro 버전은 유료지만 더 다양한 기능을 제공합니다.&lt;br /&gt;
+&lt;br /&gt;
+사용 방법은 다운로드 해서 설치하고 프로그램 지시에 따르면 쉽게 이용 가능합니다.&amp;nbsp;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-255-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-255-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-255-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>컴퓨터</category>
+			<category>connectify</category>
+			<category>Wi-Fi</category>
+			<category>WiFi</category>
+			<category>wifi 만들기</category>
+			<category>가상 공유기</category>
+			<category>가상 라우터</category>
+			<category>공유기</category>
+			<category>노트북</category>
+			<category>라우터</category>
+			<category>무선 네트워크</category>
+			<category>무선 인터넷</category>
+			<category>무선랜 공유</category>
+			<category>스마트폰</category>
+			<category>아이팟</category>
+			<category>아이폰</category>
+			<category>윈도우 7</category>
+			<category>인터넷</category>
+			<category>인터넷 공유</category>
+			<category>테더링</category>
+			<category>핫스팟</category>
+			<author>C-Major</author>
+			<guid>http://blog.mgaver.co.kr/255</guid>
+			<comments>http://blog.mgaver.co.kr/255#entry255comment</comments>
+			<pubDate>Mon, 19 Mar 2012 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[개인적인 잡담]iCloud 버그 때문에 고생하고 있습니다..</title>
+			<link>http://blog.mgaver.co.kr/254</link>
+			<description>안녕하세요.. 오늘은 새벽부터 애플 iCloud의 황당한 버그 때문에 고생중입니다..&lt;br /&gt;
+&lt;br /&gt;
+목요일에 받은 &lt;b&gt;아이폰 4&lt;/b&gt;에 데이터를 모두 옮기기 위해 &lt;b&gt;아이폰 3GS&lt;/b&gt;를 iCloud에 통채로 백업한 뒤 아이폰 4에서 iCloud 복원을 하였고 어제까지 잘 사용하고 있었습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/1311E0464F64BE5F36875B&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile30.uf@1311E0464F64BE5F36875B.jpg&quot; height=&quot;300&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+아이폰 4의 가장 큰 결함인 안테나 게이트(일명 &lt;b&gt;데스그립&lt;/b&gt;) 문제가 있었으나&amp;nbsp;그저께 구매한 필름과 범퍼가 오늘 도착해서 필름을 붙이고 범퍼도 장착하였습니다.&lt;br /&gt;
+&lt;br /&gt;
+정말 모든 셋팅이 끝났구나 생각한 찰나 보고 싶은 사진이 있어서 사진 앱으로 들어간 순간...&lt;br /&gt;
+어..? &lt;b&gt;1100장&lt;/b&gt;이 넘는 사진중에 사진이 &lt;b&gt;100 여장&lt;/b&gt;밖에 남아있질 않는겁니다.. -_-;&lt;br /&gt;
+설마 설마해서 i-FunBox로 아이폰 DCIM 폴더를 보니 정말 100장 정도밖에 남아있지 않았습니다..&lt;br /&gt;
+&lt;br /&gt;
+하도 황당해서 애플 고객센터에 전화해보았는데 계속 사진 스트림 얘기만 하길래 제가 iCloud는 카메라 롤 백업이 된다고 설명을 해주고 나서. 알아보더니&amp;nbsp;&lt;b&gt;재복원&lt;/b&gt;을 하고 안되면 다시 연락을 달라고 합니다.&lt;br /&gt;
+&lt;br /&gt;
+아... 결국 다시 복원하는 수 밖에 없는건가 하면서 &lt;b&gt;재복원&lt;/b&gt;에 들어갔습니다.&lt;br /&gt;
+iCloud 서버 접속 속도가 느려서 엄청 오래걸리고 어플들도 전부 다시 받아야되서.. 상당히 오래걸리는데 이 작업을 또 해야한다는게 참...&lt;br /&gt;
+&lt;br /&gt;
+그리고 간신히 재복원을 하고 어플 설치 멈추는거 참고 참고 해서 결국 전부 재설치를 하였습니다. 그리고 다시 카메라 롤로 들어가는 순간..&lt;br /&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/18403E4C4F64C1EE1C23C5&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_1223.PNG&quot; height=&quot;735&quot; width=&quot;490&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;br /&gt;
+이건 정말 뭘까요.. -_-;&lt;br /&gt;
+&lt;br /&gt;
+사진처럼 이번엔 섬네일이 나타나지 않는 문제가 생겨버렸습니다...&lt;br /&gt;
+&lt;br /&gt;
+아.. 일요일이라 고객센터 통화도 못하는데.. 토요일부터 시간은 시간대로 낭비하고..&lt;br /&gt;
+앞으로 한동안 iCloud 말고 &lt;b&gt;iTunes&lt;/b&gt;로 백업/복원하는게 더 나을 것 같습니다..&lt;br /&gt;
+&lt;br /&gt;
+후..&amp;nbsp;오늘은 기분좀 풀라고 주절 주절 써봤습니다...&lt;br /&gt;
+여러분은 저처럼 시간 날리지 마시고 주말 행복하게 보내세요...&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-254-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-254-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-254-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>일상 이야기</category>
+			<category>iCloud</category>
+			<category>iCloud 버그</category>
+			<category>iOS5</category>
+			<category>사진 스트림</category>
+			<category>아이폰</category>
+			<category>아이폰 3GS</category>
+			<category>아이폰 4</category>
+			<category>아이폰 버그</category>
+			<category>아이폰 복원</category>
+			<category>애플</category>
+			<category>애플 버그</category>
+			<category>일상</category>
+			<category>일상 이야기</category>
+			<category>카메라 롤</category>
+			<author>C-Major</author>
+			<guid>http://blog.mgaver.co.kr/254</guid>
+			<comments>http://blog.mgaver.co.kr/254#entry254comment</comments>
+			<pubDate>Sun, 18 Mar 2012 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[스마트기기]아이패드 3세대.. 국내에서는?</title>
+			<link>http://blog.mgaver.co.kr/253</link>
+			<description>&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/1977534C4F636818344C74&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile23.uf@1977534C4F636818344C74.jpg&quot; height=&quot;314&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+어제인 3월 16일.. 드디어 아이패드 3세대가 1차 출시국에서 판매에 돌입했습니다.&lt;br /&gt;
+시차 때문에 유럽쪽과 호주 쪽에서 먼저 판매가 시작되었고 미국에서는 오늘 판매가 시작되었습니다.&lt;br /&gt;
+&lt;br /&gt;
+아직 국내에서는 발표 일정이 나오지 않았지만 추측을 통해 발매에 대해 여러가지를 알아보도록 하겠습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color: rgb(227, 22, 0); text-align: center;&quot;&gt;
+&lt;span style=&quot;font-size: 14pt; font-weight: bold; color: rgb(227, 22, 0);&quot;&gt;아이패드 2의 국내 출시일&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/1851134F4F6368FB043B74&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile1.uf@1851134F4F6368FB043B74.jpg&quot; height=&quot;225&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+새 아이패드의 출시일을 예측해보려면 아이패드 2의 국내 출시일을 보면 되는데 아이패드 1은 협상 등의 문제로 거의 1년 뒤에나 출시되었기 때문에 비교 대상이 되지 못합니다.&lt;br /&gt;
+&lt;br /&gt;
+아이패드 2는 새 아이패드보다 1주일 정도 앞인 &lt;b&gt;3월 2일&lt;/b&gt;에 키노트 행사에서 발표되었고 판매 개시는 이번과 비슷하게 1주정도 뒤인 &lt;b&gt;3월 11일&lt;/b&gt;에 시작되었습니다.&lt;br /&gt;
+&lt;br /&gt;
+이후 전파연구원에서 Wi-Fi 모델은 3월 31일, 3G 모델은 4월 5일에 전파 인증이 완료되었고 4월 29일 판매가 시작되었습니다.&lt;br /&gt;
+&lt;br /&gt;
+대략 전파 인증후 1달정도가 소요되었는데.. 이는 물량 부족과 국가별 생산라인 가동 간격이 있기 때문인걸로 생각됩니다.&lt;br /&gt;
+(아이패드 2는 물론 같은 제품이지만, 하판에 전파연구소 로고를 달고, 박스에 한글 스티커를 붙이거나 설명을 추가하는 작업을 해야하기 때문이죠..)&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color: rgb(236, 156, 44); text-align: center;&quot;&gt;
+&lt;span style=&quot;font-size: 14pt; font-weight: bold; color: rgb(236, 156, 44);&quot;&gt;그렇다면 이번 아이패드는?&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/1934DE4A4F636A822E249F&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile25.uf@1934DE4A4F636A822E249F.png&quot; height=&quot;217&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+새로운 아이패드의 경우도 크게 다르지 않지만 아이패드 2때와 크게 다르지는 않기 때문에 비교적 물량이 많이 남을 거라는 예상도 가능합니다. 만약 국내로 수출될 물량이 확보되면 더 빠른 출시가 가능하기 때문이죠..&lt;br /&gt;
+&lt;br /&gt;
+하지만 가장 중요한 변수는 역시 전파 인증 통과일입니다. 전파 인증에 통과하고 나고 며칠 뒤면 공식 발표가 뜨기도 하고.. 발표가 없더라도 대충 발매일을 계산할 수 있기 때문입니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color: rgb(95, 182, 54); text-align: center;&quot;&gt;
+&lt;font color=&quot;#5fb636&quot;&gt;&lt;span style=&quot;font-size: 19px; line-height: 27px;&quot;&gt;&lt;b&gt;뉴 아이패드 LTE 모델은?&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;
+&lt;/div&gt;
+&lt;br /&gt;&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/184AA0414F636B710CEB1F&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile4.uf@184AA0414F636B710CEB1F.jpg&quot; height=&quot;265&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;&lt;br /&gt;
+새로운 아이패드에 장착된 LTE.. 국내에서 사용이 가능한가 불가능한가 의견이 많았는데 오늘 제품이 발매되면서 당장은 사용 불가능한 것으로 드러났습니다.&lt;br /&gt;
+&lt;br /&gt;새로운 아이패드가 지원하는 LTE 주파수는 700MHz와 2.1GHz 대역인데 국내에서는 아직 이 주파수로 LTE 서비스를 하지 않고 있기 때문입니다.&lt;br /&gt;
+&lt;br /&gt;LG U+가 2.1GHz를 확보하고 있긴 하지만 올해 말 또는 내년 초에 LTE 주파수로 사용할 예정이라 아직까지는 힘들 것 같고.. 700MHz 대역의 경우 아직 방송사에서 아날로그 방송 출력에 사용하고 있고 이 역시 디지털 전환 이후 부분적으로 통신사에게 할당할 예정이라 내년 중순에나 상용화 될것으로 예상됩니다.&lt;br /&gt;
+&lt;br /&gt;협상을 통해서 해결을 본다고 하지만 유럽 쪽에서도 지원을 하지 않고, 애플이 중국에서 한번 변경한것 외에는 특정 국가를 위해 제품을 변경한 적이 없으므로 가능성은 없어 보입니다.&amp;nbsp;&lt;br /&gt;
+&lt;br /&gt;LTE가 지원되지 않더라도 3G 기술중 최상급인 HSPA+ 를 지원한다고 하니 어느정도의 속도는 체감이 가능할것 같습니다.&amp;nbsp;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-253-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-253-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-253-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>스마트시대</category>
+			<category>ipad</category>
+			<category>LTE</category>
+			<category>뉴아이패드</category>
+			<category>새 아이패드</category>
+			<category>아이패드</category>
+			<category>아이패드 3</category>
+			<category>아이패드 3세대</category>
+			<category>아이패드 LTE</category>
+			<category>애플</category>
+			<author>C-Major</author>
+			<guid>http://blog.mgaver.co.kr/253</guid>
+			<comments>http://blog.mgaver.co.kr/253#entry253comment</comments>
+			<pubDate>Sat, 17 Mar 2012 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[개인적인 잡담]핸드폰 아이폰 4로 교체했습니다..</title>
+			<link>http://blog.mgaver.co.kr/252</link>
+			<description>&lt;br /&gt;
+아이폰 3GS를 2010년 3월에 구매하여 리퍼 1번 받고 몇번의 수리를 거치면서 사용하고 있었습니다..&lt;br /&gt;
+무약정으로 구매해서 어느때나 다른 폰으로 바꾸는건 어렵지 않았지만 가장 명기라고 생각하던 폰이고 국내의 첫 스마트폰이라는 의의도 있어서 현재까지 사용하고 있었답니다..&lt;br /&gt;
+&lt;br /&gt;
+그런데 이번 달에 개인적으로 테스트 해볼 iOS 기기가 필요해지면서 아이팟 터치를 구하기로 하였지만.. 잘 구해지지 않아서 결국 아이폰이나 바꿔볼까 라고 생각해서 아이폰 4를 덥썩 구매해버렸답니다;&lt;br /&gt;
+&lt;br /&gt;
+아이폰 4는 다른 분들이 사용하시는걸 많이 바왔고 저도 여러번 만져 봤기 때문에 큰 기대는 없었습니다.. 하지만 막상 물건을 구매하고 기다리다보니 두근두근 거리더군요.. ^^;&lt;br /&gt;
+&amp;nbsp;&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/1547973B4F619A1611B5B5&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_1223.JPG&quot; height=&quot;300&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;br /&gt;
+아이클라우드를 통해 복원중인 아이폰 4 입니다..&lt;br /&gt;
+편하긴 한데 서버 속도가 너무 느려서.. 오래 걸리는것 같습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;/p&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/1517F0354F619A8902E3DB&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;IMG_1226.JPG&quot; height=&quot;300&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+잘 알려져있는 심카드 자르기 템플릿입니다.&lt;br /&gt;
+아이폰 3GS는 일반 심카드를 쓰지만 아이폰 4나 아이패드 등은 작은 마이크로심을 사용해서 호환이 안되지요.. 하지만 크기만 맞춰서 잘라주면 잘 인식한답니다 ㅎㅎ&lt;br /&gt;
+자르고 나서 다시 일반 심카드로 돌리려면 시중에서 판매하는 심카드 어뎁터를 구매하거나 그냥 일반 심카드와 크기, 모양만 맞춰서 마이크로 유심을 끼울 수 있게 직접 만드셔도 됩니다.&lt;br /&gt;
+&lt;br /&gt;
+오늘은 이거 복원하랴 3GS 기기로 테스트하랴.. 좀 있다 저녁 약속도 있고.. 여러가지로 정신 없는 하루가 되었네요 ^^&lt;br /&gt;
+&lt;br /&gt;
+여러분.. 모두 즐거운 하루 되세요~&amp;nbsp;&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-252-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-252-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-252-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>일상 이야기</category>
+			<category>3GS</category>
+			<category>iCloud</category>
+			<category>아이클라우드</category>
+			<category>아이폰 4</category>
+			<category>아이폰3GS</category>
+			<category>아이폰4</category>
+			<category>애플</category>
+			<category>핸드폰 교체</category>
+			<author>C-Major</author>
+			<guid>http://blog.mgaver.co.kr/252</guid>
+			<comments>http://blog.mgaver.co.kr/252#entry252comment</comments>
+			<pubDate>Thu, 15 Mar 2012 16:40:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[블로그 팁]원하지 않는 검색어 노출 삭제와 피드 관리!</title>
+			<link>http://blog.mgaver.co.kr/251</link>
+			<description>블로그를 운영하다 보면 저처럼 기존 게시물들을 삭제하게 되는 경우가 있습니다.&lt;br /&gt;
+오래된 정보거나 블로그 개편시에 특히 그렇죠..&lt;br /&gt;
+&lt;br /&gt;
+이번에 저도 블로그를 완전히 새로 개편하면서 경험하게 되었는데.. 예전 검색어로 유입되는 방문자가 은근히 신경쓰여서 몇가지 조치를 하게 되었습니다..&lt;br /&gt;
+오늘은 그 조치에 대해 소개해드리겠습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color: rgb(227, 22, 0); text-align: center;&quot;&gt;
+&lt;span style=&quot;font-size: 14pt; font-weight: bold; color: rgb(227, 22, 0);&quot;&gt;블로그 피드 관리하기&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile6.uf.tistory.com/image/124744384F5F71DA3203AF&quot; alt=&quot;&quot; filemime=&quot;image/jpeg&quot; filename=&quot;rss.png&quot; height=&quot;300&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+네이버, 다음 등의 블로그 검색과 다음 뷰, 믹시 등의 블로거 서비스는 모두 &lt;span style=&quot;font-weight: bold; color: rgb(236, 156, 44);&quot;&gt;RSS 피드&lt;/span&gt;를 이용합니다.&lt;br /&gt;
+&lt;br /&gt;
+블로그 설정에 따라 다르지만 블로그에서 글을 포스팅하고 발행을 체크해두면 RSS에 게시물의 제목과 내용이 같이 게시되어 &lt;span style=&quot;font-weight: bold;&quot;&gt;검색 로봇&lt;/span&gt;(흔히 크롤러라고도 합니다.)이 이를 감지하게 되는 것입니다.&lt;br /&gt;
+&lt;br /&gt;
+즉 RSS라는 블로그 자체에서 지원되는 검색어 서비스를 이용해 검색 항목을 추가하게 되는데.. 일부 검색 엔진에서는 글을 &lt;span style=&quot;font-weight: bold; color: rgb(227, 22, 0);&quot;&gt;삭제&lt;/span&gt;해도 검색 엔진에서 삭제가 되지 않고 계속 뜨는 경우가 있습니다. 이는 글을 비공개하거나&lt;br /&gt;
+&lt;br /&gt;
+이럴 때는 몇가지 방법을 생각할 수 있는데 가장 대표적인 네이버와 구글에 어떻게 피드 갱신 요청을 하는지 알아보겠습니다. (다음의 경우 티스토리 운영사이기 때문에 연동이 잘되어 있어 검색이 자동으로 갱신되며 게시물을 삭제할때도 자동으로 갱신되어 요청하지 않아도 반영됩니다.)&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color: rgb(236, 156, 44); text-align: center;&quot;&gt;
+&lt;span style=&quot;font-size: 14pt; font-weight: bold; color: rgb(236, 156, 44);&quot;&gt;네이버에 피드 관리 요청하기&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/123774344F5F72852B0C4A&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile23.uf@123774344F5F72852B0C4A.jpg&quot; height=&quot;91&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+네이버에서는 블로그 피드 관리를 고객센터에서 받고 있는데.. 일단 신청하기 위해서 네이버 메인 화면에서 최하단에 있는 &lt;span style=&quot;font-weight: bold;&quot;&gt;고객센터&lt;/span&gt;를 누릅니다.&lt;br /&gt;
+&lt;br /&gt;
+그 다음 [&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;color: rgb(49, 133, 97);&quot;&gt;도움말&lt;/span&gt; 메일문의&lt;/span&gt;]를 누르고 여러가지 항목 중에 &lt;span style=&quot;font-weight: bold; color: rgb(49, 133, 97);&quot;&gt;통합검색&lt;/span&gt;이라는 항목을 선택합니다. 그리고 우측 상단에 있는 문의하기 버튼을 누르고 좌측의 세부분류에서 블로그검색을 클릭합니다.&lt;br /&gt;
+&lt;br /&gt;
+여기서 두 가지중 하나를 요청할 수 있는데..&lt;br /&gt;
+노출되지 않았으면 하는 게시물을 검색에서 일일히 삭제 요청하는 방법이 있고..&lt;br /&gt;
+제 블로그에서 처럼 삭제된 글이 여러개라 일일히 삭제 요청하기 힘들 때는 피드 자체를 삭제 요청하는 방법이 있습니다.&lt;br /&gt;
+&lt;br /&gt;
+피드 자체를 삭제하게 되면 블로그의 모든 게시물이 검색되지 않게 되는데 다시 재등록 요청을 하시면 모든 검색이 갱신이 됩니다.&lt;br /&gt;
+&lt;br /&gt;
+게시물을 일일히 삭제하시려면 요청 항목을 선택하시고 양식에 맞춰서 요청 사항을 작성해주시면 됩니다.&lt;br /&gt;
+&lt;br /&gt;
+블로그 피드 삭제는 &lt;span style=&quot;font-weight: bold;&quot;&gt;RSS피드삭제요청&lt;/span&gt;에서 할 수 있고.. 피드를 삭제한 뒤 게시물 정리가 끝났으면 다시 &lt;span style=&quot;font-weight: bold;&quot;&gt;RSS피드등록요청&lt;/span&gt;에서 등록하시면 됩니다.&lt;br /&gt;
+&lt;br /&gt;
+피드삭제요청시 &lt;span style=&quot;font-weight: bold;&quot;&gt;본인 확인&lt;/span&gt;을 위해 고객센터에서 전화가 올 수도 있으므로 연락처도 꼭 정확하게 입력해 주셔야합니다.&lt;br /&gt;
+&lt;br /&gt;
+저의 경우 현재 RSS피드를 삭제해놓은 상태이고.. 정리가 완료되는 대로 다시 등록 요청을 하려고 합니다 ^^&lt;br /&gt;
+&lt;br /&gt;
+검색 노출 제외신청 외에도 검색 노출이 되지 않거나 주소에 문제가 있는 경우에도 이곳에서 요청하시면 됩니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color: rgb(95, 182, 54); text-align: center;&quot;&gt;
+&lt;span style=&quot;font-size: 14pt; font-weight: bold; color: rgb(95, 182, 54);&quot;&gt;구글에 검색 관리 요청하기&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/160BCC424F5F77380A7BB7&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile29.uf@160BCC424F5F77380A7BB7.jpg&quot; height=&quot;159&quot; width=&quot;400&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+구글의 경우 RSS 방식을 사용하지 않고 자체 검색 기법을 사용하는데 검색어 관리를 쉽게 할 수 있도록 웹마스터 도구라는 기능을 제공하고 있습니다. 구글 웹마스터는 [&lt;a href=&quot;https://www.google.com/webmasters/tools/home?hl=ko&quot; target=&quot;_blank&quot;&gt;&lt;span style=&quot;font-weight: bold; color: rgb(25, 61, 169);&quot;&gt;http://www.google.com/webmasters&lt;/span&gt;&lt;/a&gt;] 로 접속하면 되고 구글 계정만 있으면 누구나 가입이 가능합니다.&lt;br /&gt;
+&lt;br /&gt;
+웹마스터 도구에 가입하셨다면 이제 블로그를 관리 대상에 추가하기 위해 로그인을 하시고 우측에 있는 &lt;span style=&quot;font-weight: bold; color: rgb(227, 22, 0);&quot;&gt;사이트 추가&lt;/span&gt; 버튼을 누릅니다.&lt;br /&gt;
+그리고 블로그의 주소를 넣습니다.&lt;br /&gt;
+&lt;br /&gt;
+그러면 소유권 확인을 하라고 하는데 대체 방법을 누르고 &lt;span style=&quot;font-weight: bold;&quot;&gt;사이트 홈페이지에 메타태그 추가&lt;/span&gt;를 선택합니다.(티스토리 등의 블로그에서는 2차 도메인이 아니면 이 방법만 가능합니다.)&lt;br /&gt;
+&lt;br /&gt;
+그러면 도움말에 &lt;br /&gt;
+&lt;div class=&quot;verify-contents-box&quot;&gt;
+&amp;lt;meta name=&quot;google-site-verification&quot; content=&quot;랜덤값&quot; /&amp;gt; 이라는 코드를 블로그의 &amp;lt;head&amp;gt;와 &amp;lt;/head&amp;gt; 사이에 넣으라는 메시지가 나오는데 위 코드를 블로그 관리 페이지의 스킨 수정에서 넣어주시면 됩니다. (랜덤값은 추가할때마다 다르므로 도구에 표시되는 값을 참고해주세요..)&lt;br /&gt;
+&lt;br /&gt;
+메타 태그를 넣고 확인을 누르면 추가가 완료됩니다.&lt;br /&gt;
+검색어 노출을 제외하려면 사이트 구성에서 크롤러 액세스를 누르고 URL 삭제 페이지에 들어가서 새로운 삭제 요청 작성하기를 누릅니다.&lt;br /&gt;
+&lt;br /&gt;
+그 다음 삭제하기 원하는 페이지의 주소를 입력해주면 됩니다.&lt;br /&gt;
+&lt;br /&gt;
+그리고 역시 구글에서도 블로그 자체를 검색 노출에서 제외할 수 있는데 자신의 블로그 주소만 넣고 신청을 하면 블로그의 모든 게시물이 노출 중단됩니다. 다시 노출 시키려면 URL 삭제 페이지에서 표시 모드를 삭제 완료로 해두고 해당 블로그 주소 항목의 재포함 버튼을 누르면 됩니다.&lt;br /&gt;
+&lt;br /&gt;
+이외에도 웹마스터 도구에서는 검색어 분석이나 크롤링 설정(갱신 간격 설정) 등 다양한 작업을 할 수 있는데 이 웹마스터 도구에 대해서는 조만간 더 자세히 설명드리도록 하겠습니다. ^^&lt;br /&gt;
+&lt;br /&gt;
+&lt;/div&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-251-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-251-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-251-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>블로그</category>
+			<category>RSS</category>
+			<category>검색</category>
+			<category>검색 노출</category>
+			<category>검색어</category>
+			<category>검색어 관리</category>
+			<category>구글</category>
+			<category>네이버</category>
+			<category>다음</category>
+			<category>블로그</category>
+			<category>블로그 팁</category>
+			<category>운영 팁</category>
+			<category>피드</category>
+			<author>C-Major</author>
+			<guid>http://blog.mgaver.co.kr/251</guid>
+			<comments>http://blog.mgaver.co.kr/251#entry251comment</comments>
+			<pubDate>Wed, 14 Mar 2012 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>오늘은 포스팅 쉽니다!</title>
+			<link>http://blog.mgaver.co.kr/250</link>
+			<description>&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/204BA3404F5E2D3C27C125&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile7.uf@204BA3404F5E2D3C27C125.png&quot; height=&quot;250&quot; width=&quot;250&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-size: 12pt;&quot;&gt;오늘은 사정때문에 포스팅 쉽니다..&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size: 12pt;&quot;&gt;급한 일이 생겨버려서 오늘 할일이 많아졌네요 ^^&lt;br /&gt;
+&lt;/span&gt;&lt;br /&gt;
+&lt;span style=&quot;font-size: 12pt;&quot;&gt;다른분들 블로그는 스마트폰을 이용해서 들리도록 하겠습니다~&lt;br /&gt;
+&lt;br /&gt;
+모두들 오늘도 즐거운 하루 되세요!&lt;br /&gt;
+&lt;/span&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-250-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-250-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-250-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>일상 이야기</category>
+			<category>블로그</category>
+			<category>블로그 휴식</category>
+			<category>포스팅</category>
+			<category>포스팅 휴식</category>
+			<author>C-Major</author>
+			<guid>http://blog.mgaver.co.kr/250</guid>
+			<comments>http://blog.mgaver.co.kr/250#entry250comment</comments>
+			<pubDate>Tue, 13 Mar 2012 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[스마트기기]배터리가 부족하다면 휴대용 배터리를!</title>
+			<link>http://blog.mgaver.co.kr/248</link>
+			<description>피쳐폰과 다르게 스마트폰은 방대한 데이터 통신과 OS 내의 여러가지 기능으로 배터리가 금방 소진되어 버립니다. 배터리를 여러개 들고 다니는 방법도 있지만.. 교체할때 전원도 꺼지고 충전하기도 힘든 경우가 많습니다. 또 아이폰같은 경우 배터리 교체도 불가능합니다.&lt;br /&gt;
+&lt;br /&gt;
+이럴 때는 휴대용 배터리를 추천드립니다!&lt;br /&gt;
+&lt;br /&gt;
+휴대용 배터리는 일명 보조 배터리라고도 하는데 제품에 넣는 배터리가 아니라 들고다니는 배터리의 전력을 이용해 충전을 해주는 제품을 말한답니다~&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color: rgb(227, 22, 0); text-align: center;&quot;&gt;
+&lt;span style=&quot;font-size: 14pt; font-weight: bold; color: rgb(227, 22, 0);&quot;&gt;휴대용 배터리 구매시 고려할 사항&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/125DF63D4F5CCE4E0FE67E&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile2.uf@125DF63D4F5CCE4E0FE67E.png&quot; height=&quot;200&quot; width=&quot;300&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+휴대용 배터리를 구매할때 고려할 사항은 아래와 같습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-size: 12pt; font-weight: bold;&quot;&gt;1. 용량/크기&lt;/span&gt;&lt;br style=&quot;font-weight: bold;&quot;&gt;&lt;br style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-weight: bold;&quot;&gt;2. 호환성&lt;/span&gt;&lt;br style=&quot;font-weight: bold;&quot;&gt;&lt;br style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 12pt; font-weight: bold;&quot;&gt;3. 가격/AS&lt;br /&gt;
+&lt;/span&gt;&lt;br /&gt;
+휴대용 배터리를 구매할 때에도 역시나 고려할 사항이 많은데 몇가지 사항에 대해 알아보겠습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color: rgb(236, 156, 44); text-align: center;&quot;&gt;
+&lt;span style=&quot;font-size: 14pt; font-weight: bold; color: rgb(236, 156, 44);&quot;&gt;배터리 용량/크기&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/166B4E394F5CD2AB2A4BB5&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile1.uf@166B4E394F5CD2AB2A4BB5.jpg&quot; height=&quot;287&quot; width=&quot;250&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+전자기기에는 다양한 용량의 배터리가 사용되고 있습니다.&lt;br /&gt;
+배터리 용량은 mAh로 표시하는데 주요 전자기기들의 배터리 용량을 알아보겠습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-size: 14pt;&quot;&gt;스마트폰 제품군&lt;/span&gt;&lt;span style=&quot;font-size: 14pt;&quot;&gt;(모두 기본 배터리 기준)&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;갤럭시 S2 &lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;1650mAh&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;아이폰 4S&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt; 1420mAh&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;옵티머스 LTE&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt; 1830mAh&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;갤럭시 노트&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt; 2500mAh&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-size: 14pt;&quot;&gt;태블릿 제품군&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;아이패드 2&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt; 6930mAh&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;갤럭시탭 10.1&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt; 7000mAh&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt;옵티머스 패드&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 12pt;&quot;&gt; 6800mAh&lt;/span&gt;&lt;br /&gt;
+&lt;br /&gt;
+이렇게 제품마다 각기 다른 용량의 배터리를 사용하고 있습니다.&lt;br /&gt;
+이렇게 전자기기들마다 다양한 배터리 용량을 사용하듯이 휴대용 배터리에도 제품마다 다양한 용량이 존재합니다.&lt;br /&gt;
+&lt;br /&gt;
+물론 배터리가 클수록 휴대용 배터리의 충전 시간이 오래걸리고 가격이 비싸지고.. 무게와 크기가 늘어납니다.&lt;br /&gt;
+휴대용 배터리 역시 용도에 맞춰서 잘 구매하시는 것이 중요하지요..&lt;br /&gt;
+&lt;br /&gt;
+그렇다면 용량이 큰 8000mAh 제품을 구매하면 모든 제품을 완전 충전할 수 있을 거라고 생각하시는 분들도 계실텐데 휴대용 배터리가 8000mAh라도 전압 변경시 손실되는 전력과 제품 작동(LED 등)에 사용되는 전력때문에 완전 충전이 불가능할 수도 있습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color: rgb(95, 182, 54); text-align: center;&quot;&gt;
+&lt;span style=&quot;font-size: 14pt; font-weight: bold; color: rgb(95, 182, 54);&quot;&gt;배터리 호환성&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/185547384F5CD2C925A3E9&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile22.uf@185547384F5CD2C925A3E9.jpg&quot; height=&quot;332&quot; width=&quot;250&quot;/&gt;&lt;p class=&quot;cap1&quot;&gt;필자가 사용하는 iWalk 8000 제품.. USB가 달려 있어서 대부분의 제품과 호환된다.&lt;/p&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;br /&gt;
+휴대용 배터리를 구매하기 전에 반드시 고려해야할 사항중 호환성이 있습니다.&lt;br /&gt;
+호환성은 배터리가 제품과 맞는지를 나타내는 것으로&amp;nbsp; 어떤 제품은 단자가 아이폰과만 호환되고 일부는 일부 안드로이드 폰하고만 호환되는 제품들도 있습니다.&lt;br /&gt;
+&lt;br /&gt;
+요즘 스마트폰들은 대체로 멀티 볼트를 지원하기 때문에 USB가 달린 제품을 이용하면 호환성에는 대부분 큰 문제가 없습니다. 다만 일부 제품은 출력전압이 낮아서 아이패드 같은 타블렛 PC와 호환되지 않는 경우가 있으므로 이 또한 지원되는지 꼼꼼히 따져보셔야 할것 같습니다.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;div style=&quot;padding: 10px; border-style: dashed; border-width: 1px; border-color:  rgb(48, 88, 210); text-align: center;&quot;&gt;
+&lt;span style=&quot;font-size: 14pt; font-weight: bold; color: rgb(48, 88, 210);&quot;&gt;배터리 가격/AS&lt;/span&gt;&lt;br /&gt;
+&lt;/div&gt;
+&lt;br /&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;/p&gt;
+&lt;p style=&quot;margin:0&quot;&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/153A45344F5CD4E22E50DF&quot; alt=&quot;&quot; filemime=&quot;&quot; filename=&quot;cfile25.uf@153A45344F5CD4E22E50DF.jpg&quot; height=&quot;250&quot; width=&quot;250&quot;/&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;br /&gt;
+휴대용 배터리는 한번 구매하면 최소 1년에서 3년까지 사용할 수 있는 제품이기 때문에 가격과 AS를 잘 따져보셔야합니다. 배터리가 AS 기간내에 품질이 떨어진다면 무상으로 교체를 해주는 경우도 있고 추가금을 내더라도 싸게 교체를 해주는 회사들도 있습니다.&lt;br /&gt;
+&lt;br /&gt;
+가격이 너무 싼 제품을 구매하시면 고장도 쉽게 나고 안정성에 문제가 있을 수도 있으므로 가격이 조금 높더라도 신뢰도가 높은 제품을 구매하시는 것을 추천합니다.&lt;br /&gt;&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-248-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-248-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-248-2&quot; class=&quot;entry-ccl-nd&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black03.png&quot; alt=&quot;변경 금지&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-nd/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-nd/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>스마트시대</category>
+			<category>IT</category>
+			<category>iWALK</category>
+			<category>배터리</category>
+			<category>보조배터리</category>
+			<category>스마트기기</category>
+			<category>스마트폰</category>
+			<category>스마트폰 배터리</category>
+			<category>아이폰</category>
+			<category>피쳐폰</category>
+			<category>휴대용 배터리</category>
+			<category>휴대폰</category>
+			<author>C-Major</author>
+			<guid>http://blog.mgaver.co.kr/248</guid>
+			<comments>http://blog.mgaver.co.kr/248#entry248comment</comments>
+			<pubDate>Mon, 12 Mar 2012 06:00:00 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

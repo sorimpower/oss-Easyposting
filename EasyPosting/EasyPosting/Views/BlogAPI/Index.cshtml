@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@*<ol class="breadcrumb">
+    <li><a href="">메인</a></li>
+    <li class="active">BlogAPI 계정 추가</a></li>
+</ol>*@
+<h1>BlogAPI 계정 추가</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <img src="~/Content/tistory.png" width="220" height="60" />@Html.ActionLink(" ", "Create", "BlogAPI", routeValues: new { SERVICE = "Tistory" }, htmlAttributes: new { @class = "fa fa-4x fa-plus-square", @style = "text-decoration: none !important;" })
+    </div>
+    <div class="col-md-4">
+        <img src="~/Content/naver.png" width="220" height="60" /> @Html.ActionLink(" ", "Create", "BlogAPI", routeValues: new { SERVICE = "Naver" }, htmlAttributes: new { @class = "fa fa-4x fa-plus-square", @style = "text-decoration: none !important;" })
+    </div>
+    @*<div class="col-md-6">
+        <img src="~/Content/blogger.png" width="250" height="70" /> @Html.ActionLink(" ", "Create", "BlogAPI", routeValues: new { SERVICE = "Blogger" }, htmlAttributes: new { @class = "fa fa-4x fa-plus-square" })
+    </div>*@
+    <div class="col-md-4">
+        <img src="~/Content/wordpress.png" width="220" height="60" /> @Html.ActionLink(" ", "Create", "BlogAPI", routeValues: new { SERVICE = "WordPress" }, htmlAttributes: new { @class = "fa fa-4x fa-plus-square", @style = "text-decoration: none !important;" })
+    </div>
+</div>

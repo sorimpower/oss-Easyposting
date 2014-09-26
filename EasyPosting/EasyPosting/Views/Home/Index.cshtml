@@ -1,0 +1,75 @@
+﻿@{
+    ViewBag.Title = "대시보드";
+}
+@using EasyPosting.Controllers
+@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    <!-- begin breadcrumb -->
+    <ol class="breadcrumb pull-right">
+        <li><a href="@Url.RouteUrl(new { controller = "Home", action = "Index" })">EasyPosting</a></li>
+        <li class="active">대시보드</li>
+    </ol>
+    <!-- end breadcrumb -->
+    <!-- begin page-header -->
+    <h1 class="page-header">나의 대시보드</h1>
+    <!-- end page-header -->
+	<!-- begin row -->
+    <div class="row">
+        <!-- begin col-3 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="widget widget-state bg-green">
+                <div class="state-icon"><i class="fa fa-inbox"></i></div>
+                <div class="state-info">
+                    <h4>작성한 글</h4>
+                    <p>@{@ViewBag.postnum}개</p>
+                </div>
+                <div class="state-link">
+                    <a href="@Url.RouteUrl(new { controller = "Archive", action = "Index" })">더 보기 <i class="fa fa-arrow-circle-o-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- end col-3 -->
+        <!-- begin col-3 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="widget widget-state bg-blue">
+                <div class="state-icon"><i class="fa fa-upload"></i></div>
+                <div class="state-info">
+                    <h4>포스팅한 글</h4>
+                    <p>@{@ViewBag.postednum}개</p>
+                </div>
+                <div class="state-link">
+                    <a href="@Url.RouteUrl(new { controller = "Archive", action = "Index" })">더 보기 <i class="fa fa-arrow-circle-o-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- end col-3 -->
+        <!-- begin col-3 -->
+        <div class="col-md-3 col-sm-6">
+            <div class="widget widget-state bg-red">
+                <div class="state-icon"><i class="fa fa-cloud"></i></div>
+                <div class="state-info">
+                    <h4>스토리지에 저장한 자료</h4>
+                    <p>@{@ViewBag.store}개</p>
+                </div>
+                <div class="state-link">
+                    <a href="@Url.RouteUrl(new { controller = "Storage", action = "Image" })">더 보기 <i class="fa fa-arrow-circle-o-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- end col-3 -->
+    </div>
+			<!-- end row -->
+			<!-- begin row -->
+    <div class="row">
+        <!-- begin col-8 -->
+        <div class="col-md-8">
+
+
+        </div>
+        <!-- end col-8 -->
+    </div>
+			<!-- end row -->
+        @*@Html.GenerateRelayQrCode("https://m.epp.so/")
+        @ViewBag.ra*@
+}

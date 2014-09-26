@@ -1,0 +1,173 @@
+﻿@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Easy Posting</title>
+    @Styles.Render("~/Content/fonts")
+    @*@Styles.Render("~/Content/css")*@
+    @Scripts.Render("~/bundles/modernizr")
+    @*@Scripts.Render("~/bundles/jquery")*@
+    <script src="~/Assets/js/jquery.js"></script>
+    @*@Scripts.Render("~/bundles/jqueryui")
+        @Scripts.Render("~/bundles/bootstrap")*@
+
+    @*<script src="~/Assets/js/bootstrap.js"></script>*@
+
+    <!-- ================== BEGIN BASE CSS STYLE ================== -->
+    @*<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />*@
+    @*<link href="assets/plugins/jquery-ui-1.10.4/themes/base/minified/jquery-ui.min.css" rel="stylesheet" />*@
+    <link href="~/assets/plugins/bootstrap-3.2.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/assets/css/animate.min.css" rel="stylesheet" />
+    <link href="~/assets/css/style.min.css" rel="stylesheet" />
+    <link href="~/assets/css/style-responsive.min.css" rel="stylesheet" />
+    <link href="~/assets/css/theme/default.css" rel="stylesheet" id="theme" />
+    <!-- ================== END BASE CSS STYLE ================== -->
+    <!-- ================== BEGIN PAGE LEVEL STYLE ================== -->
+    <link href="~/assets/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" />
+    <!-- ================== END PAGE LEVEL STYLE ================== -->
+</head>
+<body>
+    <!-- begin #page-loader -->
+    <div id="page-loader" class="fade in"><span class="spinner"></span></div>
+    <!-- end #page-loader -->
+    <!-- begin #page-container -->
+    <div id="page-container" class="fade page-sidebar-minified page-sidebar-fixed page-header-fixed">
+        <!-- begin #header -->
+        <div id="header" class="header navbar navbar-default navbar-fixed-top">
+            <!-- begin container-fluid -->
+            <div class="container-fluid">
+                <!-- begin mobile sidebar expand / collapse button -->
+                <div class="navbar-header">
+                    @*<a href="@Url.RouteUrl(new { controller = "Home", action = "Index" })" class=" navbar-brand"><span class="navbar-logo"></span>EasyPosting+</a>*@
+                    <a href="@Url.RouteUrl(new { controller = "Home", action = "Index" })" class=" navbar-brand"><img src="~/Content/logo.svg" width="150" height="30"></a>
+                    <button type="button" class="navbar-toggle" data-click="sidebar-toggled">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <!-- end mobile sidebar expand / collapse button -->
+                <!-- begin header navigation right -->
+                <ul class="nav navbar-nav navbar-right">
+                    @*<li>
+                            @using (Html.BeginForm("Search", "Storage", FormMethod.Post, new { @class = "navbar-form full-width" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                <div class="form-group">
+                                    @Html.TextBox("Search_Data", null, new { @required = "yes", @class = "form-control", @placeholder = "검색어를 입력하세요" })
+                                    <button type="submit" class="btn btn-search"><i class="fa fa-search"></i></button>
+                                </div>
+                            }
+                        </li>*@
+                    <li class="dropdown navbar-user">
+                        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="~/assets/img/user-11.jpg" alt="" />
+                            <span>안녕하세요 @User.Identity.GetUserName()</span> <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu animated fadeInLeft">
+                            <li class="arrow"></li>
+                            <li><a href="@Url.RouteUrl(new { controller = "Account", action = "Manage" })">나의 정보</a></li>
+                            <li class="divider"></li>
+                            <li><a href="@Url.RouteUrl(new { controller = "Account", action = "LogOff" })">로그아웃</a></li>
+                            @*@using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    <li><a href="javascript:document.getElementById('logoutForm').submit()">로그아웃</a></li>
+                                }*@
+                        </ul>
+                    </li>
+                </ul>
+                <!-- end header navigation right -->
+            </div>
+            <!-- end container-fluid -->
+        </div>
+        <!-- end #header -->
+        <!-- begin #sidebar -->
+        <div id="sidebar" class="sidebar">
+            <!-- begin sidebar scrollbar -->
+            <div data-scrollbar="true" data-height="100%">
+                <!-- begin sidebar user -->
+                <ul class="nav">
+                    <li class="nav-profile">
+                        <div class="image">
+                            <a href="javascript:;"><img src="~/assets/img/user-11.jpg" alt="" /></a>
+                        </div>
+                        <div class="info">
+                            @User.Identity.GetUserName().Substring(0, User.Identity.GetUserName().LastIndexOf('@'))
+                            <small>@User.Identity.GetUserName()</small>
+                        </div>
+                    </li>
+                </ul>
+                <!-- end sidebar user -->
+                <!-- begin sidebar nav -->
+                <ul class="nav">
+                    <li class="nav-header">메뉴</li>
+                    <li><a href="@Url.RouteUrl(new { controller = "Home", action = "Index" })"><i class="fa fa-pie-chart"></i><span class="menus">대시보드</span></a></li>
+                    @if (User.IsInRole("Administrator"))
+                    {
+                        <li><a href="@Url.RouteUrl(new { controller = "Admin", action = "Index" })"><i class="fa fa-users"></i><span class="menus">사용자 관리</span></a></li>
+                        <li><a href="@Url.RouteUrl(new { controller = "Keyword", action = "Index" })"><i class="fa fa-database"></i><span class="menus">키워드 관리</span></a></li>
+                    }
+                    <li>
+                        @if (ViewBag.md != true)
+                        {
+                            <a href="@Url.RouteUrl(new { controller = "Editor", action = "Create" })"><i class="fa fa-paragraph"></i><span class="menus">작성하기</span></a>
+                        }
+                        else
+                        {
+                            <a href="@Url.RouteUrl(new { controller = "Editor", action = "MarkdownCreate" })"><i class="fa fa-paragraph"></i><span class="menus">작성하기</span></a>
+                        }
+                    </li>
+                    <li class="active"><a href="@Url.RouteUrl(new { controller = "Archive", action = "Index" })"><i class="fa fa-inbox"></i><span class="menus">아카이브</span></a></li>
+                    <li><a href="@Url.RouteUrl(new { controller = "Storage", action = "Image" })"><i class="fa fa-cloud"></i><span class="menus">스토리지</span></a></li>
+                    @if (ViewBag.md != true)
+                    {
+                        <li><a href="#" onclick="window.open('/Image/Index','title','width = 1200,height = 800, resizable = yes');return false"><i class="fa fa-crop"></i><span>이미지 편집</span></a></li>
+                    }
+                    <!-- begin sidebar minify button -->
+                    <li><a href="javascript:;" class="sidebar-minify-btn" data-click="sidebar-minify"><i class="fa fa-angle-double-left"></i></a></li>
+                    <!-- end sidebar minify button -->
+                </ul>
+                <!-- end sidebar nav -->
+            </div>
+            <!-- end sidebar scrollbar -->
+        </div>
+        <div class="sidebar-bg"></div>
+        <!-- end #sidebar -->
+        <!-- begin #content -->
+        <div id="content" class="content">
+            @RenderBody()
+        </div>
+        <!-- end #content -->
+        <!-- begin scroll to top btn -->
+        <a href="javascript:;" class="btn btn-icon btn-circle btn-success btn-scroll-to-top fade" data-click="scroll-top"><i class="fa fa-angle-up"></i></a>
+        <!-- end scroll to top btn -->
+    </div>
+    <!-- end page container -->
+    <!-- ================== BEGIN BASE JS ================== -->
+    <script src="~/assets/plugins/jquery-1.8.2/jquery-1.8.2.min.js"></script>
+    <script src="~/assets/plugins/jquery-ui-1.10.4/ui/minified/jquery-ui.min.js"></script>
+    <script src="~/assets/plugins/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+    <!--[if lt IE 9]>
+        <script src="~/assets/crossbrowserjs/html5shiv.js"></script>
+        <script src="~/assets/crossbrowserjs/respond.min.js"></script>
+        <script src="~/assets/crossbrowserjs/excanvas.min.js"></script>
+    <![endif]-->
+    <script src="~/assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="~/assets/plugins/jquery-cookie/jquery.cookie.js"></script>
+    <!-- ================== END BASE JS ================== -->
+    <!-- ================== BEGIN PAGE LEVEL JS ================== -->
+    <script src="~/assets/plugins/gritter/js/jquery.gritter.js"></script>
+    <script src="~/assets/js/apps.min.js"></script>
+    <!-- ================== END PAGE LEVEL JS ================== -->
+    <script>
+        $(document).ready(function () {
+            App.init();   
+        });
+    </script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

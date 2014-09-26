@@ -1,0 +1,127 @@
+﻿@*@model IEnumerable<EasyPosting.Models.EP_POSTS>*@
+@model PagedList.IPagedList<EasyPosting.Models.EP_POSTS>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "아카이브";
+    Layout = "~/Views/Shared/_ArchiveLayout.cshtml";
+}
+@Styles.Render("~/Content/storage")
+@Scripts.Render("~/bundles/storage")
+
+<div class="container">
+    <div class="row row-offcanvas row-offcanvas-right">
+        <div class="col-xs-12 col-sm-9">
+            <!-- Button trigger modal -->
+            <div class="col">
+                <button class="btn btn-primary" data-toggle="modal" onclick="location.href='@Url.RouteUrl(new { controller = "Editor", action = "Create" })'"><i class=" fa fa-plus"></i> 작성하기</button>
+            </div>
+            <div class="col">
+                @using (Html.BeginForm("Index", "Archive", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="form-group row">
+                        <div class="input-group col-xs-8">
+                            <div class="input-group-addon"><i class="fa fa-search"></i> 검색</div>
+                            @Html.TextBox("Search_Data", null, new { @required = "yes", @class = "form-control", @placeholder = "검색어를 입력하세요" })
+                            <div class="input-group-btn">
+                                <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <table class="table table-responsive table-hover">
+                <tr>
+                    <th>
+                        @*@Html.DisplayNameFor(model => model.Date)*@
+                        작성 일자
+                    </th>
+                    <th>
+                        @*@Html.DisplayNameFor(model => model.Title)*@
+                        제목
+                    </th>
+                    <th>
+                        @*@Html.DisplayNameFor(model => model.Body)*@
+                        내용
+                    </th>
+                </tr>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Date)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Title)
+                        </td>
+                        <td>
+                            @Html.ActionLink("포스팅 하기", "Details", new { id = item.ID }) |
+                            @if (item.Mime_type == "mk")
+                            {
+                                @Html.ActionLink("편집하기", "MarkdownEdit", "Editor", routeValues: new { id = item.ID }, htmlAttributes: null)
+                            }
+                            else
+                            {
+                                @Html.ActionLink("임시저장 보관함|", "Version", "Archive", routeValues: new { id = item.ID }, htmlAttributes: null)
+                                @Html.ActionLink("편집하기", "Edit", "Editor", routeValues: new { id = item.ID }, htmlAttributes: null)
+                            }
+                            |
+                            <a class="item-delete" data-filename="@Html.DisplayFor(modelitem => item.Title)" data-name="@Html.DisplayFor(modelitem => item.ID)" href="#">삭제하기</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+
+            <center>
+                @*@Model.PageCount 페이지 중 @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) 페이지*@
+                @Html.PagedListPager(Model, Page_No => Url.Action("Index", new { Page_No }))
+            </center>
+
+            @*<center>
+                    <a class="fa fa-2x fa-plus-square" href="@Url.RouteUrl(new { controller = "Editor", action = "Create" })" style="text-decoration:none"></a>
+                   @Html.ActionLink(" ", "Create", "Editor", routeValues: null, htmlAttributes: new { @class = "fa fa-2x fa-plus-square" })
+                </center>*@
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="DeleteMedia" tabindex="-1" role="dialog" aria-labelledby="DeleteMedia" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="DeleteMediaLabel">파일 삭제하기</h4>
+            </div>
+            <div class="modal-body">
+                <p><span id="filenames"></span> 글을 삭제하시겠습니까?</p>
+                @using (Html.BeginForm("Delete", "Archive", FormMethod.Post, new { @id = "deleteform" }))
+                {
+                    @Html.AntiForgeryToken()
+                    <input name="id" id="delete_media_data" type="hidden" />
+                }
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="deletedata" class="btn btn-primary">삭제하기</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">취소</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+<script>
+    $('.item-delete').click(function () {
+        var delval = $(this).attr('data-name');
+        var delname = $(this).attr('data-filename');
+        //console.log($(this).attr('data-name'));
+        $('#delete_media_data').val(delval);
+        $('#filenames').html(delname);
+        $('#DeleteMedia').modal('show');
+        //console.log($('#delete_media_data').val(delval));
+    });
+    $('#deletedata').click(function () {
+        $('#deleteform').submit();
+        $('#DeleteMedia').modal('hide');
+    });
+</script>

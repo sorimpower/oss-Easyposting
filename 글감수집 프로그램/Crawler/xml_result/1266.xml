@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>kfmes's blog</title>
+		<link>http://blog.kfmes.com/</link>
+		<description>kfmes의 블로그입니다.</description>
+		<language>ko</language>
+		<pubDate>Thu, 10 Jul 2014 16:15:16 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>kfmes</managingEditor>
+		<image>
+			<title>kfmes's blog</title>
+			<url>http://cfile22.uf.tistory.com/image/15061D4A4DDBCFE031C594</url>
+			<link>http://blog.kfmes.com</link>
+			<description>kfmes의 블로그입니다.</description>
+		</image>
+		<item>
+			<title>플래닛 웨이브 미니 튜너(PW-CT-12) 구매</title>
+			<link>http://blog.kfmes.com/240</link>
+			<description>튜닝기를 새로 구입했다. 플래닛 웨이브 미니 튜너(PW-CT-12) ! 전에 구입했던 모델도 잘 쓰고 있었는데, 리뉴얼이 되어나왔다. 집게 형식이 아니라, 악기에 옮겨다니며 쓰기엔 다소 번거로운게 있어서 -_- 새로 구입. 이전모델은 조그만 박스에 담겨있었는데, 이번에는 아래 사진처럼 포장이 바뀌어 원가 절감을 한모양이다.   튜닝기 위쪽에는 기존 모델은, 버튼이 두개 (전원, 튜닝 주파수 조절&amp;상하 반전) 버튼이었는데, 신형에서는 좀더 직관적으로..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-240-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-240-1&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/DerivativeWorks&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>음악</category>
+			<category>통기타</category>
+			<category>튜너</category>
+			<category>튜닝기</category>
+			<category>플래닛웨이브</category>
+			<author>kfmes</author>
+			<guid>http://blog.kfmes.com/240</guid>
+			<comments>http://blog.kfmes.com/240#entry240comment</comments>
+			<pubDate>Thu, 14 Nov 2013 00:38:29 +0900</pubDate>
+		</item>
+		<item>
+			<title>tomcat 에서 directory 에서 파일 목록 보기 옵션 켜기</title>
+			<link>http://blog.kfmes.com/239</link>
+			<description>아파치나 nginx 웹서버의 경우 해당 경로에 index 페이지 파일 설정이 안되어있으면, 그 directory 의 파일 목록을 보여주는 기능이 있다. tomcat 에도 있을까 하고 살펴봤더니 옵션 한곳만 바꿔주면 된다. conf/web.xml &lt;servlet&gt; &lt;servlet-name&gt;default&lt;/servlet-name&gt; &lt;servlet-class&gt; org.apache.catalina.servlets.DefaultServlet &lt;/servlet..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-239-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-239-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-239-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>개발</category>
+			<category>directory file listing</category>
+			<category>tomcat</category>
+			<category>web.xml</category>
+			<category>파일목록</category>
+			<author>kfmes</author>
+			<guid>http://blog.kfmes.com/239</guid>
+			<comments>http://blog.kfmes.com/239#entry239comment</comments>
+			<pubDate>Tue, 15 Oct 2013 21:47:21 +0900</pubDate>
+		</item>
+		<item>
+			<title>마인크래프트 1.6.2 세벌식 입력 패치 - rel 20130911</title>
+			<link>http://blog.kfmes.com/238</link>
+			<description>마인크래프트를 하면서 불편한게 있었다. 채팅할때 영문 입력밖에 안된다는거 -_-... 아니 자바로 만들었으면 utf-8 지원해줘야 되는거아님? 어쨌든 한글 입력 패치 제작하는 분들이 있어서 다행인데, 세벌식 입력 지원이 안된다. 덕분에 타이핑을 할때는 비교적 느린 속도로 타이핑을 해야만 했다. 그것도 두벌식으로! 어찌 되었건, MCP(Minecraft Coder Pack)를 이용해 일부 기능들을 고칠수 있다는걸 알게 된다. 마인크래프트 코딩 스타일이..&lt;div class=&quot;entry-ccl&quot; style=&quot;clear: both; text-align: right; margin-bottom: 10px&quot;&gt;
+	&lt;img id=&quot;ccl-icon-238-0&quot; class=&quot;entry-ccl-by&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black01.png&quot; alt=&quot;저작자 표시&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-238-1&quot; class=&quot;entry-ccl-nc&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black02.png&quot; alt=&quot;비영리&quot;/&gt;
+	&lt;img id=&quot;ccl-icon-238-2&quot; class=&quot;entry-ccl-sa&quot; src=&quot;http://i1.daumcdn.net/cfs.tistory/v/0/static/admin/editor/ccl_black04.png&quot; alt=&quot;동일 조건 변경 허락&quot;/&gt;
+	&lt;!--
+	&lt;rdf:RDF xmlns=&quot;http://web.resource.org/cc/&quot; xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot; xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;&gt;
+		&lt;Work rdf:about=&quot;&quot;&gt;
+			&lt;license rdf:resource=&quot;http://creativecommons.org/licenses/by-nc-sa/2.0/kr/&quot; /&gt;
+		&lt;/Work&gt;
+		&lt;License rdf:about=&quot;http://creativecommons.org/licenses/by-nc-sa/&quot;&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Reproduction&quot;/&gt;
+			&lt;permits rdf:resource=&quot;http://web.resource.org/cc/Distribution&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Notice&quot;/&gt;
+			&lt;requires rdf:resource=&quot;http://web.resource.org/cc/Attribution&quot;/&gt;
+			&lt;prohibits rdf:resource=&quot;http://web.resource.org/cc/CommercialUse&quot;/&gt;
+		&lt;/License&gt;
+	&lt;/rdf:RDF&gt;
+	--&gt;
+&lt;/div&gt;
+</description>
+			<category>blog</category>
+			<category>minecraft</category>
+			<category>마인크래프트</category>
+			<category>세벌식</category>
+			<category>한글패치</category>
+			<author>kfmes</author>
+			<guid>http://blog.kfmes.com/238</guid>
+			<comments>http://blog.kfmes.com/238#entry238comment</comments>
+			<pubDate>Wed, 11 Sep 2013 01:18:49 +0900</pubDate>
+		</item>
+		<item>
+			<title>JateRoid - 안드로이드용 네이트온 클라이언트</title>
+			<link>http://blog.kfmes.com/232</link>
+			<description>틈틈히 만들어오던 안드로이드용 네이트온 클라이언트 JateRoid (자테로이드)를 오늘 아침에 마켓에 등록했습니다.  등록한지 몇시간 지나지 않았는데, 커뮤니티등에서 반응이 괜찮네요   이거 만들면서, 간만에 코딩하면서 밤을 새봤네요</description>
+			<category>JaTeOn</category>
+			<category>android</category>
+			<category>JateON</category>
+			<category>JateRoid</category>
+			<category>nateon</category>
+			<category>네이트온</category>
+			<category>안드로이드</category>
+			<author>kfmes</author>
+			<guid>http://blog.kfmes.com/232</guid>
+			<comments>http://blog.kfmes.com/232#entry232comment</comments>
+			<pubDate>Sun, 21 Feb 2010 12:54:02 +0900</pubDate>
+		</item>
+		<item>
+			<title>옷걸이 HDTV 안테나 제작기</title>
+			<link>http://blog.kfmes.com/231</link>
+			<description>이사온뒤로 벽면 안테나 단자에 안테나 케이블을 연결해봤으나 제대로 나오는곳이 없어서 TV수신카드를 쓰지 못하고 있었는데 며칠전 옷걸이로 HDTV 안테나를 만들수 있다는 글을 보고선, 오늘 만들어보았다. http://nice2u.textcube.com/56 참고했었던 블로그 옷걸이 윗부분의 구부러진 부분 은 잘라내고 삼각형부분을 편다.  추가로 구매한 부품들은 RF M(매칭), RF F/F 개당 600원에 근처 전기사에서 구입했다.  한변의 길이를 1..</description>
+			<category>blog</category>
+			<category>HDTV 안테나</category>
+			<category>안테나</category>
+			<category>옷걸이</category>
+			<category>자작 안테나</category>
+			<author>kfmes</author>
+			<guid>http://blog.kfmes.com/231</guid>
+			<comments>http://blog.kfmes.com/231#entry231comment</comments>
+			<pubDate>Sat, 16 Jan 2010 21:59:26 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

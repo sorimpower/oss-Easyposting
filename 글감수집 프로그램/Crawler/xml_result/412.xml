@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="http://rss.egloos.com/style/blog.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>Serendipitous</title>
+	<link>http://thinkr.egloos.com</link>
+	<description>소프트웨어, 인터넷, 웹, 그리고 세상에 대한 작은 생각</description>
+	<language>ko</language>
+	<pubDate>Mon, 19 Dec 2011 02:33:50 GMT</pubDate>
+	<generator>Egloos</generator>
+	<image>
+		<title>Serendipitous</title>
+		<url>http://pds21.egloos.com/logo/201112/05/44/d0004344.jpg</url>
+		<link>http://thinkr.egloos.com</link>
+		<width>80</width>
+		<height>60</height>
+		<description>소프트웨어, 인터넷, 웹, 그리고 세상에 대한 작은 생각</description>
+	</image>
+  	<item>
+		<title><![CDATA[ 블로그를 접습니다. ]]> </title>
+		<link>http://thinkr.egloos.com/2882765</link>
+		<guid>http://thinkr.egloos.com/2882765</guid>
+		<description>
+			<![CDATA[ 
+  처음 이곳 이글루스에 입주하여 블로그를 쓰기 시작한 것이 2006년 말이니 어언 5년입니다. <br />
+<br />
+그간 <span style="font-weight: bold;">우연(serendipity)</span>이라는 단어를 제목으로 걸고 자주는 아니지만 그래도 이따금씩 글을 써 왔던 것 같습니다. 직업이 직업이다 보니 주로 웹과 인터넷, 그리고 소프트웨어 개발에 관한 글이 많았고, 더러는 그저그런 신변잡기 였을테죠. 글을 쓴다는 것은, 특히 다른 사람들이 볼 수도 있다는 전제 하에 글을 쓴다는 것은 제법 부담되는 일이기도 하지만, 그래도 그만큼 글쓰는 사람 개인에게 적쟎은 도움이 되는 것도 사실입니다. 블로그로 인해 더 많은 책을 읽었고 블로그로 인해 더 많은 사람들과 만나 얘기나눌 수 있었으니 블로그로 인해 더 성장하고 우일신할 수 있었다고 해야겠죠.<br />
+<br />
+지금부터는 또 조금 다른 삶을 살아보고자 합니다.<br />
+이제 이 블로그는 지난 추억의 한켠으로 넘길까 하네요.<br />
+<br />
+그간 제 블로그를 방문해 주시고 제게 멘토해 주시고 제게 힘이 되어 주신 모든 분들께 감사드립니다.<br />
+<br />
+건강하고 행복하세요!<br />
+<br />
+<br />
+<img class="image_left" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds23.egloos.com/pds/201112/16/44/d0004344_4eead5746854e.png" width="400" height="424.40087146" onclick="Control.Modal.openDialog(this, event, 'http://pds23.egloos.com/pds/201112/16/44/d0004344_4eead5746854e.png');" align="left" /><br />
+			 ]]> 
+		</description>
+
+		<comments>http://thinkr.egloos.com/2882765#comments</comments>
+		<pubDate>Fri, 16 Dec 2011 05:27:46 GMT</pubDate>
+		<dc:creator>sjoonk</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ RSS, SNS, 그리고 Feed의 미래 ]]> </title>
+		<link>http://thinkr.egloos.com/2877298</link>
+		<guid>http://thinkr.egloos.com/2877298</guid>
+		<description>
+			<![CDATA[ 
+  웹을 검색하다 우연히 제법 오래된 블로그 글 하나를 발견한다. 제목은 "<a target="_blank" href="http://blog.openmaru.com/18">온 국민이 Rss Reader를 쓰게 되면?</a>" 인데, 지금은 사라지고 없는 <a href="http://blog.openmaru.com/">오픈마루 스튜디오</a>에서 진행한 <a target="_blank" href="http://www.hanrss.com/">한RSS</a> 개발자 서성렬 님과의 대화를 담은 2006.11월의 글이다. 대화 중에 질문자가 왜 사용자들이 Rss Reader를 쓰지 않을까라고 묻자 다음과 같은 답변이 나온다.<br />
+<blockquote style="font-style: italic;">서 : 가장 큰 건 사실 이용자가 Rss Reader를 씀으로서는 얻는 가치가 명확하지 않다는 것이 아닐까 합니다. 왜 써야되는지를 사실 모르는... 메일, 카페는 명확하잖아요? 메일을 주고 받고 카페에서 정보를 얻는다든가 의미가 명확한데... 그리고, Rss를 지원하고 있는 사이트가 현재로서는 블로그 정도가 아닐까...</blockquote><br />
+그렇게 웹 업계에 있는 사람들은 RSS의 확산이 더딘 이유를 궁금해 했고 어떻게 하면 조금 더 많은 사용자들이 RSS를 접할 수 있을까 하는 방안에 골몰했던 적도 있었던 것 같다.<br />
+<br />
+그렇지만 실제로 RSS는 Rss Reader라고 하는 카테고리를 통해 대중화되지는 않았다. 오히려 <span style="font-weight: bold;">소셜 네트워크 서비스(SNS)</span>가 일반화되면서 "RSS 피드를 구독"하는 컨셉은 SNS 서비스 속에 자연스레 녹아들어 그 고민을 해소할 수가 있었다. 트위터를 "팔로우(follow)" 하거나 페이스북에서 "친구맺기"를 함으로써 또는 아이폰에서 팟캐스트(podcast)를 구독함으로써 결국 우리는 알든 모르든 다른 사람의 피드를 구독하게 된 것이다. 그 이름을 "타임라인"이라 부르건 아니면 "뉴스피드" 혹은 "팟캐스트"라 하건 우리가 받아보는 건 결국 <span style="font-weight: bold;">피드(feed)</span>다. 메타포만 달리 했을 뿐 같은 기술 컨셉을 사용하고 있다.<br />
+<br />
+이미 많은 사용자들이 트위터나 페이스북을 사용하고 있으니, "온 국민이 Rss Reader를 쓰는" 문제는 이제 해결된 것처럼 보인다.<br />
+<br />
+그렇지만 여전히 그때나 지금이나 변함없이 남은 문제는 "<span style="font-weight: bold;">정보과잉</span>"에 관한 문제다. 넘쳐나는 정보들을 어떻게 선별하고 필터링(filtering) 할 것인가 하는 문제는 페이스북 뉴스피드를 통해 친구의 피드를 구독하고 트위터 타임라인으로 팔로잉한 사람들의 피드를 보는 동안에도 똑같이 발생한다. <br />
+<br />
+<img class="image_right" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds23.egloos.com/pds/201111/29/44/d0004344_4ed48bb13d776.jpg" width="273" height="273" onclick="Control.Modal.openDialog(this, event, 'http://pds23.egloos.com/pds/201111/29/44/d0004344_4ed48bb13d776.jpg');" align="right" />두 가지 시각이 있는 것 같다. 하나는 기계가, 즉 기술이 결국 개인화된 필터링을 통해 사용자 개개인별로 어떤 정보가 중요하고 또 어떤 정보가 필요한지를 선별하여 소위 "맞춤 정보"를 제공하는 세상이 올 것이라 생각하는 쪽이다. 구글이 뉴스 서비스를 통해 엄선된 뉴스들을 모아서 제공하거나 페이스북이 최근 새로 도입한 타임라인(Timeline)에서 선보인 기술 같은 것들이 모두 이런 맥락이다.<br />
+<br />
+또 하나는 결국 이러한 일은 인간만이 할 수 있다고 생각하는 쪽이다. 그래서 미술관에서 작품들을 선별하듯 콘텐츠에 대해서도 이런 일을 수행하는 소위 "<span style="font-weight: bold;">콘텐츠 큐레이터</span>(content curator)"들이 갈수록 중요하다고 말한다. 어찌보면 우리는 모두 피드를 발산하는 콘텐츠 큐레이터니까.<br />
+<br />
+미래는 물론 이 두 시각의 어느 중간 쯤에 있을 가능성이 높다. 변하지 않는 것이 있다면 피드(feed)가 정보 흐름의 기본 단위로 자리매김했다는 점과, 이렇게 흐르는 피드를 모으고 가공하고 개인화하려는 노력들이 앞으로의 웹에서도 여전히 중요하고 따라서 계속 새로운 실험과 시도들이 생겨날 것이란 점이다. <br />
+			 ]]> 
+		</description>
+
+		<comments>http://thinkr.egloos.com/2877298#comments</comments>
+		<pubDate>Tue, 29 Nov 2011 06:57:44 GMT</pubDate>
+		<dc:creator>sjoonk</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 레일스 3.1 Asset Pipeline 들여다보기 ]]> </title>
+		<link>http://thinkr.egloos.com/2841360</link>
+		<guid>http://thinkr.egloos.com/2841360</guid>
+		<description>
+			<![CDATA[ 
+  <p><img class="image_right" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds21.egloos.com/pds/201108/22/44/d0004344_4e51f912c74bb.jpg" width="284" height="190" onclick="Control.Modal.openDialog(this, event, 'http://pds21.egloos.com/pds/201108/22/44/d0004344_4e51f912c74bb.jpg');" align="right" />조만간 출시될 레일스 3.1 버전에는 에셋 파이프라인(asset pipeline)이 탑재될 예정입니다. <strong>에셋 파이프라인</strong>(이하 'AP')이란 한마디로 웹 애플리케이션의 프론트엔드에서 사용되는 각종 자원(이미지 파일이나 CSS 또는 자바스크립트 파일과 같은)을 한 곳에 모아서 처리하고 제공한다는 발상입니다. 게임 개발에서 흔히 말하는 바로 그 파이프라인 개념을 웹 개발에도 도입했다고 보면 되겠습니다.</p><br />
+<p>물론 지금까지 레일스에 이런 자원 파일의 처리와 관련된 기능이 없었던 것은 아니지만, 기본적으로 자원 파일은 애플리케이션 개발의 입장에서 보면 '별로 중요하지 않은' 부분에 속했던 것이 사실입니다. 따라서 이번에 AP가 프레임워크 속으로 들어왔다는 사실은 그만큼 웹 개발에 있어 프론트엔드 개발의 중요성이 높아졌음을 반영합니다. 예전에는 그저 정적인(static) 자원에 불과했던 자바스크립트나 CSS 가 HTML5나 CSS3, 하이브리드 웹앱 개발 등과 맞물려 이제는 그야말로 웹 개발의 중심으로 떠오르고 있고, 레일스 팀 역시 이런 흐름을 놓치지 않고 과감하게 프레임워크 속에 집어 넣는 시도를 한 것입니다. 조금 더 자세한 설명은 레일스 창시자인 <a href="http://www.youtube.com/watch?v=cGdCI2HhfAU">DHH가&nbsp;지난 RailsConf 2011에서 했던 키노트 연설</a>을 참고하면 좋을 것 같습니다.</p><br />
+<p>이미 AP가 무엇이며 어떻게 사용하는지에 대해서는 자료들이 많이 나와 있기에 이 글에서는 간략히 요약만 해 보겠습니다 (개발자 관점입니다).<br />
+</p><br />
+<ul><li>자원 파일들을 놓는 위치가 변경됩니다. 예전에는 public 디렉터리 아래의 images, javascripts, stylesheets 디렉터리 속에 각각 이미지와 자바스크립트, 그리고 CSS 파일들을 두었는데, 이제는 app/assets 디렉터리, 또는 lib/assets 이나 vendor/assets 디렉터리 아래에 자원 파일을 놓게 됩니다.</li><br />
+<li>이렇게 놓인 자원들은 모두 /assets 라는 단일 URL로 접근하게 됩니다. 따라서 예를 들어 hello.js 라는 자바스크립트 파일을 app/assets/javascripts 디렉터리에 두었다면, 브라우저에서는 /assets/hello.js 와 같이 접근 가능합니다.</li><br />
+<li>모든 자바스크립트와 CSS 자원 파일들은 자동으로 합쳐지고 코드 최소화 및 압축이 이루어진 상태로 제공됩니다. 이를 위해 내부적으로 레일스는 <a href="http://getsprockets.org/">Sprockets</a>라는 에셋 패키징 도구(asset packager)를 사용합니다.</li><br />
+<li>CSS 대신 SASS/SCSS를, 그리고 자바스크립트 대신 CoffeeScript를 사용할 수 있으며, <a href="http://sass-lang.com/">SASS</a>나 <a href="http://jashkenas.github.com/coffee-script/">CoffeeScript</a>로 작성된 파일은 자동으로 각각 CSS와 자바스크립트 파일로 컴파일되어 마찬가지로 에셋 파이프라인을 통해 제공됩니다. CSS 대신 SASS를, 그리고 자바스크립트 대신 CoffeeScript 를 쓰게 되면 프론트엔드 개발의 생산성이 향상됩니다.</li><br />
+<li>프로덕션 환경에서는 이런 자원 파일들을 정적인 파일로 생성해서 웹 서버나 CDN에 둘 수 있도록 하고 있습니다.</li><br />
+</ul>개발자 입장에서는, 얼핏 보기에 그저 자원 파일을 두는 위치만 바꿔주면 되는 수준의 사소한 변화이지만, 이 "사소한 변화"의 밑바닥에는 레일스의 "Fast by default" 전략이 반영되어 있습니다. 바로 웹 개발의 생산성을 높이자는 것이죠.<br />
+<p><br />
+</p><p>그럼 이제 실제로 이 AP가 어떤 메커니즘으로 작동하는지 확인하기 위해 레일스 소스코드 속으로 한번 들어가 보겠습니다. ActionPack 부터 시작해 보겠습니다. actionpack 속엔 레일스 프레임워크에 AP 기능을 추가하는 <a href="https://github.com/rails/rails/blob/v3.1.0.rc6/actionpack/lib/sprockets/railtie.rb">sprockts/railtie</a> 가 정의되어 있습니다. (모든 설명은 <a href="https://github.com/rails/rails/tree/v3.1.0.rc6">rails 3.1.0-rc6</a> 을 기반으로 합니다)</p><br />
+<p><img border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds20.egloos.com/pds/201108/22/44/d0004344_4e51f8236211c.png" width="500" height="170.833333333" onclick="Control.Modal.openDialog(this, event, 'http://pds20.egloos.com/pds/201108/22/44/d0004344_4e51f8236211c.png');" /></p><br />
+<p>이 코드는 레일스 애플리케이션이 로드될 때 AP를 초기화하는 부분에 해당됩니다. (이글루스 블로그가 코드 내장을 허용하지 않기 때문에 어쩔 수 없이 스크린샷으로 대신합니다) 여기서 보면 app.assets 를 할당하는 부분이 보이는데, 바로 이 부분이 에셋 파이프라인을 설정하고 있는 부분입니다. 여기 나와 있는 Sprockets::Environment 객체가 바로 AP인 셈입니다.</p><br />
+<p>또한 에셋의 캐시 저장소(cache_store)를 설정하는 부분도 보입니다. 별도의 캐시 저장소를 지정하지 않으면 레일스의 디폴트 캐시 저장소인 ActiveSupport::Cache::FileStore를 사용하여 레일스 애플리케이션의 tmp/cache/assets 디렉터리 아래에 모든 에셋의 캐시를 저장합니다.</p><br />
+<p>코드를 조금 더 읽다 보면 다음과 같은 부분이 나옵니다. 레일스 애플리케이션의 초기화의 끝자락에서 호출되는 콜백 루틴입니다.</p><br />
+<p><img border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds20.egloos.com/pds/201108/22/44/d0004344_4e51f8280ace1.png" width="500" height="252.5" onclick="Control.Modal.openDialog(this, event, 'http://pds20.egloos.com/pds/201108/22/44/d0004344_4e51f8280ace1.png');" /></p><br />
+<p>AP의 경로를 설정하고 각종 자원별 압축 도구(compressor)를 설정한 다음 라우터에 AP를 마운트(mount) 시키고 있습니다. 코드에 나와 있는 mount app.assets =&gt; config.assets.prefix 에 의해 이제 모든 /assets URL 호출은 앞서 설정한 에셋 파이프라인 객체인 Sprockets::Environment 가 받아서 처리하게 됩니다.</p><br />
+<p>그렇다면 이 Sprockets::Environment는 과연 무엇일까요? 예상했겠지만, 다름아닌 rack middleware 입니다. 따라서 /assets 로 시작하는 URL 호출이 들어 오면 바로 이 미들웨어에서 웹 요청을 처리하게 됩니다. 코드는 <a href="https://github.com/sstephenson/sprockets/blob/master/lib/sprockets/server.rb">sprockets/server</a> 이며, rack 서버에 의해 호출될 call() 메서드는 다음과 같습니다. 에셋을 찾아(asset_find) 그 에셋의 내용을 응답으로 반환합니다.</p><br />
+<p><img border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds22.egloos.com/pds/201108/22/44/d0004344_4e51f82b1c003.png" width="500" height="443.933823529" onclick="Control.Modal.openDialog(this, event, 'http://pds22.egloos.com/pds/201108/22/44/d0004344_4e51f82b1c003.png');" /></p><br />
+<p>지금까지의 내용만으로 다음과 같은 몇 가지 AP의 내부 메커니즘을 확인할 수 있습니다.<br />
+</p><br />
+<ol><li>/assets 으로 시작하는 모든 웹 요청은 rack 미들웨어인 Sprockets::Environment 가 받아서 처리합니다.<br />
+</li><li>이 때 Sprockets는 자원 파일들을 묶고, 최소화시키고, 압축하고, SASS나 CoffeeScript를 pre-compile 하는 일을 담당합니다.<br />
+</li><li>development 모드에서 파일들은 기본적으로 tmp/cache/assets 디렉터리 아래에 캐시되어 제공됩니다.<br />
+</li><li>production &nbsp;모드에서는 Sprockets::Index 라는 캐시된 Environment 가 사용되어 액세스 속도를 높여 줍니다.<br />
+</li></ol>이 모든 AP 기능들은 레일스 3.1부터는 디폴트로 켜져 있으며, 기능을 끄려면 애플리케이션의 config/appliction.rb 파일에서&nbsp;config.assets.enabled = false 로 처리해 주면 됩니다. AP와 관련해서 더 자세한 내용은 다음 자료를 참고하시면 좋을 것입니다.<br />
+<br />
+<a href="http://railscasts.com/episodes/279-understanding-the-asset-pipeline">RailsCast #279 Understanding the Asset Pipeline<br />
+</a><a href="http://ryanbigg.com/guides/asset_pipeline.html">Rails Guide on Asset Pipeline</a><br />
+<a href="https://github.com/sstephenson/sprockets">Sprockets 소스코드</a><br/><br/>tag : <a href="/tag/레일스" rel="tag">레일스</a>			 ]]> 
+		</description>
+		<category>레일스</category>
+
+		<comments>http://thinkr.egloos.com/2841360#comments</comments>
+		<pubDate>Mon, 22 Aug 2011 06:33:16 GMT</pubDate>
+		<dc:creator>sjoonk</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ "공짜점심"의 경제학 ]]> </title>
+		<link>http://thinkr.egloos.com/2839665</link>
+		<guid>http://thinkr.egloos.com/2839665</guid>
+		<description>
+			<![CDATA[ 
+  <p> 얼핏 보면 <span style="font-weight: bold;">무상급식</span>은 <span style="font-weight: bold;">부자감세</span>와 닮았다. 가난한 부모를 둔 아이 부자 부모를 둔 아이 가릴 것 없이 모든 아이에게 국가가 공짜로 점심을 제공하는 것이니 부자 부모 입장에서 보자면 국가에 내는 돈이 줄어드는 것이고 따라서 부자감세라고 해야 할 것 아닌가. 그런데 왜 정작 부자감세를 주창하는 집권 여당에서는 무상급식을 반대하고 부자감세를 반대하는 야당에서 무상급식을 들고 나오는 걸까?</p><p><br />
+ </p><p> 정치나 교육 관점은 잘 모르니 접어 두기로 하고, 경제 관점에서만 한번 생각해 보자. 학교에서 아이들에게 점심을 제공하려면 점심값을 내야 한다. 아이들은 돈이 없으니 부모가 밥값을 내야 한다. 그래서 선생님은 아이를 통해 부모에게 가정통신문을 보낸다. 급식비를 은행계좌로 입금하라는 내용일 것이다. 여기까지가 경제학에서 흔히 말하는 <span style="font-weight: bold;">수익자 부담</span>이다. 즉 혜택을 얻는 사람이 그 비용을 부담하는 경제 원칙이다. <br />
+</p><p><br />
+</p><p>그런데 만약 어떤 아이의 집은 가정 형편이 어려워 비용을 부담할 수 없다고 어떡할까. 비용을 부담할 수 없는 가정의 아이에게 급식 제공을 중단할 것이 아니라면 누군가 다른 사람이 그 비용을 부담해야만 한다. <span style="font-weight: bold;">공짜점심은 없다</span>는 말은 바로 여기에 해당하는 말이다. 이 때 만약 학급의 여유있는 학부모들이 나서서 십시일반 비용을 분담하거나 선생님이 월급에서 부담할 것이 아니라면 결국은 국가가 나서서 부담할 수 밖에 없고 이 때부터 수익자 부담이라는 원칙은 무너진다. 정부의 부담이라는 것은 결국 국민의 세금으로 이루어지는 것이니 궁극적으로는 부담은 국민의 몫이 되는 것이다. 물론 여기서 말하는 국민은 정상적으로 세금을 내는 선량한 대한민국 국민 모두를 지칭한다.</p><p><br />
+</p><p>이 때 물론 범위의 문제가 생길 수 있다. 과연 어디까지 부담할 것이냐 하는 것이다. 즉 수익자 부담의 예외를 인정하는 범위의 문제다. 그 범위는 소득 하위 10%가 될 수도 있고 하위 50%가 될 수도 있지만, 하위 99% 혹은 소득 상위 50%라고 해도 상관없다. 경제논리로만 놓고 봤을 때는 누가 혜택을 입느냐는 중요한 문제가 아니며 수익자 부담의 예외를 인정한다는 것 자체가 중요하기 때문이다. 같은 맥락에서 비율(%) 역시 크게 문제가 될 건 없다. 1%가 되었건 100%가 되었건 결국 수익자 부담의 예외일 뿐이다.</p><p><br />
+</p><p> 수익자 부담이 지켜지지 않을 때 발생할 수 있는 가장 기본적인 경제 문제는 <span style="font-weight: bold;">도덕적 해이</span>(moral hazard)다. 내가 돈을 내는 게 아니니 아껴 쓸 생각이 적어지고 소위 <span style="font-weight: bold;">공유지의 비극</span>이 생겨날 수 있다는 점이다. 그렇지만 이 문제는 여기서 거론하지 말자. 논의의 초점을 흐리게 할 수 있기 때문이다. <br />
+</p><p><br />
+</p><p>다시 비용을 부담하는 측으로 돌아와 보자. 어쨌거나 그 비용은 국민이 부담하며 결국은 국민의 세금으로 충당된다. 이를 위해 정부는 기존 지출을 조정하든 아니면 세금을 더 걷을 수 밖에 없다. 개인으로부터 소득세를 걷든 기업으로부터 법인세를 걷든 어쨌거나 세금을 걷어야 하고, 세금제도가 <span style="font-weight: bold;">누진세제</span>, 즉 소득이 많으면 세금도 많이 내는 구조로 되어있는 우리 나라에서 결국 그 부담은 소득이 많은 측에 많이 돌아가게 된다. 이제야 우리는 알 수 있다. 왜 얼핏 보기에 부자감세처럼 보이는 무상급식을 소위 "부자당"이라고 하는 집권여당에서 반대하는가 하는 이유를 말이다. 결국 (경제 관점에서 보자면) 수익자 부담에서 벗어난 비용의 부담 문제이니 그 벗어나는 범위가 커지면 커질수록 부자들의 세부담도 늘어날 수 밖에 없는 까닭이다.<br />
+</p><p><br />
+</p><p> 가령, 우리집에는 학교 다니는 아이가 없는데 옆집엔 초등학교 다니는 아이가 산다고 하자. 나는 그 옆집 아이의 점심값을 내야 할까? <br />
+</p><p><br />
+</p><p> 이제 무상급식 투표는 우리에게 묻고 있다.&nbsp;<br />
+</p><ol><li>형편이 가난하면 내가 부담할 수도 있지만, 잘 사는 집까지 굳이 내가 부담할 이유가 있을까. </li><li>가난하건 아니건 ("<span style="font-weight: bold;">이러저러한 까닭</span>"으로) 내가 부담해도 상관없다.</li><li>나는 관심 없으니 알아서들 하쇼. (결국 2번이 <span style="text-decoration: line-through;">된다</span>된다고 한다.)</li></ol>p.s. "이러저러한 까닭"에 부쳐: <br />
+<br />
+<p>여기서 "이러저러한 까닭"은 경제와는 무관한 이유일 가능성이 높다. 어쩌면 사람들 개개인이 가진 철학과 가치관의 문제일 것이다. 가령 아이의 교육과 아이의 미래는 <span style="font-weight: bold;">공동체의 문제</span>라는 시각에서 바라보게 되면 조금 더 큰 <span style="font-weight: bold;">호혜주의</span>를 발견할 수도 있는 것이다. <span style="font-weight: bold;">우분투(ubuntu) 정신</span>이 우리에게 말하는 바로 그 "당신이 있기에 내가 있다"는 생각 같은 것 말이다.              </p>			 ]]> 
+		</description>
+
+		<comments>http://thinkr.egloos.com/2839665#comments</comments>
+		<pubDate>Thu, 18 Aug 2011 02:49:51 GMT</pubDate>
+		<dc:creator>sjoonk</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 라이프블로깅 vs. 라이프로깅 ]]> </title>
+		<link>http://thinkr.egloos.com/2834425</link>
+		<guid>http://thinkr.egloos.com/2834425</guid>
+		<description>
+			<![CDATA[ 
+  <p>"내가 죽으면 내 모든 디지털 기록들은 다 어떻게 될까?"</p><br />
+<p>가끔 이런 엉뚱한 상상을 해 보곤 한다. 어느날 갑자기 내가 죽는다면? 그 동안 내가 주고 받았던 이메일이며 추억이 담긴 사진들, 내가 문서로 저장해 두었던 글이며 메모들, 그리고 이젠 어디에 어떻게 들어가 있는지 나 자신도 잘 모를 때가 생기곤 하는 블로깅과 각종 소셜 네트워킹의 기록들. 이런 내 모든 기록들은 다 어떻게 될까하고. 뭐 물론 죽고나면 어떻게 되건 무슨 상관이람 할 수도 있을 테고 그냥 먼지처럼 사라지겠거니 하며 대수롭쟎게 여기고 지나칠 수도 있겠지만, 그래도 가끔 이런 생각을 하다보면 기록의 소중함을 느끼게 되기도 한다.</p><br />
+<p>우리가 삶을 살아가는 동안 만들어 내는 다양한 기록들은 크게 두 유형으로 나눌 수가 있는데, 하나는 <strong>라이프블로깅</strong>(life blogging)이고 다른 하나는 <strong>라이프로깅</strong>(life logging)이다. 블로깅과 로깅이 뭐가 다르냐고 할 수도 있겠지만, 블로깅은 자신의 삶을 다른 사람이 볼 수 있도록 공개된 웹 상에 올리는 것인 반면, 로깅은 나의 삶을 오직 나만이 볼 수 있도록 나만의 공간 속에 보관한다는 점에 차이가 있다. 말하자면 전자는 트위터나 페이스북 같은 곳에 올린 글이라면, 후자는 혼자만 보는 일기장 같은 것이다. 사람에 따라 다르긴 하겠지만, 누군가 나 아닌 다른 사람이 나의 삶을 볼 수도 있다는 생각을 가지고 만드는 기록은 그렇지 않고 오직 자기 자신만 보고 이용한다는 생각에서 만드는 기록과 여러 면에서 차이가 생긴다.</p><br />
+<p>라이프블로깅은 하지 않더라도 우리는 모두 어떤 식으로든 라이프로깅은 한다. 그 흔한 블로그나 SNS 한번 사용해 보지 않은 사람일지라도 컴퓨터에 일기를 쓰거나 메모를 하고 가족과 함께 보낸 소중한 기억들을 담은 사진을 폴더에 저장하고 영수증을 스캔하고 신문을 스크랩하며 생일카드나 기념이 될 만한 물건들을 보관한다. 비유야 다르겠지만, 정신분열을 극복하고 노벨상을 받은 경제학자 존 내쉬의 일대기를 다룬 영화 &lt;뷰티풀 마인드&gt;에서 주인공 러셀 크로가 아무도 모르는 자기만의 비밀 공간 속에서 하루하루 기록을 모아 나가는 것처럼, 어쩌면 우리도 그렇게 나만의 기록을 만들고 그 기록을 통해 나만의 우주를 만들어 나간다.</p><br />
+<p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds18.egloos.com/pds/201108/05/44/d0004344_4e3ad904f017f.jpg" width="500" height="266" onclick="Control.Modal.openDialog(this, event, 'http://pds18.egloos.com/pds/201108/05/44/d0004344_4e3ad904f017f.jpg');" /></div></p><br />
+<p>라이프로깅을 하는 가장 큰 이유는 물론 기억을 하기 위함이다. 마이크로소프트의 수석과학자로 '완전한 기억 프로젝트'를 추진한 바 있는 고든 벨이 쓴 &lt;<a href="http://www.aladin.co.kr/shop/wproduct.aspx?ISBN=8935208159">디지털 혁명의 미래</a>&gt;에서는 이런 인간의 기억을 크게 '근육기억', '의미기억', '자전적 기억' 이라는 세 가지 다른 시스템으로 분류하고 있는데, '<strong>근육기억</strong>(절차적 기억)'은 자전거를 타거나 발레, 스포츠 처럼 물리적 활동을 할 때 사용하는 기억이고, '<strong>의미기억</strong>'은 말 그대로 어떤 의미나 개념에 대한 기억, 그리고 '<strong>자서전적 기억</strong>'은 과거에 있었던 경험에 대한 기억을 일컫는다. 이 중 근육기억을 증가시킬 수 있는 방법이야 금방 나오기 힘들겠지만, 두번 째와 세번 째 즉, 의미에 대한 기억과 경험에 대한 기억은 라이프로깅에 의해 확장될 수 있다.</p><br />
+<p>요즘은 갈수록 좋아지는 디지털 도구들 덕에 라이프로깅과 라이프블로깅 하기가 점점 쉬워지고 있다. 모바일 디바이스와 클라우드 컴퓨팅 환경은 우리의 전자기록과 전자기억을 부추키기까지 한다. 없어서 문제가 아니라 오히려 너무 많아서 문제가 된다. 누구든 나름대로 몇 가지씩 자신만의 도구들을 가지고 있을 것이다. 개인적으로 나는 의미기억을 위한 용도로는 위키(wiki)를 쓰고, 경험기억의 용도로는 이메일과 <a href="http://posterous.com/">Posterous</a>를 애용한다. (참고로 Posterous는 이메일로 쓰는 블로그 서비스인데 블로그 자체를 비공개로 설정할 수가 있다) 경험기억을 위해 이메일을 사용하는 걸 구닥다리 발상이라고 생각할 수도 있지만 어디서건 간편하게 기록하여 저장하는데 이메일만큼 간단하면서도 쉬운 도구를 아직 찾지 못했기 때문이다.</p><br />
+<p>다시 처음으로 돌아가자. 내가 죽으면? 아마 내 모든 디지털 기록들은 내 컴퓨터 속 하드디스크 어딘가와 (그보다는 훨씬 더) 내 계정의 클라우드 어딘가에 남아 있을 것이다. 핑(ping)을 때려 보기 전엔 내가 살았는지 죽었는지 알 도리가 없을 그 기억들은 어쩌면 나보다도 더 오래 살 것이다. 그 무렵 나는 그때까지 라이프로깅 모드로 관리해 오던 내 기억의 스위치를 "공개" 모드로 돌릴 작정이다. 클릭 한번이면 되니 그리 어려운 일은 아닐 것이다. 부끄러운 기록들이지만 혹시라도 내 기록이 누군가 다른 이에게 추억이 되고 지도(map)가 될 수만 있다면.</p><br/><br/>tag : <a href="/tag/책" rel="tag">책</a>,&nbsp;<a href="/tag/도구" rel="tag">도구</a>,&nbsp;<a href="/tag/기억" rel="tag">기억</a>,&nbsp;<a href="/tag/라이프로깅" rel="tag">라이프로깅</a>			 ]]> 
+		</description>
+		<category>책</category>
+		<category>도구</category>
+		<category>기억</category>
+		<category>라이프로깅</category>
+
+		<comments>http://thinkr.egloos.com/2834425#comments</comments>
+		<pubDate>Thu, 04 Aug 2011 17:38:15 GMT</pubDate>
+		<dc:creator>sjoonk</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Data.go.kr 사용기 #2: 프로그램 서비스 ]]> </title>
+		<link>http://thinkr.egloos.com/2833837</link>
+		<guid>http://thinkr.egloos.com/2833837</guid>
+		<description>
+			<![CDATA[ 
+  <p><a href="http://thinkr.egloos.com/2822368">지난 번 블로깅</a>에 이어 두 번째 탐방입니다. 지난 번에는 새로 오픈한 <a href="http://www.data.go.kr/Main.do">대한민국 공유자원포털</a> 서비스의 전반적인 분위기를 한번 알아 봤다면, 이번에는 실제로 그 속에 어떤 데이터가 있고, 그 내용은 어떤 것들인지 한번 알아보기로 하겠습니다. 참고로, 대한민국 공유자원포털 서비스라는 것은 한마디로 <strong>우리나라 정부 및 공공기관에서 국민에게 개방하여 제공하는 각종 데이터와 프로그램(오픈 API)을 한 곳에 모아놓은 포털</strong>이라고 할 수 있습니다.</p><br />
+<p>포털의 메인페이지에 보면 이 포털에서 제공하는 프로그램과 데이터의 종류와 양이 잘 요약되어 있습니다. 프로그램(오픈API를 말합니다)의 경우&nbsp;"23개 기관 501종", 데이터(엑셀이나 HWP 파일 등의 형태로 제공되는 정보를 말합니다)의 경우 "17개 기관 7,050종"이라고 되어 있네요. 그리고 그 아래에는 각각의 데이터들을 다시 지식활동, 경제활동, 문화/예술 등 8개 카테고리로 분류하여 디렉터리를 구성해 두고 있습니다.</p><br />
+<p>오늘은 그 중에서도 프로그램 서비스 부분만 어떤 데이터들이 있는지 한번 살펴보도록 하겠습니다.</p><br />
+<p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds21.egloos.com/pds/201108/03/44/d0004344_4e390ab6e5ca1.png" width="500" height="225.833333333" onclick="Control.Modal.openDialog(this, event, 'http://pds21.egloos.com/pds/201108/03/44/d0004344_4e390ab6e5ca1.png');" /></div></p><br />
+<p>프로그램 서비스는 사이트에 "서비스, 소프트웨어, 컴포넌트 형태의 국가공유자원" 이라고 정의되어 있지만, 2011.8월 현재 <span style="font-weight: normal; font-size: medium;">소프트웨어</span>는 1건 밖에 없고, <span style="font-weight: normal; font-size: medium;">컴포넌트</span>는 기존에 정부가 별도로 추진한 <a href="http://www.egovframe.go.kr/Main.do">전자정부 표준프레임워크</a>의 산출물을 그대로 옮긴 것이기 때문에, 여기서는 <span style="font-weight: normal; font-size: medium;">서비스(오픈 API) 259종</span>만 보도록 하겠습니다. 참고로, 전자정부 표준프레임워크라고 하는 것은, 저도 이번에 알았지만, 정부가 각종 웹 개발에 들어가는 비용을 줄이고 IT 효율성을 높이기 위해 오픈소스 형태로 배포하는 J2EE 기반의 웹 프레임워크입니다. 이게 왜 필요한지, 왜 정부가 이런 일에 예산을 써야 하는지는 모르겠지만, 아무튼 스프링(Spring) 이나 루비온레일스(Ruby on Rails) 또는 쟁고(Django) 같은 것을 정부가 돈 주고 만들어서 Apache 2.0 라이선스를 붙여 오픈소스로 배포한다고 생각하시면 될 것 같습니다.</p><br />
+<p>다시 본론으로 돌아와서, 서비스의 종류를 한번 봅니다. 서비스 제공기관 별로 보니 국가행정기관이 66%로 가장 많고, 이어서 민간기관이 22%군요. 민간기관이 뭘까 싶어 의아해서 봤더니, 네. 네. 그렇습니다. 바로 네이버나 다음, SK텔레콤, 알라딘서점 같은 인터넷 기업들에서 제공하는 오픈 API 들입니다. 하기야 이것들도 "국가공유자원"이긴 하죠.^^ 서비스에 대한 더 자세한 내역은 <a href="http://www.data.go.kr/pubr/stt/OpenApiProvdStatsList.do">서비스 제공통계</a>를 참고하시면 될 것 같습니다.</p><br />
+<p><strong><span style="font-weight: normal;"><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds21.egloos.com/pds/201108/03/44/d0004344_4e390abcd0c53.png" width="450" height="472" onclick="Control.Modal.openDialog(this, event, 'http://pds21.egloos.com/pds/201108/03/44/d0004344_4e390abcd0c53.png');" /></div></span></strong></p><br />
+<p>여기 나와 있는 모든 오픈API 들을 다 둘러보기엔 품이 너무 많이 걸릴 듯 해서 우선 두어 가지만 (무작위, 아니 마음 내키는 대로) 한번 들어가서 사용해 보기로 했습니다. 우선 최근 폭우로 관심이 높아진 <a href="http://www.data.go.kr/searchSvc.do?popView=2&amp;userClassification=B00034">재난관리</a> 부분을 한번 들어가 보았습니다. 첫 페이지에 산사태위험정보, 침수상황정보 같은 것들이 보이는군요.</p><br />
+<p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds18.egloos.com/pds/201108/03/44/d0004344_4e390abfe98a9.png" width="500" height="339" onclick="Control.Modal.openDialog(this, event, 'http://pds18.egloos.com/pds/201108/03/44/d0004344_4e390abfe98a9.png');" /></div></p><br />
+<p>소방방재청에서 제공하는 <a href="http://www.data.go.kr/pubr/use/pri/OldopenapiDetailSch.do?returnPage=list&amp;pblonsipResrcePk=uddi:711b3cc4-4e14-4f14-9276-dcf88239019f">산사태위험지예보정보</a>를 한번 조회해 보기로 하였습니다. SOAP 프로토콜의 End Point URL이 나와 있고, 활용신청은 해당 제공기관에 문의하라고 되어 있군요. 그래서 사이트에 나와 있는 제공기관 담당자에게 전화를 걸어 보기로 했습니다. 앗. "전원이 꺼져 있어 소리샘으로 연결" 되는군요. ㅜㅜ 지금 시각 오후 5시. 벌써 퇴근하신 건 아닐텐데. 아마 수해복구 때문에 바쁘신가 봅니다.</p><br />
+<p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds20.egloos.com/pds/201108/03/44/d0004344_4e390ac5e1bcb.png" width="400" height="280" onclick="Control.Modal.openDialog(this, event, 'http://pds20.egloos.com/pds/201108/03/44/d0004344_4e390ac5e1bcb.png');" /></div></p><br />
+<p>그래서 이번엔 <a href="http://www.data.go.kr/pubr/use/pri/OldopenapiDetailSch.do?returnPage=list&amp;pblonsipResrcePk=uddi:78cd26a6-1227-4bf3-b264-9f8add79aa0b">침수상황정보</a>를 조회해 보기로 했습니다. 그런데 이런. &nbsp;제가 잘못 골랐군요. 서비스 제공방법이며 소관기관, 담당자, 담당자 연락처가 모두 앞의 것과 똑같습니다. 하는 수 없습니다. 담당자에게 이메일이라도 보내볼까 하다가 그만 두기로 합니다. 괜히 공무집행방해 소리라도 들을까 하는 소심함에서.</p><br />
+<p>이번에는 아예 관심을 돌려 봤습니다. 보건 분야에 보니 "<a href="http://www.data.go.kr/searchSvc.do?popView=2&amp;userClassification=B00043">의약품안전</a>" 카테고리가 보이네요. 그 중 <a href="http://www.data.go.kr/pubr/use/pri/NewopenapiDetailSch.do?returnPage=list&amp;pblonsipResrcePk=uddi:6efb39c3-629f-4019-8078-be97a013272a">건강기능식품 정보조회</a>를 한번 조회해 보기로 했습니다. 이런 건 앱(app)으로 만들어도 유용하지 않을까 생각하면서 말이죠. 역시 제공기관에 활용신청을 하도록 되어 있군요. 그래서 다시 페이지에 나와있는 제공기관 담당자에게 전화를 걸어 봅니다. 이번엔 되겠죠? 싶었는데 아니나 다를까. "지금 거신 번호는 국번이 없는 번호"라는 ARS 멘트가 나오고 The dial number wrong ... &nbsp;어쩌고 저쩌고 하는 영어 멘트가 이어 집니다. 제길헐. 이 사이트 만든 사람들은 도대체 검수를 발로 한 걸까요?</p><br />
+<p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds21.egloos.com/pds/201108/03/44/d0004344_4e390acad1ce6.png" width="400" height="292" onclick="Control.Modal.openDialog(this, event, 'http://pds21.egloos.com/pds/201108/03/44/d0004344_4e390acad1ce6.png');" /></div></p><br />
+<p>제가 생각해도 저는 제법 끈기가 있습니다. ^^ 이왕에 시작한 일, 마지막으로 한번만 더 해보도록 하겠습니다. 이번엔 제 관심분야이기도 한 <a href="http://www.data.go.kr/searchSvc.do?popView=2&amp;userClassification=B00026">금융</a>을 한번 들어가 보기로 했습니다. &nbsp;이틀 전에 미국의 오바마 정부에서 국가부채의 한도 증액도 하고 한 탓에, 우리나라의 국가부채 데이터나 외환보유고 현황 같은 자료들이 어쩌면 들어 있을지도 모른다는 일말의 기대와 함께 말이죠. 이윽고.. 왜 슬픈 예감은 틀린 적이 없는지, 금융이라는 카테고리 아래 공유자원포털에서 제공하는 서비스는 바로 바로 "<a href="http://www.data.go.kr/pubr/use/pri/OldopenapiDetailSch.do?returnPage=list&amp;pblonsipResrcePk=uddi:42b780ff-ecc7-4f7f-a0b7-e3e52ec820d5">테마체험관-경제</a>" 한 건 이더군요. 여기서 무슨 데이터를 제공하냐구요? 궁금하신 분은 들어가 직접 한번 클릭해 보시길.</p><br />
+<p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds21.egloos.com/pds/201108/03/44/d0004344_4e390accd9306.png" width="500" height="110" onclick="Control.Modal.openDialog(this, event, 'http://pds21.egloos.com/pds/201108/03/44/d0004344_4e390accd9306.png');" /></div></p><br />
+<p>총 259건의 데이터 중 고작 4건 들어가 보고 무얼 판단할 수 있을까요? 하지만 지난 번에 이어 "무언가 한번 써 보려고" 국가공유자원포털에 들어갔던 저는 이번에도 역시 실망을 잔뜩 머금고 나올 수 밖에 없었습니다. 이럴 거 도대체 왜 만들었을까요? 국민의 한 사람으로서, 트위터나 페이스북 혹은 네이버나 다음의 오픈 API 서비스를 하루가 멀다하게 매일 사용하고 있는 웹개발자의 한 사람으로서 이런 답답함은 그리 썩 즐거운 경험은 아니었던 것 같습니다. 이런 거 말고 정말이지 데이터의 종류와 그 내용(quality), 데이터의 진실성으로 건의도 하고 블로깅도 하고 싶습니다만.</p><br />
+<p>다음 번엔 오늘 미처 살피지 못한 데이터 공유자원 부분을 볼까 하는데, 해야 할지 말아야 할지. 어떻게 하는 게 좋을지. 쩝.<br />
+</p><br/><br/>tag : <a href="/tag/공공정보" rel="tag">공공정보</a>,&nbsp;<a href="/tag/거버먼트2.0" rel="tag">거버먼트2.0</a>			 ]]> 
+		</description>
+		<category>공공정보</category>
+		<category>거버먼트2.0</category>
+
+		<comments>http://thinkr.egloos.com/2833837#comments</comments>
+		<pubDate>Wed, 03 Aug 2011 08:46:06 GMT</pubDate>
+		<dc:creator>sjoonk</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 특화 SNS와 소셜그룹 서비스 ]]> </title>
+		<link>http://thinkr.egloos.com/2833390</link>
+		<guid>http://thinkr.egloos.com/2833390</guid>
+		<description>
+			<![CDATA[ 
+  <p>최근 국내에도 특정 비즈니스 도메인에 기반한 SNS 서비스들이 <a href="http://www.etnews.com/201108010141">하나 둘 생겨나고 있다</a>. 책이나 영화, 드라마, 숙박정보, 애완동물에 대한 SNS 까지 나온 모양이다. 사람들의 관심 대상이 될 수 있는 모든 것들이 결국 SNS의 소재가 될 수 있다고 보면, 앞으로 더 많은 다양한 쟝르와 도메인에서 다양한 SNS 서비스들이 앞다퉈 등장하지 않을까. <br />
+</p><p><br />
+</p><p>어찌보면, 관심있는 사람들의 모임이라는 점에서 이런 특화된 SNS 서비스들은 기존의 카페나 그룹스, 또는 커뮤니티 서비스들과 닮았다. 그래서인지 해외에서는 이미 이런 특화 SNS를 직접 만들고 운영할 수 있게 해 주는 서비스와 솔루션들이 많이 나와 있다. 대표적인 것이 <a href="http://www.ning.com">닝(ning)</a> 이겠지만 이것 말고도 <a href="http://www.jonbishop.com/2010/04/9-free-ning-alternatives-and-some-open-source-solutions/">여러 가지</a>가 존재한다. 이런 서비스나 솔루션들은 기본적으로 기존의 카페 게시판이나 커뮤니티 또는 그룹스 같은 기능에 트위터나 페이스북의 개념을 합쳐 놓은 것인데 소셜그룹(social group) 내지는 소셜 CMS로도 불리는 모양이다. 사실 소셜 네트워크 서비스의 기본적인 개념과 구성 패턴이 이미 <a href="http://www.amazon.com/Building-Social-Web-Applications-Establishing/dp/0596518757/ref=sr_1_3?ie=UTF8&amp;qid=1312270909&amp;sr=8-3">책</a>으로 나올 정도로 일반화 되었다고 보면, &nbsp;이제 우리 나라에서도 이런 소셜그룹 서비스가 하나 쯤 나올 때가 되지 않았을까도 싶다.</p><br />
+<p><img class="image_left" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds21.egloos.com/pds/201108/02/44/d0004344_4e37b411c2475.jpg" width="400" height="103.333333333" onclick="Control.Modal.openDialog(this, event, 'http://pds21.egloos.com/pds/201108/02/44/d0004344_4e37b411c2475.jpg');" align="left" /></p><br/><br/>tag : <a href="/tag/소셜네트워크" rel="tag">소셜네트워크</a>			 ]]> 
+		</description>
+		<category>소셜네트워크</category>
+
+		<comments>http://thinkr.egloos.com/2833390#comments</comments>
+		<pubDate>Tue, 02 Aug 2011 08:23:47 GMT</pubDate>
+		<dc:creator>sjoonk</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ SNS는 과연 비즈니스 플랫폼이 될 수 있을까? ]]> </title>
+		<link>http://thinkr.egloos.com/2832845</link>
+		<guid>http://thinkr.egloos.com/2832845</guid>
+		<description>
+			<![CDATA[ 
+  <p>페이스북의 프라이버시 논란이 한창 문제가 되던 2011년 초반 무렵 구글+가 등장했다. 구글+는 서클(circle) 이라는 개념을 들고 나왔는데 페이스북의 고질적인 약점으로 지적되어 오던 바로 그 부분을 공략한 것이었다. 서클이 물론 구글의 독창적인 아이디어는 아니지만, 구글이 뛰어났던 부분은 그 평범하기 이를 데 없는 그룹(group) 개념을 직관적인 UI와 함께 플랫폼 속에 잘 버무려 넣었다는 점이었다. 물론 또 하나의 새로운 "도구"의 등장으로 "관리해야 할 것"이 하나 더 늘어난 SNS 사용자들의 피로감이 높아가고 있는 게 문제이긴 하지만, 피로는 어떤 식으로든 풀릴 것이다.</p><br />
+<p>각설하고.&nbsp;오늘은 인터넷 비즈니스 측면에서 SNS를 한번 바라보고자 한다. 즉, 돈버는 인터넷으로서의 SNS의 가능성이다.</p><br />
+<p>돌이켜 보면, 사람들이 인터넷을 접하게 되면서부터 사람들의 소비패턴이 변하기 시작했다. 특히 검색엔진의 등장과 함께 이제 모든 사람들은 인터넷 검색을 통해 소비를 시작한다해도 과언이 아닌 세상이 되어 버렸다. 사람들은 뭐가 되었건 인터넷으로 검색하고 그 검색 결과를 출발점으로 삼거나 구매의 보조 수단으로 활용하고 있다.</p><br />
+<p>내 관심은 SNS가 과연 지금의 이런 사람들의 소비 패턴을 변화시킬건가 하는 점이다. 많은 사람들은 SNS의 등장으로 이제 사람들의 소비패턴이 또 한번 변할 것이라 얘기한다. 이제 사람들은 검색엔진을 사용하지 않는 대신 SNS를 통해 필요한 정보를 얻을 것이라고 말이다. 예컨대 SNS에 물어서 판단하고 SNS의 추천을 구매의 시작점으로 삼게 되리라는 생각이다.</p><br />
+<p>과연 그럴까? 과연 사람들이 이제 SNS를 통해 상품에 대한 정보를 얻고 상품의 구매를 시작할까?</p><br />
+<p>최근 한 블로그에서&nbsp;<a href="http://mickeykim.tistory.com/102">SNS의 사용행태를 세 가지로 구분</a>한 것을 보았다. SNS는 크게 브로드캐스팅(broadcasting), 친교(private networking), 그리고 토론(discussion) 용으로 사용되고 있다는 말이었다. 그렇다면 이 세 가지 영역 각각에 대해 과연 새로운 소비패턴이 끼어들 틈이 있는지를 한번 보자. 브로드캐스팅은 실은 매스미디어다. 따라서 매스미디어 정보를 가지고 구매를 하는 것은 기존의 매스미디어 방식과 특별히 다른 행위 패턴을 만들어낼 수 없다. 토론은 상품 구매와는 조금 거리가 먼 행위 패턴이고, 남는 것은 친교로, 보통 전문가들이 주목하는 부분도 바로 이 부분이다. 사람들은 모르는 사람들의 의견보다는 자기와 잘 아는 사람들의 말에 훨씬 더 큰 신뢰를 가지게 되는 바, 이에 근거하여 지인들 간의 정보교환이나 입소문을 통해 소비가 일어날 수 있으며, 앞으로는 더욱 더 그렇게 되리라는 판단인 것이다. 그런데 꼭 그런 것만 같지는 않다. 사람들마다 다르긴 하겠지만 친목 네트워크의 크기는 상대적으로 적고 또 주로는 자신과 비슷한 배경을 가진 사람들로 구성되기 때문에 무언가 "새롭고 전문적인 쇼핑 정보"를 만들어 낼 가능성은 상대적으로 크지 않은 까닭이다.</p><br />
+<p>결국 지금까지의 SNS 행태 어느 쟝르에도 사람들의 소비 행태나 소비 패턴을 변화시킬 요소는 존재하지 않아 보인다. 적어도 현재로는 그렇다는 말이다. 그렇다면 흔히 말하듯 "소셜"이 사람들의 소비 패턴을 바꿀 것이라는 것은 어쩌면 너무 아름다운 장미빛 환상일지도 모를 일이다.</p><br />
+<p>당연히 반론이 있을 것이다. 페이스북은 이미 인터넷 비즈니스 플랫폼이 된 지 오래고, 트위터 역시 비즈니스 플랫폼이 아니냐고 말할 수도 있다. 물론이다. 이미 사람들은 페이스북에 광고를 하고 팬 페이지(fan page)를 개설하여 고객과 소통한다. 페이스북 담벼락(profile)에는 상품이나 서비스에 대한 친구들의 추천이 올라오기도 한다. 트위터 또한 마찬가지다. 트위터 타임라인 속에서 이벤트성 광고는 이제 심심치 않게 접할 수 있는 트윗의 한 유형이 된지 오래고, 조만간 트위터는 상업용 광고 트윗을 타임라인 상단에 노출시킬 기세다. 이 정도면 변화라고 해야 하지 않을까? "소셜 쇼핑", "소셜 커머스" 세상이 오고 있다고 해야 하지 않을까?</p><br />
+<p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds18.egloos.com/pds/201108/01/44/d0004344_4e361ed81eed3.jpg" width="250" height="250" onclick="Control.Modal.openDialog(this, event, 'http://pds18.egloos.com/pds/201108/01/44/d0004344_4e361ed81eed3.jpg');" /></div></p><br />
+<p>내가 바라보는 각도는 패턴의 변화다. 사람들의 소비 행태가 변하는 것을 일컫는다. 지금까지 SNS가 보여준 것들은 실은 기존의 인터넷 비즈니스 모델 속에서 움직인 것들에 불과할 뿐, 새로운 패턴이 아직 등장하거나 나타난 것은 아니라는 말이다. 전국의 과반 이상이 SNS를 사용하는 오늘날도 사람들은 여전히 검색엔진을 통해 검색하고 그 결과를 기반으로 상품을 고르고 쇼핑을 한다.</p><br />
+<p>"매칭" 이 필요해 보인다. SNS가 사람들의 소비행태에 영향을 주기 위해서는 SNS에 기존의 행태, 즉 광고, 친교, 토론 외에 새로운 형태의 행위 패턴이 추가될 필요가 있으며 그건 바로 "매칭(matching)" 이라는 개념이다. SNS에서 무언가 원하는 것을 찾는다는 개념이 플랫폼 속에 녹아 들어야 한다. 그래야 사람들이 상품을 구매하는데 SNS를 이용할 수 있고, 그래야 SNS가 비즈니스 플랫폼이 될 수 있고, 그제서야 기존의 인터넷을 뛰어넘는 "새로운 인터넷" 모델이 나올 수 있을 것이다.</p><br />
+<p>우리는 필요한 물건을 사기 위해 마트에 가고 백화점에 간다. 백화점이나 마트에 갔다가 우연히 눈에 띄는 물건을 발견하고 가끔은 "충동구매"를 할 때도 있지만, 기본적으로 우리가 마트나 백화점에 가는 목적은 쇼핑을 하기 위해서다. 우리는 브로드캐스팅이나 친교 또는 토론을 하러 백화점에 가지는 않는다. 마찬가지로, 우리가 쇼핑을 위해 인터넷을 사용할 때 우리는 쇼핑 모드(shopping mode)로 전환한다. 즉, 우연히 쇼핑을 하는 것이 아니라, 쇼핑을 하는 동안 우리는 인터넷 검색엔진을 쇼핑 용도로 이용하고 있는 것이다. 인터넷 검색엔진은 스위스 육군 칼 같아서 카멜레온 같이 색깔을 바꾸곤 하는데, 쇼핑을 하는 동안 우리는 인터넷 검색엔진을 다름 아닌 바로 그 쇼핑을 위한 용도로 사용하고 있는 것이다. 즉 우리가 마트나 백화점에 있거나 혹은 우리가 인터넷 검색엔진으로 상품에 대한 정보를 찾을 때 우리의 컨텍스트(context)는 바로 "쇼핑"인 것이다.</p><br />
+<p>반면 SNS에서 우리는 "쇼핑"을 의도하진 않는다. 쇼핑모드로 SNS에 들어가는 사람은 없다는 말이다. 그러므로 SNS에서 일어날 수 있는 행태들은 고작해야 상품에 대한 호기심 유발 내지는 "충동구매" 정도다.&nbsp;사람들은 "쇼핑모드"에서 SNS를 하지 않는다. 따라서 적어도 현재의 SNS가 새로운 소비행태나 소비패턴을 만들어 낼 가능성은 적어 보인다. 어쩌면 이 문제야 말로 오늘날 SNS가 인터넷 비즈니스 플랫폼으로 나아가기 위해 풀어야 할 숙제가 아닐까.</p><br/><br/>tag : <a href="/tag/소셜네트워크" rel="tag">소셜네트워크</a>			 ]]> 
+		</description>
+		<category>소셜네트워크</category>
+
+		<comments>http://thinkr.egloos.com/2832845#comments</comments>
+		<pubDate>Mon, 01 Aug 2011 03:34:49 GMT</pubDate>
+		<dc:creator>sjoonk</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 오브제와 정체성(Object and Identity) ]]> </title>
+		<link>http://thinkr.egloos.com/2828484</link>
+		<guid>http://thinkr.egloos.com/2828484</guid>
+		<description>
+			<![CDATA[ 
+  <p>오브제와 정체성? 소프트웨어를 개발하는 사람들에겐 아마도 아주 낯익은 단어가 아닐까요. 맞습니다. 객체 지향 언어를 사용하게 되면 반드시 마주치는 단어가 바로 이 객체(object)와 식별(identity) 같은 단어들이니까요. 그런데 왜 '객체'니 '식별'이니 하는 편한 말 놔두고 '오브제'니 '정체성'이니 하는 고상한 말을 썼냐구요?</p><br />
+<p>맞습니다. <strong>컨텍스트(context)</strong>를 좀 전환하려구요. "오브제와 정체성"은 요즘 덕수궁 미술관에서 한창 전시 중인 미국 미술전의 소주제 중 두 번째 주제의 제목입니다. 지난 달부터 가보고 싶었던 전시회 였는데 그간 장마 비를 핑계삼아 차일피일 하다가 오늘 오전에야 보러 갔다지요. 미국 휘트니미술관의 작품들을 옮겨 온 것이라니, 아마 휘트니 미술관에 가 보신 분들이라면 별 흥미를 못 느낄 것도 같습니다.</p><br />
+<p>사실 미술에 문외한인 저로서는 <a href="http://ko.wikipedia.org/wiki/%ED%98%84%EB%8C%80_%EB%AF%B8%EC%88%A0">현대 미술</a>은 높은 장벽 그 자체입니다. 가끔 미술관을 찾긴 하지만 <strong>추상(abstraction)</strong> 수준이 너무 높다 보니 봐도 무슨 뜻인지 잘 모르겠고 모르니 감흥도 없고 재미도 못느끼는 악순환의 연속. 마치 LISP 같다고나 할까요. ㅋㅋ</p><br />
+<p>전시실 벽에는 이번 전시를 다음과 같이 소개하고 있습니다.</p><br />
+<blockquote><br />
+<p>" 마르셀 뒤상이 반(反)예술을 기치로 오브제object를 미술 속에 던져넣은 이후 <br />미술가들은 오브제의 새로운 가능성에 주목한다. "</p><br />
+</blockquote><br />
+<p>오브제? 반예술? 멋진 마케팅 문구입니다.</p><br />
+<p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds18.egloos.com/pds/201107/21/44/d0004344_4e27dcffc638e.jpg" width="318" height="269" onclick="Control.Modal.openDialog(this, event, 'http://pds18.egloos.com/pds/201107/21/44/d0004344_4e27dcffc638e.jpg');" /></div></p><br />
+<p>'오브제' 하면 그래도 안드로이드폰에서 돌아가는 증강현실 앱이라도 떠오르긴 하건만, 반예술은 또 뭐람?? 이런 무식한 생각으로 전시실들을 차례차례 둘러 봅니다. 다행히 몇몇 작품들은 예전에 다른 전시에서도 만난 적이 있는 낯익은 작품들이로군요 (아, 물론. 낯이 익다는 말이지 이해를 한다는 말은 아닙니다. ㅎㅎ). 제1전시실을 지나 제2전시실, 제3전시실, 그리고 특별전까지. 총 네 곳의 전시실을 돌아 다시 제 발길이 머문 곳은 바로 제2전시실 "오브제와 정체성" 이었습니다.</p><br />
+<p>전시실 문을 들어서면 먼저 마리솔의 작품 &lt;여인과 강아지&gt;(1964)가 반갑게 관람객들을 반깁니다(사진). 이 작품 속 중간에 있는 여인은 작가 자신의 모습이고 강아지는 작가가 자신의 애견을 박제하여 붙혔다고 하는군요. 프레드 토마셀리의 작품 &lt;오코틸로 야상곡&gt;(1993) 도 제겐 아주 인상적이었습니다. 보라색 바탕에 불꽃놀이를 표현하고 있는 이 작품은 알록달록한 알약들을 소재로 사용하였는데 가까이 가서 보기 전엔 깜쪽 같습니다. 찰스레이의 작품 &lt;퍼즐병&gt;(1995) 속에는 청바지에 안경을 쓴 미국 남자가 투명한 유리 병속에 들어가 서 있고, 프랭크 무어의 &lt;자장가 II&gt;(1997) 는 눈녹는 북극의 모습을 하얀 침대와 연결시켜 놓고 있습니다. 그리고 나가는 문이 있는 한 쪽 벽에는 이 전시 포스터에 등장하는 바로 그 &lt;부드러운 비올라(Soft Viola)&gt;가 걸려 있습니다. 클래스 올덴버그와 코샤 반 브뤼겐이 2002년에 제작한 작품이라고 하는데 폴리우레탄으로 만든 누렇고 큰 비올라 몸통이 마치 녹아내리기라도 할 것 같습니다.</p><br />
+<p>그러고보니 이제 조금 이해가 갈 듯도 합니다. 전시에 오기 전에 잠깐 짬을 내어 읽은 한 <a href="http://www.insightofgscaltex.com/?p=7327">블로그</a>에서 <strong>개념미술</strong>이라고 했던 말 말입니다.</p><br />
+<blockquote><br />
+<p>" 개념미술은 작품의 원본성을 중요하게 생각하지 않습니다. 그래서 뒤샹의 원래 변기가 없어져도 그 가치가 사라지지 않는 것은 작품이  가지고 있는 개념 때문입니다. 즉, 개념미술은 작품 형식의 기교나 아름다움으로부터 예술성을 찾는 것이 아니라 작품을 구성하는  아이디어나 과정을 예술이라고 생각하는 반(反) 미술적인 태도를 말합니다. "</p><br />
+</blockquote><br />
+<p>창의성이 중요하고 아이디어가 높이 평가되는 세상은 비단 기술 분야만의 문제는 아니었던 것 같습니다. 시각적으로 볼 것이 아니라 작품의 철학, 작품 속에 흐르는 작가의 아이디어를 읽으라는 말이었군요. 추상이 외려 사실처럼 느껴졌던 이유는 예술가의 그 아이디어와 철학이 마음에 와닿았기 때문이겠구요. 시각으로 느끼는 게 아닌 생각에 공감하는 예술. 그런 의미로 보자면 지금 전세계에서 스타트업(start-up) 들이 보여주고 있는 갖가지 기술혁신도 다 예술의 한 모양이 아닐까 생각해 보았습니다.</p><br />
+<p>아직 못 가보신 분이라면 한번 참관해 보실 것을 권합니다.</p><br />
+<p>특히 맨날맨날 컴퓨터 앞에서만 생활하는 저같은 "쟁이"에겐 컨텍스트 스위칭(context switching)만큼 중요한 게 또 있을까요?</p><br />
+<p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds20.egloos.com/pds/201107/21/44/d0004344_4e27dd0809c9d.jpg" width="428" height="600" onclick="Control.Modal.openDialog(this, event, 'http://pds20.egloos.com/pds/201107/21/44/d0004344_4e27dd0809c9d.jpg');" /></div></p>			 ]]> 
+		</description>
+
+		<comments>http://thinkr.egloos.com/2828484#comments</comments>
+		<pubDate>Thu, 21 Jul 2011 08:02:20 GMT</pubDate>
+		<dc:creator>sjoonk</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ WordPress로 메타블로그 만들기 ]]> </title>
+		<link>http://thinkr.egloos.com/2827562</link>
+		<guid>http://thinkr.egloos.com/2827562</guid>
+		<description>
+			<![CDATA[ 
+  <p><a href="http://ko.wikipedia.org/wiki/%EB%A9%94%ED%83%80%EB%B8%94%EB%A1%9C%EA%B7%B8">메타블로그</a>(metablog)는 한마디로 블로그들의 모음입니다. 통상적인 블로그가 한 사람의 콘텐츠로 구성되는 것과 달리 메타블로그는 여러 블로거들의 블로그를 모아서 제공하는 형태입니다. 요즘은 SNS와 마이크로 블로깅이 대세인지라 메타블로그의 인기가 시들해졌지만 불과 2-3년 전까지만 해도 국내외를 통틀어 많은 메타블로그들이 서비스되고 있었고 또 솔루션들도 많이 나와 있었던 걸로 기억됩니다. 비록 지금은 "퇴물"이 되어 버리긴 하지만, 그래도 아직은 가끔씩 여러 사람들의 블로그를 모으거나 다른 사람들과 함께 블로깅을 공유하고픈 니즈가 생겨나기도 합니다.<br />
+</p><br />
+<p>최근에 메타블로그를 하나 만들 일이 생겨서 이 방법 저 솔루션들을 찾고 알아보다가 워드프레스(WordPress)로 한번 만들어 보기로 했습니다. 워드프레스는 PHP 기반의 오픈소스 블로깅 도구이며 무엇보다도 강력한 확장성과 수없이 많은 테마/플러그인들로 이루어진 에코시스템(ecosystem)을 보유하고 있기 때문에, 이걸 잘 이용하면 메타블로그 만드는 것 역시 별로 어렵지 않습니다.</p><br />
+<p>여기서는 <a href="http://feedwordpress.radgeek.com/">FeedWordPress</a>라는 워드프레스 플러그인을 사용하기로 합니다. 이 FeedWordPress 플러그인은 간단히 말해 워드프레스블로그 사이트를 메타블로그 사이트로 '탈바꿈' 시켜 주는 기능 확장용 플러그인인데, 구독할 블로그들의 피드 주소를 등록해 주면 해당 피드를 가져와서 통상적인 블로그 포스트(Post) 처럼 만들어 뿌려주는 기능을 가지고 있습니다.</p><br />
+<p><a href="http://wordpress.org/extend/plugins/feedwordpress/">플러그인을 설치</a>하면 아래와 같이 관리자 모드에 Syndication 이라는 제목의 메뉴가 하나 생기고 이 메뉴를 통해 피드를 등록하고 관리할 수 있게 됩니다.</p><br />
+<p><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds21.egloos.com/pds/201107/19/44/d0004344_4e253791b5f1d.png" width="500" height="87.5" onclick="Control.Modal.openDialog(this, event, 'http://pds21.egloos.com/pds/201107/19/44/d0004344_4e253791b5f1d.png');" /></div></p>이렇게 설정을 마치고 나서 블로그 페이지에서 보면 방금 등록한 블로그들에서 추출된 피드 글들이 시간 순으로 차곡차곡 쌓여 표시되는 것이 보입니다. 또한 FeedWordPress는 여러 가지 확장 가능한 방법들을 플러그인 차원에서 제공하고 있기 때문에 커스터마이징도 간단하게 처리할 수 있습니다. 예를 들어, 피드 목록에 썸네일 이미지가 표시되도록 하고 싶다면 index 페이지의 소스 코드를 다음과 같이 고쳐주면 되는 식입니다(자세한 내용은 <a href="http://feedwordpress.radgeek.com/wiki/basic-concepts">여기</a>를 참고).<br />
+<div class="line" id="LC1"><span class="x"><br />
+</span><span class="x">// In a post context</span></div><div class="line" id="LC2"><span class="cp">&lt;?php</span> <span class="nv">$img</span> <span class="o">=</span> <span class="nx">get_feed_meta</span><span class="p">(</span><span class="s1">'face'</span><span class="p">);</span> <span class="k">if</span> <span class="p">(</span><span class="nb">strlen</span><span class="p">(</span><span class="nv">$img</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">)</span><span class="o">:</span> <span class="cp">?&gt;</span><span class="x"></span></div><div class="line" id="LC3"><span class="x">&lt;img src="</span><span class="cp">&lt;?</span><span class="o">=</span><span class="nv">$img</span><span class="cp">?&gt;</span><span class="x">" alt="" /&gt;</span></div><div class="line" id="LC4"><span class="cp">&lt;?php</span> <span class="k">endif</span><span class="p">;</span> <span class="cp">?&gt;</span><br />
+<span class="cp"></span><span class="cp"><br />
+</span></div><p>또한 FeedWordPress 기반의 확장 플러그인들도 제법 존재하기 때문에 함께 사용하면 좀 더 편리한 피드 관리를 할 수가 있습니다. 예를 들어, <a href="http://wordpress.org/extend/plugins/feedwordpress-duplicate-post-filter/">FeedWordPress Duplicate Post Filter</a>라는 플러그인은 중복된 피드의 업데이트를 방지하는 기능을 추가해 주며, <a href="http://wordpress.org/extend/plugins/yd-feedwordpress-content-filter/">YD FeedWordPress Content Filter</a>는 원 블로그에 있는 이미지들을 로컬 서버로 가져오는 등의 기능을 제공합니다.</p><br />
+<p>물론 워드프레스로 메타블로그를 만들 때 사용할 수 있는 플러그인은 이것 말고도 <a href="http://affiliateplex.com/2008/01/22/comprehensive-list-of-syndication-and-feed-aggregators-plugins-for-wordpress/">많이</a> 있습니다. 또, 꼭 워드프레스가 아니어도 <a href="http://sangogi.com/2656668">메타블로그를 위한 설치형 솔루션들</a>도 많이 나와 있기도 합니다. 그렇지만 쉽고 간단하게 확장성있는 메타블로그를 만들고 싶은 분들이라면 이 방법을 한번 사용해 보실 것을 추천합니다.</p><br/><br/>tag : <a href="/tag/오픈소스" rel="tag">오픈소스</a>,&nbsp;<a href="/tag/워드프레스" rel="tag">워드프레스</a>			 ]]> 
+		</description>
+		<category>오픈소스</category>
+		<category>워드프레스</category>
+
+		<comments>http://thinkr.egloos.com/2827562#comments</comments>
+		<pubDate>Tue, 19 Jul 2011 07:51:49 GMT</pubDate>
+		<dc:creator>sjoonk</dc:creator>
+	</item>
+</channel>
+</rss>

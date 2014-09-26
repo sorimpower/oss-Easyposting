@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="0.92">
+<channel>
+	<title>Ruby Inside</title>
+	<link>http://www.rubyinside.com</link>
+	<description></description>
+	<lastBuildDate>Thu, 31 Oct 2013 10:58:50 +0000</lastBuildDate>
+	<docs>http://backend.userland.com/rss092</docs>
+	<language>en</language>
+	<!-- generator="WordPress/3.2.1" -->
+
+	<item>
+		<title>This Month in Ruby: PeepCode Acquired, Rails 3.2.14, And More</title>
+		<description><![CDATA[<p>Welcome to a roundup of Ruby news, articles, videos, and more, for July 2013 cobbled together from my e-mail newsletter, <a href="http://rubyweekly.com/">Ruby Weekly.</a> </p>
+<p>Highlights include: PeepCode acquired by Pluralsight, Practicing Ruby archives made public, Rails 3.2.14, and an interesting interview with Matz.</p>
+<h3>Featured</h3>
+
+<p><a href="http://www.rubyflow.com/items/9606-practicing-ruby-s-public-archives" style="font-weight: bold;">The First Four Volumes of Practicing Ruby, Now Available Online</a>
+Practicing Ruby is a high quality, paid Ruby journal run by Gregory Brown, but he's made archives of over 60 articles available to the public. There's a ton of stuff to enjoy here.
+</p>
+
+
+<p><a href="https://peepcode.com/blog/2013/leveling-up" style="font-weight: bold;">PeepCode Acquired by Pluralsight</a>
+Ruby and Rails screencasting pioneer Geoffrey Grosenbach has announced he has sold Peepcode to Pluralsight, a large online training provider. <a href="http://www.rubyinside.com/this-month-in-ruby-peepcode-acquired-a-free-rails-4-0-book-rails-3-2-14-and-more-6156.html" class="read_more">Read More</a></p>]]></description>
+		<link>http://www.rubyinside.com/this-month-in-ruby-peepcode-acquired-a-free-rails-4-0-book-rails-3-2-14-and-more-6156.html</link>
+			</item>
+	<item>
+		<title>Does the GIL Make Your Ruby Code Thread-Safe?</title>
+		<description><![CDATA[<p><img style="float: right;margin-right: 18px;margin-bottom: 18px" src="http://www.rubyinside.com/wp-content/uploads/2013/06/lock.png" alt="" width="125" height="125" />This is a guest post by <a href="http://www.jstorimer.com/">Jesse Storimer</a>. He teaches the <a href="http://www.jstorimer.com/products/unix-fu-workshop?utm_source=ri&#38;utm_medium=web&#38;utm_campaign=gil-3">Unix fu workshop</a>, an online class for Ruby developers looking to do some awesome systems hacking in Ruby and boost their confidence when it comes to their server stack. Spots are limited, so check it out the class while there's still room. He's also the esteemed author of <a href="http://www.jstorimer.com/products/working-with-unix-processes">Working with Unix Processes</a>, <a href="http://www.jstorimer.com/products/working-with-tcp-sockets">Working with TCP Sockets</a> and <a href="http://www.jstorimer.com/products/working-with-ruby-threads">Working with Ruby Threads.</a></p>
+<p>There are some misconceptions in the Ruby community about this question surrounding MRI's GIL. If you only take one thing away from this article today, let it be this: The GIL does not make your Ruby code thread-safe. <a href="http://www.rubyinside.com/does-the-gil-make-your-ruby-code-thread-safe-6051.html" class="read_more">Read More</a></p>]]></description>
+		<link>http://www.rubyinside.com/does-the-gil-make-your-ruby-code-thread-safe-6051.html</link>
+			</item>
+	<item>
+		<title>This Week in Ruby: Matz on Ruby 2.0, Numerous Conference CFPs, Tenderlove on define_method</title>
+		<description><![CDATA[<p>Welcome to this week’s roundup of Ruby news, articles, videos, and more, cobbled together from my e-mail newsletter, <a href="http://rubyweekly.com/">Ruby Weekly.</a> Sorry these roundups have been missing for a couple of months, I've been focusing very heavily on the e-mail newsletters which are continuing to grow like crazy! :-) I hope to get back into blogging more soon.</p>
+
+  <a href="https://blog.heroku.com/archives/2013/3/6/matz_highlights_ruby_2_0_at_waza"><img src="http://s3.amazonaws.com/nlga/uploads/item/image/9315/thumb_matz.png" width="133" height="100" style="float: right; margin-left: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a>
+<p><a href="https://blog.heroku.com/archives/2013/3/6/matz_highlights_ruby_2_0_at_waza" style="font-weight: bold;">Matz on Ruby 2.0</a>
+Matz spoke about Ruby 2.0 ('the happiest release ever') for 30 minutes at the Heroku Waza event a week ago and the video is already available to watch. He stresses that "Ruby 1.8 will die soon" and encourages everyone to upgrade. <a href="http://www.rubyinside.com/this-week-in-ruby-matz-on-ruby-2-0-numerous-conference-cfps-tenderlove-on-define_method-6043.html" class="read_more">Read More</a></p>]]></description>
+		<link>http://www.rubyinside.com/this-week-in-ruby-matz-on-ruby-2-0-numerous-conference-cfps-tenderlove-on-define_method-6043.html</link>
+			</item>
+	<item>
+		<title>A Simple Tour of the Ruby MRI Source Code with Pat Shaughnessy</title>
+		<description><![CDATA[<p></p>
+<p>I'm not in Ruby core or, well, even a confident C coder anymore, but I've long enjoyed digging in the <a href="https://github.com/ruby/ruby">Ruby MRI source code</a> to <a href="http://www.youtube.com/watch?v=9IX1NfwQP1s">understand weird behavior</a> and to pick up stuff for my <a href="https://cooperpress.com/rubyreloaded">Ruby course.</a></p>
+<p><a href="http://patshaughnessy.net/">Pat Shaughnessy</a> is also a fan of digging around in Ruby's internals and has written some great posts like <a href="http://patshaughnessy.net/2012/6/29/how-ruby-executes-your-code">How Ruby Executes Your Code</a>, <a href="http://patshaughnessy.net/2012/7/26/objects-classes-and-modules">Objects, Classes and Modules</a>, and <a href="http://patshaughnessy.net/2012/4/3/exploring-rubys-regular-expression-algorithm">Exploring Ruby's Regular Expression Algorithm.</a></p>
+<p>When Pat released his <a href="http://patshaughnessy.net/ruby-under-a-microscope">Ruby Under a Microscope</a> book, I knew it would be right up my street! He digs into how objects are represented internally, why MRI, Rubinius and JRuby act in certain ways and, of course, "lots more."</p>
+<p>I invited Pat to take a very high level cruise through the MRI codebase with me so we could share that knowledge with Ruby programmers who haven't dared take a look 'under the hood' and to show it's not as scary or pointless as it may seem. <a href="http://www.rubyinside.com/ruby-mri-code-walk-tour-6020.html" class="read_more">Read More</a></p>]]></description>
+		<link>http://www.rubyinside.com/ruby-mri-code-walk-tour-6020.html</link>
+			</item>
+	<item>
+		<title>The Last Week in Ruby: A Great Ruby Shirt, RSpec Team Changes and a Sneaky Segfault Trick</title>
+		<description><![CDATA[<p>Welcome to this week's roundup of Ruby news cobbled together from my e-mail newsletter, <a href="http://rubyweekly.com/">Ruby Weekly.</a> </p>
+<p>Highlights include: A time-limited Ruby shirt you can order, a major change in the RSpec project, how to make Ruby 1.9.3 a lot faster with a patch and compiler flags, a sneaky segmentation fault trick, several videos, and a few great jobs.</p>
+<h3>Featured</h3>
+
+  <a href="http://rubythreads.com/products/rubyguy"><img src="http://s3.amazonaws.com/nlga/uploads/item/image/7479/thumb_rubyguy.jpg" width="133" height="100" style="float: right; margin-left: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a>
+<p><a href="http://rubythreads.com/products/rubyguy" style="font-weight: bold;">The 'Ruby Guy' T-Shirt</a>
+Grab a t-shirt with a cute 'Ruby Guy' mascot on the front in time for Christmas. Comes in both male and female styles in varying sizes. Only available till Thursday December 6 though as it's part of a temporary Teespring campaign (Note: I have no connection to this, it just looks cool.)
+</p>
+
+
+<p><a href="http://blog.davidchelimsky.net/2012/11/28/myron-marston-and-andy-lindeman-are-rspecs-new-project-leads/" style="font-weight: bold;">David Chelimsky Hands Over RSpec to New Project Leads</a>
+After several years at the helm, David Chelimsky is handing over the reins to Myron Marston and Andy Lindeman for RSpec and rspec-rails respectively. <a href="http://www.rubyinside.com/the-last-week-in-ruby-a-great-ruby-shirt-rspec-team-changes-and-a-sneaky-segfault-trick-6016.html" class="read_more">Read More</a></p>]]></description>
+		<link>http://www.rubyinside.com/the-last-week-in-ruby-a-great-ruby-shirt-rspec-team-changes-and-a-sneaky-segfault-trick-6016.html</link>
+			</item>
+	<item>
+		<title>The Split is Not Enough: Unicode Whitespace Shenigans for Rubyists</title>
+		<description><![CDATA[<p><img src="http://www.rubyinside.com/wp-content/uploads/2012/11/spaced.png" alt="" title="spaced" width="640" height="225" class="alignnone size-full wp-image-5981" /></p>
+<p>That code is legal Ruby! If you ran it, you'd see 8. How? There's a tale to tell..</p>
+<h3>The String with the Golden Space</h3>
+<p>I was on IRC in <a href="http://nwrug.org/">#nwrug</a> enjoying festive cheer with fellow Northern Rubyists when ysr23 presented <a href="https://gist.github.com/4118156">a curious problem.</a></p>
+<p>He was using a Twitter library that returned a tweet, "@twellyme film", in a string called reply. The problem was that despite calling reply.split, the string refused to split on whitespace. Yet if he did "@twellyme film".split in IRB, that was fine.</p>
+<p>International man of mystery <a href="https://twitter.com/will_j">Will Jessop</a> suggested checking $; (it's a special global variable that defines the default separator for String#split). <a href="http://www.rubyinside.com/the-split-is-not-enough-whitespace-shenigans-for-rubyists-5980.html" class="read_more">Read More</a></p>]]></description>
+		<link>http://www.rubyinside.com/the-split-is-not-enough-whitespace-shenigans-for-rubyists-5980.html</link>
+			</item>
+	<item>
+		<title>This Week in Ruby: Ruby 2.0 Refinements, Cost of GC::Profiler, and BritRuby Cancelled</title>
+		<description><![CDATA[<p>Welcome to this week’s roundup of Ruby news, articles, videos, and more, cobbled together from my e-mail newsletter, <a href="http://rubyweekly.com/">Ruby Weekly.</a> If you've been celebrating Thanksgiving this week, I hope you're having a good break.</p>
+<p>Highlights include: Charles Nutter on Ruby 2.0 refinements, the cancellation of the British Ruby Conference, and DHH's latest object instantiation (thanks Doug Renn).</p>
+<h3>Featured</h3>
+
+<p><a href="http://blog.headius.com/2012/11/refining-ruby.html" style="font-weight: bold;">Refining Ruby (or The Best Study of Ruby 2.0 Refinements Yet)</a>
+I've editorialized the title somewhat but this article by Charles Nutter is a great look into the world of 'refinements' in Ruby 2.0, what they're intended for, and all of the challenges they throw up, both for developers and language implementers. <a href="http://www.rubyinside.com/this-week-in-ruby-ruby-2-0-refinements-cost-of-gcprofiler-and-britruby-cancelled-5975.html" class="read_more">Read More</a></p>]]></description>
+		<link>http://www.rubyinside.com/this-week-in-ruby-ruby-2-0-refinements-cost-of-gcprofiler-and-britruby-cancelled-5975.html</link>
+			</item>
+	<item>
+		<title>This Week in Ruby: MRI 1.9.3-p327, Rails 3.2.9, Capybara 2.0, and the Fukuoka Ruby Award</title>
+		<description><![CDATA[<p>Welcome to this week’s roundup of Ruby news, articles, videos, and more, cobbled together from my e-mail newsletter, <a href="http://rubyweekly.com/">Ruby Weekly.</a></p>
+<p>Highlights include: MRI 1.9.3-p327, Rails 3.2.9, Capybara 2.0, and the Fukuoka Ruby Award.</p>
+<h3>Featured</h3>
+
+<p><a href="http://www.ruby-lang.org/en/news/2012/11/09/ruby-1-9-3-p327-is-released/" style="font-weight: bold;">Ruby 1.9.3-p327 Released: Fixes a Hash-Flooding DoS Vulnerability</a>
+Carefully crafted strings can be used in a denial of service attack on apps that parse strings to create Hash objects by using the strings as keys. This new patch level release of 1.9.3 counters the issue.
+</p>
+
+
+<p><a href="http://www.ruby-lang.org/en/news/2012/11/10/2013-fukuoka-ruby-award-competitionentries-to-be-judged-by-matz/" style="font-weight: bold;">2013 Fukuoka Ruby Award Competition</a>
+Each year Matz and the Government of Fukuoka in Japan run an award for Ruby programs. Submit by November 30th to enter - it doesn't have to be an all new app either. <a href="http://www.rubyinside.com/this-week-in-ruby-mri-1-9-3-p327-rails-3-2-9-capybara-2-0-and-the-fukuoka-ruby-award-5970.html" class="read_more">Read More</a></p>]]></description>
+		<link>http://www.rubyinside.com/this-week-in-ruby-mri-1-9-3-p327-rails-3-2-9-capybara-2-0-and-the-fukuoka-ruby-award-5970.html</link>
+			</item>
+	<item>
+		<title>This Week in Ruby: Rubinius 2.0-rc1, Rake 10, Refactoring video, Passenger 4.0 supports JRuby, and more</title>
+		<description><![CDATA[<p>Welcome to this week's roundup of Ruby news, articles, videos, and more, cobbled together from my e-mail newsletter, <a href="http://rubyweekly.com/">Ruby Weekly.</a></p>
+<p>Highlights include: Passenger 4.0 gets support for JRuby and Rubinius, Ben Orenstein's awesome refactoring video, Pat Shaughnessy's new 'Ruby Under a Microscope' book, AWS adds Ruby support to Elastic Beanstalk, and more.</p>
+<h3>Featured</h3>
+
+<p><a href="https://github.com/rubinius/rubinius/commit/d19e086d013e7a3c99ec935ca84825db6f437dd8" style="font-weight: bold;">Rubinius 2.0.0 Release Candidate 1</a>
+Sadly the Rubinius blog seems to be on hiatus but plenty of people noticed Rubinius 2.0.0rc1 has been tagged. Rubinius is an alternative Ruby implementation largely written in a subset of Ruby itself and the 2.0 release brings 1.9 syntax to the fore. <a href="http://www.rubyinside.com/this-week-in-ruby-rubinius-2-0-rc1-rake-10-refactoring-video-passenger-4-0-supports-jruby-and-more-5965.html" class="read_more">Read More</a></p>]]></description>
+		<link>http://www.rubyinside.com/this-week-in-ruby-rubinius-2-0-rc1-rake-10-refactoring-video-passenger-4-0-supports-jruby-and-more-5965.html</link>
+			</item>
+	<item>
+		<title>This Week in Ruby: JRuby 1.7.0, Passenger 4.0b1, Ruby 2.0 Feature Freeze</title>
+		<description><![CDATA[<p>Welcome to this week's Web-based syndication of <a href="http://rubyweekly.com/">Ruby Weekly</a>, the Ruby e-mail newsletter.</p>
+<p>Highlights include: a massive release for JRuby, a promising beta for Phusion Passenger 4.0, the announcement of a 'feature freeze' for Ruby 2.0, the Rails Rumble 2012 results, and just what did the Rails Rumble winners use to power their apps?</p>
+<h3>Featured</h3>
+
+<p><a href="http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/46258" style="font-weight: bold;">Ruby 2.0.0 'Feature Freeze' Announced</a>
+Right <a href="http://www.rubyinside.com/ruby-2-0-release-schedule-announced-roll-on-2013-5536.html">on schedule</a>, the core Ruby team have announced a 'feature freeze' for the forthcoming Ruby 2.0. All this means for now is that no features not already approved by matz will make it into 2.0.0.
+</p>
+
+
+<p><a href="http://www.jruby.org/2012/10/22/jruby-1-7-0.html" style="">JRuby 1.7.0 Released; Gets 1.9.3 Support as Default</a></p>
+
+
+  <a href="http://workingwithtcpsockets.com/"><img src="http://s3.amazonaws.com/nlga/uploads/item/image/6664/thumb_sockets.png" width="133" height="100" style="float: right; margin-left: 14px; margin-bottom: 16px; border: 1px solid #1173c7" /></a>
+<p><a href="http://workingwithtcpsockets.com/" style="font-weight: bold;">Working with TCP Sockets: Jesse Storimer's New Ruby E-Book</a>
+Jesse Storimer ('Working with Unix Processes') has released his latest book, Working with TCP Sockets. <a href="http://www.rubyinside.com/this-week-in-ruby-late-oct-2012-5958.html" class="read_more">Read More</a></p>]]></description>
+		<link>http://www.rubyinside.com/this-week-in-ruby-late-oct-2012-5958.html</link>
+			</item>
+</channel>
+</rss>
+<!-- WP Super Cache is installed but broken. The path to wp-cache-phase1.php in wp-content/advanced-cache.php must be fixed! -->

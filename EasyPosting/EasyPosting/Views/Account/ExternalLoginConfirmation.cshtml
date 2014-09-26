@@ -1,0 +1,64 @@
+﻿@model EasyPosting.Models.ExternalLoginConfirmationViewModel
+@{
+    ViewBag.Title = "환영합니다";
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+}
+<div class="oauth-box animated fadeInDown">
+    <div class="login-box-title-logo">
+        EasyPosting
+    </div>
+    <div class="login-box-title">
+       <strong>@ViewBag.LoginProvider</strong> 계정으로 로그인했습니다.<br />
+            해당 이메일 주소로 가입하려면 <br />
+           [등록하기] 버튼을 눌러주세요.
+    </div>
+    <div class="oauth-box-content">
+    @using (Html.BeginForm("ExternalLoginConfirmation", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+       @Html.AntiForgeryToken()
+
+       @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+       @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+       @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+       <input type="submit" name="submit" id="submit" value="등록하기" />
+    }    
+    </div>
+</div>
+
+
+
+
+
+
+
+
+@*<h2>@ViewBag.Title</h2>
+<h3>@ViewBag.LoginProvider 계정으로 로그인 되었습니다</h3>
+
+@using (Html.BeginForm("ExternalLoginConfirmation", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    <p class="text-info">
+        <strong>@ViewBag.LoginProvider</strong> 계정으로 로그인 되었습니다.
+        EasyPosting+에서 해당 이메일로 가입하려면 [등록] 단추를 눌러주세요.
+    </p>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-default" value="등록" />
+        </div>
+    </div>
+}*@
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

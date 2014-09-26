@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>글벌레의 블로그</title>
+		<link>http://devotionnoath.tistory.com/</link>
+		<description></description>
+		<language>ko</language>
+		<pubDate>Fri, 11 Jul 2014 09:07:25 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>글벌레</managingEditor>
+		<item>
+			<title>(윈도우 XP 버리는 게 맞지만) XP를 계속 사용할 수밖에 없는 이들을 위한 제언 / 윈도우즈 XP 지원 종료에 따른 2014년 4월 XP 마지막 보안 업데이트 / 보호나라 XP 전용 백신 유감</title>
+			<link>http://devotionnoath.tistory.com/1154</link>
+			<description>&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;마이크로소프트는 2014년 4월 9일 수요일 새벽 (한국 시각 기준)&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;윈도우즈 XP에 대한 마지막 업데이트를 게시하였습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;업데이트 항목은 아래 그림과 같이 두 가지입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:630px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile2.uf.tistory.com/original/232A3E5053445BA606B5EE&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/232A3E5053445BA606B5EE&quot; filemime=&quot;image/jpeg&quot; filename=&quot;00000000000000000000000000.jpg&quot; height=&quot;175&quot; width=&quot;630&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;MS14-019&lt;/STRONG&gt;는 윈도우 XP 서비스팩 3에 대한 주요 보안 업데이트이고 ,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;MS14-018&lt;/STRONG&gt;은 인터넷 익스플로러에 대한 중요 (긴급)&amp;nbsp;보안 업데이트이며 누적 보안 업데이트입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;각각의 다운로드 링크는 아래와 같습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;MS14-019&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;A class=tx-link href=&quot;http://www.microsoft.com/ko-kr/download/details.aspx?id=42329&quot; target=_blank&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;http://www.microsoft.com/ko-kr/download/details.aspx?id=42329&lt;/SPAN&gt;&lt;/A&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;MS14-018&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;인터넷 익스플로러 6용&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;A class=tx-link href=&quot;http://www.microsoft.com/ko-kr/download/details.aspx?id=42431&quot; target=_blank&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;http://www.microsoft.com/ko-kr/download/details.aspx?id=42431&lt;/SPAN&gt;&lt;/A&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;인터넷 익스플로러 7용&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;A class=tx-link href=&quot;http://www.microsoft.com/ko-kr/download/details.aspx?id=42396&quot; target=_blank&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;http://www.microsoft.com/ko-kr/download/details.aspx?id=42396&lt;/SPAN&gt;&lt;/A&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;인터넷 익스플로러 8용&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;A class=tx-link href=&quot;http://www.microsoft.com/ko-kr/download/details.aspx?id=42436&quot; target=_blank&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;http://www.microsoft.com/ko-kr/download/details.aspx?id=42436&lt;/SPAN&gt;&lt;/A&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이로써 마이크로소프트는 13년 이상을 제공해 오던 윈도우즈 XP에 대한 지원을 마무리하였습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그러므로 개인 사용자들도 제가 아래 추천 박스 內 글에서 설명을 한 거처럼&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;가급적이면 2014년 5월 말까지는 XP를 버리는 게 가장 현명한 방법입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;
+&lt;CENTER&gt;&lt;IFRAME height=90 src=&quot;http://api.v.daum.net/widget1?nid=53914656&quot; frameBorder=no width=420 allowTransparency scrolling=no&gt;&lt;/IFRAME&gt;&lt;/CENTER&gt;
+&lt;CENTER&gt;추천 박스 內 글 제목을 누르시면 윗글이 새 탭 또는 새 창으로 뜹니다 .&lt;/CENTER&gt;
+&lt;CENTER&gt;&amp;nbsp;&lt;/CENTER&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그런데 현재 어떤 사람들은 XP가 지원을 종료했으니까 , 당장 큰일이라도 난 것처럼 호들갑을 떨든가 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;또는 당장 윈도우즈 XP를 사용 못하는 게 아닌가 하고 걱정들을 하는데요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;제가 위의 추천 박스 內 글에서도 설명을 했었지만 , 윈도우즈 XP의 지원이 종료가 되었다고 해서&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;당장 윈도우즈 XP를 사용 못하는 건 아닙니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그러나 제가&amp;nbsp;역시 윗추천 박스 內 글에서 설명을 한 것처럼 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;마이크로소프트가 2014년 4월 윈도우 업데이트까지는 &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;게시를 해주었으므로 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;가급적이면 &lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;2014년 5월 말까지는 XP를 버려야 한다&lt;/SPAN&gt;는 &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;것 또한 현실입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그러나 돈 많을 거 같은 금융권도 , 막대한 재정을 운용하는 정부도 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;비용 문제로 운영체제 업그레이드를 한 번에 못하는 판에&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;생활인으로서의 우리들 중에도 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;내가 먹고 죽을라고 해도 돈이 없다는 분들도 분명히 계실 것이고&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그런 분들에게 무조건 XP는 버려야 한다 , 버려야 한다고 말하는 건&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;어쩌면 정말 너무나도 잔인한 공염불일 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그래서 오늘 이 글에서는 정말 너무 어려워서 컴퓨터를 바꾸기는커녕&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;운영체제를 새로 살&amp;nbsp;여유도 없으신 분들을 위한 제언을 좀 해 봅니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;미리 말하면 이 글에서 말하는 방법들로 XP의&amp;nbsp;100% 안전을 보장하는 것은 아닙니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그러나 취약점이 존재하는 컴퓨터들에서도 분명히 감염의 기회는 낮출 수 있는 방법들일&amp;nbsp;겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;일단 운영체제도 바꿀 여유도 없다는 분들에게 드릴 제언에 앞서&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그래도 나는 컴퓨터 사양만 된다면 운영체제는 새로 살 용의가 있다는 분들을 위하여 한마디만 드리면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;현재 내 컴퓨터가 윈도우 7 또는 윈도우 8 설치가 가능할지 어떨지 모르겠다 하시는 분들은&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;아래 링크들에 들려 업그레이드 도우미로 사양을 검토해서&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;윈도우 7 또는 윈도우 8의 설치 가능성을 검토해 보시기 바랍니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;윈도우 7 업그레이드 관리자 -&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;A class=tx-link href=&quot;http://www.microsoft.com/ko-kr/download/details.aspx?id=20&quot; target=_blank&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;http://www.microsoft.com/ko-kr/download/details.aspx?id=20&lt;/SPAN&gt;&lt;/A&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;윈도우 8 업그레이드 도우미 -&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;A class=tx-link href=&quot;http://windows.microsoft.com/ko-kr/windows-8/upgrade-assistant&quot; target=_blank&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;http://windows.microsoft.com/ko-kr/windows-8/upgrade-assistant&lt;/SPAN&gt;&lt;/A&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;검토 결과 설치가 가능한 사양이라면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;윈도우 7 또는 윈도우 8 DSP (coem) 버전을 구매해서 설치를 하시기 바랍니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;현재 윈도우 7 홈 프리미엄 DSP는 128,000원 정도에 인터넷 쇼핑몰들에서 구매가 가능하고 ,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;윈도우 8 DSP 역시 그 정도 가격에 구매가 가능합니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;참고로 언급하면 윈도우 8.1은 보다 비싼데 , 윈도우 8에서 윈도우 8.1로의 업그레이드는 무료이므로&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;윈도우 8.1을 구매할 필요는 없다는 생각이 듭니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;참고로 언급하면 조립 PC라면 DSP 버전 구매해서 곧바로 설치를 하시면 되는데&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;삼성 등등 메이커 PC라면 PC 제조사로 DSP 버전 윈도우 설치가 가능한지도 문의를 하시기 바랍니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그러면 이제 컴퓨터를 바꾸기는커녕 &lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;운영체제를 새로 살&amp;nbsp;여유도 없으신 분들을 위한 제언을 시작하는데&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그전에 미리 부연을 하면 &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;아래에 설명이 되는 프로그램들은 모두 다 집에서 사용 시에만 무료인 프로그램들&lt;/SPAN&gt;입니다 .&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;즉 , 본 제언은 개인 사용자들에게만 드리는 거고 &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;관공서 , 기업 등등의 PC들에는 해당이 없는 글이란 겁니다 .&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;&lt;/SPAN&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;제언에 앞서 하나만 더 말씀을 드린다면 &lt;/P&gt;
+&lt;P&gt;어제 보호나라 홈 페이지가 너무 많은 접속자들로 인하여 다운이 된 적이 있다고 들었는데요 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;아마도 그 이유는 보호나라에서 보급한다는 XP 전용 백신 때문일 건데&lt;/P&gt;
+&lt;P&gt;결론만 간단히 말씀을 드리면 해당 백신들은 XP 보안에 전혀 도움이 안 되는 것들입니다 .&lt;/P&gt;
+&lt;P&gt;실시간 감시도 없이 특정 악성코들만 검사하는 백신들은 앞으로는&amp;nbsp;더욱더&amp;nbsp;도움이 안 됩니다 .&lt;/P&gt;
+&lt;P&gt;물론 이런 부분에 대하여 보호나라에서 설명을 하긴 했지만 , &lt;/P&gt;
+&lt;P&gt;컴퓨터를 잘 모르시는 분들에게 오해의 소지를 남길 수 있다는 점에서&lt;/P&gt;
+&lt;P&gt;보호나라가 XP 전용백신이라고 게시를 한 건 실수라고 보입니다 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;제언 1 .&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;&lt;/STRONG&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;실시간 감시가 되는 믿을만한 백신 하나를 선택해서 설치를 하고 &lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;꼭 실시간 감시를 켜&lt;/SPAN&gt; 놓아야 합니다 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;제언 2 . &lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;이스트소프트와 잉카 인터넷이 &lt;/P&gt;
+&lt;P&gt;윈도우 및 각종 프로그램들의 취약점을 이용한 &lt;/P&gt;
+&lt;P&gt;악성코드 침입을 방지해 주는 프로그램을 배포하기 시작했습니다 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;물론 이러한 기능은 기존 백신에도 포함이 되기도 하는 기능이지만&lt;/P&gt;
+&lt;P&gt;일부 무료 백신들에서는 존재하지 않는 기능이고&lt;/P&gt;
+&lt;P&gt;두 프로그램 모두 백신에 덧붙여 사용해도 상관이 없다고 하니 사용해서 손해가 날 건 없을 거로 보입니다 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;그런데 두 개 다 설치하지는 마시고 , 둘 중에 하나를 골라서 활용하시기 바랍니다 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;바이로봇 APT Shield 2.0 - &lt;A class=tx-link href=&quot;http://www.aptshield.co.kr/&quot; target=_blank&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;http://www.aptshield.co.kr/&lt;/SPAN&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;알약 익스플로잇 쉴드 - &lt;A class=tx-link href=&quot;http://alyac.altools.co.kr/Public/Alyac/ExploitShield.aspx&quot; target=_blank&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;http://alyac.altools.co.kr/Public/Alyac/ExploitShield.aspx&lt;/SPAN&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;제언 3 .&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Sandboxie&lt;/STRONG&gt;를 활용하세요 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:630px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile9.uf.tistory.com/original/223185465344823210E85A&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/223185465344823210E85A&quot; filemime=&quot;image/jpeg&quot; filename=&quot;00000000000000000000000000.jpg&quot; height=&quot;424&quot; width=&quot;630&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Sandboxie&lt;/STRONG&gt;란 프로그램은 웹 브라우저들 및 사용자가 원하는 프로그램들을 가상화 시켜 &lt;/P&gt;
+&lt;P&gt;실행을 해주는 프로그램입니다 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;가상화가 되었기 때문에&lt;/P&gt;
+&lt;P&gt;예를 들어 &lt;STRONG&gt;Sandboxie&lt;/STRONG&gt;를 통한 인터넷 익스플로러로 악성코드가 유포되는 사이트를 방문한 경우&lt;/P&gt;
+&lt;P&gt;악성코드는 가상의 환경만 감염을 시키므로 실제로 시스템은 감염이 되지 않습니다 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Sandboxie &lt;/STRONG&gt;사용법은 아래 링크 글들을 읽어 보시면 아주 자세히 알게 되실 겁니다 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;A class=tx-link href=&quot;http://devotionnoath.tistory.com/264&quot; target=_blank&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;2009/05/20 - [프로그램 리뷰] - Sandboxie - 절대로 악성코드에 안걸리는 웹 서핑 하기&lt;/SPAN&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;A class=tx-link href=&quot;http://devotionnoath.tistory.com/439&quot; target=_blank&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;2010/01/04 - [프로그램 리뷰] - Sandboxie 3.42 판올림&lt;/SPAN&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;제언 4 .&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;아래 링크 글에서 설명한 방법으로 &lt;STRONG&gt;Autoruns&lt;/STRONG&gt;라는 프로그램을 활용하시기 바랍니다 .&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Autoruns&lt;/STRONG&gt;를 통하여 백신이 미처 발견하지 못하고 있는&amp;nbsp;악성코드들도 찾아내시는 게 가능할 겁니다 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;A class=tx-link href=&quot;http://devotionnoath.tistory.com/315&quot; target=_blank&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;2009/08/20 - [유용한 팁들] - 백신에 안 잡히는 악성코드 잡아내는 법&lt;/SPAN&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;그런데 제가 윗글에서 Autoruns 로그를 .txt로 저장하라고 말씀을 드렸는데 .txt로 저장하지 말고&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;.arn&lt;/STRONG&gt;으로 저장해서 활용을 하시기 바랍니다 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;제언 5 . &lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;컴퓨팅에 좀 친숙한 사용자라면 코모도&amp;nbsp;방화벽까지 사용하시는 게 좋습니다 .&lt;/P&gt;
+&lt;P&gt;코모도 방화벽 사용법은 아래 링크 글을 참조하시면 되는데&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;A class=tx-link href=&quot;http://devotionnoath.tistory.com/653&quot; target=_blank&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;2010/06/26 - [프로그램 리뷰] - Comodo Firewall&lt;/SPAN&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;코모도 방화벽이 업그레이드가 되면서 외관이 윗글 內&amp;nbsp;스샷들과는 달리 아래 그림처럼 변했습니다 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:630px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile2.uf.tistory.com/original/211B493A534486700BC58B&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/211B493A534486700BC58B&quot; filemime=&quot;image/jpeg&quot; filename=&quot;00000000000000000000000000.jpg&quot; height=&quot;464&quot; width=&quot;630&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;그러나 위 링크 글을 참조하시면 최신 버전의 코모도 방화벽도 충분히 사용이 가능하실 겁니다 .&lt;/P&gt;
+&lt;P&gt;저도 윗글에서 설명한 구버전을 사용하다가 코모도 방화벽이 자동으로 업데이트가 되면서&amp;nbsp; &lt;/P&gt;
+&lt;P&gt;최신 버전으로 바뀌었지만 , 사용에 어려움은 없으니까요 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;다만 코모도 방화벽 설치 시에 아래와 같은 창이 뜰 때&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:630px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile24.uf.tistory.com/original/22611D385344869D0ACDCD&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/22611D385344869D0ACDCD&quot; filemime=&quot;image/jpeg&quot; filename=&quot;0000000000000000000000000.jpg&quot; height=&quot;517&quot; width=&quot;630&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;PrivDog 앞의 체크는 해지하시고 설치를 진행하시기 바랍니다 .&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;참고 .&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;아래 링크 글을 보시면 &lt;STRONG&gt;TCPView&lt;/STRONG&gt;라는 도구가 설명이 되어 있는데요 ...&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;TCPView&lt;/STRONG&gt;에서 다른 거는 다 몰라도 좋습니다 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;A class=tx-link href=&quot;http://devotionnoath.tistory.com/547&quot; target=_blank&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;2010/04/06 - [Lecture/Computer] - 지금 이 순간 나는 해킹 당하고 있을까 ?&lt;/SPAN&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;TCPView&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;에서 어느 날 갑자기 &lt;/SPAN&gt;&lt;SPAN style=&quot;COLOR: #ff0000; FONT-WEIGHT: bold&quot;&gt;SYN_SENT&lt;/SPAN&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;가 무지 많이 뜨기 시작한다면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;내 시스템에 외부로 내 정보들을 전송하려는 뭔가가 설치되지 않았나 의심을 해 보아야 합니다 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;그리고 그런 경우가 생긴다면 그건 윈도우 보안 패치들을&amp;nbsp; 해 주지 않는 한 &lt;/P&gt;
+&lt;P&gt;해결이 안 될 확률이 큰데 , XP는 더 이상 보안 패치가 없으므로&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;TCPView&lt;/STRONG&gt;에서 &lt;SPAN style=&quot;FONT-WEIGHT: bold&quot;&gt;SYN_SENT&lt;/SPAN&gt;가 무지 많이 뜨는 그날은 진짜로 XP를 버려야 하는 날일 수도 있다는 점&lt;/P&gt;
+&lt;P&gt;주지하시기 바랍니다 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;이상 어쩔 수 없이 윈도우 XP를 계속 사용해야만 하는 사용자들을 위한 제언을 적어 보았는데요 ....&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;모두에 말했던 거처럼 제가 설명한 프로그램들을&amp;nbsp;모두 사용한다고 해도 100% 안전을 담보하는 건 아닙니다 .&lt;/P&gt;
+&lt;P&gt;다만 아무런 조치도 없이 XP를 사용할 때보다는 감염의 기회를&amp;nbsp;줄일뿐이라는 점&lt;/P&gt;
+&lt;P&gt;명심하고 또 명심하시기 바랍니다 .&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;
+&lt;DIV&gt;&lt;IFRAME onresizestart=&quot;return false&quot; height=250 border=0 src=&quot;http://gift.blog.daum.net/widget?entryId=1154&amp;amp;setNo=386&quot; frameBorder=0 width=&quot;100%&quot; allowTransparency scrolling=no ;&gt;&lt;/IFRAME&gt;&lt;/DIV&gt;&lt;/P&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=53960954&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=devotionnoath.tistory.com&amp;media_type=10&amp;guid=devotionnoath.tistory.com%2F1154&amp;regts=1399536093&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>보안경고 &amp; et cetra</category>
+			<author>글벌레</author>
+			<guid>http://devotionnoath.tistory.com/1154</guid>
+			<comments>http://devotionnoath.tistory.com/1154#entry1154comment</comments>
+			<pubDate>Wed, 09 Apr 2014 08:57:27 +0900</pubDate>
+		</item>
+		<item>
+			<title>당신이 윈도우 XP를 버려야 하는 이유 / 마이크로소프트 2014년 4월 8일 Windows XP 지원 중단</title>
+			<link>http://devotionnoath.tistory.com/1179</link>
+			<description>&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;현재 XP를 사용하는 대부분의 컴퓨터들에서는 2014년 4월 8일에 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;마이크로소프트는 윈도우즈 XP에 대한 지원을 중단한다는 메시지가 뜰 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;해당 메시지가 뜨는 이유는 마이크로소프트가 2014년 3월 8일에 윈도우즈 XP 지원 중단 알림 메시지를&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;윈도우 업데이트를 통해서 배포했기 때문입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:620px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile7.uf.tistory.com/original/2454424B5341BDDC130E66&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/2454424B5341BDDC130E66&quot; filemime=&quot;image/jpeg&quot; filename=&quot;00000000000000000000000000.jpg&quot; height=&quot;350&quot; width=&quot;620&quot;/&gt;&lt;/span&gt;&lt;span class=&quot;cap1&quot; style=&quot;display:block;width:620px;&quot;&gt;윈도우즈 XP 지원 중단 알림은 2014년 3월 8일에 게시되고 , 그 외의 업데이트들은 3월 12일에 게시되었다 .&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;일단은 2014년 4월 8일 , 화요일이 가지는 의미부터 간략하게 살펴봅니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그 날짜를 꼭 지키는 것은 아니지만 , &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;마이크로소프트는 매월 둘째 주 화요일에 보안 업데이트 및 각종 업데이트들을 배포해 왔습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그러므로 2014년 4월 8일 화요일에 XP 지원을 종료한다.라고 하는 건&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;꼭 4월 8일이 아니더라도 마이크로소프트가 2014년 4월까지는 윈도우즈 XP에 대한 업데이트를 해 주겠다는&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;뜻으로 풀이를 할 수도 있습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그러나 만약 4월 8일에 업데이트를 배포하지 못할 경우에는&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;마이크로소프트는 그것이 준비가 되었든 안 되었든 XP에 대한 업데이트들을 배포하지 않을 확률도 있습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;만약 마이크로소프트가 XP에 대한 4월 업데이트들을 배포해 준다면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;2014년 5월 정도까지는 &lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그래도 &lt;/SPAN&gt;어느 정도 안심하고 XP를 사용할 수 있을 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그러나 만약 마이크로소프트가 4월 업데이트를 꿀꺽한다면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;XP 사용자들은 가급적 2014년 4월 중으로는 XP를 버리는 게 가장 좋은 방법일 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그렇다면 윈도우즈 업데이트란 게 무엇이길래 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;마이크로소프트가 더 이상 XP에 대한 업데이트들을 지원하지 않는다고 해서 XP를 버려야만 하는 걸까요 ?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;윈도우즈 업데이트는 크게 보면 두 종류로 구성이 됩니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;하나는 오류 수정 및 기능 강화를 위한 업데이트이고&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;또 하나는 윈도우의 보안상 취약점들을 메꾸어 주는 보안 패치입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;둘 중에 지원이 중단이 됨으로써 문제가 되는 건 보안 패치인데요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;보안 패치란 윈도우의 신규 취약점들을 메꾸어 주는 역활을 하는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;신규 취약점이라고 하니까 , 뉘앙스상 윈도우에 없던 취약점이 새로 발생하는 거로 느낄 수도 있지만 ,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;윈도우의 취약점들은&amp;nbsp;윈도우가 처음 발표될 당시부터 태생적으로 존재를&amp;nbsp;해온 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;윈도우는 방대한 소스 코드이기 때문에 그걸 짜는 데 종사한 마이크로소프트의 프로그래머들도&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;자신들이 짠 코드에 어떤 헛점이 존재해서 어떻게 악용이 될까를 모두 파악할 수는 없었습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그렇게 파악되지 못했던 헛점들이 마이크로소프트 스스로에 의하여 또는 다른 제삼의 프로그래머들 또는&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;해커 집단들에 의하여 새롭게 발견이 되면 그게 바로 신규 취약점이 되는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이렇게 밝혀진 취약점들은 악성코드 제작자들에 의하여 악용이 될 수밖에 없는데요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;바로 그러한 어뷰즈를 막아 주려고 마이크로소프트는 매월 둘째 주 화요일에 새롭게 밝혀진&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;취약점들에 대하여 패치를 해 주는데 , 이게 바로 보안 패치들인 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그런데 이제 마이크로소프트는 XP에 대하여는 더 이상&amp;nbsp;보안패치들을 배포하지 않겠다는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그렇다면 취약점이 패치 안 된 컴퓨터들에서는 어떤 일들이 일어날까요 ?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;가장 대표적인 예를 들어 본다면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;요즘 개인 사용자의&amp;nbsp;컴퓨터가 악성코드에 감염이 되는 대표적인 경로는&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;악성코드를 유포하도록 변조된 웹 사이트 방문을 통해서입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그런데 사용자가 악성코드가 유포되게 변조된 웹 사이트를 방문했더라도&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;사용자의 컴퓨터에 모든 보안 패치들이 되어 있고 , 더하여 어도비 플래시 플레이어까지 최신 버전이라면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;사용자의 컴퓨터는 99.9% 악성코드에 감염이 되지 않습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그런데 만약 보안 패치들도 안 되어 있고 , 어도비 플래시 플레이어도 옛&amp;nbsp;버전이 설치되어 있는 컴퓨터라면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;악성코드 유포 사이트를 방문하는 경우&amp;nbsp;100% 악성코드에 감염이 된다고 보면 됩니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이게 바로 현실임에도 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;일부 사용자들은 다음(DAUM) 지식 또는 네이버 지식iN을 통하여&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;윈도우 업데이트는 필요가 없는 것이다 . 백신만 좋은 걸 사용하고 방화벽만 켜 놓는다면 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;악성코드 감염은 일어나지 않는다고 주장들을 하고 있는데요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그들이 모르고 있는 건 백신은 사후 약방문적인 성격이 강하다는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;(물론 이게 백신이 필요 없다는 뜻은 아니니 지나치게 비약 , 왜곡하지는 마시기 바랍니다 .)&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;무슨 말이냐면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;백신은 취약점을 메우지는 못합니다 . 즉 , 선제적으로 악성코드의 공격을 차단하지는 못한다는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;백신은 취약점을 통하여 공격이 있을 경우 , 공격해 온 악성코드를 치료를 할뿐입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;물론 이 과정에서도 백신은 해당 공격이 윈도우 취약점을 통하여 들어온 거란 건 알지 못합니다 .&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;즉 취약점에 대하여는 아무런 조치도 하지 않고 ,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;다만 백신의 엔진 패턴에 정의된 악성코드가 감지가 되었기 때문에 잡고 치료를 한 거뿐인 거죠 ....&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;바로 여기에 주요 포인트가 있는데요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;백신의 엔진 패턴에 취약점을 타고 들어온 악성코드에 대한 패턴이 추가가 되려면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;해당 악성코드의 공격이 발생한 후 일정 사용자들은 감염이 된 후에 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;백신 회사들이 그 감염체를 수집하고 분석하고 나서야 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;패턴에 해당 악성코드에 대한 것이 추가가&amp;nbsp;되는데요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;결국 이 과정에서 많은 사용자들은 자신이 감염이 된 거조차도 모르고 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;컴퓨터를 계속 사용할 수도 있다는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;악성코드 감염을 모르고 컴퓨터를 계속 사용한 사용자는 어떤 피해를 입을까요 ?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그건 말할 필요도 없이 금전적인 피해입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;요즘 악성코드들은 100% 금전적인 이득을 목적으로 하기 때문에&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;악성코드 감염 사실을 모르고 컴퓨터를 계속 사용하는 사용자들은 인터넷 뱅킹을 통하여 돈을 도둑맞든가 &amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;또는 카드 도용을 당할 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그런데 더 심각한 건 어떤 취약점을 이용해 그런 공격이 발생한 경우&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그러한 공격은 또 다른 악성코드들을 통하여 계속적인 재발이 가능한데 ,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이때에도 역시 백신들은 해당 악성코드들에 대한 패턴이 업데이트가 되어야만 진단이 가능하다는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;(물론 요즘 백신들은 클라우드 기반의 진단 , 행동 기반 진단을 병행하는 경우가 많지만 , 그 진단의 유효성은&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;시그니처 , 즉 패턴에 의한 진단만은 못합니다 .)&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그러므로 보안 패치 없이 백신에만 의존할 시에는&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;일정 수 이상의 사용자들은 취약점을 이용해 공격해 들어오는&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;새로운 악성코드들에 의한 희생자들이 될 수밖에 없다는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이렇게 말을 해도 말귀를 알아먹지 못하는 사람들을 위하여 또 다르게 말을 한다면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;2006년 , 마이크로소프트가 윈도우 98에 대한 지원을 중단하기 직전에&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;우리 정부는 우리 관공서들에 아직도 많은 윈도우 98 컴퓨터들이 존재한다는 이유로 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;마이크로스프트에게 윈도우 98에 대한 지원 연장을&amp;nbsp;요청했다가 거절을 당했었습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;만약 마이크로소프트의 보안 패치를 통한 지원이 일부 사람들의 주장처럼 그렇게 중요하지 않고 ,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;필요하지 않은 거라면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;2006년에 우리 정부는 괜스런 말을 마이크로소프트에게 해서 &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;개망신을 당했던 걸까요 ?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;아니죠 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;마이크로소프트가 해주는 지원 , 보안 패치는 그만큼 중요하다는 뜻인 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;사실 윈도우 98의 경우에는 보안 패치들이 XP만큼 많이 게시가 되지도 않았었습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그럼에도 우리 정부는 마이크로소프트에 신규 취약점들에 대한 보안 패치들을 연장해 달라고 했었는데&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;XP는 윈도우 98과 비교해서 엄청난 신규 취약점들이 발견이 되었고 , &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;또 마이크로소프트의 XP 지원 중단 이후에도 계속해서 많이 발견이 될 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;바로 그런 XP에서 패치가 되지 못하는 신규 취약점들이 앞으로 악성코들의 주요 공격 루트가 될 확률이 크고요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그래서 XP를 사용하는 당신이라면 당신은 XP를 버려야 합니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;자 ,&amp;nbsp;아직도 말귀를 못 알아먹었나요 ?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그렇다면 이번에는 이렇게 말을&amp;nbsp;해 봅니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;윈도우 업데이트는 많은 서버들을 필요로 합니다 . 전 세계인이 수시로 내려 받는 것이니까요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그래서 제가 추측하기로는 마이크로소프트는 서버 확충을 위해 TUCOWS , &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;OAK뭐시기라는 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;회사(명칭이 확실히 기억이 안 나는군요 .) , Akami뭐시기라는 회사 등등에서 서버를 임대도 해서&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;사용하는 거로 보입니다 . 윈도우 업데이트를 위해서는 서버 비용만도 엄청나다는 거죠 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;게다가 보안 취약점이 발견이 되면 그걸 분석하고 패치를 만드는데 필요한 인력에 대한 비용도 엄청날 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;또 보안 패치는 영어로만 만듭니까 ? 아니죠 . 세계 각국 언어 윈도우에 맞추어서 배포가 됩니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그래서 한글 윈도우용 패치 파일에는 kor라고 표시가 되죠 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;윈도우 업데이트가 필요가 없는 거라면 엄청난 비용을 써 가면서 마이크로소프트가 왜 이런 일을 하는 걸까요 ?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;돈이 많아서 돈지랄하는 걸까요 ? &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;아 ! 사람들을 협박해서 상위 버전 윈도우 구매를 촉진하려 하는 건지도 모른다고요 ? &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그렇다면 백신 회사들이 악성코드 분석을 내놓으면서&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;어떤 악성코드는 어떤 보안 취약점을 이용했다고 하는 것도 거짓말인가요 ?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;백신 회사들이 마이크로소프트에서 뭐 얻어 먹을 게 있다고 거짓을 말할까요 ?&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이렇게까지 말을 했음에도 말귀를 못 알아먹는 사용자들은 하는 수 없습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;계속 XP를 사용하다가 도둑을 맞아 보아야 정신들을 차리겠죠 .....&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;참고로 첨언을 하면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;물론 마이크로소프트가 내일 XP에 대한 지원을 중단한다고 해서 내일 당장 큰일이 나는 건 아닙니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;많은 악성코드들이 신규 취약점들보다는 좀 시간이 지난 취약점들을 이용해 공격을 해 들어오니까요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그런데 5월 이후에 패치가 안 되는 신규 취약점들이 한 달 , 두 달 , 석 달 .&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;시간이 지나다 보면 &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;바로 좀 시간이 지난 취약점들이 되는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그래서 제가 모두에 언급을 했던 거처럼&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;XP 사용자라면&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;가급적이면 4월 말 또는 경우에 따라서는 5월 말까지는 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;XP를 버리셔야 한다는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;개인 사용자들은 여기까지만 읽으셔도 충분하고요 ......&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;아래에 적는 내용들은 개인 사용자 수준을 벗어나서 부언을 좀 하는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 11pt&quot;&gt;&lt;STRONG&gt;ATM의 94%가 아직도 XP를 사용 중이라는데 ?&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;뉴스를 보니 현재 은행의 자동화기기 (현금 인출기 , ATM)의 94%가 아직도 XP를 사용 중이라고 하는데요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이 부분은 개인 사용자들이 XP를 계속 사용하는 거보다도 더 심각한 문제입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;ATM의 특성상 ATM을 은행망에서 완전 분리해서 운영을 한다는 거는 불가능할 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그렇다면 ATM들은 언제든 외부로부터의 공격을 당할 수도 있다는 건데&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;혹시라도 ATM들이 XP이기 때문에 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;대규모의 무단 계좌이체와 무단 현금 인출 사태가 발생하는 날에는&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;상황은 국가적인 공황 상태로 치달을 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그런 일이 발생한 은행의 행장은 물러나야 할 것이고 , 그런 일이 발생한 은행의 피해는 엄청날 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;사람들은 은행에 돈을 예금해 둔다는 거 자체를 불안하다고 여기게 될 수도 있고요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그러므로 무리를 해서라도 빠른 시일 안에 모든 ATM들은 상위 버전의 윈도우로 바뀌어야 한다고 생각합니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;뉴스에서는 2017년까지 교체를 완료한다고 하는데 ,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그렇다면 위험 부담이 앞으로도 3년이나 지속이 되어야 하는 건 물론이고&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;2017년의 시점에서는&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;윈도우 7에 대한 지원은 3년 , 윈도우 8에 대한 지원은 6년 정도만 남는 시점이므로&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;은행의 ATM들은 2020년에서 2023년 사이에 또 다시 취약하게 됩니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;즉 , 은행 ATM의 취약성은 항상 만성적으로 지속이 되게 된다는 거죠 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그렇기 때문에 은행의 ATM들은 교체가 필요한 바로 그 시점에 교체가 되어야 한다는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;더하여 관공서들의 컴퓨터들도 아직도 XP 비중이 높다고 하는데&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;관공서 컴퓨터들이야말로 엄청난 개인 정보들을 담고 있는 것들입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그러므로 당연히 필요한 그 시점에 적절한 대응이 이루어져야 할 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;FONT-SIZE: 12pt&quot;&gt;정부는 독자적인 운영체제를 개발하겠다고 하는데 ?&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;정부는 마이크로소프트 제품들의 라이프 사이클에 따라서 국내에서 한 번씩 혼란이 반복이 된다고&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;독자적인 운영체제 개발을 검토하겠다고 합니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그런데 여기에는 상당한 맹점이 존재한다는 걸 정부 관계자들은 이해를 해야 할 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그 맹점이란 바로 운영체제의 취약점에 대한 패치 문제입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;제대로 구동이 되는 운영체제를 개발하는 것도 보통 일은 아니겠지만 ,&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;새로운 운영체제가 개발이 되고 , 운용이 되기 시작한다면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;해당 운영체제에서 새로 발견되는&amp;nbsp;취약점들을 지속적으로 관리를 해야 합니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그런데요 . 마이크로소프트의 예를 볼까요 ?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;매월 게시되는 마이크로소프트의 테크넷 보안 공지를 한번이라도 제대로 읽어본 사람이라면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;마이크로소프트가 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;어느 나라의 누구에게 감사하다는 문구를 , 어느 나라의 어느 해커 그룹에 감사하다는 &lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;문구를 &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;보안 공지 안에 넣은 걸 보셨을 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;즉 , 윈도우의 취약점들은 마이크로소프트 스스로에 의하여 발견이 되기도 하지만 ,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;또 많은 취약점들은 마이크로소프트 소속이 아닌 전 세계의 프로그래머들 또는 해커 그룹들에 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;의하여 발견이 되어서 마이크로소프트에 보고가 된다는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그런데 우리 정부 스스로 독자적인 운영체제를 개발해서 독자적인 정부 시스템을 구축한 경우&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그 취약점들을 정부의 독자적인 운영체제를 개발한 팀에서 모두 다 발견하고 패치하는 게 가능할까요 ?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;솔직히 불가능한 이야기입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;오히려 어느 악의적인 공격자에 의하여 취약점이 발견되고 , 또 그 취약점을 통해&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;공격을 당해서 독자적인 운영체제에 의한 정부 시스템이 능욕을 당한 후에야 ,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;털릴 거 모두 다 털린 후에야 취약점들을 발견할 확률이 매우 높습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그런 꼴을 당하게 되면 우리의 독자적인 운영체제란 건 세계인의 비웃음 꽃들이 활짝 만개하는&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;갈라파고스가 되고 말겠죠 .....&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그러므로 제가 판단하기에는&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;정부 독자적인 운영체제란 건 어불성설입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;만약 독자적인 운영체제를 원한다면 차라리 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;삼성이든 어디든 운영체제를 개발할만한 회사에게&amp;nbsp;운영체제 개발을 발주해서&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;해당 운영체제 개발을 지원하고 개발 후에는 전 세계적인 판매/보급에도 정부가 관여하고 지원을 해야&amp;nbsp;합니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그렇게 해야만 마이크로소프트의 윈도우처럼 전 세계인이 그 취약점들을 발견하고&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;보고를 해 주어서&amp;nbsp;취약점이 패치가 되는 안정적인 운영체제가 될 거니까요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;즉 , 마이크로소프트와 경쟁을 해야만 안정적인 운영체제 개발은 가능하다는 건데 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이게 가능한 일일까요 ?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;정부는 독자적인 운영체제 개발을&amp;nbsp;하겠다고 결정하고 , &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;막대한 비용을 쏟아붓기 전에 &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이러한 면을 간과해서는 안 될 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이 글은 여기까지입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;
+&lt;DIV&gt;&lt;IFRAME onresizestart=&quot;return false&quot; height=250 border=0 src=&quot;http://gift.blog.daum.net/widget?entryId=1179&amp;amp;setNo=386&quot; frameBorder=0 width=&quot;100%&quot; allowTransparency scrolling=no ;&gt;&lt;/IFRAME&gt;&lt;/DIV&gt;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: left; FLOAT: none; CLEAR: none&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=53914656&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=devotionnoath.tistory.com&amp;media_type=10&amp;guid=devotionnoath.tistory.com%2F1179&amp;regts=1399536614&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>보안경고 &amp; et cetra</category>
+			<category>ATM</category>
+			<category>Windows XP 지원 중단</category>
+			<category>독자 운영체제</category>
+			<category>보안패치</category>
+			<category>윈도우 XP 지원 중단</category>
+			<category>윈도우 업데이트</category>
+			<category>윈도우 취약점</category>
+			<category>윈도우즈 XP 지원 중단</category>
+			<category>윈도우즈 업데이트</category>
+			<category>현금자동인출기</category>
+			<category>현금자동지급기</category>
+			<author>글벌레</author>
+			<guid>http://devotionnoath.tistory.com/1179</guid>
+			<comments>http://devotionnoath.tistory.com/1179#entry1179comment</comments>
+			<pubDate>Mon, 07 Apr 2014 08:17:30 +0900</pubDate>
+		</item>
+		<item>
+			<title>미국 LA 한인 타운에 말하는 개 , 리트리버 등장 .</title>
+			<link>http://devotionnoath.tistory.com/1178</link>
+			<description>&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;사실 저는 이 소식이 국내 뉴스 &lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;또는&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;TV 동물 농장에 나올 줄로만 알았습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;그런데 뉴스도 TV 동물 농장도 심지어는 인터넷마저도 조용하더군요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;그래서 제가 오늘 미국 LA 한인 타운에 나타난 말하는 개의 사연을 전하고자 합니&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;미국은 개를 엄청 사랑하는 나라로 알려져 있지만 ,&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;실은 2008년 버블 붕괴 사태 이후로는&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;미국에서도 유기견들이 엄청 늘었답니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;그래서 한 마리의 리트리버가 미국 LA 한인 타운 먹자 골목&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;식당들 주변을 어슬렁거리고 다닐 때만 해도 &lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;사람들은 그냥 또 한 마리의 유기견이 돌아다니다 보다 했답니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;리트리버는 그렇게 한 삼 일은 사람들의 관심을 끌지 않고&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;조용히 식당가 골목을 어슬렁거리고 다녔답니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;그런데 삼 일이 지난 후에 놀라운 일이 벌어진 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;그 리트리버가 이 식당 저 식당 돌아다니면서&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;한국말로 &quot;밍키 , 배고프다 . 밥 줘 .&quot;라고 말을 하고 다니기 시작했다는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;말하는 개의 모습에 사람들은 밥을 주기는커녕 놀라서 기절을 할 지경이었답니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;그러나 한 식당 주인 아주머니는 소고기 구운 걸 들고 나가서&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;리트리버에게 밥을 주었답니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;그런데 리트리버는 다른 개들처럼 쩝쩝거리면서 개걸스럽게&amp;nbsp;고기를 먹는 게 아니고 ,&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;맛있다라고 중얼거리면서 밥을 먹더랍니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;먹으면서도 말을 하는 개이니 주변에 우리 교민들이 모였습니다 .&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;한 교민이 밥을 다 먹은 리트리버에게&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;이름이 뭐냐고 물어 보니까&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;리트리버는&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키라고 대답을 하더랍니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;그래서 주인이 누구냐고 묻자 , &lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키 언니는 죽었다 .라고 하더랍니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;개가 죽음이란 걸 이해할 수 있을리는 없고 , 아마도 개 주인의 주변 사람들이&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키에게 밍키 주인이 죽었다고 말을 해 준 거로 사람들은 추측을 했답니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키는 한국 여자인 주인이 죽어서 유기견 아닌 유기견이 된 거라고 여겨졌고요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;그래서 우리 교민들은 식당가 근처의 한인 동물병원에 &lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키를 데려갔고 ,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;동물병원 측에서는 밍키에게 좋은 주인을 찾아 줄 수 있을 때까&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;지&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키를 보호하고 있기로 했답니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키는 자기가 듣는 말을 다 이해는 하지 못하는 거로 보이고&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;대략 100여개 미만의 단어들을 구사하는 거로 여겨지지만 ,&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;그래도 대충 사람들과 대화는 가능하답니다 .&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;그래서 밍키는 3살이란 거까지도 알았고요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;그런데 교민들 중에 누군가 말하는 밍키의 모습을 유투브에 올렸고 ,&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;이게 미국 내에서 조회수를 엄청 기록하는 바람에&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;미국인들까지도 밍키를 보려고 몰려 오는 통에&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키를 보호하고 있는 동물병원은 진료를 못할 지경이랍니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;또 미국인들도 밍키의 보호자가 되겠다고 &lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;동불병원 측에 많은 사람들이 신청을 하고 있고요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;사실 여기까지는 좋았습니다 .&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;여기까지가 이야기의 다였다면&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;제가 오늘 이 글을 쓰지는 않았을 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키는 신청자들이 많으니 좋은 주인을 찾아서 만날 수 있으리라 여겨졌지만 ,&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;갑자기 주 정부 측에서 밍키에 대한 소유권을 주장하기 시작했답니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;주 정부 측에서 소유권을 주장하는 이유는 &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키를 데려가 연구를 하기 위한 거로 보이는데요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;연구를 목적으로 밍키가 주 정부에 넘겨질 경우 ,&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키의&amp;nbsp;삶이 불행해질 거라고 확신한 교민들은 &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;주 정부의 요구를 거부하고 있답니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;그러나 주 정부는 2014년 4월 15일까지 동물병원 측에서 &lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키를 자진해서 인도하지 않는다면 &lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;공권력 행사를 통해 밍키를 데려가겠다고 통보를 한 상태랍니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;교민들은 거기 대항해서 밍키에 대한 주 정부의 소유권 주장은&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;옳지 않다는 서명 운동을 시작했다고 하는데요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;현재 많은 교민들과 또 미국인들까지도 서명을 한 상태라고 합니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;개가 구관조도 아닌데 , 앵무새도 아닌데 말을 한다는 건 놀라운 일입니다 .&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;사실 믿기지도 않는 일이죠 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;그러나 그렇다고 해서 ,&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;개가 말을 한다고 해서 ,&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키가 말을 한다고 해서 밍키가 불행해져야만 하는 걸까요 ?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;아래 유투브에 올려진 밍키의 말하는 모습이 담겨진 동영상을 링크합니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;동영상 말미에서는&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키를 위해서 온라인 서명을 해 달라는 &lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;우리 교포 여자 수의사의 호소도 들을 수가 있는데요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키를 위해 서명을 할 수 있는 온라인 사이트 주소도 &lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;동영상 말미에 안내가 됩니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;저는 벌써 서명을 했습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;이름(한국어로 써도 됩니다 .)과 이메일만 적으면 됩니다 .&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;이름과 이메일 옆에 도장을 찍는 격으로 ip도 찍히긴 하는데요 .&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;(그렇게 해야만 서명들의 진실성이 확실하게 드러나겠죠 ...)&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키를 위해서 그 정도 정보 노출은 해 줄 수 있으시죠 ?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;현재 우리 교포 , 미국인들 그리고 일부 한국인들을 포함해&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;9,800명 정도가 서명을 했는데요 ......&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;아직 많이 부족합니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;여러분 , 동영상을 통해 신기하지만 너무나도 이쁜 밍키의 모습을 보시고&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;밍키를 위해서&amp;nbsp;꼭 서명을 해주세요 !&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;우리가 사는 세상은 야만보다는 따스한 감성이 지배하는 &lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;세상임을 보여주세요 !!! &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;A class=tx-link href=&quot;http://youtu.be/zRJg9QU6xRg&quot; target=_blank&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 11pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;http://youtu.be/zRJg9QU6xRg&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;(위 링크를&amp;nbsp;누르시면 밍키의 동영상이 새 탭 또는 새 창으로 뜹니다 .)&lt;/P&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=53799976&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=devotionnoath.tistory.com&amp;media_type=10&amp;guid=devotionnoath.tistory.com%2F1178&amp;regts=1396316286&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>카테고리外</category>
+			<author>글벌레</author>
+			<guid>http://devotionnoath.tistory.com/1178</guid>
+			<comments>http://devotionnoath.tistory.com/1178#entry1178comment</comments>
+			<pubDate>Tue, 01 Apr 2014 08:48:39 +0900</pubDate>
+		</item>
+		<item>
+			<title>[강구이야기] 한국 최초 3D (입체 영상) 드라마 방영에 즈음하여 알아보는 3D TV 방송 시청하는 방법</title>
+			<link>http://devotionnoath.tistory.com/1177</link>
+			<description>&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그동안 지상파 TV 방송들에서는 3D 방송을 때때로 해왔습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;시험 방송처럼도 했었고 , SBS의 경우에는 (제가 제목들은 기억을 못하지만) 두 개의 프로그램인가를&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;정규 편성해서 방송을 했던 거로 압니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그리고 오늘 , &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;2014년 3월 29일 토요일 밤 8시 45분 SBS에서 우리나라 최초 3D 드라마 강구이야기를 방영한다고 합니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그래서 오늘 글에서는 아주 간단히 3D TV 방송을 시청하는 방법에 대하여 알아보기로 합니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;뭐 , 이런 걸 모를까 봐&amp;nbsp;글을 쓴다고 하지 ?라고 하실 분들도 계실 터인데요 ...&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;제가 다음 지식과 네이버 지식iN에서 활동하다 보니 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;정말 이런 걸 모를까 싶은데 모르시는 분들도 꽤 되시더라고요 .....&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그럼 이제 본론으로 들어갑니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;3D TV 방송을 시청하려면 일단 TV가 듀얼 스트림 방식의 3D 방송을&amp;nbsp;수신할 수 있어야 합니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;2012&lt;/STRONG&gt;년 상반기 무렵 이후에&amp;nbsp;구매한 TV들부터는 (3D 지원 TV 모델의 경우) &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;듀얼 스트림 방송 수신을 지원하는 거로 압니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;만약 그 이전에 구매한 3D 방송 지원 모델의 경우에는 TV 제조사로 문의를 해서&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;듀얼 스트림 방송을 수신할 수 있는 방법에 대하여 문의를 해 보시기 바랍니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;듀얼 스트림 방송을 지원하는 TV에서 듀얼 스트림 신호를 수신할 경우&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;TV에는&amp;nbsp;&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:620px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile1.uf.tistory.com/original/2426513F5335F0B609C4DD&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile1.uf.tistory.com/image/2426513F5335F0B609C4DD&quot; filemime=&quot;image/jpeg&quot; filename=&quot;0000000000000000000000000.jpg&quot; height=&quot;363&quot; width=&quot;620&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;현재 시청하는 프로그램을 3D로 방송 중입니다 .[DTV유선 6-3]이라는 메시지가 뜹니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;메시지에 따라 리모콘에서 채널 버튼을 위로 누르면 채널 6-3이 나오면서&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:620px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile23.uf.tistory.com/original/246A243D5335F1561EB419&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/246A243D5335F1561EB419&quot; filemime=&quot;image/jpeg&quot; filename=&quot;0000000000000000000000000.jpg&quot; height=&quot;369&quot; width=&quot;620&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;3D 방송으로 전환이 되고 , &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;TV 제조사가 제공한 3D 안경을 쓰고 TV를 보면 &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;입체 영상 방송을 즐길 수가 있게 됩니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;참고로 언급하면 이때 변하는 채널 번호의 경우는&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;예전에 런던 올림픽을 3D로 시험 출력한 MBC의 경우에는 &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;11-2에서 3D 방송이 나왔었습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그런데 SBS의 경우에는&amp;nbsp;6-3으로 3D 방송을 출력합니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;(물론 , 이때 11-1 또는 6-1을 통해 3D가 아닌 2D로 시청을 하는 것도 가능합니다 .)&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;(위에 올린 사진들은 LG TV를 찍은 건데 , 삼성 TV의 경우에도 거의 같은 메시지를 띄우&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;리라고 추측이 됩니다 .)&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;참조 - 위 사진들은 LG TV &lt;/SPAN&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;42LM6690&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;에서 잡은 겁니다 .&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 42LM6690 &lt;/SPAN&gt;&lt;/STRONG&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;관련 글을 보시려면 아래 추천&amp;nbsp;박스 內 글 제목을누르시면 &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 해당 글이 새 창 또는 새 탭으로 뜹니다 .&lt;/SPAN&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;
+&lt;CENTER&gt;&lt;IFRAME height=90 src=&quot;http://api.v.daum.net/widget1?nid=30383302&quot; frameBorder=no width=420 allowTransparency scrolling=no&gt;&lt;/IFRAME&gt;&lt;/CENTER&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;(메시지에서 [DTV유선 6-3]이라고 뜨는 건 &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;케이블 방송이 아닌&lt;/SPAN&gt;&lt;/STRONG&gt; &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;U&gt;HD 지상파 수신용 안테나로 시청 중&lt;/U&gt;&lt;/STRONG&gt;이라면 [DTV 6-3]이라고 뜰 수도 있다고 추측이 &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;됩니다 .)&amp;nbsp; &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그런데 여기서 중요한 것이 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #ff0000; FONT-SIZE: 10pt&quot;&gt;3D 방송을 시청하기 위해서는 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;안테나&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;를 이용해 지상파를 시청하거나 &lt;/SPAN&gt;&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;아날로그 케이블 방송&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;을 이용해 지상파를 시청해야 한다&lt;/SPAN&gt;는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이걸 자세하게 풀이를 해 주면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;셋톱박스를 통해서 시청을 하는 경우에는 3D 방송 시청이 불가능&lt;/SPAN&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;하다&lt;/SPAN&gt;는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그 이유는 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;현재 3D 방송을 지원하는 셋톱박스는 없기 때문입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;다시 더 자세하게 말을 한다면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;디지털 HD 케이블 방송을 시청하는 경우에는&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;99.9%의 경우&amp;nbsp;셋톱박스에서 TV로 RF &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;안테나&lt;/SPAN&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;선&lt;/SPAN&gt;&lt;/STRONG&gt;이 연결이 되어 있을 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이 경우에는 TV에서 &lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;입력을&lt;/SPAN&gt; 콤포넌트 또는 HDMI에서 &lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;TV로 변경&lt;/SPAN&gt;을 하면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;아날로그 케이블 방송이 수신이 되는 상태가 되므로 3D 지상파 방송을 수신하는 게 가능합니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;(저희 집의 경우에는 이렇게 3D 방송을 시청합니다 .)&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;단 , 이때 입력을 TV로 하였다고 해서 셋톱박스의 전원을 아예 &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;차단&lt;/SPAN&gt;&lt;/STRONG&gt;해 버리면 &lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #ff0000&quot;&gt;안 됩니다 &lt;/SPAN&gt;&lt;/STRONG&gt;.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;ip TV를 시청하는 경우에는&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;TV에 HD 지상파 방송 수신을 위한 안테나가 연결이 되어 있거나 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;또는 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;HD 방송 수신을 지원하는 공청 안테나선이 TV에 연결이 되어 있어야&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;3D 지상파 수신이 가능합니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;TV에 ip TV 셋톱박스만이 콤포넌트 또는 HDMI로 연결되어 있는 경우에는&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;3D 지상파 방송 수신이 불가능합니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이제 설명은&amp;nbsp;모두 다 드린 거 같은데요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;첨언을 좀 하면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;강구이야기는 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;
+&lt;TABLE style=&quot;BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-COLLAPSE: collapse; FONT-FAMILY: 돋움; FONT-SIZE: 9pt; BORDER-TOP: medium none; BORDER-RIGHT: medium none&quot; class=txc-table border=0 cellSpacing=0 cellPadding=0 width=614&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; WIDTH: 307px; HEIGHT: 24px; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #22741c 3px solid&quot;&gt;
+&lt;P&gt;
+&lt;STYLE type=text/css&gt;
+#e_DaumMoviePerson10103 * {margin:0;padding:0;font:normal 11px AppleGothic,Dotum;letter-spacing:-1px;color:#666;border:0;list-style: none;line-height:1.5em;}
+#e_DaumMoviePerson10103 {position:relative;width:305px;background:#f9f9f9;padding:13px;overflow:hidden;}
+#e_DaumMoviePerson10103 h3 {display:block;}
+#e_DaumMoviePerson10103 h3 a {color:#5569d3;}
+#e_DaumMoviePerson10103 a {color:#9098ea;}
+#e_DaumMoviePerson10103 #e_title {margin-bottom:8px;}
+#e_DaumMoviePerson10103 .more {background:url(http://i1.daumcdn.net/img-contents/movie/2008_home/popup/bullet01.gif) no-repeat 33px 3px;padding-right:8px;}
+#e_DaumMoviePerson10103 .more a {color:#000;}
+
+#e_DaumMoviePerson10103 #e_image {float:left;margin-right:13px;}
+&lt;/STYLE&gt;
+ &lt;/P&gt;
+&lt;DIV id=e_DaumMoviePerson10103&gt;
+&lt;DIV id=e_image&gt;&lt;A href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=10103&quot; target=_blank&gt;&lt;IMG id=e_img alt=박주미 src=&quot;http://cfile189.uf.daum.net/C110x160/144A8F10AE52DEB2664656&quot; height=160&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV id=c_title&gt;
+&lt;H3 id=e_title&gt;&lt;A href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=10103&quot; target=_blank&gt;박주미&lt;/A&gt;&lt;/H3&gt;&lt;/DIV&gt;
+&lt;UL id=c_info&gt;
+&lt;LI id=e_info&gt;1972년 10월 05일생&lt;br /&gt;출신지 : 한국&lt;/LI&gt;
+&lt;LI id=e_films&gt;작품 : &lt;A title=&quot;파괴된 사나이&quot; href=&quot;http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=53936&quot;&gt;파괴된 사나이&lt;/A&gt;... &lt;SPAN class=more&gt;&lt;A href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=10103&quot; target=_blank&gt;더보기&lt;/A&gt;&lt;/SPAN&gt;&lt;/LI&gt;
+&lt;LI id=e_detail&gt;항공사 CF로 크게 얼굴을 알리며 데뷔한 박주미는 드라마 &amp;lt;우리들의 천국&amp;gt;, &amp;lt;조광조&amp;gt;, &amp;lt;여인천하&amp;gt; 등에 출연하며 청순하면서 단아한 이미.. &lt;SPAN class=more&gt;&lt;A href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=10103&quot; target=_blank&gt;더보기&lt;/A&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD style=&quot;BORDER-BOTTOM: #ffffff 1px solid; WIDTH: 307px; HEIGHT: 24px; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid&quot;&gt;
+&lt;P&gt;
+&lt;STYLE type=text/css&gt;
+#e_DaumMoviePerson97631 * {margin:0;padding:0;font:normal 11px AppleGothic,Dotum;letter-spacing:-1px;color:#666;border:0;list-style: none;line-height:1.5em;}
+#e_DaumMoviePerson97631 {position:relative;width:305px;background:#f9f9f9;padding:13px;overflow:hidden;}
+#e_DaumMoviePerson97631 h3 {display:block;}
+#e_DaumMoviePerson97631 h3 a {color:#5569d3;}
+#e_DaumMoviePerson97631 a {color:#9098ea;}
+#e_DaumMoviePerson97631 #e_title {margin-bottom:8px;}
+#e_DaumMoviePerson97631 .more {background:url(http://i1.daumcdn.net/img-contents/movie/2008_home/popup/bullet01.gif) no-repeat 33px 3px;padding-right:8px;}
+#e_DaumMoviePerson97631 .more a {color:#000;}
+
+#e_DaumMoviePerson97631 #e_image {float:left;margin-right:13px;}
+&lt;/STYLE&gt;
+&lt;/P&gt;
+&lt;DIV id=e_DaumMoviePerson97631&gt;
+&lt;DIV id=e_image&gt;&lt;A href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=97631&quot; target=_blank&gt;&lt;IMG id=e_img alt=이동욱 src=&quot;http://cfile89.uf.daum.net/C110x160/1440B110B0357CE4E8564E&quot; height=160&gt;&lt;/A&gt;&lt;/DIV&gt;
+&lt;DIV id=c_title&gt;
+&lt;H3 id=e_title&gt;&lt;A href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=97631&quot; target=_blank&gt;이동욱&lt;/A&gt;&lt;/H3&gt;&lt;/DIV&gt;
+&lt;UL id=c_info&gt;
+&lt;LI id=e_info&gt;1981년 11월 06일생&lt;br /&gt;출신지 : 한국&lt;/LI&gt;
+&lt;LI id=e_films&gt;작품 : &lt;A title=된장 href=&quot;http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=50385&quot;&gt;된장&lt;/A&gt;, &lt;A title=&quot;그 남자의 책 198쪽&quot; href=&quot;http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=44407&quot;&gt;그 남자의 책 198쪽&lt;/A&gt;, &lt;A title=&quot;최강 로맨스&quot; href=&quot;http://movie.daum.net/moviedetail/moviedetailMain.do?movieId=42015&quot;&gt;최강 로맨스&lt;/A&gt;... &lt;SPAN class=more&gt;&lt;A href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=97631&quot; target=_blank&gt;더보기&lt;/A&gt;&lt;/SPAN&gt;&lt;/LI&gt;
+&lt;LI id=e_detail&gt;1999년, TV 베스트 극장으로 데뷔한 이후, 브라운관과 스크린에서 활동하고 있는 배우. 드라마 &amp;lt;학교 2&amp;gt; &amp;lt;학교 3&amp;gt; &amp;lt;똑바로 살아라.. &lt;SPAN class=more&gt;&lt;A href=&quot;http://movie.daum.net/movieperson/Summary.do?personId=97631&quot; target=_blank&gt;더보기&lt;/A&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;이동욱 , 박주미 씨 주연의 멜로 드라마로 보이는데요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;사실 3D 드라마라면 멜로보다는 액션 또는 SF 아니면 판타지처럼 &lt;STRONG&gt;CG&lt;/STRONG&gt;도 좀 많이 사용하는 드라마라서&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;화면에서 뭔가 툭툭 튀어나온다든가 아니면 높은 건물 같은 게 무너진다든가 하는 게&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;볼만은 할 거 같은데&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;멜로 드라마에서 어떻게 3D를 볼만하게 구사할지 궁금하기만 합니다 .&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;다만 박주미 씨의 아름다움은 그 빛을 더하지 않을까 싶은데요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그 이유는 제가 그동안 얼마 보지는 않았지만 ,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;간간이 3D 지상파 방송을 본 바로는&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;3D 방송이 전 세계적으로 일반화가 된다면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;가장 많은 혜택을 볼 이들은 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;바로 우리나라 걸 그룹들이라고 느껴졌기 때문입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;사실 우리나라 걸 그룹들 멤버들은 상당한 미모들을 가지고 있어서&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;HD 방송이 아닌 아날로그 방송으로 보아도 이쁘기만들 한데요 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;3D 방송에서 보여지는 그녀들의 모습은 부피감까지 더해져서 아주 죽입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;(야 ! 죽입니다가 뭐니 ? 죽입니다가 ? 너 글 그따위로 쓸래 ? 퍽퍽퍽&amp;nbsp;&lt;STRONG&gt;&lt;SPAN style=&quot;FONT-SIZE: 11pt&quot;&gt;☜&lt;/SPAN&gt;&lt;/STRONG&gt;&amp;nbsp;)&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;ㅠ ㅜ 죄송합니다 . 정정하면 부피감까지 더해져서 더욱 아름다워 보입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;그런 면을 고려해 본다면 강구이야기에서 가장 주목할 점은 박주미 씨 미모 ?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;글 그만 줄일게요 ㅠ ㅜ&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;더 쓰면 안 될 거 같습니다 ㅠ ㅜ&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;줄이기 전에 한마디만 하면 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;저 박주미 씨 팬입니다 . 그러므로&amp;nbsp;위에 적은 내용이 나쁜 뜻으로 적은 건 아닙니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;제가 어느 정도로 박주미 씨 팬이냐면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;전에 대왕의 꿈을 열심히 보다가 박주미 씨가 하차해서 저도 대왕의 꿈을 그만 보았었습니다 ...&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;
+&lt;DIV&gt;&lt;IFRAME onresizestart=&quot;return false&quot; height=250 border=0 src=&quot;http://gift.blog.daum.net/widget?entryId=1177&amp;amp;setNo=386&quot; frameBorder=0 width=&quot;100%&quot; allowTransparency scrolling=no ;&gt;&lt;/IFRAME&gt;&lt;/DIV&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #000000; FONT-SIZE: 10pt&quot;&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=53748118&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=devotionnoath.tistory.com&amp;media_type=10&amp;guid=devotionnoath.tistory.com%2F1177&amp;regts=1399536765&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>유용한 팁들</category>
+			<author>글벌레</author>
+			<guid>http://devotionnoath.tistory.com/1177</guid>
+			<comments>http://devotionnoath.tistory.com/1177#entry1177comment</comments>
+			<pubDate>Sat, 29 Mar 2014 07:55:03 +0900</pubDate>
+		</item>
+		<item>
+			<title>[신의 선물 - 14일] (7회) (8회) 신의 눈물</title>
+			<link>http://devotionnoath.tistory.com/1175</link>
+			<description>&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;수현 (이보영 분)이 물속에서 차가운 주검으로 변해 가는 걸 보며 신(神)은 눈물을 흘렸습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;왜 아무 죄도 없는 이 여자의 자식은 죽어야 했는가 ?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;왜 아무 죄도 없는 이 여자는 차가운 물속에서 물보다도 더 차가운 시신으로 남아야 하는가 ?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;신은 수현을 보며 눈물을&amp;nbsp;흘리지 않을 수 없었습니다&amp;nbsp;.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:610px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile7.uf.tistory.com/original/2655EB465331F1640F2503&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/2655EB465331F1640F2503&quot; filemime=&quot;image/jpeg&quot; filename=&quot;0000000000000000000000000.jpg&quot; height=&quot;343&quot; width=&quot;610&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;신이 흘린 눈물은 방울방울 떨어져 이제 곧 숨을 거둘 수현의 몸을 감싸안았습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;기동찬 (조승우 분) .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;신이 보기에 그 삶 또한 안타까운 것이었으나 , 그는 오늘 이 저수지에서 죽어야만 했습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;그는 그의 삶을 포기한 이래 거듭된 신의&amp;nbsp;설득에도 불구하고 마치 쓰레기처럼 살았기에&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;그에게 더 이상의 기회는 없었습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;그러나 신은 오늘 이 저수지에서 기동찬을 살리기로 했습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;기동찬을 살리면서 신은 수현을 감싸안은 그의 눈물이 빛나도록 했습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;동찬이 수현을 발견하고 살릴 수 있도록 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;그리고 동찬이 수현을 발견했을 때 눈물 방울들은 수현으로부터 떨어져 나오면서&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;동찬의 앞을 밝혔습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;신은 저수지에서 살아 나온 동찬과 수현을 14일 전으로 돌려보냈습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;신의 뜻은 간단하고 명료했습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;이 죄없는 여자의 자식과 이 죄없는 여자가 죽지 않게 하겠노라고 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;동찬이 이 여자를 도움으로써 그 인간성을 되찾게 하겠노라고 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;이 여자의 죽음을 둘러싼 모든 잘못된 것들을 바로잡음으로써&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;이 여자의 자식과 이 여자 그리고 동찬의 삶을 구원하겠노라고 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;다시 삶의 기회를 얻어 14일 전으로 되돌아온 수현과 동찬은 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;신이 뜻했던 거처럼 많은 일들을 바로잡기 시작했습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;수현과 동찬은 부녀자 셋을 죽인 연쇄 살인범을 잡았습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;비록 수현과 동찬이 이놈이 죽였던 부녀자들이 다시 죽지 않게 막지는 못했지만 ,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;이놈을 수현과 동찬이 잡지 못했다면 이놈은&amp;nbsp;또 얼마나 많은 부녀자들을 죽였을지 모를 놈이었습니다 .&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;수현과 동찬은&amp;nbsp;죄 없는 어린아이를 잔인하게 죽이고&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;자신의 죄를&amp;nbsp;병든 아비에게 뒤집어씌워 병든 아비마저 차가운 옥사 바닥에서 죽게 만든 놈도 잡았습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;그리고 이제 신은 14일 전보다도 더 먼 과거에 있었던 잘못된 일들도 바로잡기로 마음을 먹었습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;수현의 딸 , 샛별이를 살리려면 그렇게 해야만 하고 ,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;또 용서받을 수 없는 죄를 짓고도 양의 탈을 쓰고&amp;nbsp;살아가는 인간도 용서할 수 없기 때문입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;한지훈 . 수현의 남편 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;이놈은 본질적으로 쓰레기입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;보통의 남자라면 아내의 후배를 데리고 놀지도 않겠지만 ,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;설사 데리고 논 거라고 하더라도 그녀가 임신을 했다면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;자신이 가정을 지키도록 도와 달라고 , 봐 달라고 빌거나 또는 돈으로라도 타협을 하려 했을 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;그러나 이놈은 강압적으로 아내의 후배 주민아에게 자기 애를 지우라고 하면서&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;주민아가 자신의 말을 듣지 않는다고 손찌검까지 한 놈입니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;옛말에 고기도 먹어 본 놈이 많이 먹는다고 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;이놈은 아마도 십여 년 전에도 여자 때문에 아주 큰 실수 , &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;아니 실수라고 부르기에는 너무 큰 죄를 지었을 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;그런데 그 죄를 짓는 장면을 당시에 연쇄 살인을 저지르던 놈이 목격을 하고 말았던 거죠 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;결국 한지훈은 연쇄 살인범과 딜을 해서&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;자신의 죄는 연쇄 살인범에게 씌우고 , 연쇄 살인범의 죄는 동찬의 형 기동호에게 &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;뒤집어씌움으로써 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;자신의 죄를 완벽하게 세탁을 했었습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;기동찬이 목격한 형 , 자신의 첫사랑의 주검을 안고 저수지를 걷던 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;기동호는&amp;nbsp;기동찬의 생각과는 달리 그녀를 죽이고 나서 시체를 유기하려고 안고 헤메이던 게 아니었습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;그의 생각과 달리 기동호는 동생이 사랑하는 여자의 죽음 앞에서 어찌할 바를 몰라서 헤메고 있었던 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;동생이 사랑하던 여자를 살리고 싶은데 어찌할 바를 몰라서 헤메고 있었던 거죠 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;신은 지훈의 이러한 잘못을 알고 있었고 , 그의 죄에 대한 벌을 주어야만&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;수현과 샛별의 죽음을 막을 수 있다는 걸 이미 애초부터&amp;nbsp;알고 있었습니다 .&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;지훈을 단죄하고 수현과 샛별의 죽음을 막기로 결심한 신은&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;인간으로 현신하여 기동찬에게 말을 했습니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;니 엄마한테 잘해 !&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;똑바로 살아 !&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;니 형 일은 관심도 없고 ....&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;그리고 기동찬을 짝사랑하는 제니에게는 &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;넌 이미 애&amp;nbsp;딸린 애 엄마한테 밀렸어라고도 하죠 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;신은 자신이 인간사에 관여를 하면&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;지훈은 그의 죄를 단죄 받고 나락으로 떨어지고 ,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;수현과 동찬이 믿음으로써 , 서로 신뢰함으로써 부부의 연을 맺고 살아가게 되라란 걸 알고 있는 겁니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;이제 눈치채셨죠 ?&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;사실 이 드라마의 제목은 &quot;신의 선물 - 14일&quot;이 아니고 &quot;신&lt;STRONG&gt;&lt;SPAN style=&quot;COLOR: #0900ff&quot;&gt;구&lt;/SPAN&gt;&lt;/STRONG&gt;의 선물 - 14일&quot;이랍니다 .&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;TEXT-ALIGN: center; FLOAT: none; CLEAR: none&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:610px;;height:auto&quot;&gt;&lt;span dir=&quot;http://cfile7.uf.tistory.com/original/2254394253320AD62297D7&quot; rel=&quot;lightbox&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/2254394253320AD62297D7&quot; filemime=&quot;image/jpeg&quot; filename=&quot;0000000000000000000000000.jpg&quot; height=&quot;343&quot; width=&quot;610&quot;/&gt;&lt;/span&gt;&lt;/span&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;
+&lt;DIV&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;이 글을 재밌게 읽으셨다면 아래 손꾸락 모양의 추천 버튼을 꾹꾹 눌러 주시기 바랍니다 .&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;추천에는 다음 로그인은 필요 없습니다 .&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;그러나 이왕에 추천해 주실려면 다음에 로그인 후에 추천을 해주시면 더 좋은데요 .....&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;다음에 로그인 추천은 다음에 로그인 하고 이 글에서 추천을 한다고 되는 게 아니고요 .&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;아래 손꾸락 모양 버튼 오른쪽으로 구독이라고 보이실 터인데 그 구독을 눌러서 다음에 로그인 후에&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;글벌레를 구독하시면 이 글의 제목이 My View란 탭에서&amp;nbsp;보일 겁니다 .&lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-SIZE: 9pt&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;그 글 제목을&amp;nbsp;꾹~ &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;누르면&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt; 뜨는 창에서 추천해 주시기 바랍니다 ^ ^*&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;br /&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;추천은 제 글이 재밌었다고 보내 주시는 메시지이고 &lt;/SPAN&gt;&lt;br /&gt;&lt;SPAN style=&quot;FONT-FAMILY: Gulim,굴림,AppleGothic,sans-serif; COLOR: #0055ff; FONT-SIZE: 10pt&quot;&gt;그런 메시지는 글벌레가 글을 계속 발행할 수 있는 힘의 근원이 되어 줄 겁니다 ^ ^*&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=53680075&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;&lt;div style='text-align: center; margin: 10px auto; height: 91px; overflow: hidden; clear: both;'&gt;&lt;iframe title='mixUP 위젯' src='http://mixsh.com/widget/new_mixup/loader_plugin.html?domain=devotionnoath.tistory.com&amp;media_type=10&amp;guid=devotionnoath.tistory.com%2F1175&amp;regts=1395799010&amp;showhitcnt=1&amp;platform=10' frameBorder='0' scrolling='no' allowTransparency='true' width='402' height='130'&gt;&lt;/iframe&gt;&lt;/div&gt;</description>
+			<category>드라마 리뷰</category>
+			<author>글벌레</author>
+			<guid>http://devotionnoath.tistory.com/1175</guid>
+			<comments>http://devotionnoath.tistory.com/1175#entry1175comment</comments>
+			<pubDate>Wed, 26 Mar 2014 08:12:44 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

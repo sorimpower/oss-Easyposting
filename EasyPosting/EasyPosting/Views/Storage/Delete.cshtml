@@ -1,0 +1,100 @@
+﻿@model EasyPosting.Models.EP_POSTS
+
+@{
+    ViewBag.Title = "포스팅 삭제";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>정말로 "@Html.DisplayFor(model => model.Title)" 을(를) 삭제하시겠습니까?</h2>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Slug)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Slug)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        @if(Model.Type == "Post")
+        { 
+        <dt>
+            @Html.DisplayNameFor(model => model.Body)
+        </dt>
+
+        <dd>
+            @*@Html.DisplayFor(model => model.Body)*@
+            @Html.Raw(Model.Body)
+        </dd>
+        }
+        @if (Model.Type == "Image")
+        {
+            <img src="@Url.Content("~/User/Posts/Image/"+ Model.Body)" class="img-responsive img-thumbnail" alt="@Html.DisplayFor(model => model.Title)">
+        }
+        @if (Model.Type == "Attachment")
+        {
+            if (Model.Mime_type == "application/vnd.openxmlformats-officedocument.presentationml.presentation")
+            {
+                @*<iframe style="width:1400px; height:700px;" src="@Url.Content("~/User/Posts/Attachment/"+ Model.GUID + ".pptx.files/slide0001.htm")"></iframe>*@
+                <img src="@Url.Content("~/User/Posts/Attachment/" + Model.GUID + ".pptx.files/slide0001_image001.PNG")" class="img-responsive img-thumbnail" alt="@Html.DisplayFor(model => model.Title)">
+            }
+        }
+        @if (Model.Type == "Video")
+        {
+
+        }        
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="삭제하기" class="btn btn-default" /> | 
+            @if (Model.Type == "Post")
+            {
+                @Html.ActionLink("돌아가기", "Index", "Storage")
+            }
+            @if (Model.Type == "Image")
+            {
+                @Html.ActionLink("돌아가기", "Image", "Storage")
+            }
+            @if (Model.Type == "Attachment")
+            {
+                @Html.ActionLink("돌아가기", "Attachment", "Storage")
+            }
+            @if (Model.Type == "Video")
+            {
+                @Html.ActionLink("돌아가기", "Video", "Storage")
+            }            
+            @if (Model.Type == "Link")
+            {
+                @Html.ActionLink("돌아가기", "Link", "Storage")
+            }
+        </div>
+    }
+</div>

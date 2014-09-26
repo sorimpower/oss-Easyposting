@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[[.]]]></title>
+			<link>http://levin01.blog.me</link>
+			
+				<image>
+					<url><![CDATA[http://blogpfthumb.phinf.naver.net/data1/2004/8/10/102/my-5140.jpg?type=m2]]></url>
+					<title><![CDATA[[.]]]></title>
+					<link>http://levin01.blog.me</link>
+				</image>
+			
+			<description><![CDATA[............]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:49:18 +0900</pubDate>
+
+			
+				<item>
+					<author></author>
+					<category><![CDATA[기타]]></category>
+					<title><![CDATA[네이트온 ID 2개를 이용한 원격제어 및 원격제어 자동 수락 방법]]></title>
+					<link>http://levin01.blog.me/100107584404</link>
+					<guid>http://levin01.blog.me/100107584404</guid>
+					<description><![CDATA[퍼온글임을 밝힙니다 
+							
+		
+					
+		
+많은 분들이 회사와 집에 있는두개의 PC를 서로 원격제어 할 수 없을까를 고민한다.보안을 강화하기 위해방화벽과 네트워크 구성을 하다보면 일반적인 원격제어 프로그램은 사용할 수 없게 되는 경우가 많다. 하지만 네이트온의 원격제어는 가능한 경우가 많다.
+그리고 이때 집에 있는 PC나 회사에 있는 PC를 원격제어하기 위해 가장 필수적인 것이 네이트온 ID가 2개다. 원격제어를 요청하는 PC와 원격제어를 받는(수락하는, 당하는) PC에 각각 다른 네이트온 ID가 필요하다.
+하지만.. ID 두개를 만들어 각각 로그온 했다해도 문제가 있다. 네이트온의 원격제어는 누군가 제어하고자 하는 P.......]]></description>
+					<pubDate>Sun, 20 Jun 2010 02:14:26 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Windows_서버관리]]></category>
+					<title><![CDATA[무선랜 장착 노트북을 통해 인터넷 공유(Adhoc, Peer to peer) 설정하기]]></title>
+					<link>http://levin01.blog.me/100107584273</link>
+					<guid>http://levin01.blog.me/100107584273</guid>
+					<description><![CDATA[					
+							
+		
+					
+		
+PC를 조금 사용하는 사람이라면 집에 인터넷 라인이 들어오지 않는 사람을 없을 것이다. 그리고 PC를 두 대 이상 사용하는 매니아(?)도 많다. 두 대 이상의 PC에서 인터넷에 접속하기 위해서 인터넷 공유기를 사용하는 것이 이미 일반화 되어 있고 인터넷 유무선 공유기의 가격도 엄청나게 커진 시장으로 인해 10만원 훨씬 미만으로 하락한 상태다.  하지만 이동이 잦은 엔지니어들… 특히 두 명 이상 짝을지어 지방출장을 가는 경우에는 공유기를 들고 다니기는 솔직히 부담스럽다. 일부러 인터넷이 되는 숙소를 잡고 혼자 인터넷 서핑을 하는 것은 가능하지만 두 명이 동시에 두대로 인터넷을 하는 것은 생.......]]></description>
+					<pubDate>Sun, 20 Jun 2010 02:09:54 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[기타]]></category>
+					<title><![CDATA[[펌]Web2.0과 소셜 네트워크 ]]></title>
+					<link>http://levin01.blog.me/100056428503</link>
+					<guid>http://levin01.blog.me/100056428503</guid>
+					<description><![CDATA[[펌]Web2.0과 소셜 네트워크      
+							
+							
+							
+							
+							
+							
+							
+						
+						
+-->
+article id #210categorized under It's IT &amp; written by 도그비치 
+[펌]Web2.0과 소셜 네트워크  출처 : 김강민, 2006, 웹2.0과 소셜 네트워크, 인터넷 이슈리포트 11호, 한국인터넷진흥원. 
+요약문
+ 
+최근 웹 2.0이라는 현상이 전 세계적으로 비상한 관심을 끌고 있다. 이 글에서는 ‘2.0’의 의미를 소셜 네트워크 관점(Social Network Perspective)에서 살펴보고자 한다. 소셜 네트워크 관점은 어떤 현상을 노드와 그것들 간의 연결 관계인 링크로 구성된 복잡한 시스템으로 간주하고 그 시스템을.......]]></description>
+					<pubDate>Thu, 30 Oct 2008 13:39:52 +0900</pubDate>
+					<tag><![CDATA[IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[ORACLE]]></category>
+					<title><![CDATA[달력 생성 쿼리  ]]></title>
+					<link>http://levin01.blog.me/100054450784</link>
+					<guid>http://levin01.blog.me/100054450784</guid>
+					<description><![CDATA[   
+달력 생성 쿼리(Posted: 2006-05-18 11:58:01) 
+by 김홍선(Posts: 2038 - Registered: 2006-04-15)     
+글쓴이 : 김홍선년도와 월이 주어졌을 경우, 해당 월의 달력을 생성해주는 쿼리를 만들어 보자.쿼리는 아래와 같다. (2000년 01월이 주어졌을 경우)SELECT MIN (DECODE (TO_CHAR (days, 'd'), 1, TO_CHAR (days, 'fmdd'))) 일, MIN (DECODE (TO_CHAR (days, 'd'), 2, TO_CHAR (days, 'fmdd'))) 월, MIN (DECODE (TO_CHAR (days, 'd'), 3, TO_CHAR (days, 'fmdd'))) 화, MIN (DECODE (TO_CHAR (days, 'd'), 4, TO_CHAR (days, 'fmdd'))) 수, MIN (DECODE (TO_CHAR (days, 'd'), 5, TO_CHAR (days, 'fmdd'))) .......]]></description>
+					<pubDate>Mon, 01 Sep 2008 15:25:04 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[ORACLE]]></category>
+					<title><![CDATA[문자열 행으로 분리하기  ]]></title>
+					<link>http://levin01.blog.me/100054450766</link>
+					<guid>http://levin01.blog.me/100054450766</guid>
+					<description><![CDATA[   
+문자열 행으로 분리하기(Posted: 2006-05-27 15:48:19) 
+by 김홍선(Posts: 2038 - Registered: 2006-04-15)     
+글쓴이 : 김홍선예제 1)다음과 같은 문자열이 있다.123,11,4567,8,99999,000,123456이 문자열을 콤마(,)를 기준으로 행으로 분리해 보자. 즉 아래와 같은 결과가 나오도록 해보자.123114567......쿼리는 다음과 같다.SELECT SUBSTR (aa, INSTR (aa, ',', 1, LEVEL) + 1, INSTR (aa, ',', 1, LEVEL + 1) - INSTR (aa, ',', 1, LEVEL) - 1) subFROM (SELECT ',' || '123,11,4567,8,99999,000,123456' || ',' aaFROM DUAL)CONNECT BY LEVEL &lt;= LENGTH (aa) - LENGTH (REPLACE (aa, ',')) - 1예제 2).......]]></description>
+					<pubDate>Mon, 01 Sep 2008 15:24:10 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[ORACLE]]></category>
+					<title><![CDATA[오늘이 올해의 몇번째 주, 이번달의 몇번째 주에 속하는지 계산하기  ]]></title>
+					<link>http://levin01.blog.me/100054450749</link>
+					<guid>http://levin01.blog.me/100054450749</guid>
+					<description><![CDATA[오늘이 올해의 몇번째 주, 이번달의 몇번째 주에 속하는지 계산하기 (Posted: 2006-05-19 12:50:04) by 김홍선 (Posts: 2038 - Registered: 2006-04-15) 글쓴이 : 김홍선
+이 문제를 풀기 위해서는 먼저, 한 주의 시작을 어느 요일부터로 할 것인가가 정의되어야한다.여기서는 일요일부터 시작된다고 가정하겠다.
+-- 오늘이 올해의 몇번째 주에 속하는가?
+SELECT TO_CHAR (SYSDATE + 1, 'fmiw') FROM DUAL
+SELECT (TRUNC (SYSDATE, 'd') - TRUNC (TRUNC (SYSDATE, 'y'), 'd')) / 7 + 1 FROM DUAL
+SELECT TO_CHAR (SYSDATE, 'ww') - FLOOR ( ( TO_CHAR (SYSDATE, 'd') - TO_CHAR (TRUNC (SYSDATE, 'year'), 'd') ) / 7 ) FROM DUAL
+-- 오늘이.......]]></description>
+					<pubDate>Mon, 01 Sep 2008 15:23:27 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[ORACLE]]></category>
+					<title><![CDATA[다중 Row 결과를 단일행으로 컴마로 분리해 출력하는 방법 (1) ]]></title>
+					<link>http://levin01.blog.me/100054450729</link>
+					<guid>http://levin01.blog.me/100054450729</guid>
+					<description><![CDATA[   
+다중 Row 결과를 단일행으로 컴마로 분리해 출력하는 방법 (1)(Posted: 2006-05-14 18:11:23) 
+by 김홍선(Posts: 2036 - Registered: 2006-04-15)     
+글쓴이 : 김홍선문제)다중의 결과값을 하나의 행으로 컴마로 분리해 출력하는 방법을 알고싶습니다. return ========= 홍길동 김길동 --&gt; 홍길동, 김길동, 이길동 이길동 ========== 답변)emp.ename 컬럼을 예로 들어 쿼리를 구성해 보면 아래와 같다.정확히 어떤 컬럼들이 어떤 역할을 하는지 숙지하는 것이 중요.SELECT　　 SUBSTR (MAX (SYS_CONNECT_BY_PATH (ename, ',')), 2) path# 　　　FROM (SELECT ename, ROWNUM rnum 　　　　　　　FROM emp) ST.......]]></description>
+					<pubDate>Mon, 01 Sep 2008 15:22:42 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[ORACLE]]></category>
+					<title><![CDATA[[soQool] pivot query 기본]]></title>
+					<link>http://levin01.blog.me/100054447637</link>
+					<guid>http://levin01.blog.me/100054447637</guid>
+					<description><![CDATA[   
+pivot 쿼리 기본(Posted: 2006-06-12 10:59:56) 
+by 김홍선(Posts: 2036 - Registered: 2006-04-15)     
+글쓴이 : 김홍선pivot 쿼리란 row의 형태로 주어지는 데이타를 column의 형태로 보여주는 쿼리이다.예를 들어, 아래와 같이 scott.emp 테이블이 주어졌다고 하면,EMPNO ENAMEDEPTNO-----------------------7369SMITH207499ALLEN307521WARD 307566JONES207654MARTIN 307698BLAKE307782CLARK107788SCOTT207839KING 107844TURNER 307876ADAMS207900JAMES307902FORD 207934MILLER 10위 테이블에서, 한 row는 해당 deptno에 속하는 한 명의 사원(employee)을 나타낸다.이 테이블에서 각 deptno에 속하는 사원의.......]]></description>
+					<pubDate>Mon, 01 Sep 2008 13:43:59 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Spring]]></category>
+					<title><![CDATA[SpringJDBC SimpleJdbcTemplate 예제 코드]]></title>
+					<link>http://levin01.blog.me/100054447556</link>
+					<guid>http://levin01.blog.me/100054447556</guid>
+					<description><![CDATA[이전 글에서 SpringJDBC 관련 기능들을 설명했는데, 최종적으로 어떤 방법으로 구현해야 할지 고민하게 된다. 일반적으로 가장 편리하다고 생각되는 SimpleJdbcTemplate를 이용한 예제가 좋을듯 하다. 이유는 JdbcTemplate 와 NamedParameterJdbcTemplate 를 포함하고 있기 때문에 가장 자주 쓰이게 된다.아래는 내가 아는 가장 적합한(Best) SpringJDBC 예제코드를 화면 캡쳐한 것이다.1. SELECT
+2. INSERT(usingGeneratedKeyColumns()이 아닌 시퀀스로 KEY증가하는 경우)
+3. BATCH UPDATE
+4. SpringJDBC 기능 테스트 
+[참조]- Spring2.5 Reference- forum.springframework.org- OSCON Simple JDBC with Spring2.5 - Thomas Risberg
+]]></description>
+					<pubDate>Mon, 01 Sep 2008 13:41:16 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Spring]]></category>
+					<title><![CDATA[SpringJDBC SimpleJdbcCall]]></title>
+					<link>http://levin01.blog.me/100054447531</link>
+					<guid>http://levin01.blog.me/100054447531</guid>
+					<description><![CDATA[SimpleJdbcCall클래스는 스토어드프로시져나 메타데이터를 이용한 조회를 단순화 시켜준다. 다음과 같은 프로시져가 선언되어 있다고 하자.
+CREATE PROCEDURE read_actor (IN in_id INTEGER,OUT out_first_name VARCHAR(100),OUT out_last_name VARCHAR(100),OUT out_birth_date DATE)BEGINSELECT first_name, last_name, birth_dateINTO out_first_name, out_last_name, out_birth_dateFROM t_actor where id = in_id;END;이 프로시져를 SimpleJdbcCall를 이용해서 조회하는 예제는 아래와 같다. SimpleJdbcInsert와 같이 초기화시 withProcedureName()메서드를 통해서 프로시져 메다데이터를 읽어 온다. 결과값을 Map으로 받아서 직접 도메인.......]]></description>
+					<pubDate>Mon, 01 Sep 2008 13:40:26 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Spring]]></category>
+					<title><![CDATA[SpringJDBC SimpleJdbcInsert]]></title>
+					<link>http://levin01.blog.me/100054447498</link>
+					<guid>http://levin01.blog.me/100054447498</guid>
+					<description><![CDATA[SimpleJdbcInsert 와 SimpleJdbcCall는 메타데이타를 이용해서 해당 작업을 단순화시킨 클래스이다. 먼저 SimpleJdbcInsert 를 보자.SimpleJdbcInsert 는 먼저 클래스가 초기화 될때 withTableName 메서드를 이용하여 테이블명을 지정하고 입력할 데이터를 Map으로 매핑하면 된다.
+public class JdbcActorDao implements ActorDao { private SimpleJdbcTemplate simpleJdbcTemplate; private SimpleJdbcInsert insertActor; public void setDataSource(DataSource dataSource) { this.simpleJdbcTemplate = new SimpleJdbcTemplate(dataSource);  this.insertActor = new SimpleJdbcInsert(dataSource).withTableName("t_actor"); } public void.......]]></description>
+					<pubDate>Mon, 01 Sep 2008 13:39:27 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Spring]]></category>
+					<title><![CDATA[SpringJDBC SimpleJdbcTemplate]]></title>
+					<link>http://levin01.blog.me/100054447474</link>
+					<guid>http://levin01.blog.me/100054447474</guid>
+					<description><![CDATA[SimpleJdbcTemplate은 java5 이상 버전에서만 사용할수 있다. JdbcTemplate를 래핑하고 java5의 특징(varargs,autoboxing)을 살려서 구현할수 있다. JdbcTemplate로 구현할때와 SimpleJdbcTemplate로 구현할때의 클래스를 비교해 보자.
+// classic JdbcTemplate-style...private JdbcTemplate jdbcTemplate;public void setDataSource(DataSource dataSource) {this.jdbcTemplate = new JdbcTemplate(dataSource);}public Actor findActor(long id) {String sql = "select id, first_name, last_name from T_ACTOR where id = ?";RowMapper mapper = new RowMapper() { public Object mapRow(ResultSet rs, int rowNum) throws SQLException { A.......]]></description>
+					<pubDate>Mon, 01 Sep 2008 13:38:27 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Spring]]></category>
+					<title><![CDATA[SpringJDBC Batch]]></title>
+					<link>http://levin01.blog.me/100054447462</link>
+					<guid>http://levin01.blog.me/100054447462</guid>
+					<description><![CDATA[SimpleJdbcTemplate를 이용해서 일괄처리를 할수 있는 메서드를 제공하는데 그것이 batchUpdate()메서드이다. 여기서 일괄처리는 여러개의 row를 insert,update,delete하는것을 말한다. 간단히 다음과 같은 예제를 통해서 이해할수 있다.
+public class JdbcActorDao implements ActorDao { private SimpleJdbcTemplate simpleJdbcTemplate; public void setDataSource(DataSource dataSource) {  this.simpleJdbcTemplate = new SimpleJdbcTemplate(dataSource); } public int[] batchUpdate(final List&lt;Actor&gt; actors) {  SqlParameterSource[] batch = SqlParameterSourceUtils.createBatch(actors.toArray());  int[] updateCounts = s.......]]></description>
+					<pubDate>Mon, 01 Sep 2008 13:37:48 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Spring]]></category>
+					<title><![CDATA[SpringJDBC NamedParameterJdbcTemplate]]></title>
+					<link>http://levin01.blog.me/100054447416</link>
+					<guid>http://levin01.blog.me/100054447416</guid>
+					<description><![CDATA[Statement 쿼리에 매핑할 파라메터는 보통 '?'를 인자로 하는데 이는 직관적이지 못해서 의미있는 매핑을 위해 이름을 사용할수 있게한 JdbcTemplate 래퍼 클래스이다.
+public int countOfActorsByFirstName(String firstName) {  String sql = "select count(0) from T_ACTOR where first_name = :first_name";  SqlParameterSource namedParameters = new MapSqlParameterSource("first_name", firstName);  return namedParameterJdbcTemplate.queryForInt(sql, namedParameters);}
+예제에서 처럼 쿼리문 변수(sql)에 간단히 ':변수명' 형식으로 정의한후 MapSqlParameterSource로 해당 변수를 매핑하여 쿼리를 실행한다. 여기서 SqlParamet.......]]></description>
+					<pubDate>Mon, 01 Sep 2008 13:36:02 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Spring]]></category>
+					<title><![CDATA[SpringJDBC JdbcTemplate]]></title>
+					<link>http://levin01.blog.me/100054447367</link>
+					<guid>http://levin01.blog.me/100054447367</guid>
+					<description><![CDATA[JdbcTemplate 클래스는 SpringJDBC 패키지에서 가장 기본이되는 클래스로 SQL를 질의하거나, update, 스토어드프로시져 콜, Resultset 을 실행한다. 이 클래스는 단순히 콜백 인터페이스만 구현하면 사용할수 있는데 보통 DAO의 구현체에서 사용된다.이 클래스를 사용하기 위해서는 Datasource를 Spring IoC로 참조하고 해당 DAO 구현체에서 확장하거나 참조로 사용할수 있다.1. SELECT 쿼리 예제
+// 숫자형을 리턴할때int countOfActorsNamedJoe = this.jdbcTemplate.queryForInt("select count(0) from t_actors where first_name = ?", new Object[]{"Joe"});
+// 도메인 객체와 매핑할때public Collection findAllActors() {return this.jdb.......]]></description>
+					<pubDate>Mon, 01 Sep 2008 13:34:18 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Spring]]></category>
+					<title><![CDATA[SpringJDBC 개요]]></title>
+					<link>http://levin01.blog.me/100054447332</link>
+					<guid>http://levin01.blog.me/100054447332</guid>
+					<description><![CDATA[소개스프링 2.5 에서는 JDBC 데이터 접근에 대한 편리한 클래스를 제공하고 있는데 그 종류와 특징은 아래와 같다. JdbcTemplate 클래스는 가장 기본이 되는 클래스로 스프링 초기부터 제공하는 클래스이다. 
+NamedParameterJdbcTemplate 클래스는 JdbcTemplate클래스를 완전히 포함한 클래스로 클래스명에서 눈치챌수 있듯이 "?" 대신 "이름"으로 파라메터를 지정할수 있다. 
+SimpleJdbcTemplate 클래스는 위의 두개의 클래스 기능을 포함할 뿐아니라, java5의 특징까지 포함한 편리한 클래스이다. 
+SimpleJdbcInsert 와 SimpleJdbcCall 클래스는 질의를 좀더 단순화 하기 위해서 새로 추가된 극도(?)로 편리한 클래스이다. 
+이밖에 Mapp.......]]></description>
+					<pubDate>Mon, 01 Sep 2008 13:33:13 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[JAVA2]]></category>
+					<title><![CDATA[Real-time Java, Part 5: 실시간 자바 애플리케이션의 작성과 전개 (한글)]]></title>
+					<link>http://levin01.blog.me/100052408513</link>
+					<guid>http://levin01.blog.me/100052408513</guid>
+					<description><![CDATA[Caroline Gough , Software Engineer, IBM Hursley LabAndrew Hall, Software Engineer, IBM Hursley LabHelen Masters, Software Engineer, IBM Hursley LabAlan Stevens, Software Engineer, IBM Hursley Lab
+2007 년 8 월 07 일
+Real-time Java™ 시리즈, 다섯 번째 글에서는 IBM® WebSphere® Real Time에서 제공한 툴을 사용하여 실시간 자바 애플리케이션을 작성 및 전개하는 방법을 설명합니다. 필자는 샘플 애플리케이션을 사용하여 가비지 컬렉션 중지를 제어하는 Metronome 가비지 컬렉터, 런타임 컴파일 중지를 피하는데 사용되는 Ahead-of-time 컴파일러, 엄격한 타이밍 요구 사항을 맞추는 NoHeapRealtimeThread를 설명합니다.
+본.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 18:30:15 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[JAVA2]]></category>
+					<title><![CDATA[Real-time Java, Part 4: 실시간 가비지 컬렉션 (한글)]]></title>
+					<link>http://levin01.blog.me/100052408482</link>
+					<guid>http://levin01.blog.me/100052408482</guid>
+					<description><![CDATA[Benjamin Biron, Software Developer, IBM Ottawa LabRyan Sciampacone, Senior Software Developer, IBM Ottawa Lab
+2007 년 7 월 18 일
+전통적인 가비지 컬렉션(GC)에서의 비결정적 중지(Nondeterministic pauses) 때문에 자바는 실시간(RT) 개발 환경에 적합하지 않습니다. IBM® WebSphere® Real Time의 일부인 Metronome GC는 결정적 GC 작동을 제공하여 개발자들이 자바 언어로 하드(hard) RT 애플리케이션을 작성할 수 있도록 합니다. 필자는 결정적 GC에 Metronome을 사용하는 방법, Metronome을 개발할 때 개입되는 기술적 문제들, GC 튜닝에 사용할 수 있는 툴과 장치들을 설명합니다.
+실시간 시스템과 가비지 컬렉션   
+.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 18:29:22 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[JAVA2]]></category>
+					<title><![CDATA[Real-time Java, Part 3: 쓰레딩과 동기화 (한글) 실시간 자바에서의 쓰레딩과 동기화 조건]]></title>
+					<link>http://levin01.blog.me/100052408457</link>
+					<guid>http://levin01.blog.me/100052408457</guid>
+					<description><![CDATA[Patrick Gallop, Senior Software Developer, IBM Toronto LabMark Stoodley, Advisory Software Developer, IBM Toronto Lab 
+2007 년 7 월 10 일
+Real-time Java ™ 6개 시리즈, 세 번째 글에서는 Real-time Specification for Java (RTSJ)가 반드시 지원해야 하는 쓰레딩과 동기화에 대해 설명합니다. 실시간 애플리케이션을 개발 및 전개할 때 반드시 유념해야 하는 쓰레딩과 동기화 문제에 대해서도 설명합니다.      소셜 북마크  
+   
+mar.gar.in     
+Digg     
+del.icio.us    :location.href='http://slashdot.org/bookmark.pl?url='+encodeURIComponent(location.href)+'&amp;title=.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 18:28:28 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[JAVA2]]></category>
+					<title><![CDATA[Real-time Java, Part 2: 컴파일 기술 비교 (한글) 정적 및 동적 네이티브 자바 코드 컴파일]]></title>
+					<link>http://levin01.blog.me/100052408418</link>
+					<guid>http://levin01.blog.me/100052408418</guid>
+					<description><![CDATA[Mark Stoodley, Advisory Software Developer, IBM Toronto Lab Kenneth Ma, Staff Software Developer, IBM Toronto LabMarius Lut, Staff Software Developer, IBM Toronto Lab
+2007 년 6 월 05 일
+Real-time Java ™ 시리즈, 두 번째 글에서는 자바 언어의 네이티브 컴파일과 관련한 문제점들을 설명합니다. 동적 (Just-in-time) 또는 정적 (Ahead-of-time) 컴파일 단독으로는 모든 자바 애플리케이션들의 요구 사항들을 맞출 수 없습니다. 필자는 다양한 실행 환경에서 이 두 개의 컴파일 기술들을 비교하고 서로 어떻게 보완되는지를 설명합니다. 
+자바 애플리케이션 성능 문제는 개발 커뮤니티에서 가끔씩 뜨거운 논쟁을 불러 일으킨다.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 18:27:09 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[JAVA2]]></category>
+					<title><![CDATA[Real-time Java, Part 1: 실시간 시스템에 자바 사용하기 (한글)]]></title>
+					<link>http://levin01.blog.me/100052408396</link>
+					<guid>http://levin01.blog.me/100052408396</guid>
+					<description><![CDATA[Mark Stoodley, Advisory Software Developer, IBM Toronto Lab Mike Fulton, Senior Technical Staff Member, IBM Toronto Lab Michael Dawson, Advisory Software Developer, IBM Ottawa LabRyan Sciampacone, Senior Software Developer, IBM Ottawa LabJohn Kacur, Staff Software Developer, IBM Toronto Lab 
+2007 년 5 월 29 일
+Real-time Java™ 시리즈 첫 번째 기술자료에서는, 자바를 사용하여 실시간 성능 요구 사항들에 부합하는 시스템을 개발하는 주요 문제점들을 다룹니다. 실시간 애플리케이션 개발이 의미하는 바가 무엇인지, 실시간 애플리케이션의 요구 사항을 맞추기 위해 런타임 시스템들이 어떻게 다루어져야 하는지를 설.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 18:26:18 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[ECLIPSE]]></category>
+					<title><![CDATA[Eclipse 방식으로 단위 테스팅 하기 (한글) Eclipse IDE에서 자바용 RMock 테스팅 프레임웍으로 jMock 강화하기]]></title>
+					<link>http://levin01.blog.me/100052408321</link>
+					<guid>http://levin01.blog.me/100052408321</guid>
+					<description><![CDATA[소스 코드 베이스를 테스트 할 수 있는 적합한 테스트 슈트가 필요하십니까? jMock은 훌륭한 테스팅 프레임웍으로서 자격을 갖추었습니다. 하지만 모든 상황에jMock이 다 맞는 것은 아닙니다. 애플리케이션에서 단위 테스트를 지원하는 커스텀 mock 객체를 어렵게 만들 필요 없이, RMock이 jMock과 조화롭게 작동하도록 하여 긍정적인 결과를 얻을 수 있습니다.     
+소셜 북마크  
+   
+mar.gar.in     
+Digg     
+del.icio.us    :location.href='http://slashdot.org/bookmark.pl?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title)" target=_blank cmIm.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 18:23:49 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[JAVA2]]></category>
+					<title><![CDATA[로봇, 미로, subsumption 아키텍처 자바로 가상 로봇 프로그래밍하기]]></title>
+					<link>http://levin01.blog.me/100052408253</link>
+					<guid>http://levin01.blog.me/100052408253</guid>
+					<description><![CDATA[Robot simulators can be both serious research tools and, as IBM computer programmer Paul Reiners shows in this article, a route to some serious fun with Java™ programming. Find out how to create light-seeking and maze-navigating virtual robots in the Java language using Simbad &#8212; an open source robot simulator based on Java 3D technology &#8212; to realize the robotics-design concept of subsumption architecture.                       
+                      
+                     Show more developerWorks content related to my search
+                      
+                    
+  .......]]></description>
+					<pubDate>Thu, 03 Jul 2008 18:22:05 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[ECLIPSE]]></category>
+					<title><![CDATA[Eclipse Platform에서의 C/C++ 개발 C/C++ Development Toolkit (CDT)을 사용하는 방법]]></title>
+					<link>http://levin01.blog.me/100052408190</link>
+					<guid>http://levin01.blog.me/100052408190</guid>
+					<description><![CDATA[C/C++ 개발 프로젝트에서 Eclipse Platform을 사용하는 방법을 설명합니다. Eclipse는 주로 자바™ 개발 환경이지만, 다른 프로그래밍 언어들도 지원합니다. 이 글에서, Eclipse에 사용할 수 있는 최상의 C/C++ 툴킷인 C/C++ Development Toolkit (CDT)을 사용하는 방법을 설명합니다.
+편집자 주: "Eclipse C/C++ Development Toolkit을 사용한 애플리케이션 개발"의 업데이트 버전이 2007년 7월 발표되었습니다. 원래 버전은 참조용으로 사용될 것입니다. C++ Standard Template Library (STL)와 Eclipse C/C++ Development Toolkit (CDT)을 사용하는 것에 대한 최신 정보를 담은 새로운 기술자료를 읽어보십시오.    
+소셜 북마.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 18:20:20 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[JAVA2]]></category>
+					<title><![CDATA[사람을 위한 자동화: Continuous Integration 반패턴(anti-pattern)]]></title>
+					<link>http://levin01.blog.me/100052408068</link>
+					<guid>http://levin01.blog.me/100052408068</guid>
+					<description><![CDATA[Continuous Integration (CI)가 프로젝트의 위험 요소를 줄이는 데는 매우 효과적이지만, 매일 매일의 코딩에 대해서는 큰 중요성을 두고 있습니다. 사람을 위한 자동화 시리즈에서는, 자동화 전문가이자, Continuous Integration: Improving Software Quality and Reducing Risk 의 공동 저자인 Paul Duvall이 CI 반패턴(anti-pattern)을 설명하고, 이를 피하는 방법을 설명합니다. 
+잘 되는 것 보다는 특정 상황에서 잘 되지 않는 것을 알아냄으로써 더 많은 것을 배우게 되는 경우가 있다. 예를 들어, 초기에는 소프트웨어를 빠르게 릴리스 하고자 하는 마음에, 단위 테스팅을 건너 뛰었다. 그러한 노력에는 돈을 들일 가치가 없다고 생각했.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 18:16:28 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Spring]]></category>
+					<title><![CDATA[Java EE가 Web 2.0을 만났을 때! (한글)  비동기식, 이벤트 중심 아키텍처를 현대적인 웹 애플리케이션의 문제에 맞춰 변화시키기]]></title>
+					<link>http://levin01.blog.me/100052406775</link>
+					<guid>http://levin01.blog.me/100052406775</guid>
+					<description><![CDATA[표준 Java™ Platform, Enterprise Edition 5 (Java EE) &#8212; 기반 방식으로 개발된 Web 2.0 애플리케이션들은 심각한 성능 및 확장성 문제에 직면해 있습니다. 이유는, Java EE 플랫폼의 디자인 &#8212; 특히, 동기식 API의 사용-을 지탱하고 있는 많은 원리들이 Web 2.0 솔루션의 요구 사항에 맞지 않기 때문입니다. 이 글에서는 Java EE와 Web 2.0 방식 간 차이에 대해 설명하고, 비동기식 디자인의 효과를 분석하며, 자바 플랫폼에 비동기식 웹 애플리케이션을 개발할 수 있는 몇 가지 솔루션을 평가해 봅니다.
+많은 성공적인 엔터프라이즈 애플리케이션들이 Java EE 플랫폼을 사용하여 생성되었다. 하지만, Java EE의 디자인 원리는 Web.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 17:39:09 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[기타]]></category>
+					<title><![CDATA[이클립스를 사용해 아이폰 웹 애플리케이션 개발하기 (한글) Aptana의 아이폰 개발 플러그인과 iUi 프레임워크를 사용해 아이폰 웹 애플리케이션 만들기]]></title>
+					<link>http://levin01.blog.me/100052406664</link>
+					<guid>http://levin01.blog.me/100052406664</guid>
+					<description><![CDATA[이클립스, Aptana의 플러그인 그리고 iUi 프레임워크를 사용해 아이폰 웹 사이트를 만드는 방법을 배웁니다. 아이폰에서 사용할 수 있는 Javadoc 뷰어 개발 과정을 통해 사용자 인터페이스 디자인를 위한 팁을 살펴보고 아이폰 개발의 미래에 들어보겠습니다.
+애플(Apple)의 아이폰(iPhone) 플랫폼은 개발자들에게 흥미로운 기회를 제공하고 있다. 소형 데스크톱과 터치스크린으로 아이폰과 아이팟 터치(iPod Touch)는 짧은 기간에 100만 명이 넘는 사용자들을 가지게 되었다. 하지만 이런 고품격 디자인과 사유화된(proprietary) 플랫폼은 애플리케이션 개발자들에게 새로운 종류의 도전을 만들어 내고 있다. 애플이 소프트웨어 개발 키트(SDK).......]]></description>
+					<pubDate>Thu, 03 Jul 2008 17:36:12 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[AJAX+Flex]]></category>
+					<title><![CDATA[자바 개발자를 위한 Ajax: Ajax와 Direct Web Remoting (한글) - 데이터 직렬화]]></title>
+					<link>http://levin01.blog.me/100052403077</link>
+					<guid>http://levin01.blog.me/100052403077</guid>
+					<description><![CDATA[Ajax 기능을 애플리케이션에 추가하기란 간단한 일이 아닙니다. 자바™ 개발자를 위한 Ajax 시리즈 세 번째 기사에서는 Direct Web Remoting (DWR)을 사용하여 JavaBeans 메소드를 JavaScript 코드에 직접 노출하고 Ajax를 자동화 하는 방법을 설명합니다.
+Ajax 프로그래밍의 기초 (한글) 이해하는 것은 필수적인 일이지만, 복잡한 Ajax UI를 구현한다면, 고급 추상화 레벨에서 작업할 수 있어야 한다. Ajax for Java developers 시리즈 세 번째 글에서는 지난 달 소개했던 Ajax용 데이터 직렬화 기술 (한글)을 바탕으로, 자바 객체들을 직렬화 하는 문제를 단순화 하는 방법을 설명하겠다. 
+이전 글에서, JavaScript Object Notation (JSON)을.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 15:46:07 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Spring]]></category>
+					<title><![CDATA[IBM WebSphere Portal 기반의 스프링 포틀릿 MVC 프레임워크 개발하기: 스프링 포틀릿 MVC 프레임워크 소개 (한글)]]></title>
+					<link>http://levin01.blog.me/100052402706</link>
+					<guid>http://levin01.blog.me/100052402706</guid>
+					<description><![CDATA[이 글은 스프링 포틀릿 MVC 프레임워크(Spring Portlet MVC Framework)를 사용하여 IBM WebSphere Portal에 배치할 간단한 HelloWorld 포틀릿 애플리케이션을 만드는 방법을 다룹니다. 포틀릿 개발에 오픈소스 MVC 프레임워크를 사용하고자 하는 포틀릿 개발자와 아키텍트를 위해 작성한 글입니다.
+이 글은 세 개의 글로 이뤄진 "IBM WebSphere 포털 내에서 사용할 스프링 포틀릿 MVC 프레임워크 애플리케이션 개발하기" 연재의 첫 번째 글로 난이도는 고급이다. 본 글을 이해하기 위해 JSR-168 포틀릿 개발의 기초를 알아야 하고 스프링 프레임워크에 대해 적어도 기본 이해는 하고 있어야 한다.
+지난 몇 년 동안 스프링 프레임워크는 J2EE 개.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 15:35:47 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Spring]]></category>
+					<title><![CDATA[The Spring series, Part 3: Swing into Spring MVC Spring MVC로 애플리케이션 개발하기 ]]></title>
+					<link>http://levin01.blog.me/100052402611</link>
+					<guid>http://levin01.blog.me/100052402611</guid>
+					<description><![CDATA[Naveen Balani, 아키텍트, Webify Solutions
+2005 년 9 월 06 일
+Naveen Balani의 Spring series, 세 번째 글이다. Spring 프레임웍을 사용하여 MVC 기반 애플리케이션을 개발하는 방법을 설명한다. 
+이번에는 Spring series의 Spring Model-View-Controller (MVC)에 대해 설명하겠다. 이전 글과 마찬가지로 뱅킹 예제를 통해 애플리케이션의 모델링과 구현 방법을 설명하고자 한다. 이 예제 애플리케이션에는 여러분이 이미 배운 기술(종속관계 투입) 뿐만 아니라 Spring MVC의 기능들까지 함축되어 있다. 
+시작하기에 앞서 소스를 다운로드하라. 참고자료에는 Spring 프레임웍과 Tomcat 5.0 관련 링크가 있다. 
+Spring MVC 프레임웍
+Spri.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 15:32:30 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Spring]]></category>
+					<title><![CDATA[The Spring series, Part 2: Hibernate와 Spring Hibernate 트랜잭션과 Spring AOP]]></title>
+					<link>http://levin01.blog.me/100052402572</link>
+					<guid>http://levin01.blog.me/100052402572</guid>
+					<description><![CDATA[Naveen Balani, Technical Architect, Webify Solutions
+2005 년 8 월 02 일
+Hibernate 트랜잭션과 Spring aspect 지향 프로그래밍(AOP)을 통합하는 방법을 설명한다. 이를 통해 영속 프레임웍(persistence framework)을 얻을 수 있다. 
+이전 글에서 Spring AOP와 제어 역행화(IOC) 컨테이너 같은 Spring 프레임웍의 일곱 가지 모듈을 소개했다. 약결합 방식으로 분산 시스템을 통합할 때 (Spring IOC 컨테이너에서 구현된) IOC 패턴이 어떻게 작동하는지를 간단한 예제를 통해 설명했다. 
+이번에는 Spring의 영속성 지원에 대해 설명하겠다. 이 뱅킹(banking) 예제는 Spring AOP의 선언적 트랜잭션 관리 기능과 Spring Hibernate의 영속성 골.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 15:31:23 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Spring]]></category>
+					<title><![CDATA[The Spring series, Part 1: Spring 프레임웍 소개 Spring AOP와 IOC 컨테이너]]></title>
+					<link>http://levin01.blog.me/100052402538</link>
+					<guid>http://levin01.blog.me/100052402538</guid>
+					<description><![CDATA[Naveen Balani, Technical Architect, Webify Solutions
+2005 년 6 월 21 일
+Spring 기술을 사용하여 강력한 J2EE 애플리케이션을 구현한다. Naveen Balani가 Spring 시리즈를 통해서 Spring 프레임웍을 소개한다. 아울러 Spring의 aspect 지향 프로그래밍(AOP)과 Inversion of Control(IOC) 컨테이너도 소개한다. 
+Spring은 오픈 소스 프레임웍으로서 기업 애플리케이션 개발의 복잡성 문제를 다루기 위해 만들어졌다. Spring 프레임웍의 가장 큰 장점 중 하나는 레이어 아키텍쳐라는 점이다. J2EE 애플리케이션 개발에 일관된 프레임웍을 제공함과 동시에 원하는 컴포넌트만 선택적으로 사용할 수 있다는 이점이 있다. 
+이 글에서는 Spring.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 15:30:15 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Spring]]></category>
+					<title><![CDATA[Spring을 이용한 Struts 액션 핸들링 Struts 애플리케이션과 Spring을 통합하는 세 가지 방법]]></title>
+					<link>http://levin01.blog.me/100052402453</link>
+					<guid>http://levin01.blog.me/100052402453</guid>
+					<description><![CDATA[Struts Recipes의 공동 저자 George Franciscus는 또 다른 Struts 통합 레시피를 가지고 돌아왔다. 이번에는 Struts 애플리케이션을 Spring 프레임웍으로 반입한다. Struts 액션을 Spring의 빈 처럼 관리할 수 있다. Spring AOP의 효과를 쉽게 누릴 수 있다. 
+Inversion of Control (IOC) 디자인 패턴에 대해서는 누구나 한번쯤은 들어봤을 것이다. Spring 프레임웍을 사용했다면 그 실행 원리도 알 것이다. Struts 애플리케이션을 Spring 프레임웍으로 반입할 때 IOC 패턴이 큰 힘을 발휘한다. 
+Struts 애플리케이션을 Spring 프레임웍으로 통합할 때의 이점은 많이 있다. 우선, Spring은 JEE의 문제들, 이를 테면 복잡성, 형편없는 퍼포먼스.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 15:28:03 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Spring]]></category>
+					<title><![CDATA[WebSphere Application Server Community Edition용 Spring 애플리케이션 개발, Part 2: Spring으로 데이터베이스 연결 관리하기 (한글)]]></title>
+					<link>http://levin01.blog.me/100052402288</link>
+					<guid>http://levin01.blog.me/100052402288</guid>
+					<description><![CDATA[샘플 애플리케이션 개발하기
+ContactDAOJDBC 클래스 만들기
+다음 내용을 살펴보려면, 이 시리즈의 첫 번째 파트에서 설명한 연락처 관리 애플리케이션의 샘플 코드가 필요하다.
+이미 언급했듯이, Part 1에서 개발한 연락처 관리 애플리케이션에서는 HashMap 기반의 ContactDAO &#8212; 클래스를 이용해 연락처 레코드를 저장했으며, 이제 이것을 RDBMS를 사용하도록 변경할 것이다. 그러기 위해, ContactDAO 클래스의 내용을 구현하고, CONTACT 테이블과 통신하는 ContactDAOJDBC.java 클래스를 생성해 보자. Listing 2에서 볼 수 있듯이, ContactDAO.java 클래스의 인터페이스를 구현하는 ContactDAOJDBC.java 클래스를 우선 생성한다. 
+.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 15:23:58 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[Spring]]></category>
+					<title><![CDATA[IBM WebSphere Developer Technical Journal: IBM WebSphere Application Server용 Spring 애플리케이션 개발 -- Part 1 (한글)]]></title>
+					<link>http://levin01.blog.me/100052402150</link>
+					<guid>http://levin01.blog.me/100052402150</guid>
+					<description><![CDATA[머리말
+만약 여러분이 자바 커뮤니티에서 활동하고 있다면, 지난 몇 년 동안 많은 주목을 받고있는 Spring Framework에 대해서 들어보았을 것이다. 
+Spring은 Expert One-on-One J2EE Design and Development(Rod Johnson)에 수록된 코드를 기반으로 작성된 레이어드 J2EE 애플리케이션 프레임웍으로서, 유연한 인프라를 제공하여 보다 쉬운 J2EE 프로젝트 개발을 도모한다. Spring은 최고의 J2EE 프로젝트 구현 방법이라고 생각해도 좋다. 
+여러분이 J2EE 개발은 숙련되었지만 Spring은 처음이라는 간주 하에 이 글을 진행하도록 하겠다. Spring과 장점부터 설명하고, Spring Inversion of Control (IOC)과 Aspect-Oriented Programming (AOP.......]]></description>
+					<pubDate>Thu, 03 Jul 2008 15:19:48 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[기타]]></category>
+					<title><![CDATA[윈도우의 아쉬운 2%를 채워주는 프리웨어 Top 10]]></title>
+					<link>http://levin01.blog.me/100052076132</link>
+					<guid>http://levin01.blog.me/100052076132</guid>
+					<description><![CDATA[
+윈도우의 아쉬운 2%를 채워주는 프리웨어 Top 10
+사용하실때는 반드시 저작권에 주의바랍니다.
+원 저작자는 링크와 같이 따로 존재합니다
+해당 저작자의 전제에 대한 수정요청을 받거나 클레임이 있을경우 즉시 삭제할 예정입니다  윈도우를 사용하다 보면 "아.. 이런 기능이 있었으면 좋을텐데.." 하고 아쉬워 할 때가 있는데요. 그럴때 그 아쉬움을 채워주는 유틸리티를 만나게 되면 마치 보석을 캔 것 같은 뿌듯함과 함께 컴퓨터 사용이 한층 즐거워집니다.
+그런 의미에서 제가 나름대로 "아쉬운 2%를 채워주는 중독성 강한 유틸리티 10종"을 뽑아봤습니다. (순전히 제 사용 경험에서 나온 것이니까 더 좋은 유틸리티가 있으면 댓.......]]></description>
+					<pubDate>Mon, 23 Jun 2008 14:40:36 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[AJAX+Flex]]></category>
+					<title><![CDATA[HTML 폼에 Ajax 사용하기 (한글)]]></title>
+					<link>http://levin01.blog.me/100048689451</link>
+					<guid>http://levin01.blog.me/100048689451</guid>
+					<description><![CDATA[  
+Ajax와 XML: HTML 폼에 Ajax 사용하기 (한글)
+Ajax를 사용하여 입력 폼을 생성하는 법       
+문서 옵션      
+:print()" cmImpressionSent="1">이 페이지 출력
+&lt;FORM name="email" action="https://www.ibm.com/developerworks/secure/email-it.jsp" cM1="1">&lt;INPUT type="hidden" value="HTML 폼을 서버에 넘길 때 Ajax 콜백으로 보강하는 기술은 웹 2.0 기능을 응용 프로그램에 추가하는 현실적인 방법입니다. Ajax 코드를 추가하고 PHP 응용 프로그램에서 사용자 경험을 강화하는 다양한 기법을 살펴보겠습니다." name=body cM1="1" cM3 cM2="0">&lt;INPUT type="hidden" value=.......]]></description>
+					<pubDate>Sun, 16 Mar 2008 20:37:18 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[AJAX+Flex]]></category>
+					<title><![CDATA[Flex를 이용한 MySQL 관리(2)]]></title>
+					<link>http://levin01.blog.me/100048689267</link>
+					<guid>http://levin01.blog.me/100048689267</guid>
+					<description><![CDATA[Flex를 이용한 MySQL 관리(2) 등록일: 2008년 03월 05일
+조회수: 269 
+프린트 
+전체기사목록 
+제공 : 한빛 네트워크저자 : Jack Herrington역자 : 이대엽원문 : Administering MySQL Using Flex 테이블 보기 코드 만들기 Flex 애플리케이션 예제의 마지막 단계는 테이블의 드롭 다운 메뉴를 채우고 선택된 테이블의 데이터를 데이터 그리드에 보여주는 작업을 처리하는 것이다. 예제의 전체 코드는 [리스팅 4]에 나타나 있다. [리스팅 4] flexmysql.mxml &lt;?xml version="1.0" encoding="utf-8"?&gt; 
+&lt;mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" layout="vertical" 
+initialize="onInitialize()"&gt; 
+&lt;mx:Sc.......]]></description>
+					<pubDate>Sun, 16 Mar 2008 20:32:23 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[AJAX+Flex]]></category>
+					<title><![CDATA[Flex를 이용한 MySQL 관리(1)]]></title>
+					<link>http://levin01.blog.me/100048689246</link>
+					<guid>http://levin01.blog.me/100048689246</guid>
+					<description><![CDATA[Flex를 이용한 MySQL 관리(1) 등록일: 2008년 03월 04일
+조회수: 430 
+프린트 
+전체기사목록 
+제공 : 한빛 네트워크저자 : Jack Herrington역자 : 이대엽원문 : Administering MySQL Using Flex PHPMyAdmin은 끝내 준다. 이것에 대해서는 의심할 여지가 없다. PHPMyAdmin은 PHP를 기반으로 하는 최고의 애플리케이션 중의 하나라고 할 수 있는데, MySQL 관리에 있어 거추장스러운 명령행 인터페이스를 웹 브라우저로 바꿔 주기 때문이다. 하지만 이러한 큰 장점이 있음에도 불구하고 PHPMyAdmin는 사용하기에 편하거나 좋아 보이지는 않는다. 그래서 나는 MySQL 관리에 있어 매력적인 프론트 엔드를 둘 수 있을지 확인해 보려고 RIA(Rich .......]]></description>
+					<pubDate>Sun, 16 Mar 2008 20:31:39 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[JAVA.swing]]></category>
+					<title><![CDATA[이미지 I/O 이벤트 모니터하기]]></title>
+					<link>http://levin01.blog.me/100048640339</link>
+					<guid>http://levin01.blog.me/100048640339</guid>
+					<description><![CDATA[
+이미지 I/O 이벤트 모니터하기Java SE/고급 2007/03/13 12:24  글쓴이: Brian Burkhalter 
+Java Image I/O API는 자바 플랫폼에서의 이미지 작업을 위한 프레임워크를 제공하며, 이 프레임워크 내에서 javax.imageio.event 패키지는 이미지를 읽거나 쓰는 동안 생성되는 동기 이벤트를 모니터하기 위한 몇 가지 인터페이스를 정의한다. 
+이 인터페이스들은 다음과 같은 목적으로 사용할 수 있다.  이미지 읽기의 진행상황을 모니터한다. 
+이미지의 각 영역을 읽는 동안 통지 내용을 수신한다. 
+이미지 읽기에 관한 경고 메시지를 트랩한다. 
+이처럼 각각의 다양한 이벤트 모니터링은 사용중인 ImageReader에 리스너를 등록함으로써.......]]></description>
+					<pubDate>Sat, 15 Mar 2008 19:28:41 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[JAVA.swing]]></category>
+					<title><![CDATA[JTree로 드래그-앤-드롭(Adding Drop Support with JTree) 추가]]></title>
+					<link>http://levin01.blog.me/100048640298</link>
+					<guid>http://levin01.blog.me/100048640298</guid>
+					<description><![CDATA[
+JTree로 드래그-앤-드롭(Adding Drop Support with JTree) 추가Java SE/초급 2007/07/23 11:06  시간이 지남에 따라 Swing 구성요소 세트로 끌어서 놓기 기능이 많이 변경되었습니다. 이전 버전에서는 java.awt.dnd 패키지에 기본 API가 있었지만(java.awt.datatransfer의 지원) 초기 사용자 클릭에서 놓기 조작까지 끌기 작업의 모든 측면을 정의해야 했습니다. J2SE 1.4는 기능 세트에 따라 향상되고 이전 팁 Dragging Text and Images with Swing에 설명된 API를 업데이트합니다. 
+이전 API의 변경으로 끌어서 놓기 작업이 훨씬 쉬워졌습니다. 수많은 구성요소가 끌어서 놓기 작업을 내장 지원하기 때문입니다. 예를 들어, JTextField에.......]]></description>
+					<pubDate>Sat, 15 Mar 2008 19:27:36 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[UNIX+Linux]]></category>
+					<title><![CDATA[UNIX 일반유저권한추가]]></title>
+					<link>http://levin01.blog.me/100048639950</link>
+					<guid>http://levin01.blog.me/100048639950</guid>
+					<description><![CDATA[(1) 일반 user생성 (계정 추가) --&gt; ( 총 7개 필드, 구분 문자 -&gt; ‘:’ ) 계정명 : 비밀번호encryption : uid : gid : 사용자정보 : homedir : 시작 p/g
+1. /etc/passwd에 계정 추가계정명 : 비밀번호encryption : uid : gid : 사용자정보 : homedir : 시작 p/g# echo “user33:,..:333:301:dong-hwan jin:/home/user33:/usr/bin/sh” &gt;&gt; /etc/passwd
+2. /etc/group에 추가 (optional)그룹명: passwd : group_id:group_list# echo “class::301:user33” &gt;&gt; /etc/group
+3. login directory(home directrory) 만들기# mkdir user33
+4. 환경 file들을 login directory에 cp# cp /etc/skel/.[!.]* /home/user33# ls -al /hom.......]]></description>
+					<pubDate>Sat, 15 Mar 2008 19:17:36 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[UNIX+Linux]]></category>
+					<title><![CDATA[DBA가 알아야하는 UNIX명령어]]></title>
+					<link>http://levin01.blog.me/100048639928</link>
+					<guid>http://levin01.blog.me/100048639928</guid>
+					<description><![CDATA[General Performance
+vmstat
+$ vmstat 5 3Displays system statistics (5 seconds apart; 3 times):   procs
+memory
+page
+disk
+faults
+cpu r
+b
+w
+swap
+free
+re
+mf
+pi
+po
+fr
+de
+sr
+s0
+s1
+s2
+s3
+in
+sy
+cs
+us
+sy
+id 0
+0
+0
+28872
+8792
+8
+5
+172
+142
+210
+0
+24
+3
+11
+17
+2
+289
+1081
+201
+14
+6
+80 0
+0
+0
+102920
+1936
+1
+95
+193
+6
+302
+1264
+235
+12
+1
+0
+3
+240
+459
+211
+0
+2
+97 0
+0
+0
+102800
+1960
+0
+0
+0
+0
+0
+464
+0
+0
+0
+0
+0
+107
+146
+29
+0
+0
+100Having any processes in the b or w columns is a sign of a problem system.Having an id of 0 i.......]]></description>
+					<pubDate>Sat, 15 Mar 2008 19:16:48 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[UNIX+Linux]]></category>
+					<title><![CDATA[쉘 스크립트 파일식]]></title>
+					<link>http://levin01.blog.me/100048639900</link>
+					<guid>http://levin01.blog.me/100048639900</guid>
+					<description><![CDATA[쉘 스크립트 파일식 -b 파일 : 파일이 블럭 장치 파일이면 참-c 파일 : 파일이 문자 장치 파일이면 참-d 파일 : 파일이 디렉토리이면 참-e 파일 : 파일이 존재하면 참-f 파일 : 파일이 정규 파일이면 참-L 파일 : 파일이 심볼릭 링크이면 참-p 파일 : 파일이 네임드(named) 파이프이면 참-S 파일 : 파일이 소켓이면 참-r 파일 : 파일이 읽기 가능이면 참-s 파일 : 파일의 크기가 0보다 크면 참-w 파일 : 파일이 쓰기 가능이면 참-x 파일 : 파일이 실행 가능이면 참파일1 -nt 파일2 : 파일1이 파일2보다 새로운 파일이면 참파일1 -ot 파일2 : 파일1이 파일2보다 오래된 파일이면 참파일1 -ef 파일2 : 파일1과 파일2가 같은 파일이면 참]]></description>
+					<pubDate>Sat, 15 Mar 2008 19:16:01 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[JAVA2]]></category>
+					<title><![CDATA[java에서 properties 활용 가이드라인]]></title>
+					<link>http://levin01.blog.me/100048639826</link>
+					<guid>http://levin01.blog.me/100048639826</guid>
+					<description><![CDATA[규칙1: properties 파일은 Text 파일이며, 다음과 같은 형태의 이름들을 가질 수 있습니다.MyResource_ko_KR_IBMeucKR.propertiesMyResource_ko_KR.propertiesMyResource_ko.propertiesMyResource_en_US.propertiesMyResource_en.propertiesMyResource.propertiesbaseclass "_" language1 "_" country1 "_" variant1 baseclass "_" language1 "_" country1 baseclass "_" language1 baseclass 즉, 자동으로 JVM의 Locale 정보를 찾아서 위 순서대로 프로퍼티 파일을 순차적으로 찾아나갑니다.Locale 옵션을 주지 않으면, Locale.getDefault()를 사용하게 됩니다. System.out.println(Locale.getDefault()) 해 보시면 확인이 가능하며, 이 값은 "f.......]]></description>
+					<pubDate>Sat, 15 Mar 2008 19:13:38 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[ORACLE]]></category>
+					<title><![CDATA[오라클 드라이버 10g 이상 권장]]></title>
+					<link>http://levin01.blog.me/100048639806</link>
+					<guid>http://levin01.blog.me/100048639806</guid>
+					<description><![CDATA[우연찮게 들어가서 보게되었는데 정말로 그럴까요..ㅎㅎㅎㅎ Oracle Database 10g Release 1과 Release 2는 JDBC 3.0 표준의 완전한 지원, JDBC RowSet (JSR-114)의 완전한 지원, Advanced/Grid-Enabled Connection Pool과 Oracle Database RAC 및 XA Connection과의 완벽한 통합, SQL, PL/SQL 데이터 타입의 Java 익스포트, SQL 데이터 접근 성능 개선 등의 다양한 JDBC 관련 기능을 제공하고 있습니다.
+여러분의 Java 애플리케이션은 페일오버 상황으로부터 안전합니까? (다시 말해, RAC를 인식할 수 있습니까)? 
+Oracle Database 10g Release 2의 Java DB, JDBC, Database Web Services 관련 새로운 기능  oracle.jdbc.driver 패키지.......]]></description>
+					<pubDate>Sat, 15 Mar 2008 19:13:01 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[UNIX+Linux]]></category>
+					<title><![CDATA[시스템별 개행문자]]></title>
+					<link>http://levin01.blog.me/100048639789</link>
+					<guid>http://levin01.blog.me/100048639789</guid>
+					<description><![CDATA[윈도(도스) 계열은 개행문자가 0x0d 0x0a (\r\n)이고,  유닉스 계열은 그냥 0x0a (\n)인 것은 다 아실테고,  Mac 계열은 0x0d (\r)]]></description>
+					<pubDate>Sat, 15 Mar 2008 19:12:32 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[UNIX+Linux]]></category>
+					<title><![CDATA[UNIX에서 날짜 가져오기]]></title>
+					<link>http://levin01.blog.me/100048639773</link>
+					<guid>http://levin01.blog.me/100048639773</guid>
+					<description><![CDATA[그리니치 천문대시간보다 9시간이 빠르기때문에 9시간을 빼면 그게 현재의 시간이 됩니다.
+24의 배수를 더하면 배수일만큼 과거의 시간이 나오고
+24의 배수를 빼면 배수일만큼 미래의 시간이 나오네요.. 
+오늘날짜: TZ=KST-9 date +%Y%m%d%H:%M:%S 어제날짜: TZ=KST+15 date +%Y%m%d%H:%M:%S 내일날짜: TZ=KST-33 date +%Y%m%d%H:%M:%S]]></description>
+					<pubDate>Sat, 15 Mar 2008 19:12:05 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[JAVA SCRIPT]]></category>
+					<title><![CDATA[JSON (JavaScript Object Notaion)]]></title>
+					<link>http://levin01.blog.me/100048639747</link>
+					<guid>http://levin01.blog.me/100048639747</guid>
+					<description><![CDATA[JSON (JavaScript Object Notaion) 
+자바스크립트의 객체를 기술하는 하나의 방법으로, key와 value의 쌍으로 기술하여 생성 할 수 있다
+prototype.js (http://www.prototypejs.org/) 에서도 toJSON 함수를 찾아 볼수 있다 JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999. JSON is a text format that is completely language independent but uses conventions that are familiar to progra.......]]></description>
+					<pubDate>Sat, 15 Mar 2008 19:11:05 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author></author>
+					<category><![CDATA[JAVA SCRIPT]]></category>
+					<title><![CDATA[파일입력 동적 늘리기 속성 예제]]></title>
+					<link>http://levin01.blog.me/100048639731</link>
+					<guid>http://levin01.blog.me/100048639731</guid>
+					<description><![CDATA[파일입력 동적 늘리기 속성 예제
+&lt;script language="JavaScript"&gt;&lt;!--function addFileField() {upload_list = document.getElementById('uploads');list_item = document.createElement("LI");file_field = document.createElement("INPUT");file_field.type = "file";file_field.name = "upload[]";list_item.appendChild(file_field);upload_list.appendChild(list_item);}//--&gt;&lt;/script&gt;&lt;form method="post" enctype="multipart/form-data"&gt;&lt;a href="#" onclick&#61;"addFileField()"&gt;add file&lt;/a&gt;&lt;ol id="uploads"&gt;&lt;/ol&gt;&lt;input value="Upload" type="submit"&gt;&lt;/form&gt;FROM htt.......]]></description>
+					<pubDate>Sat, 15 Mar 2008 19:10:40 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>

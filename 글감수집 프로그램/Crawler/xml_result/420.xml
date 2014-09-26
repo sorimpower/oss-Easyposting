@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="http://rss.egloos.com/style/blog.xsl" type="text/xsl" media="screen"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+	<title>Mono log</title>
+	<link>http://earthfall.egloos.com</link>
+	<description>Mono log</description>
+	<language>ko</language>
+	<pubDate>Sun, 10 Aug 2014 14:15:22 GMT</pubDate>
+	<generator>Egloos</generator>
+	<image>
+		<title>Mono log</title>
+		<url>http://pds.egloos.com/logo/1/200403/20/07/a0015607.jpg</url>
+		<link>http://earthfall.egloos.com</link>
+		<width>80</width>
+		<height>57</height>
+		<description>Mono log</description>
+	</image>
+  	<item>
+		<title><![CDATA[ Google Play Service의 PendingResult 흉내내기 ]]> </title>
+		<link>http://earthfall.egloos.com/4038366</link>
+		<guid>http://earthfall.egloos.com/4038366</guid>
+		<description>
+			<![CDATA[ 
+  Google Play에서 API style이 변경되어서 대부분의 경우 <a href="http://developer.android.com/reference/com/google/android/gms/common/api/PendingResult.html" target="_blank">PendingResult</a>가 반환됩니다. 이러한 style이 완전히 새로 나온 것은 아니고 기존의 <a href="http://developer.android.com/reference/java/util/concurrent/Future.html" target="_blank">Future</a>를 Google의 <a href="https://code.google.com/p/guava-libraries/" target="_blank">Guava Library</a>에서 확장한 <a href="http://docs.guava-libraries.googlecode.com/git-history/release/javadoc/com/google/common/util/concurrent/ListenableFuture.html" target="_blank">ListenableFuture</a>에서 이러한 pattern을 사용하고 있습니다. 보통 <a href="http://developer.android.com/reference/java/util/concurrent/Future.html" target="_blank">Future</a>&nbsp;는 multi-threading 에서 concurrency를 위해 사용하지만 여기서는 Runnable이 아닌 경우에도 의미가 있네요. <a href="http://docs.guava-libraries.googlecode.com/git-history/release/javadoc/com/google/common/util/concurrent/ListenableFuture.html" target="_blank">ListenableFuture</a>에 대한 내용은 <a href="http://www.nurkiewicz.com/2013/02/listenablefuture-in-guava.html">http://www.nurkiewicz.com/2013/02/listenablefuture-in-guava.html</a>을 참고하세요.<br />
+<br />
+아래와 같이 google의 API style을 흉내내어 보았습니다.<br />
+<pre class="code">public class RawPendingResult<t> implements PendingResult<t> {<br />
+<br />
+	private final CountDownLatch mLatch = new CountDownLatch(1);<br />
+	private final ResultHandler<t> mHandler;<br />
+	private ResultCallback<t> mCallbackFn;<br />
+	private volatile T mResult;<br />
+<br />
+	public RawPendingResult(Looper looper) {<br />
+		mHandler = new ResultHandler<t>(looper);<br />
+	}<br />
+<br />
+	public RawPendingResult(ResultHandler<t> handler) {<br />
+		mHandler = handler;<br />
+	}<br />
+<br />
+	@Override<br />
+	public T await() {<br />
+		try {<br />
+			mLatch.await();<br />
+		} catch (InterruptedException e) {<br />
+<br />
+		}<br />
+		return mResult;<br />
+	}<br />
+<br />
+	@Override<br />
+	public void cancel() {<br />
+		// TODO Auto-generated method stub<br />
+<br />
+	}<br />
+<br />
+	@Override<br />
+	public boolean isCanceled() {<br />
+		// TODO Auto-generated method stub<br />
+		return false;<br />
+	}<br />
+<br />
+	public final boolean isReady() {<br />
+		return mLatch.getCount() == 0L;<br />
+	}<br />
+<br />
+	public void setResult(T result) {<br />
+		mResult = result;<br />
+		mLatch.countDown();<br />
+	}<br />
+<br />
+	@Override<br />
+	public void setResultCallback(ResultCallback<t> callback) {<br />
+		if (isCanceled()) {<br />
+			return;<br />
+		}<br />
+		if (isReady()) {<br />
+			mHandler.sendResult(callback, mResult);<br />
+		} else {<br />
+			mCallbackFn = callback;<br />
+		}<br />
+	}<br />
+<br />
+	private static class ResultHandler<t> extends Handler {<br />
+		public ResultHandler() {<br />
+			this(Looper.getMainLooper());<br />
+		}<br />
+<br />
+		public ResultHandler(Looper looper) {<br />
+			super();<br />
+		}<br />
+<br />
+		public void sendResult(ResultCallback<t> callback, T param) {<br />
+			sendMessage(obtainMessage(1, new Pair(callback, param)));<br />
+		}<br />
+<br />
+		public void handleMEssage(Message msg) {<br />
+			switch (msg.what) {<br />
+			case 1:<br />
+				Pair pair = (Pair) msg.obj;<br />
+				involeResult((ResultCallback) pair.first, (T) pair.second);<br />
+			}<br />
+		}<br />
+<br />
+		private void involeResult(ResultCallback<t> callback, T param) {<br />
+			try {<br />
+				callback.onResult(param);<br />
+			} catch (RuntimeException e) {<br />
+			}<br />
+		}<br />
+	}<br />
+}<br />
+</t></t></t></t></t></t></t></t></t></t></pre><br />
+사용은 다음과 같이 하면 됩니다.<br />
+<pre class="code"><br />
+public void testFunc() {<br />
+		PendingResult<integer> result = testResult(0, 1);<br />
+		int i = result.await();<br />
+		Log.e("TEST", "RESULT is " + i);<br />
+	}<br />
+	<br />
+	PendingResult<integer> testResult(int a, int b) {<br />
+		RawPendingResult<integer> result = new RawPendingResult<integer>(Looper.getMainLooper());<br />
+		<br />
+		result.setResult(a + b);<br />
+		return result;<br />
+	}<br />
+</integer></integer></integer></integer></pre><br />
+위의 경우는 간단하게 결과를 반환하기 전에 값이 설정되지만 필요에 따라 async로 처리 할 수 있습니다. 다만 이 경우 서로 다른 process인 경우 parcelable 객체 처리가 고민입니다.<br />
+<br />
+P.S. source code 때문에 javascript code를 넣었더니 글이 날아가네요 --;<br />
+<br/><br/>tag : <a href="/tag/android" rel="tag">android</a>,&nbsp;<a href="/tag/java" rel="tag">java</a>			 ]]> 
+		</description>
+		<category>業</category>
+		<category>android</category>
+		<category>java</category>
+
+		<comments>http://earthfall.egloos.com/4038366#comments</comments>
+		<pubDate>Sun, 10 Aug 2014 13:29:15 GMT</pubDate>
+		<dc:creator>uriel</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ 제주도 신라호텔 ]]> </title>
+		<link>http://earthfall.egloos.com/4034707</link>
+		<guid>http://earthfall.egloos.com/4034707</guid>
+		<description>
+			<![CDATA[ 
+  제주도를 두 자리 넘게 가 보니 숙소를 잡고 숙소 자체를 즐겨보자는 생각이 들었습니다. 예측하기 힘든 일정 때문에 해외로 잘 못나가서 원하지 않게 제주도를 가게 되었네요.<br />
+<br />
+이전에 간 적이 있지만, 이번에는 제주 호텔 신라의 내부에서&nbsp;2박 3일의 대부분의 일정을 보냈습니다. 내부에 사설 해변도 있고, 아이들을 위해서 나이별로 짐보리 키즈 클럽이 있어서 별도 활동이 가능합니다. 안에 있는 글램핑장은 가지 않았고,&nbsp;해변과 수영장에서 즐겼습니다.<br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://thumbnail.egloos.net/500x0/http://pds25.egloos.com/pds/201407/20/07/a0015607_53cbc96190a56.jpg" width="500" height="375" onclick="Control.Modal.openDialog(this, event, 'http://pds25.egloos.com/pds/201407/20/07/a0015607_53cbc96190a56.jpg', 816, 612);" /></div>1층의 침대&nbsp;+ 바닦이 있는 방이었는데, 정원에서 접근 가능합니다.&nbsp;<br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://thumbnail.egloos.net/500x0/http://pds21.egloos.com/pds/201407/20/07/a0015607_53cbc9fa47598.jpg" width="500" height="375" onclick="Control.Modal.openDialog(this, event, 'http://pds21.egloos.com/pds/201407/20/07/a0015607_53cbc9fa47598.jpg', 816, 612);" /></div>다들 좋아하네요.<br />
+<br />
+<div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://thumbnail.egloos.net/500x0/http://pds21.egloos.com/pds/201407/20/07/a0015607_53cbca4a967c6.jpg" width="500" height="375" onclick="Control.Modal.openDialog(this, event, 'http://pds21.egloos.com/pds/201407/20/07/a0015607_53cbca4a967c6.jpg', 816, 612);" /></div>private beach입니다. 6월이라 사람이 아주 많지는 않네요. 계단이 300개 쯤 있어서 아기를 데리고 가는 데에는 조금 부담되지만 가서는 아주 좋네요.<br />
+<br />
+<br/><br/>tag : <a href="/tag/travel" rel="tag">travel</a>			 ]]> 
+		</description>
+		<category>寫</category>
+		<category>travel</category>
+
+		<comments>http://earthfall.egloos.com/4034707#comments</comments>
+		<pubDate>Sun, 20 Jul 2014 13:59:59 GMT</pubDate>
+		<dc:creator>uriel</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ HTML5 기반 웹앱의 방향 ]]> </title>
+		<link>http://earthfall.egloos.com/4032942</link>
+		<guid>http://earthfall.egloos.com/4032942</guid>
+		<description>
+			<![CDATA[ 
+  <a href="http://bangjunyoung.blogspot.kr/2014/06/whats-changed-in-last-5-years.html" target="_blank">5년 동안 바뀐 것</a>을 보고 평소에 생각하던 부분과 많이 겹쳐서 조금 추가합니다.<br /><br /><blockquote>한때 컴퓨팅의 패러다임을 완전히 바꿀 것으로 기대를 모았던 HTML5/JavaScript 기반 웹 앱의 인기가 생각보다 금방 시들해졌다. 개발 효율은 안나오고 성능은 떨어지면서 플랫폼 전용 기능 지원에 한계가 있는 등 장점에 비해 단점이 너무 많고 심각하다.</blockquote><br /><blockquote>HTML5 기반의 웹 앱은 다시 한번 반짝했다가 이내 꺼질 것이다. 웹 앱과 비슷한 개념으로 네트워크 컴퓨팅이란 게 있었는데 나올 때마다 망한 대표적 기술이다. 이런 기술들이 안되는 이유는 기본적으로 Subversion이 퇴조하고 Git이 대세가 된 이유와 같다.</blockquote><br />한 때에 웹앱이&nbsp;대세가 되지 않을까 정말로 심각하게 생각했었습니다만, 지금 와서 생각 해 본다면 facebook이 HTML 기반에서 native로 전환 한 것이 마지막 웹앱 주도 세력의 단발마 같은 것이었습니다. 기술적인 문제라기 보다는 HTML/Web 표준 특유의 거버넌스 모델 자체가 현재 innovation을 주도하는 android와 iOS의 변경 속도를 따라가지 못하는 것이 가장 큰 문제가 아닌가 합니다. <br /><br />이러한 어플리케이션 모델을 제공하려면 크게 속도와 메모리 등의 성능과 Web 이상을 수행 할 수 있는 기능적 다양성을 제공 할 수 있어야 합니다. 만약 WebOS 또는 유사한 플랫폼을 가지고 있는 쪽에서 강하게 드라이브 하면서 성능 향상에 노력하고, 또 추가한 기능들의 표준화에 강하게 몰입한다면 조금 더 희망이 있을 수 있겠지만 현재는 그런 상황은 아닙니다.<br /><br /><br />P.S. 원문의 링크 글을 강하게 추천합니다. 100%는 아니지만 95% 이상 동감합니다.<br /><br/><br/>tag : <a href="/tag/html" rel="tag">html</a>			 ]]> 
+		</description>
+		<category>SW</category>
+		<category>html</category>
+
+		<comments>http://earthfall.egloos.com/4032942#comments</comments>
+		<pubDate>Mon, 14 Jul 2014 15:05:00 GMT</pubDate>
+		<dc:creator>uriel</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ eclipse javadoc에서 android site에 link 거는 법 ]]> </title>
+		<link>http://earthfall.egloos.com/4032926</link>
+		<guid>http://earthfall.egloos.com/4032926</guid>
+		<description>
+			<![CDATA[ 
+  eclipse javadoc에서 android를 이용한 project로 문서를 생성 할 때에, 상당 수 android class들에 대해서 link가 생성되지 않습니다.<br />
+<br />
+원래 javadoc 생성시에 -link option을 이용해서 online site로 link를 생성 할 수 있습니다. 다만, 이 경우 해당 link에서 javadoc에 필요한 package-list file을 제공 해 주어야만 하는데, <a href="http://d.android.com/reference">http://d.android.com/reference</a> site가 저 file을 제공하지 않기 때문에 제대로 link가 걸리지 않습니다.<br />
+<br />
+<a href="http://stackoverflow.com/questions/5200234/javadoc-in-eclipse-failing-to-recognize-packages">http://stackoverflow.com/questions/5200234/javadoc-in-eclipse-failing-to-recognize-packages</a><br />
+의 tip에서 제시하는 방법은 2개의 argument를 사용하는 -linkoffline option을 사용하기 입니다. 이 옵션은 원래 server의 link를 걸려고 하지만 해당 site가 연결되지 않는 경우, 2번째 argument로 들어오는 offline file의 package-list를 이용해서 link를 생성되게 합니다. android adt 개발환경의 경우 sdk/docs/reference 에 문서를 제공하는데, 이 위치의 문서가 서버와 동일한 구조에 package-list를 제공하기 때문에 -linkoffline으로 사용 할 수 있습니다.<br />
+<br/><br/>tag : <a href="/tag/javadoc" rel="tag">javadoc</a>,&nbsp;<a href="/tag/android" rel="tag">android</a>			 ]]> 
+		</description>
+		<category>業</category>
+		<category>javadoc</category>
+		<category>android</category>
+
+		<comments>http://earthfall.egloos.com/4032926#comments</comments>
+		<pubDate>Sun, 13 Jul 2014 15:05:00 GMT</pubDate>
+		<dc:creator>uriel</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ blog에 글을 덜쓰게 되는 이유 ]]> </title>
+		<link>http://earthfall.egloos.com/4032895</link>
+		<guid>http://earthfall.egloos.com/4032895</guid>
+		<description>
+			<![CDATA[ 
+   blog에 점점 글을 덜 쓰게 되어가고, 나 뿐만 아니라 전반적으로 blogsphere의 크기가 줄어듭니다. 이러한 트렌드의 변화는 아무래도 모바일이 기존의 PC 환경을 대체해가면서 blog의 자리매김이 애매하져서라고 생각합니다.<br />
+<br />
+PC 환경에서는 blog에 글을 올리는 것은 잠깐의 수고가 더 드는 정도이고 다른 blog의 강점은 다른 blog의 글들에 이어서 연결시켜서 글의 내용이 점점 커지는 것이 쉽게 가능했습니다. 하지만 모바일 환경에서는 다른 글에 링크나 트랙백으로 글을 쓰면서 구조화된 글을 쓰는 것이 그렇게 편하지는 않죠. 이 부분은 에디터의 문제라고 볼 수도 있는데, PC 환경보다 모바일에서 더 극복하기 힘듭니다.<br />
+<br />
+facebook이나 twitter가&nbsp;절묘하게 모바일로 전환되는 시점을 갈아 탄 것과 비교되는데, 저 서비스들은 더 마이크로 blog에 가깝기 때문에 모바일에서 포스팅 하는 것이 PC 환경과 비교해서 크게 차이나지 않습니다. blog의 경우&nbsp;어울리는 그림을 선택/수정하면서 원문과 인용문에 대해서 link를 다 달고 table을 추가하는 blog 포스팅을 모바일에서는 하기 힘들죠.<br />
+<br />
+<br />
+다만, 모바일이라 하더라도 글의 생산이 아니라 소비 측면에서는 아직도 blog가 강점이 있기 때문에 당분간은 어느 정도 유지가 될 듯 합니다. 다만 조금 더 살아남는 서비스가 되느냐, 그렇지 않고 조금씩 더 기울어가는 서비스가 되느냐의 기로에 있군요.<br />
+<br />
+<br/><br/>tag : <a href="/tag/blog" rel="tag">blog</a>			 ]]> 
+		</description>
+		<category>Web</category>
+		<category>blog</category>
+
+		<comments>http://earthfall.egloos.com/4032895#comments</comments>
+		<pubDate>Sat, 12 Jul 2014 15:55:25 GMT</pubDate>
+		<dc:creator>uriel</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ android의 property system ]]> </title>
+		<link>http://earthfall.egloos.com/4020770</link>
+		<guid>http://earthfall.egloos.com/4020770</guid>
+		<description>
+			<![CDATA[ 
+   android에서 key, value를 어떻게 효율적으로 관리하는지가 궁금 할 때가 있습니다.<br />
+<br />
+<a href="http://rxwen.blogspot.kr/2010/01/android-property-system.html"><font color="#000000">android property system</font></a> 에서 이 부분의 내용을 windows internal 수준으로 분석 해 놓았습니다. 간략히 요약하면, client는 모든 process에 mapping 된 shared memory를 통해서 해당 영역에서 읽어오고, write는 init가 property service를 관리하는데 해당 service를 통해서 수행합니다.<br />
+<br/><br/>tag : <a href="/tag/android" rel="tag">android</a>			 ]]> 
+		</description>
+		<category>SW</category>
+		<category>android</category>
+
+		<comments>http://earthfall.egloos.com/4020770#comments</comments>
+		<pubDate>Fri, 09 May 2014 12:20:43 GMT</pubDate>
+		<dc:creator>uriel</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ Eclipse egit plugin에서 commit id 추가 ]]> </title>
+		<link>http://earthfall.egloos.com/4000990</link>
+		<guid>http://earthfall.egloos.com/4000990</guid>
+		<description>
+			<![CDATA[ 
+  <p><a name="3982137" title="Windows TIZEN IDE에서 git으로 platform source 접근" href="http://earthfall.egloos.com/3982137">Windows TIZEN IDE에서 git으로 platform source 접근</a>으로 eclipse에서 clone은 잘&nbsp;됩니다. gerrit review를 요청 할 때에 설정에 따라 commit에&nbsp;commit id를 붙여야 하는 경우가 있습니다만,&nbsp;eclipse egit에서는 commit hook을 사용 할 수 없어서 commit id를 붙일 수 없습니다.</p><p>
+</p><p>이 경우에 <a href="http://wiki.eclipse.org/EGit/User_Guide#Gerrit_Configuration">http://wiki.eclipse.org/EGit/User_Guide#Gerrit_Configuration</a>&nbsp;의&nbsp;tip처럼</p><blockquote>configure your repository to select the Compute Change-Id for Gerrit Code Review option in the Commit dialog by default </blockquote><p>"Compute CHange-Id for Gerrit Code Review" option을 설정 해 주면 됩니다.</p><p>
+</p><p></p><p>
+</p><p>&nbsp;</p><br/><br/>tag : <a href="/tag/eclipse" rel="tag">eclipse</a>,&nbsp;<a href="/tag/tizen" rel="tag">tizen</a>,&nbsp;<a href="/tag/egit" rel="tag">egit</a>			 ]]> 
+		</description>
+		<category>SW</category>
+		<category>eclipse</category>
+		<category>tizen</category>
+		<category>egit</category>
+
+		<comments>http://earthfall.egloos.com/4000990#comments</comments>
+		<pubDate>Mon, 30 Dec 2013 13:25:26 GMT</pubDate>
+		<dc:creator>uriel</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ C++에서 builder pattern ]]> </title>
+		<link>http://earthfall.egloos.com/3998021</link>
+		<guid>http://earthfall.egloos.com/3998021</guid>
+		<description>
+			<![CDATA[ 
+  <p>C++에서 개인적으로 거의 사용하지 않은 pattern 중에서 android를 보니 builder pattern (아마 GoF의 builder랑은 다른 것으로 기억합니다) 이 많이 사용되고 있습니다. 예를 들어 <a href="http://developer.android.com/reference/android/app/Notification.Builder.html">http://developer.android.com/reference/android/app/Notification.Builder.html</a>&nbsp;를 보면 별도의 Builder class를 정의합니다.</p><p><br /></p><p>이 때의 장점은 argument가 아주 많은 생성자가 필요 한 경우 overloading 이 아주 많이 필요 한 경우를 간단하게 구현 할 수 있습니다. builder를 사용하지 않으면 이 경우</p><ol><li>모든 경우를 overloading</li><li>dummy 생성자를 제공하고 모든 경우에 대한 setter를 제공</li></ol><p>이 가능한데, 2번의 경우 setter를 완료하기 전에 객체를 잘못 사용하는 것을 막을 수 없습니다. Builder class를 제공하면 이러한 문제를 해결합니다.</p><p><br /></p><p>Java의 builder는 inner class에 의존적이라 C++에서 사용 가능 할 까 생각 해 보았는데, 별로 어렵지 않더군요.<br /></p><blockquote>class TestRequest {<br />public:<br />~TestRequest() {}<br /><br />public:<br />class Builder {<br />public:<br />Builder(void) : value1(0), value2(0) {}<br /><br />~Builder(void) {}<br /><br />Builder&amp; setValue1(int val1) { value1 = val1; return *this; }<br /><br />Builder&amp; setValue2(int val2) { value2 = val2; return *this; }<br /><br />TestRequest* build(void) { return new TestRequest(*this); }<br /><br />private:<br />int value1;<br />int value2;<br /><br />friend class TestRequest;<br />};<br /><br />private:<br />TestRequest();<br /><br />TestRequest(Builder&amp; builder) : value1(builder.value1), value2(builder.value2) {}<br /><br />private:<br />int value1;<br />int value2;<br />};</blockquote><br /><p>다음과 같이 사용합니다.<br /></p><blockquote>TestRequest::Builder build;<br />TestRequest* pReq = build.setValue1(2).setValue2(3).build();</blockquote><br /><br />훨씬 깔끔하긴 하네요. 다만 객체가 항상 heap에 할당되고 stack에는 할당되지 못하는 문제가 있어서 java와는 상황이 다르군요.<br/><br/>tag : <a href="/tag/cplusplus" rel="tag">cplusplus</a>			 ]]> 
+		</description>
+		<category>SW</category>
+		<category>cplusplus</category>
+
+		<comments>http://earthfall.egloos.com/3998021#comments</comments>
+		<pubDate>Sun, 15 Dec 2013 14:30:56 GMT</pubDate>
+		<dc:creator>uriel</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ TIZEN 2.2.1 Windows SDK에서 CPU 가속 ]]> </title>
+		<link>http://earthfall.egloos.com/3992398</link>
+		<guid>http://earthfall.egloos.com/3992398</guid>
+		<description>
+			<![CDATA[ 
+  <p><a title="" href="https://www.tizen.org/blogs/tsg/2013/tizen-2.2.1-platform-release" target="_blank">TIZEN 2.2.1</a>이 release 되었습니다. </p><p>
+</p><p>Windows 환경에서 TIZEN SDK를 가끔 테스트 해 보고 있는데 이전까지 잘 동작하던&nbsp;CPU 가속이 설정되어 있지 않아서 엄청나게 속도가 느렸습니다. TIZEN Windows SDK는 Intel의 HAXM 을 이용하는데, 설치 시에 EPT (Extended Page Table) 관련 오류가 납니다.</p><p>
+</p><p>이것저것 찾아 보았는데, 아마도 결론은 android SDK를 최신 버전으로 올리던지 삭제하는 것이 정답인 듯 합니다. Windows 버전의 android SDK도 HAXM을 사용하는데, 이것과 무언가 연관이 있는 듯 하네요. 일단 기존의 android SDK를 삭제하니 문제 없이 CPU 가속이 설정됩니다.</p><p>
+</p><p>
+</p><br/><br/>tag : <a href="/tag/android" rel="tag">android</a>,&nbsp;<a href="/tag/tizen" rel="tag">tizen</a>			 ]]> 
+		</description>
+		<category>SW</category>
+		<category>android</category>
+		<category>tizen</category>
+
+		<comments>http://earthfall.egloos.com/3992398#comments</comments>
+		<pubDate>Sun, 17 Nov 2013 14:56:32 GMT</pubDate>
+		<dc:creator>uriel</dc:creator>
+	</item>
+	<item>
+		<title><![CDATA[ google now에서 google의 위치 기록 ]]> </title>
+		<link>http://earthfall.egloos.com/3988257</link>
+		<guid>http://earthfall.egloos.com/3988257</guid>
+		<description>
+			<![CDATA[ 
+  google now를 한 번 제대로 써 보고 싶어서 비록 한국에서는 큰 메리트가 없지만 거의 몇 달 동안 always on 상태로&nbsp;사용 해 보았습니다. 결론은<br /><br /><span style="FONT-SIZE: 170%"><strong>구글은 당신이 어디 있었는지 모두 알고 있습니다.</strong></span><br /><br /><br />google now를&nbsp;사용하든, 사용하지 않든, android 기기를 사용하고 있다면 <a href="http://www.google.com/locationhistory">http://www.google.com/locationhistory</a>&nbsp;을 통해서 google이 수집한 위치 정보를 확인 할 수 있고, 이 기록을 삭제 할 수 있습니다. 크게 지도와 대시보드를 접근 할 수 있는데, google의 location service/api의 특징 상, 다른 service로 GPS 등의 더 정확한 위치를 얻을 수 있다면 더 정확한 자료가 나오고, 그렇지 않으면 정확하지 않은 자료가 나옵니다.<br /><br />예를 들어 아래 지도는 <a href="https://www.runtastic.com/" target="_blank">runastic</a>을 위해서 GPS를 켜서 위치를 측정 할 때와, 아무런 서비스 없이 바로 측정 한 data를 비교합니다. 날짜는 서로 다른데, 동일한 코스로 산을 올랐었고, GPS가 없는 경우 cell 신호를 이용해서 위치를 잡는데 산에서는 그마저도 못잡았네요.<br /><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://pds25.egloos.com/pds/201310/27/07/a0015607_526d138524036.png" width="447" height="239" onclick="Control.Modal.openDialog(this, event, 'http://pds25.egloos.com/pds/201310/27/07/a0015607_526d138524036.png', 447, 239);" /></div>좀 더 심한 자료가 대시보드에 있습니다.<br /><div style="text-align:center"><img class="image_mid" border="0" onmouseover="this.style.cursor='pointer'" alt="" src="http://thumbnail.egloos.net/500x0/http://pds26.egloos.com/pds/201310/27/07/a0015607_526d15e7c2d78.png" width="500" height="179.218967922" onclick="Control.Modal.openDialog(this, event, 'http://pds26.egloos.com/pds/201310/27/07/a0015607_526d15e7c2d78.png', 717, 257);" /></div>집, 회사, 바깥으로 위치를 분류해서 각각의 장소에 어느 정도 있었는지 통계가 나오고, 최근에 방문한 주요 지점들의 위치가 나옵니다. 제 자료를 보니 교회 (주로 일요일이라고 나옵니다), 부모님 댁 등이 나오네요. 그 외에 최근 방문한 국가나 비행기 이착륙 시간 등이 나옵니다.<br /><br /><br />문득, 이런 자료의 신빙성은 어느 정도까지 인정 될까요? 구글도 여러 이슈들이 있어서 대놓고는 서비스를 못하는 것으로 보이는데, 법정에서 구글 위치 기록을 근거로 나는 다른 지역에 있었다고 하면 용납이 될까요? 구글의 다른 자료를 보면 cell 신호는 ~1000m 정도의 정확도, wps(wifi)는 ~100m 정도의 정확도, gps는 ~10m 정도의 정확도라고 하니 어느 정도의 근거는 댈 수 있을 듯 한데요.<br /><br /><br/><br/>tag : <a href="/tag/google" rel="tag">google</a>			 ]]> 
+		</description>
+		<category>Web</category>
+		<category>google</category>
+
+		<comments>http://earthfall.egloos.com/3988257#comments</comments>
+		<pubDate>Sun, 27 Oct 2013 13:34:30 GMT</pubDate>
+		<dc:creator>uriel</dc:creator>
+	</item>
+</channel>
+</rss>

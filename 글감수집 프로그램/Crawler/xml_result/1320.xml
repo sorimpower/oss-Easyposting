@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>우키의 블로그</title>
+	<atom:link href="http://jaewook.net/feed" rel="self" type="application/rss+xml" />
+	<link>http://jaewook.net</link>
+	<description>스마트 라이프를 지원하는 유용한 지식과 자료들을 나누고 싶습니다.</description>
+	<lastBuildDate>Sat, 06 Sep 2014 22:03:13 +0000</lastBuildDate>
+	<language>ko-KR</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=4.0</generator>
+	<item>
+		<title>차단된 사이트를 열어주는 웹프록시 사이트</title>
+		<link>http://jaewook.net/archives/3033</link>
+		<comments>http://jaewook.net/archives/3033#comments</comments>
+		<pubDate>Wed, 20 Aug 2014 15:25:00 +0000</pubDate>
+		<dc:creator><![CDATA[wookielee]]></dc:creator>
+				<category><![CDATA[유용한 site]]></category>
+
+		<guid isPermaLink="false">http://jaewook.net/?p=3033</guid>
+		<description><![CDATA[&#160; 웹사이트가 차단되는 경우에도 피치 못하게 접속을 해서 확인을 해야 할 일들이 있습니다.&#160; 이 경우 가장 쉽게 목적을 달성하기 위한 방법은 웹프락시 사이트를 사용하는 것입니다.&#160;&#160; 아래 그림에 보시면 “before”는 사이트가 차단된 상태를 나타내고 “After”는 웹프록시 사이트를 통해서 해당 사이트를 방문한 &#8230; <a href="http://jaewook.net/archives/3033">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[
+<!-- Easy AdSense V7.42 -->
+<!-- [leadin: 2 urCount: 2 urMax: 0] -->
+<div class="ezAdsense adsense adsense-leadin" style="float:right;margin:6px;"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- homepage_336 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-5877127483312244"
+     data-ad-slot="5497461052"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<!-- Easy AdSense V7.42 -->
+<p>&#160; <font color="#c0504d"><u>웹사이트가 차단되는 경우에도 피치 못하게 접속을 해서 확인을 해야 할 일들이 있습니다.&#160; 이 경우 가장 쉽게 목적을 달성하기 위한 방법은 웹프락시 사이트를 사용하는 것입니다</u></font>.&#160;&#160; 아래 그림에 보시면 <strong>“before”</strong>는 사이트가 차단된 상태를 나타내고 <strong>“After”</strong>는 웹프록시 사이트를 통해서 해당 사이트를 방문한 상태를 나타내줍니다.&#160;&#160; <br />&#160;<br />
+<table cellspacing="0" cellpadding="0" width="400" border="1">
+<tbody>
+<tr>
+<td valign="top" width="200"><strong>before</strong></td>
+<td valign="top" width="200"><strong>After</strong></td>
+</tr>
+<tr>
+<td valign="top" width="200"><a href="http://torrentgun.net" target="_blank">http://torrentgun.net</a></td>
+<td valign="top" width="200"><a title="http://ffproxy.pw/b.php?u=jYk8NITQKzoio7X49GMmMXA%3D&amp;b=29&amp;f=norefer" href="http://ffproxy.pw/b.php?u=jYk8NITQKzoio7X49GMmMXA%3D&amp;b=29&amp;f=norefer" target="_blank">http://ffproxy.pw/b.php?u=jYk8NITQKzoio7X49GMmMXA%3D&amp;b=29&amp;f=norefer</a></td>
+</tr>
+<tr>
+<td valign="top" width="200"><a href="http://jaewook.net/wp-content/uploads/2014/08/1144.jpg"><img title="화면 캡쳐1144" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="화면 캡쳐1144" src="http://jaewook.net/wp-content/uploads/2014/08/1144_thumb.jpg" width="244" height="147" /></a></td>
+<td valign="top" width="200"><a href="http://jaewook.net/wp-content/uploads/2014/08/1145.jpg"><img title="화면 캡쳐1145" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="화면 캡쳐1145" src="http://jaewook.net/wp-content/uploads/2014/08/1145_thumb.jpg" width="244" height="155" /></a></td>
+</tr>
+</tbody>
+</table>
+<p>&#160; 소개에 앞서 프록시서버가&#160; 어떤 것인지 궁금해하시는 분도 있을 것 같군요..&#160; 위키백과에서 <a href="http://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9D%EC%8B%9C_%EC%84%9C%EB%B2%84" target="_blank">프록시서버</a>(Proxy Server)는 “<font color="#c0504d"><u>클라이언트가 자신을 통해서 다른 네트워크 서비스에 간접적으로 접속할 수 있게 해 주는 컴퓨터나 응용 프로그램</u></font>”을 가리킨다고 정의하고 있습니다.&#160; 웹사이트와&#160; PC 사이에서 중계기로서 대리로 통신을 수행하는 기능을 가리켜 &#8216;프록시&#8217;, 그 중계 기능을 하는 것을 프록시 서버라고 부릅니다. </p>
+<p>가장 쉽게 말하면 <font color="#c0504d"><u>차단된 웹사이트도 (해외의) 프록시 서버를 이용하면 내 PC에서 열린다는 말입니다.&#160; 프록시 서버를 사용하는 가장 간단한 방법은 웹프록시 사이트를 이용하는 것입니다.&#160; <u>이 방법이 편리한 것은 컴퓨터에 어떤 설정을 할 필요도 없고 어떤 프로그램도 설치할 필요가 없다는 것입니다.</u>         <br /></u></font><a href="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/06/image.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/06/image_thumb.png" width="244" height="133" /></a></p>
+<p><strong>■ 웹프록시 사이트들…      <br />▷ <a href="http://ffproxy.pw/" target="_blank">http://ffproxy.pw/</a>       <br /></strong>▷ <a href="http://www.proxfree.com/"><strong>http://www.proxfree.com/</strong></a>     <br />▷ <a href="https://www.clearlydrunk.com/" target="_blank"><strong>https://www.clearlydrunk.com/</strong></a><strong>&#160; <br /></strong>▷<strong> </strong><a href="http://proxy.aliveproxies.com/" target="_blank"><strong>http://proxy.aliveproxies.com/</strong></a><strong> </strong>    </p>
+<p><strong>■ 웹프록시 사이트를 이용하는 방법      <br /></strong>1. 먼저 웹프록시 사이트에 접속한 후&#160; 오픈하기 원하는 사이트를 입력합니다.     <br />2. 필요할 시 프록시 서버의 위치와 아이피 대역을 선택합니다.     <br />3. 접속버튼을 클릭합니다. (아래 사이트에서는 PROXFREE버튼입니다)&#160; <br /><a href="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/06/image1.png"><img title="image" alt="image" src="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/06/image_thumb1.png" width="487" height="158" /></a>     </p>
+<p>4. 그러면 아래처럼&#160; 웹페이지가&#160; 프록시 서버를 경유해 열리는 것을 확인할 수 있습니다.     <br /><a href="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/06/image2.png"><img title="image" style="display: inline" alt="image" src="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/06/image_thumb2.png" width="491" height="299" /></a></p>
+<p><strong>■&#160; 프록시 서버의 사용 목적은 잠재적으로 다양합니다.      <br /></strong><font color="#c0504d"><u>프록시 서버는 다양한 용도로 사용할 수 있습니다.&#160; 보안을 하는데도 사용할 수 있으며 보안을 우회하는데도 쓰일 수 있고&#160; 네트웍성능을 향상시킬 목적으로도 사용이 가능합니다.</u></font>&#160; 자세한 내역은 아래를 참고하세요</p>
+<ul>
+<li>익명으로 컴퓨터를 유지 (주로 보안을 위하여) </li>
+<li>캐시를 사용하여 리소스로의 접근을 빠르게 하기 위해.      <br />(웹 프록시는 웹 서버로부터 웹 페이지를 캐시로 저장하는 데 흔히 쓰인다.) </li>
+<li>네트워크 서비스나 콘텐츠로의 접근 정책을 적용하기 위해. (이를테면 원치 않는 사이트를 차단) </li>
+<li>사용률을 기록하고 검사하기 위해 (이를테면 회사는 인터넷 이용을 파악) </li>
+<li>보안 및 통제를 뚫고 나가기 위해 </li>
+<li>바이러스 전파, 악성 루머 전파, 다른 정보들을 빼낼 목적으로 </li>
+<li>역으로 IP추적을 당하지 않을 목적으로 </li>
+<li>전달에 앞서 악성 코드를 목적으로 전달된 콘텐츠를 검사하기 위해 </li>
+<li>밖으로 나가는 콘텐츠를 검사하기 위해 (데이터 유출 보호) </li>
+<li>지역 제한을 우회하기 위해 </li>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://jaewook.net/archives/3033/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>추천 토렌트 사이트를 공유합니다 (회원제, 비회원제 분류)</title>
+		<link>http://jaewook.net/archives/2613</link>
+		<comments>http://jaewook.net/archives/2613#comments</comments>
+		<pubDate>Wed, 20 Aug 2014 15:06:00 +0000</pubDate>
+		<dc:creator><![CDATA[wookielee]]></dc:creator>
+				<category><![CDATA[유용한 site]]></category>
+		<category><![CDATA[토렌트]]></category>
+
+		<guid isPermaLink="false">http://jaewook.net/?p=2613</guid>
+		<description><![CDATA[비교적 신뢰할 만한 추천 토렌트 사이트를 업데이트합니다.&#160;&#160; 개인적으로 느끼기에 비교적 편리하고 좀더 신뢰가 가는 사이트를 리스트하였습니다. 선정 기준은 다소 주관적일 수 있습니다. ^^&#160; 이 글의 맨 하단에 기준은 적어두었습니다. 최근 토렌트 사이트들이 대거 차단되고 있네요.&#160;&#160; 추천리스트에 토렌트고고와 토렌터스가 추가되었습니다.(최종확인: 2014.09.06)&#160;&#160;&#160; &#8230; <a href="http://jaewook.net/archives/2613">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>비교적 신뢰할 만한 추천 토렌트 사이트를 업데이트합니다.&#160;&#160; 개인적으로 느끼기에 비교적 편리하고 좀더 신뢰가 가는 사이트를 리스트하였습니다. 선정 기준은 다소 주관적일 수 있습니다. ^^&#160; 이 글의 맨 하단에 기준은 적어두었습니다. <font color="#c0504d"><u>최근 토렌트 사이트들이 대거 차단되고 있네요.&#160;&#160; </u>추천리스트에 토렌트고고와 토렌터스가 추가되었습니다.</font>(최종확인: 2014.09.06)&#160;&#160;&#160; </p>
+<p>&#160; 차단되는 사이트에 그래도 접근을 하고 싶으시다면 웹프록시 사이트를 이용하시면 가능합니다.     <br />&#160; ■ 차단된 사이트를 열어주는 웹프록시 사이트     <br />&#160;&#160;&#160;&#160;&#160; -&#160; <a title="http://jaewook.net/archives/3033" href="http://jaewook.net/archives/3033" target="_blank">http://jaewook.net/archives/3033</a></p>
+<p>&#160; 개인적으로 웹하드 방식보다는 토렌트 방식이&#160; 더 가볍고 안전하기 때문에&#160; 저는 토렌트 방식을 권장하고 싶습니다. 웹하드 업체에서 배포하는 에이전트 프로그램은 무거운 경우가 많을 뿐만 아니라&#160; 해커들의 표적이 되는 경우가 있어서 피하는 것이 좋지요.&#160; <span style="color: #c0504d"><span style="text-decoration: underline">토렌트 방식 다운로드는 토렌트 프로그램외에는 어떤 프로그램 설치도 불필요합니다.&#160;&#160; 포터블 방식 토렌트 프로그램인 utorrent portable을 사용하시면 프로그램 설치도 필요가 없다는 장점이 있습니다.</span></span>&#160;&#160; 아래의 링크에 가시면&#160; utorrent 프로그램을 다운로드 링크가 소개되어 있습니다.</p>
+<p><a href="http://jaewook.net/archives/1688" target="_blank"><strong>&lt;&lt; utorrent portable 를 이용하여&#160; 토렌트 사이트 안전하게 이용하기 &gt;&gt;</strong></a></p>
+<p>토렌트 사이트는 회원가입이 필요 없는 사이트와&#160; 회원제 사이트로 나뉠 수 있습니다. <span style="color: #c0504d"><span style="text-decoration: underline">개인정보 노출을 최소화하려면&#160; 회원가입이 필요 없는 사이트를 이용하시는 것이 더 좋다고 할 수 있습니다.&#160;&#160; </span></span>&#160; <span style="color: #c0504d"><span style="text-decoration: underline">찾으려는 파일이 명확한 경우라면 구글을 사용하시는 것이 가장 좋습니다.&#160; 원하는 키워드와 함께 토렌트라는 단어를 함께 입력하여 검색하면&#160; 링크가 높은 순으로 보여지기 때문에 가장 유용한 결과를 보여줍니다</span></span>.</p>
+<p><strong>■ 우키가 추천하는 TOP4 토렌트</strong></p>
+<table cellspacing="0" cellpadding="2" width="500" border="0">
+<tbody>
+<tr>
+<td valign="top" width="500">1.&#160; TVZIL:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <a href="http://tvzil.co.kr/" target="_blank"><font size="3">http://tvzil.co.kr/</font></a><font size="3"> (</font>비회원제) (시스템점검중: 8.30~9.1)           <br /><span style="font-size: medium"><span style="font-size: small">2. 토사랑:&#160;&#160;&#160;&#160;&#160;&#160;&#160; <a href="http://www.tosarang.net/" target="_blank"><span style="font-size: medium">http://www.tosarang.net/</span></a> (비회원제)</span></span>           <br style="font-size: medium" /><span style="font-size: medium"><span style="font-size: small">3. 이토렌트:</span>&#160;&#160;&#160;&#160; </span><a href="http://etorrent.co.kr" target="_blank"><font size="3">http://etorrent.co.kr</font></a><span style="font-size: medium">&#160;</span><span style="font-size: small"> (회원제)</span>           <br /><span style="font-size: small">4. TCafe:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <a href="http://tcafez.com/?ri=wookielee" target="_blank"><font size="3">http://tcafez.com/</font></a><span style="font-size: medium"></span><span style="font-size: medium">&#160;<span style="font-size: small">(회원제)</span></span></span></td>
+</tr>
+</tbody>
+</table>
+<p>토렌트 사이트에 들어갔는데 유료 웹하드 사이트 가입을 유도하는 경우가 있더군요. 개인적으로 그런 사이트들은 피하는 편이라서&#160;&#160; 아래의 토렌트 추천 리스트에서는 제외시켰습니다.&#160; 또 제가 소개한 사이트 중에서&#160; 접속이 되지 않거나 다른 사이트로 포워딩되는 경우도 생길 수 있습니다.&#160;&#160; 토렌트 사이트의 경우, 정상 사이트들도&#160; 한시적으로 운영이 중단되는 경우가 더러 있습니다.&#160; 일정 기간 후에&#160; 다시 들어가보면 운영이 재개되는 경우가 많습니다.&#160; <font color="#c0504d"><u>참고로 토렌트 파일의 확장자는 *.torrent입니다. 토렌트 사이트들에서는 torrent확장자를 가진 링크 외에도 타 웹하드 다운로드 링크가 함께 제공되는 경우가 많습니다.&#160; 불필요한 다운로드를 최소화하려면 torrent확장자가 링크된 주소를 선택해서 클릭해주시면 되겠습니다. </u></font></p>
+<p><strong>▶ 추천 토렌트 사이트 – (비회원제 토렌트 사이트: 회원가입 불필요)</strong></p>
+<table cellspacing="0" cellpadding="2" width="500" border="0">
+<tbody>
+<tr>
+<td valign="top" width="500">1) TVZIL:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <a title="http://tvzil.co.kr/" href="http://tvzil.co.kr/" target="_blank"><font size="3">http://tvzil.co.kr/</font></a> (★★★★) 날짜별 찾기           <br />2) 토사랑:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <a href="http://www.tosarang.net/" target="_blank"><span style="font-size: medium">http://www.tosarang.net/</span></a>&#160; (★★ ★ ★)&#160;&#160;
+<p>3) 토렌트군:&#160;&#160;&#160; <span style="font-size: medium"><span style="font-size: small"><span style="font-size: medium"><a href="http://www.tohari.com/" target="_blank">http://www.tohari.com/</a></span></span></span><span style="font-size: medium">&#160;</span>(★★★★)            <br />4) 토렌트고고:&#160; <a title="http://torrentgogo.net/" href="http://torrentgogo.net/" target="_blank"><font size="3">http://torrentgogo.net/</font></a><font size="3">&#160; </font>(★★★★)&#160;&#160; <br />5) 토린이:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <a title="http://www.torinee.net/" href="http://www.torinee.org/" target="_blank"><font size="3">http://www.torinee.org/</font></a>&#160; (★★★)&#160; 일간 인기자료, 게시판 일부 차단&#160; <br />6) 원조토렌트&#160;&#160; <a title="http://www.torinee.net/" href="http://www.wonzoh.com/" target="_blank"><font size="3">http://www.wonzoh.com/</font></a>&#160; (★★★)&#160; 날짜별TV프로그램,인기자료&#160;&#160;&#160; <br />7) 졸라바다:&#160;&#160;&#160;&#160;&#160;&#160; <a href="http://jolabada3.com/bada/" target="_blank"><span style="font-size: medium">http://jolabada3.com/bada/</span></a>&#160; (★★★)             <br />8) 토렌트굿 :&#160;&#160;&#160;&#160; <a href="http://www.torrentgood.com" target="_blank"><font size="3">http://www.torrentgood.com</font></a><a href="http://www.nggol.com/" target="_blank"><span style="font-size: medium">/</span></a>&#160;&#160; (★★)&#160; <br />9)&#160; 닥치고 다운 <a href="http://www.dakdw.com" target="_blank"><font size="3">http://www.dakdw.com</font></a><a href="http://www.nggol.com/" target="_blank"><span style="font-size: medium">/</span></a>&#160; (★★)&#160; <br />10) 토렌트82:&#160;&#160;&#160;&#160;&#160; <a href="http://torrent82.com/" target="_blank"><font size="3">http://torrent82.com/</font></a><font size="3">&#160;</font> (★★)&#160;&#160; 토렌트하이,토렌트탑 접속시 연결됨             <br />11) 토렌터스&#160;&#160;&#160;&#160;&#160; <a href="http://torrenters.com">http://torrenters.com</a> (★★)&#160;&#160; <br />12) 토군:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <a href="http://www.togoons.com" target="_blank"><font size="3">http://www.togoons.com</font></a><a href="http://www.nggol.com/" target="_blank"><span style="font-size: medium">/</span></a>&#160;&#160; (★★★)&#160;&#160; <br />13)&#160; 유비토즈&#160;&#160;&#160;&#160;&#160; <a title="http://www.ubtoz.com/" href="http://www.ubtoz.com/" target="_blank"><font size="3">http://www.ubtoz.com/</font></a>&#160; (★★)             <br />14) 엔꼴:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <a href="http://www.nggol.com/" target="_blank"><span style="font-size: medium">http://www.nggol.com/</span></a>&#160;&#160; (★★)             <br /><span style="font-size: small">15) Bitsnoop:</span>&#160;&#160; <a href="http://bitsnoop.com/" target="_blank"><span style="font-size: medium">http://bitsnoop.com</span></a>&#160; (★★) 해외사이트, 방대한 자료             <br />16) 천사박스:&#160;&#160;&#160;&#160; <a href="http://1004box.com/" target="_blank"><span style="font-size: medium"><strike>http://1004box.com/</strike></span></a>&#160;&#160; (★★) 사이트 차단중             <br />17) 티노리 :&#160;&#160;&#160;&#160;&#160;&#160; <strike>&#160;</strike><font size="3"><strike>http://tnori.us/</strike></font><span style="font-size: medium"></span>&#160; (★★)&#160; 게시물을 남겨야 다운로드가능</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>▶ 추천 토렌트 사이트 –&#160; (회원제 토렌트 사이트: 회원가입 필요):      <br /></strong></p>
+<table cellspacing="0" cellpadding="2" width="500" border="0">
+<tbody>
+<tr>
+<td valign="top" width="500"><span style="font-size: medium"><span style="font-size: small">1) 이토렌트:</span>&#160;&#160;&#160; </span><a style="font-size: medium" href="http://www.etorrent.co.kr/banner.clicks/click.php?mb_id=wookie21&amp;id=1">http://etorrent.co.kr</a><span style="font-size: medium">&#160; <span style="font-size: small">(★★★★)&#160; 인기게시물 확인가능</span>&#160; <br /></span><span style="font-size: small">2) <span style="font-size: small">TCafe:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <a href="http://tcafez.com/?ri=wookielee" target="_blank"><font size="3">http://tcafez.com/</font></a><span style="font-size: medium"></span><span style="font-size: medium">&#160;<span style="font-size: small"><span style="font-size: medium"><span style="font-size: small">(★★★★)&#160; 인기게시물 확인가능</span>&#160;</span></span></span></span></span><span style="font-size: medium"><span style="font-size: small">              <br />3) 플레이토다:</span>&#160;</span><a style="font-size: medium" href="http://www.playtoda.com">http://www.playtoda.com</a><span style="font-size: medium">&#160; <span style="font-size: small">(★★)&#160; 인기게시물 확인가능</span>&#160; <br /><span style="font-size: medium"><span style="font-size: small">4) 플레이조아:</span>&#160;</span><strike>http://www.playzoa.com</strike><span style="font-size: medium">&#160; <span style="font-size: small">(★★)&#160; </span></span></span></td>
+</tr>
+</tbody>
+</table>
+<p>■ 토렌트 사이트 선정기준은 아래와 같습니다. ^^    <br />- 사이트 광고를 강요하거나 지나치게 많은 광고를 노출하지 않는 곳     <br />- 유료 웹하드 회원가입을 유도하지 않는 곳     <br />- 불필요한 파일의 다운로드를 유도하지 않는 곳     <br />- 초기화면에 지나치게 선정적인 자료들이 보여서 주변을 둘러보지 않아도 되는 곳     <br />- 사용하기 편리하고 많은 사람들이 이용하는 곳</p>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] -->]]></content:encoded>
+			<wfw:commentRss>http://jaewook.net/archives/2613/feed</wfw:commentRss>
+		<slash:comments>66</slash:comments>
+		</item>
+		<item>
+		<title>[독서요약] 프로젝트가 서쪽으로 간 까닭은</title>
+		<link>http://jaewook.net/archives/4583</link>
+		<comments>http://jaewook.net/archives/4583#comments</comments>
+		<pubDate>Sat, 02 Aug 2014 01:01:00 +0000</pubDate>
+		<dc:creator><![CDATA[wookielee]]></dc:creator>
+				<category><![CDATA[책 이야기]]></category>
+
+		<guid isPermaLink="false">http://jaewook.net/?p=4583</guid>
+		<description><![CDATA[서명: 프로젝트가 서쪽으로 간 까닭은 -프로젝트 군상의 86가지 행동패턴 저자: 톰 드마르코, 팀리스터외&#160;&#160; 출판사: 인사이트 , 2009 도서관에서 프로젝트에 관한 책을 찾다가 너무 재미있어 보이는 책을 발견했습니다. [프로젝트가 서쪽으로&#160; 간 까닭은]이란 책 제목이 너무 위트가 있으면서도 눈길을 끌었습니다. 실제로 책을 &#8230; <a href="http://jaewook.net/archives/4583">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><a href="http://jaewook.net/wp-content/uploads/2014/08/image.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; float: left; padding-top: 0px; padding-left: 0px; margin: 5px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" align="left" src="http://jaewook.net/wp-content/uploads/2014/08/image_thumb.png" width="134" height="182" /></a>서명: 프로젝트가 서쪽으로 간 까닭은 -프로젝트 군상의 86가지 행동패턴    <br />저자: 톰 드마르코, 팀리스터외&#160;&#160; <br />출판사: 인사이트 , 2009    </p>
+<p>도서관에서 프로젝트에 관한 책을 찾다가 너무 재미있어 보이는 책을 발견했습니다. <font color="#c0504d"><u> [프로젝트가 서쪽으로&#160; 간 까닭은]이란 책 제목이 너무 위트가 있으면서도 눈길을 끌었습니다.</u></font> 실제로 책을 읽어보니 제목에서 주는 임팩트에 비해 다소 아쉬운 내용을 담고 있었습니다만 그래도 유용한 내용을 많이 담고 있어서 만족스러웠습니다.&#160; 번역서를 내는 과정에서 제목을 획기적으로 바꿔버렸었네요.<font color="#c0504d"><u> 원제는 『Adrenaline Junkies and Template Zombies』이었으며, 프로젝트의 성공과 실패를 가늠하는 86가지 인간 행위의 패턴을 담고 있습니다.&#160; 이 책에서는&#160; 실제 프로젝트 현장에서 벌어지는 행동패턴을 통해 프로젝트의 실패의 원인을&#160; 찾도록 도와줍니다. </u></font> 이 책은 간격하고 유머러스하게 쓰여져 있어서 가벼운 마음으로 읽으실 수 있습니다.</p>
+<p>제게 도움이 되었언 책의 내용 일부를 요약하여 소개해봅니다.</p>
+<p><b>1 아드레날린 중독증 </b></p>
+<p><b>-</b> 조직이 미친듯이 바쁘게 움직이는 모습을 생산성이 높은 증거라고 믿는다    <br />&#160; 아드레날린 중독증에 걸린 조직이 보이는 특징은 아래와 같다. 이런 조직에서 일하는 사람은 전략적으로 사고하지 않는다. 무조건 긴급한 업무부터 처리한다.&#160; <br />1) 우선순위가 계속 변한다.&#160;&#160; <br />2)어제까지 모든 결과물이 나왔어야 했다.&#160;&#160; <br />3)시간이 언제나 부족하다     <br />4)모든 프로젝트가 긴급하다     <br />5)긴급한 프로젝트가 계속 쏟아진다.     <br />5)모두가 언제나 미친듯이 바쁘다. </p>
+<p>&#160; 아드레날린 중독증에 걸린 조직이 항상 실패하지는 않지만 진짜 큰 제품, 즉 안정성과 계획성이 필수인 제품을 내놓지 못한다.&#160; 중독자가 내 놓는 성과는 확장이 불가능하다. <font color="#c0504d"><u> 어느 조직이든 긴급한 상황이 발생할 수 있기 때문에 긴급한 업무에 집중할 사람도 필요하지만 모든 사안이 긴급하지는 않으며, 모든 사람이 긴급한 사안에 관여할 필요도 없다.&#160; 긴급함을 선별과 절제로 대체하지 않는 한 아드레날린 중독증을 치료할 희망은 없다.</u></font></p>
+<p><b>2 발바닥에 땀나도록 뛰어라 </b></p>
+<p>- 팀이 누가 무엇을 언제까지라는 결정을 재깍 내린 후 필요한 조치를 재깍 취한다   <br /><strong>■ 행동하는 팀과 토크쇼 팀의 회의 비교</strong></p>
+<p>
+<table cellspacing="0" cellpadding="0" width="400" border="1">
+<tbody>
+<tr>
+<td valign="top" width="200">행동하는 팀의 회의</td>
+<td valign="top" width="200">토크쇼팀의 회의(실패하는 회의)</td>
+</tr>
+<tr>
+<td valign="top" width="200">
+<p>*<u>시간적인 촉박함을 본능적으로 안다</u>              <br />(지연을 진짜 위험으로 여긴다, 제품을 제대로 만들어 즉시 시장에 내놓으려고 스스로 분발한다.)              <br /><u>*개인과 집단 능력을 크게 신뢰한다.               <br />*반복의 가치를 믿는다</u>              <br />(잘못을 겁내지 않는다. 프로젝트를 진행하면서 주기적으로 상태를 평가하고 경로를 정정하기 때문이다. 그래서 매번 완벽한 결정을 내려야 한다는 부담이 없으면서도 대개 올바른 결정을 내리리라는 자신감이 넘치므로 팀은 민첩하게 결정하고 행동할 수 있다. )</p>
+</td>
+<td valign="top" width="200">
+<p><u>* 완벽한 정보를 구한다</u>              <br />(일을 추진하는 쪽보다 실수를 저지르지 않는 쪽에 더 가치를 둔다. 그래서 회의는 무엇을 결정하는 자리가 아니라 결정을 하려면 어떤 정보가 더 필요한지를 결정하는 자리로 전락한다)              <br /><u>*보류를 선호한다               <br />*왼쪽 괄호가 난무한다</u>              <br />생각이 흐르는대로 이주제,저 주제를 건드린다 (시작은 있으나 끝이 없다)              <br /><u>*야영장에서 노닥거린다               <br />*회의에서 다른 회의 일정을 잡는다.</u></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>   <strong>3 생선 썩는 내</strong></p>
+<p><a href="http://jaewook.net/wp-content/uploads/2014/08/image1.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; float: left; padding-top: 0px; padding-left: 0px; margin: 0px 5px 5px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" align="left" src="http://jaewook.net/wp-content/uploads/2014/08/image_thumb1.png" width="138" height="157" /></a>- 프로젝트는 애시당초 기한내에 끝날 가망이 없다. 관련자 대다수가 알면서도 함구한다.</p>
+<p><font color="#c0504d"><u>잘못된 목표설정으로 어느 누구도 프로젝트가 성공하리라고 생각하지 않는 프로젝트가 있다. 목표를 조정하지 않는한 일정달성은 꿈에서나 가능하지만 신기하게도 프로젝트에 생선썩은 내가 진동한다는 사실을 아무도 언급하지 않는다.</u></font>&#160; 프로젝트는 그리스 비극처럼 전개된다. 조직이 성공에만 매달리게 되는 경우, 의심을 솔직히 표명하면 불이익을 당하게 될 수 있다고 생각하게 된다. 이런 분위기에서는 목표가 불가능하다고 말하느니 열심히 하다가 실패하는 편이 낫다고 생각하게 된다.&#160; 죽은 생선패턴은 조직에 부정적인 영향을 미칠 뿐 아니라 프로젝트 팀과 관리자의 사기도 꺾인다.&#160; <font color="#c0504d"><u>죽은 생선을 비밀스럽게 숨기기에는 비용이 너무 크다</u></font></p>
+<p><b>5 보모     <br /></b>- 프로젝트 관리자는 전통적인 보모와 같은 자질이 필요하다.    <br />한걸음 더 나아간 관리자는 팀원들이 기술을 사용하고 개선하는 능력을 최대로 높여주는 환경을 제공한다. 질문과 토론을 정리하고 적절한 난제를 팀원에게 던져주며, 필요하다면 비평하고, 사람들이 일을 즐기는 환경을 만들며, 프로젝트가 매끄럽게 진행되도록 필요에 따라 적절한 조정을 가한다. </p>
+<p><strong>■ 보모의 역할을 잘 수행하는 조직의 특징.</strong>    <br />1) 약속을 따로 잡지 않아도 상사와 만나기 쉽다    <br />2) 소소한 잡무에 시간을 뺏기지 않는다    <br />3) 개방적인 홤경이다. 사람들이 자기 생각을 터 놓고 서로에게 배운다    <br />4) 새로운 아이디어를 토론할 시간이 별도로 마련되어 있다.    </p>
+<p><b>6 관련통(關聯痛)</b></p>
+<p><a href="http://jaewook.net/wp-content/uploads/2014/08/image2.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; float: left; padding-top: 0px; padding-left: 0px; margin: 0px 5px 5px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" align="left" src="http://jaewook.net/wp-content/uploads/2014/08/image_thumb2.png" width="147" height="112" /></a>- 프로젝트가 외견상 문제는 해결하나 근본원인은 건드리지 않는다    <br />관련통이란 통증을 유발한 원인과 통증을 느끼는 부위가 전혀 다른 통증을 가리킨다.&#160; <font color="#c0504d"><u>프로젝트 발주할 때 흔히 고객이 가장 불편해 하는 문제에 집중한다.&#160; 그러나 관련통만 살펴서 치료하려든다면 프로젝트가 내 놓은 제품은 거대한 낭비로 전락한다. 진짜 고객의 요구는 해소하지 못하기 때문이다.</u></font>&#160; 근본원인이 아니라 관련통만 치료하려는 일반적인 원인은 조사를 꺼려서이고, 조사를 꺼리는 이유는 조직문화 탓이거나 빨리빨리 결과를 내라는 압력탓이다.&#160; 관련통을 치료하려는 프로젝트는 흔히 편법을 남발한다. 근본원인을 고치기 보다 1회용 반창고를 처방한다.&#160; 수술대신 일회용 반창고를 덕지 덕지 붙이는 형국이 될 수 있다. 진짜 문제를 찾으려는 노력이 틀림없이 몇배나 남는 장사이다.</p>
+<p><b>9 무드링 관리     <br /></b><a href="http://jaewook.net/wp-content/uploads/2014/08/image3.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; float: left; padding-top: 0px; padding-left: 0px; margin: 0px 5px 5px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" align="left" src="http://jaewook.net/wp-content/uploads/2014/08/image_thumb3.png" width="113" height="107" /></a>-관리자가 프로젝트 상태를 프로젝트가 직면한 문제, 위험, 결정사항으로 파악하지 않고, 팀이 보이는 열정, 노력, 활동으로 파악한다. <font color="#c0504d"><u>프로젝트 진짜 상태보다 프로젝트에 쏟아부은 노력에 관심을 집중하는 관리자는 탐색과 조정을 구분하지 못하게 된다. 이런 관리자는 팀이 열심히 일한다는 사실만 확신할 뿐 어디에 있고, 또 어디로 가고 있는지 확신할 수 없게 된다.</u></font>&#160; </p>
+<p><strong>■ 문제를 제대로 파악할 수 있는 보고를 하는 방법</strong>    <br />1) 진행중인 업무의 본질에 적합한 출시물 상태를 살펴 프로젝트 진행상태를 평가한다.    <br />2) 예상치 못한 사고, 문제,변경 계획에 초점을 맞춘다.&#160; 필요한 조치와 결정을 제시한다    <br />3) 보고하는 내용이 개별적이며, 지속적이지 않고 정량적이다.    <br />4) 객관적인 정보와 주관적인 판단을 균형있게 제공하다.</p>
+<p><b>15 조각칼을 주었으니 미켈란젤로가 되어라</b></p>
+<p><a href="http://jaewook.net/wp-content/uploads/2014/08/image4.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; float: left; padding-top: 0px; padding-left: 0px; margin: 0px 5px 5px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" align="left" src="http://jaewook.net/wp-content/uploads/2014/08/image_thumb4.png" width="125" height="134" /></a>- 도구 &#8216;사용&#8217; 비용은 도구 &#8216;구입&#8217; 비용보다 훨씬 더 비싸다. &#8211; 도로시 그라함    <br /><font color="#c0504d"><u>도구 자체는 생산성을 자동으로 높여주지 않는다. 도구를 올바로 사용하는 기술이 진짜 중요하다. 미켈란젤로가 집어들기 전까지 조각칼은 단순히 날카로운 금속조각에 지나지 않았다.</u></font>&#160;</p>
+<p>&#160;</p>
+<p>&#160;</p>
+<p><b>16 대시보드     <br /></b>대시보드란 상태정보를 모아서 숫자나 그림으로 표현한 문서나 웹페이지이다.&#160; 대시보드는 프로젝트나 프로세스가 돌아가는 전반적인 상황을 보여준다. </p>
+<p><a href="http://jaewook.net/wp-content/uploads/2014/08/image5.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; float: left; padding-top: 0px; padding-left: 0px; margin: 0px 5px 5px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" align="left" src="http://jaewook.net/wp-content/uploads/2014/08/image_thumb5.png" width="195" height="147" /></a><strong>■ 효과적인 대시보드의 조건     <br /></strong>1) 엄청난 정보로 사람들을 위압하지 않는다    <br />2) 편집과정을 거친다.    <br />3) 정보를 넘어서 판단을 제공한다.    <br />4) 현재 상태를 반영할 뿐 아니라 미래상태도 예측한다.    <br />5) 추세와 경향을 보여준다.    <br />6) 팀원들이 내 놓은 주관적인 판단을 객관적으로 비교할 프레임워크를 제공한다.</p>
+<p><strong>■ 대시보드의 컬러의 의미</strong>    <br />녹색: 정상 궤도를 따른다. 경로를 많이 수정하지 않아도 기대치를 충족할 가능성이 크다    <br />노란색: 약속한 날짜와 기대치를 맞추려면 즉각적이고 상당한 경로 수정이 필요하다    <br />빨간색: 궤도를 벗어났다. 일정을 놓쳤거나 극적인 조치를 취하지 않으면 곧 놓친다. 최소한 계획 재수립이 필요한다.</p>
+<p><b>17 끝없는 장애물</b></p>
+<p>&quot;지휘관이 결정을 내리고 공표할 때까지 하급자는 (자기 의견이 상급자와 다를지라도) 솔직하고 전문적인 의견을 제시해야 마땅하다. 하지만 지휘관이 일단 결정을 내리면 하급자는 자신의 결정인 양 지지하고 따라야 한다.&quot; -미해병대의 군사전략서 중</p>
+<p>결정에는 반대가 따르기 마련이다. 해별대는 끝없는 장애물 패턴을 어떻게 극복할까? 그들은 일단 결정을 내리면 그대로 준수한다.&#160; 준수와 동의가 다르다는 사실을 인정한다.&#160; 팀이 내린 결정을 인정하고 준수하는 윤리를 세울 책임은 관리자에게 있다.</p>
+<p><strong>■ 중간휴식 &#8211; 프로젝트 용어 사전     <br /></strong><em>프로젝트에서 흔히 쓰이는 말들의 진짜 의미를 풀어주고 있네요 ^^</em>    <br /> <br />
+<table cellspacing="0" cellpadding="0" width="594" border="1">
+<tbody>
+<tr>
+<td valign="top" width="592">&#8216;일정이 굉장히 의욕 적입니다&#8217;&#160; → &#8216;우린 망했습니다.&#8217;           <br />&#8216;다음 몇 차례 반복에서 지연을 만회해야 합니다.&#8217; → &#8216;우린 완전히 망했습니다.&#8217;            <br />&#8216;그 친구는 수색대 선봉입니다.&#8217;&#160; → &#8216;그 친구는 망했습니다.&#8217;            <br />계속 일합니다&#160; →&#160; 똥인지 된장인지 모릅니다            <br />고차원 → 가짜            <br />코드 완료 → 테스트 안함            <br />좋은 경험이었습니다 → 완전히 망쳤습니다            <br />낮은 가지에 열린 과일 → 심지어 아무나 할 수 있는 일            <br />&#8216;이제 제 충고를 들으세요&#8217; → &#8216;내가 상사니까 내 말대로 해!&#8217;            <br />&#8216;여기 드리미는 우리 팀의 조커입니다.&#8217; → &#8216;여기 드리미는 우리 프로젝트의 멍청이 입니다&#8217;            <br />&#8216;고상한 접근 방법이네요&#8217; → &#8216;멍청하시군요&#8217;            <br />&#8216;경영진에게 제출할 요약서&#8217; → &#8216;만화 버전&#8217;            <br />&#8216;아직도 우리는 3만피트 상공에 있습니다&#8217; → &#8216;내 책상에 있습니다. 아직 건드리지 않았습니다&#8217;            <br />우리의강점을 활용합시다 →&#160; 사서 고생하지 맙시다            <br />나중에 따로 고려합시다 →&#160; 무시합시다</td>
+</tr>
+</tbody>
+</table>
+<p><b>22 소비에트 스타일</b>    <br /><a href="http://jaewook.net/wp-content/uploads/2014/08/image6.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; float: left; padding-top: 0px; padding-left: 0px; margin: 0px 5px 5px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" align="left" src="http://jaewook.net/wp-content/uploads/2014/08/image_thumb6.png" width="129" height="132" /></a>- 고객이 요구하는 기능을 모두 넣어 출시했지만 고객이 싫어하는 바람에 제품이 곧바로 사장된다.    <br />아이팟이 성공한 비결은 비기능적인 품질때문이다. 고객이 불평하고, 작업과 변경이 이례적으로 많거나 피드백이 거의 없다면 소비에트 스타일이 되어 있는 것이다.&#160; 프로젝트 초반부터 프로토타입을 활용하여 피드백을 얻으라. 비기능적인 품질을 높여 사용자가 좋아할 만한 제품을 만들어라</p>
+<p>&#160;</p>
+<p><b>23 자연적인 권위     <br /></b>팀에서 결정을 내리는 권위는 역량을 따라야 마땅하다. 지식노동은 다양한 기술이 필요하다. 문제를 다양한 측면에서 파악하기 때문이다. 특정분야에 관련한 결정이라면 그 분야를 잘 아는 팀원이 내려야 마땅하다. 서열이 아니라 지식이나 전문성으로 결정이 내려져야 한다.</p>
+<p><b>24 흰선     <br /></b><a href="http://jaewook.net/wp-content/uploads/2014/08/image7.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; float: left; padding-top: 0px; padding-left: 0px; margin: 0px 5px 5px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" align="left" src="http://jaewook.net/wp-content/uploads/2014/08/image_thumb7.png" width="160" height="139" /></a>-<u><font color="#c0504d">테니스 경기장에 긋는 흰 선처럼 논란의 여지가 없도록 프로젝트 범위를 명확히 정의하라</font></u></p>
+<p><em>테니스 경기장에 흰선을 명확히 그어 놓으면 경기장 바깥으로 나가는 공은 받지 않아도 되게 됩니다.&#160;&#160; </em></p>
+<p><b></b></p>
+<p><b></b></p>
+<p><b>25 침묵은 암묵적인 동의다     <br /></b>- 이해관계자가 체념스런 침묵과 동의를 구분하지 못한다.&#160; <br />침묵을 동의로 여겨서 이루어진 약속은 모두에게 나쁘다. 각자가 우선순위를 나름대로 매기는 탓이다. 반드시 누군가는 눈물을 뺀다. 암묵적인 양속을 드러내서 관리하려면 중요한 약속 몇개를 공개적으로 선언하는 방법이 요과적이다. <font color="#c0504d"><u>약속을 기록한 후 이해관계자 모두가 공유한다.&#160; 단 약속 당사자가 문구에 동의한 후에만 모두에게 공개한다. &#8216;침묵은 동의&#8217;라는 규칙은 제거하고 &#8216;동의만 동의&#8217;라는 규칙을 세워야 한다.</u></font>&#160;</p>
+<p><b>32 야근 예보     <br /></b><a href="http://jaewook.net/wp-content/uploads/2014/08/image8.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; float: left; padding-top: 0px; padding-left: 0px; margin: 0px 5px 5px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" align="left" src="http://jaewook.net/wp-content/uploads/2014/08/image_thumb8.png" width="138" height="103" /></a>늦게까지 일하는 사람들은 언제나 열의와 직업정신을 그 이유로 내걸지만 진짜 이유는 공포일 가능성이 농후하다. </p>
+<p>&#160; <font color="#c0504d"><u>프로젝트 초반부터 야근하는 모습을 꾸준히 보인다면 프로젝트 결과가 바람직하지 않으리하는 예보이다.&#160; 쇠진, 퇴사, 일정지연, 제품 품질 저하 등이 예상된다.</u></font></p>
+<p><u><font color="#c0504d"></font></u></p>
+<p><b>37 말한 다음 써라</b>    <br />- 프로젝트팀이 대화로 결정하고 즉시 문서로 소통한다    <br /><font color="#c0504d"><u>회의를 하고 나면 상세한 회의록을 배포해야 한다. 효과적인 대화는 동시에 모두가 참여하고 단번에 결정을 내린다. 결정에 영향을 받을 수 있는 모두에게 분명하고 정확하게 알려야 한다.</u></font>&#160; 기록은 대화가 보존하지 못하는 기억을 보존해준다.&#160; <u>결정은 기록하고, 전달하고 보존해야 한다.</u></p>
+<p><b>38 프로젝트 매춘부</b>    <br /><a href="http://jaewook.net/wp-content/uploads/2014/08/image9.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; float: left; padding-top: 0px; padding-left: 0px; margin: 0px 5px 5px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" align="left" src="http://jaewook.net/wp-content/uploads/2014/08/image_thumb9.png" width="146" height="136" /></a>- 들어오는 요청을 족족 수락하면 팀 속력이 느려져서 결국은 효율이 떨어진다. 하지만 유혹이 너무 커서&#8230;    <br /><font color="#c0504d"><u>비난을 피하려고 요청이 들어올 때마다 어쩔수 없이 &quot;예&quot;라고 답하면.. &quot;예&quot;라고 답할 때마다 프로젝트 속력은 느려진다. 팀이 감당할 수준을 넘어서 온갖 요청을 수락하는 관리자는 비겁하다</u></font>. 개인적인 비판을 피하려고 팀이 성공하지 못하는 상황을 만든다. <u>이처럼 불행한 패턴을 방지하려면 업무에 우선순위를 매긴 후 최고속력으로 처리가 가능한 만큼만 진행한다. 가치가 낮은 업무는 가치가 높은 업무를 다 끝낸 후로 연기한다. </u></p>
+<p><b>49 기자     <br /></b>프로젝트 관리자는 자신이 프로젝트의 진짜 상태를 파악해 정확히 보고해야 한다는 사실을 안다. 하지만 때로는 자신이 세세한 사항까지 신경쓰는 이유가 프로젝트를 성공으로 이끌기 위해서라는 사실을 잊어버린다. 프로젝트 관리자에게 가장 중요한 목표는 일정내에 안전하게 프로젝트 목표에 도달하기이다. 정확한 보고서는 목표를 달성하는 수단에 불과하다. 결코 목표 자체가 되어가 아니다. 그러므로 프로젝트 관리자는 기자가 되어서는 안된다. 기자는 보고내용에 책임을 지지 않지만 프로젝트 관리자는 책임을 져야 한다. </p>
+<p><b>52 기능 수프     <br /></b>제품이 갖가지 단편적인 기능을 무수히 제공하지만 대다수가 진짜 고객의 문제와 상관이 없다.&#160; <br /><strong>■ 기능스프를 피하는 조직의 특징     <br /></strong>1) 프로젝트 목표와 비목표를 최대한 초반에 분명하게 정의한다    <br />2) 프로젝트 범위를 선언하고 항상 최신으로 유지한다. 입력자료와 출력 자료를 명확히 명시한다.    <br />3) 명시된 목표와 무관하고 프로젝트 범위를 벗어나는 요구사항은 단호히 거부한다.    <br />4) 새 요구사항은 변경제어절차를 따른다. 변경제어절차는 관련자가 승인했으며, 추적이 가능하고 프로젝트 목표에 비취 요구사항을 평가한다.</p>
+<p><b>62 숨겨진 아름다움</b>    <br />- 프로젝트 일면이 충분함, 아니 우아함을 넘어서 숭고함에 도달한다.    <br />최고의 설계는 적당히 검소하고 정확히 동작하고 테스트하기 쉽고 변경을 가해도 쉽게 망가지지 않는다.&#160; 남들 눈에 보이지 않는 작품은 관리자가 품질에 커다란 영향을 미친다. 관리자가 꼼꼼히 살피고 품질을 인식하면 설계는 그만큼 나아진다. 관리자가 설계자의 작품에 깊이 빠져들 때 아름다운 작품을 감사하게 여길 줄 아는 사람 수가 하나 더 늘어난다. 그 설계자 눈에 비친 관리자는 &#8216;그저 괜찮은 상사&#8217;에서 &#8216;지구 끝까지 따라갈 상사&#8217;로 변한다.    <br /><font color="#c0504d"><u>- 완벽은 더할 내용이 없을 때가 아니라 뺄 내용이 없을 때 도달하는 상태다. &#8211; 앙투안 드 생텍쥐페리</u></font></p>
+<p><b>63 잘 모르겠습니다     <br /></b>- 진실을 말한다면 아무것도 기억할 필요가 없다. -마크 트웨인    <br />&#8216;잘 모르겠습니다.&#8217; 라는 답변은 진실이라는 장점 외에도, 협력을 촉발하는 방아쇠가 된다. 문제를 아는 누구나 도우려고 나서는 분위기가 조성된다. 무지한 상태가 오래가지 않는다. 지식 격차를 모두에게 알렸으니 금방 좁혀진다.</p>
+<p><b>71 크고 또렷하게</b>    <br /><a href="http://jaewook.net/wp-content/uploads/2014/08/image10.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; float: left; padding-top: 0px; padding-left: 0px; margin: 0px 5px 5px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" align="left" src="http://jaewook.net/wp-content/uploads/2014/08/image_thumb10.png" width="172" height="145" /></a>- 프로젝트 목표를 반복해서 분명하게 표명한다    </p>
+<p>&#160; 프로젝트 목표는 프로젝트 요구사항과 제약사항의 가장 고차원적인 표현이다. <font color="#c0504d"><u>프로젝트 목표는 처음부터 분명하게 명시하고 프로젝트 참여자 모두가 주기적으로 되새겨야 한다. 올바른 목표는 아주 중요하다. 모두에게 지속적으로 목표를 상기시키면 프로젝트와 프로젝트로 만드는 제품이 크게 달라진다</u></font>.&#160; </p>
+<p>&#160; 프로젝트 회의가 열릴 때마다 그녀는 목표가 적힌 도화지를 가져와서 의자에 놓는다. 논의가 궤도를 벗어날 때마다 캐롤리나는 모두에게 목표를 상기시킨다. &quot;목표가 틀렸다면 고쳐야 합니다. 아니면 우리가 궤도를 벗어납니다 .    <br />&#160;&#160; <br /><strong>■ 수잔 캐롤리나의 프로젝트 성공 법칙 2가지&#160; <br /></strong>첫째, 목표를 정할 때 모두의 의견을 고려했다.     <br />둘째, 프로젝트를 진행하는 내내 목표가 항상 눈에 띈다. </p>
+<p><b>79 인쇄소     <br /></b><font color="#c0504d"><u>프로젝트에서 작성하는 모든 문서는 1) 필요성이 분명히 정의되어야 하며 2) 전체 프로젝트 지식으로 추적이 가능한 내용을 담아야 한다.</u></font></p>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] -->]]></content:encoded>
+			<wfw:commentRss>http://jaewook.net/archives/4583/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>미녀 UFC 챔피언 론다로우지 16초만에 TKO승, 10승 무패</title>
+		<link>http://jaewook.net/archives/4569</link>
+		<comments>http://jaewook.net/archives/4569#comments</comments>
+		<pubDate>Sun, 06 Jul 2014 09:12:36 +0000</pubDate>
+		<dc:creator><![CDATA[wookielee]]></dc:creator>
+				<category><![CDATA[MyLife]]></category>
+
+		<guid isPermaLink="false">http://jaewook.net/?p=4569</guid>
+		<description><![CDATA[&#160;&#160;&#160; 9전 9승의 미녀 UFC챔피언 론다로우지가 16초만에 TKO승을 거두는 압도적인 경기를 펼쳐서&#160; 다시 한번 UFC에 자신의 상대가 없음을 입증하였습니다. ^^&#160; &#160;&#160;&#160; 한국시간으로 7월6일 미국 라스베가스 만달레이베이 이벤트센터에서 열린 [UFC175]대회에서&#160; 데이비스를 상대로 1라운드 16초만에 TKO승을 거두었습니다. &#160; 엘리트 유도 선수 출신이기도 &#8230; <a href="http://jaewook.net/archives/4569">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><a href="http://jaewook.net/wp-content/uploads/2014/07/image.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; float: left; padding-top: 0px; padding-left: 0px; margin: 10px 10px 10px 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" align="left" src="http://jaewook.net/wp-content/uploads/2014/07/image_thumb.png" width="189" height="192" /></a>&#160;&#160;&#160; 9전 9승의 미녀 UFC챔피언 론다로우지가 16초만에 TKO승을 거두는 압도적인 경기를 펼쳐서&#160; 다시 한번 UFC에 자신의 상대가 없음을 입증하였습니다. ^^&#160; </p>
+<p>&#160;&#160;&#160; <font color="#c0504d"><u>한국시간으로 7월6일 미국 라스베가스 만달레이베이 이벤트센터에서 열린 [UFC175]대회에서&#160; 데이비스를 상대로 1라운드 16초만에 TKO승을 거두었습니다.</u></font></p>
+<p>&#160; 엘리트 유도 선수 출신이기도 한 론다 로우지는 최근에는 타격에 있어서도 엄청난 기량을 보여주고 있습니다.&#160; 2008년 베이징 올림픽에서 동메달을 땄었던 메달리스트이기도 합니다.    </p>
+<p><a href="http://ko.wikipedia.org/wiki/%EB%A1%A0%EB%8B%A4_%EB%A1%9C%EC%9A%B0%EC%A7%80" target="_blank">론다 로우지 &lt;&lt;&#160; 위키백과 &gt;&gt;</a>    </p>
+<p><iframe height="315" src="//www.youtube.com/embed/hTJM2riMKcw" frameborder="0" width="560" allowfullscreen="allowfullscreen"></iframe></p>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] -->]]></content:encoded>
+			<wfw:commentRss>http://jaewook.net/archives/4569/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[역린]에 등장하는 중용 23장의 교훈</title>
+		<link>http://jaewook.net/archives/4548</link>
+		<comments>http://jaewook.net/archives/4548#comments</comments>
+		<pubDate>Wed, 04 Jun 2014 10:25:24 +0000</pubDate>
+		<dc:creator><![CDATA[wookielee]]></dc:creator>
+				<category><![CDATA[힘을 주는 말]]></category>
+
+		<guid isPermaLink="false">http://jaewook.net/?p=4548</guid>
+		<description><![CDATA[현빈이 주연을 맡았던 [역린]이란 영화 초반에 등장하는 중용 23장의 내용이&#160; 매우 인상적이었습니다.&#160; [역린]이란 영화는 조선시대 정조 1년에 일어난 ‘정유역변’을 (1777년7월28) 다루고 있습니다.&#160; 현빈이 연기한 왕은 또 다른 느낌을 주더군요.&#160;&#160; 어쨋든 중용 23장에는&#160; “작은 일에 최선을 다하면 큰 뜻을 이룰 수 &#8230; <a href="http://jaewook.net/archives/4548">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><font color="#c0504d"><u>현빈이 주연을 맡았던 [역린]이란 영화 초반에 등장하는 중용 23장의 내용이&#160; 매우 인상적이었습니다.</u></font>&#160; [역린]이란 영화는 조선시대 정조 1년에 일어난 ‘정유역변’을 (1777년7월28) 다루고 있습니다.&#160; 현빈이 연기한 왕은 또 다른 느낌을 주더군요.&#160;&#160; <font color="#c0504d"><u>어쨋든 중용 23장에는&#160; “작은 일에 최선을 다하면 큰 뜻을 이룰 수 있고 결국 세상을 변화시킬 수 있다”는 내용이 담겨있는데&#160; 저에게도 깊은 감동과 도전을 던져주더군요.</u></font>&#160;</p>
+<p>&#160;&#160; 경연자리에서 정조(현빈 분)는 “앎이 통찰이 되고 통찰이 실천이 되어야 학문의 완성이다”라고 이야기하면서 신하들에게 중용23장을 아느냐고 묻습니다.&#160;&#160; 신하들은 아무도 대답하지 못하고 정조를 수행하는 내관 상책(정재영 분)이 중용 23장을 읊습니다. </p>
+<p><a href="http://jaewook.net/wp-content/uploads/2014/06/image.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://jaewook.net/wp-content/uploads/2014/06/image_thumb.png" width="473" height="215" /></a></p>
+<p><font color="#c0504d"><u>“작은 일도 무시하지 않고 최선을 다해야 한다.&#160; 작은 일에도 최선을 다하면 정성스럽게 된다.        <br />정성스럽게 되면 겉에 배어 나오고, 겉에 배어 나오면 겉으로 드러나고,         <br />겉으로 드러나면 이내 밝아지고, 밝아지면 남을 감동시키고,         <br />남을 감동시키면 이내 변하게 되고, 변하면 생육된다.         <br />그러니 오직 세상에서 지극히 정성을 다하는 사람만이 나와 세상을 변하게 할 수 있는 것이다”</u></font>    <br />(其次는 致曲 曲能有誠이니, 誠則形하고, 形則著하고, 著則明하고, 明則動하고, 動則變하고 變則化니, 唯天下至誠이아 爲能化니라)    </p>
+<p><font color="#c0504d"><u>맡겨진 일에 대해서, 사람에 대해서 중용 23장의 내용처럼&#160; 작은 일도 사소히 여기지 않고 정성을 다해 최선을 다해야겠다는 다짐을 하게 되네요</u>.</font> 유투브에 마침 중용23장을 읊는 동영상이 올려져 있어서&#160; 공유해봅니다.&#160; 함께 보시죠. ^^</p>
+<p> <iframe height="315" src="//www.youtube.com/embed/VAbdgdxuyDo" frameborder="0" width="560" allowfullscreen="allowfullscreen"></iframe></p>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] -->]]></content:encoded>
+			<wfw:commentRss>http://jaewook.net/archives/4548/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>무인민원발급기 위치 및 운영시간</title>
+		<link>http://jaewook.net/archives/4560</link>
+		<comments>http://jaewook.net/archives/4560#comments</comments>
+		<pubDate>Wed, 04 Jun 2014 01:13:00 +0000</pubDate>
+		<dc:creator><![CDATA[wookielee]]></dc:creator>
+				<category><![CDATA[생활]]></category>
+
+		<guid isPermaLink="false">http://jaewook.net/?p=4560</guid>
+		<description><![CDATA[휴일인 오늘 기본증명서를 인터넷으로 출력하려 했더니 출력이 불가능하더군요.&#160;&#160;&#160; 법원의 전자가족관계등록시스템은 일요일 및 공휴일에는 서비스가 되지 않는다는 사실을 오늘 확인하게 되었네요.&#160; 확인해보니 무인민원발급기를 이용하면 휴일에도 기본증명서등의 민원서류를 발급받을 수 있습니다.&#160; 인터넷으로 기본증명서를 출력하는 방법은 아래 링크를 참고하세요. &#60;&#60; 가족관계증명서, 기본증명서 인터넷으로 &#8230; <a href="http://jaewook.net/archives/4560">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>휴일인 오늘 기본증명서를 인터넷으로 출력하려 했더니 출력이 불가능하더군요.&#160;&#160;&#160; 법원의 전자가족관계등록시스템은 일요일 및 공휴일에는 서비스가 되지 않는다는 사실을 오늘 확인하게 되었네요.&#160; 확인해보니 무인민원발급기를 이용하면 휴일에도 기본증명서등의 민원서류를 발급받을 수 있습니다.&#160; </p>
+<p>인터넷으로 기본증명서를 출력하는 방법은 아래 링크를 참고하세요.    <br />&lt;&lt; <a href="http://jaewook.net/archives/3348" target="_blank">가족관계증명서, 기본증명서 인터넷으로 발급받는 방법</a> &gt;&gt;    </p>
+<p>무인민원발급기는 관공서, 병원, 전철역등에 다수 설치되어 있습니다.&#160; 설치위치 및 운영시간 정보는 민원24의 무인민원발급안내 페이지에서 확인하실 수 있습니다.     <br /><a href="http://jaewook.net/wp-content/uploads/2014/06/image1.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://jaewook.net/wp-content/uploads/2014/06/image_thumb1.png" width="451" height="375" /></a></p>
+<p><strong>■ 무인민원발급기 위치</strong></p>
+<p>무인발급기의 위치 및 운영시간등은 아래 파일에서 확인하실 수 있습니다.    <br /><a href="https://docs.google.com/spreadsheets/d/1HXI-yLlPnd53Loqudq4bvlW6ytaF0aXJljSiffnveuo/edit?usp=sharing" target="_blank">&lt;&lt; 무인민원발급기 위치 (2013.4.30 기준) &gt;&gt;</a>&#160;&#160;&#160; <br /><a href="http://www.minwon.go.kr/new_info/customer/AA090_CM010_No_man_popup.jsp" target="_blank">&lt;&lt; 민원24의 무인민원발급 안내 페이지 &gt;&gt;</a>    </p>
+<p><a href="http://jaewook.net/wp-content/uploads/2014/06/image2.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://jaewook.net/wp-content/uploads/2014/06/image_thumb2.png" width="585" height="236" /></a></p>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] -->]]></content:encoded>
+			<wfw:commentRss>http://jaewook.net/archives/4560/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>가족관계증명서, 기본증명서 인터넷으로 발급받는 방법</title>
+		<link>http://jaewook.net/archives/3348</link>
+		<comments>http://jaewook.net/archives/3348#comments</comments>
+		<pubDate>Wed, 04 Jun 2014 00:32:00 +0000</pubDate>
+		<dc:creator><![CDATA[wookielee]]></dc:creator>
+				<category><![CDATA[생활]]></category>
+
+		<guid isPermaLink="false">http://jaewook.net/?p=3348</guid>
+		<description><![CDATA[가족관계증명서,&#160; 기본증명서를 인터넷으로 발급받는 방법을 공유합니다.&#160; 인터넷 기반의 서비스이지만 서비스 제공시간에 제한이 있다는 점을 유념하세요&#160;&#160; &#160; &#160; 그런데 기본증명서가 뭐냐구요?&#160; 간단히 말해서 과거의 호적초본에 해당하는 증명서라고 할 수 있습니다.&#160; 2008년부터 기존의 ‘호적’이 없어지고&#160; &#8216;가족관계등록부&#8217;로 대체되었답니다.&#160;&#160;&#160; 호적의 경우 본인 기록만 나타나는 &#8230; <a href="http://jaewook.net/archives/3348">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><font color="#c0504d"><u><font color="#c0504d">가족관계증명서,&#160; 기본증명서를 인터넷으로 발급받는 방법을 공유합니다.</font>&#160; 인터넷 기반의 서비스이지만 서비스 제공시간에 제한이 있다는 점을 유념하세요</u>&#160;&#160; </font><font color="#c0504d">&#160; </font>&#160; 그런데 기본증명서가 뭐냐구요?&#160; 간단히 말해서 과거의 호적초본에 해당하는 증명서라고 할 수 있습니다.&#160; 2008년부터 기존의 ‘호적’이 없어지고&#160; &#8216;가족관계등록부&#8217;로 대체되었답니다.&#160;&#160;&#160; 호적의 경우 본인 기록만 나타나는 &#8216;호적초본&#8217;과 가족들이 함께 나타나는 &#8216;호적등본&#8217;이 있었지요.&#160; 이와 유사하게&#160; &#8216;기본증명서&#8217;는 본인기록만 나타나고 &#8216;가족관계증명서&#8217;에는 가족들이 함께 나타나게 됩니다.&#160; </p>
+<p>&#160; 동사무소나 무인민원발급기를 이용할 경우, 가족관계증명서를 발급받을 수 있긴 합니다. 약간의 수수료를 내야 하지요.&#160; <font color="#c0504d"><u>하지만&#160; 법원에서 제공하는 전자가족관계등록 시스템에 접속하시면 온라인으로 기본증명서를 발급받으실 수 있으며 비용도 들지 않습니다.&#160;&#160; 시간도 절약하고 돈도 절약할 수 있으니 일석이조라 하겠습니다.        </p>
+<p></u></font>휴일에는 무인민원발급기를 이용하셔야 합니다.&#160; 무인민원발급기는 관공서뿐 아니라 전국의 병원, 전철역등에 다수 설치되어 있습니다.&#160; 무인민원발급기의 위치 및 운영시간을 확인하시려면 아래 링크를 확인하세요    <br /><a href="http://jaewook.net/archives/4560" target="_blank">&lt;&lt; 무인민원발급기 위치 및 운영시간&gt;&gt;</a>    </p>
+<p><strong>■ 인터넷 출력서비스 제공시간</strong>     <br />월~금 08:00~20:00 ,&#160; 토요일: 08:00~14:00     <br />일요일 및 공휴일에는 서비스하지 않습니다.     </p>
+<p><strong><font size="3">■준비물:</font></strong>     <br />1) 공인인증서     <br />2) 프린터 (IP프린터이거나 USB로 연결된 프린터)     <br />참고 &#8211;&gt; 네트워크 공유프린터로는 인쇄가 불가능합니다.</p>
+<p><strong><font size="3">■ 인터넷 발급받는 방법</font></strong>     <br />1) 먼저 법원에서 제공하는 전자가족관계등록시스템에 접속하셔서 [가족관계등록부] 발급 메뉴를 클릭합니다.     <br />&#160; 사이트: <a href="http://efamily.scourt.go.kr" target="_blank"><font size="3"><strong>http://efamily.scourt.go.kr</strong></font></a>     <br /><a href="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/08/image23.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/08/image_thumb23.png" width="339" height="261" /></a>     <br />2) 성명,주민등록번호를 입력하고 이용약관과 개인정보 처리방침에 동의한 후 [조회]버튼을 클릭해주세요</p>
+<p><a href="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/08/image24.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/08/image_thumb24.png" width="343" height="222" /></a>     <br />3) 사전에 준비한 공인인증서를 이용하여 로그인합니다.     <br />4) 본인확인을 위한 추가정보를 입력합니다.&#160; <br />&#160;&#160;&#160;&#160; 부,모,배우자,자녀중의 한 사람의 이름을 입력한 후 [조회]버튼을 클릭합니다.     <br /><a href="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/08/image25.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/08/image_thumb25.png" width="342" height="173" /></a></p>
+<p>5) 증명서 종류와 매수, 표시방식을&#160; 선택한 후 발급신청 버튼을 클릭합니다.    <br />&#160;&#160;&#160; 저는 여기서 기본증명서를 선택했습니다.     <br /><a href="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/08/image26.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/08/image_thumb26.png" width="345" height="226" /></a></p>
+<p>6) 프린터 선택창이 나오는데&#160; 현재 시스템에 설치된 프린터가 나타납니다. 상단 선택창에서 프린터 종류를 선택할 수 있으며 창의 중간부분에 실제로 출력이 가능한지를 보여주는 문구가 나옵니다. “지원가능”이라고 보이면 출력이 가능합니다.&#160; 확인하셨으면 [출력]버튼을 클릭해주세요    <br /><a href="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/08/image27.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/08/image_thumb27.png" width="223" height="244" /></a></p>
+<p>7) 출력에 성공하면 다음 창이 나타납니다.    <br /><a href="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/08/image28.png"><img title="image" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="image" src="http://cjaewooknet.cafe24.com/wp-content/uploads/2013/08/image_thumb28.png" width="387" height="221" /></a></p>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] -->]]></content:encoded>
+			<wfw:commentRss>http://jaewook.net/archives/3348/feed</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>올레WIFI 기기 등록 및 변경하기</title>
+		<link>http://jaewook.net/archives/2298</link>
+		<comments>http://jaewook.net/archives/2298#comments</comments>
+		<pubDate>Wed, 28 May 2014 12:26:00 +0000</pubDate>
+		<dc:creator><![CDATA[wookielee]]></dc:creator>
+				<category><![CDATA[모바일 Life]]></category>
+
+		<guid isPermaLink="false">http://jaewook.net/?p=2298</guid>
+		<description><![CDATA[예전에 올렸던 올레 Wifi 기기 등록/변경에 관한 글을 다시 살펴보던중 메뉴 및 링크가 변경된 것이 발견되어 수정하여 다시 올려봅니다.&#160; &#160; 제 경우 KT 와이브로를 사용하는데요..&#160;&#160; 와이브로 사용자의 경우, 사용자가 지정하는&#160; 한대의 단말기의 MAC을 미리 지정하여 올레Wifi를&#160;&#160; 무료로 사용할 수 있습니다.&#160; &#8230; <a href="http://jaewook.net/archives/2298">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p align="left">예전에 올렸던 올레 Wifi 기기 등록/변경에 관한 글을 다시 살펴보던중 메뉴 및 링크가 변경된 것이 발견되어 수정하여 다시 올려봅니다.&#160; </p>
+<p align="left">&#160; 제 경우 KT 와이브로를 사용하는데요..&#160;&#160; <font color="#c0504d"><u>와이브로 사용자의 경우, 사용자가 지정하는&#160; 한대의 단말기의 MAC을 미리 지정하여 올레Wifi를&#160;&#160; 무료로 사용할 수 있습니다.</u></font>&#160; 그래서 제가 사용하는 태블릿의 Wifi MAC을&#160; 등록하여&#160; 무료로 올레존을 사용할 수 있었습니다.&#160;&#160; 등록방법을 아래에 적어보았습니다.&#160; 관심있는 분들은 참고하세요.. </p>
+<p align="left"><strong>1. 올레 사이트에 접속하여 로그인하세요&#160; <br />&#160;&#160; </strong>(와이브로만 쓰신다면 꼭 와이브로 아이디로 로그인)</p>
+<p align="left"><a href="http://www.olleh.com/" target="_blank"><font size="3">http://www.olleh.com</font></a></p>
+<p align="left"><strong>2.&#160; MAC주소 등록/수정메뉴 들어가기</strong>     <br /> 1) 메뉴를 통해 들어가시려면 <font color="#c0504d"><u>폰서비스/ 인터넷서비스/WiFi</u></font> 메뉴 클릭하세요</p>
+<p align="left"><a href="http://jaewook.net/wp-content/uploads/2014/05/image15.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://jaewook.net/wp-content/uploads/2014/05/image_thumb15.png" width="408" height="240" /></a></p>
+<p align="left">&#160; 2) MAC/ID 등록하기   <br />&#160;&#160; <a title="http://wifi.olleh.com/wifi_macid2.html" href="http://wifi.olleh.com/wifi_macid2.html" target="_blank">http://wifi.olleh.com/wifi_macid2.html</a> 에 들어가셔서&#160;&#160; <font style="background-color: #333333">&#160; <font color="#ffffff">[MAC/ID 등록하기] </font></font>&#160; 버튼을 클릭하세요    <br />( 스마트폰,타블렛,노트북의 무선랜 MAC주소를 여기에 입력)</p>
+<p><a href="http://cjaewooknet.cafe24.com/wp-content/uploads/2012/10/Image37.png"><img title="Image(37)" border="0" alt="Image(37)" src="http://cjaewooknet.cafe24.com/wp-content/uploads/2012/10/Image37_thumb.png" width="182" height="244" /></a></p>
+<p align="left">&#160; 3) <font color="#c0504d"><u>아래처럼 오류가 난다면 KT고객센터에 전화하셔서 Wifi MAC등록을 요청하셔야 합니다.       <br /></u></font>&#160;<a href="http://jaewook.net/wp-content/uploads/2014/05/image16.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; margin: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://jaewook.net/wp-content/uploads/2014/05/image_thumb16.png" width="232" height="115" /></a>    <br /><strong>     <br /></strong> 설정이 모두 끝이 났습니다.&#160; ^^&#160;&#160; 20분쯤 후부터는 올레WiFi를 쓰실수있겠죠?</p>
+<p align="left"><strong>3.&#160; 스마트폰의 MAC확인하는 방법</strong></p>
+<p align="left"> WiFi MAC주소를 확인하기 어려운 분들을 위해&#160; 안드로이드 스마트폰의 WiFi MAC주소를 확인하는 법을 알려드립니다.&#160; 설정을 들어가셔서&#160; 휴대폰정보/상태/WiFi MAC주소 순으로 들어가시면 확인이 가능합니다.</p>
+<p align="left"><a href="http://cjaewooknet.cafe24.com/wp-content/uploads/2012/10/Image38.png"><img title="Image(38)" style="border-left-width: 0px; border-right-width: 0px; background-image: none; border-bottom-width: 0px; padding-top: 0px; padding-left: 0px; display: inline; padding-right: 0px; border-top-width: 0px" border="0" alt="Image(38)" src="http://cjaewooknet.cafe24.com/wp-content/uploads/2012/10/Image38_thumb.png" width="378" height="228" /></a></p>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] -->]]></content:encoded>
+			<wfw:commentRss>http://jaewook.net/archives/2298/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[비만의 역설] 뚱뚱해야 오래산다?</title>
+		<link>http://jaewook.net/archives/4534</link>
+		<comments>http://jaewook.net/archives/4534#comments</comments>
+		<pubDate>Mon, 26 May 2014 14:56:33 +0000</pubDate>
+		<dc:creator><![CDATA[wookielee]]></dc:creator>
+				<category><![CDATA[건강]]></category>
+
+		<guid isPermaLink="false">http://jaewook.net/?p=4534</guid>
+		<description><![CDATA[&#160; SBS스페셜에서 재미있는 프로그램이 소개되었습니다.&#160; “[비만의 역설]뚱뚱한 사람이 오래산다?” 라는 프로그램인데… 2014년 5월25일 (일) 저녁11:15에 방영되었고 꽤 뜨거운 관심을 받고 있습니다.&#160;&#160; 마른 사람이 장수한다고만 알고 있었는데&#160; 이 프로그램에선 약간 뚱뚱한 사람이 오히려 장수할 가능성이 높다고 말해주더군요. 간헐적단식이란 프로그램이 반년쯤 전에 &#8230; <a href="http://jaewook.net/archives/4534">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p>&#160; SBS스페셜에서 재미있는 프로그램이 소개되었습니다.&#160; <strong><u>“[비만의 역설]뚱뚱한 사람이 오래산다?”</u></strong> 라는 프로그램인데… 2014년 5월25일 (일) 저녁11:15에 방영되었고 꽤 뜨거운 관심을 받고 있습니다.&#160;&#160; 마른 사람이 장수한다고만 알고 있었는데&#160; 이 프로그램에선 약간 뚱뚱한 사람이 오히려 장수할 가능성이 높다고 말해주더군요.  간헐적단식이란 프로그램이 반년쯤 전에 소개되어 관심을 받았었는데 이번 프로그램은 더더욱 관심을 집중시키고 있습니다.   간헐적 단식이 다이어트 방법의  스트레스를 줄여주었다면 이번 프로그램은 다이어트 자체에 대한 스트레스를 줄여줄 것 같습니다.  &#160; 스트레스 받아 가면서 다이어트을 하고, 저체중을 유지하는 것이 건강에는 별로 도움이 되지 않을 수 있습니다.&#160; <font color="#c0504d"><u>약간 뚱뚱한 편이 질병에 대한 저항성도 강하고, 병을 이겨내고 장수할 가능성이 더욱 크다는 의견이 설득력을 얻고 있다고 합니다</u></font>.&#160; </p>
+<p>&#160;&#160; <font color="#c0504d"><u>이 프로그램에서 던져주는 메시지는&#160; “과체중,비만이 장수하고 병에도 강하다” “허벅지의 피하지방이 두꺼울 수록 오래 살고 건강합니다” “심폐기능의 건강이 중요합니다. 심폐기능이 건강하면 뚱뚱해도 문제없습니다”       <br /></u></font>관련 자료를 찾고 싶으시다면 “<font color="#c0504d"><u>SBS스페셜.E362.비만의 역설 뚱뚱한 사람이 오래산다 140525</u></font>”를 인터넷에서 검색해보시기 바랍니다.     <br /><a href="http://jaewook.net/wp-content/uploads/2014/05/image10.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://jaewook.net/wp-content/uploads/2014/05/image_thumb10.png" width="388" height="221" /></a>    <br />아래는 유투브에 올라와 있는 예고편 동영상입니다.    <br /><iframe style="height: 241px; width: 391px" height="315" src="//www.youtube.com/embed/XoxBuySeYbw" frameborder="0" width="560" allowfullscreen="allowfullscreen"></iframe></p>
+<p>아래의 사망률 곡선을 주목해보세요.&#160; 과체중, 비만인 사람이 사망률이 오히려 낮은 것을 볼 수 있습니다.&#160; <font color="#c0504d"><u>BMI수치가 35이상인 고도비만이 아니라면&#160; 과체중이나 비만이신 분들이 정상수치인분들보다 오히려 더욱 건강한 삶을 살고 장수할 수 있다는 것입니다.&#160; </u></font></p>
+<p><a href="http://jaewook.net/wp-content/uploads/2014/05/image11.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://jaewook.net/wp-content/uploads/2014/05/image_thumb11.png" width="399" height="228" /></a>    <br /><font color="#c0504d"><u>사망률이 가장 낮은 경우는 BMI 22.6~27.5라는 연구도 소개되었습니다.</u></font>&#160; 제 경우 BMI가 23이 살짝 넘는데&#160;&#160; 과체중에 속하더군요.&#160;&#160; 가장 오래살 수 있는 군에 속한다니 위안이 되었습니다.&#160; <br /><a href="http://jaewook.net/wp-content/uploads/2014/05/image12.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://jaewook.net/wp-content/uploads/2014/05/image_thumb12.png" width="399" height="228" /></a>    <br /><a href="http://jaewook.net/wp-content/uploads/2014/05/image13.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://jaewook.net/wp-content/uploads/2014/05/image_thumb13.png" width="399" height="228" /></a></p>
+<p><font color="#c0504d"><u>자 그럼, 각자 본인의 BMI수치를 따져보시기 바랍니다.</u></font><strong>     <br />■ BMI 계산기 링크를 소개합니다.&#160; <br /></strong> <a title="http://www.365homecare.com/calculator/CALDI0101.html" href="http://www.365homecare.com/calculator/CALDI0101.html" target="_blank">http://www.365homecare.com/calculator/CALDI0101.html</a>    <br /><font color="#c0504d"><u>아래 화면은 제 BMI를 계산해본 샘플입니다.&#160;&#160;&#160; 23.5가 나오네요.. 저는 오래 살 것 같습니다. ^^</u></font></p>
+<p><a href="http://jaewook.net/wp-content/uploads/2014/05/image14.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://jaewook.net/wp-content/uploads/2014/05/image_thumb14.png" width="336" height="264" /></a></p>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] -->]]></content:encoded>
+			<wfw:commentRss>http://jaewook.net/archives/4534/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[Mybible5.2] 심플하고 편리한 무료 성경프로그램</title>
+		<link>http://jaewook.net/archives/1192</link>
+		<comments>http://jaewook.net/archives/1192#comments</comments>
+		<pubDate>Sat, 24 May 2014 22:06:00 +0000</pubDate>
+		<dc:creator><![CDATA[wookielee]]></dc:creator>
+				<category><![CDATA[기업용 Freeware]]></category>
+		<category><![CDATA[Freeware]]></category>
+		<category><![CDATA[무료성경]]></category>
+
+		<guid isPermaLink="false">http://jaewook.net/?p=1192</guid>
+		<description><![CDATA[꽤 오래전에 올렸던 성경프로그램이었는데도 여전히 많은 분들이 찾아오시는 것을 보고 내용을 업데이트하였습니다.&#160; 인터페이스가 꽤 단순하지만 사용하기에는 너무 편리해서 소개드렸던 Mybible이란 무료 성경프로그램입니다.&#160;&#160; 예전에 포스팅했을 때는 Mybible3 버전이었는데 이제 5.2버전으로 올라갔네요.. ^^ 이 프로그램은 사용에 제한이 없는 Freeware입니다. 인터페이스는 좀 단순하지만..&#160;&#160; &#8230; <a href="http://jaewook.net/archives/1192">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+				<content:encoded><![CDATA[<p><font color="#006699"><font color="#000000">꽤 오래전에 올렸던 성경프로그램이었는데도 여전히 많은 분들이 찾아오시는 것을 보고 내용을 업데이트하였습니다.&#160; 인터페이스가 꽤 단순하지만 사용하기에는 너무 편리해서 소개드렸던 Mybible이란 무료 성경프로그램입니다.&#160;&#160; 예전에 포스팅했을 때는 Mybible3 버전이었는데 이제 5.2버전으로 올라갔네요.. ^^       <br /></font><strong>       <br />이 프로그램은 사용에 제한이 없는 Freeware입니다.        <br /></strong></font>인터페이스는 좀 단순하지만..&#160;&#160; 컴퓨터에서 사용하기엔 가장 좋다고 생각합니다.    <br />지금 까지 써본 성경프로그램 중에서 가장 심플하면서&#160; 가장 편리하게 사용할 수 있었습니다.<a href="http://jaewook.net/wp-content/uploads/2014/05/image9.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://jaewook.net/wp-content/uploads/2014/05/image_thumb9.png" width="325" height="245" /></a></p>
+<p><strong><font color="#006699">▶ Mybible의 장점</font></strong>    <br />1. 설명이 필요없는 직관적인 인터페이스    <br />2. 한글성경 4가지 제공(<font color="#c0504d"><u>개역한글, 개역개정4판, 새번역, 공동번역</u></font>)    <br />3. 영어성경 2가지(KJV,NIV)    <br />4. 인물지명사전 포함    <br />5. 성경어구사전 포함    <br />5. 심방사전 포함    <br />6.사복음 대조표 제공    <br />7. 성경관주 포함    <br />8. 성경스토리북 포함    <br />9. 다양한 본문검색기능     <br />- 찾기, 계속찾기, 범위로 찾기,,&#160; And-Or 검색    <br />10. 책갈피 기능 제공    <br />11. 화면칼라 사용자 선택 기능    <br />12. 통독확인 기능    </p>
+<p>제작자 홈페이지:&#160;&#160; <a title="http://mybible.hompee.com/v2.0.asp" href="http://mybible.hompee.com/v2.0.asp" target="_blank">http://mybible.hompee.com/v2.0.asp</a>    <br /><strong><font size="4"><strong><font size="4">▶<strong><font size="4">▶<strong><font size="4">▶</font></strong></font></strong></font></strong>Mybible5.2&#160; </font></strong><a href="http://mybible.hompee.com:8080/bbs/bbs/view.act?menuId=124061&amp;topMenuId=5&amp;menuType=1&amp;newMenuAt=false&amp;pageNow=1&amp;bbsNo=1897936" target="_blank"><strong><font size="4">&lt;&lt; 다운로드 &gt;&gt;</font></strong></a>&#160;&#160;&#160; <br /><font color="#0000ff">     <br /></font><strong><font color="#006699">▶ 화면글꼴의 자유로운 설정으로 큰 글씨로 성경을 볼 수 있음       <br /></font></strong>&#160; 화면글꼴을 맑은고딕체&#160; 50pt로 했더니 정말 크게 성경을 볼수있습니다.&#160;&#160; 나이드신 어르신들에게도 좋을 것 같구요 또 교회방송실에서 스크린에 신속하게 성경구절을 뛰워야 할 때에도 매우 유용한 기능입니다.    <br /><a href="http://jaewook.net/wp-content/uploads/2014/05/image8.png"><img title="image" style="border-top: 0px; border-right: 0px; background-image: none; border-bottom: 0px; padding-top: 0px; padding-left: 0px; border-left: 0px; display: inline; padding-right: 0px" border="0" alt="image" src="http://jaewook.net/wp-content/uploads/2014/05/image_thumb8.png" width="455" height="254" /></a></p>
+ <!-- Easy AdSense Unfiltered [count: 3 is not less than 3] -->]]></content:encoded>
+			<wfw:commentRss>http://jaewook.net/archives/1192/feed</wfw:commentRss>
+		<slash:comments>14</slash:comments>
+		</item>
+	</channel>
+</rss>

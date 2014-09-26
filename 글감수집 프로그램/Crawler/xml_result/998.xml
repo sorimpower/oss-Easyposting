@@ -1,0 +1,2310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>demun(대문블로그)</title>
+		<link>http://demun.tistory.com/</link>
+		<description>블로그와 블로그를 연결하는 문, 대문</description>
+		<language>ko</language>
+		<pubDate>Thu, 18 Sep 2014 09:23:33 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<managingEditor>demun</managingEditor>
+		<image>
+			<title>demun(대문블로그)</title>
+			<url>http://cfile22.uf.tistory.com/image/1871C13950C2ABC1323BB4</url>
+			<link>http://demun.tistory.com</link>
+			<description>블로그와 블로그를 연결하는 문, 대문</description>
+		</image>
+		<item>
+			<title>도스명령창(Terminel)에서 서브라임텍스트(Sublimetest) 열기</title>
+			<link>http://demun.tistory.com/2438</link>
+			<description>&lt;h1 id=&quot;-&quot;&gt;도스명령창에서 서브라임텍스트 열기&lt;/h1&gt;
+&lt;p&gt;요즘에는 &lt;code&gt;git&lt;/code&gt; , &lt;code&gt;yeoman&lt;/code&gt; , &lt;code&gt;grunt&lt;/code&gt; 등을 자주 사용하다보니 도스창을 많이 사용하게 됩니다.&lt;/p&gt;&lt;p&gt;그런트나 깃헙 등의 명령어를 쓰고 바로 Sublimetext 를 여는 방법을 알아보겠습니다.&lt;/p&gt;&lt;p&gt;즉 도스명령창에서 &lt;code&gt;sub&lt;/code&gt; 라고 입력하면 바로 &lt;code&gt;sublimetext&lt;/code&gt; 가 실행되는겁니다.  물론 &lt;code&gt;sub&lt;/code&gt; 라는 글자는 변경이 가능합니다. &lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-&quot;&gt;1. 환경변수 설정&lt;/h2&gt;
+&lt;p&gt;내컴퓨터(마우스 우측버튼 - 속성) - 시스템 - 고급 시스템설정 - 시스템속성에서 고급 - 환경변수를 클릭합니다.&lt;/p&gt;&lt;p&gt;환경변수에서 &lt;code&gt;Path&lt;/code&gt; 를 찾아서 편집을 클릭합니다.&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:457px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/27391E3D53F42A30168E72&quot; filemime=&quot;image/jpeg&quot; filename=&quot;084.jpg&quot; height=&quot;406&quot; width=&quot;457&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;맨뒤에 &lt;code&gt;sublimetext&lt;/code&gt; 가 설치된 경로를 입력합니다.&lt;/p&gt;&lt;p&gt;서브라임텍스트 설치 경로 예제&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;;C:&lt;span class=&quot;command&quot;&gt;\Program&lt;/span&gt; Files&lt;span class=&quot;command&quot;&gt;\Sublime&lt;/span&gt; Text 2&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;한가지 주의할점은 앞에 반드시 &lt;code&gt;;&lt;/code&gt; 가 있어야합니다. &lt;/p&gt;&lt;p&gt;이제 경로가 패치되었으니 도스창에서 &lt;code&gt;sublime_text&lt;/code&gt; 라고 치면 바로 &lt;code&gt;sublimetext&lt;/code&gt; 가 열릴겁니다.&lt;/p&gt;&lt;p&gt;짧게 입력하는 팁이 있어야겠지요.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-&quot;&gt;2. 배치파일 작성&lt;/h2&gt;
+&lt;p&gt;서브라임이 설치된 경로에 가서 아래의 구문을 입력하고 파일이름을 &lt;code&gt;sub.bat&lt;/code&gt; 으로 저장합니다.&lt;/p&gt;&lt;p&gt;그냥 메모장이나 에디터로 작성해되 됩니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;attribute&quot;&gt;sublime_text&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;즉 서브라임텍스트의 이름을 적어주는겁니다. &lt;/p&gt;&lt;p&gt;단, 파일명이 &lt;code&gt;sub.bat&lt;/code&gt; 이므로 도스창에서 &lt;code&gt;sub&lt;/code&gt; 라고 입력하면 바로 서브라임텍스트가 열릴겁니다.&lt;/p&gt;&lt;p&gt;여기까지 하면 아무곳에서 도스명령창을 열고 &lt;code&gt;sub&lt;/code&gt; 라고 입력하면 서브라임텍스트가 열립니다. &lt;/p&gt;&lt;p&gt;&lt;code&gt;sub.bat&lt;/code&gt; 이 아닌 &lt;code&gt;sl.bat&lt;/code&gt; 으로 파일명을 변경하면 도스창에서 &lt;code&gt;sl&lt;/code&gt; 이라고 입력하면 됩니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;3-sublime_text-&quot;&gt;3. 도스창에서 sublime_text 안보이게하기&lt;/h2&gt;
+&lt;p&gt;위 2번까지 진행했다면 도스창에서 &lt;code&gt;sub&lt;/code&gt; 라고 치면 서브라임텍스트가 열리는데 도스창에서 &lt;code&gt;sublime_text&lt;/code&gt; 라는 글자가 입력이 될겁니다.&lt;/p&gt;&lt;p&gt;바로 그 글자를 안보이게 하는 방법입니다.&lt;/p&gt;&lt;p&gt;&lt;code&gt;sub.bat&lt;/code&gt; 을 에디터로 열어서 아래처럼 수정합니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;property&quot;&gt;@echo&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;off&lt;/span&gt;
+sublime_text&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;이제 됐습니다. &lt;/p&gt;&lt;p&gt;명령창에서 &lt;code&gt;sub&lt;/code&gt; 라고 입력해보세요. 아무글자도 입력이 안되고 서브라임텍스트가 열릴겁니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;서브라임텍스트(Sublimetext)에서 명령창(Terminal) 열기 -&amp;gt;&amp;nbsp;&lt;a href=&quot;http://demun.tistory.com/2439&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;http://demun.tistory.com/2439&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+			<category>SublimeText</category>
+			<category>SublimeText</category>
+			<category>서브라임텍스트</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2438</guid>
+			<comments>http://demun.tistory.com/2438#entry2438comment</comments>
+			<pubDate>Thu, 21 Aug 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[플러그인]서브라임텍스트(Sublimetext)에서 명령창(Terminal) 열기</title>
+			<link>http://demun.tistory.com/2439</link>
+			<description>&lt;h1 id=&quot;terminal&quot;&gt;Terminal&lt;/h1&gt;
+&lt;p&gt;서브라임텍스트에서 콘솔창 즉 터미널을 여는 플러그인입니다.&lt;/p&gt;&lt;p&gt;플러그인만 간단이 설치하면 바로 사용이 가능합니다.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://wbond.net/sublime_packages/terminal&quot;&gt;Terminal 홈페이지 : &lt;/a&gt;&lt;a href=&quot;http://wbond.net/sublime_packages/terminal&quot;&gt;http://wbond.net/sublime_packages/terminal&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-&quot;&gt;설치&lt;/h2&gt;
+&lt;p&gt;이제 설치해볼까요.....&lt;/p&gt;&lt;p&gt;서브라임텍스트에서 &lt;code&gt;Ctrl + Shift + p&lt;/code&gt; 를 눌러 명령창을 엽니다.&lt;/p&gt;&lt;p&gt;&lt;code&gt;pci&lt;/code&gt; 를 입력하여 &lt;code&gt;Package Control&lt;/code&gt; 를 실행시킵니다.&lt;/p&gt;&lt;p&gt;그 다음나오는 명령창에서 &lt;code&gt;terminal&lt;/code&gt; 을 입력하고 엔터를 칩니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:390px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/24487A4553F42ACE2C6BE1&quot; filemime=&quot;image/jpeg&quot; filename=&quot;085.jpg&quot; height=&quot;115&quot; width=&quot;390&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-&quot;&gt;사용법&lt;/h2&gt;
+&lt;p&gt;터미널 열기 : &lt;code&gt;Ctrl + Shift + t&lt;/code&gt; &lt;/p&gt;&lt;p&gt;현재 프로젝트 폴더 열기 : &lt;code&gt;Ctrl + Shift + Alt + t&lt;/code&gt;&lt;/p&gt;&lt;p&gt;단축키를 변경하거나 설정을 변경하려면 &lt;a href=&quot;http://wbond.net/sublime_packages/terminal#Custom_Parameters&quot;&gt;Custom Parameters&lt;/a&gt; 를 참고하세요.&lt;/p&gt;&lt;p&gt;간단하죠. &lt;/p&gt;&lt;p&gt;이제 서브라임텍스트에서 터미널 열고 터미널에서 서브라임테스트 열고를 할 수 있습니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;도스명령창(Terminel)에서 서브라임텍스트(Sublimetest) 열기 -&amp;gt;&amp;nbsp;&lt;a href=&quot;http://demun.tistory.com/2438&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;http://demun.tistory.com/2438&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+			<category>SublimeText</category>
+			<category>SublimeText</category>
+			<category>서브라임텍스트</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2439</guid>
+			<comments>http://demun.tistory.com/2439#entry2439comment</comments>
+			<pubDate>Wed, 20 Aug 2014 13:59:15 +0900</pubDate>
+		</item>
+		<item>
+			<title>[테마] Soda Theme 서브라임텍스트 소다테마</title>
+			<link>http://demun.tistory.com/2436</link>
+			<description>&lt;h1 id=&quot;soda-theme&quot;&gt;Soda Theme&lt;/h1&gt;
+&lt;p&gt;Soda Theme 는 매우 유명한 테마입니다. &lt;/p&gt;&lt;p&gt;그만큼 좋다는거겠지요. 서브라임텍스트는 기본 테마만으로 저는 좋아합니다.&lt;/p&gt;&lt;p&gt;좀더 좋은 테마를 찾는분은 sode theme 를 추천합니다.&lt;/p&gt;&lt;p&gt;sode theme는 현재 서브라임텍스트 2,3 모두 지원합니다.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/buymeasoda/soda-theme&quot;&gt;https://github.com/buymeasoda/soda-theme&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:851px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/25345F3553E8CD5F01CA3A&quot; filemime=&quot;image/jpeg&quot; filename=&quot;soda-dark-screenshot.png&quot; height=&quot;644&quot; style=&quot;&quot; width=&quot;851&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:851px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile22.uf.tistory.com/image/2223B23553E8CD60250919&quot; filemime=&quot;image/jpeg&quot; filename=&quot;soda-light-screenshot.png&quot; height=&quot;644&quot; style=&quot;&quot; width=&quot;851&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;install&quot;&gt;Install&lt;/h2&gt;
+&lt;p&gt;sode theme 는 서브라임텍스트에서 바로 설치할 수 있습니다.&lt;/p&gt;&lt;p&gt;&lt;code&gt;Ctrl+Shift+P&lt;/code&gt; 를 눌러 sode theme 를 선택합니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:391px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/243A0A3853E8CCC40DD26B&quot; filemime=&quot;image/jpeg&quot; filename=&quot;demun_00007.jpg&quot; height=&quot;122&quot; width=&quot;391&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;이걸로 설치는 끝입니다. 간단하죠.&lt;/p&gt;&lt;p&gt;좀더 맘껏 사용하기위해 설정을 해봅니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-&quot;&gt;설정&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;Preferences-Settings-User&lt;/code&gt; 를 클릭해서 설정파일을 엽니다.&lt;/p&gt;&lt;p&gt;2,3 이 약간 다르니 해당 버젼에따른 설정을 넣어주세요.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;테마 활성화&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;comment&quot;&gt;// Sublime Text 2 테마활성화&lt;/span&gt;
+&lt;span class=&quot;string&quot;&gt;&quot;theme&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;Soda Light.sublime-theme&quot;&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;// Sublime Text 3 테마활성화&lt;/span&gt;
+&lt;span class=&quot;string&quot;&gt;&quot;theme&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;Soda Light 3.sublime-theme&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;탭설정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;서브라임텍스트는 기본이 사각형태의 탭입니다. 이걸 모서리가 약간 둥근형태로 만들어줍니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;string&quot;&gt;&quot;soda_classic_tabs&quot;&lt;/span&gt;: &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/51e32bfa64ada070f5fbc2f94c7ade2b73a6897d/687474703a2f2f6275796d6561736f64612e6769746875622e636f6d2f736f64612d7468656d652f696d616765732f66656174757265732f6d756c7469706c652d7461622d7374796c65732e706e67&quot; alt=&quot;탭설정&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;사이드바 폴더 아이콘표시&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;사이드바에 폴더 아이콘을 표시해줍니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;string&quot;&gt;&quot;soda_folder_icons&quot;&lt;/span&gt;: &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/97d3a61dc52f8c0647b518a6dbff39dd045fe23d/687474703a2f2f6275796d6561736f64612e6769746875622e636f6d2f736f64612d7468656d652f696d616765732f66656174757265732f736964656261722d666f6c6465722d69636f6e732e706e67&quot; alt=&quot;폴더아이콘&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Retina Resolution UI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;높은 DPI 디스플레이로 보여줍니다.&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/3307c51495f4afdc6d6838c9cb8657ebbc4721a3/687474703a2f2f6275796d6561736f64612e6769746875622e636f6d2f736f64612d7468656d652f696d616765732f66656174757265732f736f64612d726574696e612e706e67&quot; alt=&quot;Retina Resolution UI&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;고급설정&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;테마에 대한 고급사용자 설정은 위키 페이지에 설명이 되어 있으니 참고하세요.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation&quot;&gt;위키&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;구문강조&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;위 이미지에 보여지는 구문강조색은 흰색버젼은 에스프레스의 컬러셋이고, 어두운버젼은 Monokai 의 수정된 버젼입니다.&lt;/p&gt;&lt;p&gt;이걸 사용하려면 &lt;a href=&quot;http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip&quot;&gt;colour-schemes.zip&lt;/a&gt; 을 다운로드하시고 압축을 푸세요.&lt;/p&gt;&lt;p&gt;압축을 풀면 2개의 파일이 나옵니다. 그걸 &lt;code&gt;Packages&lt;/code&gt; 폴더안에 &lt;code&gt;User&lt;/code&gt; 폴더안에 넣어주세요.&lt;/p&gt;&lt;p&gt;&lt;code&gt;Packages&lt;/code&gt; 폴더는 &lt;code&gt;Preferences - Browse Packages..&lt;/code&gt; 를 클릭하면 됩니다. &lt;/p&gt;&lt;p&gt;그리고 설정파일에서 아래처럼 입력해줍니다. 아래는 &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&quot;color_scheme&quot;: &quot;Packages/User/Monokai Soda.tmTheme&quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;또는 아래 이미지처럼 선택을 해도 됩니다. 그러면 자동으로 입력이 되어집니다.&lt;/p&gt;</description>
+			<category>SublimeText</category>
+			<category>Sublime text</category>
+			<category>SublimeText</category>
+			<category>Theme</category>
+			<category>서브라임텍스트</category>
+			<category>테마</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2436</guid>
+			<comments>http://demun.tistory.com/2436#entry2436comment</comments>
+			<pubDate>Wed, 13 Aug 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[테마] sublimetext 서브라임텍스트 테마 사이트</title>
+			<link>http://demun.tistory.com/2435</link>
+			<description>&lt;h1 id=&quot;sublimetext-theme&quot;&gt;SublimeText Theme&lt;/h1&gt;
+&lt;p&gt;서브라임텍스트도 다양한 테마를 지원합니다. &lt;/p&gt;&lt;p&gt;미리볼수 있는 서브라임텍스트 테마 사이트 입니다.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://devthemez.com/themes/sublime-text-2&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://devthemez.com/themes/sublime-text-2&quot;&gt;http://devthemez.com/themes/sublime-text-2&lt;/a&gt;&lt;/p&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:978px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/2253FE3753E8CB5818F9CE&quot; filemime=&quot;image/jpeg&quot; filename=&quot;demun_00011.jpg&quot; height=&quot;2357&quot; style=&quot;&quot; width=&quot;978&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;p&gt;이미지를 클릭하면 다운로드 버튼이 생성됩니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:885px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/25742D3353E8CB7F045F99&quot; filemime=&quot;image/jpeg&quot; filename=&quot;demun_00014.jpg&quot; height=&quot;715&quot; style=&quot;&quot; width=&quot;885&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;다운로드를 클릭하면 github 저장소로 이동하며 설치방법이 나옵니다.&lt;/p&gt;&lt;p&gt;하지만 왠만한것은 테마 이름만 알면 구지 이동하지 않아도 서브라임텍스트에서 설치가 가능합니다.&lt;/p&gt;&lt;p&gt;테마에 따른 설정을 해야하는것은 해당 저장소로가서 설정을 추가로 해줘야 합니다.&lt;/p&gt;&lt;p&gt;그래야 완전하 테마를 사용할 수 있습니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:790px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/26542E3753E8CB95194F59&quot; filemime=&quot;image/jpeg&quot; filename=&quot;demun_00015.jpg&quot; height=&quot;808&quot; style=&quot;&quot; width=&quot;790&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+			<category>SublimeText</category>
+			<category>Sublime text</category>
+			<category>SublimeText</category>
+			<category>Theme</category>
+			<category>서브라임텍스트</category>
+			<category>테마</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2435</guid>
+			<comments>http://demun.tistory.com/2435#entry2435comment</comments>
+			<pubDate>Tue, 12 Aug 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[플러그인] Color Highlighter</title>
+			<link>http://demun.tistory.com/2434</link>
+			<description>&lt;h1 id=&quot;color-highlighter&quot;&gt;Color Highlighter&lt;/h1&gt;
+&lt;p&gt;sublime text 프러그인중에서 color 관련 플러그인이 몇개 됩니다.  &lt;/p&gt;
+&lt;p&gt;지금 설명할 플럭그인은 color highlighter 인데요 그중에서 가장 편하게 사용할 수 있어서 소개합니다.&lt;/p&gt;
+&lt;h2 id=&quot;-&quot;&gt;설치&lt;/h2&gt;
+&lt;p&gt;다른 플러그인 설치할때처럼 &lt;code&gt;Ctrl+Shift+P&lt;/code&gt; 를 눌러 &lt;code&gt;pci&lt;/code&gt; 해서 &lt;code&gt;package control&lt;/code&gt; 를 설치합니다.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:524px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/2435573953E73C020B782D&quot; filemime=&quot;image/jpeg&quot; filename=&quot;demun_00006.jpg&quot; height=&quot;389&quot; width=&quot;524&quot;/&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;그후 팝업창에서 &lt;code&gt;Color Highlighter&lt;/code&gt; 를 입력해서 설치하면 됩니다.&lt;/p&gt;
+&lt;h2 id=&quot;-&quot;&gt;사용법&lt;/h2&gt;
+&lt;p&gt;사용법이라고까지 할건 없습니다.   &lt;/p&gt;
+&lt;p&gt;좋은점은 &lt;code&gt;Less&lt;/code&gt; &lt;code&gt;sass&lt;/code&gt; &lt;code&gt;scss&lt;/code&gt; &lt;code&gt;stylus&lt;/code&gt; 모두 지원한다는 겁니다.&lt;/p&gt;
+&lt;p&gt;아래 이미지를 참고하세요.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:378px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/2710CC3B53E73CE8084AB7&quot; filemime=&quot;image/jpeg&quot; filename=&quot;UPmEk09.png&quot; height=&quot;291&quot; width=&quot;378&quot;/&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;컬러값이 있는 곳에 해당색상값으로 하이라이트가 되어 있어서 손쉽게 알수 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/26462E3753E73CF91771A0&quot; filemime=&quot;image/gif&quot; filename=&quot;hilight-color.gif&quot; height=&quot;400&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;색상값이 있는 곳에서 &lt;code&gt;Ctrl+Shift+C&lt;/code&gt; 를 누르면 색상선택기가 나옵니다.&lt;/p&gt;
+&lt;p&gt;값을 변경하고자 할때는 &lt;code&gt;Ctrl+Shift+A&lt;/code&gt; 를 누르면 됩니다.&lt;/p&gt;
+&lt;p&gt;근데 구지 그렇게 단축키를 누르면서 변경하지는 않죠. 그냥 바꾸면 되니까....&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:700px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile4.uf.tistory.com/image/2223123853E73D52119A44&quot; filemime=&quot;image/gif&quot; filename=&quot;color-picker.gif&quot; height=&quot;400&quot; width=&quot;700&quot;/&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;전 단지 해당 컬러값이 있는 곳에 커서가 위치하면 그 색상을 볼 수 있다는 점이 좋은것 같습니다.&lt;/p&gt;</description>
+			<category>SublimeText</category>
+			<category>color highligter</category>
+			<category>SublimeText</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2434</guid>
+			<comments>http://demun.tistory.com/2434#entry2434comment</comments>
+			<pubDate>Mon, 11 Aug 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>github 명령어 모음</title>
+			<link>http://demun.tistory.com/2433</link>
+			<description>&lt;h1 id=&quot;git-&quot;&gt;git 명령어&lt;/h1&gt;
+&lt;p&gt;전문용어보다는 알기 쉽게 적었습니다.   &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;아래에서 나오는 &lt;code&gt;[]&lt;/code&gt; 는 명령어를 입력할때 생략해야 합니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div id=&quot;accordion-01&quot; class=&quot;panel-group&quot;&gt;
+  &lt;div class=&quot;panel panel-default&quot;&gt;
+    &lt;div class=&quot;panel-heading&quot;&gt;
+      &lt;h4 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion-01&quot; href=&quot;#collapse-01&quot; class=&quot;accordion-toggle collapsed&quot;&gt;기본 명령어&lt;/a&gt;&lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;collapse-01&quot; class=&quot;panel-collapse in&quot;&gt;
+      &lt;div class=&quot;in-body&quot;&gt;
+        &lt;table class=&quot;table table-hover&quot;&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git config --global user.name &quot;name&quot;&lt;/th&gt;
+              &lt;td&gt;최초 한번은 사용자이름을 지정해줘야 한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git config --global user.email &quot;user@email.com&quot;&lt;/th&gt;
+              &lt;td&gt;최초 한번은 사용자 이메일을 지정해줘야 한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git config --global alias.co checkout&lt;/th&gt;
+              &lt;td&gt;co 라는 별명(단축글자)으로 checkout 을 사용한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git config --global core.editor emacs&lt;/th&gt;
+              &lt;td&gt;git 편집기로 emacs 를 사용한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git config --golbal merge.tool vimdiff&lt;/th&gt;
+              &lt;td&gt;머지툴로 vimdiff 를 사용한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git config --list&lt;/th&gt;
+              &lt;td&gt;글로벌 설정을 확인한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git clone url&lt;/th&gt;
+              &lt;td&gt;원격저장소 로컬에 복사&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git init&lt;/th&gt;
+              &lt;td&gt;원격관리 시작(로컬저장소를 만든다)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git add filename&lt;/th&gt;
+              &lt;td&gt;파일 추적하기(staging area 에 추가한다)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git commit -m 'commit message'&lt;/th&gt;
+              &lt;td&gt;커밋하고 메시지 입력(작업내용을 저장소로 보낸다)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git pull&lt;/th&gt;
+              &lt;td&gt;원격저장소에서 다운로드하면서 합치기&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git push&lt;/th&gt;
+              &lt;td&gt;원격저장소로 업로드&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git status&lt;/th&gt;
+              &lt;td&gt;현재 상태 알아보기&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;panel panel-default&quot;&gt;
+    &lt;div class=&quot;panel-heading&quot;&gt;
+      &lt;h4 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion-01&quot; href=&quot;#collapse-02&quot; class=&quot;accordion-toggle collapsed&quot;&gt;기본 명령어 2&lt;/a&gt;&lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;collapse-02&quot; class=&quot;panel-collapse collapse&quot;&gt;
+      &lt;div class=&quot;panel-body&quot;&gt;
+        &lt;table class=&quot;table table-hover&quot;&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git diff&lt;/th&gt;
+              &lt;td&gt;staged 와 unstaged 상태를 볼수 있다(마지막 커밋한 부분은 보여주지 않는다)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git diff --cached&lt;/th&gt;
+              &lt;td&gt;워킹디렉토리에 있는것과 staging area 에 넣은 파일의 변경된 부분을 보여준다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git commit -a -m&lt;/th&gt;
+              &lt;td&gt;git add 명령을 생략하고 바로 커밋할때 사용한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git rm filename&lt;/th&gt;
+              &lt;td&gt;삭제하기(삭제한후 커밋해야 한다)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git rm -f filename&lt;/th&gt;
+              &lt;td&gt;staging area 에 추가하고 삭제가 안될때 강제삭제&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git rm --cached filename&lt;/th&gt;
+              &lt;td&gt;로컬에 그대로 두고(삭제하지않고) git 만 추적하지 않게하기&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git mv file_from file_to&lt;/th&gt;
+              &lt;td&gt;file_from 을 file_to 로 파일명 변경하기&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log&lt;/th&gt;
+              &lt;td&gt;커밋 로그 보기&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git add --all&lt;/th&gt;
+              &lt;td&gt;한번에 여러파일을 stage area 에 add 한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git add file1 file2 file3&lt;/th&gt;
+              &lt;td&gt;file1, file2, file3 등 3개의 파이을 한번에 add 할때 사용한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;&lt;/th&gt;
+              &lt;td&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;panel panel-default&quot;&gt;
+    &lt;div class=&quot;panel-heading&quot;&gt;
+      &lt;h4 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion-01&quot; href=&quot;#collapse-03&quot; class=&quot;accordion-toggle collapsed&quot;&gt;커밋 로그&lt;/a&gt;&lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;collapse-03&quot; class=&quot;panel-collapse collapse&quot;&gt;
+      &lt;div class=&quot;panel-body&quot;&gt;
+        &lt;table class=&quot;table table-hover&quot;&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log&lt;/th&gt;
+              &lt;td&gt;커밋 로그 보기&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log -p&lt;/th&gt;
+              &lt;td&gt;각 커밋의 diff 결과를 보여준다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log -p -2&lt;/th&gt;
+              &lt;td&gt;각 커밋의 diff 결과 중 최근 2개만 보여준다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log --word-diff&lt;/th&gt;
+              &lt;td&gt;각 커밋의 diff 결과 중 줄단위가 아닌 단어단위로 보여준다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log -U1 --word-diff&lt;/th&gt;
+              &lt;td&gt;각 커밋의 diff 결과 중 줄단위가 아닌 단어단위로 보여준고 해당줄만 보여준다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log --star&lt;/th&gt;
+              &lt;td&gt;수정된 파일의 통계정보 보여준다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log --name-only&lt;/th&gt;
+              &lt;td&gt;커밋정보중에서 수정된 파일의 목록만 보여준다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log --name-status&lt;/th&gt;
+              &lt;td&gt;수정된 파일의 목록을 보여줄뿐만 아니라 파일을 추가,수정,삭제한것들도 보여준다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log --abbrev-commit&lt;/th&gt;
+              &lt;td&gt;40자 짜리 SHA-1 체크섬의 처음 몇자만 보여준다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log --relative-date&lt;/th&gt;
+              &lt;td&gt;&lt;code&gt;2주전&lt;/code&gt; 처럼 상대적인 형식으로 보여준다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log --graph&lt;/th&gt;
+              &lt;td&gt;브렌치와 머지 히스토리 정보까지 아스키 그래프로 보여준다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log --pretty=oneline&lt;/th&gt;
+              &lt;td&gt;로그의 히스토리 통계 중 한줄씩만 보여준다(oneline, short, full, fuller 옵션이있다)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log --pretty=format:&quot;%h - %an, %ar : %s&quot;&lt;/th&gt;
+              &lt;td&gt;옵션대로 원하는 형태로 로그를 출력한다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log -(n)&lt;/th&gt;
+              &lt;td&gt;최근 n개의 커밋만 조회한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log --since[--after]&lt;/th&gt;
+              &lt;td&gt;명시한 날짜 이후의 커밋만 조회한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log --until[--before]&lt;/th&gt;
+              &lt;td&gt;명시한 날짜 이전의 커밋만 조회한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log --author&lt;/th&gt;
+              &lt;td&gt;입력한 저자의 커밋만 조회한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git log --committer&lt;/th&gt;
+              &lt;td&gt;입력한 커미터의 커밋만 조회한다&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;panel panel-default&quot;&gt;
+    &lt;div class=&quot;panel-heading&quot;&gt;
+      &lt;h4 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion-01&quot; href=&quot;#collapse-04&quot; class=&quot;accordion-toggle collapsed&quot;&gt;되돌리기&lt;/a&gt;&lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;collapse-04&quot; class=&quot;panel-collapse collapse&quot;&gt;
+      &lt;div class=&quot;panel-body&quot;&gt;
+        &lt;table class=&quot;table table-hover&quot;&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git commit --amend&lt;/th&gt;
+              &lt;td&gt;이전 커밋으로 되돌린다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git checkout -- filename&lt;/th&gt;
+              &lt;td&gt;이전 커밋으로 되돌린다(덮어쓴다)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git revert HEAD&lt;/th&gt;
+              &lt;td&gt;마지막 커밋 상태로 돌려준다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git revert $id&lt;/th&gt;
+              &lt;td&gt;$id로 지정한 커밋의 상태로 돌려준다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git checkout -f&lt;/th&gt;
+              &lt;td&gt;마지막 커밋상태로 돌려준다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git reset --hard&lt;/th&gt;
+              &lt;td&gt;마지막 커밋한 상태로 돌려준다&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;panel panel-default&quot;&gt;
+    &lt;div class=&quot;panel-heading&quot;&gt;
+      &lt;h4 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion-01&quot; href=&quot;#collapse-05&quot; class=&quot;accordion-toggle collapsed&quot;&gt;리모트 저장소&lt;/a&gt;&lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;collapse-05&quot; class=&quot;panel-collapse collapse&quot;&gt;
+      &lt;div class=&quot;panel-body&quot;&gt;
+        &lt;table class=&quot;table table-hover&quot;&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git remote&lt;/th&gt;
+              &lt;td&gt;현재 프로젝트에 등록된 리모트 저장소의 단축이름을 보여준다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git remote -v&lt;/th&gt;
+              &lt;td&gt;단축이름과 url을 함께 보여준다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git remote add [단축이름] [url]&lt;/th&gt;
+              &lt;td&gt;리코트 저장소를 추가한다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git fetch [리모트저장소이름] [브렌치]&lt;/th&gt;
+              &lt;td&gt;리모트 저장소의 데이터를 가져오기만 한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git pull [리모트저장소이름] [브렌치]&lt;/th&gt;
+              &lt;td&gt;리모트 저장소의 데이터를 가져오고 merge 한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git push [리모트저장소이름] [브렌치]&lt;/th&gt;
+              &lt;td&gt;git push origin master : master 브렌치로 origin 저장소에 푸시한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git remote show [리모트저장소이름]&lt;/th&gt;
+              &lt;td&gt;리모트 저장소의 구체적인 정보를 보여준다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git remote rename [현재저장소이름] [바꿀려는저장소 이름]&lt;/th&gt;
+              &lt;td&gt;저장소 이름을 바꾼다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git remote rm [삭제할 저장소 이름]&lt;/th&gt;
+              &lt;td&gt;저장소를 삭제한다&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;panel panel-default&quot;&gt;
+    &lt;div class=&quot;panel-heading&quot;&gt;
+      &lt;h4 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion-01&quot; href=&quot;#collapse-06&quot; class=&quot;accordion-toggle collapsed&quot;&gt;태그&lt;/a&gt;&lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;collapse-06&quot; class=&quot;panel-collapse collapse&quot;&gt;
+      &lt;div class=&quot;panel-body&quot;&gt;
+        &lt;table class=&quot;table table-hover&quot;&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git tag&lt;/th&gt;
+              &lt;td&gt;태그를 조회한다(알파벳순서)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git tag -l 'v1.4.2.&lt;em&gt;'&lt;/em&gt;&lt;/th&gt;
+              &lt;td&gt;1.4.2 버젼의 태그들만 검색한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git tag -a&lt;/th&gt;
+              &lt;td&gt;Annoteted 태그를 만든다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git tag -a v1.4 -m '메시지'&lt;/th&gt;
+              &lt;td&gt;Annoteted 태그를 만들때 -m 으로 메시지를 추가할수 있다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git show v1.4&lt;/th&gt;
+              &lt;td&gt;1.4버젼의 태그 정보를 조회한다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git tag -s v1.5 -m '메시지'&lt;/th&gt;
+              &lt;td&gt;GPG 개인키로 태그에 서명하고 메시지를 입력한다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git tag v1.4&lt;/th&gt;
+              &lt;td&gt;Lightweight 태그로 v1.4 를 만든다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git tag -v [태그이름]&lt;/th&gt;
+              &lt;td&gt;GPG를 사용하여 태그를 검증한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git tag -a v1.2 -m 'version 1.2' 9fceb02&lt;/th&gt;
+              &lt;td&gt;9fceb02 커밋 체크섬(지난 커밋)에 태그를 만들고 메시지를 입력한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git push origin [태그이름]&lt;/th&gt;
+              &lt;td&gt;태그이름을 리모트서버에 푸시한다(공유)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git push origin --tags&lt;/th&gt;
+              &lt;td&gt;태그를 리모트서버에 한번에 여러개 푸시한다&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;panel panel-default&quot;&gt;
+    &lt;div class=&quot;panel-heading&quot;&gt;
+      &lt;h4 class=&quot;panel-title&quot;&gt;&lt;a data-toggle=&quot;collapse&quot; data-parent=&quot;#accordion-01&quot; href=&quot;#collapse-07&quot; class=&quot;accordion-toggle collapsed&quot;&gt;브렌치&lt;/a&gt;&lt;/h4&gt;
+    &lt;/div&gt;
+    &lt;div id=&quot;collapse-07&quot; class=&quot;panel-collapse collapse&quot;&gt;
+      &lt;div class=&quot;panel-body&quot;&gt;
+        &lt;table class=&quot;table table-hover&quot;&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git branch&lt;/th&gt;
+              &lt;td&gt;브렌치를 보여준다(현재 작업하고 있는 브렌치는 앞에  가 붙어있다)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git branch -v&lt;/th&gt;
+              &lt;td&gt;브렌치와 커밋메시지까지 보여준다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git branch [branch]&lt;/th&gt;
+              &lt;td&gt;[branch] 으로 새로운 브렌치를 만든다(만들기만 한것이다)&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git checkout [branch]&lt;/th&gt;
+              &lt;td&gt;[branch] 이라는 브렌치로 이동한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git checkout -b [branch]&lt;/th&gt;
+              &lt;td&gt;[branch] 라는 브렌치를 만들고 [branch] 로 이동한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git merge [branch]&lt;/th&gt;
+              &lt;td&gt;[branch] 의 브렌치를 합친다 브렌치이름은 합쳐질 브렌치이다.&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git branch --merged&lt;/th&gt;
+              &lt;td&gt;Merge 한 브렌치 목록을 보여준다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git branch --no-merged&lt;/th&gt;
+              &lt;td&gt;Merge 하지않은 브렌치 목록을 보여준다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git branch -d [branch]&lt;/th&gt;
+              &lt;td&gt;[branch] 의 브렌치를 삭제한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git push [리모트저장소] [리모트브렌치]&lt;/th&gt;
+              &lt;td&gt;[리모트저장소] 에 [리모트브렌치]를 생성하고, 현재의 로컬브랜치와 추적상태를 만든다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+            &lt;/tr&gt;&lt;tr&gt;
+              &lt;th&gt;git checkout -b [branch1] [리모트저장소]/[branch2]&lt;/th&gt;
+              &lt;td&gt;[branch1] 이라는 트래킹 브렌치가 만들어진다. [branch2] 는 원격저장소의 브렌치이고 이젠 [branch1] 에서 명령을 내리면 [리모트저장소]/[branch2]에서 작동한다&lt;/td&gt;
+            &lt;/tr&gt;
+              &lt;tr&gt;&lt;th&gt;git push [리모트저장소] :[리모트브렌치]&lt;/th&gt;
+              &lt;td&gt;:[리모트브렌치] 라는 서버의 원격브렌치를 삭제한다. 띄어쓰기 주의&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git push [리모트저장소] [localbranch]:[remotebranch]&lt;/th&gt;
+              &lt;td&gt;위와같은내용. 로컬에서 빈내용을 [remotebranch] 에 채워 넣어라&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git rebase --onto master server client&lt;/th&gt;
+              &lt;td&gt;client 브렌치를 Checkout하고 server와 client의 공통조상 이후의 패치를 만들어 master에적용한다&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th&gt;git rebarse [basebranch] topicbranch]&lt;/th&gt;
+              &lt;td&gt;server 브렌치를 Checkout하고 master 브랜치로 rebase 한다&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</description>
+			<category>Git</category>
+			<category>GIT</category>
+			<category>github</category>
+			<category>원격관리</category>
+			<category>형상관리</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2433</guid>
+			<comments>http://demun.tistory.com/2433#entry2433comment</comments>
+			<pubDate>Sun, 10 Aug 2014 15:26:17 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Gitlab] Gitlab 그룹으로 프로젝트 참여하기</title>
+			<link>http://demun.tistory.com/2432</link>
+			<description>&lt;h1 id=&quot;gitlab-&quot;&gt;Gitlab 그룹으로 프로젝트 참여하기&lt;/h1&gt;
+&lt;p&gt;이 글은 목적은 아래와 같습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;github&lt;/code&gt; 또는 &lt;code&gt;gitlab&lt;/code&gt; 등을 처음사용한다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gitlab&lt;/code&gt; 에 &lt;code&gt;Group&lt;/code&gt;으로 참여하고 싶다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GitHub Windows&lt;/code&gt; 프로그램 사용으로 &lt;code&gt;gitlab&lt;/code&gt; 을 편리하게 사용하고 싶다&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;순서는 대략 아래와 같습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;github&lt;/code&gt; 을 사용하기 위해 &lt;code&gt;msysgit&lt;/code&gt; 설치하기&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;github&lt;/code&gt; , &lt;code&gt;gitlab&lt;/code&gt; 회원가입&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-key&lt;/code&gt; 입력&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gitlab&lt;/code&gt; 그룹으로 프로젝트 참여하기&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GitHub Windows&lt;/code&gt; 프로그램 설치&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;GitHub Windows&lt;/code&gt; 간단 사용법&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;1-github-msysgit-&quot;&gt;1. &lt;code&gt;github&lt;/code&gt; 을 사용하기 위해 &lt;code&gt;msysgit&lt;/code&gt; 설치하기&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;윈도우에서 콘솔환경에서 &lt;code&gt;github&lt;/code&gt; 을 사용하기 위해 &lt;code&gt;msysgit&lt;/code&gt; 설치하기.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://msysgit.github.io/&quot;&gt;msysgit 홈페이지&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;설치후 확인하기 위해서는 폴더에서 마우스 우측버튼을 눌러서 &lt;code&gt;Git Init Here&lt;/code&gt; 나 &lt;code&gt;Git Gui&lt;/code&gt; 나 &lt;code&gt;Git Bash&lt;/code&gt; 등이 보이면 잘 설치가 된것이다. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;git-scm.com&quot;&gt;git-scm.com&lt;/a&gt; 나 &lt;a href=&quot;https://code.google.com/p/tortoisegit/&quot;&gt;TortoiseGit&lt;/a&gt; 나 &lt;a href=&quot;http://www.aptana.com/&quot;&gt;Aptana&lt;/a&gt; 을 설치해서 사용할 수도 있다.  사용방법과 장점은 홈페이지를 참고하기 바랍니다.&lt;br /&gt;여기서는 &lt;code&gt;msysgit&lt;/code&gt; 설치하는것으로 한다.   &lt;/p&gt;
+&lt;h2 id=&quot;2-github-gitlab-&quot;&gt;2. &lt;code&gt;github&lt;/code&gt; , &lt;code&gt;gitlab&lt;/code&gt; 회원가입&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/&quot;&gt;git&lt;/a&gt; 이나 &lt;a href=&quot;https://gitlab.com/&quot;&gt;gitlab&lt;/a&gt; 을 처음사용하기 때문에 먼저 회원가입을 해야한다.&lt;br /&gt;각 홈페이지에 가서 &lt;code&gt;Sing up&lt;/code&gt; 을 클릭해서 회원가입을 하면 된다.   &lt;/p&gt;
+&lt;h2 id=&quot;3-ssh-key-&quot;&gt;3. &lt;code&gt;ssh-key&lt;/code&gt; 입력&lt;/h2&gt;
+&lt;p&gt;본인의 로컬컴퓨터에 있는 ssh-key 를 복사해서 &lt;code&gt;github&lt;/code&gt; 또는 &lt;code&gt;gitlab&lt;/code&gt; 사이트에가서 ssh-key 를 붙여넣기 해야한다.&lt;/p&gt;
+&lt;h4 id=&quot;-ssh-key-&quot;&gt;로컬컴퓨터 ssh-key 복사하기&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;아무폴더에서 마우스 우측버튼을 눌러 &lt;code&gt;Git Bash&lt;/code&gt; 를 눌러 git 커맨트창을 연다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;명령창에서 ssh-keygen&lt;/code&gt; 입력 엔터&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;...../.ssh/id_rsa);&lt;/code&gt; 라고 나오면 &lt;code&gt;엔터,...여러번 엔터를 칩니다.&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Created .....&lt;/code&gt; 하고 &lt;code&gt;Enter ....passphrase);&lt;/code&gt; 라고 나오면 &lt;code&gt;엔터&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;The key fingerprint is:........&lt;/code&gt; 라고 나오면 일단락 됐다. 현재 폴더가 위치한 구문이 나오면 다 된겁니다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd ~/.ssh&lt;/code&gt; 엔터&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls -al&lt;/code&gt; 입력하고 엔터를 치면 현재 디렉토리에 &lt;code&gt;id_rsa&lt;/code&gt; 나 &lt;code&gt;id_rsa.pub&lt;/code&gt; 파일이 있는것을 확인할 수 있다.&lt;/li&gt;
+&lt;li&gt;위에서 &lt;code&gt;id_rsa.pub&lt;/code&gt; 라고 나온 부분을 탐색기에서 찾아 들어간다.       &lt;/li&gt;
+&lt;li&gt;대략 경로는 &lt;code&gt;C:\Users\사용자이름\.ssh&lt;/code&gt;&amp;nbsp;폴더가 된다.       &lt;/li&gt;
+&lt;li&gt;그폴더에서 &lt;code&gt;github_rsa.pub&lt;/code&gt; 파일을 메모장이나 에디터로 열어서 코드를 복사한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;-ssh-key-&quot;&gt;원격저장소에 복사한 ssh-key 를 등록.&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;gitlab 에 접속하고 로그인해서 우측 상단에 사람 아이콘의 &lt;code&gt;Profile settings&lt;/code&gt; 클릭.&lt;/li&gt;
+&lt;li&gt;메인메뉴에 &lt;code&gt;SSH&lt;/code&gt; 메뉴 클릭.&lt;/li&gt;
+&lt;li&gt;우측에 &lt;code&gt;Add SSH Key&lt;/code&gt; 를 클릭.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;title&lt;/code&gt; 에는 적당한 이름을 적어주고 &lt;code&gt;Key&lt;/code&gt; 부분에 복사한 키를 붙여넣기 하고 저장한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;4-gitlab-&quot;&gt;4. &lt;code&gt;gitlab&lt;/code&gt; 그룹으로 프로젝트 참여하기&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;gitlab&lt;/code&gt; 에 그룹으로 참여하기 위해서는 마스터 권한을 가지 사람이 본인을 그룹의 멤버로 추가해줘야 한다.&lt;br /&gt;프로젝트 그룹의 권한을 가진분에게 &lt;code&gt;gitlab&lt;/code&gt; 에 가입했던 자신의 이메일을 알려주면 멤버로 추가해달라고 하면 된다.&lt;br /&gt;그러면 본인이 로그인하면 해당 프로젝트가 보인다.&lt;/p&gt;
+&lt;h2 id=&quot;5-github-windows-&quot;&gt;5. &lt;code&gt;GitHub Windows&lt;/code&gt; 프로그램 설치&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://windows.github.com/&quot;&gt;GitHub Windows&lt;/a&gt; 에 가서 &lt;code&gt;Download GitHub for Windows 2.0&lt;/code&gt; 을 클릭해서 프로그램을 설치한다.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;GitHub Windows&lt;/code&gt; 을 사용하면 초보자들도 금방 깃헙에 적응할 수 있다.&lt;br /&gt;&lt;code&gt;GitHub Windows&lt;/code&gt; 는 &lt;code&gt;github&lt;/code&gt; 와 &lt;code&gt;gitlab&lt;/code&gt; 모두 사용할 수 있다.&lt;br /&gt;&lt;code&gt;GitHub Windows&lt;/code&gt; 는 복잡한 명령어 &lt;code&gt;add&lt;/code&gt; , &lt;code&gt;commit&lt;/code&gt; , &lt;code&gt;push&lt;/code&gt; 등을 간단하게 마우스 클릭으로 할 수 있다.&lt;/p&gt;
+&lt;h2 id=&quot;6-github-windows-&quot;&gt;6. &lt;code&gt;GitHub Windows&lt;/code&gt; 간단 사용법&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;gitlab&lt;/code&gt; 에 로그인하면 소속된 그룹이 보이고 저장소에 접근할 수 있다.&lt;br /&gt;접속하면 &lt;code&gt;git@gitlab.com:그룹명/그룹저장소명.git&lt;/code&gt; 와 같은 저장소 주소를 본인의 로컬컴퓨터로 가져와야 한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;GitHub Windows&lt;/code&gt; 프로그램은 &lt;code&gt;github&lt;/code&gt; 에 맞쳐져 제작된 프로그램이기 때문에 이걸로 가져오지 말고, 탐색기에서 작업하고자하는 폴더에가서 마우스 우측버튼을 누르면 &lt;code&gt;Git Bach&lt;/code&gt; 를 클릭한다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git clone git@gitlab.com:그룹명/그룹저장소명.git&lt;/code&gt; 라고 입력하면 본인의 컴퓨터로 저장소를 가져오게 된다.&lt;/li&gt;
+&lt;li&gt;그 폴더를 &lt;code&gt;GitHub Windows&lt;/code&gt; 프로그램위에 드레그하면 된다.&lt;/li&gt;
+&lt;li&gt;저장소를 인식한 다음부터는 명령어가 아닌 마우스로 &lt;code&gt;GitHub Windows&lt;/code&gt; 프로그램을 사용하면 된다.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+			<category>Git</category>
+			<category>GIT</category>
+			<category>gitlab</category>
+			<category>깃헙</category>
+			<category>버젼관리</category>
+			<category>형상관리</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2432</guid>
+			<comments>http://demun.tistory.com/2432#entry2432comment</comments>
+			<pubDate>Wed, 06 Aug 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>[Gitlab] gitlab 사용법</title>
+			<link>http://demun.tistory.com/2431</link>
+			<description>
+&lt;h1 id=&quot;gitlab-&quot;&gt;gitlab 사용법&lt;/h1&gt;
+&lt;h2 id=&quot;1-&quot;&gt;1. 환경설정.&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;윈도우에서 콘솔환경에서 &lt;code&gt;git&lt;/code&gt; 을 사용하기 위해 &lt;code&gt;msysgit&lt;/code&gt; 설치하기.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://msysgit.github.io/&quot;&gt;msysgit 홈페이지&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;설치후 확인하기 위해서는 폴더에서 마우스 우측버튼을 눌러서 &lt;code&gt;Git Init Here&lt;/code&gt; 나 &lt;code&gt;Git Gui&lt;/code&gt; 나 &lt;code&gt;Git Bash&lt;/code&gt; 등이 보이면 잘 설치가 된것이다. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;git-scm.com&quot;&gt;git-scm.com&lt;/a&gt; 나 &lt;a href=&quot;https://code.google.com/p/tortoisegit/&quot;&gt;TortoiseGit&lt;/a&gt; 나 &lt;a href=&quot;http://www.aptana.com/&quot;&gt;Aptana&lt;/a&gt; 을 설치해서 사용할 수도 있다.  사용방법과 장점은 홈페이지를 참고하기 바랍니다.      &lt;/p&gt;
+&lt;h2 id=&quot;2-&quot;&gt;2. 회원가입.&lt;/h2&gt;
+&lt;p&gt;홈페이지에서 sign up 을 통해 회원가입을 한다.&lt;br&gt;홈페이지 : &lt;a href=&quot;https://gitlab.com&quot;&gt;&lt;a href=&quot;https://gitlab.com&quot;&gt;https://gitlab.com&lt;/a&gt;&lt;/a&gt;      &lt;/p&gt;
+&lt;p&gt;회원가입의 순서는 이름,유저네임,이메일,비밀번호 등을 입력한다음 입력한 이메일 주소로 가서 본인인증 확인메일을 통해 &lt;code&gt;gitlab&lt;/code&gt; 사이트에 접속해서 최초 로그인을 한다.   &lt;/p&gt;
+&lt;h2 id=&quot;3-ssh-key-&quot;&gt;3. ssh-key 입력&lt;/h2&gt;
+&lt;p&gt;작업순서는 아래와 같다.  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;로컬컴퓨터에 있는 ssh-key 를 복사한다.&lt;/li&gt;
+&lt;li&gt;원격저장소에 접속해서 복사한 ssh-key 를 등록한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;-ssh-key-&quot;&gt;로컬컴퓨터 ssh-key 복사하기&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;아무폴더에서 마우스 우측버튼을 눌러 &lt;code&gt;Git Bash&lt;/code&gt; 를 눌러 git 커맨트창을 연다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ssh-keygen&lt;/code&gt; 입력&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;...../.ssh/id_rsa);&lt;/code&gt; 라고 나오면 &lt;code&gt;엔터&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Created .....&lt;/code&gt; 하고 &lt;code&gt;Enter ....passphrase);&lt;/code&gt; 라고 나오면 &lt;code&gt;엔터&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;The key fingerprint is:........&lt;/code&gt; 라고 나오면 일단락 됐다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd ~/.ssh&lt;/code&gt; 엔터&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;ls -al&lt;/code&gt; 입력하고 엔터를 치면 현재 디렉토리에 &lt;code&gt;id_rsa&lt;/code&gt; 나 &lt;code&gt;id_rsa.pub&lt;/code&gt; 파일이 있는것을 확인할 수 있다.&lt;/li&gt;
+&lt;li&gt;위에서 &lt;code&gt;id_rsa.pub&lt;/code&gt; 라고 나온 부분을 탐색기에서 찾아 들어간다.       &lt;/li&gt;
+&lt;li&gt;대략 경로는 &lt;code&gt;C:\Users\사용자이름\.ssh&lt;/code&gt; 가 된다.       &lt;/li&gt;
+&lt;li&gt;그폴더에서 &lt;code&gt;github_rsa.pub&lt;/code&gt; 파일을 메모장을 열어서 복사한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;-ssh-key-&quot;&gt;원격저장소에 복사한 ssh-key 를 등록.&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;gitlab 에 접속하고 로그인해서 우측 상단에 사람 아이콘의 &lt;code&gt;Profile settings&lt;/code&gt; 클릭.&lt;/li&gt;
+&lt;li&gt;메인메뉴에 &lt;code&gt;SSH&lt;/code&gt; 메뉴 클릭.&lt;/li&gt;
+&lt;li&gt;우측에 &lt;code&gt;Add SSH Key&lt;/code&gt; 를 클릭.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;title&lt;/code&gt; 에는 적당한 이름을 적어주고 &lt;code&gt;Key&lt;/code&gt; 부분에 복사한 키를 붙여넣기 하고 저장한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;4-&quot;&gt;4. 원격 저장소에 프로젝트 생성(본인 프로젝트를 만들때).&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;gitlab 에 접속.&lt;/li&gt;
+&lt;li&gt;우측 상단에 &lt;code&gt;+&lt;/code&gt; 버튼을 클릭해서 프로젝트 생성.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Project name&lt;/code&gt; 에 프로젝트명을 영어로 적는다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Description&lt;/code&gt; 에 프로젝트에 대한 설명을 간단이 적는다.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Private&lt;/code&gt; 나 &lt;code&gt;Internal&lt;/code&gt; 나 &lt;code&gt;Public&lt;/code&gt; 를 선택하고 &lt;code&gt;Create project&lt;/code&gt; 를 클릭해서 프로젝트 생성.&lt;/li&gt;
+&lt;li&gt;프로젝트를 생성하면 아래의 명령어가 나온다. 그럼 로컬컴퓨터에 저장소를 만들고 원격저장소와 동기화시킨다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;5-&quot;&gt;5. 원격저장소와 로컬컴퓨터 동기화하기.&lt;/h2&gt;
+&lt;p&gt;탐색기에서 마우스 우측버튼을 눌러 &lt;code&gt;Git Bash&lt;/code&gt; 를 눌러 명령창을 연다음 아래의 순서대로 입력한다. &lt;/p&gt;
+&lt;p&gt;Git global setup(git 설정):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;comment&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;config&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;global&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;user&lt;/span&gt;.&lt;span class=&quot;comment&quot;&gt;name&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;&quot;이름&quot;&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;config&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;global&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;user&lt;/span&gt;.&lt;span class=&quot;comment&quot;&gt;email&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;&quot;이메일&quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Create Repository(저장소 만들기)&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;title&quot;&gt;mkdir&lt;/span&gt; 프로젝트이름
+&lt;span class=&quot;title&quot;&gt;cd&lt;/span&gt; 프로젝트이름
+&lt;span class=&quot;title&quot;&gt;git&lt;/span&gt; init
+&lt;span class=&quot;title&quot;&gt;touch&lt;/span&gt; &lt;span class=&quot;type&quot;&gt;README&lt;/span&gt;
+&lt;span class=&quot;title&quot;&gt;git&lt;/span&gt; add &lt;span class=&quot;type&quot;&gt;README&lt;/span&gt;
+&lt;span class=&quot;title&quot;&gt;git&lt;/span&gt; commit -m&lt;span class=&quot;string&quot;&gt; 'first commit'&lt;/span&gt;
+&lt;span class=&quot;title&quot;&gt;git&lt;/span&gt; remote add origin git@gitlab.com:demun/저장소이름.git
+&lt;span class=&quot;title&quot;&gt;git&lt;/span&gt; push -u origin master&lt;/code&gt;&lt;/pre&gt;</description>
+			<category>Git</category>
+			<category>GIT</category>
+			<category>github</category>
+			<category>gitlab</category>
+			<category>버젼관리</category>
+			<category>형상관리</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2431</guid>
+			<comments>http://demun.tistory.com/2431#entry2431comment</comments>
+			<pubDate>Tue, 05 Aug 2014 09:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>요즘 제 블로그는.....</title>
+			<link>http://demun.tistory.com/2428</link>
+			<description>
+&lt;h1 id=&quot;-&quot;&gt;요즘 제 근황에 대해서....&lt;/h1&gt;
+&lt;p&gt;이글에는 아주 다양한 툴이 나옵니다.  &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git, github, gitlab, gitpage(github.io), Grunt, Markdown, jekyll, jekyll-bootstrap, bootstrap&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;너무 블로그에 글이 없어서 또 근황에 대해서 몇가지 이야기해볼까하고 이렇게 포스팅하게 되었습니다.   &lt;/p&gt;
+&lt;p&gt;저는 요즘 &lt;code&gt;github.io&lt;/code&gt; , &lt;code&gt;jekyll&lt;/code&gt; , &lt;code&gt;jekyllbootstrap&lt;/code&gt; 에 대해서 삽질을 하고 있지요.  &lt;/p&gt;
+&lt;p&gt;이 모든것이 마크다운이라는 것 때문입니다.   &lt;/p&gt;
+&lt;p&gt;&lt;code&gt;markdown&lt;/code&gt; 은 글쓰기가 편합니다.  &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/&quot;&gt;github&lt;/a&gt; 이 마크다운을 사용하고, 스타일도 깔끔하고 맘에 들어서 스킨도 그것을 겨냥해서 깔끔하게 만들어서 사용중입니다.&lt;/p&gt;
+&lt;p&gt;이 스킨은 &lt;a href=&quot;http://getbootstrap.com/&quot;&gt;bootstrap&lt;/a&gt; 프레임웍을 포함해서 만든었는데요, 스타일은 &lt;a href=&quot;https://github.com/&quot;&gt;github&lt;/a&gt; 의 스타일을 표방했습니다.&lt;/p&gt;
+&lt;p&gt;이 모든것이 또 이야기 하지만 &lt;code&gt;마크다운&lt;/code&gt; 하고 연관이 있지요.&lt;/p&gt;
+&lt;p&gt;지금은 &lt;a href=&quot;http://gruntjs.com/&quot;&gt;Grunt&lt;/a&gt; 를 이용해서 마크다운을 변환해서 사용합니다.&lt;/p&gt;
+&lt;h5 id=&quot;-1&quot;&gt;마크다운을 티스토리에 사용하는데 문제점.1&lt;/h5&gt;
+&lt;p&gt;마크다운을 사용하여 티스토리에 붙여넣기하면 이미지 경로를 처리하는 부분이 달라서 경로에 대해서 몇번 수정을 해줘야 한다는 문제점이 있었습니다.&lt;/p&gt;
+&lt;p&gt;이 문제를 해결하는데는 여러가지 방법이 있지만 이야기를 이어가지요.&lt;/p&gt;
+&lt;p&gt;이어서 좀더, 좀더, 쉽고 좋은 방법이 없을까 찾다가 &lt;code&gt;gitlab&lt;/code&gt; 의 비밀저장소 입니다.&lt;/p&gt;
+&lt;h3 id=&quot;-gitlab-&quot;&gt;비공개 저장소(gitlab)&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/demun/demunCode/master/images/blog/demun_00002.jpg&quot; alt=&quot;gitlab&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gitlab&lt;/code&gt; 에는 현재 사용하고 있는 부트스트랩 스킨인 &lt;code&gt;BTS&lt;/code&gt; 와 현재 이 글을 작성하는 &lt;code&gt;Grunt&lt;/code&gt; 템플릿이 업로드가 되어 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/demun/demunCode/master/images/blog/demun_00001.jpg&quot; alt=&quot;gitlab 저장소&quot;&gt;&lt;/p&gt;
+&lt;p&gt;그래서 언제든, 어디서든 똑같은 소스코드로 작업을 할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;여기서 한가지 문제점이 있었습니다. &lt;/p&gt;
+&lt;p&gt;마크다운으로 작성한 이미지 경로의 문제였습니다.&lt;/p&gt;
+&lt;p&gt;이걸 해결하는데는 그냥 이미지 호스팅하는 온라인 사이트에 업로드한다음 경로를 쓰면 그만이지만 그건 싫었습니다.  &lt;/p&gt;
+&lt;p&gt;나중에 관리하기도 쉽지 않구요....&lt;/p&gt;
+&lt;p&gt;한가지 생각을 한것이 바로 공개저장소인 &lt;code&gt;github&lt;/code&gt; 입니다.&lt;br&gt;거기에 저장소에 image 폴더를 만들고 업로드하면 경로는 똑같죠.&lt;/p&gt;
+&lt;p&gt;나중에 다운로드를 받거나 삭제할수도 있고, 관리가 되며, 용량에 제한이 없다는것도 큰 장점이라 생각합니다.&lt;/p&gt;
+&lt;h3 id=&quot;github-github-io-https-pages-github-com-&quot;&gt;github 에서 호스팅해주는 &lt;a href=&quot;https://pages.github.com/&quot;&gt;github.io&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/demun/demunCode/master/images/blog/demun_00003.jpg&quot; alt=&quot;pages.github.com&quot;&gt;&lt;/p&gt;
+&lt;p&gt;제가 위에서 gitpage 라고 했는데요.   깃헙에서는 저장소를 생성하면 무료로 페이지를 만들수 있습니다.&lt;/p&gt;
+&lt;p&gt;스타일도 몇가지 깃헙에서 제공합니다.&lt;br&gt;깃헙에서 만든페이지는 깃헙 고유의 스타일로 보여지고, 마크다운도 사용할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;물론 호스팅 걱정도 없지요.&lt;/p&gt;
+&lt;p&gt;하지만 모두 공개가 된다는 점.......&lt;/p&gt;
+&lt;p&gt;한단계 업그레이드 된것이 필요했습니다.&lt;/p&gt;
+&lt;h3 id=&quot;-jekyll-http-jekyllrb-com-jekyll-bootstrap-http-jekyllbootstrap-com-&quot;&gt;블로그 생성도구 지킬 &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;jekyll&lt;/a&gt; 그리고 &lt;a href=&quot;http://jekyllbootstrap.com/&quot;&gt;jekyll-bootstrap&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/demun/demunCode/master/images/blog/demun_00004.jpg&quot; alt=&quot;jekyllrb.com&quot;&gt;&lt;/p&gt;
+&lt;p&gt;지킬은 블로그를 생성해주는 도구라고 하나 블로그 뿐만 아니라 홈페이지 등도 만들수 있습니다.  &lt;/p&gt;
+&lt;p&gt;장점은 단순하고, 블로그지향적이고.....등등 많지만 마크다운을 사용할 수 있다는점. github 가 지킬을 사용해서 github.io 에서 지킬을 사용할 수 있다는 점이 가장 큰 장점이 아닐까 싶습니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://jekyllbootstrap.com/&quot;&gt;jekyll-bootstrap&lt;/a&gt; 은 지킬의 단점이 댓글 플로그인 이라든가 부트스트랩을 사용한다는 장점이 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/demun/demunCode/master/images/blog/demun_00005.jpg&quot; alt=&quot;jekyllbootstrap.com&quot;&gt;&lt;/p&gt;
+&lt;p&gt;지킬을 생성하는 방법도 쉽지만 지킬부트스트랩을 사용해서 깃헙페이지를 만든다면 &lt;a href=&quot;http://jekyllbootstrap.com/usage/jekyll-quick-start.html&quot;&gt;jekyll-quick-start.html&lt;/a&gt; 에서 닉네임만 입력하면 간단이 만들수도 있습니다.&lt;/p&gt;
+&lt;p&gt;현재 &lt;a href=&quot;http://demun.github.com/&quot;&gt;demun.github.io&lt;/a&gt; 에 jekyll-bootstrap 을 사용해서 만들어 봤는데요 아직 정리는 안된 상태입니다.&lt;/p&gt;
+&lt;p&gt;또한 &lt;code&gt;gitlab&lt;/code&gt; 에 올려놓은 블로그 포스팅 툴가지고도 마크다운을 사용하여 이렇게 글을 쓰고 있습니다.&lt;/p&gt;
+</description>
+			<category>일상</category>
+			<category>근황</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2428</guid>
+			<comments>http://demun.tistory.com/2428#entry2428comment</comments>
+			<pubDate>Mon, 04 Aug 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>GitHub Windows 커밋하고 원격저장소에 반영하기</title>
+			<link>http://demun.tistory.com/2427</link>
+			<description>&lt;p&gt;커멘드창을 사용하면 add 명령을 하고 commit 을 해야하지만&amp;nbsp;GitHub Windows 를 사용하면 커밋하는 것도 간단합니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;일단 로컬저장소에 변경이 일어나면 아래처럼 저장소를 클릭하면 Uncommitted changes 가 생겨납니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:558px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/2114733953D859CF37FCD7&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00009.jpg&quot; height=&quot;184&quot; width=&quot;558&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Show 버튼을 클릭하면 커밋 메시지를 입력할수 있는 공간이 나옵니다.&lt;/p&gt;&lt;p&gt;커밋 메시지를 적어주고 하단의 Commit to master 버튼을 클릭합니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:335px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/2179973853D85A19037B37&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00010.jpg&quot; height=&quot;270&quot; width=&quot;335&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;커밋을 하면 원격저장소에 push 해야 합니다.&lt;/p&gt;&lt;p&gt;그래야 원격저장소에 반영이 됩니다.&lt;/p&gt;&lt;p&gt;GitHub Windows 는 이것또한 간단합니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;우측 상단에 Syne 부분을 보면 하나의 커밋이 있다고 알려줍니다.&lt;/p&gt;&lt;p&gt;간단하게 Sync 버튼만 클릭하면 자동으로 원격저장소로 push 해서 동기화시킵니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:323px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/27344D4F53D85B881FB783&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00011.jpg&quot; height=&quot;88&quot; width=&quot;323&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+			<category>Git</category>
+			<category>GIT</category>
+			<category>github</category>
+			<category>github windows</category>
+			<category>깃헙</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2427</guid>
+			<comments>http://demun.tistory.com/2427#entry2427comment</comments>
+			<pubDate>Thu, 31 Jul 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>GitHub Windows 저장소 복제하기</title>
+			<link>http://demun.tistory.com/2426</link>
+			<description>&lt;p&gt;&lt;a href=&quot;https://windows.github.com/&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;GitHub Windows&lt;/a&gt; 는 Git 을 사용하기 편리하게 만든 UI 툴입니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;깃헙윈도우를 통해 저장소를 가져오는 것을 알려드립니다.&lt;/p&gt;&lt;p&gt;github windows 를 실행하면 왼쪽 상단에 + 아이콘이 있습니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:265px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/274B954653D8562A2D0EC7&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00004.jpg&quot; height=&quot;181&quot; style=&quot;&quot; width=&quot;265&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;아이콘을 클릭하면 아래와 같은 화면이 나옵니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:572px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile24.uf.tistory.com/image/2570524553D8569B16AC07&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00005.jpg&quot; height=&quot;314&quot; style=&quot;&quot; width=&quot;572&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Clone 를 클릭하면 기존의 저장소가 보입니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:569px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/227D0A4553D856E708A5B5&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00006.jpg&quot; height=&quot;310&quot; style=&quot;&quot; width=&quot;569&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;원하는 저장소를 클릭하면 하단에 Clone 버튼이 활성화 됩니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:569px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/215B434053D8571B330381&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00007.jpg&quot; height=&quot;573&quot; style=&quot;&quot; width=&quot;569&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;하단의 Clone 버튼을 클릭하면 로컬컴퓨터의 저장할 곳을 물어옵니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:390px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/2146FE3C53D85770145764&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00008.jpg&quot; height=&quot;372&quot; style=&quot;&quot; width=&quot;390&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;원하는 곳을 지정해주면 자동으로 저장소를 Clone 복제합니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+			<category>Git</category>
+			<category>GIT</category>
+			<category>github</category>
+			<category>github windows</category>
+			<category>깃헙</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2426</guid>
+			<comments>http://demun.tistory.com/2426#entry2426comment</comments>
+			<pubDate>Wed, 30 Jul 2014 13:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>bpopup 팝업 플러그인 예제</title>
+			<link>http://demun.tistory.com/2425</link>
+			<description>&lt;h1 id=&quot;bpopup&quot;&gt;bPopup&lt;/h1&gt;
+&lt;p&gt;bpopup 에 문의를 하는 경우가 많아 한번더 자세히 기술합니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://demun.tistory.com/2397&quot;&gt;이전 bpopup 에 대한 글&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;간단한 구문 한가지만 넣고 사용하면 어디에나 사용할 수 있을 듯 십습니다.&lt;/p&gt;
+&lt;p&gt;이 방법은 bpopup 홈페이지에서 사용하는 방법으로 보다 간단한 코드를 가지고 여러 상황에 맞게 사용할 수 있습니다.&lt;/p&gt;
+&lt;p&gt;먼저 폴더 구조는 아래와 같습니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;├─html
+│      bpopup&lt;span class=&quot;variable&quot;&gt;.html&lt;/span&gt;
+│      test&lt;span class=&quot;variable&quot;&gt;.html&lt;/span&gt;
+│
+├─images
+│      image&lt;span class=&quot;variable&quot;&gt;.jpg&lt;/span&gt;
+│
+└─js
+        jquery&lt;span class=&quot;variable&quot;&gt;.bpopup&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;.min&lt;/span&gt;&lt;span class=&quot;variable&quot;&gt;.js&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;html 폴더 : bpopup.html 에서 ajax 형식으로 test.html 을 불러옵니다.&lt;/li&gt;
+&lt;li&gt;images 폴더 : image.jpg 가 있습니다. 유이의 이미지 입니다.&lt;/li&gt;
+&lt;li&gt;js 폴더 : bpopup.min.js 가 있습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이제 각 단계마다 삽입되는 구문입니다.&lt;/p&gt;
+&lt;h2 id=&quot;css&quot;&gt;CSS&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-css&quot;&gt;&lt;span class=&quot;comment&quot;&gt;/* 팝업창이 보여질 부분 */&lt;/span&gt;
+&lt;span class=&quot;id&quot;&gt;#popup&lt;/span&gt;, &lt;span class=&quot;id&quot;&gt;#popup2&lt;/span&gt;, &lt;span class=&quot;class&quot;&gt;.bMulti&lt;/span&gt; &lt;span class=&quot;rules&quot;&gt;{
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; &lt;span class=&quot;hexcolor&quot;&gt;#fff&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;color&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; &lt;span class=&quot;hexcolor&quot;&gt;#111&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;display&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; none;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;min-width&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; &lt;span class=&quot;number&quot;&gt;450&lt;/span&gt;px;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; &lt;span class=&quot;number&quot;&gt;25&lt;/span&gt;px;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;rule&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+
+&lt;span class=&quot;id&quot;&gt;#popup&lt;/span&gt;, &lt;span class=&quot;class&quot;&gt;.bMulti&lt;/span&gt; &lt;span class=&quot;rules&quot;&gt;{
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;min-height&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; &lt;span class=&quot;number&quot;&gt;250&lt;/span&gt;px;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;rule&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;/* 클릭할 버튼 */&lt;/span&gt;
+&lt;span class=&quot;class&quot;&gt;.button&lt;/span&gt; &lt;span class=&quot;rules&quot;&gt;{
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;background-color&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; &lt;span class=&quot;hexcolor&quot;&gt;#2b91af&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;color&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; &lt;span class=&quot;hexcolor&quot;&gt;#fff&lt;/span&gt;;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;cursor&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; pointer;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;display&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; inline-block;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; &lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;px &lt;span class=&quot;number&quot;&gt;20&lt;/span&gt;px;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;text-align&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; center;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;text-decoration&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; none;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;rule&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;/* 닫기 버튼 */&lt;/span&gt;
+&lt;span class=&quot;class&quot;&gt;.button&lt;/span&gt;&lt;span class=&quot;class&quot;&gt;.b-close&lt;/span&gt;, &lt;span class=&quot;class&quot;&gt;.button&lt;/span&gt;&lt;span class=&quot;class&quot;&gt;.bClose&lt;/span&gt; &lt;span class=&quot;rules&quot;&gt;{
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;box-shadow&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; none;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;font&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; bold &lt;span class=&quot;number&quot;&gt;131&lt;/span&gt;% sans-serif;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;padding&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;px &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;px;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;position&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; absolute;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;right&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; -&lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;px;&lt;/span&gt;&lt;/span&gt;
+    &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;top&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt; -&lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;px;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;rule&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;html&quot;&gt;html&lt;/h2&gt;
+&lt;p&gt;총 4개로 분류되어 있습니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;클릭할 html 요소&lt;/li&gt;
+&lt;li&gt;클릭해서 보여질 컨테이너 요소(문서하단에 숨김처리되서 포함됨)&lt;/li&gt;
+&lt;li&gt;삽입해야하는 자바스크립트&lt;/li&gt;
+&lt;li&gt;사용할려는 자바스크립트&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;-html-&quot;&gt;클릭할 html 요소&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;&lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- default --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;button small pop1&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;Example 1:default&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- easing plugin을 사용하는 예제 --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;button small pop1&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;data-bpopup&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;'{&quot;transition&quot;:&quot;slideDown&quot;,&quot;speed&quot;:850,&quot;easing&quot;:&quot;easeOutBack&quot;}'&lt;/span&gt;&amp;gt;&lt;/span&gt;Example 3a(transition,speed,easing)&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- 'ajax', 'iframe' or 'image' 를 사용하는 예제- 여기서는 image 를 사용했습니다. --&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;button small pop2&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;data-bpopup&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;'{&quot;content&quot;:&quot;image&quot;,&quot;contentContainer&quot;:&quot;.content&quot;,&quot;loadUrl&quot;:&quot;../images/image.jpg&quot;}'&lt;/span&gt;&amp;gt;&lt;/span&gt;Example 5b(Image popup)&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&quot;-&quot;&gt;클릭해서 보여질 컨테이너 요소(문서하단에 숨김처리되서 포함됨)&lt;/h4&gt;
+&lt;p&gt;문서 하단에 레이어가 포함될 부분을 넣습니다.&lt;/p&gt;
+&lt;p&gt;위의 스타일을 보시면 아시겠지만 display: none; 으로 설정되어 있어 클릭하기전에는 안보입니다.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;div id=&quot;popup&quot;&amp;gt;&lt;/code&gt;는 처음부터 html이 포함된 것이고 &lt;code&gt;&amp;lt;div id=&quot;popup2&quot;&amp;gt;&lt;/code&gt; 는 html 을 다른곳에서 불러오기 위해 두개를 만들어서 사용합니다. &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;popup&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;button b-close&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;X&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;처음부터 팝업 문서에 포함되어 있는 div - 클릭시 레이어로 나옴.&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;popup2&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;button b-close&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;X&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;content&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&quot;-&quot;&gt;삽입해야하는 자바스크립트&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;javascript&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;../js/jquery.bpopup.min.js&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;javascript&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;src&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;http:////cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;javascript&quot;&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&quot;-&quot;&gt;사용할려는 자바스크립트&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;;(&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;($) {
+       $(&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;() {
+           &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; $p1 = $(&lt;span class=&quot;string&quot;&gt;'#popup'&lt;/span&gt;),
+               $p2 = $(&lt;span class=&quot;string&quot;&gt;'#popup2'&lt;/span&gt;);
+               &lt;span class=&quot;comment&quot;&gt;// i = 0;&lt;/span&gt;
+
+           $(&lt;span class=&quot;string&quot;&gt;'body'&lt;/span&gt;).on(&lt;span class=&quot;string&quot;&gt;'click'&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;'.small'&lt;/span&gt;, &lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(e) {
+               e.preventDefault();
+               &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; popup = $(&lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;).hasClass(&lt;span class=&quot;string&quot;&gt;'pop1'&lt;/span&gt;) ? $p1 : $p2,
+                   content = $(&lt;span class=&quot;string&quot;&gt;'.content'&lt;/span&gt;),
+                   self = $(&lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;);
+
+               popup.bPopup(self.data(&lt;span class=&quot;string&quot;&gt;'bpopup'&lt;/span&gt;) || {});
+        });
+
+    });
+})(jQuery);&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;팝업은 로컬컴퓨터에서는 안됩니다.
+도메인이 있어야 합니다. 그래서 급히 제 도메인에 예제 파일을 만들어서 올렸으니 참고하시 바랍니다.    &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://code.demunskin.com/plugins/bpopup/html/bpopup.html&quot; target=&quot;_blank&quot;&gt;bPopup 예제&lt;/a&gt;&lt;/p&gt;</description>
+			<category>jQuery</category>
+			<category>bPopup</category>
+			<category>jquery</category>
+			<category>팝업</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2425</guid>
+			<comments>http://demun.tistory.com/2425#entry2425comment</comments>
+			<pubDate>Mon, 28 Jul 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>html 인클루드하기 grunt-includes</title>
+			<link>http://demun.tistory.com/2424</link>
+			<description>&lt;h1 id=&quot;html-grunt-includes&quot;&gt;html 인클루드하기 grunt-includes&lt;/h1&gt;
+&lt;p&gt;실무에서 작업을 할때는 html 을 다루다가 개발단계로 넘어가면 서버환경에 따라 php, jsp, asp 등 언어가 바뀝니다.&lt;/p&gt;
+&lt;p&gt;또 html 을 다룰때 include 가 꼭 필요합니다. 필요이상의 코드를 줄이고, 나중에 수정 또한 편하기 때문입니다.&lt;/p&gt;
+&lt;p&gt;html 파일전체를 조각 조각 나누어서 include 시키고 본문 컨텐츠만 작성하는 방법을 사용합니다. &lt;/p&gt;
+&lt;p&gt;인클루드 시키는 파일을 보면 대략, &lt;code&gt;doctype&lt;/code&gt; 에서 &lt;code&gt;&amp;lt;/head&amp;gt;&lt;/code&gt; 닫는곳까지 하나의 인클루드 파일 &lt;code&gt;head.html&lt;/code&gt; 로 만든다. 또, gnb, lnb, breadcrumbs, footer, js부분 등 즉 본문컨텐츠를 제외한 모든 부분을 조각조각내어 인클루드 시킨다. &lt;/p&gt;
+&lt;p&gt;문제는 서버환경에 따라 인클루드문이 조금씩 다르고, 서버환경이 되어 있어야 한다는 단점이 있습니다. &lt;/p&gt;
+&lt;p&gt;이걸 해결하는 방법이 없을까 고민하다가 grunt 를 사용할때 include 를 사용하는 좋은 모듈이 있어 소개합니다.&lt;/p&gt;
+&lt;h2 id=&quot;-&quot;&gt;사용목적&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;서버 환경 설정이 필요없다.&lt;/li&gt;
+&lt;li&gt;서버 언어가 필요없다.&lt;/li&gt;
+&lt;li&gt;친숙한 html 을 그대로 사용할 수 있다.&lt;/li&gt;
+&lt;li&gt;include 문을 사용할 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;-grunt-includes-https-github-com-vanetix-grunt-includes-&quot;&gt;&lt;a href=&quot;https://github.com/vanetix/grunt-includes&quot;&gt;grunt-includes&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;먼저 첫번째로 설치해보자.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;npm install grunt-includes --save-dev&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;두번째로 설정을 해야된는데 설명이 필요함으로 맨 나중에 하겠습니다.&lt;/p&gt;
+&lt;p&gt;세번째로 &lt;code&gt;gruntfile.js&lt;/code&gt;에 task 를 설정한다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;grunt.loadNpmTasks(&lt;span class=&quot;string&quot;&gt;'grunt-includes'&lt;/span&gt;);&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;네번째로 실행에 필요한 registerTask 를 아래의 예제처럼 넣어준다. 아래는 예제.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;grunt.registerTask(&lt;span class=&quot;string&quot;&gt;'dev'&lt;/span&gt;, &lt;span class=&quot;string&quot;&gt;'includes'&lt;/span&gt;);&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;자 이제 설정을 어떤식으로 하는지 알아보자.
+옵션과 사용법은 &lt;a href=&quot;https://github.com/vanetix/grunt-includes&quot;&gt;홈페이지&lt;/a&gt;에 나와 있으니 참고하세요.
+또한 &lt;a href=&quot;https://github.com/vanetix/grunt-includes-example&quot;&gt;example&lt;/a&gt; 를 통해 어떤식으로 되어있는지 알아보자.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;example&lt;/code&gt; 의 폴더구조가 상당이 중요하다. 먼저 폴더 구조를 보자.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;string&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;gitignore&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;comment&quot;&gt;Gruntfile&lt;/span&gt;.&lt;span class=&quot;comment&quot;&gt;js&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;comment&quot;&gt;License&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;comment&quot;&gt;package&lt;/span&gt;.&lt;span class=&quot;comment&quot;&gt;json&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;comment&quot;&gt;Readme&lt;/span&gt;.&lt;span class=&quot;comment&quot;&gt;md&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;literal&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;assets&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;comment&quot;&gt;\&lt;/span&gt;-&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;less&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;           &lt;span class=&quot;comment&quot;&gt;site&lt;/span&gt;.&lt;span class=&quot;comment&quot;&gt;less&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;literal&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;build&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;comment&quot;&gt;index&lt;/span&gt;.&lt;span class=&quot;comment&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;literal&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;css&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;       &lt;span class=&quot;comment&quot;&gt;app&lt;/span&gt;.&lt;span class=&quot;comment&quot;&gt;css&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;comment&quot;&gt;\&lt;/span&gt;-&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;pages&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;           &lt;span class=&quot;comment&quot;&gt;about&lt;/span&gt;.&lt;span class=&quot;comment&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;literal&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;include&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;       &lt;span class=&quot;comment&quot;&gt;footer&lt;/span&gt;.&lt;span class=&quot;comment&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;       &lt;span class=&quot;comment&quot;&gt;header&lt;/span&gt;.&lt;span class=&quot;comment&quot;&gt;html&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;\&lt;/span&gt;-&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;site&lt;/span&gt;
+    &lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;   &lt;span class=&quot;comment&quot;&gt;index&lt;/span&gt;.&lt;span class=&quot;comment&quot;&gt;html&lt;/span&gt;
+    &lt;span class=&quot;comment&quot;&gt;|&lt;/span&gt;
+    &lt;span class=&quot;comment&quot;&gt;\&lt;/span&gt;-&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;pages&lt;/span&gt;
+            &lt;span class=&quot;comment&quot;&gt;about&lt;/span&gt;.&lt;span class=&quot;comment&quot;&gt;html&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;site 폴더 - 이 폴더가 작업폴더다. 즉 include 문이 들어가는 html 파일이 모두 여기에 있다고 생각하면 된다.
+            마찬가지로 site폴더안에 형재폴더로 pages 폴더를 사용할 수도 있고 그 안에 about.html 도 보인다.&lt;/p&gt;
+&lt;p&gt;include 폴더 - 이 폴더의 파일들이 include 문에 의해서 포함되는 파일이다. 
+                site폴더에서 include 문을 사용해서 작업할때 이 폴더의 파일을 인클루드한다.  보시면 header 부분, footer 부분이 포함된다.
+                물론 얼마든지 조각, 조각 내어서 사용할 수 있다.            &lt;/p&gt;
+&lt;p&gt;build 폴더 - 이 폴더가 완성된 파일들이 있는 폴더다. 즉 완전한 html 파일들이 있는 폴더다.&lt;/p&gt;
+&lt;p&gt;간단이 정리해보면 site폴더가 작업폴더이고, include폴더의 파일을 인클루드하고 완성되면 build 폴더에 만들어지게 된다. &lt;/p&gt;
+&lt;h3 id=&quot;-&quot;&gt;구문을 보자&lt;/h3&gt;
+&lt;p&gt;어떤식으로 인클루드문을 사용하는지 site 폴더의 index.html 의 body 부분을 보자.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;body&lt;/span&gt;&amp;gt;&lt;/span&gt;
+  include &quot;header.html&quot;
+
+  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;container&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;role&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;main&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;
+
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;I am the main container of the page!&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;
+
+  include &quot;footer.html&quot;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;body&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;include 구문은 간단하다.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;preprocessor&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;include&lt;/span&gt; &quot;파일명&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;이게 끝이다.&lt;/p&gt;
+&lt;p&gt;포함되는 파일은 include 폴더에 넣어두면 된다.&lt;/p&gt;
+&lt;p&gt;여기서 주의깊게 봐야하는 부분은 gruntfile.js 의  &lt;code&gt;includePath&lt;/code&gt; 다.&lt;/p&gt;
+&lt;p&gt;아래 gruntfile.js 의 includes 부분을 보자.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;includes: {
+    build: {
+        cwd: 'site',
+        src: [ '*.html', 'pages/*.html' ],
+        dest: 'build/',
+        options: {
+        flatten: true,
+        includePath: 'include',
+        banner: '&lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- Site built using grunt includes! --&amp;gt;&lt;/span&gt;\n'
+        }
+    }
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;여기 구문을 풀이하자면 site 폴더의 파일을 build 폴더에 빌드시켜서 만들어냅니다.&lt;br /&gt;그런데 &lt;code&gt;includePath: 'include'&lt;/code&gt; 가 되어 있으므로 인클루드되는 파일을 모두 include폴더에 있어야 합니다.&lt;/p&gt;
+&lt;p&gt;builde 폴더에 완성된 index.html 을 보면 아래와 같습니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;body&lt;/span&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;header&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;role&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;header&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;h4&lt;/span&gt;&amp;gt;&lt;/span&gt;Hello from the header!&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;h4&lt;/span&gt;&amp;gt;&lt;/span&gt;
+
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;nav&lt;/span&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;ul&lt;/span&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;pages/about.html&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;About&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;a&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;li&lt;/span&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;ul&lt;/span&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;nav&lt;/span&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;header&lt;/span&gt;&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;container&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;role&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;main&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;
+
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;I am the main container of the page!&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;
+
+  &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;footer&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;role&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;footer&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;Hello from the footer!&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;p&lt;/span&gt;&amp;gt;&lt;/span&gt;
+
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;h4&lt;/span&gt;&amp;gt;&lt;/span&gt;License&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;h4&lt;/span&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;code&lt;/span&gt;&amp;gt;&lt;/span&gt;
+      Copyright (c) 2013 Matt McFarland
+
+      Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+      THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;code&lt;/span&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;footer&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;body&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</description>
+			<category>Grunt</category>
+			<category>grunt</category>
+			<category>grunt-includes</category>
+			<category>그런트</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2424</guid>
+			<comments>http://demun.tistory.com/2424#entry2424comment</comments>
+			<pubDate>Fri, 11 Jul 2014 09:21:01 +0900</pubDate>
+		</item>
+		<item>
+			<title>모듈-ftp-deploy</title>
+			<link>http://demun.tistory.com/2422</link>
+			<description>&lt;h1 id=&quot;ftp-deploy&quot;&gt;ftp-deploy&lt;/h1&gt;
+&lt;p&gt;그런트 모듈중에서 ftp 업로드가 필요할때 사용하면 됩니다.&lt;br /&gt;제가 일하는 환경에서는 sublimetext 의 sftp 이용해서 코딩하다가 저장하면 바로 업로드되게 해놨는데, 서버에 있는 파일을 수정하는 경우는 일일이 업로드해야하는 불편이 있었습니다.&lt;br /&gt;그래서 업로드를 자동으로 해줄수 있는 모듈을 찾다가 ftp-deploy 가 있어서 소개합니다.  &lt;/p&gt;
+&lt;h2 id=&quot;-&quot;&gt;사용목적&lt;/h2&gt;
+&lt;p&gt;빌드하거나 watch 했을때 자동으로 서버로 업로드를 해준다.&lt;/p&gt;
+&lt;p&gt;저장소 : &lt;a href=&quot;https://github.com/zonak/grunt-ftp-deploy&quot;&gt;https://github.com/zonak/grunt-ftp-deploy&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;기본 옵션과 설명을 저장소를 참고하시기 바랍니다.  &lt;/p&gt;
+&lt;p&gt;제가 사용하는 &lt;code&gt;gruntfile.js&lt;/code&gt; 코드는 이렇습니다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;'ftp-deploy': {
+    build: {
+        auth: {
+            host: 'demun.tistory.com',         // 서버의 IP주소
+            port: 2100,                     // 포트번호
+            authKey: 'key1'                 // 인증 키
+        },
+        src: 'css/',                         // 소스 위치
+        dest: 'test/css',                     // 대상위치(서버의 폴더를 말한다)
+        exclusions: [                         // 제외하고 싶은 폴더나 파일
+            'China/**/*',
+            'common/**/*',
+            'test/**/*',
+            'userFiles/**/*'
+        ]
+    }
+},&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;한가지 더 테스트를 등록해줘야 한다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;grunt.loadNpmTasks('grunt-ftp-deploy');&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;여기서 자세히 보시면 인증키라는것이 있습니다.
+&lt;code&gt;authKey&lt;/code&gt; 는 해당루트폴더 즉, &lt;code&gt;gruntfile.js&lt;/code&gt; 가 있는 폴더에 &lt;code&gt;.ftppass&lt;/code&gt; 라는 파일명으로 있어야 합니다.  &lt;/p&gt;
+&lt;p&gt;내용은 아이디와 비밀번호 입니다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;{
+  &quot;key1&quot;: {
+    &quot;username&quot;: &quot;id&quot;,
+    &quot;password&quot;: &quot;password&quot;
+  }
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;이렇게 설정한 후 사용하면 watch 나 grunt 로 빌드했을때 자동으로 해당파일을 서버로 업로드해서 일일이 업로드를 하지 않아도 됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:502px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/27144350539578012E7F02&quot; filemime=&quot;image/jpeg&quot; filename=&quot;002.jpg&quot; height=&quot;656&quot; width=&quot;502&quot;/&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=55084149&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>Grunt</category>
+			<category>ftp-deploy</category>
+			<category>grunt</category>
+			<category>그런트</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2422</guid>
+			<comments>http://demun.tistory.com/2422#entry2422comment</comments>
+			<pubDate>Fri, 13 Jun 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>반응형 구글 에스센스 적용하기</title>
+			<link>http://demun.tistory.com/2421</link>
+			<description>&lt;h1 id=&quot;-&quot;&gt;반응형 구글 에스센스 적용하기&lt;/h1&gt;
+&lt;p&gt;반응형 스킨을 만들고 반응형 에드센스를 적용해보았습니다.&lt;br /&gt;이전에 적용해보신분도 있겠지만 처음으로 이 글을 보신분도 있을거라 생각됩니다.  &lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;먼저 반응형 광고에 대해서 알아두어야할 점은 바로 너비입니다.&lt;br /&gt;반응형은 각 디바이스별로 너비를 체크해서 반응하기 때문입니다.  &lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;구글에드센스에서 반응형 광고를 생성합니다.  &lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:680px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/2116E0355392574A3259C4&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00055.jpg&quot; height=&quot;528&quot; style=&quot;&quot; width=&quot;680&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;스마트보다는 저는 고급이 필요한 버젼을 달았습니다.  &lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:675px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile3.uf.tistory.com/image/270775405392575C348DB7&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00056.jpg&quot; height=&quot;444&quot; style=&quot;&quot; width=&quot;675&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;코드를 보겠습니다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;&amp;lt;style&amp;gt;
+.my_adslot { width: 320px; height: 50px; }
+@media(min-width: 500px) { .my_adslot { width: 468px; height: 60px; } }
+@media(min-width: 800px) { .my_adslot { width: 728px; height: 90px; } }
+&amp;lt;/style&amp;gt;
+&amp;lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;!-- 반응형광고 --&amp;gt;
+&amp;lt;ins class=&quot;adsbygoogle my_adslot&quot;
+     style=&quot;display:inline-block&quot;
+     data-ad-client=&quot;ca-pub-....&quot;
+     data-ad-slot=&quot;.....&quot;&amp;gt;&amp;lt;/ins&amp;gt;
+&amp;lt;script&amp;gt;
+(adsbygoogle = window.adsbygoogle || []).push({});
+&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;코드를 보시면 &lt;code&gt;@media&lt;/code&gt; 라는 부분이 들어 있어서 너비를 체크합니다.&lt;br /&gt;기본은 너비가 320짜리가 나오고, 너비가 500이상이면 468짜리 광고가 나오고, 800이상이면 728짜리 광고가 나옵니다.  &lt;/p&gt;&lt;p&gt;이건 기본 셋팅이 그렇고 800이상이면 기존에 데스크탑에서 사용하면 광고가 나오는것이 좋겠네요.&lt;br /&gt;좀 다듬어야 할것 같습니다.  &lt;/p&gt;&lt;p&gt;특히 아래의 스타일 부분은 좀 걸리네요.&lt;br /&gt;그대로 넣자니 본문에 스타일이 들어가는거라......그래서 head 쪽으로 옴겼습니다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;&amp;lt;head&amp;gt;
+......
+&amp;lt;style&amp;gt;
+.my_adslot { width: 320px; height: 50px; }
+@media(min-width: 500px) { .my_adslot { width: 468px; height: 60px; } }
+@media(min-width: 800px) { .my_adslot { width: 728px; height: 90px; } }
+&amp;lt;/style&amp;gt;
+....
+&amp;lt;/head&amp;gt;
+
+
+&amp;lt;!-- 아래는 본문영역에 위치한 코드, 본문 치환자 바로 위입니다. --&amp;gt;
+&amp;lt;div class=&quot;article&quot;&amp;gt;
+    &amp;lt;script async src=&quot;//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+    &amp;lt;ins class=&quot;adsbygoogle my_adslot&quot;
+         style=&quot;display:inline-block&quot;
+         data-ad-client=&quot;ca-pub-......&quot;
+         data-ad-slot=&quot;.....&quot;&amp;gt;&amp;lt;/ins&amp;gt;
+    &amp;lt;script&amp;gt;
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    &amp;lt;/script&amp;gt;
+    [#\#_article_rep_desc_##]
+&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;스타일은 상단에 두고, 광고 코드만 본문에 위치시켰습니다.  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;한가지 여러분들중에 html 을 좀 아시는분들은 블로그 여기저기에 광고를 넣는 분들도 있을겁니다.&lt;br /&gt;제 개인적인 생각으로는 그렇지 않는것이 좋다고 생각됩니다.&lt;br /&gt;광고는 블로그 본문에 가장 좋다고 생각합니다.&lt;br /&gt;이 외의 방명록, 공지사항...등등의 곳은 성격이 맞지 않습니다.&lt;br /&gt;블로그의 글이 있고, 광고가 있는것이 광고도 잘 나오고 좋습니다.  &lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=55084144&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>블로그 광고</category>
+			<category>ADSense</category>
+			<category>광고</category>
+			<category>구글 에드센스</category>
+			<category>반응형광고</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2421</guid>
+			<comments>http://demun.tistory.com/2421#entry2421comment</comments>
+			<pubDate>Fri, 13 Jun 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>Yeoman 시작하기</title>
+			<link>http://demun.tistory.com/2420</link>
+			<description>&lt;h1 id=&quot;yeoman-&quot;&gt;Yeoman 시작하기&lt;/h1&gt;
+&lt;p&gt;yeoman 은 먼저 &lt;a href=&quot;http://nodejs.org/&quot;&gt;nodejs&lt;/a&gt;, &lt;a href=&quot;http://git-scm.org/&quot;&gt;Git&lt;/a&gt;, &lt;a href=&quot;http://ruby-lang.org/&quot;&gt;Ruby&lt;/a&gt;, &lt;a href=&quot;http://compass-style.org/install&quot;&gt;Compass&lt;/a&gt; 등을 사용할경우 먼저 설치가 되어 있어야합니다.  &lt;/p&gt;
+&lt;p&gt;이 사용법은 홈페이지에서 알려준 방법대로 기술합니다.&lt;/p&gt;
+&lt;h3 id=&quot;yeoman-&quot;&gt;Yeoman 설치하기.&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;npm install -g yo&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;npm 버젼이 1.2.10 이하일경우는 수동으로 설치해야 합니다.&lt;br /&gt;그 이상은 자동으로 설치가 됩니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;npm install -g grunt-cli bower&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;generator-webapp-&quot;&gt;generator-webapp 설치&lt;/h3&gt;
+&lt;p&gt;다음으로 generator 를 설치합니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;npm install -g generator-webapp&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;yo-webapp-&quot;&gt;yo webapp 설치&lt;/h3&gt;
+&lt;p&gt;위 두줄은 글로벌로 설치한것입니다.&lt;br /&gt;이제 프로젝트 폴더를 만들고 그 폴더안에서 작업을 하면 됩니다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;yo webapp&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;webapp 는 &lt;a href=&quot;http://html5boilerplate.com/&quot;&gt;HTML5 Boilerplate&lt;/a&gt;, &lt;a href=&quot;http://jquery.com/&quot;&gt;jQuery&lt;/a&gt;, &lt;a href=&quot;http://modernizr.com/&quot;&gt;Modernizr&lt;/a&gt;, &lt;a href=&quot;http://twbs.github.io/bootstrap&quot;&gt;Bootstrap&lt;/a&gt; 를 사용할 수 있지만 미리포함하지는 않습니다.&lt;br /&gt;이는 사용자가 어떤걸 사용할지 선택합니다.  &lt;/p&gt;
+&lt;p&gt;아래 3가중 하나를 선택합니다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Bootstrap
+Sass
+Modernizr&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;여기서는 Bootstrap 를 선택해보겠습니다.&lt;br /&gt;그럼 해당 모듈을 모두 다운로드 받습니다.  &lt;/p&gt;
+&lt;p&gt;이걸로 설치는 긑이고 사용자입맛에 맞게 사용하면 됩니다.
+처음부터 전체코드는 아래와 같습니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;npm install -g yo
+npm install -g grunt-cli bower
+npm install -g generator-webapp
+yo webapp
+
+// 아래중에서 선택
+Bootstrap
+Sass
+Modernizr&lt;/code&gt;&lt;/pre&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=55065981&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>Grunt</category>
+			<category>grunt</category>
+			<category>yeoman</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2420</guid>
+			<comments>http://demun.tistory.com/2420#entry2420comment</comments>
+			<pubDate>Thu, 12 Jun 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>구문강조 highlightjs 사용법</title>
+			<link>http://demun.tistory.com/2419</link>
+			<description>&lt;h1 id=&quot;highlightjs-&quot;&gt;highlightjs 사용법&lt;/h1&gt;
+&lt;p&gt;이전에 &lt;a href=&quot;http://demun.tistory.com/2412&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;highlightjs&lt;/a&gt; 가 어느정도 좋은 구문강조 자바스크립트인지 알아보았습니다.&lt;br /&gt;이걸 티스토리에 적용하는 방법과 테마에 대해서 알아보겠습니다.   &lt;/p&gt;
+&lt;h2 id=&quot;-&quot;&gt;티스토리에 적용하기&lt;/h2&gt;
+&lt;p&gt;티스토리에 적용하려면 먼저 홈페이지에서 파일을 다운로드 받습니다.   &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;highlightjs 홈페이지 다운로드 - &lt;a href=&quot;http://highlightjs.org/download/&quot;&gt;http://highlightjs.org/download/&lt;/a&gt;  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;압축을 풀면 많은 파일이 나옵니다.&lt;br /&gt;필요한 파일은 highlight.pack.js 과 css 파일입니다.  &lt;/p&gt;
+&lt;p&gt;먼저 자바스크립트인 highlight.pack.js 를 업로드 하세요.&lt;br /&gt;그리고 사용하고자 하는 css 파일을 업로드하세요.&lt;br /&gt;파일은 style 폴더 안에 있는 아무 파일이나 사용하고자하는 css파일 하나만 업로드하면 됩니다.&lt;/p&gt;
+&lt;p&gt;이제 스킨 편집에 가셔서 html을 수정합니다.&lt;/p&gt;
+&lt;p&gt;css 는 아래처럼 추가해줍니다.&lt;br /&gt;예제는 github.css 파일로 합니다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;&amp;lt;head&amp;gt;
+.....
+&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;./images/github.css&quot;&amp;gt;
+....
+&amp;lt;/head&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;css 는 반드시 head안에 넣어야 합니다.&lt;br /&gt;다음은 스크립트파일인데요 이것은  바로 위에 넣습니다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;......
+&amp;lt;script src=&quot;./images/highlight.pack.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script&amp;gt;hljs.initHighlightingOnLoad();&amp;lt;/script&amp;gt;
+....
+&amp;lt;/body&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;그러면 설정은 끝났습니다. 
+만약 jQuery 를 사용하고 있다면 아래처럼 사용하는것이 더 좋습니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;......
+&amp;lt;script src=&quot;./images/highlight.pack.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;!-- 
+티스토리의 본문은 대부분 entry 클래스를 가진 div 안에 넣습니다.   
+그래서 entry 안에 있는 pre를 선택한겁니다. 
+--&amp;gt;
+&amp;lt;script&amp;gt;$('.entry pre').each(function(i, e) {hljs.highlightBlock(e)});&amp;lt;/script&amp;gt;
+....
+&amp;lt;/body&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;-&quot;&gt;테마 사용하기&lt;/h2&gt;
+&lt;p&gt;highlightjs 는 테마가 정말 많습니다.&lt;br /&gt;저도 sublimetext 를 사용하기때문에 monokai_sublime 테마와 github 테마중 어떤걸 사용할지 갈등을 많이 했을 정도 입니다.   &lt;/p&gt;
+&lt;p&gt;style 폴더에 보면 이미지가 3장이 있습니다.&lt;br /&gt;배경으로 사용하는 이미지인데요 테마마다 사용하는 경우가 있습니다.&lt;/p&gt;
+&lt;p&gt;해당 파일을 업로드하고 head 부분에 업로드한 파일명만 변경하면 됩니다.&lt;br /&gt;위에서는 github.css 를 올렸다면 이번에는 monokai_sublime.css 로 변경했다고 가정하면 아래와 같습니다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;&amp;lt;head&amp;gt;
+.....
+&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;./images/monokai_sublime.css&quot;&amp;gt;
+....
+&amp;lt;/head&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;어떤 테마를 사용할지 고민이시라면 홈페이지의 테마를 미리보기할수 있습니다.&lt;br /&gt;테마명을 클릭하면 변경된 테마를 볼 수 있습니다.  &lt;/p&gt;
+&lt;p&gt;테마 사이트 -&amp;gt; &lt;a href=&quot;http://highlightjs.org/static/test.html&quot;&gt;http://highlightjs.org/static/test.html&lt;/a&gt;&lt;/p&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:680px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/27176F49538D21AB22E1FA&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00051.jpg&quot; height=&quot;540&quot; width=&quot;680&quot;/&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;br /&gt;&lt;/div&gt;&lt;br /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=55048578&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>기술</category>
+			<category>highlightjs</category>
+			<category>구문강조</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2419</guid>
+			<comments>http://demun.tistory.com/2419#entry2419comment</comments>
+			<pubDate>Wed, 11 Jun 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>자바스크립트 스타일 가져오기</title>
+			<link>http://demun.tistory.com/2418</link>
+			<description>
+&lt;h1 id=&quot;-&quot;&gt;인라인 스타일에 접근하기&lt;/h1&gt;
+&lt;p&gt;html코드가 아래처럼 되어 있다고 가정합니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;test_1&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;style&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;color:#ff0000&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt; 
+    테스트1
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;먼저 선택합니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 아이디로 불러온다.&lt;/span&gt;
+&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; test1 = document.getElementById(&lt;span class=&quot;string&quot;&gt;&quot;test_1&quot;&lt;/span&gt;);
+
+&lt;span class=&quot;comment&quot;&gt;// color 값을 읽어온다&lt;/span&gt;
+alert(test1.style.color);
+
+&lt;span class=&quot;comment&quot;&gt;// rgb(255, 0, 0)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;-&quot;&gt;인라인이 아닌 스타일 가져오기&lt;/h1&gt;
+&lt;p&gt;inline 스타일이 아닌 경우 스타일 접근하는 방법은 getComputedStyle()함수를 이용해서 전체스타일을 구한 후, 속성에 접근해야 됩니다.&lt;br&gt;단, 모든 값은 읽기전용.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;&lt;span class=&quot;doctype&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;html&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;head&lt;/span&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;http-equiv&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;Content-Type&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;content&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;text/html; charset=UTF-8&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;title&lt;/span&gt;&amp;gt;&lt;/span&gt;스타일 가져오기&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;title&lt;/span&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;style&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;css&quot;&gt;
+        &lt;span class=&quot;id&quot;&gt;#test_1&lt;/span&gt; &lt;span class=&quot;rules&quot;&gt;{
+            &lt;span class=&quot;rule&quot;&gt;&lt;span class=&quot;attribute&quot;&gt;font-size&lt;/span&gt;:&lt;span class=&quot;value&quot;&gt;&lt;span class=&quot;number&quot;&gt;24&lt;/span&gt;px;&lt;/span&gt;&lt;/span&gt;
+        &lt;span class=&quot;rule&quot;&gt;}&lt;/span&gt;&lt;/span&gt;
+    &lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;style&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;head&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;body&lt;/span&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;test_1&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;테스트1&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;
+
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;javascript&quot;&gt;
+        window.onload=&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(){
+            &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; test1 = document.getElementById(&lt;span class=&quot;string&quot;&gt;&quot;test_1&quot;&lt;/span&gt;);
+            &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; style = window.getComputedStyle(test1,&lt;span class=&quot;literal&quot;&gt;null&lt;/span&gt;);
+            alert(style.fontSize);
+        }
+    &lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;script&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;body&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;html&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;만약 getComputedStyle() 함수를 쓰지않는다면&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; test1 = document.getElementById(&lt;span class=&quot;string&quot;&gt;&quot;test_1&quot;&lt;/span&gt;);
+alert(test1.fontSize);
+&lt;span class=&quot;comment&quot;&gt;// undefined 출력&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;getComputedStyle 함수는 IE8이하는 지원하지 않습니다.  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;위코드에서 IE에서 사용하려면 currentStyle을 사용하면 됩니다.&lt;br&gt;아래처럼 사용하면 됩니다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; style = test1.currentStyle;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;하지만 하위브라우져까지 지원하는 코드가 있습니다.&lt;br&gt;하위브라우져까지 지원하려는 코드를 사용하려면 아래의 코드를 추가해줘야 한다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (!window.getComputedStyle) {
+    window.getComputedStyle = &lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(element) {
+        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; element.currentStyle;
+    }
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;그래서 자바스크립트 부분의 전체코드는 아래와 같다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;window.onload=&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(){
+    &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (!window.getComputedStyle) {
+        window.getComputedStyle = &lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(element) {
+            &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; element.currentStyle;
+        }
+    }
+    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; test1 = document.getElementById(&lt;span class=&quot;string&quot;&gt;&quot;test_1&quot;&lt;/span&gt;);
+    &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; style = window.getComputedStyle(test1,&lt;span class=&quot;literal&quot;&gt;null&lt;/span&gt;);
+    alert(style.fontSize);
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=55031059&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>javascript</category>
+			<category>getComputedStyle</category>
+			<category>Style</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2418</guid>
+			<comments>http://demun.tistory.com/2418#entry2418comment</comments>
+			<pubDate>Tue, 10 Jun 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>자바스크립트 선택,복사,생성,추가하기</title>
+			<link>http://demun.tistory.com/2417</link>
+			<description>
+&lt;h1 id=&quot;-&quot;&gt;선택하기&lt;/h1&gt;
+&lt;p&gt;자바스크립트에서 가장 먼저 해야할것이 선택하기 일것입니다.&lt;br&gt;어떻게 선택하는지 알아봅니다.  &lt;/p&gt;
+&lt;h3 id=&quot;-&quot;&gt;아이디 선택하기&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;window.document.getElementById(&lt;span class=&quot;string&quot;&gt;&quot;item1&quot;&lt;/span&gt;);&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;-&quot;&gt;태그(엘리먼트) 선택하기&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;window.document.getElementsByTagName(&lt;span class=&quot;string&quot;&gt;&quot;div&quot;&lt;/span&gt;);&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;-&quot;&gt;클래스 선택하기&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;window.document.getElementsByClassName(&lt;span class=&quot;string&quot;&gt;&quot;content_data&quot;&lt;/span&gt;);&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;-&quot;&gt;부모 선택하기&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;document.getElementById(&lt;span class=&quot;string&quot;&gt;&quot;item1&quot;&lt;/span&gt;).parentNode;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;-&quot;&gt;자식 선택하기&lt;/h3&gt;
+&lt;p&gt;childNodes 는 텍스트 노드까지 불러오므로 순서를 염두해두어야 한다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; item = window.document.getElementById(&lt;span class=&quot;string&quot;&gt;&quot;item&quot;&lt;/span&gt;);
+&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; nodes = item.childNodes;
+alert(&lt;span class=&quot;string&quot;&gt;&quot;#item의 자식노드 갯수는 ? &quot;&lt;/span&gt; + nodes.length);&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;-&quot;&gt;형재 선택하기&lt;/h3&gt;
+&lt;p&gt;previousSibling 도 마찬가지로 텍스트 노드를 선택하므로 순서를 염두해두어야 한다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//  기준이되는 #item를 구한후.&lt;/span&gt;
+&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; item    = document.getElementById(&lt;span class=&quot;string&quot;&gt;&quot;item&quot;&lt;/span&gt;);
+
+&lt;span class=&quot;comment&quot;&gt;// item노드에서 형제노드에 접근하기.&lt;/span&gt;
+item.previousSibling.previousSibling.style.border = &lt;span class=&quot;string&quot;&gt;&quot;1px solid #ff0000&quot;&lt;/span&gt;;        
+
+&lt;span class=&quot;comment&quot;&gt;// ie 는 다르게 선택함으로 아래처럼 한번만 사용한다.&lt;/span&gt;
+item.previousSibling.style.border = &lt;span class=&quot;string&quot;&gt;&quot;1px solid #ff0000&quot;&lt;/span&gt;;&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&quot;-&quot;&gt;생성, 추가, 복사하기&lt;/h1&gt;
+&lt;h3 id=&quot;-&quot;&gt;엘리먼트 생성하기&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; p1 = document.createElement(&lt;span class=&quot;string&quot;&gt;&quot;p&quot;&lt;/span&gt;);&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;-&quot;&gt;텍스트노드 생성하기&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; text1 = document.createTextNode(&lt;span class=&quot;string&quot;&gt;&quot;추가내용1&quot;&lt;/span&gt;);&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;html-&quot;&gt;html 추가하기&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; item = document.getElementById(&lt;span class=&quot;string&quot;&gt;&quot;item&quot;&lt;/span&gt;);
+&lt;span class=&quot;comment&quot;&gt;// 첫번째 영역에 추가하기.&lt;/span&gt;
+item.innerHTML = &lt;span class=&quot;string&quot;&gt;&quot;&amp;lt;p style='border:1px solid #ff0000'&amp;gt;추가내용1&amp;lt;/p&amp;gt;&quot;&lt;/span&gt;+item.innerHTML;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;-&quot;&gt;엘리먼트 복사하기&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 복사할 엘리먼트는 먼저 선택한다.  &lt;/span&gt;
+&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; p1 = document.createElement(&lt;span class=&quot;string&quot;&gt;&quot;p&quot;&lt;/span&gt;);        
+
+&lt;span class=&quot;comment&quot;&gt;// p1노드를 그대로 복사.&lt;/span&gt;
+&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; p2 = p1.cloneNode(&lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;);
+
+&lt;span class=&quot;comment&quot;&gt;// 복사한 엘리먼트에 textNode를 수정한다.&lt;/span&gt;
+p2.firstChild.nodeValue=&lt;span class=&quot;string&quot;&gt;&quot;수정&quot;&lt;/span&gt;;&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=55011891&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>javascript</category>
+			<category>childNodes</category>
+			<category>cloneNode</category>
+			<category>createElement</category>
+			<category>createTextNode</category>
+			<category>getElementByid</category>
+			<category>getElementsByClassName</category>
+			<category>getElementsByTagName</category>
+			<category>previousSibling</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2417</guid>
+			<comments>http://demun.tistory.com/2417#entry2417comment</comments>
+			<pubDate>Mon, 09 Jun 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>grunt-markdown 그런트 마크다운 사용하기</title>
+			<link>http://demun.tistory.com/2416</link>
+			<description>&lt;h1 id=&quot;grunt-markdown&quot;&gt;grunt-markdown&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;마크다운에 대해서 소개하기전에 잠시 개인적인 이야기를 하겠습니다.&lt;br /&gt;저는 개인적으로 &lt;a href=&quot;github.com&quot;&gt;github.com&lt;/a&gt; 을 관심있게 보고 있습니다.  &lt;/p&gt;
+&lt;p&gt;제 블로그에 github 스타일을 하나씩 접목하고, grunt 의 기술도 하나씩 접목하고 있습니다.&lt;br /&gt;여기에 관련된 기술들이 정말 많고, 하나씩 소개하고 있는데 이것들이 전부 연결고리처럼 하나하나 연관이 되어 있습니다.  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;저는 현재 마크다운으로 글을 쓰고 있으며, sublimetext 를 사용하고, grunt 를 사용하고 자동으로 변환된 html을 티스토리에 복사 붙여넣기 하고 있습니다. &lt;/p&gt;
+&lt;p&gt;이전에 구문강조 자바스크립트 &lt;a href=&quot;http://demun.tistory.com/2412&quot;&gt;highlight.js&lt;/a&gt; 에 대해서 소개한적이 있습니다.&lt;br /&gt;grunt-markdown 은 highlight 를 사용하고 &lt;a href=&quot;https://help.github.com/articles/github-flavored-markdown&quot;&gt;GFM&lt;/a&gt;을 사용합니다.  &lt;/p&gt;
+&lt;p&gt;저장소: &lt;a href=&quot;https://github.com/treasonx/grunt-markdown&quot;&gt;grunt-markdown&lt;/a&gt;  &lt;/p&gt;
+&lt;p&gt;사용방법과 자세한 내용은 저장소에 나와있습니다.
+grunt 를 설치했다고 가정하고 명령창에서 아래처럼 설치하면 됩니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;comment&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;comment&quot;&gt;grunt&lt;/span&gt;-&lt;span class=&quot;comment&quot;&gt;markdown&lt;/span&gt; &lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;comment&quot;&gt;save&lt;/span&gt;-&lt;span class=&quot;comment&quot;&gt;dev&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;gruntfile.js 에 loadNpmTasks 를 입력합니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;filename&quot;&gt;grunt.loadNpmTasks('grunt-markdown');&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;gruntfile.js 에 설정은 아래와 같습니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;markdown: {
+    all: {
+        files: [{
+            expand: &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;,
+            src: &lt;span class=&quot;string&quot;&gt;'markdown/*.md'&lt;/span&gt;,
+            dest: &lt;span class=&quot;string&quot;&gt;'html/'&lt;/span&gt;,
+            ext: &lt;span class=&quot;string&quot;&gt;'.html'&lt;/span&gt;
+        }]
+    }
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;만약 옵션을 추가한다면 아래와 같습니다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;markdown: {
+    all: {
+        files: [{
+            expand: &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;,
+            src: &lt;span class=&quot;string&quot;&gt;'markdown/*.md'&lt;/span&gt;,
+            dest: &lt;span class=&quot;string&quot;&gt;'html/'&lt;/span&gt;,
+            ext: &lt;span class=&quot;string&quot;&gt;'.html'&lt;/span&gt;
+        }],
+        options: {
+            template: &lt;span class=&quot;string&quot;&gt;'template/index.html'&lt;/span&gt;,
+            preCompile: &lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(src, context) {},
+            postCompile: &lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(src, context) {},
+            templateContext: {},
+            markdownOptions: {
+                gfm: &lt;span class=&quot;literal&quot;&gt;true&lt;/span&gt;,
+                highlight: &lt;span class=&quot;string&quot;&gt;'manual'&lt;/span&gt;,
+                codeLines: {
+                    before: &lt;span class=&quot;string&quot;&gt;'&amp;lt;span&amp;gt;'&lt;/span&gt;,
+                    after: &lt;span class=&quot;string&quot;&gt;'&amp;lt;/span&amp;gt;'&lt;/span&gt;
+                }
+            }
+        }
+    }
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;간단히 설명하자면 all.files 에는 markdown 폴더의 모든 md 파일을 html 폴더에 html 확장자로 변환합니다.&lt;br /&gt;옵션은 template 은 내가 미리보기를 하고자하는 템플릿형태를 만들어서 사용할 수 있습니다.  &lt;/p&gt;
+&lt;p&gt;markdownOptions 에는 구문강조를 하기 위해 span 태그가 삽입됩니다.&lt;br /&gt;위의 코드가 위의 옵션으로 html로 변환이 된다면 아래와 같습니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;pre&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;code&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;markdown:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; {
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;all:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; {
+        &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;files:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; [{
+            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;expand:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;keyword&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;true&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;,
+            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;src:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;string&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;'markdown/*.md'&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;,
+            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;dest:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;string&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;'html/'&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;,
+            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;ext:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;string&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;'.html'&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;
+        }],
+        &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;options:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; {
+            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;template:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;string&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;'template/index.html'&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;,
+            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;preCompile:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; function(src, context) {},
+            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;postCompile:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; function(src, context) {},
+            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;templateContext:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; {},
+            &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;markdownOptions:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; {
+                &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;gfm:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;keyword&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;true&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;,
+                &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;highlight:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;string&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;'manual'&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;,
+                &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;codeLines:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; {
+                    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;before:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;string&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;'&amp;amp;lt;span&amp;amp;gt;'&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;,
+                    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;method&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;after:&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;string&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;'&amp;amp;lt;/span&amp;amp;gt;'&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;span&lt;/span&gt;&amp;gt;&lt;/span&gt;
+                }
+            }
+        }
+    }
+}&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;code&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;pre&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;grunt-markdown 의 사용법은 이것이 다 입니다.  &lt;/p&gt;
+&lt;p&gt;template 를 옵션으로 사용하면 원하는 형식으로 보이게 할 수 있습니다.&lt;br /&gt;참고로 저는 지금 현재 부트스트랩의 형식을 template 으로 사용하는데요 코드는 아래와 같습니다..&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-html&quot;&gt;&lt;span class=&quot;doctype&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;lang&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;ko&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;head&lt;/span&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;title&lt;/span&gt;&amp;gt;&lt;/span&gt;markdown template&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;title&lt;/span&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;name&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;content&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;width=device-width, initial-scale=1.0&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;link&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;rel&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;text/css&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;href&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css&quot;&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;media&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;screen&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;head&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;body&lt;/span&gt;&amp;gt;&lt;/span&gt;
+
+
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;title&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;attribute&quot;&gt;class&lt;/span&gt;=&lt;span class=&quot;value&quot;&gt;&quot;container&quot;&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- start --&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;vbscript&quot;&gt;&amp;lt;%=content%&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- //end --&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;div&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;body&lt;/span&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;tag&quot;&gt;&amp;lt;/&lt;span class=&quot;title&quot;&gt;html&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;그러면 &amp;lt;%=content%&amp;gt; 부분에 변환된 html이 보이고 그 부분은 티스토리의 글쓰기 부분에 넣습니다.&lt;br /&gt;grunt 의 watch 와 connect 를 사용하고 있어 실시간으로 변환되고, 변환된 부분을 미리보기 하면서 작업을 하고 있습니다.    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;마크다운으로 글을 작성하면 많은 부분을 줄일수 있습니다.
+복잡한 코드들도 간단하게 쓸수 있습니다.&lt;br /&gt;저의 경우 티스토리 블로그에 현재 highlight.js 가 적용되어 있기 때문에 구문강조되어 표시되고 있을 것입니다.  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;여러분들도 마크다운을 사용해보세요.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;참고로 서브라임텍스트에서는 아래처럼 작업을 하고 있습니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:680px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/2278A738538BB0940E089B&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00050.jpg&quot; height=&quot;426&quot; style=&quot;&quot; width=&quot;680&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;템플릿에서는 아래처럼 보면서 작업을 하고 있습니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:680px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/221B313C538BB0C50874B3&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00049.jpg&quot; height=&quot;440&quot; style=&quot;&quot; width=&quot;680&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=54979088&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>Grunt</category>
+			<category>grunt</category>
+			<category>grunt-markdown</category>
+			<category>markdown</category>
+			<category>마크다운</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2416</guid>
+			<comments>http://demun.tistory.com/2416#entry2416comment</comments>
+			<pubDate>Fri, 06 Jun 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>함수 콜백 유효범위</title>
+			<link>http://demun.tistory.com/2415</link>
+			<description>&lt;h2 id=&quot;-&quot;&gt;콜백과 유효범위&lt;/h2&gt;
+&lt;p&gt;이전글에서 다음과 같은 형태로 콜백을 실행했다고 가정하자.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;callback(parameters);&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;위의 코드는 대부분 잘 동작하지만 콜백이 일회성의 익명함수나 전역 함수가 아니고 객체의 매서드인 경우도 많다.&lt;br /&gt;만약 콜백 메서드가 자신이 속해있는 객체를 참조하기 위해 this를 사용하면 예상치 않게 동작할수 있다.  &lt;/p&gt;
+&lt;p&gt;myapp라는 객체의 매서드인 paint()함수를 콜백으로 사용한다고 가정해보자.&lt;/p&gt;
+&lt;pre&gt;var myapp = {};
+myapp.color = &quot;green&quot;;
+myapp.paint = function (node) {
+    node.style.color = this.color;
+};
+
+// findNodes() 함수는 이런식으로 동작한다
+var findNodes() = function (callback) {
+    // ....
+    if (typeof callback === &quot;function&quot;) {
+        callback(found);
+    }
+    // ....
+};&lt;/pre&gt;
+&lt;p&gt;findNodes(myapp.paint)를 호출하면 this.color가 정의되지 않아 에상되로 동작하지 않는다.&lt;br /&gt;findNodes()가 전역 함수이기 때문에 객체 this는 전역 객체를 참조한다.&lt;br /&gt;findNodes() 가 (dom.findNodes()처럼) dom이라는 객체의 매서드라면, 콜백 내부의 this는 예상과는 달리 myapp가 아닌 dom을 참조하게 된다.  &lt;/p&gt;
+&lt;p&gt;이 문제를 해결하기 위해서는 콜백 함수와 함께 콜백이 속해 있는 객체를 전달하면 된다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;findNodes(myapp.paint, myapp);
+
+// 전달받은 객체를 바인딩하도록 findNodes() 또한 수정한다.
+var findNodes = function (callback, callback_obj) {
+    // ...
+    if (typeof callback === &quot;function&quot;) {
+        callback.call(callback_obj, found);
+    }
+    // ...
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;출처 : JavaScript Patterns &lt;/p&gt;
+&lt;/blockquote&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=54962138&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>javascript</category>
+			<category>자바스크립트</category>
+			<category>콜백 유효범위</category>
+			<category>함수</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2415</guid>
+			<comments>http://demun.tistory.com/2415#entry2415comment</comments>
+			<pubDate>Thu, 05 Jun 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>함수 콜백패턴</title>
+			<link>http://demun.tistory.com/2414</link>
+			<description>&lt;h2 id=&quot;-&quot;&gt;콜백패턴&lt;/h2&gt;
+&lt;p&gt;함수는 객체다. 즉 함수를 다른 함수의 인자로 전달할 수 있다.&lt;br&gt;introduceBugs()함수를 writeCode() 함수의 인자로 전달하면, 이때 introduceBugs()를 콜백함수 또는 간단하게 콜백이라고 부른다.&lt;br&gt;즉 함수를 다른 함수의 인자로 전달하면, 인자로 전달된 함수를 콜백함수라고 한다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;function writeCode(callback) {
+    // 어떤 작업을 한다.
+    callback();
+    // ...
+}
+
+function introduceBugs() {
+    // 버그를 만든다.
+}
+writeCode(introduceBugs);&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;introduceBugs()가 writeCode()의 인자로 괄호 없이 전달된 사실을 눈여겨 봐야한다.&lt;br&gt;괄호를 붙이면 함수가 실행되는데 이 경우는 함수의 참조만 전달하고 있다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;콜백예제를 설명하기 위해 긴 예제가 사용된다.
+한번 사용하고 리팩토링해서 다시 사용한다.&lt;/p&gt;
+&lt;p&gt;findNodes 함수는 DOM 노드의 배열을 반환한다.
+hide() 함수는 노드를 숨긴다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;var findNodes = function () {
+    var i = 100000, // 긴루프
+        nodes = [], // 결과를 저장할 배열
+        found; // 노드 탐색 결과
+    while (i) {
+        i -= 1;
+        // 이 부분에 복잡한 로직이 들어간다
+        nodes.push(found);
+    }
+    return nodes;
+};
+
+var hide = function (nodes) {
+    var i = 0, max = nodes.length;
+    for (; i &amp;lt; max; i += 1) {
+        nodes[i].style.desplay = &amp;#39;none&amp;#39;;
+    }
+};
+
+// 함수실행
+hide(findNodes());&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;아래의 에제는 fineNodes()에서 반환된 노드의 배열에 대해 hide()가 다시 루프를 돌아야하기 때문에 비효율적이다.
+findNodes()에서 노드를 선택하고 바로 숨긴다면 재차 루프를 돌지 않아 더 효율적일 것이다.&lt;br&gt;그렇지만 findNodes()안에서 노드를 숨기는 로직을 구현하면 탐색과 수정 로직의 결합으로 인해 범유 함수의 의미가 퇴색될 것이다.&lt;br&gt;이때 바로 콜백 패턴을 사용한다.  노드를 숨기는 로직의 실행을 콜백 함수에 위임하고 이 함수를 findNodes()에 전달한다.  &lt;/p&gt;
+&lt;p&gt;아래는 수정된 코드&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;// findNodes() 가 콜백을받도록 리팩터링한다.
+var findNodes = function (callback) {
+    var i = 100000,
+        nodes = [],
+        found;
+
+    // 콜백 함수를 호출할 수 있는지 확인한다.
+    if (typeof callback !== &amp;#39;function&amp;#39;) {
+        callback = false;
+    }
+
+    while (i) {
+        i -=1;
+        // 이곳에 복잡한 로직을 구현한다.
+
+        // 여기서 콜백을 실행한다.
+        if (callback) {
+            callback(found);
+        }
+
+        nodes.push(found);
+    }
+    return nodes;
+};
+
+var hide = function (node) {
+    node.style.display = &amp;#39;none&amp;#39;;
+}
+
+// 노드를 찾아서 바로 숨긴다.
+findNodes(hide);&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;이 방법은 직관적이다. findNodes()에는 콜백함수가 추가되었는지 확인하고, 있으면 실행하는 작업 하나만 추가되었다.&lt;br&gt;콜백은 생략할 수 있기 때문에 리팩터링된 findNodes()는 여전히 이전과 동일하게 사용할 수 있고, 기존 API에 의존하는 코드를 망가뜨리지 않는다.  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;출처 : JavaScript Patterns &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=54948612&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>javascript</category>
+			<category>javascript</category>
+			<category>자바스크립트</category>
+			<category>콜백패턴</category>
+			<category>함수</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2414</guid>
+			<comments>http://demun.tistory.com/2414#entry2414comment</comments>
+			<pubDate>Wed, 04 Jun 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>함수</title>
+			<link>http://demun.tistory.com/2413</link>
+			<description>&lt;h1 id=&quot;-&quot;&gt;함수&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;-&quot;&gt;배경지식&lt;/h2&gt;
+&lt;p&gt;특징&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;런타임, 즉 프로그램 실행중에 동적으로 생성할 수 있다.&lt;/li&gt;
+&lt;li&gt;변수에 할당할 수 있고, 다른 변수에 참조를 복사할 수 있으며, 확장가능하고, 몇몇 특별한 경우를 제회하면 삭제할 수 있다.&lt;/li&gt;
+&lt;li&gt;다른 함수의 인자로 전달할 수 있고, 다른 함수의 반환값이 될수 있다.&lt;/li&gt;
+&lt;li&gt;자기 자신의 프로퍼티와 매서드를 가질 수 있다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;-&quot;&gt;용어정리&lt;/h2&gt;
+&lt;p&gt;기명함수표현식(named functcion expression) 와 무명함수표현식(unnamed function expression) = 익명함수표현식(anonymous function) 과 함수표현식이 있다.  &lt;/p&gt;
+&lt;p&gt;함수의 이름이 있으면 기명함수, 없으면 무명함수 라고 생각하면 된다.&lt;br&gt;아래는 예제.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;function foo() {} // 함수선언문
+var bar = function () {}; // 함수표현식 즉 무명함수표현식
+var baz = function  baz () {} // 기명함수표현식&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;-&quot;&gt;선언문과 표현식: 이름과 호스팅&lt;/h2&gt;
+&lt;p&gt;함수선언문은 전역 유효범위나 다른 함수의 본문 내부, 즉 &amp;#39;프로그램 코드&amp;#39;에서만 사용할 수 있다.&lt;br&gt;변수나 프로퍼티에 할당할 수 없고, 함수 호출시 인자로 함수를 넘길때도 사용할 수 없다.  &lt;/p&gt;
+&lt;p&gt;함수객체를 매채번수로 전달하거나, 객체리터럴로 매서드를 정의하는 예.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;// 함수 표현식을 callMe 함수의 인자로 전달한다
+callMe(function () {
+    // 이 함수는  무명함수(익명함수) 표현식이다.
+});
+
+// 기명함수표현식을 callMe 함수의 인자로 전달한다.
+callMe(function me() {
+    // 이 함수는 &amp;#39;me&amp;#39; 라는 기명함수 표현식이다.
+});
+
+// 함수 표현식을 객체의 프로퍼티로 저장한다.
+var myobject = {
+    say: function () {
+        //  이 함수는 함수 표현식이다.
+    }
+};&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;-&quot;&gt;함수 호이스팅&lt;/h3&gt;
+&lt;p&gt;모든 변수는 함수 본문 어느 부분에서 선언(declaration)되더라도 내부적으로 함수의 맨 윗부분으로 끌어올려(hoist)진다.&lt;br&gt;여기에 함수선언문과 함수푯현식에는 차이점이 있다 잘 보시길 바란다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;// 안티패턴 - 설명을 위해 사용되었음
+// 전역 함수
+function foo() {
+    alert(&amp;#39;global foo&amp;#39;);
+}
+function bar() {
+    alert(&amp;#39;global bar&amp;#39;);
+}
+
+function hoistMe() {
+    console.log(typeof foo); // &amp;#39;funciton&amp;#39;
+    console.log(typeof bar); // &amp;#39;undefined&amp;#39;
+
+    foo(); // &amp;#39;local foo&amp;#39;
+    bar(); // TypeError
+
+    // 함수선언문:
+    // 변수 &amp;#39;foo&amp;#39;와 정의돈 함수 모두 호이스팅된다.
+    function foo() {
+        alert(&amp;#39;local foo&amp;#39;);
+    }
+
+    // 함수표현식
+    // 변수 &amp;#39;bar&amp;#39;는 호이스팅 되지만 정의된 함수는 호이스팅되지 않는다.
+    var bar = function () {
+        alert(&amp;#39;local bar&amp;#39;);
+    };
+}
+hoistMe();&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;hoistMe() 함수 내에서 foo와 bar를 정의하면 실제 변수를 정의한 위치와 상관없이 끌어올려져 전역 변수인 goo, bar를 덮어쓰게 된다.&lt;br&gt;그런데 지역변수 foo() 는 나중에 정의되어도 상단으로 호이스팅되어 정상동작하는 반면, bar()의 정의는 호이스팅되지 않고 선언문만 호이스팅 된다.&lt;br&gt;때문에 bar()의 정의가 나오기전까지는 undefined 상태이고, 함수로도 사용할 수 없다.&lt;br&gt;또한 선언문 자체는 호이스팅되었기 때문에 유효번위 체인 내에서 전역 bar()도 보이지 않는다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;출처 : JavaScript Patterns &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=54930474&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>javascript</category>
+			<category>javascript</category>
+			<category>자바스크립트</category>
+			<category>함수</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2413</guid>
+			<comments>http://demun.tistory.com/2413#entry2413comment</comments>
+			<pubDate>Tue, 03 Jun 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>구문강조 hightight.js</title>
+			<link>http://demun.tistory.com/2412</link>
+			<description>&lt;h1 id=&quot;hightight-js&quot;&gt;hightight.js&lt;/h1&gt;
+&lt;p&gt;제가 오늘 소개해드릴 스크립트는 바로 highlight.js 입니다.&lt;br /&gt;블로그를 하다보면 코드를 하이라이트 하고 싶을 때가 있습니다.&lt;br /&gt;많은 자바스크립트가 있는데 그중에 highlight.js 를 소개하는 이유가 있습니다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;이글은 2011년도에 작성한 글입니다. 그래도 참고하기에는 좋은 글이기에 이렇게 적습니다.&lt;br /&gt;자바스크립트 구문광조 비교 : &lt;a href=&quot;http://softwaremaniacs.org/blog/2011/05/22/highlighters-comparison&quot;&gt;http://softwaremaniacs.org/blog/2011/05/22/highlighters-comparison&lt;/a&gt;
+shjs 자바스크립트는 원문에서 비교했는데 여기서는 뺐습니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;뭐가 좋다라고 얘기하기에는 무리가 있을 수 있지만 참고하여 뭘 사용할지는 알수 있겠지요.&lt;/p&gt;&lt;p&gt;홈페이지 -&amp;gt;&amp;nbsp;&lt;a href=&quot;http://highlightjs.org/&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;http://highlightjs.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;우리가 자주 사용하고 유명한 코드 하이라이트 자바스크립트를 비교한 테이블입니다.&lt;/p&gt;
+&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;highlight.js&lt;/th&gt;
+&lt;th&gt;SyntaxHighlighter&lt;/th&gt;
+&lt;th&gt;Google Code Prettify&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;사용자 태그&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;줄 번호&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;줄무늬 배경&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;공백,탭 들여 쓰기&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;언어 감지&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;다중 언어 코드&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;코드에 대한 임의의 HTML 컨테이너&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;HTML5 호환성&lt;/td&gt;
+&lt;td&gt;yes&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;td&gt;no&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;각 코드별로 테스트를 한 페이지 입니다.&lt;/p&gt;
+&lt;!-- highlight.js : &lt;http://softwaremaniacs.org/media/blog/highlighters/highlight.js/test.html&gt;  
+SyntaxHighlighter : &lt;http://softwaremaniacs.org/media/blog/highlighters/syntaxhighlighter/test.html&gt;  
+Google Code Prettify : &lt;http://softwaremaniacs.org/media/blog/highlighters/google-code-prettify/test.html&gt;  --&gt; 
+
+&lt;p&gt;&lt;a href=&quot;http://softwaremaniacs.org/media/blog/highlighters/highlight.js/test.html&quot;&gt;highlight.js&lt;/a&gt; , &lt;a href=&quot;http://softwaremaniacs.org/media/blog/highlighters/syntaxhighlighter/test.html&quot;&gt;SyntaxHighlighter&lt;/a&gt; , &lt;a href=&quot;http://softwaremaniacs.org/media/blog/highlighters/google-code-prettify/test.html&quot;&gt;Google Code Prettify&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-&quot;&gt;크기&lt;/h2&gt;
+&lt;p&gt;크기도 highlight.js 가 가장 가볍게 나옵니다.&lt;/p&gt;
+&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;highlight.js&lt;/th&gt;
+&lt;th&gt;SyntaxHighlighter&lt;/th&gt;
+&lt;th&gt;Google Code Prettify&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;크기 (KB)&lt;/td&gt;
+&lt;td&gt;16.4&lt;/td&gt;
+&lt;td&gt;34.6&lt;/td&gt;
+&lt;td&gt;19.2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&quot;-&quot;&gt;속도&lt;/h2&gt;
+&lt;p&gt;속도도 highlight.js 가 우수하네요.&lt;/p&gt;
+&lt;table class=&quot;table table-hover table-bordered&quot;&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;highlight.js&lt;/th&gt;
+&lt;th&gt;SyntaxHighlighter&lt;/th&gt;
+&lt;th&gt;Google Code Prettify&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;로드 시간 (msecs)&lt;/td&gt;
+&lt;td&gt;870&lt;/td&gt;
+&lt;td&gt;1394&lt;/td&gt;
+&lt;td&gt;1007&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;강조 시간 (msecs)&lt;/td&gt;
+&lt;td&gt;55&lt;/td&gt;
+&lt;td&gt;67&lt;/td&gt;
+&lt;td&gt;72&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&quot;-&quot;&gt;결론&lt;/h3&gt;
+&lt;p&gt;뭘 사용할지는 사용자의 관점이지만 highlight.js 가 가볍고 빠릅니다.&lt;br /&gt;하지만 단점도 있죠. 바로 줄번호가 나오지 않는 점입니다.
+하지면 highlight.js 는 Sublimetext 의 테마도 있습니다. 거의 똑같이 구문이 강조되어 표시됩니다.
+물론 github 사이트의 테마도 있지요.&lt;/p&gt;
+&lt;p&gt;highlight.js 는 속도와 가벼움 측면에서 추천.
+SyntaxHighlighter 와 Google Code Prettify 는 다양한 표현에서 추천하는 바입니다.&lt;/p&gt;
+&lt;p&gt;물론 모두 티스토리 블로그에 적용할 수 있습니다.&lt;/p&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;!-- 참고링크 --&gt;
+&lt;div class=&quot;panel panel-primary&quot;&gt;
+	&lt;div class=&quot;panel-heading&quot;&gt;참고&lt;/div&gt;
+	&lt;div class=&quot;panel-body&quot;&gt;
+		&lt;a href=&quot;http://demun.tistory.com/2023&quot; title=&quot;티스토리 구문강조(코드하이라이팅)하는 4가지 방법&quot;&gt;티스토리 구문강조(코드하이라이팅)하는 4가지 방법&lt;/a&gt;&lt;br /&gt;
+		&lt;a href=&quot;http://demun.tistory.com/2027&quot; title=&quot;티스토리 치환자 본문에 표시하는 방법&quot;&gt;티스토리 치환자 본문에 표시하는 방법&lt;/a&gt;&lt;br /&gt;
+		&lt;a href=&quot;http://demun.tistory.com/2029&quot; title=&quot;에디트플러스 자동완성파일 사용하는 방법&quot;&gt;에디트플러스 자동완성파일 사용하는 방법&lt;/a&gt;&lt;br /&gt;
+		&lt;a href=&quot;http://demun.tistory.com/2033&quot; title=&quot;에디트플러스 editplus 자동완성파일 CSS 소개&quot;&gt;에디트플러스 editplus 자동완성파일 CSS 소개&lt;/a&gt;&lt;br /&gt;
+		&lt;a href=&quot;http://demun.tistory.com/2034&quot; title=&quot;에디트플러스 editplus 구문강조파일 배포합니다.&quot;&gt;에디트플러스 editplus 구문강조파일 배포합니다.&lt;/a&gt;&lt;br /&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;!-- //참고링크 --&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=54911616&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>기술</category>
+			<category>hightight.js</category>
+			<category>구문강조</category>
+			<category>코드하이라이트</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2412</guid>
+			<comments>http://demun.tistory.com/2412#entry2412comment</comments>
+			<pubDate>Mon, 02 Jun 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>객체리터럴-JSON, 정규표현식리터럴</title>
+			<link>http://demun.tistory.com/2411</link>
+			<description>&lt;h1 id=&quot;json&quot;&gt;JSON&lt;/h1&gt;
+&lt;p&gt;JSON(JavaScript Object Notation)의 준말로, 데이터 전송 형식의 일종이다.
+JSON 의 예.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;{&quot;name&quot;: &quot;value&quot;, &quot;some&quot;: [1, 2, 3]};&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;JSON에서는 프로퍼티명를 따옴표로 감싸야 한다는 점이 객체 리터럴과의 유일한 문법적 차이다.&lt;br /&gt;객체 리터럴은 프로퍼티명이 식별자로서 유효하지 않은 경우에만 따옴표가 필요하다.&lt;br /&gt;즉 {&quot;first name&quot;: &quot;Dave&quot;} 에서처럼 프로퍼티명에 공백문자가 포함되었다면 따옴표로 가싸주어야 한다.&lt;br /&gt;JSON 문자열에는 함수나 정규식 리터럴을 사용할 수 없다.  &lt;/p&gt;
+&lt;h3 id=&quot;json-&quot;&gt;JSON 다루기&lt;/h3&gt;
+&lt;p&gt;JSON 문자열을 평가하면 보안 문제가 있을 수 있기 때문에 JSON.parse()를 이용하는 것을 권장한다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;// 입력되는 JSON 문자열
+var jstr = '{&quot;mykey&quot;: &quot;my value&quot;}';
+
+// 안티패턴
+var data = eval('(' + jstr + ')');
+
+// 권장안
+var data = JSON.parse(jstr);
+
+console.log(data.mykey); // &quot;my value&quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;JSON.parse() 매서드의 반대는 JSON.stringify() 다.&lt;br /&gt;이 메서드는객체 또는 배열(또는 원시 데이터 타입)을 인자로 받아 JSON 문자로 직렬화한다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;var dog = {
+    name: &quot;Fido&quot;,
+    dob: new Date(),
+    legs: [1, 2, 3, 4]
+};
+
+var jsonstr = JSON.stringify(dog);
+
+// jsonstr 값은 다음과 같다.
+// {&quot;name&quot;: &quot;Fido&quot;, &quot;dob&quot;:&quot;2010-04-11T22:36:22.436Z&quot;,&quot;legs&quot;:[1,2,3,4]}&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;-&quot;&gt;정규표현식 리터럴&lt;/h1&gt;
+&lt;p&gt;자바스크립트에서 정규식을 생성하는 방법은 두가지다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;new RegExp() 생성자를 사용한다.&lt;/li&gt;
+&lt;li&gt;정규식 리터럴을 사용한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;역슬래시() 하나에 매치되는 예제&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;// 정규식 리터럴
+var re = /\\/gm;
+
+// 생성자
+var re = new RegExp(&quot;\\\\&quot;, &quot;gm&quot;);&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;즉 정규표현식보다는 정규표현식 리터럴을 쓰는것이 더 간단하고 쉽다.&lt;/p&gt;
+&lt;h3 id=&quot;-&quot;&gt;정규 표현식 리터럴 문법&lt;/h3&gt;
+&lt;p&gt;정규식 리터럴 표기법은 매칭에 사용되는 정규식 패턴을 슬래시로 감싼다.&lt;br /&gt;두번째 슬래시 뒤에는 따옴표 없이 문자 형태의 변경자를 둘수 있다.  &lt;/p&gt;
+&lt;p&gt;정규식 리터럴과 생성자의 또다른 차이점으로는 정규식 리터럴의 경우 파싱될때 단 한번만 객체를 생성한다는 점을 들수 있다.&lt;br /&gt;루프 안에서 동일한 정규식을 생성하면 이미 생성된 객체가 반환되며, lastIndex 등 모든 프로퍼티는 최초에 설정된 상태를 이어받는다.&lt;/p&gt;
+&lt;p&gt;다음 예제는 동일한 객체가 두번 반환되는 과정을 보여준다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;function geRE() {
+    var re = /[a-z]/;
+    re.foo = &quot;bar&quot;;
+    return re;
+}
+
+var reg = getRE(),
+    re2 = getRE();
+
+console.log(reg === re2); // true
+reg.foo = &quot;baz&quot;;
+console.log(re2.foo); // &quot;baz&quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;마지막으로 덧붙이자면, &lt;code&gt;new&lt;/code&gt; 를 빼먹고 &lt;code&gt;RegExp()&lt;/code&gt;를 호출해도 (즉 생성자가 아니라 함수처럼 호출해도) new와 함께 호출한 것처럼 동작한다.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;출처 : JavaScript Patterns  &lt;/p&gt;
+&lt;/blockquote&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=54889410&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>javascript</category>
+			<category>JSON</category>
+			<category>객체리터럴</category>
+			<category>정규표현식리터럴</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2411</guid>
+			<comments>http://demun.tistory.com/2411#entry2411comment</comments>
+			<pubDate>Sat, 31 May 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>객체리터럴-사용정의생성자함수 배열리터럴</title>
+			<link>http://demun.tistory.com/2410</link>
+			<description>&lt;h2 id=&quot;-&quot;&gt;사용자 정의 생성자 함수&lt;/h2&gt;
+&lt;p&gt;Person 생성자 함수를 정의한 예시.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;var Person = function (name) {
+    this.name = name;
+    this.say = function () {
+        return &amp;quot;I am &amp;quot; + this.name;
+    };
+};&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;new와 함께 생성자 함수를 호출하면 함수 안에서 다음과 같은 일이 일어난다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;빈 객체가 생성된다. 이 객체는 this라는 변수로 참조할 수 있고, 해당 함수의 프로토타입을 상속받는다.&lt;/li&gt;
+&lt;li&gt;this 로 참조되는 객체에 프로퍼티와 매서드가 추가된다.&lt;/li&gt;
+&lt;li&gt;마지막에 다른 객체가 명시적으로 반환되지 않을경우, this로 참조된 이 객체가 반환된다. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;재사용되는 멤버는 프로토타입에 추가하는것이 더 낫다는 점이다.
+빈 객체를 생성하면 실제로는 빈 객체가 아니다. 즉 그 객체의 프로토타입을 상속받는다는 점이다. &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;var this = {}
+
+// 이것은 실제로는 아래와 같다.
+var this = Object.create(Person.prototype);
+
+// Person.prototype 은 생략한 예시다.
+// 즉 var this = Object.create(....) 이다.&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&quot;-&quot;&gt;배열 리터럴&lt;/h1&gt;
+&lt;p&gt;객체 리터럴과 마찬가지로 배열 리터럴 표기법이 더 간단하다.&lt;/p&gt;
+&lt;p&gt;아래는 Array() 생성자와 리터럴 패턴을 사용하여 동일한 원소를 가지는 배열 두 개를 만드는 방법을 보여준다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;// 세 개의 원소를 가지는 배열
+// 경고 : 안티패턴
+var a = new Array(&amp;quot;itsy&amp;quot;, &amp;quot;bitsy&amp;quot;, &amp;quot;spider&amp;quot;);
+
+// 위와 똑같은 배열
+var a = [&amp;quot;itsy&amp;quot;, &amp;quot;bitsy&amp;quot;, &amp;quot;spider&amp;quot;];
+
+console.log(typeof a); // 배열도 객체이기 때문에 &amp;quot;object&amp;quot;가 출력된다.
+console.log(a.constructor === Array); // true&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;-&quot;&gt;배열 생성자의 특이성&lt;/h2&gt;
+&lt;p&gt;Array() 생성자에 숫자 하나를 전달할 경우, 이 값은 배열의 첫번째 원소 값이 되는게 아니라 배열의 길이를 지정한다.&lt;br&gt;즉 new Array(3) 은 길이가 3이고, 실제 원소값은 가지지 않는 배열을 생성한다.&lt;br&gt;원소가 존재하지 않기 때문에 어느 원소에 접근하든 underfined 값을 얻게 된다.  &lt;/p&gt;
+&lt;p&gt;다음 코드 예제는 인자를 한개 넘겨 배열을 생성할때 리터럴과 생성자 함수의 서로 다른 동작 방식을 보여준다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;// 한개의 원소를 가지는 배열
+var a = [3];
+console.log(a.length); // 1
+console.log(a[0]); // 3
+
+// 새개의 원소를 가지는 배열
+var a = new Array(3);
+console.log(a.length); // 3
+console.log(typeof a[0]); // &amp;quot;undefined&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;이것도 의외의 동작방식이지만, new Array()에 정수가 아닌 부동소수점을 가지는 수를 전달할 경우 더욱 예상 밖의 결과가 나온다.&lt;br&gt;부동소수점을 가지는 수는 배열의 길이로 유효한 값이 아니기 때문에 에러가 발생한다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;// 리터럴 사용
+var a = [3.14];
+console.log(a[0]); // 3.14
+
+var a = new Array(3.14); // 배열의 길이로 유효하지 않은 값이므로 RangError가 발생한다.
+console.log(typeof a); // &amp;quot;undefined&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;런타임에 동적으로 배열을 생성할 경우 에러 발생을 피하려면 배열의 리터럴 표기법을 쓰는 것이 훨씬 안전하다  &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;출처 : JavaScript Patterns  &lt;/p&gt;
+&lt;/blockquote&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=54871958&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>javascript</category>
+			<category>객체리터럴</category>
+			<category>배열리터럴</category>
+			<category>사용자정의생성자함수</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2410</guid>
+			<comments>http://demun.tistory.com/2410#entry2410comment</comments>
+			<pubDate>Fri, 30 May 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>객체리터럴-리터럴과 생성자</title>
+			<link>http://demun.tistory.com/2409</link>
+			<description>&lt;h1 id=&quot;-&quot;&gt;리터럴과 생성자&lt;/h1&gt;
+&lt;p&gt;Object() 나 Array() 등의 내장 생성자 함수에 비해 리터럴 표기법을 쓰는 게 더 좋다.&lt;br /&gt;왜 좋은지는 아래글에서 보기 바란다.&lt;/p&gt;
+&lt;h2 id=&quot;-&quot;&gt;객체 리터럴&lt;/h2&gt;
+&lt;p&gt;자바스크립트에서 '객체'라고 하면 단순히 이름-값 쌍의 테이블을 생각하면 된다.
+객체 리터럴 표기법은 아래처럼 객체를 생성할때 이상적이다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;// 빈 객체에서 시작한다.
+var dog = {};
+
+// 프로퍼팉 하나를 추가한다.
+dog.name = &quot;Benji&quot;;
+
+// 이번에는 메서드를 추가한다.
+dog.getName = function () {
+    return dog.name;
+};&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;이 예제는 빈 객체에서 시작해서 프로퍼티와 매서드를 추가하면서 많은 변화를 줄 수 있다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;// 프로퍼티와 매서드 값을 변경할 수 있다.
+dog.getName = function () {
+    // 매서드가 하드코딩된 값을 반환하도록 재정의한다.
+    return &quot;Fido&quot;;
+};
+
+// 프로퍼티나 매서드를 완전히 삭제한다.
+delete dog.name;
+
+// 다른 프로퍼티나 매서드를 추가한다.
+dog.say = function () {
+    return &quot;Woof!&quot;;
+};
+dog.fleas = true;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;객체 리터럴 표기법을 쓰면 다음 예제처럼 생성 시점에 객체에 생성 시점에 기능을 추가할 수 있다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;var dog = {
+    name: &quot;Benji&quot;,
+    getName: function () {
+        return this.name;
+    }
+};&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;-&quot;&gt;객체 리터럴 문법&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;객체를 중괄호({와 })로 감싼다.&lt;/li&gt;
+&lt;li&gt;객체 내의&amp;nbsp;프로퍼티와 매서드를 쉼표(,)로 분리한다. 마지막 이름-값 쌍 뒤에 쉼표가 들어가면 IE에서 에러가 발생하므로, 마지막에는 사용하지 말아야 한다.&lt;/li&gt;
+&lt;li&gt;프로퍼티와 프로퍼티 값은 콜론으로 분리한다.&lt;/li&gt;
+&lt;li&gt;객체를 변수에 할당할 때는 닫는 중괄호 뒤에 세미콜론을 빼먹지 않도록 한다&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;-&quot;&gt;생성자 함수로 객체 생성하기&lt;/h3&gt;
+&lt;p&gt;객체를 생성할 때는 직접 만든 생성자 함수를 사용할 수도 있고, Object(), Date(), String() 등 내장 생성자를 사용할 수도 있다.&lt;br /&gt;다음 예제는 동일한 객체를 생성하는 두가지 방법을 보여준다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;lang-javascript&quot;&gt;// 리터럴 사용
+var car = {goes: &quot;far&quot;};
+
+
+// 다른방법 - 내장 생성자 사용
+// 경고:안티패턴
+var car = new Object();
+car.goes = &quot;far&quot;;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;보다시피 객체 리터럴 표기법의 장점은 더 짧다는 거다.&lt;br /&gt;리터럴 표기법을 쓰면 유효범위 판별 작업도 발생하지 않는다.   &lt;/p&gt;
+&lt;h3 id=&quot;-&quot;&gt;객체 생성자의 함정.&lt;/h3&gt;
+&lt;p&gt;객체 생성자를 사용할 필요가 없다고 말하지만, 코드를 물려받을수도 있기 때문에 알아두어야 한다.&lt;br /&gt;생성자를 물려 받으면 생성자뿐만 아니라 인자까지 물려 받는다는 점이다.&lt;br /&gt;인자로 전달되는 값에 따라 생성자 함수가 다른 내장 생성자에 객체 생성을 위임할 수 있고, 따라서 기대한 것과는 다른 객체가 반환되기도 한다.  &lt;/p&gt;
+&lt;p&gt;결론적으로 new Object() 를 사용하지 마라는 이야기다. 더 간단하고 안정적인 객체 리터럴을 사용하라.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;출처 : JavaScript Patterns  &lt;/p&gt;
+&lt;/blockquote&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=54852930&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>javascript</category>
+			<category>객체리터럴</category>
+			<category>리터럴</category>
+			<category>자바스크립트</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2409</guid>
+			<comments>http://demun.tistory.com/2409#entry2409comment</comments>
+			<pubDate>Thu, 29 May 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>부드러운 화면이동 하는 방법 Smooth Scroll</title>
+			<link>http://demun.tistory.com/2408</link>
+			<description>&lt;p&gt;블로그를 하다보면 부드러운 화면이동을 하고 싶을 때가 있습니다.&lt;br /&gt;
+특히나 긴글일경우 스크롤을 하기가 부담스럽죠.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+또 글이 길거나 차례같은것이 있어서 클릭하면 원하는 위치로 이동을 하고 싶을때가 있습니다.  &lt;/p&gt;
+&lt;p&gt;기존의 스크롤을 해주는 플러그인들은 복잡한 설정법이라든가 스타일이 많이 들어가 있다든가 하는것이 대부분인데요. 오늘 소개하는것은 아주 간단합니다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;
+저만 잘 따라오시면 html, css, javascript 를 몰라도 누구나 따라할 수 있습니다.&lt;br /&gt;
+초보자들도 따라할 수 있도록 쉽게 설명해드리겠습니다.  &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;먼저 홈페이지를 소개합니다.&lt;br /&gt;
+Smooth Scroll -&amp;gt;&amp;nbsp;&lt;span style=&quot;font-size: 9pt; line-height: 1.5; background-color: transparent;&quot;&gt;&lt;a href=&quot;https://github.com/cferdinandi/smooth-scroll&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;https://github.com/cferdinandi/smooth-scroll&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;데모페이지 -&amp;gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5; background-color: transparent;&quot;&gt;&lt;a href=&quot;http://cferdinandi.github.io/smooth-scroll/&quot; target=&quot;_blank&quot; class=&quot;tx-link&quot;&gt;http://cferdinandi.github.io/smooth-scroll/&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;데모페이지에 갈 필요도 없습니다.&amp;nbsp;&lt;a href=&quot;#page-bottom&quot; id=&quot;page-top&quot; data-scroll&gt;눌러보세요&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;현재 제 블로그에 적용이 되어있을겁니다. 만약 시간이 지나서 없을때는 데모페이지를 참고하세요.  &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;순서는 이렇습니다.&lt;/p&gt;
+&lt;ol style=&quot;list-style-type: decimal;&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#smooth-scroll-플러그인-삽입&quot; data-scroll&gt;플러그인 업로드&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#html-삽입&quot; data-scroll&gt;html 삽입&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#자바스크립트-삽입&quot; data-scroll&gt;자바스크립트 삽입&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;br /&gt;&lt;span style=&quot;font-size: 9pt; line-height: 1.5; background-color: transparent;&quot;&gt;자 가볼까요...&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;smooth-scroll-플러그인-삽입&quot;&gt;Smooth Scroll 플러그인 삽입&lt;/h2&gt;
+&lt;p&gt;위의 홈페이지에 방문하셔도 되고 현재 아래에서 다운로드 해도 됩니다.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;;height:auto&quot;&gt;&lt;a href=&quot;http://demun.tistory.com/attachment/cfile10.uf@2646E13D538345B5061FC2.js&quot;&gt;&lt;img src=&quot;http://i1.daumcdn.net/cfs.tistory/v/110706133414/blog/image/extension/unknown.gif&quot; alt=&quot;&quot; style=&quot;vertical-align: middle;&quot; /&gt; smooth-scroll.js&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;플러그인을 티스토리 관리자화면에서 html/css 편집 -&amp;gt; 파일업로드 -&amp;gt;추가해서 smooth-scroll.js 를 업로드합니다.  &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:680px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/2648B943538345CB10ECBF&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00041.jpg&quot; height=&quot;533&quot; width=&quot;680&quot;/&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;html-삽입&quot;&gt;html 삽입&lt;/h2&gt;
+&lt;p&gt;먼저 가장 많이 사용하는것이 바로 하단에 내려갔을때 상단으로 쯕 ~~ 올라가는것을 많이 하죠.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;이것을 예로 들어보겠습니다.  &lt;/p&gt;
+&lt;p&gt;제 경우에 블로그 하단에 보면 위로 올라가는 아이콘에 보이는데요. 똑같이 할 필요는 없구요. 그냥 링크만 하나 생성해주세요.&lt;br /&gt;
+형식은 아래와 같습니다.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;a href=&quot;#header&quot; data-scroll&amp;gt;Top&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;여기서 #header 이라고 하는것은 목적지 입니다.&lt;br /&gt;
+  아이디가 header 이라고 있어야 합니다. 난 모르겠다 하시면 body 태그 다음에 오는 div 에 아이디를 사용하시면 됩니다.
+  만약 id 가 없으면 하나 만들어도 됩니다.&lt;br /&gt;
+  그리고 data-scroll 도 있지마세요.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;아래 이미지를 참고하세요.
+저의 경우 body 아래에 container 또는 header 이 있지요.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;여러분들도 잘 찾아보세요.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;바로 그걸 적는것입니다.  &lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:680px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/25586C45538348A90EF4A3&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00043.jpg&quot; height=&quot;450&quot; width=&quot;680&quot;/&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;자바스크립트-삽입&quot;&gt;자바스크립트 삽입&lt;/h2&gt;
+&lt;p&gt;html 맨 아래쪽에 가시면 body&amp;nbsp;태그위에 자바스크립트를 넣어줍니다.&lt;br /&gt;
+아래는 예시 입니다.  &lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;html&quot;&gt;&amp;lt;script type=&quot;text/javascript&quot;&amp;gt;
+    smoothScroll.init();
+&amp;lt;/script&amp;gt;
+&amp;lt;/body&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;어때요 간단하죠!!&lt;br /&gt;
+만약 다른 스크립트가 있다면 그곳에 삽입해도 됩니다.
+이런식으로 삽입하면 되구요. 다른 형식으로도 움직이게끔 설정할 수도 있습니다.
+그것은 홈페이지를 참고하세요.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;#page-top&quot; id=&quot;page-bottom&quot; data-scroll&gt;다시 눌러요&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=54815362&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>jQuery</category>
+			<category>Smooth Scroll</category>
+			<category>부드러운 화면이동</category>
+			<category>스크롤</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2408</guid>
+			<comments>http://demun.tistory.com/2408#entry2408comment</comments>
+			<pubDate>Tue, 27 May 2014 06:00:00 +0900</pubDate>
+		</item>
+		<item>
+			<title>2014 티스토리 간담회에 다녀왔습니다.</title>
+			<link>http://demun.tistory.com/2407</link>
+			<description>&lt;p&gt;티스토리를 한지는 오래되었지만 간담회에 참석한지는 이번이 처음입니다.&lt;/p&gt;&lt;p&gt;개인적으로 티스토리 블로그가 가장 좋다고 생각하고 있습니다.&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;그 이유중에 하나는 바로 업로드 공간과 html 을 처음부터 끝까지 모두 사용자가 수정할 수 있다는 매력 때문입니다.&lt;/p&gt;&lt;p&gt;하지만 몇몇 제약과 기능지원 미흡으로 인해 많은 유저들이 떠났고, 티스토리 스킨 제작 또한 어려움을 겪고 잇는것도 사실입니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;이런 부분을 이야기하고 해결하고 싶어서 참석한것입니다.&lt;/p&gt;&lt;p&gt;다행이도 스킨에 대해서 이야기를 할 수 있는 시간이 있어서 다행이였습니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;건물 입구에 안내하시는분이 기다리고 있어서 쉽게 찾을 수 있었습니다.&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:382px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile23.uf.tistory.com/image/2246C8445381A8C9347FE7&quot; filemime=&quot;image/jpeg&quot; filename=&quot;20140524_132415.jpg&quot; height=&quot;680&quot; style=&quot;&quot; width=&quot;382&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;티스토리 간담회에서 하는 주제에 대해서 알려주었습니다.&lt;/p&gt;&lt;p&gt;보시다시피 토론 4번에 스킨 기능 강화라는 글이 보입니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:680px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile28.uf.tistory.com/image/252140335381A9021A494A&quot; filemime=&quot;image/jpeg&quot; filename=&quot;20140524_140745.jpg&quot; height=&quot;382&quot; style=&quot;&quot; width=&quot;680&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;많은 유저분들을 만났고, 많은 이야기를 하고 싶었지만 그렇지도 못한거 같습니다.&lt;/p&gt;&lt;p&gt;지방에서 오신분들이 많이 계셔서 소주도 한잔 못했네요.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;스킨 기능 강화에 대해서 할 말이 많았지만 시간 때문에 많은 이야기를 못했습니다. 아쉬워요.&lt;/p&gt;&lt;p&gt;티스토리의 인력이 그리 넉넉치가 않아서 모든 부분에 대응하기가 쉽지 않다는 부분도 말씀해주셨습니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;티스토리가 좋은 툴임에는 변함이 없지만 업데이트가 안되고, 지원 부분이 없어서 아쉬웠었는데....앞으로는 많은 신경을 써주신다고 했습니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;티스토리에서 준비한 선물....&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:680px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/234203465381AA151B5762&quot; filemime=&quot;image/jpeg&quot; filename=&quot;20140524_192815.jpg&quot; height=&quot;382&quot; style=&quot;&quot; width=&quot;680&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:382px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile27.uf.tistory.com/image/217CDF465381AA192823A6&quot; filemime=&quot;image/jpeg&quot; filename=&quot;20140524_192910.jpg&quot; height=&quot;680&quot; style=&quot;&quot; width=&quot;382&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:382px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile5.uf.tistory.com/image/2360E4465381AA1C04789F&quot; filemime=&quot;image/jpeg&quot; filename=&quot;20140524_192937.jpg&quot; height=&quot;680&quot; style=&quot;&quot; width=&quot;382&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:382px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/275771465381AA202E4A9A&quot; filemime=&quot;image/jpeg&quot; filename=&quot;20140524_193037.jpg&quot; height=&quot;680&quot; style=&quot;&quot; width=&quot;382&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:680px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/2743B4465381AA24305315&quot; filemime=&quot;image/jpeg&quot; filename=&quot;20140524_193132.jpg&quot; height=&quot;382&quot; style=&quot;&quot; width=&quot;680&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;소주가 들어 있어서 의외였습니다.&lt;/p&gt;&lt;p&gt;저녁에 족발 시켜서 바로 마셔버렸지요...ㅎㅎㅎㅎㅎ&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;간담회가 1년에 한번은 있어야 한다고 생각합니다.&lt;/p&gt;&lt;p&gt;유저의 소리를 티스토리에서도 듣고 반영할려고 노력하는 모습을 보여줘야 한다고 생각합니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;다른곳의 툴은 계속 발전하는데 티스토리만 정체가 되면 곧 후퇴가 되는겁니다.&lt;/p&gt;&lt;p&gt;여기서 또 인력의 이야기를 할 수밖에 없지만.....이해는 되나, 섭섭한것은 사라지지 않네요.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;그래도 다행인것은 티스토리 운영진쪽에서 노력하고 있다는것을 알았으니 다행입니다.&lt;/p&gt;&lt;p&gt;티스토리 스킨 스토어에 대해서 건의했고, 그곳에는 무료, 유료 스킨과 초보자 도움말, 개발자 도움말, 플러그인 정보등을 모두 실어서 유저가 보고 참고하고 , 적용할 수 있도록 해달라고 했습니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;저도 답답한 부분이 있지만 초보자분들이 답답한것도 있거든요.&lt;/p&gt;&lt;p&gt;저도 초보였을때 다 그랬으니까요.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;그 맘을 알기에 티스토리를 무료료, 시간나는대로 수정해주고, 알려주고도 했지만 그것은 한계가 있습니다.&lt;/p&gt;&lt;p&gt;저도 일을 하고 포스팅 할 시간조차 같지못하는데 스킨을 수정하는것은 그리 간단하지만은 않거든요.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;좀더 좋은 티스토리가 되었으면 합니다.&lt;/p&gt;&lt;p&gt;담에 또 봐요.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;</description>
+			<category>티스토리</category>
+			<category>블로그</category>
+			<category>티스토리</category>
+			<category>티스토리 간담회</category>
+			<category>티스토리 스킨</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2407</guid>
+			<comments>http://demun.tistory.com/2407#entry2407comment</comments>
+			<pubDate>Sun, 25 May 2014 17:35:34 +0900</pubDate>
+		</item>
+		<item>
+			<title>반응형 스킨을 Grunt를 이용해서 제작하고 있습니다.</title>
+			<link>http://demun.tistory.com/2405</link>
+			<description>&lt;p&gt;요즘 반응형 스킨을 제작하고 있는데 시간이 너무 걸려서 근황을 소개하려고 글을 작성합니다.&lt;/p&gt;&lt;p&gt;이번에 제작하는 반응형 스킨은 부트스트랩을 포함하지 않습니다.&lt;/p&gt;&lt;p&gt;그래서 ie까지 모두 지원하는 스킨을 만들고 있습니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;1단,2단3단 레이아웃 모두 만들고, 여러가지 컬러셋을 적용하는 버젼을 모두 만듭니다.&lt;/p&gt;&lt;p&gt;거기에다가 각종 플러그인이 장착이 된 버젼까지 전부 따로 따로 만듭니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;그러다보니 각각의 파일과 레이아웃, 컬러셋마다의 분리가 필요하고 관리가 엄청 납니다.&lt;/p&gt;&lt;p&gt;만들다보니 거의 프로젝트 수준입니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;여기에 Grunt 를 적용해서 좀더 완성적으로 만들려고 익히면서 만들고 있습니다.&lt;/p&gt;&lt;p&gt;현재 그런트에 들어가는 플러그인은 7개 정도인데 targethtml, handlebars 정도가 더 들어갈수도 있을거 같네요.&lt;/p&gt;&lt;p&gt;이제 세네개 컬러셋을 셋팅하고 2단, 1단을 만드는 과정입니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;컬러셋도 현재 4개까지만 진행중인데요. 압축하지 않은 CSS 와 압축한 CSS를 모두 생산해서 한곳에 몰다보니 갯수가 많아지네요.&lt;/p&gt;&lt;p&gt;약 두배는 더 많아질듯 합니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;아래의 노랑색부분정도만 사용하고 나머지 이미지들은 추가적으로 들어가는 슬라이드 플러그인의 이미지들입니다.&lt;/p&gt;&lt;p&gt;아마도 플러그인은 더 들어갈듯하구요, 사용자들은 커스터마이징 할 수 있도록 사용하는 사람만 사용하고, 사용하지 않은 사람은 사용하지 않도록 설정할 계획입니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:680px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/2703C64A53720D9623B537&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00036.jpg&quot; height=&quot;302&quot; style=&quot;&quot; width=&quot;680&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;컬러셋은 대략 8개에서 왔다갔다 할거 같습니다. 이쁜 컬러가 나올때까지....ㅎㅎㅎ&lt;/p&gt;&lt;p&gt;그리고 패턴이 들어간놈, 이미지가 들어간놈.....전부 따로 만들생각입니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;즉 여기서 *2*3 하면 될듯합니다. 엄청 많죠.....&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;잠시 gruntfile.js 를 보여드리겠습니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;less 부분입니다. 레이아웃1, 2만 있습니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:680px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile30.uf.tistory.com/image/27756F4753720C7624DE4E&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00033.jpg&quot; height=&quot;315&quot; style=&quot;&quot; width=&quot;680&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;CSS 구문오류 수정하는 csslint 도 col1, col2만 있습니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:680px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile21.uf.tistory.com/image/255F0F4753720C76279035&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00034.jpg&quot; height=&quot;464&quot; style=&quot;&quot; width=&quot;680&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;html 로 작업하고 로컬에서 테스팅한다음 티스토리로 사용할려고 grunt copy 플러그인을 사용해서 복사본을 따로 만들고 있습니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p style=&quot;text-align: center; clear: none; float: none;&quot;&gt;&lt;span class=&quot;imageblock&quot; style=&quot;display:inline-block;width:680px;;height:auto&quot;&gt;&lt;img src=&quot;http://cfile10.uf.tistory.com/image/235FB14753720C7727F613&quot; filemime=&quot;image/jpeg&quot; filename=&quot;ScreenShot00035.jpg&quot; height=&quot;276&quot; style=&quot;&quot; width=&quot;680&quot;/&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;이것이 완성될때면 상당이 오랜 시간이 걸릴듯합니다.&lt;/p&gt;&lt;p&gt;그 시간동안 그런트나 사용법에 대해서 종종 글을 올릴 생각입니다.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;모두 html 로 제작해서 테스팅한다음 티스토리로 변환해서 또 다시 테스트해야 하는데요.....제작도 힘들지만 테스트도 힘들것 같네요.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class=&quot;blogger-news-widget&quot; style=&quot;width: 100%; text-align: center&quot;&gt;
+							&lt;iframe width=&quot;100%&quot; height=&quot;90px&quot; src=&quot;http://api.v.daum.net/widget1?nid=54598091&quot; frameborder=&quot;no&quot;&gt;&lt;/iframe&gt;
+						&lt;/div&gt;</description>
+			<category>스킨변경제작이력</category>
+			<category>demun skin</category>
+			<category>responsive</category>
+			<category>대문스킨</category>
+			<category>반응형</category>
+			<category>반응형 스킨</category>
+			<category>스킨</category>
+			<category>티스토리</category>
+			<category>티스토리 스킨</category>
+			<author>대문 demun</author>
+			<guid>http://demun.tistory.com/2405</guid>
+			<comments>http://demun.tistory.com/2405#entry2405comment</comments>
+			<pubDate>Wed, 14 May 2014 07:00:00 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

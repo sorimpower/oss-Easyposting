@@ -1,0 +1,47 @@
+﻿@model EasyPosting.Models.RegisterViewModel
+@{
+    ViewBag.Title = "새로운 사용자 생성";
+}
+
+<hgroup class="title">
+    <h2>@ViewBag.Title.</h2>
+</hgroup>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+
+    <fieldset class="form-horizontal">
+        <legend>새로운 사용자 계정을 만듭니다.</legend>
+        <div class="control-group">
+            @Html.LabelFor(Model => Model.Email, new { @class = "control-label" })
+            <div class="controls">
+                @Html.TextBoxFor(m => m.Email)
+            </div>
+        </div>
+        <div class="control-group">
+            @Html.LabelFor(m => m.Password, new { @class = "control-label" })
+            <div class="controls">
+                @Html.PasswordFor(m => m.Password)
+            </div>
+        </div>
+        <div class="control-group">
+            @Html.LabelFor(m => m.ConfirmPassword, new { @class = "control-label" })
+            <div class="controls">
+                @Html.PasswordFor(m => m.ConfirmPassword)
+            </div>
+        </div>
+
+        <h4>사용자의 역할 선택</h4>
+        <hr />
+        @Html.DropDownList("RoleId","일반 사용자")
+        <div class="form-actions no-color">
+            <input type="submit" value="만들기" class="btn" />
+        </div>
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>All That Entertainment Technology</title>
+		<link>http://blog.hirihiri.com/</link>
+		<description>Technology controls the Rule</description>
+		<language>ko</language>
+		<pubDate>Wed, 17 Aug 2011 08:59:15 +0900</pubDate>
+		<generator>Tistory 1.1 (http://www.tistory.com/)</generator>
+		<image>
+		<title>All That Entertainment Technology</title>
+		<url><![CDATA[http://cfile6.uf.tistory.com/image/1426F92F4CAB8CB62E9667]]></url>
+		<link>http://blog.hirihiri.com/</link>
+		<description>Technology controls the Rule</description>
+		</image>
+		<item>
+			<title>플레이스테이션3 3.21 해킹 :: OtherOS&#039;s working fine</title>
+			<link>http://blog.hirihiri.com/entry/%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%983-321-%ED%95%B4%ED%82%B9-OtherOSs-working-fine</link>
+			<description>&lt;P align=&quot;center&quot;&gt;&lt;object width=&quot;480&quot; height=&quot;385&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/1-9wLWQ4-uA&amp;hl=en_US&amp;fs=1&amp;&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/1-9wLWQ4-uA&amp;hl=en_US&amp;fs=1&amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;480&quot; height=&quot;385&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;&lt;p&gt;아이폰 해커로 유명한 George Hotz군이 플레이스테이션 3 exploit을 공개한지도 어언 3개월이 흘렀다. 소니는 그들의 남은 자존심 PS3의 잠재적 해킹을 막기위하여 OtherOS를 완전히 봉쇄하는 3.21 펌웨어 업데이트를 강행했고, Hotz군은 소비자의 권익을 보호한다는 주장하에 7일자로 OtherOS를 작동하는 3.21 커펌을 선보였다.&lt;BR /&gt;&lt;BR /&gt;블로그에 적어놓은 글을 인용해보면,&lt;BR /&gt;Note to the people who removed OtherOS, you are potentially turning 100000+ legit users into &quot;hackers.&quot; There was a huge(20x) traffic spike to this blog after the announcement of 3.21. If I had ads on this site I guess I&#039;d be thanking you.&lt;BR /&gt;&lt;BR /&gt;사실 이말이 틀린 건 아닌것이, 나 마저도 해킹된걸 알아도 그다지 관심이 없다가 우리집의 플스에 들어있는 리눅스가 날라간다는 소식에 솔깃해서 서칭하다가 알게된 것이기 때문이다.&lt;BR /&gt;&lt;BR /&gt;현재는 아직 비디오 샷만을 보여주고 있는것이, 기존 PSP 커펌에서처럼 PSN에 접속시에 버전체크에 문제가 있다고 한다. 아마 프록시등으로 우회하는 루틴을 넣고서 공개할 듯. &lt;/P&gt;&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-left tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+</description>
+			<category>ET News</category>
+			<category>Exploit</category>
+			<category>geohotz</category>
+			<category>George Hotz</category>
+			<category>PlayStation 3</category>
+			<category>PS3</category>
+			<category>플레이스테이션 3</category>
+			<category>플스3</category>
+			<category>해킹</category>
+			<author>미니미 에소테릭</author>
+			<guid>http://blog.hirihiri.com/238</guid>
+			<comments>http://blog.hirihiri.com/entry/%ED%94%8C%EB%A0%88%EC%9D%B4%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%983-321-%ED%95%B4%ED%82%B9-OtherOSs-working-fine#entry238comment</comments>
+			<pubDate>Sat, 10 Apr 2010 02:58:27 +0900</pubDate>
+		</item>
+		<item>
+			<title>윈도우폰 7 시리즈 개발툴 발표</title>
+			<link>http://blog.hirihiri.com/entry/%EC%9C%88%EB%8F%84%EC%9A%B0%ED%8F%B0-7-%EC%8B%9C%EB%A6%AC%EC%A6%88-%EA%B0%9C%EB%B0%9C%ED%88%B4-%EB%B0%9C%ED%91%9C</link>
+			<description>말만 무성하던 윈도우폰 7시리즈의 개발툴이 공개되었다.&lt;br&gt;&lt;br&gt;&lt;span&gt;Visual Studio 2010 Express for Windows Phone  CTP&lt;br&gt;
+ Windows Phone Emulator CTP&lt;br&gt;
+ Silverlight for Windows Phone CTP&lt;br&gt;
+ XNA 4.0 Game Studio  CTP&lt;/span&gt;&lt;br&gt;&lt;br&gt;윈도우폰 7 시리즈 개발은 크게 3가지 방식으로 할 수 있는데,&lt;br&gt;- .NET Compact를 이용한 개발 (윈모바일6.5 개발과 유사)&lt;br&gt;- Silverlight을 이용한 개발 (XAML기반)&lt;br&gt;- XNA 4.0을 이용한 개발 (DX9 &lt;a href=&quot;http://blogs.msdn.com/shawnhar/archive/2010/03/12/reach-vs-hidef.aspx&quot; target=&quot;_blank&quot;&gt;Reach Profile&lt;/a&gt;기반, 커스텀쉐이더 불가능)&lt;br&gt;&lt;br&gt;다소 산만(?)하기까지한 개발방식들을 케이스별로 정리해서 올라오고 있다.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;http://developer.windowsphone.com/windows-phone-7-series/&quot; target=&quot;_blank&quot;&gt;윈도우폰 7 개발사이트 바로가기&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a href=&quot;http://www.microsoft.com/downloads/details.aspx?FamilyId=2338b5d1-79d8-46af-b828-380b0f854203&amp;amp;displaylang=en&quot; target=&quot;_blank&quot;&gt;개발툴 다운로드 바로가기&lt;/a&gt;&lt;br&gt;&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-left tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+</description>
+			<category>ET News</category>
+			<category>SIlverLight</category>
+			<category>Windows Phone 7 Series</category>
+			<category>WP7</category>
+			<category>XNA</category>
+			<category>XNA 4.0</category>
+			<category>XNA BETA</category>
+			<category>윈도우7폰</category>
+			<category>윈도우폰</category>
+			<category>윈도우폰7</category>
+			<author>미니미 에소테릭</author>
+			<guid>http://blog.hirihiri.com/237</guid>
+			<comments>http://blog.hirihiri.com/entry/%EC%9C%88%EB%8F%84%EC%9A%B0%ED%8F%B0-7-%EC%8B%9C%EB%A6%AC%EC%A6%88-%EA%B0%9C%EB%B0%9C%ED%88%B4-%EB%B0%9C%ED%91%9C#entry237comment</comments>
+			<pubDate>Tue, 16 Mar 2010 14:30:23 +0900</pubDate>
+		</item>
+		<item>
+			<title>iPad 초기버전 한글 미지원</title>
+			<link>http://blog.hirihiri.com/entry/iPad-%EC%B4%88%EA%B8%B0%EB%B2%84%EC%A0%84-%ED%95%9C%EA%B8%80-%EB%AF%B8%EC%A7%80%EC%9B%90</link>
+			<description>&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/1856A7364CAB8D6319AC04&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;616&quot; width=&quot;466&quot;/&gt;&lt;/div&gt;스펙에서 빠져서 설마 했는데, 3.2 베타 시뮬레이터에서 확실해졌다. 기존에 지원하던 한글을 뺀 이유가 있지 싶은데..&lt;br&gt;&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-left tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+</description>
+			<category>ET News</category>
+			<category>apple</category>
+			<category>apple ipad</category>
+			<category>ipad</category>
+			<category>iPad Simulator</category>
+			<category>iPhone OS 3.2</category>
+			<category>iPhone SDK 3.2</category>
+			<category>아이패드</category>
+			<category>아이패드 시뮬레이터</category>
+			<category>애플</category>
+			<category>애플 아이패드</category>
+			<author>미니미 에소테릭</author>
+			<guid>http://blog.hirihiri.com/236</guid>
+			<comments>http://blog.hirihiri.com/entry/iPad-%EC%B4%88%EA%B8%B0%EB%B2%84%EC%A0%84-%ED%95%9C%EA%B8%80-%EB%AF%B8%EC%A7%80%EC%9B%90#entry236comment</comments>
+			<pubDate>Tue, 02 Feb 2010 12:38:19 +0900</pubDate>
+		</item>
+		<item>
+			<title>애플의 새로운 타블렛 머신 :: iPad</title>
+			<link>http://blog.hirihiri.com/entry/%EC%95%A0%ED%94%8C%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%ED%83%80%EB%B8%94%EB%A0%9B-%EB%A8%B8%EC%8B%A0-iPad</link>
+			<description>&lt;div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/1715D6354CAB8D613F09D7&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;677&quot; width=&quot;560&quot;/&gt;&lt;/div&gt;드디어, 소문으로만 들리던 애플의 타블렛 머신이 공개됐다. 이름은 iPad. 커다란 아이폰 모양;;&lt;/div&gt;&lt;div&gt;애플 타블렛 영상을 보면서 놀랐던 점은 &lt;span style=&quot;text-decoration: line-through;&quot;&gt;10.1&lt;/span&gt; 9.5인치의 커다란 기계가 아이폰 OS의 확장형을 사용한다는 점이다. 기존에 공개된 수만개의 아이폰 앱스를 실행할 수 있도록 하위호환을 유지하고, OpenGL 앱스의 경우는 보다 빠르고 부드럽게 작동한다고 한다. 오늘 공개될 iPad SDK는 역시 기본 아이폰의 Cocoa UI 컨트롤과 함께 확장된 해상도의 iPad에 맞는 개발환경을 제공할 것이다. 이것으로 확실해 진것은 기존 OS X는 더 이상 터치전용으로 발전시키지않고, 아이폰OS를 확장, 개량하여 향후 터치 기기들의 플렛폼으로 사용할 것이라는 거다.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;a href=&quot;http://www.apple.com/ipad&quot; target=&quot;_blank&quot;&gt;사이트 바로가기&lt;/a&gt;&lt;/div&gt;&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-left tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+</description>
+			<category>ET News</category>
+			<category>apple</category>
+			<category>apple ipad</category>
+			<category>apple tablet</category>
+			<category>ipad</category>
+			<category>iPad OS</category>
+			<category>iPad SDK</category>
+			<category>아이패드</category>
+			<category>애플</category>
+			<author>미니미 에소테릭</author>
+			<guid>http://blog.hirihiri.com/235</guid>
+			<comments>http://blog.hirihiri.com/entry/%EC%95%A0%ED%94%8C%EC%9D%98-%EC%83%88%EB%A1%9C%EC%9A%B4-%ED%83%80%EB%B8%94%EB%A0%9B-%EB%A8%B8%EC%8B%A0-iPad#entry235comment</comments>
+			<pubDate>Thu, 28 Jan 2010 03:46:12 +0900</pubDate>
+		</item>
+		<item>
+			<title>증강현실 하츠네 미쿠 by ARToolKit</title>
+			<link>http://blog.hirihiri.com/entry/%EC%A6%9D%EA%B0%95%ED%98%84%EC%8B%A4-%ED%95%98%EC%B8%A0%EB%84%A4-%EB%AF%B8%EC%BF%A0-by-ARToolKit</link>
+			<description>&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile9.uf.tistory.com/image/1127432F4CAB8D611B577C&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;160&quot; width=&quot;160&quot;/&gt;&lt;/div&gt;&lt;a href=&quot;http://karze.tistory.com/590&quot; target=&quot;_blank&quot;&gt;하츠네 미쿠의 홀로그램(?) 콘서트 실황이 있다는 소문&lt;/a&gt;을 듣고 웹을 돌아다니다 우연히 보게된 Augmented Reality 하츠네 미쿠. &lt;a href=&quot;http://www.washington.edu/&quot; target=&quot;_blank&quot;&gt;University of Washington&lt;/a&gt;의 &lt;a href=&quot;http://www.hitl.washington.edu/home/&quot; target=&quot;_blank&quot;&gt;Human Interface Technology Laboratory (HIT Lab)&lt;/a&gt;에서 개발한 &lt;a href=&quot;http://www.hitl.washington.edu/artoolkit/&quot; target=&quot;_blank&quot;&gt;ARToolKit&lt;/a&gt;을 이용하여 제작한 것으로 보인다.&lt;br&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;object width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/5spuwsAeoIo&amp;amp;hl=en&amp;amp;fs=1&amp;amp;&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/5spuwsAeoIo&amp;amp;hl=en&amp;amp;fs=1&amp;amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile25.uf.tistory.com/image/16259C324CAB8D61139611&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;93&quot; width=&quot;136&quot;/&gt;&lt;/div&gt;&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-left tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+</description>
+			<category>美小女 § ３Ｄ</category>
+			<category>AR</category>
+			<category>artoolkit</category>
+			<category>augmented reality</category>
+			<category>HCI</category>
+			<category>HIT Lab</category>
+			<category>Human Interface Technology Laboratory</category>
+			<category>初音ミク</category>
+			<category>미쿠</category>
+			<category>증강현실</category>
+			<category>하츠네</category>
+			<author>미니미 에소테릭</author>
+			<guid>http://blog.hirihiri.com/234</guid>
+			<comments>http://blog.hirihiri.com/entry/%EC%A6%9D%EA%B0%95%ED%98%84%EC%8B%A4-%ED%95%98%EC%B8%A0%EB%84%A4-%EB%AF%B8%EC%BF%A0-by-ARToolKit#entry234comment</comments>
+			<pubDate>Fri, 30 Oct 2009 00:35:10 +0900</pubDate>
+		</item>
+		<item>
+			<title>매직마우스 by 애플 :: Apple의 세계최초 멀티터치 마우스</title>
+			<link>http://blog.hirihiri.com/entry/%EB%A7%A4%EC%A7%81%EB%A7%88%EC%9A%B0%EC%8A%A4-by-%EC%95%A0%ED%94%8C-Apple%EC%9D%98-%EC%84%B8%EA%B3%84%EC%B5%9C%EC%B4%88-%EB%A9%80%ED%8B%B0%ED%84%B0%EC%B9%98-%EB%A7%88%EC%9A%B0%EC%8A%A4</link>
+			<description>&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile29.uf.tistory.com/image/16243A334CAB8D6030DCBF&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;193&quot; width=&quot;560&quot;/&gt;&lt;/div&gt;오늘 Apple에서 예상한 대로 iMac, Macbook, Mac mini의 마이너 체인지 제품 업데이트가 있었다. 딱히 눈에 들어오는 내용은 없었는데(Macbook pro 업데이트가 없다니..) 눈에 들어오는 제품은 마이티마우스의 뒤를 잇는 매직마우스(Magic Mouse).&lt;br&gt;&lt;br&gt;내용인즉,&lt;br&gt;- 윗면이 모두 터치센싱이 되며,&lt;br&gt;- 멀티터치를 인식하며,&lt;br&gt;- 클릭이나 휠 뿐만 아니라 보다 다양한 제스쳐를 인식한다.&lt;br&gt;&lt;br&gt;제스쳐는 마우스 내에 내장된 칩셋이 인식하여 USB로 결과를 전달하는 방식으로 보인다. 또한 Optical에서 Laser로 방식을 바꿔 보다 정교한 움직임을 캡쳐할 수 있게 되었다.&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile26.uf.tistory.com/image/1370D1314CAB8D601C4354&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;193&quot; width=&quot;560&quot;/&gt;&lt;/div&gt;현재 제스쳐의 범주는 기존 맥북의 멀티터치 제스쳐에서 크게 벗어나지 않는다. 하지만, 이 디바이스는 세계최초의 멀티터치 마우스라는 특징으로 인해 다양한 분야에 활용될 가능성이 있다. 예를 들어 일전에 &lt;a href=&quot;http://blog.hirihiri.com/entry/%EC%B0%A8%EC%84%B8%EB%8C%80-HID-3-Dimensional-Pointing-Device&quot;&gt;차세대 HID 글&lt;/a&gt;에서 언급했던 &lt;a href=&quot;http://blog.hirihiri.com/entry/%EC%B0%A8%EC%84%B8%EB%8C%80-HID-3-Dimensional-Pointing-Device&quot;&gt;Mixed Reality Interface(MRI)&lt;/a&gt;라던가 &lt;a href=&quot;http://blog.hirihiri.com/entry/%EC%B0%A8%EC%84%B8%EB%8C%80-HID-3-Dimensional-Pointing-Device&quot;&gt;Virtual 3D Sculpting&lt;/a&gt; 같은 &lt;a href=&quot;http://tangible.media.mit.edu/index.php&quot; target=&quot;_blank&quot;&gt;Tangible Media의 구현&lt;/a&gt;에 활용된다면 단순한 커서 입력에서 벗어나 주무르고 깎고 구부리는 다양한 인터렉션을 경험하게 할 수 있을 것이다.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;http://www.apple.com/magicmouse/&quot; target=&quot;_blank&quot;&gt;제품 사이트 바로가기&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;a href=&quot;/80&quot;&gt;차세대HID: Multi-Touch Interection Research&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;/134&quot;&gt;차세대HID: 3 Dimensional Pointing Device&lt;/a&gt;&lt;br&gt;&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-left tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+</description>
+			<category>ET News</category>
+			<category>apple</category>
+			<category>HID</category>
+			<category>magicmouse</category>
+			<category>Mouse</category>
+			<category>Multi-Touch Interaction</category>
+			<category>Tangible Interface</category>
+			<category>Tangible Media</category>
+			<category>마우스</category>
+			<category>매직마우스</category>
+			<category>멀티터치</category>
+			<category>애플</category>
+			<author>미니미 에소테릭</author>
+			<guid>http://blog.hirihiri.com/233</guid>
+			<comments>http://blog.hirihiri.com/entry/%EB%A7%A4%EC%A7%81%EB%A7%88%EC%9A%B0%EC%8A%A4-by-%EC%95%A0%ED%94%8C-Apple%EC%9D%98-%EC%84%B8%EA%B3%84%EC%B5%9C%EC%B4%88-%EB%A9%80%ED%8B%B0%ED%84%B0%EC%B9%98-%EB%A7%88%EC%9A%B0%EC%8A%A4#entry233comment</comments>
+			<pubDate>Wed, 21 Oct 2009 04:28:35 +0900</pubDate>
+		</item>
+		<item>
+			<title>아이폰 증강현실 Augmented Reality 앱스 :: 3D Sketching Physics</title>
+			<link>http://blog.hirihiri.com/entry/%EC%95%84%EC%9D%B4%ED%8F%B0-%EC%A6%9D%EA%B0%95%ED%98%84%EC%8B%A4-Augmented-Reality-%EC%95%B1%EC%8A%A4-3D-Sketching-Physics</link>
+			<description>&lt;div style=&quot;text-align: center;&quot;&gt;&lt;object width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/M4qZ0GLO5_A&amp;amp;hl=en&amp;amp;fs=1&amp;amp;&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/M4qZ0GLO5_A&amp;amp;hl=en&amp;amp;fs=1&amp;amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;br&gt;&lt;/div&gt;&lt;a href=&quot;http://blog.hirihiri.com/entry/iPhone-SDK-31-Beta3-Augmented-Reality-Apps%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B0%80%EB%8A%A5%EC%84%B1&quot;&gt;애플의 새로운 iPhone SDK&lt;/a&gt;로 인하여 아이폰 3GS를 이용한 Augmented Reality(증강현실 이라고들 하던데, 어색해서;;) 앱스가 속속 등장하고 있다. 이번에 등장한 영상은 &lt;a href=&quot;http://www.youtube.com/watch?v=NZNTgglPbUA&quot; target=&quot;_blank&quot;&gt;MIT Sketch Physics&lt;/a&gt;를 응용한 앱스컨셉으로 어딘가 엉성하지만, 구현된다면 비전을 이용한 3D 공간분석을 하는 앱스로는 최초가 될듯 하다.&lt;br&gt;&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-left tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+</description>
+			<category>ET News</category>
+			<category>augmented reality</category>
+			<category>iPhone</category>
+			<category>Sketch Physics</category>
+			<category>아이폰</category>
+			<category>증강현실</category>
+			<author>미니미 에소테릭</author>
+			<guid>http://blog.hirihiri.com/232</guid>
+			<comments>http://blog.hirihiri.com/entry/%EC%95%84%EC%9D%B4%ED%8F%B0-%EC%A6%9D%EA%B0%95%ED%98%84%EC%8B%A4-Augmented-Reality-%EC%95%B1%EC%8A%A4-3D-Sketching-Physics#entry232comment</comments>
+			<pubDate>Tue, 20 Oct 2009 03:16:16 +0900</pubDate>
+		</item>
+		<item>
+			<title>스타크래프트 AI를 재정의하는 API :: BWAPI</title>
+			<link>http://blog.hirihiri.com/entry/%EC%8A%A4%ED%83%80%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8-AI%EB%A5%BC-%EC%9E%AC%EC%A0%95%EC%9D%98%ED%95%98%EB%8A%94-API-BWAPI</link>
+			<description>&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile7.uf.tistory.com/image/13738E034CAB8D5F27AA5C&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;289&quot; width=&quot;385&quot;/&gt;&lt;/div&gt;우연히 발견한 스타크래프트 : 브루드워의 AI를 작성할 수 있는 API, BWAPI(Broodwar API). 오픈소스 C++ API를 통하여 자신만의 새로운 AI를 창조할 수 있다. 또한, 다른 플레이어의 리플레이를 통하여 빌드오더를 채취(?)하거나 플레이 패턴을 가져올 수 있다고 한다.&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/132274044CAB8D60125AD8&quot; alt=&quot;기존 UI에 다양한 가이드 라인이 그려진다.&quot; height=&quot;431&quot; width=&quot;560&quot;/&gt;&lt;/div&gt;프로게이머의 리플레이를 입수해서 AI를 만들면 엄청난 AI가 탄생할 듯. AI이기 때문에 게이머가 집중해서 컨트롤하는 유닛컨트롤을 모든 유닛에 적용시킬 수 있으니 더 강할지도 모른다. 마치 딥블루와 체스챔피온의 대결처럼 만들어진 AI와 프로게이머가 겨루는 종목이나 혹은&amp;nbsp; 만들어진 AI끼리 자웅을 겨루는 경기 종목이 생겨도 괜찮겠다.&lt;br&gt;&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;object width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/UrlT2RXfMb4&amp;amp;hl=en&amp;amp;fs=1&amp;amp;&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;&gt;&lt;/param&gt;&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/UrlT2RXfMb4&amp;amp;hl=en&amp;amp;fs=1&amp;amp;&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;344&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;a href=&quot;http://code.google.com/p/bwapi/&quot; target=&quot;_blank&quot;&gt;사이트 바로가기&lt;/a&gt;&lt;br&gt;&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-left tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+</description>
+			<category>ET News</category>
+			<category>Artificial Intelligence</category>
+			<category>BroodWar</category>
+			<category>StarCraft</category>
+			<category>게임 AI</category>
+			<category>브루드워</category>
+			<category>스타크래프트</category>
+			<category>인공지능</category>
+			<author>미니미 에소테릭</author>
+			<guid>http://blog.hirihiri.com/231</guid>
+			<comments>http://blog.hirihiri.com/entry/%EC%8A%A4%ED%83%80%ED%81%AC%EB%9E%98%ED%94%84%ED%8A%B8-AI%EB%A5%BC-%EC%9E%AC%EC%A0%95%EC%9D%98%ED%95%98%EB%8A%94-API-BWAPI#entry231comment</comments>
+			<pubDate>Wed, 14 Oct 2009 01:11:51 +0900</pubDate>
+		</item>
+		<item>
+			<title>MS SQL Azure 업데이트 - IT&#039;S RDB, NOW!</title>
+			<link>http://blog.hirihiri.com/entry/MS-SQL-Azure-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-ITS-RDB-NOW</link>
+			<description>&lt;div class=&quot;imageblock center&quot; style=&quot;text-align: center; clear: both;&quot;&gt;&lt;img src=&quot;http://cfile2.uf.tistory.com/image/1275FE134CAB8D5E0F723D&quot; alt=&quot;사용자 삽입 이미지&quot; height=&quot;516&quot; width=&quot;560&quot;/&gt;&lt;/div&gt;Azure SDS CTP에서 새로운 초대가 와서 봤더니, 아기고기다리고기던 RDB업데이트다. 기존에 지원하던 Simple Data Service는 생소하기도하고 범용성이 떨어져서 불편했었는데, 이정도라면 무료 DB로 사용하기에 괜찮을 듯 싶다. 초대코드를 넣고 들어가면 Database 생성과 Drop정도를 할 수 있는 인터페이스가 전부다. 더욱 황당한건 SQL Server Management Studio나 TOAD for SQL Server등으로 접속이 안된다. 기본 RDB 쿼리 외의 Table Enum등의 기능을 모두 Disabled시킨듯. Command 스펙문서도 없고 누군가 관리툴을 만들겠지만 고생꽤나 하겠군. 나도 예전에 만들어뒀던 &lt;a href=&quot;http://sdsmigrationkit.codeplex.com/&quot; target=&quot;_blank&quot;&gt;SDS Migration Toolkit&lt;/a&gt; 업그레이드해야하는데.&lt;br&gt;&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-left tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+</description>
+			<category>ET News</category>
+			<category>Azure</category>
+			<category>Cloud</category>
+			<category>Microsoft</category>
+			<category>sds</category>
+			<category>SQL Server</category>
+			<category>web service</category>
+			<author>미니미 에소테릭</author>
+			<guid>http://blog.hirihiri.com/230</guid>
+			<comments>http://blog.hirihiri.com/entry/MS-SQL-Azure-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-ITS-RDB-NOW#entry230comment</comments>
+			<pubDate>Tue, 25 Aug 2009 23:25:41 +0900</pubDate>
+		</item>
+		<item>
+			<title>iPhone SDK 3.1 Beta3 :: Augmented Reality Apps에 대한 가능성</title>
+			<link>http://blog.hirihiri.com/entry/iPhone-SDK-31-Beta3-Augmented-Reality-Apps%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B0%80%EB%8A%A5%EC%84%B1</link>
+			<description>새로 등장한 &lt;a href=&quot;http://developer.apple.com/iphone/prerelease/library/documentation/UIKit/Reference/UIImagePickerController_Class/UIImagePickerController/UIImagePickerController.html#//apple_ref/occ/instp/UIImagePickerController/cameraOverlayView&quot; target=&quot;_blank&quot;&gt;UIView Property인 cameraOverlayView&lt;/a&gt;는 &lt;a href=&quot;http://developer.apple.com/iphone/prerelease/library/documentation/UIKit/Reference/UIImagePickerController_Class/UIImagePickerController/UIImagePickerController.html&quot; target=&quot;_blank&quot;&gt;UIImagePickerController&lt;/a&gt;를 배경으로 하는 커스텀 View를 만들 수 있게 해준다. 카메라를 통하여 보이는 영상를 Apps에서 실시간으로 사용할 수 있다는 얘기다.&lt;br&gt;&lt;a href=&quot;http://itunes.com/apps/hibubble&quot; target=&quot;_blank&quot;&gt;&lt;br&gt;
+&lt;img src=&quot;http://farm4.static.flickr.com/3524/3805784541_096c2aa802_m.jpg&quot;&gt;&lt;br&gt;&lt;br&gt;
+이미지&lt;/a&gt;와 같이 사진에 오버레이되는 새로운 개체를 놓을 수 있고 이미지가 변함에 따라 개체가 인터렉트하는 Augmented Reality가 가능해진다는 얘기.&lt;br&gt;&lt;br&gt;&lt;a href=&quot;http://www.iphonedevsdk.com/forum/iphone-sdk-development-advanced-discussion/24427-integrating-camera-overlay-view.html&quot; target=&quot;_blank&quot;&gt;관련 Thread 바로가기&lt;/a&gt;&lt;br&gt;&lt;div class=&quot;tt-plugin ttShareEntryWithSNS tt-sns-icon-alignment-left tt-sns-icon-size-big&quot;&gt;
+	&lt;button class=&quot;ttShareEntryWithYozm&quot; id=&quot;ttServiceYozm_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;yozm&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;요즘에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithTwitter&quot; id=&quot;ttServiceTwitter_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;twitter&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;트위터에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithFacebook&quot; id=&quot;ttServiceFacebook_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;facebook&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;페이스북에 보내기&lt;/span&gt;&lt;/button&gt;&lt;button
+	class=&quot;ttShareEntryWithMe2day&quot; id=&quot;ttServiceMe2day_&quot; onclick=&quot;ShareEntryWithSNS.share(&#039;me2day&#039;, &#039;&#039;, &#039;&#039;);&quot;&gt;&lt;span&gt;미투데이에 보내기&lt;/span&gt;&lt;/button&gt;
+&lt;/div&gt;
+</description>
+			<category>ET News</category>
+			<category>apple</category>
+			<category>apps</category>
+			<category>augmented reality</category>
+			<category>cameraOverlayView</category>
+			<category>iPhone</category>
+			<category>iPhone SDK 3.1</category>
+			<category>UIImagePickerController</category>
+			<category>아이폰</category>
+			<author>미니미 에소테릭</author>
+			<guid>http://blog.hirihiri.com/229</guid>
+			<comments>http://blog.hirihiri.com/entry/iPhone-SDK-31-Beta3-Augmented-Reality-Apps%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B0%80%EB%8A%A5%EC%84%B1#entry229comment</comments>
+			<pubDate>Tue, 25 Aug 2009 03:02:15 +0900</pubDate>
+		</item>
+	</channel>
+</rss>

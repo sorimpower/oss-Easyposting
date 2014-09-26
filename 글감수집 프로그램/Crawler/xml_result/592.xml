@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+
+
+<rss version="2.0"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+	xmlns:activity="http://activitystrea.ms/spec/1.0/" >
+<channel>
+	
+		
+			<title><![CDATA[종스비의 방]]></title>
+			<link>http://blog.naver.com/jongsbee</link>
+			
+				<image>
+					<url><![CDATA[http://blogpfthumb.phinf.naver.net/20100308_224/jongsbee_1267974210350_y7jU60_png/2.png?type=m2]]></url>
+					<title><![CDATA[종스비의 방]]></title>
+					<link>http://blog.naver.com/jongsbee</link>
+				</image>
+			
+			<description><![CDATA[네이버 블로그 개편 빨랑 해라!!!
+질문을 메일로 하지 마셈. ]]></description>
+			<language>ko</language>
+			<generator>Naver Blog</generator>
+			<pubDate>Fri, 26 Sep 2014 17:42:57 +0900</pubDate>
+
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[smoothlevels16, smoothtweak16에 관한 고찰 - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20156944043</link>
+					<guid>http://blog.naver.com/jongsbee/20156944043</guid>
+					<description><![CDATA[   
+레벨과 컬러조정은 반드시LSBpart를고려해야 한다. 그리고아마 업데이트 되어야 한다.
+그러므로디노이징 전에 컬러, 레벨을 조정하는 것이나 16비트 데이터를 다룰 특별히 디자인된 함수를 사용하는 것이 선호되어진다. dither 구 매뉴얼에 있는 내용입니다.
+예전에 dither 글을 쓸 때엔 이 부분을 대충해석했지만, 16비트 출력상태에 쓰는 smoothlevels16, smoothtweak16이 나온 이상
+이 글귀를 고려해 볼 필요성이 있어졌네요. 간단한 사용법
+smoothadjust v2.00부터 16비트에서 쓸 수 있는 함수 smoothlevels16, smoothtweak16이 추가되었습니다. 
+단 16비트(LSB)를 자체적으로 출력할 수 있는 기능은 없기에 16비트 디.......]]></description>
+					<pubDate>Wed, 02 May 2012 15:53:55 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[잡담 게시판]]></category>
+					<title><![CDATA[토요사키 아키(豊崎愛生) 사진 하나.. (바탕화면)]]></title>
+					<link>http://blog.naver.com/jongsbee/20156828059</link>
+					<guid>http://blog.naver.com/jongsbee/20156828059</guid>
+					<description><![CDATA[ 알다시피 케이온의 4인방 성우로 유명하며 다른 연기음역으로도 폭을 넓혀가고 있는 유망주 성우로 알고있다.
+그러나 한때 뮤지션 및 기타리스트 Tom-H@ck와의 동거설로 성우덕후들에게 엄청난 비난을 받은 바도 있다.  동거 들통난 때를 보면 토요사키씨 나이가 27이던데..
+아오.. 25살 넘어서 연애하는거 갖고 거 되게 지랄들을 합니다. 
+상대가 허접한 남자라면 모를까 멋지고 잘생기고 능력있는 남자던데 축복은 못 해줄 망정...  난 성우 이름들 정도만 알 뿐이라 별로 관심갖는 성우는 아니었으나
+위의 사진은 검색하다가 우연히 봤는데 너무 기가막히게 사진이 잘 찍혀나와서 배경화면으로 잘 사용하고 있다.
+세로가.......]]></description>
+					<pubDate>Mon, 30 Apr 2012 21:58:24 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[[공지] lsfmod의 Windows7 충돌현상에 대해.. - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20150076974</link>
+					<guid>http://blog.naver.com/jongsbee/20150076974</guid>
+					<description><![CDATA[윈도우7에서 lsfmod가 충돌나는 현상이 여태까지 있어왔고 그 부분에 대한 해결책을
+지금에서야 포스팅합니다. http://avisynth.org/mediawiki/Removegrain 위 링크에 가서 v1.0 pre-release Latest edition with SSE3 fix. 를 받아서 dll파일을 몽땅 플러그인 폴더에 넣어주시면 됩니다.(권장)
+아니면 v0.9 official 버전의 파일들 중에 sse3파일을 빼고 sse2파일을 쓰시면 됩니다.
+dll파일을 몽땅 플러그인 폴더에넣으면 그 중에cpu에 맞는걸 알아서 찾아줍니다. 여태까지RemoveGrain Package를v0.9 official으로 링크를 걸었던 이유는 
+v1.0 pre-release (선행공개) 라는 문구때문이었습니다. 정식버전이라는 말이 없어서 계속 0.......]]></description>
+					<pubDate>Sun, 05 Feb 2012 22:56:29 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[16bit 프로세싱을 통한 디더링 dither - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20137315528</link>
+					<guid>http://blog.naver.com/jongsbee/20137315528</guid>
+					<description><![CDATA[ 
+dither 스레드 - http://forum.doom9.org/showthread.php?p=1386559#post1386559  
+dither Required plugins 
+- MVTools2.dll(mod16) / dfttest.dll(mod16)/ libfft23f-3.dll (C:\Windows\system32) (윈도우 xp기준)
+Masktools2 a48 or above(mt_masktools-25.dll, mt_masktools-26.dll)
+-dither.avsi/ dither.dll / mt_xxpand_multi.avsi (dither plug-in and scripts) 사용 예...
+LoadPlugin("C:\Program Files\AviSynth 2.5\plugins\dfttest.dll") &lt;----- dfttest mod16 버전
+LoadPlugin("C:\Program Files\AviSynth 2.5\plugins\dither.dll")
+LoadPlugin("C:\Program Files\AviSynth 2.5\plugins\mvtools2.dll") &lt;----.......]]></description>
+					<pubDate>Wed, 07 Sep 2011 23:30:43 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[잡담 게시판]]></category>
+					<title><![CDATA[[110716] ぼいすた！ (보이스타) 16회【야마구치 캇페이 / 쿠도 하루카】]]></title>
+					<link>http://blog.naver.com/jongsbee/20133412492</link>
+					<guid>http://blog.naver.com/jongsbee/20133412492</guid>
+					<description><![CDATA[ 
+        
+과거의 영광을 뒤로하고 2년 넘게 실종(?)되었다가 정식으로 성우를 직업삼아 복귀한 쿠도 하루카 양..
+그러나 여신님을 기다리고 있는 배역들은 작품당 한두줄 밖에 안되는 엑스트라 역할들 뿐...
+소속사 시그마 세븐e 홈페이지에 아직도 샘플 보이스가 등록되지 않을 정도로 배역이 안 들어와 무척이나 굴욕의시간을 보내고 있다.
+&lt;너에게 닿기를 Season2 - 여학생역&gt;
+&lt;세계제일의 첫사랑 - 어시스턴트 역(맨 오른쪽)&gt; 
+&lt;듀얼 마스터즈 크로스 쇼크 - 피스 루피아 역&gt; 목소리가 조금 바뀌었다는 느낌만이 들 뿐 대사가 너무 짧아서 연기력이 늘었는지 여부는 확인이 무척 힘들었.......]]></description>
+					<pubDate>Sat, 23 Jul 2011 00:18:19 +0900</pubDate>
+					<tag><![CDATA[쿠도하루카,工藤晴香]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[잡담 게시판]]></category>
+					<title><![CDATA[宇宙飛行士への手紙 (우주비행사에게 온 편지) - Bump of Chicken]]></title>
+					<link>http://blog.naver.com/jongsbee/20126846617</link>
+					<guid>http://blog.naver.com/jongsbee/20126846617</guid>
+					<description><![CDATA[    서태지 옵하 얘도 사람이고 남자였구나.. ㅠ.ㅠ
+연예계 통틀어 최악으로 쇼킹한 뉴스였음. 누가 잘못했네 등은 따지고 싶지 않다. 그냥 너무 쇼킹해서 아직도 얼얼하다. Bump of Chicken의 "우주비행사에게 온 편지" 곡을 올리는 이유는 상황이 무척 닮았다고 생각되서이다.
+Mayday라는 곡과 함께 정말 좋아하는 곡인데, 뮤직비디오를 보면서 서태지도 여자를 어디 숨겨놓고 살지 않았을까 하는 상상도 좀했었다. 나중에 DVD원본 구하면 꼭 릴 떠야겠다. 중간의 기타간주가 꼭 우주선이 발사할때 나는듯한 사운드라서 정말 좋아하는 곡이다. =========================================================================.......]]></description>
+					<pubDate>Fri, 22 Apr 2011 00:29:02 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[잡담 게시판]]></category>
+					<title><![CDATA[紙ヒコーキ (종이비행기) - Vocal : 파스카 카논노 (CV :쿠도 하루카)]]></title>
+					<link>http://blog.naver.com/jongsbee/20124096851</link>
+					<guid>http://blog.naver.com/jongsbee/20124096851</guid>
+					<description><![CDATA[ 
+&lt;mp3 320kbps&gt; PSP게임 Tales of Radiant Mythology 시리즈의 베스트음반이 3월 2일날 발매되었다. 
+쿠도 하루카가 노에인과 허니와 클로버로 애니메이션 성우를 하게 된 이후 Tales of Radiant Mythology의 주인공 성우도 했던적이 있다.
+Tales of Radiant Mythology2의 주인공 역 성우는 이토 카나에, 3는 히라노 아야 라고 한다.   
+&lt;풀버전 다운로드 - http://blip.tv/file/get/Jongsbee-EventVideoTokyoGameShow2006TOW879.avi&gt; 티라노 아야는 안티팬이니 제껴두고 목소리만 놓고 보면 이토 카나에보다더 듣기좋다. ㅋㅋ
+심지어 원곡을 부른 우에무라 카나의 목소리보다 더 듣기가 좋은 것 같다.  .......]]></description>
+					<pubDate>Tue, 08 Mar 2011 23:14:46 +0900</pubDate>
+					<tag><![CDATA[쿠도하루카,工藤晴香]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[잡담 게시판]]></category>
+					<title><![CDATA[쿠도 하루카 성우계 복귀!!]]></title>
+					<link>http://blog.naver.com/jongsbee/20122226710</link>
+					<guid>http://blog.naver.com/jongsbee/20122226710</guid>
+					<description><![CDATA[  
+&lt;http://www.sigma7e.com/profile/ew_kudo.html&gt; 2007년에 연예계 사무소와의 계약기간이 만료되자 연장없이 (일거리도 없고해서) 그대로 은퇴해서 모습을 감춘지 3년... 
+그래도 나한테는 여전히 여신님으로 생각해왔던 쿠도 하루카씨가 성우계로 복귀한다는 소식을 들으니 그렇게 기쁠 수가 없다.
+(어떤 연예인을 정말 좋아하는 팬들의 마음과 비슷하다) 성우, 그림, 모델,배우, 버라이어티등등 여러가지 재능이 있었지만 한 분야로 제대로 나가기에는 아주 특출나지는 않았다.. 
+(나이가 어렸으니..) 모델 - 귀엽지만 키가 너무 작다. (151cm)
+배우 - 엑스트라 출연경험뿐... 그리고 키가 너무 작아 다양한 역할을.......]]></description>
+					<pubDate>Wed, 09 Feb 2011 22:38:33 +0900</pubDate>
+					<tag><![CDATA[쿠도하루카,工藤晴香]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[fastdegrain - MVTools Temporal 디노이저 경량판 - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20114032310</link>
+					<guid>http://blog.naver.com/jongsbee/20114032310</guid>
+					<description><![CDATA[  
+MVTools 홈페이지 - http://avisynth.org.ru/mvtools/mvtools.html/http://avisynth.org.ru/mvtools/mvtools2.html  MVTools 스레드 - http://forum.doom9.org/showthread.php?p=564686#post564686 TemporalDegrain(by Didee)- http://avisynth.org/mediawiki/Temporal_Degrain
+fastdegrain 스크립 - http://avisynth.org/mediawiki/upload/7/7d/FastDegrain.avs fastdegrain Required plugins - MVTools2.dll/ mt_masktools.dll/HQDn3d.dll/LimitedSharpenFaster.avs, MT.dll
+TemporalDegrain Required plugins- RemoveGrain Package / MVTools2.dll/ mt_masktools.dll / FFT3DFilter/ HQDn3d.dll 
+사용 예...
+LoadPlugi.......]]></description>
+					<pubDate>Fri, 24 Sep 2010 02:00:46 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[x264 MeGUI ]]></category>
+					<title><![CDATA[x264vfw 현재 근황 + 유용한 몇가지 팁!!]]></title>
+					<link>http://blog.naver.com/jongsbee/20109772018</link>
+					<guid>http://blog.naver.com/jongsbee/20109772018</guid>
+					<description><![CDATA[ 
+MeGUI가 AVI지원을 공식 중단함에 따라 Third Party(서드파티)들이 계속 업데이트를 진행하고 있는 x264vfw은 
+x264를 AVI 포맷용으로인코딩하기 적합하게 포팅된 인코더 코덱입니다.  x264vfw에 대해서는 예전 포스트에서 어느정도 적어둔게 있으니 참고하시면 되겠구요.
+여기서는 x264vfw를 사용할 때 알아두면 유용한 팁들을 적겠습니다. 1.Bitrate Calculator (비트레이트 계산기) x264vfw 인코더 코덱은 비트레이트 계산기가 없습니다. 그래서 CRF 인코딩이라면 모를까 2pass를 통해 용량을 맞추려면 좀 난감하죠.
+mkv와 mp4를 비교해보면 같은 용량에 mp4쪽이 비트레이트를 조금 많이 지정할 수 있습니다. 컨테이너에 따라.......]]></description>
+					<pubDate>Sat, 17 Jul 2010 00:45:38 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[Smoothlevels의 경량화 버전 SmoothAdjust - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20108851359</link>
+					<guid>http://blog.naver.com/jongsbee/20108851359</guid>
+					<description><![CDATA[  
+SmoothAdjust 스레드 - http://forum.doom9.org/showthread.php?p=1405575#post1405575 
+- SmoothLevels( input_low, gamma, input_high, output_low, output_high, chroma, limiter, preset, Lmode, DarkSTR, BrightSTR, Ecurve, Ecenter, protect, Smode, strength, dither, multithread ) 사용 예...LoadPlugin("C:\Program Files\AviSynth 2.5\plugins\SmoothAdjust-x86.dll")
+Smoothlevels(8,1,245,chroma=0,preset="tv2pc",smode=2) Smoothlevels가레벨만 조절하는게 아니고, Removegrain과 디밴딩필터 등이 연계적으로 작동하는 터라 ylevels나 levels에 비해
+조금 무거웠던게 사실입니다.Lato씨가 Masktools v2와 스크립.......]]></description>
+					<pubDate>Fri, 02 Jul 2010 23:37:57 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[잡담 게시판]]></category>
+					<title><![CDATA[쿠도 하루카 양 잡지 사진들 몇 장 스캔!!]]></title>
+					<link>http://blog.naver.com/jongsbee/20106405645</link>
+					<guid>http://blog.naver.com/jongsbee/20106405645</guid>
+					<description><![CDATA[   ※잡지 스캔 그림 다운로드
+Cool Trans 2006년 10월호
+ピクトアップ (Pick Up) #34 1
+ContinueSpecial 허니와 클로버 특집 1, 2
+Seventeen 2007년 07월 1일 호 졸업 페이지
+Seventeen 애니 호빵맨 녹음 현장 페이지
+Seventeen 애니 데스노트 성우 발표회장페이지
+그외 Seventeen 잡지 스캔 1, 2, 3, 4, 5, 6, 7 간만에 미친 짓거리 하나 했음.
+일본야후 옥션(이하 일옥)은 일본 유일무이(?)의 경매장인데 진짜 별의별 물건들이 다 올라오는 곳이다.
+가끔 구하기 힘든 레어급 물건들을 구하고 싶다면일옥에 가보시기를 바람...  일옥에서 우연히 검색해보는데 어느 특정 텔런트나 가수가 나온 잡지 페이지를 오려내서 100.......]]></description>
+					<pubDate>Tue, 25 May 2010 00:31:42 +0900</pubDate>
+					<tag><![CDATA[쿠도하루카,工藤晴香]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[x264 MeGUI ]]></category>
+					<title><![CDATA[MeGUI 2pass 인코딩 시간 줄이기 (날림 2pass)]]></title>
+					<link>http://blog.naver.com/jongsbee/20104979809</link>
+					<guid>http://blog.naver.com/jongsbee/20104979809</guid>
+					<description><![CDATA[
+&lt;그냥 짤방&gt; 
+&lt;1st pass Script&gt; 
+&lt;2nd pass Script&gt; 1st pass의 모션서치가 날림이라는 것을 이용해서 2pass 인코딩할 때 시간을 절약하는 방법입니다.
+서론은 집어치우고 본론부터 들어갑니다. 스크립트 2개를 준비합니다.
+위의 예처럼 첫번째 스크립트는 디인터/IVTC ,크롭, 리사이즈만 집어넣고 두번째 스크립트는 본래 스크립트로 합니다. 1.즉석에서 팁 적용하기
+이건 Snoopy님의 블로그에도 나온 방법인데 1st pass 스크립트를 불러와서 Automated 2pass 모드로 큐에 집어넣습니다.
+그 뒤 Start를 눌러 1st pass가 시작되면 1st pass 스크립트를 메모장에 불러와서 2nd Pass Script의 내용으로.......]]></description>
+					<pubDate>Sat, 01 May 2010 14:02:05 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[변환, Codec, 잡담]]></category>
+					<title><![CDATA[Haali Media Splitter (14/08/2010) - CoreAVC 2.0 사용자 필독]]></title>
+					<link>http://blog.naver.com/jongsbee/20104064909</link>
+					<guid>http://blog.naver.com/jongsbee/20104064909</guid>
+					<description><![CDATA[  27/03/2010 New Features:  - Added AC-3 in MP4 support -뭐?mp4에 AC3가 들어간다고??Fixed items: - Show error code in GDSMux when muxing is aborted - Accept more AAC media types in the muxer - Use correct timescales when processing MP4 edit lists-mp4 재생시 올바른 시간척도를 사용함. - Scan the folder for more segments only if the file references external segments  20/05/2010
+ * New Features: - Added support for WebM files  * Fixed items: - Fixed a lot of issues with mp4 muxer - Better support for VC-1 in MPEG Transport streams 14/08/2010
+ * Fixed items: - Fixed aspect ratio proce.......]]></description>
+					<pubDate>Thu, 15 Apr 2010 23:09:25 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[AvsP mod 2.0.6 - avs 스크립트 에디터 (개조판)]]></title>
+					<link>http://blog.naver.com/jongsbee/20102970542</link>
+					<guid>http://blog.naver.com/jongsbee/20102970542</guid>
+					<description><![CDATA[  
+AvsPmod 2.0.6 스레드 - http://forum.doom9.org/showthread.php?p=1381211#post1381211 
+다운로드 - http://amvhell.com/stuff/avspmod/AvsPmod%202.0.5.zip 자신이 만든 ZIVTC 스크립트를 스스로 사용중지권고한 경력(-_-;;)이 있는 Zarxrax씨가 AsvP를 약간 손봐서 개조판을 만들었습니다.
+방향키가 텍스트 영역에서 작동하지않은 점, F9키로 파일을 불러오는 디폴트 형식이 늘어난 거 외에는 딱히 내세울 것은 없네요.
+그래도 mkv,mp4,wmv 같은 파일형식도 디폴트로 추가되어서 따로 All files(*.*)를 선택할 필요가 없어무척 편해졌습니다. 
+&lt;AvsP 2.0.2의 파일 불러오기 화면&gt; 
+&lt;AvsPmod 2.0.5의 파일 불러.......]]></description>
+					<pubDate>Sun, 28 Mar 2010 21:27:16 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[음악 게시판]]></category>
+					<title><![CDATA[DARKER THAN BLACK -유성의 제미니- 3권 특전싱글 - Twinkle Real Star]]></title>
+					<link>http://blog.naver.com/jongsbee/20101570214</link>
+					<guid>http://blog.naver.com/jongsbee/20101570214</guid>
+					<description><![CDATA[  
+- 트랙 리스트 - All songs by Hanazawa Kana
+1. Twinkle Real Star2. 哀しき夢の&#24059;3. 光り輝く人よ4. Twinkle Real Star (instrumental)5. 哀しき夢の&#24059; (instrumental)6. 光り輝く人よ (instrumental) DARKER THAN BLACK -유성의 제미니- 블루레이/DVD 3권 완전생산한정판에 들어있는 특전싱글이다. Twinkle Real Star는 06화에서 스오우를 짝사랑하던 청년 노리오가 자신의 어머니를 생각하면서 질질짜는 장면에서 나온 곡이다.
+이 곡은 유성의 제미니 OST에 추가해두었다. 링크
+여성보컬의 음색이 좀 특이하다 생각했는데, 설마 스오우 역을 맡은 하나자와 카나씨의 목소리인줄은 몰랐다. 
+&lt;mp3 256kbps&.......]]></description>
+					<pubDate>Fri, 05 Mar 2010 23:52:13 +0900</pubDate>
+					<tag><![CDATA[음악]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[AVIUtl의 해상도 (856x576) 제한 풀기 - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20101512890</link>
+					<guid>http://blog.naver.com/jongsbee/20101512890</guid>
+					<description><![CDATA[WarpSharp 옵션값들은 값범위가 넓기때문에 AVIUtl의 프리뷰로 값을 구하는 과정을 거치는게 여러모로 편리합니다.
+문제는 AVIUtl에서 불러올 수 있는 동영상의 해상도가 856x576으로 제한되어 있습니다.
+블루레이나 HDTV소스는 말할 것도 없고 DVD도 확대해서 인코딩하는 마당인데... 이걸 해결하는 방법은 간단합니다. File-&gt;General Settings-&gt;System Configuration에 들어가서 MAX picture size값을 수정해주시면 됩니다.
+최대해상도 값을 지정하면 되는데 1920x1080이면 못 불러오는 동영상은 없겠지요. 
+값을 수정했으면 OK 누르고 AVIUtl을 종료 후 다시 실행하시면 됩니다. 끝...  ※WarpSharp의 Cubic
+AVIUtl에.......]]></description>
+					<pubDate>Thu, 04 Mar 2010 23:55:55 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[tweak(coring=false), histogram()에 대하여... - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20101440830</link>
+					<guid>http://blog.naver.com/jongsbee/20101440830</guid>
+					<description><![CDATA[  tweak (AVISynth Internal Filter) 옵션 관련 페이지 - http://avisynth.org/mediawiki/Tweak, avisynth.info(한글번역)
+Example...tweak(sat=1.13, bright=4, coring=false) AVISynth에 내장된 필터로 채도(sat), 밝기(bright), 명도(cont)를 주로 조절하는 데에 쓰입니다.
+현재 AVISynth의 가장 최신버전인2.58 버전의 tweak에추가된 interp라는 옵션은 채도를 보간(Interpolate)하는 기능입니다. (디폴트권장)  tweak의 채도,밝기,명도에 대해서는 Ylevels와 감마에 대해.. 포스트에서 이미 설명한 바가 있고...
+이 포스트에서 이야기하고자 하는건 tweak에 옵션 중 하나인 coring의 디폴트값이 true라서 생기는 문제점들입.......]]></description>
+					<pubDate>Wed, 03 Mar 2010 19:47:14 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[x264 MeGUI ]]></category>
+					<title><![CDATA[새로워진 x264 옵션]]></title>
+					<link>http://blog.naver.com/jongsbee/20098085562</link>
+					<guid>http://blog.naver.com/jongsbee/20098085562</guid>
+					<description><![CDATA[  
+제목을 뭘로 지어야 할려나...
+오랜 테스트를 거쳐 MeGUI가 드디어 정식 업데이트를 시작하였습니다. 이제 안정화에 들어갔다고 생각해도 무방하겠네요. 새로이추가된 옵션만 간단하게 설명하도록 하겠습니다.
+이전 x264옵션에 대해 알고싶으시면 여기를 클릭..  튜닝과 프리셋 관련 스레드
+http://forum.doom9.org/showthread.php?p=1301866#post1301866 튜닝(Tunings)은 인코딩할려는 소스의 타입을 가리키고, 프리셋(Presets)은 튜닝의세부옵션 강도를 지정할 수 있습니다.
+영화를 살짝 빡세게 인코딩한다고 치면 Tunings는 Film, Presets은 slow로 맞추는 식이지요.
+x264의 고급옵션을 잘 모르는 사람들을 위한 기능.......]]></description>
+					<pubDate>Sun, 17 Jan 2010 12:18:39 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[x264 MeGUI ]]></category>
+					<title><![CDATA[x264 대규모 업데이트 프리뷰 - MB-Tree, rc-lookahead, Lookahead VBV]]></title>
+					<link>http://blog.naver.com/jongsbee/20098067528</link>
+					<guid>http://blog.naver.com/jongsbee/20098067528</guid>
+					<description><![CDATA[  
+이 포스트는 관련 스레드의 글 내용을 번역한 것입니다. MB-Tree, rc-lookahead 관련 스레드
+http://forum.doom9.org/showthread.php?p=1310980#post1310980  Warning: (not really) Highly Experimental경고 : (꼭 그런건 아니지만) 매우 실험적임 Changes in 0.11:1.VBV 지원. MB-Tree는 CBR(고정 비트레이트 모드)에서 별 득이 없음.Changes in 0.13:1.VBV 패치2.B-adapt 1이 현재 지원됨.3.모든 B-adapt code가 MB-Tree에 합쳐짐, B-adapt =1 은 아주 약간 좋아짐일반적으로 3개의 B-adapt 모드는 현재 같은 베이직 프레임워크를 사용 4.MB-Tree 강도는 qcomp에 따라 조절한다. qcomp값을 올리면 MB-Tree 강도가 낮아짐.......]]></description>
+					<pubDate>Sun, 17 Jan 2010 00:11:05 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[x264 MeGUI ]]></category>
+					<title><![CDATA[NeroAAC 1.5.1.0 released]]></title>
+					<link>http://blog.naver.com/jongsbee/20096994217</link>
+					<guid>http://blog.naver.com/jongsbee/20096994217</guid>
+					<description><![CDATA[릴리즈 소식 - http://forum.doom9.org/showthread.php?p=1356089#post1356089
+다운로드 링크 - http://www.nero.com/eng/downloads-nerodigital-nero-aac-codec.php 
+2009-12-17 - Version 1.5.1.0
+ - neroAacEnc: - Enabled preserving of very quiet high frequencies at high bitrates - 고비트레이트에서 아주 조용한 높은 주파수 보존 - Improved encoding of sample rates higher than 48kHz - 48Khz보다 높은 샘플레이트의 인코딩 향상 - Solved compatibility issues with some hardware devices - 몇몇 하드웨어 장치 호환성 해결 - Write iTunes compatible gapless data - Write the encoder settings to metadata -파일에 인.......]]></description>
+					<pubDate>Sat, 02 Jan 2010 18:56:32 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[음악 게시판]]></category>
+					<title><![CDATA[Darker Than Black -유성의 제미니- (流星の双子, Gemini of the Meteor) OST, mp3 320Kbps]]></title>
+					<link>http://blog.naver.com/jongsbee/20096943033</link>
+					<guid>http://blog.naver.com/jongsbee/20096943033</guid>
+					<description><![CDATA[  Darker Than Black 제작중에 원작가가 시나리오 들고 잠적해서 1기엔딩이 대해서도 말이 많았는데, 유성의 제미니의 엔딩을 본 사람들의 반응은 1기보다 더하면 더했지 못하지는 않았다. 시온 파브리첸코가 엔딩에서 만들어낸것을 보면 어이없고 현실에 너무 동떨어진 거라서..
+오키무라 텐사이 감독은 3기는 만들지 않겠다고 했고, 블루레이에 포함될 OVA나 기대해달라는 말에 2ch 사람들이 대부분 분노했다.
+인과 헤이의 알콩달콩 사랑이야기가 그게 그렇게 중요한가... 유성의 제미니는 최종화를 제외하고는 무척이나 괜찮았다.  그리고 1기와 2기의 설정이 뒤섞여버려서 작가들도 결국 "나도몰라설정"식으로 끼워져서 이야기.......]]></description>
+					<pubDate>Fri, 01 Jan 2010 22:51:47 +0900</pubDate>
+					<tag><![CDATA[음악]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[스크랩 게시판]]></category>
+					<title><![CDATA[마도베 나나미 (窓辺ななみ) - 일본 윈도우7 공식 응원 캐릭터 - 바탕화면 모음]]></title>
+					<link>http://blog.naver.com/jongsbee/20092576245</link>
+					<guid>http://blog.naver.com/jongsbee/20092576245</guid>
+					<description><![CDATA[일본 MS사에서 7777개 한정판으로 발매된 윈도우7 테마팩...
+그동안 윈도우걸이라고 모에를 강조한 캐릭터들이 나왔지만,공식적으로 캐릭터가 나올 줄이야...
+이 쪽으로 홍보를 할 줄은 몰랐는데 왠지 부럽따.... 우리나라가 이런거 하면설마 9시뉴스에 나오지는 않겠지... 공식적으로 나온 바탕화면은 3개가 있는데 실제 쓰기에는 좀 적합하지 않아서 다른 바탕화면만 몇개 구해왔다.
+테마팩을 굳이 깔고싶지는 않고... 리사이즈는 알아서 하시길...    
+]]></description>
+					<pubDate>Mon, 02 Nov 2009 21:43:56 +0900</pubDate>
+					<tag><![CDATA[음악,IT·컴퓨터]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[음악 게시판]]></category>
+					<title><![CDATA[Darker Than Black OST 미수록곡이 포함된 5.1ch 극반집 (Blu-ray Box 초회한정판)]]></title>
+					<link>http://blog.naver.com/jongsbee/20091525441</link>
+					<guid>http://blog.naver.com/jongsbee/20091525441</guid>
+					<description><![CDATA[ 
+&lt;블루레이 5.1ch PCM -&gt;2ch Downmix-&gt;Lame mp3 48khz 320kbps gain&gt; Darker Than Black 블루레이 박스 Vol.5에 수록된 OST이다. 블루레이 본편 디스크에 5.1채널 PCM으로 수록되어 있는데, 대체 왜 이렇게 했을까? 그냥 오디오CD로 따로 해서 내면 얼마나 좋아... 아마존 상품평을 보면 OST 들을려고 PS3켜고 TV켜고 메뉴골라서 듣는게 짜증난다는 의견들이 있다. (나라도 그럴듯..)
+음악같은건 5.1채널보다는 2채널이 진리 아닌가?? 5.1채널이라봐야 리얼이 아닌 가상분리일터이고...
+음악을 TV켜놓고 들으면 그게 좋은걸까? 흑의계약자는 SD마스터라서 블루레이가 안 나올것 같았는데 그래도 혹시 모르니까
+OST2.......]]></description>
+					<pubDate>Sun, 18 Oct 2009 00:13:18 +0900</pubDate>
+					<tag><![CDATA[음악]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[Gradfunkmirror 스크립 - 디밴딩 필터 버그수정(가장자리 16픽셀 미처리) - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20091399976</link>
+					<guid>http://blog.naver.com/jongsbee/20091399976</guid>
+					<description><![CDATA[     SoulHunter 홈페이지 - http://soulhunter.razorbb.net/
+Gradfunkmirror.avs 스크립 다운로드 - http://soulhunter.razorbb.net/data/gradfun2db.zip
+Gradfun2db가 포함된 SmoothLevels 스크립제작자와의질의응답 - http://forum.doom9.org/showthread.php?p=1308607#post1308607 사용 예.....
+import("C:\Program Files\AviSynth 2.5\plugins\gradfunk.avsi")
+LoadPlugin("C:\Program Files\AviSynth 2.5\plugins\gradfun2db.dll") gradfunkmirror()  &lt;Gradfun2db(120)&gt; 
+&lt;gradfunkmirror(120)&gt; 디밴딩필터 Gradfun2db는 가장자리 16픽셀을 처리하지 않는 버그가 있었습니다. 강도를 높.......]]></description>
+					<pubDate>Thu, 15 Oct 2009 22:18:33 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[Vobsub 2.23 fix (Subresync와 IE8 충돌문제 해결)]]></title>
+					<link>http://blog.naver.com/jongsbee/20091399734</link>
+					<guid>http://blog.naver.com/jongsbee/20091399734</guid>
+					<description><![CDATA[ 
+VobSub 2.23 (in particular submux.exe and subresync.exe)doesn't work if Internet Explorer 8 is installed.
+This ZIP archive contains repacked executables which should work with IE8 installed.
+submux.exe 122.880 bytessubresync.exe 159.744 bytes
+Rename or delete the old files and put these in their place.
+---Perplexer 19/08/2009 
+정보출처 - http://forum.moztw.org/viewtopic.php?p=144906#144906 동영상 자막삽입에 유용한 Subresync가 IE8이 설치된 컴퓨터에서 실행이 되지 않는 문제가 해결되었습니다.
+파이어폭스 포럼에서 나왔네요!! VobSub가 설치된 폴더에 가서 압축파일을 풀어 submux.exe와.......]]></description>
+					<pubDate>Thu, 15 Oct 2009 22:14:10 +0900</pubDate>
+					<tag><![CDATA[FLV,AVISynth,AVS,x264]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[YADIF (SSSE3 지원) - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20091399622</link>
+					<guid>http://blog.naver.com/jongsbee/20091399622</guid>
+					<description><![CDATA[ 
+YADIF 관련 스레드 - http://forum.doom9.org/showthread.php?p=978581#post978581(by Fizick)YADIF 다운로드 및 버전 히스토리 페이지 - http://avisynth.org.ru/yadif/yadif.html
+사용 예...LoadcPlugin("C:\Program Files\AviSynth 2.5\plugins\yadif.dll") #필수 구문yadif() YADIF(Yet Another DeInterlacing Filter)
+방송소스를 인코딩하는 분들이 많이 쓰는 디인터레이서입니다. 너무 유명한필터이니 굳이 설명할 필요는 없겠죠? 2007년 6월 17일부를 끝으로 업데이트가 중단되었는데, 2008년 8월에 들어서갑자기 버전업이 되어 올라오기 시작하였습니다.
+계속 버전업 될지 모르니 다운로드 페이지를 자주 체크하시길 바라며.......]]></description>
+					<pubDate>Thu, 15 Oct 2009 22:12:23 +0900</pubDate>
+					<tag><![CDATA[avs,avsp,x264,yadif,yadifmod,nnedi,nnedi2]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[aWarpSharp Rewrite (aWarpSharp 개조판) - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20071439861</link>
+					<guid>http://blog.naver.com/jongsbee/20071439861</guid>
+					<description><![CDATA[ 
+aWarpSharp Rewrite 관련 스레드 - http://forum.doom9.org/showthread.php?p=1289036#post1289036 
+사용 예.... LoadPlugin("C:\Program Files\AviSynth 2.5\plugins\aWarpSharp2.dll")
+aWarpSharp2(thresh=128,blur=3,type=0,depth=12,chroma=3)aWarpSharp2(128,3,0,12,3) 
+awarpsharp(20,2,0.6) #old (marcFD) 
+awarpsharp2(154,2,0,20,3) #new ===========================================================================================================================
+aWarpSharp package 2009.06.19 - a WarpSharpening filter for Avisynth 2.5 This filter implements the same WarpSharpening algorithm .......]]></description>
+					<pubDate>Sat, 27 Jun 2009 08:17:49 +0900</pubDate>
+					<tag><![CDATA[avs,avsp,x264,awarpsharp,yahr,warpsharp]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[AVIUtl의 WarpSharp 프리뷰 설정치를 AVISynth에 그대로 이용하기 - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20070979833</link>
+					<guid>http://blog.naver.com/jongsbee/20070979833</guid>
+					<description><![CDATA[WarpSharp 설정치를 AVIUtl v0.99 프리뷰로 구하는 과정을 소개한적이 있는데, 부정확성을 해결하는 방법이 있어 간단히 적습니다.
+WarpSharp 패키지를 보면 각종파일들이 있는데 이 중 몇개의파일을 aviutl에 복사하고 고쳐주는 과정이 필요합니다. 정보출처 - http://j2k.naver.com/j2k_frame.php/korean/www.avisynth.info/?AviUtl%A4%C7AviSynth%A5%D5%A5%A3%A5%EB%A5%BF%A4%CE%C0%DF%C4%EA%A4%F2%B9%D4%A4%A6 위의 링크를 참고하여 작성해주시면 됩니다.  avsfilter.auf, avsfilter.dll, WarpSharp.auf.avs(Sample 폴더에 있음)을 AVIUtl폴더에넣어준 후 메모장에서 WarpSharp.auf.avs를 불러와서 info부분을 밑에처럼 수정을.......]]></description>
+					<pubDate>Sat, 20 Jun 2009 22:18:05 +0900</pubDate>
+					<tag><![CDATA[avs,warpsharp,aviutl,x264]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[리미티드샤픈 개조판 LSFmod (LimitedSharpenFaster MOD) - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20066559528</link>
+					<guid>http://blog.naver.com/jongsbee/20066559528</guid>
+					<description><![CDATA[   SmoothLevels 스크립을 만들었던 Lato씨는 남이 만들어낸 필터를 적당히 뜯어고치거나 이것저것 덕지덕지 붙이는것을 좋아하나 봅니다.
+필름그레인을 제거하는데 유용한 MCTemporalDenoise를 만들어내기도 했지요. (졸라 무겁긴 하지만...)
+요즘은 뭐 샤픈의 필수이자표준이 되어버린 리미티드 샤픈 (by Did&eacute;e) 개조판의 최종버전이 나온지가 좀 되었네요. LSFmod (LimitedSharpenFaster MOD by Lato) 스레드 - http://forum.doom9.org/showthread.php?p=1212079#post1212079 
+사용 예....
+import("C:\Program Files\AviSynth 2.5\plugins\LSFmod.v1.8.avsi")LSFmod(defaults="slow",soothe=false) 필터 다운로드 - LS.......]]></description>
+					<pubDate>Fri, 01 May 2009 00:21:36 +0900</pubDate>
+					<tag><![CDATA[avs,avsp,x264,limitedsharpenfaster]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[x264 MeGUI ]]></category>
+					<title><![CDATA[[오류 정정] x264vfw H.264/MPEG-4 AVC Encoder, AVC2AVI Muxer]]></title>
+					<link>http://blog.naver.com/jongsbee/20065427266</link>
+					<guid>http://blog.naver.com/jongsbee/20065427266</guid>
+					<description><![CDATA[내용 수정을 해서 포스트에 추가해두었기에 여기서는 수정한 내용을 열거하도록 하겠습니다. 1.VD Hack
+x264vfw 옵션의 Main탭을 보면 VirtualDub Hack라는 옵션이 있는데, 왠만하면 체크해주실것을 권장합니다.  이 옵션은 avi 컨테이너에 담을때 b프레임을 허용하게 합니다. 
+x264가 avi에 적합하지 않은 이유중에 하나가 b프레임을 지원하지 못하기 때문이지요. VD Hack 옵션이 mkv나 mp4처럼 x264의 b프레임이
+완벽히 호환이 되는지는 미지수이지만체크 안하는 것보다는 낫습니다. ============================================================================================================================= 
+- V.......]]></description>
+					<pubDate>Thu, 09 Apr 2009 12:06:41 +0900</pubDate>
+					<tag><![CDATA[x264vfw,x264,megui,virtualdub]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[변환, Codec, 잡담]]></category>
+					<title><![CDATA[madFlac v1.8 - new DirectShow FLAC source filter + decoder]]></title>
+					<link>http://blog.naver.com/jongsbee/20065272765</link>
+					<guid>http://blog.naver.com/jongsbee/20065272765</guid>
+					<description><![CDATA[간단히 말해서 FLAC 전용 디코더되겠다.
+관련 스레드 - http://forum.doom9.org/showthread.php?p=1051573#post1051573
+다운로드 - http://madshi.net/madFlac.rar madFlac v1.8 Changelog
+* added support for WAVE_FORMAT_PCM* changed standalone file decoding a bit to (hopefully) improve bit for bit correctness* fixed handling of multiple FLAC tracks with different parameters in a container  다운로드 받고 압축을 푼 뒤 install.bat를 실행하면 설치 끝..
+그 뒤 KMP에 가서 강제사용에 등록해주면 된다. 그러고보니 mad계열은 mp3 디코더도 있었구나..  
+&lt;가상 5.1채널 출력?&gt; DirectShow 디코더.......]]></description>
+					<pubDate>Mon, 06 Apr 2009 14:34:24 +0900</pubDate>
+					<tag><![CDATA[flac]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[Subresync가 실행이 안되는 문제.. ]]></title>
+					<link>http://blog.naver.com/jongsbee/20064632426</link>
+					<guid>http://blog.naver.com/jongsbee/20064632426</guid>
+					<description><![CDATA[avs 스크립트를 통한 자막삽입에 무척이나 유용한 VobSub의 Subresync가 어느 순간부터 실행이 안되는 문제가 발생했다.
+실행아이콘을 더블클릭해도 실행이 아예 안된다.  언인스톨 하고 다시 깔아도 안되길래 도대체 뭐가 문제일까 해서 구글신에게 문의해봤는데 두둥~~~
+문제는 IE8이었다.   뭔 소리인지는 모르겠지만 하여튼 해결책은 IE8 지우고 IE6이나 IE7을 쓰라는 것이었다.
+설마했는데 IE8을 지우니까 거짓말처럼 Subresync가 잘만 실행이 되었다. 휴~~앞으로도 쭉IE7에 만족해야겠다. 망할~~
+IE8도 그룹정책에서 항상 IE7엔진으로 에뮬레이팅하게 하는 옵션을 사용하면 호환성문제가 없었는데.. ㅠ.ㅠ]]></description>
+					<pubDate>Tue, 31 Mar 2009 22:22:14 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[라인을 굵게 칠해주는 FastLineDarken (개조버전 추가) - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20063775254</link>
+					<guid>http://blog.naver.com/jongsbee/20063775254</guid>
+					<description><![CDATA[
+FastLineDarken 스크립 스레드 -http://forum.doom9.org/showthread.php?p=616362#post616362 할로 제거를 위해 워프샤프계열의 필터를 사용하면 라인이 필연적으로 얇아지는 문제가 있습니다.
+요즘 신작 애니메이션 소스는 고전에 비해 라인이 얇게 나오는 경우가 많은데, 이런 소스에 워프샤프를 쓰면 라인이 너무 얇아지는 문제가 있지요. 그래서 미리 라인을 굵게 만들어줄 필요성이 있는데 그게 FastLineDarken입니다. 라인을 그냥 굵게하고 싶을때에도 쓰구요. 예를 들어 라인다큰을 쓰면 라인이 약간 굵어지기 때문에 얼굴이나 옷깃 등의윤곽선을 조금 분명하게 표현 할 수가 있지요. 이 방법은 둠나인포럼에서도 거의 정형화.......]]></description>
+					<pubDate>Mon, 16 Mar 2009 15:28:02 +0900</pubDate>
+					<tag><![CDATA[FastLineDarken,dehalo_alpha,halo,warpsharp,x264,vmtoon,LimitedSharpenFaster,mftoon]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[aWarpSharp를 이용한 간편하고 효과 좋은 Halo 제거 스크립 YAHR - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20063641583</link>
+					<guid>http://blog.naver.com/jongsbee/20063641583</guid>
+					<description><![CDATA[ 
+요즘 신작애니메이션 소스는 고전소스에 비해 노이즈는 적어졌지만, 밴딩이나 할로현상은 더 심한 것 같더군요.
+그래서 할로는 WarpSharp필터와 Dehalo_alpha 스크립으로만 없애는게 많이 힘들어졌습니다. Dehalo_alpha는 할로는 없애기는 하지만,뭉개서 표를 안내는 정도의 느낌이 더 강하지요. 오래된 버전(v1.5.8)의 MaskTools을 쓴다는 문제도 있구요. aWarpSharp필터도 동원하면 할로를 더 찍어 누르는게 가능하긴 하지만, blurlevel=1로 지정해도 할로를 찍어 누르기 위해 depth값을 올리면 라인이 좀 휜다는 부작용이 있습니다. depth를 8정도로만 하면 라인에 그리 큰 변화는 없긴 하지만, warpsharp와 awarpsharp를 같이 쓰는 경.......]]></description>
+					<pubDate>Sat, 14 Mar 2009 01:55:05 +0900</pubDate>
+					<tag><![CDATA[YAHR,dehalo_alpha,halo,warpsharp,x264,awarpsharp]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[JW Player]]></category>
+					<title><![CDATA[베리즈웹쉐어와 JW Player 연동으로 자신의 PC를 서버로 활용하기]]></title>
+					<link>http://blog.naver.com/jongsbee/20062750286</link>
+					<guid>http://blog.naver.com/jongsbee/20062750286</guid>
+					<description><![CDATA[JW Player를 사용하는데 있어서 가장 큰 문제는 동영상파일을 올릴 서버를 찾는 것입니다.
+저야 몇군데 알고있긴 한데 사실 이것도 불법이죠. 그래서 사람들이 많이 몰리는 커뮤니티에 JW Player를 올리는것은 그 서버에 막대한 부하를 주기 때문에 양심상 껄끄럽지 못한 문제입니다. ※베리즈웹쉐어 (Berryz WebShare)
+http://berryz.upnl.org/main.php/WebShare/Download/  이 프로그램은 자신의 PC를 서버로 삼아줍니다. 그래서 자신의 PC의 하드디스크에 있는 파일을 공유시키는게 가능합니다.
+홈페이지에 있는 설명글들을 찬찬히 읽어보시면 되게 쉽다는 것을 아시게 될 겁니다.
+이 프로그램은 원래 자신의 지인등에게 파일을.......]]></description>
+					<pubDate>Wed, 25 Feb 2009 19:59:07 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[LanczosResize vs Spline36Resize - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20062219886</link>
+					<guid>http://blog.naver.com/jongsbee/20062219886</guid>
+					<description><![CDATA[관련 스레드 - http://forum.doom9.org/showthread.php?p=842403#post842403 위 스레드에 있는 의견을 모은 결과입니다.  ◆spline36은 Lanczos보다 아주 약간 낫다. (very slightly better) 
+-&gt;하지만 리사이징하는 면적이 작으면 Spline36과 Lanczos 리사이저 사이에 얻는 이득이 없다. (no real benefit) ◆대부분의 사람들은 Lanczos를 사용한다. (Most people use lanczos)  ◆lanczos4보다 spline36이 약간 느리다. 
+ -&gt;하지만 리사이저의 각각의 스피드는 그렇게 큰 차이가 없다. (There is a difference in speed, but it is not too significant) ◆spline36보다 lanczos4이 약간 더 sharp하다. (Q Factor.......]]></description>
+					<pubDate>Tue, 17 Feb 2009 20:38:17 +0900</pubDate>
+					<tag><![CDATA[avs,avsp,avisynth,x264,resizer]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[디블록(Deblock), 링잉(Ringing), 표면 누르기(2DClean), DCT 블럭 - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20061718753</link>
+					<guid>http://blog.naver.com/jongsbee/20061718753</guid>
+					<description><![CDATA[ 
+이제 애니메이션 DVD립에 관한 강좌가 끝이 보이기 시작하는군요. -_-;;v++ x264 Deblocking
+x264는 다른 MPEG4 계열의 압축코덱(DivX, XviD, WMV9등등)에 비해 놀라운 압축률과 성능을 지닌 코덱입니다.
+삼태기님 말대로 x264압축과정에서 고주파를 효과적으로 제거하여 압축률을 높히지만, 이게 자막같은 라인에서 아티팩트가 발생하게 만드는 요인입니다. 피사체의 외곽선이나 자막, 라인은 이런 고주파로 구성되어 있습니다. avsp 프리뷰는 잘 나왔지만 막상 인코딩된것을 보면 라인주위가 뭔가 좀 지저분하다는 느낌이 있지요. Xvid같은 코덱을 사용할때는 이런 고민을 할 필요가 없었지만, 애니메이션을 x264로 압축한다면 어느.......]]></description>
+					<pubDate>Mon, 09 Feb 2009 20:46:18 +0900</pubDate>
+					<tag><![CDATA[halo,ring,2dclean,aviutl,avs,avsp,avisynth,x264]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[잡담 게시판]]></category>
+					<title><![CDATA[쿠도 하루카 양 잠정은퇴 아닌 듯...]]></title>
+					<link>http://blog.naver.com/jongsbee/20061463507</link>
+					<guid>http://blog.naver.com/jongsbee/20061463507</guid>
+					<description><![CDATA[  
+남코가 제작한 스카이 크롤러 Wii 타이틀이 있는데 거기에서 주인공 성우를 맡았다고 적혀있다. 영화 스카이 크롤러 안 봐서 실제 주인공들이 누군지는 모르겠고, 게임상에 등장하는 캐릭터는 영화와 좀 다른듯... 캐릭터 보니까 남자인지 여자인지도 구분이 안 가지만, 예전에 노다메 칸타빌레 드라마에서 나오는 가공애니 프리고로타에서 소년 고로타역을 맡은적도 있다고 하니까 뭐.. 프리고로타는 나중에 노다메 칸타빌레 드라마 DVD에서 특전으로 나온거 치고 세심하게 만들어졌다고 한다.                 08년 10월 초에 기사, 기사2가 나온걸 보니 상당히 최근의 일이다. .......]]></description>
+					<pubDate>Thu, 05 Feb 2009 16:38:28 +0900</pubDate>
+					<tag><![CDATA[쿠도하루카,工藤晴香]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[halo를 제거하는 스크립 DeHalo_alpha와 라인정리용 샤픈 필터 WarpSharp - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20061174985</link>
+					<guid>http://blog.naver.com/jongsbee/20061174985</guid>
+					<description><![CDATA[ 
+아래그림을 잘 보면 검은 선(line)주위에 투명한 흰 선이 같이 평행하게 그어져있는게 보이는데 저게 할로(halo)입니다. 눈에 잘 띄는 부분만 동그라미 쳐놓았는데 잘 보면 아주 희미하게 그어져있는 halo도 보입니다. 2번째 그림의 오른쪽 여자애의 머리를 보면 캐릭터의 바깥쪽에도 halo가 보이죠. 
+&lt;풀스크린으로 볼것&gt; 샤픈을 과도하게 줄 때 라인이 찌끄러진(aliasing)다던가 아티팩트(도트), 혹은 halo 현상이 심해진다고 하죠.
+그런데 립핑을 하다 보니까 라인주위에 있는 할로는 원본소스 자체에도 있는게 대부분이었습니다. 압축해서 DVD에 담길 때 생긴건가??
+그러고보니 DVD 소스의 가장자리를 봐도 투명한 흰 선이.......]]></description>
+					<pubDate>Sat, 31 Jan 2009 23:32:02 +0900</pubDate>
+					<tag><![CDATA[dehalo_alpha,halo,warpsharp,aviutl,avs,avsp,avisynth,x264]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[x264 MeGUI ]]></category>
+					<title><![CDATA[MEGUI의 Worker 기능 활용하기]]></title>
+					<link>http://blog.naver.com/jongsbee/20061122879</link>
+					<guid>http://blog.naver.com/jongsbee/20061122879</guid>
+					<description><![CDATA[이 기능을 쓰기 위해서는 CPU는 최소 듀얼코어급이나 그 이상이 되야 활용할 수 있습니다.
+Worker라는건 그룹이라고 생각하면 될 듯 하네요.   ※Workers (그룹)
+자신의 CPU가 듀얼코어라고 가정해봅시다. 분량이 긴 동영상 인코딩작업 하나를 수행중인데, MEGUI를 이용해서 갑자기 급하게 만들어야 할 짧은 분량의 Video나 Audio 인코딩을 해야 할 일이 있을 수 있습니다. 이 때는 어덯게 해야 할까요? 이미 인코딩중인 작업이 끝나기를 기다려야 할까요? 인코딩중인 작업물을Abort(취소)-&gt;그 뒤 급하게 만들어야 할 것을 인코딩-&gt;취소한 작업을 처음부터 다시 수행 
+이렇게 한다면 그 동안의 인코딩시간이 무척 아깝게 되지.......]]></description>
+					<pubDate>Sat, 31 Jan 2009 01:29:34 +0900</pubDate>
+					<tag><![CDATA[avs,aac,x264,mp4,megui,flash,jwplayer]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[AAA (Anime Anti Aliasing) 안티 얼리어싱 필터 - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20060814365</link>
+					<guid>http://blog.naver.com/jongsbee/20060814365</guid>
+					<description><![CDATA[ 
+립핑을 실제로 해보면서 안티 얼리어싱 필터가 (애니메이션에서 특히) 무척 중요하다는 것을 느꼈습니다. 동영상을 립핑하고 나고 재생을 하면 보통 전체화면으로 감상하는게 보통인데, 이 때 라인이 우툴툴한게 크게 체감이 되기 때문입니다.
+원인으로는 샤픈의 부작용 혹은 x264 압축과정에서 생기는 아티팩트 현상, 비트레이트가 부족해서, 원본소스자체가 덜 떨어져서라인이 우둘툴한것 등 여러가지입니다. 관련 스레드 
+http://forum.doom9.org/showthread.php?p=553784#post553784-SAA (Simple Anti Aliasing) by Soulhunter
+http://forum.doom9.org/showthread.php?p=552935#post552935- Anti-Aliasing by SpikeSpiegel
+http.......]]></description>
+					<pubDate>Sat, 24 Jan 2009 21:17:10 +0900</pubDate>
+					<tag><![CDATA[avs,avsp,aaa,saa,x264]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[UCC 관련 ]]></category>
+					<title><![CDATA[마이게임tv가 mp4 바이패스도 지원하는군요.]]></title>
+					<link>http://blog.naver.com/jongsbee/20060756141</link>
+					<guid>http://blog.naver.com/jongsbee/20060756141</guid>
+					<description><![CDATA[어덯게 이런 간단한 사실을 여태까지 몰랐을 수가 있는지 원...
+이로써 마이게임tv가 바보라는 것을 또다시 인정... .
+&lt;CRF:22, qcomp:0.7, me=esa, AAC-LC 192Kbps, 16.8mb&gt; flv 바이패스라는게 사실 확장자만 보고 바이패스 여부를 결정할 정도로 허술할 줄은 몰랐습니다.
+mp4로 인코딩했으면 확장자를 flv로 바꾸고 그냥 올리시면 됩니다. 너무 어이가 없어가지고... 이 영광은 친절한이웃13호님에게 돌립니다.
+남은건 바이패스를 계속 유지해주는 것일 뿐.. 굿바이 엠앤~~~ 광고야 좀 참아주면 되고... ※컬러매트릭스와 Adobe flash player 10   이건 간단히 언급하고 넘어가겠습니다.
+위 스크린샷과 영상.......]]></description>
+					<pubDate>Fri, 23 Jan 2009 19:14:30 +0900</pubDate>
+					<tag><![CDATA[]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[Levels와 Ylevels보다 한 단계 발전된 레벨조절 필터 Smoothlevels(=Ulevels) - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20060573019</link>
+					<guid>http://blog.naver.com/jongsbee/20060573019</guid>
+					<description><![CDATA[
+Smoothlevels 관련 스레드 - http://forum.doom9.org/showthread.php?t=137479 
+SmoothLevels(input, input_low, gamma, input_high, output_low, output_high, Lmode, chroma, limiter, Smode, Mfactor, RGmode, useGF, protect, show, preset) 필터 다운로드 - Smoothlevels v1.01 (첨부파일), RemoveGrain1.0, MT MaskTools 2.0a32, GradFun2DB v1.0 이 필터는 최근에 Ulevels에서 Smoothlevels로 명칭이 바뀌었습니다. 이전에 썼던 내용이 너무 부족해서 보충설명을 하는 차원에서 적겠습니다. 꼭 필요하면서도 간단한 항목위주로 설명을 하겠습니다. (본인은 어려운 이론설명을 싫어함)  ※Preset
+Preset은 제작자가 레벨조절.......]]></description>
+					<pubDate>Tue, 20 Jan 2009 21:20:42 +0900</pubDate>
+					<tag><![CDATA[avs,avsp,tweak,levels,ylevels,smoothlevels,coloryuv,x264]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[x264 MeGUI ]]></category>
+					<title><![CDATA[VFR 영상 재인코딩하기 - JW Player 사용자를 위한 MEGUI 인코딩(기타)]]></title>
+					<link>http://blog.naver.com/jongsbee/20060410177</link>
+					<guid>http://blog.naver.com/jongsbee/20060410177</guid>
+					<description><![CDATA[  
+쓴다 쓴다 했는데 이제서야 쓰는군요. 요즘 나오는 애니메이션이 갈수록 MKV, MP4포맷에 더군다나 VFR형식도 많아져서 이걸 재인코딩하는데 조금 어려움이 있습니다. VFR은 avsp에서 불러오면 프레임레이트를 제대로 인식을 못하기 때문이지요. MP4나 MKV를 재인코딩하려면 그래프에디트를 이용하는게 제일 좋습니다.
+고정된 프레임레이트로 인코딩된 영상이라면 MP4컨테이너라면 그냥 MKVMerge GUI유틸을 통해 MKV로 변환후 다시 AVI로 변환하는 과정을 거치도 되긴 하지만, VFR에 이 방식을 도입했다가는 프레임레이트가 엉망진창이 됩니다. 일단 그래프에디트와 전반적인 코덱에 대한 지식이 있어야 합니다. x264+aac의 형태가.......]]></description>
+					<pubDate>Sun, 18 Jan 2009 04:07:09 +0900</pubDate>
+					<tag><![CDATA[avs,aac,flv,x264,mp4,megui,flash,jwplayer,graphedit]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[Ylevels와 감마에 대해.. - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20059884622</link>
+					<guid>http://blog.naver.com/jongsbee/20059884622</guid>
+					<description><![CDATA[1.감마(gamma)란 무엇인가?
+제 레벨에서는 제대로 된 설명이 불가능하고전문가도 명확하게 설명하기 어려운 개념입니다. 간단하게 설명하자면 제작자가 만든 소스가 디스플레이 환경에 따라 다르게 표시되는 문제를 해결하기 위해 가장 많이 쓰이는 방안이라고보면 됩니다. 인간의 눈으로 보았을때 감마가 가장 영향을 많이 미치는 요소입니다. 밝기, 대비, 명도, 채도등은 사용자의 주관적관점에서 세팅을 하면 되겠고, 실제 디스플레이 환경에 따른 변화는 감마를 통해 보정하는게 많습니다. 디스플레이 장치마다 정해져있는 감마값이 다르다고 하는군요. 예를 들어 방송국에서 만든 드라마가 있는데 이걸 시청자들이 보는 HDTV에서는 방.......]]></description>
+					<pubDate>Thu, 08 Jan 2009 23:28:34 +0900</pubDate>
+					<tag><![CDATA[avs,avsp,tweak,levels,ylevels,coloryuv,x264]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[변환, Codec, 잡담]]></category>
+					<title><![CDATA[DivX 7 출시!! CoreAVC와 성능 대결!!]]></title>
+					<link>http://blog.naver.com/jongsbee/20059792535</link>
+					<guid>http://blog.naver.com/jongsbee/20059792535</guid>
+					<description><![CDATA[ 잡담식의 글입니다. DivX7버전이 출시되었습니다.
+돈을 내야 인코더코덱을 구경할 수 있는 관계로 무료 디코더 코덱만 구경해보기로 했습니다. 그 전에 잠깐 구경을 해보자면..  아무래도 DivX사가 h.264 코덱을 지원한다는 소문이 사실인 모양입니다. 인코더코덱에서 지원하는 DivX Plus HD 프로파일은 H.264기술이 들어가있는건지 단순한 DivX 발전형태인지 확실히는 잘 모르겠네요. 인코더 코덱은 돈을 내야하는지라 아직 구경을 못해봤거든요. 밑의 그림을 보면 H.264, AAC, MKV 포맷의 재생지원을 한다고 적혀있는데, 이건 DivX7 코덱자체가 지원하는 형식이 아니라 H.264를 디코딩해주는 코덱이 따로 있는 형태입니다. 
+.......]]></description>
+					<pubDate>Wed, 07 Jan 2009 14:25:51 +0900</pubDate>
+					<tag><![CDATA[DivX,x264,CoreAVC,CoreAAC]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[디노이즈(Denoise)의 필수 개념 정리 & FRFun 디노이즈 필터 - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20059380705</link>
+					<guid>http://blog.naver.com/jongsbee/20059380705</guid>
+					<description><![CDATA[ 
+DVD 립핑의 필수요소이자 가장 어려운 부분이기도 한 노이즈 제거. 노이즈를 제거하는 필터도 생각외로 무척 종류가 많습니다. 하지만 분명히 알아두어야 할 것은 노이즈 제거 처리방식은 대략 3가지의 종류가 있다는 것이고, 노이즈 종류에 따른 적합한 필터를 사용해야 효과적이라는 것입니다. 이 포스트에는 디노이즈 필터의 전문적인 설명은 하지 못하겠지만, 노이즈에 대한 기본 개념을 잡는 쪽의 내용입니다. 1.Temporal Denoise 계열 ■배경에 주로 노이즈가 보일 때 사용한다.■전후 프레임의 픽셀을 비교해서 차이점이 있을 때 디노이즈. ■디테일을 별로 죽이지 않지만 강도가 강할때 자국이 남을 수 있다.■동적인 장면(fade.......]]></description>
+					<pubDate>Tue, 30 Dec 2008 23:21:40 +0900</pubDate>
+					<tag><![CDATA[디노이즈,Denoise,avs,avsp,avisynth]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[avs 스크립트 ]]></category>
+					<title><![CDATA[동영상을 좌우, 상하로 나누기 StackHorizontal, StackVertical - avs 스크립트]]></title>
+					<link>http://blog.naver.com/jongsbee/20059026225</link>
+					<guid>http://blog.naver.com/jongsbee/20059026225</guid>
+					<description><![CDATA[동영상 중에 좌우로 화면을 나눠서 화질비교를 하라는 식으로 올라온것을 가끔 볼 수 있을 겁니다.
+이거 어덯게 하는건지 예전에는 무척 궁금했었는데 avs 스크립트 명령어로 간단히 해결이 되더군요. 사용법은 별로 어렵지 않기 때문에 간단하게 설명하겠습니다.  굳이 설명없이도 그림만 보면 알 수 있을거라 여겨집니다. 구간을 지정하는 명령어만 사용할 줄 알면 어려울 거 없습니다. StackHorizontal(b,c)에서 b와 c는 각각왼쪽, 오른쪽에 나타낼 부분이니 가로폭을 반으로 잘라서 스크립트를 써 넣으면 되지요. 이 명령어는 사실 좌우로 나눈다기 보다는 합치는 명령어입니다. 세로 폭만 같으면 좌우중 어느 한쪽의 가로길이.......]]></description>
+					<pubDate>Tue, 23 Dec 2008 22:38:32 +0900</pubDate>
+					<tag><![CDATA[avs,avsp]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+				<item>
+					<author>jongsbee</author>
+					<category><![CDATA[x264 MeGUI ]]></category>
+					<title><![CDATA[DVD Decrypter v3.5.4.0 & MKV, MP4 챕터 메뉴 만들기]]></title>
+					<link>http://blog.naver.com/jongsbee/20058967746</link>
+					<guid>http://blog.naver.com/jongsbee/20058967746</guid>
+					<description><![CDATA[ 
+다운로드 페이지 - http://www.dvddecrypter.org.uk/  DVD Decrypter의 중요기능 중에 하나가 DVD의 복사방지를 무력화시켜 하드디스크에 저장하게 할 수 있는 것입니다.
+이 사실을 최근까지 몰랐던 이유는 인터넷에서 해적판 DVDISO파일만 받아왔기 때문... ㅋㅋㅋ
+보안을 뚫는다는 이유로 인한법적조치로 개발이 공식적으로 중단되어서 더 이상 최신버전은 나오지 않습니다. DVD립을 하려면 일단 이 유틸을 거치는게 좋은데 여려개로 분산된 VOB파일을 챕터별로 모아서 하나의 VOB로 만들 수 있는 강점이 있기 때문입니다. 그냥 DGIndex에서 VOB파일 여러개 불러와도 되긴 하지만, DGIndex에서 방향키로만 구분하기 어려울 수도.......]]></description>
+					<pubDate>Mon, 22 Dec 2008 20:01:09 +0900</pubDate>
+					<tag><![CDATA[챕터,x264,mkv,mp4,megui,dvd,kmp]]></tag>
+					<activity:verb>http://activitystrea.ms/schema/1.0/post</activity:verb>
+					<activity:object-type>http://activitystrea.ms/schema/1.0/blog-entry</activity:object-type>
+				</item>
+			
+		
+		
+	
+</channel>
+</rss>
