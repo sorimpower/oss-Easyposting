@@ -9,3 +9,4 @@ using ASP.NET MVC5, MetaWeblog API
 
 Example URL : https://www.epp.so
 
+Example Video : http://youtu.be/EYeNFDvPXJE
